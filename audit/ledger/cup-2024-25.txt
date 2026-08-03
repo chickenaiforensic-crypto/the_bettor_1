@@ -21,11 +21,11 @@
 2024-08-14|Group-C R2|CSKA Moscow|1|1|Pari Nizhny Novgorod|4|2|VEB Arena|Moscow
 2024-08-14|Group-D R2|Rubin Kazan|0|1|Zenit St Petersburg|||Ak Bars Arena|Kazan
 2024-08-15|Group-C R2|FC Krasnodar|1|0|Akhmat Grozny||||
-2024-08-15|Group-D R2|Fakel Voronezh|1|2|Akron Tolyatti|||Tsentralnyi Profsoyuz Stadion|Voronezh
+2024-08-15|Group-D R2|Fakel Voronezh|1|2|Akron Tolyatti|||Fakel Stadium|Voronezh
 2024-08-27|Group-A R3|Spartak Moscow|0|1|Dynamo Makhachkala||||
 2024-08-27|Group-C R3|Akhmat Grozny|0|2|CSKA Moscow|||Akhmat Arena|Grozny
 2024-08-27|Group-D R3|Akron Tolyatti|1|1|Zenit St Petersburg|5|4|Solidarnost Samara Arena|Samara
-2024-08-27|Group-D R3|Fakel Voronezh|0|2|Rubin Kazan|||Tsentralnyi Profsoyuz Stadion|Voronezh
+2024-08-27|Group-D R3|Fakel Voronezh|0|2|Rubin Kazan|||Fakel Stadium|Voronezh
 2024-08-28|Group-A R3|Dynamo Moscow|5|1|Krylia Sovetov Samara|||VTB Arena|Moscow
 2024-08-28|Group-B R3|Lokomotiv Moscow|4|0|FC Khimki|||Russian Railways Arena|Moscow
 2024-08-28|Group-B R3|FC Orenburg|0|1|FC Rostov|||Gazovik Stadium|Orenburg
@@ -48,7 +48,7 @@
 2024-10-02|Group-D R5|Zenit St Petersburg|5|1|Akron Tolyatti|||Gazprom Arena|St Petersburg
 2024-10-22|Group-A R6|Dynamo Makhachkala|0|1|Spartak Moscow||||
 2024-10-22|Group-C R6|CSKA Moscow|1|0|Akhmat Grozny|||VEB Arena|Moscow
-2024-10-22|Group-D R6|Fakel Voronezh|0|1|Zenit St Petersburg|||Tsentralnyi Profsoyuz Stadion|Voronezh
+2024-10-22|Group-D R6|Fakel Voronezh|0|1|Zenit St Petersburg|||Fakel Stadium|Voronezh
 2024-10-23|Group-B R6|FC Rostov|2|2|Lokomotiv Moscow|7|8|Rostov Arena|Rostov-on-Don
 2024-10-23|Group-B R6|FC Orenburg|2|0|FC Khimki|||Gazovik Stadium|Orenburg
 2024-10-23|Group-C R6|FC Krasnodar|1|2|Pari Nizhny Novgorod||||
