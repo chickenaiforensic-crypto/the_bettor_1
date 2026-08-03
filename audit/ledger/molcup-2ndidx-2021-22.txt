@@ -1,0 +1,75 @@
+# SECOND-INDEX TRANSCRIPTION - 2021-22 Czech Cup, en.wikipedia.org/wiki/2021%E2%80%9322_Czech_Cup
+# fetched 2026-08-03 via MediaWiki API (action=parse, prop=wikitext, sections 4/5/6/7/8/9):
+# s4 Second round (28 ties), s5 Third round (16 ties), s6 Fourth round (8 ties, == RSSSF R16),
+# s7 Quarter-finals (4 boxes), s8 Semi-finals (2 boxes), s9 Final (1 box).
+# Grammar: R2|R3|C16|iso-date|home|hg|ag|away|flags ; WBOX = venue from the match box.
+# "*OUT*" marks ties with NO 2021-22 First-League club (out of the WO section-1 slice).
+#
+R2|2021-08-24|MlBoleslav|3|0|Vysehrad|
+R2|2021-08-24|Prepere|6|0|Pisek|*OUT*
+R2|2021-08-24|UherskyBrod|1|2|Jihlava|*OUT*
+R2|2021-08-25|Benesov|0|1|Teplice|
+R2|2021-08-25|Domazlice|1|7|Vlasim|*OUT*
+R2|2021-08-25|Hlucin|0|0|Ostrava|aet 0-1
+R2|2021-08-25|Hostoun|0|0|Pardubice|aet 0-1
+R2|2021-08-25|Kromeriz|2|2|Brno|pso 4-5 *OUT* (Brno = FNL in 2021-22)
+R2|2021-08-25|Sedlcany|0|6|CBudejovice|
+R2|2021-08-25|Slavicin|1|5|Karvina|
+R2|2021-08-25|Sokolov|0|6|Bohemians|
+R2|2021-08-25|Unicov|2|4|Olomouc|
+R2|2021-08-25|UstiNOrlici|0|2|Vyskov|*OUT*
+R2|2021-08-25|ValasskeMezirici|0|3|Prostejov|*OUT*
+R2|2021-08-25|Velvary|3|1|Chomutov|*OUT*
+R2|2021-08-25|PovltavskaFA|0|5|Varnsdorf|*OUT*
+R2|2021-08-25|Liberec|1|2|Zbuzany|FL HOST LOST (Liberec eliminated in R2)
+R2|2021-09-01|Blansko|1|4|Zlin|
+R2|2021-09-01|Kolin|1|2|DuklaP|*OUT*
+R2|2021-09-01|Brezova|0|2|Hradec|
+R2|2021-09-01|Prerov|0|2|Lisen|*OUT*
+R2|2021-09-02|Zapy|1|1|Zizkov|pso 4-2 *OUT*
+R2|2021-09-07|Sous|0|1|Pribram|*OUT*
+R2|2021-09-08|Vltavin|3|2|UstiNLabem|*OUT*
+R2|2021-09-08|Chlumec|0|0|Chrudim|aet 0-1 *OUT*
+R2|2021-09-08|Vitkovice|0|3|Trinec|*OUT*
+R2|2021-09-14|VelkeMezirici|0|5|Opava|*OUT*
+# R2 draw: 2021-08-17 (molcup.cz clanek/440). R2 = 28 ties / 11 FL-involving.
+#
+R3|2021-09-21|Vlasim|1|2|Olomouc|
+R3|2021-09-21|Jihlava|2|0|Pardubice|FL LOST (Pardubice eliminated in R3)
+R3|2021-09-21|Opava|2|4|MlBoleslav|
+R3|2021-09-21|Plzen|2|1|Pribram|
+R3|2021-09-22|Karvina|1|0|Chrudim|
+R3|2021-09-22|Prepere|0|1|Jablonec|
+R3|2021-09-22|Prostejov|0|4|Bohemians|
+R3|2021-09-22|Trinec|0|1|Teplice|
+R3|2021-09-22|Zapy|0|4|Hradec|
+R3|2021-09-22|Zbuzany|1|2|Slovacko|
+R3|2021-09-22|Vltavin|2|2|Ostrava|aet 2-5
+R3|2021-09-22|Lisen|0|3|Sparta|
+R3|2021-09-22|Velvary|2|4|Slavia|
+R3|2021-10-06|DuklaP|1|3|CBudejovice|
+# wiki OneLegResult: Varnsdorf 4-2 AET Brno. Raw fact: aet scoreline 4-2, 90-min split NOT shown
+# by the bracket line. Tie is *OUT* of the slice (no FL club), so no 90-min row is needed for it.
+R3|2021-10-06|Varnsdorf|4|2|BrnoBracketLine|aet 4-2 (90-min split not shown by wiki; *OUT* of slice)
+# wiki OneLegResult: Vyskov 1-2 AET Zlin -> aet scoreline 1-2; 90-min split to verify on worldfootball (IN slice).
+R3|2021-10-07|Vyskov|1|2|ZlinBracketLine|aet (RESOLVED 2026-08-03: 90-min 1-1, Zlin advanced aet 1-2 - wf timeline Vrastil 114'; register molcup-venues-teams.txt B)
+# R3 draw: 2021-09-10 (molcup.cz clanek/445). R3 = 16 ties / 15 FL-involving (Varnsdorf-Brno out).
+#
+# Fourth round (s6) diff vs RSSSF: ALL 8 ties identical on date AND score AND home-away order.
+C16|2021-10-26|Bohemians|1|0|Jihlava|
+C16|2021-10-27|Ostrava|1|2|Hradec|
+C16|2021-10-27|Teplice|0|2|Sparta|
+C16|2021-10-27|MlBoleslav|2|0|Plzen|
+C16|2021-11-11|Jablonec|4|0|Varnsdorf|
+C16|2021-11-12|Slovacko|3|1|Karvina|
+C16|2021-11-23|CBudejovice|1|1|Olomouc|pso 4-5
+C16|2021-12-15|Slavia|3|1|Zlin|
+#
+# QF/SF/F match boxes (venues are the SECOND-INDEX venue evidence; attendance/referee omitted):
+WBOX|CQF|2022-02-09|Olomouc|0|0|Slovacko|aet pens 2-4|Andruv stadion|Olomouc|640
+WBOX|CQF|2022-02-09|Slavia|0|2|Sparta||Sinobo Stadium|Prague|1000
+WBOX|CQF|2022-02-15|Hradec|2|1|Bohemians|aet (90+5 equalizer -> 90-min 1-1; 106 winner)|Lokotrans Arena|Mlada Boleslav|350
+WBOX|CQF|2022-02-16|Jablonec|4|0|MlBoleslav||Stadion Strelnice|Jablonec nad Nisou|1000
+WBOX|CSF|2022-03-02|Sparta|4|3|Jablonec|no aet flag (last goal 90+5 regulation)|Generali Ceska pojistovna Arena|Prague|4986
+WBOX|CSF|2022-03-25|Hradec|0|1|Slovacko||Lokotrans Arena|Mlada Boleslav|1230
+WBOX|CF|2022-05-18|Slovacko|3|1|Sparta|neutral final|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|7991

@@ -321,3 +321,47 @@ Pardubice 2021-22 at Dolicek, Prague, and 2022-23 split at the winter break Doli
 Arena; Hradec 2023-24 at the new Malsovicka Arena (first home game 2023-08-05 = opening);
 era sponsor names per season. Gates: 105 PASS / 0 FAIL (`audit/pack-validation-cz1.txt`);
 builder `tools/build_cz1_pack.py` byte-deterministic (pack sha256 `eee4686f…`).
+
+## Addendum (2026-08-03, fifth entry) — WO-MOLCUP-BACKFILL-04 returned (Czech MOL Cup 2021-22 → 2023-24)
+
+`handoffs/MOLCUP-2021-2026_BP-TEAM-PACK_v2.txt`: 120 MATCH rows (41 + 41 + 38 by the WO-§1
+auditor-proven slice), 31 TEAM rows (the genuinely-unknown lower-league opponents; the 18
+client-roster CZ2/lower strings + Dukla Prague reused, not re-declared), 15 SOURCE rows,
+33 NOTE rows (incl. 20 `advancement`, 3 `spot_audit`; 2 `source_conflict` warnings), `END`.
+compType `domestic-cup` on every row per standing ERRATA-2026-08-03 — **superseding this
+workorder's §2 grammar line `domestic-league`**; the supersession is documented in the pack
+`comp_class` NOTE with a flag that the 63 client-held cup rows presumably need the same
+reclassing. Cutoff honoured — last row the 2024-05-22 Final; zero rows ≥ 2024-06-30.
+
+**Slice reproduced:** every official tie from the round where First-League clubs enter onward
+with ≥1 of that season's 16 pinned clubs: R2 11/28 + R3 15/16 + R16 8 + QF 4 + SF 2 + F 1 = 41
+(2021-22); R2 11/27 + R3 15/16 + 8 + 4 + 2 + 1 = 41 (2022-23); R2 11/27 + R3 15/16 + R16 6 +
+QF 3 + SF 2 + F 1 = **38** (2023-24 — TWO no-FL R16 ties excluded: Velvary 1-2 Opava and
+**Dukla Prague 3-1 Vyskov**, Dukla being a CZ2 club in 2023-24). Round-by-round counts are
+declared in the pack `slice`/`round_counts` NOTEs tied to the source pages; out-of-slice
+exclusions itemized for the auditor's recompute in the `continuity` NOTE and the 2nd-idx ledgers.
+
+**Sourcing & adjudication:** RSSSF `tsje2022|2023|2024.html#cup` primary — but it carries the
+cup **from R16 onward only** (documented `source_adaptation`, not inferred); R2/R3 built from
+the en.wiki bracket sections, every tie cross-verified against worldfootball.net round pages
+(100% date+score agreement on all in- and out-of-scope ties), and all 24 R16 ties identical
+across the three indexes. Two defects found and disclosed per WO §4(3): (1) **Slovacko 3-1
+Karvina 2021-11-12 (R16) is silently aet in BOTH bracket sources** — the wf match report proves
+1-1 at 90' (Jurečka 90', aet goals 105' pen + 108') — the row carries the 90-minute 1-1 +
+advancement NOTE; (2) **Plzen–Zlin SF date**: RSSSF header [Apr 4] vs wiki box 2024-04-24 18:00
++ wf 24.04.2024 18:00 — two independent indexes agree, row carries 2024-04-24, RSSSF documented
+in `source_conflict`. All 20 aet/pens in-slice ties carry 90-minute splits proven by wf
+match-report goal timelines / wiki box goal minutes (register: `audit/ledger/molcup-venues-teams.txt`,
+and every one has its mandatory `advancement` NOTE (gate G13/G14).
+
+**MOLCUP-2021-2026_BP-TEAM-PACK_v2.txt integrity:** builder `tools/build_molcup_pack.py`
+byte-deterministic across rebuilds; pack sha256
+`5023eb33fd7a63f51fbb95d0535a811bc8f9ddc9b5d1ff20dc49ee8e893cec86`; external gate mirror
+`tools/validate_molcup_pack.py` → `audit/pack-validation-molcup.txt` — **30/30 PASS**
+(slice reproduction, bracket reproduction incl. champions Slovacko/Slavia/Sparta, advancement
+completeness, boundary, identity universe, venue-string consistency with the CZ1 pack for shared
+FL grounds, per-team pivot ledgers per the owner decree). Identity/rename proofs archived:
+SK Líšeň→SK Artis Brno rename (Brno press, Dec 2025; wf back-renames historically = documented
+quirk), FK Loko Vltavín→FK Loko Praha rename June 2024 (roster string `Loko Praha` reused),
+Hradec's wf label "FINEP Arena" = Malsovicka Arena working-name alias (pinned string used),
+Vyšehrad CFL-A entry + corruption-scandal reassignment (leagueCode CZ3, 0 league matches).

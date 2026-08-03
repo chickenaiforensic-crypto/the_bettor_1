@@ -1,0 +1,200 @@
+NOTE|info|pack_id|MOLCUP-2021-2026_BP-TEAM-PACK_v2 - return of WO-MOLCUP-BACKFILL-04 (issued 2026-08-02; opened after the RPL, RUSCUP and CZ1 returns passed gates, per the owner's one-at-a-time decree). Segment 2021-22/2022-23/2023-24 of the 5-year MOL Cup (Pohar FACR) span; new rows stop at the 2024-06-30 hard cutoff (2024-25 = 32 rows and 2025-26 = 31 rows already held and auditor-verified client-side, current season fills centrally). 120 MATCH rows = 41 + 41 + 38 by the auditor-proven slice rule in WO section-1. Compiled 2026-08-03.
+SOURCE|rsssf-tsje2022-cup|https://www.rsssf.org/tablest/tsje2022.html|2026-08-03|primary-archive|2021-22 Pohar FACR chapter: R16 (1/8 Finals), QF, SF and Final dates+scores in full (primary); transcribed in audit/ledger/molcup-2021-22.txt. Page carries this cup FROM R16 onward only (see source_adaptation)
+SOURCE|rsssf-tsje2023-cup|https://www.rsssf.org/tablest/tsje2023.html|2026-08-03|primary-archive|2022-23 Pohar FACR chapter: R16, QF, SF, Final dates+scores in full (primary); audit/ledger/molcup-2022-23.txt. R2/R3 not on the page
+SOURCE|rsssf-tsje2024-cup|https://www.rsssf.org/tablest/tsje2024.html|2026-08-03|primary-archive|2023-24 Pohar FACR chapter: R16, QF, SF, Final dates+scores in full (primary); audit/ledger/molcup-2023-24.txt. R2/R3 not on the page
+SOURCE|wiki-molcup-2122|https://en.wikipedia.org/wiki/2021%E2%80%9322_Czech_Cup|2026-08-03|second-index|Second/Third-round brackets (all 28 + 16 ties dates+scores = the R2/R3 coverage), Fourth-round diff vs RSSSF identical 8/8, QF/SF/F match boxes (venues + goal minutes + pso), Teams entrant table; audit/ledger/molcup-2ndidx-2021-22.txt
+SOURCE|wiki-molcup-2223|https://en.wikipedia.org/wiki/2022%E2%80%9323_Czech_Cup|2026-08-03|second-index|Second/Third-round brackets (27 + 16 ties), Fourth-round diff vs RSSSF identical 8/8, QF/SF/F match boxes (venues + goal minutes); audit/ledger/molcup-2ndidx-2022-23.txt
+SOURCE|wiki-molcup-2324|https://en.wikipedia.org/wiki/2023%E2%80%9324_Czech_Cup|2026-08-03|second-index|Second/Third-round brackets (27 + 16 ties), Fourth-round diff vs RSSSF identical date+score+order on all 8 ties (6 in-slice + Velvary-Opava and Dukla-Vyskov out), QF/SF/F match boxes (SF Plzen-Zlin dated 2024-04-24 18:00); audit/ledger/molcup-2ndidx-2023-24.txt
+SOURCE|wf-molcup-2122-rounds|https://www.worldfootball.net/schedule/cze-pohar-facr-2021-2022-2-runde/0/|2026-08-03|third-index|2021-22 round pages 2-runde/3-runde/achtelfinale (independent re-list: every R2/R3/R16 date+score verified tie-by-tie against the pack rows)
+SOURCE|wf-molcup-2223-rounds|https://www.worldfootball.net/schedule/cze-pohar-facr-2022-2023-2-runde/0/|2026-08-03|third-index|2022-23 round pages 2-runde/3-runde/achtelfinale: every pack row's date+score re-verified tie-by-tie
+SOURCE|wf-molcup-2324-rounds|https://www.worldfootball.net/schedule/cze-pohar-facr-2023-2024-2-runde/0/|2026-08-03|third-index|2023-24 round pages 2-runde/3-runde/achtelfinale: every pack row's date+score re-verified tie-by-tie
+SOURCE|wf-molcup-reports|https://www.worldfootball.net/match-report/co88/czech-republic-pohar-facr/ma9970847/fc-hradec-kralove_slavia-praha/|2026-08-03|third-index|match-report pages (competition co88): goal timelines for all 20 aet/pens pack ties = the 90-minute splits register (audit/ledger/molcup-venues-teams.txt section B), incl. the silent-aet timing of Slovacko 3-1 Karvina and per-tie Stadium lines (Zapy 2023 att 1150; Hradec-Slavia att 7608)
+SOURCE|wf-molcup-stadiums|https://www.worldfootball.net/competition/co88/se55490/stadiums/|2026-08-03|third-index|the three season cup stadium indexes se39724 / se46910 / se55490: venue city+capacity evidence for all lower-league home grounds in-window (full listings in audit/ledger/molcup-venues-teams.txt section A)
+SOURCE|wiki-cz-lower-tiers|https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_fotbalov%C3%A1_liga_2021/2022|2026-08-03|wiki-index|tier/tables evidence for the 30 TEAM rows: cs.wiki season pages CFL A/B + MSFL + Divize A-F 2021/22, 2022/23, 2023/24 and club pages (Motorlet, Start Brno, Rosice, Caslav, Most-Sous, Admira, Rokycany, Hlubina, Vysehrad), en.wiki CNFL season articles 2021-22/2022-23/2023-24 (FNL memberships); transcribed in audit/ledger/molcup-venues-teams.txt sections C/D
+SOURCE|denik-artis-lisen|https://www.brnensky.denik.cz/|2026-08-03|news-index|Brno press (brnensky.denik.cz + efotbal.cz, found 2026-08-03): SK Lisen 2019 later renamed SK Artis Brno; the 2021 (0-3) and 2023 (0-1) home cup ties v Sparta were hosted by the same club carried here as Lisen
+SOURCE|wiki-cs-lokopraha|https://cs.wikipedia.org/wiki/FK_Loko_Praha|2026-08-03|wiki-index|FK Loko Praha club page: 'Do cervna roku 2024 nesl jmeno FK Loko Vltavin' - the in-window home tie 2021-09-22 (na Plynarne, att 740 per wf match report) was played under the Vltavin name; client-roster string Loko Praha reused
+SOURCE|zivevysledky-velke-hamry|https://zivevysledky.cz/stadium/hriste-tj-velke-hamry/|2026-08-03|web-index|stadium index: Hriste TJ Velke Hamry, Velke Hamry (address V.H. 550, grass) carrying the club's 2023-2024 Divize C home fixtures incl. the cup-period season
+TEAM|Vysehrad|Czech Republic|Bohemian Football League (CFL A)|CZ3|FC Slavoj Vysehrad;Slavoj Vysehrad|Stadion FK Slavoj Vysehrad|Prague|Czech Republic|||1907|
+TEAM|Benesov|Czech Republic|Bohemian Football League (CFL A)|CZ3|SK Benesov|Mestsky Stadion|Benesov|Czech Republic||||
+TEAM|Hostoun|Czech Republic|Bohemian Football League (CFL A)|CZ3|Sokol Hostoun|Stadion Vojtecha Zeithamla|Hostoun|Czech Republic||||
+TEAM|Sedlcany|Czech Republic|Czech Fourth Division (Divize A)|CZ4|TJ Tatran Sedlcany|TJ Tatran Sedlcany|Sedlcany|Czech Republic||||
+TEAM|Slavicin|Czech Republic|Czech Fourth Division (Divize E)|CZ4|FC TVD Slavicin|Stadion FC TVD Slavicin|Slavicin|Czech Republic||||
+TEAM|Sokolov|Czech Republic|Bohemian Football League (CFL A)|CZ3|FK Banik Sokolov 1948;Banik Sokolov|Stadion FK Banik Sokolov|Sokolov|Czech Republic||||
+TEAM|Unicov|Czech Republic|Moravian-Silesian Football League|CZ3|SK Unicov|Stadion SK Unicov|Unicov|Czech Republic||||
+TEAM|Zbuzany|Czech Republic|Bohemian Football League (CFL B)|CZ3|FK Zbuzany 1953|Stadion FK Zbuzany|Zbuzany|Czech Republic||||
+TEAM|Blansko|Czech Republic|Moravian-Silesian Football League|CZ3|FK Blansko|Stadion na Mlynske|Blansko|Czech Republic||||
+TEAM|Brezova|Czech Republic|Czech Fourth Division (Divize B)|CZ4|FK Olympie Brezova;TJ Olympie Brezova|TJ Olympie Brezova|Brezova|Czech Republic||||
+TEAM|Vlasim|Czech Republic|Czech National Football League|CZ2|FC Sellier & Bellot Vlasim;FC Vlasim|Stadion Kollarova ulice|Vlasim|Czech Republic||||
+TEAM|Pribram|Czech Republic|Czech National Football League|CZ2|1. FK Pribram;FK Viagem Pribram|Na Litavce|Pribram|Czech Republic||||
+TEAM|Prepere|Czech Republic|Bohemian Football League (CFL B)|CZ3|FK Prepere|Hriste FK Prepere|Prepere|Czech Republic||||
+TEAM|Prostejov|Czech Republic|Czech National Football League|CZ2|1. SK Prostejov|Stadion Za Mistnim nadrazim|Prostejov|Czech Republic||||
+TEAM|Lisen|Czech Republic|Czech National Football League|CZ2|SK Lisen;SK Lisen 2019;SK Artis Brno (2024+ rename)|Stadion SK Lisen|Brno|Czech Republic||||
+TEAM|Velvary|Czech Republic|Bohemian Football League (CFL B)|CZ3|TJ Slovan Velvary;Slovan Velvary|Stadion TJ Slovan Velvary|Velvary|Czech Republic||||
+TEAM|Rokycany|Czech Republic|Czech Fourth Division (Divize A)|CZ4|FC Rokycany|Stadion pod Husovymi sady|Rokycany|Czech Republic|||1903|
+TEAM|Motorlet Praha|Czech Republic|Bohemian Football League (CFL A)|CZ3|FK Motorlet Praha;SK Motorlet Praha|Stadion SK Motorlet|Prague|Czech Republic|||1912|
+TEAM|Start Brno|Czech Republic|Czech Fourth Division (Divize D)|CZ4|TJ Start Brno|Stadion TJ Start Brno|Brno|Czech Republic|||1957|
+TEAM|Rosice|Czech Republic|Moravian-Silesian Football League|CZ3|FC Slovan Rosice;Slovan Rosice|Sportovni areal FC Slovan Rosice|Rosice|Czech Republic|||1909|
+TEAM|Caslav|Czech Republic|Czech Fourth Division (Divize C)|CZ4|FK Caslav|Stadion Pod hradkem|Caslav|Czech Republic|||1902|
+TEAM|Chomutov|Czech Republic|Czech Fourth Division (Divize B)|CZ4|FC Chomutov|Letni stadion|Chomutov|Czech Republic||||
+TEAM|Chlumec nad Cidlinou|Czech Republic|Bohemian Football League (CFL B)|CZ3|FK Chlumec nad Cidlinou;Chlumec|Stadion Mestsky fotbalovy - FK Chlumec nad Cidlinou|Chlumec nad Cidlinou|Czech Republic||||
+TEAM|Velke Hamry|Czech Republic|Czech Fourth Division (Divize C)|CZ4|FK Velke Hamry;TJ Sokol Velke Hamry|Hriste TJ Velke Hamry|Velke Hamry|Czech Republic||||
+TEAM|Hlubina|Czech Republic|Czech Fourth Division (Divize F)|CZ4|TJ Unie Hlubina;Unie Hlubina|Stadion Hlubina|Ostrava|Czech Republic|||1919|
+TEAM|Banik Most-Sous|Czech Republic|Bohemian Football League (CFL B)|CZ3|FK Banik Most-Sous;FK Banik Sous|Fotbalovy stadion Josefa Masopusta|Most|Czech Republic|||2020|
+TEAM|Admira Praha|Czech Republic|Bohemian Football League (CFL A)|CZ3|FK Admira Praha;Admira|Stadion Na Pecich|Prague|Czech Republic|||1909|
+TEAM|Sobeslav|Czech Republic|Czech Fourth Division (Divize A)|CZ4|FK Spartak Sobeslav;Spartak Sobeslav|Fotbalovy stadion FK Raselina Sobeslav|Sobeslav|Czech Republic||||
+TEAM|Kladno|Czech Republic|Czech Fourth Division (Divize B)|CZ4|SK Kladno|Areal Frantiska Kloze|Kladno|Czech Republic||||
+TEAM|Kolin|Czech Republic|Bohemian Football League (CFL B)|CZ3|SK Sparta Kolin;Sparta Kolin|Mestsky stadion Kolin|Kolin|Czech Republic||||
+TEAM|Marianske Lazne|Czech Republic|Czech Fourth Division (Divize A)|CZ4|FC Viktoria Marianske Lazne;FK Viktoria Marianske Lazne|Sportovni areal Viktoria|Marianske Lazne|Czech Republic||||
+NOTE|info|federation_check|Section-0 federation scan on the finished pack: all 121 rows are MOL Cup (Pohar FACR sponsored name), every club Czech - Sparta Prague / Slavia Prague / Viktoria Plzen with Czech lower-league opponents; not Russia, not Slovakia, no other country's cup. Competition field verbatim 'MOL Cup' on every row.
+NOTE|info|comp_class|compType is domestic-cup on EVERY row per the standing auditor errata ERRATA-2026-08-03 ('Cups = domestic-cup going forward'), which supersedes this workorder's section-2 grammar line '<compType>: domestic-league (our existing 63 cup rows use this)' - the supersession is logged here as instructed by the errata application rule used on the RPL/RUSCUP returns. FLAG for the auditor: the client-held 63 cup rows (2024-25 + 2025-26) still carry domestic-league and presumably need the same reclassing.
+NOTE|info|slice|WO section-1 rule reproduced per season from the official brackets (every tie from the round where First-League clubs enter onward with >=1 of that season's 16 pinned clubs; ties with no FL club excluded): 2021-22 = 41 rows (R2 11 of 28 ties, R3 15 of 16, R16 8/8, QF 4/4, SF 2/2, Final 1/1); 2022-23 = 41 rows (R2 11 of 27, R3 15 of 16, R16 8/8, QF 4/4, SF 2/2, Final 1/1); 2023-24 = 38 rows (R2 11 of 27, R3 15 of 16, R16 6 of 8 - Velvary 1-2 Opava AND Dukla Prague 3-1 Vyskov have no FL club (Dukla was a CZ2 club in 2023-24; promoted to the top flight for 2024-25), QF 3 of 4 - Opava 2-0 Dukla Prague has no FL club, SF 2/2, Final 1/1). FL clubs enter R2 (non-UEFA) and R3 (the five UEFA entrants) per the wiki Teams tables and the 2023-24 section prose 'The last entrants are the five clubs involved into the European Cups.' FL clubs failing to reach R16 but inside the slice (their ties are rows here): 2021-22 Liberec lost R2 home 1-2 Zbuzany, Pardubice lost R3 at Jihlava 0-2; 2022-23 Pardubice lost R2 at Velvary 0-1, Jablonec lost R3 home 0-1 Vyskov, Viktoria Plzen lost R3 at Hlucin 2-3; 2023-24 Karvina lost R2 at Unicov 0-1, Teplice lost R3 at Vyskov 0-1, Slovacko lost R3 home 3-4 Dukla Prague, Pardubice lost R3 on penalties at Velvary.
+NOTE|info|round_counts|Round-by-round in-slice counts tied to the source pages (the auditor recomputes the rule from the same pages): 2021-22 R2 11/28 - en.wikipedia.org/wiki/2021-22 Czech Cup sections 'Second round' (28 ties listed) and rsssf.org/tablest/tsje2022.html#cup for R16 onward; R3 15/16, R16 8, QF 4, SF 2, F 1. 2022-23 R2 11/27, R3 15/16, R16 8, QF 4, SF 2, F 1 (en.wikipedia.org/wiki/2022-23 Czech Cup; rsssf.org/tablest/tsje2023.html#cup). 2023-24 R2 11/27, R3 15/16, R16 6, QF 3, SF 2, F 1 (en.wikipedia.org/wiki/2023-24 Czech Cup; rsssf.org/tablest/tsje2024.html#cup). Pack totals 41 + 41 + 38 = 120.
+NOTE|info|source_adaptation|RSSSF = the WO-designated primary, but its Czech season pages carry the cup FROM THE ROUND OF 16 onward only (1/8 Finals header; R2 and R3 are not on the page - raw-fact recorded, not inferred). R2/R3 coverage therefore built from the en.wiki season bracket sections (every tie transcribed) cross-verified tie-by-tie against worldfootball.net round pages (2-runde/3-runde); all dates and scores agree on 100% of the 165 in-scope plus out-of-scope ties checked. All eight R16 ties of each season are identical date+score+order across RSSSF, wiki and wf. Round labels on rows: R2 = the round FL non-UEFA clubs enter (wf '2. Round'), R3 = the round the five UEFA entrants join (wf '3. Round'), R16/QF/SF/Final thereafter. Czech convention in-window: R1-R4 level at 90' goes straight to penalties (no extra time; exception CBudejovice 1-1 Olomouc R16 2021-22 played aet first per RSSSF [aet, 4-5 pen]); QF onward plays extra time first.
+NOTE|info|advancement|2021-22 2021-08-25 Hostoun vs Pardubice: Pardubice advanced (aet 0-1)
+NOTE|info|advancement|2021-22 2021-08-25 Hlucin vs Banik Ostrava: Banik Ostrava advanced (aet 0-1)
+NOTE|info|advancement|2021-22 2021-09-22 Loko Praha vs Banik Ostrava: Banik Ostrava advanced (aet 2-5)
+NOTE|info|advancement|2021-22 2021-10-07 Vyskov vs Zlin: Zlin advanced (aet 1-2)
+NOTE|info|advancement|2021-22 2021-11-12 Slovacko vs Karvina: Slovacko advanced (aet 3-1)
+NOTE|info|advancement|2021-22 2021-11-23 Ceske Budejovice vs Sigma Olomouc: Sigma Olomouc advanced (pens 4-5 after the recorded 90-minute draw)
+NOTE|info|advancement|2021-22 2022-02-09 Sigma Olomouc vs Slovacko: Slovacko advanced (pens 2-4 after the recorded 90-minute draw)
+NOTE|info|advancement|2021-22 2022-02-15 Hradec Kralove vs Bohemians 1905: Hradec Kralove advanced (aet 2-1)
+NOTE|info|advancement|2022-23 2022-09-13 Unicov vs Sigma Olomouc: Sigma Olomouc advanced (aet 2-4)
+NOTE|info|advancement|2022-23 2022-09-14 Zizkov vs Teplice: Teplice advanced (aet 1-2)
+NOTE|info|advancement|2022-23 2022-09-21 Kromeriz vs Banik Ostrava: Banik Ostrava advanced (pens 1-4 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2022-11-17 Teplice vs Zbrojovka Brno: Zbrojovka Brno advanced (aet 2-3)
+NOTE|info|advancement|2022-23 2023-03-01 Slovan Liberec vs Sparta Prague: Sparta Prague advanced (pens 3-5 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2023-04-05 Slavia Prague vs Bohemians 1905: Slavia Prague advanced (aet 3-2)
+NOTE|info|advancement|2023-24 2023-08-29 Velke Hamry vs Ceske Budejovice: Ceske Budejovice advanced (aet 1-3)
+NOTE|info|advancement|2023-24 2023-09-27 Domazlice vs Jablonec: Jablonec advanced (pens 4-5 after the recorded 90-minute draw)
+NOTE|info|advancement|2023-24 2023-09-27 Velvary vs Pardubice: Velvary advanced (pens 5-4 after the recorded 90-minute draw)
+NOTE|info|advancement|2023-24 2023-12-06 Hradec Kralove vs Slavia Prague: Slavia Prague advanced (aet 0-2)
+NOTE|info|advancement|2023-24 2024-02-28 Zlin vs Slovan Liberec: Zlin advanced (aet 2-1)
+NOTE|info|advancement|2023-24 2024-02-28 Slavia Prague vs Sparta Prague: Sparta Prague advanced (aet 2-3)
+NOTE|warning|source_conflict|Slovacko v Karvina 2021-11-12 (R16) is printed by BOTH bracket sources (RSSSF tsje2022 and the en.wiki Fourth-round bracket) as a plain 3-1 with no aet flag - but the worldfootball match report proves extra time (Jurecka equalized at 90', Cicilia 105' pen + 108'): the row carries the 90-minute score 1-1 with the advancement NOTE (Slovacko advanced aet 3-1) under the 90-minute doctrine; the wrongly-unflagged bracket printouts are documented here, not propagated (only silent-aet case found; all other aet/pso flags align across the three indexes).
+NOTE|warning|source_conflict|Viktoria Plzen v Zlin (SF) date: RSSSF tsje2024 prints header [Apr 4] against the wiki match box 2024-04-24 18:00 and worldfootball 24.04.2024 18:00 - two independent indexes agree on 2024-04-24, so the row carries 2024-04-24 and RSSSF's Apr 4 is documented here (a griefing of the RFC hierarchy avoided: this is the one cell where RSSSF is contradicted by both independent indexes).
+NOTE|info|identity|First-League clubs use the 17 pinned WO-02 section-3 strings verbatim incl. era renames (FC Fastav Zlin -> FC Trinity Zlin sponsor era, always Zlin; MFK Karvina = Karvina - FL 2021-22, FNL 2022-23, FL again 2023-24; FC Zbrojovka Brno = FL 2022-23 only, FNL in 2021-22 and 2023-24 - its 2022-23 R16/QF cup ties are in-slice, its 2021-22 and 2023-24 ties were out and are not rows). Reused client-roster identities (NOT re-declared as TEAM rows per section-3): Jihlava, Vyskov, Opava, Taborsko, Usti nad Labem, Varnsdorf, Trinec, Chrudim, Zizkov, Kromeriz, Frydek-Mistek, Loko Praha, Zapy, Domazlice, Hlucin, Brozany, Lanznot, Dukla Prague. Dukla Prague is legitimate here (CZ2 club 2021-24; the WO-02 anti-appear list does NOT apply to the cup per this workorder's explicit section-3 correction): its 2023-24 ties enter the slice only where an FL club participates (home 3-4 win at Slovacko in R3; its R16 and QF ties are out-of-slice all-CZ2 affairs). Loko Praha = the 2021-22 tie was played under the era name FK Loko Vltavin (club renamed FK Loko Praha June 2024 per cs.wiki); Lisen = the club renamed SK Artis Brno after the window (Brno press, Dec 2025) - worldfootball back-renames it 'SK Artis Brno' on ALL historical cup pages (documented wf quirk), rows carry Lisen; New TEAM rows declared only for the 31 genuinely-unknown clubs (TEAMREG ledger), each with tier evidence for the in-window season(s).
+NOTE|info|venue_policy|Stadium/city per MATCH row: FL home grounds reuse the exact CZ1-pack strings per the standing consistency decree (incl. Sinobo Stadium 2021-22 -> Fortuna Arena for Slavia, Generali Ceska pojistovna Arena 2021-22 -> epet ARENA for Sparta, and Hradec Kralove's 2021-22 staging at Lokotrans Arena, MLADA BOLESLAV - applied to the QF 2022-02-15 and SF 2022-03-25 home cup ties per the wiki match boxes, city field follows the actual match location as in the league pack). Lower-league home grounds taken from the worldfootball season cup stadium indexes, else club/league pages: Vyskov carried as Sportovni areal Drnovice (the CZ1-file string; wf lists the same ground as 'Stadion FK Drnovice', Drnovice 6400); Hradec-Slavia R16 2023-12-06 carried at Malsovicka Arena (wf labels the ground 'FINEP Arena', its developer working name, capacity 9300 - alias documented); Brozany's ground has no published formal name - carried as Ke Hristi (the club's pitch address per sportmap.cz) with city Brozany nad Ohri; Usti nad Labem's Mestsky stadion per the club article. Final venues (neutral, wiki boxes): 2022 at Mestsky fotbalovy stadion Miroslava Valenty, Uherske Hradiste (att 7991); 2023 at epet ARENA, Prague (att 17037); 2024 at Doosan Arena, Plzen (att 10647).
+NOTE|info|tier_codes|leagueCode on the 30 TEAM rows = the club's code in the in-window season it appears (membership transcribed in audit/ledger/molcup-venues-teams.txt section C from the cs.wiki CFL/MSFL/Divize season tables + en.wiki CNFL articles): CZ2 (FNL) = Vlasim, Pribram, Prostejov, Lisen; CZ3 (CFL A/B or MSFL) = Benesov, Hostoun, Sokolov, Prepere, Velvary, Zbuzany, Unicov, Blansko, Motorlet Praha, Rosice, Chlumec nad Cidlinou, Banik Most-Sous, Admira Praha, Kolin, Vysehrad (CFL A entrant 2021-22 reassigned to Prazsky prebor over the 2020-corruption-scandal ruling - 0 league matches recorded, cup tie of 2021-08-24 predates the reassignment); CZ4 (Divize) = Sedlcany (A), Slavicin (E), Brezova (B), Rokycany (A), Start Brno (D), Caslav (C), Chomutov (B), Velke Hamry (C), Hlubina (F), Sobeslav (A), Marianske Lazne (A), Kladno (B).
+NOTE|info|spot_audit|Gate re-list, one full round per season with its source URL. 2021-22 R3 (wiki 'Third round' section, verified vs worldfootball.net/competition/co88/se39724 3-runde page): Vlasim 1-2 Sigma Olomouc; Jihlava 2-0 Pardubice; Opava 2-4 Mlada Boleslav; Viktoria Plzen 2-1 Pribram; Karvina 1-0 Chrudim; Prepere 0-1 Jablonec; Prostejov 0-4 Bohemians 1905; Trinec 0-1 Teplice; Zapy 0-4 Hradec Kralove; Zbuzany 1-2 Slovacko; Loko Praha 2-2 Banik Ostrava; Lisen 0-3 Sparta Prague; Velvary 2-4 Slavia Prague; Dukla Prague 1-3 Ceske Budejovice; Vyskov 1-1 Zlin (plus the out-of-slice Varnsdorf 4-2 Zbrojovka Brno). 2022-23 R3: Jablonec 0-1 Vyskov; Pribram 0-3 Teplice; Velvary 0-2 Banik Ostrava; Hlucin 3-2 Viktoria Plzen; Domazlice 1-6 Sparta Prague; Zapy 1-3 Sigma Olomouc; Chlumec nad Cidlinou 0-4 Hradec Kralove; Dukla Prague 0-4 Slavia Prague; Ceske Budejovice 3-1 Vlasim; Mlada Boleslav 4-0 Prostejov; Bohemians 1905 2-1 Trinec; Slovacko 6-0 Varnsdorf; Taborsko 1-2 Zbrojovka Brno; Frydek-Mistek 0-6 Slovan Liberec; Zlin 2-0 Jihlava (plus out-of-slice Sobeslav 0-2 Karvina). 2023-24 R3: Kladno 0-2 Slovan Liberec; Mlada Boleslav 4-2 Prostejov; Zapy 1-2 Banik Ostrava; Domazlice 1-1 Jablonec; Kromeriz 0-2 Slavia Prague; Vyskov 1-0 Teplice; Lisen 0-1 Sparta Prague; Slovacko 3-4 Dukla Prague; Jihlava 0-1 Hradec Kralove; Velvary 1-1 Pardubice; Ceske Budejovice 2-0 Chrudim; Zizkov 0-1 Sigma Olomouc; Unicov 1-2 Zlin; Kolin 1-7 Bohemians 1905; Marianske Lazne 0-10 Viktoria Plzen (plus out-of-slice Opava 3-2 Zbrojovka Brno).
+NOTE|info|continuity|Boundary for the federation gap-free-span diff: rows begin 2021-08-24 (2021-22 R2 opening) and end 2024-05-22 (2023-24 Final) - all three finals played in May sit inside the window; no row at or after the 2024-06-30 hard cutoff. Held client rows 2024-25 (32) and 2025-26 (31) continue the chain; no official in-slice tie of the three compiled seasons is stored nowhere. Out-of-slice exclusions (ties with no FL club, per the rule) itemized for the auditor's recompute: 2021-22 R2 seventeen exclusions of 28 (full list in audit/ledger/molcup-2ndidx-2021-22.txt) + R3 Varnsdorf 4-2 Zbrojovka Brno; 2022-23 R2 sixteen exclusions of 27 + R3 Sobeslav 0-2 Karvina; 2023-24 R2 sixteen exclusions of 27 + R3 Opava 3-2 Zbrojovka Brno + R16 Dukla Prague 3-1 Vyskov + R16 Velvary 1-2 Opava + QF Opava 2-0 Dukla Prague.
+MATCH|2021-08-24|MOL Cup|domestic-cup|Mlada Boleslav|3|0|Vysehrad|R2|Lokotrans Arena|Mlada Boleslav|Czech Republic||wiki-molcup-2122
+MATCH|2021-08-25|MOL Cup|domestic-cup|Benesov|0|1|Teplice|R2|Mestsky Stadion|Benesov|Czech Republic||wiki-molcup-2122
+MATCH|2021-08-25|MOL Cup|domestic-cup|Hlucin|0|0|Banik Ostrava|R2|Stadion Mestsky Lumira Kota|Hlucin|Czech Republic||wiki-molcup-2122
+MATCH|2021-08-25|MOL Cup|domestic-cup|Hostoun|0|0|Pardubice|R2|Stadion Vojtecha Zeithamla|Hostoun|Czech Republic||wiki-molcup-2122
+MATCH|2021-08-25|MOL Cup|domestic-cup|Sedlcany|0|6|Ceske Budejovice|R2|TJ Tatran Sedlcany|Sedlcany|Czech Republic||wiki-molcup-2122
+MATCH|2021-08-25|MOL Cup|domestic-cup|Slavicin|1|5|Karvina|R2|Stadion FC TVD Slavicin|Slavicin|Czech Republic||wiki-molcup-2122
+MATCH|2021-08-25|MOL Cup|domestic-cup|Slovan Liberec|1|2|Zbuzany|R2|Stadion u Nisy|Liberec|Czech Republic||wiki-molcup-2122
+MATCH|2021-08-25|MOL Cup|domestic-cup|Sokolov|0|6|Bohemians 1905|R2|Stadion FK Banik Sokolov|Sokolov|Czech Republic||wiki-molcup-2122
+MATCH|2021-08-25|MOL Cup|domestic-cup|Unicov|2|4|Sigma Olomouc|R2|Stadion SK Unicov|Unicov|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-01|MOL Cup|domestic-cup|Blansko|1|4|Zlin|R2|Stadion na Mlynske|Blansko|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-01|MOL Cup|domestic-cup|Brezova|0|2|Hradec Kralove|R2|TJ Olympie Brezova|Brezova|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-21|MOL Cup|domestic-cup|Jihlava|2|0|Pardubice|R3|v Jiraskove ulici|Jihlava|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-21|MOL Cup|domestic-cup|Opava|2|4|Mlada Boleslav|R3|Stadion v Mestskych sadech|Opava|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-21|MOL Cup|domestic-cup|Viktoria Plzen|2|1|Pribram|R3|Doosan Arena|Plzen|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-21|MOL Cup|domestic-cup|Vlasim|1|2|Sigma Olomouc|R3|Stadion Kollarova ulice|Vlasim|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Karvina|1|0|Chrudim|R3|Mestsky stadion (Karvina)|Karvina|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Lisen|0|3|Sparta Prague|R3|Stadion SK Lisen|Brno|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Loko Praha|2|2|Banik Ostrava|R3|Stadion na Plynarne|Prague|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Prepere|0|1|Jablonec|R3|Hriste FK Prepere|Prepere|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Prostejov|0|4|Bohemians 1905|R3|Stadion Za Mistnim nadrazim|Prostejov|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Trinec|0|1|Teplice|R3|Stadion Rudolfa Labaje|Trinec|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Velvary|2|4|Slavia Prague|R3|Stadion TJ Slovan Velvary|Velvary|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Zapy|0|4|Hradec Kralove|R3|Stadion TJ Sokol Zapy|Brandys nad Labem|Czech Republic||wiki-molcup-2122
+MATCH|2021-09-22|MOL Cup|domestic-cup|Zbuzany|1|2|Slovacko|R3|Stadion FK Zbuzany|Zbuzany|Czech Republic||wiki-molcup-2122
+MATCH|2021-10-06|MOL Cup|domestic-cup|Dukla Prague|1|3|Ceske Budejovice|R3|Stadion Juliska|Prague|Czech Republic||wiki-molcup-2122
+MATCH|2021-10-07|MOL Cup|domestic-cup|Vyskov|1|1|Zlin|R3|Sportovni areal Drnovice|Vyskov|Czech Republic||wiki-molcup-2122
+MATCH|2021-10-26|MOL Cup|domestic-cup|Bohemians 1905|1|0|Jihlava|R16|Dolicek|Prague|Czech Republic||rsssf-tsje2022-cup
+MATCH|2021-10-27|MOL Cup|domestic-cup|Banik Ostrava|1|2|Hradec Kralove|R16|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022-cup
+MATCH|2021-10-27|MOL Cup|domestic-cup|Mlada Boleslav|2|0|Viktoria Plzen|R16|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022-cup
+MATCH|2021-10-27|MOL Cup|domestic-cup|Teplice|0|2|Sparta Prague|R16|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022-cup
+MATCH|2021-11-11|MOL Cup|domestic-cup|Jablonec|4|0|Varnsdorf|R16|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022-cup
+MATCH|2021-11-12|MOL Cup|domestic-cup|Slovacko|1|1|Karvina|R16|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||wf-molcup-reports
+MATCH|2021-11-23|MOL Cup|domestic-cup|Ceske Budejovice|1|1|Sigma Olomouc|R16|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022-cup
+MATCH|2021-12-15|MOL Cup|domestic-cup|Slavia Prague|3|1|Zlin|R16|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022-cup
+MATCH|2022-02-09|MOL Cup|domestic-cup|Sigma Olomouc|0|0|Slovacko|QF|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022-cup
+MATCH|2022-02-09|MOL Cup|domestic-cup|Slavia Prague|0|2|Sparta Prague|QF|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022-cup
+MATCH|2022-02-15|MOL Cup|domestic-cup|Hradec Kralove|1|1|Bohemians 1905|QF|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022-cup
+MATCH|2022-02-16|MOL Cup|domestic-cup|Jablonec|4|0|Mlada Boleslav|QF|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022-cup
+MATCH|2022-03-02|MOL Cup|domestic-cup|Sparta Prague|4|3|Jablonec|SF|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022-cup
+MATCH|2022-03-25|MOL Cup|domestic-cup|Hradec Kralove|0|1|Slovacko|SF|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022-cup
+MATCH|2022-05-18|MOL Cup|domestic-cup|Slovacko|3|1|Sparta Prague|Final|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022-cup
+MATCH|2022-09-13|MOL Cup|domestic-cup|Unicov|2|2|Sigma Olomouc|R2|Stadion SK Unicov|Unicov|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-14|MOL Cup|domestic-cup|Motorlet Praha|0|4|Jablonec|R2|Stadion SK Motorlet|Prague|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-14|MOL Cup|domestic-cup|Rokycany|1|5|Slovan Liberec|R2|Stadion pod Husovymi sady|Rokycany|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-14|MOL Cup|domestic-cup|Rosice|0|4|Zbrojovka Brno|R2|Sportovni areal FC Slovan Rosice|Rosice|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-14|MOL Cup|domestic-cup|Start Brno|0|3|Zlin|R2|Stadion TJ Start Brno|Brno|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-14|MOL Cup|domestic-cup|Velvary|1|0|Pardubice|R2|Stadion TJ Slovan Velvary|Velvary|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-14|MOL Cup|domestic-cup|Zizkov|1|1|Teplice|R2|Stadion Viktorie v Seifertove ulici|Prague|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-21|MOL Cup|domestic-cup|Caslav|0|11|Hradec Kralove|R2|Stadion Pod hradkem|Caslav|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-21|MOL Cup|domestic-cup|Chomutov|0|5|Ceske Budejovice|R2|Letni stadion|Chomutov|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-21|MOL Cup|domestic-cup|Kromeriz|3|3|Banik Ostrava|R2|Stadion Jozky Silneho|Kromeriz|Czech Republic||wiki-molcup-2223
+MATCH|2022-09-21|MOL Cup|domestic-cup|Usti nad Labem|0|3|Bohemians 1905|R2|Mestsky stadion|Usti nad Labem|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-11|MOL Cup|domestic-cup|Jablonec|0|1|Vyskov|R3|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-18|MOL Cup|domestic-cup|Pribram|0|3|Teplice|R3|Na Litavce|Pribram|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Bohemians 1905|2|1|Trinec|R3|Dolicek|Prague|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Ceske Budejovice|3|1|Vlasim|R3|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Chlumec nad Cidlinou|0|4|Hradec Kralove|R3|Stadion Mestsky fotbalovy - FK Chlumec nad Cidlinou|Chlumec nad Cidlinou|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Domazlice|1|6|Sparta Prague|R3|Mestsky stadion Strelnice Domazlice|Domazlice|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Dukla Prague|0|4|Slavia Prague|R3|Stadion Juliska|Prague|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Hlucin|3|2|Viktoria Plzen|R3|Stadion Mestsky Lumira Kota|Hlucin|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Mlada Boleslav|4|0|Prostejov|R3|Lokotrans Arena|Mlada Boleslav|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Slovacko|6|0|Varnsdorf|R3|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Taborsko|1|2|Zbrojovka Brno|R3|Stadion Kvapilova|Tabor|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Velvary|0|2|Banik Ostrava|R3|Stadion TJ Slovan Velvary|Velvary|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-19|MOL Cup|domestic-cup|Zapy|1|3|Sigma Olomouc|R3|Stadion TJ Sokol Zapy|Brandys nad Labem|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-25|MOL Cup|domestic-cup|Frydek-Mistek|0|6|Slovan Liberec|R3|Stovky|Frydek-Mistek|Czech Republic||wiki-molcup-2223
+MATCH|2022-10-25|MOL Cup|domestic-cup|Zlin|2|0|Jihlava|R3|Letna Stadion|Zlin|Czech Republic||wiki-molcup-2223
+MATCH|2022-11-17|MOL Cup|domestic-cup|Teplice|2|2|Zbrojovka Brno|R16|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023-cup
+MATCH|2022-11-17|MOL Cup|domestic-cup|Zlin|0|1|Vyskov|R16|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023-cup
+MATCH|2022-11-18|MOL Cup|domestic-cup|Karvina|0|2|Slavia Prague|R16|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2023-cup
+MATCH|2022-11-18|MOL Cup|domestic-cup|Slovacko|1|0|Mlada Boleslav|R16|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023-cup
+MATCH|2022-11-19|MOL Cup|domestic-cup|Banik Ostrava|2|3|Sparta Prague|R16|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023-cup
+MATCH|2022-11-19|MOL Cup|domestic-cup|Bohemians 1905|3|0|Hlucin|R16|Dolicek|Prague|Czech Republic||rsssf-tsje2023-cup
+MATCH|2022-11-26|MOL Cup|domestic-cup|Slovan Liberec|4|1|Sigma Olomouc|R16|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-02-01|MOL Cup|domestic-cup|Ceske Budejovice|2|0|Hradec Kralove|R16|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-03-01|MOL Cup|domestic-cup|Ceske Budejovice|2|1|Zbrojovka Brno|QF|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-03-01|MOL Cup|domestic-cup|Slavia Prague|4|0|Vyskov|QF|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-03-01|MOL Cup|domestic-cup|Slovacko|1|2|Bohemians 1905|QF|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-03-01|MOL Cup|domestic-cup|Slovan Liberec|2|2|Sparta Prague|QF|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-04-05|MOL Cup|domestic-cup|Slavia Prague|2|2|Bohemians 1905|SF|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-04-05|MOL Cup|domestic-cup|Sparta Prague|2|0|Ceske Budejovice|SF|epet ARENA|Prague|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-05-03|MOL Cup|domestic-cup|Sparta Prague|0|2|Slavia Prague|Final|epet ARENA|Prague|Czech Republic||rsssf-tsje2023-cup
+MATCH|2023-08-29|MOL Cup|domestic-cup|Hlucin|0|2|Banik Ostrava|R2|Stadion Mestsky Lumira Kota|Hlucin|Czech Republic||wiki-molcup-2324
+MATCH|2023-08-29|MOL Cup|domestic-cup|Velke Hamry|1|1|Ceske Budejovice|R2|Hriste TJ Velke Hamry|Velke Hamry|Czech Republic||wiki-molcup-2324
+MATCH|2023-08-30|MOL Cup|domestic-cup|Banik Most-Sous|0|3|Pardubice|R2|Fotbalovy stadion Josefa Masopusta|Most|Czech Republic||wiki-molcup-2324
+MATCH|2023-08-30|MOL Cup|domestic-cup|Brozany|3|4|Teplice|R2|Ke Hristi|Brozany nad Ohri|Czech Republic||wiki-molcup-2324
+MATCH|2023-08-30|MOL Cup|domestic-cup|Hlubina|0|8|Slovacko|R2|Stadion Hlubina|Ostrava|Czech Republic||wiki-molcup-2324
+MATCH|2023-08-30|MOL Cup|domestic-cup|Lanznot|0|1|Zlin|R2|Fotbalovy stadion Na Slajsi|Lanzhot|Czech Republic||wiki-molcup-2324
+MATCH|2023-08-30|MOL Cup|domestic-cup|Mlada Boleslav|4|2|Usti nad Labem|R2|Lokotrans Arena|Mlada Boleslav|Czech Republic||wiki-molcup-2324
+MATCH|2023-08-30|MOL Cup|domestic-cup|Trinec|1|4|Sigma Olomouc|R2|Stadion Rudolfa Labaje|Trinec|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-05|MOL Cup|domestic-cup|Admira Praha|1|5|Jablonec|R2|Stadion Na Pecich|Prague|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-06|MOL Cup|domestic-cup|Sobeslav|2|4|Hradec Kralove|R2|Fotbalovy stadion FK Raselina Sobeslav|Sobeslav|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-06|MOL Cup|domestic-cup|Unicov|1|0|Karvina|R2|Stadion SK Unicov|Unicov|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-26|MOL Cup|domestic-cup|Kladno|0|2|Slovan Liberec|R3|Areal Frantiska Kloze|Kladno|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-26|MOL Cup|domestic-cup|Mlada Boleslav|4|2|Prostejov|R3|Lokotrans Arena|Mlada Boleslav|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-27|MOL Cup|domestic-cup|Domazlice|1|1|Jablonec|R3|Mestsky stadion Strelnice Domazlice|Domazlice|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-27|MOL Cup|domestic-cup|Jihlava|0|1|Hradec Kralove|R3|v Jiraskove ulici|Jihlava|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-27|MOL Cup|domestic-cup|Kromeriz|0|2|Slavia Prague|R3|Stadion Jozky Silneho|Kromeriz|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-27|MOL Cup|domestic-cup|Lisen|0|1|Sparta Prague|R3|Stadion SK Lisen|Brno|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-27|MOL Cup|domestic-cup|Slovacko|3|4|Dukla Prague|R3|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-27|MOL Cup|domestic-cup|Velvary|1|1|Pardubice|R3|Stadion TJ Slovan Velvary|Velvary|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-27|MOL Cup|domestic-cup|Vyskov|1|0|Teplice|R3|Sportovni areal Drnovice|Vyskov|Czech Republic||wiki-molcup-2324
+MATCH|2023-09-27|MOL Cup|domestic-cup|Zapy|1|2|Banik Ostrava|R3|Stadion TJ Sokol Zapy|Brandys nad Labem|Czech Republic||wf-molcup-reports
+MATCH|2023-10-10|MOL Cup|domestic-cup|Ceske Budejovice|2|0|Chrudim|R3|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||wiki-molcup-2324
+MATCH|2023-10-11|MOL Cup|domestic-cup|Kolin|1|7|Bohemians 1905|R3|Mestsky stadion Kolin|Kolin|Czech Republic||wiki-molcup-2324
+MATCH|2023-10-11|MOL Cup|domestic-cup|Unicov|1|2|Zlin|R3|Stadion SK Unicov|Unicov|Czech Republic||wiki-molcup-2324
+MATCH|2023-10-11|MOL Cup|domestic-cup|Zizkov|0|1|Sigma Olomouc|R3|Stadion Viktorie v Seifertove ulici|Prague|Czech Republic||wiki-molcup-2324
+MATCH|2023-10-12|MOL Cup|domestic-cup|Marianske Lazne|0|10|Viktoria Plzen|R3|Sportovni areal Viktoria|Marianske Lazne|Czech Republic||wiki-molcup-2324
+MATCH|2023-11-01|MOL Cup|domestic-cup|Banik Ostrava|0|1|Zlin|R16|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024-cup
+MATCH|2023-11-01|MOL Cup|domestic-cup|Bohemians 1905|1|2|Sparta Prague|R16|Dolicek|Prague|Czech Republic||rsssf-tsje2024-cup
+MATCH|2023-11-01|MOL Cup|domestic-cup|Slovan Liberec|1|0|Mlada Boleslav|R16|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024-cup
+MATCH|2023-11-16|MOL Cup|domestic-cup|Ceske Budejovice|1|2|Jablonec|R16|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024-cup
+MATCH|2023-11-16|MOL Cup|domestic-cup|Sigma Olomouc|1|3|Viktoria Plzen|R16|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024-cup
+MATCH|2023-12-06|MOL Cup|domestic-cup|Hradec Kralove|0|0|Slavia Prague|R16|Malsovicka Arena|Hradec Kralove|Czech Republic||wf-molcup-reports
+MATCH|2024-02-28|MOL Cup|domestic-cup|Slavia Prague|2|2|Sparta Prague|QF|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024-cup
+MATCH|2024-02-28|MOL Cup|domestic-cup|Zlin|1|1|Slovan Liberec|QF|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024-cup
+MATCH|2024-04-02|MOL Cup|domestic-cup|Jablonec|0|3|Viktoria Plzen|QF|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024-cup
+MATCH|2024-04-03|MOL Cup|domestic-cup|Opava|0|2|Sparta Prague|SF|Stadion v Mestskych sadech|Opava|Czech Republic||rsssf-tsje2024-cup
+MATCH|2024-04-24|MOL Cup|domestic-cup|Viktoria Plzen|3|0|Zlin|SF|Doosan Arena|Plzen|Czech Republic||wiki-molcup-2324
+MATCH|2024-05-22|MOL Cup|domestic-cup|Viktoria Plzen|1|2|Sparta Prague|Final|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024-cup
+END

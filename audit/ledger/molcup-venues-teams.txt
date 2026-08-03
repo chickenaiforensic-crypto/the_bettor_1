@@ -1,0 +1,295 @@
+# MOL CUP 2021-24 — MASTER EVIDENCE LEDGER: venues, tiers, TEAM-row registry, 90-min splits
+# All pages fetched/read 2026-08-03 (Europe/Paris). Grammar:
+#   WFSTA|<season>|<ascii-stadium>|<city>|<capacity-or-blank>   (worldfootball.net season cup stadium index)
+#   TIER|<club>|<season>|<code>|<league+group>|<evidence>
+#   TEAMREG|<pack-name>|<leagueName>|<leagueCode>|<aliases>|<stadium>|<city>|<founded-or-blank>
+#   SPLIT|<season>|<round>|<date>|<home>|<hg90>|<ag90>|<away>|<decision>|<evidence>
+#
+# ===== A. worldfootball.net Pohar FACR season stadium indexes (verbatim, ASCII-folded) =====
+# 2021-22: https://www.worldfootball.net/competition/co88/se39724/stadiums/ (2 chunks)
+WFSTA|2021-22|Andruv stadion|Olomouc|12474
+WFSTA|2021-22|Doosan Arena|Plzen|12500
+WFSTA|2021-22|epet ARENA|Prague|18887
+WFSTA|2021-22|Fortuna Arena|Prague|19370
+WFSTA|2021-22|Hriste FK Prepere|Prepere|1000
+WFSTA|2021-22|Lokotrans Arena|Mlada Boleslav|5500
+WFSTA|2021-22|Mestsky Stadion|Benesov|8000
+WFSTA|2021-22|Mestsky stadion|Uherske Hradiste|8121
+WFSTA|2021-22|Mestsky stadion - Vitkovice Arena|Ostrava|15275
+WFSTA|2021-22|Mestsky stadion Dolicek|Prague|6300
+WFSTA|2021-22|Mestsky stadion Karvina-Raj|Karvina|4833
+WFSTA|2021-22|Mestsky stadion v Kotline|Varnsdorf|2000
+WFSTA|2021-22|Na Stinadlech|Teplice|18221
+WFSTA|2021-22|Stadion FC TVD Slavicin|Slavicin|3000
+WFSTA|2021-22|Stadion FK Banik Sokolov|Sokolov|5000
+WFSTA|2021-22|Stadion FK Drnovice|Drnovice|6400
+WFSTA|2021-22|Stadion FK Zbuzany|Zbuzany|1000
+WFSTA|2021-22|Stadion Juliska|Prague|8150
+WFSTA|2021-22|Stadion Kollarova ulice|Vlasim|6000
+WFSTA|2021-22|Stadion Mestsky Lumira Kota|Hlucin|2380
+WFSTA|2021-22|Stadion na Mlynske|Blansko|2000
+WFSTA|2021-22|Stadion na Plynarne|Prague|3000
+WFSTA|2021-22|Stadion Rudolfa Labaje|Trinec|4200
+WFSTA|2021-22|Stadion SK Lisen|Brno|2070
+WFSTA|2021-22|Stadion SK Unicov|Unicov|4000
+WFSTA|2021-22|Stadion Strelnice|Jablonec|6280
+WFSTA|2021-22|Stadion TJ Slovan Velvary|Velvary|2700
+WFSTA|2021-22|Stadion TJ Sokol Zapy|Brandys nad Labem|1000
+WFSTA|2021-22|Stadion v Mestskych sadech|Opava|7758
+WFSTA|2021-22|Stadion Vojtecha Zeithamla|Hostoun|1700
+WFSTA|2021-22|Stadion Za Mistnim nadrazim|Prostejov|
+WFSTA|2021-22|Strelecky Ostrov|Ceske Budejovice|6746
+WFSTA|2021-22|TJ Olympie Brezova|Brezova|3000
+WFSTA|2021-22|TJ Tatran Sedlcany|Sedlcany|
+WFSTA|2021-22|U Nisy|Liberec|9090
+WFSTA|2021-22|v Jiraskove ulici|Jihlava|4200
+# 2022-23: https://www.worldfootball.net/competition/co88/se46910/stadiums/ (2 chunks)
+WFSTA|2022-23|epet ARENA|Prague|18887
+WFSTA|2022-23|Fortuna Arena|Prague|19370
+WFSTA|2022-23|Hriste FK Prepere|Prepere|1000
+WFSTA|2022-23|Letna|Zlin|6375
+WFSTA|2022-23|Letni stadion|Chomutov|10000
+WFSTA|2022-23|Lokotrans Arena|Mlada Boleslav|5500
+WFSTA|2022-23|Mestsky stadion|Uherske Hradiste|8121
+WFSTA|2022-23|Mestsky stadion - Vitkovice Arena|Ostrava|15275
+WFSTA|2022-23|Mestsky stadion Dolicek|Prague|6300
+WFSTA|2022-23|Mestsky stadion Karvina-Raj|Karvina|4833
+WFSTA|2022-23|Mestsky stadion Strelnice Domazlice|Domazlice|5000
+WFSTA|2022-23|Na Litavce|Pribram|7120
+WFSTA|2022-23|Na Stinadlech|Teplice|18221
+WFSTA|2022-23|Stadion Jozky Silneho|Kromeriz|1529
+WFSTA|2022-23|Stadion Juliska|Prague|8150
+WFSTA|2022-23|Stadion Kvapilova|Tabor|1350
+WFSTA|2022-23|Stadion Mestsky fotbalovy - FK Chlumec nad Cidlinou|Chlumec nad Cidlinou|3000
+WFSTA|2022-23|Stadion Mestsky Lumira Kota|Hlucin|2380
+WFSTA|2022-23|Stadion SK Unicov|Unicov|4000
+WFSTA|2022-23|Stadion Strelnice|Jablonec|6280
+WFSTA|2022-23|Stadion TJ Slovan Velvary|Velvary|2700
+WFSTA|2022-23|Stadion TJ Sokol Zapy|Brandys nad Labem|1000
+WFSTA|2022-23|Stovky|Frydek-Mistek|12400
+WFSTA|2022-23|Strelecky Ostrov|Ceske Budejovice|6746
+WFSTA|2022-23|U Nisy|Liberec|9090
+# 2023-24: https://www.worldfootball.net/competition/co88/se55490/stadiums/ (2 chunks)
+WFSTA|2023-24|Andruv stadion|Olomouc|12474
+WFSTA|2023-24|Areal Frantiska Kloze|Kladno|500
+WFSTA|2023-24|Doosan Arena|Plzen|12500
+WFSTA|2023-24|FINEP Arena|Hradec Kralove|9300
+WFSTA|2023-24|Fortuna Arena|Prague|19370
+WFSTA|2023-24|Fotbalove hriste SK Petrin Plzen|Plzen|2000
+WFSTA|2023-24|Fotbalovy stadion FC Hlinsko|Hlinsko|1000
+WFSTA|2023-24|Fotbalovy stadion FK Raselina Sobeslav|Sobeslav|1000
+WFSTA|2023-24|Fotbalovy stadion Na Slajsi|Lanzhot|
+WFSTA|2023-24|Letna|Zlin|6375
+WFSTA|2023-24|Lokotrans Arena|Mlada Boleslav|5500
+WFSTA|2023-24|Mestsky stadion|Uherske Hradiste|8121
+WFSTA|2023-24|Mestsky Stadion|Ceska Lipa|4000
+WFSTA|2023-24|Mestsky stadion - Vitkovice Arena|Ostrava|15275
+WFSTA|2023-24|Mestsky stadion Dolicek|Prague|6300
+WFSTA|2023-24|Mestsky stadion Kolin|Kolin|2000
+WFSTA|2023-24|Mestsky stadion Strelnice Domazlice|Domazlice|5000
+WFSTA|2023-24|Sportovni areal Viktoria|Marianske Lazne|2000
+WFSTA|2023-24|Stadion FK Drnovice|Drnovice|6400
+WFSTA|2023-24|Stadion Jozky Silneho|Kromeriz|1529
+WFSTA|2023-24|Stadion Juliska|Prague|8150
+WFSTA|2023-24|Stadion Na Pecich|Prague|4000
+WFSTA|2023-24|Stadion na Plynarne|Prague|3000
+WFSTA|2023-24|Stadion Rudolfa Labaje|Trinec|4200
+WFSTA|2023-24|Stadion SK Lisen|Brno|2070
+WFSTA|2023-24|Stadion SK Unicov|Unicov|4000
+WFSTA|2023-24|Stadion Stechovice|Stechovice|1500
+WFSTA|2023-24|Stadion Strelnice|Jablonec|6280
+WFSTA|2023-24|Stadion TJ Slovan Velvary|Velvary|2700
+WFSTA|2023-24|Stadion TJ Sokol Zapy|Brandys nad Labem|1000
+WFSTA|2023-24|Stadion v Husovych sadech|Znojmo|2599
+WFSTA|2023-24|Stadion v Mestskych sadech|Opava|7758
+WFSTA|2023-24|Stadion Viktorie v Seifertove ulici|Prague|5334
+WFSTA|2023-24|Strelecky Ostrov|Ceske Budejovice|6746
+WFSTA|2023-24|Teletnik Arena|Zapy|1000
+WFSTA|2023-24|U Nisy|Liberec|9090
+WFSTA|2023-24|v Jiraskove ulici|Jihlava|4200
+# Per-tie match-report stadium lines (wf): 2023-09-27 SK Zapy - Banik Ostrava R3 ->
+#   "Stadion TJ Sokol Zapy" (ma9950570, att 1150); 2023-12-06 Hradec - Slavia R16 ->
+#   "FINEP Arena" (ma9970847, att 7608). NOTE: "FINEP Arena" (wf stadium ve16523, Hradec
+#   Kralove, capacity 9300) = the new Malsovicka Arena carried under the developer's working
+#   name on wf; the pack uses the pinned CZ1-pack string Malsovicka Arena (capacity match 9300).
+#
+# ===== B. aet/pens 90-MINUTE SPLITS REGISTER (every settled in-slice tie) =====
+# Splits proven by wf match-report goal timelines (all goals >90' are extra time), wiki match
+# boxes (goal minutes), or bracket-shown pso regulation scores. wf IDs cited where captured.
+# --- 2021-22 (8 ties) ---
+SPLIT|2021-22|R2|2021-08-25|Hostoun|0|0|Pardubice|Pardubice advanced (aet 0-1)|wf match-report timeline: Sychra 99'
+SPLIT|2021-22|R2|2021-08-25|Hlucin|0|0|Banik Ostrava|Banik Ostrava advanced (aet 0-1)|wf match-report timeline: Smekal 108'
+SPLIT|2021-22|R3|2021-09-22|Loko Praha|2|2|Banik Ostrava|Banik Ostrava advanced (aet 2-5)|wf match-report timeline (home = era name FK Loko Vltavin; stadium na Plynarne, att 740)
+SPLIT|2021-22|R3|2021-10-07|Vyskov|1|1|Zlin|Zlin advanced (aet 1-2)|wf match-report timeline: Vrastil 114'
+SPLIT|2021-22|R16|2021-11-12|Slovacko|1|1|Karvina|Slovacko advanced (aet 3-1)|wf match-report timeline: Sindelar 24', Jurecka 90', Cicilia 105'pen+108' - SILENT-AET DEFECT in BOTH bracket sources (RSSSF + wiki print plain 3-1); documented in pack source_conflict
+SPLIT|2021-22|R16|2021-11-23|Ceske Budejovice|1|1|Sigma Olomouc|Sigma Olomouc advanced (pens 4-5)|RSSSF [aet, 4-5 pen]
+SPLIT|2021-22|QF|2022-02-09|Sigma Olomouc|0|0|Slovacko|Slovacko advanced (pens 2-4)|RSSSF [aet, 2-4 pen], wiki box
+SPLIT|2021-22|QF|2022-02-15|Hradec Kralove|1|1|Bohemians 1905|Hradec Kralove advanced (aet 2-1)|wiki box goal minutes (90+5 equalizer, 106 winner); RSSSF [aet]
+# --- 2022-23 (6 ties) ---
+SPLIT|2022-23|R2|2022-09-13|Unicov|2|2|Sigma Olomouc|Sigma Olomouc advanced (aet 2-4)|wf match-report timeline (ma9507218)
+SPLIT|2022-23|R2|2022-09-14|Zizkov|1|1|Teplice|Teplice advanced (aet 1-2)|wf match-report timeline (ma9507201): Vachousek 101'
+SPLIT|2022-23|R2|2022-09-21|Kromeriz|3|3|Banik Ostrava|Banik Ostrava advanced (pens 1-4)|bracket regulation 3-3; wf displays "3:4 pso" (pens folded into scoreline - documented wf quirk; ma9507216)
+SPLIT|2022-23|R16|2022-11-17|Teplice|2|2|Zbrojovka Brno|Zbrojovka Brno advanced (aet 2-3)|wf match-report timeline: Reznicek 90+4 equalizer, 106 winner; Endl red 84
+SPLIT|2022-23|QF|2023-03-01|Slovan Liberec|2|2|Sparta Prague|Sparta Prague advanced (pens 3-5)|wiki box (all goals in regulation)
+SPLIT|2022-23|SF|2023-04-05|Slavia Prague|2|2|Bohemians 1905|Slavia Prague advanced (aet 3-2)|wiki box goal minutes: Prekop 14, Doudera 23/90+7, Hala 84; Jurecka 110
+# --- 2023-24 (6 ties) ---
+SPLIT|2023-24|R2|2023-08-29|Velke Hamry|1|1|Ceske Budejovice|Ceske Budejovice advanced (aet 1-3)|wf match-report timeline (ma9866840): Alli 116', Suchan 120+1
+SPLIT|2023-24|R3|2023-09-27|Domazlice|1|1|Jablonec|Jablonec advanced (pens 4-5)|bracket regulation 1-1; wf displays "4:5 pso" (ma9950576)
+SPLIT|2023-24|R3|2023-09-27|Velvary|1|1|Pardubice|Velvary advanced (pens 5-4)|bracket regulation 1-1; wf displays "5:4 pso" (ma9950564)
+SPLIT|2023-24|R16|2023-12-06|Hradec Kralove|0|0|Slavia Prague|Slavia Prague advanced (aet 0-2)|wf match-report timeline (ma9970847): Wallem 109', van Buren 120+1; RSSSF marks [aet] printing 0-2; wiki box prints 0-2 aet
+SPLIT|2023-24|QF|2024-02-28|Zlin|1|1|Slovan Liberec|Zlin advanced (aet 2-1)|wiki box goal minutes: Schanelec 11, Pourzitidis 83; Janetzky 91
+SPLIT|2023-24|QF|2024-02-28|Slavia Prague|2|2|Sparta Prague|Sparta Prague advanced (aet 2-3)|wiki box goal minutes (39/48 v 55/70; Karabec 113 pen)
+# Czech convention in-window: R1-R4 level at 90' -> straight to penalties (no aet) except the
+# R16 tie Ceske Budejovice 1-1 Olomouc (aet before pens per RSSSF [aet,...]); QF+ play aet first.
+#
+# ===== C. LEAGUE-MEMBERSHIP / TIER transcriptions (club-level, in-window seasons) =====
+# en.wiki 2021-22 Czech National Football League (team changes + map + stats text):
+#   16 clubs: Brno C (promoted), Lisen, Chrudim, Jihlava, Opava, Pribram (down from FL 20-21),
+#   Prostejov, Taborsko, Trinec, Usti n/L (relegated to CFL), Varnsdorf, Vlasim, Vyskov (up
+#   from MSFL), Dukla, Sparta B, Zizkov (relegated to CFL); Blansko relegated to MSFL;
+#   Vysehrad relegated out (see G below).
+TIER|Vlasim|2021-22|CZ2|FNL|en.wiki 2021-22 CNFL (longest winning run Vlasim; team overview)
+TIER|Pribram|2021-22|CZ2|FNL|en.wiki 2021-22 CNFL (relegated from 2020-21 CFL-FL list)
+TIER|Prostejov|2021-22|CZ2|FNL|en.wiki 2021-22 CNFL (team overview map)
+TIER|Lisen|2021-22|CZ2|FNL|en.wiki 2021-22 CNFL (map; postponed Varnsdorf ties note)
+# en.wiki 2022-23 CNFL: Karvina C (down from FL 21-22, promoted back), Lisen, Chrudim, Jihlava,
+#   Opava, Pribram, Prostejov, Taborsko, Trinec (relegated to MSFL), Varnsdorf, Vlasim,
+#   Vyskov, Dukla, Slavia B, Olomouc B, Zizkov out (CFL), Usti n/L out (CFL).
+TIER|Prostejov|2022-23|CZ2|FNL|en.wiki 2022-23 CNFL (Vlasim 6-1 Prostejov; Prostejov 5-0 Taborsko)
+TIER|Vlasim|2022-23|CZ2|FNL|en.wiki 2022-23 CNFL (biggest home win lines)
+TIER|Pribram|2022-23|CZ2|FNL|en.wiki 2022-23 CNFL (FK Viagem Pribram map/stat lines)
+TIER|Lisen|2022-23|CZ2|FNL|en.wiki 2022-23 CNFL (team overview map)
+# en.wiki 2023-24 CNFL: Dukla C (promoted), Lisen, Chrudim, Jihlava, Kromeriz (relegated out),
+#   Olomouc B, Opava, Pribram (relegated out), Prostejov, Taborsko, Varnsdorf, Vlasim, Vyskov,
+#   Sparta B, Zizkov (up from CFL), Brno (down from FL).
+TIER|Prostejov|2023-24|CZ2|FNL|en.wiki 2023-24 CNFL (team overview map)
+TIER|Lisen|2023-24|CZ2|FNL|en.wiki 2023-24 CNFL (map; Vlasim 4-5 Lisen line)
+# cs.wiki Ceska fotbalova liga 2021/2022:
+#   A: Slavia B, Kraluv Dvur, Loko Vltavin, Plzen B, Domazlice, Motorlet, Admira, Pisek,
+#      Karlovy Vary, Hostoun, Benesov, Pribram B, Sokolov, Povltavska FA, Rakovnik,
+#      VYSEHRAD (0 matches - reassigned, see G)
+#   B: Zapy, Prepere, Jablonec B, Zivanice, Brozany, Hradec B, Velvary, Chlumec, Teplice B,
+#      Dukla B, Mlada Boleslav B, Bohemians B, Zbuzany, Pardubice B (+2)
+TIER|Hostoun|2021-22|CZ3|CFL A|cs.wiki CFL 2021/2022 group A table
+TIER|Benesov|2021-22|CZ3|CFL A|cs.wiki CFL 2021/2022 group A table
+TIER|Sokolov|2021-22|CZ3|CFL A|cs.wiki CFL 2021/2022 group A table (FK Banik Sokolov 1948)
+TIER|Prepere|2021-22|CZ3|CFL B|cs.wiki CFL 2021/2022 group B table
+TIER|Velvary|2021-22|CZ3|CFL B|cs.wiki CFL 2021/2022 group B table
+TIER|Zbuzany|2021-22|CZ3|CFL B|cs.wiki CFL 2021/2022 group B table
+TIER|Vysehrad|2021-22|CZ3|CFL A|cs.wiki CFL 2021/2022 group A (entered; 0 Z 0 pts, reassigned - see G)
+# cs.wiki Moravskoslezska fotbalova liga 2021/2022: Hlucin 3rd, Kromeriz 2nd, Rosice 5th,
+#   Unicov 7th, Frydek-Mistek 8th, Blansko 11th... NO Slavicin anywhere.
+TIER|Unicov|2021-22|CZ3|MSFL|cs.wiki MSFL 2021/2022 table (7th)
+TIER|Blansko|2021-22|CZ3|MSFL|cs.wiki MSFL 2021/2022 table (11th)
+# cs.wiki Divize A 2021/2022: Sobeslav 8th, Rokycany 9th, Marianske Lazne 11th, Sedlcany
+#   16th (sestupujici) -> all CZ4.
+TIER|Sedlcany|2021-22|CZ4|Divize A|cs.wiki Divize A 2021/2022 table
+# cs.wiki Divize B 2021/2022: Kladno 4th, Brezova 11th (FK Olympie Brezova), Chomutov 12th.
+TIER|Slavicin|2021-22|CZ4|Divize E|cs.wiki Divize E 2021/2022 table (FC TVD Slavicin 9th)
+TIER|Brezova|2021-22|CZ4|Divize B|cs.wiki Divize B 2021/2022 table (FK Olympie Brezova)
+# cs.wiki Ceska fotbalova liga 2022/2023:
+#   A: Domazlice, Bohemians B, Plzen B, Loko Vltavin, Admira, Motorlet, Povltavska FA, Robstav,
+#      Pisek, Hostoun, Dukla B, CBud B, Karlovy Vary, Kraluv Dvur, Zbuzany (rel), Sokolov (rel)
+#   B: Zizkov C (up), Velvary, Brozany, Kolin, Chlumec, Zapy, MlBoleslav B, Teplice B,
+#      Hradec B, Most-Sous, Usti n/L, Jablonec B, Zivanice, Pardubice B, Prepere, Benesov (rel)
+#   -> NO FK Caslav, NO FC Chomutov anywhere in CFL 22/23.
+TIER|Motorlet Praha|2022-23|CZ3|CFL A|cs.wiki CFL 2022/2023 group A table
+TIER|Chlumec nad Cidlinou|2022-23|CZ3|CFL B|cs.wiki CFL 2022/2023 group B table (5th)
+TIER|Velvary|2022-23|CZ3|CFL B|cs.wiki CFL 2022/2023 group B table (2nd)
+TIER|Unicov|2022-23|CZ3|MSFL|cs.wiki MSFL 2022/2023 table (4th)
+TIER|Rosice|2022-23|CZ3|MSFL|cs.wiki MSFL 2022/2023 table (3rd)
+TIER|Rokycany|2022-23|CZ4|Divize A|cs.wiki FC Rokycany club page (2019-2024 Divize A) + Divize A 2021/2022
+TIER|Chomutov|2022-23|CZ4|Divize B|cs.wiki Divize B 2022/2023 table (5th)
+TIER|Caslav|2022-23|CZ4|Divize C|cs.wiki Divize C 2022/2023 (Stredocesky clubs list)
+# cs.wiki Ceska fotbalova liga 2023/2024:
+#   A: Slavia B C, Domazlice, Povltavska, Plzen B, CBud B, Hostoun, Taborsko B, Loko Vltavin,
+#      Robstav, Admira, Dukla B, Bohemians B, Motorlet (as SK Motorlet Praha), Pisek, KV (rel),
+#      Kraluv Dvur (rel)
+#   B: Velvary C, Zapy, Usti n/L, Brozany, Banik Sous (= the Most-Sous lineage), Kolin 6th,
+#      Liberec B, Pardubice B, Chlumec, Zivanice, Hradec B, Jablonec B, Teplice B, MlBoleslav B,
+#      Arsenal Ceska Lipa, Prepere (rel)
+TIER|Admira Praha|2023-24|CZ3|CFL A|cs.wiki CFL 2023/2024 group A table (10th)
+TIER|Banik Most-Sous|2023-24|CZ3|CFL B|cs.wiki CFL 2023/2024 group B ("FK Banik Sous", 5th - the
+#   merged FK Banik Most-Sous lineage per its club page: founded 2020 merger of Mostecky FK +
+#   FK Banik Sous, CFL B from 2022/23; wf team te135649 carries the eras FK Banik Most-Sous)
+TIER|Kolin|2023-24|CZ3|CFL B|cs.wiki CFL 2023/2024 group B table (SK Sparta Kolin, 6th)
+TIER|Velvary|2023-24|CZ3|CFL B|cs.wiki CFL 2023/2024 group B table (1st)
+TIER|Unicov|2023-24|CZ3|MSFL|cs.wiki MSFL 2023/2024 teams/stadiums table
+TIER|Sobeslav|2023-24|CZ4|Divize A|cs.wiki Divize A 2023/2024 table (3rd)
+TIER|Marianske Lazne|2023-24|CZ4|Divize A|cs.wiki Divize A 2023/2024 table (FC Viktoria Marianske Lazne, 4th)
+TIER|Kladno|2023-24|CZ4|Divize B|cs.wiki Divize B 2023/2024 table (2nd, promoted)
+TIER|Velke Hamry|2023-24|CZ4|Divize C|cs.wiki Divize C 2023/2024 table (FK Velke Hamry, 3rd)
+TIER|Hlubina|2023-24|CZ4|Divize F|cs.wiki TJ Unie Hlubina club page (MSFL only from 2024/25)
+# ===== D. TEAM-ROW REGISTRY (30 new identities; leagueName/code = in-window season(s)) =====
+TEAMREG|Vysehrad|Bohemian Football League (CFL A)|CZ3|FC Slavoj Vysehrad;Slavoj Vysehrad|Stadion FK Slavoj Vysehrad|Prague|1907
+TEAMREG|Benesov|Bohemian Football League (CFL A)|CZ3|SK Benesov|Mestsky Stadion|Benesov|
+TEAMREG|Hostoun|Bohemian Football League (CFL A)|CZ3|Sokol Hostoun|Stadion Vojtecha Zeithamla|Hostoun|
+TEAMREG|Sedlcany|Czech Fourth Division (Divize A)|CZ4|TJ Tatran Sedlcany|TJ Tatran Sedlcany|Sedlcany|
+TEAMREG|Slavicin|Czech Fourth Division (Divize E)|CZ4|FC TVD Slavicin|Stadion FC TVD Slavicin|Slavicin|
+TEAMREG|Sokolov|Bohemian Football League (CFL A)|CZ3|FK Banik Sokolov 1948;Banik Sokolov|Stadion FK Banik Sokolov|Sokolov|
+TEAMREG|Unicov|Moravian-Silesian Football League|CZ3|SK Unicov|Stadion SK Unicov|Unicov|
+TEAMREG|Zbuzany|Bohemian Football League (CFL B)|CZ3|FK Zbuzany 1953|Stadion FK Zbuzany|Zbuzany|
+TEAMREG|Blansko|Moravian-Silesian Football League|CZ3|FK Blansko|Stadion na Mlynske|Blansko|
+TEAMREG|Brezova|Czech Fourth Division (Divize B)|CZ4|FK Olympie Brezova;TJ Olympie Brezova|TJ Olympie Brezova|Brezova|
+TEAMREG|Vlasim|Czech National Football League|CZ2|FC Sellier & Bellot Vlasim;FC Vlasim|Stadion Kollarova ulice|Vlasim|
+TEAMREG|Pribram|Czech National Football League|CZ2|1. FK Pribram;FK Viagem Pribram|Na Litavce|Pribram|
+TEAMREG|Prepere|Bohemian Football League (CFL B)|CZ3|FK Prepere|Hriste FK Prepere|Prepere|
+TEAMREG|Prostejov|Czech National Football League|CZ2|1. SK Prostejov|Stadion Za Mistnim nadrazim|Prostejov|
+TEAMREG|Lisen|Czech National Football League|CZ2|SK Lisen;SK Lisen 2019;SK Artis Brno (2024+ rename)|Stadion SK Lisen|Brno|
+TEAMREG|Velvary|Bohemian Football League (CFL B)|CZ3|TJ Slovan Velvary;Slovan Velvary|Stadion TJ Slovan Velvary|Velvary|
+TEAMREG|Rokycany|Czech Fourth Division (Divize A)|CZ4|FC Rokycany|Stadion pod Husovymi sady|Rokycany|1903
+TEAMREG|Motorlet Praha|Bohemian Football League (CFL A)|CZ3|FK Motorlet Praha;SK Motorlet Praha|Stadion SK Motorlet|Prague|1912
+TEAMREG|Start Brno|Czech Fourth Division (Divize D)|CZ4|TJ Start Brno|Stadion TJ Start Brno|Brno|1957
+TEAMREG|Rosice|Moravian-Silesian Football League|CZ3|FC Slovan Rosice;Slovan Rosice|Sportovni areal FC Slovan Rosice|Rosice|1909
+TEAMREG|Caslav|Czech Fourth Division (Divize C)|CZ4|FK Caslav|Stadion Pod hradkem|Caslav|1902
+TEAMREG|Chomutov|Czech Fourth Division (Divize B)|CZ4|FC Chomutov|Letni stadion|Chomutov|
+TEAMREG|Chlumec nad Cidlinou|Bohemian Football League (CFL B)|CZ3|FK Chlumec nad Cidlinou;Chlumec|Stadion Mestsky fotbalovy - FK Chlumec nad Cidlinou|Chlumec nad Cidlinou|
+TEAMREG|Velke Hamry|Czech Fourth Division (Divize C)|CZ4|FK Velke Hamry;TJ Sokol Velke Hamry|Hriste TJ Velke Hamry|Velke Hamry|
+TEAMREG|Hlubina|Czech Fourth Division (Divize F)|CZ4|TJ Unie Hlubina;Unie Hlubina|Stadion Hlubina|Ostrava|1919
+TEAMREG|Banik Most-Sous|Bohemian Football League (CFL B)|CZ3|FK Banik Most-Sous;FK Banik Sous|Fotbalovy stadion Josefa Masopusta|Most|2020
+TEAMREG|Admira Praha|Bohemian Football League (CFL A)|CZ3|FK Admira Praha;Admira|Stadion Na Pecich|Prague|1909
+TEAMREG|Sobeslav|Czech Fourth Division (Divize A)|CZ4|FK Spartak Sobeslav;Spartak Sobeslav|Fotbalovy stadion FK Raselina Sobeslav|Sobeslav|
+TEAMREG|Kladno|Czech Fourth Division (Divize B)|CZ4|SK Kladno|Areal Frantiska Kloze|Kladno|
+TEAMREG|Marianske Lazne|Czech Fourth Division (Divize A)|CZ4|FC Viktoria Marianske Lazne;FK Viktoria Marianske Lazne|Sportovni areal Viktoria|Marianske Lazne|
+# ===== E. Extra venue facts (non-wf sources) =====
+# Velke Hamry: zivevysledky.cz stadium index "Hriste TJ Velke Hamry", Velke Hamry (addr V.H. 550),
+#   cap 1500, grass, carries the club's 2023-2024 Divize C home fixtures.
+# Usti nad Labem (client-roster club): en.wiki club article FK Viagem Usti nad Labem - ground
+#   Mestsky stadion, Usti nad Labem (capacity 4000); in-window cup home tie 2022-09-21 carried so.
+# Brozany (client-roster club): no formal stadium name published; club ground at address
+#   "Ke Hristi 382, Brozany nad Ohri" (sportmap.cz club index) - eurofotbal.cz club page text
+#   describes the 2023-08-30 Brozany 3-4 Teplice cup tie hosted at the village ground; city
+#   string carried as Brozany nad Ohri, stadium string Ke Hristi.
+# ----- F (retired - folded into D/B) -----
+# ===== G. IDENTITY / RENAME / STATUS proofs =====
+# G1 SK LISEN 2019 -> renamed SK ARTIS BRNO (Dec 2025): brnensky.denik.cz + efotbal.cz articles
+#   (search 2026-08-03): "Artis, ktery drive nesl nazev Lisen..." + "V roce 2021 Prazane
+#   zvitezili 3:0" + 2023-09 reference to the "tehdejsi" Lisen tie won 1:0 by Sparta => the
+#   club the pack carries as `Lisen` hosted Sparta in BOTH 2021-09-22 (0-3) and 2023-09-27 (0-1).
+#   wf back-renames the club to "SK Artis Brno" on ALL historical cup pages (documented quirk).
+# G2 FK LOKO VLTAVIN = FK LOKO PRAHA: cs.wikipedia.org/wiki/FK_Loko_Praha - "Do cervna roku
+#   2024 nesl jmeno FK Loko Vltavin". In-window tie 2021-09-22 Loko Praha 2-2 (2-5 aet) Banik
+#   Ostrava was played as FK Loko Vltavin at Stadion na Plynarne, Prague (wf match report,
+#   att 740). Client-roster string `Loko Praha` reused on the row; era name in NOTE only.
+# G3 FC SLAVOJ VYSEHRAD: entered CFL A 2021/22 (table line, 0 played) - administratively
+#   REASSIGNED to Prazsky prebor (5th tier) following the 2020 corruption-scandal ruling
+#   (cs.wiki CFL 2021/2022 prose + FC_Slavoj_Vysehrad club page); cup tie 2021-08-24 at
+#   Mlada Boleslav played before the reassignment => leagueCode CZ3 carried.
+# G4 Hradec Kralove home staging in-window (applied from CZ1 pack policy): 2021-22 season at
+#   Lokotrans Arena, Mlada Boleslav - the QF (2022-02-15) and SF (2022-03-25) home cup ties per
+#   wiki match boxes were staged there too (carried with city Mlada Boleslav).
+# G5 Hradec's ground 2023-24: wf carries "FINEP Arena" (capacity 9300) = the new Malsovicka
+#   Arena (CZ1-pinned string used on the row; alias documented in pack venues NOTE).
+# ===== H. wiki 2021-22 Czech Cup "Teams" entrant table (API section-1, verbatim scalars) =====
+# Preliminary: 126 remaining / 46 involved / 0 winners / 46 new (CFL,MSFL,levels 4-5)
+# First:       103 / 86 / 23 / 63 new (2. liga, CFL, MSFL)
+# Second:       59 / 54 / 42 / 12 new (Czech First League - teams not in UEFA)
+# Third:        32 / 32 / 27 / 5 new (Czech First League - UEFA teams)
+# Fourth/QF/SF/F: 16/8/4/2, no new entries.
+# RAW-FACT FLAG: the table's own arithmetic is internally inconsistent (First round 86 involved
+# -> 43 winners, yet Second lists 42; 42+12=54=27 ties, yet the article's Second-round bracket
+# has 28 ties, cross-verified tie-by-tie vs worldfootball). Bracket sections + wf round pages
+# are the authoritative round lists used for the slice; First-League entrants counted IN THE
+# BRACKETS as 11 in R2 + 5 in R3 (the table's "12" would produce 17 FL entrants = >16 clubs).
+# 2023-24 R3 section prose verbatim: "The last entrants are the five clubs involved into the
+# European Cups." (confirms the 5-UEFA-at-R3 structure in-window).

@@ -46,11 +46,17 @@ WORKORDER-STATUS.md  ← live queue register and reconciliation notes
 * **RPL CSV dataset:** football-data.co.uk combined RPL file (retrieved 2026-08-02, only data
   origin); verification-only cross-checks vs Wikipedia/tribuna/sportsmole/365scores and the
   Russian sports press, cited inline in `docs/AUDIT.md`.
+* **Czech MOL Cup pack:** RSSSF season pages (`tsje2022/2023/2024.html#cup`, primary — but they
+  carry R16→Final only, a documented adaptation) + English Wikipedia bracket sections (R2/R3
+  coverage, QF/SF/F match boxes) as the full-coverage index + worldfootball.net round pages,
+  per-tie match reports (goal timelines = all 20 aet/pens 90-minute splits; silent-aet defect
+  found in both bracket sources for Slovacko–Karvina 2021-11-12) and season stadium indexes as
+  the third anchor; lower-league tiers pinned from cs.wiki CFL/MSFL/Divize season tables.
 
 ## Provenance guarantee
 
 * Machine validation on every deliverable; outputs committed under `audit/`.
 * 90-minute doctrine everywhere: shootouts/aet live in NOTE lines, match rows carry 90-minute scores.
 * Identity discipline: pinned roster strings (WO-RPL §3), renames documented in NOTEs, no duplicate clubs.
-* Next in the owner queue: MOLCUP Czech MOL Cup pack (④) and the remaining workorders listed in
+* Next in the owner queue: **WO-EPL-BACKFILL-05** (⑤) and the remaining workorders listed in
   `supervisor/README.md` — see `WORKORDER-STATUS.md` for the live register.

@@ -1,0 +1,233 @@
+PACK VALIDATION — MOLCUP-2021-2026_BP-TEAM-PACK_v2 (WO-MOLCUP-BACKFILL-04)
+generated 2026-08-03 by tools/validate_molcup_pack.py
+pack sha256: 5023eb33fd7a63f51fbb95d0535a811bc8f9ddc9b5d1ff20dc49ee8e893cec86
+pack rows: 120 MATCH / 31 TEAM / 15 SOURCE / 33 NOTE
+
+PASS G01 G01 file parse & 41-field grammar
+PASS G02 G02 ASCII-only
+PASS G03 G03 END terminator present once
+PASS G04 G04 competition literal 'MOL Cup' on all rows
+PASS G05 G05 compType domestic-cup on all rows (errata)
+PASS G06 G06 total rows 120 (41/41/38)
+PASS G07 G07 round-by-round counts match declared slice
+PASS G08 G08 every row has >=1 pinned FL club of its season (slice rule)
+PASS G09 G09 no known out-of-slice tie leaked into rows
+PASS G10 G10 no duplicate ties (date-home-away unique)
+PASS G11 G11 boundary: all dates in [2021-07-01, 2024-06-30)
+PASS G12 G12 round labels in {R2,R3,R16,QF,SF,Final}
+PASS G13 G13 20 advancement NOTEs, one per settled tie
+PASS G14 G14 settled ties recorded as 90-minute draws
+PASS G15 G15 bracket: champions per season
+PASS G16 G16 bracket: semifinalists per season
+PASS G17 G17 finalist sets per season
+PASS G18 G18 all FL home-ground strings in pinned CZ1 style (spot checks)
+PASS G19 G19 TEAM rows = the 31 declared new identities, none of the 27 roster strings
+PASS G20 G20 every TEAM name used in rows
+PASS G21 G21 no FL string re-declared as TEAM
+PASS G22 G22 SOURCE rows present and labels referenced by rows
+PASS G23 G23 pack_id first line
+PASS G24 G24 source_adaptation + comp_class + slice + round_counts + spot_audit NOTEs present
+PASS G25 G25 source_conflict NOTEs cover Slovacko silent-aet + Plzen-Zlin date
+PASS G26 G26 season-blocked date-sorted presentation
+PASS G27 G27 finals before 2024-06-30 boundary + finals in May
+PASS G28 G28 no standings tables anywhere (rows only)
+PASS G29 G29 held-out seasons untouched: no rows dated >= 2024-07-01
+PASS G30 G30 every R16 tie of each season present (8+8+6 = official R16=8 ties w/ exclusions)
+
+GATES: 30/30 PASS
+
+===== PER-TEAM PIVOT LEDGERS (owner decree): every pinned FL club's in-window cup campaign =====
+
+## Banik Ostrava
+2021-22 2021-08-25 A Banik Ostrava v Hlucin  0-0  [R2]  Stadion Mestsky Lumira Kota
+2021-22 2021-09-22 A Banik Ostrava v Loko Praha  2-2  [R3]  Stadion na Plynarne
+2021-22 2021-10-27 H Banik Ostrava v Hradec Kralove  1-2  [R16]  Mestsky stadion (Ostrava)
+2022-23 2022-09-21 A Banik Ostrava v Kromeriz  3-3  [R2]  Stadion Jozky Silneho
+2022-23 2022-10-19 A Banik Ostrava v Velvary  0-2  [R3]  Stadion TJ Slovan Velvary
+2022-23 2022-11-19 H Banik Ostrava v Sparta Prague  2-3  [R16]  Mestsky stadion (Ostrava)
+2023-24 2023-08-29 A Banik Ostrava v Hlucin  0-2  [R2]  Stadion Mestsky Lumira Kota
+2023-24 2023-09-27 A Banik Ostrava v Zapy  1-2  [R3]  Stadion TJ Sokol Zapy
+2023-24 2023-11-01 H Banik Ostrava v Zlin  0-1  [R16]  Mestsky stadion (Ostrava)
+
+## Bohemians 1905
+2021-22 2021-08-25 A Bohemians 1905 v Sokolov  0-6  [R2]  Stadion FK Banik Sokolov
+2021-22 2021-09-22 A Bohemians 1905 v Prostejov  0-4  [R3]  Stadion Za Mistnim nadrazim
+2021-22 2021-10-26 H Bohemians 1905 v Jihlava  1-0  [R16]  Dolicek
+2021-22 2022-02-15 A Bohemians 1905 v Hradec Kralove  1-1  [QF]  Lokotrans Arena
+2022-23 2022-09-21 A Bohemians 1905 v Usti nad Labem  0-3  [R2]  Mestsky stadion
+2022-23 2022-10-19 H Bohemians 1905 v Trinec  2-1  [R3]  Dolicek
+2022-23 2022-11-19 H Bohemians 1905 v Hlucin  3-0  [R16]  Dolicek
+2022-23 2023-03-01 A Bohemians 1905 v Slovacko  1-2  [QF]  Mestsky fotbalovy stadion Miroslava Valenty
+2022-23 2023-04-05 A Bohemians 1905 v Slavia Prague  2-2  [SF]  Fortuna Arena
+2023-24 2023-10-11 A Bohemians 1905 v Kolin  1-7  [R3]  Mestsky stadion Kolin
+2023-24 2023-11-01 H Bohemians 1905 v Sparta Prague  1-2  [R16]  Dolicek
+
+## Ceske Budejovice
+2021-22 2021-08-25 A Ceske Budejovice v Sedlcany  0-6  [R2]  TJ Tatran Sedlcany
+2021-22 2021-10-06 A Ceske Budejovice v Dukla Prague  1-3  [R3]  Stadion Juliska
+2021-22 2021-11-23 H Ceske Budejovice v Sigma Olomouc  1-1  [R16]  Stadion Strelecky ostrov
+2022-23 2022-09-21 A Ceske Budejovice v Chomutov  0-5  [R2]  Letni stadion
+2022-23 2022-10-19 H Ceske Budejovice v Vlasim  3-1  [R3]  Stadion Strelecky ostrov
+2022-23 2023-02-01 H Ceske Budejovice v Hradec Kralove  2-0  [R16]  Stadion Strelecky ostrov
+2022-23 2023-03-01 H Ceske Budejovice v Zbrojovka Brno  2-1  [QF]  Stadion Strelecky ostrov
+2022-23 2023-04-05 A Ceske Budejovice v Sparta Prague  2-0  [SF]  epet ARENA
+2023-24 2023-08-29 A Ceske Budejovice v Velke Hamry  1-1  [R2]  Hriste TJ Velke Hamry
+2023-24 2023-10-10 H Ceske Budejovice v Chrudim  2-0  [R3]  Stadion Strelecky ostrov
+2023-24 2023-11-16 H Ceske Budejovice v Jablonec  1-2  [R16]  Stadion Strelecky ostrov
+
+## Hradec Kralove
+2021-22 2021-09-01 A Hradec Kralove v Brezova  0-2  [R2]  TJ Olympie Brezova
+2021-22 2021-09-22 A Hradec Kralove v Zapy  0-4  [R3]  Stadion TJ Sokol Zapy
+2021-22 2021-10-27 A Hradec Kralove v Banik Ostrava  1-2  [R16]  Mestsky stadion (Ostrava)
+2021-22 2022-02-15 H Hradec Kralove v Bohemians 1905  1-1  [QF]  Lokotrans Arena
+2021-22 2022-03-25 H Hradec Kralove v Slovacko  0-1  [SF]  Lokotrans Arena
+2022-23 2022-09-21 A Hradec Kralove v Caslav  0-11  [R2]  Stadion Pod hradkem
+2022-23 2022-10-19 A Hradec Kralove v Chlumec nad Cidlinou  0-4  [R3]  Stadion Mestsky fotbalovy - FK Chlumec nad Cidlinou
+2022-23 2023-02-01 A Hradec Kralove v Ceske Budejovice  2-0  [R16]  Stadion Strelecky ostrov
+2023-24 2023-09-06 A Hradec Kralove v Sobeslav  2-4  [R2]  Fotbalovy stadion FK Raselina Sobeslav
+2023-24 2023-09-27 A Hradec Kralove v Jihlava  0-1  [R3]  v Jiraskove ulici
+2023-24 2023-12-06 H Hradec Kralove v Slavia Prague  0-0  [R16]  Malsovicka Arena
+
+## Jablonec
+2021-22 2021-09-22 A Jablonec v Prepere  0-1  [R3]  Hriste FK Prepere
+2021-22 2021-11-11 H Jablonec v Varnsdorf  4-0  [R16]  Stadion Strelnice
+2021-22 2022-02-16 H Jablonec v Mlada Boleslav  4-0  [QF]  Stadion Strelnice
+2021-22 2022-03-02 A Jablonec v Sparta Prague  4-3  [SF]  Generali Ceska pojistovna Arena
+2022-23 2022-09-14 A Jablonec v Motorlet Praha  0-4  [R2]  Stadion SK Motorlet
+2022-23 2022-10-11 H Jablonec v Vyskov  0-1  [R3]  Stadion Strelnice
+2023-24 2023-09-05 A Jablonec v Admira Praha  1-5  [R2]  Stadion Na Pecich
+2023-24 2023-09-27 A Jablonec v Domazlice  1-1  [R3]  Mestsky stadion Strelnice Domazlice
+2023-24 2023-11-16 A Jablonec v Ceske Budejovice  1-2  [R16]  Stadion Strelecky ostrov
+2023-24 2024-04-02 H Jablonec v Viktoria Plzen  0-3  [QF]  Stadion Strelnice
+
+## Karvina
+2021-22 2021-08-25 A Karvina v Slavicin  1-5  [R2]  Stadion FC TVD Slavicin
+2021-22 2021-09-22 H Karvina v Chrudim  1-0  [R3]  Mestsky stadion (Karvina)
+2021-22 2021-11-12 A Karvina v Slovacko  1-1  [R16]  Mestsky fotbalovy stadion Miroslava Valenty
+2022-23 2022-11-18 H Karvina v Slavia Prague  0-2  [R16]  Mestsky stadion (Karvina)
+2023-24 2023-09-06 A Karvina v Unicov  1-0  [R2]  Stadion SK Unicov
+
+## Mlada Boleslav
+2021-22 2021-08-24 H Mlada Boleslav v Vysehrad  3-0  [R2]  Lokotrans Arena
+2021-22 2021-09-21 A Mlada Boleslav v Opava  2-4  [R3]  Stadion v Mestskych sadech
+2021-22 2021-10-27 H Mlada Boleslav v Viktoria Plzen  2-0  [R16]  Lokotrans Arena
+2021-22 2022-02-16 A Mlada Boleslav v Jablonec  4-0  [QF]  Stadion Strelnice
+2022-23 2022-10-19 H Mlada Boleslav v Prostejov  4-0  [R3]  Lokotrans Arena
+2022-23 2022-11-18 A Mlada Boleslav v Slovacko  1-0  [R16]  Mestsky fotbalovy stadion Miroslava Valenty
+2023-24 2023-08-30 H Mlada Boleslav v Usti nad Labem  4-2  [R2]  Lokotrans Arena
+2023-24 2023-09-26 H Mlada Boleslav v Prostejov  4-2  [R3]  Lokotrans Arena
+2023-24 2023-11-01 A Mlada Boleslav v Slovan Liberec  1-0  [R16]  Stadion u Nisy
+
+## Pardubice
+2021-22 2021-08-25 A Pardubice v Hostoun  0-0  [R2]  Stadion Vojtecha Zeithamla
+2021-22 2021-09-21 A Pardubice v Jihlava  2-0  [R3]  v Jiraskove ulici
+2022-23 2022-09-14 A Pardubice v Velvary  1-0  [R2]  Stadion TJ Slovan Velvary
+2023-24 2023-08-30 A Pardubice v Banik Most-Sous  0-3  [R2]  Fotbalovy stadion Josefa Masopusta
+2023-24 2023-09-27 A Pardubice v Velvary  1-1  [R3]  Stadion TJ Slovan Velvary
+
+## Sigma Olomouc
+2021-22 2021-08-25 A Sigma Olomouc v Unicov  2-4  [R2]  Stadion SK Unicov
+2021-22 2021-09-21 A Sigma Olomouc v Vlasim  1-2  [R3]  Stadion Kollarova ulice
+2021-22 2021-11-23 A Sigma Olomouc v Ceske Budejovice  1-1  [R16]  Stadion Strelecky ostrov
+2021-22 2022-02-09 H Sigma Olomouc v Slovacko  0-0  [QF]  Andruv stadion
+2022-23 2022-09-13 A Sigma Olomouc v Unicov  2-2  [R2]  Stadion SK Unicov
+2022-23 2022-10-19 A Sigma Olomouc v Zapy  1-3  [R3]  Stadion TJ Sokol Zapy
+2022-23 2022-11-26 A Sigma Olomouc v Slovan Liberec  4-1  [R16]  Stadion u Nisy
+2023-24 2023-08-30 A Sigma Olomouc v Trinec  1-4  [R2]  Stadion Rudolfa Labaje
+2023-24 2023-10-11 A Sigma Olomouc v Zizkov  0-1  [R3]  Stadion Viktorie v Seifertove ulici
+2023-24 2023-11-16 H Sigma Olomouc v Viktoria Plzen  1-3  [R16]  Andruv stadion
+
+## Slavia Prague
+2021-22 2021-09-22 A Slavia Prague v Velvary  2-4  [R3]  Stadion TJ Slovan Velvary
+2021-22 2021-12-15 H Slavia Prague v Zlin  3-1  [R16]  Sinobo Stadium
+2021-22 2022-02-09 H Slavia Prague v Sparta Prague  0-2  [QF]  Sinobo Stadium
+2022-23 2022-10-19 A Slavia Prague v Dukla Prague  0-4  [R3]  Stadion Juliska
+2022-23 2022-11-18 A Slavia Prague v Karvina  0-2  [R16]  Mestsky stadion (Karvina)
+2022-23 2023-03-01 H Slavia Prague v Vyskov  4-0  [QF]  Fortuna Arena
+2022-23 2023-04-05 H Slavia Prague v Bohemians 1905  2-2  [SF]  Fortuna Arena
+2022-23 2023-05-03 A Slavia Prague v Sparta Prague  0-2  [Final]  epet ARENA
+2023-24 2023-09-27 A Slavia Prague v Kromeriz  0-2  [R3]  Stadion Jozky Silneho
+2023-24 2023-12-06 A Slavia Prague v Hradec Kralove  0-0  [R16]  Malsovicka Arena
+2023-24 2024-02-28 H Slavia Prague v Sparta Prague  2-2  [QF]  Fortuna Arena
+
+## Slovacko
+2021-22 2021-09-22 A Slovacko v Zbuzany  1-2  [R3]  Stadion FK Zbuzany
+2021-22 2021-11-12 H Slovacko v Karvina  1-1  [R16]  Mestsky fotbalovy stadion Miroslava Valenty
+2021-22 2022-02-09 A Slovacko v Sigma Olomouc  0-0  [QF]  Andruv stadion
+2021-22 2022-03-25 A Slovacko v Hradec Kralove  0-1  [SF]  Lokotrans Arena
+2021-22 2022-05-18 H Slovacko v Sparta Prague  3-1  [Final]  Mestsky fotbalovy stadion Miroslava Valenty
+2022-23 2022-10-19 H Slovacko v Varnsdorf  6-0  [R3]  Mestsky fotbalovy stadion Miroslava Valenty
+2022-23 2022-11-18 H Slovacko v Mlada Boleslav  1-0  [R16]  Mestsky fotbalovy stadion Miroslava Valenty
+2022-23 2023-03-01 H Slovacko v Bohemians 1905  1-2  [QF]  Mestsky fotbalovy stadion Miroslava Valenty
+2023-24 2023-08-30 A Slovacko v Hlubina  0-8  [R2]  Stadion Hlubina
+2023-24 2023-09-27 H Slovacko v Dukla Prague  3-4  [R3]  Mestsky fotbalovy stadion Miroslava Valenty
+
+## Slovan Liberec
+2021-22 2021-08-25 H Slovan Liberec v Zbuzany  1-2  [R2]  Stadion u Nisy
+2022-23 2022-09-14 A Slovan Liberec v Rokycany  1-5  [R2]  Stadion pod Husovymi sady
+2022-23 2022-10-25 A Slovan Liberec v Frydek-Mistek  0-6  [R3]  Stovky
+2022-23 2022-11-26 H Slovan Liberec v Sigma Olomouc  4-1  [R16]  Stadion u Nisy
+2022-23 2023-03-01 H Slovan Liberec v Sparta Prague  2-2  [QF]  Stadion u Nisy
+2023-24 2023-09-26 A Slovan Liberec v Kladno  0-2  [R3]  Areal Frantiska Kloze
+2023-24 2023-11-01 H Slovan Liberec v Mlada Boleslav  1-0  [R16]  Stadion u Nisy
+2023-24 2024-02-28 A Slovan Liberec v Zlin  1-1  [QF]  Letna Stadion
+
+## Sparta Prague
+2021-22 2021-09-22 A Sparta Prague v Lisen  0-3  [R3]  Stadion SK Lisen
+2021-22 2021-10-27 A Sparta Prague v Teplice  0-2  [R16]  Na Stinadlech
+2021-22 2022-02-09 A Sparta Prague v Slavia Prague  0-2  [QF]  Sinobo Stadium
+2021-22 2022-03-02 H Sparta Prague v Jablonec  4-3  [SF]  Generali Ceska pojistovna Arena
+2021-22 2022-05-18 A Sparta Prague v Slovacko  3-1  [Final]  Mestsky fotbalovy stadion Miroslava Valenty
+2022-23 2022-10-19 A Sparta Prague v Domazlice  1-6  [R3]  Mestsky stadion Strelnice Domazlice
+2022-23 2022-11-19 A Sparta Prague v Banik Ostrava  2-3  [R16]  Mestsky stadion (Ostrava)
+2022-23 2023-03-01 A Sparta Prague v Slovan Liberec  2-2  [QF]  Stadion u Nisy
+2022-23 2023-04-05 H Sparta Prague v Ceske Budejovice  2-0  [SF]  epet ARENA
+2022-23 2023-05-03 H Sparta Prague v Slavia Prague  0-2  [Final]  epet ARENA
+2023-24 2023-09-27 A Sparta Prague v Lisen  0-1  [R3]  Stadion SK Lisen
+2023-24 2023-11-01 A Sparta Prague v Bohemians 1905  1-2  [R16]  Dolicek
+2023-24 2024-02-28 A Sparta Prague v Slavia Prague  2-2  [QF]  Fortuna Arena
+2023-24 2024-04-03 A Sparta Prague v Opava  0-2  [SF]  Stadion v Mestskych sadech
+2023-24 2024-05-22 A Sparta Prague v Viktoria Plzen  1-2  [Final]  Doosan Arena
+
+## Teplice
+2021-22 2021-08-25 A Teplice v Benesov  0-1  [R2]  Mestsky Stadion
+2021-22 2021-09-22 A Teplice v Trinec  0-1  [R3]  Stadion Rudolfa Labaje
+2021-22 2021-10-27 H Teplice v Sparta Prague  0-2  [R16]  Na Stinadlech
+2022-23 2022-09-14 A Teplice v Zizkov  1-1  [R2]  Stadion Viktorie v Seifertove ulici
+2022-23 2022-10-18 A Teplice v Pribram  0-3  [R3]  Na Litavce
+2022-23 2022-11-17 H Teplice v Zbrojovka Brno  2-2  [R16]  Na Stinadlech
+2023-24 2023-08-30 A Teplice v Brozany  3-4  [R2]  Ke Hristi
+2023-24 2023-09-27 A Teplice v Vyskov  1-0  [R3]  Sportovni areal Drnovice
+
+## Viktoria Plzen
+2021-22 2021-09-21 H Viktoria Plzen v Pribram  2-1  [R3]  Doosan Arena
+2021-22 2021-10-27 A Viktoria Plzen v Mlada Boleslav  2-0  [R16]  Lokotrans Arena
+2022-23 2022-10-19 A Viktoria Plzen v Hlucin  3-2  [R3]  Stadion Mestsky Lumira Kota
+2023-24 2023-10-12 A Viktoria Plzen v Marianske Lazne  0-10  [R3]  Sportovni areal Viktoria
+2023-24 2023-11-16 A Viktoria Plzen v Sigma Olomouc  1-3  [R16]  Andruv stadion
+2023-24 2024-04-02 A Viktoria Plzen v Jablonec  0-3  [QF]  Stadion Strelnice
+2023-24 2024-04-24 H Viktoria Plzen v Zlin  3-0  [SF]  Doosan Arena
+2023-24 2024-05-22 H Viktoria Plzen v Sparta Prague  1-2  [Final]  Doosan Arena
+
+## Zbrojovka Brno
+2021-22: --   (not a First-League club in 2021-22: 2022-23)
+2022-23 2022-09-14 A Zbrojovka Brno v Rosice  0-4  [R2]  Sportovni areal FC Slovan Rosice
+2022-23 2022-10-19 A Zbrojovka Brno v Taborsko  1-2  [R3]  Stadion Kvapilova
+2022-23 2022-11-17 A Zbrojovka Brno v Teplice  2-2  [R16]  Na Stinadlech
+2022-23 2023-03-01 A Zbrojovka Brno v Ceske Budejovice  2-1  [QF]  Stadion Strelecky ostrov
+2023-24: --   (not a First-League club in 2023-24: 2022-23)
+
+## Zlin
+2021-22 2021-09-01 A Zlin v Blansko  1-4  [R2]  Stadion na Mlynske
+2021-22 2021-10-07 A Zlin v Vyskov  1-1  [R3]  Sportovni areal Drnovice
+2021-22 2021-12-15 A Zlin v Slavia Prague  3-1  [R16]  Sinobo Stadium
+2022-23 2022-09-14 A Zlin v Start Brno  0-3  [R2]  Stadion TJ Start Brno
+2022-23 2022-10-25 H Zlin v Jihlava  2-0  [R3]  Letna Stadion
+2022-23 2022-11-17 H Zlin v Vyskov  0-1  [R16]  Letna Stadion
+2023-24 2023-08-30 A Zlin v Lanznot  0-1  [R2]  Fotbalovy stadion Na Slajsi
+2023-24 2023-10-11 A Zlin v Unicov  1-2  [R3]  Stadion SK Unicov
+2023-24 2023-11-01 A Zlin v Banik Ostrava  0-1  [R16]  Mestsky stadion (Ostrava)
+2023-24 2024-02-28 H Zlin v Slovan Liberec  1-1  [QF]  Letna Stadion
+2023-24 2024-04-24 A Zlin v Viktoria Plzen  3-0  [SF]  Doosan Arena
+
+validation-audit sha256 (self, computed before this line is appended): see repo audit log

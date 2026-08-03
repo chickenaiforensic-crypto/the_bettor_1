@@ -16,8 +16,27 @@ Owner's one-at-a-time queue, with the live-session override applied:
 | override | **WO-RUSCUP-BACKFILL-03** — Russian Cup 2021-22 → 2023-24 | `handoffs/RUSCUP-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 189 rows (domestic-cup after errata), 22 TEAM incl. FC Ufa, KAMAZ exact-form, all 162 self-gates PASS** (user commissioned the cup return live, ahead of the RPL league pack) |
 | ① | RPL league 2021-22 → 2023-24 | `handoffs/RPL-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 732 rows (240+4 per season ×3; 12 playoff rows compType `other` after errata), all 69 self-gates PASS** |
 | ② | **WO-CZ1-BACKFILL-02** — Czech First League 2021-22 → 2023-24 | `handoffs/CZ1-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 829 rows (276+276+277; pro/rel legs held out pending owner roster decision), all 105 self-gates PASS** |
-| ④ | MOLCUP (Czech MOL Cup) 2021-22 → 2023-24 | pack | **NEXT** (compType `domestic-cup` per errata) |
-| ⑤→ | EPL, FRA, GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`) |
+| ④ | **WO-MOLCUP-BACKFILL-04** — MOLCUP (Czech MOL Cup) 2021-22 → 2023-24 | `handoffs/MOLCUP-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 120 rows (41+41+38 per the WO-§1 slice; compType `domestic-cup` per errata), 31 TEAM, 20 advancement NOTEs, all 30 external gates PASS** |
+| ⑤ | **WO-EPL-BACKFILL-05** — EPL 2021-22 → 2023-24 | pack | **NEXT** |
+| ⑥→ | FRA, GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`) |
+
+### ④ MOLCUP return — build notes for the auditor
+
+- Slice reproduced per WO §1 from the official brackets (RSSSF primary `tsje2022/2023/2024.html#cup`
+  which carries R16→Final only — R2/R3 built from the en.wiki bracket sections and verified
+  tie-by-tie against worldfootball round pages; all 24 R16 ties identical across the three indexes).
+- 2023-24 slice = 38 (not 39): BOTH no-FL R16 ties excluded — Velvary 1-2 Opava **and**
+  Dukla Prague 3-1 Vyskov (Dukla was a CZ2 club in 2023-24, promoted only for 2024-25).
+- Two source defects found, disclosed in pack `source_conflict` NOTEs: (1) **Slovacko 3-1 Karvina
+  2021-11-12 was settled in extra time** (1-1 at 90') but printed as a plain 3-1 by BOTH
+  bracket sources — row carries 90'-score 1-1 + advancement NOTE; (2) **Plzen–Zlin SF date**
+  2024-04-24 (wiki box + worldfootball agree) vs RSSSF header [Apr 4] — row carries 2024-04-24.
+- compType `domestic-cup` per ERRATA-2026-08-03, superseding the WO §2 grammar line; FLAG raised
+  that the 63 client-held cup rows may need the same reclassing.
+- Builder `tools/build_molcup_pack.py` byte-deterministic; pack sha256
+  `5023eb33fd7a63f51fbb95d0535a811bc8f9ddc9b5d1ff20dc49ee8e893cec86`; external validator
+  `tools/validate_molcup_pack.py` → `audit/pack-validation-molcup.txt` (30/30 PASS, incl. the
+  per-team pivot ledgers per the owner decree).
 
 ## Auditor errata applied 2026-08-03 (ERRATA-2026-08-03)
 

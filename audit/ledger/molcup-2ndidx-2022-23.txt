@@ -1,0 +1,75 @@
+# SECOND-INDEX TRANSCRIPTION - 2022-23 Czech Cup, en.wikipedia.org/wiki/2022%E2%80%9323_Czech_Cup
+# fetched 2026-08-03 via MediaWiki API (prop=wikitext, sections 4/5/6/7/8/9).
+# Grammar: R2|R3|C16|iso-date|home|hg|ag|away|flags ; "*OUT*" = no 2022-23 First-League club in tie.
+# 2022-23 FL 16: Slavia,Plzen,Sparta,Slovacko,Ostrava,Hradec,MlBoleslav,Liberec,Olomouc,
+# CBudejovice,Zlin,Teplice,Jablonec,Bohemians,Pardubice,Brno. (Karvina relegated = FNL here.)
+# aet/pso ties: bracket lines show only the aet scoreline; 90-min splits ALL RESOLVED via
+# wf match-report timelines (flags marked RESOLVED below; register molcup-venues-teams.txt B).
+#
+R2|2022-09-13|Kvitkovice|1|5|Trinec|*OUT*
+R2|2022-09-13|Unicov|2|4|Olomouc|aet (RESOLVED 2026-08-03: 90-min 2-2, aet 2-4 - wf ma9507218)
+R2|2022-09-14|Zizkov|1|2|Teplice|aet (RESOLVED 2026-08-03: 90-min 1-1, aet 1-2 - wf ma9507201, Vachousek 101')
+R2|2022-09-14|Velvary|1|0|Pardubice|FL LOST (Pardubice eliminated in R2)
+R2|2022-09-14|Prepere|0|1|Taborsko|aet *OUT*
+R2|2022-09-14|Rokycany|1|5|Liberec|
+R2|2022-09-14|Motorlet|0|4|Jablonec|
+R2|2022-09-14|StartBrno|0|3|Zlin|
+R2|2022-09-14|Rosice|0|4|Brno|
+R2|2022-09-14|FrydekMistek|2|0|Opava|*OUT*
+R2|2022-09-14|Libcany|1|3|DuklaP|*OUT*
+R2|2022-09-14|Zapy|2|1|Chrudim|*OUT*
+R2|2022-09-14|UstiNOrlici|0|1|Chlumec|*OUT*
+R2|2022-09-14|Sobeslav|3|1|Prestice|*OUT*
+R2|2022-09-14|Domazlice|4|1|Aritma|*OUT*
+R2|2022-09-14|Tasovice|2|2|Prostejov|pso 2-3 *OUT*
+R2|2022-09-14|Hlucin|2|0|Lisen|*OUT*
+R2|2022-09-14|Vsechovice|2|9|Vyskov|*OUT*
+R2|2022-09-20|MarianskeLazne|2|3|Pribram|*OUT*
+R2|2022-09-21|Libisany|1|3|Jihlava|aet *OUT*
+R2|2022-09-21|Kromeriz|3|3|Ostrava|pso 1-4 (90-min 3-3 shown by bracket; pens 4-1 Ostrava)
+R2|2022-09-21|Benatky|1|2|Varnsdorf|*OUT*
+R2|2022-09-21|MostSous|1|4|Vlasim|*OUT*
+R2|2022-09-21|Caslav|0|11|Hradec|
+R2|2022-09-21|Bzenec|1|2|Karvina|*OUT* (Karvina = FNL 2022-23)
+R2|2022-09-21|UstiNLabem|0|3|Bohemians|
+R2|2022-09-21|Chomutov|0|5|CBudejovice|
+# R2 draw: 2022-08-26 (molcup.cz clanek/503: "Prvoligovi zastupci znaji soupere pro druhe kolo").
+# R2 = 27 ties listed / 11 FL-involving (the five UEFA clubs - Slavia,Plzen,Sparta,Slovacko,MlBoleslav - enter R3).
+#
+R3|2022-10-11|Jablonec|0|1|Vyskov|FL LOST (Jablonec eliminated in R3)
+R3|2022-10-18|Sobeslav|0|2|Karvina|*OUT*
+R3|2022-10-18|Pribram|0|3|Teplice|
+R3|2022-10-19|Velvary|0|2|Ostrava|
+R3|2022-10-19|Hlucin|3|2|Plzen|FL LOST (Plzen eliminated in R3; MSFL Hlucin)
+R3|2022-10-19|Domazlice|1|6|Sparta|
+R3|2022-10-19|Zapy|1|3|Olomouc|
+R3|2022-10-19|Chlumec|0|4|Hradec|
+R3|2022-10-19|DuklaP|0|4|Slavia|
+R3|2022-10-19|CBudejovice|3|1|Vlasim|
+R3|2022-10-19|MlBoleslav|4|0|Prostejov|
+R3|2022-10-19|Bohemians|2|1|Trinec|
+R3|2022-10-19|Slovacko|6|0|Varnsdorf|
+R3|2022-10-19|Taborsko|1|2|Brno|
+R3|2022-10-25|FrydekMistek|0|6|Liberec|
+R3|2022-10-25|Zlin|2|0|Jihlava|
+# R3 draw: 2022-09-23 (molcup.cz clanek/507). R3 = 16 ties / 15 FL-involving (Sobeslav-Karvina out).
+#
+# Fourth round (s6) diff vs RSSSF: ALL 8 ties identical on date AND score AND home-away order.
+C16|2022-11-17|Teplice|2|3|Brno|aet (RESOLVED 2026-08-03: 90-min 2-2, aet 2-3 - wf timeline Reznicek 90+4, 106')
+C16|2022-11-17|Zlin|0|1|Vyskov|
+C16|2022-11-18|Karvina|0|2|Slavia|
+C16|2022-11-18|Slovacko|1|0|MlBoleslav|
+C16|2022-11-19|Ostrava|2|3|Sparta|
+C16|2022-11-19|Bohemians|3|0|Hlucin|
+C16|2022-11-26|Liberec|4|1|Olomouc|
+C16|2023-02-01|CBudejovice|2|0|Hradec|
+#
+# QF/SF/F match boxes:
+WBOX|CQF|2023-03-01|Slovacko|1|2|Bohemians||Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|4165
+WBOX|CQF|2023-03-01|Liberec|2|2|Sparta|aet pens 3-5 (90-min 2-2: all goals in regulation)|Stadion u Nisy|Liberec|3258
+WBOX|CQF|2023-03-01|CBudejovice|2|1|Brno||Stadion Strelecky ostrov|Ceske Budejovice|952
+WBOX|CQF|2023-03-01|Slavia|4|0|Vyskov||Fortuna Arena|Prague|6697
+WBOX|CSF|2023-04-05|Sparta|2|0|CBudejovice||epet ARENA|Prague|11562
+WBOX|CSF|2023-04-05|Slavia|3|2|Bohemians|aet (90-min 2-2: DoudEra 23/90+7, Prekop 14, Hala 84; Jurecka 110)|Fortuna Arena|Prague|16087
+WBOX|CF|2023-05-03|Sparta|0|2|Slavia|neutral final|epet ARENA|Prague|17037
+# Champions: Slavia (DoudEra 59, Panak 64 og).
