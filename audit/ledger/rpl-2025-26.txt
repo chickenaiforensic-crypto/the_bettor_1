@@ -1,0 +1,265 @@
+# RPL 2025/26 league — RSSSF rus2026.html #1l (rounds 1-30) + #prorel, transcription started 2026-08-04 (decree DECREE-2026-08-04 full-span override)
+# MD|date|home|hg|ag|away   (RSSSF compact club strings on this page; builder maps to roster strings:
+#   Soci=>PFC Sochi, Krylja S.=>Krylia Sovetov Samara, Baltika=>Baltika Kaliningrad, Ahmat=>Akhmat Grozny,
+#   Dinamo Ms=>Dynamo Moscow, Dinamo Mh=>Dynamo Makhachkala, Akron=>Akron Tolyatti,
+#   Pari NN=>Pari Nizhny Novgorod, Orenburg=>FC Orenburg, Rostov=>FC Rostov, Rubin=>Rubin Kazan,
+#   Krasnodar=>FC Krasnodar, Zenit=>Zenit St Petersburg, CSKA=>CSKA Moscow, Spartak=>Spartak Moscow, Lokomotiv=>Lokomotiv Moscow)
+# notables documented on-page so far (2025-26):
+#  - season NBs: FC Khimki denied the RPL license and relegated (Pari NN reprieve, see 2024-25 prorel);
+#    Torpedo Moscow excluded from RPL for attempted match-fixing (context; never a 2025-26 member);
+#    Akron home games at Krylja Sovetov's stadium in Samara; Dinamo Mh home games in Kaspiysk;
+#    Pari NN played home games at various locations until Round 12 (stadium renovation), per-game city
+#    tags printed on the match lines: R1 Kazan, R3 Groznyj, R5 Saransk, R8 Saransk (rest printed w/o tag).
+#  - R13 [Oct 26] Akron 1-1 Lokomotiv staged in Saransk (city tag on the match line).
+#  - final table (printed on-page): 13/14 Akron/Dinamo Mh -> relegation playoff; 15 Pari NN relegated;
+#    16 Sochi [P] relegated; champion Zenit (11th title, 68), Krasnodar 66 [C].
+R1|2025-07-18|Dinamo Ms|1|1|Baltika
+R1|2025-07-19|Spartak|1|0|Dinamo Mh
+R1|2025-07-19|Lokomotiv|3|0|Soci
+R1|2025-07-19|Akron|1|1|Krylja S.
+R1|2025-07-20|Pari NN|0|3|Krasnodar
+R1|2025-07-20|Zenit|2|1|Rostov
+R1|2025-07-20|Ahmat|0|2|Rubin
+R1|2025-07-21|Orenburg|0|0|CSKA
+R2|2025-07-25|Krylja S.|2|0|Pari NN
+R2|2025-07-26|Krasnodar|1|2|Lokomotiv
+R2|2025-07-26|Spartak|0|3|Baltika
+R2|2025-07-26|Dinamo Ms|1|0|Rostov
+R2|2025-07-26|Soci|0|4|Akron
+R2|2025-07-27|Rubin|2|2|Zenit
+R2|2025-07-27|CSKA|2|1|Ahmat
+R2|2025-07-27|Orenburg|1|1|Dinamo Mh
+R3|2025-08-02|Pari NN|2|3|Lokomotiv
+R3|2025-08-02|Rostov|1|4|Krylja S.
+R3|2025-08-02|Krasnodar|1|0|Dinamo Ms
+R3|2025-08-03|Akron|1|1|Spartak
+R3|2025-08-03|Baltika|3|2|Orenburg
+R3|2025-08-03|Zenit|1|1|CSKA
+R3|2025-08-03|Dinamo Mh|1|0|Ahmat
+R3|2025-08-04|Rubin|2|1|Soci
+R4|2025-08-08|Dinamo Mh|1|1|Akron
+R4|2025-08-09|Lokomotiv|4|2|Spartak
+R4|2025-08-09|Krylja S.|1|1|Baltika
+R4|2025-08-09|CSKA|5|1|Rubin
+R4|2025-08-09|Ahmat|1|0|Zenit
+R4|2025-08-10|Orenburg|0|1|Krasnodar
+R4|2025-08-10|Soci|1|1|Dinamo Ms
+R4|2025-08-10|Rostov|1|0|Pari NN
+R5|2025-08-16|Baltika|1|1|Lokomotiv
+R5|2025-08-16|Ahmat|3|1|Krylja S.
+R5|2025-08-16|Spartak|2|2|Zenit
+R5|2025-08-17|Krasnodar|5|1|Soci
+R5|2025-08-17|Dinamo Ms|1|3|CSKA
+R5|2025-08-17|Rubin|1|0|Rostov
+R5|2025-08-17|Akron|1|2|Orenburg
+R5|2025-08-18|Pari NN|2|0|Dinamo Mh
+R6|2025-08-22|Orenburg|2|2|Ahmat
+R6|2025-08-23|Lokomotiv|3|3|Rostov
+R6|2025-08-23|Rubin|0|2|Spartak
+R6|2025-08-23|Zenit|4|0|Dinamo Mh
+R6|2025-08-23|Dinamo Ms|3|0|Pari NN
+R6|2025-08-24|Krylja S.|0|6|Krasnodar
+R6|2025-08-24|CSKA|3|1|Akron
+R6|2025-08-24|Soci|0|2|Baltika
+R7|2025-08-30|Orenburg|2|2|Rubin
+R7|2025-08-30|Zenit|2|0|Pari NN
+R7|2025-08-30|Spartak|2|1|Soci
+R7|2025-08-30|Rostov|1|1|Ahmat
+R7|2025-08-31|CSKA|1|1|Krasnodar
+R7|2025-08-31|Lokomotiv|2|2|Krylja S.
+R7|2025-08-31|Akron|0|2|Baltika
+R7|2025-08-31|Dinamo Mh|1|0|Dinamo Ms
+R8|2025-09-12|Rubin|1|0|Dinamo Mh
+R8|2025-09-13|Krasnodar|2|1|Akron
+R8|2025-09-13|Ahmat|1|1|Lokomotiv
+R8|2025-09-13|Dinamo Ms|2|2|Spartak
+R8|2025-09-13|Pari NN|3|1|Orenburg
+R8|2025-09-14|Rostov|1|0|CSKA
+R8|2025-09-14|Baltika|0|0|Zenit
+R8|2025-09-14|Krylja S.|2|0|Soci
+R9|2025-09-20|Dinamo Mh|1|1|Lokomotiv
+R9|2025-09-20|Akron|2|2|Rubin
+R9|2025-09-20|Pari NN|1|2|Ahmat
+R9|2025-09-21|Krasnodar|0|2|Zenit
+R9|2025-09-21|Baltika|0|0|Rostov
+R9|2025-09-21|Spartak|2|1|Krylja S.
+R9|2025-09-21|Orenburg|1|3|Dinamo Ms
+R9|2025-09-22|Soci|1|3|CSKA
+R10|2025-09-26|Krylja S.|2|3|Dinamo Ms
+R10|2025-09-27|Rostov|0|0|Krasnodar
+R10|2025-09-27|Lokomotiv|1|0|Rubin
+R10|2025-09-27|Zenit|5|2|Orenburg
+R10|2025-09-27|Ahmat|3|0|Akron
+R10|2025-09-28|CSKA|1|0|Baltika
+R10|2025-09-28|Spartak|3|0|Pari NN
+R10|2025-09-28|Dinamo Mh|0|0|Soci
+R11|2025-10-04|Dinamo Ms|3|5|Lokomotiv
+R11|2025-10-04|Krasnodar|2|0|Ahmat
+R11|2025-10-04|Akron|1|1|Zenit
+R11|2025-10-04|Rubin|2|0|Krylja S.
+R11|2025-10-05|CSKA|3|2|Spartak
+R11|2025-10-05|Baltika|2|0|Dinamo Mh
+R11|2025-10-05|Orenburg|0|1|Rostov
+R11|2025-10-05|Soci|2|1|Pari NN
+R12|2025-10-18|Lokomotiv|3|0|CSKA
+R12|2025-10-18|Dinamo Mh|0|2|Krasnodar
+R12|2025-10-18|Spartak|1|1|Rostov
+R12|2025-10-18|Krylja S.|1|1|Orenburg
+R12|2025-10-18|Pari NN|0|1|Akron
+R12|2025-10-19|Soci|0|3|Zenit
+R12|2025-10-19|Rubin|0|3|Baltika
+R12|2025-10-19|Dinamo Ms|2|2|Ahmat
+R13|2025-10-25|CSKA|1|0|Krylja S.
+R13|2025-10-25|Spartak|1|0|Orenburg
+R13|2025-10-25|Rostov|1|1|Dinamo Mh
+R13|2025-10-26|Akron|1|1|Lokomotiv
+R13|2025-10-26|Krasnodar|1|0|Rubin
+R13|2025-10-26|Zenit|2|1|Dinamo Ms
+R13|2025-10-26|Pari NN|0|0|Baltika
+R13|2025-10-27|Ahmat|2|4|Soci
+R14|2025-10-31|CSKA|2|0|Pari NN
+R14|2025-11-01|Zenit|2|0|Lokomotiv
+R14|2025-11-01|Rubin|0|0|Dinamo Ms
+R14|2025-11-01|Rostov|0|1|Akron
+R14|2025-11-01|Dinamo Mh|2|0|Krylja S.
+R14|2025-11-02|Krasnodar|2|1|Spartak
+R14|2025-11-02|Baltika|2|0|Ahmat
+R14|2025-11-02|Orenburg|3|1|Soci
+R15|2025-11-08|Dinamo Mh|0|1|CSKA
+R15|2025-11-08|Pari NN|0|0|Rubin
+R15|2025-11-08|Dinamo Ms|1|2|Akron
+R15|2025-11-08|Soci|0|1|Rostov
+R15|2025-11-09|Baltika|1|1|Krasnodar
+R15|2025-11-09|Krylja S.|1|1|Zenit
+R15|2025-11-09|Lokomotiv|1|0|Orenburg
+R15|2025-11-09|Ahmat|1|2|Spartak
+R16|2025-11-21|Akron|3|2|Soci
+R16|2025-11-22|Spartak|1|0|CSKA
+R16|2025-11-22|Orenburg|0|0|Baltika
+R16|2025-11-22|Rubin|1|0|Ahmat
+R16|2025-11-23|Lokomotiv|1|1|Krasnodar
+R16|2025-11-23|Pari NN|0|2|Zenit
+R16|2025-11-23|Krylja S.|2|0|Rostov
+R16|2025-11-23|Dinamo Ms|3|0|Dinamo Mh
+R17|2025-11-29|CSKA|2|0|Orenburg
+R17|2025-11-29|Baltika|1|0|Spartak
+R17|2025-11-29|Akron|1|2|Pari NN
+R17|2025-11-30|Krasnodar|5|0|Krylja S.
+R17|2025-11-30|Zenit|1|0|Rubin
+R17|2025-11-30|Rostov|1|3|Lokomotiv
+R17|2025-11-30|Ahmat|2|1|Dinamo Ms
+R17|2025-12-01|Soci|0|0|Dinamo Mh
+R18|2025-12-05|Ahmat|1|0|Orenburg
+R18|2025-12-06|Zenit|2|0|Akron
+R18|2025-12-06|Spartak|1|1|Dinamo Ms
+R18|2025-12-06|Rostov|2|0|Rubin
+R18|2025-12-07|Krasnodar|3|2|CSKA
+R18|2025-12-07|Soci|2|4|Lokomotiv
+R18|2025-12-07|Baltika|2|0|Krylja S.
+R18|2025-12-07|Dinamo Mh|0|1|Pari NN
+R19|2026-02-27|Zenit|1|0|Baltika
+R19|2026-02-28|Krasnodar|2|1|Rostov
+R19|2026-02-28|Lokomotiv|2|1|Pari NN
+R19|2026-02-28|Dinamo Mh|2|1|Rubin
+R19|2026-02-28|Orenburg|2|0|Akron
+R19|2026-03-01|Ahmat|1|0|CSKA
+R19|2026-03-01|Dinamo Ms|4|0|Krylja S.
+R19|2026-03-02|Soci|2|3|Spartak
+R20|2026-03-07|Rostov|1|1|Baltika
+R20|2026-03-07|Pari NN|2|1|Soci
+R20|2026-03-08|Rubin|2|1|Krasnodar
+R20|2026-03-08|Orenburg|2|1|Zenit
+R20|2026-03-08|CSKA|1|4|Dinamo Ms
+R20|2026-03-08|Krylja S.|2|0|Dinamo Mh
+R20|2026-03-09|Lokomotiv|2|2|Ahmat
+R20|2026-03-09|Spartak|4|3|Akron
+R21|2026-03-13|Dinamo Mh|1|0|Orenburg
+R21|2026-03-14|Soci|1|2|Krasnodar
+R21|2026-03-14|Zenit|2|0|Spartak
+R21|2026-03-14|Baltika|1|0|CSKA
+R21|2026-03-14|Rostov|0|1|Dinamo Ms
+R21|2026-03-15|Rubin|3|0|Lokomotiv
+R21|2026-03-15|Akron|1|1|Ahmat
+R21|2026-03-15|Pari NN|3|0|Krylja S.
+R22|2026-03-21|Krasnodar|5|0|Pari NN
+R22|2026-03-21|Baltika|4|0|Soci
+R22|2026-03-21|CSKA|3|1|Dinamo Mh
+R22|2026-03-21|Ahmat|1|0|Rostov
+R22|2026-03-22|Dinamo Ms|1|3|Zenit
+R22|2026-03-22|Lokomotiv|5|1|Akron
+R22|2026-03-22|Orenburg|0|2|Spartak
+R22|2026-03-22|Krylja S.|0|0|Rubin
+R23|2026-04-04|Ahmat|0|1|Krasnodar
+R23|2026-04-04|Zenit|2|1|Krylja S.
+R23|2026-04-04|Akron|1|2|CSKA
+R23|2026-04-04|Dinamo Ms|3|3|Orenburg
+R23|2026-04-05|Spartak|2|1|Lokomotiv
+R23|2026-04-05|Dinamo Mh|2|2|Baltika
+R23|2026-04-05|Pari NN|0|1|Rostov
+R23|2026-04-06|Soci|0|1|Rubin
+R24|2026-04-11|Baltika|2|2|Pari NN
+R24|2026-04-11|Rubin|0|0|Orenburg
+R24|2026-04-11|Krylja S.|2|2|Ahmat
+R24|2026-04-12|Zenit|1|1|Krasnodar
+R24|2026-04-12|Lokomotiv|1|1|Dinamo Mh
+R24|2026-04-12|CSKA|0|1|Soci
+R24|2026-04-12|Rostov|1|1|Spartak
+R24|2026-04-13|Akron|2|3|Dinamo Ms
+R25|2026-04-17|Rostov|0|1|Soci
+R25|2026-04-18|Orenburg|0|1|Lokomotiv
+R25|2026-04-18|Krylja S.|1|1|CSKA
+R25|2026-04-18|Pari NN|1|1|Dinamo Ms
+R25|2026-04-18|Rubin|1|1|Akron
+R25|2026-04-19|Krasnodar|2|2|Baltika
+R25|2026-04-19|Dinamo Mh|0|1|Zenit
+R25|2026-04-19|Spartak|3|1|Ahmat
+R26|2026-04-21|CSKA|1|1|Rostov
+R26|2026-04-21|Soci|2|1|Krylja S.
+R26|2026-04-22|Lokomotiv|0|0|Zenit
+R26|2026-04-22|Dinamo Ms|0|1|Rubin
+R26|2026-04-22|Orenburg|2|1|Pari NN
+R26|2026-04-23|Spartak|1|2|Krasnodar
+R26|2026-04-23|Ahmat|1|1|Baltika
+R26|2026-04-23|Akron|1|1|Dinamo Mh
+R27|2026-04-25|Krylja S.|2|0|Lokomotiv
+R27|2026-04-25|Rubin|0|0|CSKA
+R27|2026-04-25|Rostov|0|1|Orenburg
+R27|2026-04-26|Krasnodar|2|1|Dinamo Mh
+R27|2026-04-26|Zenit|2|0|Ahmat
+R27|2026-04-26|Pari NN|1|2|Spartak
+R27|2026-04-26|Dinamo Ms|2|0|Soci
+R27|2026-04-27|Baltika|0|1|Akron
+R28|2026-05-01|Lokomotiv|1|1|Dinamo Ms
+R28|2026-05-01|Krylja S.|2|1|Spartak
+R28|2026-05-02|CSKA|1|3|Zenit
+R28|2026-05-02|Baltika|0|1|Rubin
+R28|2026-05-02|Dinamo Mh|1|2|Rostov
+R28|2026-05-03|Akron|0|1|Krasnodar
+R28|2026-05-03|Ahmat|2|0|Pari NN
+R28|2026-05-03|Soci|3|1|Orenburg
+R29|2026-05-10|Zenit|2|1|Soci
+R29|2026-05-10|Lokomotiv|1|0|Baltika
+R29|2026-05-10|Ahmat|1|1|Dinamo Mh
+R29|2026-05-10|Orenburg|1|0|Krylja S.
+R29|2026-05-11|Dinamo Ms|2|1|Krasnodar
+R29|2026-05-11|Spartak|2|1|Rubin
+R29|2026-05-11|Pari NN|1|2|CSKA
+R29|2026-05-11|Akron|1|3|Rostov
+R30|2026-05-17|Rostov|0|1|Zenit
+R30|2026-05-17|Krasnodar|3|0|Orenburg
+R30|2026-05-17|CSKA|3|1|Lokomotiv
+R30|2026-05-17|Dinamo Mh|0|0|Spartak
+R30|2026-05-17|Baltika|1|2|Dinamo Ms
+R30|2026-05-17|Rubin|2|2|Pari NN
+R30|2026-05-17|Soci|1|1|Ahmat
+R30|2026-05-17|Krylja S.|4|1|Akron
+# TABLE-CONSTANTS (RSSSF final table; no point ties -> order fully determined): 1 Zenit 30 20-8-2 53-19 68 (champions, 11th title); 2 Krasnodar 30 20-6-4 60-23 66 [C]; 3 Lokomotiv 30 14-11-5 54-39 53; 4 Spartak 30 15-7-8 47-39 52; 5 CSKA 30 15-6-9 44-33 51; 6 Baltika 30 11-13-6 38-21 46 [P]; 7 Dinamo Ms 30 12-9-9 51-40 45; 8 Rubin 30 11-10-9 29-30 43; 9 Ahmat 30 9-10-11 35-39 37; 10 Rostov 30 8-9-13 25-32 33; 11 Krylja S. 30 8-8-14 35-50 32; 12 Orenburg 30 7-8-15 29-44 29; 13 Akron 30 6-9-15 35-53 27 playoff; 14 Dinamo Mh 30 5-11-14 19-37 26 playoff; 15 Pari NN 30 6-5-19 26-50 23 relegated; 16 Soci 30 6-4-20 29-60 22 [P] relegated.
+# source totals: 240 games, 609 goals (18 OG), avg 2.54. 2025-27 dates: R19-R30 played 2026 (winter break after R18 [Dec 7] -> R19 [Feb 27]).
+# PLAYOFFS (promotion/relegation, RSSSF #prorel; ties dated [May 20, 23] 2026). Printed home-first-legged:
+#   Ural 0-1 / 0-2 Dinamo Mh [agg 0-3]; Rotor 0-2 / 1-0 Akron [agg 1-2]. NB from source: all clubs remain at
+#   their level (Akron + Dinamo Mh stay RPL; Ural + Rotor stay FNL). No shootouts - all decided in 180 minutes.
+#   Roster strings: Ural Yekaterinburg; Rotor Volgograd = FNL club (TEAM row candidate - check cross-pack identity).
+PRO-rel leg1|2026-05-20|Ural|0|1|Dinamo Mh
+PRO-rel leg1|2026-05-20|Rotor Volgograd|0|2|Akron
+PRO-rel leg2|2026-05-23|Dinamo Mh|2|0|Ural
+PRO-rel leg2|2026-05-23|Akron|0|1|Rotor Volgograd
