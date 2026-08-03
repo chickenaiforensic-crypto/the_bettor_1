@@ -10,6 +10,14 @@
 # recompute (club-for-club + position order) — plus cross-checks: football-data.co.uk E0.csv
 # 2526 spot rows MD1 (13 rows incl. MD2 openers, identical date+score), worldfootball
 # matchday pages (spot-audits), Wikipedia FBR matrix diff. RSSSF remains table authority.
+# SECOND-INDEX RESULTS (all fetched/transcribed 2026-08-03):
+#  (a) Wikipedia 2025-26 PL "Results" FBR matrix (chunks 10-11/35) -> audit/ledger/
+#      epl-2ndidx-2025-26.txt (380 MX cells); tools/diff_epl_matrix.py => 380/380 pairings
+#      IDENTICAL scores; matrix goals total 1045 = ledger 1045.
+#  (b) MD31 strays date-corroborated by football-data.co.uk mmz4281/2526/E0.csv rows
+#      (fetched 2026-08-03): "E0,18/02/2026,20:00,Wolves,Arsenal,2,2,D,0,1,A,P Tierney"
+#      (chunk 18) and "E0,13/05/2026,20:00,Man City,Crystal Palace,3,0,H,2,0,H,S Attwell"
+#      (chunk 24) — both byte-agree with R31 stray rows below incl. referees Tierney/Attwell.
 # RSSSF final-table quirks carried verbatim: Liverpool row carries the [C] tag (5th, 60);
 # [P] tags on Sunderland (7th), Leeds (14th), Burnley (19th) = the three promoted sides;
 # dashed line above 18 = relegation cut; "Champions"/"Relegated" prose kept.

@@ -407,3 +407,64 @@ Still outstanding at close: the owner-announced upload of the original `ERRATA-2
 (attachment listed on the 2026-08-03 evening message) had not materialized in the sandbox
 (`/home/user/uploads/` absent) — the as-relayed mirror continues to govern; the original will be
 placed at `supervisor/ERRATA-2026-08-03.md` when it lands.
+
+## Addendum 2026-08-03 (seventh) — WO-EPL-SPAN-12 returned (England Premier League 2021-22 → 2025-26 + 2026-27 boundary)
+
+**Deliverable:** `handoffs/EPL-2021-2026_BP-TEAM-PACK_v2.txt` — 1,900 MATCH rows (380 × five full
+seasons, competition `England Premier League`, compType `domestic-league`, venue-detail `MD1..MD38`),
+0 TEAM (WO §2 directive; the 27 pinned roster strings appear verbatim — `Tottenham`, `Wolves`,
+`Man City`, `Man United`, `Nott'm Forest` apostrophe form, `Sheffield United`), 17 SOURCE / 17 NOTE,
+`END`. Validation: `audit/pack-validation-epl.txt` — **83/83 gates PASS**; builder
+`tools/build_epl_pack.py` is byte-deterministic (two consecutive builds → identical sha256
+`707dd83047306b07fe52c4e350f89e802e257b7b096a503cea75166861953036`).
+
+**Primary source behaviour.** RSSSF `tablese/eng2022..eng2025.html` (Ian King) carry full
+round-by-round dates+scores plus the official final tables; transcribed `audit/ledger/epl-*.txt`
+same-day and machine-verified (rounds 38×10 every season; recompute reproduces each final table
+club-for-club **and in position order**, incl. pts/GD/GF ordering; official goal anchors
+1,071 / 1,084 / 1,246 (all-time PL season record) / 1,115 all hit exactly).
+`eng2026.html` (Karel Stokkermans, updated 14 Jun 2026) is the **documented adaptation**: it prints
+the Premier League **final table only** — no round listings (full-page verification, chunks 0-2).
+The 2025-26 match rows are therefore sourced from `openfootball/england
+master/2025-26/1-premierleague.txt` (row label `openfootball-england-2526`) and recompute to the
+RSSSF table **exact** (club-for-club + position order); the Wikipedia FBR matrix provides the
+score-level second index (380/380 IDENTICAL; goals 1045 = 1045) and football-data.co.uk /
+worldfootball spot rows cover date-level corroboration (MD1 block, both MD31 strays byte-for-byte,
+QEII round-7 10/10, final-day MD38 all 2026-05-24).
+
+**Second-index lattice (all transcribed 2026-08-03).** openfootball season files 2021-22..2024-25
+diffed row-for-row vs RSSSF: **380/380 IDENTICAL round+date+score in all four seasons**
+(`tools/diff_epl_second_index.py`); Wikipedia 2025-26 FBR matrix
+(`tools/diff_epl_matrix.py`, `audit/ledger/epl-2ndidx-2025-26.txt`): **380/380 IDENTICAL scores**.
+Two RSSSF misprints found and adjudicated (full verbatim evidence retained in ledger headers):
+(a) 2023-24 round-15 pair Everton 3-0 Newcastle / Tottenham 1-2 West Ham printed under `[Dec 2]`
+(impossible — both clubs already in round 14 Dec 2/3): openfootball MD15 confirms played
+**2023-12-07** → dates carried corrected, scores identical everywhere;
+(b) 2024-25 round-12 Newcastle 0-2 West Ham printed `[Nov 24]`: **two independent indexes**
+(openfootball "Mon Nov 25 / 20:00"; football-data row `E0,25/11/2024,20:00,Newcastle,West Ham,0,2`)
+agree against it → per WO §4 their **2024-11-25** is carried, `NOTE|warning|source_conflict` issued.
+
+**Continuity doctrine.** All 190 matchweeks dated; no cancelled fixture in the window. Rows keep
+original MD labels, file date-sorted: 2022-23 R7 postponed in full (death of Queen Elizabeth II;
+played 2023-01-12..2023-04-05); 2023-24 R17 Bournemouth-Luton abandoned 1-1 65' (Tom Lockyer)
+2023-12-16 = **VOID — no row** (the ROW-level doctrine: never a fabricated score), complete rematch
+2024-03-13 (4-3) carries R17; 2024-25 R15 Everton-Liverpool (Storm Darragh) 2025-02-12 plus the
+R29/R34 stragglers; 2025-26 MD31 triple-slice (Wolves-Arsenal fwd 2026-02-18, main body
+2026-03-20..22, Man City-Palace back 2026-05-13). **Deductions:** 2023-24 table carries
+Everton **−8** / Nott'm Forest **−4** PSR brackets; the table gate applies them before order checks.
+**Membership boundary** verified 4/4: bottom-3 clubs of each season absent next season, promoted
+trios appear (incl. Luton 2023-24, Ipswich 2024-25, Sunderland 2025-26).
+
+**Boundary statement (WO §1 row 2).** Last completed round of the span = 2025-26 MD38
+(2026-05-24, all ten fixtures). 2026-27 had **not started** on the return date: `eng2027.html` 404;
+the season card fixes 21 Aug 2026 – 30 May 2027 with fixtures released 19 Jun 2026; promoted
+Coventry City / Ipswich Town / Hull City; relegated West Ham / Burnley / Wolves = this pack's bottom
+three → zero 2026-27 rows emitted, stated in the `boundary` NOTE (not a blocker).
+
+**Owner pivot decree.** 100/100 club-season full-campaign pivots re-derived from the pack's own
+rows and embedded in the validation output (each club 38 games in round order; TEAMPIVOT summaries
+reproduce the final-table lines, deductions flagged inline); copies in `audit/ledger/epl-pivot-*.txt`.
+**Venues:** 100 constants from the five Wikipedia season stadium tables
+(`audit/ledger/epl-venues.txt`); Everton epoch Goodison Park → Hill Dickinson Stadium from 2025-26;
+no groundshares or neutral-venue league fixtures in the window; Man United city canonicalized as
+Manchester across the span (source prints Trafford/Manchester variants — documented).

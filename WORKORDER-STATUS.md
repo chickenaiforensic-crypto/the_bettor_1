@@ -17,8 +17,48 @@ Owner's one-at-a-time queue, with the live-session override applied:
 | ① | RPL league 2021-22 → 2023-24 | `handoffs/RPL-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 732 rows (240+4 per season ×3; 12 playoff rows compType `other` after errata), all 69 self-gates PASS** |
 | ② | **WO-CZ1-BACKFILL-02** — Czech First League 2021-22 → 2023-24 | `handoffs/CZ1-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03, amended same-day on the auditor's return (body approved: tables 3×16/16, brackets 18/18, CLP row) — 841 rows (276+276+277 league + 12 Czech Relegation Playoffs pro/rel legs, compType `other` per ERRATA), all 120 self-gates PASS** |
 | ④ | **WO-MOLCUP-BACKFILL-04** — MOLCUP (Czech MOL Cup) 2021-22 → 2023-24 | `handoffs/MOLCUP-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 120 rows (41+41+38 per the WO-§1 slice; compType `domestic-cup` per errata), 31 TEAM, 20 advancement NOTEs, all 30 external gates PASS** |
-| ⑤ | **WO-EPL-BACKFILL-05** — EPL 2021-22 → 2023-24 | pack | **NEXT** |
-| ⑥→ | FRA, GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`) |
+| ⑤ | **WO-EPL-SPAN-12** — England Premier League 2021-22 → 2025-26 (+ 2026-27 boundary) | `handoffs/EPL-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 1,900 rows (380 ×5, `domestic-league`, `MD<n>` venue-detail), 0 TEAM (27 roster strings verbatim), 17 SOURCE / 17 NOTE, all 83 self-gates PASS** (the register's earlier "WO-EPL-BACKFILL-05 (2021-22 → 2023-24)" id is stale — the governing card on `origin/main` is the 5-year-span order; scope covered through today per its §0 no-cutoff note) |
+| ⑥→ | FRA, GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`); cups run `domestic-cup`, GER = 18 clubs/34 rounds per its card |
+
+### ⑤ EPL return — build notes for the auditor
+
+- **Source-hierarchy outcome:** RSSSF `tablese/eng2022..eng2025.html` (Ian King) = full rounds +
+  final tables, transcribed to `audit/ledger/epl-<season>.txt` on fetch day and self-verified
+  (38×10; tables 20/20 + position order ×5; official season goal anchors 1,071/1,084/1,246/1,115).
+  **`eng2026.html` adaptation (documented, no alternative within RSSSF):** the page (Karel
+  Stokkermans, updated 14 Jun 2026) prints the Premier League **final table only** — the 2025-26
+  match rows are therefore sourced from `openfootball/england master/2025-26/1-premierleague.txt`
+  (label `openfootball-england-2526` on those rows) and reproduce the RSSSF table club-for-club
+  **and** in position order EXACT on full recompute (gated; 380 rows, 1,045 goals,
+  2025-08-15..2026-05-24).
+- **Second-index lattice:** openfootball season files diffed row-for-row vs RSSSF for
+  2021-22..2024-25 — **380/380 IDENTICAL (round+date+score) in all four seasons** incl. the
+  QEII round-7 scatter (10/10, original window 2022-09-10..12 → played 2023-01-12..2023-04-05);
+  Wikipedia 2025-26 FBR matrix diffed cell-for-cell — **380/380 IDENTICAL scores** (goals 1045=1045);
+  worldfootball QEII MD7 page 10/10; football-data E0 CSV rows byte-agree on every queried fixture.
+- **Adjudications (both in pack `source_conflict` NOTEs):** (a) RSSSF 2023-24 prints round-15
+  Everton 3-0 Newcastle & Tottenham 1-2 West Ham under an impossible `[Dec 2]` — played
+  **2023-12-07** per openfootball (dates corrected, scores never in doubt); (b) RSSSF 2024-25
+  prints round-12 Newcastle 0-2 West Ham `[Nov 24]` — **two independent indexes**
+  (openfootball "Mon Nov 25/20:00" + football-data row `25/11/2024,20:00`) agree against it, so
+  per WO §4 the pack carries **2024-11-25**; RSSSF prints preserved verbatim in the ledgers.
+- **Anomaly gates (90-minute doctrine respected):** 2022-23 R7 full postponement (QEII) — 10 rows,
+  none in Sep 2022; 2023-24 R17 Bournemouth-Luton abandoned 1-1 65' 2023-12-16 = **VOID, no row**;
+  the full replay 2024-03-13 (4-3) carries the R17 label; 2024-25 R15 Everton-Liverpool
+  (Storm Darragh) 2025-02-12; 2025-26 **MD31 triple-slice** (Wolves-Arsenal fwd 2026-02-18; 8 games
+  2026-03-20..22; Man City-Palace back 2026-05-13 — strays corroborated by the CSV rows).
+- **Deductions:** 2023-24 final table carries Everton **−8** and Nott'm Forest **−4** (PSR);
+  the table gate applies them before position-order verification.
+- **Boundary (WO §1 row 2):** last round = 2025-26 MD38 (all 10 fixtures 2026-05-24); 2026-27
+  starts **2026-08-21**, after the return date (`rsssf eng2027` = 404; wiki 2026-27 card: fixtures
+  released 19 Jun 2026, promoted Coventry/Ipswich/Hull, relegated West Ham/Burnley/Wolves = this
+  pack's bottom three) → **zero 2026-27 rows, boundary stated in a NOTE**.
+- **Per-team pivot decree:** 100/100 club-season full-campaign pivots embedded in
+  `audit/pack-validation-epl.txt` (also `audit/ledger/epl-pivot-*.txt`).
+- Builder `tools/build_epl_pack.py` byte-deterministic; pack sha256
+  `707dd83047306b07fe52c4e350f89e802e257b7b096a503cea75166861953036`; venue constants (100 rows)
+  from the five Wikipedia season stadium tables → `audit/ledger/epl-venues.txt` (Everton epoch:
+  Goodison Park → Hill Dickinson Stadium 2025-26).
 
 ### ④ MOLCUP return — build notes for the auditor
 

@@ -1,6 +1,17 @@
 # EPL 2026-27 — SPAN-END STATUS LEDGER (WO-EPL-SPAN-12 section-1 row 2: state last round/date in a NOTE)
-# 2026-08-03: rsssf.org/tablese/eng2027.html -> 404 Not Found (season page not yet published).
-# The 2025-26 season ended 2026-05 (exact MD38 date from eng2026.html, to be transcribed).
-# 2026-27 EPL kickoff date to be sourced (wiki/official); expected mid-August 2026.
-# CONCLUSION (pending the kickoff citation): zero 2026-27 rows exist to collect; the 5YSPAN
-# return is complete through 2025-26 MD38 and gap-free as of the return date.
+# Return date: 2026-08-03. Verdict: ZERO 2026-27 league rows exist as of the return date —
+# the season has not kicked off. Evidence (all fetched 2026-08-03):
+#  (a) https://www.rsssf.org/tablese/eng2027.html -> 404 Not Found (RSSSF season page not yet published).
+#  (b) https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League (chunk 0/21), verbatim:
+#      "Dates | 21 August 2026 – 30 May 2027"; "The season will start on 21 August 2026 and end on
+#      30 May 2027. The fixtures were released on 19 June 2026 at 10:00 BST."; "33 weekend and five
+#      midweek rounds"; opening+final matchweeks postponed one week due to the 2026 FIFA World Cup;
+#      Arsenal enter as defending champions.
+#  (c) 2026-27 membership per the same article: top 17 of 2025-26 + promoted Coventry City,
+#      Ipswich Town, Hull City; relegated out West Ham United, Burnley, Wolverhampton Wanderers —
+#      consistent with the 2025-26 RSSSF final table relegation rows (WestHam 18, Burnley 19,
+#      Wolves 20). Worldfootball 2026-27 section (se121880) exists but carries no played fixtures.
+# CONCLUSION: the 5YSPAN return is complete through 2025-26 MD38 (final round played 2026-05-24,
+# span of full ledger 2025-08-15..2026-05-24) and is gap-free as of the return date; the 2026-27
+# opener (2026-08-21) falls AFTER the return date, so no 2026-27 MATCH rows are emitted. This is
+# reported in the pack as a boundary NOTE, not a blocker.
