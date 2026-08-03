@@ -20,6 +20,24 @@ Owner's one-at-a-time queue, with the live-session override applied:
 | ⑤ | **WO-EPL-SPAN-12** — England Premier League 2021-22 → 2025-26 (+ 2026-27 boundary) | `handoffs/EPL-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 1,900 rows (380 ×5, `domestic-league`, `MD<n>` venue-detail), 0 TEAM (27 roster strings verbatim), 17 SOURCE / 17 NOTE, all 83 self-gates PASS** (the register's earlier "WO-EPL-BACKFILL-05 (2021-22 → 2023-24)" id is stale — the governing card on `origin/main` is the 5-year-span order; scope covered through today per its §0 no-cutoff note) |
 | ⑥→ | FRA, GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`); cups run `domestic-cup`, GER = 18 clubs/34 rounds per its card |
 
+### Closure confirmation (2026-08-04, owner request: "mark Russia + completed as closed")
+
+Re-verified fresh this date — every delivered builder re-run **byte-identical** (two passes each),
+all gates re-green:
+
+| Pack | Rows | Gates | sha256 (prefix) | Span architecture per its workorder |
+|---|---|---|---|---|
+| RUSCUP | 189 | 162/162 | `c2658b49…` | 2021-22/22-23/23-24 delivered here (36+77+76 auditor-proven RPL-slice); 2024-25 + 2025-26 (76 rows each) held + auditor-verified client-side per WO §1; current season fills centrally |
+| RPL | 732 | 69/69 | `6e458e19…` | 2021-22/22-23/23-24 delivered here (240 league + 4 playoff legs each); 2024-25 + 2025-26 (240/240 each) held client-side per WO preamble; 2026-27 in progress via central requests |
+| CZ1 | 841 | 120/120 | `55d9bd80…` | same segment architecture (2021→2024 delivered; later seasons held client-side per the segment commission) |
+| MOLCUP | 120 | 30/30 | `5023eb33…` | 2021-22/22-23/23-24 slice (41+41+38) delivered |
+| EPL | 1,900 | 83/83 | `707dd830…` | **full span, no cutoff** — all five seasons 2021-22 → 2025-26 delivered here; 2026-27 boundary proven to start 2026-08-21 (after the return date) = zero rows by rule |
+
+Nothing is outstanding on the researcher side for Russia or any delivered federation; the
+gap-free whole-span certification (delivered segment + held seasons + central feed) and the
+§6 owner approval happen owner-side, exactly as the workorders prescribe. All work pushed
+to `origin/arena/019fc462-the-bettor-1` (tip `06a76f5` + the doc fixes of this entry).
+
 ### ⑤ EPL return — build notes for the auditor
 
 - **Source-hierarchy outcome:** RSSSF `tablese/eng2022..eng2025.html` (Ian King) = full rounds +
@@ -96,7 +114,9 @@ byte-deterministically with the full gate suites re-run:
    written in exact form everywhere (`KAMAZ Naberezhnye Chelny` — was KamAZ).
 
 Rebuilt artifacts (sha256-stable under `tools/build_*.py` re-runs):
-RPL `6e458e19…` (69/69 gates) · RUSCUP `18ba4695…` (162/162 gates).
+RPL `6e458e19…` (69/69 gates) · RUSCUP `c2658b49…` (162/162 gates; final after the
+auditor-return KAMAZ exact-string cycle — the intermediate post-errata build read
+`18ba4695…`).
 
 ## Delivered artifacts (this branch)
 

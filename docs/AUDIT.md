@@ -267,7 +267,9 @@ gate suites re-run the same day):
    own workorder mirror (left verbatim).
 
 Gate evidence after rebuild: RPL 69/69 (`audit/pack-validation-rpl.txt`, sha
-`6e458e19…`), RUSCUP 162/162 (`audit/pack-validation.txt`, sha `18ba4695…`).
+`6e458e19…`), RUSCUP 162/162 (`audit/pack-validation.txt`, sha `18ba4695…` —
+intermediate post-errata build; superseded by final `c2658b49…` after the auditor-return
+KAMAZ exact-string cycle, see the sixth addendum below).
 
 ---
 
@@ -320,7 +322,9 @@ Hradec 2021-22/2022-23 at Lokotrans Arena, Mlada Boleslav (rebuild; city follows
 Pardubice 2021-22 at Dolicek, Prague, and 2022-23 split at the winter break Dolicek → CFIG
 Arena; Hradec 2023-24 at the new Malsovicka Arena (first home game 2023-08-05 = opening);
 era sponsor names per season. Gates: 105 PASS / 0 FAIL (`audit/pack-validation-cz1.txt`);
-builder `tools/build_cz1_pack.py` byte-deterministic (pack sha256 `eee4686f…`).
+builder `tools/build_cz1_pack.py` byte-deterministic (pack sha256 `eee4686f…` — v2.1
+829-row build; superseded by `55d9bd80…` after the pro/rel reinstatement in the sixth
+addendum below).
 
 ## Addendum (2026-08-03, fifth entry) — WO-MOLCUP-BACKFILL-04 returned (Czech MOL Cup 2021-22 → 2023-24)
 
