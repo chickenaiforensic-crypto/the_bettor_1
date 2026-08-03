@@ -1,0 +1,6 @@
+# EPL 2026-27 — SPAN-END STATUS LEDGER (WO-EPL-SPAN-12 section-1 row 2: state last round/date in a NOTE)
+# 2026-08-03: rsssf.org/tablese/eng2027.html -> 404 Not Found (season page not yet published).
+# The 2025-26 season ended 2026-05 (exact MD38 date from eng2026.html, to be transcribed).
+# 2026-27 EPL kickoff date to be sourced (wiki/official); expected mid-August 2026.
+# CONCLUSION (pending the kickoff citation): zero 2026-27 rows exist to collect; the 5YSPAN
+# return is complete through 2025-26 MD38 and gap-free as of the return date.
