@@ -268,3 +268,56 @@ gate suites re-run the same day):
 
 Gate evidence after rebuild: RPL 69/69 (`audit/pack-validation-rpl.txt`, sha
 `6e458e19…`), RUSCUP 162/162 (`audit/pack-validation.txt`, sha `18ba4695…`).
+
+---
+
+## Addendum (2026-08-03, fourth entry) — WO-CZ1-BACKFILL-02 returned (Czech First League 2021-22 → 2023-24)
+
+`handoffs/CZ1-2021-2026_BP-TEAM-PACK_v2.txt`: 829 MATCH rows (276 + 276 + 277), 0 TEAM rows
+(WO section-2 directive — every participant already on the client roster), 12 SOURCE rows,
+21 NOTE rows (17 info incl. 3 `spot_audit`; 4 warning = `playoff_count`, `roster_scope`, 2 ×
+`source_conflict`), `END`. compType `domestic-league` on every row verbatim per WO section-2
+(Titul/Zachranu/Evropu stages are league championship phases, not separate events). Cutoff
+honoured — last row the 2024-05-31 Conference League playoff Final; zero rows dated ≥ 2024-06-30.
+
+**Structure reproduced per season:** 240 regular-stage rows = all 30 matchdays × 8 dated fixtures
+(each of the 16 clubs exactly 30 played, pivot-gated); 15 Titul + 15 Zachranu group rows
+(rounds 31-35 × 3 fixtures each); 6 Evropu play-off legs (two-legged SF ×2 + final), plus the
+documented 2023-24 shape deviation: the single extra Conference League playoff Final
+(2024-05-31 Mlada Boleslav 3-1 Hradec Kralove, Lokotrans Arena — the official record itself
+counts the season as 277 league matches). Per-club game-count shapes: 2021-22/2022-23
+{35×12, 34×2, 32×2}; 2023-24 {36×1, 35×12, 34×1, 32×2} — all enumerated in
+`audit/pack-validation-cz1.txt` per-club pivots.
+
+**Sourcing:** RSSSF `tablest/tsje2022|2023|2024.html` primary for dates AND scores (transcribed
+to `audit/ledger/cz1-<season>.txt` on fetch day); second index = the English Wikipedia season
+articles at full depth — 720 regular scores diffed cell-for-cell vs the FBR matrices, 90
+group-stage scores vs the Titul/Zachranu matrices, 19 playoff legs vs the printed brackets, plus
+official tables/venues; worldfootball.net matchday pages R10/R20/R25 as date+score spot-audits
+(24/24 identical; one listed-date nuance documented). Adjudication: three wiki FBR cells
+(2022-23 Liberec 2-1 Zlin R26, Plzen 4-0 Zlin R28; 2023-24 Pardubice 0-0 Jablonec R2) conflict
+with RSSSF *and with the hosting article's own official table* — RSSSF lines re-fetched and
+re-verified 2026-08-03 before resolving per WO section-4(3). Two wiki infobox goal scalars
+(763/804) contradict their own articles' tables (770/792 recomputed) — recomputed anchors
+carried, `source_conflict` NOTEs.
+
+**Tables and ties:** official regular tables reproduced 16/16 per season from the pack rows
+(position order + W-D-L + GF-GA + Pts vs independent wiki constants); group tables 6/6 per
+season per group; all four regular-stage equal-points decisions reproduced from recomputed
+mutual results (incl. the 2022-23 three-way at 35 pts); group-stage ties decided by the
+documented class rule 'regular-season points, then regular-season H2H' — incl. the 2022-23 title:
+Sparta over Slavia at 78-78 by regular points 68>66 (RSSSF NB + wiki class_rules).
+
+**Held out, owner decision requested (`roster_scope` + `playoff_count` warnings):** the 12 Czech
+promotion/relegation legs (2 ties × 2 legs × 3 seasons, all 'league side stays') involve FNL
+clubs outside the 17 pinned section-3 strings while section-2 forbids TEAM rows — dates, scores,
+venues and aggregates fully listed in NOTEs, emitted as 0 rows. If sanctioned with 5 TEAM
+declarations they would carry compType `other` per ERRATA-2026-08-03 and append without touching
+the 829 delivered rows.
+
+**Venue/city per the documented home ground of the season** (wiki venue tables, second index):
+Hradec 2021-22/2022-23 at Lokotrans Arena, Mlada Boleslav (rebuild; city follows location);
+Pardubice 2021-22 at Dolicek, Prague, and 2022-23 split at the winter break Dolicek → CFIG
+Arena; Hradec 2023-24 at the new Malsovicka Arena (first home game 2023-08-05 = opening);
+era sponsor names per season. Gates: 105 PASS / 0 FAIL (`audit/pack-validation-cz1.txt`);
+builder `tools/build_cz1_pack.py` byte-deterministic (pack sha256 `eee4686f…`).

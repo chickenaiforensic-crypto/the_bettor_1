@@ -15,6 +15,9 @@ Owner's one-at-a-time queue, with the live-session override applied:
 |---|---|---|---|
 | override | **WO-RUSCUP-BACKFILL-03** — Russian Cup 2021-22 → 2023-24 | `handoffs/RUSCUP-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 189 rows (domestic-cup after errata), 22 TEAM incl. FC Ufa, KAMAZ exact-form, all 162 self-gates PASS** (user commissioned the cup return live, ahead of the RPL league pack) |
 | ① | RPL league 2021-22 → 2023-24 | `handoffs/RPL-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 732 rows (240+4 per season ×3; 12 playoff rows compType `other` after errata), all 69 self-gates PASS** |
+| ② | **WO-CZ1-BACKFILL-02** — Czech First League 2021-22 → 2023-24 | `handoffs/CZ1-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 829 rows (276+276+277; pro/rel legs held out pending owner roster decision), all 105 self-gates PASS** |
+| ④ | MOLCUP (Czech MOL Cup) 2021-22 → 2023-24 | pack | **NEXT** (compType `domestic-cup` per errata) |
+| ⑤→ | EPL, FRA, GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`) |
 
 ## Auditor errata applied 2026-08-03 (ERRATA-2026-08-03)
 
@@ -35,8 +38,6 @@ byte-deterministically with the full gate suites re-run:
 
 Rebuilt artifacts (sha256-stable under `tools/build_*.py` re-runs):
 RPL `6e458e19…` (69/69 gates) · RUSCUP `18ba4695…` (162/162 gates).
-| ② | CZ1 (Czech First League) | pack | QUEUED (next) |
-| ④→ | EPL, FRA, GER, ITA, KOS, KOSCUP, MLS, MOLCUP, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`) |
 
 ## Delivered artifacts (this branch)
 
@@ -49,6 +50,10 @@ RPL `6e458e19…` (69/69 gates) · RUSCUP `18ba4695…` (162/162 gates).
 | `handoffs/RUSCUP-2021-2026_BP-TEAM-PACK_v2.txt` | Russian Cup return, BP-TEAM-PACK v2 grammar: 189 MATCH rows (36 + 77 + 76, compType domestic-cup per ERRATA-2026-08-03), 22 TEAM rows (21 non-roster opponents + FC Ufa per standing cup-audit instruction; KAMAZ exact-form), 10 SOURCE rows, 69 NOTE rows, `END`. 90-minute doctrine; stage in venue-detail. |
 | `audit/pack-validation.txt` | Gate re-runs: slice counts per round, group members + table recompute (2022-23/2023-24 club-for-club W/WP/LP/L/GF/GA/pts; 2021-22 full 3-team tables vs full ledger), bracket reproduction (semifinalists/finalists/champions 2022 Spartak, 2023 CSKA, 2024 Zenit), 14 two-leg aggregates, per-club pivot ledgers (owner's per-team completeness technique), boundary/dupes/identity checks. |
 | `tools/build_pack.py` | Reproducible builder + validator (embeds the official record used as gate expectations). |
+| `handoffs/CZ1-2021-2026_BP-TEAM-PACK_v2.txt` | Czech First League return (WO-CZ1-BACKFILL-02), BP-TEAM-PACK v2 grammar: 829 MATCH rows (276 + 276 + 277; every row compType `domestic-league` per WO §2), **0 TEAM** (WO §2 directive), 12 SOURCE, 21 NOTE (17 info incl. 3 spot-audit + 4 warning incl. 2 source_conflict), `END`. Venue-detail = `Round n` / `Titul R31-35` / `Zachranu R31-35` / `Evropu-SF|F L1|L2` / `Evropu-CLP`; cutoff honoured (last row the 2024-05-31 Conference League playoff Final). |
+| `audit/pack-validation-cz1.txt` | 105/105 gates on the pack text: per-season 240 regular = 30 fully dated matchdays × 8 + 15 Titul + 15 Zachranu + 6/7 Evropu legs; per-club pivots 16 clubs × exactly 30 regular games and full-campaign ledgers (48 pivots, game-count shapes {35×12, 34×2, 32×2} and 2023-24 {36×1, 35×12, 34×1, 32×2} as documented); regular tables reproduced 16/16 ×3 + group tables 6/6 ×6 vs independent wiki constants; all 4 regular-stage H2H ties + 3 group ties recomputed incl. the 2022-23 title (Sparta over Slavia 78-78 by regular-season points 68>66); Evropu aggregates + winners + CLP row; second-index diff 826/829 identical (3 defective wiki FBR cells whitelisted after RSSSF re-fetch adjudication, each proven wrong by the article's own table; 2 wiki infobox goal scalars likewise contradicted by their own articles); worldfootball spot matchdays 24/24 identical (1 wf listing-date nuance documented). |
+| `audit/ledger/cz1-2021-22.txt` · `cz1-2022-23.txt` · `cz1-2023-24.txt` · `cz1-2ndidx-*.txt` · `cz1-venues.txt` | Primary transcriptions of RSSSF tsje2022/2023/2024 (R1-30 + T/Z31-35 + Evropu legs, tables with H2H brackets, pro/rel ties as comment records); wiki A FBR/group matrices + worldfootball spot rows (second index); venue + table/group-table constants. |
+| `tools/build_cz1_pack.py` | Reproducible builder + validator for the CZ1 pack (byte-identical rebuild verified by sha256 `eee4686f…`). |
 | `data/rpl/*.csv`, `docs/`, `audit/validation-report.txt` | Prior deliverable: audited RPL league dataset 2021/22-2025/26 (1,212 rows + closing 1X2 odds), unchanged. Base for queue item ①. |
 | `supervisor/workorders/` | All 16 owner commissions mirrored read-only in one folder (register: `supervisor/README.md`), + `archive/` with the superseded RPL order.
 
@@ -96,8 +101,40 @@ nothing in the CSV contradicts the workorder set.
 * **Nothing imputed:** optional TEAM profile fields left blank where no captured source
   exists; reconciliations live in NOTE lines, never in match data.
 
-## Known loose end
+## Method notes for the CZ1 pack (disclosures the auditor will also see in NOTEs)
 
-Two files the owner says were attached mid-session (`README.md`, `START-HERE.md`)
-never became readable in the sandbox and are not in the repo — flagged in chat;
-awaiting re-send or a GitHub web upload.
+* **277-row season documented:** 2023-24 carries the extra single-match Conference League
+  playoff Final (2024-05-31 Mlada Boleslav 3-1 Hradec Kralove) — the official record itself
+  counts 277 league matches; reproduced with a `shape_deviation` NOTE (WO §1 template says
+  276, deviation fully explained).
+* **Pro/rel legs held out (owner decision requested):** 12 promotion/relegation legs
+  (2 ties × 2 legs × 3 seasons) vs non-pinned FNL clubs — WO §5 names gate pins 17 strings
+  and §2 forbids TEAM rows, so the ties are fully listed dates+scores in `playoff_count`
+  NOTEs but emitted as 0 rows (`roster_scope` warning). If sanctioned they'd carry
+  compType `other` per the errata.
+* **Second-index defects adjudicated:** 3 wiki FBR matrix cells (2022-23 Liberec-Zlin,
+  Plzen-Zlin; 2023-24 Pardubice-Jablonec) contradict RSSSF *and their own articles' official
+  tables* — RSSSF lines re-fetched and re-read 2026-08-03 before resolving; 2 wiki infobox
+  goal scalars (763 vs recomputed 770; 804 vs 792) replaced by the recomputed anchors.
+* **Venue quirks per-row documented:** Hradec 2021-22/2022-23 home at Lokotrans Arena in
+  Mlada Boleslav (rebuild); Pardubice 2021-22 at Dolicek in Prague, 2022-23 split at the
+  winter break Dolicek → CFIG Arena; Hradec 2023-24 at the new Malsovicka Arena (first home
+  2023-08-05 = opening day); era stadium names per season (Sinobo→Fortuna, Generali→epet).
+* **Continuity:** all 90 regular matchdays dated; postponed fixtures keep Round labels and
+  are enumerated per season in the `continuity` NOTE; zero dupes; boundary clean.
+* **compType:** `domestic-league` on every row verbatim per WO §2 (playoff-stage groups are
+  championship phases, not separate events); the errata class rule does not bite here while
+  the pro/rel ties are held out.
+
+## Known loose ends
+
+* Two files the owner says were attached mid-session (`README.md`, `START-HERE.md`)
+  never became readable in the sandbox and are not in the repo — flagged in chat;
+  awaiting re-send or a GitHub web upload.
+* The uploaded `ERRATA-2026-08-03.md` likewise never materialized (checked repo root,
+  `/home/user/uploads/`, full `origin/main` tree) — applied verbatim from the owner's
+  inline relay; mirror at `supervisor/ERRATA-2026-08-03.as-relayed.md`; owner asked to
+  re-upload the original.
+* Owner decision pending: sanction 5 TEAM declarations (Vlasim, Opava, Viagem Pribram,
+  Vyskov, Silon Taborsko) so the 12 Czech pro/rel legs can be appended to the CZ1 pack
+  as compType `other` rows — or confirm the NOTE-only default.
