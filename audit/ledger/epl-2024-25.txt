@@ -5,6 +5,12 @@
 # Note: the page prints the champions line without its [C] tag on Liverpool (row 1 carries
 # "Champions" text; row 3 Man City oddly carries the [C] tag) — recorded verbatim, positions
 # and stats are internally consistent (documented in pack NOTE if propagated).
+# RECORDED SOURCE ANOMALY (raw facts): RSSSF dates the last R12 fixture Newcastle 0-2 West Ham
+# "[Nov 24]" (re-read 2026-08-03). TWO independent indexes carry the played date 2024-11-25
+# (Monday 20:00): openfootball MD12 row "Mon Nov 25 / 20:00 Newcastle 0-2 West Ham" and
+# football-data.co.uk 2425 CSV row "25/11/2024,20:00,Newcastle,West Ham,0,2". Per the source
+# hierarchy the pack carries 2024-11-25 + NOTE|warning|source_conflict (RSSSF print kept in
+# this comment). Row below carries the corrected date.
 # Stock = roster map per ledger 2021-22 header; new stock: Ipswich=Ipswich.
 R1|2024-08-16|United|1|0|Fulham
 R1|2024-08-17|Ipswich|0|2|Liverpool
@@ -125,7 +131,7 @@ R12|2024-11-23|Fulham|1|4|Wolves
 R12|2024-11-23|City|0|4|Tottenham
 R12|2024-11-24|Southampton|2|3|Liverpool
 R12|2024-11-24|Ipswich|1|1|United
-R12|2024-11-24|Newcastle|0|2|WestHam
+R12|2024-11-25|Newcastle|0|2|WestHam
 R13|2024-11-29|Brighton|1|1|Southampton
 R13|2024-11-30|Brentford|4|1|Leicester
 R13|2024-11-30|Palace|1|1|Newcastle

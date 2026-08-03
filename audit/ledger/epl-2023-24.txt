@@ -9,10 +9,10 @@
 #      abandoned Dec-16 line is kept here as comment only, never a row.
 #  (2) R15 last two lines printed under bracket "[Dec 2]" AFTER the round's [Dec 5]/[Dec 6]
 #      brackets and naming Everton + Tottenham, who already have Round 14 games on Dec 2/3 -
-#      an impossible reading = RSSSF misprint. Actual played date per the calendar slot =
-#      2023-12-07 (Thursday; to be confirmed against wiki/worldfootball 2nd index, then a
-#      source_conflict NOTE documents the RSSSF print). Rows below carry 2023-12-07,
-#      pre-flagged: PENDING-2NDIDX (see comment at R15).
+#      an impossible reading = RSSSF misprint. Actual played date = 2023-12-07 (Thursday).
+#      CONFIRMED 2026-08-03 by the independent second index (openfootball MD15 rows dated
+#      Thu Dec 7, scores identical): rows below keep 2023-12-07; documented in the pack as
+#      NOTE|warning|source_conflict (RSSSF print recorded verbatim here).
 #  (3) POINTS DEDUCTIONS (official NB printed on the page): Everton -8, Nottingham Forest -4
 #      "for financial reasons". Table gate applies: recomputed pts - deduction = printed Pts.
 # Stock = roster map per ledger 2021-22 header; new stocks: Luton=Luton, SheffUtd=Sheffield United.
@@ -165,8 +165,8 @@ R15|2023-12-06|SheffUtd|0|2|Liverpool
 R15|2023-12-06|Villa|1|0|City
 R15|2023-12-06|United|2|1|Chelsea
 # RSSSF prints the last two R15 lines under bracket "[Dec 2]" - impossible (both clubs already
-# listed in Round 14 on Dec 2/3; the bracket follows [Dec 6] in-print). PENDING-2NDIDX: actual
-# played date 2023-12-07 (to be confirmed via wiki/worldfootball; source_conflict NOTE at pack).
+# listed in Round 14 on Dec 2/3; the bracket follows [Dec 6] in-print). CONFIRMED against the
+# openfootball second index 2026-08-03: played 2023-12-07 -> source_conflict NOTE at pack.
 R15|2023-12-07|Everton|3|0|Newcastle
 R15|2023-12-07|Tottenham|1|2|WestHam
 R16|2023-12-09|Palace|1|2|Liverpool
