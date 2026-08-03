@@ -1,0 +1,250 @@
+# RPL 2023/24 league — RSSSF rus2024.html #1l (rounds 1-30) + #prorel, transcribed 2026-08-03
+# MD|date|home|hg|ag|away   (RSSSF compact club strings; builder maps to roster strings)
+# notable: R21 played AFTER R25 (Apr 24-25) per source NB (postponed round; kept under R21 labels, date-sorted rows).
+# R4 Pari NN 2-0 Akhmat: RSSSF says 2-0 (Sevikyan 1, Suleymanov 38); football-data CSV misrecords 1-0 (A2) ->
+#   source_conflict resolves to RSSSF (also 3 match reports). R21 Zenit 0-2 Rubin.
+R1|2023-07-21|Dinamo|1|3|Krasnodar
+R1|2023-07-22|Pari NN|0|2|Zenit
+R1|2023-07-22|Ural|2|1|CSKA
+R1|2023-07-22|Akhmat|1|2|KS Samara
+R1|2023-07-22|Lokomotiv|2|2|Rubin
+R1|2023-07-23|Spartak|3|2|Orenburg
+R1|2023-07-23|Rostov|2|1|Fakel
+R1|2023-07-23|Sochi|2|0|Baltika
+R2|2023-07-29|Rostov|1|1|Zenit
+R2|2023-07-29|Ural|0|0|Pari NN
+R2|2023-07-29|KS Samara|3|3|Dinamo
+R2|2023-07-30|Krasnodar|2|0|Sochi
+R2|2023-07-30|Fakel|1|4|Lokomotiv
+R2|2023-07-30|Rubin|1|1|Orenburg
+R2|2023-07-30|Akhmat|2|3|CSKA
+R2|2023-07-31|Spartak|2|1|Baltika
+R3|2023-08-04|Krasnodar|1|0|Pari NN
+R3|2023-08-05|Rubin|1|4|Spartak
+R3|2023-08-05|CSKA|4|1|Lokomotiv
+R3|2023-08-05|KS Samara|5|1|Rostov
+R3|2023-08-05|Orenburg|0|2|Ural
+R3|2023-08-06|Zenit|2|3|Dinamo
+R3|2023-08-06|Sochi|1|2|Akhmat
+R3|2023-08-06|Baltika|2|1|Fakel
+R4|2023-08-11|Ural|3|2|Spartak
+R4|2023-08-12|Orenburg|0|2|Krasnodar
+R4|2023-08-12|Lokomotiv|1|1|KS Samara
+R4|2023-08-12|Rostov|3|0|Rubin
+R4|2023-08-13|CSKA|3|1|Sochi
+R4|2023-08-13|Zenit|2|0|Fakel
+R4|2023-08-13|Dinamo|2|0|Baltika
+R4|2023-08-14|Pari NN|2|0|Akhmat
+R5|2023-08-18|Rubin|2|1|KS Samara
+R5|2023-08-19|Krasnodar|1|1|Lokomotiv
+R5|2023-08-19|Baltika|0|1|Ural
+R5|2023-08-19|Dinamo|2|1|CSKA
+R5|2023-08-19|Sochi|4|0|Rostov
+R5|2023-08-20|Spartak|1|3|Zenit
+R5|2023-08-20|Fakel|2|0|Pari NN
+R5|2023-08-20|Akhmat|4|0|Orenburg
+R6|2023-08-25|Fakel|0|0|Krasnodar
+R6|2023-08-25|Orenburg|1|1|CSKA
+R6|2023-08-26|Zenit|4|0|Ural
+R6|2023-08-26|Rubin|2|2|Dinamo
+R6|2023-08-26|Spartak|0|0|Akhmat
+R6|2023-08-26|Pari NN|1|0|Rostov
+R6|2023-08-27|KS Samara|2|1|Baltika
+R6|2023-08-27|Sochi|0|1|Lokomotiv
+R7|2023-09-02|Krasnodar|2|0|Spartak
+R7|2023-09-02|Ural|0|1|Akhmat
+R7|2023-09-02|KS Samara|3|0|Fakel
+R7|2023-09-02|Pari NN|2|1|Rubin
+R7|2023-09-03|CSKA|1|1|Zenit
+R7|2023-09-03|Rostov|1|2|Dinamo
+R7|2023-09-03|Lokomotiv|3|2|Baltika
+R7|2023-09-03|Orenburg|3|0|Sochi
+R8|2023-09-15|Dinamo|1|1|Pari NN
+R8|2023-09-16|Akhmat|1|1|Krasnodar
+R8|2023-09-16|CSKA|2|2|KS Samara
+R8|2023-09-16|Spartak|1|0|Sochi
+R8|2023-09-16|Baltika|2|2|Rostov
+R8|2023-09-17|Rubin|0|3|Zenit
+R8|2023-09-17|Ural|0|0|Fakel
+R8|2023-09-17|Lokomotiv|0|2|Orenburg
+R9|2023-09-23|KS Samara|2|1|Sochi
+R9|2023-09-23|Spartak|1|0|Dinamo
+R9|2023-09-23|Baltika|1|0|Akhmat
+R9|2023-09-24|Krasnodar|2|0|Ural
+R9|2023-09-24|Zenit|1|2|Lokomotiv
+R9|2023-09-24|Rostov|3|3|CSKA
+R9|2023-09-24|Pari NN|3|1|Orenburg
+R9|2023-09-25|Fakel|0|1|Rubin
+R10|2023-09-29|Rostov|2|2|Ural
+R10|2023-09-30|Rubin|0|2|Krasnodar
+R10|2023-09-30|Orenburg|3|1|Zenit
+R10|2023-09-30|Lokomotiv|1|0|Pari NN
+R10|2023-09-30|CSKA|1|0|Baltika
+R10|2023-10-01|KS Samara|4|0|Spartak
+R10|2023-10-01|Akhmat|1|1|Dinamo
+R10|2023-10-01|Fakel|2|0|Sochi
+R11|2023-10-07|Krasnodar|3|2|Rostov
+R11|2023-10-07|Ural|2|2|Lokomotiv
+R11|2023-10-07|Sochi|0|2|Zenit
+R11|2023-10-07|Baltika|1|0|Orenburg
+R11|2023-10-08|Pari NN|2|0|KS Samara
+R11|2023-10-08|Spartak|2|2|CSKA
+R11|2023-10-08|Dinamo|0|0|Fakel
+R11|2023-10-08|Akhmat|0|1|Rubin
+R12|2023-10-21|Baltika|2|2|Krasnodar
+R12|2023-10-21|Lokomotiv|0|0|Dinamo
+R12|2023-10-21|Rubin|0|0|CSKA
+R12|2023-10-21|Orenburg|1|2|Fakel
+R12|2023-10-22|Zenit|3|1|KS Samara
+R12|2023-10-22|Spartak|2|0|Pari NN
+R12|2023-10-22|Ural|1|4|Sochi
+R12|2023-10-22|Rostov|3|0|Akhmat
+R13|2023-10-27|Rubin|1|0|Baltika
+R13|2023-10-28|Zenit|2|1|Akhmat
+R13|2023-10-28|KS Samara|1|1|Orenburg
+R13|2023-10-28|Fakel|2|0|Spartak
+R13|2023-10-28|Rostov|1|0|Lokomotiv
+R13|2023-10-29|CSKA|1|0|Krasnodar
+R13|2023-10-29|Dinamo|2|1|Ural
+R13|2023-10-29|Pari NN|1|0|Sochi
+R14|2023-11-04|Baltika|0|2|Zenit
+R14|2023-11-04|Akhmat|1|2|Fakel
+R14|2023-11-05|Krasnodar|2|1|KS Samara
+R14|2023-11-05|CSKA|3|2|Pari NN
+R14|2023-11-05|Lokomotiv|1|1|Spartak
+R14|2023-11-06|Sochi|3|3|Dinamo
+R14|2023-11-06|Orenburg|1|1|Rostov
+R14|2023-11-06|Ural|0|1|Rubin
+R15|2023-11-11|Zenit|1|1|Krasnodar
+R15|2023-11-11|Fakel|1|1|CSKA
+R15|2023-11-11|KS Samara|3|1|Ural
+R15|2023-11-11|Lokomotiv|2|1|Akhmat
+R15|2023-11-12|Dinamo|2|0|Orenburg
+R15|2023-11-12|Spartak|2|1|Rostov
+R15|2023-11-12|Pari NN|0|0|Baltika
+R15|2023-11-12|Sochi|0|2|Rubin
+R16|2023-11-25|Zenit|3|0|Sochi
+R16|2023-11-25|CSKA|2|3|Dinamo
+R16|2023-11-25|KS Samara|3|3|Lokomotiv
+R16|2023-11-25|Baltika|0|2|Spartak
+R16|2023-11-26|Ural|3|1|Krasnodar
+R16|2023-11-26|Rubin|1|0|Fakel
+R16|2023-11-26|Rostov|1|0|Pari NN
+R16|2023-11-26|Orenburg|1|1|Akhmat
+R17|2023-12-02|Sochi|0|2|KS Samara
+R17|2023-12-02|Pari NN|1|0|Ural
+R17|2023-12-02|Fakel|0|0|Baltika
+R17|2023-12-03|Lokomotiv|3|1|Zenit
+R17|2023-12-03|Krasnodar|2|1|Orenburg
+R17|2023-12-03|Akhmat|2|1|Spartak
+R17|2023-12-03|CSKA|2|0|Rostov
+R17|2023-12-04|Dinamo|1|0|Rubin
+R18|2023-12-08|Lokomotiv|2|0|Ural
+R18|2023-12-09|Zenit|1|0|Pari NN
+R18|2023-12-09|Spartak|3|0|KS Samara
+R18|2023-12-09|Akhmat|0|0|Rostov
+R18|2023-12-10|Krasnodar|1|0|CSKA
+R18|2023-12-10|Fakel|1|1|Dinamo
+R18|2023-12-10|Baltika|0|1|Rubin
+R18|2023-12-10|Sochi|1|1|Orenburg
+R19|2024-03-01|Rostov|2|0|KS Samara
+R19|2024-03-02|Krasnodar|1|1|Rubin
+R19|2024-03-02|Zenit|0|0|Spartak
+R19|2024-03-02|CSKA|1|1|Orenburg
+R19|2024-03-02|Akhmat|1|0|Ural
+R19|2024-03-03|Dinamo|2|1|Lokomotiv
+R19|2024-03-03|Pari NN|1|1|Fakel
+R19|2024-03-03|Baltika|0|0|Sochi
+R20|2024-03-08|Rostov|2|1|Krasnodar
+R20|2024-03-08|KS Samara|0|2|CSKA
+R20|2024-03-09|Ural|1|4|Zenit
+R20|2024-03-09|Dinamo|2|0|Akhmat
+R20|2024-03-09|Rubin|0|1|Pari NN
+R20|2024-03-10|Lokomotiv|2|2|Sochi
+R20|2024-03-10|Spartak|0|2|Fakel
+R20|2024-03-10|Orenburg|1|0|Baltika
+R21|2024-04-24|Zenit|0|2|Rubin
+R21|2024-04-24|Krasnodar|3|2|Baltika
+R21|2024-04-24|Orenburg|1|2|Dinamo
+R21|2024-04-24|Pari NN|2|3|Lokomotiv
+R21|2024-04-25|CSKA|0|0|Spartak
+R21|2024-04-25|Fakel|0|1|KS Samara
+R21|2024-04-25|Ural|0|1|Rostov
+R21|2024-04-25|Akhmat|1|0|Sochi
+R22|2024-03-29|Dinamo|1|4|Rostov
+R22|2024-03-30|KS Samara|1|1|Zenit
+R22|2024-03-30|Sochi|2|2|CSKA
+R22|2024-03-30|Spartak|0|0|Ural
+R22|2024-03-30|Baltika|2|0|Pari NN
+R22|2024-03-31|Lokomotiv|1|1|Krasnodar
+R22|2024-03-31|Rubin|2|1|Akhmat
+R22|2024-03-31|Fakel|0|0|Orenburg
+R23|2024-04-06|Pari NN|3|4|Krasnodar
+R23|2024-04-06|Rostov|2|2|Sochi
+R23|2024-04-06|Ural|1|2|KS Samara
+R23|2024-04-07|Zenit|1|0|Baltika
+R23|2024-04-07|Dinamo|1|2|Spartak
+R23|2024-04-07|CSKA|4|1|Fakel
+R23|2024-04-07|Akhmat|0|2|Lokomotiv
+R23|2024-04-08|Orenburg|3|0|Rubin
+R24|2024-04-13|Krasnodar|1|2|Zenit
+R24|2024-04-13|Lokomotiv|3|3|CSKA
+R24|2024-04-13|Sochi|1|0|Spartak
+R24|2024-04-13|Akhmat|1|7|Baltika
+R24|2024-04-14|Ural|2|1|Dinamo
+R24|2024-04-14|KS Samara|2|0|Rubin
+R24|2024-04-14|Fakel|0|1|Rostov
+R24|2024-04-14|Orenburg|3|1|Pari NN
+R25|2024-04-19|Krasnodar|2|0|Fakel
+R25|2024-04-20|CSKA|1|2|Akhmat
+R25|2024-04-20|Rubin|1|1|Lokomotiv
+R25|2024-04-20|Baltika|2|1|KS Samara
+R25|2024-04-21|Zenit|1|0|Orenburg
+R25|2024-04-21|Pari NN|1|4|Dinamo
+R25|2024-04-21|Rostov|1|5|Spartak
+R25|2024-04-21|Sochi|2|2|Ural
+R26|2024-04-28|Dinamo|1|0|Zenit
+R26|2024-04-28|Spartak|3|2|Lokomotiv
+R26|2024-04-28|Baltika|3|1|CSKA
+R26|2024-04-28|Akhmat|5|1|Pari NN
+R26|2024-04-29|KS Samara|0|0|Krasnodar
+R26|2024-04-29|Rostov|2|1|Orenburg
+R26|2024-04-29|Rubin|1|1|Ural
+R26|2024-04-29|Sochi|0|0|Fakel
+R27|2024-05-04|Krasnodar|0|1|Akhmat
+R27|2024-05-04|Orenburg|2|1|KS Samara
+R27|2024-05-05|Dinamo|3|2|Sochi
+R27|2024-05-05|Pari NN|0|0|Spartak
+R27|2024-05-06|Fakel|1|1|Zenit
+R27|2024-05-06|Lokomotiv|1|0|Rostov
+R27|2024-05-06|CSKA|2|2|Rubin
+R27|2024-05-06|Ural|2|1|Baltika
+R28|2024-05-10|KS Samara|0|2|Akhmat
+R28|2024-05-11|Zenit|0|1|CSKA
+R28|2024-05-11|Spartak|1|0|Krasnodar
+R28|2024-05-11|Baltika|2|3|Dinamo
+R28|2024-05-11|Rubin|3|1|Rostov
+R28|2024-05-12|Orenburg|0|2|Lokomotiv
+R28|2024-05-12|Sochi|6|1|Pari NN
+R28|2024-05-12|Fakel|0|0|Ural
+R29|2024-05-18|Dinamo|4|1|KS Samara
+R29|2024-05-18|Sochi|2|3|Krasnodar
+R29|2024-05-18|Lokomotiv|2|0|Fakel
+R29|2024-05-19|Akhmat|1|5|Zenit
+R29|2024-05-19|Spartak|3|1|Rubin
+R29|2024-05-19|Rostov|2|1|Baltika
+R29|2024-05-19|Ural|3|3|Orenburg
+R29|2024-05-20|Pari NN|2|6|CSKA
+R30|2024-05-25|Krasnodar|1|0|Dinamo
+R30|2024-05-25|Zenit|2|1|Rostov
+R30|2024-05-25|Baltika|1|3|Lokomotiv
+R30|2024-05-25|Orenburg|0|0|Spartak
+R30|2024-05-25|CSKA|2|0|Ural
+R30|2024-05-25|Rubin|1|1|Sochi
+R30|2024-05-25|KS Samara|1|1|Pari NN
+R30|2024-05-25|Fakel|2|0|Akhmat
+# PLAYOFFS (promotion/relegation, RSSSF #prorel). NB from source: Akron promoted, Ural relegated; Arsenal and Pari NN remain at former level. Aggregates: Pari NN 3-2 Arsenal; Akron 3-2 Ural. No shootouts.
+PRO-rel leg1|2024-05-29|Pari NN|1|2|Arsenal
+PRO-rel leg1|2024-05-29|Ural|0|2|Akron
+PRO-rel leg2|2024-06-01|Arsenal|0|2|Pari NN
+PRO-rel leg2|2024-06-01|Akron|1|2|Ural

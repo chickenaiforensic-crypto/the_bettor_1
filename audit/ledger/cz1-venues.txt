@@ -1,0 +1,175 @@
+# CZ1 VENUES + OFFICIAL TABLE CONSTANTS — transcribed 2026-08-03 from the Wikipedia season articles
+# (URLs below; section wikitext fetched via MediaWiki API). Independent of RSSSF (primary fixtures
+# source) = the cross-source second index for gates. ASCII renderings of all diacritic strings.
+# VENUE|<season>|<stock>|<stadium>|<city>|<capacity per wiki season table>
+#
+# 2021-22 (article s4; efns: Hradec Kralove played home matches in Mlada Boleslav (Vsesportovni
+# stadion rebuild); Pardubice played home matches at Bohemians' Dolicek, Prague (Pod Vinici rebuild))
+VENUE|2021-22|Bohemians|Dolicek|Prague|5000
+VENUE|2021-22|CBudejovice|Stadion Strelecky ostrov|Ceske Budejovice|6681
+VENUE|2021-22|Hradec|Lokotrans Arena|Mlada Boleslav|5000
+VENUE|2021-22|Jablonec|Stadion Strelnice|Jablonec nad Nisou|6108
+VENUE|2021-22|Karvina|Mestsky stadion (Karvina)|Karvina|4833
+VENUE|2021-22|Liberec|Stadion u Nisy|Liberec|9900
+VENUE|2021-22|MlBoleslav|Lokotrans Arena|Mlada Boleslav|5000
+VENUE|2021-22|Olomouc|Andruv stadion|Olomouc|12483
+VENUE|2021-22|Ostrava|Mestsky stadion (Ostrava)|Ostrava|15123
+VENUE|2021-22|Plzen|Doosan Arena|Plzen|11700
+VENUE|2021-22|Slavia|Sinobo Stadium|Prague|19370
+VENUE|2021-22|Slovacko|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|8000
+VENUE|2021-22|Sparta|Generali Ceska pojistovna Arena|Prague|18944
+VENUE|2021-22|Teplice|Na Stinadlech|Teplice|18221
+VENUE|2021-22|Zlin|Letna Stadion|Zlin|5783
+VENUE|2021-22|Pardubice|Dolicek|Prague|5000
+# 2022-23 (article s3; efns: Hradec again in Mlada Boleslav; Pardubice first half of season at
+# Dolicek then CFIG Arena, Pardubice 4600 - winter-break split applied by builder: home rows dated
+# <= 2022-12-31 at Dolicek, >= 2023-01-01 at CFIG Arena; corroborated: 2023-06-04 pro/rel home leg
+# at CFIG Arena per wiki match box)
+VENUE|2022-23|Bohemians|Dolicek|Prague|6300
+VENUE|2022-23|Brno|Mestsky fotbalovy stadion Srbska|Brno|12550
+VENUE|2022-23|CBudejovice|Stadion Strelecky ostrov|Ceske Budejovice|6681
+VENUE|2022-23|Hradec|Lokotrans Arena|Mlada Boleslav|5000
+VENUE|2022-23|Jablonec|Stadion Strelnice|Jablonec nad Nisou|6108
+VENUE|2022-23|Liberec|Stadion u Nisy|Liberec|9900
+VENUE|2022-23|MlBoleslav|Lokotrans Arena|Mlada Boleslav|5000
+VENUE|2022-23|Olomouc|Andruv stadion|Olomouc|12483
+VENUE|2022-23|Ostrava|Mestsky stadion (Ostrava)|Ostrava|15123
+VENUE|2022-23|Plzen|Doosan Arena|Plzen|11700
+VENUE|2022-23|Slavia|Fortuna Arena|Prague|19370
+VENUE|2022-23|Slovacko|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|8000
+VENUE|2022-23|Sparta|epet ARENA|Prague|18944
+VENUE|2022-23|Teplice|Na Stinadlech|Teplice|18221
+VENUE|2022-23|Zlin|Letna Stadion|Zlin|5783
+VENUE|2022-23|Pardubice|CFIG Arena|Pardubice|4600
+# 2023-24 (article s4; Hradec moved into rebuilt Malsovicka Arena, Hradec Kralove 9300 - first home
+# game of the season 2023-08-05 = the arena's opening date; Pardubice all season at CFIG Arena 4620)
+VENUE|2023-24|Bohemians|Dolicek|Prague|6300
+VENUE|2023-24|CBudejovice|Stadion Strelecky ostrov|Ceske Budejovice|6681
+VENUE|2023-24|Hradec|Malsovicka Arena|Hradec Kralove|9300
+VENUE|2023-24|Jablonec|Stadion Strelnice|Jablonec nad Nisou|6108
+VENUE|2023-24|Karvina|Mestsky stadion (Karvina)|Karvina|4833
+VENUE|2023-24|Liberec|Stadion u Nisy|Liberec|9900
+VENUE|2023-24|MlBoleslav|Lokotrans Arena|Mlada Boleslav|5000
+VENUE|2023-24|Olomouc|Andruv stadion|Olomouc|12474
+VENUE|2023-24|Ostrava|Mestsky stadion (Ostrava)|Ostrava|15123
+VENUE|2023-24|Pardubice|CFIG Arena|Pardubice|4620
+VENUE|2023-24|Plzen|Doosan Arena|Plzen|11700
+VENUE|2023-24|Slavia|Fortuna Arena|Prague|19370
+VENUE|2023-24|Slovacko|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|8000
+VENUE|2023-24|Sparta|epet ARENA|Prague|18944
+VENUE|2023-24|Teplice|Na Stinadlech|Teplice|18221
+VENUE|2023-24|Zlin|Letna Stadion|Zlin|5898
+#
+# ===== OFFICIAL REGULAR-SEASON TABLES (wiki 'League table' sections; team_order = position order)
+# TABLE|<season>|<pos>|<stock>|<P>|<W>|<D>|<L>|<GF>|<GA>|<Pts>|<note>
+TABLE|2021-22|1|Slavia|30|23|4|3|71|19|73|C->Titul
+TABLE|2021-22|2|Plzen|30|22|6|2|53|19|72|Titul
+TABLE|2021-22|3|Sparta|30|20|6|4|65|32|66|Titul
+TABLE|2021-22|4|Slovacko|30|18|5|7|50|30|59|Titul
+TABLE|2021-22|5|Ostrava|30|14|9|7|54|39|51|Titul
+TABLE|2021-22|6|Hradec|30|9|13|8|38|40|40|Titul
+TABLE|2021-22|7|MlBoleslav|30|11|5|14|45|48|38|Evropu
+TABLE|2021-22|8|Liberec|30|10|7|13|29|38|37|Evropu; H2H over Olomouc [2 1 0 1 3-2 3 v 1-2 3]
+TABLE|2021-22|9|Olomouc|30|9|10|11|39|37|37|Evropu
+TABLE|2021-22|10|CBudejovice|30|9|9|12|40|46|36|Evropu
+TABLE|2021-22|11|Zlin|30|8|6|16|36|53|30|Zachranu
+TABLE|2021-22|12|Teplice|30|8|3|19|29|49|27|Zachranu
+TABLE|2021-22|13|Jablonec|30|4|14|12|22|45|26|Zachranu; H2H over Bohemians [2 1 1 0 4-3 4 v 3-4 1]
+TABLE|2021-22|14|Bohemians|30|6|8|16|34|56|26|Zachranu
+TABLE|2021-22|15|Pardubice|30|5|9|16|35|67|24|Zachranu
+TABLE|2021-22|16|Karvina|30|3|8|19|30|52|17|Zachranu
+TABLE|2022-23|1|Sparta|30|20|8|2|70|29|68|C->Titul
+TABLE|2022-23|2|Slavia|30|20|6|4|81|25|66|Titul
+TABLE|2022-23|3|Plzen|30|17|6|7|55|29|57|Titul
+TABLE|2022-23|4|Bohemians|30|14|6|10|53|49|48|Titul
+TABLE|2022-23|5|Slovacko|30|13|7|10|36|38|46|Titul
+TABLE|2022-23|6|Olomouc|30|10|11|9|45|40|41|Titul
+TABLE|2022-23|7|Liberec|30|10|8|12|39|43|38|Evropu; H2H over Hradec [2 2 0 0 4-1 6 v 1-4 0]
+TABLE|2022-23|8|Hradec|30|11|5|14|34|40|38|Evropu
+TABLE|2022-23|9|MlBoleslav|30|9|10|11|39|42|37|Evropu
+TABLE|2022-23|10|CBudejovice|30|10|5|15|35|54|35|Evropu; H2H 3-way over Jablonec/Ostrava [4 3 0 1 9-6 9]
+TABLE|2022-23|11|Jablonec|30|9|8|13|46|57|35|Zachranu; [4 2 1 1 7-7 7]
+TABLE|2022-23|12|Ostrava|30|9|8|13|43|42|35|Zachranu; [4 0 1 3 4-7 1]
+TABLE|2022-23|13|Teplice|30|8|8|14|38|63|32|Zachranu
+TABLE|2022-23|14|Brno|30|8|7|15|40|56|31|Zachranu
+TABLE|2022-23|15|Pardubice|30|8|4|18|29|58|28|Zachranu
+TABLE|2022-23|16|Zlin|30|5|11|14|37|55|26|Zachranu
+TABLE|2023-24|1|Sparta|30|24|4|2|70|26|76|C->Titul
+TABLE|2023-24|2|Slavia|30|22|6|2|62|23|72|Titul
+TABLE|2023-24|3|Plzen|30|19|5|6|67|33|62|Titul
+TABLE|2023-24|4|Ostrava|30|13|6|11|48|39|45|Titul
+TABLE|2023-24|5|MlBoleslav|30|12|8|10|50|46|44|Titul
+TABLE|2023-24|6|Slovacko|30|11|8|11|39|40|41|Titul
+TABLE|2023-24|7|Liberec|30|10|10|10|46|46|40|Evropu
+TABLE|2023-24|8|Olomouc|30|10|7|13|40|45|37|Evropu; H2H over Hradec (H2H 4-1 pts: OLO_HKR 0-0, HKR_OLO 1-3)
+TABLE|2023-24|9|Hradec|30|9|10|11|32|38|37|Evropu
+TABLE|2023-24|10|Teplice|30|9|9|12|31|40|36|Evropu
+TABLE|2023-24|11|Bohemians|30|8|11|11|29|40|35|Zachranu
+TABLE|2023-24|12|Jablonec|30|6|12|12|35|45|30|Zachranu
+TABLE|2023-24|13|Pardubice|30|7|7|16|29|42|28|Zachranu
+TABLE|2023-24|14|Karvina|30|6|7|17|30|52|25|Zachranu; H2H over Zlin (H2H 6-0: KAR_ZLN 4-1, ZLN_KAR 0-1)
+TABLE|2023-24|15|Zlin|30|5|10|15|36|61|25|Zachranu
+TABLE|2023-24|16|CBudejovice|30|6|6|18|34|62|24|Zachranu
+#
+# ===== OFFICIAL PLAYOFF-STAGE GROUP TABLES (combined regular+group; wiki Championship/Relegation
+# group sections, highest_pos applied). GTABLE|<season>|<T|Z>|<pos-in-group>|<stock>|<P=35>|<W>|<D>|<L>|<GF>|<GA>|<Pts>
+GTABLE|2021-22|T|1|Plzen|35|26|7|2|63|21|85
+GTABLE|2021-22|T|2|Slavia|35|24|6|5|80|27|78
+GTABLE|2021-22|T|3|Sparta|35|22|7|6|72|40|73
+GTABLE|2021-22|T|4|Slovacko|35|21|5|9|59|38|68
+GTABLE|2021-22|T|5|Ostrava|35|15|10|10|60|48|55
+GTABLE|2021-22|T|6|Hradec|35|10|14|11|44|52|44
+GTABLE|2021-22|Z|1|Pardubice|35|9|10|16|42|68|37
+GTABLE|2021-22|Z|2|Zlin|35|9|9|17|43|60|36
+GTABLE|2021-22|Z|3|Jablonec|35|6|16|13|27|48|34
+GTABLE|2021-22|Z|4|Bohemians|35|8|10|17|45|61|34
+GTABLE|2021-22|Z|5|Teplice|35|8|5|22|33|59|29
+GTABLE|2021-22|Z|6|Karvina|35|3|10|22|33|63|19
+GTABLE|2022-23|T|1|Sparta|35|23|9|3|76|33|78
+GTABLE|2022-23|T|2|Slavia|35|24|6|5|98|31|78
+GTABLE|2022-23|T|3|Plzen|35|18|7|10|60|38|61
+GTABLE|2022-23|T|4|Bohemians|35|15|7|13|56|58|52
+GTABLE|2022-23|T|5|Slovacko|35|13|11|11|40|46|50
+GTABLE|2022-23|T|6|Olomouc|35|12|12|11|53|47|48
+GTABLE|2022-23|Z|1|Ostrava|35|11|9|15|53|50|42
+GTABLE|2022-23|Z|2|Teplice|35|11|9|15|45|67|42
+GTABLE|2022-23|Z|3|Jablonec|35|10|10|15|49|63|40
+GTABLE|2022-23|Z|4|Pardubice|35|11|4|20|38|63|37
+GTABLE|2022-23|Z|5|Zlin|35|7|13|15|43|60|34
+GTABLE|2022-23|Z|6|Brno|35|8|9|18|41|64|33
+GTABLE|2023-24|T|1|Sparta|35|27|6|2|82|30|87
+GTABLE|2023-24|T|2|Slavia|35|26|7|2|76|24|85
+GTABLE|2023-24|T|3|Plzen|35|21|7|7|76|40|70
+GTABLE|2023-24|T|4|Ostrava|35|14|7|14|56|48|49
+GTABLE|2023-24|T|5|MlBoleslav|35|13|8|14|51|59|47
+GTABLE|2023-24|T|6|Slovacko|35|12|8|15|45|56|44
+GTABLE|2023-24|Z|1|Jablonec|35|9|14|12|45|50|41
+GTABLE|2023-24|Z|2|Pardubice|35|11|7|17|39|47|40
+GTABLE|2023-24|Z|3|Bohemians|35|9|12|14|34|48|39
+GTABLE|2023-24|Z|4|Karvina|35|8|8|19|38|62|32
+GTABLE|2023-24|Z|5|CBudejovice|35|7|8|20|41|70|29
+GTABLE|2023-24|Z|6|Zlin|35|5|12|18|40|69|27
+#
+# ===== INFOBOX ANCHORS (champion, relegated, matches, goals, season date span)
+# 2021-22: champions Viktoria Plzen; relegated Karvina; matches 276; goals 763; 2021-07-24..2022-05-14
+# 2022-23: champions Sparta Prague; relegated Zbrojovka Brno; matches 276; goals 819; 2022-07-30..2023-05-28
+# 2023-24: champions Sparta; relegated Zlin; matches 277 (incl. CL play-off Final 2024-05-31); goals 804;
+#          2023-07-22..2024-05-31. class_rules both stages: 1) Points/total points 2) points earned in
+#          regular season 3-5) H2H (regular season) 5) GD 6) GF 7) fair-play 8) draw.
+# ===== PRO/REL PLAYOFF OUTCOMES (wiki TwoLegResult + match boxes; rows HELD OUT of pack, see roster NOTE)
+# 2021-22 (2022-05-19/22): Teplice 5-2 Vlasim agg (3-0, 2-2); Opava 0-3 Bohemians 1905 agg (0-1, 0-2); all remain
+# 2022-23 (2023-06-01/04): Viagem Pribram 0-2 Pardubice agg (0-2 @Na Litavce, 0-0 @CFIG Arena);
+#          Trinity Zlin 1-0 Vyskov agg (1-0 @Letna Stadion, 0-0 @Sportovni areal Drnovice); all remain
+# 2023-24 (2024-05-30/06-02; pre-season calendar had announced 29 May/2 June - iDNES plan via wiki
+#          infobox; played dates confirmed: iSport 2024-05-30 match reports + CT sport same evening):
+#          Vyskov 0-2 Karvina agg (0-1, 0-1 - Vyskov home leg at Drnovice ground); CBudejovice 3-2
+#          Silon Taborsko agg (2-1, 1-1); all remain
+# ===== EVROPU WINNERS: 2021-22 MlBoleslav (F 4-3 agg v Olomouc; cash bonus only - low coefficient);
+# 2022-23 Slovan Liberec (F 6-3 agg v Hradec; cash bonus + Czech Cup 3rd-round bye);
+# 2023-24 Hradec Kralove (F 3-0 agg v Teplice) then lost CL play-off Final 1-3 at MlBoleslav
+# (2024-05-31, Lokotrans Arena, att 4173; Marecek 13, Kostka 45+1, Matejovsky 54pen; Cmelik 83);
+# winner of the Final = Conference League Q2 ticket (Mlad=Boleslav).
+# ===== SOURCES
+# https://en.wikipedia.org/wiki/2021%E2%80%9322_Czech_First_League
+# https://en.wikipedia.org/wiki/2022%E2%80%9323_Czech_First_League
+# https://en.wikipedia.org/wiki/2023%E2%80%9324_Czech_First_League

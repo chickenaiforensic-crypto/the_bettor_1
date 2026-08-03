@@ -1,0 +1,231 @@
+PACK VALIDATION - RUSCUP-2021-2026_BP-TEAM-PACK_v2.txt
+built 2026-08-03 by tools/build_pack.py from audit/ledger/cup-*.txt (RSSSF rus2022/2023/2024 cup chapters primary; Wikipedia/RFS second index x-checked 189/189 rows)
+====================================================================================================
+GATES: 162 PASS, 0 FAIL
+
+[PASS] season RPL sets carry exactly 16 clubs each
+[PASS] file ends with END
+[PASS] MATCH grammar: 14 fields, competition/compType (domestic-cup per errata 2026-08-03)/country verbatim
+[PASS] no dateless / non-ISO rows
+[PASS] boundary: no row >= 2024-06-30
+[PASS] no duplicate rows (date/home/away)
+[PASS] venue-detail/stadium/city populated on every row
+[PASS] every MATCH sourceLabel resolves to a SOURCE row
+[PASS] TEAM grammar: 13 fields
+[PASS] declared TEAM set = 22 planned non-roster opponents (21 + FC Ufa per errata 2026-08-03)
+[PASS] TEAM rows disjoint from client roster
+[PASS] every home/away string resolves to roster identity or declared TEAM row
+[PASS] every declared TEAM appears in >=1 row
+[PASS] 2021-22 total rows = 36
+[PASS] 2021-22 Group rows = 22
+[PASS] 2021-22 R16 rows = 7
+[PASS] 2021-22 QF rows = 4
+[PASS] 2021-22 SF rows = 2
+[PASS] 2021-22 Final rows = 1
+[PASS] 2022-23 total rows = 77
+[PASS] 2022-23 Group rows = 48
+[PASS] 2022-23 QF-up rows = 8
+[PASS] 2022-23 QF-low rows = 8
+[PASS] 2022-23 SF-up rows = 4
+[PASS] 2022-23 SF-low rows = 4
+[PASS] 2022-23 Finals-up rows = 2
+[PASS] 2022-23 Finals-low rows = 2
+[PASS] 2022-23 Final rows = 1
+[PASS] 2023-24 total rows = 76
+[PASS] 2023-24 Group rows = 48
+[PASS] 2023-24 QF-Major rows = 8
+[PASS] 2023-24 QF-Minor rows = 8
+[PASS] 2023-24 SF-Major rows = 4
+[PASS] 2023-24 SF-Minor rows = 4
+[PASS] 2023-24 Finals-Major rows = 2
+[PASS] 2023-24 Finals-Minor rows = 1
+[PASS] 2023-24 Final rows = 1
+[PASS] slice rule: every row has >=1 of that season's 16 RPL clubs
+[PASS] stage labels within per-season whitelist
+[PASS] advancement NOTE matches a 90-min draw row (2022-04-19 Dynamo Moscow/Baltika Kaliningrad)
+[PASS] advancement NOTE matches a 90-min draw row (2022-04-20 Alania Vladikavkaz/Zenit St Petersburg)
+[PASS] advancement NOTE matches a 90-min draw row (2023-03-14 Lokomotiv Moscow/Akron Tolyatti)
+[PASS] advancement NOTE matches a 90-min draw row (2023-03-15 Dynamo Moscow/Zenit St Petersburg)
+[PASS] advancement NOTE matches a 90-min draw row (2023-04-04 Dynamo Moscow/Akron Tolyatti)
+[PASS] advancement NOTE matches a 90-min draw row (2023-04-06 FC Krasnodar/FC Rostov)
+[PASS] advancement NOTE matches a 90-min draw row (2023-04-19 FC Krasnodar/Krylia Sovetov Samara)
+[PASS] advancement NOTE matches a 90-min draw row (2023-05-03 FC Krasnodar/Akron Tolyatti)
+[PASS] advancement NOTE matches a 90-min draw row (2023-06-11 FC Krasnodar/CSKA Moscow)
+[PASS] advancement NOTE matches a 90-min draw row (2024-03-13 Ural Yekaterinburg/Rodina Moscow)
+[PASS] advancement NOTE matches a 90-min draw row (2024-03-14 Lokomotiv Moscow/Baltika Kaliningrad)
+[PASS] advancement NOTE matches a 90-min draw row (2024-03-14 SKA Khabarovsk/PFC Sochi)
+[PASS] advancement NOTE matches a 90-min draw row (2024-04-02 FC Khimki/FC Rostov)
+[PASS] advancement NOTE matches a 90-min draw row (2024-05-15 CSKA Moscow/Zenit St Petersburg)
+[PASS] advancement NOTEs present: 14
+[PASS] group_pens NOTEs present: 21 (5+7+9)
+[PASS] 2021-22 Group-1 in-scope group rows = 2
+[PASS] 2021-22 Group-1 memberships match official draw
+[PASS] 2021-22 Group-2 in-scope group rows = 2
+[PASS] 2021-22 Group-2 memberships match official draw
+[PASS] 2021-22 Group-3 in-scope group rows = 2
+[PASS] 2021-22 Group-3 memberships match official draw
+[PASS] 2021-22 Group-4 in-scope group rows = 2
+[PASS] 2021-22 Group-4 memberships match official draw
+[PASS] 2021-22 Group-5 in-scope group rows = 2
+[PASS] 2021-22 Group-5 memberships match official draw
+[PASS] 2021-22 Group-6 in-scope group rows = 2
+[PASS] 2021-22 Group-6 memberships match official draw
+[PASS] 2021-22 Group-7 in-scope group rows = 2
+[PASS] 2021-22 Group-7 memberships match official draw
+[PASS] 2021-22 Group-8 in-scope group rows = 2
+[PASS] 2021-22 Group-8 memberships match official draw
+[PASS] 2021-22 Group-9 in-scope group rows = 2
+[PASS] 2021-22 Group-9 memberships match official draw
+[PASS] 2021-22 Group-10 in-scope group rows = 2
+[PASS] 2021-22 Group-10 memberships match official draw
+[PASS] 2021-22 Group-11 in-scope group rows = 2
+[PASS] 2021-22 Group-11 memberships match official draw
+[PASS] 2022-23 Group-A in-scope group rows = 12
+[PASS] 2022-23 Group-A memberships match official draw
+[PASS] 2022-23 Group-A every group draw carries a group_pens NOTE
+[PASS] 2022-23 Group-A table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2022-23 Group-A official finish order consistent with recomputed points
+[PASS] 2022-23 Group-A group winner FC Krasnodar on top points
+[PASS] 2022-23 Group-B in-scope group rows = 12
+[PASS] 2022-23 Group-B memberships match official draw
+[PASS] 2022-23 Group-B every group draw carries a group_pens NOTE
+[PASS] 2022-23 Group-B table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2022-23 Group-B official finish order consistent with recomputed points
+[PASS] 2022-23 Group-B group winner Spartak Moscow on top points
+[PASS] 2022-23 Group-C in-scope group rows = 12
+[PASS] 2022-23 Group-C memberships match official draw
+[PASS] 2022-23 Group-C every group draw carries a group_pens NOTE
+[PASS] 2022-23 Group-C table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2022-23 Group-C official finish order consistent with recomputed points
+[PASS] 2022-23 Group-C group winner Dynamo Moscow on top points
+[PASS] 2022-23 Group-D in-scope group rows = 12
+[PASS] 2022-23 Group-D memberships match official draw
+[PASS] 2022-23 Group-D every group draw carries a group_pens NOTE
+[PASS] 2022-23 Group-D table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2022-23 Group-D official finish order consistent with recomputed points
+[PASS] 2022-23 Group-D group winner Ural Yekaterinburg on top points
+[PASS] 2023-24 Group-A in-scope group rows = 12
+[PASS] 2023-24 Group-A memberships match official draw
+[PASS] 2023-24 Group-A every group draw carries a group_pens NOTE
+[PASS] 2023-24 Group-A table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2023-24 Group-A official finish order consistent with recomputed points
+[PASS] 2023-24 Group-A group winner CSKA Moscow on top points
+[PASS] 2023-24 Group-B in-scope group rows = 12
+[PASS] 2023-24 Group-B memberships match official draw
+[PASS] 2023-24 Group-B every group draw carries a group_pens NOTE
+[PASS] 2023-24 Group-B table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2023-24 Group-B official finish order consistent with recomputed points
+[PASS] 2023-24 Group-B group winner Lokomotiv Moscow on top points
+[PASS] 2023-24 Group-C in-scope group rows = 12
+[PASS] 2023-24 Group-C memberships match official draw
+[PASS] 2023-24 Group-C every group draw carries a group_pens NOTE
+[PASS] 2023-24 Group-C table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2023-24 Group-C official finish order consistent with recomputed points
+[PASS] 2023-24 Group-C group winner Zenit St Petersburg on top points
+[PASS] 2023-24 Group-D in-scope group rows = 12
+[PASS] 2023-24 Group-D memberships match official draw
+[PASS] 2023-24 Group-D every group draw carries a group_pens NOTE
+[PASS] 2023-24 Group-D table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2023-24 Group-D official finish order consistent with recomputed points
+[PASS] 2023-24 Group-D group winner Spartak Moscow on top points
+[PASS] 2021-22 Group-1 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-2 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-3 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-4 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-5 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-6 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-7 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-8 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-9 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-10 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 Group-11 full 3-team table recomputes from full ledger (incl round 1)
+[PASS] 2021-22 excluded R16 tie (Baltika-Chaika) has 0 RPL participants (documented slice exclusion)
+[PASS] 2021-22 R16 lineup (in-scope) = 11 group winners + 5 exempt, minus the RPL-free tie
+[PASS] 2021-22 SF tie-pairs reproduce official record
+[PASS] 2021-22 Final tie-pairs reproduce official record
+[PASS] 2021-22 champion = Spartak Moscow
+[PASS] 2022-23 SF-up tie-pairs reproduce official record
+[PASS] 2022-23 SF-low P1 tie-pairs reproduce official record
+[PASS] 2022-23 SF-low P2 tie-pairs reproduce official record
+[PASS] 2022-23 Final tie-pairs reproduce official record
+[PASS] 2022-23 champion = CSKA Moscow
+[PASS] 2023-24 SF-Major tie-pairs reproduce official record
+[PASS] 2023-24 SF-Minor P1 tie-pairs reproduce official record
+[PASS] 2023-24 SF-Minor P2 tie-pairs reproduce official record
+[PASS] 2023-24 Final tie-pairs reproduce official record
+[PASS] 2023-24 champion = Zenit St Petersburg
+[PASS] two-legged aggregates reproduce official record (14 ties)
+[PASS] 2021-22 pivot: 11 group entrants x 2 group dates
+[PASS] 2021-22 pivot: 5 exempt clubs enter at R16
+[PASS] 2021-22 pivot: every RPL club appears
+[PASS] 2021-22 RPL-club appearances = 40 (of 2x36; 32 non-RPL opponent slots)
+[PASS] 2022-23 pivot: all 16 RPL clubs x 6 group dates
+[PASS] 2022-23 pivot: every RPL club appears
+[PASS] 2022-23 RPL-club appearances = 146 (of 2x77; 8 non-RPL opponent slots)
+[PASS] 2023-24 pivot: all 16 RPL clubs x 6 group dates
+[PASS] 2023-24 pivot: every RPL club appears
+[PASS] 2023-24 RPL-club appearances = 146 (of 2x76; 6 non-RPL opponent slots)
+
+====================================================================================================
+PER-CLUB PIVOT LEDGERS (owner's per-team completeness technique)
+====================================================================================================
+per-club pivot 2021-22 (group apps / bracket apps):
+  Akhmat Grozny                2 / 0
+  Arsenal Tula                 2 / 1
+  CSKA Moscow                  2 / 2
+  Dynamo Moscow                2 / 4
+  FC Khimki                    2 / 0
+  FC Krasnodar                 2 / 0
+  FC Rostov                    2 / 0
+  FC Ufa                       2 / 0
+  Krylia Sovetov Samara        2 / 0
+  Lokomotiv Moscow             0 / 1
+  PFC Sochi                    0 / 1
+  Pari Nizhny Novgorod         2 / 1
+  Rubin Kazan                  0 / 2
+  Spartak Moscow               0 / 4
+  Ural Yekaterinburg           2 / 0
+  Zenit St Petersburg          0 / 2
+per-club pivot 2022-23 (group apps / bracket apps):
+  Akhmat Grozny                6 / 2
+  CSKA Moscow                  6 / 7
+  Dynamo Moscow                6 / 4
+  FC Khimki                    6 / 0
+  FC Krasnodar                 6 / 8
+  FC Orenburg                  6 / 0
+  FC Rostov                    6 / 4
+  Fakel Voronezh               6 / 0
+  Krylia Sovetov Samara        6 / 5
+  Lokomotiv Moscow             6 / 3
+  PFC Sochi                    6 / 0
+  Pari Nizhny Novgorod         6 / 2
+  Spartak Moscow               6 / 5
+  Torpedo Moscow               6 / 1
+  Ural Yekaterinburg           6 / 7
+  Zenit St Petersburg          6 / 2
+per-club pivot 2023-24 (group apps / bracket apps):
+  Akhmat Grozny                6 / 2
+  Baltika Kaliningrad          6 / 7
+  CSKA Moscow                  6 / 6
+  Dynamo Moscow                6 / 5
+  FC Krasnodar                 6 / 1
+  FC Orenburg                  6 / 4
+  FC Rostov                    6 / 5
+  Fakel Voronezh               6 / 0
+  Krylia Sovetov Samara        6 / 0
+  Lokomotiv Moscow             6 / 3
+  PFC Sochi                    6 / 1
+  Pari Nizhny Novgorod         6 / 0
+  Rubin Kazan                  6 / 0
+  Spartak Moscow               6 / 6
+  Ural Yekaterinburg           6 / 3
+  Zenit St Petersburg          6 / 7
+
+====================================================================================================
+BRACKET REPRODUCTION SUMMARY
+====================================================================================================
+2021-22: SF Dynamo Moscow-Alania Vladikavkaz, Spartak Moscow-Yenisey Krasnoyarsk - final Spartak Moscow 2-1 Dynamo Moscow (Luzhniki, 2022-05-29) - champion SPARTAK MOSCOW
+2022-23: up-final CSKA Moscow 3-2 agg Ural Yekaterinburg; low-final FC Krasnodar past Akron Tolyatti (pens 4-2) and Ural (2-1) - Super Final CSKA Moscow 1-1 FC Krasnodar, pens 6-5 (Luzhniki, 2023-06-11) - champion CSKA MOSCOW
+2023-24: Major-final Zenit St Petersburg past CSKA Moscow (agg 1-1, pens 5-4); Minor-final Baltika Kaliningrad 1-0 Spartak Moscow - Super Final Zenit St Petersburg 2-1 Baltika Kaliningrad (Luzhniki, 2024-06-02) - champion ZENIT ST PETERSBURG
+
+SOURCE CONFLICTS (resolved, 3): SF-up leg2 Ural-Spartak = 2023-04-04; SF-up leg2 CSKA-Krylia Sovetov = 2023-04-05; Finals-low P1 Krasnodar-Akron = 2023-05-03 - RSSSF compact headers ran +1 day; detailed cupdet dates corroborated by wiki/RFS index.

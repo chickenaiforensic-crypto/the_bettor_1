@@ -1,0 +1,77 @@
+# Russian Cup 2021/22 — RSSSF rus2022.html #kubok (compact chapter)
+# ISO|stage|home|hg|ag|away|penH|penA|stadium|city
+# Format: FNL-2 path (D3/D4) + FNL path (D2) qualifiers -> ELITE GROUP STAGE: 11 groups x 3 teams
+# (1 RPL + 1 D2 + 1 D3), single round-robin = 3 matches/group. Group Round 1 = D3 vs D2 (NO RPL club ->
+# out of scope, listed as OUT rows only for table-recompute). Rounds 2-3 = include exactly one RPL club each.
+# Group winners (11) + 5 exempt European RPL clubs (Zenit, Spartak, Lokomotiv, Rubin, Sochi) -> Round of 16.
+# Point system: W=3, WP(pens win)=2, LP(pens loss)=1, L=0.
+# ---- GROUP R1 (Aug 25-26, 2021) — OUT OF SCOPE (no RPL participant), audit-only ----
+#OUT 2021-08-25|Group-1 R1|Leningradets St-Peterburg|1|0|Kuban Krasnodar
+#OUT 2021-08-25|Group-2 R1|Torpedo Vladimir|0|1|KAMAZ Naberezhnye Chelny
+#OUT 2021-08-25|Group-3 R1|Dinamo Bryansk|0|3|Veles Moskva
+#OUT 2021-08-25|Group-4 R1|Dinamo Barnaul|0|2|Fakel Voronezh
+#OUT 2021-08-25|Group-5 R1|Chaika Peschanokopskoe|1|0|Torpedo Moskva   [Aug 26]
+#OUT 2021-08-25|Group-6 R1|Legion-Dinamo Makhachkala|2|3|Alania Vladikavkaz
+#OUT 2021-08-25|Group-7 R1|Qayrat Moskva|0|3|Rotor Volgograd
+#OUT 2021-08-25|Group-8 R1|FC Saransk|1|2|Baltika Kaliningrad
+#OUT 2021-08-25|Group-9 R1|Znamya Noginsk|0|4|Yenisey Krasnoyarsk
+#OUT 2021-08-25|Group-10 R1|Zenit Izhevsk|1|2|Metallurg Lipetsk
+#OUT 2021-08-25|Group-11 R1|Dinamo Stavropol|1|3|FC Orenburg
+# ---- GROUP R2 (Sep 22-23, 2021) — IN SCOPE ---- (venues: Wikipedia 2021-22 Russian Cup wikitext, x-checked vs RSSSF scores/dates)
+2021-09-22|Group-1 R2|Leningradets St-Peterburg|0|2|FC Krasnodar|||Kirovets Stadium|St Petersburg
+2021-09-22|Group-3 R2|Dinamo Bryansk|1|6|Arsenal Tula|||Dynamo Stadium|Bryansk
+2021-09-22|Group-4 R2|Dinamo Barnaul|0|1|Pari Nizhny Novgorod|||Dynamo Stadium|Barnaul
+2021-09-22|Group-5 R2|Chaika Peschanokopskoe|1|0|FC Rostov|||Rostov Arena|Rostov-on-Don
+2021-09-22|Group-6 R2|Legion-Dinamo Makhachkala|1|1|FC Ufa|0|2|Dynamo Stadium|Makhachkala
+2021-09-22|Group-7 R2|Qayrat Moskva|0|3|Akhmat Grozny|||Central Stadium|Odintsovo
+2021-09-22|Group-8 R2|FC Saransk|1|1|FC Khimki|7|6|Mordovia Arena|Saransk
+2021-09-22|Group-9 R2|Znamya Noginsk|0|10|Krylia Sovetov Samara|||Istomkino Stadium|Noginsk
+2021-09-22|Group-11 R2|Dinamo Stavropol|0|6|Dynamo Moscow|||Dynamo Stadium|Stavropol
+2021-09-23|Group-2 R2|Torpedo Vladimir|0|2|Ural Yekaterinburg|||Torpedo Stadium|Vladimir
+2021-09-23|Group-10 R2|Zenit Izhevsk|0|4|CSKA Moscow|||Central Republican Stadium|Izhevsk
+# ---- GROUP R3 (Oct 26-27, 2021) — IN SCOPE ----
+2021-10-26|Group-10 R3|Metallurg Lipetsk|0|2|CSKA Moscow|||Metallurg Stadium|Lipetsk
+2021-10-26|Group-11 R3|FC Orenburg|0|3|Dynamo Moscow|||Gazovik Stadium|Orenburg
+2021-10-27|Group-1 R3|Kuban Krasnodar|3|0|FC Krasnodar|||Kuban Stadium|Krasnodar
+2021-10-27|Group-2 R3|KAMAZ Naberezhnye Chelny|1|0|Ural Yekaterinburg|||KAMAZ Stadium|Naberezhnye Chelny
+2021-10-27|Group-3 R3|Veles Moskva|1|1|Arsenal Tula|3|4|Avangard Stadium|Moscow
+2021-10-27|Group-4 R3|Fakel Voronezh|0|1|Pari Nizhny Novgorod|||Tsentralnyi Profsoyuz Stadion|Voronezh
+2021-10-27|Group-5 R3|Torpedo Moscow|2|0|FC Rostov|||Sportivnyy Gorodok Luzhniki|Moscow
+2021-10-27|Group-6 R3|Alania Vladikavkaz|2|0|FC Ufa|||Sultan Bilimkhanov Stadium|Grozny
+2021-10-27|Group-7 R3|Rotor Volgograd|1|1|Akhmat Grozny|4|2|Volgograd Arena|Volgograd
+2021-10-27|Group-8 R3|Baltika Kaliningrad|0|0|FC Khimki|4|5|Kaliningrad Stadium|Kaliningrad
+2021-10-27|Group-9 R3|Yenisey Krasnoyarsk|1|0|Krylia Sovetov Samara|||Central Stadium|Krasnoyarsk
+# ---- ROUND OF 16 (Mar 1-3, 2022) single legs ----
+2022-03-01|R16|Dynamo Moscow|3|0|Pari Nizhny Novgorod|||VTB Arena|Moscow
+2022-03-02|R16|Spartak Moscow|6|1|Kuban Krasnodar|||Otkrytie Arena|Moscow
+2022-03-02|R16|Alania Vladikavkaz|1|0|Arsenal Tula|||Sultan Bilimkhanov Stadium|Grozny
+2022-03-02|R16|PFC Sochi|1|2|CSKA Moscow|||Fisht Olympic Stadium|Sochi
+2022-03-03|R16|Lokomotiv Moscow|0|4|Yenisey Krasnoyarsk|||Russian Railways Arena|Moscow
+2022-03-03|R16|Zenit St Petersburg|6|0|KAMAZ Naberezhnye Chelny|||Gazprom Arena|St Petersburg
+#OUT 2022-03-03|R16|Baltika Kaliningrad|3|0|Chaika Peschanokopskoe   # OUT: no RPL club on pitch (Kaliningrad Stadium)
+2022-03-03|R16|Rubin Kazan|2|1|Rotor Volgograd|||Ak Bars Arena|Kazan
+# ---- QUARTERFINALS ----
+2022-04-19|QF|Baltika Kaliningrad|1|1|Dynamo Moscow|4|5|Kaliningrad Stadium|Kaliningrad
+2022-04-20|QF|CSKA Moscow|0|1|Spartak Moscow|||VEB Arena|Moscow
+2022-04-20|QF|Alania Vladikavkaz|2|2|Zenit St Petersburg|6|5|Sultan Bilimkhanov Stadium|Grozny
+2022-04-20|QF|Yenisey Krasnoyarsk|3|1|Rubin Kazan|||Central Stadium|Krasnoyarsk
+# ---- SEMIFINALS ----
+2022-05-10|SF|Dynamo Moscow|3|0|Alania Vladikavkaz|||VTB Arena|Moscow
+2022-05-11|SF|Spartak Moscow|3|0|Yenisey Krasnoyarsk|||Otkrytie Arena|Moscow
+# ---- FINAL ----
+2022-05-29|Final|Spartak Moscow|2|1|Dynamo Moscow|||Luzhniki Stadium|Moscow
+# GROUP TABLES (RSSSF) for recompute (W WP LP L / GF-GA pts):
+# G1: Kuban 1 0 0 1 3-1 3* | Krasnodar 1 0 0 1 2-3 3 | Leningradets 1 0 0 1 1-2 3   (*winner on GD)
+# G2: KAMAZ 2 0 0 0 2-0 6 | Ural 1 0 0 1 2-1 3 | TorpedoVlad 0 0 0 2 0-3 0
+# G3: Arsenal 1 1 0 0 7-2 5 | Veles 1 0 1 0 4-1 4 | DinBryansk 0 0 0 2 1-9 0
+# G4: PariNN 2 0 0 0 2-0 6 | Fakel 1 0 0 1 2-1 3 | DinBarnaul 0 0 0 2 0-3 0
+# G5: Chaika 2 0 0 0 2-0 6 | TorpedoM 1 0 0 1 2-1 3 | Rostov 0 0 0 2 0-3 0
+# G6: Alania 2 0 0 0 5-2 6 | Ufa 0 1 0 1 1-3 2 | Legion 0 0 1 1 3-4 1
+# G7: Rotor 1 1 0 0 4-1 5 | Akhmat 1 0 1 0 4-1 4 | Qayrat 0 0 0 2 0-6 0
+# G8: Baltika 1 0 1 0 2-1 4 | Khimki 0 1 1 0 1-1 3 | Saransk 0 1 0 1 2-3 2
+# G9: Yenisey 2 0 0 0 5-0 6 | Krylya 1 0 0 1 10-1 3 | Znamya 0 0 0 2 0-14 0
+# G10: CSKA 2 0 0 0 6-0 6 | MetallurgLp 1 0 0 1 2-3 3 | ZenitIzhevsk 0 0 0 2 1-6 0
+# G11: DinamoM 2 0 0 0 9-0 6 | Orenburg 1 0 0 1 3-4 3 | DinStavropol 0 0 0 2 1-9 0
+# IN-SCOPE COUNT: 22 group + 7 R16 + 4 QF + 2 SF + 1 Final = 36 rows.
+# Format NOTE: workorder said "no group stage this season" — RSSSF shows Elite Group Stage (11x3) DID
+# include 11 RPL clubs in rounds 2-3 -> NOTE|info|format_reading required.

@@ -1,0 +1,194 @@
+PACK VALIDATION - RPL-2021-2026_BP-TEAM-PACK_v2.txt
+built 2026-08-03 by tools/build_rpl_pack.py from audit/ledger/rpl-<season>.txt (RSSSF rus2022/2023/2024 #1l+#prorel primary, transcribed 2026-08-03) + rpl-venues.txt facts; second index = football-data feeds (fdata-rpl-*, fetched 2026-08-02) diffed match-for-match; Wikipedia season articles third anchor.
+====================================================================================================
+GATES: 69 PASS, 0 FAIL
+[PASS] file ends with END
+[PASS] MATCH grammar: 14 fields, competition/country/blank-13 verbatim; compType domestic-league on league rows, other on the 12 relegation-playoff rows (errata ERRATA-2026-08-03)
+[PASS] no dateless / non-ISO rows
+[PASS] boundary: no row >= 2024-06-30
+[PASS] no duplicate rows (date/home/away)
+[PASS] venue-detail (Round n / Playoff legK), stadium and city populated on every row
+[PASS] every MATCH sourceLabel resolves to a SOURCE row
+[PASS] TEAM grammar: 13 fields
+[PASS] declared TEAM set = {FC Ufa, Yenisey Krasnoyarsk, SKA Khabarovsk}
+[PASS] TEAM rows disjoint from client roster
+[PASS] every home/away string resolves to roster identity or declared TEAM row (federation check)
+[PASS] total rows = 732 (720 league + 12 playoff); got 732
+[PASS] 2021-22 league rows = 240
+[PASS] 2021-22 playoff rows = 4 (2 ties x 2 legs)
+[PASS] 2021-22 all 30 rounds present x 8 dated fixtures
+[PASS] 2021-22 pivot: 16 clubs x exactly 30 played
+[PASS] 2022-23 league rows = 240
+[PASS] 2022-23 playoff rows = 4 (2 ties x 2 legs)
+[PASS] 2022-23 all 30 rounds present x 8 dated fixtures
+[PASS] 2022-23 pivot: 16 clubs x exactly 30 played
+[PASS] 2023-24 league rows = 240
+[PASS] 2023-24 playoff rows = 4 (2 ties x 2 legs)
+[PASS] 2023-24 all 30 rounds present x 8 dated fixtures
+[PASS] 2023-24 pivot: 16 clubs x exactly 30 played
+[PASS] 2021-22 table reproduction 16/16 (position-order, W-D-L, GF-GA, Pts vs RSSSF official)
+[PASS] 2022-23 table reproduction 16/16 (position-order, W-D-L, GF-GA, Pts vs RSSSF official)
+[PASS] 2023-24 table reproduction 16/16 (position-order, W-D-L, GF-GA, Pts vs RSSSF official)
+[PASS] 2021-22 H2H tie at 50 pts: official order Krasnodar > CSKA reproduced from mutual results
+[PASS] 2021-22 H2H tie at 38 pts: official order Rostov > Spartak reproduced from mutual results
+[PASS] 2021-22 H2H tie at 33 pts: official order NNovgorod > Ural reproduced from mutual results
+[PASS] 2022-23 H2H tie at 45 pts: official order Lokomotiv > Dinamo reproduced from mutual results
+[PASS] 2022-23 H2H tie at 30 pts: official order Pari NN > Fakel reproduced from mutual results
+[PASS] 2023-24 H2H tie at 56 pts: official order Krasnodar > Dinamo reproduced from mutual results
+[PASS] 2023-24 H2H tie at 30 pts: official order Pari NN > Ural reproduced from mutual results
+[PASS] 2021-22 league goals total = 639 (RSSSF/wiki anchors)
+[PASS] 2022-23 league goals total = 730 (RSSSF/wiki anchors)
+[PASS] 2023-24 league goals total = 637 (RSSSF/wiki anchors)
+[PASS] 2021-22 playoff tie SKA Khabarovsk vs FC Khimki: official aggregate FC Khimki 3-1 reproduced
+[PASS] 2021-22 playoff tie FC Orenburg vs FC Ufa: official aggregate FC Orenburg 4-3 reproduced
+[PASS] 2021-22 playoff outcomes NOTE: FC Orenburg promoted; FC Ufa relegated; FC Khimki and SKA Khabarovsk remain at former level
+[PASS] 2022-23 playoff tie Yenisey Krasnoyarsk vs Fakel Voronezh: official aggregate Fakel Voronezh 3-0 reproduced
+[PASS] 2022-23 playoff tie Rodina Moscow vs Pari Nizhny Novgorod: official aggregate Pari Nizhny Novgorod 3-2 reproduced
+[PASS] 2022-23 playoff outcomes NOTE: all four clubs remain at former level (Fakel Voronezh and Pari Nizhny Novgorod stay in RPL; Yenisey Krasnoyarsk and Rodina Moscow stay in First League)
+[PASS] 2023-24 playoff tie Pari Nizhny Novgorod vs Arsenal Tula: official aggregate Pari Nizhny Novgorod 3-2 reproduced
+[PASS] 2023-24 playoff tie Ural Yekaterinburg vs Akron Tolyatti: official aggregate Akron Tolyatti 3-2 reproduced
+[PASS] 2023-24 playoff outcomes NOTE: Akron Tolyatti promoted; Ural Yekaterinburg relegated; Arsenal Tula and Pari Nizhny Novgorod remain at former level
+[PASS] 2021-22 second-index diff: 244 rows vs feed 1:1, every date+score identical except documented whitelist
+[PASS] 2022-23 second-index diff: 244 rows vs feed 1:1, every date+score identical except documented whitelist
+[PASS] 2023-24 second-index diff: 244 rows vs feed 1:1, every date+score identical except documented whitelist
+[PASS] whitelist awarded_result 2023-03-19: feed=(1, 1) pack=(0, 3) confirmed
+[PASS] whitelist source_conflict 2023-08-14: feed=(1, 0) pack=(2, 0) confirmed
+[PASS] three spot-audit NOTE rows present (one matchday per season)
+[PASS] NOTE present: pack_id
+[PASS] NOTE present: comp_class
+[PASS] NOTE present: identity
+[PASS] NOTE present: venue_policy
+[PASS] NOTE present: stage_mapping
+[PASS] NOTE present: round_counts
+[PASS] NOTE present: awarded_result
+[PASS] NOTE present: club_context
+[PASS] NOTE present: team_fields
+[PASS] NOTE present: tiebreak
+[PASS] NOTE present: source_adaptation
+[PASS] NOTE present: playoff_outcomes
+[PASS] NOTE present: continuity
+[PASS] NOTE present: boundary_no_dupes
+[PASS] NOTE present: perclub_gate
+[PASS] two source_conflict NOTE rows present
+[PASS] pack is ASCII-only
+
+TABLE-REPRODUCTION DETAIL (official constants = RSSSF final tables in audit/ledger/rpl-venues.txt)
+--- 2021-22 official order (pos | club | recomputed P W-D-L GF-GA Pts | match)
+   1. Zenit          30 19- 8- 3 66-28 65  OK
+   2. Sochi          30 17- 5- 8 54-30 56  OK
+   3. Dinamo         30 16- 5- 9 53-41 53  OK
+   4. Krasnodar      30 14- 8- 8 42-30 50  OK
+   5. CSKA           30 15- 5-10 42-29 50  OK
+   6. Lokomotiv      30 13- 9- 8 43-39 48  OK
+   7. Ahmat          30 13- 3-14 36-38 42  OK
+   8. KS Samara      30 12- 5-13 39-36 41  OK
+   9. Rostov         30 10- 8-12 47-51 38  OK
+  10. Spartak        30 10- 8-12 37-41 38  OK
+  11. NNovgorod      30  8- 9-13 26-39 33  OK
+  12. Ural           30  8- 9-13 27-35 33  OK
+  13. Khimki         30  7-11-12 34-47 32  OK
+  14. Ufa            30  6-12-12 29-40 30  OK
+  15. Rubin          30  8- 5-17 34-56 29  OK
+  16. Arsenal        30  5- 8-17 30-59 23  OK
+--- 2022-23 official order (pos | club | recomputed P W-D-L GF-GA Pts | match)
+   1. Zenit          30 21- 7- 2 74-20 70  OK
+   2. CSKA           30 17- 7- 6 56-27 58  OK
+   3. Spartak        30 15- 9- 6 60-38 54  OK
+   4. Rostov         30 15- 8- 7 48-44 53  OK
+   5. Akhmat         30 15- 5-10 51-39 50  OK
+   6. Krasnodar      30 13- 9- 8 62-46 48  OK
+   7. Orenburg       30 14- 4-12 58-55 46  OK
+   8. Lokomotiv      30 13- 6-11 54-46 45  OK
+   9. Dinamo         30 13- 6-11 49-45 45  OK
+  10. Sochi          30 11- 5-14 37-54 38  OK
+  11. Ural           30 10- 6-14 33-45 36  OK
+  12. KS Samara      30  8- 8-14 32-45 32  OK
+  13. Pari NN        30  8- 6-16 33-50 30  OK
+  14. Fakel          30  6-12-12 36-48 30  OK
+  15. Khimki         30  4- 6-20 25-67 18  OK
+  16. Torpedo        30  3- 4-23 22-61 13  OK
+--- 2023-24 official order (pos | club | recomputed P W-D-L GF-GA Pts | match)
+   1. Zenit          30 17- 6- 7 52-27 57  OK
+   2. Krasnodar      30 16- 8- 6 45-29 56  OK
+   3. Dinamo         30 16- 8- 6 53-39 56  OK
+   4. Lokomotiv      30 14-11- 5 52-38 53  OK
+   5. Spartak        30 14- 8- 8 41-32 50  OK
+   6. CSKA           30 12-12- 6 56-40 48  OK
+   7. Rostov         30 12- 7-11 43-46 43  OK
+   8. Rubin          30 11- 9-10 31-38 42  OK
+   9. KS Samara      30 11- 8-11 46-44 41  OK
+  10. Akhmat         30 10- 5-15 33-45 35  OK
+  11. Fakel          30  7-11-12 22-31 32  OK
+  12. Orenburg       30  7-10-13 34-41 31  OK
+  13. Pari NN        30  8- 6-16 29-51 30  OK
+  14. Ural           30  7- 9-14 30-46 30  OK
+  15. Baltika        30  7- 5-18 33-42 26  OK
+  16. Sochi          30  5- 9-16 37-48 24  OK
+
+HEAD-TO-HEAD TIE DETAIL (mutual records recomputed from pack rows; RSSSF prints these as brackets)
+--- 2021-22 tie at 50 pts, official order: Krasnodar > CSKA | mutual records: Krasnodar: 1-1-0 1:0 (away 0); CSKA: 0-1-1 0:1 (away 0) | federation H2H chain reproduces official: YES
+--- 2021-22 tie at 38 pts, official order: Rostov > Spartak | mutual records: Rostov: 1-1-0 4:3 (away 1); Spartak: 0-1-1 3:4 (away 2) | federation H2H chain reproduces official: YES
+--- 2021-22 tie at 33 pts, official order: NNovgorod > Ural | mutual records: NNovgorod: 1-1-0 2:1 (away 1); Ural: 0-1-1 1:2 (away 0) | federation H2H chain reproduces official: YES
+--- 2022-23 tie at 45 pts, official order: Lokomotiv > Dinamo | mutual records: Lokomotiv: 1-0-1 5:5 (away 4); Dinamo: 1-0-1 5:5 (away 3) | federation H2H chain reproduces official: YES
+--- 2022-23 tie at 30 pts, official order: Pari NN > Fakel | mutual records: Pari NN: 1-0-1 3:2 (away 0); Fakel: 1-0-1 2:3 (away 1) | federation H2H chain reproduces official: YES
+--- 2023-24 tie at 56 pts, official order: Krasnodar > Dinamo | mutual records: Krasnodar: 2-0-0 4:1 (away 3); Dinamo: 0-0-2 1:4 (away 0) | federation H2H chain reproduces official: YES
+--- 2023-24 tie at 30 pts, official order: Pari NN > Ural | mutual records: Pari NN: 1-1-0 1:0 (away 0); Ural: 0-1-1 0:1 (away 0) | federation H2H chain reproduces official: YES
+
+SECOND-INDEX (football-data) DIFF SUMMARY
+--- 2021-22: feed rows 244, pack rows 244, keys matched 1:1 = 244, undocumented diffs = 0
+--- 2022-23: feed rows 244, pack rows 244, keys matched 1:1 = 244, undocumented diffs = 0
+--- 2023-24: feed rows 244, pack rows 244, keys matched 1:1 = 244, undocumented diffs = 0
+--- whitelisted variances: 2022-23 2023-03-19 Pari Nizhny Novgorod-Torpedo Moscow feed 1-1 vs pack 0-3 (awarded_result); 2023-24 2023-08-14 Pari Nizhny Novgorod-Akhmat Grozny feed 1-0 vs pack 2-0 (source_conflict)
+
+PER-CLUB PIVOT LEDGERS (owner technique: club-by-club full campaigns; league rows only)
+--- 2021-22 pivot
+  Zenit St Petersburg        P30 W19 D 8 L 3 GF 66 GA 28
+  PFC Sochi                  P30 W17 D 5 L 8 GF 54 GA 30
+  Dynamo Moscow              P30 W16 D 5 L 9 GF 53 GA 41
+  FC Krasnodar               P30 W14 D 8 L 8 GF 42 GA 30
+  CSKA Moscow                P30 W15 D 5 L10 GF 42 GA 29
+  Lokomotiv Moscow           P30 W13 D 9 L 8 GF 43 GA 39
+  Akhmat Grozny              P30 W13 D 3 L14 GF 36 GA 38
+  Krylia Sovetov Samara      P30 W12 D 5 L13 GF 39 GA 36
+  FC Rostov                  P30 W10 D 8 L12 GF 47 GA 51
+  Spartak Moscow             P30 W10 D 8 L12 GF 37 GA 41
+  Pari Nizhny Novgorod       P30 W 8 D 9 L13 GF 26 GA 39
+  Ural Yekaterinburg         P30 W 8 D 9 L13 GF 27 GA 35
+  FC Khimki                  P30 W 7 D11 L12 GF 34 GA 47
+  FC Ufa                     P30 W 6 D12 L12 GF 29 GA 40
+  Rubin Kazan                P30 W 8 D 5 L17 GF 34 GA 56
+  Arsenal Tula               P30 W 5 D 8 L17 GF 30 GA 59
+--- 2022-23 pivot
+  Zenit St Petersburg        P30 W21 D 7 L 2 GF 74 GA 20
+  CSKA Moscow                P30 W17 D 7 L 6 GF 56 GA 27
+  Spartak Moscow             P30 W15 D 9 L 6 GF 60 GA 38
+  FC Rostov                  P30 W15 D 8 L 7 GF 48 GA 44
+  Akhmat Grozny              P30 W15 D 5 L10 GF 51 GA 39
+  FC Krasnodar               P30 W13 D 9 L 8 GF 62 GA 46
+  FC Orenburg                P30 W14 D 4 L12 GF 58 GA 55
+  Lokomotiv Moscow           P30 W13 D 6 L11 GF 54 GA 46
+  Dynamo Moscow              P30 W13 D 6 L11 GF 49 GA 45
+  PFC Sochi                  P30 W11 D 5 L14 GF 37 GA 54
+  Ural Yekaterinburg         P30 W10 D 6 L14 GF 33 GA 45
+  Krylia Sovetov Samara      P30 W 8 D 8 L14 GF 32 GA 45
+  Pari Nizhny Novgorod       P30 W 8 D 6 L16 GF 33 GA 50
+  Fakel Voronezh             P30 W 6 D12 L12 GF 36 GA 48
+  FC Khimki                  P30 W 4 D 6 L20 GF 25 GA 67
+  Torpedo Moscow             P30 W 3 D 4 L23 GF 22 GA 61
+--- 2023-24 pivot
+  Zenit St Petersburg        P30 W17 D 6 L 7 GF 52 GA 27
+  FC Krasnodar               P30 W16 D 8 L 6 GF 45 GA 29
+  Dynamo Moscow              P30 W16 D 8 L 6 GF 53 GA 39
+  Lokomotiv Moscow           P30 W14 D11 L 5 GF 52 GA 38
+  Spartak Moscow             P30 W14 D 8 L 8 GF 41 GA 32
+  CSKA Moscow                P30 W12 D12 L 6 GF 56 GA 40
+  FC Rostov                  P30 W12 D 7 L11 GF 43 GA 46
+  Rubin Kazan                P30 W11 D 9 L10 GF 31 GA 38
+  Krylia Sovetov Samara      P30 W11 D 8 L11 GF 46 GA 44
+  Akhmat Grozny              P30 W10 D 5 L15 GF 33 GA 45
+  Fakel Voronezh             P30 W 7 D11 L12 GF 22 GA 31
+  FC Orenburg                P30 W 7 D10 L13 GF 34 GA 41
+  Pari Nizhny Novgorod       P30 W 8 D 6 L16 GF 29 GA 51
+  Ural Yekaterinburg         P30 W 7 D 9 L14 GF 30 GA 46
+  Baltika Kaliningrad        P30 W 7 D 5 L18 GF 33 GA 42
+  PFC Sochi                  P30 W 5 D 9 L16 GF 37 GA 48
