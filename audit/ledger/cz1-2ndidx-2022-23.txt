@@ -291,3 +291,12 @@ SPOT|20|2023-02-19|Slovacko|2|0|Plzen
 SPOT|20|2023-02-19|CBudejovice|1|0|Bohemians
 SPOT|20|2023-02-19|Pardubice|2|1|Zlin
 SPOT|20|2023-02-19|Sparta|3|0|Jablonec
+# ===== Relegation play-offs (article section 11, re-fetched 2026-08-03): TwoLegResult + 4 match boxes:
+# 2023-06-01 Viagem Pribram 0-2 Pardubice @ Na Litavce, Pribram, att 3500 (Sychra 49, Janosek 62 pen);
+# 2023-06-04 Pardubice 0-0 Viagem Pribram @ CFIG Arena, Pardubice, att 4350 -> Pardubice won 2-0 agg;
+# 2023-06-01 Trinity Zlin 1-0 Vyskov @ Letna Stadion, Zlin, att 5442 (Drame 64);
+# 2023-06-04 Vyskov 0-0 Trinity Zlin @ Sportovni areal Drnovice, Vyskov, att 4500 -> Trinity Zlin won 1-0 agg.
+PRB|Pribram|0|2|Pardubice
+PRB|Pardubice|0|0|Pribram
+PRB|Zlin|1|0|Vyskov
+PRB|Vyskov|0|0|Zlin

@@ -156,7 +156,13 @@ GTABLE|2023-24|Z|6|Zlin|35|5|12|18|40|69|27
 # 2023-24: champions Sparta; relegated Zlin; matches 277 (incl. CL play-off Final 2024-05-31); goals 804;
 #          2023-07-22..2024-05-31. class_rules both stages: 1) Points/total points 2) points earned in
 #          regular season 3-5) H2H (regular season) 5) GD 6) GF 7) fair-play 8) draw.
-# ===== PRO/REL PLAYOFF OUTCOMES (wiki TwoLegResult + match boxes; rows HELD OUT of pack, see roster NOTE)
+# ===== PRO/REL PLAYOFF OUTCOMES (wiki TwoLegResult + match boxes; EMITTED as pack rows from v2.2 -
+#          owner sanction 2026-08-03, compType "other" per ERRATA-2026-08-03. FNL home-ground evidence:
+#          Vlasim Stadion Kollarova ulice 6000 + Opava Stadion v Mestskych sadech 7758 (wf cup-stadium
+#          index se39724) + Pribram Na Litavce 7120 (se46910) - listings transcribed in
+#          audit/ledger/molcup-venues-teams.txt section A; Vyskov = Sportovni areal Drnovice (en.wiki
+#          2023-06-04 playoff match box; the same ground is listed by wf as Stadion FK Drnovice, Drnovice
+#          6400); Taborsko = Stadion v Kvapilove ulici, Tabor (en.wiki FC Silon Taborsko, 2026-08-03).)
 # 2021-22 (2022-05-19/22): Teplice 5-2 Vlasim agg (3-0, 2-2); Opava 0-3 Bohemians 1905 agg (0-1, 0-2); all remain
 # 2022-23 (2023-06-01/04): Viagem Pribram 0-2 Pardubice agg (0-2 @Na Litavce, 0-0 @CFIG Arena);
 #          Trinity Zlin 1-0 Vyskov agg (1-0 @Letna Stadion, 0-0 @Sportovni areal Drnovice); all remain

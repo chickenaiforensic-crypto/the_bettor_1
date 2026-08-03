@@ -287,6 +287,11 @@ EF1|2024-05-19|Teplice|0|1|Hradec
 EF2|2024-05-25|Hradec|2|0|Teplice
 # CONFERENCE LEAGUE PLAYOFF (extra single game, Titul-5th vs Evropu winner; shape deviation vs WO 276 -> 277)
 CLP|2024-05-31|MlBoleslav|3|1|Hradec
-# PROMOTION/RELEGATION PLAYOFF (HELD OUT of pack per WO section-2 roster conflict; recorded):
+# PROMOTION/RELEGATION PLAYOFF (EMITTED into the pack from v2.2: owner sanction 2026-08-03,
+# compType "other" per ERRATA-2026-08-03 superseding the single-class WO section-2 line; raw record:)
 # 2024-05-30 Vyskov(FNL) 0-1 Karvina ; 2024-05-30 CBudejovice 2-1 Taborsko(FNL)
 # 2024-06-02 Karvina 1-0 Vyskov ; 2024-06-02 Taborsko 1-1 CBudejovice ; NB all remain at former level
+PRO|2024-05-30|Vyskov|0|1|Karvina
+PRO|2024-05-30|CBudejovice|2|1|Taborsko
+PRO|2024-06-02|Karvina|1|0|Vyskov
+PRO|2024-06-02|Taborsko|1|1|CBudejovice

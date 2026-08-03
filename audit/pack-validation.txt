@@ -42,18 +42,18 @@ GATES: 162 PASS, 0 FAIL
 [PASS] 2023-24 Final rows = 1
 [PASS] slice rule: every row has >=1 of that season's 16 RPL clubs
 [PASS] stage labels within per-season whitelist
-[PASS] advancement NOTE matches a 90-min draw row (2022-04-19 Dynamo Moscow/Baltika Kaliningrad)
+[PASS] advancement NOTE matches a 90-min draw row (2022-04-19 Baltika Kaliningrad/Dynamo Moscow)
 [PASS] advancement NOTE matches a 90-min draw row (2022-04-20 Alania Vladikavkaz/Zenit St Petersburg)
-[PASS] advancement NOTE matches a 90-min draw row (2023-03-14 Lokomotiv Moscow/Akron Tolyatti)
+[PASS] advancement NOTE matches a 90-min draw row (2023-03-14 Akron Tolyatti/Lokomotiv Moscow)
 [PASS] advancement NOTE matches a 90-min draw row (2023-03-15 Dynamo Moscow/Zenit St Petersburg)
-[PASS] advancement NOTE matches a 90-min draw row (2023-04-04 Dynamo Moscow/Akron Tolyatti)
+[PASS] advancement NOTE matches a 90-min draw row (2023-04-04 Akron Tolyatti/Dynamo Moscow)
 [PASS] advancement NOTE matches a 90-min draw row (2023-04-06 FC Krasnodar/FC Rostov)
 [PASS] advancement NOTE matches a 90-min draw row (2023-04-19 FC Krasnodar/Krylia Sovetov Samara)
-[PASS] advancement NOTE matches a 90-min draw row (2023-05-03 FC Krasnodar/Akron Tolyatti)
-[PASS] advancement NOTE matches a 90-min draw row (2023-06-11 FC Krasnodar/CSKA Moscow)
-[PASS] advancement NOTE matches a 90-min draw row (2024-03-13 Ural Yekaterinburg/Rodina Moscow)
-[PASS] advancement NOTE matches a 90-min draw row (2024-03-14 Lokomotiv Moscow/Baltika Kaliningrad)
-[PASS] advancement NOTE matches a 90-min draw row (2024-03-14 SKA Khabarovsk/PFC Sochi)
+[PASS] advancement NOTE matches a 90-min draw row (2023-05-03 Akron Tolyatti/FC Krasnodar)
+[PASS] advancement NOTE matches a 90-min draw row (2023-06-11 CSKA Moscow/FC Krasnodar)
+[PASS] advancement NOTE matches a 90-min draw row (2024-03-13 Rodina Moscow/Ural Yekaterinburg)
+[PASS] advancement NOTE matches a 90-min draw row (2024-03-14 Baltika Kaliningrad/Lokomotiv Moscow)
+[PASS] advancement NOTE matches a 90-min draw row (2024-03-14 PFC Sochi/SKA Khabarovsk)
 [PASS] advancement NOTE matches a 90-min draw row (2024-04-02 FC Khimki/FC Rostov)
 [PASS] advancement NOTE matches a 90-min draw row (2024-05-15 CSKA Moscow/Zenit St Petersburg)
 [PASS] advancement NOTEs present: 14

@@ -284,6 +284,11 @@ ESF2|2022-04-30|Liberec|0|2|Olomouc
 EF1|2022-05-06|Olomouc|1|2|MlBoleslav
 EF2|2022-05-13|MlBoleslav|2|2|Olomouc
 # EVROPU winner: Ml Boleslav (SF aggs: MB 4-2 CB, Olomouc 3-0 Liberec; Final agg MB 4-3 Olomouc)
-# PROMOTION/RELEGATION PLAYOFF (HELD OUT of pack per WO section-2 roster conflict; recorded):
+# PROMOTION/RELEGATION PLAYOFF (EMITTED into the pack from v2.2: owner sanction 2026-08-03,
+# compType "other" per ERRATA-2026-08-03 superseding the single-class WO section-2 line; raw record:)
 # 2022-05-19 Teplice 3-0 Vlasim(FNL) ; 2022-05-19 Opava(FNL) 0-1 Bohemians
 # 2022-05-22 Bohemians 2-0 Opava ; 2022-05-22 Vlasim 2-2 Teplice ; NB all clubs remain at former level
+PRO|2022-05-19|Teplice|3|0|Vlasim
+PRO|2022-05-19|Opava|0|1|Bohemians
+PRO|2022-05-22|Bohemians|2|0|Opava
+PRO|2022-05-22|Vlasim|2|2|Teplice

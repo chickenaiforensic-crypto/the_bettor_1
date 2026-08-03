@@ -35,13 +35,15 @@ ROSTER22 = {  # WO-RPL §3 exact strings
  "Arsenal Tula","Torpedo Moscow",
 }
 # WO-sanctioned additions / cup-roster already held client-side (RUSCUP WO §3):
-ROSTER_EXTRA = {"KAMAZ Naberezhnye Chelny"}  # exact-form KAMAZ per auditor errata 2026-08-03;
+ROSTER_EXTRA = {"KAMAZ"}  # auditor return directive 2026-08-03: "write exactly KAMAZ (2 rows)"
+# (full club name KAMAZ Naberezhnye Chelny - carried in the identity NOTE, never in row fields).
 # FC Ufa declared as a TEAM row per the auditor's standing cup-audit instruction (no longer roster-extra).
 ROSTER = ROSTER22 | ROSTER_EXTRA
 
 NAME_MAP = {  # source string -> roster/pack string
     "Akron Togliatti": "Akron Tolyatti",
     "Torpedo Moskva": "Torpedo Moscow",  # spelling in #OUT ledger comments
+    "KAMAZ Naberezhnye Chelny": "KAMAZ",  # auditor 2026-08-03 exact-string directive
 }
 def nm(s): return NAME_MAP.get(s, s)
 
@@ -91,7 +93,7 @@ EXEMPT2122 = {"Zenit St Petersburg","Spartak Moscow","Lokomotiv Moscow","Rubin K
 # ------------------------------------------------------------ group layouts
 GROUPS2122 = {
  "Group-1": ["Leningradets St-Peterburg","Kuban Krasnodar","FC Krasnodar"],
- "Group-2": ["Torpedo Vladimir","KAMAZ Naberezhnye Chelny","Ural Yekaterinburg"],
+ "Group-2": ["Torpedo Vladimir","KAMAZ","Ural Yekaterinburg"],
  "Group-3": ["Dinamo Bryansk","Veles Moskva","Arsenal Tula"],
  "Group-4": ["Dinamo Barnaul","Fakel Voronezh","Pari Nizhny Novgorod"],
  "Group-5": ["Chaika Peschanokopskoe","Torpedo Moscow","FC Rostov"],
@@ -121,7 +123,7 @@ GROUPS2324 = {
 # the source comment did not record GF/GA separately for that edition; see files)
 T2122 = {
  "Group-1": [("Kuban Krasnodar",1,0,0,1,3,1,3),("FC Krasnodar",1,0,0,1,2,3,3),("Leningradets St-Peterburg",1,0,0,1,1,2,3)],
- "Group-2": [("KAMAZ Naberezhnye Chelny",2,0,0,0,2,0,6),("Ural Yekaterinburg",1,0,0,1,2,1,3),("Torpedo Vladimir",0,0,0,2,0,3,0)],
+ "Group-2": [("KAMAZ",2,0,0,0,2,0,6),("Ural Yekaterinburg",1,0,0,1,2,1,3),("Torpedo Vladimir",0,0,0,2,0,3,0)],
  "Group-3": [("Arsenal Tula",1,1,0,0,7,2,5),("Veles Moskva",1,0,1,0,4,1,4),("Dinamo Bryansk",0,0,0,2,1,9,0)],
  "Group-4": [("Pari Nizhny Novgorod",2,0,0,0,2,0,6),("Fakel Voronezh",1,0,0,1,2,1,3),("Dinamo Barnaul",0,0,0,2,0,3,0)],
  "Group-5": [("Chaika Peschanokopskoe",2,0,0,0,2,0,6),("Torpedo Moscow",1,0,0,1,2,1,3),("FC Rostov",0,0,0,2,0,3,0)],
@@ -290,9 +292,11 @@ def build_pack(rows):
    "Source spelling Akron Togliatti (RSSSF/Wikipedia) maps to roster string Akron Tolyatti (2022-23 lower-bracket rows). "
    "Lower-league cup participants already on the client roster are used as-is, not re-declared (WO section-3 directive): "
    "Arsenal Tula, Ural Yekaterinburg, Torpedo Moscow, Baltika Kaliningrad, Fakel Voronezh, FC Orenburg, "
-   "KAMAZ Naberezhnye Chelny, Rodina Moscow, FC Khimki. FC Ufa moved OUT of the roster-as-is list into the declared "
-   "TEAM rows per the auditor's standing cup-audit instruction (errata 2026-08-03 - see team_fields); KAMAZ written "
-   "per the auditor's exact-form correction (the cb6e workorder draft used mixed case for the acronym).",
+   "KAMAZ, Rodina Moscow, FC Khimki. FC Ufa moved OUT of the roster-as-is list into the declared "
+   "TEAM rows per the auditor's standing cup-audit instruction (errata 2026-08-03 - see team_fields); KAMAZ is "
+   "written exactly 'KAMAZ' on both in-scope rows per the auditor's 2026-08-03 return directive ('write exactly "
+   "KAMAZ (2 rows)'), superseding the earlier exact-form interpretation - full club name KAMAZ Naberezhnye Chelny "
+   "(the source listing string in the RSSSF Kubok Rossii chapter).",
  "ufa": "NOTE|info|club_context|FC Ufa (WO-RPL section-3 known addition): 2021-22 RPL club - played this cup's elite groups "
    "(Group-6, 2 rows + regions-path continuation). Relegated after the May-2022 playoff vs FC Orenburg; summer-2022 sponsor exit "
    "caused a near-collapse (layoff plans reported 2022-10; republic ministry step-in 2022-10-19) and the club played on - it appears "
@@ -372,7 +376,7 @@ def build_pack(rows):
  "spot2122": "NOTE|info|spot_audit|2021-22 R16 re-listed one round for spot-audit (source https://www.rsssf.org/tablesr/rus2022.html "
    "Kubok Rossii chapter): 2022-03-01 Dynamo Moscow 3-0 Pari Nizhny Novgorod; 2022-03-02 Spartak Moscow 6-1 Kuban Krasnodar; "
    "2022-03-02 Alania Vladikavkaz 1-0 Arsenal Tula; 2022-03-02 PFC Sochi 1-2 CSKA Moscow; 2022-03-03 Lokomotiv Moscow 0-4 Yenisey "
-   "Krasnoyarsk; 2022-03-03 Zenit St Petersburg 6-0 KAMAZ Naberezhnye Chelny; 2022-03-03 Rubin Kazan 2-1 Rotor Volgograd. "
+   "Krasnoyarsk; 2022-03-03 Zenit St Petersburg 6-0 KAMAZ; 2022-03-03 Rubin Kazan 2-1 Rotor Volgograd. "
    "(8th tie Baltika Kaliningrad 3-0 Chaika Peschanokopskoe excluded - outside slice, see round_counts note.)",
  "spot2223": "NOTE|info|spot_audit|2022-23 QF-up leg1 re-listed (source https://www.rsssf.org/tablesr/rus2023.html): 2023-02-22 "
    "Lokomotiv Moscow 0-1 Spartak Moscow; 2023-02-22 FC Rostov 1-1 Ural Yekaterinburg; 2023-02-23 CSKA Moscow 3-0 FC Krasnodar; "
@@ -566,7 +570,7 @@ def main():
     # consistency: knockout pens rows are 90-min draws; group pens too
     for (date, pair), w in adv_map.items():
         rr = next((r for r in rowsP if r["date"] == date and frozenset((r["home"], r["away"])) == pair), None)
-        G.ok(rr is not None and rr["hg"] == rr["ag"], f"advancement NOTE matches a 90-min draw row ({date} {'/'.join(pair)})")
+        G.ok(rr is not None and rr["hg"] == rr["ag"], f"advancement NOTE matches a 90-min draw row ({date} {'/'.join(sorted(pair))})")
     G.ok(len(adv_map) == len(ADV), f"advancement NOTEs present: {len(ADV)}", f"got {len(adv_map)}")
     ngp = len([n for n in notes if n.startswith("NOTE|info|group_pens|")])
     G.ok(ngp == 21, "group_pens NOTEs present: 21 (5+7+9)", f"got {ngp}")

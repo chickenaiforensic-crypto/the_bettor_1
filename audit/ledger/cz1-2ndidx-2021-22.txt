@@ -294,3 +294,11 @@ SPOT|10|2021-10-03|Hradec|2|2|Jablonec
 SPOT|10|2021-10-03|Karvina|0|1|MlBoleslav
 SPOT|10|2021-10-03|Liberec|0|2|Ostrava
 SPOT|10|2021-10-03|Sparta|1|0|Slavia
+# ===== Relegation play-offs (article section 13, re-fetched 2026-08-03 for the pro/rel block return):
+# TwoLegResult table only (no match boxes this season): Opava 0-3 Bohemians 1905 (0-1, 0-2);
+# Teplice 5-2 Vlasim (3-0, 2-2); 14th/15th of the relegation group vs FNL 2nd/3rd.
+# PRB = playoff leg as printed, home|hg|ag|away (leg home order = pack/RSSSF orientation).
+PRB|Opava|0|1|Bohemians
+PRB|Bohemians|2|0|Opava
+PRB|Teplice|3|0|Vlasim
+PRB|Vlasim|2|2|Teplice

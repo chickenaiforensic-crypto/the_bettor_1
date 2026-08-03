@@ -28,6 +28,34 @@ COUNTRY = "Czech Republic"
 SRC_LABEL = {"2021-22": "rsssf-tsje2022", "2022-23": "rsssf-tsje2023", "2023-24": "rsssf-tsje2024"}
 SPOT = {"2021-22": 10, "2022-23": 20, "2023-24": 25}     # worldfootball spot-audit matchdays (fixed, documented)
 
+# ---------------- pro/rel playoff block (WO section-1 last row, owner sanction 2026-08-03) ----------------
+PROCOMP = "Czech Relegation Playoffs"   # WO section-2 verbatim competition string for the pro/rel ties
+PROTYPE = "other"                       # ERRATA-2026-08-03 class rule for pro/rel rows; supersedes the WO
+                                        # section-2 single-class line, which predates the ties' re-entry
+FNL5 = {"Vlasim", "Opava", "Pribram", "Vyskov", "Taborsko"}  # FNL (CZ2) pro/rel opponents, reused
+                                        # client-roster strings (no TEAM rows; tiers in the ledgers)
+PROREL_VENUE = {  # (season, home stock/FNL club) -> (stadium, city); evidence in venue_policy NOTE + cz1-venues.txt
+ ("2021-22", "Teplice"):   ("Na Stinadlech", "Teplice"),
+ ("2021-22", "Opava"):     ("Stadion v Mestskych sadech", "Opava"),
+ ("2021-22", "Bohemians"): ("Dolicek", "Prague"),
+ ("2021-22", "Vlasim"):    ("Stadion Kollarova ulice", "Vlasim"),
+ ("2022-23", "Pribram"):   ("Na Litavce", "Pribram"),
+ ("2022-23", "Pardubice"): ("CFIG Arena", "Pardubice"),
+ ("2022-23", "Zlin"):      ("Letna Stadion", "Zlin"),
+ ("2022-23", "Vyskov"):    ("Sportovni areal Drnovice", "Vyskov"),
+ ("2023-24", "Vyskov"):    ("Sportovni areal Drnovice", "Vyskov"),
+ ("2023-24", "CBudejovice"): ("Stadion Strelecky ostrov", "Ceske Budejovice"),
+ ("2023-24", "Karvina"):   ("Mestsky stadion (Karvina)", "Karvina"),
+ ("2023-24", "Taborsko"):  ("Stadion v Kvapilove ulici", "Tabor"),
+}
+# Official tie aggregates + winners (RSSSF playoff sections = primary; wiki TwoLegResults identical).
+# In ALL three seasons every tie was won by the First-League side - no club changed division.
+PROREL_TIES = {
+ "2021-22": [(("Teplice", "Vlasim"), "Teplice", "5-2"), (("Opava", "Bohemians"), "Bohemians", "3-0")],
+ "2022-23": [(("Pribram", "Pardubice"), "Pardubice", "2-0"), (("Zlin", "Vyskov"), "Zlin", "1-0")],
+ "2023-24": [(("Vyskov", "Karvina"), "Karvina", "2-0"), (("CBudejovice", "Taborsko"), "CBudejovice", "3-2")],
+}
+
 # ------------------------------------------------------------------ identity (WO-CZ1 section-3)
 ROSTER17 = {
  "Banik Ostrava","Bohemians 1905","Ceske Budejovice","Hradec Kralove","Jablonec","Karvina",
@@ -111,7 +139,7 @@ SOURCES = [
  ("wiki-cz1-2324","https://en.wikipedia.org/wiki/2023%E2%80%9324_Czech_First_League","second-index",
   "240-cell FBR matrix, regular + group tables, Conference League play-off structure text + brackets + the Final "
   "match box (2024-05-31, MlBoleslav 3-1 Hradec, Lokotrans Arena, att 4173), venues (Hradec Malsovicka Arena "
-  "opened 2023-08-05), infobox 277 matches/804 goals"),
+  "opened 2023-08-05), infobox 277 matches/804 goals, pro/rel TwoLeg aggregates (legs identical all 4)"),
  ("wf-cz1-2122-r10","https://www.worldfootball.net/schedule/cze-1-fotbalova-liga-2021-2022-spieltag/10/","second-index",
   "matchday-10 spot-audit: 8 fixtures, dates AND scores identical to the pack rows (results-and-standings matchday page)"),
  ("wf-cz1-2223-r20","https://www.worldfootball.net/schedule/cze-1-fotbalova-liga-2022-2023-spieltag/20/","second-index",
@@ -124,6 +152,14 @@ SOURCES = [
   "CT sport same-evening coverage 2024-05-30: both pro/rel leg-1 ties played that date (CBudejovice 2-1 Taborsko, Vyskov 0-1 Karvina)"),
  ("sportcz-karvina-vyskov-2024","https://www.sport.cz/clanek/fotbal-ceska-1-liga-vyskov-barazove-prokleti-nezlomil-karvina-je-stale-prvoligova-5029534","web-index",
   "2024-06-02 return-leg report: Karvina 1-0 Vyskov (Mikus 54), Karvina stays in the top flight"),
+ ("wf-molcup-stadiums","https://www.worldfootball.net/competition/co88/se55490/stadiums/","third-index",
+  "FNL home grounds of the pro/rel legs, from the season cup-stadium indexes se39724/se46910/se55490: Opava Stadion v "
+  "Mestskych sadech 7758, Vlasim Stadion Kollarova ulice 6000, Pribram Na Litavce 7120, Vyskov listed as Stadion FK "
+  "Drnovice 6400 (row string Sportovni areal Drnovice per the wiki 2023-06-04 playoff match box); full listings in "
+  "audit/ledger/molcup-venues-teams.txt section A"),
+ ("wiki-taborsko","https://en.wikipedia.org/wiki/FC_Silon_T%C3%A1borsko","second-index",
+  "FC Silon Taborsko (CNFL/2nd tier in-window) ground = Stadion v Kvapilove ulici, Tabor - venue evidence for pro/rel "
+  "leg-2 2024-06-02 Taborsko 1-1 CBudejovice (infobox Ground + lead prose)"),
 ]
 
 # ------------------------------------------------------------------ readers
@@ -136,8 +172,17 @@ def read_season_rows(season):
                 continue
             p = ln.split("|")
             tag, d, h, hg, ag, a = p[0].strip(), p[1].strip(), p[2].strip(), int(p[3]), int(p[4]), p[5].strip()
-            rows.append({"season": season, "tag": tag, "date": d, "home": h, "hg": hg, "ag": ag, "away": a})
-    return rows
+            tgt = pro if tag == "PRO" else rows
+            tgt.append({"season": season, "tag": tag, "date": d, "home": h, "hg": hg, "ag": ag, "away": a})
+    # leg numbers inside each pro/rel tie, chronological
+    ties = defaultdict(list)
+    for r in pro:
+        ties[frozenset((r["home"], r["away"]))].append(r)
+    for legs in ties.values():
+        legs.sort(key=lambda r: r["date"])
+        for i, r in enumerate(legs, 1):
+            r["leg"] = i
+    return rows, pro
 
 def stage_of(tag):
     if tag.startswith("T"): return "Titul"
@@ -193,7 +238,7 @@ def read_tables():
     return tabs, gtabs
 
 def read_2ndidx(season):
-    mx, tgx, zgx, ebx, spot = {}, {}, {}, {}, []
+    mx, tgx, zgx, ebx, prb, spot = {}, {}, {}, {}, {}, []
     fn = os.path.join(LEDGER, f"cz1-2ndidx-{season}.txt")
     with open(fn, encoding="utf-8") as f:
         for ln in f:
@@ -204,10 +249,12 @@ def read_2ndidx(season):
             if p[0] in ("MX", "TGX", "ZGX", "EBX"):
                 tgt = {"MX": mx, "TGX": tgx, "ZGX": zgx, "EBX": ebx}[p[0]]
                 tgt[(p[1], p[2])] = (int(p[3]), int(p[4]))
+            elif p[0] == "PRB":
+                prb[(p[1], p[4])] = (int(p[2]), int(p[3]))   # (home stock, away stock) -> leg score
             elif p[0] == "SPOT":
                 spot.append({"md": int(p[1]), "date": p[2], "home": p[3], "hg": int(p[4]),
                              "ag": int(p[5]), "away": p[6]})
-    return mx, tgx, zgx, ebx, spot
+    return mx, tgx, zgx, ebx, prb, spot
 
 # ------------------------------------------------------------------ emission
 def emit_match(r, ven):
@@ -220,29 +267,41 @@ def emit_match(r, ven):
         r["date"], COMP, COMPTYPE, STOCK2ROSTER[home], r["hg"], r["ag"],
         STOCK2ROSTER[r["away"]], vdetail_of(r["tag"]), stad, city, COUNTRY, SRC_LABEL[s]))
 
-def build_pack(allrows, ven):
+def emit_pro(r):
+    s = r["season"]
+    stad, city = PROREL_VENUE[(s, r["home"])]
+    return ("MATCH|%s|%s|%s|%s|%d|%d|%s|Playoff leg%d|%s|%s|%s||%s" % (
+        r["date"], PROCOMP, PROTYPE, STOCK2ROSTER.get(r["home"], r["home"]), r["hg"], r["ag"],
+        STOCK2ROSTER.get(r["away"], r["away"]), r["leg"], stad, city, COUNTRY, SRC_LABEL[s]))
+
+def build_pack(allrows, allpro, ven):
     L = []
     a = L.append
     a("NOTE|info|pack_id|CZ1-2021-2026_BP-TEAM-PACK_v2 - return of WO-CZ1-BACKFILL-02 (issued 2026-08-02; opened after "
       "the RPL return passed gates). Segment 2021-22/2022-23/2023-24 of the 5-year Czech First League span; new rows stop "
       "at the 2024-06-30 hard cutoff (2024-25 + 2025-26 already held and auditor-verified client-side, current season fills "
-      "centrally). 829 MATCH rows = 276 + 276 + 277: every regular-stage game (240 per season), every Titul and Zachranu "
-      "group game (15+15 per season), every Evropu play-off leg (6 per season) and the single extra Conference League "
-      "playoff Final of 2023-24 (shape deviation documented below). Compiled " + ACCESSED + ".")
+      "centrally). 841 MATCH rows = 276 + 276 + 277 league + 12 Czech Relegation Playoffs pro/rel legs: every regular-stage "
+      "game (240 per season), every Titul and Zachranu group game (15+15 per season), every Evropu play-off leg (6 per "
+      "season), the single extra Conference League playoff Final of 2023-24 (shape deviation documented below) AND, per the "
+      "owner's 2026-08-03 decision closing the roster_scope hold-out, the complete pro/rel block WO section-1 commissions "
+      "(2 ties x 2 legs x 3 seasons; compType 'other' per ERRATA-2026-08-03). Compiled " + ACCESSED + ".")
     for label, url, typ, what in SOURCES:
         a(f"SOURCE|{label}|{url}|{ACCESSED}|{typ}|{what}")
     # NO TEAM rows at all - WO section-2 directive (every participant already on the client roster)
 
-    a("NOTE|info|federation_check|Section-0 federation scan performed on the finished pack: every one of the 829 rows is "
+    a("NOTE|info|federation_check|Section-0 federation scan performed on the finished pack: the 829 league rows are all "
       "FORTUNA:LIGA Czech First League 2021-22..2023-24 - Sparta Prague, Slavia Prague, Viktoria Plzen and the 13-14 "
-      "companions pinned in section-3 per season. Not Russia, not Slovakia. No club outside the 17 pinned strings appears; "
-      "the anti-appear list (Dukla Prague - promoted 2024, Artis Brno - promoted 2026) is empty; no standings tables are "
-      "carried - match rows only (+SOURCE/NOTE scaffolding).")
-    a("NOTE|info|comp_class|compType is domestic-league on EVERY row, verbatim per WO-CZ1 section-2 (regular stage AND all "
-      "three playoff-stage groups are league championship phases, not separate events). The 2026-08-03 auditor errata class "
-      "rule (promotion/relegation-playoff rows = other; cups = domestic-cup) does not bite here: the Czech pro/rel ties are "
-      "held out of this pack under the section-2/section-3 roster conflict (see roster_scope); had they been emitted they "
-      "would now carry compType other - owner sanction sought there first.")
+      "companions pinned in section-3 per season; the 12 additional rows are the season-closing Czech Relegation Playoffs "
+      "pro/rel legs of the same three seasons (2 ties x 2 legs each), the only place the five FNL opponent strings appear. "
+      "Not Russia, not Slovakia. No non-pinned string appears on a league row; the anti-appear list (Dukla Prague - "
+      "promoted 2024, Artis Brno - promoted 2026) is empty; no standings tables are carried - match rows only "
+      "(+SOURCE/NOTE scaffolding).")
+    a("NOTE|info|comp_class|compType is domestic-league on the 829 league rows, verbatim per WO-CZ1 section-2 (regular "
+      "stage AND all three playoff-stage groups are league championship phases, not separate events); and 'other' on the "
+      "12 Czech Relegation Playoffs pro/rel rows per the 2026-08-03 auditor errata class rule (promotion/relegation-"
+      "playoff rows = other; cups = domestic-cup). The errata SUPERSEDES the section-2 single-class instruction for these "
+      "ties - that line predates the block's re-entry; the same reclassing was applied to the RPL return's 12 playoff rows "
+      "(errata mirror: supervisor/ERRATA-2026-08-03.as-relayed.md; the original file upload is still pending).")
     a("NOTE|info|identity|The 17 pinned section-3 strings are used verbatim in every row for every season. Rename traps "
       "mapped silently to the pinned strings, each NOTE-mapped once: FC Fastav Zlin -> FC Trinity Zlin (2022 sponsor rename, "
       "RSSSF [*] note; wiki name fields follow the era) - always Zlin. MFK OKD Karvina / MFK Karvina - always Karvina. "
@@ -251,7 +310,11 @@ def build_pack(allrows, ven):
       "Praha / FC Viktoria Plzen / FC Banik Ostrava / FC Hradec Kralove (FK Vysocina-era none) / FK Mlada Boleslav / "
       "FC Slovan Liberec / SK Sigma Olomouc / FK Pardubice / FK Teplice / FC Zbrojovka Brno - the section-3 strings. "
       "Per-season composition (pinned): 2021-22 the 16 listed clubs incl. Karvina; 2022-23 Karvina out (relegated), "
-      "Zbrojovka Brno in (promoted); 2023-24 Brno out, Karvina back.")
+      "Zbrojovka Brno in (promoted); 2023-24 Brno out, Karvina back. Pro/rel block (owner sanction, see roster_scope): "
+      "the FNL opponents are reused client-roster strings - Vlasim (FC Sellier & Bellot Vlasim), Opava (SFC Opava), "
+      "Pribram (FK Viagem Pribram), Vyskov (MFK Vyskov), Taborsko (FC Silon Taborsko) - the identical strings the MOL "
+      "Cup return carries for these clubs; era sponsor names live in this NOTE only, never in row fields. No TEAM rows "
+      "are declared (WO section-2 directive stands: every participant already on the client roster).")
     a("NOTE|info|venue_policy|MATCH stadium/city = the home club's documented ground for that season per the Wikipedia "
       "season-team tables (second index; RSSSF carries no venues): 2021-22 + 2022-23 Hradec home matches are recorded at "
       "Lokotrans Arena, MLADA BOLESLAV (their Vsesportovni stadion under rebuild; wiki efn both seasons) - the city field "
@@ -263,19 +326,30 @@ def build_pack(allrows, ven):
       "(first home game of the season 2023-08-05 = the arena's opening date). Era sponsor names carried verbatim per "
       "season: Slavia Sinobo Stadium (2021-22) -> Fortuna Arena (2022-23 on); Sparta Generali Ceska pojistovna Arena "
       "(2021-22) -> epet ARENA; Zlin's Letna Stadion unchanged while the club name changed. One-ground equivalences: "
-      "Doosan Arena = Stadion mesta Plzne (the name carried on the team lists in all three seasons).")
+      "Doosan Arena = Stadion mesta Plzne (the name carried on the team lists in all three seasons). Pro/rel legs carry "
+      "the home club's own documented ground: league homes reuse the same per-season constants as above (the 2023-06-04 "
+      "Pardubice leg at CFIG Arena is corroborated by its wiki match box; the 2023-06-01 Zlin leg at Letna Stadion "
+      "att 5442 and the 2023-06-01 Pribram leg at Na Litavce att 3500 likewise); FNL homes - Opava Stadion v Mestskych "
+      "sadech 7758, Vlasim Stadion Kollarova ulice 6000, Pribram Na Litavce 7120 (worldfootball cup-stadium indexes "
+      "se39724/se46910, transcribed in audit/ledger/molcup-venues-teams.txt; Na Litavce also in the 2023-06-01 wiki box), "
+      "Vyskov Sportovni areal Drnovice (wiki 2023-06-04 box att 4500; worldfootball lists the same ground as Stadion FK "
+      "Drnovice, Drnovice 6400 - the Drnovice-ground string is kept for cross-pack consistency), Taborsko Stadion v "
+      "Kvapilove ulici, Tabor (en.wiki FC Silon Taborsko infobox Ground + lead).")
     a("NOTE|info|stage_mapping|Venue-detail labels: 'Round n' (n = 1..30) regular stage - the official matchday, kept even "
       "where postponed (see continuity); 'Titul R31'..'Titul R35' championship group (top 6); 'Zachranu R31'..'Zachranu R35' "
       "relegation group (bottom 6); 'Evropu-SF L1'/'L2' and 'Evropu-F L1'/'L2' the two-legged middle-four play-off (positions "
       "7-10) exactly like the section-2 example row 'Evropu-SF'; 'Evropu-CLP' the single 2023-24 Conference League playoff "
-      "Final between the Titul-5th and the Evropu winner. Two-legged ties are always two rows (home/away swapped). 90-minute "
-      "doctrine: league = full-time; no aet/shootout needed anywhere in-window (the one 2021-22 Evropu SF and both finals "
-      "decided inside 180 minutes).")
-    a("NOTE|info|round_counts|Per season: 240 regular rows (30 matchdays x 8, every matchday fully dated, each club exactly "
-      "30 - enumerated club-by-club in the audit pivot ledger) + 15 Titul + 15 Zachranu (five rounds x 3 fixtures each) + "
-      "6 Evropu legs (2 SF ties x 2 legs + 1 final tie x 2 legs) = 276; 2023-24 adds the Conference League playoff Final "
-      "(1 row) = 277. Pack total 829. Season totals anchors (matches played / goals scored, league matches incl. playoff "
-      "stages, excl. the held-out pro/rel ties) recompute from the finished pack as 276/770, 276/819, 277/792 - and the "
+      "Final between the Titul-5th and the Evropu winner; 'Playoff leg1'/'Playoff leg2' the two legs of a Czech Relegation "
+      "Playoffs pro/rel tie, in chronological order. Two-legged ties are always two rows (home/away swapped). 90-minute "
+      "doctrine: league = full-time; no aet/shootout needed anywhere in-window (the one 2021-22 Evropu SF, both finals and "
+      "all six pro/rel ties decided inside the regulation 180 minutes - every pro/rel aggregate was settled without extra "
+      "time).")
+    a("NOTE|info|round_counts|Per season, league rows: 240 regular rows (30 matchdays x 8, every matchday fully dated, "
+      "each club exactly 30 - enumerated club-by-club in the audit pivot ledger) + 15 Titul + 15 Zachranu (five rounds x 3 "
+      "fixtures each) + 6 Evropu legs (2 SF ties x 2 legs + 1 final tie x 2 legs) = 276; 2023-24 adds the Conference League "
+      "playoff Final (1 row) = 277. Plus the pro/rel block: 4 rows per season (2 ties x 2 legs) = 280/280/281. Pack total "
+      "841. Season totals anchors (matches played / goals scored, league matches incl. playoff stages, excl. the pro/rel "
+      "ties) recompute from the finished pack as 276/770, 276/819, 277/792 - and the "
       "official tables and results matrices of the second index (fetched sections of the wiki articles) recompute to the "
       "identical figures. The wiki INFOBOX scalars agree for 2022-23 (276/819) but slip for 2021-22 (says 763) and "
       "2023-24 (says 804) against the very tables/matrices inside the same article - documented in source_conflict, "
@@ -307,23 +381,21 @@ def build_pack(allrows, ven):
       "4-1) and Hradec 3-1 / 3-1 Olomouc (agg HKR 6-2); final Teplice 0-1 / 0-2 Hradec - HRADEC winner 3-0, then lost "
       "the Conference League playoff Final 2024-05-31 at Lokotrans Arena: MlBoleslav 3-1 Hradec (Marecek 13, Kostka "
       "45+1, Matejovsky 54pen; Cmelik 83; att 4173) - MlBoleslav took the Conference League Q2 ticket.")
-    a("NOTE|warning|playoff_count|Czech Relegation Playoffs (pro/rel) occurred in ALL three seasons of the window - "
-      "count: 2 ties x 2 legs x 3 seasons = 12 matches, fully listed here per section-1 but EMITTED AS 0 ROWS because "
-      "of the section-2/section-5 roster conflict (next NOTE). 2021-22 (2022-05-19/22): Teplice 3-0 / 2-2 Vlasim "
-      "(agg 5-2), Opava 0-1 / 0-2 Bohemians 1905 (agg 0-3) - both league sides stay. 2022-23 (2023-06-01/04): Viagem "
-      "Pribram 0-2 / 0-0 Pardubice (agg 0-2; legs at Na Litavce and CFIG Arena), Trinity Zlin 1-0 / 0-0 Vyskov "
-      "(agg 1-0; legs at Letna Stadion and Sportovni areal Drnovice) - both league sides stay. 2023-24 (2024-05-30 "
-      "/2024-06-02): Vyskov 0-1 / 0-1 Karvina (agg 0-2; Vyskov's home leg staged at the Drnovice ground), CBudejovice "
-      "2-1 / 1-1 Silon Taborsko (agg 3-2) - both league sides stay; played dates 2024-05-30 confirmed by the isport "
-      "and CT sport same-evening reports, the pre-season calendar had announced 29 May (wiki infobox plan date).")
-    a("NOTE|warning|roster_scope|OWNER DECISION REQUESTED: the 12 pro/rel legs involve FNL opponents (Vlasim, Opava, "
-      "Viagem Pribram, Vyskov, Silon Taborsko) that are NOT among the 17 pinned section-3 strings. Emitting them as "
-      "MATCH rows would put non-pinned strings in home/away (names gate = automatic rejection) and section-2 demands "
-      "'No TEAM rows expected at all' / 'do NOT invent an identity'. The five FNL clubs ARE verifiable (wiki pro/rel "
-      "match boxes and sections above), so this is not a section-4 blocker case either. Adopted default: keep the "
-      "ties out of the rows, fully recorded in playoff_count above; if the owner sanctions 5 TEAM row declarations "
-      "(would then also carry compType other per the 2026-08-03 errata) or provides their client-roster strings, the "
-      "12 rows can be appended without touching the 829 delivered rows.")
+    a("NOTE|info|playoff_count|Czech Relegation Playoffs (pro/rel) occurred in ALL three seasons of the window - "
+      "count per WO section-1: 2 ties x 2 legs x 3 seasons = 12 rows, ALL EMITTED in this pack (owner decision "
+      "2026-08-03, see roster_scope; compType 'other' per the errata). 2021-22 (2022-05-19/22): Teplice 3-0 / 2-2 "
+      "Vlasim (agg 5-2), Opava 0-1 / 0-2 Bohemians 1905 (agg 0-3) - both league sides stay. 2022-23 (2023-06-01/04): "
+      "Viagem Pribram 0-2 / 0-0 Pardubice (agg 0-2), Trinity Zlin 1-0 / 0-0 Vyskov (agg 1-0) - both league sides "
+      "stay. 2023-24 (2024-05-30/2024-06-02): Vyskov 0-1 / 0-1 Karvina (agg 0-2), CBudejovice 2-1 / 1-1 Silon "
+      "Taborsko (agg 3-2) - both league sides stay; played dates 2024-05-30 confirmed by the isport and CT sport "
+      "same-evening reports, the pre-season calendar had announced 29 May (wiki infobox plan date).")
+    a("NOTE|info|roster_scope|OWNER DECISION RECEIVED 2026-08-03 (closes the v2.1 hold-out; the auditor's return "
+      "message: 'workorder section-1 also commissions Czech Relegation Playoffs (pro/rel ties, compType \"other\" per "
+      "ERRATA). Add the 12 rows ... 2 legs each, 90-min scores'). The five FNL opponent strings (Vlasim, Opava, "
+      "Pribram, Vyskov, Taborsko) are reused client-roster identities - the identical strings the MOL Cup return "
+      "documents as already-on-the-client-roster - not invented names and not new TEAM declarations; WO section-2 "
+      "'No TEAM rows expected at all' stands. The names gate therefore admits these five strings on Czech Relegation "
+      "Playoffs rows only; every league row still uses the 17 pinned section-3 strings exclusively.")
     a("NOTE|info|continuity|Continuity-clause accounting (league segment gap-free): all 30 regular matchdays of every "
       "season exist and are dated in this pack; no match was cancelled. Documented postponements (rows keep their "
       "original Round labels, file is date-sorted): 2021-22 - R3 Slavia-Olomouc (played 2021-10-27), R12 Karvina-Ostrava "
@@ -334,23 +406,28 @@ def build_pack(allrows, ven):
       "Winter breaks and the 2022-23 World-Cup break (autumn half = 16 rounds ending 2022-11-13 per the infobox) are "
       "competition scheduling, not gaps. Season spans: 2021-07-24..2022-05-15 (final groups day), 2022-07-30..2023-05-28, "
       "2023-07-22..2024-05-31 (the CLP Final). 2024-25 MD1 resumes 2024-07-19 client-side.")
-    a("NOTE|info|boundary_no_dupes|Hard-cutoff scan: max row date 2024-05-31; zero rows >= 2024-06-30; zero dateless "
-      "rows; zero duplicate (date, home, away) rows (two-legged Evropu ties are two rows by design). Czech pro/rel "
-      "ties not emitted (roster_scope); nothing else in the 2021-07..2024-06 league window omitted.")
+    a("NOTE|info|boundary_no_dupes|Hard-cutoff scan: max row date 2024-06-02 (the last pro/rel leg); zero rows >= "
+      "2024-06-30; zero dateless rows; zero duplicate (date, home, away) rows (two-legged Evropu and pro/rel ties are "
+      "two rows by design). Nothing in the 2021-07..2024-06 league + pro/rel window omitted.")
     a("NOTE|info|perclub_gate|Owner's per-club completeness technique implemented as a pivot gate: each season's pack "
       "rows are re-pivoted club-by-club - every one of the 16 clubs totals exactly 30 regular-stage games and its full "
-      "campaign (regular + group/Evropu stage, 32-36 games per club) is enumerated round-by-round with dates in "
-      "audit/pack-validation-cz1.txt next to this file. All 48 club-season pivots green.")
+      "campaign (regular + group/Evropu stage, 32-36 games per club, plus any pro/rel legs for Teplice, Bohemians 1905, "
+      "Pardubice, Zlin, Karvina, Ceske Budejovice) is enumerated round-by-round with dates in "
+      "audit/pack-validation-cz1.txt next to this file; the five FNL opponents get their own 2-leg pivot listing. All "
+      "48 club-season pivots green.")
     a("NOTE|info|source_adaptation|WO section-4 design: RSSSF tsje pages = primary for dates AND scores (transcribed to "
       "audit/ledger/cz1-<season>.txt the day of fetch; the three queried fixtures were re-fetched and re-read 2026-08-03 "
       "for adjudication). Second index = the English Wikipedia season articles used at full depth: all 720 regular-stage "
       "scores diffed cell-for-cell against the FBR results matrices, all 90 group-stage scores against the Titul/Zachranu "
       "group matrices, all 19 playoff-stage legs against the printed brackets - plus the official venue tables (incl. "
-      "the documented Hradec/Pardubice ground moves) and the pro/rel aggregates. Result: 826 of 829 pack rows match the "
-      "wiki record score-for-score and 24 of 24 worldfootball spot-audit fixtures match date-for-date; every divergence "
-      "is enumerated in the two source_conflict NOTEs (3 defective wiki matrix cells, 2 wiki infobox goal scalars that "
-      "contradict their own article's tables, 1 worldfootball matchday listing date). Nothing in the pack comes from a "
-      "second index where it conflicts with RSSSF.")
+      "the documented Hradec/Pardubice ground moves) and, for the pro/rel block, the play-offs sections' TwoLegResults "
+      "(all 12 legs, re-fetched " + ACCESSED + ") with the four 2023 match boxes (dates, grounds, attendances). Result: "
+      "838 of 841 pack rows match the wiki record score-for-score and 24 of 24 worldfootball spot-audit fixtures match "
+      "date-for-date; the 2023-24 pro/rel played dates are additionally press-confirmed (isport / CT sport / sport.cz "
+      "SOURCEs) and the FNL home grounds come from the worldfootball stadium indexes + the FC Silon Taborsko article. "
+      "Every divergence is enumerated in the two source_conflict NOTEs (3 defective wiki matrix cells, 2 wiki infobox "
+      "goal scalars that contradict their own article's tables, 1 worldfootball matchday listing date). Nothing in the "
+      "pack comes from a second index where it conflicts with RSSSF.")
     a("NOTE|warning|source_conflict|Three defective cells in the wiki FBR results matrices conflict with RSSSF-primary "
       "AND with the wiki articles' own official tables (each cell would break the table it sits under): 2022-23 "
       "Liberec-Zlin says 1-0 (RSSSF Round 26 [Apr 8]: Liberec 2-1 Zlin; the article's own table has Zlin GA 55 and "
@@ -374,9 +451,9 @@ def build_pack(allrows, ven):
           f"and the worldfootball matchday page {WF_LABEL[s]}): {txt}.")
 
     for s in SEASONS:
-        rows = sorted(allrows[s], key=lambda r: (r["date"], weight_of(r["tag"]), r["home"]))
+        rows = sorted(allrows[s] + allpro[s], key=lambda r: (r["date"], weight_of(r["tag"]), r["home"]))
         for r in rows:
-            a(emit_match(r, ven))
+            a(emit_pro(r) if r["tag"] == "PRO" else emit_match(r, ven))
     a("END")
     return "\n".join(L) + "\n"
 
@@ -395,11 +472,13 @@ def seas_of(d):
     return "2023-24"
 
 def main():
-    allrows = {s: read_season_rows(s) for s in SEASONS}
+    allpairs = {s: read_season_rows(s) for s in SEASONS}
+    allrows = {s: allpairs[s][0] for s in SEASONS}
+    allpro = {s: allpairs[s][1] for s in SEASONS}
     ven = read_venues()
     tabs, gtabs = read_tables()
     idx = {s: read_2ndidx(s) for s in SEASONS}
-    pack = build_pack(allrows, ven)
+    pack = build_pack(allrows, allpro, ven)
     os.makedirs(os.path.dirname(OUTPACK), exist_ok=True)
     with open(OUTPACK, "w", encoding="utf-8") as f:
         f.write(pack)
@@ -413,8 +492,10 @@ def main():
 
     G.g(pack.rstrip().endswith("END"), "file ends with END")
     G.g(all(len(m) == 14 for m in matches) and
-        all(m[2] == COMP and m[3] == COMPTYPE and m[11] == COUNTRY and m[12] == "" for m in matches),
-        "MATCH grammar: 14 fields, competition 'Czech First League' + compType domestic-league + country + blank-13 verbatim")
+        all(((m[2] == COMP and m[3] == COMPTYPE) or (m[2] == PROCOMP and m[3] == PROTYPE)) and
+            m[11] == COUNTRY and m[12] == "" for m in matches),
+        "MATCH grammar: 14 fields, competition 'Czech First League'/domestic-league on league rows + "
+        "'Czech Relegation Playoffs'/other (ERRATA) on pro/rel rows + country + blank-13 verbatim")
     iso = re.compile(r"^\d{4}-\d{2}-\d{2}$")
     G.g(all(iso.match(m[1]) for m in matches), "no dateless / non-ISO rows")
     G.g(all(m[1] < CUTOFF for m in matches), "boundary: no row >= 2024-06-30")
@@ -423,16 +504,21 @@ def main():
     G.g(all(m[8] and m[9] and m[10] for m in matches), "venue-detail (stage label), stadium and city populated on every row")
     G.g(all(m[13] in sources for m in matches), "every MATCH sourceLabel resolves to a SOURCE row")
     G.g(len(teams) == 0, "zero TEAM rows (WO section-2: every participant already on the client roster)")
-    G.g(all(m[4] in ROSTER17 and m[7] in ROSTER17 for m in matches), "every home/away string in the 17 pinned section-3 strings")
+    G.g(all((m[4] in ROSTER17 and m[7] in ROSTER17) if m[2] == COMP else
+            (m[4] in ROSTER17 | FNL5 and m[7] in ROSTER17 | FNL5) for m in matches),
+        "names gate: league rows only the 17 pinned section-3 strings; pro/rel rows additionally the 5 owner-sanctioned FNL strings")
+    G.g(not any(m[2] == COMP and (m[4] in FNL5 or m[7] in FNL5) for m in matches),
+        "FNL strings confined to Czech Relegation Playoffs rows (never a league row)")
     G.g(not ({m[4] for m in matches} | {m[7] for m in matches}) & ANTI_APPEAR and
         not any(any(f in fld for f in ERA_FRAGMENTS) for m in matches for fld in (m[4], m[7])),
         "anti-appear + era fragments empty in row fields (Dukla Prague / Artis Brno / Fastav / Trinity / Baumit / OKD / MFK / 1. FC)")
 
-    G.g(len(matches) == 829, f"total rows = 829 (276 + 276 + 277); got {len(matches)}")
+    G.g(len(matches) == 841, f"total rows = 841 (276 + 276 + 277 league + 12 pro/rel); got {len(matches)}")
     for s in SEASONS:
         ms = [m for m in matches if seas_of(m[1]) == s]
         exp = 277 if s == "2023-24" else 276
-        G.g(len(ms) == exp, f"{s} rows = {exp}")
+        G.g(len(ms) == exp + 4 and len([m for m in ms if m[2] == COMP]) == exp,
+            f"{s} rows = {exp} league + 4 pro/rel = {exp + 4}")
         reg = [m for m in ms if m[8].startswith("Round ")]
         tit = [m for m in ms if m[8].startswith("Titul ")]
         zac = [m for m in ms if m[8].startswith("Zachranu ")]
@@ -461,9 +547,12 @@ def main():
         stocks = {next(st for st, ro in STOCK2ROSTER.items() if ro == m[4]) for m in reg} | \
                  {next(st for st, ro in STOCK2ROSTER.items() if ro == m[7]) for m in reg}
         G.g(stocks == SEASON_CLUBS[s], f"{s} club composition = WO-pinned 16")
-        # per-club total games multiset (shape gate)
+        # per-club total games multiset (shape gate) - LEAGUE rows only (pro/rel legs are
+        # outside the section-1 shape template and pivot separately below)
         tot = defaultdict(int)
         for m in ms:
+            if m[2] != COMP:
+                continue
             tot[m[4]] += 1
             tot[m[7]] += 1
         dist = defaultdict(int)
@@ -622,8 +711,8 @@ def main():
     # ---- second-index diffs (wiki matrices + brackets; worldfootball spot matchdays)
     diff_report = []
     for s in SEASONS:
-        mx, tgx, zgx, ebx, spot = idx[s]
-        ms = [m for m in matches if seas_of(m[1]) == s]
+        mx, tgx, zgx, ebx, prb, spot = idx[s]
+        ms = [m for m in matches if seas_of(m[1]) == s and m[2] == COMP]   # league rows only (pro/rel diffed separately)
         pmap = {}
         for m in ms:
             hs = next(st for st, ro in STOCK2ROSTER.items() if ro == m[4])
@@ -675,6 +764,8 @@ def main():
     # ---- venue consistency
     vbad = []
     for m in matches:
+        if m[2] == PROCOMP:
+            continue   # pro/rel rows: dedicated gate below
         s = seas_of(m[1])
         hs = next(st for st, ro in STOCK2ROSTER.items() if ro == m[4])
         if s == "2022-23" and hs == "Pardubice":
@@ -682,11 +773,50 @@ def main():
             if (m[9], m[10]) != want: vbad.append((s, hs, m[1]))
         elif (m[9], m[10]) != ven[(s, hs)]:
             vbad.append((s, hs, m[1]))
-    G.g(not vbad, "venue consistency: every row's stadium/city = the home club's documented season ground (incl. 2022-23 Pardubice winter-break split)",
+    G.g(not vbad, "venue consistency: every league row's stadium/city = the home club's documented season ground (incl. 2022-23 Pardubice winter-break split)",
         str(vbad[:5]))
-    hk_earliest = min(m[1] for m in matches if seas_of(m[1]) == "2023-24" and
+    hk_earliest = min(m[1] for m in matches if seas_of(m[1]) == "2023-24" and m[2] == COMP and
                       next((st for st, ro in STOCK2ROSTER.items() if ro == m[4]), None) == "Hradec")
     G.g(hk_earliest >= "2023-08-05", f"2023-24 Hradec home dates all >= Malsovicka Arena opening (earliest {hk_earliest})")
+
+    # ---- pro/rel playoff block gates (owner-sanctioned 2026-08-03; ERRATA compType 'other')
+    pro_rows = [m for m in matches if m[2] == PROCOMP]
+    G.g(len(pro_rows) == 12, f"pro/rel block: 12 rows (2 ties x 2 legs x 3 seasons); got {len(pro_rows)}")
+    G.g(all(m[3] == PROTYPE and m[13] == SRC_LABEL[seas_of(m[1])] for m in pro_rows),
+        "pro/rel rows: compType 'other' + RSSSF season source labels")
+    for s in SEASONS:
+        prs = [m for m in pro_rows if seas_of(m[1]) == s]
+        ties = defaultdict(list)
+        for m in prs:
+            ties[frozenset((m[4], m[7]))].append(m)
+        legok = all(sorted(mm[8] for mm in legs) == ["Playoff leg1", "Playoff leg2"] and
+                    next(mm[1] for mm in legs if mm[8] == "Playoff leg1") <
+                    next(mm[1] for mm in legs if mm[8] == "Playoff leg2") for legs in ties.values())
+        G.g(len(prs) == 4 and len(ties) == 2 and legok,
+            f"{s} pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels")
+        ag_ok, ag_txt = True, []
+        for (pair, winner, aggstr) in PROREL_TIES[s]:
+            hp, ap = (STOCK2ROSTER.get(x, x) for x in pair)
+            legs = [m for m in prs if {m[4], m[7]} == {hp, ap}]
+            totp = defaultdict(int)
+            for m in legs:
+                totp[m[4]] += int(m[5]); totp[m[7]] += int(m[6])
+            w = STOCK2ROSTER.get(winner, winner)
+            lose = sum(v for k, v in totp.items() if k != w)
+            ag_ok &= len(legs) == 2 and totp[w] > lose and f"{totp[w]}-{lose}" == aggstr
+            ag_txt.append(f"{w} {aggstr}")
+        G.g(ag_ok, f"{s} pro/rel aggregates reproduced (league side stays up every tie): {'; '.join(ag_txt)}")
+        prb = idx[s][4]
+        bad = []
+        for m in prs:
+            hs = next((st for st, ro in STOCK2ROSTER.items() if ro == m[4]), m[4])
+            as_ = next((st for st, ro in STOCK2ROSTER.items() if ro == m[7]), m[7])
+            if prb.get((hs, as_)) != (int(m[5]), int(m[6])):
+                bad.append((hs, as_, prb.get((hs, as_)), (m[5], m[6])))
+        G.g(not bad and len(prb) == 4, f"{s} 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)", str(bad[:3]))
+        vbadp = [(m[1], m[4]) for m in prs
+                 if (m[9], m[10]) != PROREL_VENUE[(s, next((st for st, ro in STOCK2ROSTER.items() if ro == m[4]), m[4]))]]
+        G.g(not vbadp, f"{s} pro/rel venues: every leg at the home club's documented ground", str(vbadp[:3]))
 
     for tag in ("pack_id", "federation_check", "comp_class", "identity", "venue_policy", "stage_mapping",
                 "round_counts", "shape_deviation", "tiebreak", "playoff_outcomes", "playoff_count",
@@ -694,8 +824,8 @@ def main():
         G.g(any(f"|{tag}|" in n for n in notes), f"NOTE present: {tag}")
     G.g(sum(1 for n in notes if "|spot_audit|" in n) == 3, "three spot-audit NOTE rows (one matchday per season)")
     G.g(sum(1 for n in notes if "|source_conflict|" in n) == 2, "two source_conflict NOTEs (wiki matrix cells; infobox scalars + wf date)")
-    G.g(sum(1 for n in notes if n.startswith("NOTE|warning|")) == 4,
-        "four warning NOTEs (playoff_count, roster_scope, source_conflict x2)")
+    G.g(sum(1 for n in notes if n.startswith("NOTE|warning|")) == 2,
+        "two warning NOTEs (source_conflict x2; playoff_count and roster_scope resolved to info post owner sanction)")
     G.g(all(len(l) == len(l.encode("ascii", "ignore").decode("ascii")) for l in lines), "pack is ASCII-only")
     G.g(not any("|TABLE|" in l or l.startswith("STANDING") for l in lines), "no standings tables in the pack (rows only)")
 
@@ -763,6 +893,17 @@ def main():
             out.append(f"  {ros:<16} [{stg[gs]}] {len(games)} games  W{rec[0]:>2} D{rec[1]:>2} L{rec[2]:>2} "
                        f"GF{rec[3]:>3} GA{rec[4]:>3}")
             out.extend(lines_out)
+    out.append("")
+    out.append("### FNL PRO/REL OPPONENTS (owner-sanctioned Czech Relegation Playoffs block; 2 legs each; CZ2/FNL tier in-window)")
+    allm = [l.split("|") for l in lines if l.startswith("MATCH|")]
+    for club in sorted(FNL5):
+        games = sorted([m for m in allm if m[4] == club or m[7] == club], key=lambda x: x[1])
+        out.append(f"  {club:<10} {len(games)} games")
+        for m in games:
+            home = m[4] == club
+            gf, ga = (m[5], m[6]) if home else (m[6], m[5])
+            res = "W" if gf > ga else "L" if gf < ga else "D"
+            out.append(f"    {m[8]:<13} {m[1]} {'H' if home else 'A'} {res} {gf}-{ga} v {m[7] if home else m[4]}")
     with open(OUTAUDIT, "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
     print(f"pack rows={len(matches)} gates: {p} PASS {fx} FAIL -> {OUTPACK}")

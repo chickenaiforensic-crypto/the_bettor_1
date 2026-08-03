@@ -284,6 +284,11 @@ ESF2|2023-05-13|Hradec|2|0|MlBoleslav
 ESF2|2023-05-13|Liberec|4|0|CBudejovice
 EF1|2023-05-21|Hradec|0|4|Liberec
 EF2|2023-05-26|Liberec|2|3|Hradec
-# PROMOTION/RELEGATION PLAYOFF (HELD OUT of pack per WO section-2 roster conflict; recorded):
+# PROMOTION/RELEGATION PLAYOFF (EMITTED into the pack from v2.2: owner sanction 2026-08-03,
+# compType "other" per ERRATA-2026-08-03 superseding the single-class WO section-2 line; raw record:)
 # 2023-06-01 Pribram(FNL) 0-2 Pardubice ; 2023-06-01 Zlin 1-0 Vyskov(FNL)
 # 2023-06-04 Pardubice 0-0 Pribram ; 2023-06-04 Vyskov 0-0 Zlin ; NB all clubs remain at former level
+PRO|2023-06-01|Pribram|0|2|Pardubice
+PRO|2023-06-01|Zlin|1|0|Vyskov
+PRO|2023-06-04|Pardubice|0|0|Pribram
+PRO|2023-06-04|Vyskov|0|0|Zlin

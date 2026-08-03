@@ -292,3 +292,12 @@ SPOT|25|2024-03-17|Jablonec|1|2|Plzen
 SPOT|25|2024-03-17|Pardubice|0|1|Ostrava
 SPOT|25|2024-03-17|Slavia|3|0|Liberec
 SPOT|25|2024-03-17|Sparta|2|1|Hradec
+# ===== Relegation play-offs (article section 13, re-fetched 2026-08-03): TwoLegResult table only
+# (no match boxes): Vyskov 0-2 Karvina (0-1, 0-1); Ceske Budejovice 3-2 Silon Taborsko (2-1, 1-1).
+# Played dates via RSSSF primary + press (pack SOURCEs isport-baraz-2024, ctsport-baraz-2024,
+# sportcz-karvina-vyskov-2024). Taborsko ground = Stadion v Kvapilove ulici, Tabor (en.wiki
+# FC Silon Taborsko infobox 'Ground' + lead prose, fetched 2026-08-03; club = CNFL/2nd tier in-window).
+PRB|Vyskov|0|1|Karvina
+PRB|Karvina|1|0|Vyskov
+PRB|CBudejovice|2|1|Taborsko
+PRB|Taborsko|1|1|CBudejovice

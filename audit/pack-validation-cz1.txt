@@ -1,19 +1,20 @@
 PACK VALIDATION - CZ1-2021-2026_BP-TEAM-PACK_v2.txt
 built 2026-08-03 by tools/build_cz1_pack.py from audit/ledger/cz1-<season>.txt (RSSSF tsje2022/2023/2024 primary, transcribed 2026-08-03); second index = Wikipedia season articles (FBR matrices, group matrices, official table + group-table constants, venue tables, brackets + CLP box) + worldfootball matchday spot-audits R10/R20/R25. Constants in audit/ledger/cz1-venues.txt and cz1-2ndidx-<season>.txt.
 ====================================================================================================
-GATES: 105 PASS, 0 FAIL
+GATES: 120 PASS, 0 FAIL
 [PASS] file ends with END
-[PASS] MATCH grammar: 14 fields, competition 'Czech First League' + compType domestic-league + country + blank-13 verbatim
+[PASS] MATCH grammar: 14 fields, competition 'Czech First League'/domestic-league on league rows + 'Czech Relegation Playoffs'/other (ERRATA) on pro/rel rows + country + blank-13 verbatim
 [PASS] no dateless / non-ISO rows
 [PASS] boundary: no row >= 2024-06-30
 [PASS] no duplicate rows (date/home/away)
 [PASS] venue-detail (stage label), stadium and city populated on every row
 [PASS] every MATCH sourceLabel resolves to a SOURCE row
 [PASS] zero TEAM rows (WO section-2: every participant already on the client roster)
-[PASS] every home/away string in the 17 pinned section-3 strings
+[PASS] names gate: league rows only the 17 pinned section-3 strings; pro/rel rows additionally the 5 owner-sanctioned FNL strings
+[PASS] FNL strings confined to Czech Relegation Playoffs rows (never a league row)
 [PASS] anti-appear + era fragments empty in row fields (Dukla Prague / Artis Brno / Fastav / Trinity / Baumit / OKD / MFK / 1. FC)
-[PASS] total rows = 829 (276 + 276 + 277); got 829
-[PASS] 2021-22 rows = 276
+[PASS] total rows = 841 (276 + 276 + 277 league + 12 pro/rel); got 841
+[PASS] 2021-22 rows = 276 league + 4 pro/rel = 280
 [PASS] 2021-22 stage split 240 regular + 15 Titul + 15 Zachranu + 6 Evropu
 [PASS] 2021-22 all 30 regular matchdays present x 8 dated fixtures
 [PASS] 2021-22 Titul+Zachranu rounds 31-35 x 3 fixtures each
@@ -21,7 +22,7 @@ GATES: 105 PASS, 0 FAIL
 [PASS] 2021-22 club composition = WO-pinned 16
 [PASS] 2021-22 per-club game-count shape == {35: 12, 34: 2, 32: 2}; got {35: 12, 34: 2, 32: 2}
 [PASS] 2021-22 rows date-sorted inside the season block
-[PASS] 2022-23 rows = 276
+[PASS] 2022-23 rows = 276 league + 4 pro/rel = 280
 [PASS] 2022-23 stage split 240 regular + 15 Titul + 15 Zachranu + 6 Evropu
 [PASS] 2022-23 all 30 regular matchdays present x 8 dated fixtures
 [PASS] 2022-23 Titul+Zachranu rounds 31-35 x 3 fixtures each
@@ -29,7 +30,7 @@ GATES: 105 PASS, 0 FAIL
 [PASS] 2022-23 club composition = WO-pinned 16
 [PASS] 2022-23 per-club game-count shape == {35: 12, 34: 2, 32: 2}; got {35: 12, 32: 2, 34: 2}
 [PASS] 2022-23 rows date-sorted inside the season block
-[PASS] 2023-24 rows = 277
+[PASS] 2023-24 rows = 277 league + 4 pro/rel = 281
 [PASS] 2023-24 stage split 240 regular + 15 Titul + 15 Zachranu + 7 (6 Evropu + CLP)
 [PASS] 2023-24 all 30 regular matchdays present x 8 dated fixtures
 [PASS] 2023-24 Titul+Zachranu rounds 31-35 x 3 fixtures each
@@ -84,8 +85,22 @@ GATES: 105 PASS, 0 FAIL
 [PASS] 2023-24 2nd-idx Evropu bracket diff (legs incl. CLP): 7 cells vs pack, 1:1 identical (score + orientation)
 [PASS] 2023-24 worldfootball matchday spot-audit: all 8 fixtures identical on date AND score (1 documented listing-date nuance whitelisted)
 [PASS] 2023-24 infobox anchors reproduced: 277 matches / 792 goals (got 277/792)
-[PASS] venue consistency: every row's stadium/city = the home club's documented season ground (incl. 2022-23 Pardubice winter-break split)
+[PASS] venue consistency: every league row's stadium/city = the home club's documented season ground (incl. 2022-23 Pardubice winter-break split)
 [PASS] 2023-24 Hradec home dates all >= Malsovicka Arena opening (earliest 2023-08-05)
+[PASS] pro/rel block: 12 rows (2 ties x 2 legs x 3 seasons); got 12
+[PASS] pro/rel rows: compType 'other' + RSSSF season source labels
+[PASS] 2021-22 pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels
+[PASS] 2021-22 pro/rel aggregates reproduced (league side stays up every tie): Teplice 5-2; Bohemians 1905 3-0
+[PASS] 2021-22 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)
+[PASS] 2021-22 pro/rel venues: every leg at the home club's documented ground
+[PASS] 2022-23 pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels
+[PASS] 2022-23 pro/rel aggregates reproduced (league side stays up every tie): Pardubice 2-0; Zlin 1-0
+[PASS] 2022-23 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)
+[PASS] 2022-23 pro/rel venues: every leg at the home club's documented ground
+[PASS] 2023-24 pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels
+[PASS] 2023-24 pro/rel aggregates reproduced (league side stays up every tie): Karvina 2-0; Ceske Budejovice 3-2
+[PASS] 2023-24 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)
+[PASS] 2023-24 pro/rel venues: every leg at the home club's documented ground
 [PASS] NOTE present: pack_id
 [PASS] NOTE present: federation_check
 [PASS] NOTE present: comp_class
@@ -104,7 +119,7 @@ GATES: 105 PASS, 0 FAIL
 [PASS] NOTE present: source_adaptation
 [PASS] three spot-audit NOTE rows (one matchday per season)
 [PASS] two source_conflict NOTEs (wiki matrix cells; infobox scalars + wf date)
-[PASS] four warning NOTEs (playoff_count, roster_scope, source_conflict x2)
+[PASS] two warning NOTEs (source_conflict x2; playoff_count and roster_scope resolved to info post owner sanction)
 [PASS] pack is ASCII-only
 [PASS] no standings tables in the pack (rows only)
 
@@ -221,7 +236,7 @@ SECOND-INDEX DIFF SUMMARY
 PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, round by round)
 
 ### 2021-22
-  Bohemians 1905   [Zachranu] 35 games  W 8 D10 L17 GF 45 GA 61
+  Bohemians 1905   [Zachranu] 37 games  W10 D10 L17 GF 48 GA 61
     Round 1       2021-07-24 A D 1-1 v Hradec Kralove
     Round 2       2021-08-01 H L 1-2 v Viktoria Plzen
     Round 3       2021-08-08 A D 2-2 v Jablonec
@@ -257,6 +272,8 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2022-05-07 A W 4-1 v Zlin
     Zachranu R34  2022-05-10 A D 1-1 v Jablonec
     Zachranu R35  2022-05-14 H W 4-0 v Karvina
+    Playoff leg1  2022-05-19 A W 1-0 v Opava
+    Playoff leg2  2022-05-22 H W 2-0 v Opava
   Ceske Budejovice [Evropu] 32 games  W 9 D 9 L14 GF 42 GA 50
     Round 1       2021-07-25 H W 1-0 v Teplice
     Round 2       2021-08-01 A L 0-1 v Slovacko
@@ -717,7 +734,7 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Titul R33     2022-05-08 A L 0-3 v Viktoria Plzen
     Titul R34     2022-05-11 H L 1-2 v Slovacko
     Titul R35     2022-05-15 A W 2-1 v Slavia Prague
-  Teplice          [Zachranu] 35 games  W 8 D 5 L22 GF 33 GA 59
+  Teplice          [Zachranu] 37 games  W 9 D 6 L22 GF 38 GA 61
     Round 1       2021-07-25 A L 0-1 v Ceske Budejovice
     Round 2       2021-07-30 H L 1-3 v Slavia Prague
     Round 3       2021-08-07 A L 0-3 v Zlin
@@ -753,6 +770,8 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2022-05-07 H L 0-1 v Jablonec
     Zachranu R34  2022-05-10 A D 2-2 v Karvina
     Zachranu R35  2022-05-14 H L 0-2 v Pardubice
+    Playoff leg1  2022-05-19 H W 3-0 v Vlasim
+    Playoff leg2  2022-05-22 A D 2-2 v Vlasim
   Zlin             [Zachranu] 35 games  W 9 D 9 L17 GF 43 GA 60
     Round 1       2021-07-25 H L 0-1 v Slavia Prague
     Round 2       2021-08-01 A L 1-5 v Banik Ostrava
@@ -1107,7 +1126,7 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2023-05-21 H W 2-1 v Teplice
     Zachranu R34  2023-05-24 A L 1-2 v Zlin
     Zachranu R35  2023-05-28 H L 2-4 v Pardubice
-  Pardubice        [Zachranu] 35 games  W11 D 4 L20 GF 38 GA 63
+  Pardubice        [Zachranu] 37 games  W12 D 5 L20 GF 40 GA 63
     Round 1       2022-07-31 H L 0-2 v Ceske Budejovice
     Round 2       2022-08-06 A L 1-2 v Viktoria Plzen
     Round 3       2022-08-14 H W 2-1 v Slovan Liberec
@@ -1143,6 +1162,8 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2023-05-21 H L 1-2 v Zlin
     Zachranu R34  2023-05-24 H W 2-0 v Jablonec
     Zachranu R35  2023-05-28 A W 4-2 v Banik Ostrava
+    Playoff leg1  2023-06-01 A W 2-0 v Pribram
+    Playoff leg2  2023-06-04 H D 0-0 v Pribram
   Viktoria Plzen   [Titul] 35 games  W18 D 7 L10 GF 60 GA 38
     Round 1       2022-07-30 A D 2-2 v Teplice
     Round 2       2022-08-06 H W 2-1 v Pardubice
@@ -1323,7 +1344,7 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2023-05-21 A L 1-2 v Banik Ostrava
     Zachranu R34  2023-05-24 H D 1-1 v Zbrojovka Brno
     Zachranu R35  2023-05-28 A W 2-0 v Jablonec
-  Zlin             [Zachranu] 35 games  W 7 D13 L15 GF 43 GA 60
+  Zlin             [Zachranu] 37 games  W 8 D14 L15 GF 44 GA 60
     Round 1       2022-07-30 H D 0-0 v Mlada Boleslav
     Round 2       2022-08-07 A L 1-4 v Slavia Prague
     Round 3       2022-08-13 A L 1-3 v Banik Ostrava
@@ -1359,6 +1380,8 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2023-05-21 A W 2-1 v Pardubice
     Zachranu R34  2023-05-24 H W 2-1 v Banik Ostrava
     Zachranu R35  2023-05-28 A D 0-0 v Zbrojovka Brno
+    Playoff leg1  2023-06-01 H W 1-0 v Vyskov
+    Playoff leg2  2023-06-04 A D 0-0 v Vyskov
 
 ### 2023-24
   Bohemians 1905   [Zachranu] 35 games  W 9 D12 L14 GF 34 GA 48
@@ -1397,7 +1420,7 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2024-05-16 H L 1-3 v Karvina
     Zachranu R34  2024-05-19 A W 2-1 v Zlin
     Zachranu R35  2024-05-25 H L 0-1 v Pardubice
-  Ceske Budejovice [Zachranu] 35 games  W 7 D 8 L20 GF 41 GA 70
+  Ceske Budejovice [Zachranu] 37 games  W 8 D 9 L20 GF 44 GA 72
     Round 1       2023-07-23 A L 1-4 v Slovacko
     Round 2       2023-07-30 H L 1-3 v Slavia Prague
     Round 3       2023-08-05 A L 1-5 v Hradec Kralove
@@ -1433,6 +1456,8 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2024-05-16 A D 1-1 v Zlin
     Zachranu R34  2024-05-19 H D 2-2 v Jablonec
     Zachranu R35  2024-05-25 A L 0-1 v Karvina
+    Playoff leg1  2024-05-30 H W 2-1 v Taborsko
+    Playoff leg2  2024-06-02 A D 1-1 v Taborsko
   Hradec Kralove   [Evropu] 35 games  W13 D10 L12 GF 42 GA 43
     Round 1       2023-07-22 A L 0-2 v Slavia Prague
     Round 2       2023-07-30 A D 1-1 v Viktoria Plzen
@@ -1505,7 +1530,7 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2024-05-16 H W 3-0 v Pardubice
     Zachranu R34  2024-05-19 A D 2-2 v Ceske Budejovice
     Zachranu R35  2024-05-25 H W 1-0 v Zlin
-  Karvina          [Zachranu] 35 games  W 8 D 8 L19 GF 38 GA 62
+  Karvina          [Zachranu] 37 games  W10 D 8 L19 GF 40 GA 62
     Round 1       2023-07-22 H W 4-1 v Zlin
     Round 2       2023-07-29 A L 1-3 v Sigma Olomouc
     Round 3       2023-08-05 H L 1-2 v Mlada Boleslav
@@ -1541,6 +1566,8 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2024-05-16 A W 3-1 v Bohemians 1905
     Zachranu R34  2024-05-19 A L 0-4 v Pardubice
     Zachranu R35  2024-05-25 H W 1-0 v Ceske Budejovice
+    Playoff leg1  2024-05-30 A W 1-0 v Vyskov
+    Playoff leg2  2024-06-02 H W 1-0 v Vyskov
   Slovan Liberec   [Evropu] 32 games  W10 D10 L12 GF 47 GA 50
     Round 1       2023-07-23 H W 3-1 v Banik Ostrava
     Round 2       2023-07-30 A D 2-2 v Mlada Boleslav
@@ -1931,3 +1958,22 @@ PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, r
     Zachranu R33  2024-05-16 H D 1-1 v Ceske Budejovice
     Zachranu R34  2024-05-19 H L 1-2 v Bohemians 1905
     Zachranu R35  2024-05-25 A L 0-1 v Jablonec
+
+### FNL PRO/REL OPPONENTS (owner-sanctioned Czech Relegation Playoffs block; 2 legs each; CZ2/FNL tier in-window)
+  Opava      2 games
+    Playoff leg1  2022-05-19 H L 0-1 v Bohemians 1905
+    Playoff leg2  2022-05-22 A L 0-2 v Bohemians 1905
+  Pribram    2 games
+    Playoff leg1  2023-06-01 H L 0-2 v Pardubice
+    Playoff leg2  2023-06-04 A D 0-0 v Pardubice
+  Taborsko   2 games
+    Playoff leg1  2024-05-30 A L 1-2 v Ceske Budejovice
+    Playoff leg2  2024-06-02 H D 1-1 v Ceske Budejovice
+  Vlasim     2 games
+    Playoff leg1  2022-05-19 A L 0-3 v Teplice
+    Playoff leg2  2022-05-22 H D 2-2 v Teplice
+  Vyskov     4 games
+    Playoff leg1  2023-06-01 A L 0-1 v Zlin
+    Playoff leg2  2023-06-04 H D 0-0 v Zlin
+    Playoff leg1  2024-05-30 H L 0-1 v Karvina
+    Playoff leg2  2024-06-02 A L 0-1 v Karvina

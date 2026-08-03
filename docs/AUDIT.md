@@ -365,3 +365,45 @@ SK Líšeň→SK Artis Brno rename (Brno press, Dec 2025; wf back-renames histor
 quirk), FK Loko Vltavín→FK Loko Praha rename June 2024 (roster string `Loko Praha` reused),
 Hradec's wf label "FINEP Arena" = Malsovicka Arena working-name alias (pinned string used),
 Vyšehrad CFL-A entry + corruption-scandal reassignment (leagueCode CZ3, 0 league matches).
+
+---
+
+## Addendum 2026-08-03 (sixth) — auditor return cycle: CZ1 pro/rel block reinstated + RUSCUP KAMAZ exact-string
+
+The auditor approved the CZ1 body (tables 3×16/16 exact, brackets 18/18 exact, CLP row correct —
+"good catch: it explains 829 vs 828") and returned two items; both closed the same day.
+
+**1. CZ1-2021-2026_BP-TEAM-PACK_v2.txt v2.2 — 841 rows (was 829), 120/120 gates (was 105).**
+The workorder §1 scope table always commissioned the Czech Relegation Playoffs ("state count in a
+NOTE"); the v2.1 return held them out over the §2/§3 roster conflict (`roster_scope` warning). The
+auditor's return message resolves it: "Add the 12 rows … compType 'other' per ERRATA … 2 legs each,
+90-min scores." Emitted: 2022 Teplice 3-0 / 2-2 Vlasim and Opava 0-1 / 0-2 Bohemians 1905 (May 19/22);
+2023 Pribram 0-2 / 0-0 Pardubice and Zlin 1-0 / 0-0 Vyskov (Jun 1/4); 2024 Vyskov 0-1 / 0-1 Karvina
+and Ceske Budejovice 2-1 / 1-1 Taborsko (May 30 / Jun 2). All six ties won by the First-League side —
+no club changed division (RSSSF NB + wiki TwoLeg results agree). No extra time anywhere; every row is
+the plain full-time score (90-minute doctrine untouched). The five FNL opponent strings
+(Vlasim, Opava, Pribram, Vyskov, Taborsko) are reused client-roster identities — the identical strings
+the MOL Cup return documents — not TEAM declarations; WO §2 "no TEAM rows" stands (0 TEAM rows).
+Venue evidence: league homes reuse the pinned per-season constants (the 2023 Pardubice/Zlin/Pribram
+legs are corroborated by the wiki match boxes incl. attendances 4350/5442/3500); FNL homes from the
+worldfootball cup-stadium indexes (Opava 7758, Vlasim 6000, Pribram 7120), Vyskov's Sportovni areal
+Drnovice (wiki 2023-06-04 box att 4500; wf's "Stadion FK Drnovice" is the same ground), and Taborsko's
+Stadion v Kvapilove ulici, Tabor (en.wiki FC Silon Taborsko infobox + lead, fetched 2026-08-03).
+
+**2. RUSCUP KAMAZ.** "Write exactly KAMAZ (2 rows)": the two in-scope rows
+(2021-10-27 KAMAZ 1-0 Ural, Group-2 R3; 2022-03-03 Zenit 6-0 KAMAZ, R16) now carry the roster string
+`KAMAZ` verbatim — superseding the earlier exact-form interpretation ("KAMAZ Naberezhnye Chelny",
+the RSSSF source-listing string, kept in the identity NOTE). 162/162 gates stay green; group-table
+pivot references updated consistently.
+
+Determinism sweep: CZ1 pack sha256
+`55d9bd80ef3db4ed84421cffdce64f41f43c9b13f069d3f4eb6a46e74026d643`; RUSCUP pack sha256
+`c2658b490d63821166d7b76d04a7e83d3f151f54d7afaef78346d0126b2711f6`.
+A residual nondeterminism in the RUSCUP validator *report* (club-pair order inside two gate labels,
+from an unsorted set join; pack bytes were always stable) was found during the double-rebuild check
+and fixed (`sorted(pair)`); report regenerates byte-identical since.
+
+Still outstanding at close: the owner-announced upload of the original `ERRATA-2026-08-03.md`
+(attachment listed on the 2026-08-03 evening message) had not materialized in the sandbox
+(`/home/user/uploads/` absent) — the as-relayed mirror continues to govern; the original will be
+placed at `supervisor/ERRATA-2026-08-03.md` when it lands.
