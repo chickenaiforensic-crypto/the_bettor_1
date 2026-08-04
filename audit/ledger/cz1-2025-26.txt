@@ -1,0 +1,354 @@
+# CZ1 2025/26 (Chance liga) - DECREE-2026-08-04 full-span override season
+# MD|date|home|hg|ag|away  (ASCII stock strings)
+# PRIMARY SOURCE: RSSSF tsje2026.html (Stokkermans, last updated 23 Jul 2026) - PAGE FORM: prints
+#   REGULAR final table + Titul/Zachranu final tables + Evropu legs + pro/rel ties ONLY (no round
+#   listings/dates). Adaptation documented (same class as EPL 2025-26): round scores+dates carried
+#   by the second-index lattice; tables/logs recomputed to RSSSF constants EXACT (RT 16/16, TT 6/6,
+#   ZT 6/6, 623 regular goals, 30/35 played per team - tools/build_cz1_2526_ledger.py V1..V6).
+# SECOND INDEX LATTICE (two independent indexes agree on every one of 270 REG/T/Z scores):
+#   A) en.wikipedia "2025-26 Czech First League" FBR matrices (s7/s8/s9/s11, fetched 2026-08-04)
+#      -> audit/ledger/cz1-2ndidx-2025-26.txt (240 REG + 15 TGRP + 15 ZGRP + 4 PRO MX rows)
+#   B) BBC Sport "Czech Liga" month pages (2025-07..2026-05, fetched 2026-08-04)
+#      -> audit/ledger/cz1-dates-bbc-2025-2026.txt (276 dated rows incl. stage labels
+#         "Championship Round"/"Relegation Round"/"Middle Play-offs")
+#   BBC<->wiki cell bijection V1/V2 EXACT; round tags = explicit date blocks with hard constraint
+#   each block holds every team exactly once (16 REG / 6 T / 6 Z) - all satisfied (V3).
+# eras: FC Zlin back ([P], Narodni champions 2024-25); CBudejovice out (relegated).
+# postponed (keep round labels): R2 Ostrava-Teplice played Sep 17; R3 MlBoleslav-Plzen Aug 19;
+#   R5 Pardubice-Ostrava Oct 1; R6 Bohemians-MlBoleslav Oct 22; R13 Sparta-Bohemians Oct 28.
+# Regular-table 23-tie 14/15: RSSSF print order reproduced WITHOUT bracket; ADJUDICATED by wiki
+#   hth_DUK note "Head-to-head points: Dukla Prague 6, Slovacko 0" (regular class rules H2H first;
+#   lattice confirms Dukla 1-0 home Oct 25 + 2-1 away Apr 25 = 6 pts; GD would invert: -19 vs -22).
+# WALKOVER (T32, May 9): Slavia-Sparta derby abandoned in stoppage time with Slavia 3-2 up after
+#   home fans stormed the pitch; LFA awarded a 3-0 win to Sparta on May 12 (Reuters 2026-05-09 +
+#   iDNES 2026-05-12 via wiki footnote; BBC prints the fixture as "Match awarded"). Row carries the
+#   OFFICIAL awarded score 0-3 - this is the score of record used by both final tables.
+# WIKI PRINT ERRORS (play-error class, documented): Z-group matrix cells printed with unicode minus
+#   and two trailing digits ("2-20"/"0-23") for OST-ZLN, SLO-MLA, TEP-DUK; adjudicated 2-0 / 0-3 / 2-0
+#   from BBC stage-labeled rows; arithmetic closure proven vs wiki Z-group final table.
+# RSSSF PRINT ANOMALY (Zachranu final table): position numbers misprinted 13./13./15./14. for rows
+#   MlBoleslav/Slovacko/Ostrava/Dukla - correct order 11 Teplice 42, 12 Zlin 41 [P], 13 MlBoleslav 40,
+#   14 Slovacko 30 (playoff), 15 Ostrava 29 (playoff), 16 Dukla 26 (relegated).
+# MAJOR INCIDENT (RSSSF NB x2, wiki note_KAR): MFK Karvina - Evropu-final participant AND cup winner
+#   2025-26 (beat MlBoleslav 3-1 in the May 20 final) - RELEGATED for match-fixing accusations;
+#   pro/rel loser Artis Brno later PROMOTED to take Karvina's 2026-27 place; Karvina waived its
+#   Europa League play-off spot (wiki note). Pack NOTE|warning material.
+R1|2025-07-18|Pardubice|1|5|Plzen
+R1|2025-07-19|Bohemians|1|0|Ostrava
+R1|2025-07-19|Karvina|2|0|Dukla
+R1|2025-07-19|Teplice|1|3|Zlin
+R1|2025-07-19|Jablonec|1|1|Sparta
+R1|2025-07-20|Slovacko|0|1|Olomouc
+R1|2025-07-20|MlBoleslav|3|3|Liberec
+R1|2025-07-20|Slavia|2|2|Hradec
+R2|2025-07-26|Hradec|1|2|Karvina
+R2|2025-07-26|Olomouc|0|0|Dukla
+R2|2025-07-26|Plzen|1|1|Jablonec
+R2|2025-07-26|Zlin|1|1|Slovacko
+R2|2025-07-26|Bohemians|0|2|Slavia
+R2|2025-07-27|Liberec|2|1|Pardubice
+R2|2025-07-27|Sparta|3|2|MlBoleslav
+R2|2025-09-17|Ostrava|1|1|Teplice
+R3|2025-08-02|Jablonec|2|0|Hradec
+R3|2025-08-02|Karvina|0|1|Zlin
+R3|2025-08-02|Teplice|3|0|Bohemians
+R3|2025-08-02|Olomouc|2|1|Liberec
+R3|2025-08-03|Slovacko|0|1|Slavia
+R3|2025-08-03|Dukla|1|1|Ostrava
+R3|2025-08-03|Pardubice|1|3|Sparta
+R3|2025-08-19|MlBoleslav|0|5|Plzen
+R4|2025-08-09|Liberec|2|0|Dukla
+R4|2025-08-09|Plzen|1|1|Slovacko
+R4|2025-08-09|Zlin|3|2|MlBoleslav
+R4|2025-08-09|Slavia|3|0|Teplice
+R4|2025-08-10|Bohemians|0|1|Jablonec
+R4|2025-08-10|Hradec|1|1|Pardubice
+R4|2025-08-10|Ostrava|1|2|Karvina
+R4|2025-08-10|Sparta|1|0|Olomouc
+R5|2025-08-16|Dukla|2|0|Plzen
+R5|2025-08-16|MlBoleslav|3|2|Hradec
+R5|2025-08-16|Olomouc|1|0|Zlin
+R5|2025-08-16|Slovacko|2|1|Teplice
+R5|2025-08-16|Jablonec|1|1|Slavia
+R5|2025-08-17|Karvina|1|2|Bohemians
+R5|2025-08-17|Liberec|0|2|Sparta
+R5|2025-10-01|Pardubice|0|1|Ostrava
+R6|2025-08-23|Teplice|0|1|Jablonec
+R6|2025-08-23|Plzen|2|1|Karvina
+R6|2025-08-23|Zlin|1|0|Liberec
+R6|2025-08-23|Slavia|3|1|Pardubice
+R6|2025-08-24|Hradec|1|0|Olomouc
+R6|2025-08-24|Ostrava|2|0|Slovacko
+R6|2025-08-24|Sparta|3|2|Dukla
+R6|2025-10-22|Bohemians|1|1|MlBoleslav
+R7|2025-08-30|Dukla|1|1|Hradec
+R7|2025-08-30|Karvina|4|1|Teplice
+R7|2025-08-30|Pardubice|1|1|Bohemians
+R7|2025-08-30|Slovacko|0|2|Jablonec
+R7|2025-08-30|MlBoleslav|1|3|Slavia
+R7|2025-08-31|Liberec|1|1|Plzen
+R7|2025-08-31|Olomouc|1|0|Ostrava
+R7|2025-08-31|Sparta|3|1|Zlin
+R8|2025-09-13|Ostrava|0|2|Liberec
+R8|2025-09-13|Teplice|2|3|MlBoleslav
+R8|2025-09-13|Plzen|1|0|Olomouc
+R8|2025-09-13|Zlin|1|1|Dukla
+R8|2025-09-13|Slavia|3|1|Karvina
+R8|2025-09-14|Jablonec|3|2|Pardubice
+R8|2025-09-14|Bohemians|1|0|Slovacko
+R8|2025-09-14|Hradec|2|1|Sparta
+R9|2025-09-20|Karvina|1|2|Jablonec
+R9|2025-09-20|Pardubice|1|1|Slovacko
+R9|2025-09-20|Olomouc|0|0|Teplice
+R9|2025-09-20|Zlin|1|2|Hradec
+R9|2025-09-20|Sparta|2|1|Plzen
+R9|2025-09-21|Dukla|0|2|Bohemians
+R9|2025-09-21|Liberec|1|1|Slavia
+R9|2025-09-21|MlBoleslav|1|1|Ostrava
+R10|2025-09-26|Slavia|2|0|Dukla
+R10|2025-09-27|Ostrava|0|3|Sparta
+R10|2025-09-27|Bohemians|2|2|Olomouc
+R10|2025-09-27|Slovacko|1|2|Karvina
+R10|2025-09-27|Hradec|2|3|Liberec
+R10|2025-09-28|Teplice|0|0|Pardubice
+R10|2025-09-28|Jablonec|2|0|MlBoleslav
+R10|2025-09-28|Plzen|0|1|Zlin
+R11|2025-10-04|Dukla|1|3|Teplice
+R11|2025-10-04|MlBoleslav|0|0|Slovacko
+R11|2025-10-04|Pardubice|2|1|Karvina
+R11|2025-10-04|Liberec|0|0|Bohemians
+R11|2025-10-05|Zlin|1|1|Ostrava
+R11|2025-10-05|Olomouc|2|0|Jablonec
+R11|2025-10-05|Plzen|3|3|Hradec
+R11|2025-10-05|Sparta|1|1|Slavia
+R12|2025-10-18|Bohemians|0|1|Plzen
+R12|2025-10-18|Karvina|1|1|Olomouc
+R12|2025-10-18|Pardubice|2|1|MlBoleslav
+R12|2025-10-18|Teplice|1|1|Liberec
+R12|2025-10-18|Slavia|0|0|Zlin
+R12|2025-10-19|Ostrava|0|1|Hradec
+R12|2025-10-19|Slovacko|0|0|Sparta
+R12|2025-10-19|Jablonec|0|0|Dukla
+R13|2025-10-25|Dukla|1|0|Slovacko
+R13|2025-10-25|Hradec|0|0|Teplice
+R13|2025-10-25|MlBoleslav|2|4|Karvina
+R13|2025-10-25|Zlin|2|2|Pardubice
+R13|2025-10-25|Liberec|0|2|Jablonec
+R13|2025-10-26|Olomouc|0|0|Slavia
+R13|2025-10-26|Plzen|2|0|Ostrava
+R13|2025-10-28|Sparta|2|1|Bohemians
+R14|2025-11-01|Jablonec|1|3|Zlin
+R14|2025-11-01|Pardubice|1|1|Dukla
+R14|2025-11-01|Slovacko|0|3|Liberec
+R14|2025-11-01|Slavia|2|0|Ostrava
+R14|2025-11-02|MlBoleslav|1|4|Olomouc
+R14|2025-11-02|Bohemians|1|2|Hradec
+R14|2025-11-02|Karvina|2|1|Sparta
+R14|2025-11-02|Teplice|1|2|Plzen
+R15|2025-11-08|Dukla|0|1|MlBoleslav
+R15|2025-11-08|Hradec|4|0|Slovacko
+R15|2025-11-08|Zlin|0|1|Bohemians
+R15|2025-11-08|Ostrava|0|1|Jablonec
+R15|2025-11-09|Liberec|6|0|Karvina
+R15|2025-11-09|Olomouc|2|0|Pardubice
+R15|2025-11-09|Sparta|2|2|Teplice
+R15|2025-11-09|Plzen|3|5|Slavia
+R16|2025-11-22|Dukla|2|2|Olomouc
+R16|2025-11-22|MlBoleslav|1|2|Sparta
+R16|2025-11-22|Pardubice|0|4|Liberec
+R16|2025-11-22|Teplice|1|0|Ostrava
+R16|2025-11-22|Slavia|3|1|Bohemians
+R16|2025-11-23|Karvina|4|3|Hradec
+R16|2025-11-23|Jablonec|3|3|Plzen
+R16|2025-11-23|Slovacko|2|0|Zlin
+R17|2025-11-29|Ostrava|3|1|Dukla
+R17|2025-11-29|Hradec|2|0|Jablonec
+R17|2025-11-29|Zlin|1|3|Karvina
+R17|2025-11-29|Slavia|3|0|Slovacko
+R17|2025-11-30|Bohemians|0|1|Teplice
+R17|2025-11-30|Liberec|1|0|Olomouc
+R17|2025-11-30|Plzen|2|1|MlBoleslav
+R17|2025-11-30|Sparta|2|4|Pardubice
+R18|2025-12-05|Teplice|1|2|Slavia
+R18|2025-12-06|Dukla|1|1|Liberec
+R18|2025-12-06|MlBoleslav|3|1|Zlin
+R18|2025-12-06|Slovacko|3|0|Plzen
+R18|2025-12-06|Olomouc|0|1|Sparta
+R18|2025-12-07|Jablonec|1|0|Bohemians
+R18|2025-12-07|Karvina|0|0|Ostrava
+R18|2025-12-07|Pardubice|1|0|Hradec
+R19|2025-12-13|Ostrava|1|4|Pardubice
+R19|2025-12-13|Hradec|1|1|MlBoleslav
+R19|2025-12-13|Teplice|1|0|Slovacko
+R19|2025-12-13|Slavia|4|3|Jablonec
+R19|2025-12-14|Bohemians|0|3|Karvina
+R19|2025-12-14|Plzen|2|0|Dukla
+R19|2025-12-14|Zlin|5|0|Olomouc
+R19|2025-12-14|Sparta|2|2|Liberec
+R20|2026-01-31|Jablonec|1|0|Teplice
+R20|2026-01-31|MlBoleslav|2|2|Bohemians
+R20|2026-01-31|Olomouc|1|0|Hradec
+R20|2026-01-31|Dukla|0|3|Sparta
+R20|2026-02-01|Slovacko|2|2|Ostrava
+R20|2026-02-01|Karvina|0|2|Plzen
+R20|2026-02-01|Liberec|2|0|Zlin
+R20|2026-02-01|Pardubice|1|1|Slavia
+R21|2026-02-07|Ostrava|2|0|Olomouc
+R21|2026-02-07|Jablonec|0|0|Slovacko
+R21|2026-02-07|Teplice|2|0|Karvina
+R21|2026-02-07|Slavia|4|0|MlBoleslav
+R21|2026-02-08|Hradec|3|0|Dukla
+R21|2026-02-08|Bohemians|1|2|Pardubice
+R21|2026-02-08|Zlin|0|3|Sparta
+R21|2026-02-08|Plzen|3|1|Liberec
+R22|2026-02-14|Dukla|0|0|Zlin
+R22|2026-02-14|Karvina|1|3|Slavia
+R22|2026-02-14|Slovacko|1|2|Bohemians
+R22|2026-02-14|Olomouc|1|2|Plzen
+R22|2026-02-15|Pardubice|0|2|Jablonec
+R22|2026-02-15|MlBoleslav|0|0|Teplice
+R22|2026-02-15|Liberec|1|0|Ostrava
+R22|2026-02-15|Sparta|2|0|Hradec
+R23|2026-02-21|Hradec|0|0|Zlin
+R23|2026-02-21|Jablonec|1|0|Karvina
+R23|2026-02-21|Slovacko|2|0|Pardubice
+R23|2026-02-21|Slavia|1|0|Liberec
+R23|2026-02-22|Bohemians|1|0|Dukla
+R23|2026-02-22|Ostrava|0|0|MlBoleslav
+R23|2026-02-22|Teplice|1|3|Olomouc
+R23|2026-02-22|Plzen|0|0|Sparta
+R24|2026-02-27|Dukla|0|2|Slavia
+R24|2026-02-28|MlBoleslav|3|0|Jablonec
+R24|2026-02-28|Pardubice|1|1|Teplice
+R24|2026-02-28|Liberec|0|1|Hradec
+R24|2026-02-28|Sparta|5|2|Ostrava
+R24|2026-03-01|Karvina|0|2|Slovacko
+R24|2026-03-01|Zlin|3|0|Plzen
+R24|2026-03-01|Olomouc|1|0|Bohemians
+R25|2026-03-07|Bohemians|0|0|Liberec
+R25|2026-03-07|Slovacko|2|2|MlBoleslav
+R25|2026-03-07|Teplice|0|0|Dukla
+R25|2026-03-07|Jablonec|1|2|Olomouc
+R25|2026-03-08|Ostrava|6|2|Zlin
+R25|2026-03-08|Hradec|0|3|Plzen
+R25|2026-03-08|Karvina|1|2|Pardubice
+R25|2026-03-08|Slavia|3|1|Sparta
+R26|2026-03-14|Dukla|2|0|Jablonec
+R26|2026-03-14|Hradec|1|0|Ostrava
+R26|2026-03-14|MlBoleslav|2|0|Pardubice
+R26|2026-03-14|Zlin|1|3|Slavia
+R26|2026-03-15|Liberec|1|1|Teplice
+R26|2026-03-15|Olomouc|2|2|Karvina
+R26|2026-03-15|Plzen|2|0|Bohemians
+R26|2026-03-15|Sparta|5|2|Slovacko
+R27|2026-04-04|Dukla|0|2|Pardubice
+R27|2026-04-04|Olomouc|2|4|MlBoleslav
+R27|2026-04-04|Liberec|2|1|Slovacko
+R27|2026-04-04|Zlin|0|3|Jablonec
+R27|2026-04-04|Plzen|2|2|Teplice
+R27|2026-04-05|Hradec|2|0|Bohemians
+R27|2026-04-05|Ostrava|0|2|Slavia
+R27|2026-04-05|Sparta|2|0|Karvina
+R28|2026-04-11|Bohemians|2|1|Zlin
+R28|2026-04-11|Jablonec|4|1|Ostrava
+R28|2026-04-11|Slovacko|1|3|Hradec
+R28|2026-04-12|Karvina|3|1|Liberec
+R28|2026-04-12|MlBoleslav|1|1|Dukla
+R28|2026-04-12|Pardubice|2|1|Olomouc
+R28|2026-04-12|Teplice|0|1|Sparta
+R28|2026-04-12|Slavia|0|0|Plzen
+R29|2026-04-18|Ostrava|0|2|Bohemians
+R29|2026-04-18|Dukla|1|2|Karvina
+R29|2026-04-18|Liberec|0|0|MlBoleslav
+R29|2026-04-18|Zlin|3|2|Teplice
+R29|2026-04-18|Sparta|3|1|Jablonec
+R29|2026-04-19|Olomouc|2|1|Slovacko
+R29|2026-04-19|Hradec|2|1|Slavia
+R29|2026-04-19|Plzen|0|1|Pardubice
+R30|2026-04-25|Ostrava|0|1|Plzen
+R30|2026-04-25|Bohemians|2|0|Sparta
+R30|2026-04-25|Jablonec|1|2|Liberec
+R30|2026-04-25|Karvina|0|3|MlBoleslav
+R30|2026-04-25|Pardubice|3|1|Zlin
+R30|2026-04-25|Slavia|2|1|Olomouc
+R30|2026-04-25|Slovacko|1|2|Dukla
+R30|2026-04-25|Teplice|0|1|Hradec
+T31|2026-05-02|Liberec|1|2|Slavia
+T31|2026-05-03|Plzen|3|1|Hradec
+T31|2026-05-03|Sparta|2|0|Jablonec
+T32|2026-05-09|Plzen|2|0|Liberec
+T32|2026-05-09|Slavia|0|3|Sparta
+T32|2026-05-10|Jablonec|1|1|Hradec
+T33|2026-05-12|Sparta|0|0|Plzen
+T33|2026-05-13|Hradec|1|0|Liberec
+T33|2026-05-13|Slavia|5|1|Jablonec
+T34|2026-05-17|Hradec|3|1|Slavia
+T34|2026-05-17|Liberec|0|2|Sparta
+T34|2026-05-17|Plzen|5|0|Jablonec
+T35|2026-05-24|Jablonec|2|1|Liberec
+T35|2026-05-24|Slavia|3|0|Plzen
+T35|2026-05-24|Sparta|2|1|Hradec
+Z31|2026-05-02|Ostrava|0|0|MlBoleslav
+Z31|2026-05-02|Zlin|2|1|Dukla
+Z31|2026-05-03|Teplice|1|1|Slovacko
+Z32|2026-05-09|Dukla|0|1|Slovacko
+Z32|2026-05-09|MlBoleslav|1|1|Zlin
+Z32|2026-05-09|Teplice|2|1|Ostrava
+Z33|2026-05-12|MlBoleslav|1|2|Dukla
+Z33|2026-05-12|Slovacko|2|1|Ostrava
+Z33|2026-05-12|Zlin|2|4|Teplice
+Z34|2026-05-16|Ostrava|2|0|Zlin
+Z34|2026-05-16|Slovacko|0|3|MlBoleslav
+Z34|2026-05-16|Teplice|2|0|Dukla
+Z35|2026-05-23|Dukla|0|3|Ostrava
+Z35|2026-05-23|MlBoleslav|0|2|Teplice
+Z35|2026-05-23|Zlin|1|0|Slovacko
+EF1|2026-05-16|Karvina|1|3|Olomouc
+EF2|2026-05-23|Olomouc|4|0|Karvina
+ESF1|2026-05-02|Bohemians|1|3|Olomouc
+ESF1|2026-05-02|Karvina|1|2|Pardubice
+ESF2|2026-05-10|Pardubice|1|3|Karvina
+ESF2|2026-05-10|Olomouc|1|2|Bohemians
+PRO|2026-05-26|Ostrava|3|0|Taborsko
+PRO|2026-05-27|Artis Brno|1|4|Slovacko
+PRO|2026-05-30|Taborsko|0|5|Ostrava
+PRO|2026-05-31|Slovacko|3|0|Artis Brno
+# TABLE-CONSTANTS (RSSSF final tables verbatim)
+# RT|pos|club|P|W|D|L|GF|GA|Pts|note
+RT|1|Slavia|30|21|8|1|63|23|71|[C] Skupina o Titul
+RT|2|Sparta|30|19|6|5|60|33|63|
+RT|3|Plzen|30|15|8|7|50|34|53|
+RT|4|Jablonec|30|15|6|9|41|33|51|
+RT|5|Hradec|30|14|7|9|43|34|49|
+RT|6|Liberec|30|12|10|8|43|30|46|
+RT|7|Olomouc|30|12|7|11|34|34|43|Skupina o Evropu
+RT|8|Pardubice|30|11|8|11|39|46|41|
+RT|9|Karvina|30|12|3|15|43|51|39|
+RT|10|Bohemians|30|10|6|14|26|35|36|
+RT|11|MlBoleslav|30|8|11|11|44|52|35|
+RT|12|Zlin|30|9|7|14|37|48|34|[P]
+RT|13|Teplice|30|6|11|13|29|38|29|
+RT|14|Dukla|30|4|11|15|20|42|23|23-tie: hth_DUK (Dukla 6-0) per wiki; no bracket in RSSSF print
+RT|15|Slovacko|30|5|8|17|26|45|23|
+RT|16|Ostrava|30|5|7|18|25|45|22|
+# TT|pos|club|P35|W|D|L|GF|GA|Pts|note  (Titul final 35-game)
+TT|1|Slavia|35|24|8|3|74|31|80|[C] Champions
+TT|2|Sparta|35|23|7|5|69|34|76|
+TT|3|Plzen|35|18|9|8|60|38|63|
+TT|4|Hradec|35|16|8|11|50|41|56|
+TT|5|Jablonec|35|16|7|12|45|47|55|
+TT|6|Liberec|35|12|10|13|45|39|46|
+# ZT|pos|club|P35|W|D|L|GF|GA|Pts|note  (Zachranu final 35-game; RSSSF prints positions 11/12/13/13/15/14 - anomaly above)
+ZT|11|Teplice|35|10|12|13|40|42|42|
+ZT|12|Zlin|35|11|8|16|43|56|41|[P]
+ZT|13|MlBoleslav|35|9|13|13|49|57|40|
+ZT|14|Slovacko|35|7|9|19|30|51|30|Relegation Playoff (survived 7-1 agg)
+ZT|15|Ostrava|35|7|8|20|32|49|29|Relegation Playoff (survived 8-0 agg)
+ZT|16|Dukla|35|5|11|19|23|51|26|Relegated
+# EVROPU outcomes (RSSSF legs): Karvina 4-3 agg Pardubice (2nd leg aet); Olomouc 4-3 agg Bohemians
+#   (2nd leg aet); Final Olomouc 7-1 agg Karvina. Bracket corroborated by wiki s10 + BBC aggregates.
+# PROREL outcomes (RSSSF NB): all remain at former level on the field (Ostrava 8-0 agg Taborsko,
+#   Slovacko 7-1 agg Artis Brno) - Artis Brno LATER PROMOTED due to the Karvina demotion.
+#   Legs corroborated by wiki TwoLeg boxes (one-to-one score-identical, direction too).
+# PROREL opponents: FC Silon Taborsko = Narodni liga 2nd (53 pts); SK Artis Brno = Narodni 3rd
+#   (52; Lisen renamed Artis Brno 2024).

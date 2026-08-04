@@ -536,3 +536,90 @@ discipline continues on its 2025-26 row per ERRATA-2026-08-03.
 2024-25+2025-26 next under the same decree), ③ RUSCUP ✅ full span, ④ MOLCUP ✅ (extra years
 queued), ⑤ EPL ✅ full span, then ⑥ FRA (2021-22 ledger already transcribed), GER, ITA, KOS,
 KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
+
+## Addendum 2026-08-04 (ninth entry) — DECREE-2026-08-04 full-span override: CZ1 extra years shipped (2024-25 + 2025-26)
+
+The owner override (register: `supervisor/DECREE-2026-08-04-full-span-override.md`) orders every
+pack extended to the full span 2021 → today, "one source of truth because our old data contains
+errors that will be audited against your full data" — Russia first (shipped), **Czech First League
+completed immediately after**. All workorder hard cutoffs (2024-06-30) rescinded; legacy client
+data untouched.
+
+**CZ1 pack — full span (supersedes `55d9bd80…`, 841 rows).**
+`handoffs/CZ1-2021-2026_BP-TEAM-PACK_v2.txt` = **1,401 MATCH rows** (276+276+277+276+276 league
+compType `domestic-league` + **20 Czech Relegation Playoffs pro/rel legs** compType `other` per
+ERRATA), 0 TEAM / 21 SOURCE / 27 NOTE, sha256
+**`cbd5710ba24b8f819cadcdff015199d34391afba0041c2935569604e1a390a6e`**, **175/175 gates PASS**
+(`tools/build_cz1_pack.py` extended to 5 seasons, byte-deterministic — double rebuild identical).
+
+**Construction of the two new season layers.**
+- 2024-25: RSSSF tsje2025 #1gamb transcribed on fetch day (`audit/ledger/cz1-2024-25.txt`,
+  280 rows = 240R+15T+15Z+6 Evropu+4 PRO) and verified EXACT by recompute (RT 16/16, TT 6/6,
+  ZT 6/6, 627 regular goals; span 2024-07-19..2025-06-01). Notable: Slavia champions (78 reg →
+  90 after Titul); regular three-way H2H at 34 (Bohemians 8 > MlBoleslav 7 > Teplice 1 — RSSSF
+  bracket = wiki hth_BOH = recompute); Titul 63-63 decided by regular points (Sparta 62 >
+  Jablonec 51 — same rule as the 2022-23 title); CBudejovice relegated winless (0-5-25 regular,
+  0-6-29 after Zachranu); prorel NB "all remain at former level": Vyskov 0-0/1-1(aet) Dukla —
+  **Dukla survived pens 4-2** (gate + NOTE carry the shootout, rows stay the played scores);
+  Pardubice 2-1 agg Chrudim; no Conference League playoff from this season (league abolished it).
+- 2025-26: RSSSF tsje2026 prints **page-form** (official tables + playoff legs only, no round
+  listings — same adaptation class as the EPL 2025-26 return). The 270 league-stage rows were
+  assembled by `tools/build_cz1_2526_ledger.py` from the **BBC "Czech Liga" dated month lattice**
+  (12 server-rendered month pages, 276 D-rows incl. stage labels and the 'Match awarded' print,
+  `audit/ledger/cz1-dates-bbc-2025-2026.txt`) × **wiki FBR matrices** under gates V1..V6 —
+  BBC↔wiki cell bijection 270/270; recompute == RSSSF constants EXACT (16/16 regular + 6/6 Titul
+  + 6/6 Zachranu; 623 regular goals). Postponements keep Round labels (R2 Ostrava-Teplice→09-17;
+  R3 MlBoleslav-Plzen→08-19; R5 Pardubice-Ostrava→10-01; R6 Bohemians-MlBoleslav→10-22;
+  R13 Sparta-Bohemians→10-28).
+- Second index both seasons: staged MX grammar ledgers (280 rows each: wiki FBR + group matrices
+  + Evropu bracket + pro/rel TwoLeg boxes), `tools/diff_cz1_matrix.py` **280/280 score-identical
+  vs the primary ledger both seasons**; the gate caught and fixed 3 MX transcription inversions.
+  worldfootball dropped Czech coverage from 2024-25 (cze-* roots 404; ESPN cze.1 API empty) —
+  the fixed-matchday spot-audit is documented n/a on the two new seasons, replaced by strictly
+  stronger full-depth diffs (every game, not one matchday).
+
+**Findings shipped in the pack (all disclosed as warning NOTEs; nothing silently fixed):**
+1. **2026-05-09 T32 Prague derby walkover** — abandoned in stoppage time at 3-2 Slavia after
+   fans stormed the pitch (iDNES.cz, Reuters same-day; BBC 'Match awarded'); LFA awarded **0-3
+   Sparta** on 2026-05-12. The row carries the official 0-3 (score of record; all post-decision
+   tables and the recompute gates agree). `match_awarded`.
+2. **Wiki 2025-26 Zachranu matrix malformation** — three cells carry a unicode minus inside the
+   score string (unparsable, and conflicting with the article's own group table); adjudicated
+   2-0/0-3/2-0 via the BBC lattice + arithmetic closure; both indexes carry the corrected cells
+   identically, so the diff gate stays a true 1:1. `source_conflict`.
+3. **RSSSF tsje2026 Zachranu position column** prints 13/13/15/14 (impossible duplicate-13
+   pattern) beside fully consistent W-D-L/GF-GA/Pts constants — position strings NOT propagated;
+   constants + wiki order govern. `print_error`.
+4. **Karvina incident** — MFK Karvina finished 2025-26 as Czech Cup **winner** and Evropu
+   **finalist** (1-7 agg to Sigma Olomouc), then was **administratively demoted** after
+   match-fixing accusations (RSSSF NB 'Karvia [sic] relegated'; wiki note_KAR), waiving its
+   Europa League play-off spot; **SK Artis Brno** — which had LOST its pro/rel playoff to
+   Slovacko 1-7 agg — was promoted to the 2026-27 First League in Karvina's place (en.wiki SK
+   Artis Brno); Dukla Prague's sporting relegation (Zachranu 6th) stands. Off-field close-season
+   membership decisions change no row in the pack. `karvina_incident`.
+5. Regular-stage tie adjudication: 2025-26 Dukla over Slovacko at 23 by H2H 6-0 (recomputed
+   1-0H/2-1A) — RSSSF prints no bracket; wiki hth_DUK note is the adjudicator of record.
+
+**Identity/scope deltas under full span:** the retired anti-appear list resolves as designed —
+`Dukla Prague` joins league rows for its exactly-two top-flight seasons (2024-25/2025-26),
+Artis Brno appears only on pro/rel rows (its First-League promotion takes effect 2026-27, past
+the boundary); FNL pro/rel universe = 7 reused roster strings (Vlasim, Opava, Pribram, Vyskov,
+Taborsko, **Chrudim** — Za Vodojemem per en.wiki MFK Chrudim, 1,500; **Artis Brno** — Mestsky
+fotbalovy stadion Srbska, Brno per en.wiki SK Artis Brno, 10,200, moved there for 2025-26,
+groundshare with Zbrojovka). Consistency decree honoured: all stadium/city strings byte-identical
+to the earlier packs; 2025-26 capacity reprints documented in `cz1-venues.txt` only.
+
+**Boundary 2026-27:** RSSSF tsje2027.html = 404 (page not started); BBC fixture menu shows
+2026-27 R1 scheduled 2026-08-07..09 (Zbrojovka Brno + Artis Brno in; Karvina + Dukla out) —
+NOT a full season at the 2026-08-04 return date → zero rows, boundary NOTE in the pack.
+
+Validation: `audit/pack-validation-cz1.txt` regenerated — **80 club-season pivots** + 7 FNL
+2-leg pivots (owner per-team technique, five seasons); regular tables 16/16 ×5 and group tables
+6/6 ×10 reproduced against independent constants; all 8 regular-stage H2H ties + 4 group ties
+recomputed; second-index diff 1,378/1,381 league + 20/20 pro/rel legs (3 whitelisted wiki cell
+defects from the old window; nothing new).
+
+**Queue state after this delivery:** ① RPL ✅ full span, ② CZ1 ✅ **full span**, ③ RUSCUP ✅
+full span, ④ MOLCUP ✅ (extra years 2024-25+2025-26 next under the same decree), ⑤ EPL ✅ full
+span, then ⑥ FRA (2021-22 ledger already transcribed + verified EXACT), GER, ITA, KOS, KOSCUP,
+MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.

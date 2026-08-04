@@ -179,3 +179,108 @@ GTABLE|2023-24|Z|6|Zlin|35|5|12|18|40|69|27
 # https://en.wikipedia.org/wiki/2021%E2%80%9322_Czech_First_League
 # https://en.wikipedia.org/wiki/2022%E2%80%9323_Czech_First_League
 # https://en.wikipedia.org/wiki/2023%E2%80%9324_Czech_First_League
+# 2024-25 (article s5; all clubs at own stadiums; epet ARENA/Fortuna Arena era names held with 2023-24
+# strings per consistency decree; CFIG Arena second season for Pardubice)
+VENUE|2024-25|Bohemians|Dolicek|Prague|6300
+VENUE|2024-25|CBudejovice|Stadion Strelecky ostrov|Ceske Budejovice|6681
+VENUE|2024-25|Dukla|Stadion Juliska|Prague|8150
+VENUE|2024-25|Hradec|Malsovicka Arena|Hradec Kralove|9300
+VENUE|2024-25|Jablonec|Stadion Strelnice|Jablonec nad Nisou|6108
+VENUE|2024-25|Karvina|Mestsky stadion (Karvina)|Karvina|4833
+VENUE|2024-25|Liberec|Stadion u Nisy|Liberec|9900
+VENUE|2024-25|MlBoleslav|Lokotrans Arena|Mlada Boleslav|5000
+VENUE|2024-25|Olomouc|Andruv stadion|Olomouc|12474
+VENUE|2024-25|Ostrava|Mestsky stadion (Ostrava)|Ostrava|15123
+VENUE|2024-25|Pardubice|CFIG Arena|Pardubice|4620
+VENUE|2024-25|Plzen|Doosan Arena|Plzen|11700
+VENUE|2024-25|Slavia|Fortuna Arena|Prague|19370
+VENUE|2024-25|Slovacko|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|8000
+VENUE|2024-25|Sparta|epet ARENA|Prague|18944
+VENUE|2024-25|Teplice|Na Stinadlech|Teplice|18221
+# 2025-26 (article s4; Zlin back in (Letna Stadion string = 2023-24 era), CBudejovice out;
+# official capacity reprints: Jablonec 5690 (was 6108), Ostrava 15081 (was 15123), Plzen 11597
+# (was 11700), Sparta 18349 (was 18944), Teplice 17078 (was 18221) - same stadiums, season print era)
+VENUE|2025-26|Bohemians|Dolicek|Prague|6300
+VENUE|2025-26|Dukla|Stadion Juliska|Prague|8150
+VENUE|2025-26|Hradec|Malsovicka Arena|Hradec Kralove|9300
+VENUE|2025-26|Jablonec|Stadion Strelnice|Jablonec nad Nisou|5690
+VENUE|2025-26|Karvina|Mestsky stadion (Karvina)|Karvina|4833
+VENUE|2025-26|Liberec|Stadion u Nisy|Liberec|9900
+VENUE|2025-26|MlBoleslav|Lokotrans Arena|Mlada Boleslav|5000
+VENUE|2025-26|Olomouc|Andruv stadion|Olomouc|12474
+VENUE|2025-26|Ostrava|Mestsky stadion (Ostrava)|Ostrava|15081
+VENUE|2025-26|Pardubice|CFIG Arena|Pardubice|4620
+VENUE|2025-26|Plzen|Doosan Arena|Plzen|11597
+VENUE|2025-26|Slavia|Fortuna Arena|Prague|19370
+VENUE|2025-26|Slovacko|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|8000
+VENUE|2025-26|Sparta|epet ARENA|Prague|18349
+VENUE|2025-26|Teplice|Na Stinadlech|Teplice|17078
+VENUE|2025-26|Zlin|Letna Stadion|Zlin|5898
+TABLE|2024-25|1|Slavia|30|25|3|2|61|11|78|Titul
+TABLE|2024-25|2|Plzen|30|20|5|5|59|28|65|Titul
+TABLE|2024-25|3|Ostrava|30|20|4|6|52|26|64|Titul
+TABLE|2024-25|4|Sparta|30|19|5|6|56|33|62|Titul
+TABLE|2024-25|5|Jablonec|30|15|6|9|47|25|51|Titul
+TABLE|2024-25|6|Olomouc|30|12|7|11|46|41|43|Titul
+TABLE|2024-25|7|Liberec|30|11|9|10|45|31|42|Evropu
+TABLE|2024-25|8|Karvina|30|11|8|11|40|52|41|Evropu
+TABLE|2024-25|9|Hradec|30|11|7|12|33|31|40|Evropu
+TABLE|2024-25|10|Bohemians|30|8|10|12|32|42|34|Evropu; H2H mini Boh 8 > MlB 7 > Tep 1 (wiki hth_BOH)
+TABLE|2024-25|11|MlBoleslav|30|9|7|14|40|40|34|
+TABLE|2024-25|12|Teplice|30|9|7|14|32|42|34|
+TABLE|2024-25|13|Slovacko|30|7|9|14|25|51|30|Zachranu
+TABLE|2024-25|14|Dukla|30|5|9|16|23|47|24|Zachranu
+TABLE|2024-25|15|Pardubice|30|4|7|19|22|49|19|Zachranu
+TABLE|2024-25|16|CBudejovice|30|0|5|25|14|78|5|Zachranu
+TABLE|2025-26|1|Slavia|30|21|8|1|63|23|71|Titul
+TABLE|2025-26|2|Sparta|30|19|6|5|60|33|63|Titul
+TABLE|2025-26|3|Plzen|30|15|8|7|50|34|53|Titul
+TABLE|2025-26|4|Jablonec|30|15|6|9|41|33|51|Titul
+TABLE|2025-26|5|Hradec|30|14|7|9|43|34|49|Titul
+TABLE|2025-26|6|Liberec|30|12|10|8|43|30|46|Titul
+TABLE|2025-26|7|Olomouc|30|12|7|11|34|34|43|Evropu
+TABLE|2025-26|8|Pardubice|30|11|8|11|39|46|41|Evropu
+TABLE|2025-26|9|Karvina|30|12|3|15|43|51|39|Evropu
+TABLE|2025-26|10|Bohemians|30|10|6|14|26|35|36|Evropu
+TABLE|2025-26|11|MlBoleslav|30|8|11|11|44|52|35|Zachranu
+TABLE|2025-26|12|Zlin|30|9|7|14|37|48|34|Zachranu
+TABLE|2025-26|13|Teplice|30|6|11|13|29|38|29|Zachranu
+TABLE|2025-26|14|Dukla|30|4|11|15|20|42|23|Zachranu; H2H over Slovacko (hth_DUK: Dukla 6 Slovacko 0)
+TABLE|2025-26|15|Slovacko|30|5|8|17|26|45|23|Zachranu
+TABLE|2025-26|16|Ostrava|30|5|7|18|25|45|22|Zachranu
+# GTABLE constants 2024-25: wiki article "2024-25 Czech First League" (pageid 76466232), wikitext
+# fetched 2026-08-04 - s11 Championship group + s13 Relegation group end-tables (combined 35-game
+# records). Titul 63-pt tie Sparta over Jablonec = regular-season points 62>51 (RSSSF NB; wiki class_rules).
+GTABLE|2024-25|T|1|Slavia|35|29|3|3|77|18|90
+GTABLE|2024-25|T|2|Plzen|35|23|5|7|71|36|74
+GTABLE|2024-25|T|3|Ostrava|35|22|5|8|58|34|71
+GTABLE|2024-25|T|4|Sparta|35|19|6|10|61|44|63
+GTABLE|2024-25|T|5|Jablonec|35|19|6|10|60|33|63
+GTABLE|2024-25|T|6|Olomouc|35|12|9|14|48|53|45
+GTABLE|2024-25|Z|1|Teplice|35|12|8|15|41|45|44
+GTABLE|2024-25|Z|2|MlBoleslav|35|11|8|16|48|48|41
+GTABLE|2024-25|Z|3|Slovacko|35|9|11|15|31|56|38
+GTABLE|2024-25|Z|4|Dukla|35|8|10|17|34|55|34
+GTABLE|2024-25|Z|5|Pardubice|35|6|7|22|25|56|25
+GTABLE|2024-25|Z|6|CBudejovice|35|0|6|29|16|86|6
+# GTABLE constants 2025-26: wiki article "2025-26 Czech First League" (pageid 79976646), wikitext
+# fetched 2026-08-04 - s9 Championship group + s11 Relegation group end-tables (combined 35-game
+# records). T32 Slavia-Sparta counted as the OFFICIAL awarded 0-3 (LFA decision 2026-05-12); the
+# RSSSF Zachranu position prints 13/13/15/14 are a misprint (see pack print_error NOTE) - the wiki
+# positions below are the consistent ones. No group-internal ties (80>76>63>56>55>46; 42>41>40>30>29>26).
+GTABLE|2025-26|T|1|Slavia|35|24|8|3|74|31|80
+GTABLE|2025-26|T|2|Sparta|35|23|7|5|69|34|76
+GTABLE|2025-26|T|3|Plzen|35|18|9|8|60|38|63
+GTABLE|2025-26|T|4|Hradec|35|16|8|11|50|41|56
+GTABLE|2025-26|T|5|Jablonec|35|16|7|12|45|47|55
+GTABLE|2025-26|T|6|Liberec|35|12|10|13|45|39|46
+GTABLE|2025-26|Z|1|Teplice|35|10|12|13|40|42|42
+GTABLE|2025-26|Z|2|Zlin|35|11|8|16|43|56|41
+GTABLE|2025-26|Z|3|MlBoleslav|35|9|13|13|49|57|40
+GTABLE|2025-26|Z|4|Slovacko|35|7|9|19|30|51|30
+GTABLE|2025-26|Z|5|Ostrava|35|7|8|20|32|49|29
+GTABLE|2025-26|Z|6|Dukla|35|5|11|19|23|51|26
+# BOUNDARY 2026-27 (fetched 2026-08-04): RSSSF tsje2027.html returns 404 - 2026-27 page not started
+# at return date. BBC fixture menu shows 2026-27 R1 scheduled Aug 7-9 (Zbrojovka Brno + Artis Brno in;
+# Karvina demoted, Dukla relegated - membership as documented in 2025-26 ledger) - NOT a full season
+# -> zero rows, boundary NOTE in the pack per DECREE-2026-08-04.
