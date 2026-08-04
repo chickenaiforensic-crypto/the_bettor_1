@@ -10,6 +10,25 @@
 #   tagged Saransk on R2/R4 (stadium renovation, same NB as league); Arsenal Tula home ties staged in Khimki
 #   (page tags 'Himki' on both legs of their run: QF p1 [Nov 26] and p2 [Mar 5]). stadium="" rows wiki-fill at build.
 # --- RPL PATH GROUPS, 2025 ---
+# --- WIKI+RFS SECOND-INDEX SWEEP 2026-08-04 (decode 2) ---
+# ADJUDICATION source_conflict row: QF-Reg p1 Arsenal Tula-Rubin Kazan. RSSSF cupdet printed it staged in Khimki on
+#   Nov 26; TWO independent indexes - RFS official match page rfs.ru/cup/tournament/match/56055 ('25 noyabrya 2025,
+#   stadion Arsenal (Tula), att 6,717') and the wiki match box (Arsenal Stadium, Tula, att 6,717) - agree against it:
+#   row moved to 2025-11-25, venue Arsenal Stadium|Tula (= Arsenal's own ground; nearby Torpedo-Baltika the same evening
+#   WAS at Arena Khimki per RFS 56056 + wiki - RSSSF apparently carried the Khimki tag onto the Arsenal line).
+#   NOTE: Arsenal-Lokomotiv QF-Reg p2 2026-03-05 DID take place at Arena Khimki (RFS 56059 + wiki, att 2,464) - staging
+#   real for that later tie only. Venue fills from RFS official pages: Torpedo QF-Reg p1 -> Arena Khimki|Khimki (att 852);
+#   Neftekhimik -> Neftekhimik Stadium|Nizhnekamsk (att 1,713, cap 3,046); KAMAZ -> KAMAZ Stadium|Naberezhnye Chelny
+#   (att 4,489, cap 6,200). All three dates match the ledger as transcribed.
+# PRINT-ERROR cells (group tables) now corroborated by wiki season tables (RFU-sourced): group-A Akhmat line correct =
+#   1-0-1-4 8-10 pts 4 (wiki exact; RSSSF printed 1-0-1-3 7-8 - W/WP/LP/L cells sum to 5 games, impossible in a 6-game
+#   group; earlier header claim 'W/L reproduce' corrected hereby); group-D Lokomotiv GA correct = 4 (wiki 10-4 exact;
+#   RSSSF printed GA 2). 2024-25-style balance proof stands; pack rows unaffected (results, not tables, are carried).
+# Match-for-match wiki/RFS sweep: ALL 76 rows identical (dates, 90-min scores, pens, venues, attendances sampled:
+#   QF att 31,019 Spartak-Loko / 20,170 Loko-Spartak / 27,186 Zenit-DMs; minor final 38,911; Superfinal Luzhniki
+#   72,978 ref Tanashev; group venue era prints Ozon Arena/Lukoil/RZD-to-Russian Railways/Anzhi/Akhmat/Fisht/Gazovik/
+#   Rostech/Solidarnost/Mordovia Saransk/Nizhny Novgorod all consistent). Pari NN Saransk NB confirmed by RFU decision
+#   notes in the same article (bureau paragraph 7.9).
 2025-07-29|Group-B R1|Dynamo Moscow|3|2|PFC Sochi|||VTB Arena|Moscow
 2025-07-29|Group-B R1|FC Krasnodar|1|2|Krylia Sovetov Samara|||Ozon Arena|Krasnodar
 2025-07-29|Group-D R1|Akron Tolyatti|2|1|Baltika Kaliningrad|||Solidarnost Samara Arena|Samara
@@ -83,10 +102,10 @@
 2025-11-26|QF-RPL leg2|Lokomotiv Moscow|2|3|Spartak Moscow|||Russian Railways Arena|Moscow
 2025-11-27|QF-RPL leg2|Dynamo Moscow|0|1|Zenit St Petersburg|||VTB Arena|Moscow
 # --- Regions-path QF p1 (group 3rds at D2 hosts) ---
-2025-11-25|QF-Reg p1|Torpedo Moscow|0|2|Baltika Kaliningrad||||
-2025-11-26|QF-Reg p1|Arsenal Tula|0|0|Rubin Kazan|3|2|Arena Khimki|Khimki
-2025-11-26|QF-Reg p1|Neftekhimik Nizhnekamsk|1|3|FC Rostov||||
-2025-11-27|QF-Reg p1|KAMAZ|1|1|Krylia Sovetov Samara|2|4||
+2025-11-25|QF-Reg p1|Torpedo Moscow|0|2|Baltika Kaliningrad|||Arena Khimki|Khimki
+2025-11-25|QF-Reg p1|Arsenal Tula|0|0|Rubin Kazan|3|2|Arsenal Stadium|Tula
+2025-11-26|QF-Reg p1|Neftekhimik Nizhnekamsk|1|3|FC Rostov|||Neftekhimik Stadium|Nizhnekamsk
+2025-11-27|QF-Reg p1|KAMAZ|1|1|Krylia Sovetov Samara|2|4|KAMAZ Stadium|Naberezhnye Chelny
 # --- Regions-path QF p2 (p1 winners vs RPL-QF losers) ---
 2026-03-03|QF-Reg p2|Baltika Kaliningrad|0|1|Zenit St Petersburg|||Rostech Arena|Kaliningrad
 2026-03-04|QF-Reg p2|Krylia Sovetov Samara|2|0|FC Orenburg|||Solidarnost Samara Arena|Samara

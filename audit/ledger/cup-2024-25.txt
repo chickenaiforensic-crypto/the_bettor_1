@@ -6,23 +6,34 @@
 #   SUPERFINAL = major winner vs minor winner (the cup title). CSKA won the Superfinal -> Russian Cup 2024/25 champion = CSKA Moscow.
 # venues: printed cupdet strings used where fetched (noted); era-name rows pending the wiki season venue table are stadium="" city="" and get filled at build time (no guessing): Spartak + Krasnodar home era names 2024-25, Dinamo Mh Kaspiysk ground, Minor Final ground.
 # --- RPL PATH GROUPS, 2024 ---
+# --- WIKI+RFS SECOND-INDEX SWEEP 2026-08-04 (decode 2): every previously blank venue cell now filled from per-match wiki
+# box prints / RFS official pages (Lukoil Arena Krasnodar-era names: Krasnodar Stadium in 2024-25 - Ozon Arena rename is
+# 2025-26; Lokomotiv ties printed RZD Arena/RZhD Arena by wiki, Russian Railways Arena by RSSSF - same ground, pack-era
+# string policy documented in the pack venue NOTE; Final-Minor venue per RFS official match 54958: Lukoil Arena att 36,085).
+# Match-for-match sweep result: ALL 76 rows identical (dates, 90-min scores, pens incl group shootouts 4-2 CSKA-PariNN,
+#   5-4 Akron-Zenit, 3-5 DMh-DMs, 5-3 Krylja-DMh, 8-7 Khimki-Rostov, 7-8 Rostov-Loko; bracket aggregates + Superfinal).
+# PRINT-ERROR cell corroborated: group-A Dynamo Moscow pts = 11 (wiki/RFU+Soccerway table exact; RSSSF printed 8; W3 WP1
+#   L2 -> 11; also wiki prints DMh line 2-0-2-2 8-8 pts 8 and Krylja 0-1-0-5 8-22 pts 2 matching the ledger), and groups
+#   B (Loko 17 / Rostov 11 / Khimki 5 / Orenburg 3) + D (Zenit 16 / Rubin 9 / Akron 8 / Fakel 3) reproduce EXACTLY. Group
+#   C not re-tabulated here but every C-cell score in the wiki mini-matrix matches the ledger rows (CSKA 14 / Akhmat 9 /
+#   Krasnodar 9 / PariNN 4 per RSSSF, H2H Akhmat over Krasnodar documented by 1-0 H + 0-4 A... see pack NOTE).
 2024-07-30|Group-B R1|Lokomotiv Moscow|1|0|FC Rostov|||Russian Railways Arena|Moscow
 2024-07-30|Group-D R1|Rubin Kazan|4|0|Akron Tolyatti|||Ak Bars Arena|Kazan
 2024-07-30|Group-D R1|Zenit St Petersburg|3|0|Fakel Voronezh|||Gazprom Arena|St Petersburg
-2024-07-31|Group-A R1|Spartak Moscow|3|0|Dynamo Moscow||||
+2024-07-31|Group-A R1|Spartak Moscow|3|0|Dynamo Moscow|||Lukoil Arena|Moscow
 2024-07-31|Group-B R1|FC Khimki|1|0|FC Orenburg|||Arena Khimki|Khimki
 2024-07-31|Group-C R1|Akhmat Grozny|4|1|Pari Nizhny Novgorod|||Akhmat Arena|Grozny
-2024-07-31|Group-C R1|FC Krasnodar|1|0|CSKA Moscow||||
-2024-08-01|Group-A R1|Dynamo Makhachkala|1|0|Krylia Sovetov Samara||||
+2024-07-31|Group-C R1|FC Krasnodar|1|0|CSKA Moscow|||Krasnodar Stadium|Krasnodar
+2024-08-01|Group-A R1|Dynamo Makhachkala|1|0|Krylia Sovetov Samara|||Anzhi Arena|Kaspiysk
 2024-08-13|Group-B R2|FC Orenburg|2|3|Lokomotiv Moscow|||Gazovik Stadium|Orenburg
 2024-08-13|Group-B R2|FC Rostov|3|1|FC Khimki|||Rostov Arena|Rostov-on-Don
 2024-08-14|Group-A R2|Krylia Sovetov Samara|0|3|Spartak Moscow|||Solidarnost Samara Arena|Samara
 2024-08-14|Group-A R2|Dynamo Moscow|2|1|Dynamo Makhachkala|||VTB Arena|Moscow
 2024-08-14|Group-C R2|CSKA Moscow|1|1|Pari Nizhny Novgorod|4|2|VEB Arena|Moscow
 2024-08-14|Group-D R2|Rubin Kazan|0|1|Zenit St Petersburg|||Ak Bars Arena|Kazan
-2024-08-15|Group-C R2|FC Krasnodar|1|0|Akhmat Grozny||||
+2024-08-15|Group-C R2|FC Krasnodar|1|0|Akhmat Grozny|||Krasnodar Stadium|Krasnodar
 2024-08-15|Group-D R2|Fakel Voronezh|1|2|Akron Tolyatti|||Fakel Stadium|Voronezh
-2024-08-27|Group-A R3|Spartak Moscow|0|1|Dynamo Makhachkala||||
+2024-08-27|Group-A R3|Spartak Moscow|0|1|Dynamo Makhachkala|||Lukoil Arena|Moscow
 2024-08-27|Group-C R3|Akhmat Grozny|0|2|CSKA Moscow|||Akhmat Arena|Grozny
 2024-08-27|Group-D R3|Akron Tolyatti|1|1|Zenit St Petersburg|5|4|Solidarnost Samara Arena|Samara
 2024-08-27|Group-D R3|Fakel Voronezh|0|2|Rubin Kazan|||Fakel Stadium|Voronezh
@@ -35,7 +46,7 @@
 2024-09-18|Group-B R4|FC Rostov|3|1|FC Orenburg|||Rostov Arena|Rostov-on-Don
 2024-09-18|Group-C R4|CSKA Moscow|2|0|FC Krasnodar|||VEB Arena|Moscow
 2024-09-18|Group-D R4|Akron Tolyatti|2|0|Fakel Voronezh|||Solidarnost Samara Arena|Samara
-2024-09-19|Group-A R4|Spartak Moscow|4|1|Krylia Sovetov Samara||||
+2024-09-19|Group-A R4|Spartak Moscow|4|1|Krylia Sovetov Samara|||Lukoil Arena|Moscow
 2024-09-19|Group-B R4|FC Khimki|1|5|Lokomotiv Moscow|||Arena Khimki|Khimki
 2024-09-19|Group-C R4|Pari Nizhny Novgorod|1|2|Akhmat Grozny|||Nizhny Novgorod Stadium|Nizhny Novgorod
 2024-10-01|Group-B R5|Lokomotiv Moscow|2|1|FC Orenburg|||Russian Railways Arena|Moscow
@@ -46,12 +57,12 @@
 2024-10-02|Group-B R5|FC Khimki|2|2|FC Rostov|8|7|Arena Khimki|Khimki
 2024-10-02|Group-C R5|Akhmat Grozny|3|0|FC Krasnodar|||Akhmat Arena|Grozny
 2024-10-02|Group-D R5|Zenit St Petersburg|5|1|Akron Tolyatti|||Gazprom Arena|St Petersburg
-2024-10-22|Group-A R6|Dynamo Makhachkala|0|1|Spartak Moscow||||
+2024-10-22|Group-A R6|Dynamo Makhachkala|0|1|Spartak Moscow|||Anzhi Arena|Kaspiysk
 2024-10-22|Group-C R6|CSKA Moscow|1|0|Akhmat Grozny|||VEB Arena|Moscow
 2024-10-22|Group-D R6|Fakel Voronezh|0|1|Zenit St Petersburg|||Fakel Stadium|Voronezh
 2024-10-23|Group-B R6|FC Rostov|2|2|Lokomotiv Moscow|7|8|Rostov Arena|Rostov-on-Don
 2024-10-23|Group-B R6|FC Orenburg|2|0|FC Khimki|||Gazovik Stadium|Orenburg
-2024-10-23|Group-C R6|FC Krasnodar|1|2|Pari Nizhny Novgorod||||
+2024-10-23|Group-C R6|FC Krasnodar|1|2|Pari Nizhny Novgorod|||Krasnodar Stadium|Krasnodar
 2024-10-23|Group-D R6|Akron Tolyatti|0|1|Rubin Kazan|||Solidarnost Samara Arena|Samara
 2024-10-24|Group-A R6|Krylia Sovetov Samara|3|6|Dynamo Moscow|||Solidarnost Samara Arena|Samara
 # --- GROUP TABLES (RSSSF): pos club M W WP LP L GF-GA pts [H2H bracket] ---
@@ -66,7 +77,7 @@
 #   the misprint 8. Position outcome (2nd, Major QF berth) is unaffected: 11>8 outright, and history confirms the
 #   Major QF was played. Second index (wiki 2024-25 Russian Cup group table) to corroborate pts 11.
 # --- KNOCKOUT STAGE ---
-2024-11-05|QF-Major leg1|Spartak Moscow|0|1|FC Rostov||||
+2024-11-05|QF-Major leg1|Spartak Moscow|0|1|FC Rostov|||Lukoil Arena|Moscow
 2024-11-05|QF-Major leg1|Dynamo Moscow|1|2|Lokomotiv Moscow|||VTB Arena|Moscow
 2024-11-06|QF-Major leg1|Rubin Kazan|0|0|CSKA Moscow|||Ak Bars Arena|Kazan
 2024-11-06|QF-Major leg1|Zenit St Petersburg|3|0|Akhmat Grozny|||Gazprom Arena|St Petersburg
@@ -78,21 +89,21 @@
 2024-11-26|QF-Minor p1|Shinnik Yaroslavl|0|1|Akron Tolyatti|||Shinnik Stadium|Yaroslavl
 2024-11-27|QF-Minor p1|PFC Sochi|1|1|Dynamo Makhachkala|3|4|Fisht Stadium|Sochi
 2024-11-27|QF-Minor p1|Ural Yekaterinburg|1|1|FC Khimki|4|3|Yekaterinburg Arena|Yekaterinburg
-2025-03-11|QF-Minor p2|FC Krasnodar|1|2|Akhmat Grozny||||
-2025-03-11|QF-Minor p2|Dynamo Makhachkala|1|2|Lokomotiv Moscow||||
+2025-03-11|QF-Minor p2|FC Krasnodar|1|2|Akhmat Grozny|||Krasnodar Stadium|Krasnodar
+2025-03-11|QF-Minor p2|Dynamo Makhachkala|1|2|Lokomotiv Moscow|||Anzhi Arena|Kaspiysk
 2025-03-12|QF-Minor p2|Ural Yekaterinburg|1|0|Rubin Kazan|||Yekaterinburg Arena|Yekaterinburg
 2025-03-12|QF-Minor p2|Akron Tolyatti|2|3|Spartak Moscow|||Solidarnost Samara Arena|Samara
 2025-03-12|SF-Major leg1|FC Rostov|0|1|Zenit St Petersburg|||Rostov Arena|Rostov-on-Don
 2025-03-12|SF-Major leg1|CSKA Moscow|2|1|Dynamo Moscow|||VEB Arena|Moscow
 2025-04-15|SF-Minor p1|Lokomotiv Moscow|2|1|Akhmat Grozny|||Russian Railways Arena|Moscow
-2025-04-15|SF-Minor p1|Spartak Moscow|3|0|Ural Yekaterinburg||||
+2025-04-15|SF-Minor p1|Spartak Moscow|3|0|Ural Yekaterinburg|||Lukoil Arena|Moscow
 2025-04-16|SF-Major leg2|Zenit St Petersburg|2|0|FC Rostov|||Gazprom Arena|St Petersburg
 2025-04-16|SF-Major leg2|Dynamo Moscow|0|0|CSKA Moscow|||VTB Arena|Moscow
-2025-04-29|SF-Minor p2|Spartak Moscow|2|1|Dynamo Moscow||||
+2025-04-29|SF-Minor p2|Spartak Moscow|2|1|Dynamo Moscow|||Lukoil Arena|Moscow
 2025-04-30|SF-Minor p2|Lokomotiv Moscow|0|2|FC Rostov|||Russian Railways Arena|Moscow
 2025-04-30|Final-Major leg1|Zenit St Petersburg|2|0|CSKA Moscow|||Gazprom Arena|St Petersburg
 2025-05-14|Final-Major leg2|CSKA Moscow|2|0|Zenit St Petersburg|4|3|VEB Arena|Moscow
-2025-05-15|Final-Minor|Spartak Moscow|1|2|FC Rostov||||
+2025-05-15|Final-Minor|Spartak Moscow|1|2|FC Rostov|||Lukoil Arena|Moscow
 2025-06-01|Superfinal|FC Rostov|0|0|CSKA Moscow|3|4|Luzhniki Stadium|Moscow
 # --- BRACKET SUMMARY (RSSSF compact prints, aggregates) ---
 # Major QF: Spartak 1-3 Rostov; Dynamo Ms 2-2 Lokomotiv (Dynamo Ms pens 4-3); Rubin 0-3 CSKA; Zenit 5-1 Akhmat
