@@ -16,8 +16,10 @@
 #  (d) Deductions (official NB): Nice -1 (incidents round 3), Lyon -1 (incidents round 14) —
 #      applied by the table gate like the EPL 2023-24 PSR cases.
 #  (e) Pro/rel playoff (1st/2nd level) exists in the record (Auxerre 1-1/1-1 aet 5-4p Saint-Etienne)
-#      => Auxerre promoted + Saint-Etienne relegated for 2022-23; NOT commissioned by WO-FRA
-#      section-1 (league rows only) — context line only, zero pro/rel rows emitted.
+#      => Auxerre promoted + Saint-Etienne relegated for 2022-23. ERRATUM 2026-08-04: an earlier
+#      note treated these legs as "not commissioned"; ERRATA-2026-08-03 + the DECREE-2026-08-04
+#      override rule them IN - legs touching the top flight SHIP as compType other (like RPL/CZ1);
+#      L2-internal rounds stay NOT-COMMISSIONED context. Formal PO_PLAYOFF lines appended at tail.
 # ===== RSSSF FINAL TABLE (verbatim constants; dedupe-relevant NB kept)
 TABLE|2021-22|1|ParisSG|38|26|8|4|90|36|86|Champions
 TABLE|2021-22|2|Marseille|38|21|8|9|63|38|71|
@@ -419,3 +421,11 @@ R38|2022-05-21|ParisSG|5|0|Metz
 R38|2022-05-21|Lens|2|2|Monaco
 R38|2022-05-21|Brest|2|4|Bordeaux
 R38|2022-05-21|Reims|2|3|Nice
+
+## PO_PLAYOFF (90-minute doctrine; source rsssf-fran2022 playoff block transcribed/verified 2026-08-04;
+#  leg2 aet 1-1 after a goalless ET => the 90-minute row is the printed 1-1; wiki 2021-22 box cross-check
+#  recorded in the pack NOTE set)
+PO_PLAYOFF|2021-22|L2R1|2022-05-17|ParisFC|1|2|Sochaux||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2021-22|L2R2|2022-05-20|Auxerre|0|0|Sochaux|aet 5-4 pen|NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2021-22|Final-1|2022-05-26|Auxerre|1|1|SaintEtienne||SHIP-as-other
+PO_PLAYOFF|2021-22|Final-2|2022-05-29|SaintEtienne|1|1|Auxerre|aet 4-5 pen|SHIP-as-other|NB Auxerre promoted, Saint-Etienne relegated

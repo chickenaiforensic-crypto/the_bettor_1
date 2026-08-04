@@ -1,0 +1,3641 @@
+FRA PACK VALIDATION - handoffs/FRA-2021-2026_BP-TEAM-PACK_v2.txt
+builder tools/build_fra_pack.py, run 2026-08-04; gates PASS 85 FAIL 0
+order: section A = gate ledger; section B = per-club full-campaign pivots (owner decree).
+
+== SECTION A: GATES ==
+PASS 2021-22: 380 rows (got 380)
+PASS 2021-22: 20 TABLE constants (got 20)
+PASS 2021-22: rounds 1..38 x 10 rows
+PASS 2021-22: 380 distinct ordered (home,away) pairings
+PASS 2021-22: every club 19 home + 19 away
+PASS 2021-22: rows date-sortable
+PASS 2021-22: table reproduction club-for-club 20/20 (P/W/D/L/GF/GA/Pts, deductions {'Nice': 1, 'Lyon': 1}) fails=-
+PASS 2021-22: final-table position order consistent (pts/GD/GF with Ligue 1 H2H exceptions verified from the pack rows) inversions=-
+PASS 2021-22: 20 member clubs, every roster string in WO section-3 domain
+PASS 2021-22: anchors 380 rows / 1067 goals / span 2021-08-06..2022-05-21 (got 380/1067/2021-08-06..2022-05-21)
+PASS 2022-23: 380 rows (got 380)
+PASS 2022-23: 20 TABLE constants (got 20)
+PASS 2022-23: rounds 1..38 x 10 rows
+PASS 2022-23: 380 distinct ordered (home,away) pairings
+PASS 2022-23: every club 19 home + 19 away
+PASS 2022-23: rows date-sortable
+PASS 2022-23: table reproduction club-for-club 20/20 (P/W/D/L/GF/GA/Pts) fails=-
+PASS 2022-23: final-table position order consistent (pts/GD/GF with Ligue 1 H2H exceptions verified from the pack rows) inversions=-
+PASS 2022-23: 20 member clubs, every roster string in WO section-3 domain
+PASS 2022-23: anchors 380 rows / 1067 goals / span 2022-08-05..2023-06-03 (got 380/1067/2022-08-05..2023-06-03)
+PASS 2023-24: 306 rows (got 306)
+PASS 2023-24: 18 TABLE constants (got 18)
+PASS 2023-24: rounds 1..34 x 9 rows
+PASS 2023-24: 306 distinct ordered (home,away) pairings
+PASS 2023-24: every club 17 home + 17 away
+PASS 2023-24: rows date-sortable
+PASS 2023-24: table reproduction club-for-club 18/18 (P/W/D/L/GF/GA/Pts, deductions {'Montpellier': 1}) fails=-
+PASS 2023-24: final-table position order consistent (pts/GD/GF with Ligue 1 H2H exceptions verified from the pack rows) inversions=-
+PASS 2023-24: 18 member clubs, every roster string in WO section-3 domain
+PASS 2023-24: anchors 306 rows / 826 goals / span 2023-08-11..2024-05-19 (got 306/826/2023-08-11..2024-05-19)
+PASS 2024-25: 306 rows (got 306)
+PASS 2024-25: 18 TABLE constants (got 18)
+PASS 2024-25: rounds 1..34 x 9 rows
+PASS 2024-25: 306 distinct ordered (home,away) pairings
+PASS 2024-25: every club 17 home + 17 away
+PASS 2024-25: rows date-sortable
+PASS 2024-25: table reproduction club-for-club 18/18 (P/W/D/L/GF/GA/Pts) fails=-
+PASS 2024-25: final-table position order consistent (pts/GD/GF with Ligue 1 H2H exceptions verified from the pack rows) inversions=-
+PASS 2024-25: 18 member clubs, every roster string in WO section-3 domain
+PASS 2024-25: anchors 306 rows / 911 goals / span 2024-08-16..2025-05-17 (got 306/911/2024-08-16..2025-05-17)
+PASS 2025-26: 306 rows (got 306)
+PASS 2025-26: 18 TABLE constants (got 18)
+PASS 2025-26: rounds 1..34 x 9 rows
+PASS 2025-26: 306 distinct ordered (home,away) pairings
+PASS 2025-26: every club 17 home + 17 away
+PASS 2025-26: rows date-sortable
+PASS 2025-26: table reproduction club-for-club 18/18 (P/W/D/L/GF/GA/Pts) fails=-
+PASS 2025-26: final-table position order consistent (pts/GD/GF with Ligue 1 H2H exceptions verified from the pack rows) inversions=-
+PASS 2025-26: 18 member clubs, every roster string in WO section-3 domain
+PASS 2025-26: anchors 306 rows / 863 goals / span 2025-08-15..2026-05-17 (got 306/863/2025-08-15..2026-05-17)
+PASS boundary 2021-22->2022-23: relegated ['Bordeaux', 'Metz', 'SaintEtienne'] absent in 2022-23; promoted ['Ajaccio', 'Auxerre', 'Toulouse'] present (and absent in 2021-22); memberships verified
+PASS boundary 2022-23->2023-24: relegated ['Ajaccio', 'Angers', 'Auxerre', 'Troyes'] absent in 2023-24; promoted ['LeHavre', 'Metz'] present (and absent in 2022-23); memberships verified
+PASS boundary 2023-24->2024-25: relegated ['Clermont', 'Lorient', 'Metz'] absent in 2024-25; promoted ['Angers', 'Auxerre', 'SaintEtienne'] present (and absent in 2023-24); memberships verified
+PASS boundary 2024-25->2025-26: relegated ['Montpellier', 'Reims', 'SaintEtienne'] absent in 2025-26; promoted ['Lorient', 'Metz', 'ParisFC'] present (and absent in 2024-25); memberships verified
+PASS playoffs: 8 SHIP-as-other legs (2 each of 2021-22/2023-24/2024-25/2025-26) + 8 NOT-COMMISSIONED L2-internal lines (got 8/8)
+PASS playoffs: every SHIP leg's ledger print matches the curated row (aet leg finals match the RSSSF prints; 90-minute scores ship per doctrine)
+PASS pack: 1,686 MATCH rows total = 1,678 league + 8 playoff (got 1686)
+PASS pack: zero duplicate (date,home,away) rows
+PASS pack: union of clubs across 5 seasons + playoffs = 25 of the 26 WO section-3 strings (Dijon pinned by the WO but never in-window - last top-flight season 2020-21, documented not a gap; got 25)
+PASS pack: every home/away string verbatim in the roster domain (bad=-)
+PASS pack: anti-appear traps absent from home/away identity fields (PSG / Saint-Etienne with hyphen / Paris Saint-Germain / full club-name forms; the city field's 'Saint-Etienne' is sourced venue prose, not an identity) hits=0
+PASS 2ndidx 2021-22: 380/380 pairings IDENTICAL round+date+score vs openfootball (same=380 miss=0 divergent=0)
+PASS 2ndidx 2022-23: 380/380 pairings IDENTICAL round+date+score vs openfootball (same=380 miss=0 divergent=0)
+PASS 2ndidx 2023-24: 306/306 pairings IDENTICAL round+date+score vs openfootball (same=306 miss=0 divergent=0)
+PASS 2ndidx 2024-25: 306/306 pairings IDENTICAL round+date+score vs openfootball (same=306 miss=0 divergent=0)
+PASS 2ndidx 2025-26: Wikipedia FBR matrix 306 cells - 305 IDENTICAL scores + exactly the one documented wiki typo (Brest-Lens 3-0 print vs 3-3 everywhere else incl. the season table); matrix goals 860 vs carrier 863 (same=305 miss=0 divergent=1 mxgoals=860)
+PASS anomaly 2021-22 R3: no Nice-Marseille row on 2021-08-22 (abandoned 75' at 1-0, VOID); full replay 2021-10-27 Nice 1-1 Marseille carries the R3 label
+PASS anomaly 2021-22 R14: no Lyon-Marseille row on 2021-11-21 (abandoned 5' at 0-0, VOID); full replay 2022-02-01 Lyon 2-1 Marseille carries the R14 label
+PASS anomaly 2022-23 R2: Lorient-Lyon dated 2022-09-07 (RSSSF '[Aug 14]' misprint overridden on two independent indexes)
+PASS anomaly 2023-24 R8: no Montpellier-Clermont row on 2023-10-08 (abandoned 90+2' at 4-2, VOID + Montpellier -1); closed-doors replay 2023-11-29 Montpellier 1-1 Clermont carries R8
+PASS anomaly 2024-25 R9: Rennes-Le Havre dated 2024-10-25 (RSSSF '[Oct 26]' misprint overridden on two independent indexes)
+PASS anomaly 2024-25 R26: Montpellier 0-2 St Etienne row SHIPS normally - abandoned 62' but the result STOOD (openfootball prints '[awarded]'), no VOID, no replay
+PASS anomaly 2025-26 MD5: 9 rows = 8 main-window (2025-09-19..21) + Marseille 1-0 Paris SG storm-postponed to Monday 2025-09-22
+PASS anomaly 2025-26 MD26: 9 rows = 8 main-window (2026-03-13..15, wf-md26 corroborated) + Paris SG 3-0 Nantes postponed to 2026-04-22 (wf-md26 corroborated)
+PASS anomaly 2025-26 MD29: 9 rows = 7 main-window (2026-04-10..12) + Brest-Strasbourg and Lens-Paris SG (the title decider) both on 2026-05-13
+PASS anomaly 2025-26 MD34: Nantes 0-0 Toulouse row SHIPS - abandoned 22' (pitch invasion) with the score UPHELD by the LFP (wiki efn), no replay
+PASS venues: all 1,686 rows carry stadium/city constants (94 venue rows in fra-venues.txt = 5 seasons x membership; playoff legs use the curated home-club grounds incl. the documented fallback seasons); empties=0
+PASS pivots: 94/94 club-season full-campaign pivots reproduce the final-table lines (38 or 34 games each, deductions flagged)
+PASS grammar: every MATCH line has 14 pipe-fields (incl. empty pre-source field)
+PASS grammar: competition/compType/country constants per row class (league rows: 'France Ligue 1'/'domestic-league'; playoff legs: 'France Relegation Playoffs'/'other'; country France everywhere - AS Monaco is the French league's cross-border member, disclosed under venue_policy)
+PASS grammar: every row's sourceLabel resolves to a declared SOURCE
+PASS grammar: ASCII-only pack rows (venue/team strings NFKD-folded - Velodrome, Oceane, Abbe, Decines; apostrophes typewriter)
+PASS file ends with END
+PASS pack line accounting: 41 header rows (NOTE+SOURCE) + 1,686 MATCH + END
+PASS pack ordering: five season blocks in order, each league block date-sorted and carrying only its season's source label (playoff legs follow their season block in tie order)
+
+== SECTION B: PER-CLUB FULL-CAMPAIGN PIVOTS (owner decree) ==
+
+### PIVOT 2021-22 (re-derived from the pack's own rows; each club = its 38 games in round order; summary gated vs the season TABLE constants)
+TEAMPIVOT|Angers|P38 W10 D11 L17 GF44 GA55 PTS41
+1|MD1|2021-08-08|A|Strasbourg|2|0|away
+2|MD2|2021-08-15|H|Lyon|3|0|home
+3|MD3|2021-08-22|A|Bordeaux|1|1|away
+4|MD4|2021-08-29|H|Rennes|2|0|home
+5|MD5|2021-09-12|A|Brest|1|1|away
+6|MD6|2021-09-19|H|Nantes|1|4|home
+7|MD7|2021-09-22|H|Marseille|0|0|home
+8|MD8|2021-09-26|A|Troyes|1|1|away
+9|MD9|2021-10-03|H|Metz|3|2|home
+10|MD10|2021-10-15|A|Paris SG|1|2|away
+11|MD11|2021-10-22|A|St Etienne|2|2|away
+12|MD12|2021-10-31|H|Nice|1|2|home
+13|MD13|2021-11-06|A|Lille|1|1|away
+14|MD14|2021-11-21|H|Lorient|1|0|home
+15|MD15|2021-11-26|A|Lens|2|2|away
+16|MD16|2021-12-01|H|Monaco|1|3|home
+17|MD17|2021-12-05|A|Reims|2|1|away
+18|MD18|2021-12-12|H|Clermont|0|1|home
+19|MD19|2021-12-22|A|Montpellier|1|4|away
+20|MD20|2022-01-26|H|St Etienne|0|1|home
+21|MD21|2022-01-16|A|Lorient|0|0|away
+22|MD22|2022-01-23|H|Troyes|2|1|home
+23|MD23|2022-02-04|A|Marseille|2|5|away
+24|MD24|2022-02-13|H|Strasbourg|0|1|home
+25|MD25|2022-02-20|A|Nice|0|1|away
+26|MD26|2022-02-27|H|Lens|1|2|home
+27|MD27|2022-03-06|A|Rennes|0|2|away
+28|MD28|2022-03-13|H|Reims|0|1|home
+29|MD29|2022-03-20|H|Brest|1|0|home
+30|MD30|2022-04-03|A|Lyon|2|3|away
+31|MD31|2022-04-10|H|Lille|1|1|home
+32|MD32|2022-04-17|A|Nantes|1|1|away
+33|MD33|2022-04-20|H|Paris SG|0|3|home
+34|MD34|2022-04-24|A|Clermont|2|2|away
+35|MD35|2022-05-01|A|Monaco|0|2|away
+36|MD36|2022-05-08|H|Bordeaux|4|1|home
+37|MD37|2022-05-14|A|Metz|0|1|away
+38|MD38|2022-05-21|H|Montpellier|2|0|home
+
+TEAMPIVOT|Bordeaux|P38 W6 D13 L19 GF52 GA91 PTS31
+1|MD1|2021-08-08|H|Clermont|0|2|home
+2|MD2|2021-08-15|A|Marseille|2|2|away
+3|MD3|2021-08-22|H|Angers|1|1|home
+4|MD4|2021-08-28|A|Nice|0|4|away
+5|MD5|2021-09-12|H|Lens|2|3|home
+6|MD6|2021-09-18|A|St Etienne|2|1|away
+7|MD7|2021-09-22|A|Montpellier|3|3|away
+8|MD8|2021-09-26|H|Rennes|1|1|home
+9|MD9|2021-10-03|A|Monaco|0|3|away
+10|MD10|2021-10-17|H|Nantes|1|1|home
+11|MD11|2021-10-24|A|Lorient|1|1|away
+12|MD12|2021-10-31|H|Reims|3|2|home
+13|MD13|2021-11-06|H|Paris SG|2|3|home
+14|MD14|2021-11-21|A|Metz|3|3|away
+15|MD15|2021-11-28|H|Brest|1|2|home
+16|MD16|2021-12-01|A|Strasbourg|2|5|away
+17|MD17|2021-12-05|H|Lyon|2|2|home
+18|MD18|2021-12-12|A|Troyes|2|1|away
+19|MD19|2021-12-22|H|Lille|2|3|home
+20|MD20|2022-01-07|H|Marseille|0|1|home
+21|MD21|2022-01-16|A|Rennes|0|6|away
+22|MD22|2022-01-23|H|Strasbourg|4|3|home
+23|MD23|2022-02-06|A|Reims|0|5|away
+24|MD24|2022-02-13|A|Lens|2|3|away
+25|MD25|2022-02-20|H|Monaco|1|1|home
+26|MD26|2022-02-27|A|Clermont|1|1|away
+27|MD27|2022-03-06|H|Troyes|0|2|home
+28|MD28|2022-03-13|A|Paris SG|0|3|away
+29|MD29|2022-03-20|H|Montpellier|0|2|home
+30|MD30|2022-04-02|A|Lille|0|0|away
+31|MD31|2022-04-10|H|Metz|3|1|home
+32|MD32|2022-04-17|A|Lyon|1|6|away
+33|MD33|2022-04-20|H|St Etienne|2|2|home
+34|MD34|2022-04-24|A|Nantes|3|5|away
+35|MD35|2022-05-01|H|Nice|0|1|home
+36|MD36|2022-05-08|A|Angers|1|4|away
+37|MD37|2022-05-14|H|Lorient|0|0|home
+38|MD38|2022-05-21|A|Brest|4|2|away
+
+TEAMPIVOT|Brest|P38 W13 D9 L16 GF49 GA57 PTS48
+1|MD1|2021-08-07|A|Lyon|1|1|away
+2|MD2|2021-08-15|H|Rennes|1|1|home
+3|MD3|2021-08-20|H|Paris SG|2|4|home
+4|MD4|2021-08-29|A|Strasbourg|1|3|away
+5|MD5|2021-09-12|H|Angers|1|1|home
+6|MD6|2021-09-19|A|Clermont|1|1|away
+7|MD7|2021-09-22|A|Nantes|1|3|away
+8|MD8|2021-09-26|H|Metz|1|2|home
+9|MD9|2021-10-02|A|Nice|1|2|away
+10|MD10|2021-10-17|H|Reims|1|1|home
+11|MD11|2021-10-23|A|Lille|1|1|away
+12|MD12|2021-10-31|H|Monaco|2|0|home
+13|MD13|2021-11-07|A|Lorient|2|1|away
+14|MD14|2021-11-21|H|Lens|4|0|home
+15|MD15|2021-11-28|A|Bordeaux|2|1|away
+16|MD16|2021-12-01|H|St Etienne|1|0|home
+17|MD17|2021-12-04|A|Marseille|2|1|away
+18|MD18|2021-12-11|H|Montpellier|0|4|home
+19|MD19|2021-12-22|A|Troyes|1|1|away
+20|MD20|2022-01-09|H|Nice|0|3|home
+21|MD21|2022-01-15|A|Paris SG|0|2|away
+22|MD22|2022-01-22|H|Lille|2|0|home
+23|MD23|2022-02-06|A|Rennes|0|2|away
+24|MD24|2022-02-13|H|Troyes|5|1|home
+25|MD25|2022-02-20|A|Reims|1|1|away
+26|MD26|2022-02-27|H|Lorient|0|1|home
+27|MD27|2022-03-05|A|Lens|1|0|away
+28|MD28|2022-03-13|H|Marseille|1|4|home
+29|MD29|2022-03-20|A|Angers|0|1|away
+30|MD30|2022-04-03|A|Montpellier|2|1|away
+31|MD31|2022-04-10|H|Nantes|1|1|home
+32|MD32|2022-04-16|A|St Etienne|1|2|away
+33|MD33|2022-04-20|H|Lyon|2|1|home
+34|MD34|2022-04-24|A|Metz|1|0|away
+35|MD35|2022-05-01|H|Clermont|2|0|home
+36|MD36|2022-05-07|H|Strasbourg|0|1|home
+37|MD37|2022-05-14|A|Monaco|2|4|away
+38|MD38|2022-05-21|H|Bordeaux|2|4|home
+
+TEAMPIVOT|Clermont|P38 W9 D9 L20 GF38 GA69 PTS36
+1|MD1|2021-08-08|A|Bordeaux|2|0|away
+2|MD2|2021-08-15|H|Troyes|2|0|home
+3|MD3|2021-08-22|A|Lyon|3|3|away
+4|MD4|2021-08-29|H|Metz|2|2|home
+5|MD5|2021-09-11|A|Paris SG|0|4|away
+6|MD6|2021-09-19|H|Brest|1|1|home
+7|MD7|2021-09-22|A|Rennes|0|6|away
+8|MD8|2021-09-26|H|Monaco|1|3|home
+9|MD9|2021-10-03|A|Lorient|1|1|away
+10|MD10|2021-10-16|H|Lille|1|0|home
+11|MD11|2021-10-23|A|Nantes|1|2|away
+12|MD12|2021-10-31|H|Marseille|0|1|home
+13|MD13|2021-11-07|A|St Etienne|2|3|away
+14|MD14|2021-11-21|H|Nice|1|2|home
+15|MD15|2021-11-28|A|Reims|0|1|away
+16|MD16|2021-12-01|H|Lens|2|2|home
+17|MD17|2021-12-05|A|Montpellier|0|1|away
+18|MD18|2021-12-12|A|Angers|1|0|away
+19|MD19|2022-01-19|H|Strasbourg|0|2|home
+20|MD20|2022-01-09|H|Reims|0|0|home
+21|MD21|2022-01-16|A|Monaco|0|4|away
+22|MD22|2022-01-23|H|Rennes|2|1|home
+23|MD23|2022-02-06|A|Nice|1|0|away
+24|MD24|2022-02-13|H|St Etienne|1|2|home
+25|MD25|2022-02-20|A|Marseille|2|0|away
+26|MD26|2022-02-27|H|Bordeaux|1|1|home
+27|MD27|2022-03-06|A|Lille|0|4|away
+28|MD28|2022-03-13|H|Lorient|0|2|home
+29|MD29|2022-03-19|A|Lens|1|3|away
+30|MD30|2022-04-03|H|Nantes|2|3|home
+31|MD31|2022-04-09|H|Paris SG|1|6|home
+32|MD32|2022-04-17|A|Metz|1|1|away
+33|MD33|2022-04-20|A|Troyes|1|0|away
+34|MD34|2022-04-24|H|Angers|2|2|home
+35|MD35|2022-05-01|A|Brest|0|2|away
+36|MD36|2022-05-08|H|Montpellier|2|1|home
+37|MD37|2022-05-14|A|Strasbourg|0|1|away
+38|MD38|2022-05-21|H|Lyon|1|2|home
+
+TEAMPIVOT|Lens|P38 W17 D11 L10 GF62 GA48 PTS62
+1|MD1|2021-08-08|A|Rennes|1|1|away
+2|MD2|2021-08-15|H|St Etienne|2|2|home
+3|MD3|2021-08-21|A|Monaco|2|0|away
+4|MD4|2021-08-29|H|Lorient|2|2|home
+5|MD5|2021-09-12|A|Bordeaux|3|2|away
+6|MD6|2021-09-18|H|Lille|1|0|home
+7|MD7|2021-09-22|H|Strasbourg|0|1|home
+8|MD8|2021-09-26|A|Marseille|3|2|away
+9|MD9|2021-10-01|H|Reims|2|0|home
+10|MD10|2021-10-17|A|Montpellier|0|1|away
+11|MD11|2021-10-24|H|Metz|4|1|home
+12|MD12|2021-10-30|A|Lyon|1|2|away
+13|MD13|2021-11-05|H|Troyes|4|0|home
+14|MD14|2021-11-21|A|Brest|0|4|away
+15|MD15|2021-11-26|H|Angers|2|2|home
+16|MD16|2021-12-01|A|Clermont|2|2|away
+17|MD17|2021-12-04|H|Paris SG|1|1|home
+18|MD18|2021-12-10|A|Nantes|2|3|away
+19|MD19|2021-12-22|A|Nice|1|2|away
+20|MD20|2022-01-08|H|Rennes|1|0|home
+21|MD21|2022-01-15|A|St Etienne|2|1|away
+22|MD22|2022-01-22|H|Marseille|0|2|home
+23|MD23|2022-02-06|A|Lorient|0|2|away
+24|MD24|2022-02-13|H|Bordeaux|3|2|home
+25|MD25|2022-02-19|H|Lyon|1|1|home
+26|MD26|2022-02-27|A|Angers|2|1|away
+27|MD27|2022-03-05|H|Brest|0|1|home
+28|MD28|2022-03-13|A|Metz|0|0|away
+29|MD29|2022-03-19|H|Clermont|3|1|home
+30|MD30|2022-04-03|A|Strasbourg|0|1|away
+31|MD31|2022-04-10|H|Nice|3|0|home
+32|MD32|2022-04-16|A|Lille|2|1|away
+33|MD33|2022-04-20|H|Montpellier|2|0|home
+34|MD34|2022-04-23|A|Paris SG|1|1|away
+35|MD35|2022-04-30|H|Nantes|2|2|home
+36|MD36|2022-05-08|A|Reims|2|1|away
+37|MD37|2022-05-14|A|Troyes|3|1|away
+38|MD38|2022-05-21|H|Monaco|2|2|home
+
+TEAMPIVOT|Lille|P38 W14 D13 L11 GF48 GA48 PTS55
+1|MD1|2021-08-08|A|Metz|3|3|away
+2|MD2|2021-08-14|H|Nice|0|4|home
+3|MD3|2021-08-21|A|St Etienne|1|1|away
+4|MD4|2021-08-29|H|Montpellier|2|1|home
+5|MD5|2021-09-10|A|Lorient|1|2|away
+6|MD6|2021-09-18|A|Lens|0|1|away
+7|MD7|2021-09-22|H|Reims|2|1|home
+8|MD8|2021-09-25|A|Strasbourg|2|1|away
+9|MD9|2021-10-03|H|Marseille|2|0|home
+10|MD10|2021-10-16|A|Clermont|0|1|away
+11|MD11|2021-10-23|H|Brest|1|1|home
+12|MD12|2021-10-29|A|Paris SG|1|2|away
+13|MD13|2021-11-06|H|Angers|1|1|home
+14|MD14|2021-11-19|A|Monaco|2|2|away
+15|MD15|2021-11-27|H|Nantes|1|1|home
+16|MD16|2021-12-01|A|Rennes|2|1|away
+17|MD17|2021-12-04|H|Troyes|2|1|home
+18|MD18|2021-12-12|H|Lyon|0|0|home
+19|MD19|2021-12-22|A|Bordeaux|3|2|away
+20|MD20|2022-01-19|H|Lorient|3|1|home
+21|MD21|2022-01-16|A|Marseille|1|1|away
+22|MD22|2022-01-22|A|Brest|0|2|away
+23|MD23|2022-02-06|H|Paris SG|1|5|home
+24|MD24|2022-02-12|A|Montpellier|1|0|away
+25|MD25|2022-02-18|H|Metz|0|0|home
+26|MD26|2022-02-27|A|Lyon|1|0|away
+27|MD27|2022-03-06|H|Clermont|4|0|home
+28|MD28|2022-03-11|H|St Etienne|0|0|home
+29|MD29|2022-03-19|A|Nantes|1|0|away
+30|MD30|2022-04-02|H|Bordeaux|0|0|home
+31|MD31|2022-04-10|A|Angers|1|1|away
+32|MD32|2022-04-16|H|Lens|1|2|home
+33|MD33|2022-04-20|A|Reims|1|2|away
+34|MD34|2022-04-24|H|Strasbourg|1|0|home
+35|MD35|2022-05-01|A|Troyes|0|3|away
+36|MD36|2022-05-06|H|Monaco|1|2|home
+37|MD37|2022-05-14|A|Nice|3|1|away
+38|MD38|2022-05-21|H|Rennes|2|2|home
+
+TEAMPIVOT|Lorient|P38 W8 D12 L18 GF35 GA63 PTS36
+1|MD1|2021-08-08|A|St Etienne|1|1|away
+2|MD2|2021-08-13|H|Monaco|1|0|home
+3|MD3|2021-08-22|A|Montpellier|1|3|away
+4|MD4|2021-08-29|A|Lens|2|2|away
+5|MD5|2021-09-10|H|Lille|2|1|home
+6|MD6|2021-09-19|A|Reims|0|0|away
+7|MD7|2021-09-22|H|Nice|1|0|home
+8|MD8|2021-09-25|A|Lyon|1|1|away
+9|MD9|2021-10-03|H|Clermont|1|1|home
+10|MD10|2021-10-17|A|Marseille|1|4|away
+11|MD11|2021-10-24|H|Bordeaux|1|1|home
+12|MD12|2021-10-31|A|Strasbourg|0|4|away
+13|MD13|2021-11-07|H|Brest|1|2|home
+14|MD14|2021-11-21|A|Angers|0|1|away
+15|MD15|2021-11-28|H|Rennes|0|2|home
+16|MD16|2021-12-01|A|Troyes|0|2|away
+17|MD17|2021-12-05|H|Nantes|0|1|home
+18|MD18|2021-12-12|A|Metz|1|4|away
+19|MD19|2021-12-22|H|Paris SG|1|1|home
+20|MD20|2022-01-19|A|Lille|1|3|away
+21|MD21|2022-01-16|H|Angers|0|0|home
+22|MD22|2022-01-23|A|Nantes|2|4|away
+23|MD23|2022-02-06|H|Lens|2|0|home
+24|MD24|2022-02-13|A|Monaco|0|0|away
+25|MD25|2022-02-20|H|Montpellier|0|1|home
+26|MD26|2022-02-27|A|Brest|1|0|away
+27|MD27|2022-03-04|H|Lyon|1|4|home
+28|MD28|2022-03-13|A|Clermont|2|0|away
+29|MD29|2022-03-20|H|Strasbourg|0|0|home
+30|MD30|2022-04-03|A|Paris SG|1|5|away
+31|MD31|2022-04-08|H|St Etienne|6|2|home
+32|MD32|2022-04-17|A|Nice|1|2|away
+33|MD33|2022-04-20|H|Metz|1|0|home
+34|MD34|2022-04-24|A|Rennes|0|5|away
+35|MD35|2022-05-01|H|Reims|1|2|home
+36|MD36|2022-05-08|H|Marseille|0|3|home
+37|MD37|2022-05-14|A|Bordeaux|0|0|away
+38|MD38|2022-05-21|H|Troyes|1|1|home
+
+TEAMPIVOT|Lyon|P38 W17 D11 L10 GF66 GA51 PTS61 (-1 deducted => 61)
+1|MD1|2021-08-07|H|Brest|1|1|home
+2|MD2|2021-08-15|A|Angers|0|3|away
+3|MD3|2021-08-22|H|Clermont|3|3|home
+4|MD4|2021-08-27|A|Nantes|1|0|away
+5|MD5|2021-09-12|H|Strasbourg|3|1|home
+6|MD6|2021-09-19|A|Paris SG|1|2|away
+7|MD7|2021-09-22|H|Troyes|3|1|home
+8|MD8|2021-09-25|H|Lorient|1|1|home
+9|MD9|2021-10-03|A|St Etienne|1|1|away
+10|MD10|2021-10-16|H|Monaco|2|0|home
+11|MD11|2021-10-24|A|Nice|2|3|away
+12|MD12|2021-10-30|H|Lens|2|1|home
+13|MD13|2021-11-07|A|Rennes|1|4|away
+14|MD14|2022-02-01|H|Marseille|2|1|home
+15|MD15|2021-11-28|A|Montpellier|1|0|away
+16|MD16|2021-12-01|H|Reims|1|2|home
+17|MD17|2021-12-05|A|Bordeaux|2|2|away
+18|MD18|2021-12-12|A|Lille|0|0|away
+19|MD19|2021-12-22|H|Metz|1|1|home
+20|MD20|2022-01-09|H|Paris SG|1|1|home
+21|MD21|2022-01-16|A|Troyes|1|0|away
+22|MD22|2022-01-21|H|St Etienne|1|0|home
+23|MD23|2022-02-05|A|Monaco|0|2|away
+24|MD24|2022-02-12|H|Nice|2|0|home
+25|MD25|2022-02-19|A|Lens|1|1|away
+26|MD26|2022-02-27|H|Lille|0|1|home
+27|MD27|2022-03-04|A|Lorient|4|1|away
+28|MD28|2022-03-13|H|Rennes|2|4|home
+29|MD29|2022-03-20|A|Reims|0|0|away
+30|MD30|2022-04-03|H|Angers|3|2|home
+31|MD31|2022-04-10|A|Strasbourg|1|1|away
+32|MD32|2022-04-17|H|Bordeaux|6|1|home
+33|MD33|2022-04-20|A|Brest|1|2|away
+34|MD34|2022-04-23|H|Montpellier|5|2|home
+35|MD35|2022-05-01|A|Marseille|3|0|away
+36|MD36|2022-05-08|A|Metz|2|3|away
+37|MD37|2022-05-14|H|Nantes|3|2|home
+38|MD38|2022-05-21|A|Clermont|2|1|away
+
+TEAMPIVOT|Marseille|P38 W21 D8 L9 GF63 GA38 PTS71
+1|MD1|2021-08-08|A|Montpellier|3|2|away
+2|MD2|2021-08-15|H|Bordeaux|2|2|home
+3|MD3|2021-10-27|A|Nice|1|1|away
+4|MD4|2021-08-28|H|St Etienne|3|1|home
+5|MD5|2021-09-11|A|Monaco|2|0|away
+6|MD6|2021-09-19|H|Rennes|2|0|home
+7|MD7|2021-09-22|A|Angers|0|0|away
+8|MD8|2021-09-26|H|Lens|2|3|home
+9|MD9|2021-10-03|A|Lille|0|2|away
+10|MD10|2021-10-17|H|Lorient|4|1|home
+11|MD11|2021-10-24|H|Paris SG|0|0|home
+12|MD12|2021-10-31|A|Clermont|1|0|away
+13|MD13|2021-11-07|H|Metz|0|0|home
+14|MD14|2022-02-01|A|Lyon|1|2|away
+15|MD15|2021-11-28|H|Troyes|1|0|home
+16|MD16|2021-12-01|A|Nantes|1|0|away
+17|MD17|2021-12-04|H|Brest|1|2|home
+18|MD18|2021-12-12|A|Strasbourg|2|0|away
+19|MD19|2021-12-22|H|Reims|1|1|home
+20|MD20|2022-01-07|A|Bordeaux|1|0|away
+21|MD21|2022-01-16|H|Lille|1|1|home
+22|MD22|2022-01-22|A|Lens|2|0|away
+23|MD23|2022-02-04|H|Angers|5|2|home
+24|MD24|2022-02-13|A|Metz|2|1|away
+25|MD25|2022-02-20|H|Clermont|0|2|home
+26|MD26|2022-02-27|A|Troyes|1|1|away
+27|MD27|2022-03-06|H|Monaco|0|1|home
+28|MD28|2022-03-13|A|Brest|4|1|away
+29|MD29|2022-03-20|H|Nice|2|1|home
+30|MD30|2022-04-03|A|St Etienne|4|2|away
+31|MD31|2022-04-10|H|Montpellier|2|0|home
+32|MD32|2022-04-17|A|Paris SG|1|2|away
+33|MD33|2022-04-20|H|Nantes|3|2|home
+34|MD34|2022-04-24|A|Reims|1|0|away
+35|MD35|2022-05-01|H|Lyon|0|3|home
+36|MD36|2022-05-08|A|Lorient|3|0|away
+37|MD37|2022-05-14|A|Rennes|0|2|away
+38|MD38|2022-05-21|H|Strasbourg|4|0|home
+
+TEAMPIVOT|Metz|P38 W6 D13 L19 GF35 GA69 PTS31
+1|MD1|2021-08-08|H|Lille|3|3|home
+2|MD2|2021-08-15|A|Nantes|0|2|away
+3|MD3|2021-08-22|H|Reims|1|1|home
+4|MD4|2021-08-29|A|Clermont|2|2|away
+5|MD5|2021-09-12|H|Troyes|0|2|home
+6|MD6|2021-09-17|A|Strasbourg|0|3|away
+7|MD7|2021-09-22|H|Paris SG|1|2|home
+8|MD8|2021-09-26|A|Brest|2|1|away
+9|MD9|2021-10-03|A|Angers|2|3|away
+10|MD10|2021-10-17|H|Rennes|0|3|home
+11|MD11|2021-10-24|A|Lens|1|4|away
+12|MD12|2021-10-30|H|St Etienne|1|1|home
+13|MD13|2021-11-07|A|Marseille|0|0|away
+14|MD14|2021-11-21|H|Bordeaux|3|3|home
+15|MD15|2021-11-27|A|Nice|1|0|away
+16|MD16|2021-12-01|H|Montpellier|1|3|home
+17|MD17|2021-12-05|A|Monaco|0|4|away
+18|MD18|2021-12-12|H|Lorient|4|1|home
+19|MD19|2021-12-22|A|Lyon|1|1|away
+20|MD20|2022-01-09|H|Strasbourg|0|2|home
+21|MD21|2022-01-16|A|Reims|1|0|away
+22|MD22|2022-01-23|H|Nice|0|2|home
+23|MD23|2022-02-06|A|Troyes|0|0|away
+24|MD24|2022-02-13|H|Marseille|1|2|home
+25|MD25|2022-02-18|A|Lille|0|0|away
+26|MD26|2022-02-27|H|Nantes|0|0|home
+27|MD27|2022-03-06|A|St Etienne|0|1|away
+28|MD28|2022-03-13|H|Lens|0|0|home
+29|MD29|2022-03-20|A|Rennes|1|6|away
+30|MD30|2022-04-03|H|Monaco|1|2|home
+31|MD31|2022-04-10|A|Bordeaux|1|3|away
+32|MD32|2022-04-17|H|Clermont|1|1|home
+33|MD33|2022-04-20|A|Lorient|0|1|away
+34|MD34|2022-04-24|H|Brest|0|1|home
+35|MD35|2022-05-01|A|Montpellier|2|2|away
+36|MD36|2022-05-08|H|Lyon|3|2|home
+37|MD37|2022-05-14|H|Angers|1|0|home
+38|MD38|2022-05-21|A|Paris SG|0|5|away
+
+TEAMPIVOT|Monaco|P38 W20 D9 L9 GF65 GA40 PTS69
+1|MD1|2021-08-06|H|Nantes|1|1|home
+2|MD2|2021-08-13|A|Lorient|0|1|away
+3|MD3|2021-08-21|H|Lens|0|2|home
+4|MD4|2021-08-29|A|Troyes|2|1|away
+5|MD5|2021-09-11|H|Marseille|0|2|home
+6|MD6|2021-09-19|A|Nice|2|2|away
+7|MD7|2021-09-22|H|St Etienne|3|1|home
+8|MD8|2021-09-26|A|Clermont|3|1|away
+9|MD9|2021-10-03|H|Bordeaux|3|0|home
+10|MD10|2021-10-16|A|Lyon|0|2|away
+11|MD11|2021-10-24|H|Montpellier|3|1|home
+12|MD12|2021-10-31|A|Brest|0|2|away
+13|MD13|2021-11-07|A|Reims|0|0|away
+14|MD14|2021-11-19|H|Lille|2|2|home
+15|MD15|2021-11-28|H|Strasbourg|1|1|home
+16|MD16|2021-12-01|A|Angers|3|1|away
+17|MD17|2021-12-05|H|Metz|4|0|home
+18|MD18|2021-12-12|A|Paris SG|0|2|away
+19|MD19|2021-12-22|H|Rennes|2|1|home
+20|MD20|2022-01-09|A|Nantes|0|0|away
+21|MD21|2022-01-16|H|Clermont|4|0|home
+22|MD22|2022-01-23|A|Montpellier|2|3|away
+23|MD23|2022-02-05|H|Lyon|2|0|home
+24|MD24|2022-02-13|H|Lorient|0|0|home
+25|MD25|2022-02-20|A|Bordeaux|1|1|away
+26|MD26|2022-02-27|H|Reims|1|2|home
+27|MD27|2022-03-06|A|Marseille|1|0|away
+28|MD28|2022-03-13|A|Strasbourg|0|1|away
+29|MD29|2022-03-20|H|Paris SG|3|0|home
+30|MD30|2022-04-03|A|Metz|2|1|away
+31|MD31|2022-04-10|H|Troyes|2|1|home
+32|MD32|2022-04-15|A|Rennes|3|2|away
+33|MD33|2022-04-20|H|Nice|1|0|home
+34|MD34|2022-04-23|A|St Etienne|4|1|away
+35|MD35|2022-05-01|H|Angers|2|0|home
+36|MD36|2022-05-06|A|Lille|2|1|away
+37|MD37|2022-05-14|H|Brest|4|2|home
+38|MD38|2022-05-21|A|Lens|2|2|away
+
+TEAMPIVOT|Montpellier|P38 W12 D7 L19 GF49 GA61 PTS43
+1|MD1|2021-08-08|H|Marseille|2|3|home
+2|MD2|2021-08-15|A|Reims|3|3|away
+3|MD3|2021-08-22|H|Lorient|3|1|home
+4|MD4|2021-08-29|A|Lille|1|2|away
+5|MD5|2021-09-12|H|St Etienne|2|0|home
+6|MD6|2021-09-19|A|Troyes|1|1|away
+7|MD7|2021-09-22|H|Bordeaux|3|3|home
+8|MD8|2021-09-25|A|Paris SG|0|2|away
+9|MD9|2021-10-02|H|Strasbourg|1|1|home
+10|MD10|2021-10-17|H|Lens|1|0|home
+11|MD11|2021-10-24|A|Monaco|1|3|away
+12|MD12|2021-10-31|H|Nantes|2|0|home
+13|MD13|2021-11-07|A|Nice|1|0|away
+14|MD14|2021-11-20|A|Rennes|0|2|away
+15|MD15|2021-11-28|H|Lyon|0|1|home
+16|MD16|2021-12-01|A|Metz|3|1|away
+17|MD17|2021-12-05|H|Clermont|1|0|home
+18|MD18|2021-12-11|A|Brest|4|0|away
+19|MD19|2021-12-22|H|Angers|4|1|home
+20|MD20|2022-01-19|H|Troyes|0|1|home
+21|MD21|2022-01-16|A|Strasbourg|1|3|away
+22|MD22|2022-01-23|H|Monaco|3|2|home
+23|MD23|2022-02-05|A|St Etienne|1|3|away
+24|MD24|2022-02-12|H|Lille|0|1|home
+25|MD25|2022-02-20|A|Lorient|1|0|away
+26|MD26|2022-02-25|H|Rennes|2|4|home
+27|MD27|2022-03-06|A|Nantes|0|2|away
+28|MD28|2022-03-12|H|Nice|0|0|home
+29|MD29|2022-03-20|A|Bordeaux|2|0|away
+30|MD30|2022-04-03|H|Brest|1|2|home
+31|MD31|2022-04-10|A|Marseille|0|2|away
+32|MD32|2022-04-17|H|Reims|0|0|home
+33|MD33|2022-04-20|A|Lens|0|2|away
+34|MD34|2022-04-23|A|Lyon|2|5|away
+35|MD35|2022-05-01|H|Metz|2|2|home
+36|MD36|2022-05-08|A|Clermont|1|2|away
+37|MD37|2022-05-14|H|Paris SG|0|4|home
+38|MD38|2022-05-21|A|Angers|0|2|away
+
+TEAMPIVOT|Nantes|P38 W15 D10 L13 GF55 GA48 PTS55
+1|MD1|2021-08-06|A|Monaco|1|1|away
+2|MD2|2021-08-15|H|Metz|2|0|home
+3|MD3|2021-08-22|A|Rennes|0|1|away
+4|MD4|2021-08-27|H|Lyon|0|1|home
+5|MD5|2021-09-12|H|Nice|0|2|home
+6|MD6|2021-09-19|A|Angers|4|1|away
+7|MD7|2021-09-22|H|Brest|3|1|home
+8|MD8|2021-09-26|A|Reims|1|3|away
+9|MD9|2021-10-03|H|Troyes|2|0|home
+10|MD10|2021-10-17|A|Bordeaux|1|1|away
+11|MD11|2021-10-23|H|Clermont|2|1|home
+12|MD12|2021-10-31|A|Montpellier|0|2|away
+13|MD13|2021-11-07|H|Strasbourg|2|2|home
+14|MD14|2021-11-20|A|Paris SG|1|3|away
+15|MD15|2021-11-27|A|Lille|1|1|away
+16|MD16|2021-12-01|H|Marseille|0|1|home
+17|MD17|2021-12-05|A|Lorient|1|0|away
+18|MD18|2021-12-10|H|Lens|3|2|home
+19|MD19|2021-12-22|A|St Etienne|1|0|away
+20|MD20|2022-01-09|H|Monaco|0|0|home
+21|MD21|2022-01-14|A|Nice|1|2|away
+22|MD22|2022-01-23|H|Lorient|4|2|home
+23|MD23|2022-02-06|A|Strasbourg|0|1|away
+24|MD24|2022-02-13|H|Reims|1|0|home
+25|MD25|2022-02-19|H|Paris SG|3|1|home
+26|MD26|2022-02-27|A|Metz|0|0|away
+27|MD27|2022-03-06|H|Montpellier|2|0|home
+28|MD28|2022-03-12|A|Troyes|0|1|away
+29|MD29|2022-03-19|H|Lille|0|1|home
+30|MD30|2022-04-03|A|Clermont|3|2|away
+31|MD31|2022-04-10|A|Brest|1|1|away
+32|MD32|2022-04-17|H|Angers|1|1|home
+33|MD33|2022-04-20|A|Marseille|2|3|away
+34|MD34|2022-04-24|H|Bordeaux|5|3|home
+35|MD35|2022-04-30|A|Lens|2|2|away
+36|MD36|2022-05-11|H|Rennes|2|1|home
+37|MD37|2022-05-14|A|Lyon|2|3|away
+38|MD38|2022-05-21|H|St Etienne|1|1|home
+
+TEAMPIVOT|Nice|P38 W20 D7 L11 GF52 GA36 PTS66 (-1 deducted => 66)
+1|MD1|2021-08-08|H|Reims|0|0|home
+2|MD2|2021-08-14|A|Lille|4|0|away
+3|MD3|2021-10-27|H|Marseille|1|1|home
+4|MD4|2021-08-28|H|Bordeaux|4|0|home
+5|MD5|2021-09-12|A|Nantes|2|0|away
+6|MD6|2021-09-19|H|Monaco|2|2|home
+7|MD7|2021-09-22|A|Lorient|0|1|away
+8|MD8|2021-09-25|A|St Etienne|3|0|away
+9|MD9|2021-10-02|H|Brest|2|1|home
+10|MD10|2021-10-17|A|Troyes|0|1|away
+11|MD11|2021-10-24|H|Lyon|3|2|home
+12|MD12|2021-10-31|A|Angers|2|1|away
+13|MD13|2021-11-07|H|Montpellier|0|1|home
+14|MD14|2021-11-21|A|Clermont|2|1|away
+15|MD15|2021-11-27|H|Metz|0|1|home
+16|MD16|2021-12-01|A|Paris SG|0|0|away
+17|MD17|2021-12-05|H|Strasbourg|0|3|home
+18|MD18|2021-12-12|A|Rennes|2|1|away
+19|MD19|2021-12-22|H|Lens|2|1|home
+20|MD20|2022-01-09|A|Brest|3|0|away
+21|MD21|2022-01-14|H|Nantes|2|1|home
+22|MD22|2022-01-23|A|Metz|2|0|away
+23|MD23|2022-02-06|H|Clermont|0|1|home
+24|MD24|2022-02-12|A|Lyon|0|2|away
+25|MD25|2022-02-20|H|Angers|1|0|home
+26|MD26|2022-02-26|A|Strasbourg|0|0|away
+27|MD27|2022-03-05|H|Paris SG|1|0|home
+28|MD28|2022-03-12|A|Montpellier|0|0|away
+29|MD29|2022-03-20|A|Marseille|1|2|away
+30|MD30|2022-04-02|H|Rennes|1|1|home
+31|MD31|2022-04-10|A|Lens|0|3|away
+32|MD32|2022-04-17|H|Lorient|2|1|home
+33|MD33|2022-04-20|A|Monaco|0|1|away
+34|MD34|2022-04-24|H|Troyes|1|0|home
+35|MD35|2022-05-01|A|Bordeaux|1|0|away
+36|MD36|2022-05-11|H|St Etienne|4|2|home
+37|MD37|2022-05-14|H|Lille|1|3|home
+38|MD38|2022-05-21|A|Reims|3|2|away
+
+TEAMPIVOT|Paris SG|P38 W26 D8 L4 GF90 GA36 PTS86
+1|MD1|2021-08-07|A|Troyes|2|1|away
+2|MD2|2021-08-14|H|Strasbourg|4|2|home
+3|MD3|2021-08-20|A|Brest|4|2|away
+4|MD4|2021-08-29|A|Reims|2|0|away
+5|MD5|2021-09-11|H|Clermont|4|0|home
+6|MD6|2021-09-19|H|Lyon|2|1|home
+7|MD7|2021-09-22|A|Metz|2|1|away
+8|MD8|2021-09-25|H|Montpellier|2|0|home
+9|MD9|2021-10-03|A|Rennes|0|2|away
+10|MD10|2021-10-15|H|Angers|2|1|home
+11|MD11|2021-10-24|A|Marseille|0|0|away
+12|MD12|2021-10-29|H|Lille|2|1|home
+13|MD13|2021-11-06|A|Bordeaux|3|2|away
+14|MD14|2021-11-20|H|Nantes|3|1|home
+15|MD15|2021-11-28|A|St Etienne|3|1|away
+16|MD16|2021-12-01|H|Nice|0|0|home
+17|MD17|2021-12-04|A|Lens|1|1|away
+18|MD18|2021-12-12|H|Monaco|2|0|home
+19|MD19|2021-12-22|A|Lorient|1|1|away
+20|MD20|2022-01-09|A|Lyon|1|1|away
+21|MD21|2022-01-15|H|Brest|2|0|home
+22|MD22|2022-01-23|H|Reims|4|0|home
+23|MD23|2022-02-06|A|Lille|5|1|away
+24|MD24|2022-02-11|H|Rennes|1|0|home
+25|MD25|2022-02-19|A|Nantes|1|3|away
+26|MD26|2022-02-26|H|St Etienne|3|1|home
+27|MD27|2022-03-05|A|Nice|0|1|away
+28|MD28|2022-03-13|H|Bordeaux|3|0|home
+29|MD29|2022-03-20|A|Monaco|0|3|away
+30|MD30|2022-04-03|H|Lorient|5|1|home
+31|MD31|2022-04-09|A|Clermont|6|1|away
+32|MD32|2022-04-17|H|Marseille|2|1|home
+33|MD33|2022-04-20|A|Angers|3|0|away
+34|MD34|2022-04-23|H|Lens|1|1|home
+35|MD35|2022-04-29|A|Strasbourg|3|3|away
+36|MD36|2022-05-08|H|Troyes|2|2|home
+37|MD37|2022-05-14|A|Montpellier|4|0|away
+38|MD38|2022-05-21|H|Metz|5|0|home
+
+TEAMPIVOT|Reims|P38 W11 D13 L14 GF43 GA44 PTS46
+1|MD1|2021-08-08|A|Nice|0|0|away
+2|MD2|2021-08-15|H|Montpellier|3|3|home
+3|MD3|2021-08-22|A|Metz|1|1|away
+4|MD4|2021-08-29|H|Paris SG|0|2|home
+5|MD5|2021-09-12|A|Rennes|2|0|away
+6|MD6|2021-09-19|H|Lorient|0|0|home
+7|MD7|2021-09-22|A|Lille|1|2|away
+8|MD8|2021-09-26|H|Nantes|3|1|home
+9|MD9|2021-10-01|A|Lens|0|2|away
+10|MD10|2021-10-17|A|Brest|1|1|away
+11|MD11|2021-10-24|H|Troyes|1|2|home
+12|MD12|2021-10-31|A|Bordeaux|2|3|away
+13|MD13|2021-11-07|H|Monaco|0|0|home
+14|MD14|2021-11-21|A|Strasbourg|1|1|away
+15|MD15|2021-11-28|H|Clermont|1|0|home
+16|MD16|2021-12-01|A|Lyon|2|1|away
+17|MD17|2021-12-05|H|Angers|1|2|home
+18|MD18|2021-12-11|H|St Etienne|2|0|home
+19|MD19|2021-12-22|A|Marseille|1|1|away
+20|MD20|2022-01-09|A|Clermont|0|0|away
+21|MD21|2022-01-16|H|Metz|0|1|home
+22|MD22|2022-01-23|A|Paris SG|0|4|away
+23|MD23|2022-02-06|H|Bordeaux|5|0|home
+24|MD24|2022-02-13|A|Nantes|0|1|away
+25|MD25|2022-02-20|H|Brest|1|1|home
+26|MD26|2022-02-27|A|Monaco|2|1|away
+27|MD27|2022-03-06|H|Strasbourg|1|1|home
+28|MD28|2022-03-13|A|Angers|1|0|away
+29|MD29|2022-03-20|H|Lyon|0|0|home
+30|MD30|2022-04-03|A|Troyes|0|1|away
+31|MD31|2022-04-09|H|Rennes|2|3|home
+32|MD32|2022-04-17|A|Montpellier|0|0|away
+33|MD33|2022-04-20|H|Lille|2|1|home
+34|MD34|2022-04-24|H|Marseille|0|1|home
+35|MD35|2022-05-01|A|Lorient|2|1|away
+36|MD36|2022-05-08|H|Lens|1|2|home
+37|MD37|2022-05-14|A|St Etienne|2|1|away
+38|MD38|2022-05-21|H|Nice|2|3|home
+
+TEAMPIVOT|Rennes|P38 W20 D6 L12 GF82 GA40 PTS66
+1|MD1|2021-08-08|H|Lens|1|1|home
+2|MD2|2021-08-15|A|Brest|1|1|away
+3|MD3|2021-08-22|H|Nantes|1|0|home
+4|MD4|2021-08-29|A|Angers|0|2|away
+5|MD5|2021-09-12|H|Reims|0|2|home
+6|MD6|2021-09-19|A|Marseille|0|2|away
+7|MD7|2021-09-22|H|Clermont|6|0|home
+8|MD8|2021-09-26|A|Bordeaux|1|1|away
+9|MD9|2021-10-03|H|Paris SG|2|0|home
+10|MD10|2021-10-17|A|Metz|3|0|away
+11|MD11|2021-10-24|H|Strasbourg|1|0|home
+12|MD12|2021-10-31|A|Troyes|2|2|away
+13|MD13|2021-11-07|H|Lyon|4|1|home
+14|MD14|2021-11-20|H|Montpellier|2|0|home
+15|MD15|2021-11-28|A|Lorient|2|0|away
+16|MD16|2021-12-01|H|Lille|1|2|home
+17|MD17|2021-12-05|A|St Etienne|5|0|away
+18|MD18|2021-12-12|H|Nice|1|2|home
+19|MD19|2021-12-22|A|Monaco|1|2|away
+20|MD20|2022-01-08|A|Lens|0|1|away
+21|MD21|2022-01-16|H|Bordeaux|6|0|home
+22|MD22|2022-01-23|A|Clermont|1|2|away
+23|MD23|2022-02-06|H|Brest|2|0|home
+24|MD24|2022-02-11|A|Paris SG|0|1|away
+25|MD25|2022-02-20|H|Troyes|4|1|home
+26|MD26|2022-02-25|A|Montpellier|4|2|away
+27|MD27|2022-03-06|H|Angers|2|0|home
+28|MD28|2022-03-13|A|Lyon|4|2|away
+29|MD29|2022-03-20|H|Metz|6|1|home
+30|MD30|2022-04-02|A|Nice|1|1|away
+31|MD31|2022-04-09|A|Reims|3|2|away
+32|MD32|2022-04-15|H|Monaco|2|3|home
+33|MD33|2022-04-20|A|Strasbourg|1|2|away
+34|MD34|2022-04-24|H|Lorient|5|0|home
+35|MD35|2022-04-30|H|St Etienne|2|0|home
+36|MD36|2022-05-11|A|Nantes|1|2|away
+37|MD37|2022-05-14|H|Marseille|2|0|home
+38|MD38|2022-05-21|A|Lille|2|2|away
+
+TEAMPIVOT|St Etienne|P38 W7 D11 L20 GF42 GA77 PTS32
+1|MD1|2021-08-08|H|Lorient|1|1|home
+2|MD2|2021-08-15|A|Lens|2|2|away
+3|MD3|2021-08-21|H|Lille|1|1|home
+4|MD4|2021-08-28|A|Marseille|1|3|away
+5|MD5|2021-09-12|A|Montpellier|0|2|away
+6|MD6|2021-09-18|H|Bordeaux|1|2|home
+7|MD7|2021-09-22|A|Monaco|1|3|away
+8|MD8|2021-09-25|H|Nice|0|3|home
+9|MD9|2021-10-03|H|Lyon|1|1|home
+10|MD10|2021-10-17|A|Strasbourg|1|5|away
+11|MD11|2021-10-22|H|Angers|2|2|home
+12|MD12|2021-10-30|A|Metz|1|1|away
+13|MD13|2021-11-07|H|Clermont|3|2|home
+14|MD14|2021-11-21|A|Troyes|1|0|away
+15|MD15|2021-11-28|H|Paris SG|1|3|home
+16|MD16|2021-12-01|A|Brest|0|1|away
+17|MD17|2021-12-05|H|Rennes|0|5|home
+18|MD18|2021-12-11|A|Reims|0|2|away
+19|MD19|2021-12-22|H|Nantes|0|1|home
+20|MD20|2022-01-26|A|Angers|1|0|away
+21|MD21|2022-01-15|H|Lens|1|2|home
+22|MD22|2022-01-21|A|Lyon|0|1|away
+23|MD23|2022-02-05|H|Montpellier|3|1|home
+24|MD24|2022-02-13|A|Clermont|2|1|away
+25|MD25|2022-02-20|H|Strasbourg|2|2|home
+26|MD26|2022-02-26|A|Paris SG|1|3|away
+27|MD27|2022-03-06|H|Metz|1|0|home
+28|MD28|2022-03-11|A|Lille|0|0|away
+29|MD29|2022-03-18|H|Troyes|1|1|home
+30|MD30|2022-04-03|H|Marseille|2|4|home
+31|MD31|2022-04-08|A|Lorient|2|6|away
+32|MD32|2022-04-16|H|Brest|2|1|home
+33|MD33|2022-04-20|A|Bordeaux|2|2|away
+34|MD34|2022-04-23|H|Monaco|1|4|home
+35|MD35|2022-04-30|A|Rennes|0|2|away
+36|MD36|2022-05-11|A|Nice|2|4|away
+37|MD37|2022-05-14|H|Reims|1|2|home
+38|MD38|2022-05-21|A|Nantes|1|1|away
+
+TEAMPIVOT|Strasbourg|P38 W17 D12 L9 GF60 GA43 PTS63
+1|MD1|2021-08-08|H|Angers|0|2|home
+2|MD2|2021-08-14|A|Paris SG|2|4|away
+3|MD3|2021-08-22|H|Troyes|1|1|home
+4|MD4|2021-08-29|H|Brest|3|1|home
+5|MD5|2021-09-12|A|Lyon|1|3|away
+6|MD6|2021-09-17|H|Metz|3|0|home
+7|MD7|2021-09-22|A|Lens|1|0|away
+8|MD8|2021-09-25|H|Lille|1|2|home
+9|MD9|2021-10-02|A|Montpellier|1|1|away
+10|MD10|2021-10-17|H|St Etienne|5|1|home
+11|MD11|2021-10-24|A|Rennes|0|1|away
+12|MD12|2021-10-31|H|Lorient|4|0|home
+13|MD13|2021-11-07|A|Nantes|2|2|away
+14|MD14|2021-11-21|H|Reims|1|1|home
+15|MD15|2021-11-28|A|Monaco|1|1|away
+16|MD16|2021-12-01|H|Bordeaux|5|2|home
+17|MD17|2021-12-05|A|Nice|3|0|away
+18|MD18|2021-12-12|H|Marseille|0|2|home
+19|MD19|2022-01-19|A|Clermont|2|0|away
+20|MD20|2022-01-09|A|Metz|2|0|away
+21|MD21|2022-01-16|H|Montpellier|3|1|home
+22|MD22|2022-01-23|A|Bordeaux|3|4|away
+23|MD23|2022-02-06|H|Nantes|1|0|home
+24|MD24|2022-02-13|A|Angers|1|0|away
+25|MD25|2022-02-20|A|St Etienne|2|2|away
+26|MD26|2022-02-26|H|Nice|0|0|home
+27|MD27|2022-03-06|A|Reims|1|1|away
+28|MD28|2022-03-13|H|Monaco|1|0|home
+29|MD29|2022-03-20|A|Lorient|0|0|away
+30|MD30|2022-04-03|H|Lens|1|0|home
+31|MD31|2022-04-10|H|Lyon|1|1|home
+32|MD32|2022-04-17|A|Troyes|1|1|away
+33|MD33|2022-04-20|H|Rennes|2|1|home
+34|MD34|2022-04-24|A|Lille|0|1|away
+35|MD35|2022-04-29|H|Paris SG|3|3|home
+36|MD36|2022-05-07|A|Brest|1|0|away
+37|MD37|2022-05-14|H|Clermont|1|0|home
+38|MD38|2022-05-21|A|Marseille|0|4|away
+
+TEAMPIVOT|Troyes|P38 W9 D11 L18 GF37 GA53 PTS38
+1|MD1|2021-08-07|H|Paris SG|1|2|home
+2|MD2|2021-08-15|A|Clermont|0|2|away
+3|MD3|2021-08-22|A|Strasbourg|1|1|away
+4|MD4|2021-08-29|H|Monaco|1|2|home
+5|MD5|2021-09-12|A|Metz|2|0|away
+6|MD6|2021-09-19|H|Montpellier|1|1|home
+7|MD7|2021-09-22|A|Lyon|1|3|away
+8|MD8|2021-09-26|H|Angers|1|1|home
+9|MD9|2021-10-03|A|Nantes|0|2|away
+10|MD10|2021-10-17|H|Nice|1|0|home
+11|MD11|2021-10-24|A|Reims|2|1|away
+12|MD12|2021-10-31|H|Rennes|2|2|home
+13|MD13|2021-11-05|A|Lens|0|4|away
+14|MD14|2021-11-21|H|St Etienne|0|1|home
+15|MD15|2021-11-28|A|Marseille|0|1|away
+16|MD16|2021-12-01|H|Lorient|2|0|home
+17|MD17|2021-12-04|A|Lille|1|2|away
+18|MD18|2021-12-12|H|Bordeaux|1|2|home
+19|MD19|2021-12-22|H|Brest|1|1|home
+20|MD20|2022-01-19|A|Montpellier|1|0|away
+21|MD21|2022-01-16|H|Lyon|0|1|home
+22|MD22|2022-01-23|A|Angers|1|2|away
+23|MD23|2022-02-06|H|Metz|0|0|home
+24|MD24|2022-02-13|A|Brest|1|5|away
+25|MD25|2022-02-20|A|Rennes|1|4|away
+26|MD26|2022-02-27|H|Marseille|1|1|home
+27|MD27|2022-03-06|A|Bordeaux|2|0|away
+28|MD28|2022-03-12|H|Nantes|1|0|home
+29|MD29|2022-03-18|A|St Etienne|1|1|away
+30|MD30|2022-04-03|H|Reims|1|0|home
+31|MD31|2022-04-10|A|Monaco|1|2|away
+32|MD32|2022-04-17|H|Strasbourg|1|1|home
+33|MD33|2022-04-20|H|Clermont|0|1|home
+34|MD34|2022-04-24|A|Nice|0|1|away
+35|MD35|2022-05-01|H|Lille|3|0|home
+36|MD36|2022-05-08|A|Paris SG|2|2|away
+37|MD37|2022-05-14|H|Lens|1|3|home
+38|MD38|2022-05-21|A|Lorient|1|1|away
+
+### PIVOT 2022-23 (re-derived from the pack's own rows; each club = its 38 games in round order; summary gated vs the season TABLE constants)
+TEAMPIVOT|Ajaccio|P38 W7 D5 L26 GF23 GA74 PTS26
+1|MD1|2022-08-05|A|Lyon|1|2|away
+2|MD2|2022-08-14|H|Lens|0|0|home
+3|MD3|2022-08-21|A|Rennes|1|2|away
+4|MD4|2022-08-26|H|Lille|1|3|home
+5|MD5|2022-08-31|A|Montpellier|0|2|away
+6|MD6|2022-09-04|H|Lorient|0|1|home
+7|MD7|2022-09-11|H|Nice|0|1|home
+8|MD8|2022-09-18|A|Brest|1|0|away
+9|MD9|2022-10-02|H|Clermont|1|3|home
+10|MD10|2022-10-08|A|Marseille|2|1|away
+11|MD11|2022-10-16|A|Troyes|1|1|away
+12|MD12|2022-10-21|H|Paris SG|0|3|home
+13|MD13|2022-10-30|A|Auxerre|0|1|away
+14|MD14|2022-11-05|H|Strasbourg|4|2|home
+15|MD15|2022-11-13|A|Nantes|2|2|away
+16|MD16|2022-12-28|H|Angers|1|0|home
+17|MD17|2023-01-01|A|Toulouse|0|2|away
+18|MD18|2023-01-11|H|Reims|0|1|home
+19|MD19|2023-01-15|A|Monaco|1|7|away
+20|MD20|2023-01-29|H|Lyon|0|2|home
+21|MD21|2023-02-01|A|Angers|2|1|away
+22|MD22|2023-02-05|H|Nantes|0|2|home
+23|MD23|2023-02-10|A|Nice|0|3|away
+24|MD24|2023-02-19|A|Lorient|0|3|away
+25|MD25|2023-02-26|H|Troyes|2|1|home
+26|MD26|2023-03-05|A|Reims|0|1|away
+27|MD27|2023-03-12|H|Montpellier|0|1|home
+28|MD28|2023-03-19|H|Monaco|0|2|home
+29|MD29|2023-04-02|A|Clermont|1|2|away
+30|MD30|2023-04-09|H|Auxerre|0|3|home
+31|MD31|2023-04-16|A|Strasbourg|1|3|away
+32|MD32|2023-04-23|H|Brest|0|0|home
+33|MD33|2023-04-29|A|Lille|0|3|away
+34|MD34|2023-05-07|H|Toulouse|0|0|home
+35|MD35|2023-05-13|A|Paris SG|0|5|away
+36|MD36|2023-05-21|H|Rennes|0|5|home
+37|MD37|2023-05-27|A|Lens|0|3|away
+38|MD38|2023-06-03|H|Marseille|1|0|home
+
+TEAMPIVOT|Angers|P38 W4 D6 L28 GF33 GA81 PTS18
+1|MD1|2022-08-07|H|Nantes|0|0|home
+2|MD2|2022-08-14|A|Auxerre|2|2|away
+3|MD3|2022-08-21|H|Brest|1|3|home
+4|MD4|2022-08-28|A|Troyes|1|3|away
+5|MD5|2022-08-31|H|Reims|2|4|home
+6|MD6|2022-09-03|A|Lyon|0|5|away
+7|MD7|2022-09-11|H|Montpellier|2|1|home
+8|MD8|2022-09-18|A|Nice|1|0|away
+9|MD9|2022-09-30|H|Marseille|0|3|home
+10|MD10|2022-10-09|H|Strasbourg|2|3|home
+11|MD11|2022-10-16|A|Toulouse|2|3|away
+12|MD12|2022-10-23|H|Rennes|1|2|home
+13|MD13|2022-10-30|A|Monaco|0|2|away
+14|MD14|2022-11-05|H|Lens|1|2|home
+15|MD15|2022-11-13|A|Lille|0|1|away
+16|MD16|2022-12-28|A|Ajaccio|0|1|away
+17|MD17|2023-01-01|H|Lorient|1|2|home
+18|MD18|2023-01-11|A|Paris SG|0|2|away
+19|MD19|2023-01-15|H|Clermont|1|2|home
+20|MD20|2023-01-29|A|Brest|0|4|away
+21|MD21|2023-02-01|H|Ajaccio|1|2|home
+22|MD22|2023-02-05|A|Lorient|0|0|away
+23|MD23|2023-02-12|H|Auxerre|1|1|home
+24|MD24|2023-02-18|A|Strasbourg|1|2|away
+25|MD25|2023-02-25|H|Lyon|1|3|home
+26|MD26|2023-03-05|A|Montpellier|0|5|away
+27|MD27|2023-03-12|H|Toulouse|0|2|home
+28|MD28|2023-03-18|A|Lens|0|3|away
+29|MD29|2023-04-02|H|Nice|1|1|home
+30|MD30|2023-04-08|H|Lille|1|0|home
+31|MD31|2023-04-16|A|Clermont|1|2|away
+32|MD32|2023-04-21|H|Paris SG|1|2|home
+33|MD33|2023-04-30|A|Rennes|2|4|away
+34|MD34|2023-05-07|H|Monaco|1|2|home
+35|MD35|2023-05-14|A|Marseille|1|3|away
+36|MD36|2023-05-21|A|Reims|2|2|away
+37|MD37|2023-05-27|H|Troyes|2|1|home
+38|MD38|2023-06-03|A|Nantes|0|1|away
+
+TEAMPIVOT|Auxerre|P38 W8 D11 L19 GF35 GA63 PTS35
+1|MD1|2022-08-07|A|Lille|1|4|away
+2|MD2|2022-08-14|H|Angers|2|2|home
+3|MD3|2022-08-21|A|Montpellier|2|1|away
+4|MD4|2022-08-27|H|Strasbourg|1|0|home
+5|MD5|2022-08-31|A|Lyon|1|2|away
+6|MD6|2022-09-03|H|Marseille|0|2|home
+7|MD7|2022-09-11|A|Rennes|0|5|away
+8|MD8|2022-09-16|H|Lorient|1|3|home
+9|MD9|2022-10-02|H|Brest|1|1|home
+10|MD10|2022-10-09|A|Clermont|1|2|away
+11|MD11|2022-10-16|H|Nice|1|1|home
+12|MD12|2022-10-23|A|Reims|1|2|away
+13|MD13|2022-10-30|H|Ajaccio|1|0|home
+14|MD14|2022-11-04|A|Troyes|1|1|away
+15|MD15|2022-11-13|A|Paris SG|0|5|away
+16|MD16|2022-12-28|H|Monaco|2|3|home
+17|MD17|2023-01-01|A|Nantes|0|1|away
+18|MD18|2023-01-11|H|Toulouse|0|5|home
+19|MD19|2023-01-14|A|Lens|0|1|away
+20|MD20|2023-01-29|H|Montpellier|0|2|home
+21|MD21|2023-02-01|A|Monaco|2|3|away
+22|MD22|2023-02-05|H|Reims|0|0|home
+23|MD23|2023-02-12|A|Angers|1|1|away
+24|MD24|2023-02-17|H|Lyon|2|1|home
+25|MD25|2023-02-26|A|Lorient|1|0|away
+26|MD26|2023-03-03|A|Nice|1|1|away
+27|MD27|2023-03-11|H|Rennes|0|0|home
+28|MD28|2023-03-19|A|Strasbourg|0|2|away
+29|MD29|2023-04-01|H|Troyes|1|0|home
+30|MD30|2023-04-09|A|Ajaccio|3|0|away
+31|MD31|2023-04-16|H|Nantes|2|1|home
+32|MD32|2023-04-22|H|Lille|1|1|home
+33|MD33|2023-04-30|A|Marseille|1|2|away
+34|MD34|2023-05-07|H|Clermont|1|1|home
+35|MD35|2023-05-14|A|Brest|0|1|away
+36|MD36|2023-05-21|H|Paris SG|1|2|home
+37|MD37|2023-05-27|A|Toulouse|1|1|away
+38|MD38|2023-06-03|H|Lens|1|3|home
+
+TEAMPIVOT|Brest|P38 W11 D11 L16 GF44 GA54 PTS44
+1|MD1|2022-08-07|A|Lens|2|3|away
+2|MD2|2022-08-14|H|Marseille|1|1|home
+3|MD3|2022-08-21|A|Angers|3|1|away
+4|MD4|2022-08-28|H|Montpellier|0|7|home
+5|MD5|2022-08-31|A|Rennes|1|3|away
+6|MD6|2022-09-04|H|Strasbourg|1|1|home
+7|MD7|2022-09-10|A|Paris SG|0|1|away
+8|MD8|2022-09-18|H|Ajaccio|0|1|home
+9|MD9|2022-10-02|A|Auxerre|1|1|away
+10|MD10|2022-10-09|H|Lorient|1|2|home
+11|MD11|2022-10-16|A|Nantes|1|4|away
+12|MD12|2022-10-23|A|Clermont|3|1|away
+13|MD13|2022-10-30|H|Reims|0|0|home
+14|MD14|2022-11-06|A|Nice|0|1|away
+15|MD15|2022-11-13|H|Troyes|2|1|home
+16|MD16|2022-12-28|H|Lyon|2|4|home
+17|MD17|2023-01-01|A|Monaco|0|1|away
+18|MD18|2023-01-11|H|Lille|0|0|home
+19|MD19|2023-01-15|A|Toulouse|1|1|away
+20|MD20|2023-01-29|H|Angers|4|0|home
+21|MD21|2023-02-01|A|Lyon|0|0|away
+22|MD22|2023-02-05|H|Lens|1|1|home
+23|MD23|2023-02-12|A|Montpellier|0|3|away
+24|MD24|2023-02-19|H|Monaco|1|2|home
+25|MD25|2023-02-24|A|Lille|1|2|away
+26|MD26|2023-03-05|A|Strasbourg|1|0|away
+27|MD27|2023-03-11|H|Paris SG|1|2|home
+28|MD28|2023-03-19|A|Troyes|2|2|away
+29|MD29|2023-04-02|H|Toulouse|3|1|home
+30|MD30|2023-04-09|A|Reims|1|1|away
+31|MD31|2023-04-16|H|Nice|1|0|home
+32|MD32|2023-04-23|A|Ajaccio|0|0|away
+33|MD33|2023-05-03|H|Nantes|2|0|home
+34|MD34|2023-05-07|A|Lorient|1|2|away
+35|MD35|2023-05-14|H|Auxerre|1|0|home
+36|MD36|2023-05-21|H|Clermont|2|1|home
+37|MD37|2023-05-27|A|Marseille|2|1|away
+38|MD38|2023-06-03|H|Rennes|1|2|home
+
+TEAMPIVOT|Clermont|P38 W17 D8 L13 GF45 GA49 PTS59
+1|MD1|2022-08-06|H|Paris SG|0|5|home
+2|MD2|2022-08-14|A|Reims|4|2|away
+3|MD3|2022-08-21|H|Nice|1|0|home
+4|MD4|2022-08-28|A|Lorient|1|2|away
+5|MD5|2022-08-31|A|Marseille|0|1|away
+6|MD6|2022-09-04|H|Toulouse|2|0|home
+7|MD7|2022-09-11|A|Strasbourg|0|0|away
+8|MD8|2022-09-18|H|Troyes|1|3|home
+9|MD9|2022-10-02|A|Ajaccio|3|1|away
+10|MD10|2022-10-09|H|Auxerre|2|1|home
+11|MD11|2022-10-16|A|Monaco|1|1|away
+12|MD12|2022-10-23|H|Brest|1|3|home
+13|MD13|2022-10-30|A|Nantes|1|1|away
+14|MD14|2022-11-06|H|Montpellier|1|1|home
+15|MD15|2022-11-12|A|Lens|1|2|away
+16|MD16|2022-12-28|H|Lille|0|2|home
+17|MD17|2023-01-01|A|Lyon|1|0|away
+18|MD18|2023-01-11|H|Rennes|2|1|home
+19|MD19|2023-01-15|A|Angers|2|1|away
+20|MD20|2023-01-29|H|Nantes|0|0|home
+21|MD21|2023-02-01|A|Lille|0|0|away
+22|MD22|2023-02-05|H|Monaco|0|2|home
+23|MD23|2023-02-11|H|Marseille|0|2|home
+24|MD24|2023-02-19|A|Rennes|0|2|away
+25|MD25|2023-02-26|H|Strasbourg|1|1|home
+26|MD26|2023-03-05|A|Toulouse|1|0|away
+27|MD27|2023-03-12|H|Lens|0|4|home
+28|MD28|2023-03-19|A|Montpellier|1|2|away
+29|MD29|2023-04-02|H|Ajaccio|2|1|home
+30|MD30|2023-04-09|A|Troyes|2|0|away
+31|MD31|2023-04-16|H|Angers|2|1|home
+32|MD32|2023-04-23|A|Nice|2|1|away
+33|MD33|2023-04-30|H|Reims|1|0|home
+34|MD34|2023-05-07|A|Auxerre|1|1|away
+35|MD35|2023-05-14|H|Lyon|2|1|home
+36|MD36|2023-05-21|A|Brest|1|2|away
+37|MD37|2023-05-27|H|Lorient|2|0|home
+38|MD38|2023-06-03|A|Paris SG|3|2|away
+
+TEAMPIVOT|Lens|P38 W25 D9 L4 GF68 GA29 PTS84
+1|MD1|2022-08-07|H|Brest|3|2|home
+2|MD2|2022-08-14|A|Ajaccio|0|0|away
+3|MD3|2022-08-20|A|Monaco|4|1|away
+4|MD4|2022-08-27|H|Rennes|2|1|home
+5|MD5|2022-08-31|H|Lorient|5|2|home
+6|MD6|2022-09-04|A|Reims|1|1|away
+7|MD7|2022-09-09|H|Troyes|1|0|home
+8|MD8|2022-09-18|A|Nantes|0|0|away
+9|MD9|2022-10-02|H|Lyon|1|0|home
+10|MD10|2022-10-09|A|Lille|0|1|away
+11|MD11|2022-10-15|H|Montpellier|1|0|home
+12|MD12|2022-10-22|A|Marseille|1|0|away
+13|MD13|2022-10-28|H|Toulouse|3|0|home
+14|MD14|2022-11-05|A|Angers|2|1|away
+15|MD15|2022-11-12|H|Clermont|2|1|home
+16|MD16|2022-12-29|A|Nice|0|0|away
+17|MD17|2023-01-01|H|Paris SG|3|1|home
+18|MD18|2023-01-11|A|Strasbourg|2|2|away
+19|MD19|2023-01-14|H|Auxerre|1|0|home
+20|MD20|2023-01-28|A|Troyes|1|1|away
+21|MD21|2023-02-01|H|Nice|0|1|home
+22|MD22|2023-02-05|A|Brest|1|1|away
+23|MD23|2023-02-12|A|Lyon|1|2|away
+24|MD24|2023-02-19|H|Nantes|3|1|home
+25|MD25|2023-02-25|A|Montpellier|1|1|away
+26|MD26|2023-03-04|H|Lille|1|1|home
+27|MD27|2023-03-12|A|Clermont|4|0|away
+28|MD28|2023-03-18|H|Angers|3|0|home
+29|MD29|2023-04-01|A|Rennes|1|0|away
+30|MD30|2023-04-07|H|Strasbourg|2|1|home
+31|MD31|2023-04-15|A|Paris SG|1|3|away
+32|MD32|2023-04-22|H|Monaco|3|0|home
+33|MD33|2023-05-02|A|Toulouse|1|0|away
+34|MD34|2023-05-06|H|Marseille|2|1|home
+35|MD35|2023-05-12|H|Reims|2|1|home
+36|MD36|2023-05-21|A|Lorient|3|1|away
+37|MD37|2023-05-27|H|Ajaccio|3|0|home
+38|MD38|2023-06-03|A|Auxerre|3|1|away
+
+TEAMPIVOT|Lille|P38 W19 D10 L9 GF65 GA44 PTS67
+1|MD1|2022-08-07|H|Auxerre|4|1|home
+2|MD2|2022-08-12|A|Nantes|1|1|away
+3|MD3|2022-08-21|H|Paris SG|1|7|home
+4|MD4|2022-08-26|A|Ajaccio|3|1|away
+5|MD5|2022-08-31|H|Nice|1|2|home
+6|MD6|2022-09-04|A|Montpellier|3|1|away
+7|MD7|2022-09-10|A|Marseille|1|2|away
+8|MD8|2022-09-17|H|Toulouse|2|1|home
+9|MD9|2022-10-02|A|Lorient|1|2|away
+10|MD10|2022-10-09|H|Lens|1|0|home
+11|MD11|2022-10-14|A|Strasbourg|3|0|away
+12|MD12|2022-10-23|H|Monaco|4|3|home
+13|MD13|2022-10-30|A|Lyon|0|1|away
+14|MD14|2022-11-06|H|Rennes|1|1|home
+15|MD15|2022-11-13|H|Angers|1|0|home
+16|MD16|2022-12-28|A|Clermont|2|0|away
+17|MD17|2023-01-02|H|Reims|1|1|home
+18|MD18|2023-01-11|A|Brest|0|0|away
+19|MD19|2023-01-15|H|Troyes|5|1|home
+20|MD20|2023-01-29|A|Nice|0|1|away
+21|MD21|2023-02-01|H|Clermont|0|0|home
+22|MD22|2023-02-04|A|Rennes|3|1|away
+23|MD23|2023-02-12|H|Strasbourg|2|0|home
+24|MD24|2023-02-19|A|Paris SG|3|4|away
+25|MD25|2023-02-24|H|Brest|2|1|home
+26|MD26|2023-03-04|A|Lens|1|1|away
+27|MD27|2023-03-10|H|Lyon|3|3|home
+28|MD28|2023-03-18|A|Toulouse|2|0|away
+29|MD29|2023-04-02|H|Lorient|3|1|home
+30|MD30|2023-04-08|A|Angers|0|1|away
+31|MD31|2023-04-16|H|Montpellier|2|1|home
+32|MD32|2023-04-22|A|Auxerre|1|1|away
+33|MD33|2023-04-29|H|Ajaccio|3|0|home
+34|MD34|2023-05-06|A|Reims|0|1|away
+35|MD35|2023-05-14|A|Monaco|0|0|away
+36|MD36|2023-05-20|H|Marseille|2|1|home
+37|MD37|2023-05-27|H|Nantes|2|1|home
+38|MD38|2023-06-03|A|Troyes|1|1|away
+
+TEAMPIVOT|Lorient|P38 W15 D10 L13 GF52 GA53 PTS55
+1|MD1|2022-08-07|A|Rennes|1|0|away
+2|MD2|2022-09-07|H|Lyon|3|1|home
+3|MD3|2022-08-21|A|Toulouse|2|2|away
+4|MD4|2022-08-28|H|Clermont|2|1|home
+5|MD5|2022-08-31|A|Lens|2|5|away
+6|MD6|2022-09-04|A|Ajaccio|1|0|away
+7|MD7|2022-09-11|H|Nantes|3|2|home
+8|MD8|2022-09-16|A|Auxerre|3|1|away
+9|MD9|2022-10-02|H|Lille|2|1|home
+10|MD10|2022-10-09|A|Brest|2|1|away
+11|MD11|2022-10-15|H|Reims|0|0|home
+12|MD12|2022-10-23|A|Troyes|2|2|away
+13|MD13|2022-10-30|H|Nice|1|2|home
+14|MD14|2022-11-06|H|Paris SG|1|2|home
+15|MD15|2022-11-13|A|Strasbourg|1|1|away
+16|MD16|2022-12-29|H|Montpellier|0|2|home
+17|MD17|2023-01-01|A|Angers|2|1|away
+18|MD18|2023-01-11|H|Monaco|2|2|home
+19|MD19|2023-01-14|A|Marseille|1|3|away
+20|MD20|2023-01-27|H|Rennes|2|1|home
+21|MD21|2023-02-01|A|Reims|2|4|away
+22|MD22|2023-02-05|H|Angers|0|0|home
+23|MD23|2023-02-12|A|Nantes|0|1|away
+24|MD24|2023-02-19|H|Ajaccio|3|0|home
+25|MD25|2023-02-26|H|Auxerre|0|1|home
+26|MD26|2023-03-05|A|Lyon|0|0|away
+27|MD27|2023-03-12|H|Troyes|2|0|home
+28|MD28|2023-03-19|A|Nice|1|1|away
+29|MD29|2023-04-02|A|Lille|1|3|away
+30|MD30|2023-04-09|H|Marseille|0|0|home
+31|MD31|2023-04-16|A|Monaco|1|3|away
+32|MD32|2023-04-23|H|Toulouse|0|1|home
+33|MD33|2023-04-30|A|Paris SG|3|1|away
+34|MD34|2023-05-07|H|Brest|2|1|home
+35|MD35|2023-05-14|A|Montpellier|1|1|away
+36|MD36|2023-05-21|H|Lens|1|3|home
+37|MD37|2023-05-27|A|Clermont|0|2|away
+38|MD38|2023-06-03|H|Strasbourg|2|1|home
+
+TEAMPIVOT|Lyon|P38 W18 D8 L12 GF65 GA47 PTS62
+1|MD1|2022-08-05|H|Ajaccio|2|1|home
+2|MD2|2022-09-07|A|Lorient|1|3|away
+3|MD3|2022-08-19|H|Troyes|4|1|home
+4|MD4|2022-08-28|A|Reims|1|1|away
+5|MD5|2022-08-31|H|Auxerre|2|1|home
+6|MD6|2022-09-03|H|Angers|5|0|home
+7|MD7|2022-09-11|A|Monaco|1|2|away
+8|MD8|2022-09-18|H|Paris SG|0|1|home
+9|MD9|2022-10-02|A|Lens|0|1|away
+10|MD10|2022-10-07|H|Toulouse|1|1|home
+11|MD11|2022-10-16|A|Rennes|2|3|away
+12|MD12|2022-10-22|A|Montpellier|2|1|away
+13|MD13|2022-10-30|H|Lille|1|0|home
+14|MD14|2022-11-06|A|Marseille|0|1|away
+15|MD15|2022-11-11|H|Nice|1|1|home
+16|MD16|2022-12-28|A|Brest|4|2|away
+17|MD17|2023-01-01|H|Clermont|0|1|home
+18|MD18|2023-01-11|A|Nantes|0|0|away
+19|MD19|2023-01-14|H|Strasbourg|1|2|home
+20|MD20|2023-01-29|A|Ajaccio|2|0|away
+21|MD21|2023-02-01|H|Brest|0|0|home
+22|MD22|2023-02-04|A|Troyes|3|1|away
+23|MD23|2023-02-12|H|Lens|2|1|home
+24|MD24|2023-02-17|A|Auxerre|1|2|away
+25|MD25|2023-02-25|A|Angers|3|1|away
+26|MD26|2023-03-05|H|Lorient|0|0|home
+27|MD27|2023-03-10|A|Lille|3|3|away
+28|MD28|2023-03-17|H|Nantes|1|1|home
+29|MD29|2023-04-02|A|Paris SG|1|0|away
+30|MD30|2023-04-09|H|Rennes|3|1|home
+31|MD31|2023-04-14|A|Toulouse|2|1|away
+32|MD32|2023-04-23|H|Marseille|1|2|home
+33|MD33|2023-04-28|A|Strasbourg|2|1|away
+34|MD34|2023-05-07|H|Montpellier|5|4|home
+35|MD35|2023-05-14|A|Clermont|1|2|away
+36|MD36|2023-05-19|H|Monaco|3|1|home
+37|MD37|2023-05-27|H|Reims|3|0|home
+38|MD38|2023-06-03|A|Nice|1|3|away
+
+TEAMPIVOT|Marseille|P38 W22 D7 L9 GF67 GA40 PTS73
+1|MD1|2022-08-07|H|Reims|4|1|home
+2|MD2|2022-08-14|A|Brest|1|1|away
+3|MD3|2022-08-20|H|Nantes|2|1|home
+4|MD4|2022-08-28|A|Nice|3|0|away
+5|MD5|2022-08-31|H|Clermont|1|0|home
+6|MD6|2022-09-03|A|Auxerre|2|0|away
+7|MD7|2022-09-10|H|Lille|2|1|home
+8|MD8|2022-09-18|H|Rennes|1|1|home
+9|MD9|2022-09-30|A|Angers|3|0|away
+10|MD10|2022-10-08|H|Ajaccio|1|2|home
+11|MD11|2022-10-16|A|Paris SG|0|1|away
+12|MD12|2022-10-22|H|Lens|0|1|home
+13|MD13|2022-10-29|A|Strasbourg|2|2|away
+14|MD14|2022-11-06|H|Lyon|1|0|home
+15|MD15|2022-11-13|A|Monaco|3|2|away
+16|MD16|2022-12-29|H|Toulouse|6|1|home
+17|MD17|2023-01-02|A|Montpellier|2|1|away
+18|MD18|2023-01-11|A|Troyes|2|0|away
+19|MD19|2023-01-14|H|Lorient|3|1|home
+20|MD20|2023-01-28|H|Monaco|1|1|home
+21|MD21|2023-02-01|A|Nantes|2|0|away
+22|MD22|2023-02-05|H|Nice|1|3|home
+23|MD23|2023-02-11|A|Clermont|2|0|away
+24|MD24|2023-02-19|A|Toulouse|3|2|away
+25|MD25|2023-02-26|H|Paris SG|0|3|home
+26|MD26|2023-03-05|A|Rennes|1|0|away
+27|MD27|2023-03-12|H|Strasbourg|2|2|home
+28|MD28|2023-03-19|A|Reims|2|1|away
+29|MD29|2023-03-31|H|Montpellier|1|1|home
+30|MD30|2023-04-09|A|Lorient|0|0|away
+31|MD31|2023-04-16|H|Troyes|3|1|home
+32|MD32|2023-04-23|A|Lyon|2|1|away
+33|MD33|2023-04-30|H|Auxerre|2|1|home
+34|MD34|2023-05-06|A|Lens|1|2|away
+35|MD35|2023-05-14|H|Angers|3|1|home
+36|MD36|2023-05-20|A|Lille|1|2|away
+37|MD37|2023-05-27|H|Brest|1|2|home
+38|MD38|2023-06-03|A|Ajaccio|0|1|away
+
+TEAMPIVOT|Monaco|P38 W19 D8 L11 GF70 GA58 PTS65
+1|MD1|2022-08-06|A|Strasbourg|2|1|away
+2|MD2|2022-08-13|H|Rennes|1|1|home
+3|MD3|2022-08-20|H|Lens|1|4|home
+4|MD4|2022-08-28|A|Paris SG|1|1|away
+5|MD5|2022-08-31|H|Troyes|2|4|home
+6|MD6|2022-09-04|A|Nice|1|0|away
+7|MD7|2022-09-11|H|Lyon|2|1|home
+8|MD8|2022-09-18|A|Reims|3|0|away
+9|MD9|2022-10-02|H|Nantes|4|1|home
+10|MD10|2022-10-09|A|Montpellier|2|0|away
+11|MD11|2022-10-16|H|Clermont|1|1|home
+12|MD12|2022-10-23|A|Lille|3|4|away
+13|MD13|2022-10-30|H|Angers|2|0|home
+14|MD14|2022-11-06|A|Toulouse|2|0|away
+15|MD15|2022-11-13|H|Marseille|2|3|home
+16|MD16|2022-12-28|A|Auxerre|3|2|away
+17|MD17|2023-01-01|H|Brest|1|0|home
+18|MD18|2023-01-11|A|Lorient|2|2|away
+19|MD19|2023-01-15|H|Ajaccio|7|1|home
+20|MD20|2023-01-28|A|Marseille|1|1|away
+21|MD21|2023-02-01|H|Auxerre|3|2|home
+22|MD22|2023-02-05|A|Clermont|2|0|away
+23|MD23|2023-02-11|H|Paris SG|3|1|home
+24|MD24|2023-02-19|A|Brest|2|1|away
+25|MD25|2023-02-26|H|Nice|0|3|home
+26|MD26|2023-03-05|A|Troyes|2|2|away
+27|MD27|2023-03-12|H|Reims|0|1|home
+28|MD28|2023-03-19|A|Ajaccio|2|0|away
+29|MD29|2023-04-02|H|Strasbourg|4|3|home
+30|MD30|2023-04-09|A|Nantes|2|2|away
+31|MD31|2023-04-16|H|Lorient|3|1|home
+32|MD32|2023-04-22|A|Lens|0|3|away
+33|MD33|2023-04-30|H|Montpellier|0|4|home
+34|MD34|2023-05-07|A|Angers|2|1|away
+35|MD35|2023-05-14|H|Lille|0|0|home
+36|MD36|2023-05-19|A|Lyon|1|3|away
+37|MD37|2023-05-27|A|Rennes|0|2|away
+38|MD38|2023-06-03|H|Toulouse|1|2|home
+
+TEAMPIVOT|Montpellier|P38 W15 D5 L18 GF65 GA62 PTS50
+1|MD1|2022-08-07|H|Troyes|3|2|home
+2|MD2|2022-08-13|A|Paris SG|2|5|away
+3|MD3|2022-08-21|H|Auxerre|1|2|home
+4|MD4|2022-08-28|A|Brest|7|0|away
+5|MD5|2022-08-31|H|Ajaccio|2|0|home
+6|MD6|2022-09-04|H|Lille|1|3|home
+7|MD7|2022-09-11|A|Angers|1|2|away
+8|MD8|2022-09-17|H|Strasbourg|2|1|home
+9|MD9|2022-10-02|A|Toulouse|2|4|away
+10|MD10|2022-10-09|H|Monaco|0|2|home
+11|MD11|2022-10-15|A|Lens|0|1|away
+12|MD12|2022-10-22|H|Lyon|1|2|home
+13|MD13|2022-10-30|A|Rennes|0|3|away
+14|MD14|2022-11-06|A|Clermont|1|1|away
+15|MD15|2022-11-13|H|Reims|1|1|home
+16|MD16|2022-12-29|A|Lorient|2|0|away
+17|MD17|2023-01-02|H|Marseille|1|2|home
+18|MD18|2023-01-11|A|Nice|1|6|away
+19|MD19|2023-01-15|H|Nantes|0|3|home
+20|MD20|2023-01-29|A|Auxerre|2|0|away
+21|MD21|2023-02-01|H|Paris SG|1|3|home
+22|MD22|2023-02-05|A|Strasbourg|0|2|away
+23|MD23|2023-02-12|H|Brest|3|0|home
+24|MD24|2023-02-19|A|Troyes|1|0|away
+25|MD25|2023-02-25|H|Lens|1|1|home
+26|MD26|2023-03-05|H|Angers|5|0|home
+27|MD27|2023-03-12|A|Ajaccio|1|0|away
+28|MD28|2023-03-19|H|Clermont|2|1|home
+29|MD29|2023-03-31|A|Marseille|1|1|away
+30|MD30|2023-04-09|H|Toulouse|1|2|home
+31|MD31|2023-04-16|A|Lille|1|2|away
+32|MD32|2023-04-23|H|Rennes|1|0|home
+33|MD33|2023-04-30|A|Monaco|4|0|away
+34|MD34|2023-05-07|A|Lyon|4|5|away
+35|MD35|2023-05-14|H|Lorient|1|1|home
+36|MD36|2023-05-20|A|Nantes|3|0|away
+37|MD37|2023-05-27|H|Nice|2|3|home
+38|MD38|2023-06-03|A|Reims|3|1|away
+
+TEAMPIVOT|Nantes|P38 W7 D15 L16 GF37 GA55 PTS36
+1|MD1|2022-08-07|A|Angers|0|0|away
+2|MD2|2022-08-12|H|Lille|1|1|home
+3|MD3|2022-08-20|A|Marseille|1|2|away
+4|MD4|2022-08-28|H|Toulouse|3|1|home
+5|MD5|2022-08-31|A|Strasbourg|1|1|away
+6|MD6|2022-09-03|H|Paris SG|0|3|home
+7|MD7|2022-09-11|A|Lorient|2|3|away
+8|MD8|2022-09-18|H|Lens|0|0|home
+9|MD9|2022-10-02|A|Monaco|1|4|away
+10|MD10|2022-10-09|A|Rennes|0|3|away
+11|MD11|2022-10-16|H|Brest|4|1|home
+12|MD12|2022-10-23|A|Nice|1|1|away
+13|MD13|2022-10-30|H|Clermont|1|1|home
+14|MD14|2022-11-06|A|Reims|0|1|away
+15|MD15|2022-11-13|H|Ajaccio|2|2|home
+16|MD16|2022-12-28|A|Troyes|0|0|away
+17|MD17|2023-01-01|H|Auxerre|1|0|home
+18|MD18|2023-01-11|H|Lyon|0|0|home
+19|MD19|2023-01-15|A|Montpellier|3|0|away
+20|MD20|2023-01-29|A|Clermont|0|0|away
+21|MD21|2023-02-01|H|Marseille|0|2|home
+22|MD22|2023-02-05|A|Ajaccio|2|0|away
+23|MD23|2023-02-12|H|Lorient|1|0|home
+24|MD24|2023-02-19|A|Lens|1|3|away
+25|MD25|2023-02-26|H|Rennes|0|1|home
+26|MD26|2023-03-04|A|Paris SG|2|4|away
+27|MD27|2023-03-12|H|Nice|2|2|home
+28|MD28|2023-03-17|A|Lyon|1|1|away
+29|MD29|2023-04-02|H|Reims|0|3|home
+30|MD30|2023-04-09|H|Monaco|2|2|home
+31|MD31|2023-04-16|A|Auxerre|1|2|away
+32|MD32|2023-04-23|H|Troyes|2|2|home
+33|MD33|2023-05-03|A|Brest|0|2|away
+34|MD34|2023-05-07|H|Strasbourg|0|2|home
+35|MD35|2023-05-14|A|Toulouse|0|0|away
+36|MD36|2023-05-20|H|Montpellier|0|3|home
+37|MD37|2023-05-27|A|Lille|1|2|away
+38|MD38|2023-06-03|H|Angers|1|0|home
+
+TEAMPIVOT|Nice|P38 W15 D13 L10 GF48 GA37 PTS58
+1|MD1|2022-08-07|A|Toulouse|1|1|away
+2|MD2|2022-08-14|H|Strasbourg|1|1|home
+3|MD3|2022-08-21|A|Clermont|0|1|away
+4|MD4|2022-08-28|H|Marseille|0|3|home
+5|MD5|2022-08-31|A|Lille|2|1|away
+6|MD6|2022-09-04|H|Monaco|0|1|home
+7|MD7|2022-09-11|A|Ajaccio|1|0|away
+8|MD8|2022-09-18|H|Angers|0|1|home
+9|MD9|2022-10-01|A|Paris SG|1|2|away
+10|MD10|2022-10-09|H|Troyes|3|2|home
+11|MD11|2022-10-16|A|Auxerre|1|1|away
+12|MD12|2022-10-23|H|Nantes|1|1|home
+13|MD13|2022-10-30|A|Lorient|2|1|away
+14|MD14|2022-11-06|H|Brest|1|0|home
+15|MD15|2022-11-11|A|Lyon|1|1|away
+16|MD16|2022-12-29|H|Lens|0|0|home
+17|MD17|2023-01-02|A|Rennes|1|2|away
+18|MD18|2023-01-11|H|Montpellier|6|1|home
+19|MD19|2023-01-15|A|Reims|0|0|away
+20|MD20|2023-01-29|H|Lille|1|0|home
+21|MD21|2023-02-01|A|Lens|1|0|away
+22|MD22|2023-02-05|A|Marseille|3|1|away
+23|MD23|2023-02-10|H|Ajaccio|3|0|home
+24|MD24|2023-02-18|H|Reims|0|0|home
+25|MD25|2023-02-26|A|Monaco|3|0|away
+26|MD26|2023-03-03|H|Auxerre|1|1|home
+27|MD27|2023-03-12|A|Nantes|2|2|away
+28|MD28|2023-03-19|H|Lorient|1|1|home
+29|MD29|2023-04-02|A|Angers|1|1|away
+30|MD30|2023-04-08|H|Paris SG|0|2|home
+31|MD31|2023-04-16|A|Brest|0|1|away
+32|MD32|2023-04-23|H|Clermont|1|2|home
+33|MD33|2023-04-30|A|Troyes|1|0|away
+34|MD34|2023-05-06|H|Rennes|2|1|home
+35|MD35|2023-05-13|A|Strasbourg|0|2|away
+36|MD36|2023-05-21|H|Toulouse|0|0|home
+37|MD37|2023-05-27|A|Montpellier|3|2|away
+38|MD38|2023-06-03|H|Lyon|3|1|home
+
+TEAMPIVOT|Paris SG|P38 W27 D4 L7 GF89 GA40 PTS85
+1|MD1|2022-08-06|A|Clermont|5|0|away
+2|MD2|2022-08-13|H|Montpellier|5|2|home
+3|MD3|2022-08-21|A|Lille|7|1|away
+4|MD4|2022-08-28|H|Monaco|1|1|home
+5|MD5|2022-08-31|A|Toulouse|3|0|away
+6|MD6|2022-09-03|A|Nantes|3|0|away
+7|MD7|2022-09-10|H|Brest|1|0|home
+8|MD8|2022-09-18|A|Lyon|1|0|away
+9|MD9|2022-10-01|H|Nice|2|1|home
+10|MD10|2022-10-08|A|Reims|0|0|away
+11|MD11|2022-10-16|H|Marseille|1|0|home
+12|MD12|2022-10-21|A|Ajaccio|3|0|away
+13|MD13|2022-10-29|H|Troyes|4|3|home
+14|MD14|2022-11-06|A|Lorient|2|1|away
+15|MD15|2022-11-13|H|Auxerre|5|0|home
+16|MD16|2022-12-28|H|Strasbourg|2|1|home
+17|MD17|2023-01-01|A|Lens|1|3|away
+18|MD18|2023-01-11|H|Angers|2|0|home
+19|MD19|2023-01-15|A|Rennes|0|1|away
+20|MD20|2023-01-29|H|Reims|1|1|home
+21|MD21|2023-02-01|A|Montpellier|3|1|away
+22|MD22|2023-02-04|H|Toulouse|2|1|home
+23|MD23|2023-02-11|A|Monaco|1|3|away
+24|MD24|2023-02-19|H|Lille|4|3|home
+25|MD25|2023-02-26|A|Marseille|3|0|away
+26|MD26|2023-03-04|H|Nantes|4|2|home
+27|MD27|2023-03-11|A|Brest|2|1|away
+28|MD28|2023-03-19|H|Rennes|0|2|home
+29|MD29|2023-04-02|H|Lyon|0|1|home
+30|MD30|2023-04-08|A|Nice|2|0|away
+31|MD31|2023-04-15|H|Lens|3|1|home
+32|MD32|2023-04-21|A|Angers|2|1|away
+33|MD33|2023-04-30|H|Lorient|1|3|home
+34|MD34|2023-05-07|A|Troyes|3|1|away
+35|MD35|2023-05-13|H|Ajaccio|5|0|home
+36|MD36|2023-05-21|A|Auxerre|2|1|away
+37|MD37|2023-05-27|A|Strasbourg|1|1|away
+38|MD38|2023-06-03|H|Clermont|2|3|home
+
+TEAMPIVOT|Reims|P38 W12 D15 L11 GF45 GA45 PTS51
+1|MD1|2022-08-07|A|Marseille|1|4|away
+2|MD2|2022-08-14|H|Clermont|2|4|home
+3|MD3|2022-08-21|A|Strasbourg|1|1|away
+4|MD4|2022-08-28|H|Lyon|1|1|home
+5|MD5|2022-08-31|A|Angers|4|2|away
+6|MD6|2022-09-04|H|Lens|1|1|home
+7|MD7|2022-09-11|A|Toulouse|0|1|away
+8|MD8|2022-09-18|H|Monaco|0|3|home
+9|MD9|2022-10-02|A|Troyes|2|2|away
+10|MD10|2022-10-08|H|Paris SG|0|0|home
+11|MD11|2022-10-15|A|Lorient|0|0|away
+12|MD12|2022-10-23|H|Auxerre|2|1|home
+13|MD13|2022-10-30|A|Brest|0|0|away
+14|MD14|2022-11-06|H|Nantes|1|0|home
+15|MD15|2022-11-13|A|Montpellier|1|1|away
+16|MD16|2022-12-29|H|Rennes|3|1|home
+17|MD17|2023-01-02|A|Lille|1|1|away
+18|MD18|2023-01-11|A|Ajaccio|1|0|away
+19|MD19|2023-01-15|H|Nice|0|0|home
+20|MD20|2023-01-29|A|Paris SG|1|1|away
+21|MD21|2023-02-01|H|Lorient|4|2|home
+22|MD22|2023-02-05|A|Auxerre|0|0|away
+23|MD23|2023-02-12|H|Troyes|4|0|home
+24|MD24|2023-02-18|A|Nice|0|0|away
+25|MD25|2023-02-26|H|Toulouse|3|0|home
+26|MD26|2023-03-05|H|Ajaccio|1|0|home
+27|MD27|2023-03-12|A|Monaco|1|0|away
+28|MD28|2023-03-19|H|Marseille|1|2|home
+29|MD29|2023-04-02|A|Nantes|3|0|away
+30|MD30|2023-04-09|H|Brest|1|1|home
+31|MD31|2023-04-15|A|Rennes|0|3|away
+32|MD32|2023-04-23|H|Strasbourg|0|2|home
+33|MD33|2023-04-30|A|Clermont|0|1|away
+34|MD34|2023-05-06|H|Lille|1|0|home
+35|MD35|2023-05-12|A|Lens|1|2|away
+36|MD36|2023-05-21|H|Angers|2|2|home
+37|MD37|2023-05-27|A|Lyon|0|3|away
+38|MD38|2023-06-03|H|Montpellier|1|3|home
+
+TEAMPIVOT|Rennes|P38 W21 D5 L12 GF69 GA39 PTS68
+1|MD1|2022-08-07|H|Lorient|0|1|home
+2|MD2|2022-08-13|A|Monaco|1|1|away
+3|MD3|2022-08-21|H|Ajaccio|2|1|home
+4|MD4|2022-08-27|A|Lens|1|2|away
+5|MD5|2022-08-31|H|Brest|3|1|home
+6|MD6|2022-09-04|A|Troyes|1|1|away
+7|MD7|2022-09-11|H|Auxerre|5|0|home
+8|MD8|2022-09-18|A|Marseille|1|1|away
+9|MD9|2022-10-01|A|Strasbourg|3|1|away
+10|MD10|2022-10-09|H|Nantes|3|0|home
+11|MD11|2022-10-16|H|Lyon|3|2|home
+12|MD12|2022-10-23|A|Angers|2|1|away
+13|MD13|2022-10-30|H|Montpellier|3|0|home
+14|MD14|2022-11-06|A|Lille|1|1|away
+15|MD15|2022-11-12|H|Toulouse|2|1|home
+16|MD16|2022-12-29|A|Reims|1|3|away
+17|MD17|2023-01-02|H|Nice|2|1|home
+18|MD18|2023-01-11|A|Clermont|1|2|away
+19|MD19|2023-01-15|H|Paris SG|1|0|home
+20|MD20|2023-01-27|A|Lorient|1|2|away
+21|MD21|2023-02-01|H|Strasbourg|3|0|home
+22|MD22|2023-02-04|H|Lille|1|3|home
+23|MD23|2023-02-12|A|Toulouse|1|3|away
+24|MD24|2023-02-19|H|Clermont|2|0|home
+25|MD25|2023-02-26|A|Nantes|1|0|away
+26|MD26|2023-03-05|H|Marseille|0|1|home
+27|MD27|2023-03-11|A|Auxerre|0|0|away
+28|MD28|2023-03-19|A|Paris SG|2|0|away
+29|MD29|2023-04-01|H|Lens|0|1|home
+30|MD30|2023-04-09|A|Lyon|1|3|away
+31|MD31|2023-04-15|H|Reims|3|0|home
+32|MD32|2023-04-23|A|Montpellier|0|1|away
+33|MD33|2023-04-30|H|Angers|4|2|home
+34|MD34|2023-05-06|A|Nice|1|2|away
+35|MD35|2023-05-14|H|Troyes|4|0|home
+36|MD36|2023-05-21|A|Ajaccio|5|0|away
+37|MD37|2023-05-27|H|Monaco|2|0|home
+38|MD38|2023-06-03|A|Brest|2|1|away
+
+TEAMPIVOT|Strasbourg|P38 W9 D13 L16 GF51 GA59 PTS40
+1|MD1|2022-08-06|H|Monaco|1|2|home
+2|MD2|2022-08-14|A|Nice|1|1|away
+3|MD3|2022-08-21|H|Reims|1|1|home
+4|MD4|2022-08-27|A|Auxerre|0|1|away
+5|MD5|2022-08-31|H|Nantes|1|1|home
+6|MD6|2022-09-04|A|Brest|1|1|away
+7|MD7|2022-09-11|H|Clermont|0|0|home
+8|MD8|2022-09-17|A|Montpellier|1|2|away
+9|MD9|2022-10-01|H|Rennes|1|3|home
+10|MD10|2022-10-09|A|Angers|3|2|away
+11|MD11|2022-10-14|H|Lille|0|3|home
+12|MD12|2022-10-23|A|Toulouse|2|2|away
+13|MD13|2022-10-29|H|Marseille|2|2|home
+14|MD14|2022-11-05|A|Ajaccio|2|4|away
+15|MD15|2022-11-13|H|Lorient|1|1|home
+16|MD16|2022-12-28|A|Paris SG|1|2|away
+17|MD17|2023-01-02|H|Troyes|2|3|home
+18|MD18|2023-01-11|H|Lens|2|2|home
+19|MD19|2023-01-14|A|Lyon|2|1|away
+20|MD20|2023-01-29|H|Toulouse|1|2|home
+21|MD21|2023-02-01|A|Rennes|0|3|away
+22|MD22|2023-02-05|H|Montpellier|2|0|home
+23|MD23|2023-02-12|A|Lille|0|2|away
+24|MD24|2023-02-18|H|Angers|2|1|home
+25|MD25|2023-02-26|A|Clermont|1|1|away
+26|MD26|2023-03-05|H|Brest|0|1|home
+27|MD27|2023-03-12|A|Marseille|2|2|away
+28|MD28|2023-03-19|H|Auxerre|2|0|home
+29|MD29|2023-04-02|A|Monaco|3|4|away
+30|MD30|2023-04-07|A|Lens|1|2|away
+31|MD31|2023-04-16|H|Ajaccio|3|1|home
+32|MD32|2023-04-23|A|Reims|2|0|away
+33|MD33|2023-04-28|H|Lyon|1|2|home
+34|MD34|2023-05-07|A|Nantes|2|0|away
+35|MD35|2023-05-13|H|Nice|2|0|home
+36|MD36|2023-05-21|A|Troyes|1|1|away
+37|MD37|2023-05-27|H|Paris SG|1|1|home
+38|MD38|2023-06-03|A|Lorient|1|2|away
+
+TEAMPIVOT|Toulouse|P38 W13 D9 L16 GF51 GA57 PTS48
+1|MD1|2022-08-07|H|Nice|1|1|home
+2|MD2|2022-08-14|A|Troyes|3|0|away
+3|MD3|2022-08-21|H|Lorient|2|2|home
+4|MD4|2022-08-28|A|Nantes|1|3|away
+5|MD5|2022-08-31|H|Paris SG|0|3|home
+6|MD6|2022-09-04|A|Clermont|0|2|away
+7|MD7|2022-09-11|H|Reims|1|0|home
+8|MD8|2022-09-17|A|Lille|1|2|away
+9|MD9|2022-10-02|H|Montpellier|4|2|home
+10|MD10|2022-10-07|A|Lyon|1|1|away
+11|MD11|2022-10-16|H|Angers|3|2|home
+12|MD12|2022-10-23|H|Strasbourg|2|2|home
+13|MD13|2022-10-28|A|Lens|0|3|away
+14|MD14|2022-11-06|H|Monaco|0|2|home
+15|MD15|2022-11-12|A|Rennes|1|2|away
+16|MD16|2022-12-29|A|Marseille|1|6|away
+17|MD17|2023-01-01|H|Ajaccio|2|0|home
+18|MD18|2023-01-11|A|Auxerre|5|0|away
+19|MD19|2023-01-15|H|Brest|1|1|home
+20|MD20|2023-01-29|A|Strasbourg|2|1|away
+21|MD21|2023-02-01|H|Troyes|4|1|home
+22|MD22|2023-02-04|A|Paris SG|1|2|away
+23|MD23|2023-02-12|H|Rennes|3|1|home
+24|MD24|2023-02-19|H|Marseille|2|3|home
+25|MD25|2023-02-26|A|Reims|0|3|away
+26|MD26|2023-03-05|H|Clermont|0|1|home
+27|MD27|2023-03-12|A|Angers|2|0|away
+28|MD28|2023-03-18|H|Lille|0|2|home
+29|MD29|2023-04-02|A|Brest|1|3|away
+30|MD30|2023-04-09|A|Montpellier|2|1|away
+31|MD31|2023-04-14|H|Lyon|1|2|home
+32|MD32|2023-04-23|A|Lorient|1|0|away
+33|MD33|2023-05-02|H|Lens|0|1|home
+34|MD34|2023-05-07|A|Ajaccio|0|0|away
+35|MD35|2023-05-14|H|Nantes|0|0|home
+36|MD36|2023-05-21|A|Nice|0|0|away
+37|MD37|2023-05-27|H|Auxerre|1|1|home
+38|MD38|2023-06-03|A|Monaco|2|1|away
+
+TEAMPIVOT|Troyes|P38 W4 D12 L22 GF45 GA81 PTS24
+1|MD1|2022-08-07|A|Montpellier|2|3|away
+2|MD2|2022-08-14|H|Toulouse|0|3|home
+3|MD3|2022-08-19|A|Lyon|1|4|away
+4|MD4|2022-08-28|H|Angers|3|1|home
+5|MD5|2022-08-31|A|Monaco|4|2|away
+6|MD6|2022-09-04|H|Rennes|1|1|home
+7|MD7|2022-09-09|A|Lens|0|1|away
+8|MD8|2022-09-18|A|Clermont|3|1|away
+9|MD9|2022-10-02|H|Reims|2|2|home
+10|MD10|2022-10-09|A|Nice|2|3|away
+11|MD11|2022-10-16|H|Ajaccio|1|1|home
+12|MD12|2022-10-23|H|Lorient|2|2|home
+13|MD13|2022-10-29|A|Paris SG|3|4|away
+14|MD14|2022-11-04|H|Auxerre|1|1|home
+15|MD15|2022-11-13|A|Brest|1|2|away
+16|MD16|2022-12-28|H|Nantes|0|0|home
+17|MD17|2023-01-02|A|Strasbourg|3|2|away
+18|MD18|2023-01-11|H|Marseille|0|2|home
+19|MD19|2023-01-15|A|Lille|1|5|away
+20|MD20|2023-01-28|H|Lens|1|1|home
+21|MD21|2023-02-01|A|Toulouse|1|4|away
+22|MD22|2023-02-04|H|Lyon|1|3|home
+23|MD23|2023-02-12|A|Reims|0|4|away
+24|MD24|2023-02-19|H|Montpellier|0|1|home
+25|MD25|2023-02-26|A|Ajaccio|1|2|away
+26|MD26|2023-03-05|H|Monaco|2|2|home
+27|MD27|2023-03-12|A|Lorient|0|2|away
+28|MD28|2023-03-19|H|Brest|2|2|home
+29|MD29|2023-04-01|A|Auxerre|0|1|away
+30|MD30|2023-04-09|H|Clermont|0|2|home
+31|MD31|2023-04-16|A|Marseille|1|3|away
+32|MD32|2023-04-23|A|Nantes|2|2|away
+33|MD33|2023-04-30|H|Nice|0|1|home
+34|MD34|2023-05-07|H|Paris SG|1|3|home
+35|MD35|2023-05-14|A|Rennes|0|4|away
+36|MD36|2023-05-21|H|Strasbourg|1|1|home
+37|MD37|2023-05-27|A|Angers|1|2|away
+38|MD38|2023-06-03|H|Lille|1|1|home
+
+### PIVOT 2023-24 (re-derived from the pack's own rows; each club = its 34 games in round order; summary gated vs the season TABLE constants)
+TEAMPIVOT|Brest|P34 W17 D10 L7 GF53 GA34 PTS61
+1|MD1|2023-08-13|H|Lens|3|2|home
+2|MD2|2023-08-20|A|Le Havre|2|1|away
+3|MD3|2023-08-26|A|Marseille|0|2|away
+4|MD4|2023-09-02|H|Rennes|0|0|home
+5|MD5|2023-09-17|A|Reims|2|1|away
+6|MD6|2023-09-23|H|Lyon|1|0|home
+7|MD7|2023-10-01|A|Nice|0|0|away
+8|MD8|2023-10-08|H|Toulouse|1|1|home
+9|MD9|2023-10-22|A|Lille|0|1|away
+10|MD10|2023-10-29|H|Paris SG|2|3|home
+11|MD11|2023-11-05|A|Monaco|0|2|away
+12|MD12|2023-12-07|H|Strasbourg|1|1|home
+13|MD13|2023-11-26|A|Montpellier|3|1|away
+14|MD14|2023-12-03|H|Clermont|3|0|home
+15|MD15|2023-12-10|A|Metz|1|0|away
+16|MD16|2023-12-17|A|Nantes|2|0|away
+17|MD17|2023-12-20|H|Lorient|4|0|home
+18|MD18|2024-01-14|H|Montpellier|2|0|home
+19|MD19|2024-01-28|A|Paris SG|2|2|away
+20|MD20|2024-02-04|H|Nice|0|0|home
+21|MD21|2024-02-11|A|Clermont|1|1|away
+22|MD22|2024-02-18|H|Marseille|1|0|home
+23|MD23|2024-02-24|A|Strasbourg|3|0|away
+24|MD24|2024-03-03|H|Le Havre|1|0|home
+25|MD25|2024-03-09|A|Lens|0|1|away
+26|MD26|2024-03-17|H|Lille|1|1|home
+27|MD27|2024-03-31|A|Lorient|1|0|away
+28|MD28|2024-04-07|H|Metz|4|3|home
+29|MD29|2024-04-14|A|Lyon|3|4|away
+30|MD30|2024-04-21|H|Monaco|0|2|home
+31|MD31|2024-04-28|A|Rennes|5|4|away
+32|MD32|2024-05-04|H|Nantes|0|0|home
+33|MD33|2024-05-10|H|Reims|1|1|home
+34|MD34|2024-05-19|A|Toulouse|3|0|away
+
+TEAMPIVOT|Clermont|P34 W5 D10 L19 GF26 GA60 PTS25
+1|MD1|2023-08-13|H|Monaco|2|4|home
+2|MD2|2023-08-20|A|Reims|0|2|away
+3|MD3|2023-08-27|H|Metz|0|1|home
+4|MD4|2023-09-03|A|Toulouse|2|2|away
+5|MD5|2023-09-17|H|Nantes|0|1|home
+6|MD6|2023-09-24|A|Le Havre|1|2|away
+7|MD7|2023-09-30|H|Paris SG|0|0|home
+8|MD8|2023-11-29|A|Montpellier|1|1|away
+9|MD9|2023-10-22|A|Lyon|2|1|away
+10|MD10|2023-10-27|H|Nice|0|1|home
+11|MD11|2023-11-05|A|Strasbourg|0|0|away
+12|MD12|2023-11-12|H|Lorient|1|0|home
+13|MD13|2023-11-25|H|Lens|0|3|home
+14|MD14|2023-12-03|A|Brest|0|3|away
+15|MD15|2023-12-10|H|Lille|0|0|home
+16|MD16|2023-12-17|A|Marseille|1|2|away
+17|MD17|2023-12-20|H|Rennes|1|3|home
+18|MD18|2024-01-14|A|Nantes|2|1|away
+19|MD19|2024-01-28|H|Strasbourg|1|1|home
+20|MD20|2024-02-04|A|Lille|0|4|away
+21|MD21|2024-02-11|H|Brest|1|1|home
+22|MD22|2024-02-18|A|Rennes|1|3|away
+23|MD23|2024-02-25|A|Nice|0|0|away
+24|MD24|2024-03-02|H|Marseille|1|5|home
+25|MD25|2024-03-10|A|Metz|0|1|away
+26|MD26|2024-03-17|H|Le Havre|2|1|home
+27|MD27|2024-03-31|H|Toulouse|0|3|home
+28|MD28|2024-04-06|A|Paris SG|1|1|away
+29|MD29|2024-04-14|H|Montpellier|1|1|home
+30|MD30|2024-04-20|A|Lens|0|1|away
+31|MD31|2024-04-28|H|Reims|4|1|home
+32|MD32|2024-05-04|A|Monaco|1|4|away
+33|MD33|2024-05-12|H|Lyon|0|1|home
+34|MD34|2024-05-19|A|Lorient|0|5|away
+
+TEAMPIVOT|Le Havre|P34 W7 D11 L16 GF34 GA45 PTS32
+1|MD1|2023-08-13|A|Montpellier|2|2|away
+2|MD2|2023-08-20|H|Brest|1|2|home
+3|MD3|2023-08-27|A|Rennes|2|2|away
+4|MD4|2023-09-03|H|Lorient|3|0|home
+5|MD5|2023-09-17|A|Lyon|0|0|away
+6|MD6|2023-09-24|H|Clermont|2|1|home
+7|MD7|2023-10-01|H|Lille|0|2|home
+8|MD8|2023-10-08|A|Marseille|0|3|away
+9|MD9|2023-10-20|H|Lens|0|0|home
+10|MD10|2023-10-29|A|Metz|0|0|away
+11|MD11|2023-11-05|A|Toulouse|2|1|away
+12|MD12|2023-11-11|H|Monaco|0|0|home
+13|MD13|2023-11-26|A|Nantes|0|0|away
+14|MD14|2023-12-03|H|Paris SG|0|2|home
+15|MD15|2023-12-10|A|Strasbourg|1|2|away
+16|MD16|2023-12-16|H|Nice|3|1|home
+17|MD17|2023-12-20|A|Reims|0|1|away
+18|MD18|2024-01-14|H|Lyon|3|1|home
+19|MD19|2024-01-28|A|Lorient|3|3|away
+20|MD20|2024-02-04|A|Monaco|1|1|away
+21|MD21|2024-02-11|H|Rennes|0|1|home
+22|MD22|2024-02-17|A|Lille|0|3|away
+23|MD23|2024-02-25|H|Reims|1|2|home
+24|MD24|2024-03-03|A|Brest|0|1|away
+25|MD25|2024-03-10|H|Toulouse|1|0|home
+26|MD26|2024-03-17|A|Clermont|1|2|away
+27|MD27|2024-03-31|H|Montpellier|0|2|home
+28|MD28|2024-04-06|A|Lens|1|1|away
+29|MD29|2024-04-14|H|Nantes|0|1|home
+30|MD30|2024-04-21|H|Metz|0|1|home
+31|MD31|2024-04-27|A|Paris SG|3|3|away
+32|MD32|2024-05-04|H|Strasbourg|3|1|home
+33|MD33|2024-05-10|A|Nice|0|1|away
+34|MD34|2024-05-19|H|Marseille|1|2|home
+
+TEAMPIVOT|Lens|P34 W14 D9 L11 GF45 GA37 PTS51
+1|MD1|2023-08-13|A|Brest|2|3|away
+2|MD2|2023-08-20|H|Rennes|1|1|home
+3|MD3|2023-08-26|A|Paris SG|1|3|away
+4|MD4|2023-09-02|A|Monaco|0|3|away
+5|MD5|2023-09-16|H|Metz|0|1|home
+6|MD6|2023-09-24|H|Toulouse|2|1|home
+7|MD7|2023-09-29|A|Strasbourg|1|0|away
+8|MD8|2023-10-08|H|Lille|1|1|home
+9|MD9|2023-10-20|A|Le Havre|0|0|away
+10|MD10|2023-10-28|H|Nantes|4|0|home
+11|MD11|2023-11-04|A|Lorient|0|0|away
+12|MD12|2023-11-12|H|Marseille|1|0|home
+13|MD13|2023-11-25|A|Clermont|3|0|away
+14|MD14|2023-12-02|H|Lyon|3|2|home
+15|MD15|2023-12-08|A|Montpellier|0|0|away
+16|MD16|2023-12-16|H|Reims|2|0|home
+17|MD17|2023-12-20|A|Nice|0|2|away
+18|MD18|2024-01-14|H|Paris SG|0|2|home
+19|MD19|2024-01-28|A|Toulouse|2|0|away
+20|MD20|2024-02-03|A|Nantes|1|0|away
+21|MD21|2024-02-10|H|Strasbourg|3|1|home
+22|MD22|2024-02-18|A|Reims|1|1|away
+23|MD23|2024-02-25|H|Monaco|2|3|home
+24|MD24|2024-03-03|A|Lyon|3|0|away
+25|MD25|2024-03-09|H|Brest|1|0|home
+26|MD26|2024-03-16|H|Nice|1|3|home
+27|MD27|2024-03-29|A|Lille|1|2|away
+28|MD28|2024-04-06|H|Le Havre|1|1|home
+29|MD29|2024-04-12|A|Metz|1|2|away
+30|MD30|2024-04-20|H|Clermont|1|0|home
+31|MD31|2024-04-28|A|Marseille|1|2|away
+32|MD32|2024-05-03|H|Lorient|2|0|home
+33|MD33|2024-05-12|A|Rennes|1|1|away
+34|MD34|2024-05-19|H|Montpellier|2|2|home
+
+TEAMPIVOT|Lille|P34 W16 D11 L7 GF52 GA34 PTS59
+1|MD1|2023-08-11|A|Nice|1|1|away
+2|MD2|2023-08-20|H|Nantes|2|0|home
+3|MD3|2023-08-27|A|Lorient|1|4|away
+4|MD4|2023-09-03|H|Montpellier|1|0|home
+5|MD5|2023-09-16|A|Rennes|2|2|away
+6|MD6|2023-09-26|H|Reims|1|2|home
+7|MD7|2023-10-01|A|Le Havre|2|0|away
+8|MD8|2023-10-08|A|Lens|1|1|away
+9|MD9|2023-10-22|H|Brest|1|0|home
+10|MD10|2023-10-29|H|Monaco|2|0|home
+11|MD11|2023-11-04|A|Marseille|0|0|away
+12|MD12|2023-11-12|H|Toulouse|1|1|home
+13|MD13|2023-11-26|A|Lyon|2|0|away
+14|MD14|2023-12-03|H|Metz|2|0|home
+15|MD15|2023-12-10|A|Clermont|0|0|away
+16|MD16|2023-12-17|H|Paris SG|1|1|home
+17|MD17|2023-12-20|A|Strasbourg|1|2|away
+18|MD18|2024-01-14|H|Lorient|3|0|home
+19|MD19|2024-01-28|A|Montpellier|0|0|away
+20|MD20|2024-02-04|H|Clermont|4|0|home
+21|MD21|2024-02-10|A|Paris SG|1|3|away
+22|MD22|2024-02-17|H|Le Havre|3|0|home
+23|MD23|2024-02-25|A|Toulouse|1|3|away
+24|MD24|2024-03-02|A|Reims|1|0|away
+25|MD25|2024-03-10|H|Rennes|2|2|home
+26|MD26|2024-03-17|A|Brest|1|1|away
+27|MD27|2024-03-29|H|Lens|2|1|home
+28|MD28|2024-04-05|H|Marseille|3|1|home
+29|MD29|2024-04-24|A|Monaco|0|1|away
+30|MD30|2024-04-21|H|Strasbourg|1|0|home
+31|MD31|2024-04-28|A|Metz|2|1|away
+32|MD32|2024-05-06|H|Lyon|3|4|home
+33|MD33|2024-05-12|A|Nantes|2|1|away
+34|MD34|2024-05-19|H|Nice|2|2|home
+
+TEAMPIVOT|Lorient|P34 W7 D8 L19 GF43 GA66 PTS29
+1|MD1|2023-08-12|A|Paris SG|0|0|away
+2|MD2|2023-08-20|H|Nice|1|1|home
+3|MD3|2023-08-27|H|Lille|4|1|home
+4|MD4|2023-09-03|A|Le Havre|0|3|away
+5|MD5|2023-09-17|H|Monaco|2|2|home
+6|MD6|2023-09-23|A|Nantes|3|5|away
+7|MD7|2023-10-01|H|Montpellier|0|3|home
+8|MD8|2023-10-08|A|Lyon|3|3|away
+9|MD9|2023-10-22|H|Rennes|2|1|home
+10|MD10|2023-10-28|A|Reims|0|1|away
+11|MD11|2023-11-04|H|Lens|0|0|home
+12|MD12|2023-11-12|A|Clermont|0|1|away
+13|MD13|2023-11-26|H|Metz|2|3|home
+14|MD14|2023-12-03|A|Toulouse|1|1|away
+15|MD15|2023-12-10|H|Marseille|2|4|home
+16|MD16|2023-12-17|H|Strasbourg|1|2|home
+17|MD17|2023-12-20|A|Brest|0|4|away
+18|MD18|2024-01-14|A|Lille|0|3|away
+19|MD19|2024-01-28|H|Le Havre|3|3|home
+20|MD20|2024-02-04|A|Metz|2|1|away
+21|MD21|2024-02-11|H|Reims|2|0|home
+22|MD22|2024-02-18|A|Strasbourg|3|1|away
+23|MD23|2024-02-24|H|Nantes|0|1|home
+24|MD24|2024-03-03|A|Rennes|2|1|away
+25|MD25|2024-03-09|H|Lyon|0|2|home
+26|MD26|2024-03-17|A|Monaco|2|2|away
+27|MD27|2024-03-31|H|Brest|0|1|home
+28|MD28|2024-04-07|A|Montpellier|0|2|away
+29|MD29|2024-04-24|H|Paris SG|1|4|home
+30|MD30|2024-04-19|A|Nice|0|3|away
+31|MD31|2024-04-28|H|Toulouse|1|2|home
+32|MD32|2024-05-03|A|Lens|0|2|away
+33|MD33|2024-05-12|A|Marseille|1|3|away
+34|MD34|2024-05-19|H|Clermont|5|0|home
+
+TEAMPIVOT|Lyon|P34 W16 D5 L13 GF49 GA55 PTS53
+1|MD1|2023-08-13|A|Strasbourg|1|2|away
+2|MD2|2023-08-19|H|Montpellier|1|4|home
+3|MD3|2023-08-27|A|Nice|0|0|away
+4|MD4|2023-09-03|H|Paris SG|1|4|home
+5|MD5|2023-09-17|H|Le Havre|0|0|home
+6|MD6|2023-09-23|A|Brest|0|1|away
+7|MD7|2023-10-01|A|Reims|0|2|away
+8|MD8|2023-10-08|H|Lorient|3|3|home
+9|MD9|2023-10-22|H|Clermont|1|2|home
+10|MD10|2023-12-06|A|Marseille|0|3|away
+11|MD11|2023-11-05|H|Metz|1|1|home
+12|MD12|2023-11-12|A|Rennes|1|0|away
+13|MD13|2023-11-26|H|Lille|0|2|home
+14|MD14|2023-12-02|A|Lens|2|3|away
+15|MD15|2023-12-10|H|Toulouse|3|0|home
+16|MD16|2023-12-15|A|Monaco|1|0|away
+17|MD17|2023-12-20|H|Nantes|1|0|home
+18|MD18|2024-01-14|A|Le Havre|1|3|away
+19|MD19|2024-01-26|H|Rennes|2|3|home
+20|MD20|2024-02-04|H|Marseille|1|0|home
+21|MD21|2024-02-11|A|Montpellier|2|1|away
+22|MD22|2024-02-16|H|Nice|1|0|home
+23|MD23|2024-02-23|A|Metz|2|1|away
+24|MD24|2024-03-03|H|Lens|0|3|home
+25|MD25|2024-03-09|A|Lorient|2|0|away
+26|MD26|2024-03-15|A|Toulouse|3|2|away
+27|MD27|2024-03-30|H|Reims|1|1|home
+28|MD28|2024-04-07|A|Nantes|3|1|away
+29|MD29|2024-04-14|H|Brest|4|3|home
+30|MD30|2024-04-21|A|Paris SG|1|4|away
+31|MD31|2024-04-28|H|Monaco|3|2|home
+32|MD32|2024-05-06|A|Lille|4|3|away
+33|MD33|2024-05-12|A|Clermont|1|0|away
+34|MD34|2024-05-19|H|Strasbourg|2|1|home
+
+TEAMPIVOT|Marseille|P34 W13 D11 L10 GF52 GA41 PTS50
+1|MD1|2023-08-12|H|Reims|2|1|home
+2|MD2|2023-08-18|A|Metz|2|2|away
+3|MD3|2023-08-26|H|Brest|2|0|home
+4|MD4|2023-09-01|A|Nantes|1|1|away
+5|MD5|2023-09-17|H|Toulouse|0|0|home
+6|MD6|2023-09-24|A|Paris SG|0|4|away
+7|MD7|2023-09-30|A|Monaco|2|3|away
+8|MD8|2023-10-08|H|Le Havre|3|0|home
+9|MD9|2023-10-21|A|Nice|0|1|away
+10|MD10|2023-12-06|H|Lyon|3|0|home
+11|MD11|2023-11-04|H|Lille|0|0|home
+12|MD12|2023-11-12|A|Lens|0|1|away
+13|MD13|2023-11-25|A|Strasbourg|1|1|away
+14|MD14|2023-12-03|H|Rennes|2|0|home
+15|MD15|2023-12-10|A|Lorient|4|2|away
+16|MD16|2023-12-17|H|Clermont|2|1|home
+17|MD17|2023-12-20|A|Montpellier|1|1|away
+18|MD18|2024-01-12|H|Strasbourg|1|1|home
+19|MD19|2024-01-27|H|Monaco|2|2|home
+20|MD20|2024-02-04|A|Lyon|0|1|away
+21|MD21|2024-02-09|H|Metz|1|1|home
+22|MD22|2024-02-18|A|Brest|0|1|away
+23|MD23|2024-02-25|H|Montpellier|4|1|home
+24|MD24|2024-03-02|A|Clermont|5|1|away
+25|MD25|2024-03-10|H|Nantes|2|0|home
+26|MD26|2024-03-17|A|Rennes|0|2|away
+27|MD27|2024-03-31|H|Paris SG|0|2|home
+28|MD28|2024-04-05|A|Lille|1|3|away
+29|MD29|2024-04-24|H|Nice|2|2|home
+30|MD30|2024-04-21|A|Toulouse|2|2|away
+31|MD31|2024-04-28|H|Lens|2|1|home
+32|MD32|2024-05-15|A|Reims|0|1|away
+33|MD33|2024-05-12|H|Lorient|3|1|home
+34|MD34|2024-05-19|A|Le Havre|2|1|away
+
+TEAMPIVOT|Metz|P34 W8 D5 L21 GF35 GA58 PTS29
+1|MD1|2023-08-13|A|Rennes|1|5|away
+2|MD2|2023-08-18|H|Marseille|2|2|home
+3|MD3|2023-08-27|A|Clermont|1|0|away
+4|MD4|2023-09-03|H|Reims|2|2|home
+5|MD5|2023-09-16|A|Lens|1|0|away
+6|MD6|2023-09-24|H|Strasbourg|0|1|home
+7|MD7|2023-10-01|A|Toulouse|0|3|away
+8|MD8|2023-10-07|H|Nice|0|1|home
+9|MD9|2023-10-22|A|Monaco|1|2|away
+10|MD10|2023-10-29|H|Le Havre|0|0|home
+11|MD11|2023-11-05|A|Lyon|1|1|away
+12|MD12|2023-11-12|H|Nantes|3|1|home
+13|MD13|2023-11-26|A|Lorient|3|2|away
+14|MD14|2023-12-03|A|Lille|0|2|away
+15|MD15|2023-12-10|H|Brest|0|1|home
+16|MD16|2023-12-17|H|Montpellier|0|1|home
+17|MD17|2023-12-20|A|Paris SG|1|3|away
+18|MD18|2024-01-14|H|Toulouse|0|1|home
+19|MD19|2024-01-27|A|Nice|0|1|away
+20|MD20|2024-02-04|H|Lorient|1|2|home
+21|MD21|2024-02-09|A|Marseille|1|1|away
+22|MD22|2024-02-18|A|Montpellier|0|3|away
+23|MD23|2024-02-23|H|Lyon|1|2|home
+24|MD24|2024-03-03|A|Nantes|2|0|away
+25|MD25|2024-03-10|H|Clermont|1|0|home
+26|MD26|2024-03-17|A|Reims|1|2|away
+27|MD27|2024-03-30|H|Monaco|2|5|home
+28|MD28|2024-04-07|A|Brest|3|4|away
+29|MD29|2024-04-12|H|Lens|2|1|home
+30|MD30|2024-04-21|A|Le Havre|1|0|away
+31|MD31|2024-04-28|H|Lille|1|2|home
+32|MD32|2024-05-04|H|Rennes|2|3|home
+33|MD33|2024-05-12|A|Strasbourg|1|2|away
+34|MD34|2024-05-19|H|Paris SG|0|2|home
+
+TEAMPIVOT|Monaco|P34 W20 D7 L7 GF68 GA42 PTS67
+1|MD1|2023-08-13|A|Clermont|4|2|away
+2|MD2|2023-08-20|H|Strasbourg|3|0|home
+3|MD3|2023-08-25|A|Nantes|3|3|away
+4|MD4|2023-09-02|H|Lens|3|0|home
+5|MD5|2023-09-17|A|Lorient|2|2|away
+6|MD6|2023-09-22|H|Nice|0|1|home
+7|MD7|2023-09-30|H|Marseille|3|2|home
+8|MD8|2023-10-07|A|Reims|3|1|away
+9|MD9|2023-10-22|H|Metz|2|1|home
+10|MD10|2023-10-29|A|Lille|0|2|away
+11|MD11|2023-11-05|H|Brest|2|0|home
+12|MD12|2023-11-11|A|Le Havre|0|0|away
+13|MD13|2023-11-24|A|Paris SG|2|5|away
+14|MD14|2023-12-03|H|Montpellier|2|0|home
+15|MD15|2023-12-09|A|Rennes|2|1|away
+16|MD16|2023-12-15|H|Lyon|0|1|home
+17|MD17|2023-12-20|A|Toulouse|2|1|away
+18|MD18|2024-01-13|H|Reims|1|3|home
+19|MD19|2024-01-27|A|Marseille|2|2|away
+20|MD20|2024-02-04|H|Le Havre|1|1|home
+21|MD21|2024-02-11|A|Nice|3|2|away
+22|MD22|2024-02-18|H|Toulouse|1|2|home
+23|MD23|2024-02-25|A|Lens|3|2|away
+24|MD24|2024-03-01|H|Paris SG|0|0|home
+25|MD25|2024-03-10|A|Strasbourg|1|0|away
+26|MD26|2024-03-17|H|Lorient|2|2|home
+27|MD27|2024-03-30|A|Metz|5|2|away
+28|MD28|2024-04-07|H|Rennes|1|0|home
+29|MD29|2024-04-24|H|Lille|1|0|home
+30|MD30|2024-04-21|A|Brest|2|0|away
+31|MD31|2024-04-28|A|Lyon|2|3|away
+32|MD32|2024-05-04|H|Clermont|4|1|home
+33|MD33|2024-05-12|A|Montpellier|2|0|away
+34|MD34|2024-05-19|H|Nantes|4|0|home
+
+TEAMPIVOT|Montpellier|P34 W10 D12 L12 GF43 GA48 PTS41 (-1 deducted => 41)
+1|MD1|2023-08-13|H|Le Havre|2|2|home
+2|MD2|2023-08-19|A|Lyon|4|1|away
+3|MD3|2023-08-27|H|Reims|1|3|home
+4|MD4|2023-09-03|A|Lille|0|1|away
+5|MD5|2023-09-17|A|Strasbourg|2|2|away
+6|MD6|2023-09-24|H|Rennes|0|0|home
+7|MD7|2023-10-01|A|Lorient|3|0|away
+8|MD8|2023-11-29|H|Clermont|1|1|home
+9|MD9|2023-10-22|A|Nantes|0|2|away
+10|MD10|2023-10-29|H|Toulouse|3|0|home
+11|MD11|2023-11-03|A|Paris SG|0|3|away
+12|MD12|2023-11-10|H|Nice|0|0|home
+13|MD13|2023-11-26|H|Brest|1|3|home
+14|MD14|2023-12-03|A|Monaco|0|2|away
+15|MD15|2023-12-08|H|Lens|0|0|home
+16|MD16|2023-12-17|A|Metz|1|0|away
+17|MD17|2023-12-20|H|Marseille|1|1|home
+18|MD18|2024-01-14|A|Brest|0|2|away
+19|MD19|2024-01-28|H|Lille|0|0|home
+20|MD20|2024-02-03|A|Rennes|1|2|away
+21|MD21|2024-02-11|H|Lyon|1|2|home
+22|MD22|2024-02-18|H|Metz|3|0|home
+23|MD23|2024-02-25|A|Marseille|1|4|away
+24|MD24|2024-03-03|H|Strasbourg|2|2|home
+25|MD25|2024-03-08|A|Nice|2|1|away
+26|MD26|2024-03-17|H|Paris SG|2|6|home
+27|MD27|2024-03-31|A|Le Havre|2|0|away
+28|MD28|2024-04-07|H|Lorient|2|0|home
+29|MD29|2024-04-14|A|Clermont|1|1|away
+30|MD30|2024-04-21|A|Reims|2|1|away
+31|MD31|2024-04-26|H|Nantes|1|1|home
+32|MD32|2024-05-03|A|Toulouse|2|1|away
+33|MD33|2024-05-12|H|Monaco|0|2|home
+34|MD34|2024-05-19|A|Lens|2|2|away
+
+TEAMPIVOT|Nantes|P34 W9 D6 L19 GF30 GA55 PTS33
+1|MD1|2023-08-13|H|Toulouse|1|2|home
+2|MD2|2023-08-20|A|Lille|0|2|away
+3|MD3|2023-08-25|H|Monaco|3|3|home
+4|MD4|2023-09-01|H|Marseille|1|1|home
+5|MD5|2023-09-17|A|Clermont|1|0|away
+6|MD6|2023-09-23|H|Lorient|5|3|home
+7|MD7|2023-10-01|A|Rennes|1|3|away
+8|MD8|2023-10-06|A|Strasbourg|2|1|away
+9|MD9|2023-10-22|H|Montpellier|2|0|home
+10|MD10|2023-10-28|A|Lens|0|4|away
+11|MD11|2023-11-05|H|Reims|0|1|home
+12|MD12|2023-11-12|A|Metz|1|3|away
+13|MD13|2023-11-26|H|Le Havre|0|0|home
+14|MD14|2023-12-02|H|Nice|1|0|home
+15|MD15|2023-12-09|A|Paris SG|1|2|away
+16|MD16|2023-12-17|H|Brest|0|2|home
+17|MD17|2023-12-20|A|Lyon|0|1|away
+18|MD18|2024-01-14|H|Clermont|1|2|home
+19|MD19|2024-01-28|A|Reims|0|0|away
+20|MD20|2024-02-03|H|Lens|0|1|home
+21|MD21|2024-02-11|A|Toulouse|2|1|away
+22|MD22|2024-02-17|H|Paris SG|0|2|home
+23|MD23|2024-02-24|A|Lorient|1|0|away
+24|MD24|2024-03-03|H|Metz|0|2|home
+25|MD25|2024-03-10|A|Marseille|0|2|away
+26|MD26|2024-03-16|H|Strasbourg|1|3|home
+27|MD27|2024-03-31|A|Nice|2|1|away
+28|MD28|2024-04-07|H|Lyon|1|3|home
+29|MD29|2024-04-14|A|Le Havre|1|0|away
+30|MD30|2024-04-20|H|Rennes|0|3|home
+31|MD31|2024-04-26|A|Montpellier|1|1|away
+32|MD32|2024-05-04|A|Brest|0|0|away
+33|MD33|2024-05-12|H|Lille|1|2|home
+34|MD34|2024-05-19|A|Monaco|0|4|away
+
+TEAMPIVOT|Nice|P34 W15 D10 L9 GF40 GA29 PTS55
+1|MD1|2023-08-11|H|Lille|1|1|home
+2|MD2|2023-08-20|A|Lorient|1|1|away
+3|MD3|2023-08-27|H|Lyon|0|0|home
+4|MD4|2023-09-03|H|Strasbourg|2|0|home
+5|MD5|2023-09-15|A|Paris SG|3|2|away
+6|MD6|2023-09-22|A|Monaco|1|0|away
+7|MD7|2023-10-01|H|Brest|0|0|home
+8|MD8|2023-10-07|A|Metz|1|0|away
+9|MD9|2023-10-21|H|Marseille|1|0|home
+10|MD10|2023-10-27|A|Clermont|1|0|away
+11|MD11|2023-11-05|H|Rennes|2|0|home
+12|MD12|2023-11-10|A|Montpellier|0|0|away
+13|MD13|2023-11-26|H|Toulouse|1|0|home
+14|MD14|2023-12-02|A|Nantes|0|1|away
+15|MD15|2023-12-10|H|Reims|2|1|home
+16|MD16|2023-12-16|A|Le Havre|1|3|away
+17|MD17|2023-12-20|H|Lens|2|0|home
+18|MD18|2024-01-13|A|Rennes|0|2|away
+19|MD19|2024-01-27|H|Metz|1|0|home
+20|MD20|2024-02-04|A|Brest|0|0|away
+21|MD21|2024-02-11|H|Monaco|2|3|home
+22|MD22|2024-02-16|A|Lyon|0|1|away
+23|MD23|2024-02-25|H|Clermont|0|0|home
+24|MD24|2024-03-03|A|Toulouse|1|2|away
+25|MD25|2024-03-08|H|Montpellier|1|2|home
+26|MD26|2024-03-16|A|Lens|3|1|away
+27|MD27|2024-03-31|H|Nantes|1|2|home
+28|MD28|2024-04-07|A|Reims|0|0|away
+29|MD29|2024-04-24|A|Marseille|2|2|away
+30|MD30|2024-04-19|H|Lorient|3|0|home
+31|MD31|2024-04-28|A|Strasbourg|3|1|away
+32|MD32|2024-05-15|H|Paris SG|1|2|home
+33|MD33|2024-05-10|H|Le Havre|1|0|home
+34|MD34|2024-05-19|A|Lille|2|2|away
+
+TEAMPIVOT|Paris SG|P34 W22 D10 L2 GF81 GA33 PTS76
+1|MD1|2023-08-12|H|Lorient|0|0|home
+2|MD2|2023-08-19|A|Toulouse|1|1|away
+3|MD3|2023-08-26|H|Lens|3|1|home
+4|MD4|2023-09-03|A|Lyon|4|1|away
+5|MD5|2023-09-15|H|Nice|2|3|home
+6|MD6|2023-09-24|H|Marseille|4|0|home
+7|MD7|2023-09-30|A|Clermont|0|0|away
+8|MD8|2023-10-08|A|Rennes|3|1|away
+9|MD9|2023-10-21|H|Strasbourg|3|0|home
+10|MD10|2023-10-29|A|Brest|3|2|away
+11|MD11|2023-11-03|H|Montpellier|3|0|home
+12|MD12|2023-11-11|A|Reims|3|0|away
+13|MD13|2023-11-24|H|Monaco|5|2|home
+14|MD14|2023-12-03|A|Le Havre|2|0|away
+15|MD15|2023-12-09|H|Nantes|2|1|home
+16|MD16|2023-12-17|A|Lille|1|1|away
+17|MD17|2023-12-20|H|Metz|3|1|home
+18|MD18|2024-01-14|A|Lens|2|0|away
+19|MD19|2024-01-28|H|Brest|2|2|home
+20|MD20|2024-02-02|A|Strasbourg|2|1|away
+21|MD21|2024-02-10|H|Lille|3|1|home
+22|MD22|2024-02-17|A|Nantes|2|0|away
+23|MD23|2024-02-25|H|Rennes|1|1|home
+24|MD24|2024-03-01|A|Monaco|0|0|away
+25|MD25|2024-03-10|H|Reims|2|2|home
+26|MD26|2024-03-17|A|Montpellier|6|2|away
+27|MD27|2024-03-31|A|Marseille|2|0|away
+28|MD28|2024-04-06|H|Clermont|1|1|home
+29|MD29|2024-04-24|A|Lorient|4|1|away
+30|MD30|2024-04-21|H|Lyon|4|1|home
+31|MD31|2024-04-27|H|Le Havre|3|3|home
+32|MD32|2024-05-15|A|Nice|2|1|away
+33|MD33|2024-05-12|H|Toulouse|1|3|home
+34|MD34|2024-05-19|A|Metz|2|0|away
+
+TEAMPIVOT|Reims|P34 W13 D8 L13 GF42 GA47 PTS47
+1|MD1|2023-08-12|A|Marseille|1|2|away
+2|MD2|2023-08-20|H|Clermont|2|0|home
+3|MD3|2023-08-27|A|Montpellier|3|1|away
+4|MD4|2023-09-03|A|Metz|2|2|away
+5|MD5|2023-09-17|H|Brest|1|2|home
+6|MD6|2023-09-26|A|Lille|2|1|away
+7|MD7|2023-10-01|H|Lyon|2|0|home
+8|MD8|2023-10-07|H|Monaco|1|3|home
+9|MD9|2023-10-22|A|Toulouse|1|1|away
+10|MD10|2023-10-28|H|Lorient|1|0|home
+11|MD11|2023-11-05|A|Nantes|1|0|away
+12|MD12|2023-11-11|H|Paris SG|0|3|home
+13|MD13|2023-11-26|A|Rennes|1|3|away
+14|MD14|2023-12-01|H|Strasbourg|2|1|home
+15|MD15|2023-12-10|A|Nice|1|2|away
+16|MD16|2023-12-16|A|Lens|0|2|away
+17|MD17|2023-12-20|H|Le Havre|1|0|home
+18|MD18|2024-01-13|A|Monaco|3|1|away
+19|MD19|2024-01-28|H|Nantes|0|0|home
+20|MD20|2024-02-04|H|Toulouse|2|3|home
+21|MD21|2024-02-11|A|Lorient|0|2|away
+22|MD22|2024-02-18|H|Lens|1|1|home
+23|MD23|2024-02-25|A|Le Havre|2|1|away
+24|MD24|2024-03-02|H|Lille|0|1|home
+25|MD25|2024-03-10|A|Paris SG|2|2|away
+26|MD26|2024-03-17|H|Metz|2|1|home
+27|MD27|2024-03-30|A|Lyon|1|1|away
+28|MD28|2024-04-07|H|Nice|0|0|home
+29|MD29|2024-04-13|A|Strasbourg|1|3|away
+30|MD30|2024-04-21|H|Montpellier|1|2|home
+31|MD31|2024-04-28|A|Clermont|1|4|away
+32|MD32|2024-05-15|H|Marseille|1|0|home
+33|MD33|2024-05-10|A|Brest|1|1|away
+34|MD34|2024-05-19|H|Rennes|2|1|home
+
+TEAMPIVOT|Rennes|P34 W12 D10 L12 GF53 GA46 PTS46
+1|MD1|2023-08-13|H|Metz|5|1|home
+2|MD2|2023-08-20|A|Lens|1|1|away
+3|MD3|2023-08-27|H|Le Havre|2|2|home
+4|MD4|2023-09-02|A|Brest|0|0|away
+5|MD5|2023-09-16|H|Lille|2|2|home
+6|MD6|2023-09-24|A|Montpellier|0|0|away
+7|MD7|2023-10-01|H|Nantes|3|1|home
+8|MD8|2023-10-08|H|Paris SG|1|3|home
+9|MD9|2023-10-22|A|Lorient|1|2|away
+10|MD10|2023-10-29|H|Strasbourg|1|1|home
+11|MD11|2023-11-05|A|Nice|0|2|away
+12|MD12|2023-11-12|H|Lyon|0|1|home
+13|MD13|2023-11-26|H|Reims|3|1|home
+14|MD14|2023-12-03|A|Marseille|0|2|away
+15|MD15|2023-12-09|H|Monaco|1|2|home
+16|MD16|2023-12-17|A|Toulouse|0|0|away
+17|MD17|2023-12-20|A|Clermont|3|1|away
+18|MD18|2024-01-13|H|Nice|2|0|home
+19|MD19|2024-01-26|A|Lyon|3|2|away
+20|MD20|2024-02-03|H|Montpellier|2|1|home
+21|MD21|2024-02-11|A|Le Havre|1|0|away
+22|MD22|2024-02-18|H|Clermont|3|1|home
+23|MD23|2024-02-25|A|Paris SG|1|1|away
+24|MD24|2024-03-03|H|Lorient|1|2|home
+25|MD25|2024-03-10|A|Lille|2|2|away
+26|MD26|2024-03-17|H|Marseille|2|0|home
+27|MD27|2024-03-31|A|Strasbourg|0|2|away
+28|MD28|2024-04-07|A|Monaco|0|1|away
+29|MD29|2024-04-13|H|Toulouse|1|2|home
+30|MD30|2024-04-20|A|Nantes|3|0|away
+31|MD31|2024-04-28|H|Brest|4|5|home
+32|MD32|2024-05-04|A|Metz|3|2|away
+33|MD33|2024-05-12|H|Lens|1|1|home
+34|MD34|2024-05-19|A|Reims|1|2|away
+
+TEAMPIVOT|Strasbourg|P34 W10 D9 L15 GF38 GA50 PTS39
+1|MD1|2023-08-13|H|Lyon|2|1|home
+2|MD2|2023-08-20|A|Monaco|0|3|away
+3|MD3|2023-08-27|H|Toulouse|2|0|home
+4|MD4|2023-09-03|A|Nice|0|2|away
+5|MD5|2023-09-17|H|Montpellier|2|2|home
+6|MD6|2023-09-24|A|Metz|1|0|away
+7|MD7|2023-09-29|H|Lens|0|1|home
+8|MD8|2023-10-06|H|Nantes|1|2|home
+9|MD9|2023-10-21|A|Paris SG|0|3|away
+10|MD10|2023-10-29|A|Rennes|1|1|away
+11|MD11|2023-11-05|H|Clermont|0|0|home
+12|MD12|2023-12-07|A|Brest|1|1|away
+13|MD13|2023-11-25|H|Marseille|1|1|home
+14|MD14|2023-12-01|A|Reims|1|2|away
+15|MD15|2023-12-10|H|Le Havre|2|1|home
+16|MD16|2023-12-17|A|Lorient|2|1|away
+17|MD17|2023-12-20|H|Lille|2|1|home
+18|MD18|2024-01-12|A|Marseille|1|1|away
+19|MD19|2024-01-28|A|Clermont|1|1|away
+20|MD20|2024-02-02|H|Paris SG|1|2|home
+21|MD21|2024-02-10|A|Lens|1|3|away
+22|MD22|2024-02-18|H|Lorient|1|3|home
+23|MD23|2024-02-24|H|Brest|0|3|home
+24|MD24|2024-03-03|A|Montpellier|2|2|away
+25|MD25|2024-03-10|H|Monaco|0|1|home
+26|MD26|2024-03-16|A|Nantes|3|1|away
+27|MD27|2024-03-31|H|Rennes|2|0|home
+28|MD28|2024-04-07|A|Toulouse|0|0|away
+29|MD29|2024-04-13|H|Reims|3|1|home
+30|MD30|2024-04-21|A|Lille|0|1|away
+31|MD31|2024-04-28|H|Nice|1|3|home
+32|MD32|2024-05-04|A|Le Havre|1|3|away
+33|MD33|2024-05-12|H|Metz|2|1|home
+34|MD34|2024-05-19|A|Lyon|1|2|away
+
+TEAMPIVOT|Toulouse|P34 W11 D10 L13 GF42 GA46 PTS43
+1|MD1|2023-08-13|A|Nantes|2|1|away
+2|MD2|2023-08-19|H|Paris SG|1|1|home
+3|MD3|2023-08-27|A|Strasbourg|0|2|away
+4|MD4|2023-09-03|H|Clermont|2|2|home
+5|MD5|2023-09-17|A|Marseille|0|0|away
+6|MD6|2023-09-24|A|Lens|1|2|away
+7|MD7|2023-10-01|H|Metz|3|0|home
+8|MD8|2023-10-08|A|Brest|1|1|away
+9|MD9|2023-10-22|H|Reims|1|1|home
+10|MD10|2023-10-29|A|Montpellier|0|3|away
+11|MD11|2023-11-05|H|Le Havre|1|2|home
+12|MD12|2023-11-12|A|Lille|1|1|away
+13|MD13|2023-11-26|A|Nice|0|1|away
+14|MD14|2023-12-03|H|Lorient|1|1|home
+15|MD15|2023-12-10|A|Lyon|0|3|away
+16|MD16|2023-12-17|H|Rennes|0|0|home
+17|MD17|2023-12-20|H|Monaco|1|2|home
+18|MD18|2024-01-14|A|Metz|1|0|away
+19|MD19|2024-01-28|H|Lens|0|2|home
+20|MD20|2024-02-04|A|Reims|3|2|away
+21|MD21|2024-02-11|H|Nantes|1|2|home
+22|MD22|2024-02-18|A|Monaco|2|1|away
+23|MD23|2024-02-25|H|Lille|3|1|home
+24|MD24|2024-03-03|H|Nice|2|1|home
+25|MD25|2024-03-10|A|Le Havre|0|1|away
+26|MD26|2024-03-15|H|Lyon|2|3|home
+27|MD27|2024-03-31|A|Clermont|3|0|away
+28|MD28|2024-04-07|H|Strasbourg|0|0|home
+29|MD29|2024-04-13|A|Rennes|2|1|away
+30|MD30|2024-04-21|H|Marseille|2|2|home
+31|MD31|2024-04-28|A|Lorient|2|1|away
+32|MD32|2024-05-03|H|Montpellier|1|2|home
+33|MD33|2024-05-12|A|Paris SG|3|1|away
+34|MD34|2024-05-19|H|Brest|0|3|home
+
+### PIVOT 2024-25 (re-derived from the pack's own rows; each club = its 34 games in round order; summary gated vs the season TABLE constants)
+TEAMPIVOT|Angers|P34 W10 D6 L18 GF32 GA53 PTS36
+1|MD1|2024-08-18|H|Lens|0|1|home
+2|MD2|2024-08-24|A|Lille|0|2|away
+3|MD3|2024-09-01|H|Nice|1|4|home
+4|MD4|2024-09-15|A|Strasbourg|1|1|away
+5|MD5|2024-09-22|H|Nantes|1|1|home
+6|MD6|2024-09-29|H|Reims|1|3|home
+7|MD7|2024-10-04|A|Marseille|1|1|away
+8|MD8|2024-10-20|A|Toulouse|1|1|away
+9|MD9|2024-10-26|H|St Etienne|4|2|home
+10|MD10|2024-11-01|A|Monaco|1|0|away
+11|MD11|2024-11-09|H|Paris SG|2|4|home
+12|MD12|2024-11-24|A|Auxerre|0|1|away
+13|MD13|2024-12-01|A|Le Havre|1|0|away
+14|MD14|2024-12-07|H|Lyon|0|3|home
+15|MD15|2024-12-15|A|Rennes|0|2|away
+16|MD16|2025-01-05|H|Brest|2|0|home
+17|MD17|2025-01-12|A|Montpellier|3|1|away
+18|MD18|2025-01-19|H|Auxerre|2|0|home
+19|MD19|2025-01-26|A|Lens|0|1|away
+20|MD20|2025-02-02|H|Le Havre|1|1|home
+21|MD21|2025-02-09|H|Marseille|0|2|home
+22|MD22|2025-02-16|A|Reims|1|0|away
+23|MD23|2025-02-22|A|St Etienne|3|3|away
+24|MD24|2025-03-02|H|Toulouse|0|4|home
+25|MD25|2025-03-09|A|Brest|0|2|away
+26|MD26|2025-03-15|H|Monaco|0|2|home
+27|MD27|2025-03-30|H|Rennes|0|3|home
+28|MD28|2025-04-05|A|Paris SG|0|1|away
+29|MD29|2025-04-13|H|Montpellier|2|0|home
+30|MD30|2025-04-20|A|Nice|1|2|away
+31|MD31|2025-04-27|H|Lille|0|2|home
+32|MD32|2025-05-04|A|Nantes|1|0|away
+33|MD33|2025-05-10|H|Strasbourg|2|1|home
+34|MD34|2025-05-17|A|Lyon|0|2|away
+
+TEAMPIVOT|Auxerre|P34 W11 D9 L14 GF48 GA51 PTS42
+1|MD1|2024-08-18|H|Nice|2|1|home
+2|MD2|2024-08-25|A|Nantes|0|2|away
+3|MD3|2024-09-01|A|Le Havre|1|3|away
+4|MD4|2024-09-14|H|Monaco|0|3|home
+5|MD5|2024-09-22|A|Montpellier|2|3|away
+6|MD6|2024-09-27|H|Brest|3|0|home
+7|MD7|2024-10-05|A|St Etienne|1|3|away
+8|MD8|2024-10-20|H|Reims|2|1|home
+9|MD9|2024-10-27|A|Lyon|2|2|away
+10|MD10|2024-11-03|H|Rennes|4|0|home
+11|MD11|2024-11-08|A|Marseille|3|1|away
+12|MD12|2024-11-24|H|Angers|1|0|home
+13|MD13|2024-12-01|A|Toulouse|0|2|away
+14|MD14|2024-12-06|H|Paris SG|0|0|home
+15|MD15|2024-12-14|H|Lens|2|2|home
+16|MD16|2025-01-05|A|Strasbourg|1|3|away
+17|MD17|2025-01-10|H|Lille|0|0|home
+18|MD18|2025-01-19|A|Angers|0|2|away
+19|MD19|2025-01-24|H|St Etienne|1|1|home
+20|MD20|2025-02-01|A|Monaco|2|4|away
+21|MD21|2025-02-09|H|Toulouse|2|2|home
+22|MD22|2025-02-14|A|Brest|2|2|away
+23|MD23|2025-02-22|H|Marseille|3|0|home
+24|MD24|2025-03-02|H|Strasbourg|0|1|home
+25|MD25|2025-03-09|A|Reims|2|0|away
+26|MD26|2025-03-14|A|Nice|1|1|away
+27|MD27|2025-03-30|H|Montpellier|1|0|home
+28|MD28|2025-04-06|A|Rennes|1|0|away
+29|MD29|2025-04-13|H|Lyon|1|3|home
+30|MD30|2025-04-20|A|Lille|1|3|away
+31|MD31|2025-04-27|A|Lens|4|0|away
+32|MD32|2025-05-04|H|Le Havre|1|2|home
+33|MD33|2025-05-10|H|Nantes|1|1|home
+34|MD34|2025-05-17|A|Paris SG|1|3|away
+
+TEAMPIVOT|Brest|P34 W15 D5 L14 GF52 GA59 PTS50
+1|MD1|2024-08-17|H|Marseille|1|5|home
+2|MD2|2024-08-25|A|Lens|0|2|away
+3|MD3|2024-08-31|H|St Etienne|4|0|home
+4|MD4|2024-09-14|A|Paris SG|1|3|away
+5|MD5|2024-09-22|H|Toulouse|2|0|home
+6|MD6|2024-09-27|A|Auxerre|0|3|away
+7|MD7|2024-10-06|H|Le Havre|2|0|home
+8|MD8|2024-10-19|H|Rennes|1|1|home
+9|MD9|2024-10-26|A|Reims|2|1|away
+10|MD10|2024-11-02|H|Nice|0|1|home
+11|MD11|2024-11-10|A|Montpellier|1|3|away
+12|MD12|2024-11-22|A|Monaco|2|3|away
+13|MD13|2024-11-30|H|Strasbourg|3|1|home
+14|MD14|2024-12-06|A|Lille|1|3|away
+15|MD15|2024-12-15|H|Nantes|4|1|home
+16|MD16|2025-01-05|A|Angers|0|2|away
+17|MD17|2025-01-11|H|Lyon|2|1|home
+18|MD18|2025-01-18|A|Rennes|2|1|away
+19|MD19|2025-01-26|A|Le Havre|1|0|away
+20|MD20|2025-02-01|H|Paris SG|2|5|home
+21|MD21|2025-02-07|A|Nantes|2|0|away
+22|MD22|2025-02-14|H|Auxerre|2|2|home
+23|MD23|2025-02-23|A|Strasbourg|0|0|away
+24|MD24|2025-03-02|A|Lyon|1|2|away
+25|MD25|2025-03-09|H|Angers|2|0|home
+26|MD26|2025-03-16|H|Reims|0|0|home
+27|MD27|2025-03-30|A|Toulouse|4|2|away
+28|MD28|2025-04-05|H|Monaco|2|1|home
+29|MD29|2025-04-13|A|St Etienne|3|3|away
+30|MD30|2025-04-20|H|Lens|1|3|home
+31|MD31|2025-04-27|A|Marseille|1|4|away
+32|MD32|2025-05-04|H|Montpellier|1|0|home
+33|MD33|2025-05-10|H|Lille|2|0|home
+34|MD34|2025-05-17|A|Nice|0|6|away
+
+TEAMPIVOT|Le Havre|P34 W10 D4 L20 GF40 GA71 PTS34
+1|MD1|2024-08-16|H|Paris SG|1|4|home
+2|MD2|2024-08-24|A|St Etienne|2|0|away
+3|MD3|2024-09-01|H|Auxerre|3|1|home
+4|MD4|2024-09-15|A|Toulouse|0|2|away
+5|MD5|2024-09-22|A|Monaco|1|3|away
+6|MD6|2024-09-28|H|Lille|0|3|home
+7|MD7|2024-10-06|A|Brest|0|2|away
+8|MD8|2024-10-20|H|Lyon|0|4|home
+9|MD9|2024-10-25|A|Rennes|0|1|away
+10|MD10|2024-11-03|H|Montpellier|1|0|home
+11|MD11|2024-11-10|H|Reims|0|3|home
+12|MD12|2024-11-24|A|Nantes|2|0|away
+13|MD13|2024-12-01|H|Angers|0|1|home
+14|MD14|2024-12-07|A|Nice|1|2|away
+15|MD15|2024-12-15|H|Strasbourg|0|3|home
+16|MD16|2025-01-05|A|Marseille|1|5|away
+17|MD17|2025-01-12|H|Lens|1|2|home
+18|MD18|2025-01-19|A|Reims|1|1|away
+19|MD19|2025-01-26|H|Brest|0|1|home
+20|MD20|2025-02-02|A|Angers|1|1|away
+21|MD21|2025-02-08|A|Lille|2|1|away
+22|MD22|2025-02-16|H|Nice|1|3|home
+23|MD23|2025-02-23|H|Toulouse|1|4|home
+24|MD24|2025-03-01|A|Lens|4|3|away
+25|MD25|2025-03-09|H|St Etienne|1|1|home
+26|MD26|2025-03-16|A|Lyon|2|4|away
+27|MD27|2025-03-30|H|Nantes|3|2|home
+28|MD28|2025-04-06|A|Montpellier|2|0|away
+29|MD29|2025-04-13|H|Rennes|1|5|home
+30|MD30|2025-04-19|A|Paris SG|1|2|away
+31|MD31|2025-04-26|H|Monaco|1|1|home
+32|MD32|2025-05-04|A|Auxerre|2|1|away
+33|MD33|2025-05-10|H|Marseille|1|3|home
+34|MD34|2025-05-17|A|Strasbourg|3|2|away
+
+TEAMPIVOT|Lens|P34 W15 D7 L12 GF42 GA39 PTS52
+1|MD1|2024-08-18|A|Angers|1|0|away
+2|MD2|2024-08-25|H|Brest|2|0|home
+3|MD3|2024-09-01|A|Monaco|1|1|away
+4|MD4|2024-09-15|H|Lyon|0|0|home
+5|MD5|2024-09-21|A|Rennes|1|1|away
+6|MD6|2024-09-28|H|Nice|0|0|home
+7|MD7|2024-10-06|A|Strasbourg|2|2|away
+8|MD8|2024-10-19|A|St Etienne|2|0|away
+9|MD9|2024-10-26|H|Lille|0|2|home
+10|MD10|2024-11-02|A|Paris SG|0|1|away
+11|MD11|2024-11-09|H|Nantes|3|2|home
+12|MD12|2024-11-23|H|Marseille|1|3|home
+13|MD13|2024-11-29|A|Reims|2|0|away
+14|MD14|2024-12-08|H|Montpellier|2|0|home
+15|MD15|2024-12-14|A|Auxerre|2|2|away
+16|MD16|2025-01-05|H|Toulouse|0|1|home
+17|MD17|2025-01-12|A|Le Havre|2|1|away
+18|MD18|2025-01-18|H|Paris SG|1|2|home
+19|MD19|2025-01-26|H|Angers|1|0|home
+20|MD20|2025-01-31|A|Montpellier|2|0|away
+21|MD21|2025-02-08|A|Nice|0|2|away
+22|MD22|2025-02-16|H|Strasbourg|0|2|home
+23|MD23|2025-02-23|A|Nantes|1|3|away
+24|MD24|2025-03-01|H|Le Havre|3|4|home
+25|MD25|2025-03-08|A|Marseille|1|0|away
+26|MD26|2025-03-15|H|Rennes|1|0|home
+27|MD27|2025-03-30|A|Lille|0|1|away
+28|MD28|2025-04-06|H|St Etienne|1|0|home
+29|MD29|2025-04-11|H|Reims|0|2|home
+30|MD30|2025-04-20|A|Brest|3|1|away
+31|MD31|2025-04-27|H|Auxerre|0|4|home
+32|MD32|2025-05-04|A|Lyon|2|1|away
+33|MD33|2025-05-10|A|Toulouse|1|1|away
+34|MD34|2025-05-17|H|Monaco|4|0|home
+
+TEAMPIVOT|Lille|P34 W17 D9 L8 GF52 GA36 PTS60
+1|MD1|2024-08-17|A|Reims|2|0|away
+2|MD2|2024-08-24|H|Angers|2|0|home
+3|MD3|2024-09-01|H|Paris SG|1|3|home
+4|MD4|2024-09-13|A|St Etienne|0|1|away
+5|MD5|2024-09-21|H|Strasbourg|3|3|home
+6|MD6|2024-09-28|A|Le Havre|3|0|away
+7|MD7|2024-10-05|H|Toulouse|2|1|home
+8|MD8|2024-10-18|A|Monaco|0|0|away
+9|MD9|2024-10-26|A|Lens|2|0|away
+10|MD10|2024-11-01|H|Lyon|1|1|home
+11|MD11|2024-11-10|A|Nice|2|2|away
+12|MD12|2024-11-24|H|Rennes|1|0|home
+13|MD13|2024-12-01|A|Montpellier|2|2|away
+14|MD14|2024-12-06|H|Brest|3|1|home
+15|MD15|2024-12-14|A|Marseille|1|1|away
+16|MD16|2025-01-04|H|Nantes|1|1|home
+17|MD17|2025-01-10|A|Auxerre|0|0|away
+18|MD18|2025-01-17|H|Nice|2|1|home
+19|MD19|2025-01-25|A|Strasbourg|1|2|away
+20|MD20|2025-02-01|H|St Etienne|4|1|home
+21|MD21|2025-02-08|H|Le Havre|1|2|home
+22|MD22|2025-02-16|A|Rennes|2|0|away
+23|MD23|2025-02-22|H|Monaco|2|1|home
+24|MD24|2025-03-01|A|Paris SG|1|4|away
+25|MD25|2025-03-08|H|Montpellier|1|0|home
+26|MD26|2025-03-15|A|Nantes|0|1|away
+27|MD27|2025-03-30|H|Lens|1|0|home
+28|MD28|2025-04-05|A|Lyon|1|2|away
+29|MD29|2025-04-12|A|Toulouse|2|1|away
+30|MD30|2025-04-20|H|Auxerre|3|1|home
+31|MD31|2025-04-27|A|Angers|2|0|away
+32|MD32|2025-05-04|H|Marseille|1|1|home
+33|MD33|2025-05-10|A|Brest|0|2|away
+34|MD34|2025-05-17|H|Reims|2|1|home
+
+TEAMPIVOT|Lyon|P34 W17 D6 L11 GF65 GA46 PTS57
+1|MD1|2024-08-18|A|Rennes|0|3|away
+2|MD2|2024-08-24|H|Monaco|0|2|home
+3|MD3|2024-08-30|H|Strasbourg|4|3|home
+4|MD4|2024-09-15|A|Lens|0|0|away
+5|MD5|2024-09-22|H|Marseille|2|3|home
+6|MD6|2024-09-29|A|Toulouse|2|1|away
+7|MD7|2024-10-06|H|Nantes|2|0|home
+8|MD8|2024-10-20|A|Le Havre|4|0|away
+9|MD9|2024-10-27|H|Auxerre|2|2|home
+10|MD10|2024-11-01|A|Lille|1|1|away
+11|MD11|2024-11-10|H|St Etienne|1|0|home
+12|MD12|2024-11-23|A|Reims|1|1|away
+13|MD13|2024-12-01|H|Nice|4|1|home
+14|MD14|2024-12-07|A|Angers|3|0|away
+15|MD15|2024-12-15|A|Paris SG|1|3|away
+16|MD16|2025-01-04|H|Montpellier|1|0|home
+17|MD17|2025-01-11|A|Brest|1|2|away
+18|MD18|2025-01-18|H|Toulouse|0|0|home
+19|MD19|2025-01-26|A|Nantes|1|1|away
+20|MD20|2025-02-02|A|Marseille|2|3|away
+21|MD21|2025-02-09|H|Reims|4|0|home
+22|MD22|2025-02-16|A|Montpellier|4|1|away
+23|MD23|2025-02-23|H|Paris SG|2|3|home
+24|MD24|2025-03-02|H|Brest|2|1|home
+25|MD25|2025-03-09|A|Nice|2|0|away
+26|MD26|2025-03-16|H|Le Havre|4|2|home
+27|MD27|2025-03-28|A|Strasbourg|2|4|away
+28|MD28|2025-04-05|H|Lille|2|1|home
+29|MD29|2025-04-13|A|Auxerre|3|1|away
+30|MD30|2025-04-20|A|St Etienne|1|2|away
+31|MD31|2025-04-26|H|Rennes|4|1|home
+32|MD32|2025-05-04|H|Lens|1|2|home
+33|MD33|2025-05-10|A|Monaco|0|2|away
+34|MD34|2025-05-17|H|Angers|2|0|home
+
+TEAMPIVOT|Marseille|P34 W20 D5 L9 GF74 GA47 PTS65
+1|MD1|2024-08-17|A|Brest|5|1|away
+2|MD2|2024-08-25|H|Reims|2|2|home
+3|MD3|2024-08-31|A|Toulouse|3|1|away
+4|MD4|2024-09-14|H|Nice|2|0|home
+5|MD5|2024-09-22|A|Lyon|3|2|away
+6|MD6|2024-09-29|A|Strasbourg|0|1|away
+7|MD7|2024-10-04|H|Angers|1|1|home
+8|MD8|2024-10-20|A|Montpellier|5|0|away
+9|MD9|2024-10-27|H|Paris SG|0|3|home
+10|MD10|2024-11-03|A|Nantes|2|1|away
+11|MD11|2024-11-08|H|Auxerre|1|3|home
+12|MD12|2024-11-23|A|Lens|3|1|away
+13|MD13|2024-12-01|H|Monaco|2|1|home
+14|MD14|2024-12-08|A|St Etienne|2|0|away
+15|MD15|2024-12-14|H|Lille|1|1|home
+16|MD16|2025-01-05|H|Le Havre|5|1|home
+17|MD17|2025-01-11|A|Rennes|2|1|away
+18|MD18|2025-01-19|H|Strasbourg|1|1|home
+19|MD19|2025-01-26|A|Nice|0|2|away
+20|MD20|2025-02-02|H|Lyon|3|2|home
+21|MD21|2025-02-09|A|Angers|2|0|away
+22|MD22|2025-02-15|H|St Etienne|5|1|home
+23|MD23|2025-02-22|A|Auxerre|0|3|away
+24|MD24|2025-03-02|H|Nantes|2|0|home
+25|MD25|2025-03-08|H|Lens|0|1|home
+26|MD26|2025-03-16|A|Paris SG|1|3|away
+27|MD27|2025-03-29|A|Reims|1|3|away
+28|MD28|2025-04-06|H|Toulouse|3|2|home
+29|MD29|2025-04-12|A|Monaco|0|3|away
+30|MD30|2025-04-19|H|Montpellier|5|1|home
+31|MD31|2025-04-27|H|Brest|4|1|home
+32|MD32|2025-05-04|A|Lille|1|1|away
+33|MD33|2025-05-10|A|Le Havre|3|1|away
+34|MD34|2025-05-17|H|Rennes|4|2|home
+
+TEAMPIVOT|Monaco|P34 W18 D7 L9 GF63 GA41 PTS61
+1|MD1|2024-08-17|H|St Etienne|1|0|home
+2|MD2|2024-08-24|A|Lyon|2|0|away
+3|MD3|2024-09-01|H|Lens|1|1|home
+4|MD4|2024-09-14|A|Auxerre|3|0|away
+5|MD5|2024-09-22|H|Le Havre|3|1|home
+6|MD6|2024-09-28|H|Montpellier|2|1|home
+7|MD7|2024-10-05|A|Rennes|2|1|away
+8|MD8|2024-10-18|H|Lille|0|0|home
+9|MD9|2024-10-27|A|Nice|1|2|away
+10|MD10|2024-11-01|H|Angers|0|1|home
+11|MD11|2024-11-09|A|Strasbourg|3|1|away
+12|MD12|2024-11-22|H|Brest|3|2|home
+13|MD13|2024-12-01|A|Marseille|1|2|away
+14|MD14|2024-12-07|H|Toulouse|2|0|home
+15|MD15|2024-12-14|A|Reims|0|0|away
+16|MD16|2024-12-18|H|Paris SG|2|4|home
+17|MD17|2025-01-10|A|Nantes|2|2|away
+18|MD18|2025-01-17|A|Montpellier|1|2|away
+19|MD19|2025-01-25|H|Rennes|3|2|home
+20|MD20|2025-02-01|H|Auxerre|4|2|home
+21|MD21|2025-02-07|A|Paris SG|1|4|away
+22|MD22|2025-02-15|H|Nantes|7|1|home
+23|MD23|2025-02-22|A|Lille|1|2|away
+24|MD24|2025-02-28|H|Reims|3|0|home
+25|MD25|2025-03-07|A|Toulouse|1|1|away
+26|MD26|2025-03-15|A|Angers|2|0|away
+27|MD27|2025-03-29|H|Nice|2|1|home
+28|MD28|2025-04-05|A|Brest|1|2|away
+29|MD29|2025-04-12|H|Marseille|3|0|home
+30|MD30|2025-04-19|H|Strasbourg|0|0|home
+31|MD31|2025-04-26|A|Le Havre|1|1|away
+32|MD32|2025-05-03|A|St Etienne|3|1|away
+33|MD33|2025-05-10|H|Lyon|2|0|home
+34|MD34|2025-05-17|A|Lens|0|4|away
+
+TEAMPIVOT|Montpellier|P34 W4 D4 L26 GF23 GA79 PTS16
+1|MD1|2024-08-18|H|Strasbourg|1|1|home
+2|MD2|2024-08-23|A|Paris SG|0|6|away
+3|MD3|2024-08-31|H|Nantes|1|3|home
+4|MD4|2024-09-15|A|Rennes|0|3|away
+5|MD5|2024-09-22|H|Auxerre|3|2|home
+6|MD6|2024-09-28|A|Monaco|1|2|away
+7|MD7|2024-10-06|A|Reims|2|4|away
+8|MD8|2024-10-20|H|Marseille|0|5|home
+9|MD9|2024-10-27|H|Toulouse|0|3|home
+10|MD10|2024-11-03|A|Le Havre|0|1|away
+11|MD11|2024-11-10|H|Brest|3|1|home
+12|MD12|2024-11-23|A|St Etienne|0|1|away
+13|MD13|2024-12-01|H|Lille|2|2|home
+14|MD14|2024-12-08|A|Lens|0|2|away
+15|MD15|2024-12-15|H|Nice|2|2|home
+16|MD16|2025-01-04|A|Lyon|0|1|away
+17|MD17|2025-01-12|H|Angers|1|3|home
+18|MD18|2025-01-17|H|Monaco|2|1|home
+19|MD19|2025-01-26|A|Toulouse|2|1|away
+20|MD20|2025-01-31|H|Lens|0|2|home
+21|MD21|2025-02-09|A|Strasbourg|0|2|away
+22|MD22|2025-02-16|H|Lyon|1|4|home
+23|MD23|2025-02-23|A|Nice|0|2|away
+24|MD24|2025-03-02|H|Rennes|0|4|home
+25|MD25|2025-03-08|A|Lille|0|1|away
+26|MD26|2025-03-16|H|St Etienne|0|2|home
+27|MD27|2025-03-30|A|Auxerre|0|1|away
+28|MD28|2025-04-06|H|Le Havre|0|2|home
+29|MD29|2025-04-13|A|Angers|0|2|away
+30|MD30|2025-04-19|A|Marseille|1|5|away
+31|MD31|2025-04-27|H|Reims|0|0|home
+32|MD32|2025-05-04|A|Brest|0|1|away
+33|MD33|2025-05-10|H|Paris SG|1|4|home
+34|MD34|2025-05-17|A|Nantes|0|3|away
+
+TEAMPIVOT|Nantes|P34 W8 D12 L14 GF39 GA52 PTS36
+1|MD1|2024-08-18|A|Toulouse|0|0|away
+2|MD2|2024-08-25|H|Auxerre|2|0|home
+3|MD3|2024-08-31|A|Montpellier|3|1|away
+4|MD4|2024-09-15|H|Reims|1|2|home
+5|MD5|2024-09-22|A|Angers|1|1|away
+6|MD6|2024-09-29|H|St Etienne|2|2|home
+7|MD7|2024-10-06|A|Lyon|0|2|away
+8|MD8|2024-10-20|H|Nice|1|1|home
+9|MD9|2024-10-27|A|Strasbourg|1|3|away
+10|MD10|2024-11-03|H|Marseille|1|2|home
+11|MD11|2024-11-09|A|Lens|2|3|away
+12|MD12|2024-11-24|H|Le Havre|0|2|home
+13|MD13|2024-11-30|A|Paris SG|1|1|away
+14|MD14|2024-12-08|H|Rennes|1|0|home
+15|MD15|2024-12-15|A|Brest|1|4|away
+16|MD16|2025-01-04|A|Lille|1|1|away
+17|MD17|2025-01-10|H|Monaco|2|2|home
+18|MD18|2025-01-19|A|St Etienne|1|1|away
+19|MD19|2025-01-26|H|Lyon|1|1|home
+20|MD20|2025-02-02|A|Reims|2|1|away
+21|MD21|2025-02-07|H|Brest|0|2|home
+22|MD22|2025-02-15|A|Monaco|1|7|away
+23|MD23|2025-02-23|H|Lens|3|1|home
+24|MD24|2025-03-02|A|Marseille|0|2|away
+25|MD25|2025-03-09|H|Strasbourg|0|1|home
+26|MD26|2025-03-15|H|Lille|1|0|home
+27|MD27|2025-03-30|A|Le Havre|2|3|away
+28|MD28|2025-04-04|A|Nice|2|1|away
+29|MD29|2025-04-22|H|Paris SG|1|1|home
+30|MD30|2025-04-18|A|Rennes|1|2|away
+31|MD31|2025-04-27|H|Toulouse|0|0|home
+32|MD32|2025-05-04|H|Angers|0|1|home
+33|MD33|2025-05-10|A|Auxerre|1|1|away
+34|MD34|2025-05-17|H|Montpellier|3|0|home
+
+TEAMPIVOT|Nice|P34 W17 D9 L8 GF66 GA41 PTS60
+1|MD1|2024-08-18|A|Auxerre|1|2|away
+2|MD2|2024-08-25|H|Toulouse|1|1|home
+3|MD3|2024-09-01|A|Angers|4|1|away
+4|MD4|2024-09-14|A|Marseille|0|2|away
+5|MD5|2024-09-20|H|St Etienne|8|0|home
+6|MD6|2024-09-28|A|Lens|0|0|away
+7|MD7|2024-10-06|H|Paris SG|1|1|home
+8|MD8|2024-10-20|A|Nantes|1|1|away
+9|MD9|2024-10-27|H|Monaco|2|1|home
+10|MD10|2024-11-02|A|Brest|1|0|away
+11|MD11|2024-11-10|H|Lille|2|2|home
+12|MD12|2024-11-24|H|Strasbourg|2|1|home
+13|MD13|2024-12-01|A|Lyon|1|4|away
+14|MD14|2024-12-07|H|Le Havre|2|1|home
+15|MD15|2024-12-15|A|Montpellier|2|2|away
+16|MD16|2025-01-03|H|Rennes|3|2|home
+17|MD17|2025-01-11|A|Reims|4|2|away
+18|MD18|2025-01-17|A|Lille|1|2|away
+19|MD19|2025-01-26|H|Marseille|2|0|home
+20|MD20|2025-02-02|A|Toulouse|1|1|away
+21|MD21|2025-02-08|H|Lens|2|0|home
+22|MD22|2025-02-16|A|Le Havre|3|1|away
+23|MD23|2025-02-23|H|Montpellier|2|0|home
+24|MD24|2025-03-01|A|St Etienne|3|1|away
+25|MD25|2025-03-09|H|Lyon|0|2|home
+26|MD26|2025-03-14|H|Auxerre|1|1|home
+27|MD27|2025-03-29|A|Monaco|1|2|away
+28|MD28|2025-04-04|H|Nantes|1|2|home
+29|MD29|2025-04-12|A|Strasbourg|2|2|away
+30|MD30|2025-04-20|H|Angers|2|1|home
+31|MD31|2025-04-25|A|Paris SG|3|1|away
+32|MD32|2025-05-02|H|Reims|1|0|home
+33|MD33|2025-05-10|A|Rennes|0|2|away
+34|MD34|2025-05-17|H|Brest|6|0|home
+
+TEAMPIVOT|Paris SG|P34 W26 D6 L2 GF92 GA35 PTS84
+1|MD1|2024-08-16|A|Le Havre|4|1|away
+2|MD2|2024-08-23|H|Montpellier|6|0|home
+3|MD3|2024-09-01|A|Lille|3|1|away
+4|MD4|2024-09-14|H|Brest|3|1|home
+5|MD5|2024-09-21|A|Reims|1|1|away
+6|MD6|2024-09-27|H|Rennes|3|1|home
+7|MD7|2024-10-06|A|Nice|1|1|away
+8|MD8|2024-10-19|H|Strasbourg|4|2|home
+9|MD9|2024-10-27|A|Marseille|3|0|away
+10|MD10|2024-11-02|H|Lens|1|0|home
+11|MD11|2024-11-09|A|Angers|4|2|away
+12|MD12|2024-11-22|H|Toulouse|3|0|home
+13|MD13|2024-11-30|H|Nantes|1|1|home
+14|MD14|2024-12-06|A|Auxerre|0|0|away
+15|MD15|2024-12-15|H|Lyon|3|1|home
+16|MD16|2024-12-18|A|Monaco|4|2|away
+17|MD17|2025-01-12|H|St Etienne|2|1|home
+18|MD18|2025-01-18|A|Lens|2|1|away
+19|MD19|2025-01-25|H|Reims|1|1|home
+20|MD20|2025-02-01|A|Brest|5|2|away
+21|MD21|2025-02-07|H|Monaco|4|1|home
+22|MD22|2025-02-15|A|Toulouse|1|0|away
+23|MD23|2025-02-23|A|Lyon|3|2|away
+24|MD24|2025-03-01|H|Lille|4|1|home
+25|MD25|2025-03-08|A|Rennes|4|1|away
+26|MD26|2025-03-16|H|Marseille|3|1|home
+27|MD27|2025-03-29|A|St Etienne|6|1|away
+28|MD28|2025-04-05|H|Angers|1|0|home
+29|MD29|2025-04-22|A|Nantes|1|1|away
+30|MD30|2025-04-19|H|Le Havre|2|1|home
+31|MD31|2025-04-25|H|Nice|1|3|home
+32|MD32|2025-05-03|A|Strasbourg|1|2|away
+33|MD33|2025-05-10|A|Montpellier|4|1|away
+34|MD34|2025-05-17|H|Auxerre|3|1|home
+
+TEAMPIVOT|Reims|P34 W8 D9 L17 GF33 GA47 PTS33
+1|MD1|2024-08-17|H|Lille|0|2|home
+2|MD2|2024-08-25|A|Marseille|2|2|away
+3|MD3|2024-09-01|H|Rennes|2|1|home
+4|MD4|2024-09-15|A|Nantes|2|1|away
+5|MD5|2024-09-21|H|Paris SG|1|1|home
+6|MD6|2024-09-29|A|Angers|3|1|away
+7|MD7|2024-10-06|H|Montpellier|4|2|home
+8|MD8|2024-10-20|A|Auxerre|1|2|away
+9|MD9|2024-10-26|H|Brest|1|2|home
+10|MD10|2024-11-03|A|Toulouse|0|1|away
+11|MD11|2024-11-10|A|Le Havre|3|0|away
+12|MD12|2024-11-23|H|Lyon|1|1|home
+13|MD13|2024-11-29|H|Lens|0|2|home
+14|MD14|2024-12-08|A|Strasbourg|0|0|away
+15|MD15|2024-12-14|H|Monaco|0|0|home
+16|MD16|2025-01-04|A|St Etienne|1|3|away
+17|MD17|2025-01-11|H|Nice|2|4|home
+18|MD18|2025-01-19|H|Le Havre|1|1|home
+19|MD19|2025-01-25|A|Paris SG|1|1|away
+20|MD20|2025-02-02|H|Nantes|1|2|home
+21|MD21|2025-02-09|A|Lyon|0|4|away
+22|MD22|2025-02-16|H|Angers|0|1|home
+23|MD23|2025-02-21|A|Rennes|0|1|away
+24|MD24|2025-02-28|A|Monaco|0|3|away
+25|MD25|2025-03-09|H|Auxerre|0|2|home
+26|MD26|2025-03-16|A|Brest|0|0|away
+27|MD27|2025-03-29|H|Marseille|3|1|home
+28|MD28|2025-04-06|H|Strasbourg|0|1|home
+29|MD29|2025-04-11|A|Lens|2|0|away
+30|MD30|2025-04-20|H|Toulouse|1|0|home
+31|MD31|2025-04-27|A|Montpellier|0|0|away
+32|MD32|2025-05-02|A|Nice|0|1|away
+33|MD33|2025-05-10|H|St Etienne|0|2|home
+34|MD34|2025-05-17|A|Lille|1|2|away
+
+TEAMPIVOT|Rennes|P34 W13 D2 L19 GF51 GA50 PTS41
+1|MD1|2024-08-18|H|Lyon|3|0|home
+2|MD2|2024-08-25|A|Strasbourg|1|3|away
+3|MD3|2024-09-01|A|Reims|1|2|away
+4|MD4|2024-09-15|H|Montpellier|3|0|home
+5|MD5|2024-09-21|H|Lens|1|1|home
+6|MD6|2024-09-27|A|Paris SG|1|3|away
+7|MD7|2024-10-05|H|Monaco|1|2|home
+8|MD8|2024-10-19|A|Brest|1|1|away
+9|MD9|2024-10-25|H|Le Havre|1|0|home
+10|MD10|2024-11-03|A|Auxerre|0|4|away
+11|MD11|2024-11-10|H|Toulouse|0|2|home
+12|MD12|2024-11-24|A|Lille|0|1|away
+13|MD13|2024-11-30|H|St Etienne|5|0|home
+14|MD14|2024-12-08|A|Nantes|0|1|away
+15|MD15|2024-12-15|H|Angers|2|0|home
+16|MD16|2025-01-03|A|Nice|2|3|away
+17|MD17|2025-01-11|H|Marseille|1|2|home
+18|MD18|2025-01-18|H|Brest|1|2|home
+19|MD19|2025-01-25|A|Monaco|2|3|away
+20|MD20|2025-02-02|H|Strasbourg|1|0|home
+21|MD21|2025-02-08|A|St Etienne|2|0|away
+22|MD22|2025-02-16|H|Lille|0|2|home
+23|MD23|2025-02-21|H|Reims|1|0|home
+24|MD24|2025-03-02|A|Montpellier|4|0|away
+25|MD25|2025-03-08|H|Paris SG|1|4|home
+26|MD26|2025-03-15|A|Lens|0|1|away
+27|MD27|2025-03-30|A|Angers|3|0|away
+28|MD28|2025-04-06|H|Auxerre|0|1|home
+29|MD29|2025-04-13|A|Le Havre|5|1|away
+30|MD30|2025-04-18|H|Nantes|2|1|home
+31|MD31|2025-04-26|A|Lyon|1|4|away
+32|MD32|2025-05-03|A|Toulouse|1|2|away
+33|MD33|2025-05-10|H|Nice|2|0|home
+34|MD34|2025-05-17|A|Marseille|2|4|away
+
+TEAMPIVOT|St Etienne|P34 W8 D6 L20 GF39 GA77 PTS30
+1|MD1|2024-08-17|A|Monaco|0|1|away
+2|MD2|2024-08-24|H|Le Havre|0|2|home
+3|MD3|2024-08-31|A|Brest|0|4|away
+4|MD4|2024-09-13|H|Lille|1|0|home
+5|MD5|2024-09-20|A|Nice|0|8|away
+6|MD6|2024-09-29|A|Nantes|2|2|away
+7|MD7|2024-10-05|H|Auxerre|3|1|home
+8|MD8|2024-10-19|H|Lens|0|2|home
+9|MD9|2024-10-26|A|Angers|2|4|away
+10|MD10|2024-11-02|H|Strasbourg|2|0|home
+11|MD11|2024-11-10|A|Lyon|0|1|away
+12|MD12|2024-11-23|H|Montpellier|1|0|home
+13|MD13|2024-11-30|A|Rennes|0|5|away
+14|MD14|2024-12-08|H|Marseille|0|2|home
+15|MD15|2024-12-13|A|Toulouse|1|2|away
+16|MD16|2025-01-04|H|Reims|3|1|home
+17|MD17|2025-01-12|A|Paris SG|1|2|away
+18|MD18|2025-01-19|H|Nantes|1|1|home
+19|MD19|2025-01-24|A|Auxerre|1|1|away
+20|MD20|2025-02-01|A|Lille|1|4|away
+21|MD21|2025-02-08|H|Rennes|0|2|home
+22|MD22|2025-02-15|A|Marseille|1|5|away
+23|MD23|2025-02-22|H|Angers|3|3|home
+24|MD24|2025-03-01|H|Nice|1|3|home
+25|MD25|2025-03-09|A|Le Havre|1|1|away
+26|MD26|2025-03-16|A|Montpellier|2|0|away
+27|MD27|2025-03-29|H|Paris SG|1|6|home
+28|MD28|2025-04-06|A|Lens|0|1|away
+29|MD29|2025-04-13|H|Brest|3|3|home
+30|MD30|2025-04-20|H|Lyon|2|1|home
+31|MD31|2025-04-26|A|Strasbourg|1|3|away
+32|MD32|2025-05-03|H|Monaco|1|3|home
+33|MD33|2025-05-10|A|Reims|2|0|away
+34|MD34|2025-05-17|H|Toulouse|2|3|home
+
+TEAMPIVOT|Strasbourg|P34 W16 D9 L9 GF56 GA44 PTS57
+1|MD1|2024-08-18|A|Montpellier|1|1|away
+2|MD2|2024-08-25|H|Rennes|3|1|home
+3|MD3|2024-08-30|A|Lyon|3|4|away
+4|MD4|2024-09-15|H|Angers|1|1|home
+5|MD5|2024-09-21|A|Lille|3|3|away
+6|MD6|2024-09-29|H|Marseille|1|0|home
+7|MD7|2024-10-06|H|Lens|2|2|home
+8|MD8|2024-10-19|A|Paris SG|2|4|away
+9|MD9|2024-10-27|H|Nantes|3|1|home
+10|MD10|2024-11-02|A|St Etienne|0|2|away
+11|MD11|2024-11-09|H|Monaco|1|3|home
+12|MD12|2024-11-24|A|Nice|1|2|away
+13|MD13|2024-11-30|A|Brest|1|3|away
+14|MD14|2024-12-08|H|Reims|0|0|home
+15|MD15|2024-12-15|A|Le Havre|3|0|away
+16|MD16|2025-01-05|H|Auxerre|3|1|home
+17|MD17|2025-01-12|A|Toulouse|2|1|away
+18|MD18|2025-01-19|A|Marseille|1|1|away
+19|MD19|2025-01-25|H|Lille|2|1|home
+20|MD20|2025-02-02|A|Rennes|0|1|away
+21|MD21|2025-02-09|H|Montpellier|2|0|home
+22|MD22|2025-02-16|A|Lens|2|0|away
+23|MD23|2025-02-23|H|Brest|0|0|home
+24|MD24|2025-03-02|A|Auxerre|1|0|away
+25|MD25|2025-03-09|A|Nantes|1|0|away
+26|MD26|2025-03-16|H|Toulouse|2|1|home
+27|MD27|2025-03-28|H|Lyon|4|2|home
+28|MD28|2025-04-06|A|Reims|1|0|away
+29|MD29|2025-04-12|H|Nice|2|2|home
+30|MD30|2025-04-19|A|Monaco|0|0|away
+31|MD31|2025-04-26|H|St Etienne|3|1|home
+32|MD32|2025-05-03|H|Paris SG|2|1|home
+33|MD33|2025-05-10|A|Angers|1|2|away
+34|MD34|2025-05-17|H|Le Havre|2|3|home
+
+TEAMPIVOT|Toulouse|P34 W11 D9 L14 GF44 GA43 PTS42
+1|MD1|2024-08-18|H|Nantes|0|0|home
+2|MD2|2024-08-25|A|Nice|1|1|away
+3|MD3|2024-08-31|H|Marseille|1|3|home
+4|MD4|2024-09-15|H|Le Havre|2|0|home
+5|MD5|2024-09-22|A|Brest|0|2|away
+6|MD6|2024-09-29|H|Lyon|1|2|home
+7|MD7|2024-10-05|A|Lille|1|2|away
+8|MD8|2024-10-20|H|Angers|1|1|home
+9|MD9|2024-10-27|A|Montpellier|3|0|away
+10|MD10|2024-11-03|H|Reims|1|0|home
+11|MD11|2024-11-10|A|Rennes|2|0|away
+12|MD12|2024-11-22|A|Paris SG|0|3|away
+13|MD13|2024-12-01|H|Auxerre|2|0|home
+14|MD14|2024-12-07|A|Monaco|0|2|away
+15|MD15|2024-12-13|H|St Etienne|2|1|home
+16|MD16|2025-01-05|A|Lens|1|0|away
+17|MD17|2025-01-12|H|Strasbourg|1|2|home
+18|MD18|2025-01-18|A|Lyon|0|0|away
+19|MD19|2025-01-26|H|Montpellier|1|2|home
+20|MD20|2025-02-02|H|Nice|1|1|home
+21|MD21|2025-02-09|A|Auxerre|2|2|away
+22|MD22|2025-02-15|H|Paris SG|0|1|home
+23|MD23|2025-02-23|A|Le Havre|4|1|away
+24|MD24|2025-03-02|A|Angers|4|0|away
+25|MD25|2025-03-07|H|Monaco|1|1|home
+26|MD26|2025-03-16|A|Strasbourg|1|2|away
+27|MD27|2025-03-30|H|Brest|2|4|home
+28|MD28|2025-04-06|A|Marseille|2|3|away
+29|MD29|2025-04-12|H|Lille|1|2|home
+30|MD30|2025-04-20|A|Reims|0|1|away
+31|MD31|2025-04-27|A|Nantes|0|0|away
+32|MD32|2025-05-03|H|Rennes|2|1|home
+33|MD33|2025-05-10|H|Lens|1|1|home
+34|MD34|2025-05-17|A|St Etienne|3|2|away
+
+### PIVOT 2025-26 (re-derived from the pack's own rows; each club = its 34 games in round order; summary gated vs the season TABLE constants)
+TEAMPIVOT|Angers|P34 W9 D9 L16 GF29 GA48 PTS36
+1|MD1|2025-08-17|H|Paris FC|1|0|home
+2|MD2|2025-08-22|A|Paris SG|0|1|away
+3|MD3|2025-08-31|H|Rennes|1|1|home
+4|MD4|2025-09-14|A|Metz|1|1|away
+5|MD5|2025-09-19|A|Lyon|0|1|away
+6|MD6|2025-09-28|H|Brest|0|2|home
+7|MD7|2025-10-05|A|Strasbourg|0|5|away
+8|MD8|2025-10-18|H|Monaco|1|1|home
+9|MD9|2025-10-26|H|Lorient|2|0|home
+10|MD10|2025-10-29|A|Marseille|2|2|away
+11|MD11|2025-11-02|A|Lille|0|1|away
+12|MD12|2025-11-09|H|Auxerre|2|0|home
+13|MD13|2025-11-23|A|Toulouse|1|0|away
+14|MD14|2025-11-30|H|Lens|1|2|home
+15|MD15|2025-12-07|A|Nice|1|0|away
+16|MD16|2025-12-12|H|Nantes|4|1|home
+17|MD17|2026-01-04|A|Le Havre|1|2|away
+18|MD18|2026-01-17|H|Marseille|2|5|home
+19|MD19|2026-01-25|A|Paris FC|0|0|away
+20|MD20|2026-02-01|H|Metz|1|0|home
+21|MD21|2026-02-08|H|Toulouse|1|0|home
+22|MD22|2026-02-15|A|Lorient|0|2|away
+23|MD23|2026-02-22|H|Lille|0|1|home
+24|MD24|2026-02-28|A|Monaco|0|2|away
+25|MD25|2026-03-07|A|Nantes|1|0|away
+26|MD26|2026-03-14|H|Nice|0|2|home
+27|MD27|2026-03-20|A|Lens|1|5|away
+28|MD28|2026-04-05|H|Lyon|0|0|home
+29|MD29|2026-04-11|A|Rennes|1|2|away
+30|MD30|2026-04-18|H|Le Havre|1|1|home
+31|MD31|2026-04-25|H|Paris SG|0|3|home
+32|MD32|2026-05-03|A|Auxerre|1|3|away
+33|MD33|2026-05-10|H|Strasbourg|1|1|home
+34|MD34|2026-05-17|A|Brest|1|1|away
+
+TEAMPIVOT|Auxerre|P34 W8 D10 L16 GF34 GA44 PTS34
+1|MD1|2025-08-17|H|Lorient|1|0|home
+2|MD2|2025-08-23|A|Nice|1|3|away
+3|MD3|2025-08-30|A|Nantes|0|1|away
+4|MD4|2025-09-13|H|Monaco|1|2|home
+5|MD5|2025-09-21|H|Toulouse|1|0|home
+6|MD6|2025-09-27|A|Paris SG|0|2|away
+7|MD7|2025-10-04|H|Lens|1|2|home
+8|MD8|2025-10-19|A|Rennes|2|2|away
+9|MD9|2025-10-26|H|Le Havre|0|1|home
+10|MD10|2025-10-29|A|Strasbourg|0|3|away
+11|MD11|2025-11-01|H|Marseille|0|1|home
+12|MD12|2025-11-09|A|Angers|0|2|away
+13|MD13|2025-11-23|H|Lyon|0|0|home
+14|MD14|2025-11-29|A|Paris FC|1|1|away
+15|MD15|2025-12-07|H|Metz|3|1|home
+16|MD16|2025-12-14|H|Lille|3|4|home
+17|MD17|2026-01-04|A|Brest|0|2|away
+18|MD18|2026-01-17|A|Lens|0|1|away
+19|MD19|2026-01-23|H|Paris SG|0|1|home
+20|MD20|2026-02-01|A|Toulouse|0|0|away
+21|MD21|2026-02-08|H|Paris FC|0|0|home
+22|MD22|2026-02-15|A|Metz|3|1|away
+23|MD23|2026-02-22|H|Rennes|0|3|home
+24|MD24|2026-03-01|A|Lorient|2|2|away
+25|MD25|2026-03-07|H|Strasbourg|0|0|home
+26|MD26|2026-03-13|A|Marseille|0|1|away
+27|MD27|2026-03-21|H|Brest|3|0|home
+28|MD28|2026-04-05|A|Le Havre|1|1|away
+29|MD29|2026-04-11|H|Nantes|0|0|home
+30|MD30|2026-04-19|A|Monaco|2|2|away
+31|MD31|2026-04-25|A|Lyon|2|3|away
+32|MD32|2026-05-03|H|Angers|3|1|home
+33|MD33|2026-05-10|H|Nice|2|1|home
+34|MD34|2026-05-17|A|Lille|2|0|away
+
+TEAMPIVOT|Brest|P34 W10 D9 L15 GF43 GA55 PTS39
+1|MD1|2025-08-17|H|Lille|3|3|home
+2|MD2|2025-08-24|A|Toulouse|0|2|away
+3|MD3|2025-08-29|A|Lens|1|3|away
+4|MD4|2025-09-14|H|Paris FC|1|2|home
+5|MD5|2025-09-20|H|Nice|4|1|home
+6|MD6|2025-09-28|A|Angers|2|0|away
+7|MD7|2025-10-04|H|Nantes|0|0|home
+8|MD8|2025-10-19|A|Lorient|3|3|away
+9|MD9|2025-10-25|H|Paris SG|0|3|home
+10|MD10|2025-10-29|A|Le Havre|0|1|away
+11|MD11|2025-11-02|H|Lyon|0|0|home
+12|MD12|2025-11-08|A|Marseille|0|3|away
+13|MD13|2025-11-23|H|Metz|3|2|home
+14|MD14|2025-11-30|A|Strasbourg|2|1|away
+15|MD15|2025-12-05|H|Monaco|1|0|home
+16|MD16|2025-12-13|A|Rennes|1|3|away
+17|MD17|2026-01-04|H|Auxerre|2|0|home
+18|MD18|2026-01-18|A|Lyon|1|2|away
+19|MD19|2026-01-25|H|Toulouse|0|2|home
+20|MD20|2026-02-01|A|Nice|2|2|away
+21|MD21|2026-02-07|H|Lorient|2|0|home
+22|MD22|2026-02-14|A|Lille|1|1|away
+23|MD23|2026-02-20|H|Marseille|2|0|home
+24|MD24|2026-03-01|A|Metz|1|0|away
+25|MD25|2026-03-08|H|Le Havre|2|0|home
+26|MD26|2026-03-14|A|Monaco|0|2|away
+27|MD27|2026-03-21|A|Auxerre|0|3|away
+28|MD28|2026-04-04|H|Rennes|3|4|home
+29|MD29|2026-05-13|H|Strasbourg|1|2|home
+30|MD30|2026-04-19|A|Nantes|1|1|away
+31|MD31|2026-04-24|H|Lens|3|3|home
+32|MD32|2026-05-03|A|Paris FC|0|4|away
+33|MD33|2026-05-10|A|Paris SG|0|1|away
+34|MD34|2026-05-17|H|Angers|1|1|home
+
+TEAMPIVOT|Le Havre|P34 W7 D14 L13 GF32 GA44 PTS35
+1|MD1|2025-08-16|A|Monaco|1|3|away
+2|MD2|2025-08-24|H|Lens|1|2|home
+3|MD3|2025-08-31|H|Nice|3|1|home
+4|MD4|2025-09-14|A|Strasbourg|0|1|away
+5|MD5|2025-09-21|H|Lorient|1|1|home
+6|MD6|2025-09-28|A|Metz|0|0|away
+7|MD7|2025-10-05|H|Rennes|2|2|home
+8|MD8|2025-10-18|A|Marseille|2|6|away
+9|MD9|2025-10-26|A|Auxerre|1|0|away
+10|MD10|2025-10-29|H|Brest|1|0|home
+11|MD11|2025-11-02|A|Toulouse|0|0|away
+12|MD12|2025-11-08|H|Nantes|1|1|home
+13|MD13|2025-11-22|A|Paris SG|0|3|away
+14|MD14|2025-11-30|H|Lille|0|1|home
+15|MD15|2025-12-07|H|Paris FC|0|0|home
+16|MD16|2025-12-14|A|Lyon|0|1|away
+17|MD17|2026-01-04|H|Angers|2|1|home
+18|MD18|2026-01-18|A|Rennes|1|1|away
+19|MD19|2026-01-24|H|Monaco|0|0|home
+20|MD20|2026-01-30|A|Lens|0|1|away
+21|MD21|2026-02-08|H|Strasbourg|2|1|home
+22|MD22|2026-02-15|H|Toulouse|2|1|home
+23|MD23|2026-02-22|A|Nantes|0|2|away
+24|MD24|2026-02-28|H|Paris SG|0|1|home
+25|MD25|2026-03-08|A|Brest|0|2|away
+26|MD26|2026-03-15|H|Lyon|0|0|home
+27|MD27|2026-03-22|A|Paris FC|2|3|away
+28|MD28|2026-04-05|H|Auxerre|1|1|home
+29|MD29|2026-04-12|A|Nice|1|1|away
+30|MD30|2026-04-18|A|Angers|1|1|away
+31|MD31|2026-04-26|H|Metz|4|4|home
+32|MD32|2026-05-03|A|Lille|1|1|away
+33|MD33|2026-05-10|H|Marseille|0|1|home
+34|MD34|2026-05-17|A|Lorient|2|0|away
+
+TEAMPIVOT|Lens|P34 W22 D4 L8 GF66 GA35 PTS70
+1|MD1|2025-08-16|H|Lyon|0|1|home
+2|MD2|2025-08-24|A|Le Havre|2|1|away
+3|MD3|2025-08-29|H|Brest|3|1|home
+4|MD4|2025-09-14|A|Paris SG|0|2|away
+5|MD5|2025-09-20|H|Lille|3|0|home
+6|MD6|2025-09-28|A|Rennes|0|0|away
+7|MD7|2025-10-04|A|Auxerre|2|1|away
+8|MD8|2025-10-19|H|Paris FC|2|1|home
+9|MD9|2025-10-25|H|Marseille|2|1|home
+10|MD10|2025-10-29|A|Metz|0|2|away
+11|MD11|2025-11-02|H|Lorient|3|0|home
+12|MD12|2025-11-08|A|Monaco|4|1|away
+13|MD13|2025-11-22|H|Strasbourg|1|0|home
+14|MD14|2025-11-30|A|Angers|2|1|away
+15|MD15|2025-12-06|A|Nantes|2|1|away
+16|MD16|2025-12-14|H|Nice|2|0|home
+17|MD17|2026-01-02|A|Toulouse|3|0|away
+18|MD18|2026-01-17|H|Auxerre|1|0|home
+19|MD19|2026-01-24|A|Marseille|1|3|away
+20|MD20|2026-01-30|H|Le Havre|1|0|home
+21|MD21|2026-02-07|H|Rennes|3|1|home
+22|MD22|2026-02-14|A|Paris FC|5|0|away
+23|MD23|2026-02-21|H|Monaco|2|3|home
+24|MD24|2026-02-27|A|Strasbourg|1|1|away
+25|MD25|2026-03-08|H|Metz|3|0|home
+26|MD26|2026-03-14|A|Lorient|1|2|away
+27|MD27|2026-03-20|H|Angers|5|1|home
+28|MD28|2026-04-04|A|Lille|0|3|away
+29|MD29|2026-05-13|H|Paris SG|0|2|home
+30|MD30|2026-04-17|H|Toulouse|3|2|home
+31|MD31|2026-04-24|A|Brest|3|3|away
+32|MD32|2026-05-02|A|Nice|1|1|away
+33|MD33|2026-05-08|H|Nantes|1|0|home
+34|MD34|2026-05-17|A|Lyon|4|0|away
+
+TEAMPIVOT|Lille|P34 W18 D7 L9 GF52 GA37 PTS61
+1|MD1|2025-08-17|A|Brest|3|3|away
+2|MD2|2025-08-24|H|Monaco|1|0|home
+3|MD3|2025-08-30|A|Lorient|7|1|away
+4|MD4|2025-09-14|H|Toulouse|2|1|home
+5|MD5|2025-09-20|A|Lens|0|3|away
+6|MD6|2025-09-28|H|Lyon|0|1|home
+7|MD7|2025-10-05|H|Paris SG|1|1|home
+8|MD8|2025-10-19|A|Nantes|2|0|away
+9|MD9|2025-10-26|H|Metz|6|1|home
+10|MD10|2025-10-29|A|Nice|0|2|away
+11|MD11|2025-11-02|H|Angers|1|0|home
+12|MD12|2025-11-09|A|Strasbourg|0|2|away
+13|MD13|2025-11-23|H|Paris FC|4|2|home
+14|MD14|2025-11-30|A|Le Havre|1|0|away
+15|MD15|2025-12-05|H|Marseille|1|0|home
+16|MD16|2025-12-14|A|Auxerre|4|3|away
+17|MD17|2026-01-03|H|Rennes|0|2|home
+18|MD18|2026-01-16|A|Paris SG|0|3|away
+19|MD19|2026-01-25|H|Strasbourg|1|4|home
+20|MD20|2026-02-01|A|Lyon|0|1|away
+21|MD21|2026-02-06|A|Metz|0|0|away
+22|MD22|2026-02-14|H|Brest|1|1|home
+23|MD23|2026-02-22|A|Angers|1|0|away
+24|MD24|2026-03-01|H|Nantes|1|0|home
+25|MD25|2026-03-08|H|Lorient|1|1|home
+26|MD26|2026-03-15|A|Rennes|2|1|away
+27|MD27|2026-03-22|A|Marseille|2|1|away
+28|MD28|2026-04-04|H|Lens|3|0|home
+29|MD29|2026-04-12|A|Toulouse|4|0|away
+30|MD30|2026-04-18|H|Nice|0|0|home
+31|MD31|2026-04-26|A|Paris FC|1|0|away
+32|MD32|2026-05-03|H|Le Havre|1|1|home
+33|MD33|2026-05-10|A|Monaco|1|0|away
+34|MD34|2026-05-17|H|Auxerre|0|2|home
+
+TEAMPIVOT|Lorient|P34 W11 D12 L11 GF48 GA51 PTS45
+1|MD1|2025-08-17|A|Auxerre|0|1|away
+2|MD2|2025-08-24|H|Rennes|4|0|home
+3|MD3|2025-08-30|H|Lille|1|7|home
+4|MD4|2025-09-12|A|Marseille|0|4|away
+5|MD5|2025-09-21|A|Le Havre|1|1|away
+6|MD6|2025-09-27|H|Monaco|3|1|home
+7|MD7|2025-10-03|A|Paris FC|0|2|away
+8|MD8|2025-10-19|H|Brest|3|3|home
+9|MD9|2025-10-26|A|Angers|0|2|away
+10|MD10|2025-10-29|H|Paris SG|1|1|home
+11|MD11|2025-11-02|A|Lens|0|3|away
+12|MD12|2025-11-09|H|Toulouse|1|1|home
+13|MD13|2025-11-23|A|Nantes|1|1|away
+14|MD14|2025-11-30|H|Nice|3|1|home
+15|MD15|2025-12-07|H|Lyon|1|0|home
+16|MD16|2025-12-14|A|Strasbourg|0|0|away
+17|MD17|2026-01-04|H|Metz|1|1|home
+18|MD18|2026-01-16|A|Monaco|3|1|away
+19|MD19|2026-01-24|A|Rennes|2|0|away
+20|MD20|2026-01-31|H|Nantes|2|1|home
+21|MD21|2026-02-07|A|Brest|0|2|away
+22|MD22|2026-02-15|H|Angers|2|0|home
+23|MD23|2026-02-22|A|Nice|3|3|away
+24|MD24|2026-03-01|H|Auxerre|2|2|home
+25|MD25|2026-03-08|A|Lille|1|1|away
+26|MD26|2026-03-14|H|Lens|2|1|home
+27|MD27|2026-03-21|A|Toulouse|0|1|away
+28|MD28|2026-04-05|H|Paris FC|1|1|home
+29|MD29|2026-04-12|A|Lyon|0|2|away
+30|MD30|2026-04-18|H|Marseille|2|0|home
+31|MD31|2026-04-26|H|Strasbourg|2|3|home
+32|MD32|2026-05-02|A|Paris SG|2|2|away
+33|MD33|2026-05-10|A|Metz|4|0|away
+34|MD34|2026-05-17|H|Le Havre|0|2|home
+
+TEAMPIVOT|Lyon|P34 W18 D6 L10 GF53 GA40 PTS60
+1|MD1|2025-08-16|A|Lens|1|0|away
+2|MD2|2025-08-23|H|Metz|3|0|home
+3|MD3|2025-08-31|H|Marseille|1|0|home
+4|MD4|2025-09-14|A|Rennes|1|3|away
+5|MD5|2025-09-19|H|Angers|1|0|home
+6|MD6|2025-09-28|A|Lille|1|0|away
+7|MD7|2025-10-05|H|Toulouse|1|2|home
+8|MD8|2025-10-18|A|Nice|2|3|away
+9|MD9|2025-10-26|H|Strasbourg|2|1|home
+10|MD10|2025-10-29|A|Paris FC|3|3|away
+11|MD11|2025-11-02|A|Brest|0|0|away
+12|MD12|2025-11-09|H|Paris SG|2|3|home
+13|MD13|2025-11-23|A|Auxerre|0|0|away
+14|MD14|2025-11-30|H|Nantes|3|0|home
+15|MD15|2025-12-07|A|Lorient|0|1|away
+16|MD16|2025-12-14|H|Le Havre|1|0|home
+17|MD17|2026-01-03|A|Monaco|3|1|away
+18|MD18|2026-01-18|H|Brest|2|1|home
+19|MD19|2026-01-25|A|Metz|5|2|away
+20|MD20|2026-02-01|H|Lille|1|0|home
+21|MD21|2026-02-07|A|Nantes|1|0|away
+22|MD22|2026-02-15|H|Nice|2|0|home
+23|MD23|2026-02-22|A|Strasbourg|1|3|away
+24|MD24|2026-03-01|A|Marseille|2|3|away
+25|MD25|2026-03-08|H|Paris FC|1|1|home
+26|MD26|2026-03-15|A|Le Havre|0|0|away
+27|MD27|2026-03-22|H|Monaco|1|2|home
+28|MD28|2026-04-05|A|Angers|0|0|away
+29|MD29|2026-04-12|H|Lorient|2|0|home
+30|MD30|2026-04-19|A|Paris SG|2|1|away
+31|MD31|2026-04-25|H|Auxerre|3|2|home
+32|MD32|2026-05-03|H|Rennes|4|2|home
+33|MD33|2026-05-10|A|Toulouse|1|2|away
+34|MD34|2026-05-17|H|Lens|0|4|home
+
+TEAMPIVOT|Marseille|P34 W18 D5 L11 GF63 GA45 PTS59
+1|MD1|2025-08-15|A|Rennes|0|1|away
+2|MD2|2025-08-23|H|Paris FC|5|2|home
+3|MD3|2025-08-31|A|Lyon|0|1|away
+4|MD4|2025-09-12|H|Lorient|4|0|home
+5|MD5|2025-09-22|H|Paris SG|1|0|home
+6|MD6|2025-09-26|A|Strasbourg|2|1|away
+7|MD7|2025-10-04|A|Metz|3|0|away
+8|MD8|2025-10-18|H|Le Havre|6|2|home
+9|MD9|2025-10-25|A|Lens|1|2|away
+10|MD10|2025-10-29|H|Angers|2|2|home
+11|MD11|2025-11-01|A|Auxerre|1|0|away
+12|MD12|2025-11-08|H|Brest|3|0|home
+13|MD13|2025-11-21|A|Nice|5|1|away
+14|MD14|2025-11-29|H|Toulouse|2|2|home
+15|MD15|2025-12-05|A|Lille|0|1|away
+16|MD16|2025-12-14|H|Monaco|1|0|home
+17|MD17|2026-01-04|H|Nantes|0|2|home
+18|MD18|2026-01-17|A|Angers|5|2|away
+19|MD19|2026-01-24|H|Lens|3|1|home
+20|MD20|2026-01-31|A|Paris FC|2|2|away
+21|MD21|2026-02-08|A|Paris SG|0|5|away
+22|MD22|2026-02-14|H|Strasbourg|2|2|home
+23|MD23|2026-02-20|A|Brest|0|2|away
+24|MD24|2026-03-01|H|Lyon|3|2|home
+25|MD25|2026-03-07|A|Toulouse|1|0|away
+26|MD26|2026-03-13|H|Auxerre|1|0|home
+27|MD27|2026-03-22|H|Lille|1|2|home
+28|MD28|2026-04-05|A|Monaco|1|2|away
+29|MD29|2026-04-10|H|Metz|3|1|home
+30|MD30|2026-04-18|A|Lorient|0|2|away
+31|MD31|2026-04-26|H|Nice|1|1|home
+32|MD32|2026-05-02|A|Nantes|0|3|away
+33|MD33|2026-05-10|A|Le Havre|1|0|away
+34|MD34|2026-05-17|H|Rennes|3|1|home
+
+TEAMPIVOT|Metz|P34 W3 D8 L23 GF32 GA76 PTS17
+1|MD1|2025-08-17|H|Strasbourg|0|1|home
+2|MD2|2025-08-23|A|Lyon|0|3|away
+3|MD3|2025-08-31|A|Paris FC|2|3|away
+4|MD4|2025-09-14|H|Angers|1|1|home
+5|MD5|2025-09-21|A|Monaco|2|5|away
+6|MD6|2025-09-28|H|Le Havre|0|0|home
+7|MD7|2025-10-04|H|Marseille|0|3|home
+8|MD8|2025-10-19|A|Toulouse|0|4|away
+9|MD9|2025-10-26|A|Lille|1|6|away
+10|MD10|2025-10-29|H|Lens|2|0|home
+11|MD11|2025-11-02|A|Nantes|2|0|away
+12|MD12|2025-11-09|H|Nice|2|1|home
+13|MD13|2025-11-23|A|Brest|2|3|away
+14|MD14|2025-11-28|H|Rennes|0|1|home
+15|MD15|2025-12-07|A|Auxerre|1|3|away
+16|MD16|2025-12-13|H|Paris SG|2|3|home
+17|MD17|2026-01-04|A|Lorient|1|1|away
+18|MD18|2026-01-18|A|Strasbourg|1|2|away
+19|MD19|2026-01-25|H|Lyon|2|5|home
+20|MD20|2026-02-01|A|Angers|0|1|away
+21|MD21|2026-02-06|H|Lille|0|0|home
+22|MD22|2026-02-15|H|Auxerre|1|3|home
+23|MD23|2026-02-21|A|Paris SG|0|3|away
+24|MD24|2026-03-01|H|Brest|0|1|home
+25|MD25|2026-03-08|A|Lens|0|3|away
+26|MD26|2026-03-15|H|Toulouse|3|4|home
+27|MD27|2026-03-22|A|Rennes|0|0|away
+28|MD28|2026-04-05|H|Nantes|0|0|home
+29|MD29|2026-04-10|A|Marseille|1|3|away
+30|MD30|2026-04-19|H|Paris FC|1|3|home
+31|MD31|2026-04-26|A|Le Havre|4|4|away
+32|MD32|2026-05-02|H|Monaco|1|2|home
+33|MD33|2026-05-10|H|Lorient|0|4|home
+34|MD34|2026-05-17|A|Nice|0|0|away
+
+TEAMPIVOT|Monaco|P34 W16 D6 L12 GF60 GA54 PTS54
+1|MD1|2025-08-16|H|Le Havre|3|1|home
+2|MD2|2025-08-24|A|Lille|0|1|away
+3|MD3|2025-08-31|H|Strasbourg|3|2|home
+4|MD4|2025-09-13|A|Auxerre|2|1|away
+5|MD5|2025-09-21|H|Metz|5|2|home
+6|MD6|2025-09-27|A|Lorient|1|3|away
+7|MD7|2025-10-05|H|Nice|2|2|home
+8|MD8|2025-10-18|A|Angers|1|1|away
+9|MD9|2025-10-25|H|Toulouse|1|0|home
+10|MD10|2025-10-29|A|Nantes|5|3|away
+11|MD11|2025-11-01|H|Paris FC|0|1|home
+12|MD12|2025-11-08|H|Lens|1|4|home
+13|MD13|2025-11-22|A|Rennes|1|4|away
+14|MD14|2025-11-29|H|Paris SG|1|0|home
+15|MD15|2025-12-05|A|Brest|0|1|away
+16|MD16|2025-12-14|A|Marseille|0|1|away
+17|MD17|2026-01-03|H|Lyon|1|3|home
+18|MD18|2026-01-16|H|Lorient|1|3|home
+19|MD19|2026-01-24|A|Le Havre|0|0|away
+20|MD20|2026-01-31|H|Rennes|4|0|home
+21|MD21|2026-02-08|A|Nice|0|0|away
+22|MD22|2026-02-13|H|Nantes|3|1|home
+23|MD23|2026-02-21|A|Lens|3|2|away
+24|MD24|2026-02-28|H|Angers|2|0|home
+25|MD25|2026-03-06|A|Paris SG|3|1|away
+26|MD26|2026-03-14|H|Brest|2|0|home
+27|MD27|2026-03-22|A|Lyon|2|1|away
+28|MD28|2026-04-05|H|Marseille|2|1|home
+29|MD29|2026-04-10|A|Paris FC|1|4|away
+30|MD30|2026-04-19|H|Auxerre|2|2|home
+31|MD31|2026-04-25|A|Toulouse|2|2|away
+32|MD32|2026-05-02|A|Metz|2|1|away
+33|MD33|2026-05-10|H|Lille|0|1|home
+34|MD34|2026-05-17|A|Strasbourg|4|5|away
+
+TEAMPIVOT|Nantes|P34 W5 D9 L20 GF29 GA52 PTS24
+1|MD1|2025-08-17|H|Paris SG|0|1|home
+2|MD2|2025-08-24|A|Strasbourg|0|1|away
+3|MD3|2025-08-30|H|Auxerre|1|0|home
+4|MD4|2025-09-13|A|Nice|0|1|away
+5|MD5|2025-09-20|H|Rennes|2|2|home
+6|MD6|2025-09-27|A|Toulouse|2|2|away
+7|MD7|2025-10-04|A|Brest|0|0|away
+8|MD8|2025-10-19|H|Lille|0|2|home
+9|MD9|2025-10-24|A|Paris FC|2|1|away
+10|MD10|2025-10-29|H|Monaco|3|5|home
+11|MD11|2025-11-02|H|Metz|0|2|home
+12|MD12|2025-11-08|A|Le Havre|1|1|away
+13|MD13|2025-11-23|H|Lorient|1|1|home
+14|MD14|2025-11-30|A|Lyon|0|3|away
+15|MD15|2025-12-06|H|Lens|1|2|home
+16|MD16|2025-12-12|A|Angers|1|4|away
+17|MD17|2026-01-04|A|Marseille|2|0|away
+18|MD18|2026-01-18|H|Paris FC|1|2|home
+19|MD19|2026-01-25|H|Nice|1|4|home
+20|MD20|2026-01-31|A|Lorient|1|2|away
+21|MD21|2026-02-07|H|Lyon|0|1|home
+22|MD22|2026-02-13|A|Monaco|1|3|away
+23|MD23|2026-02-22|H|Le Havre|2|0|home
+24|MD24|2026-03-01|A|Lille|0|1|away
+25|MD25|2026-03-07|H|Angers|0|1|home
+26|MD26|2026-04-22|A|Paris SG|0|3|away
+27|MD27|2026-03-22|H|Strasbourg|2|3|home
+28|MD28|2026-04-05|A|Metz|0|0|away
+29|MD29|2026-04-11|A|Auxerre|0|0|away
+30|MD30|2026-04-19|H|Brest|1|1|home
+31|MD31|2026-04-26|A|Rennes|1|2|away
+32|MD32|2026-05-02|H|Marseille|3|0|home
+33|MD33|2026-05-08|A|Lens|0|1|away
+34|MD34|2026-05-17|H|Toulouse|0|0|home
+
+TEAMPIVOT|Nice|P34 W7 D11 L16 GF37 GA60 PTS32
+1|MD1|2025-08-16|H|Toulouse|0|1|home
+2|MD2|2025-08-23|H|Auxerre|3|1|home
+3|MD3|2025-08-31|A|Le Havre|1|3|away
+4|MD4|2025-09-13|H|Nantes|1|0|home
+5|MD5|2025-09-20|A|Brest|1|4|away
+6|MD6|2025-09-28|H|Paris FC|1|1|home
+7|MD7|2025-10-05|A|Monaco|2|2|away
+8|MD8|2025-10-18|H|Lyon|3|2|home
+9|MD9|2025-10-26|A|Rennes|2|1|away
+10|MD10|2025-10-29|H|Lille|2|0|home
+11|MD11|2025-11-01|A|Paris SG|0|1|away
+12|MD12|2025-11-09|A|Metz|1|2|away
+13|MD13|2025-11-21|H|Marseille|1|5|home
+14|MD14|2025-11-30|A|Lorient|1|3|away
+15|MD15|2025-12-07|H|Angers|0|1|home
+16|MD16|2025-12-14|A|Lens|0|2|away
+17|MD17|2026-01-03|H|Strasbourg|1|1|home
+18|MD18|2026-01-17|A|Toulouse|1|5|away
+19|MD19|2026-01-25|A|Nantes|4|1|away
+20|MD20|2026-02-01|H|Brest|2|2|home
+21|MD21|2026-02-08|H|Monaco|0|0|home
+22|MD22|2026-02-15|A|Lyon|0|2|away
+23|MD23|2026-02-22|H|Lorient|3|3|home
+24|MD24|2026-03-01|A|Paris FC|0|1|away
+25|MD25|2026-03-08|H|Rennes|0|4|home
+26|MD26|2026-03-14|A|Angers|2|0|away
+27|MD27|2026-03-21|H|Paris SG|0|4|home
+28|MD28|2026-04-04|A|Strasbourg|1|3|away
+29|MD29|2026-04-12|H|Le Havre|1|1|home
+30|MD30|2026-04-18|A|Lille|0|0|away
+31|MD31|2026-04-26|A|Marseille|1|1|away
+32|MD32|2026-05-02|H|Lens|1|1|home
+33|MD33|2026-05-10|A|Auxerre|1|2|away
+34|MD34|2026-05-17|H|Metz|0|0|home
+
+TEAMPIVOT|Paris FC|P34 W11 D11 L12 GF47 GA50 PTS44
+1|MD1|2025-08-17|A|Angers|0|1|away
+2|MD2|2025-08-23|A|Marseille|2|5|away
+3|MD3|2025-08-31|H|Metz|3|2|home
+4|MD4|2025-09-14|A|Brest|2|1|away
+5|MD5|2025-09-21|H|Strasbourg|2|3|home
+6|MD6|2025-09-28|A|Nice|1|1|away
+7|MD7|2025-10-03|H|Lorient|2|0|home
+8|MD8|2025-10-19|A|Lens|1|2|away
+9|MD9|2025-10-24|H|Nantes|1|2|home
+10|MD10|2025-10-29|H|Lyon|3|3|home
+11|MD11|2025-11-01|A|Monaco|1|0|away
+12|MD12|2025-11-07|H|Rennes|0|1|home
+13|MD13|2025-11-23|A|Lille|2|4|away
+14|MD14|2025-11-29|H|Auxerre|1|1|home
+15|MD15|2025-12-07|A|Le Havre|0|0|away
+16|MD16|2025-12-13|H|Toulouse|0|3|home
+17|MD17|2026-01-04|A|Paris SG|1|2|away
+18|MD18|2026-01-18|A|Nantes|2|1|away
+19|MD19|2026-01-25|H|Angers|0|0|home
+20|MD20|2026-01-31|H|Marseille|2|2|home
+21|MD21|2026-02-08|A|Auxerre|0|0|away
+22|MD22|2026-02-14|H|Lens|0|5|home
+23|MD23|2026-02-21|A|Toulouse|1|1|away
+24|MD24|2026-03-01|H|Nice|1|0|home
+25|MD25|2026-03-08|A|Lyon|1|1|away
+26|MD26|2026-03-15|A|Strasbourg|0|0|away
+27|MD27|2026-03-22|H|Le Havre|3|2|home
+28|MD28|2026-04-05|A|Lorient|1|1|away
+29|MD29|2026-04-10|H|Monaco|4|1|home
+30|MD30|2026-04-19|A|Metz|3|1|away
+31|MD31|2026-04-26|H|Lille|0|1|home
+32|MD32|2026-05-03|H|Brest|4|0|home
+33|MD33|2026-05-10|A|Rennes|1|2|away
+34|MD34|2026-05-17|H|Paris SG|2|1|home
+
+TEAMPIVOT|Paris SG|P34 W24 D4 L6 GF74 GA29 PTS76
+1|MD1|2025-08-17|A|Nantes|1|0|away
+2|MD2|2025-08-22|H|Angers|1|0|home
+3|MD3|2025-08-30|A|Toulouse|6|3|away
+4|MD4|2025-09-14|H|Lens|2|0|home
+5|MD5|2025-09-22|A|Marseille|0|1|away
+6|MD6|2025-09-27|H|Auxerre|2|0|home
+7|MD7|2025-10-05|A|Lille|1|1|away
+8|MD8|2025-10-17|H|Strasbourg|3|3|home
+9|MD9|2025-10-25|A|Brest|3|0|away
+10|MD10|2025-10-29|A|Lorient|1|1|away
+11|MD11|2025-11-01|H|Nice|1|0|home
+12|MD12|2025-11-09|A|Lyon|3|2|away
+13|MD13|2025-11-22|H|Le Havre|3|0|home
+14|MD14|2025-11-29|A|Monaco|0|1|away
+15|MD15|2025-12-06|H|Rennes|5|0|home
+16|MD16|2025-12-13|A|Metz|3|2|away
+17|MD17|2026-01-04|H|Paris FC|2|1|home
+18|MD18|2026-01-16|H|Lille|3|0|home
+19|MD19|2026-01-23|A|Auxerre|1|0|away
+20|MD20|2026-02-01|A|Strasbourg|2|1|away
+21|MD21|2026-02-08|H|Marseille|5|0|home
+22|MD22|2026-02-13|A|Rennes|1|3|away
+23|MD23|2026-02-21|H|Metz|3|0|home
+24|MD24|2026-02-28|A|Le Havre|1|0|away
+25|MD25|2026-03-06|H|Monaco|1|3|home
+26|MD26|2026-04-22|H|Nantes|3|0|home
+27|MD27|2026-03-21|A|Nice|4|0|away
+28|MD28|2026-04-03|H|Toulouse|3|1|home
+29|MD29|2026-05-13|A|Lens|2|0|away
+30|MD30|2026-04-19|H|Lyon|1|2|home
+31|MD31|2026-04-25|A|Angers|3|0|away
+32|MD32|2026-05-02|H|Lorient|2|2|home
+33|MD33|2026-05-10|H|Brest|1|0|home
+34|MD34|2026-05-17|A|Paris FC|1|2|away
+
+TEAMPIVOT|Rennes|P34 W17 D8 L9 GF59 GA50 PTS59
+1|MD1|2025-08-15|H|Marseille|1|0|home
+2|MD2|2025-08-24|A|Lorient|0|4|away
+3|MD3|2025-08-31|A|Angers|1|1|away
+4|MD4|2025-09-14|H|Lyon|3|1|home
+5|MD5|2025-09-20|A|Nantes|2|2|away
+6|MD6|2025-09-28|H|Lens|0|0|home
+7|MD7|2025-10-05|A|Le Havre|2|2|away
+8|MD8|2025-10-19|H|Auxerre|2|2|home
+9|MD9|2025-10-26|H|Nice|1|2|home
+10|MD10|2025-10-29|A|Toulouse|2|2|away
+11|MD11|2025-11-02|H|Strasbourg|4|1|home
+12|MD12|2025-11-07|A|Paris FC|1|0|away
+13|MD13|2025-11-22|H|Monaco|4|1|home
+14|MD14|2025-11-28|A|Metz|1|0|away
+15|MD15|2025-12-06|A|Paris SG|0|5|away
+16|MD16|2025-12-13|H|Brest|3|1|home
+17|MD17|2026-01-03|A|Lille|2|0|away
+18|MD18|2026-01-18|H|Le Havre|1|1|home
+19|MD19|2026-01-24|H|Lorient|0|2|home
+20|MD20|2026-01-31|A|Monaco|0|4|away
+21|MD21|2026-02-07|A|Lens|1|3|away
+22|MD22|2026-02-13|H|Paris SG|3|1|home
+23|MD23|2026-02-22|A|Auxerre|3|0|away
+24|MD24|2026-02-28|H|Toulouse|1|0|home
+25|MD25|2026-03-08|A|Nice|4|0|away
+26|MD26|2026-03-15|H|Lille|1|2|home
+27|MD27|2026-03-22|H|Metz|0|0|home
+28|MD28|2026-04-04|A|Brest|4|3|away
+29|MD29|2026-04-11|H|Angers|2|1|home
+30|MD30|2026-04-19|A|Strasbourg|3|0|away
+31|MD31|2026-04-26|H|Nantes|2|1|home
+32|MD32|2026-05-03|A|Lyon|2|4|away
+33|MD33|2026-05-10|H|Paris FC|2|1|home
+34|MD34|2026-05-17|A|Marseille|1|3|away
+
+TEAMPIVOT|Strasbourg|P34 W15 D8 L11 GF58 GA47 PTS53
+1|MD1|2025-08-17|A|Metz|1|0|away
+2|MD2|2025-08-24|H|Nantes|1|0|home
+3|MD3|2025-08-31|A|Monaco|2|3|away
+4|MD4|2025-09-14|H|Le Havre|1|0|home
+5|MD5|2025-09-21|A|Paris FC|3|2|away
+6|MD6|2025-09-26|H|Marseille|1|2|home
+7|MD7|2025-10-05|H|Angers|5|0|home
+8|MD8|2025-10-17|A|Paris SG|3|3|away
+9|MD9|2025-10-26|A|Lyon|1|2|away
+10|MD10|2025-10-29|H|Auxerre|3|0|home
+11|MD11|2025-11-02|A|Rennes|1|4|away
+12|MD12|2025-11-09|H|Lille|2|0|home
+13|MD13|2025-11-22|A|Lens|0|1|away
+14|MD14|2025-11-30|H|Brest|1|2|home
+15|MD15|2025-12-06|A|Toulouse|0|1|away
+16|MD16|2025-12-14|H|Lorient|0|0|home
+17|MD17|2026-01-03|A|Nice|1|1|away
+18|MD18|2026-01-18|H|Metz|2|1|home
+19|MD19|2026-01-25|A|Lille|4|1|away
+20|MD20|2026-02-01|H|Paris SG|1|2|home
+21|MD21|2026-02-08|A|Le Havre|1|2|away
+22|MD22|2026-02-14|A|Marseille|2|2|away
+23|MD23|2026-02-22|H|Lyon|3|1|home
+24|MD24|2026-02-27|H|Lens|1|1|home
+25|MD25|2026-03-07|A|Auxerre|0|0|away
+26|MD26|2026-03-15|H|Paris FC|0|0|home
+27|MD27|2026-03-22|A|Nantes|3|2|away
+28|MD28|2026-04-04|H|Nice|3|1|home
+29|MD29|2026-05-13|A|Brest|2|1|away
+30|MD30|2026-04-19|H|Rennes|0|3|home
+31|MD31|2026-04-26|A|Lorient|3|2|away
+32|MD32|2026-05-03|H|Toulouse|1|2|home
+33|MD33|2026-05-10|A|Angers|1|1|away
+34|MD34|2026-05-17|H|Monaco|5|4|home
+
+TEAMPIVOT|Toulouse|P34 W12 D9 L13 GF47 GA46 PTS45
+1|MD1|2025-08-16|A|Nice|1|0|away
+2|MD2|2025-08-24|H|Brest|2|0|home
+3|MD3|2025-08-30|H|Paris SG|3|6|home
+4|MD4|2025-09-14|A|Lille|1|2|away
+5|MD5|2025-09-21|A|Auxerre|0|1|away
+6|MD6|2025-09-27|H|Nantes|2|2|home
+7|MD7|2025-10-05|A|Lyon|2|1|away
+8|MD8|2025-10-19|H|Metz|4|0|home
+9|MD9|2025-10-25|A|Monaco|0|1|away
+10|MD10|2025-10-29|H|Rennes|2|2|home
+11|MD11|2025-11-02|H|Le Havre|0|0|home
+12|MD12|2025-11-09|A|Lorient|1|1|away
+13|MD13|2025-11-23|H|Angers|0|1|home
+14|MD14|2025-11-29|A|Marseille|2|2|away
+15|MD15|2025-12-06|H|Strasbourg|1|0|home
+16|MD16|2025-12-13|A|Paris FC|3|0|away
+17|MD17|2026-01-02|H|Lens|0|3|home
+18|MD18|2026-01-17|H|Nice|5|1|home
+19|MD19|2026-01-25|A|Brest|2|0|away
+20|MD20|2026-02-01|H|Auxerre|0|0|home
+21|MD21|2026-02-08|A|Angers|0|1|away
+22|MD22|2026-02-15|A|Le Havre|1|2|away
+23|MD23|2026-02-21|H|Paris FC|1|1|home
+24|MD24|2026-02-28|A|Rennes|0|1|away
+25|MD25|2026-03-07|H|Marseille|0|1|home
+26|MD26|2026-03-15|A|Metz|4|3|away
+27|MD27|2026-03-21|H|Lorient|1|0|home
+28|MD28|2026-04-03|A|Paris SG|1|3|away
+29|MD29|2026-04-12|H|Lille|0|4|home
+30|MD30|2026-04-17|A|Lens|2|3|away
+31|MD31|2026-04-25|H|Monaco|2|2|home
+32|MD32|2026-05-03|A|Strasbourg|2|1|away
+33|MD33|2026-05-10|H|Lyon|2|1|home
+34|MD34|2026-05-17|A|Nantes|0|0|away

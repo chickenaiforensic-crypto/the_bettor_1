@@ -1,0 +1,112 @@
+# FRA VENUES 2021-22..2025-26 (WO-FRA-SPAN-16) — transcribed 2026-08-04 from the Wikipedia
+# season articles' "Stadiums and locations" tables (fetched 2026-08-04 via fetch_page, action=raw,
+# chunks 0-1 of each season article: 2021-22..2025-26 Ligue 1). Independent of RSSSF fixtures =
+# venue second index.
+# VENUE|<season>|<stock>|<stadium-canonical (as printed, ASCII-folded)>|<city-canonical>|<cap as printed>|<verbatim wiki notes>
+# City canonicalization decree (FRA, mirrors EPL): metro/municipal print used as the source prints
+# it in MOST seasons; verbatim variance kept in the last field. Stadium names follow the article's
+# printed display text PER SEASON (sponsor epochs are era data, not errors; e.g. Lille's venue is
+# "Stade Pierre-Mauroy" 2021-22, "Decathlon Arena Pierre Mauroy Stadium" 2022-23..2024-25, back to
+# "Stade Pierre-Mauroy" 2025-26). ASCII folding: accents stripped deterministically (NFKD),
+# e.g. Velodrome <- Vélodrome, Oceane <- Océane, Abbe <- Abbé, Decines <- Décines.
+VENUE|2021-22|Angers|Stade Raymond Kopa|Angers|18752|[[Angers]]/[[Stade Raymond Kopa]]
+VENUE|2021-22|Bordeaux|Matmut Atlantique|Bordeaux|42115|[[Bordeaux]]/[[Nouveau Stade de Bordeaux|Matmut Atlantique]]
+VENUE|2021-22|Brest|Stade Francis-Le Ble|Brest|15931|[[Brest, France|Brest]]/[[Stade Francis-Le Blé]]
+VENUE|2021-22|Clermont|Stade Gabriel Montpied|Clermont-Ferrand|11980|[[Clermont-Ferrand]]/[[Stade Gabriel Montpied]]
+VENUE|2021-22|Lens|Stade Bollaert-Delelis|Lens|37705|[[Lens, Pas-de-Calais|Lens]]/[[Stade Bollaert-Delelis]]
+VENUE|2021-22|Lille|Stade Pierre-Mauroy|Villeneuve-d'Ascq|50186|[[Villeneuve-d'Ascq]]/[[Stade Pierre-Mauroy]]
+VENUE|2021-22|Lorient|Stade du Moustoir|Lorient|18890|[[Lorient]]/[[Stade du Moustoir]]
+VENUE|2021-22|Lyon|Groupama Stadium|Decines-Charpieu|59186|[[Décines-Charpieu]]/[[Parc Olympique Lyonnais|Groupama Stadium]]
+VENUE|2021-22|Marseille|Orange Velodrome|Marseille|67394|[[Marseille]]/[[Stade Vélodrome|Orange Vélodrome]]
+VENUE|2021-22|Metz|Stade Saint-Symphorien|Longeville-les-Metz|25636|[[Longeville-lès-Metz]]/[[Stade Saint-Symphorien]] (cap print 25,636 this season)
+VENUE|2021-22|Monaco|Stade Louis II|Monaco|18523|{{flagicon|Monaco}} [[Monaco]]/[[Stade Louis II]]
+VENUE|2021-22|Montpellier|Stade de la Mosson|Montpellier|32900|[[Montpellier]]/[[Stade de la Mosson]]
+VENUE|2021-22|Nantes|Stade de la Beaujoire|Nantes|35322|[[Nantes]]/[[Stade de la Beaujoire]]
+VENUE|2021-22|Nice|Allianz Riviera|Nice|35624|[[Nice]]/[[Allianz Riviera]]
+VENUE|2021-22|ParisSG|Parc des Princes|Paris|48583|[[Paris]]/[[Parc des Princes]] (cap print 48,583 2021-22..2022-23)
+VENUE|2021-22|Reims|Stade Auguste Delaune|Reims|21029|[[Reims]]/[[Stade Auguste Delaune]] (cap print 21,029 this season)
+VENUE|2021-22|Rennes|Roazhon Park|Rennes|29778|[[Rennes]]/[[Roazhon Park]]
+VENUE|2021-22|SaintEtienne|Stade Geoffroy-Guichard|Saint-Etienne|41965|[[Saint-Étienne]]/[[Stade Geoffroy-Guichard]]
+VENUE|2021-22|Strasbourg|Stade de la Meinau|Strasbourg|29230|[[Strasbourg]]/[[Stade de la Meinau]]
+VENUE|2021-22|Troyes|Stade de l'Aube|Troyes|20400|[[Troyes]]/[[Stade de l'Aube]] (cap print 20,400 this season)
+VENUE|2022-23|Ajaccio|Stade Francois Coty|Ajaccio|10446|[[Ajaccio]]/[[Stade François Coty]]
+VENUE|2022-23|Angers|Stade Raymond Kopa|Angers|18752|[[Angers]]/[[Stade Raymond Kopa]]
+VENUE|2022-23|Auxerre|Stade de l'Abbe-Deschamps|Auxerre|21379|[[Auxerre]]/[[Stade de l'Abbé-Deschamps]]
+VENUE|2022-23|Brest|Stade Francis-Le Ble|Brest|15931|[[Brest, France|Brest]]/[[Stade Francis-Le Blé]]
+VENUE|2022-23|Clermont|Stade Gabriel Montpied|Clermont-Ferrand|11980|[[Clermont-Ferrand]]/[[Stade Gabriel Montpied]]
+VENUE|2022-23|Lens|Stade Bollaert-Delelis|Lens|37705|[[Lens, Pas-de-Calais|Lens]]/[[Stade Bollaert-Delelis]]
+VENUE|2022-23|Lille|Decathlon Arena Pierre Mauroy Stadium|Villeneuve-d'Ascq|50186|article prints city [[Lille]] (canonical Villeneuve-d'Ascq)/[[Stade Pierre-Mauroy|Decathlon Arena Pierre Mauroy Stadium]]
+VENUE|2022-23|Lorient|Stade du Moustoir|Lorient|18890|[[Lorient]]/[[Stade du Moustoir]]
+VENUE|2022-23|Lyon|Groupama Stadium|Decines-Charpieu|59186|article prints city [[Lyon]] (canonical Decines-Charpieu)/[[Parc Olympique Lyonnais|Groupama Stadium]]
+VENUE|2022-23|Marseille|Orange Velodrome|Marseille|67394|[[Marseille]]/[[Stade Vélodrome|Orange Vélodrome]]
+VENUE|2022-23|Monaco|Stade Louis II|Monaco|18523|{{flagicon|Monaco}} [[Monaco]]/[[Stade Louis II]]
+VENUE|2022-23|Montpellier|Stade de la Mosson|Montpellier|32900|[[Montpellier]]/[[Stade de la Mosson]]
+VENUE|2022-23|Nantes|Stade de la Beaujoire|Nantes|35322|[[Nantes]]/[[Stade de la Beaujoire]]
+VENUE|2022-23|Nice|Allianz Riviera|Nice|35624|[[Nice]]/[[Allianz Riviera]]
+VENUE|2022-23|ParisSG|Parc des Princes|Paris|48583|[[Paris]]/[[Parc des Princes]]
+VENUE|2022-23|Reims|Stade Auguste Delaune|Reims|21684|[[Reims]]/[[Stade Auguste Delaune]]
+VENUE|2022-23|Rennes|Roazhon Park|Rennes|29778|[[Rennes]]/[[Roazhon Park]]
+VENUE|2022-23|Strasbourg|Stade de la Meinau|Strasbourg|29230|[[Strasbourg]]/[[Stade de la Meinau]]
+VENUE|2022-23|Toulouse|Stadium Municipal|Toulouse|33150|[[Toulouse]]/[[Stadium Municipal]]
+VENUE|2022-23|Troyes|Stade de l'Aube|Troyes|21684|[[Troyes]]/[[Stade de l'Aube]] (cap print 21,684 this season)
+VENUE|2023-24|Brest|Stade Francis-Le Ble|Brest|15931|[[Brest, France|Brest]]/[[Stade Francis-Le Blé]]
+VENUE|2023-24|Clermont|Stade Gabriel Montpied|Clermont-Ferrand|11980|[[Clermont-Ferrand]]/[[Stade Gabriel Montpied]]
+VENUE|2023-24|LeHavre|Stade Oceane|Le Havre|25178|[[Le Havre]]/[[Stade Océane]]
+VENUE|2023-24|Lens|Stade Bollaert-Delelis|Lens|37705|[[Lens, Pas-de-Calais|Lens]]/[[Stade Bollaert-Delelis]]
+VENUE|2023-24|Lille|Decathlon Arena Pierre Mauroy Stadium|Villeneuve-d'Ascq|50186|[[Villeneuve-d'Ascq]]/[[Stade Pierre-Mauroy|Decathlon Arena Pierre Mauroy Stadium]]
+VENUE|2023-24|Lorient|Stade du Moustoir|Lorient|18890|[[Lorient]]/[[Stade du Moustoir]]
+VENUE|2023-24|Lyon|Groupama Stadium|Decines-Charpieu|59186|article prints city [[Lyon]] (canonical Decines-Charpieu)/[[Parc Olympique Lyonnais|Groupama Stadium]]
+VENUE|2023-24|Marseille|Orange Velodrome|Marseille|67394|[[Marseille]]/[[Stade Vélodrome|Orange Vélodrome]]
+VENUE|2023-24|Metz|Stade Saint-Symphorien|Longeville-les-Metz|28786|[[Longeville-lès-Metz]]/[[Stade Saint-Symphorien]]
+VENUE|2023-24|Monaco|Stade Louis II|Monaco|18523|{{flagicon|Monaco}} [[Monaco]]/[[Stade Louis II]]
+VENUE|2023-24|Montpellier|Stade de la Mosson|Montpellier|32900|[[Montpellier]]/[[Stade de la Mosson]]
+VENUE|2023-24|Nantes|Stade de la Beaujoire|Nantes|35322|[[Nantes]]/[[Stade de la Beaujoire]]
+VENUE|2023-24|Nice|Allianz Riviera|Nice|35624|[[Nice]]/[[Allianz Riviera]]
+VENUE|2023-24|ParisSG|Parc des Princes|Paris|47926|[[Paris]]/[[Parc des Princes]] (cap print 47,926 from 2023-24)
+VENUE|2023-24|Reims|Stade Auguste Delaune|Reims|21684|[[Reims]]/[[Stade Auguste Delaune]]
+VENUE|2023-24|Rennes|Roazhon Park|Rennes|29778|[[Rennes]]/[[Roazhon Park]]
+VENUE|2023-24|Strasbourg|Stade de la Meinau|Strasbourg|29230|[[Strasbourg]]/[[Stade de la Meinau]]
+VENUE|2023-24|Toulouse|Stadium Municipal|Toulouse|33150|[[Toulouse]]/[[Stadium Municipal]]
+VENUE|2024-25|Angers|Stade Raymond Kopa|Angers|18752|[[Angers]]/[[Stade Raymond Kopa]]
+VENUE|2024-25|Auxerre|Stade Abbe Deschamps|Auxerre|21379|[[Auxerre]]/[[Stade Abbé Deschamps]]
+VENUE|2024-25|Brest|Stade Francis-Le Ble|Brest|15931|[[Brest, France|Brest]]/[[Stade Francis-Le Blé]]
+VENUE|2024-25|LeHavre|Stade Oceane|Le Havre|25178|[[Le Havre]]/[[Stade Océane]]
+VENUE|2024-25|Lens|Stade Bollaert-Delelis|Lens|37705|[[Lens, Pas-de-Calais|Lens]]/[[Stade Bollaert-Delelis]]
+VENUE|2024-25|Lille|Decathlon Arena Pierre Mauroy Stadium|Villeneuve-d'Ascq|50186|[[Villeneuve-d'Ascq]]/[[Stade Pierre-Mauroy|Decathlon Arena Pierre Mauroy Stadium]]
+VENUE|2024-25|Lyon|Groupama Stadium|Decines-Charpieu|59186|[[Décines-Charpieu]]/[[Parc Olympique Lyonnais|Groupama Stadium]]
+VENUE|2024-25|Marseille|Orange Velodrome|Marseille|67394|[[Marseille]]/[[Stade Vélodrome|Orange Vélodrome]]
+VENUE|2024-25|Monaco|Stade Louis II|Monaco|18523|{{nowrap|{{flagicon|Monaco}} [[Monaco]]}}/[[Stade Louis II]]
+VENUE|2024-25|Montpellier|Stade de la Mosson|Montpellier|32900|[[Montpellier]]/[[Stade de la Mosson]]
+VENUE|2024-25|Nantes|Stade de la Beaujoire|Nantes|35322|[[Nantes]]/[[Stade de la Beaujoire]]
+VENUE|2024-25|Nice|Allianz Riviera|Nice|35624|[[Nice]]/[[Allianz Riviera]]
+VENUE|2024-25|ParisSG|Parc des Princes|Paris|47926|[[Paris]]/[[Parc des Princes]]
+VENUE|2024-25|Reims|Stade Auguste Delaune|Reims|21684|[[Reims]]/[[Stade Auguste Delaune]]
+VENUE|2024-25|Rennes|Roazhon Park|Rennes|29778|[[Rennes]]/[[Roazhon Park]]
+VENUE|2024-25|SaintEtienne|Stade Geoffroy Guichard|Saint-Etienne|41965|[[Saint-Étienne]]/[[Stade Geoffroy Guichard]]
+VENUE|2024-25|Strasbourg|Stade de la Meinau|Strasbourg|29230|[[Strasbourg]]/[[Stade de la Meinau]]
+VENUE|2024-25|Toulouse|Stadium de Toulouse|Toulouse|33150|[[Toulouse]]/[[Stadium de Toulouse]]
+VENUE|2025-26|Angers|Stade Raymond Kopa|Angers|18752|[[Angers]]/[[Stade Raymond Kopa]]
+VENUE|2025-26|Auxerre|Stade Abbe Deschamps|Auxerre|21379|[[Auxerre]]/[[Stade Abbé Deschamps]]
+VENUE|2025-26|Brest|Stade Francis-Le Ble|Brest|15931|[[Brest, France|Brest]]/[[Stade Francis-Le Blé]]
+VENUE|2025-26|LeHavre|Stade Oceane|Le Havre|25178|[[Le Havre]]/[[Stade Océane]]
+VENUE|2025-26|Lens|Stade Bollaert-Delelis|Lens|37705|[[Lens, Pas-de-Calais|Lens]]/[[Stade Bollaert-Delelis]]
+VENUE|2025-26|Lille|Stade Pierre-Mauroy|Villeneuve-d'Ascq|50186|[[Villeneuve-d'Ascq]]/[[Stade Pierre-Mauroy]] (sponsor name dropped in this article)
+VENUE|2025-26|Lorient|Stade du Moustoir|Lorient|18890|[[Lorient]]/[[Stade du Moustoir]]
+VENUE|2025-26|Lyon|Groupama Stadium|Decines-Charpieu|59186|[[Décines-Charpieu]]/[[Parc Olympique Lyonnais|Groupama Stadium]]
+VENUE|2025-26|Marseille|Stade Velodrome|Marseille|67394|[[Marseille]]/[[Stade Vélodrome]] (sponsor name dropped in this article)
+VENUE|2025-26|Metz|Stade Saint-Symphorien|Longeville-les-Metz|28786|[[Longeville-lès-Metz]]/[[Stade Saint-Symphorien]]
+VENUE|2025-26|Monaco|Stade Louis II|Monaco|18523|[[Monaco]]/[[Stade Louis II]]
+VENUE|2025-26|Nantes|Stade de la Beaujoire|Nantes|35322|[[Nantes]]/[[Stade de la Beaujoire]]
+VENUE|2025-26|Nice|Allianz Riviera|Nice|35624|[[Nice]]/[[Allianz Riviera]]
+VENUE|2025-26|ParisFC|Stade Jean-Bouin|Paris|20000|[[Paris]] (Paris 16)/[[Stade Jean-Bouin (Paris)|Stade Jean-Bouin]]
+VENUE|2025-26|ParisSG|Parc des Princes|Paris|47926|[[Paris]] (Paris 16)/[[Parc des Princes]]
+VENUE|2025-26|Rennes|Roazhon Park|Rennes|29778|[[Rennes]]/[[Roazhon Park]]
+VENUE|2025-26|Strasbourg|Stade de la Meinau|Strasbourg|29230|[[Strasbourg]]/[[Stade de la Meinau]]
+VENUE|2025-26|Toulouse|Stadium de Toulouse|Toulouse|33150|[[Toulouse]]/[[Stadium de Toulouse]]
+# Playoff-venue fallbacks for clubs home in a playoff year they were NOT in Ligue 1:
+# 2021-22 leg1 at Auxerre -> 2022-23 entry Stade de l'Abbe-Deschamps|Auxerre
+# 2023-24 leg1 at SaintEtienne -> 2021-22/2024-25 entry Stade Geoffroy Guichard|Saint-Etienne
+# 2024-25 leg1 at Metz -> 2023-24/2025-26 entry Stade Saint-Symphorien|Longeville-les-Metz
+# 2025-26 leg1 at SaintEtienne -> 2024-25 entry Stade Geoffroy Guichard|Saint-Etienne
+# (venues per the wiki football boxes: Geoffroy-Guichard, Saint-Symphorien, Auguste-Delaune,
+# Abbe Deschamps, Allianz Riviera - home club grounds, no neutrals in the window's ties)

@@ -733,3 +733,71 @@ EPL `707dd830…`.
 **Queue state:** Russia addendum closed (REQ-1..3). Next: FRA full span (fran2022 ledger
 EXACT-verified in a prior session; fran2026 tables/cup layer captured 2026-08-04), then
 GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
+
+---
+
+## Addendum #12 — FRA Ligue 1 full span shipped (2026-08-04)
+
+**Scope:** WO-FRA-SPAN-16 on DECREE-2026-08-04 override — France Ligue 1 seasons 2021-22,
+2022-23, 2023-24, 2024-25, 2025-26 end-to-end + the pro/rel playoff legs touching the top
+flight + sourced 2026-27 boundary. The 20→18 club contraction from 2023-24 (the WO's
+membership trap) applied: 380+380+306+306+306 = 1,678 league rows + 8 `other` legs =
+**1,686 MATCH rows**.
+
+**Evidence chain (all fetched 2026-08-04, ledgers transcribed immediately):**
+- PRIMARY RSSSF `fran2022..fran2025.html` full round-by-round → `audit/ledger/fra-<s>.txt`
+  (2021-22 pre-existing EXACT; 2022-23/2023-24/2024-25 written new). **`fran2026.html`
+  prints NO league round-by-round** (final table + playoff + cups only, single-chunk page,
+  same shape as EPL's eng2026) → 2025-26 carrier = openfootball/europe `2025-26_fr1.txt`
+  (raw verbatim in `data/raw/`, parser `tools/parse_ofb_fra.py`, R-annex appended to the
+  ledger) gated by full recompute: **18/18 club-for-club EXACT, 863 goals** — documented
+  `source_adaptation`.
+- Second indexes: openfootball season files 2021-22..2024-25 → diffs **380/380, 380/380
+  (after one adjudication), 306/306, 306/306 (after one adjudication)** identical
+  round+date+score (`tools/diff_epl_second_index.py`); Wikipedia 2025-26 FBR matrix
+  (`fra-2ndidx-2025-26-MX.txt`) **305/306 + one wiki typo**; worldfootball matchday pages
+  ×5 (one full round per season, incl. both adjudicated rounds and the 2025-26 RS26 stray);
+  Wikipedia season articles → 94-row venue lattice (`fra-venues.txt`) + playoff boxes
+  (90-min splits via goal minutes).
+- Boundary: `fran2027.html` 404 + wiki 2026-27 (starts **2026-08-23**, Troyes/Le Mans up,
+  Metz/Nantes down, PSG five-time defending) → zero 2026-27 rows.
+
+**Adjudications shipped (rule: RSSSF stands unless two independents agree against it):**
+1. `source_conflict` 2022-23 R2 Lorient 3-1 Lyon — RSSSF `[Aug 14]` misprint; openfootball
+   AND worldfootball (07.09.2022 19:00) agree → row dated **2022-09-07** (ledger edited,
+   diff re-run to 380/380).
+2. `source_conflict` 2024-25 R9 Rennes 1-0 Le Havre — RSSSF `[Oct 26]` misprint;
+   openfootball (Fri Oct 25) AND worldfootball (25.10.2024 20:45) agree → **2024-10-25**
+   (ledger edited, diff re-run to 306/306).
+3. `source_conflict` wiki 2025-26 matrix prints Brest-Lens **3-0** against FOUR agreements
+   for **3-3** (RSSSF table GF43/GA35, the article's own table template, the OFB carrier
+   MD31|2026-04-24, the 863-goal total — matrix sums 860 with the typo): wiki typo,
+   verbatim kept, diff gate tolerates exactly this cell.
+
+**Doctrine disclosures in the pack:** abandonments — 3 VOID games with full replays
+carrying round labels (2021-22 R3 Nice-OM 2021-10-27; R14 Lyon-OM 2022-02-01; 2023-24 R8
+Montpellier-Clermont 2023-11-29 closed doors + the −1 deduction), 2 results that STOOD
+(2024-25 R26 Montpellier 0-2 StE 62'; 2025-26 Nantes 0-0 Toulouse 22' pitch-invasion, LFP
+upheld via wiki efn). Postponement strays mapped incl. 2025-26 RS5 Monday le Classique,
+RS26 (wf-corroborated) and RS29 (title decider at Lens 2026-05-13). Playoff 90-minute
+splits (goal-minute verified): 2021-22 leg2 1-1 at 90 (pens 5-4 Auxerre up); 2023-24
+Metz 2-1 at 90 (aet 2-2; StE up 4-3); 2024-25 Reims 1-1 at 90 (aet 1-3; Metz up 4-2);
+2025-26 plain (Nice 4-1 agg, leg2 behind closed doors). L2-internal rounds =
+NOT-COMMISSIONED ledger context only (8 lines). Deductions applied in the table gates:
+2021-22 Nice −1 / Lyon −1; 2023-24 Montpellier −1. Ligue 1 tie-break depth reproduced:
+pts → GD → H2H pts → H2H GD → H2H away goals (2023-24 Metz/Lorient, RSSSF bracket
+`[2 1 0 1 4-4 3; 3 ag]` vs `[.. 2 ag]`).
+
+**Delivery:** `handoffs/FRA-2021-2026_BP-TEAM-PACK_v2.txt` — **1,686 rows, sha256
+`44fe06b53af78c0849321ef82815e461181c1747a0a22ea0ba182348cd09b562`** (double-rebuild
+identical), 0 TEAM (26 pinned strings incl. the `Paris SG`/`St Etienne` traps; Dijon
+pinned-but-never-in-window documented in federation_check), 19 SOURCE / 22 NOTE;
+`tools/build_fra_pack.py` → `audit/pack-validation-fra.txt` **85/85 PASS** (per-club
+pivots 94/94, venue lattice 94, Monaco cross-border disclosed under venue_policy).
+Roster-faithful stock map (ParisSG→Paris SG, SaintEtienne→St Etienne, LeHavre→Le Havre,
+ParisFC→Paris FC). Pins untouched: RPL `d71ed24f…`, RUSCUP `f89501cf…`, CZ1 `cbd5710b…`,
+MOLCUP `50ead762…`, EPL `707dd830…`, RUS-ADDENDUM `30576ac4…`.
+
+**Queue state:** FRA closed. Next on the owner's one-at-a-time queue: GER (workorder
+staged; 18 clubs/34 rounds per its card — same shape as FRA 2023-24+, builder pattern
+reusable), then ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
