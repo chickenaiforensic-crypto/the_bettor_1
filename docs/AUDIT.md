@@ -472,3 +472,67 @@ reproduce the final-table lines, deductions flagged inline); copies in `audit/le
 (`audit/ledger/epl-venues.txt`); Everton epoch Goodison Park → Hill Dickinson Stadium from 2025-26;
 no groundshares or neutral-venue league fixtures in the window; Man United city canonicalized as
 Manchester across the span (source prints Trafford/Manchester variants — documented).
+
+---
+
+## Addendum 8 — OWNER OVERRIDE DECREE-2026-08-04: Russia full-span delivery (RPL + RUSCUP)
+
+**Decree (owner verbatim, `supervisor/DECREE-2026-08-04-full-span-override.md`):** full season
+files 2021 → today for every league **regardless of what the workorder said** — owner authority
+overrides everything; packs become the single source of truth the error-containing old data is
+audited against. Effects: the 2024-06-30 hard cutoffs in WO-RPL/WO-RUSCUP (and later
+WO-CZ1/WO-MOLCUP) are rescinded; legacy `data/rpl/*.csv` untouched (audit target, not a source).
+
+**RPL pack — full span (supersedes `6e458e19…`, 732 rows).** `handoffs/RPL-2021-2026_BP-TEAM-PACK_v2.txt`
+= **1,220 MATCH rows** ((240 league `domestic-league` + 4 prorel legs `other`) ×5, 2021-22..2025-26),
+4 TEAM / 16 SOURCE / 22 NOTE, sha256 **`d71ed24f3a321d6c2975bbff46a6ee405066a79870b4d158b6f5781c6ec9db79`**,
+**95/95 gates PASS** (`tools/build_rpl_pack.py`, byte-deterministic double rebuild). New-season
+primary transcription from RSSSF rus2025/rus2026 (#1l + #prorel + #1ldet): EXACT recomputes
+(648/648 and 609/609 goals, tables 16/16 incl. the 2024-25 DMh-over-Khimki H2H bracket at 29
+reproduced from mutual results; 2025-26 has zero points ties). Playoff outcomes: 2024-25 Sochi
+promoted 4-3 agg **with Pari NN not relegated (Khimki license-denial reprieve)**, Akhmat stays
+3-2; 2025-26 all four stay (DMh 3-0 Ural, Akron 2-1 Rotor) — no shootouts in any of the ten ties
+of the span. **Second-index switch (documented):** football-data R1.csv discontinued for
+2425/2526 (404 verified) and openfootball/russia absent (404) → Wikipedia season FBR matrices
+transcribed (`audit/ledger/rpl-2ndidx-*.txt` via `tools/diff_rpl_matrix.py`): **240/240
+score-identical vs RSSSF primary both seasons**, matrix-recomputed tables 16/16 vs official,
+goal anchors green; worldfootball matchday pages third anchor (MD30-2425 8/8 exact); fdata
+diffs for 2021-24 unchanged (730/732 + 2 documented conflicts). **Venue lattice** from the wiki
+venue tables + #1ldet per-match prints: Krasnodar→Ozon Arena mid-season rename boundary R27;
+Fakel Stadium (new 2024-25 ground; R23 behind closed doors att 0; R27 one-off back at the old
+CTU Stadium); Rubin R12-2425 staged Nizhny Novgorod; Pari NN 2025-26 renovation groundshares
+(R1 Kazan 2,142 / R3 Grozny 232 / R5+R8+R9 Saransk) returning R12+ under sponsor era SovComBank
+Arena (= Nizhny Novgorod Stadium); Akron R13 staged Saransk 8,531; Solidarnost share KS/Akron;
+Anzhi Arena in Kaspiysk; Rostech Arena era for Baltika; playoff grounds via wiki/RFS boxes
+(incl. Rotor's Volgograd Arena; Akhmat leg2 att taken from wiki box — RSSSF prints "Att: ?").
+**Membership chain** (RFU refs in pack NOTE): Khimki+Chernomorets license denial 2025-05-24
+(222413) → Pari NN reinstated 2025-06-16 (222586); Torpedo excluded 2025-07-10 (premierliga.ru
+32356) → Orenburg reinstated 2025-07-11 (222692). **Boundary 2026-27** (rus2027.html): R1
+played 2026-07-24..26 (8 games), R2 printed fixtures-only at return date → zero rows per the
+not-a-full-season rule; FNL-level context noted (Pari NN reverts name to FC Nizhny Novgorod there).
+
+**RUSCUP pack — full span (supersedes `c2658b49…`, 189 rows).**
+`handoffs/RUSCUP-2021-2026_BP-TEAM-PACK_v2.txt` = **341 MATCH rows** (36+77+76+76+76, compType
+`domestic-cup`), 25 TEAM / 16 SOURCE / 119 NOTE, sha256
+**`f89501cf25e10389e175579ef1a38105b5b02bde78a83362a65c1bb4a173db91`**, **258/258 gates PASS**
+(`tools/build_pack.py`, byte-deterministic). Slice rule unchanged (every match with ≥1 of that
+season's 16 RPL clubs): 48 group + 28 bracket per new edition (reproduces the auditor-proven
+76-row calibration twice more). New formats documented: 2024-25 Major/Minor double elimination;
+2025-26 RPL-path QF (two legs) + Regions-path crossings + Superfinal. Champions: CSKA Moscow
+2024-25 (Superfinal 0-0 Rostov, pens 4-3, Luzhniki 57,176); Spartak Moscow 2025-26 (Superfinal
+1-1 Krasnodar, pens 4-3, Luzhniki 72,978, ref Tanashev). **Second index 152/152 identical**
+(wiki cup articles + RFS official match pages; span-wide 341/341). **Findings:** 3 RSSSF
+group-table print errors proven by group balance and corroborated exactly by the RFU-sourced
+wiki tables (2024-25 Dynamo Moscow pts 8→**11**; 2025-26 Akhmat GF-GA 7-8→**8-10**; 2025-26
+Lokomotiv GA 2→**4** — MATCH rows unaffected, `NOTE|warning|print_error`); 2025-26 Arsenal
+Tula-Rubin venue/date adjudicated **against** RSSSF cupdet via two independent indexes (RFS
+56055 + wiki box: 2025-11-25, Arsenal Stadium, Tula, att 6,717; the same evening's Torpedo tie
+genuinely at Arena Khimki, as is Arsenal's later Loko tie per RFS 56059). New TEAM rows: Tyumen
+(Geolog Stadium), Shinnik Yaroslavl, Neftekhimik Nizhnekamsk (cap 3,046 per RFS). 2026-27
+boundary: Regions-path R1 played (11 ties, 0 RPL by design) → zero rows. KAMAZ exact-string
+discipline continues on its 2025-26 row per ERRATA-2026-08-03.
+
+**Queue state after this delivery:** ① RPL ✅ full span, ② CZ1 ✅ (extra-years extension
+2024-25+2025-26 next under the same decree), ③ RUSCUP ✅ full span, ④ MOLCUP ✅ (extra years
+queued), ⑤ EPL ✅ full span, then ⑥ FRA (2021-22 ledger already transcribed), GER, ITA, KOS,
+KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.

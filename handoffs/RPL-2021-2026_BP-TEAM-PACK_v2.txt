@@ -1,39 +1,44 @@
-NOTE|info|pack_id|RPL-2021-2026_BP-TEAM-PACK_v2 - return of WO-RPL-BACKFILL-01 (issued 2026-08-02, owner-approved). Segment 2021-22/2022-23/2023-24 of the 5-year Russian Premier League span; new rows stop at the 2024-06-30 hard cutoff (2024-25 + 2025-26 already held and auditor-verified client-side; current season fills centrally). 732 MATCH rows = (240 league + 4 relegation-playoff) x 3 seasons - every official league match plus every promotion/relegation playoff leg of the window. Compiled 2026-08-03.
-SOURCE|rsssf-rus2022-1l|https://www.rsssf.org/tablesr/rus2022.html|2026-08-03|primary-archive|2021-22 Premier League chapter (#1l): all 30 rounds' dates+scores, official final table with H2H brackets, club stadium/capacity table; #prorel playoff ties; stated totals 240 games / 639 goals
-SOURCE|rsssf-rus2023-1l|https://www.rsssf.org/tablesr/rus2023.html|2026-08-03|primary-archive|2022-23 Premier League chapter (#1l): all 30 rounds' dates+scores (R20 awarded 0-3 carried as official result; Torpedo venue NBs; R19 'In Khimki' tag), official final table; #prorel ties; stated totals 727 (+3 awarded)
-SOURCE|rsssf-rus2024-1l|https://www.rsssf.org/tablesr/rus2024.html|2026-08-03|primary-archive|2023-24 Premier League chapter (#1l): all 30 rounds' dates+scores (R21-played-after-R25 NB), official final table; #prorel ties; stated totals 240 games / 637 goals
+NOTE|info|pack_id|RPL-2021-2026_BP-TEAM-PACK_v2 - return of WO-RPL-BACKFILL-01 (issued 2026-08-02, owner-approved), rebuilt FULL-SPAN under owner override DECREE-2026-08-04 ('deliver full season files regardless of what the workorder said - my authority overrides everything'): the workorder's 2024-06-30 hard cutoff is RESCINDED and the pack now carries the complete official span 2021-22 .. 2025-26 (all five seasons end-to-end, no client-side remainder). 1220 MATCH rows = (240 league + 4 relegation-playoff) x 5 seasons - every official league match plus every promotion/relegation playoff leg of the window. This pack is the single source of truth the legacy repository CSVs (which contain errors) will be audited against. Compiled 2026-08-04.
+SOURCE|rsssf-rus2022-1l|https://www.rsssf.org/tablesr/rus2022.html|2026-08-04|primary-archive|2021-22 Premier League chapter (#1l): all 30 rounds' dates+scores, official final table with H2H brackets, club stadium/capacity table; #prorel playoff ties; stated totals 240 games / 639 goals
+SOURCE|rsssf-rus2023-1l|https://www.rsssf.org/tablesr/rus2023.html|2026-08-04|primary-archive|2022-23 Premier League chapter (#1l): all 30 rounds' dates+scores (R20 awarded 0-3 carried as official result; Torpedo venue NBs; R19 'In Khimki' tag), official final table; #prorel ties; stated totals 727 (+3 awarded)
+SOURCE|rsssf-rus2024-1l|https://www.rsssf.org/tablesr/rus2024.html|2026-08-04|primary-archive|2023-24 Premier League chapter (#1l): all 30 rounds' dates+scores (R21-played-after-R25 NB), official final table; #prorel ties; stated totals 240 games / 637 goals
+SOURCE|rsssf-rus2025-1l|https://www.rsssf.org/tablesr/rus2025.html|2026-08-04|primary-archive|2024-25 Premier League chapter (#1l): all 30 rounds' dates+scores + #1ldet per-match venue/attendance prints (era names incl. Ozon Arena from R27), official final table with H2H bracket at 29; #prorel ties (Sochi promoted, Pari NN reprieved - Khimki license denial); stated totals 240 games / 648 goals (18 OG), att 239/240
+SOURCE|rsssf-rus2026-1l|https://www.rsssf.org/tablesr/rus2026.html|2026-08-04|primary-archive|2025-26 Premier League chapter (#1l): all 30 rounds' dates+scores + #1ldet venue prints (Pari NN staged-homes map R1-R9, SovComBank era R12+), official final table (no points ties); #prorel ties (all stay at level); stated totals 240 games / 609 goals (18 OG), total att 3,282,488
 SOURCE|fdata-rpl-2122|https://www.football-data.co.uk/mmz4281/2122/R1.csv|2026-08-02|second-index|independent match feed cross-check: 244/244 rows (240 league + 4 playoff) identical on dates AND scores vs primary; archived at data/rpl/RPL-2021-22.csv
 SOURCE|fdata-rpl-2223|https://www.football-data.co.uk/mmz4281/2223/R1.csv|2026-08-02|second-index|independent match feed cross-check: 243/244 rows identical; single variance = the R20 awarded game (feed carries on-pitch 1-1) -> NOTE|warning|source_conflict; archived at data/rpl/RPL-2022-23.csv
 SOURCE|fdata-rpl-2324|https://www.football-data.co.uk/mmz4281/2324/R1.csv|2026-08-02|second-index|independent match feed cross-check: 243/244 rows identical; single variance = Pari NN-Akhmat R4 (feed carries 1-0, official 2-0) -> NOTE|warning|source_conflict; archived at data/rpl/RPL-2023-24.csv
-SOURCE|wiki-rpl-2122|https://en.wikipedia.org/wiki/2021%E2%80%9322_Russian_Premier_League|2026-08-03|web-index|relegation playoff match boxes (venues, referees, aggregates), season infobox totals 240 matches / 639 goals, relegation record (Ufa via playoffs, Rubin, Arsenal)
-SOURCE|wiki-rpl-2223|https://en.wikipedia.org/wiki/2022%E2%80%9323_Russian_Premier_League|2026-08-03|web-index|season venue/capacity table (16 clubs incl. Torpedo = Luzhniki), playoff match boxes (venues), awarded-game section (RFU decision 2023-03-22), season infobox totals 240 / 730
-SOURCE|wiki-rpl-2324|https://en.wikipedia.org/wiki/2023%E2%80%9324_Russian_Premier_League|2026-08-03|web-index|season venue/capacity table (16 clubs), playoff match boxes (venues + attendances), season infobox totals 240 / 637, champion-decided-on-last-day account
-SOURCE|fotmob-ska-khimki-220525|https://www.fotmob.com/match/3880923/matchfacts/ska-khabarovsk-vs-khimki|2026-08-03|web-index|corroborates 2022-05-25 playoff leg venue Stadion imeni V.I. Lenina (Lenin Stadium), Khabarovsk
-SOURCE|espn-akron-ural-240601|https://www.espn.com/soccer/match/_/gameId/702716/fc-ural-ekaterinburg-akron-tolyatti|2026-08-03|web-index|corroborates 2024-06-01 playoff leg venue Stadion Kristall, Zhigulyovsk (att 2,827)
-SOURCE|sofascore-parinn-rodina-230610|https://www.sofascore.com/football/match/rodina-moscow-pari-nizhny-novgorod/eIFbsZdEc#id:11330123|2026-08-03|web-index|corroborates 2023-06-10 playoff leg venue Nizhny Novgorod Stadium
-SOURCE|fandom-rpl-2223-playoffs|https://football.fandom.com/wiki/2022%E2%80%9323_Russian_Premier_League|2026-08-03|web-index|text mirror confirming 2023-06-10 Fakel leg venue Tsentralnyi Profsoyuz Stadion, Voronezh
+SOURCE|wiki-rpl-2425|https://en.wikipedia.org/wiki/2024%E2%80%9325_Russian_Premier_League|2026-08-04|second-index|2024-25 replacement second index: FBR results matrix 240/240 score-identical vs primary (tools/diff_rpl_matrix.py; matrix-recomputed table 16/16 vs RSSSF official), season venue/capacity table (16 clubs: Fakel Stadium new ground, Solidarnost shared KS/Akron, Anzhi Arena in Kaspiysk), relegation-playoff match boxes (venues/attendances, rfs.ru/match/55738-55741), infobox 240 matches / 648 goals; selected because the football-data R1 feed ended after 2023-24 (mmz4281/2425 404) and openfootball/russia does not exist (404)
+SOURCE|wiki-rpl-2526|https://en.wikipedia.org/wiki/2025%E2%80%9326_Russian_Premier_League|2026-08-04|second-index|2025-26 replacement second index: FBR results matrix 240/240 score-identical vs primary, matrix-recomputed table 16/16, season venue/capacity table (Sovcombank/Rostech era names; cap cites premierliga.ru), relegation-playoff match boxes (rfs.ru/match/56913-56916), infobox 240 matches / 609 goals, lowest-attendance note corroborates Pari NN Grozny staging (232); feed absence same as 2024-25 (mmz4281/2526 404)
+SOURCE|wf-rpl-md30-2425|https://www.worldfootball.net/schedule/rus-premier-liga-2024-2025-spieltag/30/|2026-08-04|web-index|date-level third anchor: matchday-30 page 8/8 fixtures identical (dates + 15:30 simultaneous kickoff) vs the primary ledger
+SOURCE|rfs-rfpl-2426-governance|https://rfs.ru/news/222413|2026-08-04|web-index|RFU/RPL official membership decisions for the 2024-25->2025-26 boundary: Khimki + Chernomorets denied RPL licenses 2025-05-24 (rfs.ru/news/222413); Pari NN reinstated as Khimki's replacement 2025-06-16 (rfs.ru/news/222586); Torpedo Moscow excluded over the match-fixing bribery case 2025-07-10 (premierliga.ru/news/news_32356.html); Orenburg reinstated 2025-07-11 (rfs.ru/news/222692)
+SOURCE|rsssf-rus2027-boundary|https://www.rsssf.org/tablesr/rus2027.html|2026-08-04|web-index|2026-27 boundary evidence (fetched 2026-08-04): Round 1 [Jul 24-26] played (8 games, total att 102,232), Round 2 [Jul 31 - Aug 3] printed as fixtures without results on the page as of the return date; full R1-R30 fixture calendar printed. Not a full season -> zero rows in this pack
 TEAM|FC Ufa|Russia|Russian Premier League|RPL|Ufa;Ufa FC;Bashinformsvyaz-Dinamo Ufa|BetBoom Arena|Ufa|Russia||13573||
 TEAM|Yenisey Krasnoyarsk|Russia|Russian First League|FNL|Yenisey|Futbol-Arena Yenisey|Krasnoyarsk|Russia||||
 TEAM|SKA Khabarovsk|Russia|Russian First League|FNL|SKA-Khabarovsk;FC SKA-Khabarovsk|Lenin Stadium|Khabarovsk|Russia||||
-NOTE|info|comp_class|compType assignments per auditor errata ERRATA-2026-08-03 (corrected RPL workorder fingerprint cb6e -> 9903cf856877d173ba71d72cef64e9c6, supersedes the cb6e draft's grammar line 'domestic-league (playoffs too)'): the 720 Russian Premier League rows keep compType domestic-league; the 12 Russian Relegation Playoffs rows now carry compType other; cup packs are domestic-cup (see the RUSCUP return). Row content otherwise unchanged - this pack is identical to the cb6e return except compType field 4 on the 12 playoff rows. Rebuilt and all gates re-run 2026-08-03; the uploaded ERRATA file did not materialize in the repo working tree, applied verbatim from the owner's inline errata text and logged in docs/AUDIT.md.
-NOTE|info|identity|Top-flight clubs use the pinned WO-RPL section-3 strings. FC Nizhny Novgorod played the 2021-22 season under its era name and was renamed Pari Nizhny Novgorod on 2022-06-10 (RFU-approved sponsorship rename, same club; wiki-rpl-2223) - all 2021-22 rows are recorded under the permanent roster string Pari Nizhny Novgorod; alias-only update offered by this NOTE: aliases FC Nizhny Novgorod;Nizhny Novgorod;NNovgorod. Source compact spellings map to roster strings: Ahmat/Akhmat = Akhmat Grozny; KS Samara/Krylya Sovetov = Krylia Sovetov Samara; Dinamo = Dynamo Moscow; Rostov/FK Rostov = FC Rostov; Orenburg = FC Orenburg; Sochi = PFC Sochi; Akron Togliatti = Akron Tolyatti; NNovgorod/Pari NN = Pari Nizhny Novgorod; Arsenal = Arsenal Tula; Ural = Ural Yekaterinburg; Rubin = Rubin Kazan. Roster clubs appearing in playoffs only (Rodina Moscow, Akron Tolyatti, Arsenal Tula in 2023-24) are used as-is per section-3 discipline - no re-declared identities.
-NOTE|info|venue_policy|MATCH stadium/city = the home club's documented season ground: 2021-22 from the RSSSF rus2022 club stadium/capacity table; 2022-23 and 2023-24 from the season-article venue tables (wiki-rpl-2223/2324). Explicit documented exceptions applied: Torpedo Moscow home matches of 2022-23 rounds 1-10 were played at Arena Khimki, Khimki (RSSSF NB, printed twice), as was the round-19 match Torpedo 0-1 Ural on 2023-03-11 (RSSSF match tag 'In Khimki'; season-low attendance 207 per wiki infobox); all other 2022-23 Torpedo home rows = Luzhniki Stadium, Moscow (season venue table). Playoff rows carry the actual documented grounds from the season-article match boxes, incl. Yenisey's indoor Futbol-Arena Yenisey (their Central Stadium unavailable), Rodina's Spartakovets Stadium, and Akron's Kristall Stadium in Zhigulevsk (not Tolyatti). Stadium name-style equivalences, one ground one row: Krestovsky Stadium = Gazprom Arena; Solidarnost Arena = Solidarnost Samara Arena; Akhmat-Arena/Ahmat Arena = Akhmat Arena; Central Stadium (Yekaterinburg) = Yekaterinburg Arena; Krasnodar Stadium = FC Krasnodar Stadium; Central'nyi Stadion Profsoyuzov/Central Trade Union Stadium = Tsentralnyi Profsoyuz Stadion; Stadion Kristall/Crystal Stadium = Kristall Stadium (Zhigulevsk = Zhiguliovsk spelling variant); Stadion imeni V.I. Lenina = Lenin Stadium; Neftianik Stadium = BetBoom Arena (sponsor rename); Otkrytie Bank Arena -> Otkritie Arena -> Lukoil Arena are the era names of the same Spartak ground (rows carry the era name); Russian Railways Arena = RZD Arena (renamed 2022; rows carry era names).
-NOTE|info|stage_mapping|The venue-detail field carries the matchday/stage label: 'Round n' (n = 1..30) for league rows - the official matchday of the fixture per the primary source, kept even where postponed (see continuity NOTE); 'Playoff leg1' / 'Playoff leg2' for the two-legged promotion/relegation ties (Russian Relegation Playoffs, exactly 2 rows per tie, 90-minute scores; no shootout was needed in any of the six ties; compType other per the 2026-08-03 errata - see comp_class NOTE).
-NOTE|info|round_counts|Per season: 240 league rows (30 matchdays x 8 fixtures, every matchday fully dated; each of the 16 clubs exactly 30 played - enumerated club-by-club in the audit pivot ledger) + 4 playoff rows (2 ties x 2 legs) = 244. Pack total 732. Source totals anchors reproduced: 2021-22 240 games/639 goals; 2022-23 240 games/730 goals (727 on-pitch + 3 from the awarded game: the canceled 1-1's two on-pitch goals are annulled in the official record); 2023-24 240 games/637 goals - matching the RSSSF stated totals and both Wikipedia infobox totals.
+TEAM|Rotor Volgograd|Russia|Russian First League|FNL|Rotor|Volgograd Arena|Volgograd|Russia||||
+NOTE|info|comp_class|compType assignments per auditor errata ERRATA-2026-08-03: the 1200 Russian Premier League rows keep compType domestic-league; the 20 Russian Relegation Playoffs rows carry compType other; cup packs are domestic-cup (see the RUSCUP return). Rebuilt full-span and all gates re-run 2026-08-04.
+NOTE|info|identity|Top-flight clubs use the pinned WO-RPL section-3 strings. FC Nizhny Novgorod played the 2021-22 season under its era name and was renamed Pari Nizhny Novgorod on 2022-06-10 (RFU-approved sponsorship rename, same club; wiki-rpl-2223) - all 2021-22 rows are recorded under the permanent roster string Pari Nizhny Novgorod; alias-only update offered by this NOTE: aliases FC Nizhny Novgorod;Nizhny Novgorod;NNovgorod. Source compact spellings map to roster strings: Ahmat/Akhmat = Akhmat Grozny; KS Samara/Krylja S./Krylya Sovetov = Krylia Sovetov Samara; Dinamo/Dinamo Ms = Dynamo Moscow; Dinamo Mh = Dynamo Makhachkala; Rostov/FK Rostov = FC Rostov; Orenburg = FC Orenburg; Sochi/Soci = PFC Sochi; Akron Togliatti = Akron Tolyatti; NNovgorod/Pari NN = Pari Nizhny Novgorod; Arsenal = Arsenal Tula; Ural = Ural Yekaterinburg; Rubin = Rubin Kazan; Khimki/Himki = FC Khimki. Roster clubs appearing in playoffs only (Rodina Moscow, Akron Tolyatti, Arsenal Tula in 2023-24; PFC Sochi and Ural Yekaterinburg in 2024-25; Ural again in 2025-26) are used as-is per section-3 discipline - no re-declared identities. Non-roster playoff opponents carry TEAM rows (Rotor Volgograd added at the 2025-26 boundary).
+NOTE|info|venue_policy|MATCH stadium/city = the home club's documented season ground: 2021-22 from the RSSSF rus2022 club stadium/capacity table; 2022-23..2025-26 from the season-article venue tables (wiki-rpl-2223/2324/2425/2526) with RSSSF #1ldet per-match prints fixing the in-era names. Explicit documented exceptions applied: Torpedo Moscow home matches of 2022-23 rounds 1-10 were played at Arena Khimki, Khimki (RSSSF NB, printed twice), as was the round-19 match Torpedo 0-1 Ural on 2023-03-11 (RSSSF match tag 'In Khimki'; season-low attendance 207 per wiki infobox); all other 2022-23 Torpedo home rows = Luzhniki Stadium. 2024-25: Krasnodar switched to sponsor name Ozon Arena from Round 27 (prints 'FC Krasnodar Stadium' through R25, 'Ozon Arena, Krasnodar' R27/R30; rows carry the era name of each round); Rubin's Round-12 home Rubin 0-4 Dynamo Moscow was staged in Nizhny Novgorod (att 2,447); Fakel moved into the new Fakel Stadium from the season start EXCEPT Round 27 vs Spartak staged back at the old Tsentralnyi Profsoyuz Stadion (att 9,745; the R23 Fakel-Akhmat closed-doors game was at Fakel Stadium with att 0). 2025-26: Pari NN played its staged homes of R1 at Ak Bars Arena, Kazan (att 2,142), R3 at Akhmat Arena, Grozny (232), R5/R8/R9 at Mordovia Arena, Saransk during the home-stadium renovation, returning from R12 to the Nizhny Novgorod Stadium under sponsor era print SovComBank Arena (rows carry the era name); Akron's R13 home 1-1 Lokomotiv was staged at Mordovia Arena, Saransk (att 8,531). Playoff rows carry the actual documented grounds from the season-article match boxes, incl. Yenisey's indoor Futbol-Arena Yenisey, Rodina's Spartakovets Stadium, Akron's Kristall Stadium in Zhigulevsk (not Tolyatti), and Rotor's Volgograd Arena. Stadium name-style equivalences, one ground one row: Krestovsky Stadium = Gazprom Arena; Solidarnost Arena/Solidarity Samara Arena = Solidarnost Samara Arena; Akhmat-Arena/Ahmat Arena = Akhmat Arena; Central Stadium (Yekaterinburg) = Yekaterinburg Arena; Krasnodar Stadium = FC Krasnodar Stadium (renamed Ozon Arena late April 2025); Central'nyi Stadion Profsoyuzov/Central Trade Union Stadium = Tsentralnyi Profsoyuz Stadion; Stadion Kristall/Crystal Stadium = Kristall Stadium (Zhigulevsk = Zhiguliovsk spelling variant); Stadion imeni V.I. Lenina = Lenin Stadium; Neftianik Stadium = BetBoom Arena (sponsor rename); Otkrytie Bank Arena -> Otkritie Arena -> Lukoil Arena are the era names of the same Spartak ground (rows carry the era name); Russian Railways Arena = RZD Arena (renamed 2022; rows carry era names); SovComBank Arena = Nizhny Novgorod Stadium (sponsor era from 2025); Rostech Arena = Kaliningrad Stadium (sponsor era from 2025); Anzhi Arena (Kaspiysk) = Dynamo Makhachkala's home ground in the satellite city.
+NOTE|info|stage_mapping|The venue-detail field carries the matchday/stage label: 'Round n' (n = 1..30) for league rows - the official matchday of the fixture per the primary source, kept even where postponed (see continuity NOTE); 'Playoff leg1' / 'Playoff leg2' for the two-legged promotion/relegation ties (Russian Relegation Playoffs, exactly 2 rows per tie, 90-minute scores; no shootout was needed in any of the ten ties; compType other per the 2026-08-03 errata - see comp_class NOTE).
+NOTE|info|round_counts|Per season: 240 league rows (30 matchdays x 8 fixtures, every matchday fully dated; each of the 16 clubs exactly 30 played - enumerated club-by-club in the audit pivot ledger) + 4 playoff rows (2 ties x 2 legs) = 244. Pack total 1220. Source totals anchors reproduced: 2021-22 240 games/639 goals; 2022-23 240 games/730 goals (727 on-pitch + 3 from the awarded game); 2023-24 240 games/637 goals; 2024-25 240 games/648 goals (18 OG; attendance recorded for 239 of 240 games - R23 Fakel-Akhmat played behind closed doors, att 0); 2025-26 240 games/609 goals (18 OG; total attendance 3,282,488, avg 13,677) - matching the RSSSF stated totals and all Wikipedia infobox totals (240/648 and 240/609).
 NOTE|warning|awarded_result|2022-23 Round 20, 2023-03-19: Pari Nizhny Novgorod - Torpedo Moscow. Row carries the OFFICIAL awarded score 0-3. Pari NN fielded the disqualified Yaroslav Mikhaylov (untracked caution-ban carried from lower-league games); on-pitch 1-1 (Gotsuk 34 - Reyna 58) annulled by RFU decision 2023-03-22 (wiki-rpl-2223 section 'Pari NN-Torpedo game'; rsssf-rus2023-1l lists '0-3 [Awarded]' as the round-20 result and its final table carries Torpedo W3 D4 L23 22-61 13 pts, Pari NN W8 D6 L16 33-50 30 pts - identical to the table recomputed from this pack's rows).
 NOTE|warning|source_conflict|2022-23: the football-data second index carries the annulled on-pitch 1-1 for the 2023-03-19 Pari NN-Torpedo game; resolved to RSSSF-primary awarded 0-3 (see awarded_result NOTE). The repository's pre-existing CSV dataset documents the same variance as anomaly A1; table positions were unaffected by the award.
 NOTE|warning|source_conflict|2023-24 Round 4, 2023-08-14: Pari Nizhny Novgorod 2-0 Akhmat Grozny (Sevikyan 1, Suleymanov 38) per RSSSF-primary and three Russian match reports; the football-data second index misrecords 1-0. Resolved to RSSSF. Same variance already disclosed in the repository audit as anomaly A2.
-NOTE|info|club_context|FC Ufa (WO section-3 known addition): 2021-22 RPL club, 14th - lost the May-2022 playoff to FC Orenburg and was relegated. The WO's 'folded summer 2022' context is the 2022 financial crisis documented in the already-delivered RUSCUP pack (sponsor exit, near-collapse, republic ministry step-in 2022-10-19); the club played on and appears in that pack's 2023-02-26 cup row. League rows here are correct as played through 2022-05-21 (+ playoff legs 2022-05-25/28).
-NOTE|info|team_fields|3 TEAM rows declared for participants not on the section-3 roster: FC Ufa (leagueCode RPL - top-flight 2021-22 participant; the other two are First League clubs appearing in relegation playoffs only): Yenisey Krasnoyarsk and SKA Khabarovsk (leagueCode FNL). Stadium fields = the verified actual grounds of their in-scope home matches (Yenisey's documented home leg was staged at the indoor Futbol-Arena Yenisey; SKA's at Lenin Stadium); capacity filled only where a fetched source carries it (Ufa 13,573 from the RSSSF stadium table); surface/founded/website left blank rather than asserted uncaptured (no-fabrication policy).
-NOTE|info|tiebreak|Official final-table position-order ties (recomputed W-D-L and GF-GA are exact for all 48 club-rows; order follows the federation head-to-head rule, RSSSF prints the H2H brackets): 2021-22 - Krasnodar over CSKA at 50 [H2H 1-1-0, 1-0]; Rostov over Spartak at 38 [1-1-0, 4-3]; Pari NN (era name NNovgorod) over Ural at 33 [1-1-0, 2-1]. 2022-23 - Lokomotiv over Dynamo at 45 [brackets printed 1-0-1, 5-5 for both; decided deeper in the federation H2H chain]; Pari NN over Fakel at 30 [1-0-1, 3-2]. 2023-24 - Krasnodar over Dynamo at 56 [2-0-0, 4-1]; Pari NN over Ural at 30 [1-1-0, 1-0]. No points deductions occurred in-window; one awarded result (see NOTE) is carried in both rows and tables.
-NOTE|info|source_adaptation|WO section-4 second index: the football-data match feeds (fdata-rpl-*, independent commercial feeds fetched 2026-08-02, archived in-repo and auditor-verified earlier) were diffed against the RSSSF-primary transcription match-for-match for all 732 rows - 730/732 identical on date AND score; the two variances are the documented source_conflict NOTEs above (no other date or score diverged anywhere). The Wikipedia season articles add independent confirmation of every final table (16/16 x 3), the season totals, the awarded-game narrative, and all venues/playoff grounds. No figure in this pack comes from the second index where it conflicts with RSSSF.
-NOTE|info|playoff_outcomes|2021-22 ties: SKA Khabarovsk 1-0 / 0-3 FC Khimki (Khimki 3-1 agg, stays in RPL); FC Orenburg 2-2 / 2-1 FC Ufa (Orenburg 4-3 agg, promoted; Ufa relegated) - RSSSF NB confirms. 2022-23: Yenisey Krasnoyarsk 0-1 / 0-2 Fakel Voronezh (Fakel 3-0 agg); Rodina Moscow 0-3 / 2-0 Pari Nizhny Novgorod (Pari NN 3-2 agg); all four clubs remain at former level - RSSSF NB confirms (Alania Vladikavkaz was denied the RPL license, so Yenisey seeded 3rd, Rodina 4th; wiki match-box footnote). 2023-24: Pari Nizhny Novgorod 1-2 / 2-0 Arsenal Tula (Pari NN 3-2 agg, stays); Ural Yekaterinburg 0-2 / 2-1 Akron Tolyatti (Akron 3-2 agg, promoted; Ural relegated). All decided inside 180 minutes - no shootouts.
-NOTE|info|continuity|Continuity-clause accounting (league segment is gap-free): all 90 matchdays of the window exist and are dated in this pack; no match was cancelled. Documented postponements - 2021-22 Round 19: FC Rostov 1-0 Krylia Sovetov Samara played 2022-04-06 and FC Krasnodar 1-0 Lokomotiv Moscow played 2022-05-04 (rows keep their Round-19 labels, file is date-sorted); 2023-24: Round 21 was played after Round 25 (RSSSF NB; its fixtures date 2024-04-24/25 and keep their Round-21 labels). Winter breaks (Dec-Mar) and the 2022-23 World-Cup break are competition scheduling, not gaps. First row 2021-07-23, last row 2024-06-01; nothing dated 2024-06-30 or later (boundary gate green); 2024-25 MD1 resumes 2024-07-20 client-side.
-NOTE|info|boundary_no_dupes|Hard-cutoff scan: max row date 2024-06-01; zero rows >= 2024-06-30; zero dateless rows; zero duplicate (date, home, away) rows; zero rows of clubs outside the section-3 identity discipline (federation check - every home/away string is RPL Russian Premier League football, seasons 2021-22..2023-24; playoff opponents are their documented First League counterparts).
-NOTE|info|perclub_gate|Owner's per-club completeness technique implemented as a pivot gate: each season's pack rows are re-pivoted club-by-club and every one of the 16 clubs must total exactly 30 played (W+D+L) with the full campaign enumerated round-by-round; the ledgers print in audit/pack-validation-rpl.txt next to this file. All 48 club-season pivots green.
+NOTE|info|club_context|FC Ufa (WO section-3 known addition): 2021-22 RPL club, 14th - lost the May-2022 playoff to FC Orenburg and was relegated. The WO's 'folded summer 2022' context is the 2022 financial crisis documented in the already-delivered RUSCUP pack (sponsor exit, near-collapse, republic ministry step-in 2022-10-19); the club played on and appears in that pack's 2023-02-26 cup row. League rows here are correct as played through 2022-05-21 (+ playoff legs 2022-05-25/28). Rotor Volgograd (TEAM row, 2025-26 playoff opponent) is the same Rotor whose 2021-22 cup-era identity ships in the RUSCUP pack - First League club, Volgograd Arena.
+NOTE|info|team_fields|4 TEAM rows declared for participants not on the section-3 roster: FC Ufa (leagueCode RPL - top-flight 2021-22 participant); Yenisey Krasnoyarsk, SKA Khabarovsk and Rotor Volgograd (leagueCode FNL - First League clubs appearing in relegation playoffs only: Yenisey 2022-23, SKA 2021-22, Rotor 2025-26). Stadium fields = the verified actual grounds of their in-scope home matches (Yenisey's documented home leg was staged at the indoor Futbol-Arena Yenisey; SKA's at Lenin Stadium; Rotor's at Volgograd Arena); capacity filled only where a fetched source carries it (Ufa 13,573 from the RSSSF stadium table); surface/founded/website left blank rather than asserted uncaptured (no-fabrication policy).
+NOTE|info|tiebreak|Official final-table position-order ties (recomputed W-D-L and GF-GA are exact for all 80 club-rows; order follows the federation head-to-head rule, RSSSF prints the H2H brackets): 2021-22 - Krasnodar over CSKA at 50 [H2H 1-1-0, 1-0]; Rostov over Spartak at 38 [1-1-0, 4-3]; Pari NN (era name NNovgorod) over Ural at 33 [1-1-0, 2-1]. 2022-23 - Lokomotiv over Dynamo at 45 [brackets printed 1-0-1, 5-5 for both; decided deeper in the federation H2H chain]; Pari NN over Fakel at 30 [1-0-1, 3-2]. 2023-24 - Krasnodar over Dynamo at 56 [2-0-0, 4-1]; Pari NN over Ural at 30 [1-1-0, 1-0]. 2024-25 - Dynamo Makhachkala over Khimki at 29 [2 1 1 0, 5-2, 4 pts vs 2 0 1 1, 2-5, 1 pt]. 2025-26 - no points ties anywhere in the table (all 16 positions distinct on points). No points deductions occurred in-window; one awarded result (see NOTE) is carried in both rows and tables.
+NOTE|info|source_adaptation|Second index: the football-data match feeds (fdata-rpl-*, fetched 2026-08-02, archived in-repo) were diffed against the RSSSF-primary transcription match-for-match for the first three seasons - 730/732 identical on date AND score; the two variances are the documented source_conflict NOTEs above. The feed is DISCONTINUED for 2024-25 and 2025-26 (mmz4281/2425 and /2526 both return 404, verified 2026-08-04; openfootball/russia likewise absent, 404), so for those seasons the independent score-level index is the Wikipedia season-article FBR results matrix (wiki-rpl-2425/2526): 240/240 score-identical vs the primary ledger in both seasons (tools/diff_rpl_matrix.py; matrix-recomputed tables 16/16 club-for-club vs the RSSSF official constants; goals anchors 648/609 green). worldfootball.net supplies a date-level third anchor (matchday 30 of 2024-25 = 8/8 exact; the per-round pages agree elsewhere wherever spot-checked). The Wikipedia articles also add independent confirmation of every final table (16/16 x 5), the season totals, the playoff boxes/venues, and the membership decision chain. No figure in this pack comes from a second index where it conflicts with RSSSF-primary.
+NOTE|info|playoff_outcomes|2021-22 ties: SKA Khabarovsk 1-0 / 0-3 FC Khimki (Khimki 3-1 agg, stays in RPL); FC Orenburg 2-2 / 2-1 FC Ufa (Orenburg 4-3 agg, promoted; Ufa relegated). 2022-23: Yenisey Krasnoyarsk 0-1 / 0-2 Fakel Voronezh (Fakel 3-0 agg); Rodina Moscow 0-3 / 2-0 Pari Nizhny Novgorod (Pari NN 3-2 agg); all four remain at former level (Alania Vladikavkaz was denied the RPL license, so Yenisey seeded 3rd, Rodina 4th; wiki match-box footnote). 2023-24: Pari Nizhny Novgorod 1-2 / 2-0 Arsenal Tula (Pari NN 3-2 agg, stays); Ural Yekaterinburg 0-2 / 2-1 Akron Tolyatti (Akron 3-2 agg, promoted; Ural relegated). 2024-25: Ural Yekaterinburg 2-1 / 0-2 Akhmat Grozny (Akhmat 3-2 agg, stays); PFC Sochi 1-2 / 3-1 Pari Nizhny Novgorod (Sochi 4-3 agg, promoted - and Pari NN NOT relegated: it remained in the RPL as replacement for license-denied FC Khimki, see membership NOTE). 2025-26: Ural Yekaterinburg 0-1 / 0-2 Dynamo Makhachkala (Dynamo Makhachkala 3-0 agg, stays); Rotor Volgograd 0-2 / 1-0 Akron Tolyatti (Akron 2-1 agg, stays) - all four clubs remain at former level. All ten ties decided inside 180 minutes - no shootouts.
+NOTE|info|membership|Membership decision chain at the 2024-25/2025-26 boundary (source rfs-rfpl-2426-governance + RSSSF NBs): FC Khimki (12th, 2024-25) and Chernomorets Novorossiysk were denied 2025-26 RPL licenses on 2025-05-24 (rfs.ru/news/222413); Pari Nizhny Novgorod was officially reinstated as Khimki's replacement on 2025-06-16 (rfs.ru/news/222586) and therefore was NOT relegated despite losing its playoff tie (see playoff_outcomes). Torpedo Moscow was EXCLUDED from the 2025-26 RPL on 2025-07-10 over the match-fixing bribery case (premierliga.ru/news/news_32356; lifetime/long bans for officials incl. Sobolev 10 years, Skorodumov 5 years, club fined 5M RUB); FC Orenburg - finished 15th and relegated in 2024-25 - was reinstated in Torpedo's place on 2025-07-11 (rfs.ru/news/222692). The 2025-26 membership therefore carries both [P] tags officially (promoted: Baltika, PFC Sochi via playoff) with Orenburg and Pari NN as administrative retainees. 2026-27 incoming per the rus2027 page: Fakel Voronezh and Rodina Moscow [P] up; PFC Sochi and Pari NN down.
+NOTE|info|incidents|Attendance/discipline incidents carried by the sources: 2024-25 Round 23 Fakel 0-1 Akhmat played behind closed doors (printed Att: 0; the season totals line records 239 of 240 games attended). 2024-25 champion = FC Krasnodar (1st title, 67 pts, sealed on the final day ahead of Zenit 66); 2025-26 champion = Zenit St Petersburg (11th title, 68 pts). One #1ldet typographic slip documented in the ledger: the CSKA-Pari NN Round-30 detail line misprints the year as 24.05.24 (round chapter [May 24] governs; row date 2025-05-24).
+NOTE|info|continuity|Continuity-clause accounting (league segment is gap-free): all 150 matchdays of the five-season window exist and are dated in this pack; no match was cancelled. Documented postponements - 2021-22 Round 19: FC Rostov 1-0 Krylia Sovetov Samara played 2022-04-06 and FC Krasnodar 1-0 Lokomotiv Moscow played 2022-05-04 (rows keep their Round-19 labels, file is date-sorted); 2023-24: Round 21 was played after Round 25 (RSSSF NB; its fixtures date 2024-04-24/25 and keep their Round-21 labels). Winter breaks (Dec-Mar) and the 2022-23 World-Cup break are competition scheduling, not gaps. First row 2021-07-23, last row 2026-05-23 (2025-26 playoff leg2). Boundary to the future (source rsssf-rus2027-boundary, fetched 2026-08-04): the 2026-27 season kicked off 2026-07-24 (Round 1 played Jul 24-26; Round 2 [Jul 31 - Aug 3] is printed as fixtures only, results not yet on the page at the return date) - as a NOT-complete season it is out of the full-season mandate and carries zero rows; nothing dated 2026-07-01 or later.
+NOTE|info|boundary_no_dupes|Boundary scan: max row date 2026-05-23; zero rows >= 2026-07-01; zero dateless rows; zero duplicate (date, home, away) rows; zero rows of clubs outside the section-3 identity discipline (federation check - every home/away string is RPL Russian Premier League football, seasons 2021-22..2025-26; playoff opponents are their documented First League counterparts).
+NOTE|info|perclub_gate|Owner's per-club completeness technique implemented as a pivot gate: each season's pack rows are re-pivoted club-by-club and every one of the 16 clubs must total exactly 30 played (W+D+L) with the full campaign enumerated round-by-round; the ledgers print in audit/pack-validation-rpl.txt next to this file. All 80 club-season pivots (16 x 5) green.
 NOTE|info|spot_audit|2021-22 Round 22 re-listed for spot-audit (source https://www.rsssf.org/tablesr/rus2022.html #1l): 2022-03-19 Akhmat Grozny 2-3 Lokomotiv Moscow; 2022-03-19 Pari Nizhny Novgorod 1-1 Spartak Moscow; 2022-03-19 Ural Yekaterinburg 0-1 FC Khimki; 2022-03-19 Zenit St Petersburg 3-0 Arsenal Tula; 2022-03-20 CSKA Moscow 6-1 Rubin Kazan; 2022-03-20 Dynamo Moscow 1-1 FC Rostov; 2022-03-20 PFC Sochi 2-3 Krylia Sovetov Samara; 2022-03-20 FC Ufa 1-1 FC Krasnodar.
 NOTE|info|spot_audit|2022-23 Round 13 re-listed for spot-audit (source https://www.rsssf.org/tablesr/rus2023.html #1l): 2022-10-14 FC Rostov 1-2 Ural Yekaterinburg; 2022-10-15 Dynamo Moscow 3-2 FC Orenburg; 2022-10-15 FC Khimki 0-0 Fakel Voronezh; 2022-10-15 FC Krasnodar 2-3 Akhmat Grozny; 2022-10-15 Torpedo Moscow 0-1 Lokomotiv Moscow; 2022-10-16 CSKA Moscow 2-2 Spartak Moscow; 2022-10-16 Krylia Sovetov Samara 2-0 PFC Sochi; 2022-10-16 Pari Nizhny Novgorod 0-3 Zenit St Petersburg.
 NOTE|info|spot_audit|2023-24 Round 9 re-listed for spot-audit (source https://www.rsssf.org/tablesr/rus2024.html #1l): 2023-09-23 Baltika Kaliningrad 1-0 Akhmat Grozny; 2023-09-23 Krylia Sovetov Samara 2-1 PFC Sochi; 2023-09-23 Spartak Moscow 1-0 Dynamo Moscow; 2023-09-24 FC Krasnodar 2-0 Ural Yekaterinburg; 2023-09-24 Pari Nizhny Novgorod 3-1 FC Orenburg; 2023-09-24 FC Rostov 3-3 CSKA Moscow; 2023-09-24 Zenit St Petersburg 1-2 Lokomotiv Moscow; 2023-09-25 Fakel Voronezh 0-1 Rubin Kazan.
+NOTE|info|spot_audit|2024-25 Round 30 re-listed for spot-audit (source https://www.rsssf.org/tablesr/rus2025.html #1l): 2025-05-24 Akron Tolyatti 1-4 Lokomotiv Moscow; 2025-05-24 CSKA Moscow 2-0 Pari Nizhny Novgorod; 2025-05-24 Dynamo Makhachkala 1-1 FC Rostov; 2025-05-24 Fakel Voronezh 1-1 Krylia Sovetov Samara; 2025-05-24 FC Krasnodar 3-0 Dynamo Moscow; 2025-05-24 Rubin Kazan 4-2 FC Orenburg; 2025-05-24 Spartak Moscow 5-0 FC Khimki; 2025-05-24 Zenit St Petersburg 3-0 Akhmat Grozny.
+NOTE|info|spot_audit|2025-26 Round 30 re-listed for spot-audit (source https://www.rsssf.org/tablesr/rus2026.html #1l): 2026-05-17 Baltika Kaliningrad 1-2 Dynamo Moscow; 2026-05-17 CSKA Moscow 3-1 Lokomotiv Moscow; 2026-05-17 Dynamo Makhachkala 0-0 Spartak Moscow; 2026-05-17 FC Krasnodar 3-0 FC Orenburg; 2026-05-17 Krylia Sovetov Samara 4-1 Akron Tolyatti; 2026-05-17 FC Rostov 0-1 Zenit St Petersburg; 2026-05-17 Rubin Kazan 2-2 Pari Nizhny Novgorod; 2026-05-17 PFC Sochi 1-1 Akhmat Grozny.
 MATCH|2021-07-23|Russian Premier League|domestic-league|FC Rostov|0|2|Dynamo Moscow|Round 1|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2022-1l
 MATCH|2021-07-24|Russian Premier League|domestic-league|FC Khimki|1|3|Zenit St Petersburg|Round 1|Arena Khimki|Khimki|Russia||rsssf-rus2022-1l
 MATCH|2021-07-24|Russian Premier League|domestic-league|Lokomotiv Moscow|3|1|Arsenal Tula|Round 1|Russian Railways Arena|Moscow|Russia||rsssf-rus2022-1l
@@ -766,4 +771,492 @@ MATCH|2024-05-29|Russian Relegation Playoffs|other|Pari Nizhny Novgorod|1|2|Arse
 MATCH|2024-05-29|Russian Relegation Playoffs|other|Ural Yekaterinburg|0|2|Akron Tolyatti|Playoff leg1|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2024-1l
 MATCH|2024-06-01|Russian Relegation Playoffs|other|Akron Tolyatti|1|2|Ural Yekaterinburg|Playoff leg2|Kristall Stadium|Zhigulevsk|Russia||rsssf-rus2024-1l
 MATCH|2024-06-01|Russian Relegation Playoffs|other|Arsenal Tula|0|2|Pari Nizhny Novgorod|Playoff leg2|Arsenal Stadium|Tula|Russia||rsssf-rus2024-1l
+MATCH|2024-07-20|Russian Premier League|domestic-league|Dynamo Moscow|3|1|Fakel Voronezh|Round 1|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-07-20|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|4|Zenit St Petersburg|Round 1|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-07-20|Russian Premier League|domestic-league|Lokomotiv Moscow|3|2|Akron Tolyatti|Round 1|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-07-20|Russian Premier League|domestic-league|FC Rostov|0|0|CSKA Moscow|Round 1|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-07-21|Russian Premier League|domestic-league|Akhmat Grozny|1|1|FC Krasnodar|Round 1|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-07-21|Russian Premier League|domestic-league|FC Khimki|1|1|Dynamo Makhachkala|Round 1|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2024-07-21|Russian Premier League|domestic-league|FC Orenburg|2|0|Spartak Moscow|Round 1|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-07-22|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|4|Rubin Kazan|Round 1|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-07-26|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|3|FC Rostov|Round 2|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-07-27|Russian Premier League|domestic-league|Dynamo Moscow|3|1|Lokomotiv Moscow|Round 2|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-07-27|Russian Premier League|domestic-league|Fakel Voronezh|0|2|Akron Tolyatti|Round 2|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-07-27|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|3|CSKA Moscow|Round 2|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-07-27|Russian Premier League|domestic-league|Rubin Kazan|0|4|Zenit St Petersburg|Round 2|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2024-07-28|Russian Premier League|domestic-league|FC Khimki|1|3|Spartak Moscow|Round 2|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2024-07-28|Russian Premier League|domestic-league|FC Krasnodar|0|0|Dynamo Makhachkala|Round 2|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2024-07-28|Russian Premier League|domestic-league|FC Orenburg|0|0|Akhmat Grozny|Round 2|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-08-03|Russian Premier League|domestic-league|Akron Tolyatti|0|2|Dynamo Moscow|Round 3|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-08-03|Russian Premier League|domestic-league|Rubin Kazan|2|3|FC Khimki|Round 3|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2024-08-03|Russian Premier League|domestic-league|Zenit St Petersburg|5|0|FC Rostov|Round 3|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-08-04|Russian Premier League|domestic-league|Akhmat Grozny|0|5|Lokomotiv Moscow|Round 3|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-08-04|Russian Premier League|domestic-league|CSKA Moscow|5|1|FC Orenburg|Round 3|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-04|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Pari Nizhny Novgorod|Round 3|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-08-04|Russian Premier League|domestic-league|Fakel Voronezh|0|0|FC Krasnodar|Round 3|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-08-05|Russian Premier League|domestic-league|Spartak Moscow|3|0|Krylia Sovetov Samara|Round 3|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-09|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|0|FC Khimki|Round 4|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-08-09|Russian Premier League|domestic-league|FC Rostov|1|1|Rubin Kazan|Round 4|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-08-10|Russian Premier League|domestic-league|FC Krasnodar|2|1|CSKA Moscow|Round 4|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2024-08-10|Russian Premier League|domestic-league|Lokomotiv Moscow|2|0|Dynamo Makhachkala|Round 4|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-10|Russian Premier League|domestic-league|FC Orenburg|2|2|Akron Tolyatti|Round 4|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-08-10|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|Dynamo Moscow|Round 4|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-08-11|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|Fakel Voronezh|Round 4|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-08-11|Russian Premier League|domestic-league|Spartak Moscow|0|0|Akhmat Grozny|Round 4|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-17|Russian Premier League|domestic-league|Dynamo Moscow|1|0|Krylia Sovetov Samara|Round 5|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-17|Russian Premier League|domestic-league|FC Rostov|3|2|FC Orenburg|Round 5|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-08-18|Russian Premier League|domestic-league|CSKA Moscow|0|1|Lokomotiv Moscow|Round 5|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-18|Russian Premier League|domestic-league|FC Khimki|1|1|Zenit St Petersburg|Round 5|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2024-08-18|Russian Premier League|domestic-league|FC Krasnodar|2|1|Pari Nizhny Novgorod|Round 5|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2024-08-18|Russian Premier League|domestic-league|Spartak Moscow|3|0|Fakel Voronezh|Round 5|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-19|Russian Premier League|domestic-league|Akron Tolyatti|1|2|Rubin Kazan|Round 5|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-08-19|Russian Premier League|domestic-league|Dynamo Makhachkala|1|0|Akhmat Grozny|Round 5|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-08-23|Russian Premier League|domestic-league|Rubin Kazan|2|0|Dynamo Makhachkala|Round 6|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2024-08-24|Russian Premier League|domestic-league|Akhmat Grozny|3|3|FC Khimki|Round 6|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-08-24|Russian Premier League|domestic-league|CSKA Moscow|4|0|Akron Tolyatti|Round 6|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-24|Russian Premier League|domestic-league|Fakel Voronezh|1|0|FC Orenburg|Round 6|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-08-24|Russian Premier League|domestic-league|Zenit St Petersburg|0|0|Spartak Moscow|Round 6|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-08-25|Russian Premier League|domestic-league|Dynamo Moscow|0|1|FC Krasnodar|Round 6|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-25|Russian Premier League|domestic-league|Krylia Sovetov Samara|3|1|Pari Nizhny Novgorod|Round 6|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-08-25|Russian Premier League|domestic-league|Lokomotiv Moscow|3|2|FC Rostov|Round 6|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-08-31|Russian Premier League|domestic-league|Akhmat Grozny|0|0|Akron Tolyatti|Round 7|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-08-31|Russian Premier League|domestic-league|FC Khimki|0|2|CSKA Moscow|Round 7|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2024-08-31|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|3|Zenit St Petersburg|Round 7|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-08-31|Russian Premier League|domestic-league|Spartak Moscow|1|0|Rubin Kazan|Round 7|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-09-01|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|1|Dynamo Makhachkala|Round 7|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-09-01|Russian Premier League|domestic-league|Lokomotiv Moscow|0|3|FC Krasnodar|Round 7|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-09-01|Russian Premier League|domestic-league|FC Orenburg|2|2|Dynamo Moscow|Round 7|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-09-01|Russian Premier League|domestic-league|FC Rostov|4|1|Fakel Voronezh|Round 7|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-09-13|Russian Premier League|domestic-league|Rubin Kazan|0|2|Krylia Sovetov Samara|Round 8|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2024-09-14|Russian Premier League|domestic-league|CSKA Moscow|0|1|Zenit St Petersburg|Round 8|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-09-14|Russian Premier League|domestic-league|Fakel Voronezh|0|0|Pari Nizhny Novgorod|Round 8|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-09-14|Russian Premier League|domestic-league|FC Krasnodar|2|0|FC Rostov|Round 8|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2024-09-14|Russian Premier League|domestic-league|FC Orenburg|2|4|Lokomotiv Moscow|Round 8|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-09-15|Russian Premier League|domestic-league|Akron Tolyatti|3|0|FC Khimki|Round 8|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-09-15|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Spartak Moscow|Round 8|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-09-15|Russian Premier League|domestic-league|Dynamo Moscow|4|2|Akhmat Grozny|Round 8|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-09-21|Russian Premier League|domestic-league|Akron Tolyatti|2|5|FC Krasnodar|Round 9|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-09-21|Russian Premier League|domestic-league|Rubin Kazan|1|1|CSKA Moscow|Round 9|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2024-09-21|Russian Premier League|domestic-league|Zenit St Petersburg|3|1|Fakel Voronezh|Round 9|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-09-22|Russian Premier League|domestic-league|FC Khimki|0|0|FC Orenburg|Round 9|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2024-09-22|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|3|Lokomotiv Moscow|Round 9|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-09-22|Russian Premier League|domestic-league|FC Rostov|0|0|Dynamo Makhachkala|Round 9|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-09-22|Russian Premier League|domestic-league|Spartak Moscow|2|2|Dynamo Moscow|Round 9|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-09-23|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Krylia Sovetov Samara|Round 9|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-09-27|Russian Premier League|domestic-league|Fakel Voronezh|0|0|Rubin Kazan|Round 10|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-09-27|Russian Premier League|domestic-league|FC Orenburg|1|2|Pari Nizhny Novgorod|Round 10|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-09-28|Russian Premier League|domestic-league|CSKA Moscow|3|0|Akhmat Grozny|Round 10|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-09-28|Russian Premier League|domestic-league|FC Krasnodar|2|0|Zenit St Petersburg|Round 10|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2024-09-28|Russian Premier League|domestic-league|Lokomotiv Moscow|3|1|Spartak Moscow|Round 10|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-09-28|Russian Premier League|domestic-league|FC Rostov|0|2|Akron Tolyatti|Round 10|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-09-29|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Dynamo Moscow|Round 10|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-09-29|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|0|FC Khimki|Round 10|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-10-05|Russian Premier League|domestic-league|Akron Tolyatti|2|2|Pari Nizhny Novgorod|Round 11|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-10-05|Russian Premier League|domestic-league|Rubin Kazan|2|0|Akhmat Grozny|Round 11|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2024-10-05|Russian Premier League|domestic-league|Spartak Moscow|3|0|FC Rostov|Round 11|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-10-05|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|FC Orenburg|Round 11|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-10-06|Russian Premier League|domestic-league|Dynamo Moscow|1|2|CSKA Moscow|Round 11|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-10-06|Russian Premier League|domestic-league|Fakel Voronezh|1|1|Dynamo Makhachkala|Round 11|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-10-06|Russian Premier League|domestic-league|FC Krasnodar|4|0|FC Khimki|Round 11|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2024-10-06|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|Krylia Sovetov Samara|Round 11|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-10-18|Russian Premier League|domestic-league|Akhmat Grozny|2|3|Fakel Voronezh|Round 12|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-10-18|Russian Premier League|domestic-league|Akron Tolyatti|0|5|Zenit St Petersburg|Round 12|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-10-19|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|CSKA Moscow|Round 12|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-10-19|Russian Premier League|domestic-league|FC Khimki|2|0|Lokomotiv Moscow|Round 12|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2024-10-19|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|1|FC Rostov|Round 12|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-10-19|Russian Premier League|domestic-league|Spartak Moscow|0|3|FC Krasnodar|Round 12|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-10-20|Russian Premier League|domestic-league|FC Orenburg|2|2|Krylia Sovetov Samara|Round 12|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-10-20|Russian Premier League|domestic-league|Rubin Kazan|0|4|Dynamo Moscow|Round 12|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-10-26|Russian Premier League|domestic-league|CSKA Moscow|0|0|Fakel Voronezh|Round 13|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-10-26|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Akron Tolyatti|Round 13|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-10-26|Russian Premier League|domestic-league|FC Rostov|2|3|Akhmat Grozny|Round 13|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-10-27|Russian Premier League|domestic-league|FC Khimki|3|4|Dynamo Moscow|Round 13|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2024-10-27|Russian Premier League|domestic-league|FC Orenburg|1|2|Rubin Kazan|Round 13|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-10-27|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|2|Spartak Moscow|Round 13|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-10-27|Russian Premier League|domestic-league|Zenit St Petersburg|1|1|Lokomotiv Moscow|Round 13|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-10-28|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|2|FC Krasnodar|Round 13|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-11-01|Russian Premier League|domestic-league|Dynamo Moscow|1|1|FC Rostov|Round 14|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-02|Russian Premier League|domestic-league|CSKA Moscow|0|2|Spartak Moscow|Round 14|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-02|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|Rubin Kazan|Round 14|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-02|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|Dynamo Makhachkala|Round 14|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-11-03|Russian Premier League|domestic-league|Akhmat Grozny|0|2|Pari Nizhny Novgorod|Round 14|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-11-03|Russian Premier League|domestic-league|Akron Tolyatti|2|0|Krylia Sovetov Samara|Round 14|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-11-03|Russian Premier League|domestic-league|Fakel Voronezh|1|1|FC Khimki|Round 14|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-11-03|Russian Premier League|domestic-league|FC Krasnodar|4|0|FC Orenburg|Round 14|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2024-11-09|Russian Premier League|domestic-league|Dynamo Makhachkala|2|1|FC Orenburg|Round 15|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-11-09|Russian Premier League|domestic-league|Dynamo Moscow|3|1|Pari Nizhny Novgorod|Round 15|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-09|Russian Premier League|domestic-league|Lokomotiv Moscow|2|1|Fakel Voronezh|Round 15|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-09|Russian Premier League|domestic-league|FC Rostov|3|1|FC Khimki|Round 15|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-11-10|Russian Premier League|domestic-league|Akhmat Grozny|1|2|Zenit St Petersburg|Round 15|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-11-10|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|2|CSKA Moscow|Round 15|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-11-10|Russian Premier League|domestic-league|Rubin Kazan|1|1|FC Krasnodar|Round 15|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2024-11-10|Russian Premier League|domestic-league|Spartak Moscow|4|0|Akron Tolyatti|Round 15|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-22|Russian Premier League|domestic-league|Rubin Kazan|3|0|Akron Tolyatti|Round 16|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2024-11-23|Russian Premier League|domestic-league|CSKA Moscow|1|2|FC Rostov|Round 16|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-23|Russian Premier League|domestic-league|FC Khimki|2|2|FC Krasnodar|Round 16|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2024-11-23|Russian Premier League|domestic-league|FC Orenburg|0|1|Zenit St Petersburg|Round 16|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2024-11-23|Russian Premier League|domestic-league|Spartak Moscow|5|2|Lokomotiv Moscow|Round 16|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-24|Russian Premier League|domestic-league|Fakel Voronezh|1|1|Dynamo Moscow|Round 16|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-11-24|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|1|Akhmat Grozny|Round 16|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-11-24|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|0|Dynamo Makhachkala|Round 16|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2024-11-30|Russian Premier League|domestic-league|Akron Tolyatti|1|0|FC Orenburg|Round 17|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2024-11-30|Russian Premier League|domestic-league|CSKA Moscow|2|2|Rubin Kazan|Round 17|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-11-30|Russian Premier League|domestic-league|FC Rostov|4|0|Pari Nizhny Novgorod|Round 17|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-12-01|Russian Premier League|domestic-league|Dynamo Makhachkala|0|0|Fakel Voronezh|Round 17|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-12-01|Russian Premier League|domestic-league|FC Krasnodar|0|3|Spartak Moscow|Round 17|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2024-12-01|Russian Premier League|domestic-league|Lokomotiv Moscow|1|3|FC Khimki|Round 17|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-12-01|Russian Premier League|domestic-league|Zenit St Petersburg|2|3|Krylia Sovetov Samara|Round 17|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-12-02|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Dynamo Moscow|Round 17|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-12-07|Russian Premier League|domestic-league|Dynamo Makhachkala|2|3|Rubin Kazan|Round 18|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2024-12-07|Russian Premier League|domestic-league|FC Rostov|3|1|Krylia Sovetov Samara|Round 18|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2024-12-07|Russian Premier League|domestic-league|Spartak Moscow|3|0|Pari Nizhny Novgorod|Round 18|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-12-07|Russian Premier League|domestic-league|Zenit St Petersburg|1|2|Akron Tolyatti|Round 18|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2024-12-08|Russian Premier League|domestic-league|Akhmat Grozny|1|0|FC Orenburg|Round 18|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2024-12-08|Russian Premier League|domestic-league|Dynamo Moscow|4|1|FC Khimki|Round 18|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2024-12-08|Russian Premier League|domestic-league|Fakel Voronezh|0|1|CSKA Moscow|Round 18|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2024-12-08|Russian Premier League|domestic-league|FC Krasnodar|0|0|Lokomotiv Moscow|Round 18|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2025-02-28|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Lokomotiv Moscow|Round 19|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2025-03-01|Russian Premier League|domestic-league|Akhmat Grozny|2|1|Rubin Kazan|Round 19|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2025-03-01|Russian Premier League|domestic-league|FC Krasnodar|1|1|Krylia Sovetov Samara|Round 19|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2025-03-01|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|1|Akron Tolyatti|Round 19|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2025-03-01|Russian Premier League|domestic-league|Zenit St Petersburg|0|0|CSKA Moscow|Round 19|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2025-03-02|Russian Premier League|domestic-league|FC Khimki|1|0|Fakel Voronezh|Round 19|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2025-03-02|Russian Premier League|domestic-league|FC Rostov|1|1|Dynamo Moscow|Round 19|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2025-03-02|Russian Premier League|domestic-league|Spartak Moscow|2|0|FC Orenburg|Round 19|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-03-07|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Akhmat Grozny|Round 20|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-03-07|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|3|FC Krasnodar|Round 20|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2025-03-08|Russian Premier League|domestic-league|CSKA Moscow|1|0|FC Khimki|Round 20|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-03-08|Russian Premier League|domestic-league|Dynamo Moscow|4|0|Dynamo Makhachkala|Round 20|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-03-08|Russian Premier League|domestic-league|Fakel Voronezh|0|2|Zenit St Petersburg|Round 20|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2025-03-08|Russian Premier League|domestic-league|FC Orenburg|1|2|FC Rostov|Round 20|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2025-03-09|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|2|Akron Tolyatti|Round 20|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-03-09|Russian Premier League|domestic-league|Rubin Kazan|2|1|Spartak Moscow|Round 20|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2025-03-15|Russian Premier League|domestic-league|Dynamo Makhachkala|4|0|Krylia Sovetov Samara|Round 21|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2025-03-15|Russian Premier League|domestic-league|FC Khimki|1|1|Akhmat Grozny|Round 21|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2025-03-15|Russian Premier League|domestic-league|Lokomotiv Moscow|2|1|Dynamo Moscow|Round 21|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-03-15|Russian Premier League|domestic-league|FC Orenburg|1|0|Fakel Voronezh|Round 21|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2025-03-16|Russian Premier League|domestic-league|Akron Tolyatti|1|2|CSKA Moscow|Round 21|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-03-16|Russian Premier League|domestic-league|FC Rostov|0|1|FC Krasnodar|Round 21|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2025-03-16|Russian Premier League|domestic-league|Rubin Kazan|1|0|Pari Nizhny Novgorod|Round 21|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2025-03-16|Russian Premier League|domestic-league|Spartak Moscow|2|1|Zenit St Petersburg|Round 21|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-03-28|Russian Premier League|domestic-league|Krylia Sovetov Samara|5|1|Lokomotiv Moscow|Round 22|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-03-29|Russian Premier League|domestic-league|CSKA Moscow|2|0|Dynamo Makhachkala|Round 22|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-03-29|Russian Premier League|domestic-league|Dynamo Moscow|5|1|FC Orenburg|Round 22|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-03-29|Russian Premier League|domestic-league|FC Khimki|2|0|Pari Nizhny Novgorod|Round 22|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2025-03-30|Russian Premier League|domestic-league|Akhmat Grozny|0|0|Spartak Moscow|Round 22|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2025-03-30|Russian Premier League|domestic-league|FC Krasnodar|5|0|Fakel Voronezh|Round 22|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2025-03-30|Russian Premier League|domestic-league|Zenit St Petersburg|4|0|Rubin Kazan|Round 22|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2025-03-31|Russian Premier League|domestic-league|Akron Tolyatti|2|3|FC Rostov|Round 22|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-04-04|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|2|FC Orenburg|Round 23|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2025-04-05|Russian Premier League|domestic-league|Fakel Voronezh|0|0|Akhmat Grozny|Round 23|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2025-04-05|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|Rubin Kazan|Round 23|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-04-05|Russian Premier League|domestic-league|FC Krasnodar|1|0|Akron Tolyatti|Round 23|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2025-04-05|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Zenit St Petersburg|Round 23|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-04-06|Russian Premier League|domestic-league|CSKA Moscow|3|1|Dynamo Moscow|Round 23|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-04-06|Russian Premier League|domestic-league|Dynamo Makhachkala|4|1|FC Khimki|Round 23|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2025-04-06|Russian Premier League|domestic-league|FC Rostov|0|3|Spartak Moscow|Round 23|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2025-04-11|Russian Premier League|domestic-league|Spartak Moscow|1|2|Dynamo Makhachkala|Round 24|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-04-12|Russian Premier League|domestic-league|Akhmat Grozny|2|1|FC Rostov|Round 24|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2025-04-12|Russian Premier League|domestic-league|FC Orenburg|0|2|CSKA Moscow|Round 24|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2025-04-12|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|1|Dynamo Moscow|Round 24|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2025-04-12|Russian Premier League|domestic-league|Rubin Kazan|1|0|Lokomotiv Moscow|Round 24|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2025-04-13|Russian Premier League|domestic-league|Akron Tolyatti|1|0|Fakel Voronezh|Round 24|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-04-13|Russian Premier League|domestic-league|FC Khimki|1|3|Krylia Sovetov Samara|Round 24|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2025-04-13|Russian Premier League|domestic-league|Zenit St Petersburg|4|1|FC Krasnodar|Round 24|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2025-04-19|Russian Premier League|domestic-league|Akron Tolyatti|2|3|Spartak Moscow|Round 25|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-04-19|Russian Premier League|domestic-league|FC Krasnodar|3|1|Akhmat Grozny|Round 25|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2025-04-19|Russian Premier League|domestic-league|Lokomotiv Moscow|3|0|Pari Nizhny Novgorod|Round 25|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-04-19|Russian Premier League|domestic-league|FC Orenburg|2|1|Dynamo Makhachkala|Round 25|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2025-04-20|Russian Premier League|domestic-league|CSKA Moscow|1|1|Krylia Sovetov Samara|Round 25|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-04-20|Russian Premier League|domestic-league|Dynamo Moscow|3|1|Rubin Kazan|Round 25|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-04-20|Russian Premier League|domestic-league|Fakel Voronezh|0|2|FC Rostov|Round 25|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2025-04-20|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|FC Khimki|Round 25|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2025-04-25|Russian Premier League|domestic-league|Dynamo Makhachkala|2|3|FC Krasnodar|Round 26|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2025-04-26|Russian Premier League|domestic-league|Dynamo Moscow|1|1|Zenit St Petersburg|Round 26|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-04-26|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|0|Akhmat Grozny|Round 26|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2025-04-26|Russian Premier League|domestic-league|FC Rostov|1|1|Lokomotiv Moscow|Round 26|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2025-04-26|Russian Premier League|domestic-league|Spartak Moscow|1|2|CSKA Moscow|Round 26|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-04-27|Russian Premier League|domestic-league|FC Khimki|2|2|Akron Tolyatti|Round 26|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2025-04-27|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|FC Orenburg|Round 26|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-04-27|Russian Premier League|domestic-league|Rubin Kazan|2|1|Fakel Voronezh|Round 26|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2025-05-02|Russian Premier League|domestic-league|Akron Tolyatti|1|0|Dynamo Makhachkala|Round 27|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-05-03|Russian Premier League|domestic-league|FC Krasnodar|2|1|Rubin Kazan|Round 27|Ozon Arena|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2025-05-03|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|FC Orenburg|Round 27|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-05-04|Russian Premier League|domestic-league|Akhmat Grozny|1|1|CSKA Moscow|Round 27|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2025-05-04|Russian Premier League|domestic-league|Fakel Voronezh|0|0|Spartak Moscow|Round 27|Tsentralnyi Profsoyuz Stadion|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2025-05-04|Russian Premier League|domestic-league|FC Khimki|1|1|FC Rostov|Round 27|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2025-05-04|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|Pari Nizhny Novgorod|Round 27|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2025-05-05|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|3|Dynamo Moscow|Round 27|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-05-10|Russian Premier League|domestic-league|CSKA Moscow|1|0|FC Krasnodar|Round 28|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-05-10|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Zenit St Petersburg|Round 28|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2025-05-10|Russian Premier League|domestic-league|FC Orenburg|1|1|FC Khimki|Round 28|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2025-05-11|Russian Premier League|domestic-league|Akron Tolyatti|3|2|Akhmat Grozny|Round 28|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-05-11|Russian Premier League|domestic-league|Dynamo Moscow|2|0|Spartak Moscow|Round 28|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-05-11|Russian Premier League|domestic-league|Fakel Voronezh|0|1|Lokomotiv Moscow|Round 28|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2025-05-11|Russian Premier League|domestic-league|Rubin Kazan|1|0|FC Rostov|Round 28|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2025-05-12|Russian Premier League|domestic-league|Pari Nizhny Novgorod|5|2|Krylia Sovetov Samara|Round 28|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2025-05-17|Russian Premier League|domestic-league|FC Khimki|3|2|Rubin Kazan|Round 29|Arena Khimki|Khimki|Russia||rsssf-rus2025-1l
+MATCH|2025-05-17|Russian Premier League|domestic-league|FC Orenburg|1|2|FC Krasnodar|Round 29|Gazovik Stadium|Orenburg|Russia||rsssf-rus2025-1l
+MATCH|2025-05-17|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|1|Fakel Voronezh|Round 29|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2025-05-18|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Dynamo Makhachkala|Round 29|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2025-05-18|Russian Premier League|domestic-league|Dynamo Moscow|2|1|Akron Tolyatti|Round 29|VTB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-05-18|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|2|Spartak Moscow|Round 29|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-05-18|Russian Premier League|domestic-league|FC Rostov|0|1|Zenit St Petersburg|Round 29|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2025-1l
+MATCH|2025-05-19|Russian Premier League|domestic-league|Lokomotiv Moscow|2|2|CSKA Moscow|Round 29|RZD Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-05-24|Russian Premier League|domestic-league|Akron Tolyatti|1|4|Lokomotiv Moscow|Round 30|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2025-1l
+MATCH|2025-05-24|Russian Premier League|domestic-league|CSKA Moscow|2|0|Pari Nizhny Novgorod|Round 30|VEB Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-05-24|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|FC Rostov|Round 30|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2025-1l
+MATCH|2025-05-24|Russian Premier League|domestic-league|Fakel Voronezh|1|1|Krylia Sovetov Samara|Round 30|Fakel Stadium|Voronezh|Russia||rsssf-rus2025-1l
+MATCH|2025-05-24|Russian Premier League|domestic-league|FC Krasnodar|3|0|Dynamo Moscow|Round 30|Ozon Arena|Krasnodar|Russia||rsssf-rus2025-1l
+MATCH|2025-05-24|Russian Premier League|domestic-league|Rubin Kazan|4|2|FC Orenburg|Round 30|Ak Bars Arena|Kazan|Russia||rsssf-rus2025-1l
+MATCH|2025-05-24|Russian Premier League|domestic-league|Spartak Moscow|5|0|FC Khimki|Round 30|Lukoil Arena|Moscow|Russia||rsssf-rus2025-1l
+MATCH|2025-05-24|Russian Premier League|domestic-league|Zenit St Petersburg|3|0|Akhmat Grozny|Round 30|Gazprom Arena|St Petersburg|Russia||rsssf-rus2025-1l
+MATCH|2025-05-28|Russian Relegation Playoffs|other|PFC Sochi|1|2|Pari Nizhny Novgorod|Playoff leg1|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2025-1l
+MATCH|2025-05-28|Russian Relegation Playoffs|other|Ural Yekaterinburg|2|1|Akhmat Grozny|Playoff leg1|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2025-1l
+MATCH|2025-05-31|Russian Relegation Playoffs|other|Akhmat Grozny|2|0|Ural Yekaterinburg|Playoff leg2|Akhmat Arena|Grozny|Russia||rsssf-rus2025-1l
+MATCH|2025-05-31|Russian Relegation Playoffs|other|Pari Nizhny Novgorod|1|3|PFC Sochi|Playoff leg2|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2025-1l
+MATCH|2025-07-18|Russian Premier League|domestic-league|Dynamo Moscow|1|1|Baltika Kaliningrad|Round 1|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-07-19|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Krylia Sovetov Samara|Round 1|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-07-19|Russian Premier League|domestic-league|Lokomotiv Moscow|3|0|PFC Sochi|Round 1|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-07-19|Russian Premier League|domestic-league|Spartak Moscow|1|0|Dynamo Makhachkala|Round 1|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-07-20|Russian Premier League|domestic-league|Akhmat Grozny|0|2|Rubin Kazan|Round 1|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-07-20|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|3|FC Krasnodar|Round 1|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-07-20|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|FC Rostov|Round 1|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-07-21|Russian Premier League|domestic-league|FC Orenburg|0|0|CSKA Moscow|Round 1|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-07-25|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|Pari Nizhny Novgorod|Round 2|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-07-26|Russian Premier League|domestic-league|Dynamo Moscow|1|0|FC Rostov|Round 2|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-07-26|Russian Premier League|domestic-league|FC Krasnodar|1|2|Lokomotiv Moscow|Round 2|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-07-26|Russian Premier League|domestic-league|PFC Sochi|0|4|Akron Tolyatti|Round 2|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2025-07-26|Russian Premier League|domestic-league|Spartak Moscow|0|3|Baltika Kaliningrad|Round 2|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-07-27|Russian Premier League|domestic-league|CSKA Moscow|2|1|Akhmat Grozny|Round 2|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-07-27|Russian Premier League|domestic-league|FC Orenburg|1|1|Dynamo Makhachkala|Round 2|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-07-27|Russian Premier League|domestic-league|Rubin Kazan|2|2|Zenit St Petersburg|Round 2|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-08-02|Russian Premier League|domestic-league|FC Krasnodar|1|0|Dynamo Moscow|Round 3|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-08-02|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|3|Lokomotiv Moscow|Round 3|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-08-02|Russian Premier League|domestic-league|FC Rostov|1|4|Krylia Sovetov Samara|Round 3|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-08-03|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Spartak Moscow|Round 3|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-08-03|Russian Premier League|domestic-league|Baltika Kaliningrad|3|2|FC Orenburg|Round 3|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-08-03|Russian Premier League|domestic-league|Dynamo Makhachkala|1|0|Akhmat Grozny|Round 3|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-08-03|Russian Premier League|domestic-league|Zenit St Petersburg|1|1|CSKA Moscow|Round 3|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-08-04|Russian Premier League|domestic-league|Rubin Kazan|2|1|PFC Sochi|Round 3|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-08-08|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Akron Tolyatti|Round 4|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-08-09|Russian Premier League|domestic-league|Akhmat Grozny|1|0|Zenit St Petersburg|Round 4|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-08-09|Russian Premier League|domestic-league|CSKA Moscow|5|1|Rubin Kazan|Round 4|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-09|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|Baltika Kaliningrad|Round 4|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-08-09|Russian Premier League|domestic-league|Lokomotiv Moscow|4|2|Spartak Moscow|Round 4|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-10|Russian Premier League|domestic-league|FC Orenburg|0|1|FC Krasnodar|Round 4|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-08-10|Russian Premier League|domestic-league|FC Rostov|1|0|Pari Nizhny Novgorod|Round 4|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-08-10|Russian Premier League|domestic-league|PFC Sochi|1|1|Dynamo Moscow|Round 4|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2025-08-16|Russian Premier League|domestic-league|Akhmat Grozny|3|1|Krylia Sovetov Samara|Round 5|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-08-16|Russian Premier League|domestic-league|Baltika Kaliningrad|1|1|Lokomotiv Moscow|Round 5|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-08-16|Russian Premier League|domestic-league|Spartak Moscow|2|2|Zenit St Petersburg|Round 5|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-17|Russian Premier League|domestic-league|Akron Tolyatti|1|2|FC Orenburg|Round 5|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-08-17|Russian Premier League|domestic-league|Dynamo Moscow|1|3|CSKA Moscow|Round 5|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-17|Russian Premier League|domestic-league|FC Krasnodar|5|1|PFC Sochi|Round 5|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-08-17|Russian Premier League|domestic-league|Rubin Kazan|1|0|FC Rostov|Round 5|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-08-18|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|0|Dynamo Makhachkala|Round 5|Mordovia Arena|Saransk|Russia||rsssf-rus2026-1l
+MATCH|2025-08-22|Russian Premier League|domestic-league|FC Orenburg|2|2|Akhmat Grozny|Round 6|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-08-23|Russian Premier League|domestic-league|Dynamo Moscow|3|0|Pari Nizhny Novgorod|Round 6|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-23|Russian Premier League|domestic-league|Lokomotiv Moscow|3|3|FC Rostov|Round 6|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-23|Russian Premier League|domestic-league|Rubin Kazan|0|2|Spartak Moscow|Round 6|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-08-23|Russian Premier League|domestic-league|Zenit St Petersburg|4|0|Dynamo Makhachkala|Round 6|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-08-24|Russian Premier League|domestic-league|CSKA Moscow|3|1|Akron Tolyatti|Round 6|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-24|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|6|FC Krasnodar|Round 6|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-08-24|Russian Premier League|domestic-league|PFC Sochi|0|2|Baltika Kaliningrad|Round 6|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2025-08-30|Russian Premier League|domestic-league|FC Orenburg|2|2|Rubin Kazan|Round 7|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-08-30|Russian Premier League|domestic-league|FC Rostov|1|1|Akhmat Grozny|Round 7|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-08-30|Russian Premier League|domestic-league|Spartak Moscow|2|1|PFC Sochi|Round 7|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-30|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Pari Nizhny Novgorod|Round 7|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-08-31|Russian Premier League|domestic-league|Akron Tolyatti|0|2|Baltika Kaliningrad|Round 7|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-08-31|Russian Premier League|domestic-league|CSKA Moscow|1|1|FC Krasnodar|Round 7|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-08-31|Russian Premier League|domestic-league|Dynamo Makhachkala|1|0|Dynamo Moscow|Round 7|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-08-31|Russian Premier League|domestic-league|Lokomotiv Moscow|2|2|Krylia Sovetov Samara|Round 7|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-09-12|Russian Premier League|domestic-league|Rubin Kazan|1|0|Dynamo Makhachkala|Round 8|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-09-13|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Lokomotiv Moscow|Round 8|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-09-13|Russian Premier League|domestic-league|Dynamo Moscow|2|2|Spartak Moscow|Round 8|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-09-13|Russian Premier League|domestic-league|FC Krasnodar|2|1|Akron Tolyatti|Round 8|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-09-13|Russian Premier League|domestic-league|Pari Nizhny Novgorod|3|1|FC Orenburg|Round 8|Mordovia Arena|Saransk|Russia||rsssf-rus2026-1l
+MATCH|2025-09-14|Russian Premier League|domestic-league|Baltika Kaliningrad|0|0|Zenit St Petersburg|Round 8|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-09-14|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|PFC Sochi|Round 8|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-09-14|Russian Premier League|domestic-league|FC Rostov|1|0|CSKA Moscow|Round 8|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-09-20|Russian Premier League|domestic-league|Akron Tolyatti|2|2|Rubin Kazan|Round 9|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-09-20|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Lokomotiv Moscow|Round 9|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-09-20|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|2|Akhmat Grozny|Round 9|Mordovia Arena|Saransk|Russia||rsssf-rus2026-1l
+MATCH|2025-09-21|Russian Premier League|domestic-league|Baltika Kaliningrad|0|0|FC Rostov|Round 9|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-09-21|Russian Premier League|domestic-league|FC Krasnodar|0|2|Zenit St Petersburg|Round 9|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-09-21|Russian Premier League|domestic-league|FC Orenburg|1|3|Dynamo Moscow|Round 9|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-09-21|Russian Premier League|domestic-league|Spartak Moscow|2|1|Krylia Sovetov Samara|Round 9|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-09-22|Russian Premier League|domestic-league|PFC Sochi|1|3|CSKA Moscow|Round 9|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2025-09-26|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|3|Dynamo Moscow|Round 10|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-09-27|Russian Premier League|domestic-league|Akhmat Grozny|3|0|Akron Tolyatti|Round 10|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-09-27|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|Rubin Kazan|Round 10|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-09-27|Russian Premier League|domestic-league|FC Rostov|0|0|FC Krasnodar|Round 10|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-09-27|Russian Premier League|domestic-league|Zenit St Petersburg|5|2|FC Orenburg|Round 10|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-09-28|Russian Premier League|domestic-league|CSKA Moscow|1|0|Baltika Kaliningrad|Round 10|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-09-28|Russian Premier League|domestic-league|Dynamo Makhachkala|0|0|PFC Sochi|Round 10|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-09-28|Russian Premier League|domestic-league|Spartak Moscow|3|0|Pari Nizhny Novgorod|Round 10|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-10-04|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Zenit St Petersburg|Round 11|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-10-04|Russian Premier League|domestic-league|Dynamo Moscow|3|5|Lokomotiv Moscow|Round 11|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-10-04|Russian Premier League|domestic-league|FC Krasnodar|2|0|Akhmat Grozny|Round 11|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-10-04|Russian Premier League|domestic-league|Rubin Kazan|2|0|Krylia Sovetov Samara|Round 11|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-10-05|Russian Premier League|domestic-league|Baltika Kaliningrad|2|0|Dynamo Makhachkala|Round 11|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-10-05|Russian Premier League|domestic-league|CSKA Moscow|3|2|Spartak Moscow|Round 11|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-10-05|Russian Premier League|domestic-league|FC Orenburg|0|1|FC Rostov|Round 11|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-10-05|Russian Premier League|domestic-league|PFC Sochi|2|1|Pari Nizhny Novgorod|Round 11|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2025-10-18|Russian Premier League|domestic-league|Dynamo Makhachkala|0|2|FC Krasnodar|Round 12|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-10-18|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|FC Orenburg|Round 12|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-10-18|Russian Premier League|domestic-league|Lokomotiv Moscow|3|0|CSKA Moscow|Round 12|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-10-18|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|1|Akron Tolyatti|Round 12|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2025-10-18|Russian Premier League|domestic-league|Spartak Moscow|1|1|FC Rostov|Round 12|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-10-19|Russian Premier League|domestic-league|Dynamo Moscow|2|2|Akhmat Grozny|Round 12|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-10-19|Russian Premier League|domestic-league|Rubin Kazan|0|3|Baltika Kaliningrad|Round 12|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-10-19|Russian Premier League|domestic-league|PFC Sochi|0|3|Zenit St Petersburg|Round 12|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2025-10-25|Russian Premier League|domestic-league|CSKA Moscow|1|0|Krylia Sovetov Samara|Round 13|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-10-25|Russian Premier League|domestic-league|FC Rostov|1|1|Dynamo Makhachkala|Round 13|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-10-25|Russian Premier League|domestic-league|Spartak Moscow|1|0|FC Orenburg|Round 13|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-10-26|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Lokomotiv Moscow|Round 13|Mordovia Arena|Saransk|Russia||rsssf-rus2026-1l
+MATCH|2025-10-26|Russian Premier League|domestic-league|FC Krasnodar|1|0|Rubin Kazan|Round 13|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-10-26|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|0|Baltika Kaliningrad|Round 13|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2025-10-26|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|Dynamo Moscow|Round 13|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-10-27|Russian Premier League|domestic-league|Akhmat Grozny|2|4|PFC Sochi|Round 13|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-10-31|Russian Premier League|domestic-league|CSKA Moscow|2|0|Pari Nizhny Novgorod|Round 14|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-11-01|Russian Premier League|domestic-league|Dynamo Makhachkala|2|0|Krylia Sovetov Samara|Round 14|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-11-01|Russian Premier League|domestic-league|FC Rostov|0|1|Akron Tolyatti|Round 14|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-11-01|Russian Premier League|domestic-league|Rubin Kazan|0|0|Dynamo Moscow|Round 14|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-11-01|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Lokomotiv Moscow|Round 14|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-11-02|Russian Premier League|domestic-league|Baltika Kaliningrad|2|0|Akhmat Grozny|Round 14|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-11-02|Russian Premier League|domestic-league|FC Krasnodar|2|1|Spartak Moscow|Round 14|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-11-02|Russian Premier League|domestic-league|FC Orenburg|3|1|PFC Sochi|Round 14|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-11-08|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|CSKA Moscow|Round 15|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-11-08|Russian Premier League|domestic-league|Dynamo Moscow|1|2|Akron Tolyatti|Round 15|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-11-08|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|0|Rubin Kazan|Round 15|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2025-11-08|Russian Premier League|domestic-league|PFC Sochi|0|1|FC Rostov|Round 15|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2025-11-09|Russian Premier League|domestic-league|Akhmat Grozny|1|2|Spartak Moscow|Round 15|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-11-09|Russian Premier League|domestic-league|Baltika Kaliningrad|1|1|FC Krasnodar|Round 15|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-11-09|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|Zenit St Petersburg|Round 15|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-11-09|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|FC Orenburg|Round 15|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-11-21|Russian Premier League|domestic-league|Akron Tolyatti|3|2|PFC Sochi|Round 16|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-11-22|Russian Premier League|domestic-league|FC Orenburg|0|0|Baltika Kaliningrad|Round 16|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2025-11-22|Russian Premier League|domestic-league|Rubin Kazan|1|0|Akhmat Grozny|Round 16|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2025-11-22|Russian Premier League|domestic-league|Spartak Moscow|1|0|CSKA Moscow|Round 16|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-11-23|Russian Premier League|domestic-league|Dynamo Moscow|3|0|Dynamo Makhachkala|Round 16|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-11-23|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|FC Rostov|Round 16|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-11-23|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|FC Krasnodar|Round 16|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-11-23|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|2|Zenit St Petersburg|Round 16|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2025-11-29|Russian Premier League|domestic-league|Akron Tolyatti|1|2|Pari Nizhny Novgorod|Round 17|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2025-11-29|Russian Premier League|domestic-league|Baltika Kaliningrad|1|0|Spartak Moscow|Round 17|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-11-29|Russian Premier League|domestic-league|CSKA Moscow|2|0|FC Orenburg|Round 17|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-11-30|Russian Premier League|domestic-league|Akhmat Grozny|2|1|Dynamo Moscow|Round 17|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-11-30|Russian Premier League|domestic-league|FC Krasnodar|5|0|Krylia Sovetov Samara|Round 17|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-11-30|Russian Premier League|domestic-league|FC Rostov|1|3|Lokomotiv Moscow|Round 17|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-11-30|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|Rubin Kazan|Round 17|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-12-01|Russian Premier League|domestic-league|PFC Sochi|0|0|Dynamo Makhachkala|Round 17|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2025-12-05|Russian Premier League|domestic-league|Akhmat Grozny|1|0|FC Orenburg|Round 18|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2025-12-06|Russian Premier League|domestic-league|FC Rostov|2|0|Rubin Kazan|Round 18|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2025-12-06|Russian Premier League|domestic-league|Spartak Moscow|1|1|Dynamo Moscow|Round 18|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2025-12-06|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Akron Tolyatti|Round 18|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2025-12-07|Russian Premier League|domestic-league|Baltika Kaliningrad|2|0|Krylia Sovetov Samara|Round 18|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2025-12-07|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Pari Nizhny Novgorod|Round 18|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2025-12-07|Russian Premier League|domestic-league|FC Krasnodar|3|2|CSKA Moscow|Round 18|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2025-12-07|Russian Premier League|domestic-league|PFC Sochi|2|4|Lokomotiv Moscow|Round 18|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2026-02-27|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|Baltika Kaliningrad|Round 19|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2026-02-28|Russian Premier League|domestic-league|Dynamo Makhachkala|2|1|Rubin Kazan|Round 19|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2026-02-28|Russian Premier League|domestic-league|FC Krasnodar|2|1|FC Rostov|Round 19|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2026-02-28|Russian Premier League|domestic-league|Lokomotiv Moscow|2|1|Pari Nizhny Novgorod|Round 19|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-02-28|Russian Premier League|domestic-league|FC Orenburg|2|0|Akron Tolyatti|Round 19|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2026-03-01|Russian Premier League|domestic-league|Akhmat Grozny|1|0|CSKA Moscow|Round 19|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2026-03-01|Russian Premier League|domestic-league|Dynamo Moscow|4|0|Krylia Sovetov Samara|Round 19|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-03-02|Russian Premier League|domestic-league|PFC Sochi|2|3|Spartak Moscow|Round 19|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2026-03-07|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|1|PFC Sochi|Round 20|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2026-03-07|Russian Premier League|domestic-league|FC Rostov|1|1|Baltika Kaliningrad|Round 20|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2026-03-08|Russian Premier League|domestic-league|CSKA Moscow|1|4|Dynamo Moscow|Round 20|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-03-08|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|Dynamo Makhachkala|Round 20|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-03-08|Russian Premier League|domestic-league|FC Orenburg|2|1|Zenit St Petersburg|Round 20|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2026-03-08|Russian Premier League|domestic-league|Rubin Kazan|2|1|FC Krasnodar|Round 20|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2026-03-09|Russian Premier League|domestic-league|Lokomotiv Moscow|2|2|Akhmat Grozny|Round 20|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-03-09|Russian Premier League|domestic-league|Spartak Moscow|4|3|Akron Tolyatti|Round 20|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-03-13|Russian Premier League|domestic-league|Dynamo Makhachkala|1|0|FC Orenburg|Round 21|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2026-03-14|Russian Premier League|domestic-league|Baltika Kaliningrad|1|0|CSKA Moscow|Round 21|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2026-03-14|Russian Premier League|domestic-league|FC Rostov|0|1|Dynamo Moscow|Round 21|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2026-03-14|Russian Premier League|domestic-league|PFC Sochi|1|2|FC Krasnodar|Round 21|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2026-03-14|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Spartak Moscow|Round 21|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2026-03-15|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Akhmat Grozny|Round 21|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-03-15|Russian Premier League|domestic-league|Pari Nizhny Novgorod|3|0|Krylia Sovetov Samara|Round 21|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2026-03-15|Russian Premier League|domestic-league|Rubin Kazan|3|0|Lokomotiv Moscow|Round 21|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2026-03-21|Russian Premier League|domestic-league|Akhmat Grozny|1|0|FC Rostov|Round 22|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2026-03-21|Russian Premier League|domestic-league|Baltika Kaliningrad|4|0|PFC Sochi|Round 22|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2026-03-21|Russian Premier League|domestic-league|CSKA Moscow|3|1|Dynamo Makhachkala|Round 22|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-03-21|Russian Premier League|domestic-league|FC Krasnodar|5|0|Pari Nizhny Novgorod|Round 22|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2026-03-22|Russian Premier League|domestic-league|Dynamo Moscow|1|3|Zenit St Petersburg|Round 22|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-03-22|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|0|Rubin Kazan|Round 22|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-03-22|Russian Premier League|domestic-league|Lokomotiv Moscow|5|1|Akron Tolyatti|Round 22|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-03-22|Russian Premier League|domestic-league|FC Orenburg|0|2|Spartak Moscow|Round 22|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2026-04-04|Russian Premier League|domestic-league|Akhmat Grozny|0|1|FC Krasnodar|Round 23|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2026-04-04|Russian Premier League|domestic-league|Akron Tolyatti|1|2|CSKA Moscow|Round 23|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-04-04|Russian Premier League|domestic-league|Dynamo Moscow|3|3|FC Orenburg|Round 23|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-04|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|Krylia Sovetov Samara|Round 23|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2026-04-05|Russian Premier League|domestic-league|Dynamo Makhachkala|2|2|Baltika Kaliningrad|Round 23|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2026-04-05|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|1|FC Rostov|Round 23|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2026-04-05|Russian Premier League|domestic-league|Spartak Moscow|2|1|Lokomotiv Moscow|Round 23|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-06|Russian Premier League|domestic-league|PFC Sochi|0|1|Rubin Kazan|Round 23|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2026-04-11|Russian Premier League|domestic-league|Baltika Kaliningrad|2|2|Pari Nizhny Novgorod|Round 24|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2026-04-11|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|2|Akhmat Grozny|Round 24|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-04-11|Russian Premier League|domestic-league|Rubin Kazan|0|0|FC Orenburg|Round 24|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2026-04-12|Russian Premier League|domestic-league|CSKA Moscow|0|1|PFC Sochi|Round 24|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-12|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Dynamo Makhachkala|Round 24|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-12|Russian Premier League|domestic-league|FC Rostov|1|1|Spartak Moscow|Round 24|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2026-04-12|Russian Premier League|domestic-league|Zenit St Petersburg|1|1|FC Krasnodar|Round 24|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2026-04-13|Russian Premier League|domestic-league|Akron Tolyatti|2|3|Dynamo Moscow|Round 24|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-04-17|Russian Premier League|domestic-league|FC Rostov|0|1|PFC Sochi|Round 25|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2026-04-18|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|CSKA Moscow|Round 25|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-04-18|Russian Premier League|domestic-league|FC Orenburg|0|1|Lokomotiv Moscow|Round 25|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2026-04-18|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|1|Dynamo Moscow|Round 25|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2026-04-18|Russian Premier League|domestic-league|Rubin Kazan|1|1|Akron Tolyatti|Round 25|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2026-04-19|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Zenit St Petersburg|Round 25|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2026-04-19|Russian Premier League|domestic-league|FC Krasnodar|2|2|Baltika Kaliningrad|Round 25|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2026-04-19|Russian Premier League|domestic-league|Spartak Moscow|3|1|Akhmat Grozny|Round 25|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-21|Russian Premier League|domestic-league|CSKA Moscow|1|1|FC Rostov|Round 26|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-21|Russian Premier League|domestic-league|PFC Sochi|2|1|Krylia Sovetov Samara|Round 26|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2026-04-22|Russian Premier League|domestic-league|Dynamo Moscow|0|1|Rubin Kazan|Round 26|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-22|Russian Premier League|domestic-league|Lokomotiv Moscow|0|0|Zenit St Petersburg|Round 26|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-22|Russian Premier League|domestic-league|FC Orenburg|2|1|Pari Nizhny Novgorod|Round 26|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2026-04-23|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Baltika Kaliningrad|Round 26|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2026-04-23|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Dynamo Makhachkala|Round 26|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-04-23|Russian Premier League|domestic-league|Spartak Moscow|1|2|FC Krasnodar|Round 26|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-25|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|Lokomotiv Moscow|Round 27|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-04-25|Russian Premier League|domestic-league|FC Rostov|0|1|FC Orenburg|Round 27|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2026-04-25|Russian Premier League|domestic-league|Rubin Kazan|0|0|CSKA Moscow|Round 27|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2026-04-26|Russian Premier League|domestic-league|Dynamo Moscow|2|0|PFC Sochi|Round 27|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-04-26|Russian Premier League|domestic-league|FC Krasnodar|2|1|Dynamo Makhachkala|Round 27|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2026-04-26|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|2|Spartak Moscow|Round 27|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2026-04-26|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Akhmat Grozny|Round 27|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2026-04-27|Russian Premier League|domestic-league|Baltika Kaliningrad|0|1|Akron Tolyatti|Round 27|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2026-05-01|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|1|Spartak Moscow|Round 28|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-05-01|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Dynamo Moscow|Round 28|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-05-02|Russian Premier League|domestic-league|Baltika Kaliningrad|0|1|Rubin Kazan|Round 28|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2026-05-02|Russian Premier League|domestic-league|CSKA Moscow|1|3|Zenit St Petersburg|Round 28|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-05-02|Russian Premier League|domestic-league|Dynamo Makhachkala|1|2|FC Rostov|Round 28|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2026-05-03|Russian Premier League|domestic-league|Akhmat Grozny|2|0|Pari Nizhny Novgorod|Round 28|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2026-05-03|Russian Premier League|domestic-league|Akron Tolyatti|0|1|FC Krasnodar|Round 28|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-05-03|Russian Premier League|domestic-league|PFC Sochi|3|1|FC Orenburg|Round 28|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2026-05-10|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Dynamo Makhachkala|Round 29|Akhmat Arena|Grozny|Russia||rsssf-rus2026-1l
+MATCH|2026-05-10|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|Baltika Kaliningrad|Round 29|RZD Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-05-10|Russian Premier League|domestic-league|FC Orenburg|1|0|Krylia Sovetov Samara|Round 29|Gazovik Stadium|Orenburg|Russia||rsssf-rus2026-1l
+MATCH|2026-05-10|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|PFC Sochi|Round 29|Gazprom Arena|St Petersburg|Russia||rsssf-rus2026-1l
+MATCH|2026-05-11|Russian Premier League|domestic-league|Akron Tolyatti|1|3|FC Rostov|Round 29|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-05-11|Russian Premier League|domestic-league|Dynamo Moscow|2|1|FC Krasnodar|Round 29|VTB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-05-11|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|2|CSKA Moscow|Round 29|SovComBank Arena|Nizhny Novgorod|Russia||rsssf-rus2026-1l
+MATCH|2026-05-11|Russian Premier League|domestic-league|Spartak Moscow|2|1|Rubin Kazan|Round 29|Lukoil Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-05-17|Russian Premier League|domestic-league|Baltika Kaliningrad|1|2|Dynamo Moscow|Round 30|Rostech Arena|Kaliningrad|Russia||rsssf-rus2026-1l
+MATCH|2026-05-17|Russian Premier League|domestic-league|CSKA Moscow|3|1|Lokomotiv Moscow|Round 30|VEB Arena|Moscow|Russia||rsssf-rus2026-1l
+MATCH|2026-05-17|Russian Premier League|domestic-league|Dynamo Makhachkala|0|0|Spartak Moscow|Round 30|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
+MATCH|2026-05-17|Russian Premier League|domestic-league|FC Krasnodar|3|0|FC Orenburg|Round 30|Ozon Arena|Krasnodar|Russia||rsssf-rus2026-1l
+MATCH|2026-05-17|Russian Premier League|domestic-league|Krylia Sovetov Samara|4|1|Akron Tolyatti|Round 30|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-05-17|Russian Premier League|domestic-league|FC Rostov|0|1|Zenit St Petersburg|Round 30|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2026-1l
+MATCH|2026-05-17|Russian Premier League|domestic-league|Rubin Kazan|2|2|Pari Nizhny Novgorod|Round 30|Ak Bars Arena|Kazan|Russia||rsssf-rus2026-1l
+MATCH|2026-05-17|Russian Premier League|domestic-league|PFC Sochi|1|1|Akhmat Grozny|Round 30|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2026-1l
+MATCH|2026-05-20|Russian Relegation Playoffs|other|Rotor Volgograd|0|2|Akron Tolyatti|Playoff leg1|Volgograd Arena|Volgograd|Russia||rsssf-rus2026-1l
+MATCH|2026-05-20|Russian Relegation Playoffs|other|Ural Yekaterinburg|0|1|Dynamo Makhachkala|Playoff leg1|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2026-1l
+MATCH|2026-05-23|Russian Relegation Playoffs|other|Akron Tolyatti|0|1|Rotor Volgograd|Playoff leg2|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2026-1l
+MATCH|2026-05-23|Russian Relegation Playoffs|other|Dynamo Makhachkala|2|0|Ural Yekaterinburg|Playoff leg2|Anzhi Arena|Kaspiysk|Russia||rsssf-rus2026-1l
 END

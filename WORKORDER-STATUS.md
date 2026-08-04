@@ -21,20 +21,21 @@ Owner's one-at-a-time queue, with the live-session override applied:
 | ⑥→ | FRA, GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`); cups run `domestic-cup`, GER = 18 clubs/34 rounds per its card |
 | **OVERRIDE** | **DECREE-2026-08-04 full-span override** (owner verbatim in `supervisor/DECREE-2026-08-04-full-span-override.md`) | — | **GOVERNING: full seasons 2021 → today, workorder cutoffs rescinded, packs = single source of truth vs error-containing old data. Russia first.** |
 
-### OVERRIDE — Russia full-span extension (IN PROGRESS, started 2026-08-04)
+### OVERRIDE — Russia full-span extension (**DELIVERED 2026-08-04**)
 
-Ledger state (all committed, all recomputed at transcription):
+Full-span rebuilds shipped under DECREE-2026-08-04 (workorder 2024-06-30 cutoffs rescinded; packs = single source of truth the legacy CSVs are audited against):
 
-| Ledger | Rows | Verification state |
-|---|---|---|
-| `audit/ledger/rpl-2024-25.txt` | 240 league + 4 prorel | **EXACT**: 648/648 goals, 16/16 W-D-L-GF-GA; playoffs Ural-Akhmat 2-3, Sochi-PariNN 4-3 agg (Khimki license-denial reprieve NB) |
-| `audit/ledger/rpl-2025-26.txt` | 240 league + 4 prorel | **EXACT**: 609/609 goals, 16/16; playoffs Ural-DMh 0-3, Rotor-Akron 1-2 agg (all stay) |
-| `audit/ledger/cup-2024-25.txt` | 76 (48 grp + 28 brk) | 76/76, stage histogram exact; 3 RSSSF print errors proven by group balance + groupmate lines (DM pts cell→11); champion CSKA (Superfinal pens vs Rostov, Luzhniki 57,176) |
-| `audit/ledger/cup-2025-26.txt` | 76 (48 grp + 28 brk) | 76/76; same two-cell print-error pattern (Akhmat GF-GA→8-10, Loko GA→4) proven by balance; new format (RPL-path QF + Regions crossings + Superfinal); champion Spartak (pens vs Krasnodar, Luzhniki 72,978) |
+| Pack | Rows | Gates | sha256 | Contents |
+|---|---|---|---|---|
+| **RPL** (supersedes `6e458e19…`) | **1,220** ((240 league + 4 playoff legs) ×5; compType `domestic-league` / playoffs `other` per errata) | **95/95** | `d71ed24f3a321d6c2975bbff46a6ee405066a79870b4d158b6f5781c6ec9db79` | all five seasons 2021-22 → 2025-26 end-to-end; 2026-27 = boundary NOTE, zero rows (R1 played 2026-07-24..26, R2 fixtures-printed only at return date) |
+| **RUSCUP** (supersedes `c2658b49…`) | **341** (36+77+76+76+76, auditor-proven RPL-slice) | **258/258** | `f89501cf25e10389e175579ef1a38105b5b02bde78a83362a65c1bb4a173db91` | all five seasons 2021-22 → 2025-26; 2026-27 Regions-path R1 (11 ties, zero RPL by design) documented, zero rows |
 
-Second-index state 2024-25/2025-26: football-data Russia feed **discontinued (404 verified both seasons)**; openfootball/russia absent (404). Replacement lattice: Wikipedia season/cup articles (results grids + match boxes) + worldfootball round pages (MD30-2425 probe = 8/8 exact). 2026-27 boundary (rus2027.html): RPL started 2026-07-24, R1 complete, R2 played 2026-07-31..08-03 (not yet on primary listing as of return date); roster incl. Fakel+Rodina; full fixture grid filed; zero pack rows (not a full season), FNL NB: Pari NN reverted to "FC Nizhny Novgorod" name at FNL level (context only — roster string unchanged).
-
-Outstanding for the two packs' rebuilds: (1) wiki season venue tables + FBR/round grids (2024-25 chunk 1-2 gallery done: Anzhi Arena 24,859, Solidarnost Arena 42,347, Krasnodar Stadium 35,179, VEB 30,114, RZD 27,032, **Fakel Stadium 10,052 = new 2024-25 home, replaced Tsentralnyi Profsoyuz Stadion**, Arena Khimki, Nizhny Novgorod Stadium, Rostov Arena) incl. Spartak-era string 2024-25 (Lukoil-era evidence in 2025-26 prints) and Krasnodar "Ozon Arena" era prints (R30-2425 1ldet + QF-2526 cupdet); (2) wiki Russian Cup 2024-25/2025-26 articles for 3 blank D2 host venues (Torpedo, Neftekhimik, KAMAZ) + 2024-25 Minor Final venue + matchbox corroboration of the 3 proven print errors; (3) worldfootball round lattice for dates (segue URL form /schedule/rus-premier-liga-<SEASON>-spieltag/<N>/ redirects fine); (4) builder extension + pivots + gates + validation + docs + regression sweep.
+- **Ledgers** (all committed, recomputed at transcription): `rpl-2024-25.txt` EXACT 648/648, 16/16; `rpl-2025-26.txt` EXACT 609/609, 16/16; `cup-2024-25.txt` + `cup-2025-26.txt` 76/76 each with stage-histogram exact; champions Krasnodar/Zenit (league) and CSKA/Spartak (cup Superfinals, both on pens at Luzhniki).
+- **Second index** (feed discontinuation handled): fdata Russia 404 both new seasons + openfootball/russia 404 → replacement lattice = Wikipedia FBR matrices **240/240 score-identical both league seasons** (`tools/diff_rpl_matrix.py`, matrix-recomputed tables 16/16 vs official, goals 648/609 anchors); wiki cup articles + RFS official match pages **152/152 identical** on the new cup rows (341/341 span-wide); worldfootball MD30-2425 third anchor 8/8 exact.
+- **Adjudicated findings shipped in pack NOTEs**: 3 RSSSF group-table print errors (corroborated by RFU-sourced wiki tables; rows unaffected): 2024-25 Dynamo Moscow pts 8→**11**; 2025-26 Akhmat GF-GA 7-8→**8-10**; 2025-26 Lokomotiv GA 2→**4**. 2025-26 Arsenal Tula-Rubin venue/date conflict resolved to 2025-11-25 Arsenal Stadium per RFS 56055 + wiki box (two independent indexes vs RSSSF cupdet Khimki-tag); Arsenal's later Loko tie genuinely at Arena Khimki (RFS 56059).
+- **Venue lattice** (clipboarded in `audit/ledger/rpl-venues.txt` VENUE/POV/EXCEPTION lines): Krasnodar Stadium→Ozon Arena mid-season R27 boundary; Fakel Stadium new ground (R27 one-off back at CTU Stadium; R23 behind closed doors att 0); Rubin R12 staged Nizhny Novgorod; Pari NN 2025-26 renovation groundshares (Kazan/Grozny/Saransk map R1-R9) + SovComBank Arena era R12+; Akron R13 staged Saransk; Anzhi Arena Kaspiysk; Solidarnost share; Rostech Arena era; playoff boxes incl. Rotor Volgograd Arena.
+- **Membership governance** (RFU refs in pack NOTE): Khimki license denial 2025-05-24 (rfs.ru 222413) → Pari NN reinstated 2025-06-16 (222586; NOT relegated despite playoff loss); Torpedo excluded 2025-07-10 match-fixing (premierliga.ru 32356) → Orenburg reinstated 2025-07-11 (222692).
+- Builders extended and byte-deterministic (double rebuild identical): `tools/build_rpl_pack.py` (5 seasons), `tools/build_pack.py` (5 seasons). Validation/pivots: `audit/pack-validation-rpl.txt` (80 club-season pivots), `audit/pack-validation.txt` (80 cup pivots). Legacy `data/rpl/*.csv` untouched (old data under audit).
 
 ### Closure confirmation (2026-08-04, owner request: "mark Russia + completed as closed")
 
@@ -53,6 +54,10 @@ Nothing is outstanding on the researcher side for Russia or any delivered federa
 gap-free whole-span certification (delivered segment + held seasons + central feed) and the
 §6 owner approval happen owner-side, exactly as the workorders prescribe. All work pushed
 to `origin/arena/019fc462-the-bettor-1` (tip `06a76f5` + the doc fixes of this entry).
+
+**Update later the same date:** the RPL and RUSCUP rows above were superseded by the
+DECREE-2026-08-04 full-span delivery (see the OVERRIDE block top of file): RPL → 1,220 rows
+sha `d71ed24f…`, RUSCUP → 341 rows sha `f89501cf…`, both green (95/95 and 258/258 gates).
 
 ### ⑤ EPL return — build notes for the auditor
 

@@ -1,18 +1,19 @@
-PACK VALIDATION - RUSCUP-2021-2026_BP-TEAM-PACK_v2.txt
-built 2026-08-03 by tools/build_pack.py from audit/ledger/cup-*.txt (RSSSF rus2022/2023/2024 cup chapters primary; Wikipedia/RFS second index x-checked 189/189 rows)
+PACK VALIDATION - RUSCUP-2021-2026_BP-TEAM-PACK_v2.txt (FULL-SPAN edition, DECREE-2026-08-04)
+built 2026-08-04 by tools/build_pack.py from audit/ledger/cup-*.txt (RSSSF rus2022..rus2026 cup chapters primary; Wikipedia/RFS second index x-checked 341/341 rows; 2024-06-30 workorder cutoff rescinded by owner override DECREE-2026-08-04)
 ====================================================================================================
-GATES: 162 PASS, 0 FAIL
+GATES: 258 PASS, 0 FAIL
 
 [PASS] season RPL sets carry exactly 16 clubs each
 [PASS] file ends with END
 [PASS] MATCH grammar: 14 fields, competition/compType (domestic-cup per errata 2026-08-03)/country verbatim
 [PASS] no dateless / non-ISO rows
-[PASS] boundary: no row >= 2024-06-30
+[PASS] boundary: no row >= 2026-07-01 (2026-27 excluded - not a full season)
+[PASS] boundary anchors: first row 2021-09-22, last row 2026-05-24
 [PASS] no duplicate rows (date/home/away)
 [PASS] venue-detail/stadium/city populated on every row
 [PASS] every MATCH sourceLabel resolves to a SOURCE row
 [PASS] TEAM grammar: 13 fields
-[PASS] declared TEAM set = 22 planned non-roster opponents (21 + FC Ufa per errata 2026-08-03)
+[PASS] declared TEAM set = 25 non-roster opponents (22 errata cycle + Tyumen, Shinnik Yaroslavl, Neftekhimik Nizhnekamsk)
 [PASS] TEAM rows disjoint from client roster
 [PASS] every home/away string resolves to roster identity or declared TEAM row
 [PASS] every declared TEAM appears in >=1 row
@@ -40,24 +41,55 @@ GATES: 162 PASS, 0 FAIL
 [PASS] 2023-24 Finals-Major rows = 2
 [PASS] 2023-24 Finals-Minor rows = 1
 [PASS] 2023-24 Final rows = 1
+[PASS] 2024-25 total rows = 76
+[PASS] 2024-25 Group rows = 48
+[PASS] 2024-25 QF-Major rows = 8
+[PASS] 2024-25 QF-Minor rows = 8
+[PASS] 2024-25 SF-Major rows = 4
+[PASS] 2024-25 SF-Minor rows = 4
+[PASS] 2024-25 Final-Major rows = 2
+[PASS] 2024-25 Final-Minor rows = 1
+[PASS] 2024-25 Superfinal rows = 1
+[PASS] 2025-26 total rows = 76
+[PASS] 2025-26 Group rows = 48
+[PASS] 2025-26 QF-RPL rows = 8
+[PASS] 2025-26 QF-Reg rows = 8
+[PASS] 2025-26 SF-Major rows = 4
+[PASS] 2025-26 SF-Reg rows = 4
+[PASS] 2025-26 Final-Major rows = 2
+[PASS] 2025-26 Final-Minor rows = 1
+[PASS] 2025-26 Superfinal rows = 1
 [PASS] slice rule: every row has >=1 of that season's 16 RPL clubs
 [PASS] stage labels within per-season whitelist
-[PASS] advancement NOTE matches a 90-min draw row (2022-04-19 Baltika Kaliningrad/Dynamo Moscow)
-[PASS] advancement NOTE matches a 90-min draw row (2022-04-20 Alania Vladikavkaz/Zenit St Petersburg)
-[PASS] advancement NOTE matches a 90-min draw row (2023-03-14 Akron Tolyatti/Lokomotiv Moscow)
-[PASS] advancement NOTE matches a 90-min draw row (2023-03-15 Dynamo Moscow/Zenit St Petersburg)
-[PASS] advancement NOTE matches a 90-min draw row (2023-04-04 Akron Tolyatti/Dynamo Moscow)
-[PASS] advancement NOTE matches a 90-min draw row (2023-04-06 FC Krasnodar/FC Rostov)
-[PASS] advancement NOTE matches a 90-min draw row (2023-04-19 FC Krasnodar/Krylia Sovetov Samara)
-[PASS] advancement NOTE matches a 90-min draw row (2023-05-03 Akron Tolyatti/FC Krasnodar)
-[PASS] advancement NOTE matches a 90-min draw row (2023-06-11 CSKA Moscow/FC Krasnodar)
-[PASS] advancement NOTE matches a 90-min draw row (2024-03-13 Rodina Moscow/Ural Yekaterinburg)
-[PASS] advancement NOTE matches a 90-min draw row (2024-03-14 Baltika Kaliningrad/Lokomotiv Moscow)
-[PASS] advancement NOTE matches a 90-min draw row (2024-03-14 PFC Sochi/SKA Khabarovsk)
-[PASS] advancement NOTE matches a 90-min draw row (2024-04-02 FC Khimki/FC Rostov)
-[PASS] advancement NOTE matches a 90-min draw row (2024-05-15 CSKA Moscow/Zenit St Petersburg)
-[PASS] advancement NOTEs present: 14
-[PASS] group_pens NOTEs present: 21 (5+7+9)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2022-04-19 Baltika Kaliningrad/Dynamo Moscow)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2022-04-20 Alania Vladikavkaz/Zenit St Petersburg)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2023-03-14 Akron Tolyatti/Lokomotiv Moscow)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2023-03-15 Dynamo Moscow/Zenit St Petersburg)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2023-04-04 Akron Tolyatti/Dynamo Moscow)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2023-04-06 FC Krasnodar/FC Rostov)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2023-04-19 FC Krasnodar/Krylia Sovetov Samara)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2023-05-03 Akron Tolyatti/FC Krasnodar)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2023-06-11 CSKA Moscow/FC Krasnodar)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-03-13 Rodina Moscow/Ural Yekaterinburg)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-03-14 Baltika Kaliningrad/Lokomotiv Moscow)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-03-14 PFC Sochi/SKA Khabarovsk)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-04-02 FC Khimki/FC Rostov)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-05-15 CSKA Moscow/Zenit St Petersburg)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-11-26 FC Krasnodar/Tyumen)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-11-27 Dynamo Makhachkala/PFC Sochi)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-11-27 FC Khimki/Ural Yekaterinburg)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2024-11-28 Dynamo Moscow/Lokomotiv Moscow)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2025-05-14 CSKA Moscow/Zenit St Petersburg)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2025-06-01 CSKA Moscow/FC Rostov)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2025-11-25 Arsenal Tula/Rubin Kazan)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2025-11-26 CSKA Moscow/Dynamo Makhachkala)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2025-11-27 KAMAZ/Krylia Sovetov Samara)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2026-03-19 Krylia Sovetov Samara/Lokomotiv Moscow)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2026-04-08 Spartak Moscow/Zenit St Petersburg)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2026-05-07 Dynamo Moscow/FC Krasnodar)
+[PASS] advancement NOTE matches a 90-min draw / aggregate-level leg2 row (2026-05-24 FC Krasnodar/Spartak Moscow)
+[PASS] advancement NOTEs present: 27
+[PASS] group_pens NOTEs present: 38 (5+7+9+6+11)
 [PASS] 2021-22 Group-1 in-scope group rows = 2
 [PASS] 2021-22 Group-1 memberships match official draw
 [PASS] 2021-22 Group-2 in-scope group rows = 2
@@ -128,6 +160,54 @@ GATES: 162 PASS, 0 FAIL
 [PASS] 2023-24 Group-D table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
 [PASS] 2023-24 Group-D official finish order consistent with recomputed points
 [PASS] 2023-24 Group-D group winner Spartak Moscow on top points
+[PASS] 2024-25 Group-A in-scope group rows = 12
+[PASS] 2024-25 Group-A memberships match official draw
+[PASS] 2024-25 Group-A every group draw carries a group_pens NOTE
+[PASS] 2024-25 Group-A table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2024-25 Group-A official finish order consistent with recomputed points
+[PASS] 2024-25 Group-A group winner Spartak Moscow on top points
+[PASS] 2024-25 Group-B in-scope group rows = 12
+[PASS] 2024-25 Group-B memberships match official draw
+[PASS] 2024-25 Group-B every group draw carries a group_pens NOTE
+[PASS] 2024-25 Group-B table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2024-25 Group-B official finish order consistent with recomputed points
+[PASS] 2024-25 Group-B group winner Lokomotiv Moscow on top points
+[PASS] 2024-25 Group-C in-scope group rows = 12
+[PASS] 2024-25 Group-C memberships match official draw
+[PASS] 2024-25 Group-C every group draw carries a group_pens NOTE
+[PASS] 2024-25 Group-C table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2024-25 Group-C official finish order consistent with recomputed points
+[PASS] 2024-25 Group-C group winner CSKA Moscow on top points
+[PASS] 2024-25 Group-D in-scope group rows = 12
+[PASS] 2024-25 Group-D memberships match official draw
+[PASS] 2024-25 Group-D every group draw carries a group_pens NOTE
+[PASS] 2024-25 Group-D table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2024-25 Group-D official finish order consistent with recomputed points
+[PASS] 2024-25 Group-D group winner Zenit St Petersburg on top points
+[PASS] 2025-26 Group-A in-scope group rows = 12
+[PASS] 2025-26 Group-A memberships match official draw
+[PASS] 2025-26 Group-A every group draw carries a group_pens NOTE
+[PASS] 2025-26 Group-A table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2025-26 Group-A official finish order consistent with recomputed points
+[PASS] 2025-26 Group-A group winner Zenit St Petersburg on top points
+[PASS] 2025-26 Group-B in-scope group rows = 12
+[PASS] 2025-26 Group-B memberships match official draw
+[PASS] 2025-26 Group-B every group draw carries a group_pens NOTE
+[PASS] 2025-26 Group-B table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2025-26 Group-B official finish order consistent with recomputed points
+[PASS] 2025-26 Group-B group winner FC Krasnodar on top points
+[PASS] 2025-26 Group-C in-scope group rows = 12
+[PASS] 2025-26 Group-C memberships match official draw
+[PASS] 2025-26 Group-C every group draw carries a group_pens NOTE
+[PASS] 2025-26 Group-C table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2025-26 Group-C official finish order consistent with recomputed points
+[PASS] 2025-26 Group-C group winner Spartak Moscow on top points
+[PASS] 2025-26 Group-D in-scope group rows = 12
+[PASS] 2025-26 Group-D memberships match official draw
+[PASS] 2025-26 Group-D every group draw carries a group_pens NOTE
+[PASS] 2025-26 Group-D table reproduces official club-for-club (W/WP/LP/L/GF/GA/pts)
+[PASS] 2025-26 Group-D official finish order consistent with recomputed points
+[PASS] 2025-26 Group-D group winner CSKA Moscow on top points
 [PASS] 2021-22 Group-1 full 3-team table recomputes from full ledger (incl round 1)
 [PASS] 2021-22 Group-2 full 3-team table recomputes from full ledger (incl round 1)
 [PASS] 2021-22 Group-3 full 3-team table recomputes from full ledger (incl round 1)
@@ -154,7 +234,17 @@ GATES: 162 PASS, 0 FAIL
 [PASS] 2023-24 SF-Minor P2 tie-pairs reproduce official record
 [PASS] 2023-24 Final tie-pairs reproduce official record
 [PASS] 2023-24 champion = Zenit St Petersburg
-[PASS] two-legged aggregates reproduce official record (14 ties)
+[PASS] 2024-25 SF-Major tie-pairs reproduce official record
+[PASS] 2024-25 SF-Minor p1 tie-pairs reproduce official record
+[PASS] 2024-25 SF-Minor p2 tie-pairs reproduce official record
+[PASS] 2024-25 Superfinal tie-pairs reproduce official record
+[PASS] 2024-25 champion = CSKA Moscow
+[PASS] 2025-26 SF-Major tie-pairs reproduce official record
+[PASS] 2025-26 SF-Reg p1 tie-pairs reproduce official record
+[PASS] 2025-26 SF-Reg p2 tie-pairs reproduce official record
+[PASS] 2025-26 Superfinal tie-pairs reproduce official record
+[PASS] 2025-26 champion = Spartak Moscow
+[PASS] two-legged aggregates reproduce official record (28 ties)
 [PASS] 2021-22 pivot: 11 group entrants x 2 group dates
 [PASS] 2021-22 pivot: 5 exempt clubs enter at R16
 [PASS] 2021-22 pivot: every RPL club appears
@@ -165,6 +255,12 @@ GATES: 162 PASS, 0 FAIL
 [PASS] 2023-24 pivot: all 16 RPL clubs x 6 group dates
 [PASS] 2023-24 pivot: every RPL club appears
 [PASS] 2023-24 RPL-club appearances = 146 (of 2x76; 6 non-RPL opponent slots)
+[PASS] 2024-25 pivot: all 16 RPL clubs x 6 group dates
+[PASS] 2024-25 pivot: every RPL club appears
+[PASS] 2024-25 RPL-club appearances = 146 (of 2x76; 6 non-RPL opponent slots)
+[PASS] 2025-26 pivot: all 16 RPL clubs x 6 group dates
+[PASS] 2025-26 pivot: every RPL club appears
+[PASS] 2025-26 RPL-club appearances = 147 (of 2x76; 5 non-RPL opponent slots)
 
 ====================================================================================================
 PER-CLUB PIVOT LEDGERS (owner's per-team completeness technique)
@@ -220,6 +316,40 @@ per-club pivot 2023-24 (group apps / bracket apps):
   Spartak Moscow               6 / 6
   Ural Yekaterinburg           6 / 3
   Zenit St Petersburg          6 / 7
+per-club pivot 2024-25 (group apps / bracket apps):
+  Akhmat Grozny                6 / 4
+  Akron Tolyatti               6 / 2
+  CSKA Moscow                  6 / 7
+  Dynamo Makhachkala           6 / 2
+  Dynamo Moscow                6 / 5
+  FC Khimki                    6 / 1
+  FC Krasnodar                 6 / 2
+  FC Orenburg                  6 / 0
+  FC Rostov                    6 / 7
+  Fakel Voronezh               6 / 0
+  Krylia Sovetov Samara        6 / 0
+  Lokomotiv Moscow             6 / 5
+  Pari Nizhny Novgorod         6 / 0
+  Rubin Kazan                  6 / 3
+  Spartak Moscow               6 / 6
+  Zenit St Petersburg          6 / 6
+per-club pivot 2025-26 (group apps / bracket apps):
+  Akhmat Grozny                6 / 0
+  Akron Tolyatti               6 / 0
+  Baltika Kaliningrad          6 / 2
+  CSKA Moscow                  6 / 6
+  Dynamo Makhachkala           6 / 4
+  Dynamo Moscow                6 / 6
+  FC Krasnodar                 6 / 7
+  FC Orenburg                  6 / 3
+  FC Rostov                    6 / 2
+  Krylia Sovetov Samara        6 / 4
+  Lokomotiv Moscow             6 / 4
+  PFC Sochi                    6 / 0
+  Pari Nizhny Novgorod         6 / 0
+  Rubin Kazan                  6 / 1
+  Spartak Moscow               6 / 7
+  Zenit St Petersburg          6 / 5
 
 ====================================================================================================
 BRACKET REPRODUCTION SUMMARY
@@ -227,5 +357,7 @@ BRACKET REPRODUCTION SUMMARY
 2021-22: SF Dynamo Moscow-Alania Vladikavkaz, Spartak Moscow-Yenisey Krasnoyarsk - final Spartak Moscow 2-1 Dynamo Moscow (Luzhniki, 2022-05-29) - champion SPARTAK MOSCOW
 2022-23: up-final CSKA Moscow 3-2 agg Ural Yekaterinburg; low-final FC Krasnodar past Akron Tolyatti (pens 4-2) and Ural (2-1) - Super Final CSKA Moscow 1-1 FC Krasnodar, pens 6-5 (Luzhniki, 2023-06-11) - champion CSKA MOSCOW
 2023-24: Major-final Zenit St Petersburg past CSKA Moscow (agg 1-1, pens 5-4); Minor-final Baltika Kaliningrad 1-0 Spartak Moscow - Super Final Zenit St Petersburg 2-1 Baltika Kaliningrad (Luzhniki, 2024-06-02) - champion ZENIT ST PETERSBURG
+2024-25: Major-final CSKA Moscow past Zenit St Petersburg (agg 2-2, pens 4-3); Minor-final FC Rostov 2-1 Spartak Moscow (Lukoil Arena, att 36,085) - SUPERFINAL CSKA Moscow 0-0 FC Rostov, pens 4-3 (Luzhniki, 2025-06-01, att 57,176) - champion CSKA MOSCOW
+2025-26: Major-final FC Krasnodar past Dynamo Moscow (agg 0-0, pens 6-5); Minor-final Spartak Moscow 1-0 CSKA Moscow (Lukoil Arena, att 38,911) - SUPERFINAL Spartak Moscow 1-1 FC Krasnodar, pens 4-3 (Luzhniki, 2026-05-24, att 72,978) - champion SPARTAK MOSCOW
 
-SOURCE CONFLICTS (resolved, 3): SF-up leg2 Ural-Spartak = 2023-04-04; SF-up leg2 CSKA-Krylia Sovetov = 2023-04-05; Finals-low P1 Krasnodar-Akron = 2023-05-03 - RSSSF compact headers ran +1 day; detailed cupdet dates corroborated by wiki/RFS index.
+SOURCE CONFLICTS (resolved, 4): SF-up leg2 Ural-Spartak = 2023-04-04; SF-up leg2 CSKA-Krylia Sovetov = 2023-04-05; Finals-low P1 Krasnodar-Akron = 2023-05-03 - RSSSF compact headers ran +1 day; detailed cupdet dates corroborated by wiki/RFS index. 2025-26 QF-Reg p1 Arsenal Tula-Rubin Kazan = 2025-11-25 at Arsenal Stadium, Tula (RFS 56055 + wiki box defeat RSSSF cupdet's Khimki/Nov-26 tag). PRINT ERRORS (3, corroborated by second index): 2024-25 Grp-A Dynamo Moscow pts 8->11; 2025-26 Grp-A Akhmat GF-GA 7-8->8-10; 2025-26 Grp-D Lokomotiv GA 2->4.

@@ -17,6 +17,9 @@
 #   B (Loko 17 / Rostov 11 / Khimki 5 / Orenburg 3) + D (Zenit 16 / Rubin 9 / Akron 8 / Fakel 3) reproduce EXACTLY. Group
 #   C not re-tabulated here but every C-cell score in the wiki mini-matrix matches the ledger rows (CSKA 14 / Akhmat 9 /
 #   Krasnodar 9 / PariNN 4 per RSSSF, H2H Akhmat over Krasnodar documented by 1-0 H + 0-4 A... see pack NOTE).
+# Post-sweep fix 2026-08-04: Group-A R4 Dynamo Makhachkala home cell filled Anzhi Arena|Kaspiysk from the same fetched
+#   evidence as the club's other group homes (wiki-2024-25-rpl s2 venue table: Dynamo Makhachkala = Anzhi Arena, ground
+#   in Kaspiysk; league-row prints rsssf-rus2025-1ldet identical) - the single residual blank of the sweep, no guessing.
 2024-07-30|Group-B R1|Lokomotiv Moscow|1|0|FC Rostov|||Russian Railways Arena|Moscow
 2024-07-30|Group-D R1|Rubin Kazan|4|0|Akron Tolyatti|||Ak Bars Arena|Kazan
 2024-07-30|Group-D R1|Zenit St Petersburg|3|0|Fakel Voronezh|||Gazprom Arena|St Petersburg
@@ -42,7 +45,7 @@
 2024-08-28|Group-B R3|FC Orenburg|0|1|FC Rostov|||Gazovik Stadium|Orenburg
 2024-08-28|Group-C R3|Pari Nizhny Novgorod|0|1|FC Krasnodar|||Nizhny Novgorod Stadium|Nizhny Novgorod
 2024-09-17|Group-D R4|Zenit St Petersburg|2|0|Rubin Kazan|||Gazprom Arena|St Petersburg
-2024-09-18|Group-A R4|Dynamo Makhachkala|2|2|Dynamo Moscow|3|5||
+2024-09-18|Group-A R4|Dynamo Makhachkala|2|2|Dynamo Moscow|3|5|Anzhi Arena|Kaspiysk
 2024-09-18|Group-B R4|FC Rostov|3|1|FC Orenburg|||Rostov Arena|Rostov-on-Don
 2024-09-18|Group-C R4|CSKA Moscow|2|0|FC Krasnodar|||VEB Arena|Moscow
 2024-09-18|Group-D R4|Akron Tolyatti|2|0|Fakel Voronezh|||Solidarnost Samara Arena|Samara
