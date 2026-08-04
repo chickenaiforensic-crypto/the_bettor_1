@@ -661,3 +661,75 @@ proofs), `audit/pack-validation-molcup.txt` (32/32).
 full span, ④ MOLCUP ✅ **full span** (override extra years shipped 2026-08-04), ⑤ EPL ✅ full
 span, then ⑥ FRA (2021-22 ledger already transcribed + verified EXACT), GER, ITA, KOS, KOSCUP,
 MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
+
+---
+
+## Addendum 2026-08-04 (#11) — RUS-ADDENDUM pack: REQ-1/2/3 of ADDENDUM-2026-08-04-RUSSIA-GAPS closed
+
+**Incoming owner/auditor documents** (uploaded to `main` `Supervior/` 2026-08-04; archived
+verbatim researcher-side as `supervisor/SPEC-2026-08-04-RUSSIA-COMPLETE.as-relayed.md` and
+`supervisor/ADDENDUM-2026-08-04-RUSSIA-GAPS.as-relayed.md`):
+- **02-SPEC** restates the Russia-complete scope (RPL 5 seasons + 2026-27-to-date, expected
+  1,209 rows "today"; playoffs 16; Super Cups 2025+2026; RUSCUP full span).
+- **03-ADDENDUM** registers three requests: REQ-1 push MOLCUP full-span (transport);
+  REQ-2 RPL 2026-27 played rows (D14-blocking); REQ-3 Super Cup 2025+2026 (D14-blocking);
+  REQ-2+3 to ship as one small addendum pack with own sha, announced in WORKORDER-STATUS.
+
+**REQ-1 — already satisfied before the document arrived.** The MOLCUP full-span delivery
+(commit `84d9471`, sha `50ead762…`, 32/32 gates) was pushed 2026-08-04 after the GitHub
+token refresh and verified as the remote tip; the auditor's "local only at 5722cb61" note was
+stale by the time it was written. A sandbox re-clone incident orphaned the first local commit
+(`5d75e56`) — content recovered byte-exact from the working tree (899+/92- footprint
+identical, double-rebuild + gates re-run) and recommitted as `84d9471`. md5/sha-on-arrival
+policy unaffected: `50ead762…` unchanged.
+
+**REQ-2 — 16 league rows (RPL 2026-27 R1 ×8 + R2 ×8), rolling.**
+- Sources: RSSSF `rus2027.html#1l` primary (R1 complete with attendances, Total 102,232; R2
+  fixture-only at fetch) — adaptation: R2 dated/scored from the **RPL official heritage match
+  centre** (`match_16249..16256`, proves the window completed 2026-07-31..08-02) and reconciled
+  against wiki 2026-27 in all three of its structures (FBR 16/16, table-through-2026-08-02
+  recomputed from pack rows 16/16 club-for-club, infobox 16 matches/51 goals). worldfootball
+  has no 2026-27 season page (404 both slug shapes) — third index absent, documented.
+- Cumulative league rows to date: 1,200 (pinned pack) + 16 = **1,216**; the SPEC's 1,209
+  estimate and REQ-2's "8 + played R2" estimate were drafted against an earlier R2 snapshot
+  (variance NOTE in pack).
+
+**REQ-3 — Russian Super Cup 2025 + 2026, 90-minute doctrine.**
+- 2025: Krasnodar 0-1 CSKA (Diveyev 48), 2025-07-12, Ak Bars Arena (RSSSF prints era name
+  "Kazan Arena"), att 34,677 — verified RSSSF `rus2025.html#sup` + wiki box (rfs 55756).
+  **REQ-3's hedge ("2025 game = Zenit vs Krasnodar-class") is WRONG; the 02-SPEC print was
+  right. So reported.**
+- 2026: Zenit 1-1 Spartak, pens 4-2 Zenit, 2026-07-18, Nizhny Novgorod Stadium, att 42,139 —
+  verified RSSSF `rus2026.html#sup` (lineups + shoot-out lines) + wiki box (rfs 57020). Row
+  carries 1-1; advancement NOTE holds the shoot-out detail.
+- compType `domestic-cup` (ERRATA cup class), flagged per the 02-SPEC "pending builder
+  confirm" rule; competition string `Russian Super Cup`; 2021-2024 editions = outside
+  commissioned scope (NOTE).
+
+**Errors/anomalies caught and registered this round:**
+1. en.wiki 2026-27 hat-trick table: Glushenkov treble dated "2 August **2025**" — editorial
+   year typo; true date 2026-08-02 (official match_16251 + table stamps). Row carries truth.
+2. ru.wiki infobox goals 48 vs en.wiki 51 — mirror snapshot lag (mid-day Aug-2 state), no
+   score conflict; en index governs.
+3. Igor Diveyev appearing for **Zenit** in the 2026 Super Cup — verified a real summer-2026
+   signing from CSKA (RSSSF lineup); an earlier provisional session read had flagged it as a
+   possible wiki anomaly — withdrawn explicitly.
+4. 02-SPEC mismatches (registered, NOT patched): playoff enumeration "16 rows" skipping the
+   2025 ties and naming 2026 "Shinnik-Akron"; pack truth = 20 legs incl. 2025
+   (Sochi-PariNN, Ural-Akhmat) and 2026 Akron-Rotor / Ural-Dynamo Makhachkala (Shinnik not a
+   participant, FL 8th). Pinned pack untouched.
+
+**Delivery:** `handoffs/RUS-ADDENDUM-2026_BP-TEAM-PACK_v2.txt` — **18 rows, sha256
+`30576ac4894930b359db19193f08f05cd3f399ecd7d97f9975184ac02386dcea`** (double-rebuild
+identical), 1 TEAM (Rodina Moscow top-flight registration; all 16 club strings already pinned
+in the RPL pack), 7 SOURCE / 13 NOTE; `tools/build_rus_addendum_pack.py`,
+`tools/validate_rus_addendum_pack.py` → `audit/pack-validation-rus-addendum.txt` **16/16
+PASS** (deterministic report, per-club pivots); ledgers `audit/ledger/rpl-2026-27.txt`,
+`audit/ledger/rus-supercup-2025-2026.txt`, `audit/ledger/fra-2025-26.txt` (captured
+fetch-day for the FRA build). Register rows updated in WORKORDER-STATUS + README.
+Pins untouched: RPL `d71ed24f…`, RUSCUP `f89501cf…`, MOLCUP `50ead762…`, CZ1 `cbd5710b…`,
+EPL `707dd830…`.
+
+**Queue state:** Russia addendum closed (REQ-1..3). Next: FRA full span (fran2022 ledger
+EXACT-verified in a prior session; fran2026 tables/cup layer captured 2026-08-04), then
+GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
