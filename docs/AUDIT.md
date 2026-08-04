@@ -619,7 +619,45 @@ Validation: `audit/pack-validation-cz1.txt` regenerated — **80 club-season piv
 recomputed; second-index diff 1,378/1,381 league + 20/20 pro/rel legs (3 whitelisted wiki cell
 defects from the old window; nothing new).
 
+## Addendum 2026-08-04 (tenth entry) — DECREE-2026-08-04 full-span override: MOLCUP extra years shipped (2024-25 + 2025-26)
+
+**What/why:** the owner's override decree (pack-to-span) applied to queue item ④. The MOL Cup
+pack now covers **all five completed seasons 2021-22 → 2025-26**: 202 MATCH rows
+(41+41+38+41+41 by the WO-§1 slice rule), 43 TEAM rows (12 new lower-league identities + the
+Artis Brno rename row), 33 advancement NOTEs, sha256
+`50ead762d80070dce6cbf468dedd26eb4d4e3706dd264801194af49385791137` (double-rebuild sha-identical),
+**32/32 external gates PASS** (incl. Artis-rename-era and 2026-27 boundary gates).
+
+**Evidence chain (all three anchors per season):** RSSSF season cup chapters (primary; coverage
+paradox disclosed — 2021-24 pages carry R16 onward, the 2024-25/2025-26 pages carry **R3 onward
+with dates**), en.wiki raw bracket sections 4-9 per season (R2 of all five seasons, QF/SF/F
+boxes), worldfootball all_matches/stadiums indexes per season **plus 22 per-tie match reports**
+(goal timelines proving all 13 extension settled-tie 90-minute splits; stadium lines proving the
+Stechovice/Novy Bor/Lapac/Plynarne/ShipEx per-tie venues — every venue-by-inference candidate
+was killed in favour of report evidence, per decree).
+
+**Source incidents disclosed (pack NOTEs):** wiki 2025-26 R2 print `Rokycany 0-1 Mlada Boleslav`
+vs wf double-print **0:6** (six-goal timeline ma11538503) — row carries 0-6, typo documented.
+ wf keeps folding penalties into the scoreline (`4:5 pso`, `6:5 pso`) — quirk documented, rows
+carry 90-minute scores. Czech aet convention changed from 2024-25 (aet now occurs at R2/R3/R16),
+replacing the 2021-24 "R1-R4 straight to pens" rule — scope change disclosed.
+
+**Bracket truth for the auditor:** champions 2025 **Sigma Olomouc** (3-1 Sparta, Andruv stadion,
+att 12014) and 2026 **MFK Karvina** (3-1 Jablonec, Malsovicka Arena, att 7352). Karvina's cup
+double-season (cup win + league match-fixing demotion) is cross-referenced between this pack and
+the CZ1 pack (`integrity_flag` NOTE). 2025-26 sensation rows: Nove Sady (D4) 3-2 Sigma Olomouc
+R3; Artis Brno pens 6-5 v Liberec R3; Artis's homes staged at ShipEx Arena (= sponsored Srbska,
+per-tie reports) — Artis is also the club administratively promoted to the 2026-27 First League.
+
+**Boundaries:** 2026-27 cup = boundary NOTE only, zero rows (season incomplete inside span).
+
+**Files:** `handoffs/MOLCUP-2021-2026_BP-TEAM-PACK_v2.txt` (202 MATCH rows),
+`tools/build_molcup_pack.py`, `tools/validate_molcup_pack.py` (v5), ledgers
+`audit/ledger/molcup-2024-25.txt`, `molcup-2025-26.txt`, `molcup-venues-teams.txt` (sections
+A-I: WFSTA ×5 seasons, 33-row SPLIT register, TIER + TEAMREG extensions, identity/venue POV
+proofs), `audit/pack-validation-molcup.txt` (32/32).
+
 **Queue state after this delivery:** ① RPL ✅ full span, ② CZ1 ✅ **full span**, ③ RUSCUP ✅
-full span, ④ MOLCUP ✅ (extra years 2024-25+2025-26 next under the same decree), ⑤ EPL ✅ full
+full span, ④ MOLCUP ✅ **full span** (override extra years shipped 2026-08-04), ⑤ EPL ✅ full
 span, then ⑥ FRA (2021-22 ledger already transcribed + verified EXACT), GER, ITA, KOS, KOSCUP,
 MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.

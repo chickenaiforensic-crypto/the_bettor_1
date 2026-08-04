@@ -16,7 +16,7 @@ Owner's one-at-a-time queue, with the live-session override applied:
 | override | **WO-RUSCUP-BACKFILL-03** — Russian Cup 2021-22 → 2023-24 | `handoffs/RUSCUP-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03, amended same-day on the auditor's return — 189 rows (domestic-cup after errata), 22 TEAM incl. FC Ufa, KAMAZ written exactly `KAMAZ` (2 rows) per the auditor directive, all 162 self-gates PASS** (user commissioned the cup return live, ahead of the RPL league pack) |
 | ① | RPL league 2021-22 → 2023-24 | `handoffs/RPL-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 732 rows (240+4 per season ×3; 12 playoff rows compType `other` after errata), all 69 self-gates PASS** |
 | ② | **WO-CZ1-BACKFILL-02** — Czech First League 2021-22 → 2023-24 | `handoffs/CZ1-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03, amended same-day on the auditor's return (body approved: tables 3×16/16, brackets 18/18, CLP row) — 841 rows (276+276+277 league + 12 Czech Relegation Playoffs pro/rel legs, compType `other` per ERRATA), all 120 self-gates PASS** · **FULL SPAN per DECREE-2026-08-04 DELIVERED 2026-08-04 — 1,401 rows (five seasons + 20 pro/rel legs), all 175 self-gates PASS, sha `cbd5710b…`** |
-| ④ | **WO-MOLCUP-BACKFILL-04** — MOLCUP (Czech MOL Cup) 2021-22 → 2023-24 | `handoffs/MOLCUP-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 120 rows (41+41+38 per the WO-§1 slice; compType `domestic-cup` per errata), 31 TEAM, 20 advancement NOTEs, all 30 external gates PASS** |
+| ④ | **WO-MOLCUP-BACKFILL-04** — MOLCUP (Czech MOL Cup) 2021-22 → 2025-26 (full span per OVERRIDE decree) | `handoffs/MOLCUP-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 (3 seasons) + FULL-SPAN OVERRIDE 2026-08-04 — 202 rows (41+41+38+41+41 per the WO-§1 slice; compType `domestic-cup` per errata), 43 TEAM, 33 advancement NOTEs, all 32 external gates PASS, sha `50ead762…` double-rebuild identical. 2026-27 = boundary NOTE (zero rows, season incomplete)** |
 | ⑤ | **WO-EPL-SPAN-12** — England Premier League 2021-22 → 2025-26 (+ 2026-27 boundary) | `handoffs/EPL-2021-2026_BP-TEAM-PACK_v2.txt` | **DELIVERED 2026-08-03 — 1,900 rows (380 ×5, `domestic-league`, `MD<n>` venue-detail), 0 TEAM (27 roster strings verbatim), 17 SOURCE / 17 NOTE, all 83 self-gates PASS** (the register's earlier "WO-EPL-BACKFILL-05 (2021-22 → 2023-24)" id is stale — the governing card on `origin/main` is the 5-year-span order; scope covered through today per its §0 no-cutoff note) |
 | ⑥→ | FRA, GER, ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC | packs | QUEUED (workorder texts on `origin/main`); cups run `domestic-cup`, GER = 18 clubs/34 rounds per its card |
 | **OVERRIDE** | **DECREE-2026-08-04 full-span override** (owner verbatim in `supervisor/DECREE-2026-08-04-full-span-override.md`) | — | **GOVERNING: full seasons 2021 → today, workorder cutoffs rescinded, packs = single source of truth vs error-containing old data. Russia first.** |
@@ -62,7 +62,7 @@ all gates re-green:
 | RUSCUP | 189 | 162/162 | `c2658b49…` | 2021-22/22-23/23-24 delivered here (36+77+76 auditor-proven RPL-slice); 2024-25 + 2025-26 (76 rows each) held + auditor-verified client-side per WO §1; current season fills centrally |
 | RPL | 732 | 69/69 | `6e458e19…` | 2021-22/22-23/23-24 delivered here (240 league + 4 playoff legs each); 2024-25 + 2025-26 (240/240 each) held client-side per WO preamble; 2026-27 in progress via central requests |
 | CZ1 | 841 | 120/120 | `55d9bd80…` | same segment architecture (2021→2024 delivered; later seasons held client-side per the segment commission) — **superseded later this date by the DECREE-2026-08-04 full-span delivery: 1,401 rows, 175/175 gates, sha `cbd5710b…`** |
-| MOLCUP | 120 | 30/30 | `5023eb33…` | 2021-22/22-23/23-24 slice (41+41+38) delivered |
+| MOLCUP | 202 | 32/32 | `50ead762…` | 2021-22..2025-26 full-span override delivered (41+41+38+41+41); 2026-27 boundary NOTE |
 | EPL | 1,900 | 83/83 | `707dd830…` | **full span, no cutoff** — all five seasons 2021-22 → 2025-26 delivered here; 2026-27 boundary proven to start 2026-08-21 (after the return date) = zero rows by rule |
 
 Nothing is outstanding on the researcher side for Russia or any delivered federation; the
@@ -131,6 +131,43 @@ sha `d71ed24f…`, RUSCUP → 341 rows sha `f89501cf…`, both green (95/95 and 
   `5023eb33fd7a63f51fbb95d0535a811bc8f9ddc9b5d1ff20dc49ee8e893cec86`; external validator
   `tools/validate_molcup_pack.py` → `audit/pack-validation-molcup.txt` (30/30 PASS, incl. the
   per-team pivot ledgers per the owner decree).
+
+### ④ MOLCUP return — OVERRIDE-MOLCUP build notes (full-span decree 2026-08-04)
+
+- Extended to the complete 5-season span 2021-22 → 2025-26 (Decree; the workorder's 2024-06-30
+  cutoff and the '32+31 rows held client-side' note are rescinded; this pack is now the single
+  source of truth). 202 MATCH rows = 41+41+38+41+41; champions: Slovacko 2022, Slavia 2023,
+  Sparta 2024, **Sigma Olomouc 2025** (3-1 Sparta, Andruv stadion), **Karvina 2026** (3-1
+  Jablonec, Malsovicka Arena) — Karvina's cup win in its match-fixing-sanction season is
+  cross-referenced to the CZ1 pack `karvina_incident` NOTE (`integrity_flag`).
+- Source coverage parity changed across the span (raw-fact, disclosed): RSSSF carries the cup
+  from R16 on the 2021-24 pages but **from R3 (with dates) on the 2024-25/2025-26 pages**; R2 of
+  every season = en.wiki raw bracket sections (27/27/27/27/26 ties) verified tie-by-tie vs
+  worldfootball (diff 0 after one documented wiki typo: Rokycany 0-1 vs proven 0-6,
+  `source_conflict` NOTE; wf match report ma11538503 six-goal timeline).
+- Czech aet convention changed starting 2024-25: extra time now appears at R2/R3/R16 level
+  (Taborsko-CBU R3, Slavia-Taborsko R16, Plzen-Zlin R16, Frydek-Pardubice R3, Trinec-Hradec R3,
+  Artis-Liberec aet→pens R3, Pardubice-Ostrava R16) — all 13 extension settled ties carry
+  90-minute doctrine rows + advancement NOTEs (33 total), timelines per wf reports.
+- 12 new lower-league TEAM rows (tier + ground evidence ledgered): Usti nad Orlici, Milin,
+  Aritma, Povltavska, Kurim, Bzenec, Ceska Lipa, Hodonin, Bohumin, Brandys nad Labem, Hranice,
+  and the **Artis Brno** rename row (SK Lisen 2019 lineage; era-era rows: `Lisen` 2024-25 at
+  Stadion SK Lisen, `Artis Brno` 2025-26 homes staged at **ShipEx Arena** = the sponsored Srbska
+  ground, proven by per-tie reports ma11584736/ma11651261 — not by inference).
+- POV venue exceptions proven per-tie: Povltavska v Liberec played at **Stadion Stechovice**
+  (ma10704494); Ceska Lipa v Pardubice at **TJ Stadion Novy Bor** (ma11538494); Uhersky Brod v
+  Jablonec at **Stadion Lapac** (ma10744100), Loko Praha v Hradec at **Stadion na Plynarne**
+  (ma10744109); Pardubice R16 carried as CFIG Arena with the wf 'Stadion Arnosta Kostala'
+  sponsor-lapse alias documented.
+- FL memberships: 2024-25 = 2023-24 minus Zlin plus **Dukla Prague**; 2025-26 = minus
+  Ceske Budejovice plus **Zlin** (so Kladno 2-3 CBU has no FL club → out of slice; Opava 1-2
+  Zlin FNL-FNL out in 2024-25; Opava-Zlin's successor tie Plzen-Zlin stays in on Plzen's side).
+- New slice counts: 2024-25 = 41 (R2 11/27, R3 15/16, R16 8, QF 4, SF 2, F 1);
+  2025-26 = 41 (R2 10/26, R3 16/16, R16 8, QF 4, SF 2, F 1). 2026-27 = boundary NOTE, zero rows.
+- Builder extended to 5 seasons byte-deterministic; pack sha256
+  `50ead762d80070dce6cbf468dedd26eb4d4e3706dd264801194af49385791137` (double-rebuild identical);
+  external validator v5 → `audit/pack-validation-molcup.txt` (**32/32 PASS**, incl. pivot
+  ledgers over 18 pinned strings × 5 seasons).
 
 ## Auditor errata applied 2026-08-03 (ERRATA-2026-08-03)
 

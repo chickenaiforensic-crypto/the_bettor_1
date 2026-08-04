@@ -112,6 +112,74 @@ WFSTA|2023-24|v Jiraskove ulici|Jihlava|4200
 #   "FINEP Arena" (ma9970847, att 7608). NOTE: "FINEP Arena" (wf stadium ve16523, Hradec
 #   Kralove, capacity 9300) = the new Malsovicka Arena carried under the developer's working
 #   name on wf; the pack uses the pinned CZ1-pack string Malsovicka Arena (capacity match 9300).
+# 2024-25: https://www.worldfootball.net/competition/co88/se77093/stadiums/ (2 chunks)
+WFSTA|2024-25|Andruv stadion|Olomouc|12474
+WFSTA|2024-25|Areal SC Vista|Ostrava|1000
+WFSTA|2024-25|Areal SK Aritma|Prague|2000
+WFSTA|2024-25|Doosan Arena|Plzen|12500
+WFSTA|2024-25|epet ARENA|Prague|18887
+WFSTA|2024-25|FINEP Arena|Hradec Kralove|9300
+WFSTA|2024-25|Fortuna Arena|Prague|19370
+WFSTA|2024-25|Fotbalove hriste SK Petrin Plzen|Plzen|2000
+WFSTA|2024-25|Fotbalovy areal Na Litavce|Pribram|500
+WFSTA|2024-25|Lokotrans Arena|Mlada Boleslav|5500
+WFSTA|2024-25|Mestsky sportovni areal|Pisek|5000
+WFSTA|2024-25|Mestsky stadion|Horovice|2500
+WFSTA|2024-25|Mestsky stadion - Vitkovice Arena|Ostrava|15275
+WFSTA|2024-25|Mestsky stadion Benatky nad Jizerou|Benatky nad Jizerou|4000
+WFSTA|2024-25|Mestsky stadion Dolicek|Prague|6300
+WFSTA|2024-25|Mestsky stadion Masarykova|Usti nad Labem|4000
+WFSTA|2024-25|Mestsky stadion Strelnice Domazlice|Domazlice|5000
+WFSTA|2024-25|Mestsky stadion v Kotline|Varnsdorf|2000
+WFSTA|2024-25|Orelsky stadion|Uhersky Brod|6000
+WFSTA|2024-25|Stadión Lapac|Uhersky Brod|1500
+WFSTA|2024-25|Stadion Arnosta Kostala|Pardubice|4600
+WFSTA|2024-25|Stadion FK Drnovice|Drnovice|6400
+WFSTA|2024-25|Stadion Jozky Silneho|Kromeriz|1529
+WFSTA|2024-25|Stadion Kvapilova|Tabor|1350
+WFSTA|2024-25|Stadion Mestsky Lumira Kota|Hlucin|2380
+WFSTA|2024-25|Stadion na Plynarne|Prague|3000
+WFSTA|2024-25|Stadion SK Lisen|Brno|2070
+WFSTA|2024-25|Stadion SK Motorlet Butovicka|Prague|5000
+WFSTA|2024-25|Stadion SK Sokol Brozany|Brozany nad Ohri|
+WFSTA|2024-25|Stadion Stechovice|Stechovice|1500
+WFSTA|2024-25|Stadion Strelnice|Jablonec|6280
+WFSTA|2024-25|Stadion TJ Sokol Zapy|Brandys nad Labem|1000
+WFSTA|2024-25|Stadion Viktorie v Seifertove ulici|Prague|5334
+WFSTA|2024-25|TJ Jiskra Usti nad Orlici|Usti nad Orlici|4000
+# 2025-26: https://www.worldfootball.net/competition/co88/se98033/stadiums/ (2 chunks)
+WFSTA|2025-26|Drahovice UMT|Karlovy Vary|500
+WFSTA|2025-26|FINEP Arena|Hradec Kralove|9300
+WFSTA|2025-26|FK Nove Sady|Olomouc|
+WFSTA|2025-26|Fotbalove hriste SK Petrin Plzen|Plzen|2000
+WFSTA|2025-26|Fotbalovy stadion Na Slajsi|Lanzhot|
+WFSTA|2025-26|Frantiska Kloze|Kladno|10000
+WFSTA|2025-26|Hriste TJ Velke Hamry|Velke Hamry|1500
+WFSTA|2025-26|Letna|Zlin|6375
+WFSTA|2025-26|Lokotrans Arena|Mlada Boleslav|5500
+WFSTA|2025-26|Mestsky stadion Dolicek|Prague|6300
+WFSTA|2025-26|Mestsky stadion Karvina-Raj|Karvina|4833
+WFSTA|2025-26|Mestsky Stadion Kraluv Dvur|Kraluv Dvur|2500
+WFSTA|2025-26|Mestsky stadion Masarykova|Usti nad Labem|4000
+WFSTA|2025-26|Mestsky stadion Strelnice Domazlice|Domazlice|5000
+WFSTA|2025-26|ShipEx Arena|Brno|12550
+WFSTA|2025-26|Stadion Arnosta Kostala|Pardubice|4600
+WFSTA|2025-26|Stadion FK Banik Sokolov|Sokolov|5000
+WFSTA|2025-26|Stadion Hluboka nad Vltavou|Hluboka nad Vltavou|
+WFSTA|2025-26|Stadion Kvapilova|Tabor|1350
+WFSTA|2025-26|Stadion Na Pecich|Prague|4000
+WFSTA|2025-26|Stadion Rudolfa Labaje|Trinec|4200
+WFSTA|2025-26|Stadion SK Hranice|Hranice|6000
+WFSTA|2025-26|Stadion SK Sokol Brozany|Brozany nad Ohri|
+WFSTA|2025-26|Stadion SK Unicov|Unicov|4000
+WFSTA|2025-26|Stadion Strelnice|Jablonec|6280
+WFSTA|2025-26|Stadion TJ Slovan Velvary|Velvary|2700
+WFSTA|2025-26|Stadion u Cervenych domku|Hodonin|5000
+WFSTA|2025-26|Stadion Vojtecha Zeithamla|Hostoun|1700
+WFSTA|2025-26|Stovky|Frydek-Mistek|12400
+WFSTA|2025-26|Strelecky Ostrov|Ceske Budejovice|6746
+WFSTA|2025-26|TJ Stadion Novy Bor|Novy Bor|2000
+WFSTA|2025-26|v Jiraskove hriste trava|Jihlava|500
 #
 # ===== B. aet/pens 90-MINUTE SPLITS REGISTER (every settled in-slice tie) =====
 # Splits proven by wf match-report goal timelines (all goals >90' are extra time), wiki match
@@ -141,6 +209,23 @@ SPLIT|2023-24|QF|2024-02-28|Zlin|1|1|Slovan Liberec|Zlin advanced (aet 2-1)|wiki
 SPLIT|2023-24|QF|2024-02-28|Slavia Prague|2|2|Sparta Prague|Sparta Prague advanced (aet 2-3)|wiki box goal minutes (39/48 v 55/70; Karabec 113 pen)
 # Czech convention in-window: R1-R4 level at 90' -> straight to penalties (no aet) except the
 # R16 tie Ceske Budejovice 1-1 Olomouc (aet before pens per RSSSF [aet,...]); QF+ play aet first.
+# --- 2024-25 (5 ties); RULE CHANGE: extra time now appears at R3/R16 level too (RSSSF/wiki
+# bracket [aet] flags + wf timelines) - the in-window 2021-24 'R1-R4 straight to pens' convention
+# no longer holds from 2024-25 ---
+SPLIT|2024-25|R2|2024-09-25|Pribram|2|2|Ceske Budejovice|Ceske Budejovice advanced (pens 2-4)|wiki bracket pso box regulation 2-2; wf prints "2:4 pso" (fold quirk)
+SPLIT|2024-25|R3|2024-11-06|Taborsko|0|0|Ceske Budejovice|Taborsko advanced (aet 2-0)|wf ma10744145 timeline: Kone 118', Barac 120+2; stadium Stadion Kvapilova; RSSSF/wiki [aet]
+SPLIT|2024-25|R16|2025-02-26|Slavia Prague|0|0|Taborsko|Slavia Prague advanced (aet 1-0)|wf ma10776824 timeline: Chytil 114'; stadium Fortuna Arena att 9000
+SPLIT|2024-25|R16|2025-02-27|Viktoria Plzen|1|1|Zlin|Viktoria Plzen advanced (aet 4-1)|wf ma10776818 timeline: Kanu 1', Jemelka 33', then 93'/104'/119'; stadium Doosan Arena
+SPLIT|2024-25|QF|2025-04-09|Sparta Prague|2|2|Teplice|Sparta Prague advanced (aet 3-2)|wiki box goal minutes: Sorensen 5, Kuchta 76 / Takacs 40, Trubac 89pen; Haraslin 117
+# --- 2025-26 (8 ties) ---
+SPLIT|2025-26|R3|2025-09-24|Frydek-Mistek|1|1|Pardubice|Pardubice advanced (aet 1-2)|wf ma11584718 timeline: Heller 7', 1-1 Krobot 71'pen, 1-2 Sancl 105+1; stadium Stovky att 1066
+SPLIT|2025-26|R3|2025-09-30|Artis Brno|1|1|Slovan Liberec|Artis Brno advanced (pens 6-5)|wf ma11584736: goals 17'/29' only, 120' scoreline 1-1, pso 6-5; stadium ShipEx Arena att 1455; wf prints "6:5 pso"
+SPLIT|2025-26|R3|2025-10-01|Trinec|3|3|Hradec Kralove|Hradec Kralove advanced (aet 3-4)|wf ma11584733 timeline: Slamena 90+3 equalizer, Darida 120+1'pen; stadium Rudolfa Labaje att 840
+SPLIT|2025-26|R16|2025-11-05|Pardubice|3|3|Banik Ostrava|Banik Ostrava advanced (aet 3-4)|wf ma11651270 timeline: Smekal 90+1 equalizer, Buchta 111' decider; stadium Stadion Arnosta Kostala att 2160
+SPLIT|2025-26|R16|2025-11-05|Bohemians 1905|0|0|Mlada Boleslav|Mlada Boleslav advanced (pens 4-5)|bracket regulation 0-0; wf ma11651264 prints "4:5 pso" (fold quirk)
+SPLIT|2025-26|QF|2026-03-03|Jablonec|2|2|Slavia Prague|Jablonec advanced (pens 3-2)|wiki box: all four goals in regulation (6'/53'/80'/90+4')
+SPLIT|2025-26|QF|2026-03-03|Mlada Boleslav|0|0|Sparta Prague|Mlada Boleslav advanced (pens 4-2)|wiki box 0-0 aet, pens 4-2
+SPLIT|2025-26|QF|2026-03-04|Hradec Kralove|0|0|Banik Ostrava|Banik Ostrava advanced (pens 5-6)|wiki box 0-0 aet, pens 5-6
 #
 # ===== C. LEAGUE-MEMBERSHIP / TIER transcriptions (club-level, in-window seasons) =====
 # en.wiki 2021-22 Czech National Football League (team changes + map + stats text):
@@ -293,3 +378,75 @@ TEAMREG|Marianske Lazne|Czech Fourth Division (Divize A)|CZ4|FC Viktoria Marians
 # BRACKETS as 11 in R2 + 5 in R3 (the table's "12" would produce 17 FL entrants = >16 clubs).
 # 2023-24 R3 section prose verbatim: "The last entrants are the five clubs involved into the
 # European Cups." (confirms the 5-UEFA-at-R3 structure in-window).
+#
+# ===== I. EXTENSION 2024-25 / 2025-26 (fetched 2026-08-04) =====
+# I.1 tier + TEAMREG evidence for the 11 new lower-league identities:
+TIER|Usti nad Orlici|2024-25|CZ3|CFL B|cs.wiki TJ Jiskra Usti nad Orlici (od 2024/25 CFL, skupina B; founded 1914)
+TIER|Milin|2024-25|CZ4|Divize A|pribramsky.denik.cz fixtures 2024/25 + tvcom.cz Soutez-Divize-A 2024-2025
+TIER|Kurim|2024-25|CZ4|Divize D|cs.wiki FC Kurim infobox (Divize D, 2024/25 2nd; founded 1931)
+TIER|Bzenec|2024-25|CZ4|Divize E|cs.wiki TJ Slovan Bzenec infobox (Divize E, 2024/25 3rd; founded 1928)
+TIER|Bohumin|2025-26|CZ4|Divize F|en.wiki FK Bospor Bohumin infobox (Divize F, 2024-25 5th; founded 1931)
+TIER|Brandys nad Labem|2025-26|CZ4|Divize C|cs.wiki FK Brandys nad Labem infobox (Divize C, 2024/25 7th; founded 1901)
+TIER|Hodonin|2025-26|CZ3|MSFL|fktrinec.cz MSFL 2025/2026 table (FK Hodonin 2nd) + cs.wiki MSFL member list
+TIER|Hranice|2025-26|CZ3|MSFL|cs.wiki MSFL member list 2025/2026 (SK Hranice)
+TIER|Aritma|2024-25|CZ4|Prazsky prebor|en.wiki 2024-25 Czech Cup R2 bracket tag (4); Prague regional top flight (the Prague-anomaly level-4 league)
+TIER|Povltavska|2024-25|CZ3|CFL A|bracket tag (3) + cs.wiki CFL group-A lineages in C above (2022/23, 2023/24)
+TIER|Ceska Lipa|2025-26|CZ3|CFL B|bracket tag (3) in 2024-25 R2; section-C CFL B 2023/24 list (Arsenal Ceska Lipa)
+TEAMREG|Usti nad Orlici|Bohemian Football League (CFL B)|CZ3|TJ Jiskra Usti nad Orlici;Jiskra Usti nad Orlici|TJ Jiskra Usti nad Orlici|Usti nad Orlici|1914
+TEAMREG|Milin|Czech Fourth Division (Divize A)|CZ4|TJ Ligmet Milin|Fotbalove hriste Milin|Milin|
+TEAMREG|Aritma|Czech Fourth Division (Prazsky prebor)|CZ4|SK Aritma Prague;SK Aritma Praha|Areal SK Aritma|Prague|
+TEAMREG|Povltavska|Bohemian Football League (CFL A)|CZ3|Povltavska fotbalova akademie;Povltavska FA|Stadion na Lukanu|Prague|
+TEAMREG|Kurim|Czech Fourth Division (Divize D)|CZ4|FC Kurim|Mestsky fotbalovy stadion|Kurim|1931
+TEAMREG|Bzenec|Czech Fourth Division (Divize E)|CZ4|TJ Slovan Bzenec;Slovan Bzenec|Stadion v Zameckem Parku|Bzenec|1928
+TEAMREG|Ceska Lipa|Bohemian Football League (CFL B)|CZ3|FK Arsenal Ceska Lipa;Arsenal Ceska Lipa|Mestsky Stadion|Ceska Lipa|
+TEAMREG|Hodonin|Moravian-Silesian Football League|CZ3|FK Hodonin|Stadion u Cervenych domku|Hodonin|
+TEAMREG|Bohumin|Czech Fourth Division (Divize F)|CZ4|FK Bospor Bohumin;Bospor Bohumin|Stadion FK Bohumin|Bohumin|1931
+TEAMREG|Brandys nad Labem|Czech Fourth Division (Divize C)|CZ4|FK Brandys nad Labem|Na Sporilove|Brandys nad Labem|1901
+TEAMREG|Hranice|Moravian-Silesian Football League|CZ3|SK Hranice;SK Hranice na Morave|Stadion SK Hranice|Hranice|
+TEAMREG|Artis Brno|Czech National Football League|CZ2|SK Artis Brno;SK Lisen (era name to Dec 2025)|Mestsky fotbalovy stadion Srbska|Brno|
+# I.2 POV venue exceptions (match venue != host club's own ground; per-tie wf match reports):
+#   Povltavska v Liberec R2 2024-25 -> Stadion Stechovice, Stechovice (ma10704494; host club ground is
+#     na Lukanu per wiki table; wf stadium index had no Povltavska ground listed).
+#   Ceska Lipa v Pardubice R2 2025-26 -> TJ Stadion Novy Bor, Novy Bor (ma11538494 att 1493; club's own
+#     Mestsky Stadion Ceska Lipa not used; wf index corroborates by listing Novy Bor only).
+# I.3 era/rename venue notes:
+#   Lisen TEAM row extended: club renamed SK ARTIS BRNO ahead of 2025-26 (all three indexes print
+#     Artis Brno this season); its 2025-26 homes (R3 ma11584736 att 1455; R16 ma11651261 att 5716)
+#     were staged at ShipEx Arena, Brno (ve1134, 12550) = the Srbska ground under its current sponsor
+#     name (era chain: Mestsky fotbalovy stadion Srbska -> ADAX INVEST Arena -> ShipEx Arena; Brno's
+#     own two ties carried the same string). 2024-25-era tie carried `Lisen` at Stadion SK Lisen (WFSTA).
+#   Pardubice R16 2025-26 home: wf prints "Stadion Arnosta Kostala" (4600) = the CFIG Arena ground
+#     (CZ1-pinned string 2024-25/2025-26, 4620) after the sponsor lapse; pack carries CFIG Arena, alias here.
+#   Hradec Kralove 2025-26: wf cup index again lists FINEP Arena (9300) = Malsovicka Arena (G5 alias);
+#     wiki QF box prints Malsovicka arena att 6107 and the Final box Malsovicka arena att 7352 ->
+#     the QF (Hradec-Ostrava) and the 2026 Final both carried as Malsovicka Arena.
+#   Sparta 2024-25 cup homes: wiki boxes print "Stadion Letna" -> the pinned CZ1 string epet ARENA
+#     carried (same ground); Ostrava's SF home wiki "Mestsky stadion" -> Mestsky stadion (Ostrava).
+#   Zlin's 2024-25/2025-26 homes: Letna Stadion string per CZ1 (wf index prints plain "Letna", Zlin 6375).
+#   Taborsko stadium: pack row string "Stadion Kvapilova" (wf print; cz1-venues FNL-string alias
+#     "Stadion v Kvapilove ulici" documented in G-note 165 of cz1-venues.txt).
+#   Brozany: 2024-25+ row string upgraded to WFSTA "Stadion SK Sokol Brozany", Brozany nad Ohri
+#     (supersedes the address-only "Ke Hristi" placeholder kept on the 2023-24 row).
+#   Motorlet: WFSTA era print "Stadion SK Motorlet Butovicka", Prague (alias of the old
+#     "Stadion SK Motorlet" string on earlier rows).
+#   Pribram: WFSTA "Fotbalovy areal Na Litavce", Pribram (500) = the pinned "Na Litavce" ground.
+#   Kladno 2025-26: wf prints "Frantiska Kloze" (10000) - same ground as "Areal Frantiska Kloze".
+#   Usti n/L R3-2526 home vs Zlin: Mestsky stadion Masarykova (wf index) - alias of the carried
+#     "Mestsky stadion" string (club article).
+#   Admira: WFSTA-confirmed ground Stadion Na Pecich, Prague (its R2 2025-26 home tie; registry string).
+#   Police nad Metuji ground (R3 2024-25 home): no formal name published - club pitch at Ostatska 249
+#     (iscus.z/web registry + sportmap.cz club fixtures 4. CFL sk. C) carried as "Hriste Spartak
+#     Police nad Metuji", city Police nad Metuji.
+#   Rokycany-opponent ordering: R2-2526 wf bracket+report say FC Rokycany hosted Mlada Boleslav.
+# I.4 2025-26 wf stadium lines on small-club reports are absent (no Stadium field) for
+#   Bohumin (ma11538542), Brandys (ma11538488), Horni Redice (ma11584724), Milin (ma10704482),
+#   Kurim (ma10704515), Bzenec (ma10704527) -> club-page/index fallbacks per the venue decree:
+#   Bohumin "Stadion FK Bohumin" Bohumin 1200 (en.wiki infobox; sponsor-era name Fotbalovy areal
+#   Pavla Srnicka since 2016 per moravskoslezsky.denik.cz); Brandys "Na Sporilove" 4000 (cs.wiki
+#   infobox + fkbrandys.cz/stadion); Horni Redice "Fotbalovy stadion FK Horni Redice" 600
+#   (Transfermarkt club profile; pardubicky.denik.cz 2025-09-22 confirms the Slovacko tie played
+#   'na mistnim hriste' with added mobile stands); Milin "Fotbalove hriste Milin" 800 (Transfermarkt
+#   profile; FACR club address U Stadionu 319, Milin; wiki alt 'Mestsky stadion' documented);
+#   Kurim "Mestsky fotbalovy stadion" Kurim 10000 (cs.wiki FC Kurim infobox; transfermarkt alt
+#   'Mestsky stadion Kurim' 400 seats documented); Bzenec "Stadion v Zameckem Parku" Bzenec 1200
+#   (cs.wiki TJ Slovan Bzenec infobox).

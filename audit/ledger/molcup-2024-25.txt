@@ -1,0 +1,75 @@
+# PRIMARY/SECOND TRANSCRIPTION - MOL Cup (Pohar FACR) 2024-25
+# Sources fetched 2026-08-04 (Europe/Paris):
+#   RSSSF https://www.rsssf.org/tablest/tsje2025.html#cup  (primary; this season chapter carries
+#     R3 onward WITH dates - R2 not on the page)
+#   en.wiki 2024-25_Czech_Cup action=raw sections 4(R2),5(R3),6(R4),7(QF),8(SF),9(F) (second)
+#   worldfootball all_matches/schedule round pages + 10 per-tie match reports (third; ids cited)
+# Grammar: R2|R3|C16|CQF|CSF|CF |iso-date|home|hg|ag|away   (R2/R3 from wiki raw == wf, diff 0)
+# Slice = every tie from R2 onward with >=1 of the 16 FL 2024-25 clubs (WO sec-1 rule, per the
+# auditor-proven slice; FL 2024-25 = 2023-24 side minus Zlin (relegated) plus Dukla Prague (up)).
+# ================= SECOND ROUND (27 ties: Sep 24 x3, Sep 25 x22, Oct 2 x2) =================
+# ---- 11 in-slice ties (FL club present):
+R2|2024-09-25|Usti nad Orlici|0|4|Dukla Prague
+R2|2024-09-25|Brozany|1|3|Bohemians 1905
+R2|2024-09-25|Milin|0|2|Teplice            # wf ma10704482 att 1055
+R2|2024-09-25|Motorlet Praha|0|1|Hradec Kralove
+R2|2024-09-25|Aritma|0|3|Pardubice
+R2|2024-09-25|Povltavska|1|3|Slovan Liberec   # wf ma10704494 att 323; played at STADIO STECHOVICE
+R2|2024-09-25|Pribram|2|2|Ceske Budejovice    # 90-min 2-2, CBU advanced pens 2-4 (wf prints 2:4 pso)
+R2|2024-09-25|Kurim|1|3|Slovacko            # wf ma10704515 att 1675
+R2|2024-09-25|Kromeriz|1|0|Karvina          # FL HOST LOST in R2 -> Karvina out before R3
+R2|2024-10-02|Domazlice|0|2|Jablonec
+R2|2024-10-02|Bzenec|0|6|Sigma Olomouc      # wf ma10704527 att 1290
+# ---- 16 out-of-slice ties (no FL club; comment-recorded per rule):
+# OUT: 2024-09-24 Ubersky Brod 2-1 Prostejov; Vitkovice 0-3 Hlucin; Usti n/L 4-4 (pso 4-3) Kladno
+# OUT: 2024-09-25 Petrin Plzen 0-2 Taborsko; Zivanice 0-3 Varnsdorf; Pisek 0-4 Zizkov;
+#      Police n/M 2-0 Karlovy Vary; Most-Sous 1-1 (pso 3-5) Benatky; Loko 3-1 Ceska Lipa;
+#      Vysoko Myto 1-1 (pso 6-7) Horovice; Zapy 3-1 Admira; Tasovice 1-5 Zlin;
+#      Frenstat p/R 1-3 Zbrojovka Brno; Strani 0-1 Opava; Bilovec 1-3 Vyskov; Zdar n/S 1-2 Lisen
+# ================= THIRD ROUND (16 ties; RSSSF + wiki, dates identical) =================
+R3|2024-10-23|Horovice|0|6|Dukla Prague
+R3|2024-10-30|Loko Praha|0|1|Hradec Kralove   # wf ma10744109 att 450, Stadion na Plynarne
+R3|2024-10-30|Zapy|1|2|Pardubice
+R3|2024-10-30|Kromeriz|3|1|Slovacko           # FL AWAY LOST
+R3|2024-10-30|Police nad Metuji|1|3|Mlada Boleslav
+R3|2024-10-30|Hlucin|1|0|Slovan Liberec       # FL AWAY LOST
+R3|2024-10-30|Usti nad Labem|3|4|Viktoria Plzen
+R3|2024-10-30|Zizkov|0|2|Sigma Olomouc
+R3|2024-10-30|Varnsdorf|1|3|Banik Ostrava
+R3|2024-10-30|Sparta Prague|4|0|Zbrojovka Brno
+R3|2024-10-30|Lisen|1|3|Teplice               # era name SK Lisen; stadium Stadion SK Lisen (WFSTA)
+R3|2024-10-30|Vyskov|0|1|Bohemians 1905
+# OUT (no FL club, both FNL): 2024-10-30 Opava 1-2 Zlin
+R3|2024-10-31|Benatky nad Jizerou|1|4|Slavia Prague
+R3|2024-11-05|Uhersky Brod|0|1|Jablonec       # wf ma10744100 att 551, Stadion Lapac
+R3|2024-11-06|Taborsko|0|0|Ceske Budejovice   # 90-min 0-0; TABORSKO advanced aet 2-0
+# ^ (wf ma10744145 timeline: Kone 118', Barac 120+2; RSSSF prints '2-0 [aet]', wiki 2-0 aet)
+# ================= ROUND OF 16 (8 ties; RSSSF == wiki == wf 8/8) =================
+C16|2025-02-25|Sparta Prague|3|0|Dukla Prague
+C16|2025-02-26|Mlada Boleslav|0|2|Bohemians 1905
+C16|2025-02-26|Slavia Prague|0|0|Taborsko     # 90-min 0-0; SLAVIA advanced aet 1-0
+# ^ wf ma10776824: Chytil 114'; stadium Fortuna Arena att 9000; RSSSF/wiki print 1-0 [aet]
+C16|2025-02-27|Viktoria Plzen|1|1|Zlin        # 90-min 1-1; PLZEN advanced aet 4-1
+# ^ wf ma10776818: 0-1 Kanu 1', 1-1 Jemelka 33', then 93'/104'/119'; stadium Doosan Arena
+C16|2025-03-04|Sigma Olomouc|2|1|Kromeriz
+C16|2025-03-05|Pardubice|0|2|Banik Ostrava
+C16|2025-03-11|Hlucin|1|2|Teplice
+C16|2025-03-12|Hradec Kralove|1|2|Jablonec
+# ================= QUARTERFINALS (wiki boxes + RSSSF identical) =================
+CQF|2025-04-08|Slavia Prague|0|1|Sigma Olomouc
+CQF|2025-04-09|Jablonec|0|1|Banik Ostrava
+CQF|2025-04-09|Sparta Prague|2|2|Teplice      # 90-min 2-2; SPARTA advanced aet 3-2
+# ^ wiki box: Sorensen 5, Kuchta 76 / Takacs 40, Trubac 89pen (regulation), Haraslin 117;
+#   wiki venue print 'Stadion Letna' (= epet ARENA era ground; CZ1 string carried, NOTE below)
+CQF|2025-04-10|Bohemians 1905|1|3|Viktoria Plzen
+# ================= SEMIFINALS =================
+CSF|2025-04-22|Banik Ostrava|2|3|Sigma Olomouc
+CSF|2025-04-23|Sparta Prague|1|0|Viktoria Plzen
+# wiki venue prints 'Mestsky stadion' / 'Stadion Letna' -> CZ1 strings carried (venue NOTE)
+# ================= FINAL (Andruv stadion, Olomouc, att 12014) =================
+CF|2025-05-14|Sigma Olomouc|3|1|Sparta Prague
+#
+# Champion 2024-25: Sigma Olomouc (5th cup title). Runner-up: Sparta.
+# wf pso-fold display quirk on this season's pages documented (e.g. '2:4 pso' = regulation 2-2,
+# pens 2-4). 90-minute doctrine rows: Pribram(2-2) R2, Taborsko(0-0) R3, Slavia(0-0) R16,
+# Plzen(1-1) R16, Sparta(2-2) QF.

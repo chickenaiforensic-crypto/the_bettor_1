@@ -1,42 +1,44 @@
-PACK VALIDATION — MOLCUP-2021-2026_BP-TEAM-PACK_v2 (WO-MOLCUP-BACKFILL-04)
-generated 2026-08-03 by tools/validate_molcup_pack.py
-pack sha256: 5023eb33fd7a63f51fbb95d0535a811bc8f9ddc9b5d1ff20dc49ee8e893cec86
-pack rows: 120 MATCH / 31 TEAM / 15 SOURCE / 33 NOTE
+PACK VALIDATION — MOLCUP-2021-2026_BP-TEAM-PACK_v2 (WO-MOLCUP-BACKFILL-04, FULL-SPAN OVERRIDE v5)
+generated 2026-08-04 by tools/validate_molcup_pack.py
+pack sha256: 50ead762d80070dce6cbf468dedd26eb4d4e3706dd264801194af49385791137
+pack rows: 202 MATCH / 43 TEAM / 23 SOURCE / 53 NOTE
 
-PASS G01 G01 file parse & 41-field grammar
+PASS G01 G01 file parse & 14-field grammar
 PASS G02 G02 ASCII-only
 PASS G03 G03 END terminator present once
 PASS G04 G04 competition literal 'MOL Cup' on all rows
 PASS G05 G05 compType domestic-cup on all rows (errata)
-PASS G06 G06 total rows 120 (41/41/38)
+PASS G06 G06 total rows 202 (41/41/38/41/41)
 PASS G07 G07 round-by-round counts match declared slice
 PASS G08 G08 every row has >=1 pinned FL club of its season (slice rule)
 PASS G09 G09 no known out-of-slice tie leaked into rows
 PASS G10 G10 no duplicate ties (date-home-away unique)
-PASS G11 G11 boundary: all dates in [2021-07-01, 2024-06-30)
+PASS G11 G11 boundary: all dates in [2021-07-01, 2026-08-01)
 PASS G12 G12 round labels in {R2,R3,R16,QF,SF,Final}
-PASS G13 G13 20 advancement NOTEs, one per settled tie
+PASS G13 G13 33 advancement NOTEs, one per settled tie
 PASS G14 G14 settled ties recorded as 90-minute draws
 PASS G15 G15 bracket: champions per season
 PASS G16 G16 bracket: semifinalists per season
 PASS G17 G17 finalist sets per season
 PASS G18 G18 all FL home-ground strings in pinned CZ1 style (spot checks)
-PASS G19 G19 TEAM rows = the 31 declared new identities, none of the 27 roster strings
+PASS G19 G19 TEAM rows = the 43 declared new identities, none of the roster strings
 PASS G20 G20 every TEAM name used in rows
 PASS G21 G21 no FL string re-declared as TEAM
 PASS G22 G22 SOURCE rows present and labels referenced by rows
 PASS G23 G23 pack_id first line
 PASS G24 G24 source_adaptation + comp_class + slice + round_counts + spot_audit NOTEs present
-PASS G25 G25 source_conflict NOTEs cover Slovacko silent-aet + Plzen-Zlin date
+PASS G25 G25 source_conflict NOTEs cover Slovacko silent-aet + Plzen-Zlin date + Rokycany 0-6 adjudication
 PASS G26 G26 season-blocked date-sorted presentation
-PASS G27 G27 finals before 2024-06-30 boundary + finals in May
+PASS G27 G27 finals inside span + finals in May
 PASS G28 G28 no standings tables anywhere (rows only)
-PASS G29 G29 held-out seasons untouched: no rows dated >= 2024-07-01
-PASS G30 G30 every R16 tie of each season present (8+8+6 = official R16=8 ties w/ exclusions)
+PASS G29 G29 full-span override: 2024-25 + 2025-26 rows present (41+41) and nothing >= 2026-08-01
+PASS G30 G30 every R16 tie of each season present (8/8/6 official w/ exclusions, then 8/8)
+PASS G31 G31 Artis Brno rename-line: Lisen rows pre-2025, Artis rows 2025-26, none overlapping eras
+PASS G32 G32 2026-27 boundary NOTE present (zero rows per decree)
 
-GATES: 30/30 PASS
+GATES: 32/32 PASS
 
-===== PER-TEAM PIVOT LEDGERS (owner decree): every pinned FL club's in-window cup campaign =====
+===== PER-TEAM PIVOT LEDGERS (owner decree): every pinned FL club's in-span cup campaign =====
 
 ## Banik Ostrava
 2021-22 2021-08-25 A Banik Ostrava v Hlucin  0-0  [R2]  Stadion Mestsky Lumira Kota
@@ -48,6 +50,14 @@ GATES: 30/30 PASS
 2023-24 2023-08-29 A Banik Ostrava v Hlucin  0-2  [R2]  Stadion Mestsky Lumira Kota
 2023-24 2023-09-27 A Banik Ostrava v Zapy  1-2  [R3]  Stadion TJ Sokol Zapy
 2023-24 2023-11-01 H Banik Ostrava v Zlin  0-1  [R16]  Mestsky stadion (Ostrava)
+2024-25 2024-10-30 A Banik Ostrava v Varnsdorf  1-3  [R3]  Mestsky stadion v Kotline
+2024-25 2025-03-05 A Banik Ostrava v Pardubice  0-2  [R16]  CFIG Arena
+2024-25 2025-04-09 A Banik Ostrava v Jablonec  0-1  [QF]  Stadion Strelnice
+2024-25 2025-04-22 H Banik Ostrava v Sigma Olomouc  2-3  [SF]  Mestsky stadion (Ostrava)
+2025-26 2025-09-24 A Banik Ostrava v Ceske Budejovice  2-3  [R3]  Stadion Strelecky ostrov
+2025-26 2025-11-05 A Banik Ostrava v Pardubice  3-3  [R16]  CFIG Arena
+2025-26 2026-03-04 A Banik Ostrava v Hradec Kralove  0-0  [QF]  Malsovicka Arena
+2025-26 2026-04-21 A Banik Ostrava v Karvina  2-1  [SF]  Mestsky stadion (Karvina)
 
 ## Bohemians 1905
 2021-22 2021-08-25 A Bohemians 1905 v Sokolov  0-6  [R2]  Stadion FK Banik Sokolov
@@ -61,6 +71,13 @@ GATES: 30/30 PASS
 2022-23 2023-04-05 A Bohemians 1905 v Slavia Prague  2-2  [SF]  Fortuna Arena
 2023-24 2023-10-11 A Bohemians 1905 v Kolin  1-7  [R3]  Mestsky stadion Kolin
 2023-24 2023-11-01 H Bohemians 1905 v Sparta Prague  1-2  [R16]  Dolicek
+2024-25 2024-09-25 A Bohemians 1905 v Brozany  1-3  [R2]  Stadion SK Sokol Brozany
+2024-25 2024-10-30 A Bohemians 1905 v Vyskov  0-1  [R3]  Sportovni areal Drnovice
+2024-25 2025-02-26 A Bohemians 1905 v Mlada Boleslav  0-2  [R16]  Lokotrans Arena
+2024-25 2025-04-10 H Bohemians 1905 v Viktoria Plzen  1-3  [QF]  Dolicek
+2025-26 2025-08-27 A Bohemians 1905 v Hostoun  1-2  [R2]  Stadion Vojtecha Zeithamla
+2025-26 2025-09-24 A Bohemians 1905 v Domazlice  1-4  [R3]  Mestsky stadion Strelnice Domazlice
+2025-26 2025-11-05 H Bohemians 1905 v Mlada Boleslav  0-0  [R16]  Dolicek
 
 ## Ceske Budejovice
 2021-22 2021-08-25 A Ceske Budejovice v Sedlcany  0-6  [R2]  TJ Tatran Sedlcany
@@ -74,6 +91,9 @@ GATES: 30/30 PASS
 2023-24 2023-08-29 A Ceske Budejovice v Velke Hamry  1-1  [R2]  Hriste TJ Velke Hamry
 2023-24 2023-10-10 H Ceske Budejovice v Chrudim  2-0  [R3]  Stadion Strelecky ostrov
 2023-24 2023-11-16 H Ceske Budejovice v Jablonec  1-2  [R16]  Stadion Strelecky ostrov
+2024-25 2024-09-25 A Ceske Budejovice v Pribram  2-2  [R2]  Fotbalovy areal Na Litavce
+2024-25 2024-11-06 A Ceske Budejovice v Taborsko  0-0  [R3]  Stadion Kvapilova
+2025-26 2025-09-24 H Ceske Budejovice v Banik Ostrava  2-3  [R3]  Stadion Strelecky ostrov
 
 ## Hradec Kralove
 2021-22 2021-09-01 A Hradec Kralove v Brezova  0-2  [R2]  TJ Olympie Brezova
@@ -87,6 +107,12 @@ GATES: 30/30 PASS
 2023-24 2023-09-06 A Hradec Kralove v Sobeslav  2-4  [R2]  Fotbalovy stadion FK Raselina Sobeslav
 2023-24 2023-09-27 A Hradec Kralove v Jihlava  0-1  [R3]  v Jiraskove ulici
 2023-24 2023-12-06 H Hradec Kralove v Slavia Prague  0-0  [R16]  Malsovicka Arena
+2024-25 2024-09-25 A Hradec Kralove v Motorlet Praha  0-1  [R2]  Stadion SK Motorlet Butovicka
+2024-25 2024-10-30 A Hradec Kralove v Loko Praha  0-1  [R3]  Stadion na Plynarne
+2024-25 2025-03-12 H Hradec Kralove v Jablonec  1-2  [R16]  Malsovicka Arena
+2025-26 2025-10-01 A Hradec Kralove v Trinec  3-3  [R3]  Stadion Rudolfa Labaje
+2025-26 2025-11-12 A Hradec Kralove v Zbrojovka Brno  0-3  [R16]  ShipEx Arena
+2025-26 2026-03-04 H Hradec Kralove v Banik Ostrava  0-0  [QF]  Malsovicka Arena
 
 ## Jablonec
 2021-22 2021-09-22 A Jablonec v Prepere  0-1  [R3]  Hriste FK Prepere
@@ -99,6 +125,16 @@ GATES: 30/30 PASS
 2023-24 2023-09-27 A Jablonec v Domazlice  1-1  [R3]  Mestsky stadion Strelnice Domazlice
 2023-24 2023-11-16 A Jablonec v Ceske Budejovice  1-2  [R16]  Stadion Strelecky ostrov
 2023-24 2024-04-02 H Jablonec v Viktoria Plzen  0-3  [QF]  Stadion Strelnice
+2024-25 2024-10-02 A Jablonec v Domazlice  0-2  [R2]  Mestsky stadion Strelnice Domazlice
+2024-25 2024-11-05 A Jablonec v Uhersky Brod  0-1  [R3]  Stadion Lapac
+2024-25 2025-03-12 A Jablonec v Hradec Kralove  1-2  [R16]  Malsovicka Arena
+2024-25 2025-04-09 H Jablonec v Banik Ostrava  0-1  [QF]  Stadion Strelnice
+2025-26 2025-08-26 A Jablonec v Admira Praha  0-3  [R2]  Stadion Na Pecich
+2025-26 2025-09-24 A Jablonec v Hlinsko  0-2  [R3]  Fotbalovy stadion FC Hlinsko
+2025-26 2025-10-28 H Jablonec v Dukla Prague  2-1  [R16]  Stadion Strelnice
+2025-26 2026-03-03 H Jablonec v Slavia Prague  2-2  [QF]  Stadion Strelnice
+2025-26 2026-04-21 H Jablonec v Mlada Boleslav  1-0  [SF]  Stadion Strelnice
+2025-26 2026-05-20 H Jablonec v Karvina  1-3  [Final]  Malsovicka Arena
 
 ## Karvina
 2021-22 2021-08-25 A Karvina v Slavicin  1-5  [R2]  Stadion FC TVD Slavicin
@@ -106,6 +142,13 @@ GATES: 30/30 PASS
 2021-22 2021-11-12 A Karvina v Slovacko  1-1  [R16]  Mestsky fotbalovy stadion Miroslava Valenty
 2022-23 2022-11-18 H Karvina v Slavia Prague  0-2  [R16]  Mestsky stadion (Karvina)
 2023-24 2023-09-06 A Karvina v Unicov  1-0  [R2]  Stadion SK Unicov
+2024-25 2024-09-25 A Karvina v Kromeriz  1-0  [R2]  Stadion Jozky Silneho
+2025-26 2025-08-27 A Karvina v Bohumin  1-6  [R2]  Stadion FK Bohumin
+2025-26 2025-09-23 A Karvina v Taborsko  1-6  [R3]  Stadion Kvapilova
+2025-26 2025-10-28 H Karvina v Slovacko  1-0  [R16]  Mestsky stadion (Karvina)
+2025-26 2026-03-05 H Karvina v Viktoria Plzen  3-0  [QF]  Mestsky stadion (Karvina)
+2025-26 2026-04-21 H Karvina v Banik Ostrava  2-1  [SF]  Mestsky stadion (Karvina)
+2025-26 2026-05-20 A Karvina v Jablonec  1-3  [Final]  Malsovicka Arena
 
 ## Mlada Boleslav
 2021-22 2021-08-24 H Mlada Boleslav v Vysehrad  3-0  [R2]  Lokotrans Arena
@@ -117,6 +160,13 @@ GATES: 30/30 PASS
 2023-24 2023-08-30 H Mlada Boleslav v Usti nad Labem  4-2  [R2]  Lokotrans Arena
 2023-24 2023-09-26 H Mlada Boleslav v Prostejov  4-2  [R3]  Lokotrans Arena
 2023-24 2023-11-01 A Mlada Boleslav v Slovan Liberec  1-0  [R16]  Stadion u Nisy
+2024-25 2024-10-30 A Mlada Boleslav v Police nad Metuji  1-3  [R3]  Hriste Spartak Police nad Metuji
+2024-25 2025-02-26 H Mlada Boleslav v Bohemians 1905  0-2  [R16]  Lokotrans Arena
+2025-26 2025-08-27 A Mlada Boleslav v Rokycany  0-6  [R2]  Stadion pod Husovymi sady
+2025-26 2025-09-24 A Mlada Boleslav v Petrin Plzen  1-4  [R3]  Fotbalove hriste SK Petrin Plzen
+2025-26 2025-11-05 A Mlada Boleslav v Bohemians 1905  0-0  [R16]  Dolicek
+2025-26 2026-03-03 H Mlada Boleslav v Sparta Prague  0-0  [QF]  Lokotrans Arena
+2025-26 2026-04-21 A Mlada Boleslav v Jablonec  1-0  [SF]  Stadion Strelnice
 
 ## Pardubice
 2021-22 2021-08-25 A Pardubice v Hostoun  0-0  [R2]  Stadion Vojtecha Zeithamla
@@ -124,6 +174,12 @@ GATES: 30/30 PASS
 2022-23 2022-09-14 A Pardubice v Velvary  1-0  [R2]  Stadion TJ Slovan Velvary
 2023-24 2023-08-30 A Pardubice v Banik Most-Sous  0-3  [R2]  Fotbalovy stadion Josefa Masopusta
 2023-24 2023-09-27 A Pardubice v Velvary  1-1  [R3]  Stadion TJ Slovan Velvary
+2024-25 2024-09-25 A Pardubice v Aritma  0-3  [R2]  Areal SK Aritma
+2024-25 2024-10-30 A Pardubice v Zapy  1-2  [R3]  Stadion TJ Sokol Zapy
+2024-25 2025-03-05 H Pardubice v Banik Ostrava  0-2  [R16]  CFIG Arena
+2025-26 2025-08-26 A Pardubice v Ceska Lipa  1-2  [R2]  TJ Stadion Novy Bor
+2025-26 2025-09-24 A Pardubice v Frydek-Mistek  1-1  [R3]  Stovky
+2025-26 2025-11-05 H Pardubice v Banik Ostrava  3-3  [R16]  CFIG Arena
 
 ## Sigma Olomouc
 2021-22 2021-08-25 A Sigma Olomouc v Unicov  2-4  [R2]  Stadion SK Unicov
@@ -136,6 +192,13 @@ GATES: 30/30 PASS
 2023-24 2023-08-30 A Sigma Olomouc v Trinec  1-4  [R2]  Stadion Rudolfa Labaje
 2023-24 2023-10-11 A Sigma Olomouc v Zizkov  0-1  [R3]  Stadion Viktorie v Seifertove ulici
 2023-24 2023-11-16 H Sigma Olomouc v Viktoria Plzen  1-3  [R16]  Andruv stadion
+2024-25 2024-10-02 A Sigma Olomouc v Bzenec  0-6  [R2]  Stadion v Zameckem Parku
+2024-25 2024-10-30 A Sigma Olomouc v Zizkov  0-2  [R3]  Stadion Viktorie v Seifertove ulici
+2024-25 2025-03-04 H Sigma Olomouc v Kromeriz  2-1  [R16]  Andruv stadion
+2024-25 2025-04-08 A Sigma Olomouc v Slavia Prague  0-1  [QF]  Fortuna Arena
+2024-25 2025-04-22 A Sigma Olomouc v Banik Ostrava  2-3  [SF]  Mestsky stadion (Ostrava)
+2024-25 2025-05-14 H Sigma Olomouc v Sparta Prague  3-1  [Final]  Andruv stadion
+2025-26 2025-09-24 A Sigma Olomouc v Nove Sady  3-2  [R3]  FK Nove Sady
 
 ## Slavia Prague
 2021-22 2021-09-22 A Slavia Prague v Velvary  2-4  [R3]  Stadion TJ Slovan Velvary
@@ -149,6 +212,12 @@ GATES: 30/30 PASS
 2023-24 2023-09-27 A Slavia Prague v Kromeriz  0-2  [R3]  Stadion Jozky Silneho
 2023-24 2023-12-06 A Slavia Prague v Hradec Kralove  0-0  [R16]  Malsovicka Arena
 2023-24 2024-02-28 H Slavia Prague v Sparta Prague  2-2  [QF]  Fortuna Arena
+2024-25 2024-10-31 A Slavia Prague v Benatky nad Jizerou  1-4  [R3]  Mestsky stadion Benatky nad Jizerou
+2024-25 2025-02-26 H Slavia Prague v Taborsko  0-0  [R16]  Fortuna Arena
+2024-25 2025-04-08 H Slavia Prague v Sigma Olomouc  0-1  [QF]  Fortuna Arena
+2025-26 2025-09-23 A Slavia Prague v Brozany  0-2  [R3]  Stadion SK Sokol Brozany
+2025-26 2025-10-29 A Slavia Prague v Zlin  0-4  [R16]  Letna Stadion
+2025-26 2026-03-03 A Slavia Prague v Jablonec  2-2  [QF]  Stadion Strelnice
 
 ## Slovacko
 2021-22 2021-09-22 A Slovacko v Zbuzany  1-2  [R3]  Stadion FK Zbuzany
@@ -161,6 +230,11 @@ GATES: 30/30 PASS
 2022-23 2023-03-01 H Slovacko v Bohemians 1905  1-2  [QF]  Mestsky fotbalovy stadion Miroslava Valenty
 2023-24 2023-08-30 A Slovacko v Hlubina  0-8  [R2]  Stadion Hlubina
 2023-24 2023-09-27 H Slovacko v Dukla Prague  3-4  [R3]  Mestsky fotbalovy stadion Miroslava Valenty
+2024-25 2024-09-25 A Slovacko v Kurim  1-3  [R2]  Mestsky fotbalovy stadion
+2024-25 2024-10-30 A Slovacko v Kromeriz  3-1  [R3]  Stadion Jozky Silneho
+2025-26 2025-08-27 A Slovacko v Hodonin  0-2  [R2]  Stadion u Cervenych domku
+2025-26 2025-09-23 A Slovacko v Horni Redice  1-2  [R3]  Fotbalovy stadion FK Horni Redice
+2025-26 2025-10-28 A Slovacko v Karvina  1-0  [R16]  Mestsky stadion (Karvina)
 
 ## Slovan Liberec
 2021-22 2021-08-25 H Slovan Liberec v Zbuzany  1-2  [R2]  Stadion u Nisy
@@ -171,6 +245,10 @@ GATES: 30/30 PASS
 2023-24 2023-09-26 A Slovan Liberec v Kladno  0-2  [R3]  Areal Frantiska Kloze
 2023-24 2023-11-01 H Slovan Liberec v Mlada Boleslav  1-0  [R16]  Stadion u Nisy
 2023-24 2024-02-28 A Slovan Liberec v Zlin  1-1  [QF]  Letna Stadion
+2024-25 2024-09-25 A Slovan Liberec v Povltavska  1-3  [R2]  Stadion Stechovice
+2024-25 2024-10-30 A Slovan Liberec v Hlucin  1-0  [R3]  Stadion Mestsky Lumira Kota
+2025-26 2025-08-27 A Slovan Liberec v Brandys nad Labem  0-6  [R2]  Na Sporilove
+2025-26 2025-09-30 A Slovan Liberec v Artis Brno  1-1  [R3]  ShipEx Arena
 
 ## Sparta Prague
 2021-22 2021-09-22 A Sparta Prague v Lisen  0-3  [R3]  Stadion SK Lisen
@@ -188,6 +266,14 @@ GATES: 30/30 PASS
 2023-24 2024-02-28 A Sparta Prague v Slavia Prague  2-2  [QF]  Fortuna Arena
 2023-24 2024-04-03 A Sparta Prague v Opava  0-2  [SF]  Stadion v Mestskych sadech
 2023-24 2024-05-22 A Sparta Prague v Viktoria Plzen  1-2  [Final]  Doosan Arena
+2024-25 2024-10-30 H Sparta Prague v Zbrojovka Brno  4-0  [R3]  epet ARENA
+2024-25 2025-02-25 H Sparta Prague v Dukla Prague  3-0  [R16]  epet ARENA
+2024-25 2025-04-09 H Sparta Prague v Teplice  2-2  [QF]  epet ARENA
+2024-25 2025-04-23 H Sparta Prague v Viktoria Plzen  1-0  [SF]  epet ARENA
+2024-25 2025-05-14 A Sparta Prague v Sigma Olomouc  3-1  [Final]  Andruv stadion
+2025-26 2025-09-24 A Sparta Prague v Karlovy Vary  0-5  [R3]  Drahovice UMT
+2025-26 2025-12-03 A Sparta Prague v Artis Brno  1-2  [R16]  ShipEx Arena
+2025-26 2026-03-03 A Sparta Prague v Mlada Boleslav  0-0  [QF]  Lokotrans Arena
 
 ## Teplice
 2021-22 2021-08-25 A Teplice v Benesov  0-1  [R2]  Mestsky Stadion
@@ -198,6 +284,12 @@ GATES: 30/30 PASS
 2022-23 2022-11-17 H Teplice v Zbrojovka Brno  2-2  [R16]  Na Stinadlech
 2023-24 2023-08-30 A Teplice v Brozany  3-4  [R2]  Ke Hristi
 2023-24 2023-09-27 A Teplice v Vyskov  1-0  [R3]  Sportovni areal Drnovice
+2024-25 2024-09-25 A Teplice v Milin  0-2  [R2]  Fotbalove hriste Milin
+2024-25 2024-10-30 A Teplice v Lisen  1-3  [R3]  Stadion SK Lisen
+2024-25 2025-03-11 A Teplice v Hlucin  1-2  [R16]  Stadion Mestsky Lumira Kota
+2024-25 2025-04-09 A Teplice v Sparta Prague  2-2  [QF]  epet ARENA
+2025-26 2025-08-26 A Teplice v Velvary  0-2  [R2]  Stadion TJ Slovan Velvary
+2025-26 2025-09-24 A Teplice v Zbrojovka Brno  2-1  [R3]  ShipEx Arena
 
 ## Viktoria Plzen
 2021-22 2021-09-21 H Viktoria Plzen v Pribram  2-1  [R3]  Doosan Arena
@@ -208,14 +300,24 @@ GATES: 30/30 PASS
 2023-24 2024-04-02 A Viktoria Plzen v Jablonec  0-3  [QF]  Stadion Strelnice
 2023-24 2024-04-24 H Viktoria Plzen v Zlin  3-0  [SF]  Doosan Arena
 2023-24 2024-05-22 H Viktoria Plzen v Sparta Prague  1-2  [Final]  Doosan Arena
+2024-25 2024-10-30 A Viktoria Plzen v Usti nad Labem  3-4  [R3]  Mestsky stadion
+2024-25 2025-02-27 H Viktoria Plzen v Zlin  1-1  [R16]  Doosan Arena
+2024-25 2025-04-10 A Viktoria Plzen v Bohemians 1905  1-3  [QF]  Dolicek
+2024-25 2025-04-23 A Viktoria Plzen v Sparta Prague  1-0  [SF]  epet ARENA
+2025-26 2025-09-16 A Viktoria Plzen v Lanznot  1-6  [R3]  Fotbalovy stadion Na Slajsi
+2025-26 2025-10-29 A Viktoria Plzen v Nove Sady  0-2  [R16]  FK Nove Sady
+2025-26 2026-03-05 A Viktoria Plzen v Karvina  3-0  [QF]  Mestsky stadion (Karvina)
 
 ## Zbrojovka Brno
-2021-22: --   (not a First-League club in 2021-22: 2022-23)
+2021-22: --   (not a First-League club in 2021-22: FL 2022-23 only (FNL otherwise))
 2022-23 2022-09-14 A Zbrojovka Brno v Rosice  0-4  [R2]  Sportovni areal FC Slovan Rosice
 2022-23 2022-10-19 A Zbrojovka Brno v Taborsko  1-2  [R3]  Stadion Kvapilova
 2022-23 2022-11-17 A Zbrojovka Brno v Teplice  2-2  [R16]  Na Stinadlech
 2022-23 2023-03-01 A Zbrojovka Brno v Ceske Budejovice  2-1  [QF]  Stadion Strelecky ostrov
-2023-24: --   (not a First-League club in 2023-24: 2022-23)
+2023-24: --   (not a First-League club in 2023-24: FL 2022-23 only (FNL otherwise))
+2024-25 2024-10-30 A Zbrojovka Brno v Sparta Prague  4-0  [R3]  epet ARENA
+2025-26 2025-09-24 H Zbrojovka Brno v Teplice  2-1  [R3]  ShipEx Arena
+2025-26 2025-11-12 H Zbrojovka Brno v Hradec Kralove  0-3  [R16]  ShipEx Arena
 
 ## Zlin
 2021-22 2021-09-01 A Zlin v Blansko  1-4  [R2]  Stadion na Mlynske
@@ -229,5 +331,20 @@ GATES: 30/30 PASS
 2023-24 2023-11-01 A Zlin v Banik Ostrava  0-1  [R16]  Mestsky stadion (Ostrava)
 2023-24 2024-02-28 H Zlin v Slovan Liberec  1-1  [QF]  Letna Stadion
 2023-24 2024-04-24 A Zlin v Viktoria Plzen  3-0  [SF]  Doosan Arena
+2024-25 2025-02-27 A Zlin v Viktoria Plzen  1-1  [R16]  Doosan Arena
+2025-26 2025-08-27 A Zlin v Hranice  0-5  [R2]  Stadion SK Hranice
+2025-26 2025-09-24 A Zlin v Usti nad Labem  0-2  [R3]  Mestsky stadion
+2025-26 2025-10-29 H Zlin v Slavia Prague  0-4  [R16]  Letna Stadion
+
+## Dukla Prague
+2021-22 2021-10-06 H Dukla Prague v Ceske Budejovice  1-3  [R3]  Stadion Juliska
+2022-23 2022-10-19 H Dukla Prague v Slavia Prague  0-4  [R3]  Stadion Juliska
+2023-24 2023-09-27 A Dukla Prague v Slovacko  3-4  [R3]  Mestsky fotbalovy stadion Miroslava Valenty
+2024-25 2024-09-25 A Dukla Prague v Usti nad Orlici  0-4  [R2]  TJ Jiskra Usti nad Orlici
+2024-25 2024-10-23 A Dukla Prague v Horovice  0-6  [R3]  Mestsky stadion
+2024-25 2025-02-25 A Dukla Prague v Sparta Prague  3-0  [R16]  epet ARENA
+2025-26 2025-08-27 A Dukla Prague v Velke Hamry  0-2  [R2]  Hriste TJ Velke Hamry
+2025-26 2025-09-30 A Dukla Prague v Jihlava  0-1  [R3]  v Jiraskove ulici
+2025-26 2025-10-28 A Dukla Prague v Jablonec  2-1  [R16]  Stadion Strelnice
 
 validation-audit sha256 (self, computed before this line is appended): see repo audit log

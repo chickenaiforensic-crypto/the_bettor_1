@@ -58,12 +58,15 @@ WORKORDER-STATUS.md  ← live queue register and reconciliation notes
 * **England Premier League pack:** RSSSF season pages (`rsssf.org/tablese/eng2022..eng2026.html`)\n  as primary — Ian King's 2021-22..2024-25 pages carry full round-by-round dates+scores+final\n  tables; the 2025-26 page (Karel Stokkermans) carries the **final table only**, a documented\n  `source_adaptation`: the 2025-26 match rows come from openfootball/england\n  (`master/2025-26/1-premierleague.txt`, labelled carrier) and reproduce the RSSSF table **exactly**\n  on full recompute. Second indexes: openfootball season files (4 × 380/380 diffs IDENTICAL),\n  the Wikipedia 2025-26 FBR results matrix (380/380 scores IDENTICAL), worldfootball matchday\n  pages (QEII round-7 10/10), football-data.co.uk E0 CSVs (adjudicated + MD31 stray dates,\n  byte-for-byte), Wikipedia season articles (venue tables ×5, 2026-27 boundary evidence).\n* **RPL CSV dataset:** football-data.co.uk combined RPL file (retrieved 2026-08-02, only data
   origin); verification-only cross-checks vs Wikipedia/tribuna/sportsmole/365scores and the
   Russian sports press, cited inline in `docs/AUDIT.md`.
-* **Czech MOL Cup pack:** RSSSF season pages (`tsje2022/2023/2024.html#cup`, primary — but they
-  carry R16→Final only, a documented adaptation) + English Wikipedia bracket sections (R2/R3
-  coverage, QF/SF/F match boxes) as the full-coverage index + worldfootball.net round pages,
-  per-tie match reports (goal timelines = all 20 aet/pens 90-minute splits; silent-aet defect
-  found in both bracket sources for Slovacko–Karvina 2021-11-12) and season stadium indexes as
-  the third anchor; lower-league tiers pinned from cs.wiki CFL/MSFL/Divize season tables.
+* **Czech MOL Cup pack (full span 2021-22 → 2025-26 under the owner override):** RSSSF season
+  pages (`tsje2022..tsje2026.html#cup`, primary — 2021-24 carry R16→Final only, the 2024-25 +
+  2025-26 pages carry R3 onward, a documented adaptation) + English Wikipedia bracket sections
+  (R2/R3 coverage ×5, QF/SF/F match boxes) as the full-coverage index + worldfootball.net round
+  pages, per-tie match reports (goal timelines = all 33 aet/pens 90-minute splits; silent-aet
+  defect found in both bracket sources for Slovacko–Karvina 2021-11-12; one wiki score typo
+  Rokycany 0-1 vs proven 0-6 in 2025-26) and season stadium indexes as the third anchor;
+  lower-league tiers pinned from cs.wiki CFL/MSFL/Divize season tables and club pages; Czech
+  aet-convention rule change from 2024-25 (extra time at R2/R3/R16 level) evidenced per-tie.
 
 ## Provenance guarantee
 
