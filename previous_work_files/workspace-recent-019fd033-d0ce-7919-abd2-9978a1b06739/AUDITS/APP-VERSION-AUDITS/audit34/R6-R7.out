@@ -1,0 +1,55 @@
+# GATE EVIDENCE — R6 + R7 (final list, 2026-08-02)
+
+**Engineer:** agent build · **Auditor:** system-side · **Status:** 🟢 all shipped with grep + store-print pins
+
+Final file: `app/app-v3.1.html` · version **v3.1.0** (badge + footer) · md5 `dad4babde375f0b302d0f9ecee9dbc1b` · 589,195 B
+Delivery: **base64-.txt drill only** (`deliver/`), decode → md5 matches (proven below).
+
+---
+
+## R6(a) — MUTE rationale in store.mutes.reason ✅ (store print shown this time)
+Root cause found: `store.migrate()` rebuilt mutes from the muted-flag with `reason:"imported muted flag"` and dropped date/home/away. Fixed: migrate now **carries existing mutes verbatim** (no-abolition) and only creates a fallback entry (with full fields) for muted rows with no carried entry.
+
+**Store print (from the final file, `PR.store.load().mutes`):**
+```json
+[
+  { "date": "2024-12-01", "home": "Zenit St Petersburg", "away": "Krylia Sovetov Samara",
+    "reason": "integrity: market-flagged favorite collapse (IA-02)", "sourceId": "src-integrity-2026" },
+  { "date": "2024-12-07", "home": "Zenit St Petersburg", "away": "Akron Tolyatti",
+    "reason": "integrity: market-flagged favorite collapse (IA-01)", "sourceId": "src-integrity-2026" },
+  { "date": "2025-04-11", "home": "Spartak Moscow", "away": "Dynamo Makhachkala",
+    "reason": "integrity: market-flagged favorite collapse (IA-03)", "sourceId": "src-integrity-2026" }
+]
+```
+Pin: `smoke_test_v3.js` — `R6a: mute reasons carry the IA pack rationale (store print)` asserts all 3 reasons match `/IA-0[123]/` and contain "integrity". PASS.
+
+## R6(b) — unique version per ship (badge + footer) ✅
+`APP_VERSION` bumped to **3.1.0**; badge and footer both render it (single source `PR.store.APP_VERSION`). Pins: meta version = 3.1.0 · rendered chrome contains `v3.1.0` · no stale `3.0.0` in rendered chrome. PASS. (Schema version `v3.0.0` is internal-only, never rendered.)
+
+## R6(c) — base64-.txt delivery only ✅
+`deliver/app-v3.1.0-dad4babd.b64.txt` (base64 of the app) + `ZONES-v3.1.0.b64.txt` + `R1-R5-corrections.b64.txt` + `DELIVERY-README.txt`.
+Decode + md5 proof (run this session):
+```
+$ base64 -d deliver/app-v3.1.0-dad4babd.b64.txt | md5sum
+dad4babde375f0b302d0f9ecee9dbc1b   -          ← matches
+$ md5sum app/app-v3.1.html
+dad4babde375f0b302d0f9ecee9dbc1b   app/app-v3.1.html
+```
+Same for ZONES and R1-R5 (both match). The raw-.html CDN block is avoided by never shipping raw .html.
+
+## R6(d) — "fitted fitted" typo ✅
+Root cause: `provenance.hda = 'fitted scoreGrid + star draw correction'` concatenated after `'..., fitted '`. Fixed: hda strings no longer carry the "fitted" prefix; compute wording is `'Dixon-Coles — scoreGrid + star draw correction'`. Pin asserts provenance contains no "fitted fitted". PASS.
+
+## R7 — graph one tap away on fitted-validated leagues ✅
+Fitted cards (RPL/CZ1 replay-validated, and the 18 migrated leagues) now append a **Match history** section rendered as a native one-tap `<details>` disclosure: "Head-to-head · Common opponents · Level-3" with the per-side two-sided records (R3), goals read, and a plain-language note. Pin renders CSKA v Krylia and asserts `details class="graph"` + summary present. PASS.
+
+---
+
+## Final suite state
+| Check | Result |
+|---|---|
+| `smoke_test_v3.js` (new app, incl. R6a/b/d + R7 pins) | **48/48** |
+| `compare-legacy-engine.js` (evidence parity) | 7/7 identical |
+| `smoke_test.js` (legacy golden, untouched) | 156/156 |
+| CF grep (`cdn-cgi\|challenge-platform`) | 0 |
+| b64 decode md5 (app · ZONES · R1-R5) | all match |

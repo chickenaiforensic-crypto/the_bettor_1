@@ -1,0 +1,652 @@
+[
+ {
+  "date": "2026-03-15",
+  "home": "rubin",
+  "away": "lokomotiv",
+  "score": "3-0",
+  "leader": "lokomotiv",
+  "winner": "rubin",
+  "margin": 3,
+  "zone": "TB WIN 71.9%",
+  "key": "win",
+  "agree": 3,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "33.3/0.0/66.7",
+    "leadSide": "A",
+    "lead": 66.7
+   },
+   {
+    "name": "Common opponents",
+    "bal": "5.9/23.5/70.6",
+    "leadSide": "A",
+    "lead": 70.6
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "15.0/10.0/75.0",
+    "leadSide": "A",
+    "lead": 75
+   }
+  ],
+  "perf": {
+   "starH": 31.4,
+   "starA": 100,
+   "h": {
+    "n": 27,
+    "sos": 46.9,
+    "perf": 11.8
+   },
+   "a": {
+    "n": 29,
+    "sos": 47.4,
+    "perf": 28
+   }
+  },
+  "paths": 40,
+  "pc": {
+   "h2h": 3,
+   "common": 17,
+   "third": 20
+  }
+ },
+ {
+  "date": "2024-10-19",
+  "home": "himki",
+  "away": "lokomotiv",
+  "score": "2-0",
+  "leader": "lokomotiv",
+  "winner": "himki",
+  "margin": 2,
+  "zone": "TB WIN 73.2%",
+  "key": "win",
+  "agree": 2,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "0.0/0.0/100.0",
+    "leadSide": "A",
+    "lead": 100
+   },
+   {
+    "name": "Common opponents",
+    "bal": "0.0/0.0/100.0",
+    "leadSide": "A",
+    "lead": 100
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "35.0/15.0/50.0",
+    "leadSide": "A",
+    "lead": 50
+   }
+  ],
+  "perf": {
+   "starH": 15.2,
+   "starA": 86.7,
+   "h": {
+    "n": 16,
+    "sos": 42.9,
+    "perf": 8.1
+   },
+   "a": {
+    "n": 16,
+    "sos": 29.6,
+    "perf": 21.6
+   }
+  },
+  "paths": 32,
+  "pc": {
+   "h2h": 2,
+   "common": 10,
+   "third": 20
+  }
+ },
+ {
+  "date": "2024-11-03",
+  "home": "akhmat",
+  "away": "pari-nn",
+  "score": "0-2",
+  "leader": "akhmat",
+  "winner": "pari-nn",
+  "margin": 2,
+  "zone": "TA WIN 73.3%",
+  "key": "win",
+  "agree": 2,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "100.0/0.0/0.0",
+    "leadSide": "H",
+    "lead": 100
+   },
+   {
+    "name": "Common opponents",
+    "bal": "33.3/16.7/50.0",
+    "leadSide": "A",
+    "lead": 50
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "100.0/0.0/0.0",
+    "leadSide": "H",
+    "lead": 100
+   }
+  ],
+  "perf": {
+   "starH": 21.1,
+   "starA": 14.9,
+   "h": {
+    "n": 19,
+    "sos": 43.8,
+    "perf": 12.7
+   },
+   "a": {
+    "n": 19,
+    "sos": 46,
+    "perf": 9.7
+   }
+  },
+  "paths": 34,
+  "pc": {
+   "h2h": 2,
+   "common": 12,
+   "third": 20
+  }
+ },
+ {
+  "date": "2025-10-27",
+  "home": "akhmat",
+  "away": "sochi",
+  "score": "2-4",
+  "leader": "akhmat",
+  "winner": "sochi",
+  "margin": 2,
+  "zone": "TA WIN 86.5%",
+  "key": "win",
+  "agree": 2,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "Common opponents",
+    "bal": "81.8/0.0/18.2",
+    "leadSide": "H",
+    "lead": 81.8
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "90.0/5.0/5.0",
+    "leadSide": "H",
+    "lead": 90
+   }
+  ],
+  "perf": {
+   "starH": 15.5,
+   "starA": 0,
+   "h": {
+    "n": 18,
+    "sos": 46.3,
+    "perf": 14.8
+   },
+   "a": {
+    "n": 18,
+    "sos": 55.4,
+    "perf": 2.3
+   }
+  },
+  "paths": 31,
+  "pc": {
+   "h2h": 0,
+   "common": 11,
+   "third": 20
+  }
+ },
+ {
+  "date": "2025-11-06",
+  "home": "spartak",
+  "away": "lokomotiv",
+  "score": "3-1",
+  "leader": "lokomotiv",
+  "winner": "spartak",
+  "margin": 2,
+  "zone": "TB WIN 67.6%",
+  "key": "win",
+  "agree": 2,
+  "contra": [
+   {
+    "name": "Common opponents",
+    "lead": 56.25
+   }
+  ],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "33.3/0.0/66.7",
+    "leadSide": "A",
+    "lead": 66.7
+   },
+   {
+    "name": "Common opponents",
+    "bal": "56.3/6.3/37.5",
+    "leadSide": "H",
+    "lead": 56.3
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "0.0/0.0/100.0",
+    "leadSide": "A",
+    "lead": 100
+   }
+  ],
+  "perf": {
+   "starH": 81.3,
+   "starA": 100,
+   "h": {
+    "n": 20,
+    "sos": 38.9,
+    "perf": 12.6
+   },
+   "a": {
+    "n": 20,
+    "sos": 49.3,
+    "perf": 33.1
+   }
+  },
+  "paths": 39,
+  "pc": {
+   "h2h": 3,
+   "common": 16,
+   "third": 20
+  }
+ },
+ {
+  "date": "2024-12-01",
+  "home": "zenit",
+  "away": "krylja",
+  "score": "2-3",
+  "leader": "zenit",
+  "winner": "krylja",
+  "margin": 1,
+  "zone": "TA WIN 90.2%",
+  "key": "win",
+  "agree": 3,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "100.0/0.0/0.0",
+    "leadSide": "H",
+    "lead": 100
+   },
+   {
+    "name": "Common opponents",
+    "bal": "78.6/14.3/7.1",
+    "leadSide": "H",
+    "lead": 78.6
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "100.0/0.0/0.0",
+    "leadSide": "H",
+    "lead": 100
+   }
+  ],
+  "perf": {
+   "starH": 100,
+   "starA": 2.2,
+   "h": {
+    "n": 24,
+    "sos": 30,
+    "perf": 22.6
+   },
+   "a": {
+    "n": 22,
+    "sos": 45,
+    "perf": 3.9
+   }
+  },
+  "paths": 35,
+  "pc": {
+   "h2h": 1,
+   "common": 14,
+   "third": 20
+  }
+ },
+ {
+  "date": "2024-12-07",
+  "home": "zenit",
+  "away": "akron",
+  "score": "1-2",
+  "leader": "zenit",
+  "winner": "akron",
+  "margin": 1,
+  "zone": "TA WIN 69.4%",
+  "key": "win",
+  "agree": 3,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "66.7/33.3/0.0",
+    "leadSide": "H",
+    "lead": 66.7
+   },
+   {
+    "name": "Common opponents",
+    "bal": "85.7/0.0/14.3",
+    "leadSide": "H",
+    "lead": 85.7
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "55.0/25.0/20.0",
+    "leadSide": "H",
+    "lead": 55
+   }
+  ],
+  "perf": {
+   "starH": 96.4,
+   "starA": 30.5,
+   "h": {
+    "n": 25,
+    "sos": 29.7,
+    "perf": 22.4
+   },
+   "a": {
+    "n": 24,
+    "sos": 41.5,
+    "perf": 9.7
+   }
+  },
+  "paths": 37,
+  "pc": {
+   "h2h": 3,
+   "common": 14,
+   "third": 20
+  }
+ },
+ {
+  "date": "2025-05-17",
+  "home": "himki",
+  "away": "rubin",
+  "score": "3-2",
+  "leader": "rubin",
+  "winner": "himki",
+  "margin": 1,
+  "zone": "TB WIN 65.1%",
+  "key": "win",
+  "agree": 2,
+  "contra": [
+   {
+    "name": "H2H",
+    "lead": 100
+   }
+  ],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "100.0/0.0/0.0",
+    "leadSide": "H",
+    "lead": 100
+   },
+   {
+    "name": "Common opponents",
+    "bal": "20.0/13.3/66.7",
+    "leadSide": "A",
+    "lead": 66.7
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "15.0/15.0/70.0",
+    "leadSide": "A",
+    "lead": 70
+   }
+  ],
+  "perf": {
+   "starH": 8.9,
+   "starA": 44.8,
+   "h": {
+    "n": 35,
+    "sos": 42.8,
+    "perf": 11.2
+   },
+   "a": {
+    "n": 37,
+    "sos": 46.9,
+    "perf": 15.7
+   }
+  },
+  "paths": 36,
+  "pc": {
+   "h2h": 1,
+   "common": 15,
+   "third": 20
+  }
+ },
+ {
+  "date": "2025-07-29",
+  "home": "akron",
+  "away": "baltika",
+  "score": "2-1",
+  "leader": "baltika",
+  "winner": "akron",
+  "margin": 1,
+  "zone": "TB STRONG 100.0%",
+  "key": "strong",
+  "agree": 2,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "Common opponents",
+    "bal": "0.0/0.0/100.0",
+    "leadSide": "A",
+    "lead": 100
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "0.0/0.0/100.0",
+    "leadSide": "A",
+    "lead": 100
+   }
+  ],
+  "perf": {
+   "starH": 26,
+   "starA": 48.7,
+   "h": null,
+   "a": null
+  },
+  "paths": 22,
+  "pc": {
+   "h2h": 0,
+   "common": 2,
+   "third": 20
+  }
+ },
+ {
+  "date": "2025-11-01",
+  "home": "rostov",
+  "away": "akron",
+  "score": "0-1",
+  "leader": "rostov",
+  "winner": "akron",
+  "margin": 1,
+  "zone": "TA WIN 75.8%",
+  "key": "win",
+  "agree": 2,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "50.0/0.0/50.0",
+    "leadSide": "H",
+    "lead": 50
+   },
+   {
+    "name": "Common opponents",
+    "bal": "66.7/6.7/26.7",
+    "leadSide": "H",
+    "lead": 66.7
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "90.0/5.0/5.0",
+    "leadSide": "H",
+    "lead": 90
+   }
+  ],
+  "perf": {
+   "starH": 47.1,
+   "starA": 10.7,
+   "h": {
+    "n": 19,
+    "sos": 45.4,
+    "perf": 19.7
+   },
+   "a": {
+    "n": 19,
+    "sos": 58.7,
+    "perf": 14.7
+   }
+  },
+  "paths": 37,
+  "pc": {
+   "h2h": 2,
+   "common": 15,
+   "third": 20
+  }
+ },
+ {
+  "date": "2026-04-17",
+  "home": "rostov",
+  "away": "sochi",
+  "score": "0-1",
+  "leader": "rostov",
+  "winner": "sochi",
+  "margin": 1,
+  "zone": "TA WIN 93.4%",
+  "key": "win",
+  "agree": 3,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "100.0/0.0/0.0",
+    "leadSide": "H",
+    "lead": 100
+   },
+   {
+    "name": "Common opponents",
+    "bal": "85.7/0.0/14.3",
+    "leadSide": "H",
+    "lead": 85.7
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "100.0/0.0/0.0",
+    "leadSide": "H",
+    "lead": 100
+   }
+  ],
+  "perf": {
+   "starH": 32.5,
+   "starA": 0,
+   "h": {
+    "n": 32,
+    "sos": 46.5,
+    "perf": 17.4
+   },
+   "a": {
+    "n": 30,
+    "sos": 53.1,
+    "perf": 5.7
+   }
+  },
+  "paths": 35,
+  "pc": {
+   "h2h": 1,
+   "common": 14,
+   "third": 20
+  }
+ },
+ {
+  "date": "2026-05-01",
+  "home": "krylja",
+  "away": "spartak",
+  "score": "2-1",
+  "leader": "spartak",
+  "winner": "krylja",
+  "margin": 1,
+  "zone": "TB WIN 72.1%",
+  "key": "win",
+  "agree": 3,
+  "contra": [],
+  "gatedFrom": null,
+  "c5From": null,
+  "secs": [
+   {
+    "name": "H2H",
+    "bal": "0.0/0.0/100.0",
+    "leadSide": "A",
+    "lead": 100
+   },
+   {
+    "name": "Common opponents",
+    "bal": "12.5/12.5/75.0",
+    "leadSide": "A",
+    "lead": 75
+   },
+   {
+    "name": "Level-3 chains",
+    "bal": "25.0/20.0/55.0",
+    "leadSide": "A",
+    "lead": 55
+   }
+  ],
+  "perf": {
+   "starH": 5.2,
+   "starA": 100,
+   "h": {
+    "n": 37,
+    "sos": 50.1,
+    "perf": 14.7
+   },
+   "a": {
+    "n": 38,
+    "sos": 43.3,
+    "perf": 20
+   }
+  },
+  "paths": 41,
+  "pc": {
+   "h2h": 5,
+   "common": 16,
+   "third": 20
+  }
+ }
+]

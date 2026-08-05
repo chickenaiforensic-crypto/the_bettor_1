@@ -1,0 +1,63 @@
+date,comp,home,away,hg,ag,note
+2024-10-23,CUP,Horovice,Dukla,0,6,cup
+2024-10-30,CUP,Loko Praha,Hradec,0,1,cup
+2024-10-30,CUP,Zapy,Pardubice,1,2,cup
+2024-10-30,CUP,Kromeriz,Slovacko,3,1,cup
+2024-10-30,CUP,Police n/M,Ml.Boleslav,1,3,cup
+2024-10-30,CUP,Hlucin,Liberec,1,0,cup
+2024-10-30,CUP,Usti n/L,Plzen,3,4,cup
+2024-10-30,CUP,Zizkov,Olomouc,0,2,cup
+2024-10-30,CUP,Varnsdorf,Ostrava,1,3,cup
+2024-10-30,CUP,Sparta,Zbrojovka,4,0,cup
+2024-10-30,CUP,Artis Brno,Teplice,1,3,cup lisen-identity
+2024-10-30,CUP,Vyskov,Bohemians,0,1,cup
+2024-10-30,CUP,Opava,Zlin,1,2,cup
+2024-10-31,CUP,Benatky,Slavia,1,4,cup
+2024-11-05,CUP,Uhersky Brod,Jablonec,0,1,cup
+2024-11-06,CUP,Taborsko,C.Budejovice,0,0,cup-aet90
+2025-02-25,CUP,Sparta,Dukla,3,0,cup
+2025-02-26,CUP,Ml.Boleslav,Bohemians,0,2,cup
+2025-02-26,CUP,Slavia,Taborsko,0,0,cup-aet90
+2025-02-27,CUP,Plzen,Zlin,1,1,cup-aet90
+2025-03-04,CUP,Olomouc,Kromeriz,2,1,cup
+2025-03-05,CUP,Pardubice,Ostrava,0,2,cup
+2025-03-11,CUP,Hlucin,Teplice,1,2,cup
+2025-03-12,CUP,Hradec,Jablonec,1,2,cup
+2025-04-08,CUP,Slavia,Olomouc,0,1,cup
+2025-04-09,CUP,Jablonec,Ostrava,0,1,cup
+2025-04-09,CUP,Sparta,Teplice,1,1,cup-aet90 user-90
+2025-04-10,CUP,Bohemians,Plzen,1,3,cup
+2025-04-22,CUP,Ostrava,Olomouc,2,3,cup
+2025-04-23,CUP,Sparta,Plzen,1,0,cup
+2025-05-14,CUP,Olomouc,Sparta,3,1,cup-final
+2025-09-16,CUP,Lanznot,Plzen,1,6,cup
+2025-09-23,CUP,Brozany,Slavia,0,2,cup
+2025-09-23,CUP,Redice,Slovacko,1,2,cup
+2025-09-23,CUP,Taborsko,Karvina,1,6,cup
+2025-09-24,CUP,Domazlice,Bohemians,1,4,cup
+2025-09-24,CUP,C.Budejovice,Ostrava,2,3,cup
+2025-09-24,CUP,Nove Sady,Olomouc,3,2,cup
+2025-09-24,CUP,Karlovy Vary,Sparta,0,5,cup
+2025-09-24,CUP,Frydek,Pardubice,1,1,cup-aet90
+2025-09-24,CUP,Hlinsko,Jablonec,0,2,cup
+2025-09-24,CUP,Petrin Plzen,Ml.Boleslav,1,4,cup
+2025-09-24,CUP,Usti n/L,Zlin,0,2,cup
+2025-09-24,CUP,Zbrojovka,Teplice,2,1,cup
+2025-09-30,CUP,Artis Brno,Liberec,1,1,cup-aet90
+2025-09-30,CUP,Jihlava,Dukla,0,1,cup
+2025-10-01,CUP,Trinec,Hradec,3,3,cup-aet90
+2025-10-28,CUP,Karvina,Slovacko,1,0,cup
+2025-10-28,CUP,Jablonec,Dukla,2,1,cup
+2025-10-29,CUP,Nove Sady,Plzen,0,2,cup
+2025-10-29,CUP,Zlin,Slavia,0,4,cup
+2025-11-05,CUP,Pardubice,Ostrava,3,3,cup-aet90 user-supplied-90
+2025-11-05,CUP,Bohemians,Ml.Boleslav,0,0,cup-aet90
+2025-11-12,CUP,Zbrojovka,Hradec,0,3,cup
+2025-12-03,CUP,Artis Brno,Sparta,1,2,cup
+2026-03-03,CUP,Jablonec,Slavia,2,2,cup-aet90
+2026-03-03,CUP,Ml.Boleslav,Sparta,0,0,cup-aet90
+2026-03-04,CUP,Hradec,Ostrava,0,0,cup-aet90
+2026-03-05,CUP,Karvina,Plzen,3,0,cup
+2026-04-21,CUP,Jablonec,Ml.Boleslav,1,0,cup
+2026-04-21,CUP,Karvina,Ostrava,2,1,cup
+2026-05-20,CUP,Ml.Boleslav,Karvina,1,3,cup-final

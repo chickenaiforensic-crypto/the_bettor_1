@@ -1,0 +1,136 @@
+{
+ "span": {
+  "mapped": {
+   "Alavés": "Deportivo Alavés (Vitoria)",
+   "Almería": "UD Almería",
+   "Athletic": "Athletic de Bilbao",
+   "Atlético": "Atlético de Madrid",
+   "Betis": "Real Betis Balompié (Sevilla)",
+   "Celta": "RC Celta (Vigo)",
+   "Cádiz": "Cádiz CF",
+   "Elche": "Elche CF",
+   "Espanyol": "RCD Espanyol (Barcelona)",
+   "Getafe": "Getafe CF",
+   "Girona": "Girona FC",
+   "Las Palmas": "UD Las Palmas",
+   "Mallorca": "RCD Mallorca (Palma de M.)",
+   "Osasuna": "CA Osasuna (Pamplona)",
+   "Rayo Vallecano": "Rayo Vallecano",
+   "Sevilla": "Sevilla FC",
+   "Sociedad": "Real Sociedad (San Sebastián)",
+   "Valencia": "Valencia CF",
+   "Villarreal": "Villarreal CF"
+  },
+  "multi": {
+   "Barcelona": [
+    "RCD Espanyol (Barcelona)",
+    "FC Barcelona"
+   ],
+   "Madrid": [
+    "Real Madrid CF",
+    "Atlético de Madrid"
+   ]
+  },
+  "unmapped": [
+   "Granada",
+   "Leganés",
+   "Levante",
+   "Valladolid"
+  ]
+ },
+ "ital": {
+  "mapped": {
+   "Atalanta": "Atalanta BC",
+   "Bologna": "Bologna FC",
+   "Cagliari": "Cagliari Calcio",
+   "Como": "Como 1907",
+   "Empoli": "Empoli FC",
+   "Fiorentina": "AC Fiorentina",
+   "Genoa": "Genoa CFC",
+   "Hellas Verona": "Hellas Verona FC",
+   "Inter": "FC Internazionale",
+   "Juventus": "Juventus FC",
+   "Lazio": "SS Lazio",
+   "Lecce": "US Lecce",
+   "Milan": "Milan AC",
+   "Monza": "AC Monza",
+   "Napoli": "SSC Napoli",
+   "Parma": "Parma Calcio",
+   "Roma": "AS Roma",
+   "Salernitana": "US Salernitana",
+   "Sampdoria": "UC Sampdoria",
+   "Sassuolo": "US Sassuolo",
+   "Spezia": "Spezia Calcio",
+   "Torino": "Torino FC",
+   "Udinese": "Udinese Calcio"
+  },
+  "multi": {},
+  "unmapped": [
+   "Cremonese",
+   "Frosinone",
+   "Venezia"
+  ]
+ },
+ "duit": {
+  "mapped": {
+   "Bayern": "FC Bayern München",
+   "Dortmund": "Borussia Dortmund",
+   "Frankfurt": "Eintracht Frankfurt",
+   "Freiburg": "SC Freiburg",
+   "Hoffenheim": "TSG 1899 Hoffenheim",
+   "Leipzig": "RB Leipzig",
+   "Leverkusen": "Bayer 04 Leverkusen",
+   "Stuttgart": "VfB Stuttgart"
+  },
+  "multi": {},
+  "unmapped": [
+   "Augsburg",
+   "Bielefeld",
+   "Bochum",
+   "Bremen",
+   "Darmstadt",
+   "Greuther Fürth",
+   "Heidenheim",
+   "Hertha",
+   "Kiel",
+   "Köln",
+   "Mainz",
+   "Mönchengladbach",
+   "Sankt Pauli",
+   "Schalke",
+   "Union",
+   "Wolfsburg"
+  ]
+ },
+ "fran": {
+  "mapped": {
+   "Angers": "Angers SCO",
+   "Auxerre": "AJ Auxerre",
+   "Brest": "Stade Brestois",
+   "Clermont": "Clermont Foot Auvergne 63",
+   "Le Havre": "Le Havre AC",
+   "Lens": "RC Lens",
+   "Lille": "Lille OSC",
+   "Lorient": "FC Lorient",
+   "Lyon": "Olympique Lyonnais",
+   "Marseille": "Olympique de Marseille",
+   "Monaco": "AS Monaco",
+   "Montpellier": "Montpellier-Hérault SC",
+   "Nantes": "FC Nantes",
+   "Nice": "OGC Nice",
+   "Reims": "Stade de Reims",
+   "Strasbourg": "RC Strasbourg Alsace",
+   "Toulouse": "Toulouse FC",
+   "Troyes": "ES Troyes AC"
+  },
+  "multi": {},
+  "unmapped": [
+   "Ajaccio",
+   "Bordeaux",
+   "Metz",
+   "Paris-SG",
+   "Rennes",
+   "Saint-Etienne"
+  ]
+ }
+}

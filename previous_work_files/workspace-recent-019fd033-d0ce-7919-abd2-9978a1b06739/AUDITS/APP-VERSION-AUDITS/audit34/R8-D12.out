@@ -1,0 +1,77 @@
+# GATE EVIDENCE — AMENDMENT-2 D12 Central Request System + R8 pins (2026-08-02)
+
+**Engineer:** agent build · **Auditor:** system-side · **Status:** 🟢 all R8 pins green on the final file
+
+Final file: `app/app-v3.2.html` · version **v3.2.0** · md5 `fb4b037da77d8ed40f8204e6209f15a6` · 600,967 B
+Delivery: `deliver/app-v3.2.0-fb4b037d.b64.txt` (+ ZONES/R1-R5/R6-R7 b64) — decode → md5 matches (proven).
+
+---
+
+## R6 re-proof on the final file (the re-sent list)
+- **R6(a)** — store print (final file, `PR.store.load().mutes`):
+  ```json
+  [{ "date":"2024-12-01","home":"Zenit St Petersburg","away":"Krylia Sovetov Samara",
+     "reason":"integrity: market-flagged favorite collapse (IA-02)","sourceId":"src-integrity-2026" },
+   { "date":"2024-12-07","home":"Zenit St Petersburg","away":"Akron Tolyatti",
+     "reason":"integrity: market-flagged favorite collapse (IA-01)","sourceId":"src-integrity-2026" },
+   { "date":"2025-04-11","home":"Spartak Moscow","away":"Dynamo Makhachkala",
+     "reason":"integrity: market-flagged favorite collapse (IA-03)","sourceId":"src-integrity-2026" }]
+  ```
+- **R6(b)** — badge `<span class="ver">v3.2.0</span>` · footer `Pitch Rating v3.2.0` · no stale 3.0.0/3.1.0 in chrome.
+- **R6(c)** — b64 drill: `base64 -d deliver/app-v3.2.0-fb4b037d.b64.txt | md5sum` = `fb4b037da77d8ed40f8204e6209f15a6` (matches). CDN block re-proven on `uploads/app-v3.1-stripped.html` (352-byte Cloudflare beacon; strip md5 ≠ any clean build).
+- **R6(d)** — `grep -c "fitted fitted" app-v3.2.html` → **0**.
+- **R7** — graph one tap away: `<details class="graph"><summary>Head-to-head · Common opponents · Level-3</summary>` + R3 per-side records.
+
+## D12 Central Request System — what shipped
+Requests tab shows **exactly one primary action** ("New central request"). On tap:
+1. `system-snapshot-20260802-<hash8>.json` — full store export + snapshot header `{format:'pitch-rating-system-snapshot', requestDate, storeHash}`.
+2. `central-request-20260802.txt` — grammar `PITCH-RATING CENTRAL-REQUEST v1`: request-date · store-hash · system-snapshot · return-to; a `SECTION|<league>|<code>|window=<from>..<date>` per stale/REQUESTED league with one `team|<name>|<data-current-through>|<missing in words>` line per stocked team (real last-game date from the store) and an `acceptance|...` line; `excluded|<league>|<reason>` lines for leagues current through the request date; `END`.
+3. Log entry `system/request` naming both files.
+
+Returns `central-request-<date>-r<n>.txt` drop into Files intake → matched to the open request → ONE approval → per-section validation → commit → coverage closes per section → `post-return` snapshot stamped in Integrity. Per-league request-file generation removed (D12-5).
+
+## R8 acceptance — run output (`harness/acceptance-r8.js`, **13/13**)
+```
+PASS R8-1 Requests tab shows exactly ONE action
+PASS R8-1 tapping writes snapshot + request files
+PASS R8-1 log line system/request written
+PASS R8-1 request record stored (state sent)
+PASS R8-2 header is PITCH-RATING CENTRAL-REQUEST v1
+PASS R8-2 request covers entire system (sections cover whole store; excluded may be 0 when nothing is current)
+PASS R8-2 stale leagues are SECTIONS (RPL/CZ1/SC1/E0)
+PASS R8-2 team lines carry real last-store-game dates (5 spot-checked)
+PASS R8-3 return parses clean
+PASS R8-3 one approval commits → coverage flips (KOS +1)
+PASS R8-3 post-return snapshot stamped
+PASS R8-4 header is PITCH-RATING CENTRAL-REQUEST v1
+PASS R8-4 no league-<code>-<window> filename generation
+```
+
+## Sample central request (final file, first lines)
+```
+PITCH-RATING CENTRAL-REQUEST v1
+request-date|2026-08-02
+store-hash|5044bf72
+system-snapshot|system-snapshot-20260802-5044bf72.json
+return-to|data intake (Files) — drop results here; name returns central-request-20260802-r<n>.txt
+
+SECTION|ALB|ALB|window=2026-07-09..2026-08-02
+team|Vllaznia|2026-07-15|rows after 2026-07-15 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+...
+SECTION|CZ1|CZ1|window=2024-07-19..2026-08-02
+team|Artis Brno|2026-07-27|rows after 2026-07-27 + any cup ties played
+...
+```
+
+## Greps (final file)
+| Pin | Result |
+|---|---|
+| `grep -c "cdn-cgi\|challenge-platform"` | 0 |
+| `grep -c "fitted fitted"` | 0 |
+| `grep -c "PITCH-RATING CENTRAL-REQUEST v1"` | 1 |
+| `grep -c 'league-<code>-<window>'` / per-league gen | 0 |
+
+## Full suite state
+new-app smoke **48/48** · R8 **13/13** · evidence parity **7/7** · legacy 156/156 · R1 acceptance (Krasnodar/Fakel ≤3 steps) green · CF 0.

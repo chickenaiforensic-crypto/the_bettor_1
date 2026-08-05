@@ -1,0 +1,73 @@
+store rows: 623  pre-cutoff: 623
+Liberec games pre-cutoff: 70  Teplice games pre-cutoff: 75
+Liberec last 8: 04-18 v Ml.Boleslav 0-0 | 04-25 at Jablonec 2-1 | 05-02 v Slavia 1-2 | 05-09 at Plzen 0-2 | 05-13 at Hradec 0-1 | 05-17 v Sparta 0-2 | 05-24 at Jablonec 1-2 | 07-25 at Plzen 3-1
+Teplice last 8: 04-18 at Zlin 2-3 | 04-25 v Hradec 0-1 | 05-03 v Slovacko 1-1 | 05-09 v Ostrava 2-1 | 05-12 at Zlin 4-2 | 05-16 v Dukla 2-0 | 05-23 at Ml.Boleslav 2-0 | 07-25 v Bohemians 3-1
+
+=== PATHS 41  phaseCounts: {"h2h":4,"common":17,"third":20}
+sample path raw: {
+ "phase": "h2h",
+ "weight": 3,
+ "estimate": -1,
+ "text": "2024-08-10 Teplice 2-1 Liberec (home)",
+ "via": "",
+ "meta": {
+  "phase": "h2h",
+  "estimate": -1,
+  "weight": 3,
+  "ids": [
+   "2024-08-10|CZE1|Teplice|Liberec|2|1|home"
+  ],
+  "label": "2024-08-10 Teplice 2-1 Liberec (home)",
+  "context": "CZE1"
+ }
+}
+
+=== H2H paths:
+  w=3.00 est=-1.000 2024-08-10 Teplice 2-1 Liberec (home)
+  w=3.00 est=3.000 2024-12-08 Liberec 3-0 Teplice (home)
+  w=3.00 est=0.000 2025-10-18 Teplice 1-1 Liberec (home)
+  w=3.00 est=0.000 2026-03-15 Liberec 1-1 Teplice (home)
+
+=== COMMON-opponent paths (sorted by weight):
+  w=2.00 est=2.000 common opponent Karvina; Liberec GD 1.25 vs Teplice GD -0.75
+  w=2.00 est=1.250 common opponent Olomouc; Liberec GD 0.75 vs Teplice GD -0.50
+  w=2.00 est=0.200 common opponent Slavia; Liberec GD -0.80 vs Teplice GD -1.00
+  w=2.00 est=0.800 common opponent Pardubice; Liberec GD 2.00 vs Teplice GD 1.20
+  w=2.00 est=0.200 common opponent Ostrava; Liberec GD 0.00 vs Teplice GD -0.20
+  w=2.00 est=0.250 common opponent Plzen; Liberec GD -0.50 vs Teplice GD -0.75
+  w=2.00 est=-1.333 common opponent Bohemians; Liberec GD -0.33 vs Teplice GD 1.00
+  w=2.00 est=0.583 common opponent Dukla; Liberec GD 1.25 vs Teplice GD 0.67
+  w=2.00 est=0.100 common opponent Jablonec; Liberec GD -1.40 vs Teplice GD -1.50
+  w=2.00 est=0.000 common opponent Sparta; Liberec GD -0.80 vs Teplice GD -0.80
+  w=2.00 est=2.333 common opponent Slovacko; Liberec GD 3.00 vs Teplice GD 0.67
+  w=2.00 est=-2.000 common opponent Hlucin; Liberec GD -1.00 vs Teplice GD 1.00
+  w=2.00 est=-1.000 common opponent C.Budejovice; Liberec GD 1.00 vs Teplice GD 2.00
+  w=2.00 est=0.450 common opponent Hradec; Liberec GD 0.20 vs Teplice GD -0.25
+  w=2.00 est=0.583 common opponent Ml.Boleslav; Liberec GD 0.25 vs Teplice GD -0.33
+  w=2.00 est=0.833 common opponent Zlin; Liberec GD 0.50 vs Teplice GD -0.33
+  w=2.00 est=-2.000 common opponent Artis Brno; Liberec GD 0.00 vs Teplice GD 2.00
+
+=== TOP level-3 chains (of 20):
+  w=1.50 est=1.100 opponent-of-opponent chain: Liberec→Karvina (1.25), Karvina→Pardubice (0.00), Teplice→Hradec (-0.25), Hradec→Pardubice (0.40)
+  w=1.50 est=1.700 opponent-of-opponent chain: Liberec→Karvina (1.25), Karvina→Plzen (-1.20), Teplice→Hradec (-0.25), Hradec→Plzen (-1.40)
+  w=1.50 est=0.583 opponent-of-opponent chain: Liberec→Karvina (1.25), Karvina→Bohemians (0.25), Teplice→Hradec (-0.25), Hradec→Bohemians (1.17)
+  w=1.50 est=1.700 opponent-of-opponent chain: Liberec→Karvina (1.25), Karvina→Ostrava (0.20), Teplice→Hradec (-0.25), Hradec→Ostrava (0.00)
+  w=1.50 est=1.000 opponent-of-opponent chain: Liberec→Karvina (1.25), Karvina→Dukla (0.75), Teplice→Hradec (-0.25), Hradec→Dukla (1.25)
+  w=1.50 est=0.500 opponent-of-opponent chain: Liberec→Karvina (1.25), Karvina→Jablonec (-1.50), Teplice→Hradec (-0.25), Hradec→Jablonec (-0.50)
+  w=1.50 est=-1.550 opponent-of-opponent chain: Liberec→Karvina (1.25), Karvina→Slovacko (0.20), Teplice→Hradec (-0.25), Hradec→Slovacko (3.25)
+  w=1.50 est=2.000 opponent-of-opponent chain: Liberec→Karvina (1.25), Karvina→C.Budejovice (2.00), Teplice→Hradec (-0.25), Hradec→C.Budejovice (1.50
+
+=== SECTION BALANCES (share of section weight):
+  H2H                Liberec 25.0% · draw 50.0% · Teplice 25.0%  (Σw 12.0)
+  Common opponents   Liberec 47.1% · draw 29.4% · Teplice 23.5%  (Σw 34.0)
+  Level-3 chains     Liberec 85.0% · draw 5.0% · Teplice 10.0%  (Σw 30.0)
+
+=== TOTAL SUMMATION:
+  Liberec (TA) 58.6% · Draw 23.0% · Teplice (TB) 18.4%
+  weights: 44.50 17.50 14.00  weighted-est: 0.5617
+
+=== ZONE: TA WIN-DRAW 58.6%
+  key: windraw  side: TA  S_: 58.6  agree: 1   
+  effective paths: 20  uniqueChains: 41  reused: undefined
+  c8From: (no C8 action)
+  tourney status Liberec: {"star":53.9,"perf":null}  Teplice: {"star":44.7,"perf":null}

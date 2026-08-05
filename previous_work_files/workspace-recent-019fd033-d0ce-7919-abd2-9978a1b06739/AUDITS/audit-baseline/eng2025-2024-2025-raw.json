@@ -1,0 +1,2981 @@
+{
+"season": "2024-2025",
+"matches": [
+{
+"round": 1,
+"date": "2024-08-16",
+"home": "Manchester U",
+"hg": 1,
+"ag": 0,
+"away": "Fulham"
+},
+{
+"round": 1,
+"date": "2024-08-17",
+"home": "Ipswich",
+"hg": 0,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 1,
+"date": "2024-08-17",
+"home": "Arsenal",
+"hg": 2,
+"ag": 0,
+"away": "Wolverhampton"
+},
+{
+"round": 1,
+"date": "2024-08-17",
+"home": "Everton",
+"hg": 0,
+"ag": 3,
+"away": "Brighton"
+},
+{
+"round": 1,
+"date": "2024-08-17",
+"home": "Newcastle",
+"hg": 1,
+"ag": 0,
+"away": "Southampton"
+},
+{
+"round": 1,
+"date": "2024-08-17",
+"home": "Nottingham",
+"hg": 1,
+"ag": 1,
+"away": "Bournemouth"
+},
+{
+"round": 1,
+"date": "2024-08-17",
+"home": "West Ham",
+"hg": 1,
+"ag": 2,
+"away": "Aston Villa"
+},
+{
+"round": 1,
+"date": "2024-08-18",
+"home": "Brentford",
+"hg": 2,
+"ag": 1,
+"away": "Crystal P"
+},
+{
+"round": 1,
+"date": "2024-08-18",
+"home": "Chelsea",
+"hg": 0,
+"ag": 2,
+"away": "Manchester C"
+},
+{
+"round": 1,
+"date": "2024-08-19",
+"home": "Leicester",
+"hg": 1,
+"ag": 1,
+"away": "Tottenham"
+},
+{
+"round": 2,
+"date": "2024-08-24",
+"home": "Brighton",
+"hg": 2,
+"ag": 1,
+"away": "Manchester U"
+},
+{
+"round": 2,
+"date": "2024-08-24",
+"home": "Crystal P",
+"hg": 0,
+"ag": 2,
+"away": "West Ham"
+},
+{
+"round": 2,
+"date": "2024-08-24",
+"home": "Fulham",
+"hg": 2,
+"ag": 1,
+"away": "Leicester"
+},
+{
+"round": 2,
+"date": "2024-08-24",
+"home": "Manchester C",
+"hg": 4,
+"ag": 1,
+"away": "Ipswich"
+},
+{
+"round": 2,
+"date": "2024-08-24",
+"home": "Southampton",
+"hg": 0,
+"ag": 1,
+"away": "Nottingham"
+},
+{
+"round": 2,
+"date": "2024-08-24",
+"home": "Tottenham",
+"hg": 4,
+"ag": 0,
+"away": "Everton"
+},
+{
+"round": 2,
+"date": "2024-08-24",
+"home": "Aston Villa",
+"hg": 0,
+"ag": 2,
+"away": "Arsenal"
+},
+{
+"round": 2,
+"date": "2024-08-25",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 1,
+"away": "Newcastle"
+},
+{
+"round": 2,
+"date": "2024-08-25",
+"home": "Liverpool",
+"hg": 2,
+"ag": 0,
+"away": "Brentford"
+},
+{
+"round": 3,
+"date": "2024-08-31",
+"home": "Arsenal",
+"hg": 1,
+"ag": 1,
+"away": "Brighton"
+},
+{
+"round": 3,
+"date": "2024-08-31",
+"home": "Brentford",
+"hg": 3,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 3,
+"date": "2024-08-31",
+"home": "Everton",
+"hg": 2,
+"ag": 3,
+"away": "Bournemouth"
+},
+{
+"round": 3,
+"date": "2024-08-31",
+"home": "Ipswich",
+"hg": 1,
+"ag": 1,
+"away": "Fulham"
+},
+{
+"round": 3,
+"date": "2024-08-31",
+"home": "Leicester",
+"hg": 1,
+"ag": 2,
+"away": "Aston Villa"
+},
+{
+"round": 3,
+"date": "2024-08-31",
+"home": "Nottingham",
+"hg": 1,
+"ag": 1,
+"away": "Wolverhampton"
+},
+{
+"round": 3,
+"date": "2024-08-31",
+"home": "West Ham",
+"hg": 1,
+"ag": 3,
+"away": "Manchester C"
+},
+{
+"round": 3,
+"date": "2024-09-01",
+"home": "Chelsea",
+"hg": 1,
+"ag": 1,
+"away": "Crystal P"
+},
+{
+"round": 3,
+"date": "2024-09-01",
+"home": "Newcastle",
+"hg": 2,
+"ag": 1,
+"away": "Tottenham"
+},
+{
+"round": 3,
+"date": "2024-09-01",
+"home": "Manchester U",
+"hg": 0,
+"ag": 3,
+"away": "Liverpool"
+},
+{
+"round": 4,
+"date": "2024-09-14",
+"home": "Southampton",
+"hg": 0,
+"ag": 3,
+"away": "Manchester U"
+},
+{
+"round": 4,
+"date": "2024-09-14",
+"home": "Brighton",
+"hg": 0,
+"ag": 0,
+"away": "Ipswich"
+},
+{
+"round": 4,
+"date": "2024-09-14",
+"home": "Crystal P",
+"hg": 2,
+"ag": 2,
+"away": "Leicester"
+},
+{
+"round": 4,
+"date": "2024-09-14",
+"home": "Fulham",
+"hg": 1,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 4,
+"date": "2024-09-14",
+"home": "Liverpool",
+"hg": 0,
+"ag": 1,
+"away": "Nottingham"
+},
+{
+"round": 4,
+"date": "2024-09-14",
+"home": "Manchester C",
+"hg": 2,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 4,
+"date": "2024-09-14",
+"home": "Aston Villa",
+"hg": 3,
+"ag": 2,
+"away": "Everton"
+},
+{
+"round": 4,
+"date": "2024-09-14",
+"home": "Bournemouth",
+"hg": 0,
+"ag": 1,
+"away": "Chelsea"
+},
+{
+"round": 4,
+"date": "2024-09-15",
+"home": "Tottenham",
+"hg": 0,
+"ag": 1,
+"away": "Arsenal"
+},
+{
+"round": 5,
+"date": "2024-09-21",
+"home": "West Ham",
+"hg": 0,
+"ag": 3,
+"away": "Chelsea"
+},
+{
+"round": 5,
+"date": "2024-09-21",
+"home": "Aston Villa",
+"hg": 3,
+"ag": 1,
+"away": "Wolverhampton"
+},
+{
+"round": 5,
+"date": "2024-09-21",
+"home": "Fulham",
+"hg": 3,
+"ag": 1,
+"away": "Newcastle"
+},
+{
+"round": 5,
+"date": "2024-09-21",
+"home": "Leicester",
+"hg": 1,
+"ag": 1,
+"away": "Everton"
+},
+{
+"round": 5,
+"date": "2024-09-21",
+"home": "Liverpool",
+"hg": 3,
+"ag": 0,
+"away": "Bournemouth"
+},
+{
+"round": 5,
+"date": "2024-09-21",
+"home": "Southampton",
+"hg": 1,
+"ag": 1,
+"away": "Ipswich"
+},
+{
+"round": 5,
+"date": "2024-09-21",
+"home": "Tottenham",
+"hg": 3,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 5,
+"date": "2024-09-21",
+"home": "Crystal P",
+"hg": 0,
+"ag": 0,
+"away": "Manchester U"
+},
+{
+"round": 5,
+"date": "2024-09-22",
+"home": "Brighton",
+"hg": 2,
+"ag": 2,
+"away": "Nottingham"
+},
+{
+"round": 5,
+"date": "2024-09-22",
+"home": "Manchester C",
+"hg": 2,
+"ag": 2,
+"away": "Arsenal"
+},
+{
+"round": 6,
+"date": "2024-09-28",
+"home": "Newcastle",
+"hg": 1,
+"ag": 1,
+"away": "Manchester C"
+},
+{
+"round": 6,
+"date": "2024-09-28",
+"home": "Arsenal",
+"hg": 4,
+"ag": 2,
+"away": "Leicester"
+},
+{
+"round": 6,
+"date": "2024-09-28",
+"home": "Brentford",
+"hg": 1,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 6,
+"date": "2024-09-28",
+"home": "Chelsea",
+"hg": 4,
+"ag": 2,
+"away": "Brighton"
+},
+{
+"round": 6,
+"date": "2024-09-28",
+"home": "Everton",
+"hg": 2,
+"ag": 1,
+"away": "Crystal P"
+},
+{
+"round": 6,
+"date": "2024-09-28",
+"home": "Nottingham",
+"hg": 0,
+"ag": 1,
+"away": "Fulham"
+},
+{
+"round": 6,
+"date": "2024-09-29",
+"home": "Ipswich",
+"hg": 2,
+"ag": 2,
+"away": "Aston Villa"
+},
+{
+"round": 6,
+"date": "2024-09-29",
+"home": "Manchester U",
+"hg": 0,
+"ag": 3,
+"away": "Tottenham"
+},
+{
+"round": 6,
+"date": "2024-09-30",
+"home": "Bournemouth",
+"hg": 3,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 7,
+"date": "2024-10-05",
+"home": "Crystal P",
+"hg": 0,
+"ag": 1,
+"away": "Liverpool"
+},
+{
+"round": 7,
+"date": "2024-10-05",
+"home": "Arsenal",
+"hg": 3,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 7,
+"date": "2024-10-05",
+"home": "Brentford",
+"hg": 5,
+"ag": 3,
+"away": "Wolverhampton"
+},
+{
+"round": 7,
+"date": "2024-10-05",
+"home": "Leicester",
+"hg": 1,
+"ag": 0,
+"away": "Bournemouth"
+},
+{
+"round": 7,
+"date": "2024-10-05",
+"home": "Manchester C",
+"hg": 3,
+"ag": 2,
+"away": "Fulham"
+},
+{
+"round": 7,
+"date": "2024-10-05",
+"home": "West Ham",
+"hg": 4,
+"ag": 1,
+"away": "Ipswich"
+},
+{
+"round": 7,
+"date": "2024-10-05",
+"home": "Everton",
+"hg": 0,
+"ag": 0,
+"away": "Newcastle"
+},
+{
+"round": 7,
+"date": "2024-10-06",
+"home": "Aston Villa",
+"hg": 0,
+"ag": 0,
+"away": "Manchester U"
+},
+{
+"round": 7,
+"date": "2024-10-06",
+"home": "Chelsea",
+"hg": 1,
+"ag": 1,
+"away": "Nottingham"
+},
+{
+"round": 7,
+"date": "2024-10-06",
+"home": "Brighton",
+"hg": 3,
+"ag": 2,
+"away": "Tottenham"
+},
+{
+"round": 8,
+"date": "2024-10-19",
+"home": "Tottenham",
+"hg": 4,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 8,
+"date": "2024-10-19",
+"home": "Fulham",
+"hg": 1,
+"ag": 3,
+"away": "Aston Villa"
+},
+{
+"round": 8,
+"date": "2024-10-19",
+"home": "Manchester U",
+"hg": 2,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 8,
+"date": "2024-10-19",
+"home": "Newcastle",
+"hg": 0,
+"ag": 1,
+"away": "Brighton"
+},
+{
+"round": 8,
+"date": "2024-10-19",
+"home": "Southampton",
+"hg": 2,
+"ag": 3,
+"away": "Leicester"
+},
+{
+"round": 8,
+"date": "2024-10-19",
+"home": "Ipswich",
+"hg": 0,
+"ag": 2,
+"away": "Everton"
+},
+{
+"round": 8,
+"date": "2024-10-19",
+"home": "Bournemouth",
+"hg": 2,
+"ag": 0,
+"away": "Arsenal"
+},
+{
+"round": 8,
+"date": "2024-10-20",
+"home": "Liverpool",
+"hg": 2,
+"ag": 1,
+"away": "Chelsea"
+},
+{
+"round": 8,
+"date": "2024-10-21",
+"home": "Nottingham",
+"hg": 1,
+"ag": 0,
+"away": "Crystal P"
+},
+{
+"round": 9,
+"date": "2024-10-25",
+"home": "Leicester",
+"hg": 1,
+"ag": 3,
+"away": "Nottingham"
+},
+{
+"round": 9,
+"date": "2024-10-26",
+"home": "Aston Villa",
+"hg": 1,
+"ag": 1,
+"away": "Bournemouth"
+},
+{
+"round": 9,
+"date": "2024-10-26",
+"home": "Brentford",
+"hg": 4,
+"ag": 3,
+"away": "Ipswich"
+},
+{
+"round": 9,
+"date": "2024-10-26",
+"home": "Brighton",
+"hg": 2,
+"ag": 2,
+"away": "Wolverhampton"
+},
+{
+"round": 9,
+"date": "2024-10-26",
+"home": "Manchester C",
+"hg": 1,
+"ag": 0,
+"away": "Southampton"
+},
+{
+"round": 9,
+"date": "2024-10-26",
+"home": "Everton",
+"hg": 1,
+"ag": 1,
+"away": "Fulham"
+},
+{
+"round": 9,
+"date": "2024-10-27",
+"home": "Chelsea",
+"hg": 2,
+"ag": 1,
+"away": "Newcastle"
+},
+{
+"round": 9,
+"date": "2024-10-27",
+"home": "Crystal P",
+"hg": 1,
+"ag": 0,
+"away": "Tottenham"
+},
+{
+"round": 9,
+"date": "2024-10-27",
+"home": "West Ham",
+"hg": 2,
+"ag": 1,
+"away": "Manchester U"
+},
+{
+"round": 9,
+"date": "2024-10-27",
+"home": "Arsenal",
+"hg": 2,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 10,
+"date": "2024-11-02",
+"home": "Newcastle",
+"hg": 1,
+"ag": 0,
+"away": "Arsenal"
+},
+{
+"round": 10,
+"date": "2024-11-02",
+"home": "Bournemouth",
+"hg": 2,
+"ag": 1,
+"away": "Manchester C"
+},
+{
+"round": 10,
+"date": "2024-11-02",
+"home": "Ipswich",
+"hg": 1,
+"ag": 1,
+"away": "Leicester"
+},
+{
+"round": 10,
+"date": "2024-11-02",
+"home": "Liverpool",
+"hg": 2,
+"ag": 1,
+"away": "Brighton"
+},
+{
+"round": 10,
+"date": "2024-11-02",
+"home": "Nottingham",
+"hg": 3,
+"ag": 0,
+"away": "West Ham"
+},
+{
+"round": 10,
+"date": "2024-11-02",
+"home": "Southampton",
+"hg": 1,
+"ag": 0,
+"away": "Everton"
+},
+{
+"round": 10,
+"date": "2024-11-03",
+"home": "Tottenham",
+"hg": 4,
+"ag": 1,
+"away": "Aston Villa"
+},
+{
+"round": 10,
+"date": "2024-11-03",
+"home": "Manchester U",
+"hg": 1,
+"ag": 1,
+"away": "Chelsea"
+},
+{
+"round": 10,
+"date": "2024-11-04",
+"home": "Fulham",
+"hg": 2,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 11,
+"date": "2024-11-09",
+"home": "Brentford",
+"hg": 3,
+"ag": 2,
+"away": "Bournemouth"
+},
+{
+"round": 11,
+"date": "2024-11-09",
+"home": "Crystal P",
+"hg": 0,
+"ag": 2,
+"away": "Fulham"
+},
+{
+"round": 11,
+"date": "2024-11-09",
+"home": "West Ham",
+"hg": 0,
+"ag": 0,
+"away": "Everton"
+},
+{
+"round": 11,
+"date": "2024-11-09",
+"home": "Brighton",
+"hg": 2,
+"ag": 1,
+"away": "Manchester C"
+},
+{
+"round": 11,
+"date": "2024-11-09",
+"home": "Liverpool",
+"hg": 2,
+"ag": 0,
+"away": "Aston Villa"
+},
+{
+"round": 11,
+"date": "2024-11-10",
+"home": "Manchester U",
+"hg": 3,
+"ag": 0,
+"away": "Leicester"
+},
+{
+"round": 11,
+"date": "2024-11-10",
+"home": "Nottingham",
+"hg": 1,
+"ag": 3,
+"away": "Newcastle"
+},
+{
+"round": 11,
+"date": "2024-11-10",
+"home": "Tottenham",
+"hg": 1,
+"ag": 2,
+"away": "Ipswich"
+},
+{
+"round": 11,
+"date": "2024-11-10",
+"home": "Chelsea",
+"hg": 1,
+"ag": 1,
+"away": "Arsenal"
+},
+{
+"round": 12,
+"date": "2024-11-23",
+"home": "Leicester",
+"hg": 1,
+"ag": 2,
+"away": "Chelsea"
+},
+{
+"round": 12,
+"date": "2024-11-23",
+"home": "Arsenal",
+"hg": 3,
+"ag": 0,
+"away": "Nottingham"
+},
+{
+"round": 12,
+"date": "2024-11-23",
+"home": "Aston Villa",
+"hg": 2,
+"ag": 2,
+"away": "Crystal P"
+},
+{
+"round": 12,
+"date": "2024-11-23",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 2,
+"away": "Brighton"
+},
+{
+"round": 12,
+"date": "2024-11-23",
+"home": "Everton",
+"hg": 0,
+"ag": 0,
+"away": "Brentford"
+},
+{
+"round": 12,
+"date": "2024-11-23",
+"home": "Fulham",
+"hg": 1,
+"ag": 4,
+"away": "Wolverhampton"
+},
+{
+"round": 12,
+"date": "2024-11-23",
+"home": "Manchester C",
+"hg": 0,
+"ag": 4,
+"away": "Tottenham"
+},
+{
+"round": 12,
+"date": "2024-11-24",
+"home": "Southampton",
+"hg": 2,
+"ag": 3,
+"away": "Liverpool"
+},
+{
+"round": 12,
+"date": "2024-11-24",
+"home": "Ipswich",
+"hg": 1,
+"ag": 1,
+"away": "Manchester U"
+},
+{
+"round": 12,
+"date": "2024-11-24",
+"home": "Newcastle",
+"hg": 0,
+"ag": 2,
+"away": "West Ham"
+},
+{
+"round": 13,
+"date": "2024-11-29",
+"home": "Brighton",
+"hg": 1,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 13,
+"date": "2024-11-30",
+"home": "Brentford",
+"hg": 4,
+"ag": 1,
+"away": "Leicester"
+},
+{
+"round": 13,
+"date": "2024-11-30",
+"home": "Crystal P",
+"hg": 1,
+"ag": 1,
+"away": "Newcastle"
+},
+{
+"round": 13,
+"date": "2024-11-30",
+"home": "Nottingham",
+"hg": 1,
+"ag": 0,
+"away": "Ipswich"
+},
+{
+"round": 13,
+"date": "2024-11-30",
+"home": "West Ham",
+"hg": 2,
+"ag": 5,
+"away": "Arsenal"
+},
+{
+"round": 13,
+"date": "2024-12-01",
+"home": "Chelsea",
+"hg": 3,
+"ag": 0,
+"away": "Aston Villa"
+},
+{
+"round": 13,
+"date": "2024-12-01",
+"home": "Manchester U",
+"hg": 4,
+"ag": 0,
+"away": "Everton"
+},
+{
+"round": 13,
+"date": "2024-12-01",
+"home": "Tottenham",
+"hg": 1,
+"ag": 1,
+"away": "Fulham"
+},
+{
+"round": 13,
+"date": "2024-12-01",
+"home": "Liverpool",
+"hg": 2,
+"ag": 0,
+"away": "Manchester C"
+},
+{
+"round": 14,
+"date": "2024-12-03",
+"home": "Ipswich",
+"hg": 0,
+"ag": 1,
+"away": "Crystal P"
+},
+{
+"round": 14,
+"date": "2024-12-03",
+"home": "Leicester",
+"hg": 3,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 14,
+"date": "2024-12-04",
+"home": "Everton",
+"hg": 4,
+"ag": 0,
+"away": "Wolverhampton"
+},
+{
+"round": 14,
+"date": "2024-12-04",
+"home": "Manchester C",
+"hg": 3,
+"ag": 0,
+"away": "Nottingham"
+},
+{
+"round": 14,
+"date": "2024-12-04",
+"home": "Newcastle",
+"hg": 3,
+"ag": 3,
+"away": "Liverpool"
+},
+{
+"round": 14,
+"date": "2024-12-04",
+"home": "Southampton",
+"hg": 1,
+"ag": 5,
+"away": "Chelsea"
+},
+{
+"round": 14,
+"date": "2024-12-04",
+"home": "Arsenal",
+"hg": 2,
+"ag": 0,
+"away": "Manchester U"
+},
+{
+"round": 14,
+"date": "2024-12-04",
+"home": "Aston Villa",
+"hg": 3,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 14,
+"date": "2024-12-05",
+"home": "Fulham",
+"hg": 3,
+"ag": 1,
+"away": "Brighton"
+},
+{
+"round": 14,
+"date": "2024-12-05",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 0,
+"away": "Tottenham"
+},
+{
+"round": 15,
+"date": "2024-12-07",
+"home": "Aston Villa",
+"hg": 1,
+"ag": 0,
+"away": "Southampton"
+},
+{
+"round": 15,
+"date": "2024-12-07",
+"home": "Brentford",
+"hg": 4,
+"ag": 2,
+"away": "Newcastle"
+},
+{
+"round": 15,
+"date": "2024-12-07",
+"home": "Crystal P",
+"hg": 2,
+"ag": 2,
+"away": "Manchester C"
+},
+{
+"round": 15,
+"date": "2024-12-07",
+"home": "Manchester U",
+"hg": 2,
+"ag": 3,
+"away": "Nottingham"
+},
+{
+"round": 15,
+"date": "2024-12-08",
+"home": "Fulham",
+"hg": 1,
+"ag": 1,
+"away": "Arsenal"
+},
+{
+"round": 15,
+"date": "2024-12-08",
+"home": "Ipswich",
+"hg": 1,
+"ag": 2,
+"away": "Bournemouth"
+},
+{
+"round": 15,
+"date": "2024-12-08",
+"home": "Leicester",
+"hg": 2,
+"ag": 2,
+"away": "Brighton"
+},
+{
+"round": 15,
+"date": "2024-12-08",
+"home": "Tottenham",
+"hg": 3,
+"ag": 4,
+"away": "Chelsea"
+},
+{
+"round": 15,
+"date": "2024-12-09",
+"home": "West Ham",
+"hg": 2,
+"ag": 1,
+"away": "Wolverhampton"
+},
+{
+"round": 15,
+"date": "2025-02-12",
+"home": "Everton",
+"hg": 2,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 16,
+"date": "2024-12-14",
+"home": "Arsenal",
+"hg": 0,
+"ag": 0,
+"away": "Everton"
+},
+{
+"round": 16,
+"date": "2024-12-14",
+"home": "Liverpool",
+"hg": 2,
+"ag": 2,
+"away": "Fulham"
+},
+{
+"round": 16,
+"date": "2024-12-14",
+"home": "Newcastle",
+"hg": 4,
+"ag": 0,
+"away": "Leicester"
+},
+{
+"round": 16,
+"date": "2024-12-14",
+"home": "Nottingham",
+"hg": 2,
+"ag": 1,
+"away": "Aston Villa"
+},
+{
+"round": 16,
+"date": "2024-12-15",
+"home": "Brighton",
+"hg": 1,
+"ag": 3,
+"away": "Crystal P"
+},
+{
+"round": 16,
+"date": "2024-12-15",
+"home": "Manchester C",
+"hg": 1,
+"ag": 2,
+"away": "Manchester U"
+},
+{
+"round": 16,
+"date": "2024-12-15",
+"home": "Chelsea",
+"hg": 2,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 16,
+"date": "2024-12-15",
+"home": "Southampton",
+"hg": 0,
+"ag": 5,
+"away": "Tottenham"
+},
+{
+"round": 16,
+"date": "2024-12-16",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 17,
+"date": "2024-12-21",
+"home": "Aston Villa",
+"hg": 2,
+"ag": 1,
+"away": "Manchester C"
+},
+{
+"round": 17,
+"date": "2024-12-21",
+"home": "Brentford",
+"hg": 0,
+"ag": 2,
+"away": "Nottingham"
+},
+{
+"round": 17,
+"date": "2024-12-21",
+"home": "Ipswich",
+"hg": 0,
+"ag": 4,
+"away": "Newcastle"
+},
+{
+"round": 17,
+"date": "2024-12-21",
+"home": "West Ham",
+"hg": 1,
+"ag": 1,
+"away": "Brighton"
+},
+{
+"round": 17,
+"date": "2024-12-21",
+"home": "Crystal P",
+"hg": 1,
+"ag": 5,
+"away": "Arsenal"
+},
+{
+"round": 17,
+"date": "2024-12-22",
+"home": "Everton",
+"hg": 0,
+"ag": 0,
+"away": "Chelsea"
+},
+{
+"round": 17,
+"date": "2024-12-22",
+"home": "Fulham",
+"hg": 0,
+"ag": 0,
+"away": "Southampton"
+},
+{
+"round": 17,
+"date": "2024-12-22",
+"home": "Leicester",
+"hg": 0,
+"ag": 3,
+"away": "Wolverhampton"
+},
+{
+"round": 17,
+"date": "2024-12-22",
+"home": "Manchester U",
+"hg": 0,
+"ag": 3,
+"away": "Bournemouth"
+},
+{
+"round": 17,
+"date": "2024-12-22",
+"home": "Tottenham",
+"hg": 3,
+"ag": 6,
+"away": "Liverpool"
+},
+{
+"round": 18,
+"date": "2024-12-26",
+"home": "Manchester C",
+"hg": 1,
+"ag": 1,
+"away": "Everton"
+},
+{
+"round": 18,
+"date": "2024-12-26",
+"home": "Bournemouth",
+"hg": 0,
+"ag": 0,
+"away": "Crystal P"
+},
+{
+"round": 18,
+"date": "2024-12-26",
+"home": "Chelsea",
+"hg": 1,
+"ag": 2,
+"away": "Fulham"
+},
+{
+"round": 18,
+"date": "2024-12-26",
+"home": "Newcastle",
+"hg": 3,
+"ag": 0,
+"away": "Aston Villa"
+},
+{
+"round": 18,
+"date": "2024-12-26",
+"home": "Nottingham",
+"hg": 1,
+"ag": 0,
+"away": "Tottenham"
+},
+{
+"round": 18,
+"date": "2024-12-26",
+"home": "Southampton",
+"hg": 0,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 18,
+"date": "2024-12-26",
+"home": "Liverpool",
+"hg": 3,
+"ag": 1,
+"away": "Leicester"
+},
+{
+"round": 18,
+"date": "2024-12-27",
+"home": "Brighton",
+"hg": 0,
+"ag": 0,
+"away": "Brentford"
+},
+{
+"round": 18,
+"date": "2024-12-27",
+"home": "Arsenal",
+"hg": 1,
+"ag": 0,
+"away": "Ipswich"
+},
+{
+"round": 19,
+"date": "2024-12-29",
+"home": "Leicester",
+"hg": 0,
+"ag": 2,
+"away": "Manchester C"
+},
+{
+"round": 19,
+"date": "2024-12-29",
+"home": "Crystal P",
+"hg": 2,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 19,
+"date": "2024-12-29",
+"home": "Everton",
+"hg": 0,
+"ag": 2,
+"away": "Nottingham"
+},
+{
+"round": 19,
+"date": "2024-12-29",
+"home": "Fulham",
+"hg": 2,
+"ag": 2,
+"away": "Bournemouth"
+},
+{
+"round": 19,
+"date": "2024-12-29",
+"home": "Tottenham",
+"hg": 2,
+"ag": 2,
+"away": "Wolverhampton"
+},
+{
+"round": 19,
+"date": "2024-12-29",
+"home": "West Ham",
+"hg": 0,
+"ag": 5,
+"away": "Liverpool"
+},
+{
+"round": 19,
+"date": "2024-12-30",
+"home": "Aston Villa",
+"hg": 2,
+"ag": 2,
+"away": "Brighton"
+},
+{
+"round": 19,
+"date": "2024-12-30",
+"home": "Ipswich",
+"hg": 2,
+"ag": 0,
+"away": "Chelsea"
+},
+{
+"round": 19,
+"date": "2024-12-30",
+"home": "Manchester U",
+"hg": 0,
+"ag": 2,
+"away": "Newcastle"
+},
+{
+"round": 19,
+"date": "2025-01-01",
+"home": "Brentford",
+"hg": 1,
+"ag": 3,
+"away": "Arsenal"
+},
+{
+"round": 20,
+"date": "2025-01-04",
+"home": "Tottenham",
+"hg": 1,
+"ag": 2,
+"away": "Newcastle"
+},
+{
+"round": 20,
+"date": "2025-01-04",
+"home": "Aston Villa",
+"hg": 2,
+"ag": 1,
+"away": "Leicester"
+},
+{
+"round": 20,
+"date": "2025-01-04",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 0,
+"away": "Everton"
+},
+{
+"round": 20,
+"date": "2025-01-04",
+"home": "Crystal P",
+"hg": 1,
+"ag": 1,
+"away": "Chelsea"
+},
+{
+"round": 20,
+"date": "2025-01-04",
+"home": "Manchester C",
+"hg": 4,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 20,
+"date": "2025-01-04",
+"home": "Southampton",
+"hg": 0,
+"ag": 5,
+"away": "Brentford"
+},
+{
+"round": 20,
+"date": "2025-01-04",
+"home": "Brighton",
+"hg": 1,
+"ag": 1,
+"away": "Arsenal"
+},
+{
+"round": 20,
+"date": "2025-01-05",
+"home": "Fulham",
+"hg": 2,
+"ag": 2,
+"away": "Ipswich"
+},
+{
+"round": 20,
+"date": "2025-01-05",
+"home": "Liverpool",
+"hg": 2,
+"ag": 2,
+"away": "Manchester U"
+},
+{
+"round": 21,
+"date": "2025-01-14",
+"home": "Brentford",
+"hg": 2,
+"ag": 2,
+"away": "Manchester C"
+},
+{
+"round": 21,
+"date": "2025-01-14",
+"home": "Chelsea",
+"hg": 2,
+"ag": 2,
+"away": "Bournemouth"
+},
+{
+"round": 21,
+"date": "2025-01-14",
+"home": "West Ham",
+"hg": 3,
+"ag": 2,
+"away": "Fulham"
+},
+{
+"round": 21,
+"date": "2025-01-14",
+"home": "Nottingham",
+"hg": 1,
+"ag": 1,
+"away": "Liverpool"
+},
+{
+"round": 21,
+"date": "2025-01-15",
+"home": "Everton",
+"hg": 0,
+"ag": 1,
+"away": "Aston Villa"
+},
+{
+"round": 21,
+"date": "2025-01-15",
+"home": "Leicester",
+"hg": 0,
+"ag": 2,
+"away": "Crystal P"
+},
+{
+"round": 21,
+"date": "2025-01-15",
+"home": "Newcastle",
+"hg": 3,
+"ag": 0,
+"away": "Wolverhampton"
+},
+{
+"round": 21,
+"date": "2025-01-15",
+"home": "Arsenal",
+"hg": 2,
+"ag": 1,
+"away": "Tottenham"
+},
+{
+"round": 21,
+"date": "2025-01-16",
+"home": "Ipswich",
+"hg": 0,
+"ag": 2,
+"away": "Brighton"
+},
+{
+"round": 21,
+"date": "2025-01-16",
+"home": "Manchester U",
+"hg": 3,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 22,
+"date": "2025-01-18",
+"home": "Newcastle",
+"hg": 1,
+"ag": 4,
+"away": "Bournemouth"
+},
+{
+"round": 22,
+"date": "2025-01-18",
+"home": "Brentford",
+"hg": 0,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 22,
+"date": "2025-01-18",
+"home": "Leicester",
+"hg": 0,
+"ag": 2,
+"away": "Fulham"
+},
+{
+"round": 22,
+"date": "2025-01-18",
+"home": "West Ham",
+"hg": 0,
+"ag": 2,
+"away": "Crystal P"
+},
+{
+"round": 22,
+"date": "2025-01-18",
+"home": "Arsenal",
+"hg": 2,
+"ag": 2,
+"away": "Aston Villa"
+},
+{
+"round": 22,
+"date": "2025-01-19",
+"home": "Everton",
+"hg": 3,
+"ag": 2,
+"away": "Tottenham"
+},
+{
+"round": 22,
+"date": "2025-01-19",
+"home": "Manchester U",
+"hg": 1,
+"ag": 3,
+"away": "Brighton"
+},
+{
+"round": 22,
+"date": "2025-01-19",
+"home": "Nottingham",
+"hg": 3,
+"ag": 2,
+"away": "Southampton"
+},
+{
+"round": 22,
+"date": "2025-01-19",
+"home": "Ipswich",
+"hg": 0,
+"ag": 6,
+"away": "Manchester C"
+},
+{
+"round": 22,
+"date": "2025-01-20",
+"home": "Chelsea",
+"hg": 3,
+"ag": 1,
+"away": "Wolverhampton"
+},
+{
+"round": 23,
+"date": "2025-01-25",
+"home": "Bournemouth",
+"hg": 5,
+"ag": 0,
+"away": "Nottingham"
+},
+{
+"round": 23,
+"date": "2025-01-25",
+"home": "Brighton",
+"hg": 0,
+"ag": 1,
+"away": "Everton"
+},
+{
+"round": 23,
+"date": "2025-01-25",
+"home": "Liverpool",
+"hg": 4,
+"ag": 1,
+"away": "Ipswich"
+},
+{
+"round": 23,
+"date": "2025-01-25",
+"home": "Southampton",
+"hg": 1,
+"ag": 3,
+"away": "Newcastle"
+},
+{
+"round": 23,
+"date": "2025-01-25",
+"home": "Manchester C",
+"hg": 3,
+"ag": 1,
+"away": "Chelsea"
+},
+{
+"round": 23,
+"date": "2025-01-26",
+"home": "Crystal P",
+"hg": 1,
+"ag": 2,
+"away": "Brentford"
+},
+{
+"round": 23,
+"date": "2025-01-26",
+"home": "Tottenham",
+"hg": 1,
+"ag": 2,
+"away": "Leicester"
+},
+{
+"round": 23,
+"date": "2025-01-26",
+"home": "Aston Villa",
+"hg": 1,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 23,
+"date": "2025-01-26",
+"home": "Fulham",
+"hg": 0,
+"ag": 1,
+"away": "Manchester U"
+},
+{
+"round": 24,
+"date": "2025-02-01",
+"home": "Nottingham",
+"hg": 7,
+"ag": 0,
+"away": "Brighton"
+},
+{
+"round": 24,
+"date": "2025-02-01",
+"home": "Bournemouth",
+"hg": 0,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 24,
+"date": "2025-02-01",
+"home": "Everton",
+"hg": 4,
+"ag": 0,
+"away": "Leicester"
+},
+{
+"round": 24,
+"date": "2025-02-01",
+"home": "Ipswich",
+"hg": 1,
+"ag": 2,
+"away": "Southampton"
+},
+{
+"round": 24,
+"date": "2025-02-01",
+"home": "Newcastle",
+"hg": 1,
+"ag": 2,
+"away": "Fulham"
+},
+{
+"round": 24,
+"date": "2025-02-02",
+"home": "Brentford",
+"hg": 0,
+"ag": 2,
+"away": "Tottenham"
+},
+{
+"round": 24,
+"date": "2025-02-02",
+"home": "Manchester U",
+"hg": 0,
+"ag": 2,
+"away": "Crystal P"
+},
+{
+"round": 24,
+"date": "2025-02-02",
+"home": "Arsenal",
+"hg": 5,
+"ag": 1,
+"away": "Manchester C"
+},
+{
+"round": 24,
+"date": "2025-02-03",
+"home": "Chelsea",
+"hg": 2,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 25,
+"date": "2025-02-14",
+"home": "Brighton",
+"hg": 3,
+"ag": 0,
+"away": "Chelsea"
+},
+{
+"round": 25,
+"date": "2025-02-15",
+"home": "Leicester",
+"hg": 0,
+"ag": 2,
+"away": "Arsenal"
+},
+{
+"round": 25,
+"date": "2025-02-15",
+"home": "Aston Villa",
+"hg": 1,
+"ag": 1,
+"away": "Ipswich"
+},
+{
+"round": 25,
+"date": "2025-02-15",
+"home": "Fulham",
+"hg": 2,
+"ag": 1,
+"away": "Nottingham"
+},
+{
+"round": 25,
+"date": "2025-02-15",
+"home": "Manchester C",
+"hg": 4,
+"ag": 0,
+"away": "Newcastle"
+},
+{
+"round": 25,
+"date": "2025-02-15",
+"home": "Southampton",
+"hg": 1,
+"ag": 3,
+"away": "Bournemouth"
+},
+{
+"round": 25,
+"date": "2025-02-15",
+"home": "West Ham",
+"hg": 0,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 25,
+"date": "2025-02-15",
+"home": "Crystal P",
+"hg": 1,
+"ag": 2,
+"away": "Everton"
+},
+{
+"round": 25,
+"date": "2025-02-16",
+"home": "Liverpool",
+"hg": 2,
+"ag": 1,
+"away": "Wolverhampton"
+},
+{
+"round": 25,
+"date": "2025-02-16",
+"home": "Tottenham",
+"hg": 1,
+"ag": 0,
+"away": "Manchester U"
+},
+{
+"round": 26,
+"date": "2025-02-21",
+"home": "Leicester",
+"hg": 0,
+"ag": 4,
+"away": "Brentford"
+},
+{
+"round": 26,
+"date": "2025-02-22",
+"home": "Everton",
+"hg": 2,
+"ag": 2,
+"away": "Manchester U"
+},
+{
+"round": 26,
+"date": "2025-02-22",
+"home": "Arsenal",
+"hg": 0,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 26,
+"date": "2025-02-22",
+"home": "Bournemouth",
+"hg": 0,
+"ag": 1,
+"away": "Wolverhampton"
+},
+{
+"round": 26,
+"date": "2025-02-22",
+"home": "Fulham",
+"hg": 0,
+"ag": 2,
+"away": "Crystal P"
+},
+{
+"round": 26,
+"date": "2025-02-22",
+"home": "Ipswich",
+"hg": 1,
+"ag": 4,
+"away": "Tottenham"
+},
+{
+"round": 26,
+"date": "2025-02-22",
+"home": "Southampton",
+"hg": 0,
+"ag": 4,
+"away": "Brighton"
+},
+{
+"round": 26,
+"date": "2025-02-22",
+"home": "Aston Villa",
+"hg": 2,
+"ag": 1,
+"away": "Chelsea"
+},
+{
+"round": 26,
+"date": "2025-02-23",
+"home": "Newcastle",
+"hg": 4,
+"ag": 3,
+"away": "Nottingham"
+},
+{
+"round": 26,
+"date": "2025-02-23",
+"home": "Manchester C",
+"hg": 0,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 27,
+"date": "2025-02-25",
+"home": "Brighton",
+"hg": 2,
+"ag": 1,
+"away": "Bournemouth"
+},
+{
+"round": 27,
+"date": "2025-02-25",
+"home": "Crystal P",
+"hg": 4,
+"ag": 1,
+"away": "Aston Villa"
+},
+{
+"round": 27,
+"date": "2025-02-25",
+"home": "Chelsea",
+"hg": 4,
+"ag": 0,
+"away": "Southampton"
+},
+{
+"round": 27,
+"date": "2025-02-26",
+"home": "Brentford",
+"hg": 1,
+"ag": 1,
+"away": "Everton"
+},
+{
+"round": 27,
+"date": "2025-02-26",
+"home": "Manchester U",
+"hg": 3,
+"ag": 2,
+"away": "Ipswich"
+},
+{
+"round": 27,
+"date": "2025-02-26",
+"home": "Nottingham",
+"hg": 0,
+"ag": 0,
+"away": "Arsenal"
+},
+{
+"round": 27,
+"date": "2025-02-26",
+"home": "Tottenham",
+"hg": 0,
+"ag": 1,
+"away": "Manchester C"
+},
+{
+"round": 27,
+"date": "2025-02-26",
+"home": "Liverpool",
+"hg": 2,
+"ag": 0,
+"away": "Newcastle"
+},
+{
+"round": 27,
+"date": "2025-02-27",
+"home": "West Ham",
+"hg": 2,
+"ag": 0,
+"away": "Leicester"
+},
+{
+"round": 28,
+"date": "2025-03-08",
+"home": "Nottingham",
+"hg": 1,
+"ag": 0,
+"away": "Manchester C"
+},
+{
+"round": 28,
+"date": "2025-03-08",
+"home": "Brighton",
+"hg": 2,
+"ag": 1,
+"away": "Fulham"
+},
+{
+"round": 28,
+"date": "2025-03-08",
+"home": "Crystal P",
+"hg": 1,
+"ag": 0,
+"away": "Ipswich"
+},
+{
+"round": 28,
+"date": "2025-03-08",
+"home": "Liverpool",
+"hg": 3,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 28,
+"date": "2025-03-08",
+"home": "Brentford",
+"hg": 0,
+"ag": 1,
+"away": "Aston Villa"
+},
+{
+"round": 28,
+"date": "2025-03-09",
+"home": "Chelsea",
+"hg": 1,
+"ag": 0,
+"away": "Leicester"
+},
+{
+"round": 28,
+"date": "2025-03-09",
+"home": "Tottenham",
+"hg": 2,
+"ag": 2,
+"away": "Bournemouth"
+},
+{
+"round": 28,
+"date": "2025-03-09",
+"home": "Manchester U",
+"hg": 1,
+"ag": 1,
+"away": "Arsenal"
+},
+{
+"round": 28,
+"date": "2025-03-10",
+"home": "West Ham",
+"hg": 0,
+"ag": 1,
+"away": "Newcastle"
+},
+{
+"round": 29,
+"date": "2025-02-19",
+"home": "Aston Villa",
+"hg": 2,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 29,
+"date": "2025-03-15",
+"home": "Everton",
+"hg": 1,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 29,
+"date": "2025-03-15",
+"home": "Ipswich",
+"hg": 2,
+"ag": 4,
+"away": "Nottingham"
+},
+{
+"round": 29,
+"date": "2025-03-15",
+"home": "Manchester C",
+"hg": 2,
+"ag": 2,
+"away": "Brighton"
+},
+{
+"round": 29,
+"date": "2025-03-15",
+"home": "Southampton",
+"hg": 1,
+"ag": 2,
+"away": "Wolverhampton"
+},
+{
+"round": 29,
+"date": "2025-03-15",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 2,
+"away": "Brentford"
+},
+{
+"round": 29,
+"date": "2025-03-16",
+"home": "Arsenal",
+"hg": 1,
+"ag": 0,
+"away": "Chelsea"
+},
+{
+"round": 29,
+"date": "2025-03-16",
+"home": "Fulham",
+"hg": 2,
+"ag": 0,
+"away": "Tottenham"
+},
+{
+"round": 29,
+"date": "2025-03-16",
+"home": "Leicester",
+"hg": 0,
+"ag": 3,
+"away": "Manchester U"
+},
+{
+"round": 29,
+"date": "2025-04-16",
+"home": "Newcastle",
+"hg": 5,
+"ag": 0,
+"away": "Crystal P"
+},
+{
+"round": 30,
+"date": "2025-04-01",
+"home": "Arsenal",
+"hg": 2,
+"ag": 1,
+"away": "Fulham"
+},
+{
+"round": 30,
+"date": "2025-04-01",
+"home": "Nottingham",
+"hg": 1,
+"ag": 0,
+"away": "Manchester U"
+},
+{
+"round": 30,
+"date": "2025-04-02",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 2,
+"away": "Ipswich"
+},
+{
+"round": 30,
+"date": "2025-04-02",
+"home": "Brighton",
+"hg": 0,
+"ag": 3,
+"away": "Aston Villa"
+},
+{
+"round": 30,
+"date": "2025-04-02",
+"home": "Manchester C",
+"hg": 2,
+"ag": 0,
+"away": "Leicester"
+},
+{
+"round": 30,
+"date": "2025-04-02",
+"home": "Newcastle",
+"hg": 2,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 30,
+"date": "2025-04-02",
+"home": "Southampton",
+"hg": 1,
+"ag": 1,
+"away": "Crystal P"
+},
+{
+"round": 30,
+"date": "2025-04-02",
+"home": "Liverpool",
+"hg": 1,
+"ag": 0,
+"away": "Everton"
+},
+{
+"round": 30,
+"date": "2025-04-03",
+"home": "Chelsea",
+"hg": 1,
+"ag": 0,
+"away": "Tottenham"
+},
+{
+"round": 31,
+"date": "2025-04-05",
+"home": "Everton",
+"hg": 1,
+"ag": 1,
+"away": "Arsenal"
+},
+{
+"round": 31,
+"date": "2025-04-05",
+"home": "Crystal P",
+"hg": 2,
+"ag": 1,
+"away": "Brighton"
+},
+{
+"round": 31,
+"date": "2025-04-05",
+"home": "Ipswich",
+"hg": 1,
+"ag": 2,
+"away": "Wolverhampton"
+},
+{
+"round": 31,
+"date": "2025-04-05",
+"home": "West Ham",
+"hg": 2,
+"ag": 2,
+"away": "Bournemouth"
+},
+{
+"round": 31,
+"date": "2025-04-05",
+"home": "Aston Villa",
+"hg": 2,
+"ag": 1,
+"away": "Nottingham"
+},
+{
+"round": 31,
+"date": "2025-04-06",
+"home": "Brentford",
+"hg": 0,
+"ag": 0,
+"away": "Chelsea"
+},
+{
+"round": 31,
+"date": "2025-04-06",
+"home": "Fulham",
+"hg": 3,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 31,
+"date": "2025-04-06",
+"home": "Tottenham",
+"hg": 3,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 31,
+"date": "2025-04-06",
+"home": "Manchester U",
+"hg": 0,
+"ag": 0,
+"away": "Manchester C"
+},
+{
+"round": 31,
+"date": "2025-04-07",
+"home": "Leicester",
+"hg": 0,
+"ag": 3,
+"away": "Newcastle"
+},
+{
+"round": 32,
+"date": "2025-04-12",
+"home": "Manchester C",
+"hg": 5,
+"ag": 2,
+"away": "Crystal P"
+},
+{
+"round": 32,
+"date": "2025-04-12",
+"home": "Brighton",
+"hg": 2,
+"ag": 2,
+"away": "Leicester"
+},
+{
+"round": 32,
+"date": "2025-04-12",
+"home": "Nottingham",
+"hg": 0,
+"ag": 1,
+"away": "Everton"
+},
+{
+"round": 32,
+"date": "2025-04-12",
+"home": "Southampton",
+"hg": 0,
+"ag": 3,
+"away": "Aston Villa"
+},
+{
+"round": 32,
+"date": "2025-04-12",
+"home": "Arsenal",
+"hg": 1,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 32,
+"date": "2025-04-13",
+"home": "Chelsea",
+"hg": 2,
+"ag": 2,
+"away": "Ipswich"
+},
+{
+"round": 32,
+"date": "2025-04-13",
+"home": "Liverpool",
+"hg": 2,
+"ag": 1,
+"away": "West Ham"
+},
+{
+"round": 32,
+"date": "2025-04-13",
+"home": "Newcastle",
+"hg": 4,
+"ag": 1,
+"away": "Manchester U"
+},
+{
+"round": 32,
+"date": "2025-04-14",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 0,
+"away": "Fulham"
+},
+{
+"round": 33,
+"date": "2025-04-19",
+"home": "Brentford",
+"hg": 4,
+"ag": 2,
+"away": "Brighton"
+},
+{
+"round": 33,
+"date": "2025-04-19",
+"home": "Crystal P",
+"hg": 0,
+"ag": 0,
+"away": "Bournemouth"
+},
+{
+"round": 33,
+"date": "2025-04-19",
+"home": "Everton",
+"hg": 0,
+"ag": 2,
+"away": "Manchester C"
+},
+{
+"round": 33,
+"date": "2025-04-19",
+"home": "West Ham",
+"hg": 1,
+"ag": 1,
+"away": "Southampton"
+},
+{
+"round": 33,
+"date": "2025-04-19",
+"home": "Aston Villa",
+"hg": 4,
+"ag": 1,
+"away": "Newcastle"
+},
+{
+"round": 33,
+"date": "2025-04-20",
+"home": "Fulham",
+"hg": 1,
+"ag": 2,
+"away": "Chelsea"
+},
+{
+"round": 33,
+"date": "2025-04-20",
+"home": "Ipswich",
+"hg": 0,
+"ag": 4,
+"away": "Arsenal"
+},
+{
+"round": 33,
+"date": "2025-04-20",
+"home": "Manchester U",
+"hg": 0,
+"ag": 1,
+"away": "Wolverhampton"
+},
+{
+"round": 33,
+"date": "2025-04-20",
+"home": "Leicester",
+"hg": 0,
+"ag": 1,
+"away": "Liverpool"
+},
+{
+"round": 33,
+"date": "2025-04-21",
+"home": "Tottenham",
+"hg": 1,
+"ag": 2,
+"away": "Nottingham"
+},
+{
+"round": 34,
+"date": "2025-04-22",
+"home": "Manchester C",
+"hg": 2,
+"ag": 1,
+"away": "Aston Villa"
+},
+{
+"round": 34,
+"date": "2025-04-23",
+"home": "Arsenal",
+"hg": 2,
+"ag": 2,
+"away": "Crystal P"
+},
+{
+"round": 34,
+"date": "2025-04-26",
+"home": "Chelsea",
+"hg": 1,
+"ag": 0,
+"away": "Everton"
+},
+{
+"round": 34,
+"date": "2025-04-26",
+"home": "Brighton",
+"hg": 3,
+"ag": 2,
+"away": "West Ham"
+},
+{
+"round": 34,
+"date": "2025-04-26",
+"home": "Newcastle",
+"hg": 3,
+"ag": 0,
+"away": "Ipswich"
+},
+{
+"round": 34,
+"date": "2025-04-26",
+"home": "Southampton",
+"hg": 1,
+"ag": 2,
+"away": "Fulham"
+},
+{
+"round": 34,
+"date": "2025-04-27",
+"home": "Bournemouth",
+"hg": 1,
+"ag": 1,
+"away": "Manchester U"
+},
+{
+"round": 34,
+"date": "2025-04-27",
+"home": "Liverpool",
+"hg": 5,
+"ag": 1,
+"away": "Tottenham"
+},
+{
+"round": 34,
+"date": "2025-05-01",
+"home": "Nottingham",
+"hg": 0,
+"ag": 2,
+"away": "Brentford"
+},
+{
+"round": 35,
+"date": "2025-05-02",
+"home": "Manchester C",
+"hg": 1,
+"ag": 0,
+"away": "Wolverhampton"
+},
+{
+"round": 35,
+"date": "2025-05-03",
+"home": "Aston Villa",
+"hg": 1,
+"ag": 0,
+"away": "Fulham"
+},
+{
+"round": 35,
+"date": "2025-05-03",
+"home": "Everton",
+"hg": 2,
+"ag": 2,
+"away": "Ipswich"
+},
+{
+"round": 35,
+"date": "2025-05-03",
+"home": "Leicester",
+"hg": 2,
+"ag": 0,
+"away": "Southampton"
+},
+{
+"round": 35,
+"date": "2025-05-03",
+"home": "Arsenal",
+"hg": 1,
+"ag": 2,
+"away": "Bournemouth"
+},
+{
+"round": 35,
+"date": "2025-05-04",
+"home": "Brentford",
+"hg": 4,
+"ag": 3,
+"away": "Manchester U"
+},
+{
+"round": 35,
+"date": "2025-05-04",
+"home": "Brighton",
+"hg": 1,
+"ag": 1,
+"away": "Newcastle"
+},
+{
+"round": 35,
+"date": "2025-05-04",
+"home": "West Ham",
+"hg": 1,
+"ag": 1,
+"away": "Tottenham"
+},
+{
+"round": 35,
+"date": "2025-05-04",
+"home": "Chelsea",
+"hg": 3,
+"ag": 1,
+"away": "Liverpool"
+},
+{
+"round": 35,
+"date": "2025-05-05",
+"home": "Crystal P",
+"hg": 1,
+"ag": 1,
+"away": "Nottingham"
+},
+{
+"round": 36,
+"date": "2025-05-10",
+"home": "Fulham",
+"hg": 1,
+"ag": 3,
+"away": "Everton"
+},
+{
+"round": 36,
+"date": "2025-05-10",
+"home": "Ipswich",
+"hg": 0,
+"ag": 1,
+"away": "Brentford"
+},
+{
+"round": 36,
+"date": "2025-05-10",
+"home": "Southampton",
+"hg": 0,
+"ag": 0,
+"away": "Manchester C"
+},
+{
+"round": 36,
+"date": "2025-05-10",
+"home": "Bournemouth",
+"hg": 0,
+"ag": 1,
+"away": "Aston Villa"
+},
+{
+"round": 36,
+"date": "2025-05-11",
+"home": "Newcastle",
+"hg": 2,
+"ag": 0,
+"away": "Chelsea"
+},
+{
+"round": 36,
+"date": "2025-05-11",
+"home": "Manchester U",
+"hg": 0,
+"ag": 2,
+"away": "West Ham"
+},
+{
+"round": 36,
+"date": "2025-05-11",
+"home": "Nottingham",
+"hg": 2,
+"ag": 2,
+"away": "Leicester"
+},
+{
+"round": 36,
+"date": "2025-05-11",
+"home": "Tottenham",
+"hg": 0,
+"ag": 2,
+"away": "Crystal P"
+},
+{
+"round": 36,
+"date": "2025-05-11",
+"home": "Liverpool",
+"hg": 2,
+"ag": 2,
+"away": "Arsenal"
+},
+{
+"round": 37,
+"date": "2025-05-16",
+"home": "Aston Villa",
+"hg": 2,
+"ag": 0,
+"away": "Tottenham"
+},
+{
+"round": 37,
+"date": "2025-05-16",
+"home": "Chelsea",
+"hg": 1,
+"ag": 0,
+"away": "Manchester U"
+},
+{
+"round": 37,
+"date": "2025-05-18",
+"home": "Everton",
+"hg": 2,
+"ag": 0,
+"away": "Southampton"
+},
+{
+"round": 37,
+"date": "2025-05-18",
+"home": "West Ham",
+"hg": 1,
+"ag": 2,
+"away": "Nottingham"
+},
+{
+"round": 37,
+"date": "2025-05-18",
+"home": "Brentford",
+"hg": 2,
+"ag": 3,
+"away": "Fulham"
+},
+{
+"round": 37,
+"date": "2025-05-18",
+"home": "Leicester",
+"hg": 2,
+"ag": 0,
+"away": "Ipswich"
+},
+{
+"round": 37,
+"date": "2025-05-18",
+"home": "Arsenal",
+"hg": 1,
+"ag": 0,
+"away": "Newcastle"
+},
+{
+"round": 37,
+"date": "2025-05-19",
+"home": "Brighton",
+"hg": 3,
+"ag": 2,
+"away": "Liverpool"
+},
+{
+"round": 37,
+"date": "2025-05-20",
+"home": "Crystal P",
+"hg": 4,
+"ag": 2,
+"away": "Wolverhampton"
+},
+{
+"round": 37,
+"date": "2025-05-20",
+"home": "Manchester C",
+"hg": 3,
+"ag": 1,
+"away": "Bournemouth"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Bournemouth",
+"hg": 2,
+"ag": 0,
+"away": "Leicester"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Fulham",
+"hg": 0,
+"ag": 2,
+"away": "Manchester C"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Ipswich",
+"hg": 1,
+"ag": 3,
+"away": "West Ham"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Liverpool",
+"hg": 1,
+"ag": 1,
+"away": "Crystal P"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Manchester U",
+"hg": 2,
+"ag": 0,
+"away": "Aston Villa"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Newcastle",
+"hg": 0,
+"ag": 1,
+"away": "Everton"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Nottingham",
+"hg": 0,
+"ag": 1,
+"away": "Chelsea"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Southampton",
+"hg": 1,
+"ag": 2,
+"away": "Arsenal"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "Tottenham",
+"hg": 1,
+"ag": 4,
+"away": "Brighton"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "10.Brentford               38  16  8 14",
+"hg": 66,
+"ag": 57,
+"away": "56"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "11.Fulham                  38  15  9 14",
+"hg": 54,
+"ag": 54,
+"away": "54"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "12.Crystal Palace          38  13 14 11",
+"hg": 51,
+"ag": 51,
+"away": "53"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "13.Everton                 38  11 15 12",
+"hg": 42,
+"ag": 44,
+"away": "48"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "14.West Ham United         38  11 10 17",
+"hg": 46,
+"ag": 62,
+"away": "43"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "15.Manchester United       38  11  9 18",
+"hg": 44,
+"ag": 54,
+"away": "42"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "16.Wolverhampton Wanderers 38  12  6 20",
+"hg": 54,
+"ag": 69,
+"away": "42"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "17.Tottenham Hotspur       38  11  5 22",
+"hg": 64,
+"ag": 65,
+"away": "38"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "18.Leicester City          38   6  7 25",
+"hg": 33,
+"ag": 80,
+"away": "25  [P]        Relegated"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "19.Ipswich Town            38   4 10 24",
+"hg": 36,
+"ag": 82,
+"away": "22  [P]        Relegated"
+},
+{
+"round": 38,
+"date": "2025-05-20",
+"home": "20.Southampton             38   2  6 30",
+"hg": 26,
+"ag": 86,
+"away": "12  [P]        Relegated"
+}
+]
+}

@@ -1,0 +1,18 @@
+PITCH RATING — DELIVERY PACKAGE 8  (v3.6.0 — WO-SCOPE-CLEAR-01: country clear control)
+==========================================================================
+
+Version: v3.6.0   |   verify: base64 -d <file> > out  then  md5sum out
+
+Files (decoded md5s):
+  app-v3.6.0-edf52d78.b64.txt
+      decoded md5 = edf52d78b2fa1690721aa3a72018b634
+  ZONES-v3.6.0.b64.txt
+      decoded md5 = 6aa39e9e4a8fc0e1a3781b5a7e86e156
+  SCOPE-CLEAR.b64.txt
+      decoded md5 = d486f96d3856ef09578b2b699100b161
+
+Plain-text source: app/app-v3.6.0.html  md5 edf52d78b2fa1690721aa3a72018b634
+
+Owner UAT (WO §5, in order): G1 scope list · G2 preview · G3 backup gate ·
+G4 MUTE/UNMUTE · G5 PURGE Russia → 788 · G6 backup undo · G7 pure adds ·
+G8 Czech preview · G9 dedupe regression · G10 no hardcoding · G11 engine clean · G12 audit trail.

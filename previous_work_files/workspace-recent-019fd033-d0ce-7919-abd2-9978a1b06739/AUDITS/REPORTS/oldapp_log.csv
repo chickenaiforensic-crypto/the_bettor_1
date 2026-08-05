@@ -1,0 +1,511 @@
+date,fixture,co,cf,rf,cond,h2h,shared,baseline,resilience,anomA,anomB,tier,leader,probLeader,conf,zone,zoneSide,S,actual,resOld,resZone
+2024-08-27,Spartak Moscow v Dynamo Makhachka,2,2,2,2,no-data,4,agrees,neutral,N,N,STRONG_LEAN,H,95,high,windraw,TB,72,A,L,W
+2024-08-28,Dynamo Moscow v Krylya Sovetov S,1,1,2,2,2,4,agrees,neutral,N,N,STRONG_LEAN,H,87,high,win,TA,79,H,W,W
+2024-08-28,Lokomotiv Moscow v FC Khimki,2,2,2,2,no-data,4,agrees,neutral,N,N,STRONG_LEAN,H,95,high,lean,TA,51,H,W,W
+2024-08-31,FC Khimki v CSKA Moscow,-2,-2,-1,0,no-data,5,no-signal,neutral,N,N,STRONG_LEAN,A,86,high,strong,TB,85,A,W,W
+2024-08-31,Spartak Moscow v Rubin Kazan,1,0,0,-1,no-data,4,no-signal,neutral,N,N,TIDE_MATCH,H,46,high,windraw,TB,76,H,W,L
+2024-09-01,Lokomotiv Moscow v FC Krasnodar,1,0,1,2,no-data,4,agrees,neutral,N,N,LEAN,H,68,high,lean,TB,53,A,L,W
+2024-09-01,FC Orenburg v Dynamo Moscow,-1,-2,-2,0,no-data,4,agrees,neutral,N,N,STRONG_LEAN,A,84,high,windraw,TA,61,D,D,D
+2024-09-01,FC Rostov v Fakel Voronezh,1,2,2,2,no-data,4,agrees,neutral,N,N,STRONG_LEAN,H,89,high,windraw,TA,82,H,W,W
+2024-09-13,Rubin Kazan v Krylya Sovetov S,1,2,2,2,no-data,6,agrees,neutral,N,N,STRONG_LEAN,H,89,high,windraw,TA,69,A,L,L
+2024-09-14,Fakel Voronezh v Pari Nizhny Novg,0,0,0,0,no-data,4,no-signal,neutral,N,N,TIDE_MATCH,,37,high,toss,TA,49,D,NC,D
+2024-09-14,FC Orenburg v Lokomotiv Moscow,-2,-2,-2,-2,-2,6,agrees,neutral,N,N,STRONG_LEAN,A,98,high,windraw,TA,61,A,W,L
+2024-09-15,Dynamo Makhachka v Spartak Moscow,-2,0,-1,0,2,5,agrees,neutral,N,N,LEAN,A,64,high,windraw,TB,57,D,D,D
+2024-09-15,Dynamo Moscow v Akhmat Grozny,1,2,2,2,no-data,6,agrees,neutral,N,N,STRONG_LEAN,H,89,high,toss,TA,43,H,W,W
+2024-09-17,Zenit St Petersb v Rubin Kazan,2,1,2,1,2,6,agrees,neutral,N,N,STRONG_LEAN,H,92,high,strong,TA,91,H,W,W
+2024-09-18,CSKA Moscow v FC Krasnodar,-1,-2,-2,-1,-2,4,agrees,neutral,N,N,STRONG_LEAN,A,91,high,lean,TA,50,H,L,W
+2024-09-18,FC Rostov v FC Orenburg,2,2,2,2,2,4,agrees,A,N,N,STRONG_LEAN,H,98,high,win,TA,66,H,W,W
+2024-09-19,FC Khimki v Lokomotiv Moscow,-2,-2,-2,-2,-2,6,agrees,neutral,N,N,STRONG_LEAN,A,98,high,win,TB,77,A,W,W
+2024-09-19,Pari Nizhny Novg v Akhmat Grozny,0,0,0,0,-2,4,no-signal,neutral,N,N,TIDE_MATCH,A,46,high,windraw,TB,61,A,W,W
+2024-09-19,Spartak Moscow v Krylya Sovetov S,2,1,2,2,2,5,agrees,neutral,N,N,STRONG_LEAN,H,94,high,windraw,TB,57,H,W,L
+2024-09-21,Akron Tolyatti v FC Krasnodar,-2,-1,-2,0,no-data,5,agrees,neutral,N,N,STRONG_LEAN,A,85,high,lean,TA,50,A,W,L
+2024-09-21,Rubin Kazan v CSKA Moscow,-1,-2,-1,-1,no-data,5,no-signal,neutral,N,N,STRONG_LEAN,A,81,high,lean,TB,54,D,D,D
+2024-09-21,Zenit St Petersb v Fakel Voronezh,2,2,2,2,2,6,agrees,neutral,N,N,STRONG_LEAN,H,98,high,strong,TA,90,H,W,W
+2024-09-22,FC Khimki v FC Orenburg,-1,0,1,1,2,6,no-signal,A,N,N,TIDE_MATCH,H,46,high,lean,TA,54,D,D,D
+2024-09-22,Pari Nizhny Novg v Lokomotiv Moscow,-2,-2,-2,-2,no-data,5,agrees,neutral,N,N,STRONG_LEAN,A,95,high,windraw,TB,76,A,W,W
+2024-09-22,FC Rostov v Dynamo Makhachka,1,0,0,2,no-data,5,no-signal,neutral,N,N,LEAN,H,60,high,windraw,TA,76,D,D,D
+2024-09-22,Spartak Moscow v Dynamo Moscow,-1,0,0,1,2,6,no-signal,neutral,N,N,TIDE_MATCH,H,37,high,windraw,TB,77,D,D,D
+2024-09-23,Akhmat Grozny v Krylya Sovetov S,1,0,0,1,no-data,4,conflicts,neutral,N,N,PASS,H,56,high,windraw,TA,78,D,D,D
+2024-09-27,Fakel Voronezh v Rubin Kazan,-2,-1,-1,-1,-2,6,agrees,neutral,N,N,STRONG_LEAN,A,87,high,windraw,TB,64,D,D,D
+2024-09-27,FC Orenburg v Pari Nizhny Novg,0,0,-1,0,no-data,5,no-signal,B,N,N,TIDE_MATCH,A,46,high,windraw,TA,81,A,W,L
+2024-09-28,CSKA Moscow v Akhmat Grozny,2,1,2,1,2,6,agrees,B,N,N,LEAN,H,92,high,win,TA,70,H,W,W
+2024-09-28,FC Krasnodar v Zenit St Petersb,-2,0,0,0,no-data,5,no-signal,neutral,N,N,LEAN,A,64,high,windraw,TB,80,H,L,L
+2024-09-28,Lokomotiv Moscow v Spartak Moscow,2,1,1,1,no-data,5,no-signal,neutral,N,N,STRONG_LEAN,H,82,high,lean,TB,54,H,W,L
+2024-09-28,FC Rostov v Akron Tolyatti,1,1,1,2,no-data,7,agrees,neutral,N,N,STRONG_LEAN,H,77,high,windraw,TA,70,A,L,L
+2024-09-29,Dynamo Makhachka v Dynamo Moscow,-1,0,-1,1,-2,5,agrees,neutral,N,N,LEAN,A,64,high,win,TB,70,A,W,W
+2024-09-29,Krylya Sovetov S v FC Khimki,0,1,1,0,no-data,7,no-signal,neutral,N,N,LEAN,H,58,high,windraw,TB,61,D,D,D
+2024-10-01,Lokomotiv Moscow v FC Orenburg,2,2,2,2,2,8,agrees,neutral,N,N,STRONG_LEAN,H,98,high,windraw,TA,63,H,W,W
+2024-10-01,Pari Nizhny Novg v CSKA Moscow,-2,-2,-1,-2,-2,7,agrees,neutral,N,N,STRONG_LEAN,A,95,high,strong,TB,87,A,W,W
+2024-10-01,Rubin Kazan v Fakel Voronezh,2,0,1,2,1,6,agrees,neutral,N,N,STRONG_LEAN,H,81,high,win,TA,67,A,L,L
+2024-10-02,Akhmat Grozny v FC Krasnodar,-2,-2,-2,-2,-2,6,agrees,B,N,N,STRONG_LEAN,A,98,high,lean,TA,54,H,L,W
+2024-10-02,Dynamo Moscow v Spartak Moscow,1,1,1,2,-2,7,no-signal,neutral,N,N,LEAN,H,70,high,toss,TB,48,A,L,W
+2024-10-02,Zenit St Petersb v Akron Tolyatti,2,0,1,2,no-data,7,agrees,neutral,N,N,STRONG_LEAN,H,78,high,strong,TA,89,H,W,W
+2024-10-05,Akron Tolyatti v Pari Nizhny Novg,0,1,1,0,no-data,9,no-signal,neutral,N,N,LEAN,H,58,high,windraw,TA,64,D,D,D
+2024-10-05,Rubin Kazan v Akhmat Grozny,1,-1,0,0,no-data,7,agrees,neutral,N,N,TIDE_MATCH,H,39,high,windraw,TA,61,H,W,W
+2024-10-05,Spartak Moscow v FC Rostov,0,0,0,1,no-data,8,no-signal,neutral,N,N,TIDE_MATCH,H,42,high,windraw,TB,72,H,W,L
+2024-10-05,Zenit St Petersb v FC Orenburg,2,2,2,2,no-data,8,agrees,neutral,N,N,STRONG_LEAN,H,95,high,strong,TA,89,H,W,W
+2024-10-06,Dynamo Moscow v CSKA Moscow,-1,0,0,1,no-data,6,no-signal,neutral,N,N,TIDE_MATCH,A,46,high,lean,TB,55,A,W,W
+2024-10-06,Fakel Voronezh v Dynamo Makhachka,-1,-1,-1,0,no-data,7,no-signal,neutral,N,N,LEAN,A,70,high,lean,TB,52,D,D,D
+2024-10-06,FC Krasnodar v FC Khimki,2,2,2,2,no-data,8,agrees,A,Y,N,LEAN,H,95,high,lean,TB,53,H,W,L
+2024-10-06,Lokomotiv Moscow v Krylya Sovetov S,2,2,2,2,no-data,7,agrees,neutral,N,N,STRONG_LEAN,H,95,high,strong,TA,85,H,W,W
+2024-10-18,Akhmat Grozny v Fakel Voronezh,1,0,0,1,no-data,9,no-signal,B,N,N,LEAN,H,56,high,windraw,TA,80,A,L,L
+2024-10-18,Akron Tolyatti v Zenit St Petersb,-2,-1,-1,-2,-2,9,agrees,neutral,N,N,STRONG_LEAN,A,90,high,win,TB,84,A,W,W
+2024-10-19,Dynamo Makhachka v CSKA Moscow,-2,-2,-2,-1,no-data,8,agrees,neutral,N,N,STRONG_LEAN,A,93,high,windraw,TB,72,A,W,W
+2024-10-19,FC Khimki v Lokomotiv Moscow,-2,-2,-2,-2,-2,10,agrees,neutral,N,N,STRONG_LEAN,A,98,high,win,TB,73,H,L,L
+2024-10-19,Pari Nizhny Novg v FC Rostov,-1,0,-2,-1,no-data,11,agrees,neutral,N,N,STRONG_LEAN,A,72,high,windraw,TB,73,D,D,D
+2024-10-19,Spartak Moscow v FC Krasnodar,-1,0,-1,1,no-data,8,agrees,neutral,N,Y,LEAN,A,56,high,windraw,TB,76,A,W,W
+2024-10-20,FC Orenburg v Krylya Sovetov S,0,-1,-1,0,no-data,9,no-signal,neutral,N,N,LEAN,A,58,high,windraw,TA,79,D,D,D
+2024-10-20,Rubin Kazan v Dynamo Moscow,-1,0,-1,0,no-data,8,no-signal,neutral,N,N,LEAN,A,60,high,toss,TB,49,A,W,W
+2024-10-22,CSKA Moscow v Akhmat Grozny,2,2,2,2,2,9,agrees,neutral,N,N,STRONG_LEAN,H,98,high,windraw,TA,60,H,W,W
+2024-10-22,Dynamo Makhachka v Spartak Moscow,-1,-1,-1,-1,1,9,agrees,neutral,N,N,LEAN,A,70,high,windraw,TB,58,A,W,W
+2024-10-22,Fakel Voronezh v Zenit St Petersb,-2,-1,-2,-2,-2,9,agrees,B,N,N,STRONG_LEAN,A,94,high,win,TB,84,A,W,W
+2024-10-23,Akron Tolyatti v Rubin Kazan,0,0,0,-1,-2,8,no-signal,neutral,N,N,LEAN,A,51,high,windraw,TB,56,A,W,W
+2024-10-23,FC Krasnodar v Pari Nizhny Novg,2,2,2,2,2,9,agrees,neutral,Y,N,LEAN,H,98,high,toss,TA,48,A,L,L
+2024-10-23,FC Orenburg v FC Khimki,1,-1,-1,0,-2,9,no-signal,neutral,N,N,LEAN,A,53,high,windraw,TA,65,H,L,W
+2024-10-24,Krylya Sovetov S v Dynamo Moscow,-2,-1,-1,-1,-2,8,agrees,B,N,N,STRONG_LEAN,A,87,high,strong,TB,87,A,W,W
+2024-10-26,CSKA Moscow v Fakel Voronezh,2,2,2,2,no-data,10,agrees,neutral,N,N,STRONG_LEAN,H,95,high,windraw,TA,78,D,D,D
+2024-10-26,Dynamo Makhachka v Akron Tolyatti,0,-1,0,0,no-data,10,no-signal,neutral,N,N,TIDE_MATCH,A,49,high,windraw,TB,62,D,D,D
+2024-10-26,FC Rostov v Akhmat Grozny,1,1,1,2,no-data,12,agrees,A,N,N,STRONG_LEAN,H,77,high,windraw,TA,57,A,L,L
+2024-10-27,FC Khimki v Dynamo Moscow,-2,-1,-2,-1,no-data,11,agrees,neutral,N,N,STRONG_LEAN,A,87,high,windraw,TB,79,A,W,W
+2024-10-27,FC Orenburg v Rubin Kazan,0,-1,-1,-1,no-data,11,agrees,B,N,N,LEAN,A,62,high,windraw,TA,63,A,W,L
+2024-10-27,Pari Nizhny Novg v Spartak Moscow,-1,0,-1,-2,no-data,11,agrees,B,N,N,LEAN,A,68,high,windraw,TB,67,A,W,W
+2024-10-27,Zenit St Petersb v Lokomotiv Moscow,1,0,0,1,no-data,10,no-signal,neutral,N,Y,LEAN,H,56,high,windraw,TA,78,D,D,D
+2024-10-28,Krylya Sovetov S v FC Krasnodar,-2,-2,-2,-2,no-data,10,agrees,neutral,N,Y,LEAN,A,95,high,windraw,TB,64,A,W,W
+2024-11-01,Dynamo Moscow v FC Rostov,1,2,1,2,no-data,13,agrees,neutral,N,N,STRONG_LEAN,H,84,high,windraw,TA,67,D,D,D
+2024-11-02,CSKA Moscow v Spartak Moscow,0,0,0,0,no-data,12,no-signal,neutral,N,N,TIDE_MATCH,,37,high,toss,TA,44,A,NC,L
+2024-11-02,Lokomotiv Moscow v Rubin Kazan,1,0,2,1,no-data,12,agrees,neutral,Y,N,LEAN,H,72,high,windraw,TA,69,H,W,W
+2024-11-02,Zenit St Petersb v Dynamo Makhachka,2,2,2,2,no-data,12,agrees,A,N,N,STRONG_LEAN,H,95,high,windraw,TA,78,H,W,W
+2024-11-03,Akhmat Grozny v Pari Nizhny Novg,0,0,0,0,2,12,no-signal,neutral,N,N,TIDE_MATCH,H,46,high,win,TA,77,A,L,L
+2024-11-03,Akron Tolyatti v Krylya Sovetov S,0,0,1,0,no-data,12,no-signal,neutral,N,N,TIDE_MATCH,H,46,high,windraw,TA,59,H,W,W
+2024-11-03,Fakel Voronezh v FC Khimki,0,1,1,0,no-data,13,no-signal,neutral,N,N,LEAN,H,58,high,lean,TB,51,D,D,D
+2024-11-03,FC Krasnodar v FC Orenburg,2,1,2,2,no-data,12,agrees,neutral,Y,N,LEAN,H,90,high,lean,TA,52,H,W,W
+2024-11-09,Dynamo Makhachka v FC Orenburg,0,-1,1,1,no-data,14,agrees,A,N,N,TIDE_MATCH,H,39,high,windraw,TB,59,H,W,L
+2024-11-09,Dynamo Moscow v Pari Nizhny Novg,2,0,1,0,no-data,14,agrees,neutral,N,N,STRONG_LEAN,H,72,high,windraw,TA,80,H,W,W
+2024-11-09,Lokomotiv Moscow v Fakel Voronezh,2,1,2,2,no-data,14,agrees,neutral,Y,N,LEAN,H,90,high,windraw,TA,72,H,W,W
+2024-11-09,FC Rostov v FC Khimki,0,-1,1,2,2,14,no-signal,neutral,N,N,LEAN,H,53,high,win,TA,71,H,W,W
+2024-11-10,Akhmat Grozny v Zenit St Petersb,-2,-2,-2,-2,no-data,14,agrees,B,N,N,STRONG_LEAN,A,95,high,windraw,TB,59,A,W,W
+2024-11-10,Krylya Sovetov S v CSKA Moscow,-2,-2,-2,-2,no-data,14,agrees,B,N,N,STRONG_LEAN,A,95,high,strong,TB,87,A,W,W
+2024-11-10,Rubin Kazan v FC Krasnodar,-2,-1,-2,-2,no-data,14,agrees,neutral,N,Y,LEAN,A,90,high,windraw,TA,60,D,D,D
+2024-11-10,Spartak Moscow v Akron Tolyatti,1,2,1,1,no-data,14,agrees,neutral,N,N,STRONG_LEAN,H,81,high,windraw,TB,59,H,W,L
+2024-11-22,Rubin Kazan v Akron Tolyatti,0,1,0,0,2,14,no-signal,neutral,N,N,LEAN,H,58,high,windraw,TA,60,H,W,W
+2024-11-23,CSKA Moscow v FC Rostov,1,1,2,1,0,14,no-signal,A,N,N,STRONG_LEAN,H,80,high,toss,TB,41,A,L,W
+2024-11-23,FC Khimki v FC Krasnodar,-2,-2,-2,-1,-2,14,agrees,neutral,N,Y,LEAN,A,96,high,lean,TB,55,D,D,D
+2024-11-23,FC Orenburg v Zenit St Petersb,-2,-2,-2,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,98,high,win,TB,69,A,W,W
+2024-11-23,Spartak Moscow v Lokomotiv Moscow,0,0,0,0,-2,14,no-signal,neutral,N,Y,TIDE_MATCH,A,46,high,windraw,TB,59,H,L,L
+2024-11-24,Fakel Voronezh v Dynamo Moscow,-2,-2,-2,-2,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,98,high,strong,TB,85,D,D,D
+2024-11-24,Krylya Sovetov S v Akhmat Grozny,0,0,-1,0,0,14,no-signal,B,N,N,TIDE_MATCH,A,46,high,windraw,TB,61,H,L,L
+2024-11-24,Pari Nizhny Novg v Dynamo Makhachka,-1,1,0,-1,2,14,no-signal,neutral,N,N,TIDE_MATCH,H,39,high,windraw,TB,60,D,D,D
+2024-11-26,CSKA Moscow v Rubin Kazan,1,-1,1,0,0,14,no-signal,A,N,N,TIDE_MATCH,H,49,high,toss,TA,43,H,W,W
+2024-11-27,Akhmat Grozny v Zenit St Petersb,-2,-2,-2,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,98,high,win,TB,66,A,W,W
+2024-11-27,FC Rostov v Spartak Moscow,-1,-2,-2,0,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,89,high,toss,TA,48,H,L,W
+2024-11-30,Akron Tolyatti v FC Orenburg,0,1,1,2,0,14,agrees,neutral,N,N,LEAN,H,66,high,lean,TB,50,H,W,L
+2024-11-30,CSKA Moscow v Rubin Kazan,1,0,1,0,1,14,no-signal,A,N,N,LEAN,H,64,high,toss,TA,45,D,D,D
+2024-11-30,FC Rostov v Pari Nizhny Novg,1,1,1,1,0,14,no-signal,neutral,N,N,STRONG_LEAN,H,73,high,win,TA,79,H,W,W
+2024-12-01,Dynamo Makhachka v Fakel Voronezh,1,1,-1,1,0,14,agrees,neutral,N,N,LEAN,H,58,high,toss,TA,41,D,D,D
+2024-12-01,FC Krasnodar v Spartak Moscow,0,-1,0,2,2,14,no-signal,neutral,Y,N,TIDE_MATCH,H,44,high,toss,TB,48,A,L,W
+2024-12-01,Lokomotiv Moscow v FC Khimki,2,1,2,2,1,14,agrees,neutral,Y,N,LEAN,H,92,high,windraw,TA,63,A,L,L
+2024-12-01,Zenit St Petersb v Krylya Sovetov S,2,2,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,98,high,strong,TA,90,A,L,L
+2024-12-02,Akhmat Grozny v Dynamo Moscow,-2,-2,-2,-1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,96,high,lean,TB,54,D,D,D
+2024-12-07,Dynamo Makhachka v Rubin Kazan,0,0,-1,0,-2,14,no-signal,neutral,N,N,LEAN,A,56,high,windraw,TB,56,A,W,W
+2024-12-07,FC Rostov v Krylya Sovetov S,0,2,1,2,2,14,no-signal,neutral,N,N,STRONG_LEAN,H,81,high,win,TA,72,H,W,W
+2024-12-07,Spartak Moscow v Pari Nizhny Novg,2,2,2,1,2,14,agrees,neutral,N,N,STRONG_LEAN,H,96,high,windraw,TA,57,H,W,W
+2024-12-07,Zenit St Petersb v Akron Tolyatti,2,1,2,2,2,14,agrees,neutral,Y,N,LEAN,H,94,high,win,TA,73,A,L,L
+2024-12-08,Akhmat Grozny v FC Orenburg,0,0,0,1,0,14,no-signal,neutral,N,N,TIDE_MATCH,H,42,high,toss,TB,44,H,W,L
+2024-12-08,Dynamo Moscow v FC Khimki,2,1,1,2,2,14,agrees,neutral,N,N,STRONG_LEAN,H,90,high,win,TA,77,H,W,W
+2024-12-08,Fakel Voronezh v CSKA Moscow,-2,-1,-1,-2,0,14,agrees,B,N,N,STRONG_LEAN,A,85,high,windraw,TB,64,A,W,W
+2024-12-08,FC Krasnodar v Lokomotiv Moscow,0,0,0,1,2,14,no-signal,neutral,Y,Y,LEAN,H,51,high,toss,TB,49,D,D,D
+2025-02-28,Dynamo Makhachka v Lokomotiv Moscow,-1,0,-2,-1,-2,14,agrees,B,N,Y,LEAN,A,78,high,windraw,TB,60,D,D,D
+2025-03-01,Akhmat Grozny v Rubin Kazan,0,-1,-2,-1,-2,14,agrees,B,N,N,STRONG_LEAN,A,77,high,windraw,TA,62,H,L,W
+2025-03-01,FC Krasnodar v Krylya Sovetov S,2,0,1,2,2,14,agrees,neutral,N,N,STRONG_LEAN,H,84,high,lean,TA,55,D,D,D
+2025-03-01,Pari Nizhny Novg v Akron Tolyatti,0,-1,-1,-1,0,14,agrees,neutral,N,N,LEAN,A,62,high,windraw,TB,70,H,L,L
+2025-03-01,Zenit St Petersb v CSKA Moscow,0,0,0,0,2,14,agrees,neutral,Y,N,TIDE_MATCH,H,46,high,lean,TA,55,D,D,D
+2025-03-02,FC Khimki v Fakel Voronezh,0,1,0,0,0,14,no-signal,neutral,N,N,TIDE_MATCH,H,49,high,lean,TA,53,H,W,W
+2025-03-02,FC Rostov v Dynamo Moscow,-1,1,0,0,0,14,no-signal,neutral,N,N,TIDE_MATCH,A,39,high,toss,TB,43,D,D,D
+2025-03-02,Spartak Moscow v FC Orenburg,2,2,2,2,-2,14,agrees,neutral,N,N,STRONG_LEAN,H,91,high,lean,TB,52,H,W,L
+2025-03-07,Lokomotiv Moscow v Akhmat Grozny,1,0,1,2,2,14,agrees,A,Y,N,LEAN,H,75,high,windraw,TA,62,D,D,D
+2025-03-07,Pari Nizhny Novg v FC Krasnodar,-2,0,-1,-2,-1,14,agrees,A,N,N,LEAN,A,81,high,win,TB,75,A,W,W
+2025-03-08,CSKA Moscow v FC Khimki,2,0,1,1,2,14,agrees,A,N,N,STRONG_LEAN,H,81,high,windraw,TA,59,H,W,W
+2025-03-08,Dynamo Moscow v Dynamo Makhachka,1,1,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,87,high,lean,TA,50,H,W,W
+2025-03-08,Fakel Voronezh v Zenit St Petersb,-2,-1,-2,-2,-2,14,agrees,B,N,Y,LEAN,A,94,high,win,TB,84,A,W,W
+2025-03-08,FC Orenburg v FC Rostov,-1,-2,-2,0,-2,14,agrees,B,N,N,STRONG_LEAN,A,89,high,win,TB,69,A,W,W
+2025-03-09,Krylya Sovetov S v Akron Tolyatti,0,-1,-1,0,-2,14,no-signal,B,N,N,LEAN,A,66,high,toss,TB,48,A,W,W
+2025-03-09,Rubin Kazan v Spartak Moscow,-2,-1,-2,-1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,92,high,lean,TB,52,H,L,L
+2025-03-11,Dynamo Makhachka v Lokomotiv Moscow,-1,0,-1,-1,-2,14,agrees,B,N,Y,LEAN,A,72,high,windraw,TB,57,A,W,W
+2025-03-11,FC Krasnodar v Akhmat Grozny,2,-1,1,2,0,14,agrees,neutral,N,N,LEAN,H,70,high,toss,TA,48,A,L,L
+2025-03-12,Akron Tolyatti v Spartak Moscow,-2,1,-1,-1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,73,high,lean,TB,54,A,W,W
+2025-03-12,CSKA Moscow v Dynamo Moscow,0,1,-1,0,2,14,no-signal,A,N,N,TIDE_MATCH,H,49,high,win,TB,66,H,W,L
+2025-03-12,Lokomotiv Moscow v Akhmat Grozny,1,-1,0,2,1,14,agrees,A,Y,N,LEAN,H,53,high,lean,TA,55,H,W,W
+2025-03-12,FC Rostov v Zenit St Petersb,-1,2,0,-1,-2,14,agrees,neutral,N,Y,TIDE_MATCH,A,42,high,lean,TB,53,A,W,W
+2025-03-15,Dynamo Makhachka v Krylya Sovetov S,0,-1,0,0,2,14,no-signal,neutral,N,N,TIDE_MATCH,A,39,high,windraw,TA,55,H,L,W
+2025-03-15,FC Khimki v Akhmat Grozny,-1,-1,0,1,0,14,no-signal,neutral,N,N,LEAN,A,58,high,windraw,TB,57,D,D,D
+2025-03-15,Lokomotiv Moscow v Dynamo Moscow,0,0,0,1,-2,14,no-signal,A,Y,N,TIDE_MATCH,A,42,high,windraw,TB,57,H,L,L
+2025-03-15,FC Orenburg v Fakel Voronezh,0,-1,0,0,-2,14,no-signal,B,N,N,LEAN,A,58,high,windraw,TA,62,H,L,W
+2025-03-16,Akron Tolyatti v CSKA Moscow,-1,-1,0,-1,-2,14,no-signal,B,N,N,STRONG_LEAN,A,73,high,win,TB,69,A,W,W
+2025-03-16,FC Rostov v FC Krasnodar,-1,1,1,0,-2,14,agrees,A,N,Y,TIDE_MATCH,A,39,high,windraw,TA,60,A,W,L
+2025-03-16,Rubin Kazan v Pari Nizhny Novg,1,1,0,-1,2,14,agrees,neutral,N,N,LEAN,H,66,high,strong,TA,87,H,W,W
+2025-03-16,Spartak Moscow v Zenit St Petersb,0,1,1,0,0,14,no-signal,neutral,N,Y,LEAN,H,58,high,windraw,TB,61,H,W,L
+2025-03-28,Krylya Sovetov S v Lokomotiv Moscow,-1,-2,-2,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,93,high,windraw,TB,65,H,L,L
+2025-03-29,CSKA Moscow v Dynamo Makhachka,1,2,2,1,2,14,agrees,A,N,N,STRONG_LEAN,H,91,high,windraw,TA,57,H,W,W
+2025-03-29,Dynamo Moscow v FC Orenburg,2,1,2,2,0,14,agrees,A,N,N,STRONG_LEAN,H,90,high,windraw,TA,59,H,W,W
+2025-03-29,FC Khimki v Pari Nizhny Novg,0,1,0,0,-2,14,no-signal,B,N,N,TIDE_MATCH,H,39,high,win,TA,68,H,W,W
+2025-03-30,Akhmat Grozny v Spartak Moscow,-2,-1,-2,-1,0,14,agrees,neutral,N,N,STRONG_LEAN,A,87,high,toss,TA,46,D,D,D
+2025-03-30,FC Krasnodar v Fakel Voronezh,2,2,2,2,0,14,agrees,A,Y,N,LEAN,H,95,high,windraw,TA,57,H,W,W
+2025-03-30,Zenit St Petersb v Rubin Kazan,1,-1,1,1,2,14,agrees,neutral,Y,N,LEAN,H,62,high,win,TA,70,H,W,W
+2025-03-31,Akron Tolyatti v FC Rostov,-1,0,-1,0,2,14,no-signal,neutral,N,N,LEAN,A,51,high,win,TB,70,A,W,W
+2025-04-04,Pari Nizhny Novg v FC Orenburg,0,0,1,1,2,14,no-signal,neutral,N,N,LEAN,H,60,high,windraw,TB,62,A,L,W
+2025-04-05,Fakel Voronezh v Akhmat Grozny,-1,-2,-2,0,2,14,no-signal,B,N,N,STRONG_LEAN,A,78,high,windraw,TB,57,D,D,D
+2025-04-05,FC Krasnodar v Akron Tolyatti,2,2,1,1,2,14,agrees,neutral,Y,N,LEAN,H,93,high,toss,TB,47,H,W,L
+2025-04-05,Krylya Sovetov S v Rubin Kazan,0,0,-1,0,2,14,no-signal,neutral,N,N,TIDE_MATCH,,37,high,windraw,TB,59,D,NC,D
+2025-04-05,Lokomotiv Moscow v Zenit St Petersb,-1,0,-1,0,0,14,agrees,neutral,N,N,LEAN,A,60,high,lean,TB,52,D,D,D
+2025-04-06,CSKA Moscow v Dynamo Moscow,0,2,1,1,2,14,no-signal,A,N,N,STRONG_LEAN,H,78,high,lean,TB,53,H,W,L
+2025-04-06,Dynamo Makhachka v FC Khimki,1,-1,0,1,0,14,no-signal,neutral,N,N,TIDE_MATCH,H,44,high,toss,TA,43,H,W,W
+2025-04-06,FC Rostov v Spartak Moscow,-1,-1,0,0,0,14,agrees,neutral,N,N,LEAN,A,62,high,toss,TA,48,A,W,L
+2025-04-11,Spartak Moscow v Dynamo Makhachka,2,2,2,2,0,14,agrees,neutral,N,N,STRONG_LEAN,H,95,high,lean,TB,51,A,L,W
+2025-04-12,Akhmat Grozny v FC Rostov,-1,0,-1,0,2,14,agrees,B,N,N,LEAN,A,51,high,toss,TB,48,H,L,L
+2025-04-12,FC Orenburg v CSKA Moscow,-2,-2,-2,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,98,high,lean,TB,55,A,W,W
+2025-04-12,Pari Nizhny Novg v Dynamo Moscow,-2,-1,-1,-1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,87,high,strong,TB,87,D,D,D
+2025-04-12,Rubin Kazan v Lokomotiv Moscow,-1,-1,0,0,-2,14,no-signal,B,N,N,LEAN,A,70,high,toss,TB,49,H,L,L
+2025-04-13,Akron Tolyatti v Fakel Voronezh,0,0,1,1,2,14,agrees,A,N,N,LEAN,H,60,high,windraw,TA,60,H,W,W
+2025-04-13,FC Khimki v Krylya Sovetov S,0,0,0,1,0,14,no-signal,neutral,N,N,TIDE_MATCH,H,42,high,windraw,TB,56,A,L,W
+2025-04-13,Zenit St Petersb v FC Krasnodar,0,0,0,0,-2,14,no-signal,neutral,N,Y,TIDE_MATCH,A,46,high,windraw,TA,61,H,L,W
+2025-04-15,Lokomotiv Moscow v Akhmat Grozny,1,0,-1,2,1,14,agrees,neutral,N,N,LEAN,H,56,high,windraw,TA,57,H,W,W
+2025-04-16,Dynamo Moscow v CSKA Moscow,0,-2,-2,0,-2,14,no-signal,B,N,N,STRONG_LEAN,A,81,high,windraw,TB,56,D,D,D
+2025-04-16,Zenit St Petersb v FC Rostov,1,2,0,1,2,14,agrees,neutral,N,N,STRONG_LEAN,H,81,high,win,TA,66,H,W,W
+2025-04-19,Akron Tolyatti v Spartak Moscow,-2,-2,-1,-1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,93,high,windraw,TB,62,A,W,W
+2025-04-19,FC Krasnodar v Akhmat Grozny,2,1,0,2,-1,14,agrees,neutral,Y,N,LEAN,H,77,high,toss,TB,49,H,W,L
+2025-04-19,Lokomotiv Moscow v Pari Nizhny Novg,1,2,2,2,2,14,agrees,neutral,N,N,STRONG_LEAN,H,93,high,strong,TA,92,H,W,W
+2025-04-19,FC Orenburg v Dynamo Makhachka,-1,-1,-1,0,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,77,high,toss,TB,41,H,L,L
+2025-04-20,CSKA Moscow v Krylya Sovetov S,1,2,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,93,high,windraw,TA,63,D,D,D
+2025-04-20,Dynamo Moscow v Rubin Kazan,1,0,0,0,2,14,no-signal,B,N,N,LEAN,H,60,high,lean,TA,53,H,W,W
+2025-04-20,Fakel Voronezh v FC Rostov,-1,0,-2,-1,-2,14,agrees,B,N,N,STRONG_LEAN,A,78,high,win,TB,75,A,W,W
+2025-04-20,Zenit St Petersb v FC Khimki,2,2,1,2,0,14,agrees,neutral,N,N,STRONG_LEAN,H,91,high,strong,TA,88,H,W,W
+2025-04-25,Dynamo Makhachka v FC Krasnodar,-1,-1,-1,-1,0,14,agrees,neutral,N,Y,LEAN,A,73,high,toss,TB,48,A,W,W
+2025-04-26,Dynamo Moscow v Zenit St Petersb,0,-1,-1,0,-2,14,no-signal,B,N,N,LEAN,A,66,high,win,TB,72,D,D,D
+2025-04-26,Pari Nizhny Novg v Akhmat Grozny,-1,-1,-1,0,-1,14,no-signal,neutral,N,N,STRONG_LEAN,A,73,high,win,TB,81,H,L,L
+2025-04-26,FC Rostov v Lokomotiv Moscow,0,0,-1,0,-2,14,no-signal,neutral,N,N,LEAN,A,56,high,toss,TA,48,D,D,D
+2025-04-26,Spartak Moscow v CSKA Moscow,0,0,0,0,2,14,no-signal,neutral,N,N,TIDE_MATCH,H,46,high,lean,TB,53,A,L,W
+2025-04-27,FC Khimki v Akron Tolyatti,0,0,0,0,-2,14,agrees,neutral,N,N,TIDE_MATCH,A,46,high,windraw,TB,58,D,D,D
+2025-04-27,Krylya Sovetov S v FC Orenburg,1,0,1,1,0,14,agrees,neutral,N,N,LEAN,H,64,high,toss,TB,49,H,W,L
+2025-04-27,Rubin Kazan v Fakel Voronezh,1,2,2,2,0,14,agrees,A,N,N,STRONG_LEAN,H,89,high,windraw,TA,63,H,W,W
+2025-04-29,Spartak Moscow v Dynamo Moscow,0,1,1,1,1,14,no-signal,A,N,N,LEAN,H,66,high,toss,TB,46,H,W,L
+2025-04-30,Lokomotiv Moscow v FC Rostov,0,1,1,2,1,14,no-signal,A,N,N,LEAN,H,70,high,lean,TB,50,A,L,W
+2025-04-30,Spartak Moscow v FC Rostov,1,1,2,1,1,14,agrees,A,N,N,STRONG_LEAN,H,82,high,lean,TB,52,A,L,W
+2025-04-30,Zenit St Petersb v CSKA Moscow,0,0,0,0,1,14,no-signal,B,N,N,TIDE_MATCH,H,42,high,windraw,TA,57,H,W,W
+2025-05-02,Akron Tolyatti v Dynamo Makhachka,0,0,0,0,0,14,no-signal,neutral,N,N,TIDE_MATCH,,37,high,windraw,TB,59,H,NC,L
+2025-05-03,FC Krasnodar v Rubin Kazan,1,1,1,1,0,14,agrees,neutral,N,N,STRONG_LEAN,H,73,high,toss,TA,49,H,W,W
+2025-05-03,Lokomotiv Moscow v FC Orenburg,1,0,1,2,2,14,agrees,A,N,N,STRONG_LEAN,H,75,high,win,TA,69,D,D,D
+2025-05-04,Akhmat Grozny v CSKA Moscow,-1,-1,-2,0,-2,14,agrees,B,N,N,STRONG_LEAN,A,82,high,lean,TB,54,D,D,D
+2025-05-04,Fakel Voronezh v Spartak Moscow,-2,-2,-2,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,98,high,windraw,TB,56,D,D,D
+2025-05-04,FC Khimki v FC Rostov,-1,-2,0,0,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,78,high,strong,TB,88,D,D,D
+2025-05-04,Zenit St Petersb v Pari Nizhny Novg,2,2,2,1,2,14,agrees,neutral,N,N,STRONG_LEAN,H,96,high,strong,TA,93,H,W,W
+2025-05-05,Krylya Sovetov S v Dynamo Moscow,-1,1,1,0,-2,14,agrees,A,N,N,TIDE_MATCH,A,39,high,win,TB,69,A,W,W
+2025-05-10,CSKA Moscow v FC Krasnodar,0,-2,0,0,-1,14,no-signal,neutral,N,N,LEAN,A,64,high,toss,TB,46,H,L,L
+2025-05-10,Dynamo Makhachka v Zenit St Petersb,-1,-2,-2,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,93,high,win,TB,75,A,W,W
+2025-05-10,FC Orenburg v FC Khimki,0,1,0,1,0,14,no-signal,neutral,N,N,LEAN,H,53,high,windraw,TA,56,D,D,D
+2025-05-11,Akron Tolyatti v Akhmat Grozny,0,1,0,1,0,14,agrees,neutral,N,N,LEAN,H,53,high,windraw,TB,58,H,W,L
+2025-05-11,Dynamo Moscow v Spartak Moscow,0,0,-1,0,-2,14,no-signal,B,N,N,LEAN,A,56,high,lean,TB,50,H,L,L
+2025-05-11,Fakel Voronezh v Lokomotiv Moscow,-1,-2,-2,-1,-2,14,agrees,B,N,N,STRONG_LEAN,A,91,high,win,TB,83,A,W,W
+2025-05-11,Rubin Kazan v FC Rostov,0,-1,0,0,0,14,no-signal,neutral,N,N,TIDE_MATCH,A,49,high,windraw,TB,57,H,L,L
+2025-05-12,Pari Nizhny Novg v Krylya Sovetov S,-1,-1,-1,0,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,77,high,windraw,TB,61,H,L,L
+2025-05-15,Spartak Moscow v FC Rostov,1,-1,0,1,0,14,no-signal,A,N,N,TIDE_MATCH,H,44,high,windraw,TB,57,A,L,W
+2025-05-17,FC Khimki v Rubin Kazan,-1,-2,-1,0,2,14,agrees,B,N,N,STRONG_LEAN,A,72,high,win,TB,67,H,L,L
+2025-05-17,FC Orenburg v FC Krasnodar,-2,-1,-2,-1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,92,high,lean,TB,50,A,W,W
+2025-05-17,Pari Nizhny Novg v Fakel Voronezh,0,2,1,1,0,14,no-signal,A,N,N,STRONG_LEAN,H,72,high,toss,TB,41,D,D,D
+2025-05-18,Akhmat Grozny v Dynamo Makhachka,0,0,0,0,-2,14,no-signal,A,N,N,TIDE_MATCH,A,46,high,toss,TA,44,D,D,D
+2025-05-18,Dynamo Moscow v Akron Tolyatti,1,0,0,1,2,14,agrees,B,N,N,LEAN,H,64,high,win,TA,84,H,W,W
+2025-05-18,Krylya Sovetov S v Spartak Moscow,-1,1,0,-1,-2,14,agrees,neutral,N,N,LEAN,A,53,high,windraw,TB,60,A,W,W
+2025-05-18,FC Rostov v Zenit St Petersb,-1,-1,-1,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,82,high,lean,TB,54,A,W,W
+2025-05-19,Akron Tolyatti v Lokomotiv Moscow,-1,0,-1,-2,-2,14,no-signal,B,N,N,STRONG_LEAN,A,75,high,win,TB,72,A,W,W
+2025-05-19,CSKA Moscow v Pari Nizhny Novg,2,0,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,89,high,win,TA,83,H,W,W
+2025-05-19,Dynamo Makhachka v FC Rostov,-1,-2,-1,-1,0,14,agrees,B,N,N,STRONG_LEAN,A,81,high,lean,TB,55,D,D,D
+2025-05-19,Fakel Voronezh v Krylya Sovetov S,0,-1,-1,0,-2,14,agrees,neutral,N,N,LEAN,A,66,high,lean,TA,53,D,D,D
+2025-05-19,FC Krasnodar v Dynamo Moscow,0,0,1,1,2,14,no-signal,A,N,N,LEAN,H,60,high,toss,TB,45,H,W,L
+2025-05-19,Lokomotiv Moscow v CSKA Moscow,-1,0,-1,0,2,14,no-signal,neutral,N,N,LEAN,A,51,high,toss,TB,41,D,D,D
+2025-05-19,Rubin Kazan v FC Orenburg,1,0,0,2,2,14,agrees,neutral,N,N,LEAN,H,68,high,windraw,TA,61,H,W,W
+2025-05-19,Spartak Moscow v FC Khimki,2,0,1,2,2,14,agrees,neutral,N,N,STRONG_LEAN,H,84,high,win,TA,68,H,W,W
+2025-05-19,Zenit St Petersb v Akhmat Grozny,2,2,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,98,high,win,TA,73,H,W,W
+2025-07-19,Akron Tolyatti v Krylya Sovetov S,0,1,0,1,2,14,no-signal,neutral,N,N,LEAN,H,62,high,toss,TB,47,D,D,D
+2025-07-19,Spartak Moscow v Dynamo Makhachka,1,1,1,2,-1,14,no-signal,neutral,N,N,STRONG_LEAN,H,73,high,lean,TB,52,H,W,L
+2025-07-20,Akhmat Grozny v Rubin Kazan,0,-2,-2,0,0,14,no-signal,B,N,N,STRONG_LEAN,A,75,high,windraw,TA,61,A,W,L
+2025-07-20,Pari Nizhny Novg v FC Krasnodar,-2,-1,-2,-1,-1,14,no-signal,B,N,N,STRONG_LEAN,A,90,high,win,TB,79,A,W,W
+2025-07-20,Zenit St Petersb v FC Rostov,1,2,2,1,2,14,no-signal,A,N,N,STRONG_LEAN,H,91,high,lean,TA,52,H,W,W
+2025-07-21,FC Orenburg v CSKA Moscow,-2,-2,-1,-1,-2,14,no-signal,neutral,N,N,STRONG_LEAN,A,93,high,windraw,TB,61,D,D,D
+2025-07-25,Krylya Sovetov S v Pari Nizhny Novg,1,-1,1,0,0,14,no-signal,neutral,N,N,TIDE_MATCH,H,49,high,win,TA,68,H,W,W
+2025-07-26,Dynamo Moscow v FC Rostov,1,2,0,1,0,14,no-signal,neutral,N,N,STRONG_LEAN,H,75,high,lean,TB,52,H,W,L
+2025-07-26,FC Krasnodar v Lokomotiv Moscow,0,-1,1,1,1,14,no-signal,A,N,N,TIDE_MATCH,H,44,high,windraw,TB,55,A,L,W
+2025-07-27,CSKA Moscow v Akhmat Grozny,1,2,2,2,2,14,no-signal,A,N,N,STRONG_LEAN,H,93,high,lean,TA,51,H,W,W
+2025-07-27,FC Orenburg v Dynamo Makhachka,-1,0,0,0,0,14,no-signal,A,N,N,LEAN,A,51,high,toss,TB,38,D,D,D
+2025-07-27,Rubin Kazan v Zenit St Petersb,-1,-2,-2,-1,-2,14,no-signal,B,N,N,STRONG_LEAN,A,91,high,win,TB,78,D,D,D
+2025-07-29,FC Krasnodar v Krylya Sovetov S,1,1,1,2,1,14,no-signal,neutral,N,N,STRONG_LEAN,H,80,high,windraw,TA,57,A,L,L
+2025-07-30,Akhmat Grozny v Zenit St Petersb,-2,-2,-2,-2,-2,14,no-signal,B,N,N,STRONG_LEAN,A,98,high,win,TB,75,A,W,W
+2025-07-30,CSKA Moscow v Lokomotiv Moscow,0,0,0,0,-2,14,no-signal,neutral,N,N,TIDE_MATCH,A,46,high,windraw,TB,57,H,L,L
+2025-07-30,Dynamo Makhachka v Pari Nizhny Novg,1,0,0,0,-2,14,no-signal,neutral,N,N,TIDE_MATCH,H,42,high,win,TA,68,H,W,W
+2025-07-30,FC Rostov v Spartak Moscow,-1,-1,0,0,1,14,no-signal,neutral,N,N,LEAN,A,58,high,lean,TB,50,A,W,W
+2025-07-31,Rubin Kazan v FC Orenburg,1,2,1,2,2,14,no-signal,neutral,N,N,STRONG_LEAN,H,89,high,windraw,TA,61,H,W,W
+2025-08-02,FC Krasnodar v Dynamo Moscow,0,-1,0,1,2,14,no-signal,neutral,N,N,TIDE_MATCH,H,39,high,toss,TB,48,H,W,L
+2025-08-02,Pari Nizhny Novg v Lokomotiv Moscow,-1,-2,-2,-1,-2,14,no-signal,B,N,N,STRONG_LEAN,A,91,high,strong,TB,95,A,W,W
+2025-08-02,FC Rostov v Krylya Sovetov S,0,-2,-1,1,2,14,no-signal,neutral,N,N,LEAN,A,56,high,win,TA,81,A,W,L
+2025-08-03,Akron Tolyatti v Spartak Moscow,-1,-1,0,-1,-2,15,no-signal,neutral,N,N,STRONG_LEAN,A,73,high,win,TB,77,D,D,D
+2025-08-03,Dynamo Makhachka v Akhmat Grozny,0,1,1,1,1,14,no-signal,neutral,N,N,LEAN,H,66,high,toss,TA,44,H,W,W
+2025-08-03,Zenit St Petersb v CSKA Moscow,0,0,1,0,1,14,no-signal,A,N,N,LEAN,H,51,high,toss,TA,48,D,D,D
+2025-08-08,Dynamo Makhachka v Akron Tolyatti,0,0,-1,0,-2,14,no-signal,neutral,N,N,LEAN,A,56,high,windraw,TA,63,D,D,D
+2025-08-09,Akhmat Grozny v Zenit St Petersb,-2,-2,-2,-2,-2,14,no-signal,B,N,N,STRONG_LEAN,A,98,high,win,TB,76,H,L,L
+2025-08-09,CSKA Moscow v Rubin Kazan,1,0,0,2,0,14,no-signal,neutral,N,N,LEAN,H,60,high,toss,TA,44,H,W,W
+2025-08-09,Lokomotiv Moscow v Spartak Moscow,-1,0,1,0,0,14,no-signal,A,N,N,TIDE_MATCH,A,42,high,toss,TB,49,H,L,L
+2025-08-10,FC Orenburg v FC Krasnodar,-2,-1,-2,-2,-2,14,no-signal,neutral,N,N,STRONG_LEAN,A,94,high,lean,TB,52,A,W,W
+2025-08-10,FC Rostov v Pari Nizhny Novg,1,0,0,1,1,14,no-signal,neutral,N,N,LEAN,H,60,high,win,TA,80,H,W,W
+2025-08-12,Zenit St Petersb v Rubin Kazan,1,0,1,2,2,14,conflicts,neutral,N,N,LEAN,H,75,high,win,TA,74,H,W,W
+2025-08-13,Dynamo Moscow v FC Krasnodar,0,0,0,0,-2,14,agrees,neutral,N,N,TIDE_MATCH,A,46,high,toss,TB,47,A,W,W
+2025-08-13,FC Orenburg v Akhmat Grozny,0,0,0,0,-2,14,no-signal,neutral,N,N,TIDE_MATCH,A,46,high,toss,TB,42,H,L,L
+2025-08-14,Pari Nizhny Novg v FC Rostov,-1,-1,0,-1,-2,14,no-signal,B,N,N,STRONG_LEAN,A,73,high,win,TB,74,H,L,L
+2025-08-16,Akhmat Grozny v Krylya Sovetov S,0,-2,-2,-1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,84,high,windraw,TA,61,H,L,W
+2025-08-16,Spartak Moscow v Zenit St Petersb,0,0,-1,0,1,14,no-signal,B,N,N,TIDE_MATCH,A,42,high,win,TB,73,D,D,D
+2025-08-17,Akron Tolyatti v FC Orenburg,0,1,2,2,1,15,agrees,A,N,N,STRONG_LEAN,H,77,high,windraw,TB,57,A,L,W
+2025-08-17,Dynamo Moscow v CSKA Moscow,0,-1,-1,-1,-2,14,agrees,B,N,N,LEAN,A,70,high,toss,TB,44,A,W,W
+2025-08-17,Rubin Kazan v FC Rostov,0,1,2,1,1,14,agrees,A,N,N,STRONG_LEAN,H,73,high,toss,TB,47,H,W,L
+2025-08-18,Pari Nizhny Novg v Dynamo Makhachka,-1,-1,-1,-1,0,14,agrees,neutral,N,N,STRONG_LEAN,A,73,high,win,TB,72,H,L,L
+2025-08-22,FC Orenburg v Akhmat Grozny,0,0,0,0,0,14,no-signal,A,N,N,TIDE_MATCH,,37,high,toss,TA,43,D,NC,D
+2025-08-23,Dynamo Moscow v Pari Nizhny Novg,2,0,1,2,1,14,no-signal,A,N,N,STRONG_LEAN,H,81,high,strong,TA,85,H,W,W
+2025-08-23,Lokomotiv Moscow v FC Rostov,1,2,2,1,1,14,agrees,A,N,N,STRONG_LEAN,H,89,high,windraw,TA,55,D,D,D
+2025-08-23,Rubin Kazan v Spartak Moscow,-1,1,1,1,0,15,agrees,A,N,N,TIDE_MATCH,H,49,high,toss,TB,48,A,L,W
+2025-08-23,Zenit St Petersb v Dynamo Makhachka,1,0,2,2,2,14,no-signal,A,N,N,STRONG_LEAN,H,81,high,win,TA,72,H,W,W
+2025-08-24,CSKA Moscow v Akron Tolyatti,1,1,1,2,2,14,agrees,A,N,N,STRONG_LEAN,H,82,high,windraw,TA,64,H,W,W
+2025-08-24,Krylya Sovetov S v FC Krasnodar,-1,0,-2,-1,0,14,agrees,neutral,N,N,STRONG_LEAN,A,72,high,toss,TB,48,A,W,W
+2025-08-26,Akhmat Grozny v Rubin Kazan,0,0,-1,1,-1,14,agrees,B,N,N,TIDE_MATCH,A,46,high,win,TA,66,H,L,W
+2025-08-26,FC Orenburg v Zenit St Petersb,-2,0,-2,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,89,high,win,TB,73,A,W,W
+2025-08-26,Spartak Moscow v Pari Nizhny Novg,2,1,2,2,2,14,agrees,neutral,N,N,STRONG_LEAN,H,94,high,win,TA,77,H,W,W
+2025-08-27,FC Rostov v Dynamo Makhachka,0,-1,-1,1,0,14,no-signal,neutral,N,N,LEAN,A,53,high,windraw,TA,59,A,W,L
+2025-08-28,Lokomotiv Moscow v Akron Tolyatti,1,2,2,1,2,16,agrees,neutral,N,N,STRONG_LEAN,H,91,high,win,TA,76,H,W,W
+2025-08-30,FC Orenburg v Rubin Kazan,0,1,-1,0,-2,14,agrees,neutral,N,N,TIDE_MATCH,A,44,high,toss,TA,43,D,D,D
+2025-08-30,FC Rostov v Akhmat Grozny,0,-2,-1,1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,72,high,lean,TA,52,D,D,D
+2025-08-30,Spartak Moscow v PFC Sochi,2,2,2,2,no-data,6,agrees,neutral,N,N,STRONG_LEAN,H,95,high,strong,TA,95,H,W,W
+2025-08-30,Zenit St Petersb v Pari Nizhny Novg,2,1,2,2,2,14,agrees,neutral,N,N,STRONG_LEAN,H,94,high,strong,TA,93,H,W,W
+2025-08-31,Akron Tolyatti v Baltika Kalining,-1,-1,-1,0,2,7,agrees,neutral,N,N,LEAN,A,62,high,win,TB,82,A,W,W
+2025-08-31,CSKA Moscow v FC Krasnodar,0,0,1,0,1,14,no-signal,A,N,N,LEAN,H,51,high,toss,TB,48,D,D,D
+2025-08-31,Dynamo Makhachka v Dynamo Moscow,-1,1,0,-1,-2,14,agrees,B,N,N,LEAN,A,53,high,windraw,TB,62,H,L,L
+2025-08-31,Lokomotiv Moscow v Krylya Sovetov S,1,1,2,0,0,15,agrees,neutral,N,N,STRONG_LEAN,H,77,high,win,TA,79,D,D,D
+2025-09-12,Rubin Kazan v Dynamo Makhachka,0,-1,0,2,2,14,agrees,neutral,N,N,TIDE_MATCH,H,44,high,toss,TA,44,H,W,W
+2025-09-13,Akhmat Grozny v Lokomotiv Moscow,-1,0,-2,0,-2,14,agrees,B,N,N,STRONG_LEAN,A,75,high,windraw,TB,56,D,D,D
+2025-09-13,Dynamo Moscow v Spartak Moscow,0,-2,-1,0,-1,16,no-signal,neutral,N,N,STRONG_LEAN,A,72,high,lean,TB,50,D,D,D
+2025-09-13,FC Krasnodar v Akron Tolyatti,1,2,2,1,2,15,agrees,neutral,N,N,STRONG_LEAN,H,91,high,win,TA,65,H,W,W
+2025-09-13,Pari Nizhny Novg v FC Orenburg,0,-1,-1,1,0,14,no-signal,neutral,N,N,LEAN,A,53,high,windraw,TB,60,H,L,L
+2025-09-14,Baltika Kalining v Zenit St Petersb,-1,-2,-1,-1,no-data,7,no-signal,neutral,N,N,STRONG_LEAN,A,81,high,windraw,TB,72,D,D,D
+2025-09-14,Krylya Sovetov S v PFC Sochi,1,1,2,2,no-data,7,agrees,neutral,N,N,STRONG_LEAN,H,82,high,strong,TA,91,H,W,W
+2025-09-14,FC Rostov v CSKA Moscow,-1,-2,-2,-1,1,14,agrees,B,N,N,STRONG_LEAN,A,84,high,toss,TA,38,H,L,W
+2025-09-16,Akron Tolyatti v Lokomotiv Moscow,-1,-2,-2,0,-2,16,agrees,B,N,N,STRONG_LEAN,A,89,high,strong,TB,86,A,W,W
+2025-09-16,Pari Nizhny Novg v Dynamo Makhachka,-1,0,-1,1,1,14,no-signal,neutral,N,N,LEAN,A,51,high,win,TB,69,A,W,W
+2025-09-17,Krylya Sovetov S v FC Krasnodar,-1,-2,-1,-1,-1,15,agrees,neutral,N,N,STRONG_LEAN,A,84,high,toss,TB,49,A,W,W
+2025-09-17,PFC Sochi v Dynamo Moscow,-2,-1,-2,-1,-2,7,agrees,neutral,N,N,STRONG_LEAN,A,92,high,strong,TB,94,A,W,W
+2025-09-17,Zenit St Petersb v Akhmat Grozny,2,1,1,2,1,14,agrees,A,N,N,STRONG_LEAN,H,87,high,win,TA,75,H,W,W
+2025-09-18,Spartak Moscow v FC Rostov,1,2,2,1,0,14,no-signal,neutral,N,N,STRONG_LEAN,H,86,high,lean,TB,53,A,L,W
+2025-09-20,Akron Tolyatti v Rubin Kazan,0,-2,-1,-1,-2,15,agrees,neutral,N,N,STRONG_LEAN,A,78,high,win,TB,72,D,D,D
+2025-09-20,Dynamo Makhachka v Lokomotiv Moscow,-1,0,0,0,-2,14,agrees,neutral,N,N,LEAN,A,60,high,windraw,TB,59,D,D,D
+2025-09-20,Pari Nizhny Novg v Akhmat Grozny,-1,-1,0,1,0,14,agrees,neutral,N,N,LEAN,A,58,high,win,TB,74,A,W,W
+2025-09-21,Baltika Kalining v FC Rostov,0,0,1,1,no-data,8,agrees,neutral,N,N,LEAN,H,51,high,toss,TB,49,D,D,D
+2025-09-21,FC Krasnodar v Zenit St Petersb,0,0,1,0,0,14,agrees,neutral,N,N,TIDE_MATCH,H,46,high,windraw,TB,69,A,L,W
+2025-09-21,FC Orenburg v Dynamo Moscow,-1,0,-1,1,-2,15,agrees,neutral,N,N,LEAN,A,64,high,windraw,TB,55,A,W,W
+2025-09-21,Spartak Moscow v Krylya Sovetov S,1,2,0,1,2,16,no-signal,neutral,N,N,STRONG_LEAN,H,81,high,windraw,TA,58,H,W,W
+2025-09-22,PFC Sochi v CSKA Moscow,-2,-2,-2,-2,no-data,8,agrees,neutral,N,Y,LEAN,A,95,high,strong,TB,97,A,W,W
+2025-09-26,Krylya Sovetov S v Dynamo Moscow,-1,-2,0,0,-2,16,no-signal,neutral,N,N,STRONG_LEAN,A,78,high,win,TB,72,A,W,W
+2025-09-27,Akhmat Grozny v Akron Tolyatti,0,2,2,1,-2,14,agrees,neutral,N,N,STRONG_LEAN,H,72,high,windraw,TA,63,H,W,W
+2025-09-27,Lokomotiv Moscow v Rubin Kazan,1,1,1,2,0,15,agrees,B,N,N,LEAN,H,77,high,win,TA,70,H,W,W
+2025-09-27,FC Rostov v FC Krasnodar,-1,0,-2,-1,-2,14,agrees,B,N,N,STRONG_LEAN,A,78,high,toss,TA,48,D,D,D
+2025-09-27,Zenit St Petersb v FC Orenburg,2,2,2,2,2,15,agrees,neutral,N,N,STRONG_LEAN,H,98,high,win,TA,77,H,W,W
+2025-09-28,CSKA Moscow v Baltika Kalining,0,0,2,1,2,9,no-signal,A,Y,N,LEAN,H,68,high,windraw,TB,65,H,W,L
+2025-09-28,Dynamo Makhachka v PFC Sochi,2,2,2,2,no-data,8,agrees,neutral,N,N,STRONG_LEAN,H,95,high,strong,TA,96,D,D,D
+2025-09-28,Spartak Moscow v Pari Nizhny Novg,2,2,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,98,high,win,TA,81,H,W,W
+2025-09-30,Akhmat Grozny v FC Orenburg,1,2,2,2,0,14,agrees,neutral,N,N,STRONG_LEAN,H,89,high,windraw,TA,60,A,L,L
+2025-09-30,Rubin Kazan v Zenit St Petersb,-1,-2,-2,0,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,89,high,win,TB,84,A,W,W
+2025-10-01,Baltika Kalining v Akron Tolyatti,1,1,2,0,0,9,agrees,neutral,N,N,STRONG_LEAN,H,77,high,win,TA,69,H,W,W
+2025-10-01,Pari Nizhny Novg v Spartak Moscow,-2,-2,-2,-1,-2,14,agrees,B,N,N,STRONG_LEAN,A,96,high,strong,TB,86,A,W,W
+2025-10-04,Akron Tolyatti v Zenit St Petersb,-2,-2,-2,-2,-1,15,agrees,B,N,N,STRONG_LEAN,A,96,high,strong,TB,90,D,D,D
+2025-10-04,Dynamo Moscow v Lokomotiv Moscow,0,0,-1,1,0,16,agrees,neutral,N,N,TIDE_MATCH,A,42,high,windraw,TB,62,A,W,W
+2025-10-04,FC Krasnodar v Akhmat Grozny,1,0,1,2,0,14,agrees,A,N,N,LEAN,H,68,high,toss,TA,45,H,W,W
+2025-10-04,Rubin Kazan v Krylya Sovetov S,0,0,-1,1,-2,15,no-signal,A,N,N,LEAN,A,51,high,lean,TA,53,H,L,W
+2025-10-05,Baltika Kalining v Dynamo Makhachka,1,0,0,1,no-data,10,agrees,B,N,N,LEAN,H,56,high,lean,TA,51,H,W,W
+2025-10-05,CSKA Moscow v Spartak Moscow,0,0,0,0,0,16,no-signal,neutral,Y,N,TIDE_MATCH,,37,high,lean,TA,51,H,NC,W
+2025-10-05,FC Orenburg v FC Rostov,-1,-1,0,-1,-2,15,no-signal,neutral,N,N,STRONG_LEAN,A,73,high,win,TB,65,A,W,W
+2025-10-05,PFC Sochi v Pari Nizhny Novg,-1,0,-1,0,no-data,9,no-signal,neutral,N,N,LEAN,A,60,high,windraw,TB,64,H,L,L
+2025-10-18,Dynamo Makhachka v FC Krasnodar,-1,-1,-2,-1,-2,15,agrees,B,N,N,STRONG_LEAN,A,85,high,lean,TB,52,A,W,W
+2025-10-18,Krylya Sovetov S v FC Orenburg,0,0,-1,1,1,15,no-signal,B,N,N,TIDE_MATCH,,37,high,toss,TA,41,D,NC,D
+2025-10-18,Lokomotiv Moscow v CSKA Moscow,0,0,0,0,0,16,no-signal,neutral,N,Y,TIDE_MATCH,,37,high,lean,TA,50,H,NC,W
+2025-10-18,Pari Nizhny Novg v Akron Tolyatti,-1,-1,1,0,1,15,no-signal,neutral,N,N,TIDE_MATCH,A,49,high,toss,TB,48,A,W,W
+2025-10-18,Spartak Moscow v FC Rostov,1,-1,1,1,0,15,agrees,neutral,N,N,LEAN,H,53,high,windraw,TB,59,D,D,D
+2025-10-19,Dynamo Moscow v Akhmat Grozny,1,1,0,2,1,14,no-signal,neutral,N,N,STRONG_LEAN,H,73,high,lean,TA,50,D,D,D
+2025-10-19,Rubin Kazan v Baltika Kalining,-1,0,-1,1,no-data,11,no-signal,neutral,N,N,LEAN,A,56,high,toss,TB,48,A,W,W
+2025-10-19,PFC Sochi v Zenit St Petersb,-2,-2,-2,-2,no-data,11,agrees,B,N,N,STRONG_LEAN,A,95,high,strong,TB,100,A,W,W
+2025-10-21,CSKA Moscow v Akron Tolyatti,1,1,2,2,2,16,agrees,A,Y,N,LEAN,H,87,high,windraw,TA,65,H,W,W
+2025-10-21,Dynamo Makhachka v Spartak Moscow,-1,-1,-1,-1,0,16,agrees,neutral,N,N,STRONG_LEAN,A,73,high,toss,TB,45,A,W,W
+2025-10-22,Dynamo Moscow v Krylya Sovetov S,1,2,1,1,2,16,no-signal,neutral,N,N,STRONG_LEAN,H,86,high,win,TA,73,H,W,W
+2025-10-22,FC Rostov v Pari Nizhny Novg,1,2,2,1,1,14,agrees,A,N,N,STRONG_LEAN,H,89,high,win,TA,80,H,W,W
+2025-10-22,Zenit St Petersb v FC Orenburg,2,2,2,2,2,15,agrees,neutral,N,N,STRONG_LEAN,H,98,high,win,TA,76,H,W,W
+2025-10-23,Baltika Kalining v Lokomotiv Moscow,0,-1,0,0,-2,11,no-signal,neutral,N,N,LEAN,A,58,high,lean,TB,53,A,W,W
+2025-10-23,FC Krasnodar v PFC Sochi,2,2,2,2,2,10,agrees,neutral,N,N,STRONG_LEAN,H,98,high,strong,TA,100,H,W,W
+2025-10-25,CSKA Moscow v Krylya Sovetov S,1,2,2,2,1,16,agrees,A,Y,N,LEAN,H,91,high,win,TA,66,H,W,W
+2025-10-25,FC Rostov v Dynamo Makhachka,1,2,1,1,-1,15,no-signal,neutral,N,N,STRONG_LEAN,H,78,high,windraw,TA,56,D,D,D
+2025-10-25,Spartak Moscow v FC Orenburg,2,2,2,2,0,15,agrees,neutral,N,N,STRONG_LEAN,H,95,high,toss,TA,46,H,W,W
+2025-10-26,Akron Tolyatti v Lokomotiv Moscow,-1,-2,-2,-1,-2,16,agrees,B,N,N,STRONG_LEAN,A,91,high,strong,TB,86,D,D,D
+2025-10-26,FC Krasnodar v Rubin Kazan,1,2,2,1,1,15,agrees,neutral,N,N,STRONG_LEAN,H,89,high,lean,TA,54,H,W,W
+2025-10-26,Pari Nizhny Novg v Baltika Kalining,-2,-2,-2,-1,no-data,12,agrees,neutral,N,N,STRONG_LEAN,A,93,high,strong,TB,97,D,D,D
+2025-10-26,Zenit St Petersb v Dynamo Moscow,1,1,2,2,1,16,agrees,neutral,N,N,STRONG_LEAN,H,85,high,win,TA,65,H,W,W
+2025-10-27,Akhmat Grozny v PFC Sochi,1,1,2,2,no-data,11,agrees,neutral,N,N,STRONG_LEAN,H,82,high,strong,TA,92,A,L,L
+2025-10-31,CSKA Moscow v Pari Nizhny Novg,2,2,2,2,2,16,agrees,A,N,N,STRONG_LEAN,H,98,high,strong,TA,92,H,W,W
+2025-11-01,Dynamo Makhachka v Krylya Sovetov S,0,0,1,1,2,16,no-signal,A,N,N,LEAN,H,60,high,windraw,TA,60,H,W,W
+2025-11-01,FC Rostov v Akron Tolyatti,1,1,2,1,0,15,no-signal,A,N,N,STRONG_LEAN,H,80,high,win,TA,76,A,L,L
+2025-11-01,Rubin Kazan v Dynamo Moscow,-1,-1,-1,2,-2,16,no-signal,neutral,N,N,LEAN,A,70,high,toss,TB,46,D,D,D
+2025-11-01,Zenit St Petersb v Lokomotiv Moscow,1,0,1,1,0,16,no-signal,neutral,N,N,LEAN,H,64,high,toss,TA,40,H,W,W
+2025-11-02,Baltika Kalining v Akhmat Grozny,1,2,1,1,no-data,13,agrees,neutral,N,N,STRONG_LEAN,H,81,high,windraw,TA,59,H,W,W
+2025-11-02,FC Krasnodar v Spartak Moscow,0,1,0,0,0,15,agrees,neutral,N,N,TIDE_MATCH,H,49,high,toss,TB,47,H,W,L
+2025-11-02,FC Orenburg v PFC Sochi,0,-1,0,1,no-data,13,no-signal,neutral,N,N,TIDE_MATCH,A,44,high,windraw,TA,76,H,L,W
+2025-11-05,Dynamo Makhachka v CSKA Moscow,-1,-2,-2,-1,-2,16,agrees,B,N,N,STRONG_LEAN,A,91,high,windraw,TB,57,H,L,L
+2025-11-05,FC Orenburg v FC Krasnodar,-2,-2,-2,-2,-2,15,agrees,B,N,N,STRONG_LEAN,A,98,high,windraw,TB,62,A,W,W
+2025-11-05,Zenit St Petersb v Dynamo Moscow,1,2,2,2,1,16,agrees,neutral,N,N,STRONG_LEAN,H,91,high,win,TA,67,A,L,L
+2025-11-06,Spartak Moscow v Lokomotiv Moscow,0,-1,0,1,-1,16,no-signal,neutral,N,N,TIDE_MATCH,A,49,high,win,TB,68,H,L,L
+2025-11-08,Dynamo Makhachka v CSKA Moscow,-1,-1,-1,0,-1,16,agrees,neutral,N,Y,LEAN,A,73,high,lean,TB,55,A,W,W
+2025-11-08,Dynamo Moscow v Akron Tolyatti,1,0,2,0,2,16,no-signal,neutral,N,N,STRONG_LEAN,H,75,high,win,TA,84,A,L,L
+2025-11-08,Pari Nizhny Novg v Rubin Kazan,-1,-1,-1,1,-2,16,agrees,B,N,N,STRONG_LEAN,A,73,high,win,TB,84,D,D,D
+2025-11-08,PFC Sochi v FC Rostov,-1,-1,-2,-2,no-data,14,agrees,neutral,N,N,STRONG_LEAN,A,82,high,strong,TB,93,A,W,W
+2025-11-09,Akhmat Grozny v Spartak Moscow,-1,-2,-2,1,0,16,agrees,B,N,N,STRONG_LEAN,A,81,high,lean,TB,51,A,W,W
+2025-11-09,Baltika Kalining v FC Krasnodar,0,-1,-1,-1,no-data,14,no-signal,neutral,N,N,LEAN,A,62,high,toss,TA,46,D,D,D
+2025-11-09,Krylya Sovetov S v Zenit St Petersb,-2,-2,-2,0,0,16,agrees,neutral,N,N,STRONG_LEAN,A,91,high,win,TB,82,D,D,D
+2025-11-09,Lokomotiv Moscow v FC Orenburg,1,1,2,2,2,16,agrees,neutral,N,N,STRONG_LEAN,H,87,high,win,TA,76,H,W,W
+2025-11-21,Akron Tolyatti v PFC Sochi,1,2,1,1,2,14,agrees,neutral,N,N,STRONG_LEAN,H,86,high,win,TA,74,H,W,W
+2025-11-22,FC Orenburg v Baltika Kalining,-2,-1,-2,-1,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,92,high,win,TB,66,D,D,D
+2025-11-22,Rubin Kazan v Akhmat Grozny,0,1,0,2,0,16,no-signal,neutral,N,N,LEAN,H,58,high,lean,TB,50,H,W,L
+2025-11-22,Spartak Moscow v CSKA Moscow,0,0,0,0,-1,16,agrees,neutral,N,Y,TIDE_MATCH,A,42,high,lean,TB,53,H,L,L
+2025-11-23,Dynamo Moscow v Dynamo Makhachka,1,0,1,2,1,16,no-signal,B,N,N,LEAN,H,72,high,lean,TA,52,H,W,W
+2025-11-23,Krylya Sovetov S v FC Rostov,0,-2,-2,0,-1,16,no-signal,B,N,N,STRONG_LEAN,A,78,high,win,TB,66,H,L,L
+2025-11-23,Lokomotiv Moscow v FC Krasnodar,0,-2,0,0,0,16,no-signal,neutral,N,N,LEAN,A,60,high,lean,TA,52,D,D,D
+2025-11-23,Pari Nizhny Novg v Zenit St Petersb,-2,-2,-2,-1,-2,16,agrees,B,N,N,STRONG_LEAN,A,96,high,strong,TB,89,A,W,W
+2025-11-26,FC Krasnodar v FC Orenburg,2,2,2,2,2,16,agrees,A,N,N,STRONG_LEAN,H,98,high,win,TA,67,H,W,W
+2025-11-26,Lokomotiv Moscow v Spartak Moscow,0,-2,-1,0,0,16,no-signal,neutral,N,N,LEAN,A,68,high,lean,TA,53,A,W,L
+2025-11-27,Dynamo Moscow v Zenit St Petersb,-1,-1,-1,0,-1,16,agrees,neutral,N,N,STRONG_LEAN,A,73,high,win,TB,68,A,W,W
+2025-11-29,Akron Tolyatti v Pari Nizhny Novg,1,2,2,2,0,16,agrees,A,N,N,STRONG_LEAN,H,89,high,toss,TA,48,A,L,L
+2025-11-29,Baltika Kalining v Spartak Moscow,0,-1,-1,0,2,14,no-signal,B,N,N,TIDE_MATCH,A,49,high,toss,TA,48,H,L,W
+2025-11-29,CSKA Moscow v FC Orenburg,1,1,2,2,1,16,agrees,A,Y,N,LEAN,H,85,high,windraw,TA,56,H,W,W
+2025-11-30,Akhmat Grozny v Dynamo Moscow,-1,-2,-1,2,-1,16,no-signal,neutral,N,N,STRONG_LEAN,A,75,high,toss,TB,42,H,L,L
+2025-11-30,FC Krasnodar v Krylya Sovetov S,1,2,2,2,1,16,agrees,A,N,N,STRONG_LEAN,H,91,high,lean,TA,51,H,W,W
+2025-11-30,FC Rostov v Lokomotiv Moscow,-1,1,0,-1,-1,16,agrees,neutral,N,N,TIDE_MATCH,A,49,high,toss,TB,44,A,W,W
+2025-11-30,Zenit St Petersb v Rubin Kazan,1,1,2,1,2,16,agrees,neutral,N,N,STRONG_LEAN,H,85,high,win,TA,78,H,W,W
+2025-12-01,PFC Sochi v Dynamo Makhachka,-1,-1,0,0,0,14,no-signal,neutral,N,N,LEAN,A,62,high,win,TB,79,D,D,D
+2025-12-05,Akhmat Grozny v FC Orenburg,0,0,1,2,-1,16,agrees,neutral,N,N,LEAN,H,51,high,lean,TA,55,H,W,W
+2025-12-06,FC Rostov v Rubin Kazan,0,0,1,1,-2,16,conflicts,A,N,N,TIDE_MATCH,H,42,high,lean,TA,55,H,W,W
+2025-12-06,Spartak Moscow v Dynamo Moscow,0,2,1,1,1,16,agrees,A,N,N,STRONG_LEAN,H,75,high,toss,TB,46,D,D,D
+2025-12-06,Zenit St Petersb v Akron Tolyatti,2,0,1,2,1,16,agrees,A,N,N,STRONG_LEAN,H,81,high,win,TA,72,H,W,W
+2025-12-07,Baltika Kalining v Krylya Sovetov S,1,2,2,1,0,14,agrees,A,N,N,STRONG_LEAN,H,86,high,toss,TA,48,H,W,W
+2025-12-07,Dynamo Makhachka v Pari Nizhny Novg,1,0,1,2,0,16,no-signal,A,N,N,LEAN,H,68,high,windraw,TA,64,A,L,L
+2025-12-07,FC Krasnodar v CSKA Moscow,0,1,1,1,-1,16,no-signal,neutral,N,Y,LEAN,H,58,high,toss,TA,43,H,W,W
+2025-12-07,PFC Sochi v Lokomotiv Moscow,-2,-1,-1,-2,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,90,high,strong,TB,97,A,W,W
+2026-02-27,Zenit St Petersb v Baltika Kalining,1,0,1,2,0,14,no-signal,A,N,N,LEAN,H,68,high,toss,TA,43,H,W,W
+2026-02-28,Dynamo Makhachka v Rubin Kazan,0,0,0,1,-2,16,agrees,neutral,N,N,TIDE_MATCH,A,42,high,toss,TA,48,H,L,W
+2026-02-28,FC Krasnodar v FC Rostov,1,1,2,1,1,16,agrees,A,N,N,STRONG_LEAN,H,82,high,toss,TA,49,H,W,W
+2026-02-28,Lokomotiv Moscow v Pari Nizhny Novg,1,1,1,2,2,16,agrees,A,N,N,STRONG_LEAN,H,82,high,strong,TA,97,H,W,W
+2026-02-28,FC Orenburg v Akron Tolyatti,0,-2,-1,0,0,16,agrees,B,N,N,LEAN,A,68,high,toss,TA,48,H,L,W
+2026-03-01,Akhmat Grozny v CSKA Moscow,-1,0,-1,0,-2,16,agrees,B,N,Y,LEAN,A,68,high,lean,TB,53,H,L,L
+2026-03-01,Dynamo Moscow v Krylya Sovetov S,1,0,1,1,2,16,agrees,neutral,N,N,STRONG_LEAN,H,72,high,windraw,TA,61,H,W,W
+2026-03-02,PFC Sochi v Spartak Moscow,-2,-2,-2,-2,-2,14,agrees,neutral,N,N,STRONG_LEAN,A,98,high,strong,TB,91,A,W,W
+2026-03-03,Baltika Kalining v Zenit St Petersb,-1,-1,-1,0,-2,14,no-signal,B,N,N,STRONG_LEAN,A,77,high,windraw,TB,58,A,W,W
+2026-03-04,CSKA Moscow v FC Krasnodar,0,-2,-2,1,0,16,no-signal,B,Y,N,STRONG_LEAN,A,72,high,windraw,TB,56,H,L,L
+2026-03-04,Krylya Sovetov S v FC Orenburg,0,0,0,1,0,16,no-signal,neutral,N,N,TIDE_MATCH,H,42,high,toss,TA,49,H,W,W
+2026-03-04,FC Rostov v Dynamo Makhachka,1,0,0,0,-1,16,no-signal,neutral,N,N,TIDE_MATCH,H,46,high,lean,TA,55,A,L,L
+2026-03-05,Dynamo Moscow v Spartak Moscow,0,-1,-1,0,-1,16,no-signal,B,N,N,LEAN,A,62,high,toss,TB,48,H,L,L
+2026-03-07,Pari Nizhny Novg v PFC Sochi,1,2,0,1,-2,14,no-signal,neutral,N,N,LEAN,H,68,high,windraw,TA,61,H,W,W
+2026-03-07,FC Rostov v Baltika Kalining,-1,-1,0,-1,0,14,agrees,A,N,N,LEAN,A,66,high,toss,TB,48,D,D,D
+2026-03-08,CSKA Moscow v Dynamo Moscow,0,0,1,2,2,16,no-signal,A,N,N,LEAN,H,64,high,toss,TB,45,A,L,W
+2026-03-08,Krylya Sovetov S v Dynamo Makhachka,0,0,-1,1,-2,16,no-signal,neutral,N,N,LEAN,A,51,high,windraw,TB,55,H,L,L
+2026-03-08,FC Orenburg v Zenit St Petersb,-2,-2,-2,-1,-2,16,agrees,neutral,N,N,STRONG_LEAN,A,96,high,win,TB,79,H,L,L
+2026-03-08,Rubin Kazan v FC Krasnodar,-1,-2,-2,1,-2,16,agrees,B,N,N,STRONG_LEAN,A,86,high,windraw,TB,62,H,L,L
+2026-03-09,Lokomotiv Moscow v Akhmat Grozny,1,1,1,1,1,16,agrees,neutral,N,N,STRONG_LEAN,H,77,high,win,TA,70,D,D,D
+2026-03-09,Spartak Moscow v Akron Tolyatti,1,1,1,0,2,16,agrees,neutral,N,N,STRONG_LEAN,H,77,high,windraw,TA,62,H,W,W
+2026-03-13,Dynamo Makhachka v FC Orenburg,0,0,1,1,0,16,no-signal,neutral,N,N,LEAN,H,51,high,lean,TA,51,H,W,W
+2026-03-14,Baltika Kalining v CSKA Moscow,0,0,0,0,-2,14,no-signal,neutral,N,N,TIDE_MATCH,A,46,high,toss,TA,49,H,L,W
+2026-03-14,FC Rostov v Dynamo Moscow,-1,-2,-1,0,-1,16,no-signal,A,N,N,LEAN,A,81,high,toss,TA,46,A,W,L
+2026-03-14,PFC Sochi v FC Krasnodar,-2,-2,-2,-2,-2,14,agrees,B,N,N,STRONG_LEAN,A,98,high,strong,TB,95,A,W,W
+2026-03-14,Zenit St Petersb v Spartak Moscow,1,1,1,2,-1,16,agrees,neutral,Y,N,LEAN,H,73,high,lean,TA,55,H,W,W
+2026-03-15,Akron Tolyatti v Akhmat Grozny,0,-2,0,1,0,16,no-signal,neutral,N,N,LEAN,A,56,high,windraw,TB,63,D,D,D
+2026-03-15,Pari Nizhny Novg v Krylya Sovetov S,0,1,0,1,-1,16,no-signal,neutral,N,N,TIDE_MATCH,H,49,high,win,TB,70,H,W,L
+2026-03-15,Rubin Kazan v Lokomotiv Moscow,-1,-2,-1,1,-1,16,agrees,B,N,N,STRONG_LEAN,A,78,high,win,TB,73,H,L,L
+2026-03-17,FC Krasnodar v CSKA Moscow,0,2,1,2,-1,16,agrees,A,N,N,STRONG_LEAN,H,72,high,toss,TA,44,H,W,W
+2026-03-18,Spartak Moscow v Dynamo Moscow,0,-2,0,1,0,16,no-signal,A,N,N,LEAN,A,56,high,toss,TB,49,H,L,L
+2026-03-18,Zenit St Petersb v Dynamo Makhachka,2,1,1,2,2,16,agrees,A,Y,N,LEAN,H,90,high,win,TA,73,H,W,W
+2026-03-21,Akhmat Grozny v FC Rostov,-1,2,0,0,1,16,no-signal,A,N,N,LEAN,H,51,high,toss,TB,46,H,W,L
+2026-03-21,Baltika Kalining v PFC Sochi,2,2,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,98,high,strong,TA,93,H,W,W
+2026-03-21,CSKA Moscow v Dynamo Makhachka,1,-2,-1,2,1,16,conflicts,B,N,N,TIDE_MATCH,A,42,high,toss,TA,46,H,L,W
+2026-03-21,FC Krasnodar v Pari Nizhny Novg,2,-1,1,2,1,16,agrees,A,N,N,STRONG_LEAN,H,73,high,win,TA,82,H,W,W
+2026-03-22,Dynamo Moscow v Zenit St Petersb,-1,0,-1,0,-1,16,agrees,B,N,Y,LEAN,A,64,high,win,TB,68,A,W,W
+2026-03-22,Krylya Sovetov S v Rubin Kazan,0,0,0,2,0,16,conflicts,neutral,N,N,TIDE_MATCH,H,46,high,toss,TB,47,D,D,D
+2026-03-22,Lokomotiv Moscow v Akron Tolyatti,1,2,1,2,2,16,agrees,neutral,N,N,STRONG_LEAN,H,89,high,win,TA,77,H,W,W
+2026-03-22,FC Orenburg v Spartak Moscow,-1,-1,-2,0,-1,16,agrees,B,N,N,STRONG_LEAN,A,80,high,windraw,TB,63,A,W,W
+2026-04-04,Akhmat Grozny v FC Krasnodar,-2,1,-1,0,-1,16,agrees,neutral,N,N,LEAN,A,66,high,toss,TB,48,A,W,W
+2026-04-04,Akron Tolyatti v CSKA Moscow,-1,-1,0,0,-2,16,agrees,A,N,N,LEAN,A,70,high,win,TB,78,A,W,W
+2026-04-04,Dynamo Moscow v FC Orenburg,1,1,2,2,1,16,agrees,neutral,N,N,STRONG_LEAN,H,85,high,windraw,TA,57,D,D,D
+2026-04-04,Zenit St Petersb v Krylya Sovetov S,2,1,2,2,0,16,agrees,neutral,Y,N,LEAN,H,90,high,windraw,TA,63,H,W,W
+2026-04-05,Dynamo Makhachka v Baltika Kalining,-1,0,-1,0,-2,14,agrees,neutral,N,N,LEAN,A,68,high,windraw,TB,62,D,D,D
+2026-04-05,Pari Nizhny Novg v FC Rostov,-1,2,1,0,-1,16,conflicts,A,N,N,LEAN,H,51,high,win,TB,71,A,L,W
+2026-04-05,Spartak Moscow v Lokomotiv Moscow,0,0,0,0,1,16,no-signal,A,N,N,TIDE_MATCH,H,42,high,windraw,TB,58,H,W,L
+2026-04-06,PFC Sochi v Rubin Kazan,-1,-2,-1,0,-2,14,agrees,B,N,N,STRONG_LEAN,A,84,high,strong,TB,87,A,W,W
+2026-04-07,Krylya Sovetov S v CSKA Moscow,-1,0,0,0,-2,16,agrees,neutral,N,N,LEAN,A,60,high,lean,TB,52,A,W,W
+2026-04-08,Dynamo Moscow v FC Krasnodar,0,-1,-2,-1,-2,16,agrees,B,N,N,STRONG_LEAN,A,77,high,windraw,TB,59,D,D,D
+2026-04-11,Baltika Kalining v Pari Nizhny Novg,2,1,1,2,0,14,agrees,neutral,N,N,STRONG_LEAN,H,85,high,win,TA,84,D,D,D
+2026-04-11,Krylya Sovetov S v Akhmat Grozny,0,-1,-1,1,0,16,agrees,neutral,N,N,LEAN,A,53,high,toss,TB,43,D,D,D
+2026-04-11,Rubin Kazan v FC Orenburg,0,2,1,2,2,16,agrees,A,N,N,STRONG_LEAN,H,81,high,lean,TA,53,D,D,D
+2026-04-12,CSKA Moscow v PFC Sochi,2,2,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,98,high,strong,TA,92,A,L,L
+2026-04-12,Lokomotiv Moscow v Dynamo Makhachka,1,1,1,2,1,16,agrees,neutral,N,N,STRONG_LEAN,H,80,high,windraw,TA,64,D,D,D
+2026-04-12,FC Rostov v Spartak Moscow,-1,-2,-1,-1,0,16,agrees,B,N,N,STRONG_LEAN,A,81,high,toss,TA,46,D,D,D
+2026-04-12,Zenit St Petersb v FC Krasnodar,0,0,1,2,1,16,no-signal,neutral,Y,N,LEAN,H,60,high,lean,TA,52,D,D,D
+2026-04-13,Akron Tolyatti v Dynamo Moscow,-1,-1,-1,1,-1,16,agrees,neutral,N,N,LEAN,A,70,high,win,TB,82,A,W,W
+2026-04-17,FC Rostov v PFC Sochi,1,1,1,1,2,14,agrees,A,N,N,STRONG_LEAN,H,80,high,strong,TA,93,A,L,L
+2026-04-18,Krylya Sovetov S v CSKA Moscow,-1,-2,-1,0,-2,16,agrees,neutral,N,Y,LEAN,A,84,high,lean,TB,54,D,D,D
+2026-04-18,FC Orenburg v Lokomotiv Moscow,-1,0,-1,-1,-2,16,agrees,B,N,N,STRONG_LEAN,A,72,high,strong,TB,87,A,W,W
+2026-04-18,Pari Nizhny Novg v Dynamo Moscow,-1,0,-1,0,-2,16,agrees,neutral,N,N,LEAN,A,68,high,win,TB,82,D,D,D
+2026-04-18,Rubin Kazan v Akron Tolyatti,0,2,1,2,2,16,agrees,neutral,N,N,STRONG_LEAN,H,81,high,windraw,TA,61,D,D,D
+2026-04-19,Dynamo Makhachka v Zenit St Petersb,-1,-2,-2,-1,-2,16,agrees,B,N,Y,LEAN,A,91,high,win,TB,76,A,W,W
+2026-04-19,FC Krasnodar v Baltika Kalining,0,1,0,2,0,14,no-signal,A,N,N,LEAN,H,58,high,lean,TB,50,D,D,D
+2026-04-19,Spartak Moscow v Akhmat Grozny,1,1,0,2,0,16,no-signal,A,N,N,LEAN,H,70,high,windraw,TA,58,H,W,W
+2026-04-21,CSKA Moscow v FC Rostov,1,2,1,2,-2,16,agrees,neutral,Y,N,LEAN,H,78,high,lean,TB,52,D,D,D
+2026-04-21,PFC Sochi v Krylya Sovetov S,0,1,0,0,-2,14,no-signal,neutral,N,N,TIDE_MATCH,H,39,high,win,TB,75,H,W,L
+2026-04-22,Dynamo Moscow v Rubin Kazan,1,-1,1,1,1,16,no-signal,neutral,N,N,LEAN,H,58,high,windraw,TA,58,A,L,L
+2026-04-22,Lokomotiv Moscow v Zenit St Petersb,-1,-2,-1,0,-1,16,no-signal,B,N,N,STRONG_LEAN,A,81,high,toss,TB,38,D,D,D
+2026-04-22,FC Orenburg v Pari Nizhny Novg,0,-1,-1,1,-1,16,no-signal,B,N,N,LEAN,A,58,high,lean,TA,50,H,L,W
+2026-04-23,Akhmat Grozny v Baltika Kalining,-1,-1,0,0,-2,14,agrees,neutral,N,N,LEAN,A,70,high,windraw,TB,65,D,D,D
+2026-04-23,Akron Tolyatti v Dynamo Makhachka,0,0,-1,0,0,16,no-signal,neutral,N,N,TIDE_MATCH,A,46,high,win,TB,65,D,D,D
+2026-04-23,Spartak Moscow v FC Krasnodar,0,1,0,0,-1,16,no-signal,neutral,N,N,TIDE_MATCH,H,44,high,lean,TB,52,A,L,W
+2026-04-25,Krylya Sovetov S v Lokomotiv Moscow,-1,-2,-2,-1,0,16,agrees,neutral,N,N,STRONG_LEAN,A,86,high,win,TB,73,H,L,L
+2026-04-25,FC Rostov v FC Orenburg,1,0,0,1,2,16,no-signal,neutral,N,N,LEAN,H,64,high,win,TA,79,A,L,L
+2026-04-25,Rubin Kazan v CSKA Moscow,-1,0,0,1,-2,16,no-signal,A,N,Y,LEAN,A,56,high,toss,TB,47,D,D,D
+2026-04-26,Dynamo Moscow v PFC Sochi,2,-1,1,1,1,14,agrees,neutral,N,N,LEAN,H,70,high,strong,TA,87,H,W,W
+2026-04-26,FC Krasnodar v Dynamo Makhachka,1,2,1,2,1,16,agrees,A,N,N,STRONG_LEAN,H,86,high,windraw,TA,56,H,W,W
+2026-04-26,Pari Nizhny Novg v Spartak Moscow,-1,-2,-1,0,-2,16,agrees,neutral,N,N,STRONG_LEAN,A,84,high,strong,TB,91,A,W,W
+2026-04-26,Zenit St Petersb v Akhmat Grozny,2,2,1,2,2,16,agrees,A,N,N,STRONG_LEAN,H,95,high,win,TA,74,H,W,W
+2026-04-27,Baltika Kalining v Akron Tolyatti,1,1,2,1,1,14,agrees,neutral,N,N,STRONG_LEAN,H,82,high,win,TA,75,A,L,L
+2026-05-01,Krylya Sovetov S v Spartak Moscow,-1,-1,-1,0,-2,16,agrees,neutral,N,N,STRONG_LEAN,A,77,high,win,TB,70,H,L,L
+2026-05-01,Lokomotiv Moscow v Dynamo Moscow,0,-1,0,1,1,16,conflicts,neutral,Y,N,TIDE_MATCH,A,39,high,windraw,TA,62,D,D,D
+2026-05-02,Baltika Kalining v Rubin Kazan,0,-1,-1,1,2,14,no-signal,B,N,N,TIDE_MATCH,A,44,high,windraw,TA,65,A,W,L
+2026-05-02,CSKA Moscow v Zenit St Petersb,-1,-1,-2,0,-2,16,agrees,B,Y,N,STRONG_LEAN,A,82,high,windraw,TB,60,A,W,W
+2026-05-02,Dynamo Makhachka v FC Rostov,0,-1,1,0,1,16,no-signal,neutral,N,N,TIDE_MATCH,H,39,high,toss,TA,38,A,L,L
+2026-05-03,Akhmat Grozny v Pari Nizhny Novg,0,0,0,2,1,16,agrees,neutral,N,N,LEAN,H,51,high,win,TA,74,H,W,W
+2026-05-03,Akron Tolyatti v FC Krasnodar,-1,-1,-2,-2,-2,16,agrees,B,N,N,STRONG_LEAN,A,87,high,strong,TB,95,A,W,W
+2026-05-03,PFC Sochi v FC Orenburg,0,0,-1,0,-2,14,no-signal,neutral,N,N,LEAN,A,56,high,windraw,TB,65,H,L,L
+2026-05-06,Spartak Moscow v CSKA Moscow,0,1,1,1,0,16,no-signal,A,N,Y,LEAN,H,62,high,toss,TA,43,H,W,W
+2026-05-10,Akhmat Grozny v Dynamo Makhachka,0,1,1,1,-2,16,agrees,A,N,N,LEAN,H,53,high,toss,TB,42,D,D,D
+2026-05-10,Lokomotiv Moscow v Baltika Kalining,0,1,0,1,1,14,no-signal,A,Y,N,LEAN,H,58,high,lean,TA,51,H,W,W
+2026-05-10,FC Orenburg v Krylya Sovetov S,0,0,0,1,-2,16,no-signal,neutral,N,N,TIDE_MATCH,A,42,high,lean,TB,53,H,L,L
+2026-05-10,Zenit St Petersb v PFC Sochi,2,0,2,2,2,14,agrees,A,N,N,STRONG_LEAN,H,89,high,strong,TA,94,H,W,W
+2026-05-11,Akron Tolyatti v FC Rostov,0,0,-1,-1,1,16,no-signal,neutral,N,N,TIDE_MATCH,A,46,high,win,TB,65,A,W,W
+2026-05-11,Baltika Kalining v Dynamo Moscow,0,-2,0,-1,0,14,no-signal,B,N,N,LEAN,A,64,high,toss,TA,43,A,W,L
+2026-05-11,CSKA Moscow v Lokomotiv Moscow,0,-1,0,2,-1,16,no-signal,B,Y,Y,TIDE_MATCH,A,44,high,windraw,TB,60,H,L,L
+2026-05-11,Dynamo Makhachka v Spartak Moscow,-1,-2,-2,-1,-1,16,agrees,B,N,N,STRONG_LEAN,A,89,high,toss,TB,49,D,D,D
+2026-05-11,Dynamo Moscow v FC Krasnodar,0,-1,-2,-1,-2,16,agrees,B,N,N,STRONG_LEAN,A,77,high,lean,TB,55,H,L,L
+2026-05-11,FC Krasnodar v FC Orenburg,2,1,2,2,2,16,agrees,neutral,N,N,STRONG_LEAN,H,94,high,win,TA,75,H,W,W
+2026-05-11,Krylya Sovetov S v Akron Tolyatti,0,0,1,0,-2,16,no-signal,neutral,N,N,TIDE_MATCH,,37,high,toss,TA,46,H,NC,W
+2026-05-11,Pari Nizhny Novg v CSKA Moscow,-1,0,-1,0,-2,16,agrees,neutral,N,Y,LEAN,A,68,high,strong,TB,86,A,W,W
+2026-05-11,FC Rostov v Zenit St Petersb,-1,-2,-2,-1,-2,16,agrees,B,N,N,STRONG_LEAN,A,91,high,win,TB,71,A,W,W
+2026-05-11,Rubin Kazan v Pari Nizhny Novg,1,2,2,2,1,16,agrees,neutral,N,N,STRONG_LEAN,H,91,high,win,TA,77,D,D,D
+2026-05-11,PFC Sochi v Akhmat Grozny,-1,1,0,0,2,14,conflicts,neutral,N,N,TIDE_MATCH,H,44,high,win,TB,80,D,D,D
+2026-05-11,Spartak Moscow v Rubin Kazan,1,0,0,1,1,17,no-signal,neutral,N,N,LEAN,H,60,high,lean,TA,50,H,W,W
+2026-07-24,CSKA Moscow v Baltika Kalining,0,2,1,1,1,14,no-signal,A,N,N,STRONG_LEAN,H,75,high,lean,TB,52,H,W,L
+2026-07-25,Akron Tolyatti v Zenit St Petersb,-2,-2,-2,-2,-1,16,no-signal,B,N,N,STRONG_LEAN,A,96,high,strong,TB,85,A,W,W
+2026-07-25,Dynamo Moscow v Krylya Sovetov S,1,0,1,2,2,14,no-signal,A,N,N,STRONG_LEAN,H,75,high,win,TA,69,D,D,D
+2026-07-26,Lokomotiv Moscow v Akhmat Grozny,1,0,0,2,1,15,no-signal,neutral,Y,N,LEAN,H,64,high,win,TA,71,D,D,D
+2026-07-26,FC Orenburg v FC Rostov,-1,1,0,0,-2,16,no-signal,A,N,N,TIDE_MATCH,A,49,high,win,TB,69,H,L,L
+2026-07-26,Rubin Kazan v FC Krasnodar,-1,-1,-1,0,-1,15,no-signal,B,N,N,STRONG_LEAN,A,73,high,windraw,TB,63,A,W,W

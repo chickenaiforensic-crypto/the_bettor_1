@@ -1,0 +1,601 @@
+date,fixture,K,zoneBase,zoneDrop2,sideBase,shareBase,shareDrop2,actual,resBase,resDrop2
+2024-07-30,Hamrun Spartans v KF Ballkani,2,toss,NC,TA,0.0,,A,L,NC
+2024-07-31,FC Khimki v FC Orenburg,2,windraw,NC,TB,57.1,,H,L,NC
+2024-08-01,Dynamo Makhachkala v Krylya Sovetov Sam,2,windraw,NC,TA,100.0,,H,W,NC
+2024-08-03,Akron Tolyatti v Dynamo Moscow,2,windraw,NC,TB,63.6,,A,W,NC
+2024-08-03,Rubin Kazan v FC Khimki,2,windraw,NC,TB,100.0,,A,W,NC
+2024-08-03,Zenit St Petersbur v FC Rostov,2,strong,NC,TA,100.0,,H,W,NC
+2024-08-04,Akhmat Grozny v Lokomotiv Moscow,2,lean,NC,TA,50.0,,A,L,NC
+2024-08-04,CSKA Moscow v FC Orenburg,2,lean,NC,TA,50.0,,H,W,NC
+2024-08-04,Dynamo Makhachkala v Pari Nizhny Novgor,2,windraw,NC,TA,100.0,,A,L,NC
+2024-08-04,Fakel Voronezh v FC Krasnodar,2,lean,NC,TA,50.0,,D,D,NC
+2024-08-05,Spartak Moscow v Krylya Sovetov Sam,2,windraw,NC,TA,60.0,,H,W,NC
+2024-08-09,Pari Nizhny Novgor v FC Khimki,2,windraw,lean,TA,56.5,50.0,H,W,W
+2024-08-09,FC Rostov v Rubin Kazan,2,lean,windraw,TB,52.0,100.0,D,D,D
+2024-08-10,FC Krasnodar v CSKA Moscow,2,windraw,windraw,TB,57.1,100.0,H,L,L
+2024-08-10,Lokomotiv Moscow v Dynamo Makhachkala,2,toss,lean,TA,38.5,50.0,H,W,L
+2024-08-10,FC Orenburg v Akron Tolyatti,2,lean,windraw,TA,50.0,66.7,D,D,D
+2024-08-10,Zenit St Petersbur v Dynamo Moscow,2,windraw,windraw,TA,80.6,75.0,H,W,W
+2024-08-11,Krylya Sovetov Sam v Fakel Voronezh,2,lean,lean,TB,51.2,50.0,H,L,W
+2024-08-11,Spartak Moscow v Akhmat Grozny,2,windraw,windraw,TA,61.2,70.0,D,D,D
+2024-08-13,FC Orenburg v Lokomotiv Moscow,2,windraw,windraw,TB,58.5,83.3,A,W,L
+2024-08-13,FC Rostov v FC Khimki,2,lean,lean,TA,51.6,50.0,H,W,W
+2024-08-14,Dynamo Moscow v Dynamo Makhachkala,2,windraw,windraw,TA,71.9,71.4,H,W,W
+2024-08-14,Krylya Sovetov Sam v Spartak Moscow,2,windraw,lean,TB,59.1,53.8,A,W,W
+2024-08-14,Rubin Kazan v Zenit St Petersbur,2,win,windraw,TB,74.3,57.1,A,W,W
+2024-08-15,Fakel Voronezh v Akron Tolyatti,2,windraw,windraw,TB,55.7,55.6,A,W,W
+2024-08-15,FC Krasnodar v Akhmat Grozny,2,toss,toss,TB,47.6,40.0,H,L,L
+2024-08-17,Dynamo Moscow v Krylya Sovetov Sam,2,windraw,windraw,TA,68.5,62.8,H,W,W
+2024-08-17,FC Rostov v FC Orenburg,2,toss,toss,TB,45.8,47.5,H,L,W
+2024-08-18,CSKA Moscow v Lokomotiv Moscow,2,toss,toss,TA,45.6,40.0,A,L,W
+2024-08-18,FC Khimki v Zenit St Petersbur,2,windraw,windraw,TB,82.4,81.3,D,D,D
+2024-08-18,FC Krasnodar v Pari Nizhny Novgor,2,windraw,windraw,TA,59.3,79.3,H,W,W
+2024-08-18,Spartak Moscow v Fakel Voronezh,2,windraw,windraw,TA,69.1,62.5,H,W,W
+2024-08-19,Akron Tolyatti v Rubin Kazan,2,lean,toss,TB,54.5,45.5,A,W,W
+2024-08-19,Dynamo Makhachkala v Akhmat Grozny,2,toss,toss,TA,48.6,43.5,H,W,W
+2024-08-23,Rubin Kazan v Dynamo Makhachkala,2,windraw,lean,TA,58.8,50.0,H,W,W
+2024-08-24,Akhmat Grozny v FC Khimki,2,lean,toss,TA,50.0,44.4,D,D,D
+2024-08-24,CSKA Moscow v Akron Tolyatti,2,lean,windraw,TA,54.4,57.8,H,W,W
+2024-08-24,Fakel Voronezh v FC Orenburg,2,windraw,lean,TB,55.9,53.1,H,L,L
+2024-08-24,Zenit St Petersbur v Spartak Moscow,2,windraw,windraw,TA,76.3,85.3,D,D,D
+2024-08-25,Dynamo Moscow v FC Krasnodar,2,windraw,windraw,TA,55.9,60.9,A,L,W
+2024-08-25,Krylya Sovetov Sam v Pari Nizhny Novgor,2,windraw,windraw,TB,57.8,57.8,H,L,L
+2024-08-25,Lokomotiv Moscow v FC Rostov,2,toss,lean,TB,48.6,54.5,H,L,L
+2024-08-27,Akhmat Grozny v CSKA Moscow,2,lean,windraw,TB,53.9,55.6,A,W,W
+2024-08-27,Fakel Voronezh v Rubin Kazan,2,windraw,windraw,TB,82.4,82.4,A,W,W
+2024-08-27,Spartak Moscow v Dynamo Makhachkala,2,windraw,windraw,TB,72.4,70.8,A,W,W
+2024-08-28,Dynamo Moscow v Krylya Sovetov Sam,2,win,windraw,TA,79.3,81.6,H,W,W
+2024-08-28,Lokomotiv Moscow v FC Khimki,2,lean,toss,TA,51.3,48.6,H,W,W
+2024-08-28,FC Orenburg v FC Rostov,2,toss,lean,TA,46.2,50.0,A,L,L
+2024-08-28,Pari Nizhny Novgor v FC Krasnodar,2,win,windraw,TB,67.9,65.3,A,W,W
+2024-08-31,Akhmat Grozny v Akron Tolyatti,2,windraw,windraw,TA,55.6,61.8,D,D,D
+2024-08-31,FC Khimki v CSKA Moscow,2,strong,windraw,TB,85.0,75.0,A,W,W
+2024-08-31,Pari Nizhny Novgor v Zenit St Petersbur,2,windraw,strong,TB,81.9,100.0,A,W,W
+2024-08-31,Spartak Moscow v Rubin Kazan,2,windraw,windraw,TB,76.3,75.0,H,L,L
+2024-09-01,Krylya Sovetov Sam v Dynamo Makhachkala,2,win,windraw,TB,67.9,64.3,A,W,W
+2024-09-01,Lokomotiv Moscow v FC Krasnodar,2,lean,lean,TB,52.6,50.0,A,W,W
+2024-09-01,FC Orenburg v Dynamo Moscow,2,windraw,windraw,TA,60.5,68.1,D,D,D
+2024-09-01,FC Rostov v Fakel Voronezh,2,windraw,windraw,TA,81.6,89.7,H,W,W
+2024-09-13,Rubin Kazan v Krylya Sovetov Sam,2,windraw,windraw,TA,69.0,71.1,A,L,L
+2024-09-14,CSKA Moscow v Zenit St Petersbur,2,toss,lean,TB,47.2,53.1,A,W,W
+2024-09-14,Fakel Voronezh v Pari Nizhny Novgor,2,toss,lean,TA,48.7,54.4,D,D,D
+2024-09-14,FC Krasnodar v FC Rostov,2,lean,lean,TA,52.8,53.1,H,W,W
+2024-09-14,FC Orenburg v Lokomotiv Moscow,2,windraw,windraw,TA,61.1,62.2,A,L,L
+2024-09-15,Akron Tolyatti v FC Khimki,2,toss,toss,TA,46.3,48.5,H,W,W
+2024-09-15,Dynamo Makhachkala v Spartak Moscow,2,windraw,windraw,TB,57.0,59.2,D,D,D
+2024-09-15,Dynamo Moscow v Akhmat Grozny,2,toss,toss,TA,42.9,46.1,H,W,L
+2024-09-17,Zenit St Petersbur v Rubin Kazan,2,strong,strong,TA,90.6,89.3,H,W,W
+2024-09-18,Akron Tolyatti v Fakel Voronezh,2,windraw,windraw,TA,64.3,60.7,H,W,W
+2024-09-18,CSKA Moscow v FC Krasnodar,2,lean,windraw,TA,50.0,55.0,H,W,W
+2024-09-18,FC Rostov v FC Orenburg,2,win,windraw,TA,65.9,59.5,H,W,W
+2024-09-19,FC Khimki v Lokomotiv Moscow,2,win,win,TB,76.7,65.9,A,W,W
+2024-09-19,Pari Nizhny Novgor v Akhmat Grozny,2,windraw,windraw,TB,61.0,61.0,A,W,W
+2024-09-19,Spartak Moscow v Krylya Sovetov Sam,2,windraw,lean,TB,56.5,54.5,H,L,L
+2024-09-21,Akron Tolyatti v FC Krasnodar,2,lean,toss,TA,50.0,46.3,A,L,L
+2024-09-21,Rubin Kazan v CSKA Moscow,2,lean,toss,TB,53.8,47.4,D,D,D
+2024-09-21,Zenit St Petersbur v Fakel Voronezh,2,strong,strong,TA,90.0,89.5,H,W,W
+2024-09-22,FC Khimki v FC Orenburg,2,lean,windraw,TA,54.4,57.0,D,D,D
+2024-09-22,Pari Nizhny Novgor v Lokomotiv Moscow,2,windraw,windraw,TB,76.3,76.3,A,W,W
+2024-09-22,FC Rostov v Dynamo Makhachkala,2,windraw,windraw,TA,76.3,80.3,D,D,D
+2024-09-22,Spartak Moscow v Dynamo Moscow,2,windraw,windraw,TB,76.7,74.4,D,D,D
+2024-09-23,Akhmat Grozny v Krylya Sovetov Sam,2,windraw,windraw,TA,77.6,81.9,D,D,D
+2024-09-27,Fakel Voronezh v Rubin Kazan,2,windraw,win,TB,64.4,68.9,D,D,D
+2024-09-27,FC Orenburg v Pari Nizhny Novgor,2,windraw,windraw,TA,81.3,80.3,A,L,L
+2024-09-28,CSKA Moscow v Akhmat Grozny,2,win,windraw,TA,70.0,57.8,H,W,W
+2024-09-28,FC Krasnodar v Zenit St Petersbur,2,windraw,windraw,TB,80.0,82.5,H,L,L
+2024-09-28,Lokomotiv Moscow v Spartak Moscow,2,lean,lean,TB,53.8,53.8,H,L,L
+2024-09-28,FC Rostov v Akron Tolyatti,2,windraw,windraw,TA,70.5,69.0,A,L,L
+2024-09-29,Dynamo Makhachkala v Dynamo Moscow,2,win,windraw,TB,69.8,64.6,A,W,W
+2024-09-29,Krylya Sovetov Sam v FC Khimki,2,windraw,windraw,TB,61.4,64.3,D,D,D
+2024-10-01,Lokomotiv Moscow v FC Orenburg,2,windraw,windraw,TA,63.5,64.6,H,W,W
+2024-10-01,Pari Nizhny Novgor v CSKA Moscow,2,strong,strong,TB,87.2,85.4,A,W,W
+2024-10-01,Rubin Kazan v Fakel Voronezh,2,win,win,TA,66.7,75.6,A,L,L
+2024-10-02,Akhmat Grozny v FC Krasnodar,2,lean,lean,TA,54.2,50.0,H,W,W
+2024-10-02,Dynamo Moscow v Spartak Moscow,2,toss,lean,TB,48.0,53.3,A,W,W
+2024-10-02,Zenit St Petersbur v Akron Tolyatti,2,strong,strong,TA,88.6,87.5,H,W,W
+2024-10-05,Akron Tolyatti v Pari Nizhny Novgor,2,windraw,windraw,TA,63.5,69.3,D,D,D
+2024-10-05,Rubin Kazan v Akhmat Grozny,2,windraw,windraw,TA,61.4,61.4,H,W,W
+2024-10-05,Spartak Moscow v FC Rostov,2,windraw,windraw,TB,71.7,69.0,H,L,L
+2024-10-05,Zenit St Petersbur v FC Orenburg,2,strong,strong,TA,89.1,88.1,H,W,W
+2024-10-06,Dynamo Moscow v CSKA Moscow,2,lean,lean,TB,54.8,53.6,A,W,W
+2024-10-06,Fakel Voronezh v Dynamo Makhachkala,2,lean,lean,TB,52.3,50.0,D,D,D
+2024-10-06,FC Krasnodar v FC Khimki,2,lean,lean,TB,53.3,51.1,H,L,W
+2024-10-06,Lokomotiv Moscow v Krylya Sovetov Sam,2,strong,windraw,TA,85.2,82.9,H,W,W
+2024-10-18,Akhmat Grozny v Fakel Voronezh,2,windraw,windraw,TA,80.2,79.5,A,L,L
+2024-10-18,Akron Tolyatti v Zenit St Petersbur,2,win,windraw,TB,84.3,81.8,A,W,W
+2024-10-19,Dynamo Makhachkala v CSKA Moscow,2,windraw,windraw,TB,71.7,70.5,A,W,W
+2024-10-19,FC Khimki v Lokomotiv Moscow,2,win,win,TB,73.2,71.2,H,L,L
+2024-10-19,Pari Nizhny Novgor v FC Rostov,2,windraw,windraw,TB,73.1,76.0,D,D,D
+2024-10-19,Spartak Moscow v FC Krasnodar,2,windraw,strong,TB,76.1,86.9,A,W,W
+2024-10-20,FC Orenburg v Krylya Sovetov Sam,2,windraw,windraw,TA,79.2,85.7,D,D,D
+2024-10-20,Rubin Kazan v Dynamo Moscow,2,toss,lean,TB,48.9,53.6,A,W,W
+2024-10-22,CSKA Moscow v Akhmat Grozny,2,windraw,windraw,TA,60.2,55.2,H,W,W
+2024-10-22,Dynamo Makhachkala v Spartak Moscow,2,windraw,windraw,TB,58.3,57.3,A,W,W
+2024-10-22,Fakel Voronezh v Zenit St Petersbur,2,win,strong,TB,84.3,87.5,A,W,W
+2024-10-23,Akron Tolyatti v Rubin Kazan,2,windraw,lean,TB,55.8,54.3,A,W,W
+2024-10-23,FC Krasnodar v Pari Nizhny Novgor,2,toss,toss,TA,48.1,41.7,A,L,L
+2024-10-23,FC Orenburg v FC Khimki,2,windraw,win,TA,64.8,67.0,H,W,W
+2024-10-24,Krylya Sovetov Sam v Dynamo Moscow,2,strong,strong,TB,86.5,89.1,A,W,W
+2024-10-26,CSKA Moscow v Fakel Voronezh,2,windraw,windraw,TA,78.0,79.3,D,D,D
+2024-10-26,Dynamo Makhachkala v Akron Tolyatti,2,windraw,windraw,TB,62.0,64.6,D,D,D
+2024-10-26,FC Rostov v Akhmat Grozny,2,windraw,windraw,TA,57.4,60.4,A,L,L
+2024-10-27,FC Khimki v Dynamo Moscow,2,windraw,windraw,TB,78.8,74.0,A,W,W
+2024-10-27,FC Orenburg v Rubin Kazan,2,windraw,windraw,TA,62.5,59.4,A,L,L
+2024-10-27,Pari Nizhny Novgor v Spartak Moscow,2,windraw,windraw,TB,67.3,68.8,A,W,W
+2024-10-27,Zenit St Petersbur v Lokomotiv Moscow,2,windraw,windraw,TA,78.0,77.1,D,D,D
+2024-10-28,Krylya Sovetov Sam v FC Krasnodar,2,windraw,windraw,TB,64.0,62.5,A,W,W
+2024-11-01,Dynamo Moscow v FC Rostov,2,windraw,windraw,TA,67.0,68.3,D,D,D
+2024-11-02,CSKA Moscow v Spartak Moscow,2,toss,toss,TA,44.4,44.0,A,L,L
+2024-11-02,Lokomotiv Moscow v Rubin Kazan,2,windraw,windraw,TA,69.4,67.0,H,W,W
+2024-11-02,Zenit St Petersbur v Dynamo Makhachkala,2,windraw,windraw,TA,77.8,76.0,H,W,W
+2024-11-03,Akhmat Grozny v Pari Nizhny Novgor,2,win,win,TA,76.7,71.4,A,L,L
+2024-11-03,Akron Tolyatti v Krylya Sovetov Sam,2,windraw,windraw,TA,59.3,60.0,H,W,W
+2024-11-03,Fakel Voronezh v FC Khimki,2,lean,lean,TB,50.9,51.0,D,D,D
+2024-11-03,FC Krasnodar v FC Orenburg,2,lean,lean,TA,51.9,50.0,H,W,W
+2024-11-09,Dynamo Makhachkala v FC Orenburg,2,windraw,windraw,TB,58.6,64.0,H,L,L
+2024-11-09,Dynamo Moscow v Pari Nizhny Novgor,2,windraw,strong,TA,80.2,85.6,H,W,W
+2024-11-09,Lokomotiv Moscow v Fakel Voronezh,2,windraw,windraw,TA,72.4,68.0,H,W,W
+2024-11-09,FC Rostov v FC Khimki,2,win,win,TA,71.3,71.8,H,W,W
+2024-11-10,Akhmat Grozny v Zenit St Petersbur,2,windraw,lean,TB,58.6,53.8,A,W,W
+2024-11-10,Krylya Sovetov Sam v CSKA Moscow,2,strong,strong,TB,87.1,89.0,A,W,W
+2024-11-10,Rubin Kazan v FC Krasnodar,2,windraw,windraw,TA,60.3,67.3,D,D,D
+2024-11-10,Spartak Moscow v Akron Tolyatti,2,windraw,windraw,TB,59.5,69.0,H,L,L
+2024-11-22,Rubin Kazan v Akron Tolyatti,2,windraw,windraw,TA,59.7,61.0,H,W,W
+2024-11-23,CSKA Moscow v FC Rostov,2,toss,toss,TB,41.0,44.5,A,W,W
+2024-11-23,FC Khimki v FC Krasnodar,2,lean,windraw,TB,54.9,57.3,D,D,D
+2024-11-23,FC Orenburg v Zenit St Petersbur,2,win,win,TB,68.9,65.5,A,W,W
+2024-11-23,Spartak Moscow v Lokomotiv Moscow,2,windraw,win,TB,59.0,67.9,H,L,L
+2024-11-24,Fakel Voronezh v Dynamo Moscow,2,strong,win,TB,85.2,83.0,D,D,D
+2024-11-24,Krylya Sovetov Sam v Akhmat Grozny,2,windraw,windraw,TB,61.5,60.9,H,L,L
+2024-11-24,Pari Nizhny Novgor v Dynamo Makhachkala,2,windraw,windraw,TB,59.8,59.1,D,D,D
+2024-11-26,CSKA Moscow v Rubin Kazan,2,toss,toss,TA,42.6,44.7,H,W,W
+2024-11-27,Akhmat Grozny v Zenit St Petersbur,2,win,windraw,TB,65.6,63.8,A,W,W
+2024-11-27,FC Rostov v Spartak Moscow,2,toss,toss,TA,48.4,48.3,H,W,W
+2024-11-30,Akron Tolyatti v FC Orenburg,2,lean,lean,TB,50.0,51.7,H,L,L
+2024-11-30,CSKA Moscow v Rubin Kazan,2,toss,toss,TA,45.3,45.1,D,D,D
+2024-11-30,FC Rostov v Pari Nizhny Novgor,2,win,windraw,TA,78.7,72.0,H,W,W
+2024-12-01,Dynamo Makhachkala v Fakel Voronezh,2,toss,lean,TA,41.0,52.6,D,D,D
+2024-12-01,FC Krasnodar v Spartak Moscow,2,toss,lean,TB,48.4,50.0,A,W,W
+2024-12-01,Lokomotiv Moscow v FC Khimki,2,windraw,win,TA,63.4,65.4,A,L,L
+2024-12-01,Zenit St Petersbur v Krylya Sovetov Sam,2,strong,strong,TA,90.2,89.8,A,L,L
+2024-12-02,Akhmat Grozny v Dynamo Moscow,2,lean,windraw,TB,54.1,57.6,D,D,D
+2024-12-07,Dynamo Makhachkala v Rubin Kazan,2,windraw,windraw,TB,55.7,59.0,A,W,W
+2024-12-07,FC Rostov v Krylya Sovetov Sam,2,win,win,TA,72.1,73.8,H,W,W
+2024-12-07,Spartak Moscow v Pari Nizhny Novgor,2,windraw,lean,TA,56.6,53.3,H,W,W
+2024-12-07,Zenit St Petersbur v Akron Tolyatti,2,win,strong,TA,72.7,96.9,A,L,L
+2024-12-08,Akhmat Grozny v FC Orenburg,2,toss,toss,TB,44.3,44.3,H,L,L
+2024-12-08,Dynamo Moscow v FC Khimki,2,win,win,TA,77.0,82.0,H,W,W
+2024-12-08,Fakel Voronezh v CSKA Moscow,2,windraw,win,TB,63.9,73.8,A,W,W
+2024-12-08,FC Krasnodar v Lokomotiv Moscow,2,toss,toss,TB,49.2,49.2,D,D,D
+2025-02-28,Dynamo Makhachkala v Lokomotiv Moscow,2,windraw,windraw,TB,59.8,59.8,D,D,D
+2025-03-01,Akhmat Grozny v Rubin Kazan,2,windraw,windraw,TA,62.3,62.3,H,W,W
+2025-03-01,FC Krasnodar v Krylya Sovetov Sam,2,lean,win,TA,54.9,69.7,D,D,D
+2025-03-01,Pari Nizhny Novgor v Akron Tolyatti,2,windraw,windraw,TB,69.7,66.4,H,L,L
+2025-03-01,Zenit St Petersbur v CSKA Moscow,2,lean,win,TA,54.9,77.9,D,D,D
+2025-03-02,FC Khimki v Fakel Voronezh,2,lean,lean,TA,53.3,53.3,H,W,W
+2025-03-02,FC Rostov v Dynamo Moscow,2,toss,toss,TB,43.4,46.7,D,D,D
+2025-03-02,Spartak Moscow v FC Orenburg,2,lean,lean,TB,51.6,51.6,H,L,L
+2025-03-07,Lokomotiv Moscow v Akhmat Grozny,2,windraw,windraw,TA,62.3,62.3,D,D,D
+2025-03-07,Pari Nizhny Novgor v FC Krasnodar,2,win,win,TB,75.4,75.4,A,W,W
+2025-03-08,CSKA Moscow v FC Khimki,2,windraw,windraw,TA,59.0,59.0,H,W,W
+2025-03-08,Dynamo Moscow v Dynamo Makhachkala,2,lean,lean,TA,50.0,50.0,H,W,W
+2025-03-08,Fakel Voronezh v Zenit St Petersbur,2,win,win,TB,84.3,81.3,A,W,W
+2025-03-08,FC Orenburg v FC Rostov,2,win,lean,TB,69.4,50.0,A,W,L
+2025-03-09,Krylya Sovetov Sam v Akron Tolyatti,2,toss,toss,TB,48.4,48.4,A,W,W
+2025-03-09,Rubin Kazan v Spartak Moscow,2,lean,toss,TB,52.5,49.2,H,L,L
+2025-03-11,Dynamo Makhachkala v Lokomotiv Moscow,2,windraw,windraw,TB,57.0,59.8,A,W,W
+2025-03-11,FC Krasnodar v Akhmat Grozny,2,toss,toss,TA,47.8,47.8,A,L,W
+2025-03-12,Akron Tolyatti v Spartak Moscow,2,lean,lean,TB,54.1,51.6,A,W,W
+2025-03-12,CSKA Moscow v Dynamo Moscow,2,win,windraw,TB,65.6,59.0,H,L,L
+2025-03-12,Lokomotiv Moscow v Akhmat Grozny,2,lean,windraw,TA,54.7,62.3,H,W,W
+2025-03-12,FC Rostov v Zenit St Petersbur,2,lean,windraw,TB,53.3,56.6,A,W,W
+2025-03-15,Dynamo Makhachkala v Krylya Sovetov Sam,2,windraw,windraw,TA,55.5,55.5,H,W,W
+2025-03-15,FC Khimki v Akhmat Grozny,2,windraw,windraw,TB,57.4,57.4,D,D,D
+2025-03-15,Lokomotiv Moscow v Dynamo Moscow,2,windraw,lean,TB,56.6,53.3,H,L,L
+2025-03-15,FC Orenburg v Fakel Voronezh,2,windraw,windraw,TA,62.3,69.7,H,W,W
+2025-03-16,Akron Tolyatti v CSKA Moscow,2,win,win,TB,68.9,68.9,A,W,W
+2025-03-16,FC Rostov v FC Krasnodar,2,windraw,windraw,TA,59.8,59.8,A,L,L
+2025-03-16,Rubin Kazan v Pari Nizhny Novgor,2,strong,strong,TA,86.9,86.9,H,W,W
+2025-03-16,Spartak Moscow v Zenit St Petersbur,2,windraw,windraw,TB,61.5,61.5,H,L,L
+2025-03-28,Krylya Sovetov Sam v Lokomotiv Moscow,2,windraw,windraw,TB,64.8,64.8,H,L,L
+2025-03-29,CSKA Moscow v Dynamo Makhachkala,2,windraw,windraw,TA,56.6,56.6,H,W,W
+2025-03-29,Dynamo Moscow v FC Orenburg,2,windraw,windraw,TA,59.0,59.0,H,W,W
+2025-03-29,FC Khimki v Pari Nizhny Novgor,2,win,win,TA,68.0,68.0,H,W,W
+2025-03-30,Akhmat Grozny v Spartak Moscow,2,toss,toss,TA,45.9,45.9,D,D,D
+2025-03-30,FC Krasnodar v Fakel Voronezh,2,windraw,windraw,TA,56.6,59.0,H,W,W
+2025-03-30,Zenit St Petersbur v Rubin Kazan,2,win,win,TA,70.1,65.7,H,W,W
+2025-03-31,Akron Tolyatti v FC Rostov,2,win,win,TB,70.5,70.5,A,W,W
+2025-04-04,Pari Nizhny Novgor v FC Orenburg,2,windraw,windraw,TB,62.3,64.8,A,W,W
+2025-04-05,Fakel Voronezh v Akhmat Grozny,2,windraw,lean,TB,56.6,53.3,D,D,D
+2025-04-05,FC Krasnodar v Akron Tolyatti,2,toss,lean,TB,46.7,50.0,H,L,L
+2025-04-05,Krylya Sovetov Sam v Rubin Kazan,2,windraw,windraw,TB,59.0,63.9,D,D,D
+2025-04-05,Lokomotiv Moscow v Zenit St Petersbur,2,lean,lean,TB,52.5,53.3,D,D,D
+2025-04-06,CSKA Moscow v Dynamo Moscow,2,lean,windraw,TB,53.1,57.8,H,L,L
+2025-04-06,Dynamo Makhachkala v FC Khimki,2,toss,toss,TA,42.6,46.7,H,W,W
+2025-04-06,FC Rostov v Spartak Moscow,2,toss,toss,TA,47.7,47.7,A,L,L
+2025-04-11,Spartak Moscow v Dynamo Makhachkala,2,lean,toss,TB,50.7,44.0,A,W,W
+2025-04-12,Akhmat Grozny v FC Rostov,2,toss,toss,TB,47.5,47.5,H,L,L
+2025-04-12,FC Orenburg v CSKA Moscow,2,lean,lean,TB,54.9,54.9,A,W,W
+2025-04-12,Pari Nizhny Novgor v Dynamo Moscow,2,strong,win,TB,86.9,83.6,D,D,D
+2025-04-12,Rubin Kazan v Lokomotiv Moscow,2,toss,lean,TB,49.2,52.5,H,L,L
+2025-04-13,Akron Tolyatti v Fakel Voronezh,2,windraw,windraw,TA,60.4,55.2,H,W,W
+2025-04-13,FC Khimki v Krylya Sovetov Sam,2,windraw,toss,TB,55.7,48.4,A,W,W
+2025-04-13,Zenit St Petersbur v FC Krasnodar,2,windraw,windraw,TA,60.7,60.7,H,W,W
+2025-04-15,Lokomotiv Moscow v Akhmat Grozny,2,windraw,windraw,TA,56.7,56.7,H,W,W
+2025-04-15,Spartak Moscow v Ural Yekaterinburg,2,toss,NC,TA,42.9,,H,W,NC
+2025-04-16,Dynamo Moscow v CSKA Moscow,2,windraw,lean,TB,56.0,53.9,D,D,D
+2025-04-16,Zenit St Petersbur v FC Rostov,2,win,windraw,TA,65.6,62.5,H,W,W
+2025-04-19,Akron Tolyatti v Spartak Moscow,2,windraw,windraw,TB,61.7,61.7,A,W,W
+2025-04-19,FC Krasnodar v Akhmat Grozny,2,toss,toss,TB,49.3,49.3,H,L,L
+2025-04-19,Lokomotiv Moscow v Pari Nizhny Novgor,2,strong,strong,TA,91.8,91.8,H,W,W
+2025-04-19,FC Orenburg v Dynamo Makhachkala,2,toss,toss,TB,41.0,43.4,H,L,W
+2025-04-20,CSKA Moscow v Krylya Sovetov Sam,2,windraw,windraw,TA,63.1,63.1,D,D,D
+2025-04-20,Dynamo Moscow v Rubin Kazan,2,lean,windraw,TA,53.3,56.6,H,W,W
+2025-04-20,Fakel Voronezh v FC Rostov,2,win,win,TB,74.6,74.6,A,W,W
+2025-04-20,Zenit St Petersbur v FC Khimki,2,strong,win,TA,87.7,79.5,H,W,W
+2025-04-25,Dynamo Makhachkala v FC Krasnodar,2,toss,toss,TB,48.4,45.9,A,W,W
+2025-04-26,Dynamo Moscow v Zenit St Petersbur,2,win,win,TB,72.1,72.1,D,D,D
+2025-04-26,Pari Nizhny Novgor v Akhmat Grozny,2,win,win,TB,81.3,81.3,H,L,L
+2025-04-26,FC Rostov v Lokomotiv Moscow,2,toss,toss,TA,47.7,47.7,D,D,D
+2025-04-26,Spartak Moscow v CSKA Moscow,2,lean,lean,TB,53.3,50.0,A,W,W
+2025-04-27,FC Khimki v Akron Tolyatti,2,windraw,windraw,TB,58.2,58.2,D,D,D
+2025-04-27,Krylya Sovetov Sam v FC Orenburg,2,toss,lean,TB,49.2,52.5,H,L,L
+2025-04-27,Rubin Kazan v Fakel Voronezh,2,windraw,windraw,TA,62.7,59.7,H,W,W
+2025-04-29,Spartak Moscow v Dynamo Moscow,2,toss,toss,TB,45.5,45.5,H,L,L
+2025-04-30,Lokomotiv Moscow v FC Rostov,2,lean,lean,TB,50.0,52.3,A,W,W
+2025-04-30,Spartak Moscow v FC Rostov,2,lean,lean,TB,52.2,52.2,A,W,W
+2025-04-30,Zenit St Petersbur v CSKA Moscow,2,windraw,windraw,TA,57.0,60.2,H,W,W
+2025-05-02,Akron Tolyatti v Dynamo Makhachkala,2,windraw,windraw,TB,59.0,62.3,H,L,L
+2025-05-03,FC Krasnodar v Rubin Kazan,2,toss,toss,TA,49.2,39.3,H,W,W
+2025-05-03,Lokomotiv Moscow v FC Orenburg,2,win,win,TA,69.4,69.4,D,D,D
+2025-05-04,Akhmat Grozny v CSKA Moscow,2,lean,toss,TB,54.5,48.5,D,D,D
+2025-05-04,Fakel Voronezh v Spartak Moscow,2,windraw,windraw,TB,55.7,55.7,D,D,D
+2025-05-04,FC Khimki v FC Rostov,2,strong,strong,TB,88.3,88.3,D,D,D
+2025-05-04,Zenit St Petersbur v Pari Nizhny Novgor,2,strong,strong,TA,92.6,92.6,H,W,W
+2025-05-05,Krylya Sovetov Sam v Dynamo Moscow,2,win,win,TB,69.4,69.4,A,W,W
+2025-05-10,CSKA Moscow v FC Krasnodar,2,toss,toss,TB,45.5,46.3,H,L,W
+2025-05-10,Dynamo Makhachkala v Zenit St Petersbur,2,win,win,TB,74.6,74.6,A,W,W
+2025-05-10,FC Orenburg v FC Khimki,2,windraw,windraw,TA,56.0,61.9,D,D,D
+2025-05-11,Akron Tolyatti v Akhmat Grozny,2,windraw,windraw,TB,58.2,58.2,H,L,L
+2025-05-11,Dynamo Moscow v Spartak Moscow,2,lean,toss,TB,50.0,47.8,H,L,L
+2025-05-11,Fakel Voronezh v Lokomotiv Moscow,2,win,strong,TB,82.8,85.2,A,W,W
+2025-05-11,Rubin Kazan v FC Rostov,2,windraw,windraw,TB,56.6,56.6,H,L,L
+2025-05-12,Pari Nizhny Novgor v Krylya Sovetov Sam,2,windraw,windraw,TB,61.5,58.2,H,L,L
+2025-05-15,Spartak Moscow v FC Rostov,2,windraw,lean,TB,57.1,54.3,A,W,W
+2025-05-17,FC Khimki v Rubin Kazan,2,win,win,TB,67.2,67.2,H,L,L
+2025-05-17,FC Orenburg v FC Krasnodar,2,lean,lean,TB,50.0,50.0,A,W,W
+2025-05-17,Pari Nizhny Novgor v Fakel Voronezh,2,toss,toss,TB,41.0,41.0,D,D,D
+2025-05-18,Akhmat Grozny v Dynamo Makhachkala,2,toss,toss,TA,44.3,44.3,D,D,D
+2025-05-18,Dynamo Moscow v Akron Tolyatti,2,win,win,TA,83.6,83.6,H,W,W
+2025-05-18,Krylya Sovetov Sam v Spartak Moscow,2,windraw,windraw,TB,60.4,60.4,A,W,W
+2025-05-18,FC Rostov v Zenit St Petersbur,2,lean,windraw,TB,54.5,60.4,A,W,W
+2025-05-19,Akron Tolyatti v Lokomotiv Moscow,2,win,win,TB,72.1,69.7,A,W,W
+2025-05-19,CSKA Moscow v Pari Nizhny Novgor,2,win,strong,TA,82.8,88.3,H,W,W
+2025-05-19,Dynamo Makhachkala v FC Rostov,2,lean,lean,TB,54.9,54.9,D,D,D
+2025-05-19,Fakel Voronezh v Krylya Sovetov Sam,2,lean,lean,TA,53.3,50.0,D,D,D
+2025-05-19,FC Krasnodar v Dynamo Moscow,2,toss,toss,TB,45.1,45.1,H,L,L
+2025-05-19,Lokomotiv Moscow v CSKA Moscow,2,toss,toss,TB,41.0,41.0,D,D,D
+2025-05-19,Rubin Kazan v FC Orenburg,2,windraw,windraw,TA,61.5,61.5,H,W,W
+2025-05-19,Spartak Moscow v FC Khimki,2,win,win,TA,68.0,71.3,H,W,W
+2025-05-19,Zenit St Petersbur v Akhmat Grozny,2,win,win,TA,73.4,73.4,H,W,W
+2025-07-12,FC Krasnodar v CSKA Moscow,2,windraw,lean,TB,55.7,52.9,A,W,W
+2025-07-17,Víkingur Reykjavík v Malisheva,2,windraw,NC,TA,100.0,,H,W,NC
+2025-07-19,Akron Tolyatti v Krylya Sovetov Sam,2,toss,windraw,TB,46.9,57.8,D,D,D
+2025-07-19,Spartak Moscow v Dynamo Makhachkala,2,lean,lean,TB,52.1,52.1,H,L,L
+2025-07-20,Akhmat Grozny v Rubin Kazan,2,windraw,windraw,TA,60.9,60.9,A,L,L
+2025-07-20,Pari Nizhny Novgor v FC Krasnodar,2,win,win,TB,78.6,78.6,A,W,W
+2025-07-20,Zenit St Petersbur v FC Rostov,2,lean,lean,TA,52.1,50.0,H,W,W
+2025-07-21,FC Orenburg v CSKA Moscow,2,windraw,windraw,TB,60.9,57.8,D,D,D
+2025-07-25,Krylya Sovetov Sam v Pari Nizhny Novgor,2,win,win,TA,68.0,68.0,H,W,W
+2025-07-26,Dynamo Moscow v FC Rostov,2,lean,toss,TB,52.3,49.2,H,L,L
+2025-07-26,FC Krasnodar v Lokomotiv Moscow,2,windraw,windraw,TB,55.5,55.5,A,W,W
+2025-07-26,PFC Sochi v Akron Tolyatti,2,windraw,NC,TB,81.3,,A,W,NC
+2025-07-26,Spartak Moscow v Baltika Kaliningra,2,windraw,NC,TB,60.9,,A,W,NC
+2025-07-27,CSKA Moscow v Akhmat Grozny,2,lean,toss,TA,50.7,47.9,H,W,W
+2025-07-27,FC Orenburg v Dynamo Makhachkala,2,toss,toss,TB,37.5,39.1,D,D,D
+2025-07-27,Rubin Kazan v Zenit St Petersbur,2,win,win,TB,77.9,77.9,D,D,D
+2025-07-29,Drita v Copenhagen,2,windraw,NC,TB,100.0,,A,W,NC
+2025-07-29,Akron Tolyatti v Baltika Kaliningra,2,strong,NC,TB,100.0,,H,L,NC
+2025-07-29,Dynamo Moscow v PFC Sochi,2,strong,NC,TA,100.0,,H,W,NC
+2025-07-29,FC Krasnodar v Krylya Sovetov Sam,2,windraw,windraw,TA,57.0,57.0,A,L,L
+2025-07-30,Akhmat Grozny v Zenit St Petersbur,2,win,win,TB,74.6,76.9,A,W,W
+2025-07-30,CSKA Moscow v Lokomotiv Moscow,2,windraw,lean,TB,57.0,53.9,H,L,L
+2025-07-30,Dynamo Makhachkala v Pari Nizhny Novgor,2,win,win,TA,68.0,68.0,H,W,W
+2025-07-30,FC Rostov v Spartak Moscow,2,lean,lean,TB,50.0,50.0,A,W,W
+2025-07-31,Hibernian v Midtjylland,2,toss,NC,TA,0.0,,A,L,NC
+2025-07-31,Rubin Kazan v FC Orenburg,2,windraw,windraw,TA,60.9,60.9,H,W,W
+2025-08-02,FC Krasnodar v Dynamo Moscow,2,toss,toss,TB,47.7,47.7,H,L,L
+2025-08-02,Pari Nizhny Novgor v Lokomotiv Moscow,2,strong,strong,TB,94.5,91.4,A,W,W
+2025-08-02,FC Rostov v Krylya Sovetov Sam,2,win,win,TA,81.3,81.3,A,L,L
+2025-08-03,Akron Tolyatti v Spartak Moscow,2,win,win,TB,76.8,76.1,D,D,D
+2025-08-03,Baltika Kaliningra v FC Orenburg,2,toss,toss,TA,48.6,48.4,H,W,W
+2025-08-03,Dynamo Makhachkala v Akhmat Grozny,2,toss,toss,TA,43.8,43.8,H,W,W
+2025-08-03,Zenit St Petersbur v CSKA Moscow,2,toss,lean,TA,47.8,50.7,D,D,D
+2025-08-04,Rubin Kazan v PFC Sochi,2,strong,strong,TA,94.4,85.9,H,W,W
+2025-08-08,Dynamo Makhachkala v Akron Tolyatti,2,windraw,windraw,TA,62.5,59.4,D,D,D
+2025-08-09,Akhmat Grozny v Zenit St Petersbur,2,win,win,TB,75.7,74.6,H,L,L
+2025-08-09,CSKA Moscow v Rubin Kazan,2,toss,toss,TA,44.0,44.0,H,W,W
+2025-08-09,Krylya Sovetov Sam v Baltika Kaliningra,2,windraw,strong,TB,82.9,86.8,D,D,D
+2025-08-09,Lokomotiv Moscow v Spartak Moscow,2,toss,toss,TB,49.2,44.5,H,L,W
+2025-08-10,FC Orenburg v FC Krasnodar,2,lean,lean,TB,52.3,52.3,A,W,W
+2025-08-10,FC Rostov v Pari Nizhny Novgor,2,win,win,TA,79.7,79.7,H,W,W
+2025-08-10,PFC Sochi v Dynamo Moscow,2,strong,strong,TB,100.0,100.0,D,D,D
+2025-08-12,Zenit St Petersbur v Rubin Kazan,2,win,win,TA,74.0,76.7,H,W,W
+2025-08-13,Dynamo Moscow v FC Krasnodar,2,toss,toss,TB,47.0,47.7,A,W,W
+2025-08-13,Lokomotiv Moscow v Baltika Kaliningra,2,lean,windraw,TA,50.0,55.6,H,W,W
+2025-08-13,FC Orenburg v Akhmat Grozny,2,toss,toss,TB,42.2,42.2,H,L,L
+2025-08-14,Hibernian v Partizan,2,windraw,NC,TA,100.0,,A,L,NC
+2025-08-14,Pari Nizhny Novgor v FC Rostov,2,win,win,TB,73.9,75.0,H,L,L
+2025-08-16,Akhmat Grozny v Krylya Sovetov Sam,2,windraw,windraw,TA,60.9,60.2,H,W,W
+2025-08-16,Baltika Kaliningra v Lokomotiv Moscow,2,windraw,windraw,TB,57.0,56.6,D,D,D
+2025-08-16,Spartak Moscow v Zenit St Petersbur,2,win,win,TB,72.7,69.5,D,D,D
+2025-08-17,Akron Tolyatti v FC Orenburg,2,windraw,lean,TB,56.8,52.3,A,W,W
+2025-08-17,Dynamo Moscow v CSKA Moscow,2,toss,toss,TB,43.6,43.6,A,W,W
+2025-08-17,FC Krasnodar v PFC Sochi,2,strong,strong,TA,100.0,100.0,H,W,W
+2025-08-17,Rubin Kazan v FC Rostov,2,toss,toss,TB,46.9,46.9,H,L,L
+2025-08-18,Pari Nizhny Novgor v Dynamo Makhachkala,2,win,win,TB,71.6,71.6,H,L,L
+2025-08-22,FC Orenburg v Akhmat Grozny,2,toss,toss,TA,43.3,42.2,D,D,D
+2025-08-23,Dynamo Moscow v Pari Nizhny Novgor,2,strong,strong,TA,85.2,85.2,H,W,W
+2025-08-23,Lokomotiv Moscow v FC Rostov,2,windraw,windraw,TA,55.0,55.0,D,D,D
+2025-08-23,Rubin Kazan v Spartak Moscow,2,toss,lean,TB,47.7,53.8,A,W,W
+2025-08-23,Zenit St Petersbur v Dynamo Makhachkala,2,win,win,TA,71.9,71.9,H,W,W
+2025-08-24,CSKA Moscow v Akron Tolyatti,2,windraw,windraw,TA,64.1,64.1,H,W,W
+2025-08-24,Krylya Sovetov Sam v FC Krasnodar,2,toss,toss,TB,47.8,47.8,A,W,W
+2025-08-24,PFC Sochi v Baltika Kaliningra,2,strong,strong,TB,100.0,100.0,A,W,W
+2025-08-26,Akhmat Grozny v Rubin Kazan,2,win,windraw,TA,66.4,63.4,H,W,W
+2025-08-26,FC Orenburg v Zenit St Petersbur,2,win,win,TB,72.7,72.7,A,W,W
+2025-08-26,Spartak Moscow v Pari Nizhny Novgor,2,win,win,TA,76.6,76.6,H,W,W
+2025-08-27,Baltika Kaliningra v CSKA Moscow,2,toss,toss,TA,47.6,47.6,A,L,L
+2025-08-27,FC Rostov v Dynamo Makhachkala,2,windraw,windraw,TA,59.4,59.4,A,L,L
+2025-08-27,PFC Sochi v FC Krasnodar,2,strong,strong,TB,100.0,100.0,A,W,W
+2025-08-28,Legia Warsaw v Hibernian,2,windraw,NC,TA,100.0,,D,D,NC
+2025-08-28,Lokomotiv Moscow v Akron Tolyatti,2,win,win,TA,75.7,78.7,H,W,W
+2025-08-30,FC Orenburg v Rubin Kazan,2,toss,toss,TA,43.3,44.0,D,D,D
+2025-08-30,FC Rostov v Akhmat Grozny,2,lean,windraw,TA,52.3,58.6,D,D,D
+2025-08-30,Spartak Moscow v PFC Sochi,2,strong,strong,TA,95.2,100.0,H,W,W
+2025-08-30,Zenit St Petersbur v Pari Nizhny Novgor,2,strong,strong,TA,93.0,93.0,H,W,W
+2025-08-31,Akron Tolyatti v Baltika Kaliningra,2,win,win,TB,81.9,84.9,A,W,W
+2025-08-31,CSKA Moscow v FC Krasnodar,2,toss,toss,TB,47.9,45.2,D,D,D
+2025-08-31,Dynamo Makhachkala v Dynamo Moscow,2,windraw,windraw,TB,61.9,64.9,H,L,L
+2025-08-31,Lokomotiv Moscow v Krylya Sovetov Sam,2,win,win,TA,78.8,75.8,D,D,D
+2025-09-12,Rubin Kazan v Dynamo Makhachkala,2,toss,lean,TA,43.8,50.0,H,W,W
+2025-09-13,Akhmat Grozny v Lokomotiv Moscow,2,windraw,windraw,TB,56.4,59.3,D,D,D
+2025-09-13,Dynamo Moscow v Spartak Moscow,2,lean,toss,TB,50.0,48.7,D,D,D
+2025-09-13,FC Krasnodar v Akron Tolyatti,2,win,win,TA,65.2,65.2,H,W,W
+2025-09-13,Pari Nizhny Novgor v FC Orenburg,2,windraw,windraw,TB,60.2,60.2,H,L,L
+2025-09-14,Baltika Kaliningra v Zenit St Petersbur,2,windraw,windraw,TB,71.6,65.5,D,D,D
+2025-09-14,Krylya Sovetov Sam v PFC Sochi,2,strong,strong,TA,90.9,95.2,H,W,W
+2025-09-14,FC Rostov v CSKA Moscow,2,toss,toss,TA,38.3,38.3,H,W,W
+2025-09-16,Akron Tolyatti v Lokomotiv Moscow,2,strong,win,TB,85.9,83.1,A,W,W
+2025-09-16,Pari Nizhny Novgor v Dynamo Makhachkala,2,win,win,TB,68.6,65.7,A,W,W
+2025-09-17,Krylya Sovetov Sam v FC Krasnodar,2,toss,toss,TB,49.3,47.9,A,W,W
+2025-09-17,PFC Sochi v Dynamo Moscow,2,strong,strong,TB,94.0,93.5,A,W,W
+2025-09-17,Zenit St Petersbur v Akhmat Grozny,2,win,win,TA,74.7,74.7,H,W,W
+2025-09-18,Spartak Moscow v FC Rostov,2,lean,lean,TB,53.3,53.3,A,W,W
+2025-09-20,Akron Tolyatti v Rubin Kazan,2,win,win,TB,72.2,72.2,D,D,D
+2025-09-20,Dynamo Makhachkala v Lokomotiv Moscow,2,windraw,windraw,TB,59.0,59.0,D,D,D
+2025-09-20,Pari Nizhny Novgor v Akhmat Grozny,2,win,win,TB,73.6,70.7,A,W,W
+2025-09-21,Baltika Kaliningra v FC Rostov,2,toss,lean,TB,48.9,52.3,D,D,D
+2025-09-21,FC Krasnodar v Zenit St Petersbur,2,windraw,windraw,TB,68.8,68.8,A,W,W
+2025-09-21,FC Orenburg v Dynamo Moscow,2,windraw,windraw,TB,55.3,55.3,A,W,W
+2025-09-21,Spartak Moscow v Krylya Sovetov Sam,2,windraw,windraw,TA,58.1,59.7,H,W,W
+2025-09-22,PFC Sochi v CSKA Moscow,2,strong,strong,TB,96.7,96.6,A,W,W
+2025-09-26,Krylya Sovetov Sam v Dynamo Moscow,2,win,win,TB,71.6,71.6,A,W,W
+2025-09-27,Akhmat Grozny v Akron Tolyatti,2,windraw,windraw,TA,62.5,62.5,H,W,W
+2025-09-27,Lokomotiv Moscow v Rubin Kazan,2,win,win,TA,70.5,70.5,H,W,W
+2025-09-27,FC Rostov v FC Krasnodar,2,toss,toss,TA,47.7,47.7,D,D,D
+2025-09-27,Zenit St Petersbur v FC Orenburg,2,win,win,TA,76.8,76.8,H,W,W
+2025-09-28,CSKA Moscow v Baltika Kaliningra,2,windraw,windraw,TB,64.7,64.4,H,L,L
+2025-09-28,Dynamo Makhachkala v PFC Sochi,2,strong,strong,TA,95.7,90.9,D,D,D
+2025-09-28,Spartak Moscow v Pari Nizhny Novgor,2,win,win,TA,80.6,77.6,H,W,W
+2025-09-30,Akhmat Grozny v FC Orenburg,2,windraw,windraw,TA,60.0,57.1,A,L,L
+2025-09-30,Rubin Kazan v Zenit St Petersbur,2,win,win,TB,84.2,78.9,A,W,W
+2025-10-01,Baltika Kaliningra v Akron Tolyatti,2,win,win,TA,69.4,72.1,H,W,W
+2025-10-01,Pari Nizhny Novgor v Spartak Moscow,2,strong,win,TB,85.7,82.1,A,W,W
+2025-10-04,Akron Tolyatti v Zenit St Petersbur,2,strong,strong,TB,89.9,89.9,D,D,D
+2025-10-04,Dynamo Moscow v Lokomotiv Moscow,2,windraw,windraw,TB,61.8,61.8,A,W,W
+2025-10-04,FC Krasnodar v Akhmat Grozny,2,toss,toss,TA,45.2,47.9,H,W,W
+2025-10-04,Rubin Kazan v Krylya Sovetov Sam,2,lean,lean,TA,53.0,53.0,H,W,W
+2025-10-05,Baltika Kaliningra v Dynamo Makhachkala,2,lean,toss,TA,51.0,49.0,H,W,W
+2025-10-05,CSKA Moscow v Spartak Moscow,2,lean,lean,TA,51.5,50.0,H,W,W
+2025-10-05,FC Orenburg v FC Rostov,2,win,windraw,TB,65.3,64.3,A,W,W
+2025-10-05,PFC Sochi v Pari Nizhny Novgor,2,windraw,windraw,TB,63.5,69.3,H,L,L
+2025-10-18,Dynamo Makhachkala v FC Krasnodar,2,lean,lean,TB,52.3,50.8,A,W,W
+2025-10-18,Krylya Sovetov Sam v FC Orenburg,2,toss,toss,TA,40.9,40.9,D,D,D
+2025-10-18,Lokomotiv Moscow v CSKA Moscow,2,lean,lean,TA,50.0,50.0,H,W,W
+2025-10-18,Pari Nizhny Novgor v Akron Tolyatti,2,toss,toss,TB,47.7,46.1,A,W,W
+2025-10-18,Spartak Moscow v FC Rostov,2,windraw,windraw,TB,58.6,56.2,D,D,D
+2025-10-19,Dynamo Moscow v Akhmat Grozny,2,lean,lean,TA,50.0,50.0,D,D,D
+2025-10-19,Rubin Kazan v Baltika Kaliningra,2,toss,lean,TB,48.1,50.0,A,W,W
+2025-10-19,PFC Sochi v Zenit St Petersbur,2,strong,strong,TB,100.0,100.0,A,W,W
+2025-10-21,CSKA Moscow v Akron Tolyatti,2,windraw,windraw,TA,64.8,64.8,H,W,W
+2025-10-21,Dynamo Makhachkala v Spartak Moscow,2,toss,toss,TB,44.8,46.0,A,W,W
+2025-10-22,Dynamo Moscow v Krylya Sovetov Sam,2,win,win,TA,72.7,72.7,H,W,W
+2025-10-22,FC Rostov v Pari Nizhny Novgor,2,win,win,TA,80.0,80.0,H,W,W
+2025-10-22,Zenit St Petersbur v FC Orenburg,2,win,win,TA,75.7,75.7,H,W,W
+2025-10-23,Baltika Kaliningra v Lokomotiv Moscow,2,lean,lean,TB,52.6,52.8,A,W,W
+2025-10-23,FC Krasnodar v PFC Sochi,2,strong,strong,TA,100.0,100.0,H,W,W
+2025-10-25,CSKA Moscow v Krylya Sovetov Sam,2,win,win,TA,66.2,66.2,H,W,W
+2025-10-25,FC Rostov v Dynamo Makhachkala,2,windraw,windraw,TA,55.8,55.8,D,D,D
+2025-10-25,Spartak Moscow v FC Orenburg,2,toss,toss,TA,46.2,43.2,H,W,W
+2025-10-26,Akron Tolyatti v Lokomotiv Moscow,2,strong,strong,TB,86.5,86.5,D,D,D
+2025-10-26,FC Krasnodar v Rubin Kazan,2,lean,lean,TA,53.8,53.8,H,W,W
+2025-10-26,Pari Nizhny Novgor v Baltika Kaliningra,2,strong,strong,TB,97.2,97.1,D,D,D
+2025-10-26,Zenit St Petersbur v Dynamo Moscow,2,win,windraw,TA,65.4,58.3,H,W,W
+2025-10-27,Akhmat Grozny v PFC Sochi,2,strong,strong,TA,92.3,92.0,A,L,L
+2025-10-31,CSKA Moscow v Pari Nizhny Novgor,2,strong,strong,TA,91.5,91.3,H,W,W
+2025-11-01,Dynamo Makhachkala v Krylya Sovetov Sam,2,windraw,windraw,TA,59.9,59.9,H,W,W
+2025-11-01,FC Rostov v Akron Tolyatti,2,win,win,TA,75.8,75.8,A,L,L
+2025-11-01,Rubin Kazan v Dynamo Moscow,2,toss,toss,TB,46.3,44.7,D,D,D
+2025-11-01,Zenit St Petersbur v Lokomotiv Moscow,2,toss,toss,TA,39.7,33.8,H,W,L
+2025-11-02,Baltika Kaliningra v Akhmat Grozny,2,windraw,windraw,TA,58.9,59.6,H,W,W
+2025-11-02,FC Krasnodar v Spartak Moscow,2,toss,toss,TB,47.0,43.9,H,L,W
+2025-11-02,FC Orenburg v PFC Sochi,2,windraw,windraw,TA,75.9,78.7,H,W,W
+2025-11-05,Dynamo Makhachkala v CSKA Moscow,2,windraw,windraw,TB,57.4,57.4,H,L,L
+2025-11-05,FC Orenburg v FC Krasnodar,2,windraw,windraw,TB,62.3,58.2,A,W,W
+2025-11-05,Zenit St Petersbur v Dynamo Moscow,2,win,win,TA,66.9,65.4,A,L,L
+2025-11-06,Spartak Moscow v Lokomotiv Moscow,2,win,win,TB,67.6,70.4,H,L,L
+2025-11-08,Dynamo Makhachkala v CSKA Moscow,2,lean,windraw,TB,54.9,57.4,A,W,W
+2025-11-08,Dynamo Moscow v Akron Tolyatti,2,win,strong,TA,83.8,86.0,A,L,L
+2025-11-08,Pari Nizhny Novgor v Rubin Kazan,2,win,strong,TB,83.8,86.4,D,D,D
+2025-11-08,PFC Sochi v FC Rostov,2,strong,strong,TB,93.1,96.3,A,W,W
+2025-11-09,Akhmat Grozny v Spartak Moscow,2,lean,lean,TB,51.5,51.6,A,W,W
+2025-11-09,Baltika Kaliningra v FC Krasnodar,2,toss,toss,TA,45.7,45.4,D,D,D
+2025-11-09,Krylya Sovetov Sam v Zenit St Petersbur,2,win,win,TB,82.4,80.1,D,D,D
+2025-11-09,Lokomotiv Moscow v FC Orenburg,2,win,win,TA,76.4,78.5,H,W,W
+2025-11-21,Akron Tolyatti v PFC Sochi,2,win,win,TA,73.8,68.4,H,W,W
+2025-11-22,FC Orenburg v Baltika Kaliningra,2,win,windraw,TB,66.4,64.0,D,D,D
+2025-11-22,Rubin Kazan v Akhmat Grozny,2,lean,toss,TB,50.0,48.6,H,L,W
+2025-11-22,Spartak Moscow v CSKA Moscow,2,lean,lean,TB,52.8,52.8,H,L,L
+2025-11-23,Dynamo Moscow v Dynamo Makhachkala,2,lean,lean,TA,52.0,54.7,H,W,W
+2025-11-23,Krylya Sovetov Sam v FC Rostov,2,win,win,TB,66.2,72.5,H,L,L
+2025-11-23,Lokomotiv Moscow v FC Krasnodar,2,lean,lean,TA,52.1,50.7,D,D,D
+2025-11-23,Pari Nizhny Novgor v Zenit St Petersbur,2,strong,strong,TB,88.7,90.8,A,W,W
+2025-11-26,FC Krasnodar v FC Orenburg,2,win,win,TA,66.9,66.0,H,W,W
+2025-11-26,Lokomotiv Moscow v Spartak Moscow,2,lean,lean,TA,52.7,52.7,A,L,L
+2025-11-27,Dynamo Moscow v Zenit St Petersbur,2,win,win,TB,68.2,72.3,A,W,W
+2025-11-29,Akron Tolyatti v Pari Nizhny Novgor,2,toss,toss,TA,47.9,47.2,A,L,L
+2025-11-29,Baltika Kaliningra v Spartak Moscow,2,toss,lean,TA,48.4,51.6,H,W,W
+2025-11-29,CSKA Moscow v FC Orenburg,2,windraw,windraw,TA,55.6,58.5,H,W,W
+2025-11-30,Akhmat Grozny v Dynamo Moscow,2,toss,toss,TB,41.5,41.5,H,L,L
+2025-11-30,FC Krasnodar v Krylya Sovetov Sam,2,lean,windraw,TA,51.3,61.7,H,W,W
+2025-11-30,FC Rostov v Lokomotiv Moscow,2,toss,toss,TB,43.5,43.5,A,W,W
+2025-11-30,Zenit St Petersbur v Rubin Kazan,2,win,win,TA,77.7,77.7,H,W,W
+2025-12-01,PFC Sochi v Dynamo Makhachkala,2,win,win,TB,78.7,81.4,D,D,D
+2025-12-05,Akhmat Grozny v FC Orenburg,2,lean,lean,TA,54.5,54.5,H,W,W
+2025-12-06,FC Rostov v Rubin Kazan,2,lean,windraw,TA,54.9,57.7,H,W,W
+2025-12-06,Spartak Moscow v Dynamo Moscow,2,toss,toss,TB,46.3,48.8,D,D,D
+2025-12-06,Zenit St Petersbur v Akron Tolyatti,2,win,win,TA,72.3,69.6,H,W,W
+2025-12-07,Baltika Kaliningra v Krylya Sovetov Sam,2,toss,windraw,TA,48.4,56.6,H,W,W
+2025-12-07,Dynamo Makhachkala v Pari Nizhny Novgor,2,windraw,win,TA,64.3,66.9,A,L,L
+2025-12-07,FC Krasnodar v CSKA Moscow,2,toss,toss,TA,43.1,42.5,H,W,L
+2025-12-07,PFC Sochi v Lokomotiv Moscow,2,strong,strong,TB,96.7,96.7,A,W,W
+2026-02-26,Celje v Drita,2,windraw,NC,TA,100.0,,H,W,NC
+2026-02-27,Zenit St Petersbur v Baltika Kaliningra,2,toss,toss,TA,43.4,46.7,H,W,W
+2026-02-28,Dynamo Makhachkala v Rubin Kazan,2,toss,toss,TA,47.9,47.2,H,W,W
+2026-02-28,FC Krasnodar v FC Rostov,2,toss,toss,TA,48.6,48.6,H,W,W
+2026-02-28,Lokomotiv Moscow v Pari Nizhny Novgor,2,strong,strong,TA,97.2,97.2,H,W,W
+2026-02-28,FC Orenburg v Akron Tolyatti,2,toss,toss,TA,47.9,47.9,H,W,W
+2026-03-01,Akhmat Grozny v CSKA Moscow,2,lean,lean,TB,53.2,53.2,H,L,L
+2026-03-01,Dynamo Moscow v Krylya Sovetov Sam,2,windraw,windraw,TA,60.6,58.1,H,W,W
+2026-03-02,PFC Sochi v Spartak Moscow,2,strong,strong,TB,91.0,93.4,A,W,W
+2026-03-03,Baltika Kaliningra v Zenit St Petersbur,2,windraw,windraw,TB,57.8,59.0,A,W,W
+2026-03-04,CSKA Moscow v FC Krasnodar,2,windraw,lean,TB,56.0,54.4,H,L,L
+2026-03-04,Krylya Sovetov Sam v FC Orenburg,2,toss,toss,TA,48.6,49.3,H,W,W
+2026-03-04,FC Rostov v Dynamo Makhachkala,2,lean,lean,TA,54.7,54.7,A,L,L
+2026-03-05,Dynamo Moscow v Spartak Moscow,2,toss,lean,TB,48.2,50.0,H,L,L
+2026-03-07,Pari Nizhny Novgor v PFC Sochi,2,windraw,windraw,TA,60.7,59.8,H,W,W
+2026-03-07,FC Rostov v Baltika Kaliningra,2,toss,toss,TB,47.5,47.5,D,D,D
+2026-03-08,CSKA Moscow v Dynamo Moscow,2,toss,toss,TB,45.5,45.5,A,W,W
+2026-03-08,Krylya Sovetov Sam v Dynamo Makhachkala,2,windraw,lean,TB,55.4,52.7,H,L,L
+2026-03-08,FC Orenburg v Zenit St Petersbur,2,win,win,TB,79.2,79.2,H,L,L
+2026-03-08,Rubin Kazan v FC Krasnodar,2,windraw,windraw,TB,62.0,62.0,H,L,L
+2026-03-09,Lokomotiv Moscow v Akhmat Grozny,2,win,win,TA,70.1,70.1,D,D,D
+2026-03-09,Spartak Moscow v Akron Tolyatti,2,windraw,windraw,TA,62.2,62.2,H,W,W
+2026-03-13,Dynamo Makhachkala v FC Orenburg,2,lean,lean,TA,50.7,53.5,H,W,W
+2026-03-14,Baltika Kaliningra v CSKA Moscow,2,toss,toss,TA,49.2,49.2,H,W,W
+2026-03-14,FC Rostov v Dynamo Moscow,2,toss,toss,TA,46.5,46.5,A,L,L
+2026-03-14,PFC Sochi v FC Krasnodar,2,strong,strong,TB,94.8,94.8,A,W,W
+2026-03-14,Zenit St Petersbur v Spartak Moscow,2,lean,lean,TA,54.9,54.9,H,W,W
+2026-03-15,Akron Tolyatti v Akhmat Grozny,2,windraw,windraw,TB,63.4,57.7,D,D,D
+2026-03-15,Pari Nizhny Novgor v Krylya Sovetov Sam,2,win,win,TB,69.7,66.9,H,L,L
+2026-03-15,Rubin Kazan v Lokomotiv Moscow,2,win,win,TB,73.2,73.2,H,L,L
+2026-03-17,FC Krasnodar v CSKA Moscow,2,toss,toss,TA,43.6,43.6,H,W,W
+2026-03-18,Spartak Moscow v Dynamo Moscow,2,toss,toss,TB,48.8,48.8,H,L,L
+2026-03-18,Zenit St Petersbur v Dynamo Makhachkala,2,win,win,TA,73.2,70.4,H,W,W
+2026-03-21,Akhmat Grozny v FC Rostov,2,toss,toss,TB,46.5,46.5,H,L,L
+2026-03-21,Baltika Kaliningra v PFC Sochi,2,strong,strong,TA,93.4,93.4,H,W,W
+2026-03-21,CSKA Moscow v Dynamo Makhachkala,2,toss,toss,TA,45.9,45.9,H,W,W
+2026-03-21,FC Krasnodar v Pari Nizhny Novgor,2,win,win,TA,81.8,81.8,H,W,W
+2026-03-22,Dynamo Moscow v Zenit St Petersbur,2,win,win,TB,67.5,67.5,A,W,W
+2026-03-22,Krylya Sovetov Sam v Rubin Kazan,2,toss,toss,TB,47.2,47.2,D,D,D
+2026-03-22,Lokomotiv Moscow v Akron Tolyatti,2,win,win,TA,77.3,77.3,H,W,W
+2026-03-22,FC Orenburg v Spartak Moscow,2,windraw,windraw,TB,62.7,64.8,A,W,W
+2026-04-04,Akhmat Grozny v FC Krasnodar,2,toss,lean,TB,48.1,52.5,A,W,W
+2026-04-04,Akron Tolyatti v CSKA Moscow,2,win,win,TB,78.4,74.3,A,W,W
+2026-04-04,Dynamo Moscow v FC Orenburg,2,windraw,lean,TA,57.0,52.8,D,D,D
+2026-04-04,Zenit St Petersbur v Krylya Sovetov Sam,2,windraw,windraw,TA,62.7,64.8,H,W,W
+2026-04-05,Dynamo Makhachkala v Baltika Kaliningra,2,windraw,windraw,TB,62.3,59.0,D,D,D
+2026-04-05,Pari Nizhny Novgor v FC Rostov,2,win,win,TB,70.8,70.8,A,W,W
+2026-04-05,Spartak Moscow v Lokomotiv Moscow,2,windraw,windraw,TB,58.4,61.0,H,L,L
+2026-04-06,PFC Sochi v Rubin Kazan,2,strong,strong,TB,86.9,86.9,A,W,W
+2026-04-07,Krylya Sovetov Sam v CSKA Moscow,2,lean,lean,TB,52.1,52.1,A,W,W
+2026-04-08,Dynamo Moscow v FC Krasnodar,2,windraw,lean,TB,58.8,54.1,D,D,D
+2026-04-11,Hearts v Motherwell,2,windraw,NC,TB,100.0,,H,L,NC
+2026-04-11,Baltika Kaliningra v Pari Nizhny Novgor,2,win,win,TA,84.4,84.4,D,D,D
+2026-04-11,Krylya Sovetov Sam v Akhmat Grozny,2,toss,toss,TB,43.0,45.1,D,D,D
+2026-04-11,Rubin Kazan v FC Orenburg,2,lean,lean,TA,52.7,50.7,D,D,D
+2026-04-12,CSKA Moscow v PFC Sochi,2,strong,strong,TA,91.8,91.8,A,L,L
+2026-04-12,Lokomotiv Moscow v Dynamo Makhachkala,2,windraw,windraw,TA,64.2,62.2,D,D,D
+2026-04-12,FC Rostov v Spartak Moscow,2,toss,toss,TA,45.9,49.4,D,D,D
+2026-04-12,Zenit St Petersbur v FC Krasnodar,2,lean,windraw,TA,52.1,56.3,D,D,D
+2026-04-13,Akron Tolyatti v Dynamo Moscow,2,win,win,TB,82.4,82.4,A,W,W
+2026-04-17,FC Rostov v PFC Sochi,2,strong,strong,TA,93.4,93.4,A,L,L
+2026-04-18,Krylya Sovetov Sam v CSKA Moscow,2,lean,lean,TB,54.1,52.1,D,D,D
+2026-04-18,FC Orenburg v Lokomotiv Moscow,2,strong,strong,TB,87.0,89.6,A,W,W
+2026-04-18,Pari Nizhny Novgor v Dynamo Moscow,2,win,win,TB,81.7,81.7,D,D,D
+2026-04-18,Rubin Kazan v Akron Tolyatti,2,windraw,windraw,TA,61.0,61.0,D,D,D
+2026-04-19,Dynamo Makhachkala v Zenit St Petersbur,2,win,win,TB,76.4,76.4,A,W,W
+2026-04-19,FC Krasnodar v Baltika Kaliningra,2,lean,windraw,TB,50.0,56.6,D,D,D
+2026-04-19,Spartak Moscow v Akhmat Grozny,2,windraw,windraw,TA,57.7,57.7,H,W,W
+2026-04-21,CSKA Moscow v FC Rostov,2,lean,lean,TB,52.1,52.1,D,D,D
+2026-04-21,PFC Sochi v Krylya Sovetov Sam,2,win,win,TB,74.6,81.1,H,L,L
+2026-04-22,Dynamo Moscow v Rubin Kazan,2,windraw,windraw,TA,58.5,58.5,A,L,L
+2026-04-22,Lokomotiv Moscow v Zenit St Petersbur,2,toss,toss,TB,38.0,38.0,D,D,D
+2026-04-22,FC Orenburg v Pari Nizhny Novgor,2,lean,lean,TA,50.0,50.0,H,W,W
+2026-04-23,Akhmat Grozny v Baltika Kaliningra,2,windraw,windraw,TB,64.8,64.8,D,D,D
+2026-04-23,Akron Tolyatti v Dynamo Makhachkala,2,win,windraw,TB,65.5,62.7,D,D,D
+2026-04-23,Spartak Moscow v FC Krasnodar,2,lean,lean,TB,52.1,52.1,A,W,W
+2026-04-25,Krylya Sovetov Sam v Lokomotiv Moscow,2,win,win,TB,73.2,73.2,H,L,L
+2026-04-25,FC Rostov v FC Orenburg,2,win,win,TA,79.2,81.2,A,L,L
+2026-04-25,Rubin Kazan v CSKA Moscow,2,toss,toss,TB,47.3,42.6,D,D,D
+2026-04-26,Hibernian v Hearts,2,windraw,NC,TB,100.0,,A,W,NC
+2026-04-26,Dynamo Moscow v PFC Sochi,2,strong,strong,TA,87.3,87.3,H,W,W
+2026-04-26,FC Krasnodar v Dynamo Makhachkala,2,windraw,windraw,TA,56.3,56.3,H,W,W
+2026-04-26,Pari Nizhny Novgor v Spartak Moscow,2,strong,strong,TB,90.9,88.3,A,W,W
+2026-04-26,Zenit St Petersbur v Akhmat Grozny,2,win,win,TA,73.8,73.8,H,W,W
+2026-04-27,Baltika Kaliningra v Akron Tolyatti,2,win,win,TA,75.4,75.4,A,L,L
+2026-05-01,Krylya Sovetov Sam v Spartak Moscow,2,win,win,TB,70.1,67.5,H,L,L
+2026-05-01,Lokomotiv Moscow v Dynamo Moscow,2,windraw,windraw,TA,62.0,62.0,D,D,D
+2026-05-02,Prishtina v Malisheva,2,windraw,NC,TB,100.0,,A,W,NC
+2026-05-02,Baltika Kaliningra v Rubin Kazan,2,windraw,windraw,TA,64.8,64.8,A,L,L
+2026-05-02,CSKA Moscow v Zenit St Petersbur,2,windraw,windraw,TB,60.1,61.5,A,W,W
+2026-05-02,Dynamo Makhachkala v FC Rostov,2,toss,toss,TA,37.7,37.7,A,L,L
+2026-05-03,Hibernian v Celtic,2,windraw,NC,TA,75.0,,A,L,NC
+2026-05-03,Akhmat Grozny v Pari Nizhny Novgor,2,win,win,TA,74.0,74.0,H,W,W
+2026-05-03,Akron Tolyatti v FC Krasnodar,2,strong,strong,TB,95.1,95.1,A,W,W
+2026-05-03,PFC Sochi v FC Orenburg,2,windraw,win,TB,64.8,68.0,H,L,L
+2026-05-06,Spartak Moscow v CSKA Moscow,2,toss,toss,TA,43.2,45.9,H,W,W
+2026-05-10,Akhmat Grozny v Dynamo Makhachkala,2,toss,toss,TB,42.3,42.3,D,D,D
+2026-05-10,Lokomotiv Moscow v Baltika Kaliningra,2,lean,lean,TA,50.7,53.7,H,W,W
+2026-05-10,FC Orenburg v Krylya Sovetov Sam,2,lean,lean,TB,52.7,50.0,H,L,L
+2026-05-10,Zenit St Petersbur v PFC Sochi,2,strong,strong,TA,94.3,94.3,H,W,W
+2026-05-11,Akron Tolyatti v FC Rostov,2,win,win,TB,65.5,65.5,A,W,W
+2026-05-11,Baltika Kaliningra v Dynamo Moscow,2,toss,lean,TA,42.6,50.8,A,L,L
+2026-05-11,CSKA Moscow v Lokomotiv Moscow,2,windraw,windraw,TB,60.1,57.4,H,L,L
+2026-05-11,Dynamo Makhachkala v Spartak Moscow,2,toss,toss,TB,49.4,49.4,D,D,D
+2026-05-11,Dynamo Moscow v FC Krasnodar,2,lean,lean,TB,54.5,54.5,H,L,L
+2026-05-11,FC Krasnodar v FC Orenburg,2,win,win,TA,74.7,74.7,H,W,W
+2026-05-11,Krylya Sovetov Sam v Akron Tolyatti,2,toss,toss,TA,45.8,48.6,H,W,W
+2026-05-11,Pari Nizhny Novgor v CSKA Moscow,2,strong,strong,TB,85.8,85.8,A,W,W
+2026-05-11,FC Rostov v Zenit St Petersbur,2,win,win,TB,71.4,68.8,A,W,W
+2026-05-11,Rubin Kazan v Pari Nizhny Novgor,2,win,win,TA,77.5,75.4,D,D,D
+2026-05-11,PFC Sochi v Akhmat Grozny,2,win,win,TB,79.5,82.8,D,D,D
+2026-05-11,Spartak Moscow v Rubin Kazan,2,lean,lean,TA,50.0,52.7,H,W,W
+2026-05-13,Rangers v Hibernian,2,lean,NC,TA,50.0,,A,L,NC
+2026-05-13,Motherwell v Celtic,2,toss,NC,TB,42.9,,A,W,NC
+2026-05-13,Hearts v Falkirk,2,strong,NC,TA,100.0,,H,W,NC
+2026-05-16,Hibernian v Motherwell,2,toss,toss,TA,42.6,0.0,A,L,L
+2026-05-16,Celtic v Hearts,2,toss,windraw,TB,42.3,100.0,H,L,W
+2026-05-16,Falkirk v Rangers,2,win,windraw,TB,75.7,100.0,A,W,W
+2026-05-24,Llapi v Malisheva,2,windraw,NC,TB,100.0,,H,L,NC
+2026-05-31,Malisheva v Drita,2,windraw,NC,TB,100.0,,H,L,NC
+2026-07-15,Malisheva v Vllaznia,2,windraw,NC,TB,100.0,,H,L,NC
+2026-07-23,Malisheva v Hibernian,2,toss,toss,TA,42.9,42.9,H,W,W
+2026-07-24,CSKA Moscow v Baltika Kaliningra,2,lean,windraw,TB,52.2,56.7,H,L,L
+2026-07-25,Akron Tolyatti v Zenit St Petersbur,2,strong,strong,TB,85.1,85.1,A,W,W
+2026-07-25,Dynamo Moscow v Krylya Sovetov Sam,2,win,win,TA,69.3,66.9,D,D,D
+2026-07-25,Fakel Voronezh v Dynamo Makhachkala,2,windraw,windraw,TB,57.8,57.8,A,W,W
+2026-07-26,Lokomotiv Moscow v Akhmat Grozny,2,win,win,TA,70.6,70.6,D,D,D
+2026-07-26,FC Orenburg v FC Rostov,2,win,win,TB,68.8,68.8,H,L,L
+2026-07-26,Rubin Kazan v FC Krasnodar,2,windraw,windraw,TB,62.8,60.8,A,W,W

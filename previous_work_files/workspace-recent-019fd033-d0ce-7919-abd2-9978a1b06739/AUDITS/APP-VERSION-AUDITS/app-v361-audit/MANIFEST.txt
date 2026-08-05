@@ -1,0 +1,14 @@
+PITCH RATING — DELIVERY PACKAGE 9  (v3.6.1 — R2: full scope-preview row list)
+==========================================================================
+
+Version: v3.6.1   |   verify: base64 -d <file> > out  then  md5sum out
+
+Files (decoded md5s):
+  app-v3.6.1-762a6284.b64.txt
+      decoded md5 = 762a62846eb5c9531627e1d67be365a8
+  ZONES-v3.6.1.b64.txt
+      decoded md5 = 71d1b2f6225caeb533fb89cb72873840
+  SCOPE-CLEAR.b64.txt
+      decoded md5 = d486f96d3856ef09578b2b699100b161
+
+Plain-text source: app/app-v3.6.1.html  md5 762a62846eb5c9531627e1d67be365a8

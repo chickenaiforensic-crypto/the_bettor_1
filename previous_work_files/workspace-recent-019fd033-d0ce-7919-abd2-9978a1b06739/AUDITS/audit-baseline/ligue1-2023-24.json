@@ -1,0 +1,2467 @@
+{
+ "season": "2023-24",
+ "league": "ligue1",
+ "source": "rsssf-fran2024",
+ "note": "printed table reproduced from round listings; deductions separate",
+ "deductions": {
+  "Montpellier-H\u00e9rault SC": -1
+ },
+ "anomalies": [
+  [
+   "ABANDONED",
+   8,
+   "2023-10-08",
+   "Montpellier   abd Clermont      [abandoned at 4-2 in 90+2' due to crowd trouble]"
+  ]
+ ],
+ "matches": [
+  {
+   "round": 1,
+   "date": "2023-08-11",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-12",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-12",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "Stade Brestois",
+   "hg": 3,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 2,
+   "ag": 4,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 2,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "Stade Rennais FC",
+   "hg": 5,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-18",
+   "home": "FC Metz",
+   "hg": 2,
+   "ag": 2,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-19",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 4,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-19",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "FC Lorient",
+   "hg": 1,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "Stade de Reims",
+   "hg": 2,
+   "ag": 0,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "AS Monaco",
+   "hg": 3,
+   "ag": 0,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-25",
+   "home": "FC Nantes",
+   "hg": 3,
+   "ag": 3,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-26",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-26",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "Stade Rennais FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "FC Lorient",
+   "hg": 4,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "OGC Nice",
+   "hg": 0,
+   "ag": 0,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-01",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 1,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-02",
+   "home": "Stade Brestois",
+   "hg": 0,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-02",
+   "home": "AS Monaco",
+   "hg": 3,
+   "ag": 0,
+   "away": "RC Lens"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "FC Metz",
+   "hg": 2,
+   "ag": 2,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "Le Havre AC",
+   "hg": 3,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 0,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 4,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-15",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 2,
+   "ag": 3,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-16",
+   "home": "Stade Rennais FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-16",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "FC Lorient",
+   "hg": 2,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 2,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 2,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "Olympique de Marseille",
+   "hg": 0,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "Olympique Lyonnais",
+   "hg": 0,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-22",
+   "home": "AS Monaco",
+   "hg": 0,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-23",
+   "home": "FC Nantes",
+   "hg": 5,
+   "ag": 3,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-23",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 0,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "FC Metz",
+   "hg": 0,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "Le Havre AC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "RC Lens",
+   "hg": 2,
+   "ag": 1,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 4,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-26",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-29",
+   "home": "RC Strasbourg Alsace",
+   "hg": 0,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-30",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 0,
+   "ag": 0,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-30",
+   "home": "AS Monaco",
+   "hg": 3,
+   "ag": 2,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 7,
+   "date": "2023-10-01",
+   "home": "Stade de Reims",
+   "hg": 2,
+   "ag": 0,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 7,
+   "date": "2023-10-01",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 7,
+   "date": "2023-10-01",
+   "home": "OGC Nice",
+   "hg": 0,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 7,
+   "date": "2023-10-01",
+   "home": "Toulouse FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "FC Metz"
+  },
+  {
+   "round": 7,
+   "date": "2023-10-01",
+   "home": "FC Lorient",
+   "hg": 0,
+   "ag": 3,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 7,
+   "date": "2023-10-01",
+   "home": "Stade Rennais FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-06",
+   "home": "RC Strasbourg Alsace",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-07",
+   "home": "FC Metz",
+   "hg": 0,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-07",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 3,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-08",
+   "home": "Olympique de Marseille",
+   "hg": 3,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-08",
+   "home": "Olympique Lyonnais",
+   "hg": 3,
+   "ag": 3,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-08",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 1,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-08",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-08",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 8,
+   "date": "2023-11-29",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-20",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 0,
+   "away": "RC Lens"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-21",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-21",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-22",
+   "home": "FC Lorient",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-22",
+   "home": "FC Nantes",
+   "hg": 2,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-22",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-22",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-22",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-22",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 2,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-27",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 0,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-28",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-28",
+   "home": "RC Lens",
+   "hg": 4,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-29",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 3,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-29",
+   "home": "FC Metz",
+   "hg": 0,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-29",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 0,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-29",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-29",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 10,
+   "date": "2023-12-06",
+   "home": "Olympique de Marseille",
+   "hg": 3,
+   "ag": 0,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-03",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-04",
+   "home": "FC Lorient",
+   "hg": 0,
+   "ag": 0,
+   "away": "RC Lens"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-04",
+   "home": "Olympique de Marseille",
+   "hg": 0,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-05",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-05",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-05",
+   "home": "RC Strasbourg Alsace",
+   "hg": 0,
+   "ag": 0,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-05",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-05",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 11,
+   "date": "2023-11-05",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-10",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-11",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 3,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-11",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 0,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-12",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 1,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-12",
+   "home": "FC Metz",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-12",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-12",
+   "home": "Stade Rennais FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-12",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 12,
+   "date": "2023-12-07",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-24",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 5,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-25",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 0,
+   "ag": 3,
+   "away": "RC Lens"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-25",
+   "home": "RC Strasbourg Alsace",
+   "hg": 1,
+   "ag": 1,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-26",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-26",
+   "home": "FC Lorient",
+   "hg": 2,
+   "ag": 3,
+   "away": "FC Metz"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-26",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-26",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-26",
+   "home": "Stade Rennais FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-26",
+   "home": "Olympique Lyonnais",
+   "hg": 0,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-01",
+   "home": "Stade de Reims",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-02",
+   "home": "RC Lens",
+   "hg": 3,
+   "ag": 2,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-02",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-03",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 2,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-03",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-03",
+   "home": "Stade Brestois",
+   "hg": 3,
+   "ag": 0,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-03",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-03",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Metz"
+  },
+  {
+   "round": 14,
+   "date": "2023-12-03",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-08",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 0,
+   "away": "RC Lens"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-09",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-09",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-10",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-10",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 0,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-10",
+   "home": "FC Metz",
+   "hg": 0,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-10",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-10",
+   "home": "Olympique Lyonnais",
+   "hg": 3,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-10",
+   "home": "FC Lorient",
+   "hg": 2,
+   "ag": 4,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-15",
+   "home": "AS Monaco",
+   "hg": 0,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-16",
+   "home": "Le Havre AC",
+   "hg": 3,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-16",
+   "home": "RC Lens",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-17",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 2,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-17",
+   "home": "FC Lorient",
+   "hg": 1,
+   "ag": 2,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-17",
+   "home": "FC Metz",
+   "hg": 0,
+   "ag": 1,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-17",
+   "home": "Toulouse FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-17",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 1,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-17",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 1,
+   "ag": 3,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 0,
+   "away": "RC Lens"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Stade Brestois",
+   "hg": 4,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-12",
+   "home": "Olympique de Marseille",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-13",
+   "home": "AS Monaco",
+   "hg": 1,
+   "ag": 3,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-13",
+   "home": "Stade Rennais FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-14",
+   "home": "Lille OSC",
+   "hg": 3,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-14",
+   "home": "FC Metz",
+   "hg": 0,
+   "ag": 1,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-14",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 2,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-14",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-14",
+   "home": "Le Havre AC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 18,
+   "date": "2024-01-14",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 2,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-26",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 3,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-27",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 0,
+   "away": "FC Metz"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-27",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-28",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-28",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-28",
+   "home": "FC Lorient",
+   "hg": 3,
+   "ag": 3,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-28",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-28",
+   "home": "Toulouse FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-28",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-02",
+   "home": "RC Strasbourg Alsace",
+   "hg": 1,
+   "ag": 2,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-03",
+   "home": "Stade Rennais FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-03",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-04",
+   "home": "AS Monaco",
+   "hg": 1,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-04",
+   "home": "FC Metz",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-04",
+   "home": "Lille OSC",
+   "hg": 4,
+   "ag": 0,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-04",
+   "home": "Stade de Reims",
+   "hg": 2,
+   "ag": 3,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-04",
+   "home": "Stade Brestois",
+   "hg": 0,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-04",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-09",
+   "home": "Olympique de Marseille",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-10",
+   "home": "RC Lens",
+   "hg": 3,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-10",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-11",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-11",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 1,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-11",
+   "home": "FC Lorient",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-11",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-11",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 21,
+   "date": "2024-02-11",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 3,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-16",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-17",
+   "home": "Lille OSC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-17",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 2,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-18",
+   "home": "RC Strasbourg Alsace",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-18",
+   "home": "AS Monaco",
+   "hg": 1,
+   "ag": 2,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-18",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 3,
+   "ag": 0,
+   "away": "FC Metz"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-18",
+   "home": "Stade Rennais FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-18",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 22,
+   "date": "2024-02-18",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-23",
+   "home": "FC Metz",
+   "hg": 1,
+   "ag": 2,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-24",
+   "home": "FC Lorient",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-24",
+   "home": "RC Strasbourg Alsace",
+   "hg": 0,
+   "ag": 3,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-25",
+   "home": "RC Lens",
+   "hg": 2,
+   "ag": 3,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-25",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-25",
+   "home": "OGC Nice",
+   "hg": 0,
+   "ag": 0,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-25",
+   "home": "Toulouse FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-25",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-25",
+   "home": "Olympique de Marseille",
+   "hg": 4,
+   "ag": 1,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-01",
+   "home": "AS Monaco",
+   "hg": 0,
+   "ag": 0,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-02",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-02",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 1,
+   "ag": 5,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-03",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-03",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Metz"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-03",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 2,
+   "ag": 2,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-03",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-03",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 24,
+   "date": "2024-03-03",
+   "home": "Olympique Lyonnais",
+   "hg": 0,
+   "ag": 3,
+   "away": "RC Lens"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-08",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 2,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-09",
+   "home": "FC Lorient",
+   "hg": 0,
+   "ag": 2,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-09",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-10",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-10",
+   "home": "FC Metz",
+   "hg": 1,
+   "ag": 0,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-10",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-10",
+   "home": "RC Strasbourg Alsace",
+   "hg": 0,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-10",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 25,
+   "date": "2024-03-10",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-15",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 3,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-16",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 3,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-16",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 3,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-17",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-17",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 2,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-17",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 2,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-17",
+   "home": "Stade de Reims",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-17",
+   "home": "Stade Rennais FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 26,
+   "date": "2024-03-17",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 2,
+   "ag": 6,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-29",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-30",
+   "home": "FC Metz",
+   "hg": 2,
+   "ag": 5,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-30",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-31",
+   "home": "FC Lorient",
+   "hg": 0,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-31",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 0,
+   "ag": 3,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-31",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 2,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-31",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-31",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-31",
+   "home": "Olympique de Marseille",
+   "hg": 0,
+   "ag": 2,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-05",
+   "home": "Lille OSC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-06",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-06",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-07",
+   "home": "Stade Brestois",
+   "hg": 4,
+   "ag": 3,
+   "away": "FC Metz"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-07",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-07",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-07",
+   "home": "Toulouse FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-07",
+   "home": "AS Monaco",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 28,
+   "date": "2024-04-07",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 3,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-12",
+   "home": "FC Metz",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-13",
+   "home": "RC Strasbourg Alsace",
+   "hg": 3,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-13",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-14",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-14",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 1,
+   "ag": 1,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-14",
+   "home": "Olympique Lyonnais",
+   "hg": 4,
+   "ag": 3,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-24",
+   "home": "FC Lorient",
+   "hg": 1,
+   "ag": 4,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-24",
+   "home": "AS Monaco",
+   "hg": 1,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 29,
+   "date": "2024-04-24",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 2,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-19",
+   "home": "OGC Nice",
+   "hg": 3,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-20",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 3,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-20",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 0,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-21",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-21",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 0,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-21",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 2,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-21",
+   "home": "Stade Brestois",
+   "hg": 0,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-21",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-21",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 4,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-26",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-27",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 3,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-28",
+   "home": "FC Metz",
+   "hg": 1,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-28",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 4,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-28",
+   "home": "FC Lorient",
+   "hg": 1,
+   "ag": 2,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-28",
+   "home": "RC Strasbourg Alsace",
+   "hg": 1,
+   "ag": 3,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-28",
+   "home": "Stade Rennais FC",
+   "hg": 4,
+   "ag": 5,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-28",
+   "home": "Olympique Lyonnais",
+   "hg": 3,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-28",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-03",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-03",
+   "home": "RC Lens",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-04",
+   "home": "Le Havre AC",
+   "hg": 3,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-04",
+   "home": "AS Monaco",
+   "hg": 4,
+   "ag": 1,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-04",
+   "home": "FC Metz",
+   "hg": 2,
+   "ag": 3,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-04",
+   "home": "Stade Brestois",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-06",
+   "home": "Lille OSC",
+   "hg": 3,
+   "ag": 4,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-15",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 2,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 32,
+   "date": "2024-05-15",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-10",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-10",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-12",
+   "home": "Clermont Foot Auvergne 63",
+   "hg": 0,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-12",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-12",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-12",
+   "home": "Olympique de Marseille",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Lorient"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-12",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-12",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Metz"
+  },
+  {
+   "round": 33,
+   "date": "2024-05-12",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "AS Monaco",
+   "hg": 4,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "FC Lorient",
+   "hg": 5,
+   "ag": 0,
+   "away": "Clermont Foot Auvergne 63"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "FC Metz",
+   "hg": 0,
+   "ag": 2,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 2,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "RC Lens",
+   "hg": 2,
+   "ag": 2,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "Stade de Reims",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-12",
+   "home": "Toulouse FC",
+   "hg": 0,
+   "ag": 3,
+   "away": "Stade Brestois"
+  }
+ ]
+}

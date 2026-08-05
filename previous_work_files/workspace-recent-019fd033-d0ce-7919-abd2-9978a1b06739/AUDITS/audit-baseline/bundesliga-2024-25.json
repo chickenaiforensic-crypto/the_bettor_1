@@ -1,0 +1,2473 @@
+{
+ "season": "2024-25",
+ "league": "bundesliga",
+ "source": "rsssf-duit2025",
+ "note": "printed table reproduced from round listings; deductions separate",
+ "deductions": {},
+ "anomalies": [
+  [
+   "AWARDED",
+   14,
+   "2024-12-14",
+   "Union 0-2 Bochum",
+   "awarded 0-2; originally 1-1, Bochum 'keeper"
+  ],
+  [
+   "COUNTED-WITH-NOTE",
+   14,
+   "2024-12-14",
+   "Mainz 2-1 Bayern",
+   "was hit by a lighter thrown from the crowd]"
+  ]
+ ],
+ "matches": [
+  {
+   "round": 1,
+   "date": "2024-08-23",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 2,
+   "ag": 3,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-24",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-24",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 2,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-24",
+   "home": "RB Leipzig",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-24",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-24",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 3,
+   "ag": 2,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-24",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-25",
+   "home": "VfL Wolfsburg",
+   "hg": 2,
+   "ag": 3,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-25",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 2,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-30",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 0,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-31",
+   "home": "Eintracht Frankfurt",
+   "hg": 3,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-31",
+   "home": "Holstein Kiel",
+   "hg": 0,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-31",
+   "home": "VfB Stuttgart",
+   "hg": 3,
+   "ag": 3,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-31",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-31",
+   "home": "SV Werder Bremen",
+   "hg": 0,
+   "ag": 0,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-31",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 3,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 2,
+   "date": "2024-09-01",
+   "home": "1.FC Heidenheim",
+   "hg": 4,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 2,
+   "date": "2024-09-01",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 2,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-13",
+   "home": "Borussia Dortmund",
+   "hg": 4,
+   "ag": 2,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-14",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 3,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-14",
+   "home": "RB Leipzig",
+   "hg": 0,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-14",
+   "home": "SC Freiburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-14",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 4,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-14",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 2,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-14",
+   "home": "Holstein Kiel",
+   "hg": 1,
+   "ag": 6,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-15",
+   "home": "FC Augsburg",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-15",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 2,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-20",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 3,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-21",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 3,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-21",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-21",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 2,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-21",
+   "home": "SV Werder Bremen",
+   "hg": 0,
+   "ag": 5,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-21",
+   "home": "Eintracht Frankfurt",
+   "hg": 2,
+   "ag": 0,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-22",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 4,
+   "ag": 3,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-22",
+   "home": "VfB Stuttgart",
+   "hg": 5,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-22",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-27",
+   "home": "Borussia Dortmund",
+   "hg": 4,
+   "ag": 2,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-28",
+   "home": "1.FSV Mainz 05",
+   "hg": 0,
+   "ag": 2,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-28",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-28",
+   "home": "RB Leipzig",
+   "hg": 4,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-28",
+   "home": "SC Freiburg",
+   "hg": 0,
+   "ag": 3,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-28",
+   "home": "VfL Wolfsburg",
+   "hg": 2,
+   "ag": 2,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-28",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-29",
+   "home": "Holstein Kiel",
+   "hg": 2,
+   "ag": 4,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-29",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 3,
+   "ag": 4,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-04",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-05",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-05",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 2,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-05",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 3,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-05",
+   "home": "SV Werder Bremen",
+   "hg": 0,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-05",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 3,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-06",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-06",
+   "home": "Eintracht Frankfurt",
+   "hg": 3,
+   "ag": 3,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 6,
+   "date": "2024-10-06",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-18",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-19",
+   "home": "1.FSV Mainz 05",
+   "hg": 0,
+   "ag": 2,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-19",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-19",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 3,
+   "ag": 2,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-19",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-19",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 3,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-19",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 4,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-20",
+   "home": "Holstein Kiel",
+   "hg": 0,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-20",
+   "home": "VfL Wolfsburg",
+   "hg": 2,
+   "ag": 4,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-25",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-26",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-26",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-26",
+   "home": "RB Leipzig",
+   "hg": 3,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-26",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-26",
+   "home": "SV Werder Bremen",
+   "hg": 2,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-27",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 5,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-27",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-27",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-01",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 0,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-02",
+   "home": "Eintracht Frankfurt",
+   "hg": 7,
+   "ag": 2,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-02",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-02",
+   "home": "Holstein Kiel",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-02",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-02",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-02",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-03",
+   "home": "SC Freiburg",
+   "hg": 0,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 9,
+   "date": "2024-11-03",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 4,
+   "ag": 1,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-08",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-09",
+   "home": "1.FSV Mainz 05",
+   "hg": 3,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-09",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-09",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-09",
+   "home": "SV Werder Bremen",
+   "hg": 2,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-09",
+   "home": "RB Leipzig",
+   "hg": 0,
+   "ag": 0,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-10",
+   "home": "FC Augsburg",
+   "hg": 0,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-10",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 3,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-10",
+   "home": "1.FC Heidenheim",
+   "hg": 1,
+   "ag": 3,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-22",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-23",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 5,
+   "ag": 2,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-23",
+   "home": "Borussia Dortmund",
+   "hg": 4,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-23",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 4,
+   "ag": 3,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-23",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-23",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-23",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 0,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-24",
+   "home": "Holstein Kiel",
+   "hg": 0,
+   "ag": 3,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-24",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-29",
+   "home": "FC Sankt Pauli",
+   "hg": 3,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-30",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-30",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-30",
+   "home": "RB Leipzig",
+   "hg": 1,
+   "ag": 5,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-30",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-30",
+   "home": "SV Werder Bremen",
+   "hg": 2,
+   "ag": 2,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-30",
+   "home": "Borussia Dortmund",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 12,
+   "date": "2024-12-01",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 12,
+   "date": "2024-12-01",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 4,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-06",
+   "home": "VfB Stuttgart",
+   "hg": 3,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-07",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-07",
+   "home": "Eintracht Frankfurt",
+   "hg": 2,
+   "ag": 2,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-07",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 4,
+   "ag": 2,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-07",
+   "home": "Holstein Kiel",
+   "hg": 0,
+   "ag": 2,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-07",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 1,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-07",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-08",
+   "home": "VfL Wolfsburg",
+   "hg": 4,
+   "ag": 3,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-08",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-13",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-14",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 2,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-14",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-14",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 4,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-14",
+   "home": "FC Augsburg",
+   "hg": 0,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-14",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 2,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-15",
+   "home": "1.FC Heidenheim",
+   "hg": 1,
+   "ag": 3,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-15",
+   "home": "Borussia Dortmund",
+   "hg": 1,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-15",
+   "home": "RB Leipzig",
+   "hg": 2,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-20",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 5,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-21",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 3,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-21",
+   "home": "Holstein Kiel",
+   "hg": 5,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-21",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-21",
+   "home": "VfB Stuttgart",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-21",
+   "home": "SV Werder Bremen",
+   "hg": 4,
+   "ag": 1,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-21",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 5,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-22",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 0,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-22",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 3,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-10",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 3,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-11",
+   "home": "1.FC Heidenheim",
+   "hg": 2,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-11",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-11",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-11",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 2,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-11",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 0,
+   "ag": 1,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-11",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-12",
+   "home": "RB Leipzig",
+   "hg": 4,
+   "ag": 2,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-12",
+   "home": "FC Augsburg",
+   "hg": 0,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-14",
+   "home": "Holstein Kiel",
+   "hg": 4,
+   "ag": 2,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-14",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-14",
+   "home": "Eintracht Frankfurt",
+   "hg": 4,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-14",
+   "home": "VfL Wolfsburg",
+   "hg": 5,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-15",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 0,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-15",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-15",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 5,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-15",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-15",
+   "home": "SV Werder Bremen",
+   "hg": 3,
+   "ag": 3,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-17",
+   "home": "Eintracht Frankfurt",
+   "hg": 2,
+   "ag": 0,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "Holstein Kiel",
+   "hg": 1,
+   "ag": 3,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "VfB Stuttgart",
+   "hg": 4,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "VfL Bochum",
+   "hg": 3,
+   "ag": 3,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 3,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-19",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-19",
+   "home": "SV Werder Bremen",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-24",
+   "home": "VfL Wolfsburg",
+   "hg": 2,
+   "ag": 2,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 2,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "RB Leipzig",
+   "hg": 2,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 3,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-26",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 2,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-26",
+   "home": "FC Sankt Pauli",
+   "hg": 3,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 20,
+   "date": "2025-01-31",
+   "home": "SV Werder Bremen",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "1.FC Heidenheim",
+   "hg": 1,
+   "ag": 2,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 4,
+   "ag": 3,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "FC Sankt Pauli",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-02",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-02",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 3,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-07",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 0,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "1.FSV Mainz 05",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "Borussia Dortmund",
+   "hg": 1,
+   "ag": 2,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 0,
+   "ag": 4,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "VfL Wolfsburg",
+   "hg": 0,
+   "ag": 0,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-09",
+   "home": "Holstein Kiel",
+   "hg": 2,
+   "ag": 2,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-09",
+   "home": "RB Leipzig",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-14",
+   "home": "FC Augsburg",
+   "hg": 0,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-15",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-15",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-15",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-15",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 0,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-15",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-16",
+   "home": "SV Werder Bremen",
+   "hg": 1,
+   "ag": 3,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-16",
+   "home": "Eintracht Frankfurt",
+   "hg": 3,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-16",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 2,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-21",
+   "home": "SC Freiburg",
+   "hg": 5,
+   "ag": 0,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-22",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-22",
+   "home": "Holstein Kiel",
+   "hg": 0,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-22",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-22",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 0,
+   "ag": 3,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-22",
+   "home": "Borussia Dortmund",
+   "hg": 6,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-23",
+   "home": "RB Leipzig",
+   "hg": 2,
+   "ag": 2,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-23",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 4,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-23",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 24,
+   "date": "2025-02-28",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 3,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 2,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "RB Leipzig",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "SV Werder Bremen",
+   "hg": 1,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 4,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-02",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-02",
+   "home": "FC Augsburg",
+   "hg": 0,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-07",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 3,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 0,
+   "ag": 2,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "Borussia Dortmund",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 2,
+   "ag": 3,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "Holstein Kiel",
+   "hg": 2,
+   "ag": 2,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "SC Freiburg",
+   "hg": 0,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-09",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-09",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-14",
+   "home": "FC Sankt Pauli",
+   "hg": 1,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-15",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-15",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 2,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-15",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-15",
+   "home": "SV Werder Bremen",
+   "hg": 2,
+   "ag": 4,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-15",
+   "home": "RB Leipzig",
+   "hg": 2,
+   "ag": 0,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-16",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 3,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-16",
+   "home": "1.FC Heidenheim",
+   "hg": 3,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-16",
+   "home": "VfB Stuttgart",
+   "hg": 3,
+   "ag": 4,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-28",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 3,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 2,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "Holstein Kiel",
+   "hg": 0,
+   "ag": 3,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "VfL Wolfsburg",
+   "hg": 0,
+   "ag": 1,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-30",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-30",
+   "home": "Borussia Dortmund",
+   "hg": 3,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-04",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 1,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "RB Leipzig",
+   "hg": 3,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 4,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 4,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "SV Werder Bremen",
+   "hg": 2,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-06",
+   "home": "FC Sankt Pauli",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-06",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-11",
+   "home": "VfL Wolfsburg",
+   "hg": 2,
+   "ag": 3,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 0,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 2,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "Holstein Kiel",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 2,
+   "ag": 2,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-13",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 2,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-13",
+   "home": "Eintracht Frankfurt",
+   "hg": 3,
+   "ag": 0,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 4,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "RB Leipzig",
+   "hg": 1,
+   "ag": 1,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 2,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "SV Werder Bremen",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "1.FC Union Berlin",
+   "hg": 4,
+   "ag": 4,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-20",
+   "home": "FC Augsburg",
+   "hg": 0,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-20",
+   "home": "Borussia Dortmund",
+   "hg": 3,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-20",
+   "home": "FC Sankt Pauli",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-25",
+   "home": "VfB Stuttgart",
+   "hg": 0,
+   "ag": 1,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "Holstein Kiel",
+   "hg": 4,
+   "ag": 3,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 3,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "VfL Wolfsburg",
+   "hg": 0,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "Eintracht Frankfurt",
+   "hg": 4,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-27",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-27",
+   "home": "SV Werder Bremen",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-02",
+   "home": "1.FC Heidenheim",
+   "hg": 0,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-03",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 2,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-03",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 4,
+   "ag": 4,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-03",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-03",
+   "home": "RB Leipzig",
+   "hg": 3,
+   "ag": 3,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-03",
+   "home": "Borussia Dortmund",
+   "hg": 4,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-04",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 3,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-04",
+   "home": "SC Freiburg",
+   "hg": 2,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-04",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-09",
+   "home": "VfL Wolfsburg",
+   "hg": 2,
+   "ag": 2,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-10",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 3,
+   "away": "1.FC Heidenheim"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-10",
+   "home": "Holstein Kiel",
+   "hg": 1,
+   "ag": 2,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-10",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 4,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-10",
+   "home": "SV Werder Bremen",
+   "hg": 0,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-10",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 2,
+   "ag": 0,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-11",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 4,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-11",
+   "home": "Eintracht Frankfurt",
+   "hg": 2,
+   "ag": 2,
+   "away": "FC Sankt Pauli"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-11",
+   "home": "VfB Stuttgart",
+   "hg": 4,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "1.FC Heidenheim",
+   "hg": 1,
+   "ag": 4,
+   "away": "SV Werder Bremen"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "Borussia Dortmund",
+   "hg": 3,
+   "ag": 0,
+   "away": "Holstein Kiel"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 0,
+   "ag": 1,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "FC Sankt Pauli",
+   "hg": 0,
+   "ag": 2,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "RB Leipzig",
+   "hg": 2,
+   "ag": 3,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 3,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-11",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 0,
+   "ag": 4,
+   "away": "FC Bayern M\u00fcnchen"
+  }
+ ]
+}

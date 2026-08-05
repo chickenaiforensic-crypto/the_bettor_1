@@ -1,0 +1,61 @@
+BP-TEAM-PACK v1
+# Full fixture pack for Hibernian v Malisheva, evidence cutoff 2026-07-30.
+# Results-only pack: no odds, no injuries, no lineups, no predictions.
+TEAM|Hibernian|Scotland|Scottish Premiership|Hibernian FC;Hibs|Easter Road|Edinburgh|Scotland|hybrid|20421
+VENUE|Hibernian|Easter Road|Edinburgh|Scotland|hybrid|20421|normal home venue
+SEASON|Hibernian|2025-26|Scottish Premiership|domestic league|38|15|12|11|58|44|19|8|6|5|32|19|19|7|6|6|26|25|5|57
+FORM|Hibernian|last 15 all competitions|2026-07-30|15|6|3|6|19|17|4|6|8|7
+TEAM|Malisheva|Kosovo|Kosovo Superliga|FC Malisheva;KF Malisheva;KF UV Malisheva;Klubi Futbollistik UV Malisheva|Liman Gegaj Stadium|Malishevë|Kosovo|artificial|1800
+VENUE|Malisheva|Liman Gegaj Stadium|Malishevë|Kosovo|artificial|1800|normal domestic home; European home fixtures may relocate to Pristina/Fadil Vokrri
+SEASON|Malisheva|2025-26|Kosovo Superliga|domestic league|36|18|5|13|58|50|18|9|2|7|30|27|18|9|3|6|28|23|2|59
+FORM|Malisheva|last 15 all competitions|2026-07-30|15|10|1|4|33|16|6|1|9|6
+TEAM|Brondby|Denmark|Danish Superliga|Brøndby;Brondby IF;Brøndby IF|Brøndby Stadium|Brøndby|Denmark|grass|28000
+TEAM|Shamrock Rovers|Republic of Ireland|League of Ireland Premier Division|Shamrock Rovers FC|Tallaght Stadium|Dublin|Republic of Ireland|grass|10500
+TEAM|Vllaznia|Albania|Albanian Superliga|Vllaznia Shkodër;Vllaznia Shkoder;KF Vllaznia|Loro Boriçi Stadium|Shkodër|Albania|grass|16000
+TEAM|Drita|Kosovo|Kosovo Superliga|FC Drita;KF Drita|Gjilan City Stadium|Gjilan|Kosovo|grass|15000
+TEAM|Llapi|Kosovo|Kosovo Superliga|KF Llapi;Llapi Podujeve|Zahir Pajaziti Stadium|Podujevë|Kosovo|grass|8000
+TEAM|Drenica Skenderaj|Kosovo|Kosovo Superliga|Drenica;FC Drenica|Bajram Aliu Stadium|Skenderaj|Kosovo|grass|9000
+TEAM|Ferizaj|Kosovo|Kosovo Superliga|FC Ferizaj;KF Ferizaj|Ismet Shabani Stadium|Ferizaj|Kosovo|grass|5000
+TEAM|Prishtina|Kosovo|Kosovo Superliga|FC Prishtina;KF Prishtina|Fadil Vokrri Stadium|Pristina|Kosovo|grass|13500
+TEAM|Gjilani|Kosovo|Kosovo Superliga|SC Gjilani;KF Gjilani|Gjilan City Stadium|Gjilan|Kosovo|grass|15000
+TEAM|Dukagjini|Kosovo|Kosovo Superliga|KF Dukagjini|18 June Stadium|Klinë|Kosovo|grass|5000
+TEAM|KF Ballkani|Kosovo|Kosovo Superliga|Ballkani;FC Ballkani|Suhareka City Stadium|Suharekë|Kosovo|grass|3000
+TEAM|Prishtina E Re|Kosovo|Kosovo Superliga|Prishtina e Re;KF Prishtina e Re|unknown|Pristina|Kosovo|unknown|unknown
+MATCH|2026-07-23|UECL Q2|Malisheva|2|0|Hibernian|relocated|Fadil Vokrri Stadium|Pristina|Kosovo|MAL-HIB-2026-Q2|statarea-hib-last15
+MATCH|2026-07-18|Club Friendly|Hibernian|2|1|Brondby|normal|Easter Road|Edinburgh|Scotland|HIB-BRO-2026-FRIENDLY|statarea-hib-last15
+MATCH|2026-06-30|Club Friendly|Shamrock Rovers|1|0|Hibernian|normal|unknown|Dublin|Republic of Ireland|SHA-HIB-2026-FRIENDLY|statarea-hib-last15
+MATCH|2026-05-16|Scottish Premiership Championship Round|Hibernian|0|1|Motherwell|normal|Easter Road|Edinburgh|Scotland|HIB-MOT-2026-SC0|statarea-hib-last15
+MATCH|2026-05-13|Scottish Premiership Championship Round|Rangers|1|2|Hibernian|normal|Ibrox Stadium|Glasgow|Scotland|RAN-HIB-2026-SC0|statarea-hib-last15
+MATCH|2026-05-09|Scottish Premiership Championship Round|Falkirk|1|3|Hibernian|normal|Falkirk Stadium|Falkirk|Scotland|FAL-HIB-2026-SC0|statarea-hib-last15
+MATCH|2026-05-03|Scottish Premiership Championship Round|Hibernian|1|2|Celtic|normal|Easter Road|Edinburgh|Scotland|HIB-CEL-2026-SC0|statarea-hib-last15
+MATCH|2026-04-26|Scottish Premiership Championship Round|Hibernian|1|2|Hearts|normal|Easter Road|Edinburgh|Scotland|HIB-HEA-2026-SC0|statarea-hib-last15
+MATCH|2026-04-11|Scottish Premiership|Aberdeen|2|0|Hibernian|normal|Pittodrie Stadium|Aberdeen|Scotland|ABE-HIB-2026-SC0|statarea-hib-last15
+MATCH|2026-04-04|Scottish Premiership|Hibernian|3|0|Kilmarnock|normal|Easter Road|Edinburgh|Scotland|HIB-KIL-2026-SC0|statarea-hib-last15
+MATCH|2026-03-21|Scottish Premiership|Motherwell|0|0|Hibernian|normal|Fir Park|Motherwell|Scotland|MOT-HIB-2026-SC0|statarea-hib-last15
+MATCH|2026-03-14|Scottish Premiership|Hibernian|0|0|Livingston|normal|Easter Road|Edinburgh|Scotland|HIB-LIV-2026-SC0|statarea-hib-last15
+MATCH|2026-02-28|Scottish Premiership|Dundee|3|3|Hibernian|normal|Dens Park|Dundee|Scotland|DUN-HIB-2026-SC0|statarea-hib-last15
+MATCH|2026-02-22|Scottish Premiership|Celtic|1|2|Hibernian|normal|Celtic Park|Glasgow|Scotland|CEL-HIB-2026-SC0|statarea-hib-last15
+MATCH|2026-02-14|Scottish Premiership|Hibernian|2|0|St Mirren|normal|Easter Road|Edinburgh|Scotland|HIB-STM-2026-SC0|statarea-hib-last15
+MATCH|2026-07-15|UECL Q1|Malisheva|5|0|Vllaznia|relocated|Kampi Nacional|Hajvali|Kosovo|MAL-VLL-2026-Q1|statarea-mal-last15
+MATCH|2026-07-09|UECL Q1|Vllaznia|2|1|Malisheva|normal|Loro Boriçi Stadium|Shkodër|Albania|MAL-VLL-2026-Q1|statarea-mal-last15
+MATCH|2026-05-31|Kosovo Superliga|Malisheva|3|2|Drita|normal|Liman Gegaj Stadium|Malishevë|Kosovo|MAL-DRI-2026-KOS|statarea-mal-last15
+MATCH|2026-05-24|Kosovo Superliga|Llapi|3|2|Malisheva|normal|Zahir Pajaziti Stadium|Podujevë|Kosovo|LLA-MAL-2026-KOS|statarea-mal-last15
+MATCH|2026-05-17|Kosovo Superliga|Malisheva|4|1|Drenica Skenderaj|normal|Liman Gegaj Stadium|Malishevë|Kosovo|MAL-DRE-2026-KOS|statarea-mal-last15
+MATCH|2026-05-10|Kosovo Superliga|Ferizaj|1|1|Malisheva|normal|Ismet Shabani Stadium|Ferizaj|Kosovo|FER-MAL-2026-KOS|statarea-mal-last15
+MATCH|2026-05-02|Kosovo Superliga|Prishtina|0|1|Malisheva|normal|Fadil Vokrri Stadium|Pristina|Kosovo|PRI-MAL-2026-KOS|statarea-mal-last15
+MATCH|2026-04-29|Kosovo Superliga|Malisheva|3|1|Gjilani|normal|Liman Gegaj Stadium|Malishevë|Kosovo|MAL-GJI-2026-KOS|statarea-mal-last15
+MATCH|2026-04-26|Kosovo Superliga|Dukagjini|0|1|Malisheva|normal|18 June Stadium|Klinë|Kosovo|DUK-MAL-2026-KOS|statarea-mal-last15
+MATCH|2026-04-19|Kosovo Superliga|Malisheva|4|2|KF Ballkani|normal|Liman Gegaj Stadium|Malishevë|Kosovo|MAL-BAL-2026-KOS|statarea-mal-last15
+MATCH|2026-04-11|Kosovo Superliga|Prishtina E Re|2|1|Malisheva|normal|unknown|Pristina|Kosovo|PER-MAL-2026-KOS|statarea-mal-last15
+MATCH|2026-04-05|Kosovo Superliga|Drita|2|0|Malisheva|normal|Gjilan City Stadium|Gjilan|Kosovo|DRI-MAL-2026-KOS|statarea-mal-last15
+MATCH|2026-03-22|Kosovo Superliga|Malisheva|2|0|Llapi|normal|Liman Gegaj Stadium|Malishevë|Kosovo|MAL-LLA-2026-KOS|statarea-mal-last15
+MATCH|2026-03-09|Kosovo Superliga|Malisheva|3|0|Prishtina|normal|Liman Gegaj Stadium|Malishevë|Kosovo|MAL-PRI-2026-KOS|statarea-mal-last15
+SOURCE|statarea-hib-last15|https://old2.statarea.com/team/view/Hibernian%20(Scotland)/both/last15|2026-07-30|Hibernian identity, next fixture and last-15 result rows
+SOURCE|statarea-mal-last15|https://old2.statarea.com/team/view/Malisheva%20(Kosovo)/both/last15|2026-07-30|Malisheva identity, next fixture and last-15 result rows
+SOURCE|scot-table|https://footballdatabase.com/league-scores-tables/scotland-premier-league-2025-2026|2026-07-30|Hibernian final league total: 38, 15-12-11, 58-44, 57 pts
+SOURCE|scot-homeaway|https://www.sportsmole.co.uk/football/scottish-premiership/table.html|2026-07-30|Hibernian home/away split cross-check; away 19 7-6-6 26-25 and inferred home 19 8-6-5 32-19
+SOURCE|kosovo-table|https://en.wikipedia.org/wiki/2025%E2%80%9326_Football_Superleague_of_Kosovo|2026-07-30|Malisheva final league total: 36, 18-5-13, 58-50, 59 pts
+SOURCE|kosovo-homeaway|https://old2.statarea.com/team/view/Malisheva%20(Kosovo)|2026-07-30|Malisheva home/away split 9-2-7 30-27 and 9-3-6 28-23
+SOURCE|hib-venue|https://stadiumdb.com/stadiums/sco/easter_road_stadium|2026-07-30|Easter Road venue/capacity cross-check
+SOURCE|mal-venue-relocation|https://www.edinburghnews.scotsman.com/sport/football/hibs/hibs-euro-venue-switch-plastic-pitch-decision-uefa-conference-league-8753048|2026-07-30|Malisheva normal Liman Gegaj and European relocation to Fadil Vokrri context
+END

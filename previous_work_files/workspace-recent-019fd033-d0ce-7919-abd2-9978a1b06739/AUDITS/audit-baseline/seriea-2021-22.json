@@ -1,0 +1,3050 @@
+{
+ "season": "2021-22",
+ "league": "seriea",
+ "source": "rsssf-ital2022",
+ "note": "printed table reproduced from round listings; deductions separate",
+ "deductions": {},
+ "anomalies": [],
+ "matches": [
+  {
+   "round": 1,
+   "date": "2021-08-21",
+   "home": "FC Internazionale",
+   "hg": 4,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-21",
+   "home": "Hellas Verona FC",
+   "hg": 2,
+   "ag": 3,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-21",
+   "home": "Torino FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-21",
+   "home": "Empoli FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-22",
+   "home": "Udinese Calcio",
+   "hg": 2,
+   "ag": 2,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-22",
+   "home": "Bologna FC",
+   "hg": 3,
+   "ag": 2,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-22",
+   "home": "AS Roma",
+   "hg": 3,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-22",
+   "home": "SSC Napoli",
+   "hg": 2,
+   "ag": 0,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-23",
+   "home": "Cagliari Calcio",
+   "hg": 2,
+   "ag": 2,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-23",
+   "home": "UC Sampdoria",
+   "hg": 0,
+   "ag": 1,
+   "away": "Milan AC"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-27",
+   "home": "Udinese Calcio",
+   "hg": 3,
+   "ag": 0,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-27",
+   "home": "Hellas Verona FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-28",
+   "home": "Atalanta BC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-28",
+   "home": "SS Lazio",
+   "hg": 6,
+   "ag": 1,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-28",
+   "home": "AC Fiorentina",
+   "hg": 2,
+   "ag": 1,
+   "away": "Torino FC"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-28",
+   "home": "Juventus FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-29",
+   "home": "US Sassuolo",
+   "hg": 0,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-29",
+   "home": "Genoa CFC",
+   "hg": 1,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-29",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 4,
+   "away": "AS Roma"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-29",
+   "home": "Milan AC",
+   "hg": 4,
+   "ag": 1,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-11",
+   "home": "Empoli FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-11",
+   "home": "SSC Napoli",
+   "hg": 2,
+   "ag": 1,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-11",
+   "home": "Atalanta BC",
+   "hg": 1,
+   "ag": 2,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-12",
+   "home": "UC Sampdoria",
+   "hg": 2,
+   "ag": 2,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-12",
+   "home": "Spezia Calcio",
+   "hg": 0,
+   "ag": 1,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-12",
+   "home": "Cagliari Calcio",
+   "hg": 2,
+   "ag": 3,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-12",
+   "home": "Torino FC",
+   "hg": 4,
+   "ag": 0,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-12",
+   "home": "Milan AC",
+   "hg": 2,
+   "ag": 0,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-12",
+   "home": "AS Roma",
+   "hg": 2,
+   "ag": 1,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 3,
+   "date": "2021-09-13",
+   "home": "Bologna FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-17",
+   "home": "US Sassuolo",
+   "hg": 0,
+   "ag": 1,
+   "away": "Torino FC"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-18",
+   "home": "Genoa CFC",
+   "hg": 1,
+   "ag": 2,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-18",
+   "home": "FC Internazionale",
+   "hg": 6,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-18",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 1,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-19",
+   "home": "Empoli FC",
+   "hg": 0,
+   "ag": 3,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-19",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-19",
+   "home": "Hellas Verona FC",
+   "hg": 3,
+   "ag": 2,
+   "away": "AS Roma"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-19",
+   "home": "SS Lazio",
+   "hg": 2,
+   "ag": 2,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-19",
+   "home": "Juventus FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Milan AC"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-20",
+   "home": "Udinese Calcio",
+   "hg": 0,
+   "ag": 4,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-21",
+   "home": "Bologna FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-21",
+   "home": "Atalanta BC",
+   "hg": 2,
+   "ag": 1,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-21",
+   "home": "AC Fiorentina",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-22",
+   "home": "US Salernitana",
+   "hg": 2,
+   "ag": 2,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-22",
+   "home": "Spezia Calcio",
+   "hg": 2,
+   "ag": 3,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-22",
+   "home": "Milan AC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-22",
+   "home": "Cagliari Calcio",
+   "hg": 0,
+   "ag": 2,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-23",
+   "home": "UC Sampdoria",
+   "hg": 0,
+   "ag": 4,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-23",
+   "home": "Torino FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-23",
+   "home": "AS Roma",
+   "hg": 1,
+   "ag": 0,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 2,
+   "away": "Milan AC"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "FC Internazionale",
+   "hg": 2,
+   "ag": 2,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "Genoa CFC",
+   "hg": 3,
+   "ag": 3,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-26",
+   "home": "Juventus FC",
+   "hg": 3,
+   "ag": 2,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-26",
+   "home": "Empoli FC",
+   "hg": 4,
+   "ag": 2,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-26",
+   "home": "US Sassuolo",
+   "hg": 1,
+   "ag": 0,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-26",
+   "home": "Udinese Calcio",
+   "hg": 0,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-26",
+   "home": "SS Lazio",
+   "hg": 3,
+   "ag": 2,
+   "away": "AS Roma"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-26",
+   "home": "SSC Napoli",
+   "hg": 2,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-27",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Torino FC"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-01",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-02",
+   "home": "US Salernitana",
+   "hg": 1,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-02",
+   "home": "Torino FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-02",
+   "home": "US Sassuolo",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "Bologna FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "Hellas Verona FC",
+   "hg": 4,
+   "ag": 0,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "UC Sampdoria",
+   "hg": 3,
+   "ag": 3,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "AS Roma",
+   "hg": 2,
+   "ag": 0,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "AC Fiorentina",
+   "hg": 1,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "Atalanta BC",
+   "hg": 2,
+   "ag": 3,
+   "away": "Milan AC"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "Spezia Calcio",
+   "hg": 2,
+   "ag": 1,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "SS Lazio",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "Milan AC",
+   "hg": 3,
+   "ag": 2,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-17",
+   "home": "Cagliari Calcio",
+   "hg": 3,
+   "ag": 1,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-17",
+   "home": "Empoli FC",
+   "hg": 1,
+   "ag": 4,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-17",
+   "home": "Genoa CFC",
+   "hg": 2,
+   "ag": 2,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-17",
+   "home": "Udinese Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-17",
+   "home": "SSC Napoli",
+   "hg": 1,
+   "ag": 0,
+   "away": "Torino FC"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-17",
+   "home": "Juventus FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "AS Roma"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-18",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-22",
+   "home": "Torino FC",
+   "hg": 3,
+   "ag": 2,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-22",
+   "home": "UC Sampdoria",
+   "hg": 2,
+   "ag": 1,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-23",
+   "home": "US Salernitana",
+   "hg": 2,
+   "ag": 4,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-23",
+   "home": "US Sassuolo",
+   "hg": 3,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-23",
+   "home": "Bologna FC",
+   "hg": 2,
+   "ag": 4,
+   "away": "Milan AC"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-24",
+   "home": "Atalanta BC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-24",
+   "home": "AC Fiorentina",
+   "hg": 3,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-24",
+   "home": "Hellas Verona FC",
+   "hg": 4,
+   "ag": 1,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-24",
+   "home": "AS Roma",
+   "hg": 0,
+   "ag": 0,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-24",
+   "home": "FC Internazionale",
+   "hg": 1,
+   "ag": 1,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-26",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-26",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-26",
+   "home": "Milan AC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Torino FC"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-27",
+   "home": "Juventus FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-27",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 3,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-27",
+   "home": "Udinese Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-27",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 2,
+   "away": "AS Roma"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-27",
+   "home": "Empoli FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-27",
+   "home": "SS Lazio",
+   "hg": 1,
+   "ag": 0,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-28",
+   "home": "SSC Napoli",
+   "hg": 3,
+   "ag": 0,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-30",
+   "home": "Atalanta BC",
+   "hg": 2,
+   "ag": 2,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-30",
+   "home": "Hellas Verona FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-30",
+   "home": "Torino FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-31",
+   "home": "FC Internazionale",
+   "hg": 2,
+   "ag": 0,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-31",
+   "home": "AC Fiorentina",
+   "hg": 3,
+   "ag": 0,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-31",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-31",
+   "home": "US Sassuolo",
+   "hg": 1,
+   "ag": 2,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-31",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 1,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 11,
+   "date": "2021-10-31",
+   "home": "AS Roma",
+   "hg": 1,
+   "ag": 2,
+   "away": "Milan AC"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-01",
+   "home": "Bologna FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-05",
+   "home": "Empoli FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-06",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 0,
+   "away": "Torino FC"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-06",
+   "home": "Juventus FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-06",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 2,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-07",
+   "home": "Venezia FC",
+   "hg": 3,
+   "ag": 2,
+   "away": "AS Roma"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-07",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 2,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-07",
+   "home": "Udinese Calcio",
+   "hg": 3,
+   "ag": 2,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-07",
+   "home": "SSC Napoli",
+   "hg": 1,
+   "ag": 1,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-07",
+   "home": "SS Lazio",
+   "hg": 3,
+   "ag": 0,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-07",
+   "home": "Milan AC",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-20",
+   "home": "Atalanta BC",
+   "hg": 5,
+   "ag": 2,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-20",
+   "home": "SS Lazio",
+   "hg": 0,
+   "ag": 2,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-20",
+   "home": "AC Fiorentina",
+   "hg": 4,
+   "ag": 3,
+   "away": "Milan AC"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-21",
+   "home": "US Sassuolo",
+   "hg": 2,
+   "ag": 2,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-21",
+   "home": "Bologna FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-21",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 2,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-21",
+   "home": "FC Internazionale",
+   "hg": 3,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-21",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 2,
+   "away": "AS Roma"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-22",
+   "home": "Hellas Verona FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-22",
+   "home": "Torino FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-26",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-27",
+   "home": "UC Sampdoria",
+   "hg": 3,
+   "ag": 1,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-27",
+   "home": "Empoli FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-27",
+   "home": "Juventus FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-27",
+   "home": "Venezia FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-28",
+   "home": "Udinese Calcio",
+   "hg": 0,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-28",
+   "home": "Milan AC",
+   "hg": 1,
+   "ag": 3,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-28",
+   "home": "Spezia Calcio",
+   "hg": 0,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-28",
+   "home": "AS Roma",
+   "hg": 1,
+   "ag": 0,
+   "away": "Torino FC"
+  },
+  {
+   "round": 14,
+   "date": "2021-11-28",
+   "home": "SSC Napoli",
+   "hg": 4,
+   "ag": 0,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 15,
+   "date": "2021-11-30",
+   "home": "AC Fiorentina",
+   "hg": 3,
+   "ag": 1,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 15,
+   "date": "2021-11-30",
+   "home": "Atalanta BC",
+   "hg": 4,
+   "ag": 0,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 15,
+   "date": "2021-11-30",
+   "home": "Hellas Verona FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 15,
+   "date": "2021-11-30",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 2,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-01",
+   "home": "FC Internazionale",
+   "hg": 2,
+   "ag": 0,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-01",
+   "home": "Bologna FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "AS Roma"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-01",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 3,
+   "away": "Milan AC"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-01",
+   "home": "US Sassuolo",
+   "hg": 2,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-02",
+   "home": "Torino FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-02",
+   "home": "SS Lazio",
+   "hg": 4,
+   "ag": 4,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-04",
+   "home": "Milan AC",
+   "hg": 2,
+   "ag": 0,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-04",
+   "home": "AS Roma",
+   "hg": 0,
+   "ag": 3,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-04",
+   "home": "SSC Napoli",
+   "hg": 2,
+   "ag": 3,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-05",
+   "home": "Bologna FC",
+   "hg": 2,
+   "ag": 3,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-05",
+   "home": "Venezia FC",
+   "hg": 3,
+   "ag": 4,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-05",
+   "home": "Spezia Calcio",
+   "hg": 2,
+   "ag": 2,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-05",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 3,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-05",
+   "home": "Juventus FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-06",
+   "home": "Empoli FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-06",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "Torino FC"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-10",
+   "home": "Genoa CFC",
+   "hg": 1,
+   "ag": 3,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-11",
+   "home": "AC Fiorentina",
+   "hg": 4,
+   "ag": 0,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-11",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-11",
+   "home": "Udinese Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "Milan AC"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-12",
+   "home": "Torino FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-12",
+   "home": "Hellas Verona FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-12",
+   "home": "US Sassuolo",
+   "hg": 2,
+   "ag": 1,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-12",
+   "home": "SSC Napoli",
+   "hg": 0,
+   "ag": 1,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-12",
+   "home": "FC Internazionale",
+   "hg": 4,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-13",
+   "home": "AS Roma",
+   "hg": 2,
+   "ag": 0,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-17",
+   "home": "SS Lazio",
+   "hg": 3,
+   "ag": 1,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-17",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 5,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-18",
+   "home": "Atalanta BC",
+   "hg": 1,
+   "ag": 4,
+   "away": "AS Roma"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-18",
+   "home": "Bologna FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-18",
+   "home": "Cagliari Calcio",
+   "hg": 0,
+   "ag": 4,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-19",
+   "home": "AC Fiorentina",
+   "hg": 2,
+   "ag": 2,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-19",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-19",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-19",
+   "home": "Torino FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 18,
+   "date": "2021-12-19",
+   "home": "Milan AC",
+   "hg": 0,
+   "ag": 1,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-21",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-21",
+   "home": "Juventus FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-22",
+   "home": "US Sassuolo",
+   "hg": 0,
+   "ag": 3,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-22",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-22",
+   "home": "AS Roma",
+   "hg": 1,
+   "ag": 1,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-22",
+   "home": "Hellas Verona FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-22",
+   "home": "FC Internazionale",
+   "hg": 1,
+   "ag": 0,
+   "away": "Torino FC"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-22",
+   "home": "Empoli FC",
+   "hg": 2,
+   "ag": 4,
+   "away": "Milan AC"
+  },
+  {
+   "round": 19,
+   "date": "2021-12-22",
+   "home": "SSC Napoli",
+   "hg": 0,
+   "ag": 1,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 19,
+   "date": "2022-04-20",
+   "home": "Udinese Calcio",
+   "hg": 0,
+   "ag": 1,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-06",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 2,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-06",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 2,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-06",
+   "home": "SS Lazio",
+   "hg": 3,
+   "ag": 3,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-06",
+   "home": "US Sassuolo",
+   "hg": 1,
+   "ag": 1,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-06",
+   "home": "Milan AC",
+   "hg": 3,
+   "ag": 1,
+   "away": "AS Roma"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-06",
+   "home": "Juventus FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 20,
+   "date": "2022-04-27",
+   "home": "AC Fiorentina",
+   "hg": 0,
+   "ag": 4,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 20,
+   "date": "2022-04-27",
+   "home": "Atalanta BC",
+   "hg": 4,
+   "ag": 4,
+   "away": "Torino FC"
+  },
+  {
+   "round": 20,
+   "date": "2022-04-27",
+   "home": "Bologna FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 20,
+   "date": "2022-05-05",
+   "home": "US Salernitana",
+   "hg": 2,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-09",
+   "home": "Venezia FC",
+   "hg": 0,
+   "ag": 3,
+   "away": "Milan AC"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-09",
+   "home": "Empoli FC",
+   "hg": 1,
+   "ag": 5,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-09",
+   "home": "Udinese Calcio",
+   "hg": 2,
+   "ag": 6,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-09",
+   "home": "SSC Napoli",
+   "hg": 1,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-09",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-09",
+   "home": "AS Roma",
+   "hg": 3,
+   "ag": 4,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-09",
+   "home": "Hellas Verona FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-09",
+   "home": "FC Internazionale",
+   "hg": 2,
+   "ag": 1,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-10",
+   "home": "Torino FC",
+   "hg": 4,
+   "ag": 0,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 21,
+   "date": "2022-01-11",
+   "home": "Cagliari Calcio",
+   "hg": 2,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-15",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 2,
+   "away": "Torino FC"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-15",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 3,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-15",
+   "home": "Juventus FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-16",
+   "home": "US Sassuolo",
+   "hg": 2,
+   "ag": 4,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-16",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-16",
+   "home": "AS Roma",
+   "hg": 1,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-16",
+   "home": "Atalanta BC",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-17",
+   "home": "Milan AC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-17",
+   "home": "Bologna FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 22,
+   "date": "2022-01-17",
+   "home": "AC Fiorentina",
+   "hg": 6,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-21",
+   "home": "Hellas Verona FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-22",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-22",
+   "home": "FC Internazionale",
+   "hg": 2,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-22",
+   "home": "SS Lazio",
+   "hg": 0,
+   "ag": 0,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-23",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-23",
+   "home": "SSC Napoli",
+   "hg": 4,
+   "ag": 1,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-23",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-23",
+   "home": "Torino FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-23",
+   "home": "Empoli FC",
+   "hg": 2,
+   "ag": 4,
+   "away": "AS Roma"
+  },
+  {
+   "round": 23,
+   "date": "2022-01-23",
+   "home": "Milan AC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-05",
+   "home": "AS Roma",
+   "hg": 0,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-05",
+   "home": "FC Internazionale",
+   "hg": 1,
+   "ag": 2,
+   "away": "Milan AC"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-05",
+   "home": "AC Fiorentina",
+   "hg": 0,
+   "ag": 3,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-06",
+   "home": "Atalanta BC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-06",
+   "home": "Venezia FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-06",
+   "home": "UC Sampdoria",
+   "hg": 4,
+   "ag": 0,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-06",
+   "home": "Bologna FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-06",
+   "home": "Udinese Calcio",
+   "hg": 2,
+   "ag": 0,
+   "away": "Torino FC"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-06",
+   "home": "Juventus FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-07",
+   "home": "US Salernitana",
+   "hg": 2,
+   "ag": 2,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-12",
+   "home": "SS Lazio",
+   "hg": 3,
+   "ag": 0,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-12",
+   "home": "SSC Napoli",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-12",
+   "home": "Torino FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-13",
+   "home": "Milan AC",
+   "hg": 1,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-13",
+   "home": "Hellas Verona FC",
+   "hg": 4,
+   "ag": 0,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-13",
+   "home": "Genoa CFC",
+   "hg": 1,
+   "ag": 1,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-13",
+   "home": "Empoli FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-13",
+   "home": "US Sassuolo",
+   "hg": 2,
+   "ag": 2,
+   "away": "AS Roma"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-13",
+   "home": "Atalanta BC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 25,
+   "date": "2022-02-14",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 2,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-18",
+   "home": "Juventus FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Torino FC"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-19",
+   "home": "UC Sampdoria",
+   "hg": 2,
+   "ag": 0,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-19",
+   "home": "AS Roma",
+   "hg": 2,
+   "ag": 2,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-19",
+   "home": "US Salernitana",
+   "hg": 2,
+   "ag": 2,
+   "away": "Milan AC"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-20",
+   "home": "AC Fiorentina",
+   "hg": 1,
+   "ag": 0,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-20",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-20",
+   "home": "FC Internazionale",
+   "hg": 0,
+   "ag": 2,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-20",
+   "home": "Udinese Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-21",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 26,
+   "date": "2022-02-21",
+   "home": "Bologna FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-25",
+   "home": "Milan AC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-25",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-26",
+   "home": "US Salernitana",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-26",
+   "home": "Empoli FC",
+   "hg": 2,
+   "ag": 3,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-26",
+   "home": "US Sassuolo",
+   "hg": 2,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-27",
+   "home": "Torino FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-27",
+   "home": "Hellas Verona FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-27",
+   "home": "Spezia Calcio",
+   "hg": 0,
+   "ag": 1,
+   "away": "AS Roma"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-27",
+   "home": "SS Lazio",
+   "hg": 1,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 27,
+   "date": "2022-02-28",
+   "home": "Atalanta BC",
+   "hg": 4,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-04",
+   "home": "FC Internazionale",
+   "hg": 5,
+   "ag": 0,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-05",
+   "home": "Udinese Calcio",
+   "hg": 2,
+   "ag": 1,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-05",
+   "home": "AS Roma",
+   "hg": 1,
+   "ag": 0,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-05",
+   "home": "Cagliari Calcio",
+   "hg": 0,
+   "ag": 3,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-06",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-06",
+   "home": "Bologna FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Torino FC"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-06",
+   "home": "AC Fiorentina",
+   "hg": 1,
+   "ag": 1,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-06",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 4,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-06",
+   "home": "Juventus FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 28,
+   "date": "2022-03-06",
+   "home": "SSC Napoli",
+   "hg": 0,
+   "ag": 1,
+   "away": "Milan AC"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-12",
+   "home": "US Salernitana",
+   "hg": 2,
+   "ag": 2,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-12",
+   "home": "Spezia Calcio",
+   "hg": 2,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-12",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 3,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-12",
+   "home": "Milan AC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-13",
+   "home": "AC Fiorentina",
+   "hg": 1,
+   "ag": 0,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-13",
+   "home": "Hellas Verona FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-13",
+   "home": "Atalanta BC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-13",
+   "home": "Udinese Calcio",
+   "hg": 1,
+   "ag": 1,
+   "away": "AS Roma"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-13",
+   "home": "Torino FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 29,
+   "date": "2022-03-14",
+   "home": "SS Lazio",
+   "hg": 1,
+   "ag": 0,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-18",
+   "home": "US Sassuolo",
+   "hg": 4,
+   "ag": 1,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-18",
+   "home": "Genoa CFC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Torino FC"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-19",
+   "home": "SSC Napoli",
+   "hg": 2,
+   "ag": 1,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-19",
+   "home": "FC Internazionale",
+   "hg": 1,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-19",
+   "home": "Cagliari Calcio",
+   "hg": 0,
+   "ag": 1,
+   "away": "Milan AC"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-20",
+   "home": "Venezia FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-20",
+   "home": "Empoli FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-20",
+   "home": "Juventus FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-20",
+   "home": "AS Roma",
+   "hg": 3,
+   "ag": 0,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 30,
+   "date": "2022-03-20",
+   "home": "Bologna FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-02",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 0,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-02",
+   "home": "SS Lazio",
+   "hg": 2,
+   "ag": 1,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-02",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 1,
+   "away": "Torino FC"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-03",
+   "home": "AC Fiorentina",
+   "hg": 1,
+   "ag": 0,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-03",
+   "home": "Atalanta BC",
+   "hg": 1,
+   "ag": 3,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-03",
+   "home": "Udinese Calcio",
+   "hg": 5,
+   "ag": 1,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-03",
+   "home": "UC Sampdoria",
+   "hg": 0,
+   "ag": 1,
+   "away": "AS Roma"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-03",
+   "home": "Juventus FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-04",
+   "home": "Hellas Verona FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-04",
+   "home": "Milan AC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-09",
+   "home": "Empoli FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-09",
+   "home": "FC Internazionale",
+   "hg": 2,
+   "ag": 0,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-09",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 2,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-10",
+   "home": "Genoa CFC",
+   "hg": 1,
+   "ag": 4,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-10",
+   "home": "SSC Napoli",
+   "hg": 2,
+   "ag": 3,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-10",
+   "home": "US Sassuolo",
+   "hg": 2,
+   "ag": 1,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-10",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-10",
+   "home": "AS Roma",
+   "hg": 2,
+   "ag": 1,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-10",
+   "home": "Torino FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Milan AC"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-11",
+   "home": "Bologna FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-15",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-15",
+   "home": "Milan AC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-16",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 0,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-16",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 2,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-16",
+   "home": "Udinese Calcio",
+   "hg": 4,
+   "ag": 1,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-16",
+   "home": "AC Fiorentina",
+   "hg": 1,
+   "ag": 0,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-16",
+   "home": "Juventus FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-16",
+   "home": "SS Lazio",
+   "hg": 1,
+   "ag": 1,
+   "away": "Torino FC"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-18",
+   "home": "SSC Napoli",
+   "hg": 1,
+   "ag": 1,
+   "away": "AS Roma"
+  },
+  {
+   "round": 33,
+   "date": "2022-04-18",
+   "home": "Atalanta BC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-23",
+   "home": "Torino FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-23",
+   "home": "Venezia FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-23",
+   "home": "FC Internazionale",
+   "hg": 3,
+   "ag": 1,
+   "away": "AS Roma"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-23",
+   "home": "Hellas Verona FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-24",
+   "home": "US Salernitana",
+   "hg": 2,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-24",
+   "home": "Bologna FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-24",
+   "home": "Empoli FC",
+   "hg": 3,
+   "ag": 2,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-24",
+   "home": "Genoa CFC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-24",
+   "home": "SS Lazio",
+   "hg": 1,
+   "ag": 2,
+   "away": "Milan AC"
+  },
+  {
+   "round": 34,
+   "date": "2022-04-25",
+   "home": "US Sassuolo",
+   "hg": 1,
+   "ag": 2,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 35,
+   "date": "2022-04-30",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 2,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 35,
+   "date": "2022-04-30",
+   "home": "SSC Napoli",
+   "hg": 6,
+   "ag": 1,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 35,
+   "date": "2022-04-30",
+   "home": "UC Sampdoria",
+   "hg": 1,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 35,
+   "date": "2022-04-30",
+   "home": "Spezia Calcio",
+   "hg": 3,
+   "ag": 4,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 35,
+   "date": "2022-05-01",
+   "home": "Juventus FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 35,
+   "date": "2022-05-01",
+   "home": "Milan AC",
+   "hg": 1,
+   "ag": 0,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 35,
+   "date": "2022-05-01",
+   "home": "Empoli FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Torino FC"
+  },
+  {
+   "round": 35,
+   "date": "2022-05-01",
+   "home": "Udinese Calcio",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 35,
+   "date": "2022-05-01",
+   "home": "AS Roma",
+   "hg": 0,
+   "ag": 0,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 35,
+   "date": "2022-05-02",
+   "home": "Atalanta BC",
+   "hg": 1,
+   "ag": 1,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-06",
+   "home": "FC Internazionale",
+   "hg": 4,
+   "ag": 2,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-06",
+   "home": "Genoa CFC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-07",
+   "home": "Torino FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-07",
+   "home": "US Sassuolo",
+   "hg": 1,
+   "ag": 1,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-07",
+   "home": "SS Lazio",
+   "hg": 2,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-08",
+   "home": "Spezia Calcio",
+   "hg": 1,
+   "ag": 3,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-08",
+   "home": "Venezia FC",
+   "hg": 4,
+   "ag": 3,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-08",
+   "home": "US Salernitana",
+   "hg": 1,
+   "ag": 1,
+   "away": "Cagliari Calcio"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-08",
+   "home": "Hellas Verona FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Milan AC"
+  },
+  {
+   "round": 36,
+   "date": "2022-05-09",
+   "home": "AC Fiorentina",
+   "hg": 2,
+   "ag": 0,
+   "away": "AS Roma"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-14",
+   "home": "Empoli FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "US Salernitana"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-14",
+   "home": "Hellas Verona FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Torino FC"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-14",
+   "home": "Udinese Calcio",
+   "hg": 2,
+   "ag": 3,
+   "away": "Spezia Calcio"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-14",
+   "home": "AS Roma",
+   "hg": 1,
+   "ag": 1,
+   "away": "Venezia FC"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-15",
+   "home": "Bologna FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "US Sassuolo"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-15",
+   "home": "SSC Napoli",
+   "hg": 3,
+   "ag": 0,
+   "away": "Genoa CFC"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-15",
+   "home": "Milan AC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Atalanta BC"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-15",
+   "home": "Cagliari Calcio",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Internazionale"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-16",
+   "home": "UC Sampdoria",
+   "hg": 4,
+   "ag": 1,
+   "away": "AC Fiorentina"
+  },
+  {
+   "round": 37,
+   "date": "2022-05-16",
+   "home": "Juventus FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "SS Lazio"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-20",
+   "home": "Torino FC",
+   "hg": 0,
+   "ag": 3,
+   "away": "AS Roma"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-21",
+   "home": "Genoa CFC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Bologna FC"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-21",
+   "home": "Atalanta BC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Empoli FC"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-21",
+   "home": "AC Fiorentina",
+   "hg": 2,
+   "ag": 0,
+   "away": "Juventus FC"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-21",
+   "home": "SS Lazio",
+   "hg": 3,
+   "ag": 3,
+   "away": "Hellas Verona FC"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-22",
+   "home": "Spezia Calcio",
+   "hg": 0,
+   "ag": 3,
+   "away": "SSC Napoli"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-22",
+   "home": "FC Internazionale",
+   "hg": 3,
+   "ag": 0,
+   "away": "UC Sampdoria"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-22",
+   "home": "US Sassuolo",
+   "hg": 0,
+   "ag": 3,
+   "away": "Milan AC"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-22",
+   "home": "US Salernitana",
+   "hg": 0,
+   "ag": 4,
+   "away": "Udinese Calcio"
+  },
+  {
+   "round": 38,
+   "date": "2022-05-22",
+   "home": "Venezia FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Cagliari Calcio"
+  }
+ ]
+}

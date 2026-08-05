@@ -1,0 +1,38 @@
+BP-TEAM-PACK v2
+NOTE|info|research_ack|ACKNOWLEDGED — today is Friday, July 31, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+NOTE|info|scope|The 2026-07-30 second leg Hibernian v Malisheva is deliberately OMITTED on the user's instruction, so the system predicts it cold. Everything else completed before cutoff 2026-07-31 is included.
+NOTE|info|current_season|Kosovo Superliga 2026-27 had not started by the cutoff; Malisheva's only 2026-27 competitive matches are the three UECL qualifiers, given as the current-season aggregate. Domestic current-season row omitted.
+NOTE|warning|level3_bridge|Level-3 bridge requirement: checked the 2025-26 Kosovo Superliga results matrix (Wikipedia) and Albanian Superliga sources — neither carries per-match dates, so mutual opponent rows could not be date-verified and were omitted per rule 3. The only dated cross-links available are the Vllaznia tie and the Hibernian first leg; the Scottish-side bridge rows live in the Hibernian pack and join the same graph when both packs are loaded.
+NOTE|warning|venue_q1_leg2|Q1 second leg was listed home in Podujevë per BBC, not at regular Liman Gegaj Stadium — recorded as relocated; the exact stadium within Podujevë was not confirmed by the source.
+TEAM|Malisheva|Kosovo|Kosovo Superliga|KOS|FC Malisheva;KF Malisheva;KF UV Malisheva;Klubi Futbollistik UV Malisheva|Liman Gegaj Stadium|Malishevë|Kosovo|artificial|2000|unknown|unknown
+TEAM|Hibernian|Scotland|Scottish Premiership|SC0|Hibernian FC;Hibs|Easter Road|Edinburgh|Scotland|hybrid|20421|1875|https://www.hibernianfc.co.uk/
+TEAM|Vllaznia|Albania|Albanian Superliga|ALB|Vllaznia Shkodër;Vllaznia Shkoder;KF Vllaznia|Loro Boriçi Stadium|Shkodër|Albania|grass|16000|unknown|unknown
+VENUE|Malisheva|Liman Gegaj Stadium|Malishevë|Kosovo|artificial|2000|normal|Normal domestic home; European home fixtures relocate (Q2: Fadil Vokrri, Pristina; Q1: Podujevë)|src-mal-venue
+SEASON|Malisheva|2025-26|Kosovo Superliga|domestic league|36|18|5|13|58|50|18|9|2|7|30|27|18|9|3|6|28|23|2|59|src-mal-season
+SEASON|Malisheva|2026-27|UEFA Conference League|uefa-conference-league|3|2|0|1|8|2|2|2|0|0|7|0|1|0|0|1|1|2|Q1 won 6-2 agg; Q2 first leg played|6|src-mal-uecl2627
+FORM|Malisheva|last 15 all competitions|2026-07-31|15|10|1|4|33|16|6|1|9|6|src-mal-form
+MATCH|2026-07-23|UECL Q2|uefa-conference-league|Malisheva|2|0|Hibernian|relocated|Fadil Vokrri Stadium|Pristina|Kosovo|MAL-HIB-2026-Q2|src-mal-q2l1
+MATCH|2026-07-15|UECL Q1|uefa-conference-league|Malisheva|5|0|Vllaznia|relocated|unknown|Podujevë|Kosovo|MAL-VLL-2026-Q1|src-mal-q1l2
+MATCH|2026-07-09|UECL Q1|uefa-conference-league|Vllaznia|2|1|Malisheva|normal|Loro Boriçi Stadium|Shkodër|Albania|MAL-VLL-2026-Q1|src-mal-q1l1
+MATCH|2026-05-31|Kosovo Superliga|domestic-league|Malisheva|3|2|Drita|normal|Liman Gegaj Stadium|Malishevë|Kosovo||src-mal-league
+MATCH|2026-05-24|Kosovo Superliga|domestic-league|Llapi|3|2|Malisheva|normal|Zahir Pajaziti Stadium|Podujevë|Kosovo||src-mal-league
+MATCH|2026-05-17|Kosovo Superliga|domestic-league|Malisheva|4|1|Drenica Skenderaj|normal|Liman Gegaj Stadium|Malishevë|Kosovo||src-mal-league
+MATCH|2026-05-10|Kosovo Superliga|domestic-league|Ferizaj|1|1|Malisheva|normal|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||src-mal-league
+MATCH|2026-05-02|Kosovo Superliga|domestic-league|Prishtina|0|1|Malisheva|normal|Fadil Vokrri Stadium|Pristina|Kosovo||src-mal-league
+MATCH|2026-04-29|Kosovo Superliga|domestic-league|Malisheva|3|1|Gjilani|normal|Liman Gegaj Stadium|Malishevë|Kosovo||src-mal-league
+MATCH|2026-04-26|Kosovo Superliga|domestic-league|Dukagjini|0|1|Malisheva|normal|18 June Stadium|Klinë|Kosovo||src-mal-league
+MATCH|2026-04-19|Kosovo Superliga|domestic-league|Malisheva|4|2|KF Ballkani|normal|Liman Gegaj Stadium|Malishevë|Kosovo||src-mal-league
+MATCH|2026-04-11|Kosovo Superliga|domestic-league|Prishtina E Re|2|1|Malisheva|normal|Sami Kelmendi Stadium|Hajvali|Kosovo||src-mal-league
+MATCH|2026-04-05|Kosovo Superliga|domestic-league|Drita|2|0|Malisheva|normal|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||src-mal-league
+MATCH|2026-03-22|Kosovo Superliga|domestic-league|Malisheva|2|0|Llapi|normal|Liman Gegaj Stadium|Malishevë|Kosovo||src-mal-league
+MATCH|2026-03-09|Kosovo Superliga|domestic-league|Malisheva|3|0|Prishtina|normal|Liman Gegaj Stadium|Malishevë|Kosovo||src-mal-league
+SOURCE|src-mal-venue|https://en.wikipedia.org/wiki/2025%E2%80%9326_Football_Superleague_of_Kosovo|2026-07-31|other|League stadium table: Liman Gegaj Stadium, Malishevë, capacity 2,000, synthetic
+SOURCE|src-mal-season|https://en.wikipedia.org/wiki/2025%E2%80%9326_Football_Superleague_of_Kosovo|2026-07-31|other|2025-26 Superliga final table: Malisheva 36, 18-5-13, 58-50, 59 pts, 2nd — UECL Q1 qualification
+SOURCE|src-mal-splits|https://old2.statarea.com/team/view/Malisheva%20(Kosovo)|2026-07-31|results-database|Malisheva home/away split: home 18 9-2-7 30-27; away 18 9-3-6 28-23
+SOURCE|src-mal-league|https://old2.statarea.com/team/view/Malisheva%20(Kosovo)/both/last15|2026-07-31|results-database|Malisheva last-15 league sequence with dates, home-away order and scores
+SOURCE|src-mal-q1l1|https://www.bbc.com/sport/articles/crkv37kep1eo|2026-07-31|news-report|Vllaznia 2-1 Malisheva, UECL Q1 first leg, 9 July 2026, Loro Boriçi Stadium, Shkodër; return leg in Podujevë
+SOURCE|src-mal-q1l2|https://www.espn.com/soccer/match/_/gameId/401877745|2026-07-31|results-database|Malisheva 5-0 Vllaznia, UECL Q1 second leg, 15 July 2026; Malisheva advanced 6-2 on aggregate
+SOURCE|src-mal-q2l1|https://www.bbc.com/sport/football/live/c62er2d0m49t|2026-07-31|news-report|Malisheva 2-0 Hibernian, UECL Q2 first leg, 23 July 2026, Stadiumi Fadil Vokrri
+SOURCE|src-mal-form|https://old2.statarea.com/team/view/Malisheva%20(Kosovo)/both/last15|2026-07-31|results-database|FORM computed from the 15 MATCH rows in this pack: W10 D1 L4, 33-16, CS6, FTS1, O25 9/U25 6
+SOURCE|src-mal-uecl2627|https://www.espn.com/soccer/match/_/gameId/401877745|2026-07-31|results-database|2026-27 UECL aggregate computed from the three qualifier rows: P3 W2 D0 L1 8-2
+END

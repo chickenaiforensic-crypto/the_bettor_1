@@ -1,0 +1,2466 @@
+{
+ "season": "2021-22",
+ "league": "bundesliga",
+ "source": "rsssf-duit2022",
+ "note": "printed table reproduced from round listings; deductions separate",
+ "deductions": {},
+ "anomalies": [
+  [
+   "COUNTED-WITH-NOTE",
+   27,
+   "2022-03-18",
+   "Bochum 0-2 M\u00f6nchengladbach",
+   "[abandoned at 0-2 in 70' due to crowd"
+  ]
+ ],
+ "matches": [
+  {
+   "round": 1,
+   "date": "2021-08-13",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-14",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-14",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-14",
+   "home": "FC Augsburg",
+   "hg": 0,
+   "ag": 4,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-14",
+   "home": "VfB Stuttgart",
+   "hg": 5,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-14",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 0,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-14",
+   "home": "Borussia Dortmund",
+   "hg": 5,
+   "ag": 2,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-15",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 1,
+   "date": "2021-08-15",
+   "home": "1.FC K\u00f6ln",
+   "hg": 3,
+   "ag": 1,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-20",
+   "home": "RB Leipzig",
+   "hg": 4,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-21",
+   "home": "SC Freiburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-21",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-21",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-21",
+   "home": "Eintracht Frankfurt",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-21",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 1,
+   "ag": 1,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-21",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 4,
+   "ag": 0,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-22",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 2,
+   "date": "2021-08-22",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 2,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-27",
+   "home": "Borussia Dortmund",
+   "hg": 3,
+   "ag": 2,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-28",
+   "home": "1.FC K\u00f6ln",
+   "hg": 2,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-28",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 3,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-28",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 4,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-28",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-28",
+   "home": "1.FSV Mainz 05",
+   "hg": 3,
+   "ag": 0,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-28",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 5,
+   "ag": 0,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-29",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 3,
+   "date": "2021-08-29",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-11",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 0,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-11",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-11",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 0,
+   "ag": 2,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-11",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 3,
+   "ag": 4,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-11",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-11",
+   "home": "RB Leipzig",
+   "hg": 1,
+   "ag": 4,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-12",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-12",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 3,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 4,
+   "date": "2021-09-12",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 3,
+   "ag": 1,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-17",
+   "home": "Hertha BSC Berlin",
+   "hg": 2,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-18",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-18",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 0,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-18",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 7,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-18",
+   "home": "1.FSV Mainz 05",
+   "hg": 0,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-18",
+   "home": "1.FC K\u00f6ln",
+   "hg": 1,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-19",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 3,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-19",
+   "home": "Borussia Dortmund",
+   "hg": 4,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 5,
+   "date": "2021-09-19",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-24",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 0,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "RB Leipzig",
+   "hg": 6,
+   "ag": 0,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 3,
+   "ag": 1,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-25",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 0,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-26",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 6,
+   "date": "2021-09-26",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-01",
+   "home": "1.FC K\u00f6ln",
+   "hg": 3,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-02",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-02",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 2,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-02",
+   "home": "VfB Stuttgart",
+   "hg": 3,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-02",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 3,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-02",
+   "home": "RB Leipzig",
+   "hg": 3,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 1,
+   "ag": 2,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 7,
+   "date": "2021-10-03",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 0,
+   "ag": 4,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-15",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 5,
+   "ag": 0,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "Borussia Dortmund",
+   "hg": 3,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 2,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 0,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-16",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-17",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 1,
+   "ag": 5,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 8,
+   "date": "2021-10-17",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-22",
+   "home": "1.FSV Mainz 05",
+   "hg": 4,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-23",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 3,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-23",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 4,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-23",
+   "home": "RB Leipzig",
+   "hg": 4,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-23",
+   "home": "VfL Wolfsburg",
+   "hg": 0,
+   "ag": 2,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-23",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 0,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-24",
+   "home": "1.FC K\u00f6ln",
+   "hg": 2,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-24",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 9,
+   "date": "2021-10-24",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-29",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 0,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-30",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 5,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-30",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-30",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 0,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-30",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 0,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-30",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-30",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-31",
+   "home": "FC Augsburg",
+   "hg": 4,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 10,
+   "date": "2021-10-31",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 2,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-05",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-06",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 2,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-06",
+   "home": "VfB Stuttgart",
+   "hg": 0,
+   "ag": 1,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-06",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-06",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-06",
+   "home": "RB Leipzig",
+   "hg": 2,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-07",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-07",
+   "home": "1.FC K\u00f6ln",
+   "hg": 2,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 11,
+   "date": "2021-11-07",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 1,
+   "ag": 2,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-19",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-20",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 2,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-20",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 0,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-20",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-20",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-20",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 4,
+   "ag": 0,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-20",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 0,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-21",
+   "home": "SC Freiburg",
+   "hg": 0,
+   "ag": 2,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 12,
+   "date": "2021-11-21",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-26",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-27",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-27",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 3,
+   "ag": 6,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-27",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 3,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-27",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-27",
+   "home": "1.FC K\u00f6ln",
+   "hg": 4,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-27",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 1,
+   "ag": 0,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-28",
+   "home": "Eintracht Frankfurt",
+   "hg": 2,
+   "ag": 1,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 13,
+   "date": "2021-11-28",
+   "home": "RB Leipzig",
+   "hg": 1,
+   "ag": 3,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-03",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-04",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 7,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-04",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 3,
+   "ag": 2,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-04",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 3,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-04",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-04",
+   "home": "1.FSV Mainz 05",
+   "hg": 3,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-04",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 3,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-05",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 2,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 14,
+   "date": "2021-12-05",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 0,
+   "ag": 6,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-10",
+   "home": "1.FC K\u00f6ln",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-11",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 2,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-11",
+   "home": "RB Leipzig",
+   "hg": 4,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-11",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-11",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 2,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-11",
+   "home": "Hertha BSC Berlin",
+   "hg": 2,
+   "ag": 0,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-11",
+   "home": "VfL Wolfsburg",
+   "hg": 0,
+   "ag": 2,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-12",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 15,
+   "date": "2021-12-12",
+   "home": "Eintracht Frankfurt",
+   "hg": 5,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-14",
+   "home": "VfB Stuttgart",
+   "hg": 0,
+   "ag": 5,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-14",
+   "home": "1.FSV Mainz 05",
+   "hg": 4,
+   "ag": 0,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-14",
+   "home": "VfL Wolfsburg",
+   "hg": 2,
+   "ag": 3,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-14",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 2,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-15",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 2,
+   "ag": 3,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-15",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-15",
+   "home": "Borussia Dortmund",
+   "hg": 3,
+   "ag": 0,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-15",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 2,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 16,
+   "date": "2021-12-15",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-17",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 4,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-18",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-18",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 1,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-18",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-18",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-18",
+   "home": "RB Leipzig",
+   "hg": 0,
+   "ag": 2,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-18",
+   "home": "Hertha BSC Berlin",
+   "hg": 3,
+   "ag": 2,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-19",
+   "home": "SC Freiburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 17,
+   "date": "2021-12-19",
+   "home": "1.FC K\u00f6ln",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-07",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 1,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-08",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-08",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-08",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 0,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-08",
+   "home": "RB Leipzig",
+   "hg": 4,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-08",
+   "home": "SC Freiburg",
+   "hg": 2,
+   "ag": 2,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-08",
+   "home": "Eintracht Frankfurt",
+   "hg": 2,
+   "ag": 3,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-09",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 3,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 18,
+   "date": "2022-01-09",
+   "home": "VfL Bochum",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-14",
+   "home": "Borussia Dortmund",
+   "hg": 5,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-15",
+   "home": "1.FSV Mainz 05",
+   "hg": 1,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-15",
+   "home": "1.FC K\u00f6ln",
+   "hg": 0,
+   "ag": 4,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-15",
+   "home": "VfL Wolfsburg",
+   "hg": 0,
+   "ag": 0,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-15",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-15",
+   "home": "VfB Stuttgart",
+   "hg": 0,
+   "ag": 2,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-15",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-16",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 19,
+   "date": "2022-01-16",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 2,
+   "ag": 2,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-21",
+   "home": "Eintracht Frankfurt",
+   "hg": 0,
+   "ag": 2,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-22",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 2,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-22",
+   "home": "SC Freiburg",
+   "hg": 2,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-22",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 5,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-22",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-22",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 3,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-22",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 2,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-23",
+   "home": "RB Leipzig",
+   "hg": 2,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 20,
+   "date": "2022-01-23",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 4,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-04",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-05",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-05",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 3,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-05",
+   "home": "1.FC K\u00f6ln",
+   "hg": 1,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-05",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-05",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-05",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 2,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-06",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 5,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 21,
+   "date": "2022-02-06",
+   "home": "VfL Wolfsburg",
+   "hg": 4,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-11",
+   "home": "RB Leipzig",
+   "hg": 3,
+   "ag": 1,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-12",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 3,
+   "ag": 2,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-12",
+   "home": "Eintracht Frankfurt",
+   "hg": 0,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-12",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 2,
+   "ag": 1,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-12",
+   "home": "VfL Bochum",
+   "hg": 4,
+   "ag": 2,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-12",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-12",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 4,
+   "ag": 2,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-13",
+   "home": "1.FC Union Berlin",
+   "hg": 0,
+   "ag": 3,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 22,
+   "date": "2022-02-13",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 0,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-18",
+   "home": "1.FSV Mainz 05",
+   "hg": 3,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-19",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-19",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 2,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-19",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-19",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 2,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-19",
+   "home": "1.FC K\u00f6ln",
+   "hg": 1,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-21",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 4,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-21",
+   "home": "Borussia Dortmund",
+   "hg": 6,
+   "ag": 0,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 23,
+   "date": "2022-02-21",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 6,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-25",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-26",
+   "home": "1.FC Union Berlin",
+   "hg": 3,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-26",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 3,
+   "ag": 0,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-26",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 2,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-26",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 0,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-26",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-26",
+   "home": "Eintracht Frankfurt",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-27",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 24,
+   "date": "2022-02-27",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-04",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-05",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 1,
+   "ag": 1,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-05",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 4,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-05",
+   "home": "RB Leipzig",
+   "hg": 1,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-05",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-05",
+   "home": "VfL Wolfsburg",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-05",
+   "home": "VfB Stuttgart",
+   "hg": 3,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-06",
+   "home": "1.FC K\u00f6ln",
+   "hg": 0,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 25,
+   "date": "2022-03-16",
+   "home": "1.FSV Mainz 05",
+   "hg": 0,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 26,
+   "date": "2022-03-12",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 26,
+   "date": "2022-03-12",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 2,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 26,
+   "date": "2022-03-12",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 26,
+   "date": "2022-03-12",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 2,
+   "ag": 0,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 26,
+   "date": "2022-03-13",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 0,
+   "ag": 1,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 26,
+   "date": "2022-03-13",
+   "home": "Borussia Dortmund",
+   "hg": 1,
+   "ag": 0,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 26,
+   "date": "2022-03-13",
+   "home": "Eintracht Frankfurt",
+   "hg": 2,
+   "ag": 1,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 26,
+   "date": "2022-03-13",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 1,
+   "ag": 6,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 26,
+   "date": "2022-04-06",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-18",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-18",
+   "home": "1.FSV Mainz 05",
+   "hg": 4,
+   "ag": 0,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-18",
+   "home": "Hertha BSC Berlin",
+   "hg": 3,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-18",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 0,
+   "ag": 0,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-18",
+   "home": "VfB Stuttgart",
+   "hg": 3,
+   "ag": 2,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-18",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 4,
+   "ag": 0,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-20",
+   "home": "RB Leipzig",
+   "hg": 0,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-20",
+   "home": "VfL Wolfsburg",
+   "hg": 0,
+   "ag": 2,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 27,
+   "date": "2022-03-20",
+   "home": "1.FC K\u00f6ln",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-01",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 0,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-02",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-02",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 1,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-02",
+   "home": "Eintracht Frankfurt",
+   "hg": 0,
+   "ag": 0,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-02",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 4,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-02",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 1,
+   "ag": 2,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-02",
+   "home": "Borussia Dortmund",
+   "hg": 1,
+   "ag": 4,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-03",
+   "home": "FC Augsburg",
+   "hg": 3,
+   "ag": 0,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 28,
+   "date": "2022-04-03",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 1,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-08",
+   "home": "VfB Stuttgart",
+   "hg": 0,
+   "ag": 2,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-09",
+   "home": "1.FC K\u00f6ln",
+   "hg": 3,
+   "ag": 2,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-09",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 1,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-09",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 0,
+   "ag": 2,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-09",
+   "home": "VfL Wolfsburg",
+   "hg": 4,
+   "ag": 0,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-09",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 4,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-10",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 0,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-10",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 2,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 29,
+   "date": "2022-04-10",
+   "home": "RB Leipzig",
+   "hg": 3,
+   "ag": 0,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-16",
+   "home": "1.FSV Mainz 05",
+   "hg": 0,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-16",
+   "home": "Borussia Dortmund",
+   "hg": 6,
+   "ag": 1,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-16",
+   "home": "FC Augsburg",
+   "hg": 0,
+   "ag": 1,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-16",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 0,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-16",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 1,
+   "ag": 3,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-17",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 0,
+   "ag": 3,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-17",
+   "home": "1.FC Union Berlin",
+   "hg": 2,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-17",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 0,
+   "ag": 0,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 30,
+   "date": "2022-04-17",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 0,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-22",
+   "home": "VfL Wolfsburg",
+   "hg": 5,
+   "ag": 0,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-23",
+   "home": "1.FC K\u00f6ln",
+   "hg": 3,
+   "ag": 1,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-23",
+   "home": "Eintracht Frankfurt",
+   "hg": 2,
+   "ag": 2,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-23",
+   "home": "RB Leipzig",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-23",
+   "home": "SC Freiburg",
+   "hg": 3,
+   "ag": 3,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-23",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 1,
+   "ag": 4,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-23",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 3,
+   "ag": 1,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-24",
+   "home": "VfL Bochum",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 31,
+   "date": "2022-04-24",
+   "home": "Hertha BSC Berlin",
+   "hg": 2,
+   "ag": 0,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-29",
+   "home": "1.FC Union Berlin",
+   "hg": 1,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-30",
+   "home": "1.FSV Mainz 05",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Bayern M\u00fcnchen"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-30",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 1,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-30",
+   "home": "Borussia Dortmund",
+   "hg": 3,
+   "ag": 4,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-30",
+   "home": "FC Augsburg",
+   "hg": 1,
+   "ag": 4,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-30",
+   "home": "VfB Stuttgart",
+   "hg": 1,
+   "ag": 1,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 32,
+   "date": "2022-04-30",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 3,
+   "ag": 4,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 32,
+   "date": "2022-05-02",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 0,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 32,
+   "date": "2022-05-02",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 3,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-06",
+   "home": "VfL Bochum",
+   "hg": 2,
+   "ag": 1,
+   "away": "DSC Arminia Bielefeld"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-07",
+   "home": "1.FC K\u00f6ln",
+   "hg": 0,
+   "ag": 1,
+   "away": "VfL Wolfsburg"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-07",
+   "home": "SC Freiburg",
+   "hg": 1,
+   "ag": 4,
+   "away": "1.FC Union Berlin"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-07",
+   "home": "SpVgg Greuther F\u00fcrth",
+   "hg": 1,
+   "ag": 3,
+   "away": "Borussia Dortmund"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-07",
+   "home": "TSG 1899 Hoffenheim",
+   "hg": 2,
+   "ag": 4,
+   "away": "Bayer 04 Leverkusen"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-07",
+   "home": "Hertha BSC Berlin",
+   "hg": 1,
+   "ag": 2,
+   "away": "1.FSV Mainz 05"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-08",
+   "home": "Eintracht Frankfurt",
+   "hg": 1,
+   "ag": 1,
+   "away": "Borussia M\u00f6nchengladbach"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-08",
+   "home": "FC Bayern M\u00fcnchen",
+   "hg": 2,
+   "ag": 2,
+   "away": "VfB Stuttgart"
+  },
+  {
+   "round": 33,
+   "date": "2022-05-08",
+   "home": "RB Leipzig",
+   "hg": 4,
+   "ag": 0,
+   "away": "FC Augsburg"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "1.FC Union Berlin",
+   "hg": 3,
+   "ag": 2,
+   "away": "VfL Bochum"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "1.FSV Mainz 05",
+   "hg": 2,
+   "ag": 2,
+   "away": "Eintracht Frankfurt"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "DSC Arminia Bielefeld",
+   "hg": 1,
+   "ag": 1,
+   "away": "RB Leipzig"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "Bayer 04 Leverkusen",
+   "hg": 2,
+   "ag": 1,
+   "away": "SC Freiburg"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "Borussia Dortmund",
+   "hg": 2,
+   "ag": 1,
+   "away": "Hertha BSC Berlin"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "Borussia M\u00f6nchengladbach",
+   "hg": 5,
+   "ag": 1,
+   "away": "TSG 1899 Hoffenheim"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "FC Augsburg",
+   "hg": 2,
+   "ag": 1,
+   "away": "SpVgg Greuther F\u00fcrth"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "VfB Stuttgart",
+   "hg": 2,
+   "ag": 1,
+   "away": "1.FC K\u00f6ln"
+  },
+  {
+   "round": 34,
+   "date": "2022-05-08",
+   "home": "VfL Wolfsburg",
+   "hg": 2,
+   "ag": 2,
+   "away": "FC Bayern M\u00fcnchen"
+  }
+ ]
+}

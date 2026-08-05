@@ -1,0 +1,3064 @@
+{
+ "season": "2023-24",
+ "league": "laliga",
+ "source": "rsssf-span2024",
+ "note": "printed table reproduced from round listings; deductions separate",
+ "deductions": {},
+ "anomalies": [
+  [
+   "ABANDONED",
+   16,
+   "2023-12-10",
+   "Granada                   abd Athletic                  [abandoned at 0-1 in 17'"
+  ],
+  [
+   "COUNTED-WITH-NOTE",
+   16,
+   "2023-12-10",
+   "C\u00e1diz 1-1 Osasuna",
+   "fan due to cardiac arrest]"
+  ]
+ ],
+ "matches": [
+  {
+   "round": 1,
+   "date": "2023-08-11",
+   "home": "UD Almer\u00eda",
+   "hg": 0,
+   "ag": 2,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-11",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-12",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Girona FC"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-12",
+   "home": "UD Las Palmas",
+   "hg": 1,
+   "ag": 1,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-12",
+   "home": "Athletic de Bilbao",
+   "hg": 0,
+   "ag": 2,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "RC Celta (Vigo)",
+   "hg": 0,
+   "ag": 2,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "Villarreal CF",
+   "hg": 1,
+   "ag": 2,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-13",
+   "home": "Getafe CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-14",
+   "home": "C\u00e1diz CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 1,
+   "date": "2023-08-14",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 3,
+   "ag": 1,
+   "away": "Granada CF"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-18",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-18",
+   "home": "Valencia CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-19",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-19",
+   "home": "UD Almer\u00eda",
+   "hg": 1,
+   "ag": 3,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-19",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 0,
+   "ag": 2,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "Girona FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "FC Barcelona",
+   "hg": 2,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-20",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-21",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 4,
+   "ag": 3,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 2,
+   "date": "2023-08-21",
+   "home": "Granada CF",
+   "hg": 0,
+   "ag": 2,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-25",
+   "home": "UD Las Palmas",
+   "hg": 0,
+   "ag": 0,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-25",
+   "home": "RC Celta (Vigo)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-26",
+   "home": "C\u00e1diz CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-26",
+   "home": "Granada CF",
+   "hg": 3,
+   "ag": 2,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-26",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Girona FC"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "Villarreal CF",
+   "hg": 3,
+   "ag": 4,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "Valencia CF",
+   "hg": 1,
+   "ag": 2,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-27",
+   "home": "Athletic de Bilbao",
+   "hg": 4,
+   "ag": 2,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-28",
+   "home": "Getafe CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 3,
+   "date": "2023-08-28",
+   "home": "Rayo Vallecano",
+   "hg": 0,
+   "ag": 7,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-01",
+   "home": "C\u00e1diz CF",
+   "hg": 3,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-01",
+   "home": "UD Almer\u00eda",
+   "hg": 2,
+   "ag": 3,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-02",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 5,
+   "ag": 3,
+   "away": "Granada CF"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-02",
+   "home": "Real Madrid CF",
+   "hg": 2,
+   "ag": 1,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-02",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-02",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "Girona FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 4,
+   "date": "2023-09-03",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 4,
+   "date": "2023-12-23",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 1,
+   "ag": 0,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-15",
+   "home": "Rayo Vallecano",
+   "hg": 2,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-16",
+   "home": "Athletic de Bilbao",
+   "hg": 3,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-16",
+   "home": "Valencia CF",
+   "hg": 3,
+   "ag": 0,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-16",
+   "home": "RC Celta (Vigo)",
+   "hg": 0,
+   "ag": 1,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-16",
+   "home": "FC Barcelona",
+   "hg": 5,
+   "ag": 0,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "Getafe CF",
+   "hg": 3,
+   "ag": 2,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "Villarreal CF",
+   "hg": 2,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-17",
+   "home": "Real Madrid CF",
+   "hg": 2,
+   "ag": 1,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 5,
+   "date": "2023-09-18",
+   "home": "Granada CF",
+   "hg": 2,
+   "ag": 4,
+   "away": "Girona FC"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-22",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 0,
+   "ag": 2,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-23",
+   "home": "Girona FC",
+   "hg": 5,
+   "ag": 3,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-23",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-23",
+   "home": "FC Barcelona",
+   "hg": 3,
+   "ag": 2,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-23",
+   "home": "UD Almer\u00eda",
+   "hg": 2,
+   "ag": 2,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 4,
+   "ag": 3,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "Rayo Vallecano",
+   "hg": 1,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 1,
+   "ag": 1,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "UD Las Palmas",
+   "hg": 1,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 6,
+   "date": "2023-09-24",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 3,
+   "ag": 1,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-26",
+   "home": "Sevilla FC",
+   "hg": 5,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-26",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 2,
+   "ag": 2,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-27",
+   "home": "Athletic de Bilbao",
+   "hg": 2,
+   "ag": 2,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-27",
+   "home": "Real Madrid CF",
+   "hg": 2,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-27",
+   "home": "Villarreal CF",
+   "hg": 1,
+   "ag": 2,
+   "away": "Girona FC"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-27",
+   "home": "C\u00e1diz CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-27",
+   "home": "Valencia CF",
+   "hg": 0,
+   "ag": 1,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-28",
+   "home": "Granada CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-28",
+   "home": "RC Celta (Vigo)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 7,
+   "date": "2023-09-28",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 0,
+   "ag": 2,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 8,
+   "date": "2023-09-29",
+   "home": "FC Barcelona",
+   "hg": 1,
+   "ag": 0,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 8,
+   "date": "2023-09-30",
+   "home": "Getafe CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 8,
+   "date": "2023-09-30",
+   "home": "Rayo Vallecano",
+   "hg": 2,
+   "ag": 2,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 8,
+   "date": "2023-09-30",
+   "home": "Girona FC",
+   "hg": 0,
+   "ag": 3,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 8,
+   "date": "2023-09-30",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 3,
+   "ag": 0,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-01",
+   "home": "UD Almer\u00eda",
+   "hg": 3,
+   "ag": 3,
+   "away": "Granada CF"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-01",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 0,
+   "ag": 2,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-01",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 3,
+   "ag": 2,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-01",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 3,
+   "ag": 0,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 8,
+   "date": "2023-10-01",
+   "home": "UD Las Palmas",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-06",
+   "home": "Athletic de Bilbao",
+   "hg": 3,
+   "ag": 0,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-07",
+   "home": "C\u00e1diz CF",
+   "hg": 0,
+   "ag": 1,
+   "away": "Girona FC"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-07",
+   "home": "Real Madrid CF",
+   "hg": 4,
+   "ag": 0,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-07",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-07",
+   "home": "Sevilla FC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-08",
+   "home": "Villarreal CF",
+   "hg": 1,
+   "ag": 2,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-08",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 2,
+   "ag": 1,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-08",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-08",
+   "home": "RC Celta (Vigo)",
+   "hg": 2,
+   "ag": 2,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 9,
+   "date": "2023-10-08",
+   "home": "Granada CF",
+   "hg": 2,
+   "ag": 2,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-20",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 2,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-21",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 1,
+   "ag": 0,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-21",
+   "home": "Getafe CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-21",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-21",
+   "home": "RC Celta (Vigo)",
+   "hg": 0,
+   "ag": 3,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-22",
+   "home": "UD Las Palmas",
+   "hg": 0,
+   "ag": 1,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-22",
+   "home": "Girona FC",
+   "hg": 5,
+   "ag": 2,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-22",
+   "home": "Villarreal CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-22",
+   "home": "FC Barcelona",
+   "hg": 1,
+   "ag": 0,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 10,
+   "date": "2023-10-23",
+   "home": "Valencia CF",
+   "hg": 2,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-27",
+   "home": "Girona FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-28",
+   "home": "UD Almer\u00eda",
+   "hg": 1,
+   "ag": 2,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-28",
+   "home": "FC Barcelona",
+   "hg": 1,
+   "ag": 2,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-28",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-28",
+   "home": "C\u00e1diz CF",
+   "hg": 2,
+   "ag": 2,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-29",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 2,
+   "ag": 1,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-29",
+   "home": "Rayo Vallecano",
+   "hg": 2,
+   "ag": 2,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-29",
+   "home": "Athletic de Bilbao",
+   "hg": 2,
+   "ag": 2,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-29",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 2,
+   "ag": 1,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 11,
+   "date": "2023-10-30",
+   "home": "Granada CF",
+   "hg": 2,
+   "ag": 3,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-03",
+   "home": "UD Las Palmas",
+   "hg": 2,
+   "ag": 1,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-04",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 2,
+   "ag": 4,
+   "away": "Girona FC"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-04",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 2,
+   "ag": 0,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-04",
+   "home": "RC Celta (Vigo)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-04",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-05",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-05",
+   "home": "Valencia CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-05",
+   "home": "Villarreal CF",
+   "hg": 2,
+   "ag": 3,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-05",
+   "home": "Real Madrid CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 12,
+   "date": "2023-11-06",
+   "home": "Getafe CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-10",
+   "home": "Athletic de Bilbao",
+   "hg": 4,
+   "ag": 3,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-11",
+   "home": "Rayo Vallecano",
+   "hg": 1,
+   "ag": 2,
+   "away": "Girona FC"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-11",
+   "home": "UD Almer\u00eda",
+   "hg": 1,
+   "ag": 3,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-11",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 1,
+   "ag": 1,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-11",
+   "home": "Granada CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-11",
+   "home": "Real Madrid CF",
+   "hg": 5,
+   "ag": 1,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-12",
+   "home": "FC Barcelona",
+   "hg": 2,
+   "ag": 1,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-12",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-12",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 3,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 13,
+   "date": "2023-11-29",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 1,
+   "ag": 1,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-24",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 3,
+   "ag": 1,
+   "away": "Granada CF"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-25",
+   "home": "Rayo Vallecano",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-25",
+   "home": "Valencia CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-25",
+   "home": "Getafe CF",
+   "hg": 2,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-25",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 1,
+   "ag": 0,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-26",
+   "home": "Villarreal CF",
+   "hg": 3,
+   "ag": 1,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-26",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 2,
+   "ag": 1,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-26",
+   "home": "C\u00e1diz CF",
+   "hg": 0,
+   "ag": 3,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-26",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 14,
+   "date": "2023-11-27",
+   "home": "Girona FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-01",
+   "home": "UD Las Palmas",
+   "hg": 2,
+   "ag": 0,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-02",
+   "home": "Girona FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-02",
+   "home": "Athletic de Bilbao",
+   "hg": 4,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-02",
+   "home": "Real Madrid CF",
+   "hg": 2,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-02",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-03",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-03",
+   "home": "UD Almer\u00eda",
+   "hg": 0,
+   "ag": 0,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-03",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-03",
+   "home": "FC Barcelona",
+   "hg": 1,
+   "ag": 0,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 15,
+   "date": "2023-12-04",
+   "home": "RC Celta (Vigo)",
+   "hg": 1,
+   "ag": 1,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-08",
+   "home": "Getafe CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-09",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 0,
+   "ag": 1,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-09",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-09",
+   "home": "Villarreal CF",
+   "hg": 0,
+   "ag": 3,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-09",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-10",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 2,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-10",
+   "home": "C\u00e1diz CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-10",
+   "home": "FC Barcelona",
+   "hg": 2,
+   "ag": 4,
+   "away": "Girona FC"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-11",
+   "home": "Granada CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 16,
+   "date": "2023-12-11",
+   "home": "Rayo Vallecano",
+   "hg": 0,
+   "ag": 0,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-15",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-16",
+   "home": "RC Celta (Vigo)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-16",
+   "home": "Athletic de Bilbao",
+   "hg": 2,
+   "ag": 0,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-16",
+   "home": "Sevilla FC",
+   "hg": 0,
+   "ag": 3,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-16",
+   "home": "Valencia CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "UD Almer\u00eda",
+   "hg": 0,
+   "ag": 0,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "UD Las Palmas",
+   "hg": 1,
+   "ag": 1,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-17",
+   "home": "Real Madrid CF",
+   "hg": 4,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 17,
+   "date": "2023-12-18",
+   "home": "Girona FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-19",
+   "home": "Rayo Vallecano",
+   "hg": 0,
+   "ag": 1,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-19",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 3,
+   "ag": 3,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-19",
+   "home": "Granada CF",
+   "hg": 0,
+   "ag": 3,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-20",
+   "home": "FC Barcelona",
+   "hg": 3,
+   "ag": 2,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-20",
+   "home": "Athletic de Bilbao",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-20",
+   "home": "Villarreal CF",
+   "hg": 3,
+   "ag": 2,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-21",
+   "home": "C\u00e1diz CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-21",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Girona FC"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-21",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 18,
+   "date": "2023-12-21",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 3,
+   "ag": 2,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-02",
+   "home": "Getafe CF",
+   "hg": 0,
+   "ag": 2,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-02",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-02",
+   "home": "Valencia CF",
+   "hg": 3,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-03",
+   "home": "Granada CF",
+   "hg": 2,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-03",
+   "home": "RC Celta (Vigo)",
+   "hg": 2,
+   "ag": 1,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-03",
+   "home": "Real Madrid CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-03",
+   "home": "Girona FC",
+   "hg": 4,
+   "ag": 3,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-04",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-04",
+   "home": "Sevilla FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 19,
+   "date": "2024-01-04",
+   "home": "UD Las Palmas",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-12",
+   "home": "Sevilla FC",
+   "hg": 2,
+   "ag": 3,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-13",
+   "home": "UD Las Palmas",
+   "hg": 3,
+   "ag": 0,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-13",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-13",
+   "home": "Athletic de Bilbao",
+   "hg": 2,
+   "ag": 1,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-13",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-14",
+   "home": "UD Almer\u00eda",
+   "hg": 0,
+   "ag": 0,
+   "away": "Girona FC"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-14",
+   "home": "C\u00e1diz CF",
+   "hg": 1,
+   "ag": 4,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-31",
+   "home": "FC Barcelona",
+   "hg": 1,
+   "ag": 0,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 20,
+   "date": "2024-01-31",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 2,
+   "ag": 1,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 20,
+   "date": "2024-02-01",
+   "home": "Getafe CF",
+   "hg": 0,
+   "ag": 2,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-19",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-20",
+   "home": "Rayo Vallecano",
+   "hg": 0,
+   "ag": 2,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-20",
+   "home": "Villarreal CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-20",
+   "home": "Valencia CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-20",
+   "home": "RC Celta (Vigo)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-21",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 3,
+   "ag": 2,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-21",
+   "home": "Real Madrid CF",
+   "hg": 3,
+   "ag": 2,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-21",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 2,
+   "ag": 4,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-21",
+   "home": "Girona FC",
+   "hg": 5,
+   "ag": 1,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 21,
+   "date": "2024-01-22",
+   "home": "Granada CF",
+   "hg": 0,
+   "ag": 1,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-26",
+   "home": "UD Almer\u00eda",
+   "hg": 0,
+   "ag": 3,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-27",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-27",
+   "home": "UD Las Palmas",
+   "hg": 1,
+   "ag": 2,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-27",
+   "home": "FC Barcelona",
+   "hg": 3,
+   "ag": 5,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-27",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-28",
+   "home": "RC Celta (Vigo)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Girona FC"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-28",
+   "home": "C\u00e1diz CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-28",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-28",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 2,
+   "ag": 0,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 22,
+   "date": "2024-01-29",
+   "home": "Getafe CF",
+   "hg": 2,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-02",
+   "home": "Athletic de Bilbao",
+   "hg": 4,
+   "ag": 0,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-03",
+   "home": "Valencia CF",
+   "hg": 2,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-03",
+   "home": "Granada CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-03",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-03",
+   "home": "Girona FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-04",
+   "home": "Villarreal CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-04",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 0,
+   "ag": 3,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-04",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-04",
+   "home": "Real Madrid CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 23,
+   "date": "2024-02-05",
+   "home": "Rayo Vallecano",
+   "hg": 1,
+   "ag": 2,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-09",
+   "home": "C\u00e1diz CF",
+   "hg": 0,
+   "ag": 2,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-10",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-10",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 0,
+   "ag": 1,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-10",
+   "home": "Real Madrid CF",
+   "hg": 4,
+   "ag": 0,
+   "away": "Girona FC"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-10",
+   "home": "UD Las Palmas",
+   "hg": 2,
+   "ag": 0,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-11",
+   "home": "Getafe CF",
+   "hg": 3,
+   "ag": 2,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-11",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 2,
+   "ag": 1,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-11",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-11",
+   "home": "FC Barcelona",
+   "hg": 3,
+   "ag": 3,
+   "away": "Granada CF"
+  },
+  {
+   "round": 24,
+   "date": "2024-02-12",
+   "home": "UD Almer\u00eda",
+   "hg": 0,
+   "ag": 0,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-16",
+   "home": "Villarreal CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-17",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 5,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-17",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 2,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-17",
+   "home": "RC Celta (Vigo)",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-17",
+   "home": "Valencia CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-18",
+   "home": "Rayo Vallecano",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-18",
+   "home": "Granada CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-18",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 1,
+   "ag": 2,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-18",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 25,
+   "date": "2024-02-19",
+   "home": "Athletic de Bilbao",
+   "hg": 3,
+   "ag": 2,
+   "away": "Girona FC"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-23",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 1,
+   "ag": 3,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-24",
+   "home": "FC Barcelona",
+   "hg": 4,
+   "ag": 0,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-24",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 1,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-24",
+   "home": "UD Almer\u00eda",
+   "hg": 2,
+   "ag": 2,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-25",
+   "home": "C\u00e1diz CF",
+   "hg": 2,
+   "ag": 2,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-25",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 3,
+   "ag": 1,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-25",
+   "home": "UD Las Palmas",
+   "hg": 1,
+   "ag": 1,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-25",
+   "home": "Real Madrid CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 26,
+   "date": "2024-02-26",
+   "home": "Girona FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 26,
+   "date": "2024-04-04",
+   "home": "Granada CF",
+   "hg": 0,
+   "ag": 1,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-01",
+   "home": "RC Celta (Vigo)",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-02",
+   "home": "Sevilla FC",
+   "hg": 3,
+   "ag": 2,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-02",
+   "home": "Rayo Vallecano",
+   "hg": 1,
+   "ag": 1,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-02",
+   "home": "Getafe CF",
+   "hg": 3,
+   "ag": 3,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-02",
+   "home": "Valencia CF",
+   "hg": 2,
+   "ag": 2,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-03",
+   "home": "Villarreal CF",
+   "hg": 5,
+   "ag": 1,
+   "away": "Granada CF"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-03",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 2,
+   "ag": 1,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-03",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Girona FC"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-03",
+   "home": "Athletic de Bilbao",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 27,
+   "date": "2024-03-04",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-08",
+   "home": "FC Barcelona",
+   "hg": 1,
+   "ag": 0,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-09",
+   "home": "Valencia CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-09",
+   "home": "C\u00e1diz CF",
+   "hg": 2,
+   "ag": 0,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-09",
+   "home": "Granada CF",
+   "hg": 2,
+   "ag": 3,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-09",
+   "home": "Girona FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-10",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-10",
+   "home": "UD Las Palmas",
+   "hg": 0,
+   "ag": 2,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-10",
+   "home": "Real Madrid CF",
+   "hg": 4,
+   "ag": 0,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-10",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 2,
+   "ag": 3,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 28,
+   "date": "2024-03-11",
+   "home": "UD Almer\u00eda",
+   "hg": 2,
+   "ag": 2,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-15",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 2,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-16",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-16",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 2,
+   "ag": 4,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-16",
+   "home": "Getafe CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Girona FC"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-16",
+   "home": "Athletic de Bilbao",
+   "hg": 2,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-17",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-17",
+   "home": "UD Las Palmas",
+   "hg": 0,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-17",
+   "home": "Villarreal CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-17",
+   "home": "Rayo Vallecano",
+   "hg": 2,
+   "ag": 0,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 29,
+   "date": "2024-03-17",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 0,
+   "ag": 3,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-29",
+   "home": "C\u00e1diz CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-30",
+   "home": "Getafe CF",
+   "hg": 0,
+   "ag": 1,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-30",
+   "home": "UD Almer\u00eda",
+   "hg": 0,
+   "ag": 3,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-30",
+   "home": "Valencia CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-30",
+   "home": "FC Barcelona",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-31",
+   "home": "RC Celta (Vigo)",
+   "hg": 0,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-31",
+   "home": "Girona FC",
+   "hg": 3,
+   "ag": 2,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-31",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 30,
+   "date": "2024-03-31",
+   "home": "Real Madrid CF",
+   "hg": 2,
+   "ag": 0,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 30,
+   "date": "2024-04-01",
+   "home": "Villarreal CF",
+   "hg": 1,
+   "ag": 2,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-12",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-13",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 3,
+   "ag": 1,
+   "away": "Girona FC"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-13",
+   "home": "Rayo Vallecano",
+   "hg": 0,
+   "ag": 0,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-13",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-13",
+   "home": "C\u00e1diz CF",
+   "hg": 0,
+   "ag": 1,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-14",
+   "home": "UD Las Palmas",
+   "hg": 0,
+   "ag": 2,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-14",
+   "home": "Granada CF",
+   "hg": 2,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-14",
+   "home": "Athletic de Bilbao",
+   "hg": 1,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-14",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 2,
+   "ag": 2,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 31,
+   "date": "2024-04-16",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-19",
+   "home": "Athletic de Bilbao",
+   "hg": 1,
+   "ag": 1,
+   "away": "Granada CF"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-20",
+   "home": "RC Celta (Vigo)",
+   "hg": 4,
+   "ag": 1,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-20",
+   "home": "Rayo Vallecano",
+   "hg": 2,
+   "ag": 1,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-20",
+   "home": "Valencia CF",
+   "hg": 1,
+   "ag": 2,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-20",
+   "home": "Girona FC",
+   "hg": 4,
+   "ag": 1,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-21",
+   "home": "Getafe CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-21",
+   "home": "UD Almer\u00eda",
+   "hg": 1,
+   "ag": 2,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-21",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 2,
+   "ag": 0,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-21",
+   "home": "Real Madrid CF",
+   "hg": 3,
+   "ag": 2,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 32,
+   "date": "2024-04-22",
+   "home": "Sevilla FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-26",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-27",
+   "home": "UD Las Palmas",
+   "hg": 0,
+   "ag": 2,
+   "away": "Girona FC"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-27",
+   "home": "UD Almer\u00eda",
+   "hg": 1,
+   "ag": 3,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-27",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 3,
+   "ag": 0,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-27",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 3,
+   "ag": 1,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-28",
+   "home": "C\u00e1diz CF",
+   "hg": 1,
+   "ag": 1,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-28",
+   "home": "Granada CF",
+   "hg": 3,
+   "ag": 0,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-28",
+   "home": "Villarreal CF",
+   "hg": 3,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-28",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 33,
+   "date": "2024-04-29",
+   "home": "FC Barcelona",
+   "hg": 4,
+   "ag": 2,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-03",
+   "home": "Getafe CF",
+   "hg": 0,
+   "ag": 2,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-04",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 2,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-04",
+   "home": "Real Madrid CF",
+   "hg": 3,
+   "ag": 0,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-04",
+   "home": "Girona FC",
+   "hg": 4,
+   "ag": 2,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-04",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 0,
+   "ag": 1,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-05",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 0,
+   "ag": 2,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-05",
+   "home": "RC Celta (Vigo)",
+   "hg": 3,
+   "ag": 2,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-05",
+   "home": "Valencia CF",
+   "hg": 0,
+   "ag": 1,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-05",
+   "home": "Rayo Vallecano",
+   "hg": 0,
+   "ag": 1,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 34,
+   "date": "2024-05-05",
+   "home": "Sevilla FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-10",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 2,
+   "ag": 2,
+   "away": "Girona FC"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-11",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 1,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-11",
+   "home": "Villarreal CF",
+   "hg": 3,
+   "ag": 2,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-11",
+   "home": "Granada CF",
+   "hg": 0,
+   "ag": 4,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-11",
+   "home": "Athletic de Bilbao",
+   "hg": 2,
+   "ag": 2,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-12",
+   "home": "C\u00e1diz CF",
+   "hg": 1,
+   "ag": 0,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-12",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 1,
+   "ag": 0,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-12",
+   "home": "Valencia CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-12",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 3,
+   "ag": 2,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 35,
+   "date": "2024-05-13",
+   "home": "FC Barcelona",
+   "hg": 2,
+   "ag": 0,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-14",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 1,
+   "ag": 1,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-14",
+   "home": "Real Madrid CF",
+   "hg": 5,
+   "ag": 0,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-14",
+   "home": "Girona FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-15",
+   "home": "Rayo Vallecano",
+   "hg": 2,
+   "ag": 1,
+   "away": "Granada CF"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-15",
+   "home": "Sevilla FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-15",
+   "home": "Getafe CF",
+   "hg": 0,
+   "ag": 3,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-15",
+   "home": "RC Celta (Vigo)",
+   "hg": 2,
+   "ag": 1,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-16",
+   "home": "UD Las Palmas",
+   "hg": 2,
+   "ag": 2,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-16",
+   "home": "UD Almer\u00eda",
+   "hg": 0,
+   "ag": 2,
+   "away": "FC Barcelona"
+  },
+  {
+   "round": 36,
+   "date": "2024-05-16",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-18",
+   "home": "Deportivo Alav\u00e9s (Vitoria)",
+   "hg": 1,
+   "ag": 0,
+   "away": "Getafe CF"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "Athletic de Bilbao",
+   "hg": 2,
+   "ag": 0,
+   "away": "Sevilla FC"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "Atl\u00e9tico de Madrid",
+   "hg": 1,
+   "ag": 4,
+   "away": "CA Osasuna (Pamplona)"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "C\u00e1diz CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "UD Las Palmas"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "FC Barcelona",
+   "hg": 3,
+   "ag": 0,
+   "away": "Rayo Vallecano"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "Granada CF",
+   "hg": 1,
+   "ag": 2,
+   "away": "RC Celta (Vigo)"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "RCD Mallorca (Palma de M.)",
+   "hg": 2,
+   "ag": 2,
+   "away": "UD Almer\u00eda"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "Real Betis Balompi\u00e9 (Sevilla)",
+   "hg": 0,
+   "ag": 2,
+   "away": "Real Sociedad (San Sebasti\u00e1n)"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "Valencia CF",
+   "hg": 1,
+   "ag": 3,
+   "away": "Girona FC"
+  },
+  {
+   "round": 37,
+   "date": "2024-05-19",
+   "home": "Villarreal CF",
+   "hg": 4,
+   "ag": 4,
+   "away": "Real Madrid CF"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-24",
+   "home": "Girona FC",
+   "hg": 7,
+   "ag": 0,
+   "away": "Granada CF"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-25",
+   "home": "CA Osasuna (Pamplona)",
+   "hg": 1,
+   "ag": 1,
+   "away": "Villarreal CF"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-25",
+   "home": "Real Sociedad (San Sebasti\u00e1n)",
+   "hg": 0,
+   "ag": 2,
+   "away": "Atl\u00e9tico de Madrid"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-25",
+   "home": "UD Almer\u00eda",
+   "hg": 6,
+   "ag": 1,
+   "away": "C\u00e1diz CF"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-25",
+   "home": "Rayo Vallecano",
+   "hg": 0,
+   "ag": 1,
+   "away": "Athletic de Bilbao"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-25",
+   "home": "Real Madrid CF",
+   "hg": 0,
+   "ag": 0,
+   "away": "Real Betis Balompi\u00e9 (Sevilla)"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-26",
+   "home": "Getafe CF",
+   "hg": 1,
+   "ag": 2,
+   "away": "RCD Mallorca (Palma de M.)"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-26",
+   "home": "RC Celta (Vigo)",
+   "hg": 2,
+   "ag": 2,
+   "away": "Valencia CF"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-26",
+   "home": "UD Las Palmas",
+   "hg": 1,
+   "ag": 1,
+   "away": "Deportivo Alav\u00e9s (Vitoria)"
+  },
+  {
+   "round": 38,
+   "date": "2024-05-26",
+   "home": "Sevilla FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Barcelona"
+  }
+ ]
+}

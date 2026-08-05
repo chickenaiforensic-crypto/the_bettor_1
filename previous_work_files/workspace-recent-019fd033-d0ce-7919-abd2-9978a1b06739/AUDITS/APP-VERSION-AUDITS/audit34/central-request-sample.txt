@@ -1,0 +1,446 @@
+PITCH-RATING CENTRAL-REQUEST v1
+request-date|2026-08-02
+store-hash|5d6cb990
+system-snapshot|system-snapshot-20260802-5d6cb990.json
+return-to|data intake (Files) — drop results here; name returns central-request-20260802-r<n>.txt
+
+SECTION|ALB|ALB|window=2026-07-09..2026-08-02
+team|Vllaznia|2026-07-15|rows after 2026-07-15 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|B1|B1|window=<none>..2026-08-02
+team|(all B1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|ISL|ISL|window=2024-12-12..2026-08-02
+team|Víkingur Reykjavík|2025-07-17|rows after 2025-07-17 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|CYP|CYP|window=2024-10-24..2026-08-02
+team|Omonoia|2025-10-23|rows after 2025-10-23 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|CZ1|CZ1|window=2024-07-19..2026-08-02
+team|Artis Brno|2026-07-27|rows after 2026-07-27 + any cup ties played
+team|Banik Ostrava|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Bohemians 1905|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Ceske Budejovice|2025-09-24|rows after 2025-09-24 + any cup ties played
+team|Dukla Prague|2026-05-23|rows after 2026-05-23 + any cup ties played
+team|Hradec Kralove|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Jablonec|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Karvina|2026-05-23|rows after 2026-05-23 + any cup ties played
+team|Mlada Boleslav|2026-07-27|rows after 2026-07-27 + any cup ties played
+team|Pardubice|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Sigma Olomouc|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Slavia Prague|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Slovacko|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Slovan Liberec|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Sparta Prague|2026-07-31|rows after 2026-07-31 + any cup ties played
+team|Teplice|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Viktoria Plzen|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Zbrojovka Brno|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Zlin|2026-07-31|rows after 2026-07-31 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|CZ2|CZ2|window=2024-10-23..2026-08-02
+team|Benatky nad Jizerou|2024-10-31|rows after 2024-10-31 + any cup ties played
+team|Brozany|2025-09-23|rows after 2025-09-23 + any cup ties played
+team|Chrudim|2025-06-01|rows after 2025-06-01 + any cup ties played
+team|Domazlice|2025-09-24|rows after 2025-09-24 + any cup ties played
+team|Frydek-Mistek|2025-09-24|rows after 2025-09-24 + any cup ties played
+team|Hlinsko|2025-09-24|rows after 2025-09-24 + any cup ties played
+team|Hlucin|2025-03-11|rows after 2025-03-11 + any cup ties played
+team|Horni Redice|2025-09-23|rows after 2025-09-23 + any cup ties played
+team|Horovice|2024-10-23|rows after 2024-10-23 + any cup ties played
+team|Jihlava|2025-09-30|rows after 2025-09-30 + any cup ties played
+team|Karlovy Vary|2025-09-24|rows after 2025-09-24 + any cup ties played
+team|Kromeriz|2025-03-04|rows after 2025-03-04 + any cup ties played
+team|Lanznot|2025-09-16|rows after 2025-09-16 + any cup ties played
+team|Loko Praha|2024-10-30|rows after 2024-10-30 + any cup ties played
+team|Nove Sady|2025-10-29|rows after 2025-10-29 + any cup ties played
+team|Opava|2024-10-30|rows after 2024-10-30 + any cup ties played
+team|Petrin Plzen|2025-09-24|rows after 2025-09-24 + any cup ties played
+team|Police nad Metuji|2024-10-30|rows after 2024-10-30 + any cup ties played
+team|Taborsko|2026-05-30|rows after 2026-05-30 + any cup ties played
+team|Trinec|2025-10-01|rows after 2025-10-01 + any cup ties played
+team|Uhersky Brod|2024-11-05|rows after 2024-11-05 + any cup ties played
+team|Usti nad Labem|2025-09-24|rows after 2025-09-24 + any cup ties played
+team|Varnsdorf|2024-10-30|rows after 2024-10-30 + any cup ties played
+team|Vyskov|2025-06-01|rows after 2025-06-01 + any cup ties played
+team|Zapy|2024-10-30|rows after 2024-10-30 + any cup ties played
+team|Zizkov|2024-10-30|rows after 2024-10-30 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|DEN|DEN|window=2024-12-12..2026-08-02
+team|Brondby|2026-07-18|rows after 2026-07-18 + any cup ties played
+team|Copenhagen|2025-07-29|rows after 2025-07-29 + any cup ties played
+team|Midtjylland|2025-07-31|rows after 2025-07-31 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|POL|POL|window=2024-11-28..2026-08-02
+team|Legia Warsaw|2025-11-06|rows after 2025-11-06 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|E1|E1|window=2026-03-21..2026-08-02
+team|Blackburn|2026-04-14|rows after 2026-04-14 + any cup ties played
+team|Blackburn Rovers|none|no match rows
+team|Bristol City|2026-04-21|rows after 2026-04-21 + any cup ties played
+team|Burnley|none|no match rows
+team|Cardiff|none|no match rows
+team|Coventry|none|no match rows
+team|Derby|2026-04-11|rows after 2026-04-11 + any cup ties played
+team|Derby County|none|no match rows
+team|Hull|none|no match rows
+team|Ipswich|2026-04-28|rows after 2026-04-28 + any cup ties played
+team|Leeds|none|no match rows
+team|Luton|none|no match rows
+team|Middlesbrough|2026-05-12|rows after 2026-05-12 + any cup ties played
+team|Millwall|none|no match rows
+team|Norwich|none|no match rows
+team|Oxford|2026-03-21|rows after 2026-03-21 + any cup ties played
+team|Oxford United|none|no match rows
+team|Plymouth|none|no match rows
+team|Portsmouth|none|no match rows
+team|Preston|2026-05-02|rows after 2026-05-02 + any cup ties played
+team|Preston North End|none|no match rows
+team|QPR|none|no match rows
+team|Sheffield United|none|no match rows
+team|Sheffield Weds|none|no match rows
+team|Stoke|none|no match rows
+team|Sunderland|none|no match rows
+team|Swansea|2026-04-18|rows after 2026-04-18 + any cup ties played
+team|Swansea City|none|no match rows
+team|Watford|none|no match rows
+team|West Brom|none|no match rows
+team|Wrexham|2026-04-07|rows after 2026-04-07 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|E2|E2|window=<none>..2026-08-02
+team|(all E2 clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|E3|E3|window=<none>..2026-08-02
+team|(all E3 clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|E0|E0|window=2026-03-21..2026-08-02
+team|Arsenal|2026-04-04|rows after 2026-04-04 + any cup ties played
+team|Aston Villa|none|no match rows
+team|Bournemouth|none|no match rows
+team|Brentford|none|no match rows
+team|Brighton|none|no match rows
+team|Chelsea|none|no match rows
+team|Crystal Palace|none|no match rows
+team|Everton|none|no match rows
+team|Fulham|none|no match rows
+team|Leicester|none|no match rows
+team|Liverpool|none|no match rows
+team|Man City|2026-04-25|rows after 2026-04-25 + any cup ties played
+team|Man United|none|no match rows
+team|Newcastle|none|no match rows
+team|Nott'm Forest|none|no match rows
+team|Southampton|2026-07-29|rows after 2026-07-29 + any cup ties played
+team|Tottenham|none|no match rows
+team|West Ham|none|no match rows
+team|Wolves|none|no match rows
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|F1|F1|window=<none>..2026-08-02
+team|(all F1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|F2|F2|window=<none>..2026-08-02
+team|(all F2 clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|D2|D2|window=2026-07-24..2026-08-02
+team|Bielefeld|none|no match rows
+team|Braunschweig|2026-07-24|rows after 2026-07-24 + any cup ties played
+team|Darmstadt|none|no match rows
+team|Dresden|none|no match rows
+team|Elversberg|none|no match rows
+team|FC Koln|none|no match rows
+team|Fortuna Dusseldorf|none|no match rows
+team|Greuther Furth|none|no match rows
+team|Hamburg|none|no match rows
+team|Hannover|none|no match rows
+team|Hertha|none|no match rows
+team|Kaiserslautern|none|no match rows
+team|Karlsruhe|none|no match rows
+team|Magdeburg|none|no match rows
+team|Nurnberg|none|no match rows
+team|Paderborn|2026-07-29|rows after 2026-07-29 + any cup ties played
+team|Preußen Münster|none|no match rows
+team|Regensburg|none|no match rows
+team|Schalke 04|none|no match rows
+team|Ulm|none|no match rows
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|D1|D1|window=<none>..2026-08-02
+team|(all D1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|G1|G1|window=<none>..2026-08-02
+team|(all G1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|Highland League|Highland League|window=<none>..2026-08-02
+team|(all Highland League clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|I1|I1|window=<none>..2026-08-02
+team|(all I1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|I2|I2|window=<none>..2026-08-02
+team|(all I2 clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|KOS|KOS|window=2024-07-23..2026-08-02
+team|Drenica Skenderaj|2026-05-17|rows after 2026-05-17 + any cup ties played
+team|Drita|2026-05-31|rows after 2026-05-31 + any cup ties played
+team|Dukagjini|2026-04-26|rows after 2026-04-26 + any cup ties played
+team|Ferizaj|2026-05-10|rows after 2026-05-10 + any cup ties played
+team|Gjilani|2026-04-29|rows after 2026-04-29 + any cup ties played
+team|KF Ballkani|2026-04-19|rows after 2026-04-19 + any cup ties played
+team|Llapi|2026-05-24|rows after 2026-05-24 + any cup ties played
+team|Malisheva|2026-07-23|rows after 2026-07-23 + any cup ties played
+team|Prishtina|2026-05-02|rows after 2026-05-02 + any cup ties played
+team|Prishtina E Re|2026-04-11|rows after 2026-04-11 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|IRL|IRL|window=2025-10-23..2026-08-02
+team|Shamrock Rovers|2026-06-30|rows after 2026-06-30 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|Lowland League|Lowland League|window=<none>..2026-08-02
+team|(all Lowland League clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|MLS|MLS|window=2024-05-07..2026-08-02
+team|Atlanta United FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Austin FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|CF Montréal|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Charlotte FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Chicago Fire FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Colorado Rapids|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Columbus Crew|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|D.C. United|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|FC Cincinnati|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|FC Dallas|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Houston Dynamo FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Inter Miami CF|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|LA Galaxy|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Los Angeles FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Minnesota United FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Nashville SC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|New England Revolution|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|New York City FC|2026-07-31|rows after 2026-07-31 + any cup ties played
+team|New York Red Bulls|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Orlando City SC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Philadelphia Union|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Portland Timbers|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Real Salt Lake|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|San Diego FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|San Jose Earthquakes|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Seattle Sounders FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Sporting Kansas City|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|St. Louis City SC|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Toronto FC|2026-07-31|rows after 2026-07-31 + any cup ties played
+team|Vancouver Whitecaps FC|2026-07-25|rows after 2026-07-25 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|MLT|MLT|window=2024-07-23..2026-08-02
+team|Hamrun Spartans|2025-11-27|rows after 2025-11-27 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|National League|National League|window=2026-07-18..2026-08-02
+team|Eastleigh|2026-07-18|rows after 2026-07-18 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|N1|N1|window=<none>..2026-08-02
+team|(all N1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|NIR|NIR|window=2026-07-04..2026-08-02
+team|Cliftonville|2026-07-04|rows after 2026-07-04 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|P1|P1|window=2026-07-11..2026-08-02
+team|Alverca|none|no match rows
+team|Arouca|none|no match rows
+team|AVS|none|no match rows
+team|Benfica|none|no match rows
+team|Boavista|none|no match rows
+team|Casa Pia|none|no match rows
+team|Estoril|none|no match rows
+team|Estrela|none|no match rows
+team|Famalicao|none|no match rows
+team|Farense|none|no match rows
+team|Gil Vicente|none|no match rows
+team|Guimaraes|none|no match rows
+team|Moreirense|none|no match rows
+team|Nacional|none|no match rows
+team|Porto|2026-07-11|rows after 2026-07-11 + any cup ties played
+team|Rio Ave|none|no match rows
+team|Santa Clara|none|no match rows
+team|Sp Braga|none|no match rows
+team|Sp Lisbon|none|no match rows
+team|Tondela|none|no match rows
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|FNL|FNL|window=2024-11-26..2026-08-02
+team|Arsenal Tula|2026-03-05|rows after 2026-03-05 + any cup ties played
+team|KAMAZ|2025-11-27|rows after 2025-11-27 + any cup ties played
+team|Neftekhimik Nizhnekamsk|2025-11-26|rows after 2025-11-26 + any cup ties played
+team|Shinnik Yaroslavl|2026-05-31|rows after 2026-05-31 + any cup ties played
+team|Torpedo Moscow|2025-11-25|rows after 2025-11-25 + any cup ties played
+team|Tyumen|2024-11-26|rows after 2024-11-26 + any cup ties played
+team|Ural Yekaterinburg|2025-04-15|rows after 2025-04-15 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|RPL|RPL|window=2024-07-20..2026-08-02
+team|Akhmat Grozny|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Akron Tolyatti|2026-08-01|rows after 2026-08-01 + any cup ties played
+team|Baltika Kaliningrad|2026-07-24|rows after 2026-07-24 + any cup ties played
+team|CSKA Moscow|2026-07-24|rows after 2026-07-24 + any cup ties played
+team|Dynamo Makhachkala|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Dynamo Moscow|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Fakel Voronezh|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|FC Khimki|2025-05-19|rows after 2025-05-19 + any cup ties played
+team|FC Krasnodar|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|FC Orenburg|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|FC Rostov|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Krylia Sovetov Samara|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Lokomotiv Moscow|2026-07-26|rows after 2026-07-26 + any cup ties played
+team|Pari Nizhny Novgorod|2026-05-11|rows after 2026-05-11 + any cup ties played
+team|PFC Sochi|2026-05-11|rows after 2026-05-11 + any cup ties played
+team|Rodina Moscow|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Rubin Kazan|2026-08-01|rows after 2026-08-01 + any cup ties played
+team|Spartak Moscow|2026-07-25|rows after 2026-07-25 + any cup ties played
+team|Zenit St Petersburg|2026-07-25|rows after 2026-07-25 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|SC1|SC1|window=<none>..2026-08-02
+team|(all SC1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|Scottish Championship|Scottish Championship|window=<none>..2026-08-02
+team|(all Scottish Championship clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|Scottish League One|Scottish League One|window=<none>..2026-08-02
+team|(all Scottish League One clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|Scottish League Two|Scottish League Two|window=<none>..2026-08-02
+team|(all Scottish League Two clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|SC0|SC0|window=2024-10-24..2026-08-02
+team|Aberdeen|2026-04-11|rows after 2026-04-11 + any cup ties played
+team|Celtic|2026-05-16|rows after 2026-05-16 + any cup ties played
+team|Dundee|2026-02-28|rows after 2026-02-28 + any cup ties played
+team|Dundee United|none|no match rows
+team|Falkirk|2026-05-16|rows after 2026-05-16 + any cup ties played
+team|Hearts|2026-05-16|rows after 2026-05-16 + any cup ties played
+team|Hibernian|2026-07-23|rows after 2026-07-23 + any cup ties played
+team|Kilmarnock|2026-04-04|rows after 2026-04-04 + any cup ties played
+team|Livingston|2026-03-14|rows after 2026-03-14 + any cup ties played
+team|Motherwell|2026-05-16|rows after 2026-05-16 + any cup ties played
+team|Rangers|2026-05-16|rows after 2026-05-16 + any cup ties played
+team|Ross County|none|no match rows
+team|St Johnstone|none|no match rows
+team|St Mirren|2026-02-14|rows after 2026-02-14 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|SRB|SRB|window=2025-08-07..2026-08-02
+team|Partizan|2025-08-14|rows after 2025-08-14 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|SVN|SVN|window=2025-10-23..2026-08-02
+team|Celje|2026-02-26|rows after 2026-02-26 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|SP2|SP2|window=<none>..2026-08-02
+team|(all SP2 clubs)|none|full match rows for window: two completed seasons + current to request date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|SP1|SP1|window=<none>..2026-08-02
+team|(all SP1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|SWE|SWE|window=2024-12-12..2026-08-02
+team|Djurgården|2024-12-19|rows after 2024-12-19 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|T1|T1|window=<none>..2026-08-02
+team|(all T1 clubs)|none|full match rows for window: two completed seasons + current to gather date
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|USL|USL|window=2024-05-07..2026-08-02
+team|Charleston Battery|2024-05-21|rows after 2024-05-21 + any cup ties played
+team|Detroit City FC|2024-05-07|rows after 2024-05-07 + any cup ties played
+team|FC Tulsa|2024-05-21|rows after 2024-05-21 + any cup ties played
+team|Indy Eleven|2024-08-27|rows after 2024-08-27 + any cup ties played
+team|Las Vegas Lights FC|2024-05-08|rows after 2024-05-08 + any cup ties played
+team|Loudoun United FC|2024-05-21|rows after 2024-05-21 + any cup ties played
+team|Louisville City FC|2024-05-08|rows after 2024-05-08 + any cup ties played
+team|Memphis 901 FC|2024-05-07|rows after 2024-05-07 + any cup ties played
+team|New Mexico United|2024-07-10|rows after 2024-07-10 + any cup ties played
+team|Oakland Roots SC|2024-05-07|rows after 2024-05-07 + any cup ties played
+team|Phoenix Rising FC|2024-05-22|rows after 2024-05-22 + any cup ties played
+team|Sacramento Republic FC|2024-07-10|rows after 2024-07-10 + any cup ties played
+team|Tampa Bay Rowdies|2024-05-22|rows after 2024-05-22 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+SECTION|USL1|USL1|window=2024-05-07..2026-08-02
+team|Charlotte Independence|2024-05-07|rows after 2024-05-07 + any cup ties played
+team|Union Omaha|2024-05-08|rows after 2024-05-08 + any cup ties played
+acceptance|row reconciliation vs official table|20/20 split reproduction|dup/date rules|sources hierarchy
+END-SECTION
+
+END

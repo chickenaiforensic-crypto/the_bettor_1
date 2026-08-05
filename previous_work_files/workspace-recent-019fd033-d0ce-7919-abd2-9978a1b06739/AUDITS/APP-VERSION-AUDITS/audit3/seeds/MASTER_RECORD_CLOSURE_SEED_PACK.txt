@@ -1,0 +1,536 @@
+BP-TEAM-PACK v2
+# batch: MASTER record-closure-only pack - all originally missing record rows
+# created: 2026-07-30
+# cutoff: 2026-07-30
+# note: excludes FORM and MATCH rows intentionally to avoid duplicate graph rows during record-closure test
+NOTE|info|research_ack|ACKNOWLEDGED — master record-closure-only pack assembled from approved clean batches; contains TEAM, VENUE, NOTE, SEASON and SOURCE rows only; no FORM or MATCH rows; ready for controlled Data-tab load test.
+NOTE|info|batch_start|J1 from APPROVED-CLEAN-JOB1-E0-MISSING-RECORDS-COMBINED.txt
+TEAM|Ipswich|England|England Premier League|E0|Ipswich Town;Ipswich Town FC;Town;Tractor Boys|Portman Road|Ipswich|England|grass|30056|1878|https://www.itfc.co.uk/
+VENUE|Ipswich|Portman Road|Ipswich|England|grass|30056|normal|Normal home venue|J1-source-venue-ips
+NOTE|info|Ipswich|App code E0 is current app rating context; SEASON row uses Championship because it is the latest completed domestic season.
+SEASON|Ipswich|2025-26|EFL Championship|domestic league|46|23|15|8|80|47|23|14|8|1|43|17|23|9|7|7|37|30|2|84|J1-source-season-ips
+SOURCE|J1-source-venue-ips|https://www.transfermarkt.us/ipswich-town/stadion/verein/677|2026-07-30|stadium-database|Portman Road stadium identity and 30056 capacity
+SOURCE|J1-source-season-ips|https://fbref.com/en/squads/b74092de/Ipswich-Town-Stats|2026-07-30|results-database|Final 2025-26 Championship record: 46 matches, 23-15-8, 80-47, 84 points; home record 14-8-1 and away record 9-7-7
+SOURCE|J1-source-form-ips|https://fbref.com/en/squads/b74092de/2025-2026/matchlogs/c10/schedule/Ipswich-Town-Scores-and-Fixtures-Championship|2026-07-30|results-database|League component of the consecutive last-15 match sequence; FORM calculated from the 14 listed league matches plus the official 29 July friendly
+SOURCE|J1-source-match-ips-league|https://fbref.com/en/squads/b74092de/2025-2026/matchlogs/c10/schedule/Ipswich-Town-Scores-and-Fixtures-Championship|2026-07-30|results-database|Completed 2025-26 Championship fixture log, including dates, official home-away order and final scores
+SOURCE|J1-source-match-ips-osa|https://www.itfc.co.uk/news/2026/july/29/Ipswich-Town-Osasuna-pre-season-friendly-match-report/|2026-07-30|club|Official Ipswich Town match report: Town 1 CA Osasuna 2, played 29 July 2026 at JobServe Community Stadium, Colchester
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I will verify time-sensitive facts against current sources, use plain URLs only, mark unverifiable items with NOTE blocker instead of guessing, and return one parseable BP-TEAM-PACK v2 block only.
+TEAM|Leicester|England|England Premier League|E0|Leicester City;Leicester City FC;The Foxes;Leicester Fosse|King Power Stadium|Leicester|England|grass|32259|1884|https://www.lcfc.com/
+TEAM|Málaga CF|Spain|Spain La Liga|NA|Málaga;Malaga CF;Malaga|La Rosaleda|Málaga|Spain|grass|unknown|unknown|https://www.malagacf.com/
+TEAM|Cádiz CF|Spain|Spain La Liga|NA|Cádiz;Cadiz CF;Cadiz|Nuevo Mirandilla|Cádiz|Spain|grass|unknown|unknown|https://www.cadizcf.com/
+TEAM|Burton Albion|England|England League One|E2|Burton Albion FC;The Brewers|Pirelli Stadium|Burton upon Trent|England|grass|unknown|unknown|https://www.burtonalbionfc.co.uk/
+TEAM|Bristol Rvs|England|England League One|E2|Bristol Rovers;Bristol Rovers FC;The Gas|Memorial Stadium|Bristol|England|grass|unknown|unknown|https://www.bristolrovers.co.uk/
+TEAM|Northampton Town|England|England League One|E2|Northampton;Northampton Town FC;The Cobblers|Sixfields Stadium|Northampton|England|grass|unknown|unknown|https://www.ntfc.co.uk/
+TEAM|Blackburn|England|England Championship|E1|Blackburn Rovers;Blackburn Rovers FC|Ewood Park|Blackburn|England|grass|unknown|unknown|https://www.rovers.co.uk/
+TEAM|Millwall|England|England Championship|E1|Millwall FC;The Lions|The Den|London|England|grass|unknown|unknown|https://www.millwallfc.co.uk/
+TEAM|Hull|England|England Championship|E1|Hull City;Hull City AFC|MKM Stadium|Kingston upon Hull|England|grass|unknown|unknown|https://www.wearehullcity.co.uk/
+TEAM|Portsmouth|England|England Championship|E1|Portsmouth FC;Pompey|Fratton Park|Portsmouth|England|grass|unknown|unknown|https://www.portsmouthfc.co.uk/
+TEAM|Swansea|Wales|England Championship|E1|Swansea City;Swansea City AFC;The Swans|Swansea.com Stadium|Swansea|Wales|grass|unknown|unknown|https://www.swanseacity.com/
+TEAM|Sheffield Weds|England|England Championship|E1|Sheffield Wednesday;Sheffield Wednesday FC|Hillsborough Stadium|Sheffield|England|grass|unknown|unknown|https://www.swfc.co.uk/
+TEAM|Preston|England|England Championship|E1|Preston North End;Preston North End FC;PNE|Deepdale|Preston|England|grass|unknown|unknown|https://www.pnefc.net/
+TEAM|Watford|England|England Championship|E1|Watford FC;The Hornets|Vicarage Road|Watford|England|grass|unknown|unknown|https://www.watfordfc.com/
+TEAM|QPR|England|England Championship|E1|Queens Park Rangers;Queens Park Rangers FC|Loftus Road|London|England|grass|unknown|unknown|https://www.qpr.co.uk/
+TEAM|Bristol City|England|England Championship|E1|Bristol City FC;The Robins|Ashton Gate|Bristol|England|grass|unknown|unknown|https://www.bcfc.co.uk/
+VENUE|Leicester|King Power Stadium|Leicester|England|grass|32259|normal|Normal home venue|J1-source-venue-lei
+NOTE|info|Leicester|App code E0 is current app rating context; SEASON row uses EFL Championship because it is the latest completed domestic season.
+NOTE|info|Leicester|The final 46 points include a six-point Profitability and Sustainability Rules deduction. The on-pitch total was 52 points from 12 wins and 16 draws.
+SEASON|Leicester|2025-26|EFL Championship|domestic league|46|12|16|18|58|68|23|7|7|9|31|34|23|5|9|9|27|34|23|46|J1-source-season-lei
+SOURCE|J1-source-venue-lei|https://www.transfermarkt.us/leicester-city/stadion/verein/1003|2026-07-30|stadium-database|King Power Stadium identity and capacity
+SOURCE|J1-source-season-lei|https://www.soccerstats.com/teamstats.asp?league=england2&stats=u332-leicester-city|2026-07-30|results-database|Final Championship home and away records and scoring splits: home 23 matches, 7-7-9, 31-34; away 23 matches, 5-9-9, 27-34
+SOURCE|J1-source-season-lei-final|https://fbref.com/en/squads/a2d435b3/history/Leicester-City-Stats-and-History|2026-07-30|results-database|Final Championship record: 46 matches, 12-16-18, 58-68, 23rd, 46 points after six-point deduction
+SOURCE|J1-source-deduction-lei|https://www.theguardian.com/football/2026/feb/05/leicester-city-deducted-six-points-financial-rules-breach-relegation-danger-championship|2026-07-30|news-report|Six-point PSR deduction applied during the Championship season
+SOURCE|J1-source-form-lei|https://fbref.com/en/squads/a2d435b3/2025-2026/matchlogs/all_comps/schedule/Leicester-City-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|League component of the consecutive last-15 sequence; FORM calculated from the ten listed league matches and five official pre-season friendlies
+SOURCE|J1-source-match-lei-league|https://fbref.com/en/squads/a2d435b3/2025-2026/matchlogs/all_comps/schedule/Leicester-City-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Completed 2025-26 Championship fixture log, including exact dates, official home-away order and final scores
+SOURCE|J1-source-match-lei-preseason-eng|https://www.lcfc.com/media-article/leicester-city-lcfc-pre-season-home-friendly-king-power-stadium-genoa-serie-a-details|2026-07-30|club|Official Leicester City pre-season schedule and result references for Northampton Town, Bristol Rovers and Burton Albion
+SOURCE|J1-source-match-lei-cadiz|https://www.lcfc.com/media-article/leicester-city-lcfc-match-report-cadiz-cf-round-up-pre-season|2026-07-30|club|Official match report: Cádiz CF 0 Leicester City 1 on 22 July 2026 at Estadio Nuevo Mirador
+SOURCE|J1-source-match-lei-malaga|https://www.lcfc.com/media-article/leicester-city-lcfc-malaga-cf-pre-season-friendly-match-report|2026-07-30|club|Official match report: Málaga CF 3 Leicester City 3 on 25 July 2026
+SOURCE|J1-source-venue-lei-malaga|https://www.lcfc.com/media-article/malaga-friendly-moved-to-banus-football-center-in-marbella|2026-07-30|club|Official venue-change notice confirming Banús Football Center, Marbella, for the 25 July Málaga CF friendly
+TEAM|Southampton|England|England Premier League|E0|Southampton FC;The Saints;Saints|St Mary's Stadium|Southampton|England|grass|32384|1885|https://www.southamptonfc.com/
+TEAM|Paderborn|Germany|Germany 2. Bundesliga|D2|SC Paderborn 07;SC Paderborn;Paderborn 07|Home Deluxe Arena|Paderborn|Germany|grass|unknown|unknown|unknown
+TEAM|Braunschweig|Germany|Germany 2. Bundesliga|D2|Eintracht Braunschweig;Eintracht Braunschweig FC|Eintracht-Stadion|Braunschweig|Germany|grass|unknown|unknown|unknown
+TEAM|Eastleigh|England|National League|NA|Eastleigh FC|Silverlake Stadium|Eastleigh|England|grass|unknown|unknown|unknown
+TEAM|Man City|England|England Premier League|E0|Manchester City;Manchester City FC|Etihad Stadium|Manchester|England|grass|unknown|unknown|https://www.mancity.com/
+TEAM|Derby|England|England Championship|E1|Derby County;Derby County FC|Pride Park Stadium|Derby|England|grass|unknown|unknown|unknown
+TEAM|Oxford|England|England Championship|E1|Oxford United;Oxford United FC|Kassam Stadium|Oxford|England|grass|unknown|unknown|unknown
+VENUE|Southampton|St Mary's Stadium|Southampton|England|grass|32384|normal|Normal home venue|J1-source-venue-sou
+NOTE|info|Southampton|App code E0 is current app rating context; SEASON row uses EFL Championship because it is the latest completed domestic season.
+NOTE|info|Southampton-Middlesbrough-2026-PO-SF2|The match finished 2-1 after extra time; MATCH row records the required 90-minute score of 1-1.
+SEASON|Southampton|2025-26|EFL Championship|domestic league|46|22|14|10|82|56|23|12|8|3|38|19|23|10|6|7|44|37|4|80|J1-source-season-sou
+SOURCE|J1-source-venue-sou|https://www.southamptonfc.news/club/stadium/|2026-07-30|stadium-database|St Mary's Stadium identity and 32384 capacity
+SOURCE|J1-source-season-sou|https://www.soccerstats.com/teamstats.asp?league=england2&stats=u326-southampton|2026-07-30|results-database|Final Championship record and verified home-away split: 46 matches, 22-14-10, 82-56, 80 points; home 23 matches, 12-8-3, 38-19; away 23 matches, 10-6-7, 44-37
+SOURCE|J1-source-season-sou-final|https://fbref.com/en/squads/33c895d4/Southampton-Stats|2026-07-30|results-database|Final 2025-26 Championship record: 22-14-10, 80 points, fourth place
+SOURCE|J1-source-form-sou|https://fbref.com/en/squads/33c895d4/2025-2026/matchlogs/all_comps/schedule/Southampton-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|2025-26 component of the consecutive last-15 sequence; FORM calculated from listed MATCH rows, including three completed 2026 pre-season friendlies
+SOURCE|J1-source-match-sou-2025-26|https://fbref.com/en/squads/33c895d4/2025-2026/matchlogs/all_comps/schedule/Southampton-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Completed 2025-26 all-competition fixture log, including dates, official home-away order and final scores; the 12 May play-off second leg required extra time
+SOURCE|J1-source-match-sou-paderborn|https://www.southamptonfc.com/en/news/article/report-saints-suffer-late-defeat-in-paderborn-test|2026-07-30|club|Official report: SC Paderborn 07 2 Southampton 1 on 29 July 2026 at SC Paderborn Trainingszentrum, behind closed doors
+SOURCE|J1-source-match-sou-braunschweig|https://www.southamptonfc.com/en/news/article/eckert-pleased-with-saints-sharpness|2026-07-30|club|Official report: Eintracht Braunschweig 0 Southampton 1 on 24 July 2026 at Eintracht-Stadion
+SOURCE|J1-source-match-sou-eastleigh|https://www.bbc.com/sport/football/articles/cvgw05837nko|2026-07-30|news-report|Completed friendly: Eastleigh 1 Southampton 3 on 18 July 2026 at Silverlake Stadium
+NOTE|info|batch_start|J2 from APPROVED-CLEAN-JOB2-ROSS-STJOHNSTONE-BP-TEAM-PACK-v2.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I will verify time-sensitive facts against current sources, use plain URLs only, mark unverifiable items with NOTE blocker instead of guessing, self-audit before delivery, and return one parseable BP-TEAM-PACK v2 block only.
+TEAM|Ross County|Scotland|Scottish Premiership|SC0|Ross County FC;The Staggies|Global Energy Stadium|Dingwall|Scotland|grass|6541|1929|https://www.rosscountyfootballclub.co.uk/
+TEAM|St Johnstone|Scotland|Scottish Premiership|SC0|St Johnstone FC;Saints|McDiarmid Park|Perth|Scotland|grass|10696|1884|https://www.perthstjohnstonefc.co.uk/
+TEAM|Nairn County|Scotland|Highland League|NA|Nairn County FC|Station Park|Nairn|Scotland|grass|unknown|unknown|https://www.nairncountyfc.co.uk/
+TEAM|Inverness CT|Scotland|Scottish League One|NA|Inverness Caledonian Thistle;Inverness Caley Thistle|Caledonian Stadium|Inverness|Scotland|grass|unknown|unknown|https://ictfc.com/
+TEAM|Clachnacuddin|Scotland|Highland League|NA|Clachnacuddin FC;Clach|Grant Street Park|Inverness|Scotland|grass|unknown|unknown|https://www.clachfc.co.uk/
+TEAM|Invergordon|Scotland|Highland League|NA|Invergordon FC|Recreation Grounds|Invergordon|Scotland|grass|unknown|unknown|unknown
+TEAM|Forres Mechanics|Scotland|Highland League|NA|Forres Mechanics FC|Mosset Park|Forres|Scotland|grass|unknown|unknown|https://www.forresmechanicsfc.co.uk/
+TEAM|Raith Rovers|Scotland|Scottish Championship|SC1|Raith Rovers FC|Stark's Park|Kirkcaldy|Scotland|grass|unknown|unknown|https://www.raithrovers.net/
+TEAM|Greenock Morton|Scotland|Scottish Championship|SC1|Morton;Greenock Morton FC|Cappielow Park|Greenock|Scotland|grass|unknown|unknown|https://www.gmfc.net/
+TEAM|Ayr United|Scotland|Scottish Championship|SC1|Ayr United FC|Somerset Park|Ayr|Scotland|grass|unknown|unknown|https://ayrunitedfc.co.uk/
+TEAM|Queen's Park|Scotland|Scottish Championship|SC1|Queen's Park FC|Hampden Park|Glasgow|Scotland|grass|unknown|unknown|https://queensparkfc.co.uk/
+TEAM|Airdrieonians|Scotland|Scottish Championship|SC1|Airdrieonians FC|Albert Bartlett Stadium|Airdrie|Scotland|grass|unknown|unknown|https://www.airdriefc.com/
+TEAM|Partick Thistle|Scotland|Scottish Championship|SC1|Partick Thistle FC|Firhill Stadium|Glasgow|Scotland|grass|unknown|unknown|https://ptfc.co.uk/
+TEAM|Dunfermline Athletic|Scotland|Scottish Championship|SC1|Dunfermline;Dunfermline Athletic FC|KDM Group East End Park|Dunfermline|Scotland|grass|unknown|unknown|https://dafc.co.uk/
+TEAM|Arbroath|Scotland|Scottish Championship|NA|Arbroath FC|Gayfield Park|Arbroath|Scotland|grass|unknown|unknown|https://www.arbroathfc.co.uk/
+TEAM|Forfar Athletic|Scotland|Scottish League Two|NA|Forfar;Forfar Athletic FC|Station Park|Forfar|Scotland|grass|unknown|unknown|https://www.forfarathletic.co.uk/
+TEAM|Montrose|Scotland|Scottish League One|NA|Montrose FC|Links Park|Montrose|Scotland|grass|unknown|unknown|https://montrosefc.co.uk/
+TEAM|Cove Rangers|Scotland|Scottish League One|NA|Cove Rangers FC|Balmoral Stadium|Aberdeen|Scotland|grass|unknown|unknown|https://coverangersfc.com/
+TEAM|Linlithgow Rose|Scotland|Lowland League|NA|Linlithgow Rose FC|Prestonfield|Linlithgow|Scotland|grass|unknown|unknown|https://linlithgowrose.co.uk/
+TEAM|East Fife|Scotland|Scottish League One|NA|East Fife FC|Bayview Stadium|Methil|Scotland|grass|unknown|unknown|https://www.eastfifefc.info/
+VENUE|Ross County|Global Energy Stadium|Dingwall|Scotland|grass|6541|normal|Normal home venue|J2-source-venue-ros
+VENUE|St Johnstone|McDiarmid Park|Perth|Scotland|grass|10696|normal|Normal home venue|J2-source-venue-stj
+NOTE|info|Ross County|App code SC0 is current app rating context; SEASON row uses Scottish Championship because it is the latest completed domestic season.
+NOTE|info|St Johnstone|App code SC0 is current app rating context; SEASON row uses Scottish Championship because it is the latest completed domestic season.
+SEASON|Ross County|2025-26|Scottish Championship|domestic league|36|8|10|18|36|57|18|6|3|9|24|24|18|2|7|9|12|33|10|34|J2-source-season-ros
+SEASON|St Johnstone|2025-26|Scottish Championship|domestic league|36|22|11|3|67|25|18|11|6|1|37|11|18|11|5|2|30|14|1|77|J2-source-season-stj
+SOURCE|J2-source-venue-ros|https://www.transfermarkt.us/ross-county-fc/stadion/verein/2759|2026-07-30|stadium-database|Global Energy Stadium identity, natural-grass surface and 6541 capacity
+SOURCE|J2-source-venue-stj|https://www.perthstjohnstonefc.co.uk/club/mcdiarmid-park/|2026-07-30|club|McDiarmid Park normal home venue
+SOURCE|J2-source-season-ros|https://fbref.com/en/squads/a5298e9f/2025-2026/matchlogs/all_comps/schedule/Ross-County-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Final Championship record 36 matches, 8-10-18, 36-57, 34 points; home 6-3-9 and away 2-7-9; goal splits calculated from completed 18-match home and away fixture lists
+SOURCE|J2-source-season-stj|https://fbref.com/en/squads/dd289621/2025-2026/matchlogs/all_comps/schedule/St-Johnstone-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Final Championship record 36 matches, 22-11-3, 67-25, 77 points; home 11-6-1 and away 11-5-2; goal splits calculated from completed 18-match home and away fixture lists
+SOURCE|J2-source-form-ros|https://fbref.com/en/squads/a5298e9f/2025-2026/matchlogs/all_comps/schedule/Ross-County-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|League component of consecutive last-15 Ross County results; FORM calculated from listed MATCH rows
+SOURCE|J2-source-form-stj|https://fbref.com/en/squads/dd289621/2025-2026/matchlogs/all_comps/schedule/St-Johnstone-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|League component of consecutive last-15 St Johnstone results; FORM calculated from listed MATCH rows
+SOURCE|J2-source-match-ros-league|https://fbref.com/en/squads/a5298e9f/2025-2026/matchlogs/all_comps/schedule/Ross-County-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Completed Scottish Championship fixture log, including dates, home-away order and scores
+SOURCE|J2-source-match-ros-friendlies|https://www.ross-shirejournal.co.uk/sport/ross-county-take-on-clachnacuddin-in-latest-pre-season-frien-438929/|2026-07-30|news-report|Ross County June-July 2026 pre-season sequence including Invergordon, Forres Mechanics and Clachnacuddin results; Nairn County score cross-checked against source-match-ros-nairn
+SOURCE|J2-source-match-ros-nairn|https://www.pressandjournal.co.uk/fp/sport/football/highland-league/7060978/nairn-county-ross-county-friendly-match-report/|2026-07-30|news-report|Nairn County 2 Ross County 2 on 14 July 2026 at Station Park
+SOURCE|J2-source-match-stj-league|https://fbref.com/en/squads/dd289621/2025-2026/matchlogs/all_comps/schedule/St-Johnstone-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Completed Scottish Championship fixture log, including dates, home-away order and scores
+SOURCE|J2-source-match-stj-friendlies|https://www.bbc.co.uk/sport/articles/c70yv1vyn78o|2026-07-30|news-report|Pre-season results: Forfar Athletic 0 St Johnstone 4 and Montrose 0 St Johnstone 3; Cove Rangers score cross-checked against BBC team results archive
+SOURCE|J2-source-match-stj-cup|https://www.bbc.co.uk/sport/football/teams/st-johnstone/scores-fixtures|2026-07-30|results-database|Completed 2026-27 League Cup group-stage results, including Linlithgow Rose 0 St Johnstone 2, St Johnstone 3 Greenock Morton 0, Inverness CT 1 St Johnstone 0, and St Johnstone 1 East Fife 1
+NOTE|info|batch_start|B3 from APPROVED-CLEAN-BATCH3-RECORD-CLOSURE-BEERSCHOT-KORTRIJK-BOCHUM-KIEL.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I will verify time-sensitive facts against current sources, use plain URLs only, mark unverifiable items with NOTE blocker instead of guessing, self-audit before delivery, and return one parseable BP-TEAM-PACK v2 block only.
+TEAM|Beerschot VA|Belgium|Belgium Pro League|B1|K Beerschot VA;K Beerschot V.A.;Beerschot Wilrijk|Olympisch Stadion|Antwerp|Belgium|grass|12771|1899|https://www.beerschot.be/
+VENUE|Beerschot VA|Olympisch Stadion|Antwerp|Belgium|grass|12771|normal|Normal home venue|B3-source-venue-bee
+NOTE|info|Beerschot VA|App code B1 is current app rating context; SEASON row uses Challenger Pro League because it is the latest completed domestic season.
+SEASON|Beerschot VA|2025-26|Challenger Pro League|domestic league|32|19|7|6|52|31|16|9|4|3|25|15|16|10|3|3|27|16|3|64|B3-source-season-bee
+TEAM|Kortrijk|Belgium|Belgium Pro League|B1|KV Kortrijk;Kortrijk|Guldensporenstadion|Kortrijk|Belgium|grass|9399|1901|https://www.kvk.be/
+VENUE|Kortrijk|Guldensporenstadion|Kortrijk|Belgium|grass|9399|normal|Normal home venue|B3-source-venue-kor
+NOTE|info|Kortrijk|App code B1 is current app rating context; SEASON row uses Challenger Pro League because it is the latest completed domestic season.
+SEASON|Kortrijk|2025-26|Challenger Pro League|domestic league|32|21|4|7|59|33|16|14|1|1|37|14|16|7|3|6|22|19|2|67|B3-source-season-kor
+TEAM|Bochum|Germany|Germany Bundesliga|D1|VfL Bochum;VfL Bochum 1848|Vonovia Ruhrstadion|Bochum|Germany|grass|26000|1848|https://www.vfl-bochum.de/
+VENUE|Bochum|Vonovia Ruhrstadion|Bochum|Germany|grass|26000|normal|Normal home venue|B3-source-venue-boc
+NOTE|info|Bochum|App code D1 is current app rating context; SEASON row uses 2. Bundesliga because it is the latest completed domestic season.
+SEASON|Bochum|2025-26|2. Bundesliga|domestic league|34|11|11|12|49|47|17|8|5|4|30|21|17|3|6|8|19|26|9|44|B3-source-season-boc
+TEAM|Holstein Kiel|Germany|Germany Bundesliga|D1|KSV Holstein Kiel;Holstein Kiel|Holstein-Stadion|Kiel|Germany|grass|15034|1900|https://www.holstein-kiel.de/
+VENUE|Holstein Kiel|Holstein-Stadion|Kiel|Germany|grass|15034|normal|Normal home venue|B3-source-venue-kie
+NOTE|info|Holstein Kiel|App code D1 is current app rating context; SEASON row uses 2. Bundesliga because it is the latest completed domestic season.
+SEASON|Holstein Kiel|2025-26|2. Bundesliga|domestic league|34|11|8|15|44|48|17|6|4|7|22|19|17|5|4|8|22|29|12|41|B3-source-season-kie
+SOURCE|B3-source-season-bee|https://www.soccerstats.com/widetable.asp?league=belgium2|2026-07-30|results-database|Final Challenger Pro League wide table: Beerschot VA overall 32 19-7-6 52-31 64; home 16 9-4-3 25-15; away 16 10-3-3 27-16
+SOURCE|B3-source-season-kor|https://www.soccerstats.com/widetable.asp?league=belgium2|2026-07-30|results-database|Final Challenger Pro League wide table: Kortrijk overall 32 21-4-7 59-33 67; home 16 14-1-1 37-14; away 16 7-3-6 22-19
+SOURCE|B3-source-season-boc|https://www.soccerstats.com/homeaway.asp?league=germany2|2026-07-30|results-database|Final 2. Bundesliga home-away tables: Bochum overall 34 11-11-12 49-47 44; home 17 8-5-4 30-21; away 17 3-6-8 19-26
+SOURCE|B3-source-season-kie|https://www.soccerstats.com/homeaway.asp?league=germany2|2026-07-30|results-database|Final 2. Bundesliga home-away tables: Holstein Kiel overall 34 11-8-15 44-48 41; home 17 6-4-7 22-19; away 17 5-4-8 22-29
+SOURCE|B3-source-venue-bee|https://www.beerschot.be/|2026-07-30|club|Official club website for club and normal-stadium identity
+SOURCE|B3-source-venue-kor|https://www.kvk.be/|2026-07-30|club|Official club website for club and normal-stadium identity
+SOURCE|B3-source-venue-boc|https://www.vfl-bochum.de/|2026-07-30|club|Official club website for club and normal-stadium identity
+SOURCE|B3-source-venue-kie|https://www.holstein-kiel.de/|2026-07-30|club|Official club website for club and normal-stadium identity
+NOTE|info|batch_start|B4 from APPROVED-CLEAN-BATCH4-RECORD-CLOSURE-FC-KOLN-HAMBURG-REGENSBURG-ULM.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|FC Koln|Germany|Germany 2. Bundesliga|D2|1. FC Köln;1. FC Koln;Cologne;Köln|RheinEnergieSTADION|Cologne|Germany|grass|50000|1948|https://fc.de/
+VENUE|FC Koln|RheinEnergieSTADION|Cologne|Germany|grass|50000|normal|Normal home venue|B4-source-venue-kol
+NOTE|info|FC Koln|App code D2 is current app rating context; SEASON row uses Bundesliga because it is the latest completed domestic season.
+SEASON|FC Koln|2025-26|Bundesliga|domestic league|34|7|11|16|49|63|17|5|4|8|30|30|17|2|7|8|19|33|14|32|B4-source-season-kol
+TEAM|Hamburg|Germany|Germany 2. Bundesliga|D2|Hamburger SV;HSV;Hamburg SV|Volksparkstadion|Hamburg|Germany|grass|57000|1887|https://www.hsv.de/
+VENUE|Hamburg|Volksparkstadion|Hamburg|Germany|grass|57000|normal|Normal home venue|B4-source-venue-ham
+NOTE|info|Hamburg|App code D2 is current app rating context; SEASON row uses Bundesliga because it is the latest completed domestic season.
+SEASON|Hamburg|2025-26|Bundesliga|domestic league|34|9|11|14|40|54|17|6|6|5|25|22|17|3|5|9|15|32|13|38|B4-source-season-ham
+TEAM|Regensburg|Germany|Germany 2. Bundesliga|D2|Jahn Regensburg;SSV Jahn Regensburg;SSV Jahn 2000 Regensburg|Jahnstadion Regensburg|Regensburg|Germany|grass|15210|1907|https://www.ssv-jahn.de/
+VENUE|Regensburg|Jahnstadion Regensburg|Regensburg|Germany|grass|15210|normal|Normal home venue|B4-source-venue-reg
+NOTE|info|Regensburg|App code D2 is current app rating context; SEASON row uses 3. Liga because it is the latest completed domestic season.
+SEASON|Regensburg|2025-26|3. Liga|domestic league|38|14|7|17|54|58|19|9|3|7|29|27|19|5|4|10|25|31|13|49|B4-source-season-reg
+TEAM|Ulm|Germany|Germany 2. Bundesliga|D2|SSV Ulm 1846;SSV Ulm;Ulm 1846|Donaustadion|Ulm|Germany|grass|19500|1846|https://www.ssvulm1846-fussball.de/
+VENUE|Ulm|Donaustadion|Ulm|Germany|grass|19500|normal|Normal home venue|B4-source-venue-ulm
+NOTE|info|Ulm|App code D2 is current app rating context; SEASON row uses 3. Liga because it is the latest completed domestic season.
+SEASON|Ulm|2025-26|3. Liga|domestic league|38|9|6|23|49|78|19|6|1|12|24|37|19|3|5|11|25|41|19|33|B4-source-season-ulm
+SOURCE|B4-source-venue-kol|https://fc.de/|2026-07-30|club|Official club website for FC Koln identity; stadium identity cross-checked against club/stadium public records
+SOURCE|B4-source-season-kol|https://www.bundesliga.com/en/bundesliga/table/2025-2026|2026-07-30|league|Bundesliga final table confirms FC Koln 34 matches, 7-11-16, 49-63, 32 points; home split verified from StatMuse Bundesliga 2025-26 home team record data and away split derived from total minus home
+SOURCE|B4-source-venue-ham|https://www.hsv.de/|2026-07-30|club|Official club website for Hamburg identity; stadium identity cross-checked against club/stadium public records
+SOURCE|B4-source-season-ham|https://www.bundesliga.com/en/bundesliga/table/2025-2026|2026-07-30|league|Bundesliga final table confirms Hamburg 34 matches, 9-11-14, 40-54, 38 points; home split verified from StatMuse Bundesliga 2025-26 home team record data and away split derived from total minus home
+SOURCE|B4-source-venue-reg|https://www.ssv-jahn.de/|2026-07-30|club|Official club website for Regensburg identity; stadium identity cross-checked against club/stadium public records
+SOURCE|B4-source-season-reg|https://en.wikipedia.org/wiki/2025%E2%80%9326_3._Liga|2026-07-30|league|3. Liga table confirms Regensburg 38 matches, 14-7-17, 54-58, 49 points; home split calculated from the full 2025-26 3. Liga results matrix on the same page and away split derived from total minus home
+SOURCE|B4-source-venue-ulm|https://www.ssvulm1846-fussball.de/|2026-07-30|club|Official club website for Ulm identity; stadium identity cross-checked against club/stadium public records
+SOURCE|B4-source-season-ulm|https://en.wikipedia.org/wiki/2025%E2%80%9326_3._Liga|2026-07-30|league|3. Liga table confirms Ulm 38 matches, 9-6-23, 49-78, 33 points; home split calculated from the full 2025-26 3. Liga results matrix on the same page and away split derived from total minus home
+NOTE|info|batch_start|B5 from APPROVED-CLEAN-BATCH5-RECORD-CLOSURE-E1-MISSING.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Burnley|England|England Championship|E1|Burnley FC;The Clarets|Turf Moor|Burnley|England|grass|21944|1882|https://www.burnleyfootballclub.com/
+VENUE|Burnley|Turf Moor|Burnley|England|grass|21944|normal|Normal home venue|B5-source-venue-bur
+NOTE|info|Burnley|App code E1 is current app rating context; SEASON row uses Premier League because it is the latest completed domestic season.
+SEASON|Burnley|2025-26|Premier League|domestic league|38|4|10|24|38|75|19|2|7|10|18|29|19|2|3|14|20|46|19|22|B5-source-season-bur
+TEAM|Cardiff|Wales|England Championship|E1|Cardiff City;Cardiff City FC;The Bluebirds|Cardiff City Stadium|Cardiff|Wales|grass|33280|1899|https://www.cardiffcityfc.co.uk/
+VENUE|Cardiff|Cardiff City Stadium|Cardiff|Wales|grass|33280|normal|Normal home venue|B5-source-venue-car
+NOTE|info|Cardiff|App code E1 is current app rating context; SEASON row uses EFL League One because it is the latest completed domestic season.
+SEASON|Cardiff|2025-26|EFL League One|domestic league|46|27|10|9|90|50|23|17|2|4|50|23|23|10|8|5|40|27|2|91|B5-source-season-car
+TEAM|Leeds|England|England Championship|E1|Leeds United;Leeds United FC;LUFC|Elland Road|Leeds|England|grass|37890|1919|https://www.leedsunited.com/
+VENUE|Leeds|Elland Road|Leeds|England|grass|37890|normal|Normal home venue|B5-source-venue-lee
+NOTE|info|Leeds|App code E1 is current app rating context; SEASON row uses Premier League because it is the latest completed domestic season.
+SEASON|Leeds|2025-26|Premier League|domestic league|38|11|14|13|49|56|19|9|5|5|29|21|19|2|9|8|20|35|14|47|B5-source-season-lee
+TEAM|Luton|England|England Championship|E1|Luton Town;Luton Town FC;The Hatters|Kenilworth Road|Luton|England|grass|12056|1885|https://www.lutontown.co.uk/
+VENUE|Luton|Kenilworth Road|Luton|England|grass|12056|normal|Normal home venue|B5-source-venue-lut
+NOTE|info|Luton|App code E1 is current app rating context; SEASON row uses EFL League One because it is the latest completed domestic season.
+SEASON|Luton|2025-26|EFL League One|domestic league|46|21|11|14|68|56|23|13|6|4|37|24|23|8|5|10|31|32|7|74|B5-source-season-lut
+TEAM|Plymouth|England|England Championship|E1|Plymouth Argyle;Plymouth Argyle FC;The Pilgrims|Home Park|Plymouth|England|grass|17900|1886|https://www.pafc.co.uk/
+VENUE|Plymouth|Home Park|Plymouth|England|grass|17900|normal|Normal home venue|B5-source-venue-ply
+NOTE|info|Plymouth|App code E1 is current app rating context; SEASON row uses EFL League One because it is the latest completed domestic season.
+SEASON|Plymouth|2025-26|EFL League One|domestic league|46|22|7|17|75|63|23|10|4|9|33|33|23|12|3|8|42|30|8|73|B5-source-season-ply
+TEAM|Sunderland|England|England Championship|E1|Sunderland AFC;Sunderland;The Black Cats|Stadium of Light|Sunderland|England|grass|49000|1879|https://www.safc.com/
+VENUE|Sunderland|Stadium of Light|Sunderland|England|grass|49000|normal|Normal home venue|B5-source-venue-sun
+NOTE|info|Sunderland|App code E1 is current app rating context; SEASON row uses Premier League because it is the latest completed domestic season.
+SEASON|Sunderland|2025-26|Premier League|domestic league|38|14|12|12|42|48|19|9|6|4|25|20|19|5|6|8|17|28|7|54|B5-source-season-sun
+SOURCE|B5-source-venue-bur|https://www.burnleyfootballclub.com/|2026-07-30|club|Official club website for Burnley identity; Turf Moor venue and capacity cross-checked against public club/stadium records
+SOURCE|B5-source-season-bur|https://www.statmuse.com/fc/ask/burnley-premier-league-team-stats-2026-home-and-away-splits|2026-07-30|results-database|Burnley Premier League 2025-26 home and away split: home 19 2-7-10 18-29; away 19 2-3-14 20-46; total cross-checked against Premier League table sources
+SOURCE|B5-source-venue-car|https://www.cardiffcityfc.co.uk/|2026-07-30|club|Official club website for Cardiff identity; Cardiff City Stadium venue and capacity cross-checked against public club/stadium records
+SOURCE|B5-source-season-car|https://en.wikipedia.org/wiki/2025%E2%80%9326_Cardiff_City_F.C._season|2026-07-30|other|Cardiff City 2025-26 results summary and League One totals/home-away split: 46 27-10-9 90-50 91; home 17-2-4 50-23; away 10-8-5 40-27
+SOURCE|B5-source-venue-lee|https://www.leedsunited.com/|2026-07-30|club|Official club website for Leeds identity; Elland Road venue and capacity cross-checked against public club/stadium records
+SOURCE|B5-source-season-lee|https://www.statmuse.com/fc/ask/leeds-home-and-away-stats-25/26-season|2026-07-30|results-database|Leeds Premier League 2025-26 home and away split: home 19 9-5-5 29-21; away 19 2-9-8 20-35; totals cross-checked with SoccerStats Premier League table
+SOURCE|B5-source-venue-lut|https://www.lutontown.co.uk/|2026-07-30|club|Official club website for Luton identity; Kenilworth Road venue and capacity cross-checked against public club/stadium records
+SOURCE|B5-source-season-lut|https://en.wikipedia.org/wiki/2025%E2%80%9326_Luton_Town_F.C._season|2026-07-30|other|Luton Town 2025-26 League One results summary: 46 21-11-14 68-56 74; home 13-6-4 37-24; away 8-5-10 31-32
+SOURCE|B5-source-venue-ply|https://www.pafc.co.uk/|2026-07-30|club|Official club website for Plymouth identity; Home Park venue and capacity cross-checked against public club/stadium records
+SOURCE|B5-source-season-ply|https://footystats.org/clubs/plymouth-argyle-fc-264|2026-07-30|results-database|Plymouth Argyle 2025-26 League One record and home-away split: 46 22-7-17 75-63; home 23 10-4-9 33-33; away 23 12-3-8 42-30; final position cross-checked against League One table
+SOURCE|B5-source-venue-sun|https://www.safc.com/|2026-07-30|club|Official club website for Sunderland identity; Stadium of Light venue and capacity cross-checked against public club/stadium records
+SOURCE|B5-source-season-sun|https://www.statmuse.com/fc/ask/sunderland-team-stats-2025-2026-home-and-away|2026-07-30|results-database|Sunderland Premier League 2025-26 home and away split: home 19 9-6-4 25-20; away 19 5-6-8 17-28; totals cross-checked against SoccerStats Premier League table
+NOTE|info|batch_start|B6 from APPROVED-CLEAN-BATCH6-RECORD-CLOSURE-E2-MISSING.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Birmingham|England|England League One|E2|Birmingham City;Birmingham City FC;Blues|St Andrew's @ Knighthead Park|Birmingham|England|grass|29409|1875|https://www.bcfc.com/
+VENUE|Birmingham|St Andrew's @ Knighthead Park|Birmingham|England|grass|29409|normal|Normal home venue|B6-source-venue-bir
+NOTE|info|Birmingham|App code E2 is current app rating context; SEASON row uses EFL Championship because it is the latest completed domestic season.
+SEASON|Birmingham|2025-26|EFL Championship|domestic league|46|17|13|16|57|56|23|12|8|3|39|22|23|5|5|13|18|34|10|64|B6-source-season-bir
+TEAM|Bristol Rvs|England|England League One|E2|Bristol Rovers;Bristol Rovers FC;The Gas|Memorial Stadium|Bristol|England|grass|12296|1883|https://www.bristolrovers.co.uk/
+VENUE|Bristol Rvs|Memorial Stadium|Bristol|England|grass|12296|normal|Normal home venue|B6-source-venue-brv
+NOTE|info|Bristol Rvs|App code E2 is current app rating context; SEASON row uses EFL League Two because it is the latest completed domestic season.
+SEASON|Bristol Rvs|2025-26|EFL League Two|domestic league|46|19|5|22|56|65|23|12|1|10|31|28|23|7|4|12|25|37|14|62|B6-source-season-brv
+TEAM|Cambridge|England|England League One|E2|Cambridge United;Cambridge United FC|Abbey Stadium|Cambridge|England|grass|8127|1912|https://www.cambridgeunited.com/
+VENUE|Cambridge|Abbey Stadium|Cambridge|England|grass|8127|normal|Normal home venue|B6-source-venue-cam
+NOTE|info|Cambridge|App code E2 is current app rating context; SEASON row uses EFL League Two because it is the latest completed domestic season.
+SEASON|Cambridge|2025-26|EFL League Two|domestic league|46|22|16|8|66|33|23|15|6|2|43|15|23|7|10|6|23|18|3|82|B6-source-season-cam
+TEAM|Charlton|England|England League One|E2|Charlton Athletic;Charlton Athletic FC;The Addicks|The Valley|London|England|grass|27111|1905|https://www.charltonafc.com/
+VENUE|Charlton|The Valley|London|England|grass|27111|normal|Normal home venue|B6-source-venue-cha
+NOTE|info|Charlton|App code E2 is current app rating context; SEASON row uses EFL Championship because it is the latest completed domestic season.
+SEASON|Charlton|2025-26|EFL Championship|domestic league|46|13|14|19|44|58|23|9|4|10|23|26|23|4|10|9|21|32|19|53|B6-source-season-cha
+TEAM|Crawley Town|England|England League One|E2|Crawley;Crawley Town FC;The Red Devils|Broadfield Stadium|Crawley|England|grass|6134|1896|https://www.crawleytownfc.com/
+VENUE|Crawley Town|Broadfield Stadium|Crawley|England|grass|6134|normal|Normal home venue|B6-source-venue-cra
+NOTE|info|Crawley Town|App code E2 is current app rating context; SEASON row uses EFL League Two because it is the latest completed domestic season.
+SEASON|Crawley Town|2025-26|EFL League Two|domestic league|46|8|16|22|44|68|23|5|10|8|26|28|23|3|6|14|18|40|22|40|B6-source-season-cra
+TEAM|Shrewsbury|England|England League One|E2|Shrewsbury Town;Shrewsbury Town FC;The Shrews|New Meadow|Shrewsbury|England|grass|9875|1886|https://www.shrewsburytown.com/
+VENUE|Shrewsbury|New Meadow|Shrewsbury|England|grass|9875|normal|Normal home venue|B6-source-venue-shr
+NOTE|info|Shrewsbury|App code E2 is current app rating context; SEASON row uses EFL League Two because it is the latest completed domestic season.
+SEASON|Shrewsbury|2025-26|EFL League Two|domestic league|46|13|10|23|42|69|23|9|6|8|22|27|23|4|4|15|20|42|19|49|B6-source-season-shr
+TEAM|Wrexham|Wales|England League One|E2|Wrexham AFC;Wrexham;The Red Dragons|Racecourse Ground|Wrexham|Wales|grass|12600|1864|https://www.wrexhamafc.co.uk/
+VENUE|Wrexham|Racecourse Ground|Wrexham|Wales|grass|12600|normal|Normal home venue|B6-source-venue-wre
+NOTE|info|Wrexham|App code E2 is current app rating context; SEASON row uses EFL Championship because it is the latest completed domestic season.
+SEASON|Wrexham|2025-26|EFL Championship|domestic league|46|19|14|13|69|65|23|10|7|6|41|37|23|9|7|7|28|28|7|71|B6-source-season-wre
+SOURCE|B6-source-venue-bir|https://www.bcfc.com/|2026-07-30|club|Official club website for Birmingham identity and home venue; capacity cross-checked against public stadium records
+SOURCE|B6-source-season-bir|https://www.sportsmole.co.uk/football/championship/table.html|2026-07-30|results-database|Birmingham 2025-26 Championship home/away split: home 23 12-8-3 39-22; away 23 5-5-13 18-34; total cross-checked against Championship table sources
+SOURCE|B6-source-venue-brv|https://www.bristolrovers.co.uk/|2026-07-30|club|Official club website for Bristol Rovers identity and home venue; capacity cross-checked against public stadium records
+SOURCE|B6-source-season-brv|https://en.wikipedia.org/wiki/2025%E2%80%9326_Bristol_Rovers_F.C._season|2026-07-30|other|Bristol Rovers 2025-26 League Two results summary: 46 19-5-22 56-65 62; home 12-1-10 31-28; away 7-4-12 25-37
+SOURCE|B6-source-venue-cam|https://www.cambridgeunited.com/|2026-07-30|club|Official club website for Cambridge United identity and home venue; capacity cross-checked against public stadium records
+SOURCE|B6-source-season-cam|https://en.wikipedia.org/wiki/2025%E2%80%9326_Cambridge_United_F.C._season|2026-07-30|other|Cambridge United 2025-26 League Two results summary: 46 22-16-8 66-33 82; home 15-6-2 43-15; away 7-10-6 23-18
+SOURCE|B6-source-venue-cha|https://www.charltonafc.com/|2026-07-30|club|Official club website for Charlton identity and home venue; capacity cross-checked against public stadium records
+SOURCE|B6-source-season-cha|https://sportstats365.com/football/championship/2025-2026/teams/charlton|2026-07-30|results-database|Charlton 2025-26 Championship final record 46 13-14-19 44-58 53; home split cross-checked through Sportstats/SoccerStats home table 23 9-4-10 23-26 and away derived as 4-10-9 21-32
+SOURCE|B6-source-venue-cra|https://www.crawleytownfc.com/|2026-07-30|club|Official club website for Crawley Town identity and home venue; capacity cross-checked against public stadium records
+SOURCE|B6-source-season-cra|https://www.soccerstats.com/teamstats.asp?league=england4&stats=14-carlisle-utd|2026-07-30|results-database|Crawley Town 2025-26 League Two scoring splits: home 26-28, away 18-40, total 44-68; home W-D-L verified from home table as 5-10-8 and away derived as 3-6-14
+SOURCE|B6-source-venue-shr|https://www.shrewsburytown.com/|2026-07-30|club|Official club website for Shrewsbury identity and home venue; capacity cross-checked against public stadium records
+SOURCE|B6-source-season-shr|https://www.soccerstats.com/homeaway.asp?league=england4|2026-07-30|results-database|Shrewsbury 2025-26 League Two home table 23 9-6-8 22-27, total 46 13-10-23 42-69 49; away derived as 4-4-15 20-42
+SOURCE|B6-source-venue-wre|https://www.wrexhamafc.co.uk/|2026-07-30|club|Official club website for Wrexham identity and home venue; capacity cross-checked against public stadium records
+SOURCE|B6-source-season-wre|https://www.leaderlive.co.uk/sport/26078556.wrexhams-results-championship-opponents/|2026-07-30|news-report|Wrexham 2025-26 Championship: total 46 19-14-13 71 points; home 10-7-6 and away 9-7-7; GF/GA splits cross-checked against SoccerStats/app record: home 41-37, away 28-28
+NOTE|info|batch_start|B7 from APPROVED-CLEAN-BATCH7-RECORD-CLOSURE-E3-MISSING.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|AFC Wimbledon|England|England League Two|E3|AFC Wimbledon;Wimbledon;The Dons|Plough Lane|London|England|grass|9300|2002|https://www.afcwimbledon.co.uk/
+VENUE|AFC Wimbledon|Plough Lane|London|England|grass|9300|normal|Normal home venue|B7-source-venue-afw
+NOTE|info|AFC Wimbledon|App code E3 is current app rating context; SEASON row uses EFL League One because it is the latest completed domestic season.
+SEASON|AFC Wimbledon|2025-26|EFL League One|domestic league|46|15|8|23|51|72|23|8|4|11|25|31|23|7|4|12|26|41|19|53|B7-source-season-afw
+TEAM|Bradford|England|England League Two|E3|Bradford City;Bradford City AFC;The Bantams|Valley Parade|Bradford|England|grass|25136|1903|https://www.bradfordcityafc.com/
+VENUE|Bradford|Valley Parade|Bradford|England|grass|25136|normal|Normal home venue|B7-source-venue-bra
+NOTE|info|Bradford|App code E3 is current app rating context; SEASON row uses EFL League One because it is the latest completed domestic season.
+SEASON|Bradford|2025-26|EFL League One|domestic league|46|22|11|13|58|51|23|15|5|3|32|17|23|7|6|10|26|34|4|77|B7-source-season-bra
+TEAM|Carlisle|England|England League Two|E3|Carlisle United;Carlisle United FC;The Cumbrians|Brunton Park|Carlisle|England|grass|18202|1904|https://www.carlisleunited.co.uk/
+VENUE|Carlisle|Brunton Park|Carlisle|England|grass|18202|normal|Normal home venue|B7-source-venue-car
+NOTE|info|Carlisle|App code E3 is current app rating context; SEASON row uses National League because it is the latest completed domestic season.
+SEASON|Carlisle|2025-26|National League|domestic league|46|29|8|9|87|51|23|15|5|3|53|24|23|14|3|6|34|27|3|95|B7-source-season-car
+TEAM|Doncaster|England|England League Two|E3|Doncaster Rovers;Doncaster Rovers FC;Rovers|Eco-Power Stadium|Doncaster|England|grass|15231|1879|https://www.doncasterroversfc.co.uk/
+VENUE|Doncaster|Eco-Power Stadium|Doncaster|England|grass|15231|normal|Normal home venue|B7-source-venue-don
+NOTE|info|Doncaster|App code E3 is current app rating context; SEASON row uses EFL League One because it is the latest completed domestic season.
+SEASON|Doncaster|2025-26|EFL League One|domestic league|46|17|9|20|50|69|23|9|6|8|27|32|23|8|3|12|23|37|14|60|B7-source-season-don
+TEAM|Morecambe|England|England League Two|E3|Morecambe FC;The Shrimps|Mazuma Mobile Stadium|Morecambe|England|grass|6476|1920|https://www.morecambefc.com/
+VENUE|Morecambe|Mazuma Mobile Stadium|Morecambe|England|grass|6476|normal|Normal home venue|B7-source-venue-mor
+NOTE|info|Morecambe|App code E3 is current app rating context; SEASON row uses National League because it is the latest completed domestic season.
+SEASON|Morecambe|2025-26|National League|domestic league|46|9|11|26|66|103|23|4|6|13|29|46|23|5|5|13|37|57|22|38|B7-source-season-mor
+TEAM|Port Vale|England|England League Two|E3|Port Vale;Port Vale FC;The Valiants|Vale Park|Burslem|England|grass|15036|1876|https://www.port-vale.co.uk/
+VENUE|Port Vale|Vale Park|Burslem|England|grass|15036|normal|Normal home venue|B7-source-venue-pva
+NOTE|info|Port Vale|App code E3 is current app rating context; SEASON row uses EFL League One because it is the latest completed domestic season.
+SEASON|Port Vale|2025-26|EFL League One|domestic league|46|10|12|24|36|61|23|4|9|10|17|25|23|6|3|14|19|36|22|42|B7-source-season-pva
+SOURCE|B7-source-venue-afw|https://www.afcwimbledon.co.uk/|2026-07-30|club|Official club website for AFC Wimbledon identity and home venue; capacity cross-checked against public club/stadium records
+SOURCE|B7-source-season-afw|https://fbref.com/en/squads/8b9bf22a/AFC-Wimbledon-Stats|2026-07-30|results-database|AFC Wimbledon 2025-26 League One record: 46 15-8-23 51-72 53; home record 8-4-11 and away record 7-4-12; scoring split cross-checked with SoccerStats home 25-31 away 26-41
+SOURCE|B7-source-venue-bra|https://www.bradfordcityafc.com/|2026-07-30|club|Official club website for Bradford identity and home venue; capacity cross-checked against public club/stadium records
+SOURCE|B7-source-season-bra|https://www.thetelegraphandargus.co.uk/sport/26114703.bradford-city-facts-figures-2025-26-league-season/|2026-07-30|news-report|Bradford City 2025-26 League One facts and figures: total 22-11-13 58-51 77; home 15-5-3 32-17; away 7-6-10 26-34
+SOURCE|B7-source-venue-car|https://www.carlisleunited.co.uk/|2026-07-30|club|Official club website for Carlisle United identity and home venue; capacity cross-checked against public club/stadium records
+SOURCE|B7-source-season-car|https://en.wikipedia.org/wiki/2025%E2%80%9326_Carlisle_United_F.C._season|2026-07-30|other|Carlisle United 2025-26 National League results summary: 46 29-8-9 87-51 95; home 15-5-3 53-24; away 14-3-6 34-27
+SOURCE|B7-source-venue-don|https://www.doncasterroversfc.co.uk/|2026-07-30|club|Official club website for Doncaster identity and home venue; capacity cross-checked against public club/stadium records
+SOURCE|B7-source-season-don|https://en.wikipedia.org/wiki/2025%E2%80%9326_Doncaster_Rovers_F.C._season|2026-07-30|other|Doncaster Rovers 2025-26 League One total 46 17-9-20 50-69 60; home split cross-checked with TheFishy/SportsMole home-away tables as 9-6-8 27-32, away derived as 8-3-12 23-37
+SOURCE|B7-source-venue-mor|https://www.morecambefc.com/|2026-07-30|club|Official club website for Morecambe identity and home venue; capacity cross-checked against public club/stadium records
+SOURCE|B7-source-season-mor|https://www.sportsmole.co.uk/football/national-league/table.html|2026-07-30|results-database|Morecambe 2025-26 National League total 46 9-11-26 66-103 38; home table 23 4-6-13 29-46; away derived 5-5-13 37-57
+SOURCE|B7-source-venue-pva|https://www.port-vale.co.uk/|2026-07-30|club|Official club website for Port Vale identity and home venue; capacity cross-checked against public club/stadium records
+SOURCE|B7-source-season-pva|https://www.soccerstats.com/teamstats.asp?league=england3&stats=20-fleetwood|2026-07-30|results-database|Port Vale 2025-26 League One scoring split home 17-25 away 19-36, total 36-61; home/away record cross-checked from FBref home 4-9-10 away 6-3-14 and League One table total 10-12-24 42 points
+NOTE|info|batch_start|B8A from APPROVED-CLEAN-BATCH8A-RECORD-CLOSURE-FRANCE-PART1.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Montpellier|France|France Ligue 1|F1|Montpellier HSC;Montpellier Herault SC;MHSC|Stade de la Mosson|Montpellier|France|grass|32939|1919|https://www.mhscfoot.com/
+VENUE|Montpellier|Stade de la Mosson|Montpellier|France|grass|32939|normal|Normal home venue|B8A-source-venue-mon
+NOTE|info|Montpellier|App code F1 is current app rating context; SEASON row uses Ligue 2 because it is the latest completed domestic season.
+SEASON|Montpellier|2025-26|Ligue 2|domestic league|34|14|9|11|41|31|17|8|4|5|27|20|17|6|5|6|14|11|8|51|B8A-source-season-mon
+TEAM|Reims|France|France Ligue 1|F1|Stade Reims;Stade de Reims|Stade Auguste-Delaune|Reims|France|grass|21029|1931|https://www.stade-de-reims.com/
+VENUE|Reims|Stade Auguste-Delaune|Reims|France|grass|21029|normal|Normal home venue|B8A-source-venue-rei
+NOTE|info|Reims|App code F1 is current app rating context; SEASON row uses Ligue 2 because it is the latest completed domestic season.
+SEASON|Reims|2025-26|Ligue 2|domestic league|34|14|14|6|53|35|17|9|5|3|28|16|17|5|9|3|25|19|6|56|B8A-source-season-rei
+TEAM|St Etienne|France|France Ligue 1|F1|Saint-Etienne;AS Saint-Etienne;ASSE|Stade Geoffroy-Guichard|Saint-Étienne|France|grass|41965|1919|https://www.asse.fr/
+VENUE|St Etienne|Stade Geoffroy-Guichard|Saint-Étienne|France|grass|41965|normal|Normal home venue|B8A-source-venue-ste
+NOTE|info|St Etienne|App code F1 is current app rating context; SEASON row uses Ligue 2 because it is the latest completed domestic season.
+SEASON|St Etienne|2025-26|Ligue 2|domestic league|34|18|6|10|59|38|17|11|2|4|39|18|17|7|4|6|20|20|3|60|B8A-source-season-ste
+TEAM|Ajaccio|France|France Ligue 2|F2|AC Ajaccio;Athletic Club Ajaccien|Stade Michel-Moretti|Ajaccio|France|grass|10660|1910|https://www.ac-ajaccio.corsica/
+VENUE|Ajaccio|Stade Michel-Moretti|Ajaccio|France|grass|10660|normal|Normal home venue|B8A-source-venue-aja
+NOTE|warning|Ajaccio|Ajaccio were excluded from all French national competitions in 2025-26; latest completed domestic season with usable record is 2024-25 Ligue 2.
+SEASON|Ajaccio|2024-25|Ligue 2|domestic league|34|12|6|16|30|42|17|9|3|5|22|17|17|3|3|11|8|25|12|42|B8A-source-season-aja
+TEAM|Caen|France|France Ligue 2|F2|SM Caen;Stade Malherbe Caen|Stade Michel d'Ornano|Caen|France|grass|20453|1913|https://www.smcaen.fr/
+VENUE|Caen|Stade Michel d'Ornano|Caen|France|grass|20453|normal|Normal home venue|B8A-source-venue-cae
+NOTE|info|Caen|App code F2 is current app rating context; SEASON row uses Championnat National because it is the latest completed domestic season.
+SEASON|Caen|2025-26|Championnat National|domestic league|32|8|16|8|39|34|16|5|9|2|16|10|16|3|7|6|23|24|8|40|B8A-source-season-cae
+SOURCE|B8A-source-venue-mon|https://www.mhscfoot.com/|2026-07-30|club|Official Montpellier club website for identity; Stade de la Mosson venue/capacity cross-checked against public stadium records
+SOURCE|B8A-source-season-mon|https://m.aiscore.com/team-montpellier/r8lk2diljlh3736/home|2026-07-30|results-database|Montpellier 2025-26 Ligue 2 home record 17 8-4-5 27-20; total 34 14-9-11 41-31 51 cross-checked against FotMob/SoccerStats Ligue 2 table; away derived as 6-5-6 14-11
+SOURCE|B8A-source-venue-rei|https://www.stade-de-reims.com/|2026-07-30|club|Official Reims club website for identity; Stade Auguste-Delaune venue/capacity cross-checked against public stadium records
+SOURCE|B8A-source-season-rei|https://www.transfermarkt.us/stade-reims/spielplan/verein/1421|2026-07-30|results-database|Reims 2025-26 Ligue 2 home record 17 matches, 32 points, 28-16; total 34 14-14-6 53-35 56 from Transfermarkt/SoccerStats table; away derived as 5-9-3 25-19
+SOURCE|B8A-source-venue-ste|https://www.asse.fr/|2026-07-30|club|Official Saint-Etienne club website for identity; Stade Geoffroy-Guichard venue/capacity cross-checked against public stadium records
+SOURCE|B8A-source-season-ste|https://www.soccerstats.com/teamstats.asp?league=france2&stats=10-red-star|2026-07-30|results-database|Saint-Etienne 2025-26 Ligue 2 total 34 18-6-10 59-38 60 and scoring split home 39-18 away 20-20; home points from Ligue 2 home table 35 giving 11-2-4, away derived 7-4-6
+SOURCE|B8A-source-venue-aja|https://www.ac-ajaccio.corsica/|2026-07-30|club|Official Ajaccio club website for identity; Stade Michel-Moretti venue/capacity cross-checked against public stadium records
+SOURCE|B8A-source-season-aja|https://fbref.com/en/squads/7a54bb4f/2024-2025/c60/Ajaccio-Stats-Ligue-2|2026-07-30|results-database|Ajaccio latest completed domestic season 2024-25 Ligue 2: 34 12-6-16 30-42 42, home 9-3-5 22-17, away 3-3-11 8-25; 2025-26 exclusion noted separately
+SOURCE|B8A-source-venue-cae|https://www.smcaen.fr/|2026-07-30|club|Official Caen club website for identity; Stade Michel d'Ornano venue/capacity cross-checked against public stadium records
+SOURCE|B8A-source-season-cae|https://en.wikipedia.org/wiki/2025%E2%80%9326_Championnat_National|2026-07-30|league|Championnat National table confirms Caen 32 8-16-8 39-34 40; home split calculated from the full results matrix as 16 5-9-2 16-10 and away derived as 16 3-7-6 23-24
+NOTE|info|batch_start|B8B from APPROVED-CLEAN-BATCH8B-RECORD-CLOSURE-FRANCE-PART2.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Lorient|France|France Ligue 2|F2|FC Lorient;Lorient FC;Les Merlus|Stade du Moustoir|Lorient|France|grass|18110|1926|https://www.fclorient.bzh/
+VENUE|Lorient|Stade du Moustoir|Lorient|France|grass|18110|normal|Normal home venue|B8B-source-venue-lor
+NOTE|info|Lorient|App code F2 is current app rating context; SEASON row uses Ligue 1 because it is the latest completed domestic season.
+SEASON|Lorient|2025-26|Ligue 1|domestic league|34|11|12|11|48|51|17|8|6|3|31|25|17|3|6|8|17|26|10|45|B8B-source-season-lor
+TEAM|Martigues|France|France Ligue 2|F2|FC Martigues;Football Club de Martigues|Stade Francis-Turcan|Martigues|France|grass|11500|1921|https://www.fcmartigues.com/
+VENUE|Martigues|Stade Francis-Turcan|Martigues|France|grass|11500|normal|Normal home venue|B8B-source-venue-mar
+NOTE|warning|Martigues|Martigues were excluded from national competitions for 2025-26; latest completed usable domestic season is 2024-25 Ligue 2.
+SEASON|Martigues|2024-25|Ligue 2|domestic league|34|9|5|20|29|56|17|3|3|11|13|27|17|6|2|9|16|29|17|32|B8B-source-season-mar
+TEAM|Metz|France|France Ligue 2|F2|FC Metz;Metz|Stade Saint-Symphorien|Metz|France|grass|28786|1932|https://www.fcmetz.com/
+VENUE|Metz|Stade Saint-Symphorien|Metz|France|grass|28786|normal|Normal home venue|B8B-source-venue-met
+NOTE|info|Metz|App code F2 is current app rating context; SEASON row uses Ligue 1 because it is the latest completed domestic season.
+SEASON|Metz|2025-26|Ligue 1|domestic league|34|3|8|23|32|76|17|1|4|12|17|44|17|2|4|11|15|32|18|17|B8B-source-season-met
+TEAM|Paris FC|France|France Ligue 2|F2|Paris Football Club;Paris FC|Stade Charléty|Paris|France|grass|20000|1969|https://parisfc.fr/
+VENUE|Paris FC|Stade Charléty|Paris|France|grass|20000|normal|Normal home venue|B8B-source-venue-pfc
+NOTE|info|Paris FC|App code F2 is current app rating context; SEASON row uses Ligue 1 because it is the latest completed domestic season.
+SEASON|Paris FC|2025-26|Ligue 1|domestic league|34|11|11|12|47|50|17|7|4|6|28|27|17|4|7|6|19|23|11|44|B8B-source-season-pfc
+SOURCE|B8B-source-venue-lor|https://www.fclorient.bzh/|2026-07-30|club|Official Lorient club website for identity; Stade du Moustoir venue/capacity cross-checked against public stadium records
+SOURCE|B8B-source-season-lor|https://thefishy.co.uk/leaguetable.php?table=34|2026-07-30|results-database|Lorient 2025-26 Ligue 1 table with home/away split: 34 11-12-11 48-51 45; home 8-6-3 31-25; away 3-6-8 17-26
+SOURCE|B8B-source-venue-mar|https://www.fcmartigues.com/|2026-07-30|club|Official Martigues club website for identity; Stade Francis-Turcan venue/capacity cross-checked against public stadium records
+SOURCE|B8B-source-season-mar|https://fbref.com/en/squads/82e8a66d/2024-2025/matchlogs/c60/schedule/Martigues-Scores-and-Fixtures-Ligue-2|2026-07-30|results-database|Martigues latest completed usable season 2024-25 Ligue 2: 34 9-5-20 29-56 32; home 3-3-11 13-27; away 6-2-9 16-29; 2025-26 national exclusion noted separately
+SOURCE|B8B-source-venue-met|https://www.fcmetz.com/|2026-07-30|club|Official Metz club website for identity; Stade Saint-Symphorien venue/capacity cross-checked against public stadium records
+SOURCE|B8B-source-season-met|https://www.worldfootball.net/teams/te673/fc-metz/|2026-07-30|results-database|Metz 2025-26 Ligue 1 total 34 3-8-23 32-76 17; home split from SoccerStats Ligue 1 home table 17 1-4-12 17-44 and away derived as 2-4-11 15-32
+SOURCE|B8B-source-venue-pfc|https://parisfc.fr/|2026-07-30|club|Official Paris FC club website for identity; Stade Charléty venue/capacity cross-checked against public stadium records
+SOURCE|B8B-source-season-pfc|https://thefishy.co.uk/leaguetable.php?table=34|2026-07-30|results-database|Paris FC 2025-26 Ligue 1 table with home/away split: 34 11-11-12 47-50 44; home 7-4-6 28-27; away 4-7-6 19-23
+NOTE|info|batch_start|B9 from APPROVED-CLEAN-BATCH9-RECORD-CLOSURE-GREECE-ITALY-A.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Athens Kallithea|Greece|Greece Super League|G1|Athens Kallithea FC;Kallithea;GS Kallithea|Apostolos Nikolaidis Stadium|Athens|Greece|grass|16620|1966|https://akfc66.gr/
+VENUE|Athens Kallithea|Apostolos Nikolaidis Stadium|Athens|Greece|grass|16620|normal|2024-25 listed Super League home venue; club normal Grigoris Lamprakis ground may differ by competition/licensing|B9-source-venue-akf
+NOTE|info|Athens Kallithea|App code G1 is current app rating context; SEASON row uses 2024-25 Super League Greece because 2025-26 second-tier home/away split was less directly auditable at record-closure standard.
+SEASON|Athens Kallithea|2024-25|Super League Greece|domestic league|36|8|12|16|36|52|18|4|7|7|20|27|18|4|5|9|16|25|13|36|B9-source-season-akf
+TEAM|Lamia|Greece|Greece Super League|G1|PAS Lamia 1964;Lamia;PAS Lamia|Lamia Municipal Stadium|Lamia|Greece|grass|5500|1964|https://www.lamia1964.gr/
+VENUE|Lamia|Lamia Municipal Stadium|Lamia|Greece|grass|5500|normal|Normal home venue|B9-source-venue-lam
+NOTE|warning|Lamia|Lamia did not declare participation in the 2025-26 Super League Greece 2; latest completed usable domestic season is 2024-25 Super League Greece.
+SEASON|Lamia|2024-25|Super League Greece|domestic league|36|4|8|24|21|64|18|3|3|12|13|30|18|1|5|12|8|34|14|20|B9-source-season-lam
+TEAM|Empoli|Italy|Italy Serie A|I1|Empoli FC;Empoli|Stadio Carlo Castellani|Empoli|Italy|grass|16284|1920|https://empolifc.com/
+VENUE|Empoli|Stadio Carlo Castellani|Empoli|Italy|grass|16284|normal|Normal home venue|B9-source-venue-emp
+NOTE|info|Empoli|App code I1 is current app rating context; SEASON row uses Serie B because it is the latest completed domestic season.
+SEASON|Empoli|2025-26|Serie B|domestic league|38|9|14|15|47|54|19|6|8|5|28|21|19|3|6|10|19|33|15|41|B9-source-season-emp
+TEAM|Monza|Italy|Italy Serie A|I1|AC Monza;Monza|U-Power Stadium|Monza|Italy|grass|17102|1912|https://www.acmonza.com/
+VENUE|Monza|U-Power Stadium|Monza|Italy|grass|17102|normal|Normal home venue|B9-source-venue-monza
+NOTE|info|Monza|App code I1 is current app rating context; SEASON row uses Serie B because it is the latest completed domestic season.
+SEASON|Monza|2025-26|Serie B|domestic league|38|22|10|6|61|32|19|14|4|1|34|12|19|8|6|5|27|20|3|76|B9-source-season-monza
+TEAM|Venezia|Italy|Italy Serie A|I1|Venezia FC;Venezia|Stadio Pier Luigi Penzo|Venice|Italy|grass|11150|1907|https://www.veneziafc.it/
+VENUE|Venezia|Stadio Pier Luigi Penzo|Venice|Italy|grass|11150|normal|Normal home venue|B9-source-venue-ven
+NOTE|info|Venezia|App code I1 is current app rating context; SEASON row uses Serie B because it is the latest completed domestic season.
+SEASON|Venezia|2025-26|Serie B|domestic league|38|24|10|4|77|31|19|16|3|0|44|12|19|8|7|4|33|19|1|82|B9-source-season-ven
+SOURCE|B9-source-venue-akf|https://en.wikipedia.org/wiki/2024%E2%80%9325_Super_League_Greece|2026-07-30|other|Athens Kallithea 2024-25 Super League venue listed as Apostolos Nikolaidis Stadium with capacity 16620
+SOURCE|B9-source-season-akf|https://fbref.com/en/squads/231a223e/2024-2025/matchlogs/all_comps/schedule/Kallithea-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Athens Kallithea 2024-25 Super League record 36 8-12-16 36-52 36; home/away split calculated from complete FBref fixture log: home 18 4-7-7 20-27, away 18 4-5-9 16-25
+SOURCE|B9-source-venue-lam|https://en.wikipedia.org/wiki/2024%E2%80%9325_Super_League_Greece|2026-07-30|other|Lamia 2024-25 Super League venue listed as Lamia Municipal Stadium with capacity 5500
+SOURCE|B9-source-season-lam|https://fbref.com/en/squads/890cfc60/2024-2025/matchlogs/all_comps/schedule/PAS-Lamia-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Lamia 2024-25 Super League record 36 4-8-24 21-64 20; home/away split calculated from complete FBref fixture log: home 18 3-3-12 13-30, away 18 1-5-12 8-34
+SOURCE|B9-source-venue-emp|https://empolifc.com/|2026-07-30|club|Official Empoli website for identity; Stadio Carlo Castellani venue/capacity cross-checked against public stadium records
+SOURCE|B9-source-season-emp|https://www.soccerstats.com/homeaway.asp?league=italy2|2026-07-30|results-database|Empoli 2025-26 Serie B total 38 9-14-15 47-54 41 and home/away points from SoccerStats; scoring split cross-checked against app/source table as home 28-21, away 19-33
+SOURCE|B9-source-venue-monza|https://www.acmonza.com/|2026-07-30|club|Official Monza website for identity; U-Power Stadium venue/capacity cross-checked against public stadium records
+SOURCE|B9-source-season-monza|https://fbref.com/en/squads/21680aa4/Monza-Stats|2026-07-30|results-database|Monza 2025-26 Serie B total 38 22-10-6 61-32 76; home/away W-D-L from FBref/SoccerStats home-away points and scoring split cross-checked as home 34-12, away 27-20
+SOURCE|B9-source-venue-ven|https://www.veneziafc.it/|2026-07-30|club|Official Venezia website for identity; Stadio Pier Luigi Penzo venue/capacity cross-checked against public stadium records
+SOURCE|B9-source-season-ven|https://www.soccerstats.com/homeaway.asp?league=italy2|2026-07-30|results-database|Venezia 2025-26 Serie B total 38 24-10-4 77-31 82; home/away points from SoccerStats and scoring split cross-checked as home 44-12, away 33-19
+NOTE|info|batch_start|B10 from APPROVED-CLEAN-BATCH10-RECORD-CLOSURE-I2-MISSING.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Brescia|Italy|Italy Serie B|I2|Brescia Calcio;Union Brescia;Brescia|Stadio Mario Rigamonti|Brescia|Italy|grass|19550|1911|https://www.bresciacalcio.it/
+VENUE|Brescia|Stadio Mario Rigamonti|Brescia|Italy|grass|19550|normal|Traditional Brescia home venue; Union Brescia 2025-26 venue context requires separate identity review|B10-source-venue-bre
+NOTE|warning|Brescia|Brescia Calcio was excluded/restructured; SEASON row uses Union Brescia 2025-26 Serie C Group A as the current sporting-successor record for app record closure. Review identity continuity before using for high-stakes historical audits.
+SEASON|Brescia|2025-26|Serie C Group A|domestic league|38|19|12|7|49|24|19|10|5|4|30|15|19|9|7|3|19|9|2|69|B10-source-season-bre
+TEAM|Cittadella|Italy|Italy Serie B|I2|AS Cittadella;Cittadella|Stadio Pier Cesare Tombolato|Cittadella|Italy|grass|7623|1973|https://www.ascittadella.it/
+VENUE|Cittadella|Stadio Pier Cesare Tombolato|Cittadella|Italy|grass|7623|normal|Normal home venue|B10-source-venue-cit
+NOTE|info|Cittadella|App code I2 is current app rating context; SEASON row uses Serie C Group A because it is the latest completed domestic season.
+SEASON|Cittadella|2025-26|Serie C Group A|domestic league|38|17|8|13|45|43|19|8|6|5|25|22|19|9|2|8|20|21|6|59|B10-source-season-cit
+TEAM|Cosenza|Italy|Italy Serie B|I2|Cosenza Calcio;Cosenza|Stadio San Vito-Gigi Marulla|Cosenza|Italy|grass|20987|1914|https://www.ilcosenza.it/
+VENUE|Cosenza|Stadio San Vito-Gigi Marulla|Cosenza|Italy|grass|20987|normal|Normal home venue|B10-source-venue-cos
+NOTE|info|Cosenza|App code I2 is current app rating context; SEASON row uses Serie C Group C because it is the latest completed domestic season.
+SEASON|Cosenza|2025-26|Serie C Group C|domestic league|38|19|10|9|58|40|19|15|0|4|38|17|19|4|10|5|20|23|4|67|B10-source-season-cos
+TEAM|Cremonese|Italy|Italy Serie B|I2|US Cremonese;Cremonese|Stadio Giovanni Zini|Cremona|Italy|grass|16003|1903|https://uscremonese.it/
+VENUE|Cremonese|Stadio Giovanni Zini|Cremona|Italy|grass|16003|normal|Normal home venue|B10-source-venue-cre
+NOTE|info|Cremonese|App code I2 is current app rating context; SEASON row uses Serie A because it is the latest completed domestic season.
+SEASON|Cremonese|2025-26|Serie A|domestic league|38|8|10|20|32|57|19|3|7|9|18|29|19|5|3|11|14|28|18|34|B10-source-season-cre
+TEAM|Pisa|Italy|Italy Serie B|I2|Pisa SC;Pisa Sporting Club;Pisa|Arena Garibaldi|Pisa|Italy|grass|14869|1909|https://pisasportingclub.com/
+VENUE|Pisa|Arena Garibaldi|Pisa|Italy|grass|14869|normal|Normal home venue|B10-source-venue-pis
+NOTE|info|Pisa|App code I2 is current app rating context; SEASON row uses Serie A because it is the latest completed domestic season.
+SEASON|Pisa|2025-26|Serie A|domestic league|38|2|12|24|26|71|19|2|4|13|9|26|19|0|8|11|17|45|20|18|B10-source-season-pis
+TEAM|Salernitana|Italy|Italy Serie B|I2|US Salernitana 1919;Salernitana|Stadio Arechi|Salerno|Italy|grass|20194|1919|https://salernitana.it/
+VENUE|Salernitana|Stadio Arechi|Salerno|Italy|grass|20194|normal|Normal home venue|B10-source-venue-sal
+NOTE|info|Salernitana|App code I2 is current app rating context; SEASON row uses Serie C Group C because it is the latest completed domestic season.
+SEASON|Salernitana|2025-26|Serie C Group C|domestic league|38|20|9|9|50|42|19|10|6|3|25|16|19|10|3|6|25|26|3|69|B10-source-season-sal
+TEAM|Sassuolo|Italy|Italy Serie B|I2|US Sassuolo;Sassuolo Calcio;Sassuolo|Mapei Stadium|Reggio Emilia|Italy|grass|21525|1920|https://www.sassuolocalcio.it/
+VENUE|Sassuolo|Mapei Stadium|Reggio Emilia|Italy|grass|21525|normal|Normal home venue|B10-source-venue-sas
+NOTE|info|Sassuolo|App code I2 is current app rating context; SEASON row uses Serie A because it is the latest completed domestic season.
+SEASON|Sassuolo|2025-26|Serie A|domestic league|38|14|7|17|46|50|19|9|2|8|25|26|19|5|5|9|21|24|11|49|B10-source-season-sas
+SOURCE|B10-source-venue-bre|https://www.bresciacalcio.it/|2026-07-30|club|Official Brescia club website for identity; Stadio Mario Rigamonti venue/capacity cross-checked against public stadium records
+SOURCE|B10-source-season-bre|https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_C|2026-07-30|league|Serie C Group A table confirms Union Brescia 38 19-12-7 49-24 69; home split calculated from full Group A results matrix as 19 10-5-4 30-15 and away derived as 9-7-3 19-9
+SOURCE|B10-source-venue-cit|https://www.ascittadella.it/|2026-07-30|club|Official Cittadella website for identity; Stadio Pier Cesare Tombolato capacity cross-checked against Serie C team table
+SOURCE|B10-source-season-cit|https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_C|2026-07-30|league|Serie C Group A table confirms Cittadella 38 17-8-13 45-43 59; home split calculated from full Group A results matrix as 19 8-6-5 25-22 and away derived as 9-2-8 20-21
+SOURCE|B10-source-venue-cos|https://www.ilcosenza.it/|2026-07-30|club|Official Cosenza website for identity; Stadio San Vito-Gigi Marulla capacity cross-checked against Serie C team table
+SOURCE|B10-source-season-cos|https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_C|2026-07-30|league|Serie C Group C table confirms Cosenza 38 19-10-9 58-40 67; home split calculated from full Group C results matrix as 19 15-0-4 38-17 and away derived as 4-10-5 20-23
+SOURCE|B10-source-venue-cre|https://uscremonese.it/|2026-07-30|club|Official Cremonese website for identity; Stadio Giovanni Zini venue/capacity cross-checked against public stadium records
+SOURCE|B10-source-season-cre|https://www.statmuse.com/fc/ask/cremonese-home-and-away-record-this-year|2026-07-30|results-database|Cremonese 2025-26 Serie A home/away split: home 19 3-7-9 18-29; away 19 5-3-11 14-28; total cross-checked against Serie A table sources
+SOURCE|B10-source-venue-pis|https://pisasportingclub.com/|2026-07-30|club|Official Pisa website for identity; Arena Garibaldi venue/capacity cross-checked against public stadium records
+SOURCE|B10-source-season-pis|https://fbref.com/en/squads/4cceedfc/Pisa-Stats|2026-07-30|results-database|Pisa 2025-26 Serie A record 38 2-12-24 26-71 18; home 2-4-13 and away 0-8-11; scoring split cross-checked from app/StatMuse as home 9-26 and away 17-45
+SOURCE|B10-source-venue-sal|https://salernitana.it/|2026-07-30|club|Official Salernitana website for identity; Stadio Arechi capacity cross-checked against Serie C team table
+SOURCE|B10-source-season-sal|https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_C|2026-07-30|league|Serie C Group C table confirms Salernitana 38 20-9-9 50-42 69; home split calculated from full Group C results matrix as 19 10-6-3 25-16 and away derived as 10-3-6 25-26
+SOURCE|B10-source-venue-sas|https://www.sassuolocalcio.it/|2026-07-30|club|Official Sassuolo website for identity; Mapei Stadium venue/capacity cross-checked against public stadium records
+SOURCE|B10-source-season-sas|https://www.statmuse.com/fc/ask/sassuolo-home-and-away-record-this-year|2026-07-30|results-database|Sassuolo 2025-26 Serie A home/away split: home 19 9-2-8 25-26; away 19 5-5-9 21-24; total cross-checked against Serie A table sources
+NOTE|info|batch_start|B11 from APPROVED-CLEAN-BATCH11-RECORD-CLOSURE-NETHERLANDS-PORTUGAL.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Almere City|Netherlands|Netherlands Eredivisie|N1|Almere City FC;Almere City|Yanmar Stadion|Almere|Netherlands|artificial|4500|2001|https://almerecity.nl/
+VENUE|Almere City|Yanmar Stadion|Almere|Netherlands|artificial|4500|normal|Normal home venue|B11-source-venue-alm
+NOTE|info|Almere City|App code N1 is current app rating context; SEASON row uses Eerste Divisie because it is the latest completed domestic season.
+SEASON|Almere City|2025-26|Eerste Divisie|domestic league|38|18|4|16|78|63|19|10|3|6|43|25|19|8|1|10|35|38|5|58|B11-source-season-alm
+TEAM|Waalwijk|Netherlands|Netherlands Eredivisie|N1|RKC Waalwijk;RKC;Waalwijk|Mandemakers Stadion|Waalwijk|Netherlands|artificial|7508|1940|https://www.rkcwaalwijk.nl/
+VENUE|Waalwijk|Mandemakers Stadion|Waalwijk|Netherlands|artificial|7508|normal|Normal home venue|B11-source-venue-waa
+NOTE|info|Waalwijk|App code N1 is current app rating context; SEASON row uses Eerste Divisie because it is the latest completed domestic season.
+SEASON|Waalwijk|2025-26|Eerste Divisie|domestic league|38|16|10|12|71|59|19|9|4|6|37|28|19|7|6|6|34|31|6|58|B11-source-season-waa
+TEAM|Willem II|Netherlands|Netherlands Eredivisie|N1|Willem II Tilburg;Willem II|Koning Willem II Stadion|Tilburg|Netherlands|artificial|14700|1896|https://www.willem-ii.nl/
+VENUE|Willem II|Koning Willem II Stadion|Tilburg|Netherlands|artificial|14700|normal|Normal home venue|B11-source-venue-wil
+NOTE|info|Willem II|App code N1 is current app rating context; SEASON row uses Eerste Divisie because it is the latest completed domestic season.
+SEASON|Willem II|2025-26|Eerste Divisie|domestic league|38|20|8|10|59|42|19|10|4|5|25|16|19|10|4|5|34|26|3|68|B11-source-season-wil
+TEAM|Boavista|Portugal|Portugal Primeira Liga|P1|Boavista FC;Boavista Futebol Clube|Estádio do Bessa|Porto|Portugal|grass|28263|1903|https://boavistafc.pt/
+VENUE|Boavista|Estádio do Bessa|Porto|Portugal|grass|28263|normal|Normal home venue|B11-source-venue-boa
+NOTE|warning|Boavista|Boavista were relegated from 2024-25 Primeira Liga and then administratively relegated to the Porto Football Association. Latest completed top-flight record used for app record closure.
+SEASON|Boavista|2024-25|Primeira Liga|domestic league|34|6|6|22|24|59|17|1|3|13|8|31|17|5|3|9|16|28|18|24|B11-source-season-boa
+TEAM|Farense|Portugal|Portugal Primeira Liga|P1|SC Farense;Sporting Clube Farense|Estádio de São Luís|Faro|Portugal|grass|12000|1910|https://www.scfarense.pt/
+VENUE|Farense|Estádio de São Luís|Faro|Portugal|grass|12000|normal|Normal home venue; selected 2024-25 high-profile fixtures may have used Estádio Algarve but league record is still attributed to Farense home/away order|B11-source-venue-far
+NOTE|info|Farense|App code P1 is current app rating context; SEASON row uses 2024-25 Primeira Liga because it is the latest completed domestic season.
+SEASON|Farense|2024-25|Primeira Liga|domestic league|34|6|9|19|25|46|17|3|2|12|10|24|17|3|7|7|15|22|17|27|B11-source-season-far
+SOURCE|B11-source-venue-alm|https://almerecity.nl/|2026-07-30|club|Official Almere City club website for identity; Yanmar Stadion venue/capacity cross-checked against public stadium records
+SOURCE|B11-source-season-alm|https://www.soccerstats.com/teamstats.asp?league=netherlands2&stats=11-vitesse-arnhem|2026-07-30|results-database|Almere City 2025-26 Eerste Divisie: total 38 18-4-16 78-63 58; home 19 10-3-6 43-25; away 19 8-1-10 35-38, cross-checked with SportsMole home table
+SOURCE|B11-source-venue-waa|https://www.rkcwaalwijk.nl/|2026-07-30|club|Official RKC Waalwijk club website for identity; Mandemakers Stadion venue/capacity cross-checked against public stadium records
+SOURCE|B11-source-season-waa|https://www.sportsmole.co.uk/football/eerste-divisie/table.html|2026-07-30|results-database|RKC Waalwijk 2025-26 Eerste Divisie home table 19 9-4-6 37-28 and overall 38 16-10-12 71-59 58 from Eerste Divisie table sources; away derived as 7-6-6 34-31
+SOURCE|B11-source-venue-wil|https://www.willem-ii.nl/|2026-07-30|club|Official Willem II club website for identity; Koning Willem II Stadion venue/capacity cross-checked against public stadium records
+SOURCE|B11-source-season-wil|https://www.soccerstats.com/homeaway.asp?league=netherlands2|2026-07-30|results-database|Willem II 2025-26 Eerste Divisie total 38 20-8-10 59-42 68; home 19 10-4-5 25-16; away 19 10-4-5 34-26, cross-checked with SportsMole home table
+SOURCE|B11-source-venue-boa|https://boavistafc.pt/|2026-07-30|club|Official Boavista club website for identity; Estádio do Bessa venue/capacity cross-checked against public stadium records
+SOURCE|B11-source-season-boa|https://footystats.org/clubs/boavista-fc-176|2026-07-30|results-database|Boavista 2024-25 Primeira Liga total 34 6-6-22 24-59 24; home 17 1-3-13 8-31; away 17 5-3-9 16-28; relegation context cross-checked against Primeira Liga table sources
+SOURCE|B11-source-venue-far|https://www.scfarense.pt/|2026-07-30|club|Official Farense club website for identity; Estádio de São Luís venue/capacity cross-checked against public stadium records
+SOURCE|B11-source-season-far|https://fbref.com/en/squads/489c9cd9/2024-2025/matchlogs/c32/schedule/Farense-Scores-and-Fixtures-Primeira-Liga|2026-07-30|results-database|Farense 2024-25 Primeira Liga: total 34 6-9-19 25-46 27; home 17 3-2-12 10-24 and away 17 3-7-7 15-22 calculated from complete FBref fixture log
+NOTE|info|batch_start|B12A from APPROVED-CLEAN-BATCH12A-RECORD-CLOSURE-SPAIN-PART1.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Las Palmas|Spain|Spain La Liga|SP1|UD Las Palmas;Las Palmas|Estadio Gran Canaria|Las Palmas|Spain|grass|32400|1949|https://www.udlaspalmas.es/
+VENUE|Las Palmas|Estadio Gran Canaria|Las Palmas|Spain|grass|32400|normal|Normal home venue|B12A-source-venue-lpa
+NOTE|info|Las Palmas|App code SP1 is current app rating context; SEASON row uses Segunda División because it is the latest completed domestic season. The same record row already exists in app context SP2 and is reused for SP1 record closure.
+SEASON|Las Palmas|2025-26|Segunda División|domestic league|42|20|13|9|57|40|21|12|6|3|33|14|21|8|7|6|24|26|5|73|B12A-source-season-lpa
+TEAM|Leganes|Spain|Spain La Liga|SP1|CD Leganes;Leganés;Club Deportivo Leganes|Estadio Municipal de Butarque|Leganés|Spain|grass|12454|1928|https://www.cdleganes.com/
+VENUE|Leganes|Estadio Municipal de Butarque|Leganés|Spain|grass|12454|normal|Normal home venue|B12A-source-venue-leg
+NOTE|info|Leganes|App code SP1 is current app rating context; SEASON row uses Segunda División because it is the latest completed domestic season. The same record row already exists in app context SP2 and is reused for SP1 record closure.
+SEASON|Leganes|2025-26|Segunda División|domestic league|42|11|13|18|43|51|21|7|2|12|23|23|21|4|11|6|20|28|16|46|B12A-source-season-leg
+TEAM|Valladolid|Spain|Spain La Liga|SP1|Real Valladolid;Real Valladolid CF|Estadio José Zorrilla|Valladolid|Spain|grass|27846|1928|https://www.realvalladolid.es/
+VENUE|Valladolid|Estadio José Zorrilla|Valladolid|Spain|grass|27846|normal|Normal home venue|B12A-source-venue-vld
+NOTE|info|Valladolid|App code SP1 is current app rating context; SEASON row uses Segunda División because it is the latest completed domestic season. The same record row already exists in app context SP2 and is reused for SP1 record closure.
+SEASON|Valladolid|2025-26|Segunda División|domestic league|42|12|10|20|44|57|21|7|2|12|23|21|21|5|8|8|21|36|17|46|B12A-source-season-vld
+TEAM|Cartagena|Spain|Spain Segunda|SP2|FC Cartagena;Fútbol Club Cartagena|Estadio Cartagonova|Cartagena|Spain|grass|15105|1995|https://www.fccartagena.es/
+VENUE|Cartagena|Estadio Cartagonova|Cartagena|Spain|grass|15105|normal|Normal home venue|B12A-source-venue-ctg
+NOTE|info|Cartagena|App code SP2 is current app rating context; SEASON row uses Primera Federación because it is the latest completed domestic season.
+SEASON|Cartagena|2025-26|Primera Federación|domestic league|38|15|12|11|37|38|19|11|5|3|26|16|19|4|7|8|11|22|6|57|B12A-source-season-ctg
+TEAM|Elche|Spain|Spain Segunda|SP2|Elche CF;Elche Club de Fútbol|Estadio Martínez Valero|Elche|Spain|grass|33732|1923|https://www.elchecf.es/
+VENUE|Elche|Estadio Martínez Valero|Elche|Spain|grass|33732|normal|Normal home venue|B12A-source-venue-elc
+NOTE|info|Elche|App code SP2 is current app rating context; SEASON row uses La Liga because it is the latest completed domestic season.
+SEASON|Elche|2025-26|La Liga|domestic league|38|10|13|15|49|57|19|9|8|2|30|19|19|1|5|13|19|38|15|43|B12A-source-season-elc
+SOURCE|B12A-source-venue-lpa|https://www.udlaspalmas.es/|2026-07-30|club|Official Las Palmas website for identity; Estadio Gran Canaria venue/capacity cross-checked against public stadium records
+SOURCE|B12A-source-season-lpa|https://www.malagacf.com/en/matches/season-2025-2026-laliga-hypermotion-44-malaga-vs-las-palmas|2026-07-30|league|Segunda División 2025-26 table confirms Las Palmas 42 20-13-9 57-40 73; home/away W-D-L from SoccerStats Las Palmas page and scoring split from existing app SP2 audited baseline record
+SOURCE|B12A-source-venue-leg|https://www.cdleganes.com/|2026-07-30|club|Official Leganes website for identity; Butarque venue/capacity cross-checked against public stadium records
+SOURCE|B12A-source-season-leg|https://www.soccerstats.com/teamstats.asp?league=spain2&stats=17-burgos|2026-07-30|results-database|Segunda División 2025-26 table context confirms Leganes final position/points; full home/away scoring split reused from app SP2 audited baseline record for same team and season
+SOURCE|B12A-source-venue-vld|https://www.realvalladolid.es/|2026-07-30|club|Official Valladolid website for identity; José Zorrilla venue/capacity cross-checked against public stadium records
+SOURCE|B12A-source-season-vld|https://www.soccerstats.com/teamstats.asp?league=spain2&stats=17-burgos|2026-07-30|results-database|Segunda División 2025-26 table context confirms Valladolid final position/points; full home/away scoring split reused from app SP2 audited baseline record for same team and season
+SOURCE|B12A-source-venue-ctg|https://www.fccartagena.es/|2026-07-30|club|Official Cartagena website for identity; Estadio Cartagonova venue/capacity cross-checked against public stadium records
+SOURCE|B12A-source-season-ctg|https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n|2026-07-30|league|Primera Federación Group 2 table confirms Cartagena 38 15-12-11 37-38 57; home/away split from FootyStats 2025-26 Cartagena home/away data: home 19 11-5-3 26-16, away 19 4-7-8 11-22
+SOURCE|B12A-source-venue-elc|https://www.elchecf.es/|2026-07-30|club|Official Elche website for identity; Martínez Valero venue/capacity cross-checked against public stadium records
+SOURCE|B12A-source-season-elc|https://www.statmuse.com/fc/ask/elche-home-and-away-record-this-year|2026-07-30|results-database|Elche 2025-26 La Liga home/away split: home 19 9-8-2 30-19; away 19 1-5-13 19-38; totals cross-checked against La Liga table sources
+NOTE|info|batch_start|B12B from APPROVED-CLEAN-BATCH12B-RECORD-CLOSURE-SPAIN-PART2.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Eldense|Spain|Spain Segunda|SP2|CD Eldense;Club Deportivo Eldense|Estadio Pepico Amat|Elda|Spain|grass|4036|1921|https://www.cdeldense.es/
+VENUE|Eldense|Estadio Pepico Amat|Elda|Spain|grass|4036|normal|Normal home venue|B12B-source-venue-eld
+NOTE|info|Eldense|App code SP2 is current app rating context; SEASON row uses Primera Federación because it is the latest completed domestic season.
+SEASON|Eldense|2025-26|Primera Federación|domestic league|38|19|12|7|57|39|19|15|3|1|39|16|19|4|9|6|18|23|1|69|B12B-source-season-eld
+TEAM|Ferrol|Spain|Spain Segunda|SP2|Racing Ferrol;Racing Club de Ferrol;Racing de Ferrol|Estadio A Malata|Ferrol|Spain|grass|12043|1919|https://www.racingclubferrol.net/
+VENUE|Ferrol|Estadio A Malata|Ferrol|Spain|grass|12043|normal|Normal home venue|B12B-source-venue-fer
+NOTE|info|Ferrol|App code SP2 is current app rating context; SEASON row uses Primera Federación because it is the latest completed domestic season.
+SEASON|Ferrol|2025-26|Primera Federación|domestic league|38|13|10|15|41|47|19|7|8|4|22|21|19|6|2|11|19|26|12|49|B12B-source-season-fer
+TEAM|Levante|Spain|Spain Segunda|SP2|Levante UD;Levante Unión Deportiva|Estadi Ciutat de València|Valencia|Spain|grass|26354|1909|https://www.levanteud.com/
+VENUE|Levante|Estadi Ciutat de València|Valencia|Spain|grass|26354|normal|Normal home venue|B12B-source-venue-lev
+NOTE|info|Levante|App code SP2 is current app rating context; SEASON row uses La Liga because it is the latest completed domestic season. The same record row already exists in app context SP1 and is reused for SP2 record closure.
+SEASON|Levante|2025-26|La Liga|domestic league|38|11|9|18|47|61|19|7|5|7|26|28|19|4|4|11|21|33|16|42|B12B-source-season-lev
+TEAM|Oviedo|Spain|Spain Segunda|SP2|Real Oviedo;Real Oviedo CF|Estadio Carlos Tartiere|Oviedo|Spain|grass|30500|1926|https://www.realoviedo.es/
+VENUE|Oviedo|Estadio Carlos Tartiere|Oviedo|Spain|grass|30500|normal|Normal home venue|B12B-source-venue-ovi
+NOTE|info|Oviedo|App code SP2 is current app rating context; SEASON row uses La Liga because it is the latest completed domestic season. The same scoring baseline already exists in app context SP1 and is reused for SP2 record closure.
+SEASON|Oviedo|2025-26|La Liga|domestic league|38|6|11|21|26|60|19|4|7|8|9|18|19|2|4|13|17|42|20|29|B12B-source-season-ovi
+TEAM|Tenerife|Spain|Spain Segunda|SP2|CD Tenerife;Club Deportivo Tenerife|Estadio Heliodoro Rodríguez López|Santa Cruz de Tenerife|Spain|grass|22667|1912|https://www.clubdeportivotenerife.es/
+VENUE|Tenerife|Estadio Heliodoro Rodríguez López|Santa Cruz de Tenerife|Spain|grass|22667|normal|Normal home venue|B12B-source-venue-ten
+NOTE|info|Tenerife|App code SP2 is current app rating context; SEASON row uses Primera Federación because it is the latest completed domestic season.
+SEASON|Tenerife|2025-26|Primera Federación|domestic league|38|22|10|6|62|24|19|13|3|3|37|11|19|9|7|3|25|13|1|76|B12B-source-season-ten
+SOURCE|B12B-source-venue-eld|https://www.cdeldense.es/|2026-07-30|club|Official Eldense website for identity; Estadio Pepico Amat venue/capacity cross-checked against Primera Federación team table
+SOURCE|B12B-source-season-eld|https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n|2026-07-30|league|Primera Federación Group 2 table confirms Eldense 38 19-12-7 57-39 69; home split calculated from Group 2 results matrix as 19 15-3-1 39-16 and away derived as 4-9-6 18-23
+SOURCE|B12B-source-venue-fer|https://www.racingclubferrol.net/|2026-07-30|club|Official Racing Ferrol website for identity; Estadio A Malata venue/capacity cross-checked against public stadium records
+SOURCE|B12B-source-season-fer|https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n|2026-07-30|league|Primera Federación Group 1 table confirms Racing Ferrol 38 13-10-15 41-47 49; home split calculated from Group 1 results matrix as 19 7-8-4 22-21 and away derived as 6-2-11 19-26
+SOURCE|B12B-source-venue-lev|https://www.levanteud.com/|2026-07-30|club|Official Levante website for identity; Ciutat de Valencia venue/capacity cross-checked against public stadium records
+SOURCE|B12B-source-season-lev|https://www.statmuse.com/fc/ask/levante-home-and-away-record-this-year|2026-07-30|results-database|Levante 2025-26 La Liga home/away split: home 19 7-5-7 26-28; away 19 4-4-11 21-33; total cross-checked with La Liga table sources
+SOURCE|B12B-source-venue-ovi|https://www.realoviedo.es/|2026-07-30|club|Official Real Oviedo website for identity; Carlos Tartiere venue/capacity cross-checked against public stadium records
+SOURCE|B12B-source-season-ovi|https://www.statmuse.com/fc/ask/oviedo-home-and-away-record-this-year|2026-07-30|results-database|Real Oviedo 2025-26 La Liga final total 38 6-11-21 26-60 29; home scoring baseline 19 9-18 and away 17-42 from app/SP1 and FootyStats cross-check; W-D-L inferred as home 4-7-8 and away 2-4-13 to match final total
+SOURCE|B12B-source-venue-ten|https://www.clubdeportivotenerife.es/|2026-07-30|club|Official Tenerife website for identity; Heliodoro Rodríguez López venue/capacity cross-checked against public stadium records
+SOURCE|B12B-source-season-ten|https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n|2026-07-30|league|Primera Federación Group 1 table confirms Tenerife 38 22-10-6 62-24 76; home split calculated from Group 1 results matrix as 19 13-3-3 37-11 and away derived as 9-7-3 25-13
+NOTE|info|batch_start|B13 from APPROVED-CLEAN-BATCH13-RECORD-CLOSURE-TURKEY.txt
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE blocker instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+TEAM|Ad. Demirspor|Turkey|Turkey Super Lig|T1|Adana Demirspor;Adana Demirspor Kulübü;Adana Demirs|New Adana Stadium|Adana|Turkey|grass|33543|1940|https://www.adanademirspor.org.tr/
+VENUE|Ad. Demirspor|New Adana Stadium|Adana|Turkey|grass|33543|normal|Normal home venue|B13-source-venue-ads
+NOTE|info|Ad. Demirspor|App code T1 is current app rating context; SEASON row uses TFF 1. Lig because it is the latest completed domestic season.
+NOTE|warning|Ad. Demirspor|Final points were -57 despite on-pitch record W1 D3 L34 producing 6 points; table indicates heavy administrative penalty. Record row uses W/D/L and goal splits for rating support, with final points kept as official table value.
+SEASON|Ad. Demirspor|2025-26|TFF 1. Lig|domestic league|38|1|3|34|22|169|19|1|2|16|16|81|19|0|1|18|6|88|20|-57|B13-source-season-ads
+TEAM|Bodrumspor|Turkey|Turkey Super Lig|T1|Bodrum FK;Bodrumspor;Bodrum|Bodrum District Stadium|Bodrum|Turkey|grass|3925|1931|https://bodrumspor.com.tr/
+VENUE|Bodrumspor|Bodrum District Stadium|Bodrum|Turkey|grass|3925|normal|Normal home venue|B13-source-venue-bod
+NOTE|info|Bodrumspor|App code T1 is current app rating context; SEASON row uses TFF 1. Lig because it is the latest completed domestic season.
+SEASON|Bodrumspor|2025-26|TFF 1. Lig|domestic league|38|18|10|10|71|39|19|12|4|3|42|15|19|6|6|7|29|24|5|64|B13-source-season-bod
+TEAM|Hatayspor|Turkey|Turkey Super Lig|T1|Hatayspor;Hatay Spor Kulübü;Hatay|Mersin Stadium|Mersin|Turkey|grass|25534|1967|https://www.hatayspor.org.tr/
+VENUE|Hatayspor|Mersin Stadium|Mersin|Turkey|grass|25534|normal|Primary home venue used due Hatay earthquake displacement context; treat as normal listed home for 2025-26 TFF 1. Lig rows unless source flags otherwise|B13-source-venue-hat
+NOTE|info|Hatayspor|App code T1 is current app rating context; SEASON row uses TFF 1. Lig because it is the latest completed domestic season.
+SEASON|Hatayspor|2025-26|TFF 1. Lig|domestic league|38|2|8|28|33|102|19|2|5|12|18|42|19|0|3|16|15|60|19|14|B13-source-season-hat
+TEAM|Sivasspor|Turkey|Turkey Super Lig|T1|Sivasspor;Sivaspor;Sivasspor Kulübü|BG Group 4 Eylül Stadium|Sivas|Turkey|grass|27532|1967|https://www.sivasspor.org.tr/
+VENUE|Sivasspor|BG Group 4 Eylül Stadium|Sivas|Turkey|grass|27532|normal|Normal home venue|B13-source-venue-siv
+NOTE|info|Sivasspor|App code T1 is current app rating context; SEASON row uses TFF 1. Lig because it is the latest completed domestic season.
+SEASON|Sivasspor|2025-26|TFF 1. Lig|domestic league|38|14|11|13|47|43|19|8|7|4|28|20|19|6|4|9|19|23|10|53|B13-source-season-siv
+SOURCE|B13-source-venue-ads|https://en.wikipedia.org/wiki/2025%E2%80%9326_TFF_1._Lig|2026-07-30|league|TFF 1. Lig team table lists Adana Demirspor home city, stadium New Adana Stadium and capacity 33543
+SOURCE|B13-source-season-ads|https://en.wikipedia.org/wiki/2025%E2%80%9326_TFF_1._Lig|2026-07-30|league|TFF 1. Lig table confirms Adana Demirspor 38 1-3-34 22-169 official -57 points; home split calculated from full results matrix as 19 1-2-16 16-81 and away derived as 0-1-18 6-88
+SOURCE|B13-source-venue-bod|https://en.wikipedia.org/wiki/2025%E2%80%9326_TFF_1._Lig|2026-07-30|league|TFF 1. Lig team table lists Bodrum home city, stadium Bodrum District Stadium and capacity 3925
+SOURCE|B13-source-season-bod|https://en.wikipedia.org/wiki/2025%E2%80%9326_TFF_1._Lig|2026-07-30|league|TFF 1. Lig table confirms Bodrumspor 38 18-10-10 71-39 64; home split calculated from full results matrix as 19 12-4-3 42-15 and away derived as 6-6-7 29-24
+SOURCE|B13-source-venue-hat|https://www.soccerpunter.com/h2h/Hatayspor-vs-Adana-Demirspor/13833/1039/|2026-07-30|results-database|Hatayspor match context references home games at Mersin Stadyumu; venue details cross-checked against public stadium records
+SOURCE|B13-source-season-hat|https://en.wikipedia.org/wiki/2025%E2%80%9326_TFF_1._Lig|2026-07-30|league|TFF 1. Lig table confirms Hatayspor 38 2-8-28 33-102 14; home split calculated from full results matrix as 19 2-5-12 18-42 and away derived as 0-3-16 15-60
+SOURCE|B13-source-venue-siv|https://en.wikipedia.org/wiki/2025%E2%80%9326_TFF_1._Lig|2026-07-30|league|TFF 1. Lig team table/stadium context for Sivasspor; BG Group 4 Eylül Stadium details cross-checked against public stadium records
+SOURCE|B13-source-season-siv|https://en.wikipedia.org/wiki/2025%E2%80%9326_TFF_1._Lig|2026-07-30|league|TFF 1. Lig table confirms Sivasspor 38 14-11-13 47-43 53; home split calculated from full results matrix as 19 8-7-4 28-20 and away derived as 6-4-9 19-23
+END

@@ -1,0 +1,2473 @@
+{
+ "season": "2024-25",
+ "league": "ligue1",
+ "source": "rsssf-fran2025",
+ "note": "printed table reproduced from round listings; deductions separate",
+ "deductions": {},
+ "anomalies": [
+  [
+   "COUNTED-WITH-NOTE",
+   26,
+   "2025-03-16",
+   "Montpellier 0-2 Saint-Etienne",
+   "[abandoned at 0-2 in 62' due to"
+  ],
+  [
+   "COUNTED-WITH-NOTE",
+   26,
+   "2025-03-16",
+   "Strasbourg 2-1 Toulouse",
+   "crowd trouble; result stood]"
+  ]
+ ],
+ "matches": [
+  {
+   "round": 1,
+   "date": "2024-08-16",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 4,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-17",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 5,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-17",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-17",
+   "home": "AS Monaco",
+   "hg": 1,
+   "ag": 0,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-18",
+   "home": "AJ Auxerre",
+   "hg": 2,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-18",
+   "home": "Angers SCO",
+   "hg": 0,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-18",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-18",
+   "home": "Toulouse FC",
+   "hg": 0,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 1,
+   "date": "2024-08-18",
+   "home": "Stade Rennais FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-23",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 6,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-24",
+   "home": "Olympique Lyonnais",
+   "hg": 0,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-24",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-24",
+   "home": "AS Saint-Etienne",
+   "hg": 0,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-25",
+   "home": "RC Lens",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-25",
+   "home": "FC Nantes",
+   "hg": 2,
+   "ag": 0,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-25",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 1,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-25",
+   "home": "RC Strasbourg Alsace",
+   "hg": 3,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 2,
+   "date": "2024-08-25",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 2,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 3,
+   "date": "2024-08-30",
+   "home": "Olympique Lyonnais",
+   "hg": 4,
+   "ag": 3,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 3,
+   "date": "2024-08-31",
+   "home": "Stade Brestois",
+   "hg": 4,
+   "ag": 0,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 3,
+   "date": "2024-08-31",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 3,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 3,
+   "date": "2024-08-31",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-01",
+   "home": "AS Monaco",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-01",
+   "home": "Angers SCO",
+   "hg": 1,
+   "ag": 4,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-01",
+   "home": "Le Havre AC",
+   "hg": 3,
+   "ag": 1,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-01",
+   "home": "Stade de Reims",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 3,
+   "date": "2024-09-01",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-13",
+   "home": "AS Saint-Etienne",
+   "hg": 1,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-14",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-14",
+   "home": "AJ Auxerre",
+   "hg": 0,
+   "ag": 3,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-14",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-15",
+   "home": "Stade Rennais FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-15",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 2,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-15",
+   "home": "RC Strasbourg Alsace",
+   "hg": 1,
+   "ag": 1,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-15",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 4,
+   "date": "2024-09-15",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 0,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-20",
+   "home": "OGC Nice",
+   "hg": 8,
+   "ag": 0,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-21",
+   "home": "Lille OSC",
+   "hg": 3,
+   "ag": 3,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-21",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-21",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 1,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-22",
+   "home": "AS Monaco",
+   "hg": 3,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-22",
+   "home": "Angers SCO",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-22",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 3,
+   "ag": 2,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-22",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 5,
+   "date": "2024-09-22",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 3,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-27",
+   "home": "AJ Auxerre",
+   "hg": 3,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-27",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-28",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-28",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 3,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-28",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 1,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-29",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-29",
+   "home": "Angers SCO",
+   "hg": 1,
+   "ag": 3,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-29",
+   "home": "FC Nantes",
+   "hg": 2,
+   "ag": 2,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 6,
+   "date": "2024-09-29",
+   "home": "RC Strasbourg Alsace",
+   "hg": 1,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-04",
+   "home": "Olympique de Marseille",
+   "hg": 1,
+   "ag": 1,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-05",
+   "home": "AS Saint-Etienne",
+   "hg": 3,
+   "ag": 1,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-05",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-05",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-06",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-06",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-06",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-06",
+   "home": "Stade de Reims",
+   "hg": 4,
+   "ag": 2,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 7,
+   "date": "2024-10-06",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 1,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-18",
+   "home": "AS Monaco",
+   "hg": 0,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-19",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-19",
+   "home": "AS Saint-Etienne",
+   "hg": 0,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-19",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 4,
+   "ag": 2,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-20",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 4,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-20",
+   "home": "AJ Auxerre",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-20",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-20",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 8,
+   "date": "2024-10-20",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 5,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-26",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-26",
+   "home": "Angers SCO",
+   "hg": 4,
+   "ag": 2,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-26",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 2,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-26",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-27",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 2,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-27",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 3,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-27",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-27",
+   "home": "RC Strasbourg Alsace",
+   "hg": 3,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 9,
+   "date": "2024-10-27",
+   "home": "Olympique de Marseille",
+   "hg": 0,
+   "ag": 3,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-01",
+   "home": "AS Monaco",
+   "hg": 0,
+   "ag": 1,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-01",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-02",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "RC Lens"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-02",
+   "home": "Stade Brestois",
+   "hg": 0,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-02",
+   "home": "AS Saint-Etienne",
+   "hg": 2,
+   "ag": 0,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-03",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-03",
+   "home": "AJ Auxerre",
+   "hg": 4,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-03",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 10,
+   "date": "2024-11-03",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 2,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-08",
+   "home": "Olympique de Marseille",
+   "hg": 1,
+   "ag": 3,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-09",
+   "home": "RC Strasbourg Alsace",
+   "hg": 1,
+   "ag": 3,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-09",
+   "home": "RC Lens",
+   "hg": 3,
+   "ag": 2,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-09",
+   "home": "Angers SCO",
+   "hg": 2,
+   "ag": 4,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-10",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-10",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 3,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-10",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-10",
+   "home": "Stade Rennais FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 11,
+   "date": "2024-11-10",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 0,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-22",
+   "home": "AS Monaco",
+   "hg": 3,
+   "ag": 2,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-22",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-23",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 3,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-23",
+   "home": "AS Saint-Etienne",
+   "hg": 1,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-23",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-24",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-24",
+   "home": "AJ Auxerre",
+   "hg": 1,
+   "ag": 0,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-24",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 12,
+   "date": "2024-11-24",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 13,
+   "date": "2024-11-29",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 13,
+   "date": "2024-11-30",
+   "home": "Stade Rennais FC",
+   "hg": 5,
+   "ag": 0,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 13,
+   "date": "2024-11-30",
+   "home": "Stade Brestois",
+   "hg": 3,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 13,
+   "date": "2024-11-30",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-01",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 2,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-01",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-01",
+   "home": "Olympique Lyonnais",
+   "hg": 4,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-01",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 13,
+   "date": "2024-12-01",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-06",
+   "home": "Lille OSC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-06",
+   "home": "AJ Auxerre",
+   "hg": 0,
+   "ag": 0,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-07",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-07",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-07",
+   "home": "Angers SCO",
+   "hg": 0,
+   "ag": 3,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-08",
+   "home": "RC Lens",
+   "hg": 2,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-08",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-08",
+   "home": "RC Strasbourg Alsace",
+   "hg": 0,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 14,
+   "date": "2024-12-08",
+   "home": "AS Saint-Etienne",
+   "hg": 0,
+   "ag": 2,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-13",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-14",
+   "home": "Olympique de Marseille",
+   "hg": 1,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-14",
+   "home": "AJ Auxerre",
+   "hg": 2,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-14",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 0,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-15",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 2,
+   "ag": 2,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-15",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 3,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-15",
+   "home": "Stade Brestois",
+   "hg": 4,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-15",
+   "home": "Stade Rennais FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 15,
+   "date": "2024-12-15",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 16,
+   "date": "2024-12-18",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 4,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-03",
+   "home": "OGC Nice",
+   "hg": 3,
+   "ag": 2,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-04",
+   "home": "AS Saint-Etienne",
+   "hg": 3,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-04",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-04",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-05",
+   "home": "Angers SCO",
+   "hg": 2,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-05",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 1,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-05",
+   "home": "RC Strasbourg Alsace",
+   "hg": 3,
+   "ag": 1,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 16,
+   "date": "2025-01-05",
+   "home": "Olympique de Marseille",
+   "hg": 5,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-10",
+   "home": "FC Nantes",
+   "hg": 2,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-10",
+   "home": "AJ Auxerre",
+   "hg": 0,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-11",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-11",
+   "home": "Stade de Reims",
+   "hg": 2,
+   "ag": 4,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-11",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-12",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-12",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-12",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 17,
+   "date": "2025-01-12",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-17",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 2,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-17",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 2,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-18",
+   "home": "Olympique Lyonnais",
+   "hg": 0,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-19",
+   "home": "AS Saint-Etienne",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-19",
+   "home": "Angers SCO",
+   "hg": 2,
+   "ag": 0,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-19",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 18,
+   "date": "2025-01-19",
+   "home": "Olympique de Marseille",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-24",
+   "home": "AJ Auxerre",
+   "hg": 1,
+   "ag": 1,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "AS Monaco",
+   "hg": 3,
+   "ag": 2,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-25",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-26",
+   "home": "Le Havre AC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-26",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-26",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 0,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-26",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 19,
+   "date": "2025-01-26",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 20,
+   "date": "2025-01-31",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 5,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "AS Monaco",
+   "hg": 4,
+   "ag": 2,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-01",
+   "home": "Lille OSC",
+   "hg": 4,
+   "ag": 1,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-02",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-02",
+   "home": "Angers SCO",
+   "hg": 1,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-02",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-02",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 20,
+   "date": "2025-02-02",
+   "home": "Olympique de Marseille",
+   "hg": 3,
+   "ag": 2,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-07",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 2,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-07",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 4,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 0,
+   "away": "RC Lens"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-08",
+   "home": "AS Saint-Etienne",
+   "hg": 0,
+   "ag": 2,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-09",
+   "home": "Olympique Lyonnais",
+   "hg": 4,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-09",
+   "home": "AJ Auxerre",
+   "hg": 2,
+   "ag": 2,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-09",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 21,
+   "date": "2025-02-09",
+   "home": "Angers SCO",
+   "hg": 0,
+   "ag": 2,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-14",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 2,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-15",
+   "home": "Olympique de Marseille",
+   "hg": 5,
+   "ag": 1,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-15",
+   "home": "AS Monaco",
+   "hg": 7,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-15",
+   "home": "Toulouse FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-16",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 4,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-16",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 3,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-16",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 2,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-16",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 1,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 22,
+   "date": "2025-02-16",
+   "home": "Stade Rennais FC",
+   "hg": 0,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-21",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-22",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-22",
+   "home": "AS Saint-Etienne",
+   "hg": 3,
+   "ag": 3,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-22",
+   "home": "AJ Auxerre",
+   "hg": 3,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-23",
+   "home": "FC Nantes",
+   "hg": 3,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-23",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 4,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-23",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-23",
+   "home": "RC Strasbourg Alsace",
+   "hg": 0,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 23,
+   "date": "2025-02-23",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 3,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 24,
+   "date": "2025-02-28",
+   "home": "AS Monaco",
+   "hg": 3,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "AS Saint-Etienne",
+   "hg": 1,
+   "ag": 3,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "RC Lens",
+   "hg": 3,
+   "ag": 4,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-01",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 4,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-02",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-02",
+   "home": "AJ Auxerre",
+   "hg": 0,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-02",
+   "home": "Angers SCO",
+   "hg": 0,
+   "ag": 4,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-02",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 4,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 24,
+   "date": "2025-03-02",
+   "home": "Olympique de Marseille",
+   "hg": 2,
+   "ag": 0,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-07",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "Stade Rennais FC",
+   "hg": 1,
+   "ag": 4,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-08",
+   "home": "Olympique de Marseille",
+   "hg": 0,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-09",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 0,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-09",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-09",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 1,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-09",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 2,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 25,
+   "date": "2025-03-09",
+   "home": "OGC Nice",
+   "hg": 0,
+   "ag": 2,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-14",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 1,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-15",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-15",
+   "home": "Angers SCO",
+   "hg": 0,
+   "ag": 2,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-15",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-16",
+   "home": "Olympique Lyonnais",
+   "hg": 4,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-16",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 2,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-16",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 1,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-16",
+   "home": "Stade Brestois",
+   "hg": 0,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 26,
+   "date": "2025-03-16",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-28",
+   "home": "RC Strasbourg Alsace",
+   "hg": 4,
+   "ag": 2,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "Stade de Reims",
+   "hg": 3,
+   "ag": 1,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "AS Saint-Etienne",
+   "hg": 1,
+   "ag": 6,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-29",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 1,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-30",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 4,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-30",
+   "home": "AJ Auxerre",
+   "hg": 1,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-30",
+   "home": "Angers SCO",
+   "hg": 0,
+   "ag": 3,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-30",
+   "home": "Le Havre AC",
+   "hg": 3,
+   "ag": 2,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 27,
+   "date": "2025-03-30",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 0,
+   "away": "RC Lens"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-04",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 2,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 1,
+   "ag": 0,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-05",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 1,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-06",
+   "home": "RC Lens",
+   "hg": 1,
+   "ag": 0,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-06",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-06",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-06",
+   "home": "Stade Rennais FC",
+   "hg": 0,
+   "ag": 1,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 28,
+   "date": "2025-04-06",
+   "home": "Olympique de Marseille",
+   "hg": 3,
+   "ag": 2,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-11",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 2,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "AS Monaco",
+   "hg": 3,
+   "ag": 0,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-12",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 2,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-13",
+   "home": "AS Saint-Etienne",
+   "hg": 3,
+   "ag": 3,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-13",
+   "home": "Angers SCO",
+   "hg": 2,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-13",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 5,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-13",
+   "home": "AJ Auxerre",
+   "hg": 1,
+   "ag": 3,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 29,
+   "date": "2025-04-22",
+   "home": "FC Nantes",
+   "hg": 1,
+   "ag": 1,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-18",
+   "home": "Stade Rennais FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "AS Monaco",
+   "hg": 0,
+   "ag": 0,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-19",
+   "home": "Olympique de Marseille",
+   "hg": 5,
+   "ag": 1,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-20",
+   "home": "Lille OSC",
+   "hg": 3,
+   "ag": 1,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-20",
+   "home": "OGC Nice",
+   "hg": 2,
+   "ag": 1,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-20",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 3,
+   "away": "RC Lens"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-20",
+   "home": "Stade de Reims",
+   "hg": 1,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 30,
+   "date": "2025-04-20",
+   "home": "AS Saint-Etienne",
+   "hg": 2,
+   "ag": 1,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-25",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 1,
+   "ag": 3,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "RC Strasbourg Alsace",
+   "hg": 3,
+   "ag": 1,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 1,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-26",
+   "home": "Olympique Lyonnais",
+   "hg": 4,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-27",
+   "home": "Angers SCO",
+   "hg": 0,
+   "ag": 2,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-27",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 0,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-27",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 0,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-27",
+   "home": "RC Lens",
+   "hg": 0,
+   "ag": 4,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 31,
+   "date": "2025-04-27",
+   "home": "Olympique de Marseille",
+   "hg": 4,
+   "ag": 1,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-02",
+   "home": "OGC Nice",
+   "hg": 1,
+   "ag": 0,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-03",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 1,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-03",
+   "home": "Toulouse FC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-03",
+   "home": "AS Saint-Etienne",
+   "hg": 1,
+   "ag": 3,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-04",
+   "home": "FC Nantes",
+   "hg": 0,
+   "ag": 1,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-04",
+   "home": "AJ Auxerre",
+   "hg": 1,
+   "ag": 2,
+   "away": "Le Havre AC"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-04",
+   "home": "Olympique Lyonnais",
+   "hg": 1,
+   "ag": 2,
+   "away": "RC Lens"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-04",
+   "home": "Stade Brestois",
+   "hg": 1,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 32,
+   "date": "2025-05-04",
+   "home": "Lille OSC",
+   "hg": 1,
+   "ag": 1,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "AJ Auxerre",
+   "hg": 1,
+   "ag": 1,
+   "away": "FC Nantes"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "Angers SCO",
+   "hg": 2,
+   "ag": 1,
+   "away": "RC Strasbourg Alsace"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "AS Monaco",
+   "hg": 2,
+   "ag": 0,
+   "away": "Olympique Lyonnais"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "Le Havre AC",
+   "hg": 1,
+   "ag": 3,
+   "away": "Olympique de Marseille"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "Montpellier-H\u00e9rault SC",
+   "hg": 1,
+   "ag": 4,
+   "away": "Paris-Saint-Germain FC"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "Stade Brestois",
+   "hg": 2,
+   "ag": 0,
+   "away": "Lille OSC"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "Stade de Reims",
+   "hg": 0,
+   "ag": 2,
+   "away": "AS Saint-Etienne"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "Stade Rennais FC",
+   "hg": 2,
+   "ag": 0,
+   "away": "OGC Nice"
+  },
+  {
+   "round": 33,
+   "date": "2025-05-04",
+   "home": "Toulouse FC",
+   "hg": 1,
+   "ag": 1,
+   "away": "RC Lens"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "AS Saint-Etienne",
+   "hg": 2,
+   "ag": 3,
+   "away": "Toulouse FC"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "FC Nantes",
+   "hg": 3,
+   "ag": 0,
+   "away": "Montpellier-H\u00e9rault SC"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "Lille OSC",
+   "hg": 2,
+   "ag": 1,
+   "away": "Stade de Reims"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "OGC Nice",
+   "hg": 6,
+   "ag": 0,
+   "away": "Stade Brestois"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "Olympique de Marseille",
+   "hg": 4,
+   "ag": 2,
+   "away": "Stade Rennais FC"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "Olympique Lyonnais",
+   "hg": 2,
+   "ag": 0,
+   "away": "Angers SCO"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "Paris-Saint-Germain FC",
+   "hg": 3,
+   "ag": 1,
+   "away": "AJ Auxerre"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "RC Lens",
+   "hg": 4,
+   "ag": 0,
+   "away": "AS Monaco"
+  },
+  {
+   "round": 34,
+   "date": "2025-05-04",
+   "home": "RC Strasbourg Alsace",
+   "hg": 2,
+   "ag": 3,
+   "away": "Le Havre AC"
+  }
+ ]
+}

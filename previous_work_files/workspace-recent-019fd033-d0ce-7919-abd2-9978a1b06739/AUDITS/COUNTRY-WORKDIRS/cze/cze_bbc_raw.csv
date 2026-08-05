@@ -1,0 +1,562 @@
+date,section,home,away,hs,as,status,aet,awarded
+2024-07-19,,Sparta Prague,Pardubice,2,1,PostEvent,False,False
+2024-07-20,,Bohemians 1905,BanÃ­k Ostrava,2,1,PostEvent,False,False
+2024-07-20,,Dukla Praha,Viktoria PlzeÅ,1,3,PostEvent,False,False
+2024-07-20,,Jablonec,MladÃ¡ Boleslav,2,0,PostEvent,False,False
+2024-07-20,,ÄeskÃ© BudÄjovice,Sigma Olomouc,0,2,PostEvent,False,False
+2024-07-21,,Hradec KrÃ¡lovÃ©,Teplice,1,0,PostEvent,False,False
+2024-07-21,,KarvinÃ¡,Slovan Liberec,1,3,PostEvent,False,False
+2024-07-21,,SlovÃ¡cko,Slavia Prague,0,0,PostEvent,False,False
+2024-07-27,,Dukla Praha,Bohemians 1905,1,0,PostEvent,False,False
+2024-07-27,,Pardubice,KarvinÃ¡,0,1,PostEvent,False,False
+2024-07-27,,Slavia Prague,ÄeskÃ© BudÄjovice,4,0,PostEvent,False,False
+2024-07-27,,Teplice,Sparta Prague,1,4,PostEvent,False,False
+2024-07-28,,BanÃ­k Ostrava,Jablonec,1,0,PostEvent,False,False
+2024-07-28,,MladÃ¡ Boleslav,SlovÃ¡cko,3,0,PostEvent,False,False
+2024-07-28,,Slovan Liberec,Sigma Olomouc,1,1,PostEvent,False,False
+2024-07-28,,Viktoria PlzeÅ,Hradec KrÃ¡lovÃ©,1,0,PostEvent,False,False
+2024-08-02,,Slovan Liberec,Slavia Prague,0,1,PostEvent,False,False
+2024-08-02,,Sparta Prague,Dukla Praha,2,0,PostEvent,False,False
+2024-08-03,,Jablonec,Viktoria PlzeÅ,0,0,PostEvent,False,False
+2024-08-03,,Sigma Olomouc,Teplice,2,1,PostEvent,False,False
+2024-08-03,,SlovÃ¡cko,Bohemians 1905,0,0,PostEvent,False,False
+2024-08-04,,Hradec KrÃ¡lovÃ©,MladÃ¡ Boleslav,2,1,PostEvent,False,False
+2024-08-04,,ÄeskÃ© BudÄjovice,Pardubice,1,3,PostEvent,False,False
+2024-08-10,,Bohemians 1905,Sparta Prague,1,2,PostEvent,False,False
+2024-08-10,,Dukla Praha,Jablonec,0,2,PostEvent,False,False
+2024-08-10,,Slavia Prague,Sigma Olomouc,2,0,PostEvent,False,False
+2024-08-10,,Teplice,Slovan Liberec,2,1,PostEvent,False,False
+2024-08-11,,BanÃ­k Ostrava,Hradec KrÃ¡lovÃ©,1,0,PostEvent,False,False
+2024-08-11,,MladÃ¡ Boleslav,ÄeskÃ© BudÄjovice,4,0,PostEvent,False,False
+2024-08-11,,Pardubice,SlovÃ¡cko,0,1,PostEvent,False,False
+2024-08-11,,Viktoria PlzeÅ,KarvinÃ¡,5,0,PostEvent,False,False
+2024-08-17,,Hradec KrÃ¡lovÃ©,Dukla Praha,1,0,PostEvent,False,False
+2024-08-17,,Jablonec,Sparta Prague,1,2,PostEvent,False,False
+2024-08-17,,KarvinÃ¡,Bohemians 1905,1,2,PostEvent,False,False
+2024-08-17,,Slavia Prague,Teplice,2,1,PostEvent,False,False
+2024-08-18,,Sigma Olomouc,MladÃ¡ Boleslav,3,2,PostEvent,False,False
+2024-08-18,,Slovan Liberec,Pardubice,3,0,PostEvent,False,False
+2024-08-18,,SlovÃ¡cko,BanÃ­k Ostrava,1,0,PostEvent,False,False
+2024-08-18,,ÄeskÃ© BudÄjovice,Viktoria PlzeÅ,0,3,PostEvent,False,False
+2024-08-24,,Bohemians 1905,Jablonec,1,2,PostEvent,False,False
+2024-08-24,,Pardubice,Hradec KrÃ¡lovÃ©,2,1,PostEvent,False,False
+2024-08-24,,Sparta Prague,SlovÃ¡cko,2,2,PostEvent,False,False
+2024-08-24,,Teplice,KarvinÃ¡,1,3,PostEvent,False,False
+2024-08-25,,BanÃ­k Ostrava,Slovan Liberec,2,0,PostEvent,False,False
+2024-08-25,,Dukla Praha,ÄeskÃ© BudÄjovice,3,0,PostEvent,False,False
+2024-08-28,,KarvinÃ¡,BanÃ­k Ostrava,0,0,PostEvent,False,False
+2024-08-31,,Hradec KrÃ¡lovÃ©,Sparta Prague,0,2,PostEvent,False,False
+2024-08-31,,SlovÃ¡cko,Jablonec,0,0,PostEvent,False,False
+2024-08-31,,ÄeskÃ© BudÄjovice,Bohemians 1905,0,0,PostEvent,False,False
+2024-09-01,,KarvinÃ¡,Dukla Praha,0,0,PostEvent,False,False
+2024-09-01,,Sigma Olomouc,BanÃ­k Ostrava,2,2,PostEvent,False,False
+2024-09-01,,Slavia Prague,Pardubice,2,0,PostEvent,False,False
+2024-09-01,,Slovan Liberec,Viktoria PlzeÅ,1,1,PostEvent,False,False
+2024-09-01,,Teplice,MladÃ¡ Boleslav,1,2,PostEvent,False,False
+2024-09-17,,MladÃ¡ Boleslav,Slavia Prague,0,2,PostEvent,False,False
+2024-09-17,,Viktoria PlzeÅ,Sigma Olomouc,2,1,PostEvent,False,False
+2024-09-21,,Hradec KrÃ¡lovÃ©,SlovÃ¡cko,3,0,PostEvent,False,False
+2024-09-21,,KarvinÃ¡,Jablonec,1,0,PostEvent,False,False
+2024-09-21,,Slavia Prague,Viktoria PlzeÅ,3,0,PostEvent,False,False
+2024-09-21,,Teplice,BanÃ­k Ostrava,2,3,PostEvent,False,False
+2024-09-22,,MladÃ¡ Boleslav,Pardubice,2,2,PostEvent,False,False
+2024-09-22,,Sigma Olomouc,Dukla Praha,2,1,PostEvent,False,False
+2024-09-22,,Slovan Liberec,Bohemians 1905,2,2,PostEvent,False,False
+2024-09-22,,ÄeskÃ© BudÄjovice,Sparta Prague,0,2,PostEvent,False,False
+2024-09-27,,Sparta Prague,Sigma Olomouc,2,3,PostEvent,False,False
+2024-09-28,,Dukla Praha,Slovan Liberec,1,4,PostEvent,False,False
+2024-09-28,,Jablonec,Hradec KrÃ¡lovÃ©,2,0,PostEvent,False,False
+2024-09-28,,Pardubice,Teplice,0,1,PostEvent,False,False
+2024-09-28,,SlovÃ¡cko,KarvinÃ¡,2,1,PostEvent,False,False
+2024-09-29,,BanÃ­k Ostrava,ÄeskÃ© BudÄjovice,2,1,PostEvent,False,False
+2024-09-29,,Bohemians 1905,Slavia Prague,0,4,PostEvent,False,False
+2024-09-29,,Viktoria PlzeÅ,MladÃ¡ Boleslav,1,1,PostEvent,False,False
+2024-10-05,,KarvinÃ¡,Hradec KrÃ¡lovÃ©,0,0,PostEvent,False,False
+2024-10-05,,Slovan Liberec,Jablonec,0,5,PostEvent,False,False
+2024-10-05,,Teplice,Dukla Praha,1,1,PostEvent,False,False
+2024-10-05,,ÄeskÃ© BudÄjovice,SlovÃ¡cko,0,2,PostEvent,False,False
+2024-10-06,,MladÃ¡ Boleslav,BanÃ­k Ostrava,0,0,PostEvent,False,False
+2024-10-06,,Sigma Olomouc,Bohemians 1905,1,3,PostEvent,False,False
+2024-10-06,,Slavia Prague,Sparta Prague,2,1,PostEvent,False,False
+2024-10-06,,Viktoria PlzeÅ,Pardubice,2,0,PostEvent,False,False
+2024-10-19,,BanÃ­k Ostrava,Viktoria PlzeÅ,1,3,PostEvent,False,False
+2024-10-19,,Dukla Praha,Pardubice,2,1,PostEvent,False,False
+2024-10-19,,Hradec KrÃ¡lovÃ©,Sigma Olomouc,1,1,PostEvent,False,False
+2024-10-19,,Sparta Prague,Slovan Liberec,2,1,PostEvent,False,False
+2024-10-20,,Bohemians 1905,MladÃ¡ Boleslav,2,2,PostEvent,False,False
+2024-10-20,,Jablonec,Slavia Prague,1,2,PostEvent,False,False
+2024-10-20,,KarvinÃ¡,ÄeskÃ© BudÄjovice,4,1,PostEvent,False,False
+2024-10-20,,SlovÃ¡cko,Teplice,0,2,PostEvent,False,False
+2024-10-26,,Pardubice,BanÃ­k Ostrava,2,3,PostEvent,False,False
+2024-10-26,,Sigma Olomouc,Jablonec,0,0,PostEvent,False,False
+2024-10-26,,Slovan Liberec,SlovÃ¡cko,4,0,PostEvent,False,False
+2024-10-26,,ÄeskÃ© BudÄjovice,Hradec KrÃ¡lovÃ©,0,2,PostEvent,False,False
+2024-10-27,,MladÃ¡ Boleslav,KarvinÃ¡,1,1,PostEvent,False,False
+2024-10-27,,Slavia Prague,Dukla Praha,3,0,PostEvent,False,False
+2024-10-27,,Teplice,Bohemians 1905,1,2,PostEvent,False,False
+2024-10-27,,Viktoria PlzeÅ,Sparta Prague,1,0,PostEvent,False,False
+2024-11-02,,Dukla Praha,MladÃ¡ Boleslav,0,1,PostEvent,False,False
+2024-11-02,,Jablonec,Teplice,3,0,PostEvent,False,False
+2024-11-02,,KarvinÃ¡,Sigma Olomouc,2,1,PostEvent,False,False
+2024-11-02,,Sparta Prague,BanÃ­k Ostrava,1,3,PostEvent,False,False
+2024-11-03,,Bohemians 1905,Pardubice,0,0,PostEvent,False,False
+2024-11-03,,Hradec KrÃ¡lovÃ©,Slavia Prague,1,1,PostEvent,False,False
+2024-11-03,,SlovÃ¡cko,Viktoria PlzeÅ,1,0,PostEvent,False,False
+2024-11-03,,ÄeskÃ© BudÄjovice,Slovan Liberec,0,0,PostEvent,False,False
+2024-11-09,,BanÃ­k Ostrava,Dukla Praha,6,0,PostEvent,False,False
+2024-11-09,,Pardubice,Jablonec,2,0,PostEvent,False,False
+2024-11-09,,Slovan Liberec,Hradec KrÃ¡lovÃ©,0,0,PostEvent,False,False
+2024-11-10,,MladÃ¡ Boleslav,Sparta Prague,2,2,PostEvent,False,False
+2024-11-10,,Slavia Prague,KarvinÃ¡,5,1,PostEvent,False,False
+2024-11-10,,Teplice,ÄeskÃ© BudÄjovice,5,2,PostEvent,False,False
+2024-11-10,,Viktoria PlzeÅ,Bohemians 1905,2,0,PostEvent,False,False
+2024-11-23,,Hradec KrÃ¡lovÃ©,Viktoria PlzeÅ,0,1,PostEvent,False,False
+2024-11-23,,Jablonec,BanÃ­k Ostrava,3,1,PostEvent,False,False
+2024-11-23,,SlovÃ¡cko,MladÃ¡ Boleslav,1,1,PostEvent,False,False
+2024-11-23,,Sparta Prague,Teplice,1,1,PostEvent,False,False
+2024-11-24,,Bohemians 1905,Dukla Praha,3,1,PostEvent,False,False
+2024-11-24,,KarvinÃ¡,Pardubice,1,0,PostEvent,False,False
+2024-11-24,,Sigma Olomouc,Slovan Liberec,1,4,PostEvent,False,False
+2024-11-24,,ÄeskÃ© BudÄjovice,Slavia Prague,0,4,PostEvent,False,False
+2024-11-27,,Sigma Olomouc,SlovÃ¡cko,2,1,PostEvent,False,False
+2024-11-30,,BanÃ­k Ostrava,KarvinÃ¡,2,1,PostEvent,False,False
+2024-11-30,,Bohemians 1905,SlovÃ¡cko,3,3,PostEvent,False,False
+2024-11-30,,Dukla Praha,Sparta Prague,1,1,PostEvent,False,False
+2024-11-30,,Teplice,Sigma Olomouc,1,0,PostEvent,False,False
+2024-12-01,,MladÃ¡ Boleslav,Hradec KrÃ¡lovÃ©,3,0,PostEvent,False,False
+2024-12-01,,Pardubice,ÄeskÃ© BudÄjovice,0,0,PostEvent,False,False
+2024-12-01,,Slavia Prague,Slovan Liberec,1,0,PostEvent,False,False
+2024-12-01,,Viktoria PlzeÅ,Jablonec,3,2,PostEvent,False,False
+2024-12-03,,Sparta Prague,KarvinÃ¡,4,1,PostEvent,False,False
+2024-12-04,,Bohemians 1905,Hradec KrÃ¡lovÃ©,0,3,PostEvent,False,False
+2024-12-04,,Dukla Praha,SlovÃ¡cko,1,2,PostEvent,False,False
+2024-12-04,,Jablonec,ÄeskÃ© BudÄjovice,5,0,PostEvent,False,False
+2024-12-04,,Pardubice,Sigma Olomouc,2,2,PostEvent,False,False
+2024-12-05,,BanÃ­k Ostrava,Slavia Prague,0,1,PostEvent,False,False
+2024-12-05,,MladÃ¡ Boleslav,Slovan Liberec,1,0,PostEvent,False,False
+2024-12-05,,Viktoria PlzeÅ,Teplice,1,1,PostEvent,False,False
+2024-12-07,,Jablonec,Dukla Praha,2,1,PostEvent,False,False
+2024-12-07,,SlovÃ¡cko,Pardubice,1,1,PostEvent,False,False
+2024-12-07,,Sparta Prague,Bohemians 1905,1,0,PostEvent,False,False
+2024-12-08,,Hradec KrÃ¡lovÃ©,BanÃ­k Ostrava,0,1,PostEvent,False,False
+2024-12-08,,KarvinÃ¡,Viktoria PlzeÅ,1,2,PostEvent,False,False
+2024-12-08,,Sigma Olomouc,Slavia Prague,1,2,PostEvent,False,False
+2024-12-08,,Slovan Liberec,Teplice,3,0,PostEvent,False,False
+2024-12-08,,ÄeskÃ© BudÄjovice,MladÃ¡ Boleslav,0,4,PostEvent,False,False
+2024-12-14,,BanÃ­k Ostrava,SlovÃ¡cko,3,1,PostEvent,False,False
+2024-12-14,,Bohemians 1905,KarvinÃ¡,3,3,PostEvent,False,False
+2024-12-14,,Dukla Praha,Hradec KrÃ¡lovÃ©,1,2,PostEvent,False,False
+2024-12-14,,Pardubice,Slovan Liberec,1,1,PostEvent,False,False
+2024-12-15,,MladÃ¡ Boleslav,Sigma Olomouc,1,3,PostEvent,False,False
+2024-12-15,,Sparta Prague,Jablonec,2,1,PostEvent,False,False
+2024-12-15,,Teplice,Slavia Prague,1,0,PostEvent,False,False
+2024-12-15,,Viktoria PlzeÅ,ÄeskÃ© BudÄjovice,7,2,PostEvent,False,False
+2025-02-01,,Hradec KrÃ¡lovÃ©,Pardubice,3,0,PostEvent,False,False
+2025-02-01,,KarvinÃ¡,Teplice,1,1,PostEvent,False,False
+2025-02-01,,Slovan Liberec,BanÃ­k Ostrava,0,1,PostEvent,False,False
+2025-02-01,,ÄeskÃ© BudÄjovice,Dukla Praha,0,0,PostEvent,False,False
+2025-02-02,,Jablonec,Bohemians 1905,0,1,PostEvent,False,False
+2025-02-02,,Slavia Prague,MladÃ¡ Boleslav,1,0,PostEvent,False,False
+2025-02-02,,SlovÃ¡cko,Sparta Prague,0,2,PostEvent,False,False
+2025-02-03,,Sigma Olomouc,Viktoria PlzeÅ,2,1,PostEvent,False,False
+2025-02-08,,MladÃ¡ Boleslav,Teplice,2,1,PostEvent,False,False
+2025-02-08,,Pardubice,Slavia Prague,0,2,PostEvent,False,False
+2025-02-08,,Viktoria PlzeÅ,Slovan Liberec,3,2,PostEvent,False,False
+2025-02-09,,BanÃ­k Ostrava,Sigma Olomouc,1,0,PostEvent,False,False
+2025-02-09,,Bohemians 1905,ÄeskÃ© BudÄjovice,1,0,PostEvent,False,False
+2025-02-09,,Jablonec,SlovÃ¡cko,4,2,PostEvent,False,False
+2025-02-09,,Sparta Prague,Hradec KrÃ¡lovÃ©,3,0,PostEvent,False,False
+2025-02-15,,KarvinÃ¡,Sparta Prague,2,3,PostEvent,False,False
+2025-02-15,,Sigma Olomouc,Pardubice,4,0,PostEvent,False,False
+2025-02-15,,SlovÃ¡cko,Dukla Praha,0,0,PostEvent,False,False
+2025-02-15,,ÄeskÃ© BudÄjovice,Jablonec,2,3,PostEvent,False,False
+2025-02-16,,Hradec KrÃ¡lovÃ©,Bohemians 1905,2,2,PostEvent,False,False
+2025-02-16,,Slavia Prague,BanÃ­k Ostrava,1,0,PostEvent,False,False
+2025-02-16,,Slovan Liberec,MladÃ¡ Boleslav,3,1,PostEvent,False,False
+2025-02-16,,Teplice,Viktoria PlzeÅ,0,2,PostEvent,False,False
+2025-02-22,,BanÃ­k Ostrava,Teplice,2,0,PostEvent,False,False
+2025-02-22,,Dukla Praha,Sigma Olomouc,1,3,PostEvent,False,False
+2025-02-22,,Pardubice,MladÃ¡ Boleslav,0,3,PostEvent,False,False
+2025-02-22,,Sparta Prague,ÄeskÃ© BudÄjovice,2,1,PostEvent,False,False
+2025-02-23,,Bohemians 1905,Slovan Liberec,0,0,PostEvent,False,False
+2025-02-23,,Jablonec,KarvinÃ¡,5,0,PostEvent,False,False
+2025-02-23,,Viktoria PlzeÅ,Slavia Prague,1,3,PostEvent,False,False
+2025-03-01,,Hradec KrÃ¡lovÃ©,Jablonec,1,1,PostEvent,False,False
+2025-03-01,,Sigma Olomouc,Sparta Prague,1,2,PostEvent,False,False
+2025-03-01,,Teplice,Pardubice,2,0,PostEvent,False,False
+2025-03-01,,ÄeskÃ© BudÄjovice,BanÃ­k Ostrava,0,4,PostEvent,False,False
+2025-03-02,,KarvinÃ¡,SlovÃ¡cko,2,0,PostEvent,False,False
+2025-03-02,,MladÃ¡ Boleslav,Viktoria PlzeÅ,0,2,PostEvent,False,False
+2025-03-02,,Slavia Prague,Bohemians 1905,2,0,PostEvent,False,False
+2025-03-02,,Slovan Liberec,Dukla Praha,1,1,PostEvent,False,False
+2025-03-08,,Dukla Praha,Teplice,1,1,PostEvent,False,False
+2025-03-08,,Jablonec,Slovan Liberec,0,0,PostEvent,False,False
+2025-03-08,,SlovÃ¡cko,ÄeskÃ© BudÄjovice,2,1,PostEvent,False,False
+2025-03-08,,Sparta Prague,Slavia Prague,2,0,PostEvent,False,False
+2025-03-09,,BanÃ­k Ostrava,MladÃ¡ Boleslav,2,1,PostEvent,False,False
+2025-03-09,,Bohemians 1905,Sigma Olomouc,0,1,PostEvent,False,False
+2025-03-09,,Hradec KrÃ¡lovÃ©,KarvinÃ¡,1,1,PostEvent,False,False
+2025-03-09,,Pardubice,Viktoria PlzeÅ,0,0,PostEvent,False,False
+2025-03-12,,Dukla Praha,KarvinÃ¡,0,0,PostEvent,False,False
+2025-03-15,,MladÃ¡ Boleslav,Bohemians 1905,1,2,PostEvent,False,False
+2025-03-15,,Pardubice,Dukla Praha,0,1,PostEvent,False,False
+2025-03-15,,Slovan Liberec,Sparta Prague,1,0,PostEvent,False,False
+2025-03-15,,Teplice,SlovÃ¡cko,1,0,PostEvent,False,False
+2025-03-16,,Sigma Olomouc,Hradec KrÃ¡lovÃ©,1,2,PostEvent,False,False
+2025-03-16,,Slavia Prague,Jablonec,3,0,PostEvent,False,False
+2025-03-16,,Viktoria PlzeÅ,BanÃ­k Ostrava,0,1,PostEvent,False,False
+2025-03-16,,ÄeskÃ© BudÄjovice,KarvinÃ¡,2,3,PostEvent,False,False
+2025-03-29,,BanÃ­k Ostrava,Pardubice,5,2,PostEvent,False,False
+2025-03-29,,Bohemians 1905,Teplice,1,1,PostEvent,False,False
+2025-03-29,,Dukla Praha,Slavia Prague,0,0,PostEvent,False,False
+2025-03-29,,Jablonec,Sigma Olomouc,0,0,PostEvent,False,False
+2025-03-30,,Hradec KrÃ¡lovÃ©,ÄeskÃ© BudÄjovice,1,0,PostEvent,False,False
+2025-03-30,,KarvinÃ¡,MladÃ¡ Boleslav,3,1,PostEvent,False,False
+2025-03-30,,SlovÃ¡cko,Slovan Liberec,0,4,PostEvent,False,False
+2025-03-30,,Sparta Prague,Viktoria PlzeÅ,2,4,PostEvent,False,False
+2025-04-05,,BanÃ­k Ostrava,Sparta Prague,1,1,PostEvent,False,False
+2025-04-05,,Pardubice,Bohemians 1905,2,0,PostEvent,False,False
+2025-04-05,,Sigma Olomouc,KarvinÃ¡,1,2,PostEvent,False,False
+2025-04-05,,Slavia Prague,Hradec KrÃ¡lovÃ©,2,1,PostEvent,False,False
+2025-04-05,,Slovan Liberec,ÄeskÃ© BudÄjovice,2,0,PostEvent,False,False
+2025-04-06,,MladÃ¡ Boleslav,Dukla Praha,0,1,PostEvent,False,False
+2025-04-06,,Teplice,Jablonec,0,1,PostEvent,False,False
+2025-04-06,,Viktoria PlzeÅ,SlovÃ¡cko,2,0,PostEvent,False,False
+2025-04-09,,SlovÃ¡cko,Hradec KrÃ¡lovÃ©,1,5,PostEvent,False,False
+2025-04-12,,Dukla Praha,BanÃ­k Ostrava,1,2,PostEvent,False,False
+2025-04-12,,KarvinÃ¡,Slavia Prague,0,4,PostEvent,False,False
+2025-04-13,,Bohemians 1905,Viktoria PlzeÅ,1,2,PostEvent,False,False
+2025-04-13,,Hradec KrÃ¡lovÃ©,Slovan Liberec,0,2,PostEvent,False,False
+2025-04-13,,Jablonec,Pardubice,1,0,PostEvent,False,False
+2025-04-13,,SlovÃ¡cko,Sigma Olomouc,2,2,PostEvent,False,False
+2025-04-13,,Sparta Prague,MladÃ¡ Boleslav,2,0,PostEvent,False,False
+2025-04-13,,ÄeskÃ© BudÄjovice,Teplice,1,1,PostEvent,False,False
+2025-04-19,,BanÃ­k Ostrava,Bohemians 1905,1,0,PostEvent,False,False
+2025-04-19,,MladÃ¡ Boleslav,Jablonec,0,1,PostEvent,False,False
+2025-04-19,,Pardubice,Sparta Prague,1,2,PostEvent,False,False
+2025-04-19,,Sigma Olomouc,ÄeskÃ© BudÄjovice,3,0,PostEvent,False,False
+2025-04-19,,Slavia Prague,SlovÃ¡cko,2,0,PostEvent,False,False
+2025-04-19,,Slovan Liberec,KarvinÃ¡,2,3,PostEvent,False,False
+2025-04-19,,Teplice,Hradec KrÃ¡lovÃ©,1,0,PostEvent,False,False
+2025-04-19,,Viktoria PlzeÅ,Dukla Praha,4,2,PostEvent,False,False
+2025-04-26,Championship Round,Sigma Olomouc,Slavia Prague,0,5,PostEvent,False,False
+2025-04-26,Relegation Round,SlovÃ¡cko,Pardubice,1,0,PostEvent,False,False
+2025-04-26,Relegation Round,ÄeskÃ© BudÄjovice,MladÃ¡ Boleslav,1,2,PostEvent,False,False
+2025-04-27,Championship Round,BanÃ­k Ostrava,Jablonec,1,2,PostEvent,False,False
+2025-04-27,Relegation Round,Teplice,Dukla Praha,2,2,PostEvent,False,False
+2025-04-27,Championship Round,Viktoria PlzeÅ,Sparta Prague,2,0,PostEvent,False,False
+2025-05-03,Championship Round,BanÃ­k Ostrava,Sigma Olomouc,0,0,PostEvent,False,False
+2025-05-03,Relegation Round,Dukla Praha,Pardubice,2,0,PostEvent,False,False
+2025-05-03,Middle Play-offs - Semi-finals,Hradec KrÃ¡lovÃ©,KarvinÃ¡,1,0,PostEvent,False,False
+2025-05-03,Championship Round,Slavia Prague,Viktoria PlzeÅ,4,3,PostEvent,False,False
+2025-05-04,Middle Play-offs - Semi-finals,Bohemians 1905,Slovan Liberec,4,1,PostEvent,False,False
+2025-05-04,Relegation Round,MladÃ¡ Boleslav,Teplice,1,0,PostEvent,False,False
+2025-05-04,Relegation Round,SlovÃ¡cko,ÄeskÃ© BudÄjovice,0,0,PostEvent,False,False
+2025-05-04,Championship Round,Sparta Prague,Jablonec,1,3,PostEvent,False,False
+2025-05-10,Championship Round,Jablonec,Sigma Olomouc,4,0,PostEvent,False,False
+2025-05-10,Middle Play-offs - Semi-finals,KarvinÃ¡,Hradec KrÃ¡lovÃ©,0,4,PostEvent,False,False
+2025-05-10,Relegation Round,Pardubice,ÄeskÃ© BudÄjovice,1,0,PostEvent,False,False
+2025-05-10,Championship Round,Slavia Prague,Sparta Prague,2,1,PostEvent,False,False
+2025-05-11,Relegation Round,MladÃ¡ Boleslav,Dukla Praha,2,3,PostEvent,False,False
+2025-05-11,Middle Play-offs - Semi-finals,Slovan Liberec,Bohemians 1905,1,0,PostEvent,False,False
+2025-05-11,Relegation Round,Teplice,SlovÃ¡cko,1,0,PostEvent,False,False
+2025-05-11,Championship Round,Viktoria PlzeÅ,BanÃ­k Ostrava,1,2,PostEvent,False,False
+2025-05-17,Relegation Round,Pardubice,MladÃ¡ Boleslav,2,1,PostEvent,False,False
+2025-05-17,Relegation Round,SlovÃ¡cko,Dukla Praha,3,2,PostEvent,False,False
+2025-05-17,Relegation Round,ÄeskÃ© BudÄjovice,Teplice,0,3,PostEvent,False,False
+2025-05-18,Championship Round,BanÃ­k Ostrava,Sparta Prague,3,2,PostEvent,False,False
+2025-05-18,Middle Play-offs - Final,Bohemians 1905,Hradec KrÃ¡lovÃ©,1,0,PostEvent,False,False
+2025-05-18,Championship Round,Jablonec,Slavia Prague,3,2,PostEvent,False,False
+2025-05-18,Championship Round,Sigma Olomouc,Viktoria PlzeÅ,1,2,PostEvent,False,False
+2025-05-24,Championship Round,Slavia Prague,BanÃ­k Ostrava,3,0,PostEvent,False,False
+2025-05-24,Championship Round,Sparta Prague,Sigma Olomouc,1,1,PostEvent,False,False
+2025-05-24,Championship Round,Viktoria PlzeÅ,Jablonec,4,1,PostEvent,False,False
+2025-05-25,Relegation Round,Dukla Praha,ÄeskÃ© BudÄjovice,2,1,PostEvent,False,False
+2025-05-25,Middle Play-offs - Final,Hradec KrÃ¡lovÃ©,Bohemians 1905,2,0,PostEvent,False,False
+2025-05-25,Relegation Round,MladÃ¡ Boleslav,SlovÃ¡cko,2,2,PostEvent,False,False
+2025-05-25,Relegation Round,Teplice,Pardubice,3,0,PostEvent,False,False
+2025-07-18,,Pardubice,Viktoria PlzeÅ,1,5,PostEvent,False,False
+2025-07-19,,Bohemians 1905,BanÃ­k Ostrava,1,0,PostEvent,False,False
+2025-07-19,,Jablonec,Sparta Prague,1,1,PostEvent,False,False
+2025-07-19,,KarvinÃ¡,Dukla Praha,2,0,PostEvent,False,False
+2025-07-19,,Teplice,ZlÃ­n,1,3,PostEvent,False,False
+2025-07-20,,MladÃ¡ Boleslav,Slovan Liberec,3,3,PostEvent,False,False
+2025-07-20,,Slavia Prague,Hradec KrÃ¡lovÃ©,2,2,PostEvent,False,False
+2025-07-20,,SlovÃ¡cko,Sigma Olomouc,0,1,PostEvent,False,False
+2025-07-26,,Bohemians 1905,Slavia Prague,0,2,PostEvent,False,False
+2025-07-26,,Hradec KrÃ¡lovÃ©,KarvinÃ¡,1,2,PostEvent,False,False
+2025-07-26,,Sigma Olomouc,Dukla Praha,0,0,PostEvent,False,False
+2025-07-26,,Viktoria PlzeÅ,Jablonec,1,1,PostEvent,False,False
+2025-07-26,,ZlÃ­n,SlovÃ¡cko,1,1,PostEvent,False,False
+2025-07-27,,Slovan Liberec,Pardubice,2,1,PostEvent,False,False
+2025-07-27,,Sparta Prague,MladÃ¡ Boleslav,3,2,PostEvent,False,False
+2025-08-02,,Jablonec,Hradec KrÃ¡lovÃ©,2,0,PostEvent,False,False
+2025-08-02,,KarvinÃ¡,ZlÃ­n,0,1,PostEvent,False,False
+2025-08-02,,Sigma Olomouc,Slovan Liberec,2,1,PostEvent,False,False
+2025-08-02,,Teplice,Bohemians 1905,3,0,PostEvent,False,False
+2025-08-03,,Dukla Praha,BanÃ­k Ostrava,1,1,PostEvent,False,False
+2025-08-03,,Pardubice,Sparta Prague,1,3,PostEvent,False,False
+2025-08-03,,SlovÃ¡cko,Slavia Prague,0,1,PostEvent,False,False
+2025-08-09,,Slavia Prague,Teplice,3,0,PostEvent,False,False
+2025-08-09,,Slovan Liberec,Dukla Praha,2,0,PostEvent,False,False
+2025-08-09,,Viktoria PlzeÅ,SlovÃ¡cko,1,1,PostEvent,False,False
+2025-08-09,,ZlÃ­n,MladÃ¡ Boleslav,3,2,PostEvent,False,False
+2025-08-10,,BanÃ­k Ostrava,KarvinÃ¡,1,2,PostEvent,False,False
+2025-08-10,,Bohemians 1905,Jablonec,0,1,PostEvent,False,False
+2025-08-10,,Hradec KrÃ¡lovÃ©,Pardubice,1,1,PostEvent,False,False
+2025-08-10,,Sparta Prague,Sigma Olomouc,1,0,PostEvent,False,False
+2025-08-16,,Dukla Praha,Viktoria PlzeÅ,2,0,PostEvent,False,False
+2025-08-16,,Jablonec,Slavia Prague,1,1,PostEvent,False,False
+2025-08-16,,MladÃ¡ Boleslav,Hradec KrÃ¡lovÃ©,3,2,PostEvent,False,False
+2025-08-16,,Sigma Olomouc,ZlÃ­n,1,0,PostEvent,False,False
+2025-08-16,,SlovÃ¡cko,Teplice,2,1,PostEvent,False,False
+2025-08-17,,KarvinÃ¡,Bohemians 1905,1,2,PostEvent,False,False
+2025-08-17,,Slovan Liberec,Sparta Prague,0,2,PostEvent,False,False
+2025-08-19,,MladÃ¡ Boleslav,Viktoria PlzeÅ,0,5,PostEvent,False,False
+2025-08-23,,Slavia Prague,Pardubice,3,1,PostEvent,False,False
+2025-08-23,,Teplice,Jablonec,0,1,PostEvent,False,False
+2025-08-23,,Viktoria PlzeÅ,KarvinÃ¡,2,1,PostEvent,False,False
+2025-08-23,,ZlÃ­n,Slovan Liberec,1,0,PostEvent,False,False
+2025-08-24,,BanÃ­k Ostrava,SlovÃ¡cko,2,0,PostEvent,False,False
+2025-08-24,,Hradec KrÃ¡lovÃ©,Sigma Olomouc,1,0,PostEvent,False,False
+2025-08-24,,Sparta Prague,Dukla Praha,3,2,PostEvent,False,False
+2025-08-30,,Dukla Praha,Hradec KrÃ¡lovÃ©,1,1,PostEvent,False,False
+2025-08-30,,KarvinÃ¡,Teplice,4,1,PostEvent,False,False
+2025-08-30,,MladÃ¡ Boleslav,Slavia Prague,1,3,PostEvent,False,False
+2025-08-30,,Pardubice,Bohemians 1905,1,1,PostEvent,False,False
+2025-08-30,,SlovÃ¡cko,Jablonec,0,2,PostEvent,False,False
+2025-08-31,,Sigma Olomouc,BanÃ­k Ostrava,1,0,PostEvent,False,False
+2025-08-31,,Slovan Liberec,Viktoria PlzeÅ,1,1,PostEvent,False,False
+2025-08-31,,Sparta Prague,ZlÃ­n,3,1,PostEvent,False,False
+2025-09-13,,BanÃ­k Ostrava,Slovan Liberec,0,2,PostEvent,False,False
+2025-09-13,,Slavia Prague,KarvinÃ¡,3,1,PostEvent,False,False
+2025-09-13,,Teplice,MladÃ¡ Boleslav,2,3,PostEvent,False,False
+2025-09-13,,Viktoria PlzeÅ,Sigma Olomouc,1,0,PostEvent,False,False
+2025-09-13,,ZlÃ­n,Dukla Praha,1,1,PostEvent,False,False
+2025-09-14,,Bohemians 1905,SlovÃ¡cko,1,0,PostEvent,False,False
+2025-09-14,,Hradec KrÃ¡lovÃ©,Sparta Prague,2,1,PostEvent,False,False
+2025-09-14,,Jablonec,Pardubice,3,2,PostEvent,False,False
+2025-09-17,,BanÃ­k Ostrava,Teplice,1,1,PostEvent,False,False
+2025-09-20,,KarvinÃ¡,Jablonec,1,2,PostEvent,False,False
+2025-09-20,,Pardubice,SlovÃ¡cko,1,1,PostEvent,False,False
+2025-09-20,,Sigma Olomouc,Teplice,0,0,PostEvent,False,False
+2025-09-20,,Sparta Prague,Viktoria PlzeÅ,2,1,PostEvent,False,False
+2025-09-20,,ZlÃ­n,Hradec KrÃ¡lovÃ©,1,2,PostEvent,False,False
+2025-09-21,,Dukla Praha,Bohemians 1905,0,2,PostEvent,False,False
+2025-09-21,,MladÃ¡ Boleslav,BanÃ­k Ostrava,1,1,PostEvent,False,False
+2025-09-21,,Slovan Liberec,Slavia Prague,1,1,PostEvent,False,False
+2025-09-26,,Slavia Prague,Dukla Praha,2,0,PostEvent,False,False
+2025-09-27,,BanÃ­k Ostrava,Sparta Prague,0,3,PostEvent,False,False
+2025-09-27,,Bohemians 1905,Sigma Olomouc,2,2,PostEvent,False,False
+2025-09-27,,Hradec KrÃ¡lovÃ©,Slovan Liberec,2,3,PostEvent,False,False
+2025-09-27,,SlovÃ¡cko,KarvinÃ¡,1,2,PostEvent,False,False
+2025-09-28,,Jablonec,MladÃ¡ Boleslav,2,0,PostEvent,False,False
+2025-09-28,,Teplice,Pardubice,0,0,PostEvent,False,False
+2025-09-28,,Viktoria PlzeÅ,ZlÃ­n,0,1,PostEvent,False,False
+2025-10-01,,Pardubice,BanÃ­k Ostrava,0,1,PostEvent,False,False
+2025-10-04,,Dukla Praha,Teplice,1,3,PostEvent,False,False
+2025-10-04,,MladÃ¡ Boleslav,SlovÃ¡cko,0,0,PostEvent,False,False
+2025-10-04,,Pardubice,KarvinÃ¡,2,1,PostEvent,False,False
+2025-10-04,,Slovan Liberec,Bohemians 1905,0,0,PostEvent,False,False
+2025-10-05,,Sigma Olomouc,Jablonec,2,0,PostEvent,False,False
+2025-10-05,,Sparta Prague,Slavia Prague,1,1,PostEvent,False,False
+2025-10-05,,Viktoria PlzeÅ,Hradec KrÃ¡lovÃ©,3,3,PostEvent,False,False
+2025-10-05,,ZlÃ­n,BanÃ­k Ostrava,1,1,PostEvent,False,False
+2025-10-18,,Bohemians 1905,Viktoria PlzeÅ,0,1,PostEvent,False,False
+2025-10-18,,KarvinÃ¡,Sigma Olomouc,1,1,PostEvent,False,False
+2025-10-18,,Pardubice,MladÃ¡ Boleslav,2,1,PostEvent,False,False
+2025-10-18,,Slavia Prague,ZlÃ­n,0,0,PostEvent,False,False
+2025-10-18,,Teplice,Slovan Liberec,1,1,PostEvent,False,False
+2025-10-19,,BanÃ­k Ostrava,Hradec KrÃ¡lovÃ©,0,1,PostEvent,False,False
+2025-10-19,,Jablonec,Dukla Praha,0,0,PostEvent,False,False
+2025-10-19,,SlovÃ¡cko,Sparta Prague,0,0,PostEvent,False,False
+2025-10-22,,Bohemians 1905,MladÃ¡ Boleslav,1,1,PostEvent,False,False
+2025-10-25,,Dukla Praha,SlovÃ¡cko,1,0,PostEvent,False,False
+2025-10-25,,Hradec KrÃ¡lovÃ©,Teplice,0,0,PostEvent,False,False
+2025-10-25,,MladÃ¡ Boleslav,KarvinÃ¡,2,4,PostEvent,False,False
+2025-10-25,,Slovan Liberec,Jablonec,0,2,PostEvent,False,False
+2025-10-25,,ZlÃ­n,Pardubice,2,2,PostEvent,False,False
+2025-10-26,,Sigma Olomouc,Slavia Prague,0,0,PostEvent,False,False
+2025-10-26,,Viktoria PlzeÅ,BanÃ­k Ostrava,2,0,PostEvent,False,False
+2025-10-28,,Sparta Prague,Bohemians 1905,2,1,PostEvent,False,False
+2025-11-01,,Jablonec,ZlÃ­n,1,3,PostEvent,False,False
+2025-11-01,,Pardubice,Dukla Praha,1,1,PostEvent,False,False
+2025-11-01,,Slavia Prague,BanÃ­k Ostrava,2,0,PostEvent,False,False
+2025-11-01,,SlovÃ¡cko,Slovan Liberec,0,3,PostEvent,False,False
+2025-11-02,,Bohemians 1905,Hradec KrÃ¡lovÃ©,1,2,PostEvent,False,False
+2025-11-02,,KarvinÃ¡,Sparta Prague,2,1,PostEvent,False,False
+2025-11-02,,MladÃ¡ Boleslav,Sigma Olomouc,1,4,PostEvent,False,False
+2025-11-02,,Teplice,Viktoria PlzeÅ,1,2,PostEvent,False,False
+2025-11-08,,BanÃ­k Ostrava,Jablonec,0,1,PostEvent,False,False
+2025-11-08,,Dukla Praha,MladÃ¡ Boleslav,0,1,PostEvent,False,False
+2025-11-08,,Hradec KrÃ¡lovÃ©,SlovÃ¡cko,4,0,PostEvent,False,False
+2025-11-08,,ZlÃ­n,Bohemians 1905,0,1,PostEvent,False,False
+2025-11-09,,Sigma Olomouc,Pardubice,2,0,PostEvent,False,False
+2025-11-09,,Slovan Liberec,KarvinÃ¡,6,0,PostEvent,False,False
+2025-11-09,,Sparta Prague,Teplice,2,2,PostEvent,False,False
+2025-11-09,,Viktoria PlzeÅ,Slavia Prague,3,5,PostEvent,False,False
+2025-11-22,,Dukla Praha,Sigma Olomouc,2,2,PostEvent,False,False
+2025-11-22,,MladÃ¡ Boleslav,Sparta Prague,1,2,PostEvent,False,False
+2025-11-22,,Pardubice,Slovan Liberec,0,4,PostEvent,False,False
+2025-11-22,,Slavia Prague,Bohemians 1905,3,1,PostEvent,False,False
+2025-11-22,,Teplice,BanÃ­k Ostrava,1,0,PostEvent,False,False
+2025-11-23,,Jablonec,Viktoria PlzeÅ,3,3,PostEvent,False,False
+2025-11-23,,KarvinÃ¡,Hradec KrÃ¡lovÃ©,4,3,PostEvent,False,False
+2025-11-23,,SlovÃ¡cko,ZlÃ­n,2,0,PostEvent,False,False
+2025-11-29,,BanÃ­k Ostrava,Dukla Praha,3,1,PostEvent,False,False
+2025-11-29,,Hradec KrÃ¡lovÃ©,Jablonec,2,0,PostEvent,False,False
+2025-11-29,,Slavia Prague,SlovÃ¡cko,3,0,PostEvent,False,False
+2025-11-29,,ZlÃ­n,KarvinÃ¡,1,3,PostEvent,False,False
+2025-11-30,,Bohemians 1905,Teplice,0,1,PostEvent,False,False
+2025-11-30,,Slovan Liberec,Sigma Olomouc,1,0,PostEvent,False,False
+2025-11-30,,Sparta Prague,Pardubice,2,4,PostEvent,False,False
+2025-11-30,,Viktoria PlzeÅ,MladÃ¡ Boleslav,2,1,PostEvent,False,False
+2025-12-05,,Teplice,Slavia Prague,1,2,PostEvent,False,False
+2025-12-06,,Dukla Praha,Slovan Liberec,1,1,PostEvent,False,False
+2025-12-06,,MladÃ¡ Boleslav,ZlÃ­n,3,1,PostEvent,False,False
+2025-12-06,,Sigma Olomouc,Sparta Prague,0,1,PostEvent,False,False
+2025-12-06,,SlovÃ¡cko,Viktoria PlzeÅ,3,0,PostEvent,False,False
+2025-12-07,,Jablonec,Bohemians 1905,1,0,PostEvent,False,False
+2025-12-07,,KarvinÃ¡,BanÃ­k Ostrava,0,0,PostEvent,False,False
+2025-12-07,,Pardubice,Hradec KrÃ¡lovÃ©,1,0,PostEvent,False,False
+2025-12-13,,BanÃ­k Ostrava,Pardubice,1,4,PostEvent,False,False
+2025-12-13,,Hradec KrÃ¡lovÃ©,MladÃ¡ Boleslav,1,1,PostEvent,False,False
+2025-12-13,,Slavia Prague,Jablonec,4,3,PostEvent,False,False
+2025-12-13,,Teplice,SlovÃ¡cko,1,0,PostEvent,False,False
+2025-12-14,,Bohemians 1905,KarvinÃ¡,0,3,PostEvent,False,False
+2025-12-14,,Sparta Prague,Slovan Liberec,2,2,PostEvent,False,False
+2025-12-14,,Viktoria PlzeÅ,Dukla Praha,2,0,PostEvent,False,False
+2025-12-14,,ZlÃ­n,Sigma Olomouc,5,0,PostEvent,False,False
+2026-01-31,,Dukla Praha,Sparta Prague,0,3,PostEvent,False,False
+2026-01-31,,Jablonec,Teplice,1,0,PostEvent,False,False
+2026-01-31,,MladÃ¡ Boleslav,Bohemians 1905,2,2,PostEvent,False,False
+2026-01-31,,Sigma Olomouc,Hradec KrÃ¡lovÃ©,1,0,PostEvent,False,False
+2026-02-01,,KarvinÃ¡,Viktoria PlzeÅ,0,2,PostEvent,False,False
+2026-02-01,,Pardubice,Slavia Prague,1,1,PostEvent,False,False
+2026-02-01,,Slovan Liberec,ZlÃ­n,2,0,PostEvent,False,False
+2026-02-01,,SlovÃ¡cko,BanÃ­k Ostrava,2,2,PostEvent,False,False
+2026-02-07,,BanÃ­k Ostrava,Sigma Olomouc,2,0,PostEvent,False,False
+2026-02-07,,Jablonec,SlovÃ¡cko,0,0,PostEvent,False,False
+2026-02-07,,Slavia Prague,MladÃ¡ Boleslav,4,0,PostEvent,False,False
+2026-02-07,,Teplice,KarvinÃ¡,2,0,PostEvent,False,False
+2026-02-08,,Bohemians 1905,Pardubice,1,2,PostEvent,False,False
+2026-02-08,,Hradec KrÃ¡lovÃ©,Dukla Praha,3,0,PostEvent,False,False
+2026-02-08,,Viktoria PlzeÅ,Slovan Liberec,3,1,PostEvent,False,False
+2026-02-08,,ZlÃ­n,Sparta Prague,0,3,PostEvent,False,False
+2026-02-14,,Dukla Praha,ZlÃ­n,0,0,PostEvent,False,False
+2026-02-14,,KarvinÃ¡,Slavia Prague,1,3,PostEvent,False,False
+2026-02-14,,Sigma Olomouc,Viktoria PlzeÅ,1,2,PostEvent,False,False
+2026-02-14,,SlovÃ¡cko,Bohemians 1905,1,2,PostEvent,False,False
+2026-02-15,,MladÃ¡ Boleslav,Teplice,0,0,PostEvent,False,False
+2026-02-15,,Pardubice,Jablonec,0,2,PostEvent,False,False
+2026-02-15,,Slovan Liberec,BanÃ­k Ostrava,1,0,PostEvent,False,False
+2026-02-15,,Sparta Prague,Hradec KrÃ¡lovÃ©,2,0,PostEvent,False,False
+2026-02-21,,Hradec KrÃ¡lovÃ©,ZlÃ­n,0,0,PostEvent,False,False
+2026-02-21,,Jablonec,KarvinÃ¡,1,0,PostEvent,False,False
+2026-02-21,,Slavia Prague,Slovan Liberec,1,0,PostEvent,False,False
+2026-02-21,,SlovÃ¡cko,Pardubice,2,0,PostEvent,False,False
+2026-02-22,,BanÃ­k Ostrava,MladÃ¡ Boleslav,0,0,PostEvent,False,False
+2026-02-22,,Bohemians 1905,Dukla Praha,1,0,PostEvent,False,False
+2026-02-22,,Teplice,Sigma Olomouc,1,3,PostEvent,False,False
+2026-02-22,,Viktoria PlzeÅ,Sparta Prague,0,0,PostEvent,False,False
+2026-02-27,,Dukla Praha,Slavia Prague,0,2,PostEvent,False,False
+2026-02-28,,MladÃ¡ Boleslav,Jablonec,3,0,PostEvent,False,False
+2026-02-28,,Pardubice,Teplice,1,1,PostEvent,False,False
+2026-02-28,,Slovan Liberec,Hradec KrÃ¡lovÃ©,0,1,PostEvent,False,False
+2026-02-28,,Sparta Prague,BanÃ­k Ostrava,5,2,PostEvent,False,False
+2026-03-01,,KarvinÃ¡,SlovÃ¡cko,0,2,PostEvent,False,False
+2026-03-01,,Sigma Olomouc,Bohemians 1905,1,0,PostEvent,False,False
+2026-03-01,,ZlÃ­n,Viktoria PlzeÅ,3,0,PostEvent,False,False
+2026-03-07,,Bohemians 1905,Slovan Liberec,0,0,PostEvent,False,False
+2026-03-07,,Jablonec,Sigma Olomouc,1,2,PostEvent,False,False
+2026-03-07,,SlovÃ¡cko,MladÃ¡ Boleslav,2,2,PostEvent,False,False
+2026-03-07,,Teplice,Dukla Praha,0,0,PostEvent,False,False
+2026-03-08,,BanÃ­k Ostrava,ZlÃ­n,6,2,PostEvent,False,False
+2026-03-08,,Hradec KrÃ¡lovÃ©,Viktoria PlzeÅ,0,3,PostEvent,False,False
+2026-03-08,,KarvinÃ¡,Pardubice,1,2,PostEvent,False,False
+2026-03-08,,Slavia Prague,Sparta Prague,3,1,PostEvent,False,False
+2026-03-14,,Dukla Praha,Jablonec,2,0,PostEvent,False,False
+2026-03-14,,Hradec KrÃ¡lovÃ©,BanÃ­k Ostrava,1,0,PostEvent,False,False
+2026-03-14,,MladÃ¡ Boleslav,Pardubice,2,0,PostEvent,False,False
+2026-03-14,,ZlÃ­n,Slavia Prague,1,3,PostEvent,False,False
+2026-03-15,,Sigma Olomouc,KarvinÃ¡,2,2,PostEvent,False,False
+2026-03-15,,Slovan Liberec,Teplice,1,1,PostEvent,False,False
+2026-03-15,,Sparta Prague,SlovÃ¡cko,5,2,PostEvent,False,False
+2026-03-15,,Viktoria PlzeÅ,Bohemians 1905,2,0,PostEvent,False,False
+2026-04-04,,Dukla Praha,Pardubice,0,2,PostEvent,False,False
+2026-04-04,,Sigma Olomouc,MladÃ¡ Boleslav,2,4,PostEvent,False,False
+2026-04-04,,Slovan Liberec,SlovÃ¡cko,2,1,PostEvent,False,False
+2026-04-04,,Viktoria PlzeÅ,Teplice,2,2,PostEvent,False,False
+2026-04-04,,ZlÃ­n,Jablonec,0,3,PostEvent,False,False
+2026-04-05,,BanÃ­k Ostrava,Slavia Prague,0,2,PostEvent,False,False
+2026-04-05,,Hradec KrÃ¡lovÃ©,Bohemians 1905,2,0,PostEvent,False,False
+2026-04-05,,Sparta Prague,KarvinÃ¡,2,0,PostEvent,False,False
+2026-04-11,,Bohemians 1905,ZlÃ­n,2,1,PostEvent,False,False
+2026-04-11,,Jablonec,BanÃ­k Ostrava,4,1,PostEvent,False,False
+2026-04-11,,SlovÃ¡cko,Hradec KrÃ¡lovÃ©,1,3,PostEvent,False,False
+2026-04-12,,KarvinÃ¡,Slovan Liberec,3,1,PostEvent,False,False
+2026-04-12,,MladÃ¡ Boleslav,Dukla Praha,1,1,PostEvent,False,False
+2026-04-12,,Pardubice,Sigma Olomouc,2,1,PostEvent,False,False
+2026-04-12,,Slavia Prague,Viktoria PlzeÅ,0,0,PostEvent,False,False
+2026-04-12,,Teplice,Sparta Prague,0,1,PostEvent,False,False
+2026-04-18,,BanÃ­k Ostrava,Bohemians 1905,0,2,PostEvent,False,False
+2026-04-18,,Dukla Praha,KarvinÃ¡,1,2,PostEvent,False,False
+2026-04-18,,Slovan Liberec,MladÃ¡ Boleslav,0,0,PostEvent,False,False
+2026-04-18,,Sparta Prague,Jablonec,3,1,PostEvent,False,False
+2026-04-18,,ZlÃ­n,Teplice,3,2,PostEvent,False,False
+2026-04-19,,Hradec KrÃ¡lovÃ©,Slavia Prague,2,1,PostEvent,False,False
+2026-04-19,,Sigma Olomouc,SlovÃ¡cko,2,1,PostEvent,False,False
+2026-04-19,,Viktoria PlzeÅ,Pardubice,0,1,PostEvent,False,False
+2026-04-25,,BanÃ­k Ostrava,Viktoria PlzeÅ,0,1,PostEvent,False,False
+2026-04-25,,Bohemians 1905,Sparta Prague,2,0,PostEvent,False,False
+2026-04-25,,Jablonec,Slovan Liberec,1,2,PostEvent,False,False
+2026-04-25,,KarvinÃ¡,MladÃ¡ Boleslav,0,3,PostEvent,False,False
+2026-04-25,,Pardubice,ZlÃ­n,3,1,PostEvent,False,False
+2026-04-25,,Slavia Prague,Sigma Olomouc,2,1,PostEvent,False,False
+2026-04-25,,SlovÃ¡cko,Dukla Praha,1,2,PostEvent,False,False
+2026-04-25,,Teplice,Hradec KrÃ¡lovÃ©,0,1,PostEvent,False,False
+2026-05-02,Relegation Round,BanÃ­k Ostrava,MladÃ¡ Boleslav,0,0,PostEvent,False,False
+2026-05-02,Middle Play-offs - Semi-finals,Bohemians 1905,Sigma Olomouc,1,3,PostEvent,False,False
+2026-05-02,Middle Play-offs - Semi-finals,KarvinÃ¡,Pardubice,1,2,PostEvent,False,False
+2026-05-02,Championship Round,Slovan Liberec,Slavia Prague,1,2,PostEvent,False,False
+2026-05-02,Relegation Round,ZlÃ­n,Dukla Praha,2,1,PostEvent,False,False
+2026-05-03,Championship Round,Sparta Prague,Jablonec,2,0,PostEvent,False,False
+2026-05-03,Relegation Round,Teplice,SlovÃ¡cko,1,1,PostEvent,False,False
+2026-05-03,Championship Round,Viktoria PlzeÅ,Hradec KrÃ¡lovÃ©,3,1,PostEvent,False,False
+2026-05-09,Relegation Round,Dukla Praha,SlovÃ¡cko,0,1,PostEvent,False,False
+2026-05-09,Relegation Round,MladÃ¡ Boleslav,ZlÃ­n,1,1,PostEvent,False,False
+2026-05-09,Championship Round,Slavia Prague,Sparta Prague,None,None,PostEvent,False,True
+2026-05-09,Relegation Round,Teplice,BanÃ­k Ostrava,2,1,PostEvent,False,False
+2026-05-09,Championship Round,Viktoria PlzeÅ,Slovan Liberec,2,0,PostEvent,False,False
+2026-05-10,Championship Round,Jablonec,Hradec KrÃ¡lovÃ©,1,1,PostEvent,False,False
+2026-05-10,Middle Play-offs - Semi-finals,Pardubice,KarvinÃ¡,1,3,PostEvent,True,False
+2026-05-10,Middle Play-offs - Semi-finals,Sigma Olomouc,Bohemians 1905,1,2,PostEvent,True,False
+2026-05-12,Relegation Round,MladÃ¡ Boleslav,Dukla Praha,1,2,PostEvent,False,False
+2026-05-12,Relegation Round,SlovÃ¡cko,BanÃ­k Ostrava,2,1,PostEvent,False,False
+2026-05-12,Championship Round,Sparta Prague,Viktoria PlzeÅ,0,0,PostEvent,False,False
+2026-05-12,Relegation Round,ZlÃ­n,Teplice,2,4,PostEvent,False,False
+2026-05-13,Championship Round,Hradec KrÃ¡lovÃ©,Slovan Liberec,1,0,PostEvent,False,False
+2026-05-13,Championship Round,Slavia Prague,Jablonec,5,1,PostEvent,False,False
+2026-05-16,Relegation Round,BanÃ­k Ostrava,ZlÃ­n,2,0,PostEvent,False,False
+2026-05-16,Middle Play-offs - Final,KarvinÃ¡,Sigma Olomouc,1,3,PostEvent,False,False
+2026-05-16,Relegation Round,SlovÃ¡cko,MladÃ¡ Boleslav,0,3,PostEvent,False,False
+2026-05-16,Relegation Round,Teplice,Dukla Praha,2,0,PostEvent,False,False
+2026-05-17,Championship Round,Hradec KrÃ¡lovÃ©,Slavia Prague,3,1,PostEvent,False,False
+2026-05-17,Championship Round,Slovan Liberec,Sparta Prague,0,2,PostEvent,False,False
+2026-05-17,Championship Round,Viktoria PlzeÅ,Jablonec,5,0,PostEvent,False,False
+2026-05-23,Relegation Round,Dukla Praha,BanÃ­k Ostrava,0,3,PostEvent,False,False
+2026-05-23,Relegation Round,MladÃ¡ Boleslav,Teplice,0,2,PostEvent,False,False
+2026-05-23,Middle Play-offs - Final,Sigma Olomouc,KarvinÃ¡,4,0,PostEvent,False,False
+2026-05-23,Relegation Round,ZlÃ­n,SlovÃ¡cko,1,0,PostEvent,False,False
+2026-05-24,Championship Round,Jablonec,Slovan Liberec,2,1,PostEvent,False,False
+2026-05-24,Championship Round,Slavia Prague,Viktoria PlzeÅ,3,0,PostEvent,False,False
+2026-05-24,Championship Round,Sparta Prague,Hradec KrÃ¡lovÃ©,2,1,PostEvent,False,False
+2026-07-25,,Teplice,Bohemians 1905,3,1,PostEvent,False,False
+2026-07-25,,Viktoria PlzeÅ,Slovan Liberec,1,3,PostEvent,False,False
+2026-07-25,,Zbrojovka Brno,Sparta Prague,3,1,PostEvent,False,False
+2026-07-25,,ZlÃ­n,BanÃ­k Ostrava,0,1,PostEvent,False,False
+2026-07-26,,Hradec KrÃ¡lovÃ©,Pardubice,2,1,PostEvent,False,False
+2026-07-26,,Jablonec,Sigma Olomouc,2,1,PostEvent,False,False
+2026-07-26,,Slavia Prague,SlovÃ¡cko,5,1,PostEvent,False,False
+2026-07-27,,Artis Brno,MladÃ¡ Boleslav,2,4,PostEvent,False,False
+2026-07-31,,Sparta Prague,ZlÃ­n,3,1,PostEvent,False,False

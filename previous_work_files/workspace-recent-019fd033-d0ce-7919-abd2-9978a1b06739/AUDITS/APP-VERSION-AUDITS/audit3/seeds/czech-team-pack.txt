@@ -1,0 +1,688 @@
+BP-TEAM-PACK v2
+NOTE|info|research_ack|Czech First League 2024-25 + 2025-26 complete (incl. championship/relegation groups and middle playoffs) + 2026-27 MD1 and Sparta-Zlin (2026-07-31); MOL Cup 2024-25 and 2025-26 rows for top-flight involvements; Promotion/Relegation Playoffs both seasons (8 rows per RSSSF). 631 rows total. League results parsed from BBC scores-fixtures pages and cross-validated 0-fail against RSSSF full-season W/D/L/GF/GA tables for every club, both seasons.
+NOTE|info|cutoff|All rows are completed matches on or before 2026-07-31. The Liberec v Teplice fixture (2026-08-01) is deliberately NOT in this pack.
+NOTE|warning|aet_handling|90-minute scores per rule: Pardubice v Karvina 2026-05-10 recorded 1-2 (AET 1-3); Sigma Olomouc v Bohemians 2026-05-10 recorded 0-2 (AET 1-2). Cup ties decided in extra time or on penalties recorded as draws with the 90-minute scoreline (penalty shootouts ignored).
+NOTE|warning|awarded|Slavia Prague v Sparta Prague 2026-05-09 abandoned and awarded 0-3 to Sparta (recorded as played, per league standings arithmetic, RSSSF cross-check).
+NOTE|warning|source_conflict|User-supplied 2024-25 playoff ties (Teplice-Opava, Jihlava-Pardubice) and 2025-26 Ostrava-Taborsko scorelines conflicted with RSSSF and were REJECTED. Loaded instead per RSSSF: 2024-25 Vyskov 0-0 Dukla, Pardubice 2-0 Chrudim, Dukla 1-1 Vyskov (aet, 4-2 pen), Chrudim 1-0 Pardubice; 2025-26 Ostrava 3-0 Taborsko, Taborsko 0-5 Ostrava, Artis Brno 1-4 Slovacko, Slovacko 3-0 Artis Brno.
+NOTE|info|aet90_user|Pardubice v Banik Ostrava MOL Cup 2025-11-05 recorded 3-3 at 90 minutes (AET 3-4); Sparta v Teplice cup QF 2025-04-09 recorded 1-1 at 90 minutes (AET 3-2) - user-supplied 90-minute reports. Lisen = Artis Brno (same club, renamed 2025-06, rename documented by RSSSF).
+NOTE|info|validation|Per-club W/D/L/GF/GA recomputed from these rows matches RSSSF tables exactly (64/64 checks): regular season 30 rounds both years; 35-round totals incl. groups; two-legged middle playoff totals.
+TEAM|Sparta Prague|Czech Republic|Czech First League|CZ1||unknown|Prague|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Pardubice|Czech Republic|Czech First League|CZ1||unknown|Pardubice|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Bohemians 1905|Czech Republic|Czech First League|CZ1||unknown|Prague|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Banik Ostrava|Czech Republic|Czech First League|CZ1||unknown|Ostrava|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Ceske Budejovice|Czech Republic|Czech First League|CZ1||unknown|Ceske Budejovice|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Sigma Olomouc|Czech Republic|Czech First League|CZ1||unknown|Olomouc|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Dukla Prague|Czech Republic|Czech First League|CZ1||unknown|Prague|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Viktoria Plzen|Czech Republic|Czech First League|CZ1||unknown|Plzen|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Jablonec|Czech Republic|Czech First League|CZ1||unknown|Jablonec nad Nisou|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Mlada Boleslav|Czech Republic|Czech First League|CZ1||unknown|Mlada Boleslav|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Hradec Kralove|Czech Republic|Czech First League|CZ1||unknown|Hradec Kralove|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Teplice|Czech Republic|Czech First League|CZ1||unknown|Teplice|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Karvina|Czech Republic|Czech First League|CZ1||unknown|Karvina|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Slovan Liberec|Czech Republic|Czech First League|CZ1||Stadion u Nisy|Liberec|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Slovacko|Czech Republic|Czech First League|CZ1||unknown|Uherske Hradiste|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Slavia Prague|Czech Republic|Czech First League|CZ1||unknown|Prague|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Horovice|Czech Republic|Czech lower divisions|CZ2||unknown|Horovice|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Artis Brno|Czech Republic|Czech First League|CZ1||unknown|Brno|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Hlucin|Czech Republic|Czech lower divisions|CZ2||unknown|Hlucin|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Kromeriz|Czech Republic|Czech lower divisions|CZ2||unknown|Kromeriz|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Loko Praha|Czech Republic|Czech lower divisions|CZ2||unknown|Prague|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Opava|Czech Republic|Czech lower divisions|CZ2||unknown|Opava|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Zlin|Czech Republic|Czech First League|CZ1||unknown|Zlin|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Police nad Metuji|Czech Republic|Czech lower divisions|CZ2||unknown|Police nad Metuji|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Zbrojovka Brno|Czech Republic|Czech First League|CZ1||unknown|Brno|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Usti nad Labem|Czech Republic|Czech lower divisions|CZ2||unknown|Usti nad Labem|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Varnsdorf|Czech Republic|Czech lower divisions|CZ2||unknown|Varnsdorf|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Vyskov|Czech Republic|Czech lower divisions|CZ2||unknown|Vyskov|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Zapy|Czech Republic|Czech lower divisions|CZ2||unknown|Zapy|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Zizkov|Czech Republic|Czech lower divisions|CZ2||unknown|Prague|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Benatky nad Jizerou|Czech Republic|Czech lower divisions|CZ2||unknown|Benatky nad Jizerou|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Uhersky Brod|Czech Republic|Czech lower divisions|CZ2||unknown|Uhersky Brod|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Taborsko|Czech Republic|Czech lower divisions|CZ2||unknown|Tabor|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Chrudim|Czech Republic|Czech lower divisions|CZ2||unknown|Chrudim|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Lanznot|Czech Republic|Czech lower divisions|CZ2||unknown|Lanznot|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Brozany|Czech Republic|Czech lower divisions|CZ2||unknown|Brozany nad Ohri|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Horni Redice|Czech Republic|Czech lower divisions|CZ2||unknown|Horni Redice|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Domazlice|Czech Republic|Czech lower divisions|CZ2||unknown|Domazlice|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Frydek-Mistek|Czech Republic|Czech lower divisions|CZ2||unknown|Frydek-Mistek|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Hlinsko|Czech Republic|Czech lower divisions|CZ2||unknown|Hlinsko|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Karlovy Vary|Czech Republic|Czech lower divisions|CZ2||unknown|Karlovy Vary|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Nove Sady|Czech Republic|Czech lower divisions|CZ2||unknown|Nove Sady|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Petrin Plzen|Czech Republic|Czech lower divisions|CZ2||unknown|Plzen|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Jihlava|Czech Republic|Czech lower divisions|CZ2||unknown|Jihlava|Czech Republic|unknown|unknown|unknown|unknown
+TEAM|Trinec|Czech Republic|Czech lower divisions|CZ2||unknown|Trinec|Czech Republic|unknown|unknown|unknown|unknown
+MATCH|2024-07-19|Czech First League|domestic-league|Sparta Prague|2|1|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-07-20|Czech First League|domestic-league|Bohemians 1905|2|1|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-07-20|Czech First League|domestic-league|Ceske Budejovice|0|2|Sigma Olomouc|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-07-20|Czech First League|domestic-league|Dukla Prague|1|3|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-07-20|Czech First League|domestic-league|Jablonec|2|0|Mlada Boleslav|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-07-21|Czech First League|domestic-league|Hradec Kralove|1|0|Teplice|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-07-21|Czech First League|domestic-league|Karvina|1|3|Slovan Liberec|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-07-21|Czech First League|domestic-league|Slovacko|0|0|Slavia Prague|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-07-27|Czech First League|domestic-league|Dukla Prague|1|0|Bohemians 1905|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-07-27|Czech First League|domestic-league|Pardubice|0|1|Karvina|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-07-27|Czech First League|domestic-league|Slavia Prague|4|0|Ceske Budejovice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-07-27|Czech First League|domestic-league|Teplice|1|4|Sparta Prague|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-07-28|Czech First League|domestic-league|Slovan Liberec|1|1|Sigma Olomouc|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-07-28|Czech First League|domestic-league|Mlada Boleslav|3|0|Slovacko|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-07-28|Czech First League|domestic-league|Banik Ostrava|1|0|Jablonec|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-07-28|Czech First League|domestic-league|Viktoria Plzen|1|0|Hradec Kralove|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-08-02|Czech First League|domestic-league|Slovan Liberec|0|1|Slavia Prague|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-08-02|Czech First League|domestic-league|Sparta Prague|2|0|Dukla Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-08-03|Czech First League|domestic-league|Jablonec|0|0|Viktoria Plzen|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-08-03|Czech First League|domestic-league|Sigma Olomouc|2|1|Teplice|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-08-03|Czech First League|domestic-league|Slovacko|0|0|Bohemians 1905|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-08-04|Czech First League|domestic-league|Ceske Budejovice|1|3|Pardubice|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-08-04|Czech First League|domestic-league|Hradec Kralove|2|1|Mlada Boleslav|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-08-10|Czech First League|domestic-league|Bohemians 1905|1|2|Sparta Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-08-10|Czech First League|domestic-league|Dukla Prague|0|2|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-08-10|Czech First League|domestic-league|Slavia Prague|2|0|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-08-10|Czech First League|domestic-league|Teplice|2|1|Slovan Liberec|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-08-11|Czech First League|domestic-league|Mlada Boleslav|4|0|Ceske Budejovice|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-08-11|Czech First League|domestic-league|Banik Ostrava|1|0|Hradec Kralove|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-08-11|Czech First League|domestic-league|Pardubice|0|1|Slovacko|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-08-11|Czech First League|domestic-league|Viktoria Plzen|5|0|Karvina|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-08-17|Czech First League|domestic-league|Hradec Kralove|1|0|Dukla Prague|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-08-17|Czech First League|domestic-league|Jablonec|1|2|Sparta Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-08-17|Czech First League|domestic-league|Karvina|1|2|Bohemians 1905|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-08-17|Czech First League|domestic-league|Slavia Prague|2|1|Teplice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-08-18|Czech First League|domestic-league|Ceske Budejovice|0|3|Viktoria Plzen|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-08-18|Czech First League|domestic-league|Slovan Liberec|3|0|Pardubice|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-08-18|Czech First League|domestic-league|Sigma Olomouc|3|2|Mlada Boleslav|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-08-18|Czech First League|domestic-league|Slovacko|1|0|Banik Ostrava|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-08-24|Czech First League|domestic-league|Bohemians 1905|1|2|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-08-24|Czech First League|domestic-league|Pardubice|2|1|Hradec Kralove|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-08-24|Czech First League|domestic-league|Sparta Prague|2|2|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-08-24|Czech First League|domestic-league|Teplice|1|3|Karvina|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-08-25|Czech First League|domestic-league|Dukla Prague|3|0|Ceske Budejovice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-08-25|Czech First League|domestic-league|Banik Ostrava|2|0|Slovan Liberec|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-08-28|Czech First League|domestic-league|Karvina|0|0|Banik Ostrava|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-08-31|Czech First League|domestic-league|Ceske Budejovice|0|0|Bohemians 1905|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-08-31|Czech First League|domestic-league|Hradec Kralove|0|2|Sparta Prague|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-08-31|Czech First League|domestic-league|Slovacko|0|0|Jablonec|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-09-01|Czech First League|domestic-league|Karvina|0|0|Dukla Prague|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-09-01|Czech First League|domestic-league|Slovan Liberec|1|1|Viktoria Plzen|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-09-01|Czech First League|domestic-league|Sigma Olomouc|2|2|Banik Ostrava|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-09-01|Czech First League|domestic-league|Slavia Prague|2|0|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-09-01|Czech First League|domestic-league|Teplice|1|2|Mlada Boleslav|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-09-17|Czech First League|domestic-league|Mlada Boleslav|0|2|Slavia Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-09-17|Czech First League|domestic-league|Viktoria Plzen|2|1|Sigma Olomouc|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-09-21|Czech First League|domestic-league|Hradec Kralove|3|0|Slovacko|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-09-21|Czech First League|domestic-league|Karvina|1|0|Jablonec|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-09-21|Czech First League|domestic-league|Slavia Prague|3|0|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-09-21|Czech First League|domestic-league|Teplice|2|3|Banik Ostrava|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-09-22|Czech First League|domestic-league|Ceske Budejovice|0|2|Sparta Prague|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-09-22|Czech First League|domestic-league|Slovan Liberec|2|2|Bohemians 1905|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-09-22|Czech First League|domestic-league|Mlada Boleslav|2|2|Pardubice|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-09-22|Czech First League|domestic-league|Sigma Olomouc|2|1|Dukla Prague|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-09-27|Czech First League|domestic-league|Sparta Prague|2|3|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-09-28|Czech First League|domestic-league|Dukla Prague|1|4|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-09-28|Czech First League|domestic-league|Jablonec|2|0|Hradec Kralove|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-09-28|Czech First League|domestic-league|Pardubice|0|1|Teplice|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-09-28|Czech First League|domestic-league|Slovacko|2|1|Karvina|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-09-29|Czech First League|domestic-league|Bohemians 1905|0|4|Slavia Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-09-29|Czech First League|domestic-league|Banik Ostrava|2|1|Ceske Budejovice|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-09-29|Czech First League|domestic-league|Viktoria Plzen|1|1|Mlada Boleslav|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-10-05|Czech First League|domestic-league|Ceske Budejovice|0|2|Slovacko|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-10-05|Czech First League|domestic-league|Karvina|0|0|Hradec Kralove|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-10-05|Czech First League|domestic-league|Slovan Liberec|0|5|Jablonec|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-10-05|Czech First League|domestic-league|Teplice|1|1|Dukla Prague|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-10-06|Czech First League|domestic-league|Mlada Boleslav|0|0|Banik Ostrava|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-10-06|Czech First League|domestic-league|Sigma Olomouc|1|3|Bohemians 1905|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-10-06|Czech First League|domestic-league|Viktoria Plzen|2|0|Pardubice|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-10-06|Czech First League|domestic-league|Slavia Prague|2|1|Sparta Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-10-19|Czech First League|domestic-league|Dukla Prague|2|1|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-10-19|Czech First League|domestic-league|Hradec Kralove|1|1|Sigma Olomouc|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-10-19|Czech First League|domestic-league|Banik Ostrava|1|3|Viktoria Plzen|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-10-19|Czech First League|domestic-league|Sparta Prague|2|1|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-10-20|Czech First League|domestic-league|Bohemians 1905|2|2|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-10-20|Czech First League|domestic-league|Jablonec|1|2|Slavia Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-10-20|Czech First League|domestic-league|Karvina|4|1|Ceske Budejovice|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-10-20|Czech First League|domestic-league|Slovacko|0|2|Teplice|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-10-23|MOL Cup|domestic-cup|Horovice|0|6|Dukla Prague|normal|unknown|Horovice|Czech Republic||src-rsssf-2425
+MATCH|2024-10-26|Czech First League|domestic-league|Ceske Budejovice|0|2|Hradec Kralove|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-10-26|Czech First League|domestic-league|Slovan Liberec|4|0|Slovacko|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-10-26|Czech First League|domestic-league|Sigma Olomouc|0|0|Jablonec|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-10-26|Czech First League|domestic-league|Pardubice|2|3|Banik Ostrava|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-10-27|Czech First League|domestic-league|Mlada Boleslav|1|1|Karvina|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-10-27|Czech First League|domestic-league|Viktoria Plzen|1|0|Sparta Prague|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-10-27|Czech First League|domestic-league|Slavia Prague|3|0|Dukla Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-10-27|Czech First League|domestic-league|Teplice|1|2|Bohemians 1905|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-10-30|MOL Cup|domestic-cup|Artis Brno|1|3|Teplice|normal|unknown|Brno|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Hlucin|1|0|Slovan Liberec|normal|unknown|Hlucin|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Kromeriz|3|1|Slovacko|normal|unknown|Kromeriz|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Loko Praha|0|1|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Opava|1|2|Zlin|normal|unknown|Opava|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Police nad Metuji|1|3|Mlada Boleslav|normal|unknown|Police nad Metuji|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Sparta Prague|4|0|Zbrojovka Brno|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Usti nad Labem|3|4|Viktoria Plzen|normal|unknown|Usti nad Labem|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Varnsdorf|1|3|Banik Ostrava|normal|unknown|Varnsdorf|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Vyskov|0|1|Bohemians 1905|normal|unknown|Vyskov|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Zapy|1|2|Pardubice|normal|unknown|Zapy|Czech Republic||src-rsssf-2425
+MATCH|2024-10-30|MOL Cup|domestic-cup|Zizkov|0|2|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2024-10-31|MOL Cup|domestic-cup|Benatky nad Jizerou|1|4|Slavia Prague|normal|unknown|Benatky nad Jizerou|Czech Republic||src-rsssf-2425
+MATCH|2024-11-02|Czech First League|domestic-league|Dukla Prague|0|1|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-11-02|Czech First League|domestic-league|Jablonec|3|0|Teplice|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-11-02|Czech First League|domestic-league|Karvina|2|1|Sigma Olomouc|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-11-02|Czech First League|domestic-league|Sparta Prague|1|3|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-11-03|Czech First League|domestic-league|Bohemians 1905|0|0|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-11-03|Czech First League|domestic-league|Ceske Budejovice|0|0|Slovan Liberec|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-11-03|Czech First League|domestic-league|Hradec Kralove|1|1|Slavia Prague|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-11-03|Czech First League|domestic-league|Slovacko|1|0|Viktoria Plzen|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-11-05|MOL Cup|domestic-cup|Uhersky Brod|0|1|Jablonec|normal|unknown|Uhersky Brod|Czech Republic||src-rsssf-2425
+MATCH|2024-11-06|MOL Cup|domestic-cup|Taborsko|0|0|Ceske Budejovice|normal|unknown|Tabor|Czech Republic||src-rsssf-2425
+MATCH|2024-11-09|Czech First League|domestic-league|Slovan Liberec|0|0|Hradec Kralove|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-11-09|Czech First League|domestic-league|Banik Ostrava|6|0|Dukla Prague|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-11-09|Czech First League|domestic-league|Pardubice|2|0|Jablonec|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-11-10|Czech First League|domestic-league|Mlada Boleslav|2|2|Sparta Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-11-10|Czech First League|domestic-league|Viktoria Plzen|2|0|Bohemians 1905|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-11-10|Czech First League|domestic-league|Slavia Prague|5|1|Karvina|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-11-10|Czech First League|domestic-league|Teplice|5|2|Ceske Budejovice|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-11-23|Czech First League|domestic-league|Hradec Kralove|0|1|Viktoria Plzen|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-11-23|Czech First League|domestic-league|Jablonec|3|1|Banik Ostrava|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-11-23|Czech First League|domestic-league|Slovacko|1|1|Mlada Boleslav|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-11-23|Czech First League|domestic-league|Sparta Prague|1|1|Teplice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-11-24|Czech First League|domestic-league|Bohemians 1905|3|1|Dukla Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-11-24|Czech First League|domestic-league|Ceske Budejovice|0|4|Slavia Prague|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-11-24|Czech First League|domestic-league|Karvina|1|0|Pardubice|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-11-24|Czech First League|domestic-league|Sigma Olomouc|1|4|Slovan Liberec|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-11-27|Czech First League|domestic-league|Sigma Olomouc|2|1|Slovacko|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-11-30|Czech First League|domestic-league|Bohemians 1905|3|3|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-11-30|Czech First League|domestic-league|Dukla Prague|1|1|Sparta Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-11-30|Czech First League|domestic-league|Banik Ostrava|2|1|Karvina|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-11-30|Czech First League|domestic-league|Teplice|1|0|Sigma Olomouc|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2024-12-01|Czech First League|domestic-league|Mlada Boleslav|3|0|Hradec Kralove|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-12-01|Czech First League|domestic-league|Pardubice|0|0|Ceske Budejovice|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-12-01|Czech First League|domestic-league|Viktoria Plzen|3|2|Jablonec|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-12-01|Czech First League|domestic-league|Slavia Prague|1|0|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-12-03|Czech First League|domestic-league|Sparta Prague|4|1|Karvina|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-12-04|Czech First League|domestic-league|Bohemians 1905|0|3|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-12-04|Czech First League|domestic-league|Dukla Prague|1|2|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-12-04|Czech First League|domestic-league|Jablonec|5|0|Ceske Budejovice|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-12-04|Czech First League|domestic-league|Pardubice|2|2|Sigma Olomouc|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-12-05|Czech First League|domestic-league|Mlada Boleslav|1|0|Slovan Liberec|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-12-05|Czech First League|domestic-league|Banik Ostrava|0|1|Slavia Prague|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-12-05|Czech First League|domestic-league|Viktoria Plzen|1|1|Teplice|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-12-07|Czech First League|domestic-league|Jablonec|2|1|Dukla Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2024-12-07|Czech First League|domestic-league|Slovacko|1|1|Pardubice|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2024-12-07|Czech First League|domestic-league|Sparta Prague|1|0|Bohemians 1905|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-12-08|Czech First League|domestic-league|Ceske Budejovice|0|4|Mlada Boleslav|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2024-12-08|Czech First League|domestic-league|Hradec Kralove|0|1|Banik Ostrava|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2024-12-08|Czech First League|domestic-league|Karvina|1|2|Viktoria Plzen|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2024-12-08|Czech First League|domestic-league|Slovan Liberec|3|0|Teplice|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2024-12-08|Czech First League|domestic-league|Sigma Olomouc|1|2|Slavia Prague|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2024-12-14|Czech First League|domestic-league|Bohemians 1905|3|3|Karvina|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-12-14|Czech First League|domestic-league|Dukla Prague|1|2|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-12-14|Czech First League|domestic-league|Banik Ostrava|3|1|Slovacko|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2024-12-14|Czech First League|domestic-league|Pardubice|1|1|Slovan Liberec|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2024-12-15|Czech First League|domestic-league|Mlada Boleslav|1|3|Sigma Olomouc|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2024-12-15|Czech First League|domestic-league|Viktoria Plzen|7|2|Ceske Budejovice|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2024-12-15|Czech First League|domestic-league|Sparta Prague|2|1|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2024-12-15|Czech First League|domestic-league|Teplice|1|0|Slavia Prague|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-02-01|Czech First League|domestic-league|Ceske Budejovice|0|0|Dukla Prague|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2025-02-01|Czech First League|domestic-league|Hradec Kralove|3|0|Pardubice|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-02-01|Czech First League|domestic-league|Karvina|1|1|Teplice|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-02-01|Czech First League|domestic-league|Slovan Liberec|0|1|Banik Ostrava|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-02-02|Czech First League|domestic-league|Jablonec|0|1|Bohemians 1905|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-02-02|Czech First League|domestic-league|Slavia Prague|1|0|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-02-02|Czech First League|domestic-league|Slovacko|0|2|Sparta Prague|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-02-03|Czech First League|domestic-league|Sigma Olomouc|2|1|Viktoria Plzen|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-02-08|Czech First League|domestic-league|Mlada Boleslav|2|1|Teplice|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-02-08|Czech First League|domestic-league|Pardubice|0|2|Slavia Prague|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-02-08|Czech First League|domestic-league|Viktoria Plzen|3|2|Slovan Liberec|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-02-09|Czech First League|domestic-league|Bohemians 1905|1|0|Ceske Budejovice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-02-09|Czech First League|domestic-league|Jablonec|4|2|Slovacko|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-02-09|Czech First League|domestic-league|Banik Ostrava|1|0|Sigma Olomouc|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-02-09|Czech First League|domestic-league|Sparta Prague|3|0|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-02-15|Czech First League|domestic-league|Ceske Budejovice|2|3|Jablonec|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2025-02-15|Czech First League|domestic-league|Karvina|2|3|Sparta Prague|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-02-15|Czech First League|domestic-league|Sigma Olomouc|4|0|Pardubice|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-02-15|Czech First League|domestic-league|Slovacko|0|0|Dukla Prague|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-02-16|Czech First League|domestic-league|Hradec Kralove|2|2|Bohemians 1905|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-02-16|Czech First League|domestic-league|Slovan Liberec|3|1|Mlada Boleslav|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-02-16|Czech First League|domestic-league|Slavia Prague|1|0|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-02-16|Czech First League|domestic-league|Teplice|0|2|Viktoria Plzen|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-02-22|Czech First League|domestic-league|Dukla Prague|1|3|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-02-22|Czech First League|domestic-league|Banik Ostrava|2|0|Teplice|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-02-22|Czech First League|domestic-league|Pardubice|0|3|Mlada Boleslav|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-02-22|Czech First League|domestic-league|Sparta Prague|2|1|Ceske Budejovice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-02-23|Czech First League|domestic-league|Bohemians 1905|0|0|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-02-23|Czech First League|domestic-league|Jablonec|5|0|Karvina|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-02-23|Czech First League|domestic-league|Viktoria Plzen|1|3|Slavia Prague|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-02-25|MOL Cup|domestic-cup|Sparta Prague|3|0|Dukla Prague|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2025-02-26|MOL Cup|domestic-cup|Mlada Boleslav|0|2|Bohemians 1905|normal|unknown|Mlada Boleslav|Czech Republic||src-rsssf-2425
+MATCH|2025-02-26|MOL Cup|domestic-cup|Slavia Prague|0|0|Taborsko|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2025-02-27|MOL Cup|domestic-cup|Viktoria Plzen|1|1|Zlin|normal|unknown|Plzen|Czech Republic||src-rsssf-2425
+MATCH|2025-03-01|Czech First League|domestic-league|Ceske Budejovice|0|4|Banik Ostrava|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2025-03-01|Czech First League|domestic-league|Hradec Kralove|1|1|Jablonec|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-03-01|Czech First League|domestic-league|Sigma Olomouc|1|2|Sparta Prague|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-03-01|Czech First League|domestic-league|Teplice|2|0|Pardubice|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-03-02|Czech First League|domestic-league|Karvina|2|0|Slovacko|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-03-02|Czech First League|domestic-league|Slovan Liberec|1|1|Dukla Prague|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-03-02|Czech First League|domestic-league|Mlada Boleslav|0|2|Viktoria Plzen|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-03-02|Czech First League|domestic-league|Slavia Prague|2|0|Bohemians 1905|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-03-04|MOL Cup|domestic-cup|Sigma Olomouc|2|1|Kromeriz|normal|unknown|Olomouc|Czech Republic||src-rsssf-2425
+MATCH|2025-03-05|MOL Cup|domestic-cup|Pardubice|0|2|Banik Ostrava|normal|unknown|Pardubice|Czech Republic||src-rsssf-2425
+MATCH|2025-03-08|Czech First League|domestic-league|Dukla Prague|1|1|Teplice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-03-08|Czech First League|domestic-league|Jablonec|0|0|Slovan Liberec|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-03-08|Czech First League|domestic-league|Slovacko|2|1|Ceske Budejovice|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-03-08|Czech First League|domestic-league|Sparta Prague|2|0|Slavia Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-03-09|Czech First League|domestic-league|Bohemians 1905|0|1|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-03-09|Czech First League|domestic-league|Hradec Kralove|1|1|Karvina|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-03-09|Czech First League|domestic-league|Banik Ostrava|2|1|Mlada Boleslav|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-03-09|Czech First League|domestic-league|Pardubice|0|0|Viktoria Plzen|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-03-11|MOL Cup|domestic-cup|Hlucin|1|2|Teplice|normal|unknown|Hlucin|Czech Republic||src-rsssf-2425
+MATCH|2025-03-12|MOL Cup|domestic-cup|Hradec Kralove|1|2|Jablonec|normal|unknown|Hradec Kralove|Czech Republic||src-rsssf-2425
+MATCH|2025-03-12|Czech First League|domestic-league|Dukla Prague|0|0|Karvina|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-03-15|Czech First League|domestic-league|Slovan Liberec|1|0|Sparta Prague|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-03-15|Czech First League|domestic-league|Mlada Boleslav|1|2|Bohemians 1905|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-03-15|Czech First League|domestic-league|Pardubice|0|1|Dukla Prague|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-03-15|Czech First League|domestic-league|Teplice|1|0|Slovacko|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-03-16|Czech First League|domestic-league|Ceske Budejovice|2|3|Karvina|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2025-03-16|Czech First League|domestic-league|Sigma Olomouc|1|2|Hradec Kralove|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-03-16|Czech First League|domestic-league|Viktoria Plzen|0|1|Banik Ostrava|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-03-16|Czech First League|domestic-league|Slavia Prague|3|0|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-03-29|Czech First League|domestic-league|Bohemians 1905|1|1|Teplice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-03-29|Czech First League|domestic-league|Dukla Prague|0|0|Slavia Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-03-29|Czech First League|domestic-league|Jablonec|0|0|Sigma Olomouc|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-03-29|Czech First League|domestic-league|Banik Ostrava|5|2|Pardubice|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-03-30|Czech First League|domestic-league|Hradec Kralove|1|0|Ceske Budejovice|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-03-30|Czech First League|domestic-league|Karvina|3|1|Mlada Boleslav|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-03-30|Czech First League|domestic-league|Slovacko|0|4|Slovan Liberec|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-03-30|Czech First League|domestic-league|Sparta Prague|2|4|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-04-05|Czech First League|domestic-league|Slovan Liberec|2|0|Ceske Budejovice|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-04-05|Czech First League|domestic-league|Sigma Olomouc|1|2|Karvina|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-04-05|Czech First League|domestic-league|Banik Ostrava|1|1|Sparta Prague|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-04-05|Czech First League|domestic-league|Pardubice|2|0|Bohemians 1905|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-04-05|Czech First League|domestic-league|Slavia Prague|2|1|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-04-06|Czech First League|domestic-league|Mlada Boleslav|0|1|Dukla Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-04-06|Czech First League|domestic-league|Viktoria Plzen|2|0|Slovacko|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-04-06|Czech First League|domestic-league|Teplice|0|1|Jablonec|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-04-08|MOL Cup|domestic-cup|Slavia Prague|0|1|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2025-04-09|MOL Cup|domestic-cup|Jablonec|0|1|Banik Ostrava|normal|unknown|Jablonec nad Nisou|Czech Republic||src-rsssf-2425
+MATCH|2025-04-09|MOL Cup|domestic-cup|Sparta Prague|1|1|Teplice|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2025-04-09|Czech First League|domestic-league|Slovacko|1|5|Hradec Kralove|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-04-10|MOL Cup|domestic-cup|Bohemians 1905|1|3|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2025-04-12|Czech First League|domestic-league|Dukla Prague|1|2|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-04-12|Czech First League|domestic-league|Karvina|0|4|Slavia Prague|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-04-13|Czech First League|domestic-league|Bohemians 1905|1|2|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-04-13|Czech First League|domestic-league|Ceske Budejovice|1|1|Teplice|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2025-04-13|Czech First League|domestic-league|Hradec Kralove|0|2|Slovan Liberec|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-04-13|Czech First League|domestic-league|Jablonec|1|0|Pardubice|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-04-13|Czech First League|domestic-league|Slovacko|2|2|Sigma Olomouc|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-04-13|Czech First League|domestic-league|Sparta Prague|2|0|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-04-19|Czech First League|domestic-league|Slovan Liberec|2|3|Karvina|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-04-19|Czech First League|domestic-league|Mlada Boleslav|0|1|Jablonec|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-04-19|Czech First League|domestic-league|Sigma Olomouc|3|0|Ceske Budejovice|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-04-19|Czech First League|domestic-league|Banik Ostrava|1|0|Bohemians 1905|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-04-19|Czech First League|domestic-league|Pardubice|1|2|Sparta Prague|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-04-19|Czech First League|domestic-league|Viktoria Plzen|4|2|Dukla Prague|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-04-19|Czech First League|domestic-league|Slavia Prague|2|0|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-04-19|Czech First League|domestic-league|Teplice|1|0|Hradec Kralove|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-04-22|MOL Cup|domestic-cup|Banik Ostrava|2|3|Sigma Olomouc|normal|unknown|Ostrava|Czech Republic||src-rsssf-2425
+MATCH|2025-04-23|MOL Cup|domestic-cup|Sparta Prague|1|0|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2025-04-26|Czech First League|domestic-league|Ceske Budejovice|1|2|Mlada Boleslav|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2025-04-26|Czech First League|domestic-league|Sigma Olomouc|0|5|Slavia Prague|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-04-26|Czech First League|domestic-league|Slovacko|1|0|Pardubice|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-04-27|Czech First League|domestic-league|Banik Ostrava|1|2|Jablonec|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-04-27|Czech First League|domestic-league|Viktoria Plzen|2|0|Sparta Prague|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-04-27|Czech First League|domestic-league|Teplice|2|2|Dukla Prague|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-05-03|Czech First League|domestic-league|Dukla Prague|2|0|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-03|Czech First League|domestic-league|Hradec Kralove|1|0|Karvina|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-05-03|Czech First League|domestic-league|Banik Ostrava|0|0|Sigma Olomouc|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-05-03|Czech First League|domestic-league|Slavia Prague|4|3|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-04|Czech First League|domestic-league|Bohemians 1905|4|1|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-04|Czech First League|domestic-league|Mlada Boleslav|1|0|Teplice|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-05-04|Czech First League|domestic-league|Slovacko|0|0|Ceske Budejovice|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-05-04|Czech First League|domestic-league|Sparta Prague|1|3|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-10|Czech First League|domestic-league|Jablonec|4|0|Sigma Olomouc|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-05-10|Czech First League|domestic-league|Karvina|0|4|Hradec Kralove|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-05-10|Czech First League|domestic-league|Pardubice|1|0|Ceske Budejovice|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-05-10|Czech First League|domestic-league|Slavia Prague|2|1|Sparta Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-11|Czech First League|domestic-league|Slovan Liberec|1|0|Bohemians 1905|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-05-11|Czech First League|domestic-league|Mlada Boleslav|2|3|Dukla Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-05-11|Czech First League|domestic-league|Viktoria Plzen|1|2|Banik Ostrava|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-05-11|Czech First League|domestic-league|Teplice|1|0|Slovacko|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-05-14|MOL Cup|domestic-cup|Sigma Olomouc|3|1|Sparta Prague|neutral|unknown|unknown|Czech Republic||src-rsssf-2425
+MATCH|2025-05-17|Czech First League|domestic-league|Ceske Budejovice|0|3|Teplice|normal|unknown|Ceske Budejovice|Czech Republic||src-bbc
+MATCH|2025-05-17|Czech First League|domestic-league|Pardubice|2|1|Mlada Boleslav|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-05-17|Czech First League|domestic-league|Slovacko|3|2|Dukla Prague|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-05-18|Czech First League|domestic-league|Bohemians 1905|1|0|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-18|Czech First League|domestic-league|Jablonec|3|2|Slavia Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-05-18|Czech First League|domestic-league|Sigma Olomouc|1|2|Viktoria Plzen|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-05-18|Czech First League|domestic-league|Banik Ostrava|3|2|Sparta Prague|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-05-24|Czech First League|domestic-league|Viktoria Plzen|4|1|Jablonec|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-05-24|Czech First League|domestic-league|Slavia Prague|3|0|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-24|Czech First League|domestic-league|Sparta Prague|1|1|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-25|Czech First League|domestic-league|Dukla Prague|2|1|Ceske Budejovice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-05-25|Czech First League|domestic-league|Hradec Kralove|2|0|Bohemians 1905|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-05-25|Czech First League|domestic-league|Mlada Boleslav|2|2|Slovacko|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-05-25|Czech First League|domestic-league|Teplice|3|0|Pardubice|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-05-28|Czech Relegation Playoffs|other|Pardubice|2|0|Chrudim|normal|unknown|Pardubice|Czech Republic||src-rsssf-2425
+MATCH|2025-05-28|Czech Relegation Playoffs|other|Vyskov|0|0|Dukla Prague|normal|unknown|Vyskov|Czech Republic||src-rsssf-2425
+MATCH|2025-06-01|Czech Relegation Playoffs|other|Chrudim|1|0|Pardubice|normal|unknown|Chrudim|Czech Republic||src-rsssf-2425
+MATCH|2025-06-01|Czech Relegation Playoffs|other|Dukla Prague|1|1|Vyskov|normal|unknown|Prague|Czech Republic||src-rsssf-2425
+MATCH|2025-07-18|Czech First League|domestic-league|Pardubice|1|5|Viktoria Plzen|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-07-19|Czech First League|domestic-league|Bohemians 1905|1|0|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-07-19|Czech First League|domestic-league|Jablonec|1|1|Sparta Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-07-19|Czech First League|domestic-league|Karvina|2|0|Dukla Prague|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-07-19|Czech First League|domestic-league|Teplice|1|3|Zlin|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-07-20|Czech First League|domestic-league|Mlada Boleslav|3|3|Slovan Liberec|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-07-20|Czech First League|domestic-league|Slavia Prague|2|2|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-07-20|Czech First League|domestic-league|Slovacko|0|1|Sigma Olomouc|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-07-26|Czech First League|domestic-league|Bohemians 1905|0|2|Slavia Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-07-26|Czech First League|domestic-league|Hradec Kralove|1|2|Karvina|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-07-26|Czech First League|domestic-league|Sigma Olomouc|0|0|Dukla Prague|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-07-26|Czech First League|domestic-league|Viktoria Plzen|1|1|Jablonec|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-07-26|Czech First League|domestic-league|Zlin|1|1|Slovacko|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-07-27|Czech First League|domestic-league|Slovan Liberec|2|1|Pardubice|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-07-27|Czech First League|domestic-league|Sparta Prague|3|2|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-02|Czech First League|domestic-league|Jablonec|2|0|Hradec Kralove|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-08-02|Czech First League|domestic-league|Karvina|0|1|Zlin|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-08-02|Czech First League|domestic-league|Sigma Olomouc|2|1|Slovan Liberec|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-08-02|Czech First League|domestic-league|Teplice|3|0|Bohemians 1905|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-08-03|Czech First League|domestic-league|Dukla Prague|1|1|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-03|Czech First League|domestic-league|Pardubice|1|3|Sparta Prague|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-08-03|Czech First League|domestic-league|Slovacko|0|1|Slavia Prague|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-08-09|Czech First League|domestic-league|Slovan Liberec|2|0|Dukla Prague|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-08-09|Czech First League|domestic-league|Viktoria Plzen|1|1|Slovacko|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-08-09|Czech First League|domestic-league|Slavia Prague|3|0|Teplice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-09|Czech First League|domestic-league|Zlin|3|2|Mlada Boleslav|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-08-10|Czech First League|domestic-league|Bohemians 1905|0|1|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-10|Czech First League|domestic-league|Hradec Kralove|1|1|Pardubice|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-08-10|Czech First League|domestic-league|Banik Ostrava|1|2|Karvina|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-08-10|Czech First League|domestic-league|Sparta Prague|1|0|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-16|Czech First League|domestic-league|Dukla Prague|2|0|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-16|Czech First League|domestic-league|Jablonec|1|1|Slavia Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-08-16|Czech First League|domestic-league|Mlada Boleslav|3|2|Hradec Kralove|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-08-16|Czech First League|domestic-league|Sigma Olomouc|1|0|Zlin|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-08-16|Czech First League|domestic-league|Slovacko|2|1|Teplice|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-08-17|Czech First League|domestic-league|Karvina|1|2|Bohemians 1905|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-08-17|Czech First League|domestic-league|Slovan Liberec|0|2|Sparta Prague|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-08-19|Czech First League|domestic-league|Mlada Boleslav|0|5|Viktoria Plzen|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-08-23|Czech First League|domestic-league|Viktoria Plzen|2|1|Karvina|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-08-23|Czech First League|domestic-league|Slavia Prague|3|1|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-23|Czech First League|domestic-league|Teplice|0|1|Jablonec|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-08-23|Czech First League|domestic-league|Zlin|1|0|Slovan Liberec|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-08-24|Czech First League|domestic-league|Hradec Kralove|1|0|Sigma Olomouc|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-08-24|Czech First League|domestic-league|Banik Ostrava|2|0|Slovacko|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-08-24|Czech First League|domestic-league|Sparta Prague|3|2|Dukla Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-30|Czech First League|domestic-league|Dukla Prague|1|1|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-08-30|Czech First League|domestic-league|Karvina|4|1|Teplice|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-08-30|Czech First League|domestic-league|Mlada Boleslav|1|3|Slavia Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-08-30|Czech First League|domestic-league|Pardubice|1|1|Bohemians 1905|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-08-30|Czech First League|domestic-league|Slovacko|0|2|Jablonec|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-08-31|Czech First League|domestic-league|Slovan Liberec|1|1|Viktoria Plzen|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-08-31|Czech First League|domestic-league|Sigma Olomouc|1|0|Banik Ostrava|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-08-31|Czech First League|domestic-league|Sparta Prague|3|1|Zlin|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-09-13|Czech First League|domestic-league|Banik Ostrava|0|2|Slovan Liberec|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-09-13|Czech First League|domestic-league|Viktoria Plzen|1|0|Sigma Olomouc|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-09-13|Czech First League|domestic-league|Slavia Prague|3|1|Karvina|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-09-13|Czech First League|domestic-league|Teplice|2|3|Mlada Boleslav|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-09-13|Czech First League|domestic-league|Zlin|1|1|Dukla Prague|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-09-14|Czech First League|domestic-league|Bohemians 1905|1|0|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-09-14|Czech First League|domestic-league|Hradec Kralove|2|1|Sparta Prague|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-09-14|Czech First League|domestic-league|Jablonec|3|2|Pardubice|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-09-16|MOL Cup|domestic-cup|Lanznot|1|6|Viktoria Plzen|normal|unknown|Lanznot|Czech Republic||src-rsssf-2526
+MATCH|2025-09-17|Czech First League|domestic-league|Banik Ostrava|1|1|Teplice|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-09-20|Czech First League|domestic-league|Karvina|1|2|Jablonec|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-09-20|Czech First League|domestic-league|Sigma Olomouc|0|0|Teplice|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-09-20|Czech First League|domestic-league|Pardubice|1|1|Slovacko|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-09-20|Czech First League|domestic-league|Sparta Prague|2|1|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-09-20|Czech First League|domestic-league|Zlin|1|2|Hradec Kralove|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-09-21|Czech First League|domestic-league|Dukla Prague|0|2|Bohemians 1905|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-09-21|Czech First League|domestic-league|Slovan Liberec|1|1|Slavia Prague|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-09-21|Czech First League|domestic-league|Mlada Boleslav|1|1|Banik Ostrava|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-09-23|MOL Cup|domestic-cup|Brozany|0|2|Slavia Prague|normal|unknown|Brozany nad Ohri|Czech Republic||src-rsssf-2526
+MATCH|2025-09-23|MOL Cup|domestic-cup|Horni Redice|1|2|Slovacko|normal|unknown|Horni Redice|Czech Republic||src-rsssf-2526
+MATCH|2025-09-23|MOL Cup|domestic-cup|Taborsko|1|6|Karvina|normal|unknown|Tabor|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Ceske Budejovice|2|3|Banik Ostrava|normal|unknown|Ceske Budejovice|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Domazlice|1|4|Bohemians 1905|normal|unknown|Domazlice|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Frydek-Mistek|1|1|Pardubice|normal|unknown|Frydek-Mistek|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Hlinsko|0|2|Jablonec|normal|unknown|Hlinsko|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Karlovy Vary|0|5|Sparta Prague|normal|unknown|Karlovy Vary|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Nove Sady|3|2|Sigma Olomouc|normal|unknown|Nove Sady|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Petrin Plzen|1|4|Mlada Boleslav|normal|unknown|Plzen|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Usti nad Labem|0|2|Zlin|normal|unknown|Usti nad Labem|Czech Republic||src-rsssf-2526
+MATCH|2025-09-24|MOL Cup|domestic-cup|Zbrojovka Brno|2|1|Teplice|normal|unknown|Brno|Czech Republic||src-rsssf-2526
+MATCH|2025-09-26|Czech First League|domestic-league|Slavia Prague|2|0|Dukla Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-09-27|Czech First League|domestic-league|Bohemians 1905|2|2|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-09-27|Czech First League|domestic-league|Hradec Kralove|2|3|Slovan Liberec|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-09-27|Czech First League|domestic-league|Banik Ostrava|0|3|Sparta Prague|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-09-27|Czech First League|domestic-league|Slovacko|1|2|Karvina|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-09-28|Czech First League|domestic-league|Jablonec|2|0|Mlada Boleslav|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-09-28|Czech First League|domestic-league|Viktoria Plzen|0|1|Zlin|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-09-28|Czech First League|domestic-league|Teplice|0|0|Pardubice|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-09-30|MOL Cup|domestic-cup|Artis Brno|1|1|Slovan Liberec|normal|unknown|Brno|Czech Republic||src-rsssf-2526
+MATCH|2025-09-30|MOL Cup|domestic-cup|Jihlava|0|1|Dukla Prague|normal|unknown|Jihlava|Czech Republic||src-rsssf-2526
+MATCH|2025-10-01|MOL Cup|domestic-cup|Trinec|3|3|Hradec Kralove|normal|unknown|Trinec|Czech Republic||src-rsssf-2526
+MATCH|2025-10-01|Czech First League|domestic-league|Pardubice|0|1|Banik Ostrava|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-10-04|Czech First League|domestic-league|Dukla Prague|1|3|Teplice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-10-04|Czech First League|domestic-league|Slovan Liberec|0|0|Bohemians 1905|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-10-04|Czech First League|domestic-league|Mlada Boleslav|0|0|Slovacko|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-10-04|Czech First League|domestic-league|Pardubice|2|1|Karvina|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-10-05|Czech First League|domestic-league|Sigma Olomouc|2|0|Jablonec|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-10-05|Czech First League|domestic-league|Viktoria Plzen|3|3|Hradec Kralove|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-10-05|Czech First League|domestic-league|Sparta Prague|1|1|Slavia Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-10-05|Czech First League|domestic-league|Zlin|1|1|Banik Ostrava|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-10-18|Czech First League|domestic-league|Bohemians 1905|0|1|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-10-18|Czech First League|domestic-league|Karvina|1|1|Sigma Olomouc|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-10-18|Czech First League|domestic-league|Pardubice|2|1|Mlada Boleslav|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-10-18|Czech First League|domestic-league|Slavia Prague|0|0|Zlin|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-10-18|Czech First League|domestic-league|Teplice|1|1|Slovan Liberec|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-10-19|Czech First League|domestic-league|Jablonec|0|0|Dukla Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-10-19|Czech First League|domestic-league|Banik Ostrava|0|1|Hradec Kralove|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-10-19|Czech First League|domestic-league|Slovacko|0|0|Sparta Prague|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-10-22|Czech First League|domestic-league|Bohemians 1905|1|1|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-10-25|Czech First League|domestic-league|Dukla Prague|1|0|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-10-25|Czech First League|domestic-league|Hradec Kralove|0|0|Teplice|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-10-25|Czech First League|domestic-league|Slovan Liberec|0|2|Jablonec|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-10-25|Czech First League|domestic-league|Mlada Boleslav|2|4|Karvina|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-10-25|Czech First League|domestic-league|Zlin|2|2|Pardubice|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-10-26|Czech First League|domestic-league|Sigma Olomouc|0|0|Slavia Prague|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-10-26|Czech First League|domestic-league|Viktoria Plzen|2|0|Banik Ostrava|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-10-28|MOL Cup|domestic-cup|Jablonec|2|1|Dukla Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-rsssf-2526
+MATCH|2025-10-28|MOL Cup|domestic-cup|Karvina|1|0|Slovacko|normal|unknown|Karvina|Czech Republic||src-rsssf-2526
+MATCH|2025-10-28|Czech First League|domestic-league|Sparta Prague|2|1|Bohemians 1905|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-10-29|MOL Cup|domestic-cup|Nove Sady|0|2|Viktoria Plzen|normal|unknown|Nove Sady|Czech Republic||src-rsssf-2526
+MATCH|2025-10-29|MOL Cup|domestic-cup|Zlin|0|4|Slavia Prague|normal|unknown|Zlin|Czech Republic||src-rsssf-2526
+MATCH|2025-11-01|Czech First League|domestic-league|Jablonec|1|3|Zlin|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-11-01|Czech First League|domestic-league|Pardubice|1|1|Dukla Prague|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-11-01|Czech First League|domestic-league|Slavia Prague|2|0|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-11-01|Czech First League|domestic-league|Slovacko|0|3|Slovan Liberec|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-11-02|Czech First League|domestic-league|Bohemians 1905|1|2|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-11-02|Czech First League|domestic-league|Karvina|2|1|Sparta Prague|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-11-02|Czech First League|domestic-league|Mlada Boleslav|1|4|Sigma Olomouc|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-11-02|Czech First League|domestic-league|Teplice|1|2|Viktoria Plzen|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-11-05|MOL Cup|domestic-cup|Bohemians 1905|0|0|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-rsssf-2526
+MATCH|2025-11-05|MOL Cup|domestic-cup|Pardubice|3|3|Banik Ostrava|normal|unknown|Pardubice|Czech Republic||src-rsssf-2526
+MATCH|2025-11-08|Czech First League|domestic-league|Dukla Prague|0|1|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-11-08|Czech First League|domestic-league|Hradec Kralove|4|0|Slovacko|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-11-08|Czech First League|domestic-league|Banik Ostrava|0|1|Jablonec|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-11-08|Czech First League|domestic-league|Zlin|0|1|Bohemians 1905|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-11-09|Czech First League|domestic-league|Slovan Liberec|6|0|Karvina|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-11-09|Czech First League|domestic-league|Sigma Olomouc|2|0|Pardubice|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-11-09|Czech First League|domestic-league|Viktoria Plzen|3|5|Slavia Prague|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-11-09|Czech First League|domestic-league|Sparta Prague|2|2|Teplice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-11-12|MOL Cup|domestic-cup|Zbrojovka Brno|0|3|Hradec Kralove|normal|unknown|Brno|Czech Republic||src-rsssf-2526
+MATCH|2025-11-22|Czech First League|domestic-league|Dukla Prague|2|2|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-11-22|Czech First League|domestic-league|Mlada Boleslav|1|2|Sparta Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-11-22|Czech First League|domestic-league|Pardubice|0|4|Slovan Liberec|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-11-22|Czech First League|domestic-league|Slavia Prague|3|1|Bohemians 1905|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-11-22|Czech First League|domestic-league|Teplice|1|0|Banik Ostrava|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-11-23|Czech First League|domestic-league|Jablonec|3|3|Viktoria Plzen|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-11-23|Czech First League|domestic-league|Karvina|4|3|Hradec Kralove|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-11-23|Czech First League|domestic-league|Slovacko|2|0|Zlin|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-11-29|Czech First League|domestic-league|Hradec Kralove|2|0|Jablonec|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-11-29|Czech First League|domestic-league|Banik Ostrava|3|1|Dukla Prague|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-11-29|Czech First League|domestic-league|Slavia Prague|3|0|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-11-29|Czech First League|domestic-league|Zlin|1|3|Karvina|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2025-11-30|Czech First League|domestic-league|Bohemians 1905|0|1|Teplice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-11-30|Czech First League|domestic-league|Slovan Liberec|1|0|Sigma Olomouc|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2025-11-30|Czech First League|domestic-league|Viktoria Plzen|2|1|Mlada Boleslav|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-11-30|Czech First League|domestic-league|Sparta Prague|2|4|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-12-03|MOL Cup|domestic-cup|Artis Brno|1|2|Sparta Prague|normal|unknown|Brno|Czech Republic||src-rsssf-2526
+MATCH|2025-12-05|Czech First League|domestic-league|Teplice|1|2|Slavia Prague|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-12-06|Czech First League|domestic-league|Dukla Prague|1|1|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-12-06|Czech First League|domestic-league|Mlada Boleslav|3|1|Zlin|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2025-12-06|Czech First League|domestic-league|Sigma Olomouc|0|1|Sparta Prague|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2025-12-06|Czech First League|domestic-league|Slovacko|3|0|Viktoria Plzen|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2025-12-07|Czech First League|domestic-league|Jablonec|1|0|Bohemians 1905|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2025-12-07|Czech First League|domestic-league|Karvina|0|0|Banik Ostrava|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2025-12-07|Czech First League|domestic-league|Pardubice|1|0|Hradec Kralove|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2025-12-13|Czech First League|domestic-league|Hradec Kralove|1|1|Mlada Boleslav|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2025-12-13|Czech First League|domestic-league|Banik Ostrava|1|4|Pardubice|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2025-12-13|Czech First League|domestic-league|Slavia Prague|4|3|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-12-13|Czech First League|domestic-league|Teplice|1|0|Slovacko|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2025-12-14|Czech First League|domestic-league|Bohemians 1905|0|3|Karvina|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-12-14|Czech First League|domestic-league|Viktoria Plzen|2|0|Dukla Prague|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2025-12-14|Czech First League|domestic-league|Sparta Prague|2|2|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2025-12-14|Czech First League|domestic-league|Zlin|5|0|Sigma Olomouc|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-01-31|Czech First League|domestic-league|Dukla Prague|0|3|Sparta Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-01-31|Czech First League|domestic-league|Jablonec|1|0|Teplice|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-01-31|Czech First League|domestic-league|Mlada Boleslav|2|2|Bohemians 1905|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2026-01-31|Czech First League|domestic-league|Sigma Olomouc|1|0|Hradec Kralove|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2026-02-01|Czech First League|domestic-league|Karvina|0|2|Viktoria Plzen|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2026-02-01|Czech First League|domestic-league|Slovan Liberec|2|0|Zlin|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2026-02-01|Czech First League|domestic-league|Pardubice|1|1|Slavia Prague|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2026-02-01|Czech First League|domestic-league|Slovacko|2|2|Banik Ostrava|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2026-02-07|Czech First League|domestic-league|Jablonec|0|0|Slovacko|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-02-07|Czech First League|domestic-league|Banik Ostrava|2|0|Sigma Olomouc|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2026-02-07|Czech First League|domestic-league|Slavia Prague|4|0|Mlada Boleslav|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-02-07|Czech First League|domestic-league|Teplice|2|0|Karvina|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-02-08|Czech First League|domestic-league|Bohemians 1905|1|2|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-02-08|Czech First League|domestic-league|Hradec Kralove|3|0|Dukla Prague|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-02-08|Czech First League|domestic-league|Viktoria Plzen|3|1|Slovan Liberec|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-02-08|Czech First League|domestic-league|Zlin|0|3|Sparta Prague|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-02-14|Czech First League|domestic-league|Dukla Prague|0|0|Zlin|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-02-14|Czech First League|domestic-league|Karvina|1|3|Slavia Prague|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2026-02-14|Czech First League|domestic-league|Sigma Olomouc|1|2|Viktoria Plzen|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2026-02-14|Czech First League|domestic-league|Slovacko|1|2|Bohemians 1905|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2026-02-15|Czech First League|domestic-league|Slovan Liberec|1|0|Banik Ostrava|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2026-02-15|Czech First League|domestic-league|Mlada Boleslav|0|0|Teplice|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2026-02-15|Czech First League|domestic-league|Pardubice|0|2|Jablonec|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2026-02-15|Czech First League|domestic-league|Sparta Prague|2|0|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-02-21|Czech First League|domestic-league|Hradec Kralove|0|0|Zlin|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-02-21|Czech First League|domestic-league|Jablonec|1|0|Karvina|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-02-21|Czech First League|domestic-league|Slavia Prague|1|0|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-02-21|Czech First League|domestic-league|Slovacko|2|0|Pardubice|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2026-02-22|Czech First League|domestic-league|Bohemians 1905|1|0|Dukla Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-02-22|Czech First League|domestic-league|Banik Ostrava|0|0|Mlada Boleslav|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2026-02-22|Czech First League|domestic-league|Viktoria Plzen|0|0|Sparta Prague|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-02-22|Czech First League|domestic-league|Teplice|1|3|Sigma Olomouc|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-02-27|Czech First League|domestic-league|Dukla Prague|0|2|Slavia Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-02-28|Czech First League|domestic-league|Slovan Liberec|0|1|Hradec Kralove|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2026-02-28|Czech First League|domestic-league|Mlada Boleslav|3|0|Jablonec|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2026-02-28|Czech First League|domestic-league|Pardubice|1|1|Teplice|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2026-02-28|Czech First League|domestic-league|Sparta Prague|5|2|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-03-01|Czech First League|domestic-league|Karvina|0|2|Slovacko|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2026-03-01|Czech First League|domestic-league|Sigma Olomouc|1|0|Bohemians 1905|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2026-03-01|Czech First League|domestic-league|Zlin|3|0|Viktoria Plzen|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-03-03|MOL Cup|domestic-cup|Jablonec|2|2|Slavia Prague|normal|unknown|Jablonec nad Nisou|Czech Republic||src-rsssf-2526
+MATCH|2026-03-03|MOL Cup|domestic-cup|Mlada Boleslav|0|0|Sparta Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-rsssf-2526
+MATCH|2026-03-04|MOL Cup|domestic-cup|Hradec Kralove|0|0|Banik Ostrava|normal|unknown|Hradec Kralove|Czech Republic||src-rsssf-2526
+MATCH|2026-03-05|MOL Cup|domestic-cup|Karvina|3|0|Viktoria Plzen|normal|unknown|Karvina|Czech Republic||src-rsssf-2526
+MATCH|2026-03-07|Czech First League|domestic-league|Bohemians 1905|0|0|Slovan Liberec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-03-07|Czech First League|domestic-league|Jablonec|1|2|Sigma Olomouc|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-03-07|Czech First League|domestic-league|Slovacko|2|2|Mlada Boleslav|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2026-03-07|Czech First League|domestic-league|Teplice|0|0|Dukla Prague|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-03-08|Czech First League|domestic-league|Hradec Kralove|0|3|Viktoria Plzen|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-03-08|Czech First League|domestic-league|Karvina|1|2|Pardubice|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2026-03-08|Czech First League|domestic-league|Banik Ostrava|6|2|Zlin|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2026-03-08|Czech First League|domestic-league|Slavia Prague|3|1|Sparta Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-03-14|Czech First League|domestic-league|Dukla Prague|2|0|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-03-14|Czech First League|domestic-league|Hradec Kralove|1|0|Banik Ostrava|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-03-14|Czech First League|domestic-league|Mlada Boleslav|2|0|Pardubice|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2026-03-14|Czech First League|domestic-league|Zlin|1|3|Slavia Prague|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-03-15|Czech First League|domestic-league|Slovan Liberec|1|1|Teplice|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2026-03-15|Czech First League|domestic-league|Sigma Olomouc|2|2|Karvina|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2026-03-15|Czech First League|domestic-league|Viktoria Plzen|2|0|Bohemians 1905|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-03-15|Czech First League|domestic-league|Sparta Prague|5|2|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-04|Czech First League|domestic-league|Dukla Prague|0|2|Pardubice|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-04|Czech First League|domestic-league|Slovan Liberec|2|1|Slovacko|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2026-04-04|Czech First League|domestic-league|Sigma Olomouc|2|4|Mlada Boleslav|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2026-04-04|Czech First League|domestic-league|Viktoria Plzen|2|2|Teplice|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-04-04|Czech First League|domestic-league|Zlin|0|3|Jablonec|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-04-05|Czech First League|domestic-league|Hradec Kralove|2|0|Bohemians 1905|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-04-05|Czech First League|domestic-league|Banik Ostrava|0|2|Slavia Prague|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2026-04-05|Czech First League|domestic-league|Sparta Prague|2|0|Karvina|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-11|Czech First League|domestic-league|Bohemians 1905|2|1|Zlin|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-11|Czech First League|domestic-league|Jablonec|4|1|Banik Ostrava|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-04-11|Czech First League|domestic-league|Slovacko|1|3|Hradec Kralove|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2026-04-12|Czech First League|domestic-league|Karvina|3|1|Slovan Liberec|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2026-04-12|Czech First League|domestic-league|Mlada Boleslav|1|1|Dukla Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2026-04-12|Czech First League|domestic-league|Pardubice|2|1|Sigma Olomouc|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2026-04-12|Czech First League|domestic-league|Slavia Prague|0|0|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-12|Czech First League|domestic-league|Teplice|0|1|Sparta Prague|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-04-18|Czech First League|domestic-league|Dukla Prague|1|2|Karvina|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-18|Czech First League|domestic-league|Slovan Liberec|0|0|Mlada Boleslav|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2026-04-18|Czech First League|domestic-league|Banik Ostrava|0|2|Bohemians 1905|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2026-04-18|Czech First League|domestic-league|Sparta Prague|3|1|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-18|Czech First League|domestic-league|Zlin|3|2|Teplice|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-04-19|Czech First League|domestic-league|Hradec Kralove|2|1|Slavia Prague|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-04-19|Czech First League|domestic-league|Sigma Olomouc|2|1|Slovacko|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2026-04-19|Czech First League|domestic-league|Viktoria Plzen|0|1|Pardubice|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-04-21|MOL Cup|domestic-cup|Jablonec|1|0|Mlada Boleslav|normal|unknown|Jablonec nad Nisou|Czech Republic||src-rsssf-2526
+MATCH|2026-04-21|MOL Cup|domestic-cup|Karvina|2|1|Banik Ostrava|normal|unknown|Karvina|Czech Republic||src-rsssf-2526
+MATCH|2026-04-25|Czech First League|domestic-league|Bohemians 1905|2|0|Sparta Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-25|Czech First League|domestic-league|Jablonec|1|2|Slovan Liberec|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-04-25|Czech First League|domestic-league|Karvina|0|3|Mlada Boleslav|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2026-04-25|Czech First League|domestic-league|Banik Ostrava|0|1|Viktoria Plzen|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2026-04-25|Czech First League|domestic-league|Pardubice|3|1|Zlin|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2026-04-25|Czech First League|domestic-league|Slavia Prague|2|1|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-04-25|Czech First League|domestic-league|Slovacko|1|2|Dukla Prague|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2026-04-25|Czech First League|domestic-league|Teplice|0|1|Hradec Kralove|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-05-02|Czech First League|domestic-league|Bohemians 1905|1|3|Sigma Olomouc|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-02|Czech First League|domestic-league|Karvina|1|2|Pardubice|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2026-05-02|Czech First League|domestic-league|Slovan Liberec|1|2|Slavia Prague|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2026-05-02|Czech First League|domestic-league|Banik Ostrava|0|0|Mlada Boleslav|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2026-05-02|Czech First League|domestic-league|Zlin|2|1|Dukla Prague|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-05-03|Czech First League|domestic-league|Viktoria Plzen|3|1|Hradec Kralove|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-05-03|Czech First League|domestic-league|Sparta Prague|2|0|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-03|Czech First League|domestic-league|Teplice|1|1|Slovacko|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-05-09|Czech First League|domestic-league|Dukla Prague|0|1|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-09|Czech First League|domestic-league|Mlada Boleslav|1|1|Zlin|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2026-05-09|Czech First League|domestic-league|Viktoria Plzen|2|0|Slovan Liberec|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-05-09|Czech First League|domestic-league|Slavia Prague|0|3|Sparta Prague|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-09|Czech First League|domestic-league|Teplice|2|1|Banik Ostrava|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-05-10|Czech First League|domestic-league|Jablonec|1|1|Hradec Kralove|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-05-10|Czech First League|domestic-league|Sigma Olomouc|0|2|Bohemians 1905|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2026-05-10|Czech First League|domestic-league|Pardubice|1|2|Karvina|normal|unknown|Pardubice|Czech Republic||src-bbc
+MATCH|2026-05-12|Czech First League|domestic-league|Mlada Boleslav|1|2|Dukla Prague|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2026-05-12|Czech First League|domestic-league|Slovacko|2|1|Banik Ostrava|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2026-05-12|Czech First League|domestic-league|Sparta Prague|0|0|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-12|Czech First League|domestic-league|Zlin|2|4|Teplice|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-05-13|Czech First League|domestic-league|Hradec Kralove|1|0|Slovan Liberec|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-05-13|Czech First League|domestic-league|Slavia Prague|5|1|Jablonec|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-16|Czech First League|domestic-league|Karvina|1|3|Sigma Olomouc|normal|unknown|Karvina|Czech Republic||src-bbc
+MATCH|2026-05-16|Czech First League|domestic-league|Banik Ostrava|2|0|Zlin|normal|unknown|Ostrava|Czech Republic||src-bbc
+MATCH|2026-05-16|Czech First League|domestic-league|Slovacko|0|3|Mlada Boleslav|normal|unknown|Uherske Hradiste|Czech Republic||src-bbc
+MATCH|2026-05-16|Czech First League|domestic-league|Teplice|2|0|Dukla Prague|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-05-17|Czech First League|domestic-league|Hradec Kralove|3|1|Slavia Prague|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-05-17|Czech First League|domestic-league|Slovan Liberec|0|2|Sparta Prague|normal|unknown|Liberec|Czech Republic||src-bbc
+MATCH|2026-05-17|Czech First League|domestic-league|Viktoria Plzen|5|0|Jablonec|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-05-20|MOL Cup|domestic-cup|Mlada Boleslav|1|3|Karvina|neutral|unknown|unknown|Czech Republic||src-rsssf-2526
+MATCH|2026-05-23|Czech First League|domestic-league|Dukla Prague|0|3|Banik Ostrava|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-23|Czech First League|domestic-league|Mlada Boleslav|0|2|Teplice|normal|unknown|Mlada Boleslav|Czech Republic||src-bbc
+MATCH|2026-05-23|Czech First League|domestic-league|Sigma Olomouc|4|0|Karvina|normal|unknown|Olomouc|Czech Republic||src-bbc
+MATCH|2026-05-23|Czech First League|domestic-league|Zlin|1|0|Slovacko|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-05-24|Czech First League|domestic-league|Jablonec|2|1|Slovan Liberec|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-05-24|Czech First League|domestic-league|Slavia Prague|3|0|Viktoria Plzen|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-24|Czech First League|domestic-league|Sparta Prague|2|1|Hradec Kralove|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-05-26|Czech Relegation Playoffs|other|Banik Ostrava|3|0|Taborsko|normal|unknown|Ostrava|Czech Republic||src-rsssf-2526
+MATCH|2026-05-27|Czech Relegation Playoffs|other|Artis Brno|1|4|Slovacko|normal|unknown|Brno|Czech Republic||src-rsssf-2526
+MATCH|2026-05-30|Czech Relegation Playoffs|other|Taborsko|0|5|Banik Ostrava|normal|unknown|Tabor|Czech Republic||src-rsssf-2526
+MATCH|2026-05-31|Czech Relegation Playoffs|other|Slovacko|3|0|Artis Brno|normal|unknown|Uherske Hradiste|Czech Republic||src-rsssf-2526
+MATCH|2026-07-25|Czech First League|domestic-league|Viktoria Plzen|1|3|Slovan Liberec|normal|unknown|Plzen|Czech Republic||src-bbc
+MATCH|2026-07-25|Czech First League|domestic-league|Teplice|3|1|Bohemians 1905|normal|unknown|Teplice|Czech Republic||src-bbc
+MATCH|2026-07-25|Czech First League|domestic-league|Zbrojovka Brno|3|1|Sparta Prague|normal|unknown|Brno|Czech Republic||src-bbc
+MATCH|2026-07-25|Czech First League|domestic-league|Zlin|0|1|Banik Ostrava|normal|unknown|Zlin|Czech Republic||src-bbc
+MATCH|2026-07-26|Czech First League|domestic-league|Hradec Kralove|2|1|Pardubice|normal|unknown|Hradec Kralove|Czech Republic||src-bbc
+MATCH|2026-07-26|Czech First League|domestic-league|Jablonec|2|1|Sigma Olomouc|normal|unknown|Jablonec nad Nisou|Czech Republic||src-bbc
+MATCH|2026-07-26|Czech First League|domestic-league|Slavia Prague|5|1|Slovacko|normal|unknown|Prague|Czech Republic||src-bbc
+MATCH|2026-07-27|Czech First League|domestic-league|Artis Brno|2|4|Mlada Boleslav|normal|unknown|Brno|Czech Republic||src-bbc
+MATCH|2026-07-31|Czech First League|domestic-league|Sparta Prague|3|1|Zlin|normal|unknown|Prague|Czech Republic||src-bbc
+SOURCE|src-bbc|https://www.bbc.com/sport/football/czech-first-league/scores-fixtures|2026-08-01|results-database|BBC Czech First League scores and fixtures, month pages 2024-07 through 2026-07
+SOURCE|src-rsssf-2425|https://www.rsssf.org/tablest/tsje2025.html|2026-08-01|results-database|RSSSF Czech Republic 2024-25: round-by-round results, group tables, MOL Cup
+SOURCE|src-rsssf-2526|https://www.rsssf.org/tablest/tsje2026.html|2026-08-01|results-database|RSSSF Czech Republic 2025-26: tables, MOL Cup
+END

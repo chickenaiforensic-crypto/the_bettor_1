@@ -1,0 +1,3482 @@
+[
+ {
+  "date": "2026-07-24",
+  "home": "MFK Kravaře",
+  "away": "FK Bospor Bohumín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 6,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "FC Strání",
+  "away": "FC Fastav Vsetín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "Tatran Všechovice",
+  "away": "TJ Unie Hlubina ",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:2 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Tatran Bohunice",
+  "away": "ČSK Uherský Brod",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:5 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "Fotbal club Vratimov",
+  "away": "MFK Havířov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Blansko",
+  "away": "FC PBS Velká Bíteš",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FC Sparta Brno",
+  "away": "SFK Vrchovina Nové Město na Moravě",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Břidličná",
+  "away": "FC Hlučín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Lanžhot",
+  "away": "FC Dosta Bystrc-Kniničky",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Horní Bečva",
+  "away": "TJ Valašské Meziříčí",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Bzenec-Vracov",
+  "away": "MSK Břeclav",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SFK ELKO Holešov",
+  "away": "FC TVD Slavičín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Šternberk",
+  "away": "SK Jiskra Rýmařov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "5:3 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SK Stonava",
+  "away": "FK SK Polanka nad Odrou",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "1:3 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Spartak Hluk",
+  "away": "FC Brumov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TATRAN Ždírec nad Doubravou",
+  "away": "FC Kuřim",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Fotbalová škola Třebíč",
+  "away": "TJ Sokol Tasovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ MILO Olomouc - FK Nové Sady",
+  "away": "FK Prumrent Šumperk",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Krumvíř",
+  "away": "1.SC Znojmo FK",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FC Chotěboř",
+  "away": "FC Velké Meziříčí",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "Fotbalový klub Bílovec",
+  "away": "MFK Vítkovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bělotín",
+  "away": "FK Nový Jičín",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bedřichov",
+  "away": "AFC Humpolec",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Olympia Ráječko",
+  "away": "FC ŽĎAS Žďár nad Sázavou",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FK Kozlovice",
+  "away": "FK Frýdek-Místek",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 0,
+  "end": "5:3 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Sulko Zábřeh",
+  "away": "SK Hranice",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "5:4 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Bystřice",
+  "away": "1. BFK Frýdlant nad Ostravicí",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-29",
+  "home": "FSC Stará Říše",
+  "away": "FC Slovan Havlíčkův Brod",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 4,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-30",
+  "home": "TJ Hluboká nad Vltavou",
+  "away": "TJ Spartak Soběslav",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Rokycany",
+  "away": "SK Hořovice",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Slavoj Vyšehrad",
+  "away": "Sokol Hostouň",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "TJ Viktoria Vestec",
+  "away": "FK Benešov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 4,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Petřín Plzeň",
+  "away": "FK Komárov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Slavia Hradec Králové",
+  "away": "MFK Trutnov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia Vejprnice",
+  "away": "SK Senco Doubravka",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:5 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "ABC Braník",
+  "away": "FK Meteor Praha VIII",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Jiskra Ústí nad Orlicí",
+  "away": "TJ Svitavy",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Přepeře",
+  "away": "TJ Velké Hamry",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Klášterec nad Ohří",
+  "away": "FK Ostrov",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Okula Nýrsko",
+  "away": "Fotbal klub Křimice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ FC Pěnčín",
+  "away": "FK Turnov",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Strakonice 1908",
+  "away": "FC ZVVZ Milevsko",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Čechie Vykáň",
+  "away": "FK Čáslav",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Slovan Velvary",
+  "away": "FK Brandýs nad Labem",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Tempo Praha, o.s.",
+  "away": "FK Loko Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Sparta Kolín",
+  "away": "FK Horní Ředice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Spartak Příbram",
+  "away": "Povltavská fotbalová akademie",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:1 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Rapid Psáry",
+  "away": "FK Motorlet Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Spartak Rychnov nad Kněžnou",
+  "away": "FK Chlumec nad Cidlinou",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Štětí",
+  "away": "FK Varnsdorf",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Hvězda Cheb",
+  "away": "FK Baník Sokolov 1948",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia České Budějovice",
+  "away": "FK Slavoj Český Krumlov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 5,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Jiskra Heřmanův Měštec",
+  "away": "FC Hlinsko",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Kosmonosy",
+  "away": "FK Neratovice - Byškovice s.r.o.",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slaný",
+  "away": "SK Sokol Brozany",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "TJ Dvůr Králové nad Labem",
+  "away": "Spartak Police nad Metují",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "FC Slavia Karlovy Vary",
+  "away": "FC Chomutov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "2:0 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "SK Vysoké Mýto",
+  "away": "FK Letohrad",
+  "stage": "Předkolo",
+  "hg": 8,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "MFK Kravaře",
+  "away": "FK Bospor Bohumín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 6,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "Tatran Všechovice",
+  "away": "TJ Unie Hlubina ",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:2 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "FC Strání",
+  "away": "FC Fastav Vsetín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Tatran Bohunice",
+  "away": "ČSK Uherský Brod",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:5 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "Fotbal club Vratimov",
+  "away": "MFK Havířov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Blansko",
+  "away": "FC PBS Velká Bíteš",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FC Sparta Brno",
+  "away": "SFK Vrchovina Nové Město na Moravě",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Břidličná",
+  "away": "FC Hlučín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Šternberk",
+  "away": "SK Jiskra Rýmařov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "5:3 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Bzenec-Vracov",
+  "away": "MSK Břeclav",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Lanžhot",
+  "away": "FC Dosta Bystrc-Kniničky",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SFK ELKO Holešov",
+  "away": "FC TVD Slavičín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Spartak Hluk",
+  "away": "FC Brumov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SK Stonava",
+  "away": "FK SK Polanka nad Odrou",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "1:3 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Horní Bečva",
+  "away": "TJ Valašské Meziříčí",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TATRAN Ždírec nad Doubravou",
+  "away": "FC Kuřim",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Fotbalová škola Třebíč",
+  "away": "TJ Sokol Tasovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bedřichov",
+  "away": "AFC Humpolec",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Krumvíř",
+  "away": "1.SC Znojmo FK",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FC Chotěboř",
+  "away": "FC Velké Meziříčí",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FK Kozlovice",
+  "away": "FK Frýdek-Místek",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 0,
+  "end": "5:3 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "Fotbalový klub Bílovec",
+  "away": "MFK Vítkovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Sulko Zábřeh",
+  "away": "SK Hranice",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "5:4 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ MILO Olomouc - FK Nové Sady",
+  "away": "FK Prumrent Šumperk",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Bystřice",
+  "away": "1. BFK Frýdlant nad Ostravicí",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bělotín",
+  "away": "FK Nový Jičín",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Olympia Ráječko",
+  "away": "FC ŽĎAS Žďár nad Sázavou",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-29",
+  "home": "FSC Stará Říše",
+  "away": "FC Slovan Havlíčkův Brod",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 4,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-30",
+  "home": "TJ Hluboká nad Vltavou",
+  "away": "TJ Spartak Soběslav",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Slavoj Vyšehrad",
+  "away": "Sokol Hostouň",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Rokycany",
+  "away": "SK Hořovice",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "TJ Viktoria Vestec",
+  "away": "FK Benešov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 4,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Slavia Hradec Králové",
+  "away": "MFK Trutnov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "ABC Braník",
+  "away": "FK Meteor Praha VIII",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia Vejprnice",
+  "away": "SK Senco Doubravka",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:5 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Petřín Plzeň",
+  "away": "FK Komárov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Jiskra Ústí nad Orlicí",
+  "away": "TJ Svitavy",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Přepeře",
+  "away": "TJ Velké Hamry",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Klášterec nad Ohří",
+  "away": "FK Ostrov",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Okula Nýrsko",
+  "away": "Fotbal klub Křimice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ FC Pěnčín",
+  "away": "FK Turnov",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Jiskra Heřmanův Měštec",
+  "away": "FC Hlinsko",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Sparta Kolín",
+  "away": "FK Horní Ředice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Kosmonosy",
+  "away": "FK Neratovice - Byškovice s.r.o.",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Čechie Vykáň",
+  "away": "FK Čáslav",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Spartak Rychnov nad Kněžnou",
+  "away": "FK Chlumec nad Cidlinou",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Štětí",
+  "away": "FK Varnsdorf",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slaný",
+  "away": "SK Sokol Brozany",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Slovan Velvary",
+  "away": "FK Brandýs nad Labem",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Hvězda Cheb",
+  "away": "FK Baník Sokolov 1948",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Spartak Příbram",
+  "away": "Povltavská fotbalová akademie",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:1 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia České Budějovice",
+  "away": "FK Slavoj Český Krumlov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 5,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Tempo Praha, o.s.",
+  "away": "FK Loko Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Rapid Psáry",
+  "away": "FK Motorlet Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Strakonice 1908",
+  "away": "FC ZVVZ Milevsko",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "SK Vysoké Mýto",
+  "away": "FK Letohrad",
+  "stage": "Předkolo",
+  "hg": 8,
+  "ag": 1,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "TJ Dvůr Králové nad Labem",
+  "away": "Spartak Police nad Metují",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "FC Slavia Karlovy Vary",
+  "away": "FC Chomutov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "2:0 PEN",
+  "season_label": "2021-22"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "MFK Kravaře",
+  "away": "FK Bospor Bohumín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 6,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "FC Strání",
+  "away": "FC Fastav Vsetín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "Tatran Všechovice",
+  "away": "TJ Unie Hlubina ",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:2 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Tatran Bohunice",
+  "away": "ČSK Uherský Brod",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:5 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "Fotbal club Vratimov",
+  "away": "MFK Havířov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Blansko",
+  "away": "FC PBS Velká Bíteš",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FC Sparta Brno",
+  "away": "SFK Vrchovina Nové Město na Moravě",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Břidličná",
+  "away": "FC Hlučín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Lanžhot",
+  "away": "FC Dosta Bystrc-Kniničky",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Horní Bečva",
+  "away": "TJ Valašské Meziříčí",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Bzenec-Vracov",
+  "away": "MSK Břeclav",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SFK ELKO Holešov",
+  "away": "FC TVD Slavičín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Šternberk",
+  "away": "SK Jiskra Rýmařov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "5:3 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SK Stonava",
+  "away": "FK SK Polanka nad Odrou",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "1:3 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Spartak Hluk",
+  "away": "FC Brumov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TATRAN Ždírec nad Doubravou",
+  "away": "FC Kuřim",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Fotbalová škola Třebíč",
+  "away": "TJ Sokol Tasovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ MILO Olomouc - FK Nové Sady",
+  "away": "FK Prumrent Šumperk",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Krumvíř",
+  "away": "1.SC Znojmo FK",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FC Chotěboř",
+  "away": "FC Velké Meziříčí",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "Fotbalový klub Bílovec",
+  "away": "MFK Vítkovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bělotín",
+  "away": "FK Nový Jičín",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bedřichov",
+  "away": "AFC Humpolec",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Olympia Ráječko",
+  "away": "FC ŽĎAS Žďár nad Sázavou",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FK Kozlovice",
+  "away": "FK Frýdek-Místek",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 0,
+  "end": "5:3 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Sulko Zábřeh",
+  "away": "SK Hranice",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "5:4 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Bystřice",
+  "away": "1. BFK Frýdlant nad Ostravicí",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-29",
+  "home": "FSC Stará Říše",
+  "away": "FC Slovan Havlíčkův Brod",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 4,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-30",
+  "home": "TJ Hluboká nad Vltavou",
+  "away": "TJ Spartak Soběslav",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Rokycany",
+  "away": "SK Hořovice",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Slavoj Vyšehrad",
+  "away": "Sokol Hostouň",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "TJ Viktoria Vestec",
+  "away": "FK Benešov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 4,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Petřín Plzeň",
+  "away": "FK Komárov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Slavia Hradec Králové",
+  "away": "MFK Trutnov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia Vejprnice",
+  "away": "SK Senco Doubravka",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:5 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "ABC Braník",
+  "away": "FK Meteor Praha VIII",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Jiskra Ústí nad Orlicí",
+  "away": "TJ Svitavy",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Přepeře",
+  "away": "TJ Velké Hamry",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Klášterec nad Ohří",
+  "away": "FK Ostrov",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Okula Nýrsko",
+  "away": "Fotbal klub Křimice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ FC Pěnčín",
+  "away": "FK Turnov",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Strakonice 1908",
+  "away": "FC ZVVZ Milevsko",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Čechie Vykáň",
+  "away": "FK Čáslav",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Slovan Velvary",
+  "away": "FK Brandýs nad Labem",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Tempo Praha, o.s.",
+  "away": "FK Loko Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Sparta Kolín",
+  "away": "FK Horní Ředice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Spartak Příbram",
+  "away": "Povltavská fotbalová akademie",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:1 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Rapid Psáry",
+  "away": "FK Motorlet Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Spartak Rychnov nad Kněžnou",
+  "away": "FK Chlumec nad Cidlinou",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Štětí",
+  "away": "FK Varnsdorf",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Hvězda Cheb",
+  "away": "FK Baník Sokolov 1948",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia České Budějovice",
+  "away": "FK Slavoj Český Krumlov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 5,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Jiskra Heřmanův Měštec",
+  "away": "FC Hlinsko",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Kosmonosy",
+  "away": "FK Neratovice - Byškovice s.r.o.",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slaný",
+  "away": "SK Sokol Brozany",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "TJ Dvůr Králové nad Labem",
+  "away": "Spartak Police nad Metují",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "FC Slavia Karlovy Vary",
+  "away": "FC Chomutov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "2:0 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "SK Vysoké Mýto",
+  "away": "FK Letohrad",
+  "stage": "Předkolo",
+  "hg": 8,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "MFK Kravaře",
+  "away": "FK Bospor Bohumín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 6,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "Tatran Všechovice",
+  "away": "TJ Unie Hlubina ",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:2 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "FC Strání",
+  "away": "FC Fastav Vsetín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Tatran Bohunice",
+  "away": "ČSK Uherský Brod",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:5 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "Fotbal club Vratimov",
+  "away": "MFK Havířov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Blansko",
+  "away": "FC PBS Velká Bíteš",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FC Sparta Brno",
+  "away": "SFK Vrchovina Nové Město na Moravě",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Břidličná",
+  "away": "FC Hlučín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Šternberk",
+  "away": "SK Jiskra Rýmařov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "5:3 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Bzenec-Vracov",
+  "away": "MSK Břeclav",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Lanžhot",
+  "away": "FC Dosta Bystrc-Kniničky",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SFK ELKO Holešov",
+  "away": "FC TVD Slavičín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Spartak Hluk",
+  "away": "FC Brumov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SK Stonava",
+  "away": "FK SK Polanka nad Odrou",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "1:3 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Horní Bečva",
+  "away": "TJ Valašské Meziříčí",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TATRAN Ždírec nad Doubravou",
+  "away": "FC Kuřim",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Fotbalová škola Třebíč",
+  "away": "TJ Sokol Tasovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bedřichov",
+  "away": "AFC Humpolec",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Krumvíř",
+  "away": "1.SC Znojmo FK",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FC Chotěboř",
+  "away": "FC Velké Meziříčí",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FK Kozlovice",
+  "away": "FK Frýdek-Místek",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 0,
+  "end": "5:3 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "Fotbalový klub Bílovec",
+  "away": "MFK Vítkovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Sulko Zábřeh",
+  "away": "SK Hranice",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "5:4 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ MILO Olomouc - FK Nové Sady",
+  "away": "FK Prumrent Šumperk",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Bystřice",
+  "away": "1. BFK Frýdlant nad Ostravicí",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bělotín",
+  "away": "FK Nový Jičín",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Olympia Ráječko",
+  "away": "FC ŽĎAS Žďár nad Sázavou",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-29",
+  "home": "FSC Stará Říše",
+  "away": "FC Slovan Havlíčkův Brod",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 4,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-30",
+  "home": "TJ Hluboká nad Vltavou",
+  "away": "TJ Spartak Soběslav",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Slavoj Vyšehrad",
+  "away": "Sokol Hostouň",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Rokycany",
+  "away": "SK Hořovice",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "TJ Viktoria Vestec",
+  "away": "FK Benešov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 4,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Slavia Hradec Králové",
+  "away": "MFK Trutnov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "ABC Braník",
+  "away": "FK Meteor Praha VIII",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia Vejprnice",
+  "away": "SK Senco Doubravka",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:5 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Petřín Plzeň",
+  "away": "FK Komárov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Jiskra Ústí nad Orlicí",
+  "away": "TJ Svitavy",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Přepeře",
+  "away": "TJ Velké Hamry",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Klášterec nad Ohří",
+  "away": "FK Ostrov",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Okula Nýrsko",
+  "away": "Fotbal klub Křimice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ FC Pěnčín",
+  "away": "FK Turnov",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Jiskra Heřmanův Měštec",
+  "away": "FC Hlinsko",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Sparta Kolín",
+  "away": "FK Horní Ředice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Kosmonosy",
+  "away": "FK Neratovice - Byškovice s.r.o.",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Čechie Vykáň",
+  "away": "FK Čáslav",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Spartak Rychnov nad Kněžnou",
+  "away": "FK Chlumec nad Cidlinou",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Štětí",
+  "away": "FK Varnsdorf",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slaný",
+  "away": "SK Sokol Brozany",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Slovan Velvary",
+  "away": "FK Brandýs nad Labem",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Hvězda Cheb",
+  "away": "FK Baník Sokolov 1948",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Spartak Příbram",
+  "away": "Povltavská fotbalová akademie",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:1 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia České Budějovice",
+  "away": "FK Slavoj Český Krumlov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 5,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Tempo Praha, o.s.",
+  "away": "FK Loko Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Rapid Psáry",
+  "away": "FK Motorlet Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Strakonice 1908",
+  "away": "FC ZVVZ Milevsko",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "SK Vysoké Mýto",
+  "away": "FK Letohrad",
+  "stage": "Předkolo",
+  "hg": 8,
+  "ag": 1,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "TJ Dvůr Králové nad Labem",
+  "away": "Spartak Police nad Metují",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "FC Slavia Karlovy Vary",
+  "away": "FC Chomutov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "2:0 PEN",
+  "season_label": "2022-23"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "MFK Kravaře",
+  "away": "FK Bospor Bohumín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 6,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "FC Strání",
+  "away": "FC Fastav Vsetín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "Tatran Všechovice",
+  "away": "TJ Unie Hlubina ",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:2 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Tatran Bohunice",
+  "away": "ČSK Uherský Brod",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:5 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "Fotbal club Vratimov",
+  "away": "MFK Havířov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Blansko",
+  "away": "FC PBS Velká Bíteš",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FC Sparta Brno",
+  "away": "SFK Vrchovina Nové Město na Moravě",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Břidličná",
+  "away": "FC Hlučín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Lanžhot",
+  "away": "FC Dosta Bystrc-Kniničky",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Horní Bečva",
+  "away": "TJ Valašské Meziříčí",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Bzenec-Vracov",
+  "away": "MSK Břeclav",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SFK ELKO Holešov",
+  "away": "FC TVD Slavičín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Šternberk",
+  "away": "SK Jiskra Rýmařov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "5:3 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SK Stonava",
+  "away": "FK SK Polanka nad Odrou",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "1:3 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Spartak Hluk",
+  "away": "FC Brumov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TATRAN Ždírec nad Doubravou",
+  "away": "FC Kuřim",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Fotbalová škola Třebíč",
+  "away": "TJ Sokol Tasovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ MILO Olomouc - FK Nové Sady",
+  "away": "FK Prumrent Šumperk",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Krumvíř",
+  "away": "1.SC Znojmo FK",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FC Chotěboř",
+  "away": "FC Velké Meziříčí",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "Fotbalový klub Bílovec",
+  "away": "MFK Vítkovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bělotín",
+  "away": "FK Nový Jičín",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bedřichov",
+  "away": "AFC Humpolec",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Olympia Ráječko",
+  "away": "FC ŽĎAS Žďár nad Sázavou",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FK Kozlovice",
+  "away": "FK Frýdek-Místek",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 0,
+  "end": "5:3 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Sulko Zábřeh",
+  "away": "SK Hranice",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "5:4 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Bystřice",
+  "away": "1. BFK Frýdlant nad Ostravicí",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-29",
+  "home": "FSC Stará Říše",
+  "away": "FC Slovan Havlíčkův Brod",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 4,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-30",
+  "home": "TJ Hluboká nad Vltavou",
+  "away": "TJ Spartak Soběslav",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Rokycany",
+  "away": "SK Hořovice",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Slavoj Vyšehrad",
+  "away": "Sokol Hostouň",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "TJ Viktoria Vestec",
+  "away": "FK Benešov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 4,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Petřín Plzeň",
+  "away": "FK Komárov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Slavia Hradec Králové",
+  "away": "MFK Trutnov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia Vejprnice",
+  "away": "SK Senco Doubravka",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:5 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "ABC Braník",
+  "away": "FK Meteor Praha VIII",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Jiskra Ústí nad Orlicí",
+  "away": "TJ Svitavy",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Přepeře",
+  "away": "TJ Velké Hamry",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Klášterec nad Ohří",
+  "away": "FK Ostrov",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Okula Nýrsko",
+  "away": "Fotbal klub Křimice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ FC Pěnčín",
+  "away": "FK Turnov",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Strakonice 1908",
+  "away": "FC ZVVZ Milevsko",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Čechie Vykáň",
+  "away": "FK Čáslav",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Slovan Velvary",
+  "away": "FK Brandýs nad Labem",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Tempo Praha, o.s.",
+  "away": "FK Loko Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Sparta Kolín",
+  "away": "FK Horní Ředice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Spartak Příbram",
+  "away": "Povltavská fotbalová akademie",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:1 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Rapid Psáry",
+  "away": "FK Motorlet Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Spartak Rychnov nad Kněžnou",
+  "away": "FK Chlumec nad Cidlinou",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Štětí",
+  "away": "FK Varnsdorf",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Hvězda Cheb",
+  "away": "FK Baník Sokolov 1948",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia České Budějovice",
+  "away": "FK Slavoj Český Krumlov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 5,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Jiskra Heřmanův Měštec",
+  "away": "FC Hlinsko",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Kosmonosy",
+  "away": "FK Neratovice - Byškovice s.r.o.",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slaný",
+  "away": "SK Sokol Brozany",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "TJ Dvůr Králové nad Labem",
+  "away": "Spartak Police nad Metují",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "FC Slavia Karlovy Vary",
+  "away": "FC Chomutov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "2:0 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "SK Vysoké Mýto",
+  "away": "FK Letohrad",
+  "stage": "Předkolo",
+  "hg": 8,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "MFK Kravaře",
+  "away": "FK Bospor Bohumín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 6,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "Tatran Všechovice",
+  "away": "TJ Unie Hlubina ",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:2 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-24",
+  "home": "FC Strání",
+  "away": "FC Fastav Vsetín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Tatran Bohunice",
+  "away": "ČSK Uherský Brod",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "4:5 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "Fotbal club Vratimov",
+  "away": "MFK Havířov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Blansko",
+  "away": "FC PBS Velká Bíteš",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FC Sparta Brno",
+  "away": "SFK Vrchovina Nové Město na Moravě",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Břidličná",
+  "away": "FC Hlučín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Šternberk",
+  "away": "SK Jiskra Rýmařov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "5:3 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "FK Bzenec-Vracov",
+  "away": "MSK Břeclav",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Lanžhot",
+  "away": "FC Dosta Bystrc-Kniničky",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SFK ELKO Holešov",
+  "away": "FC TVD Slavičín",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Spartak Hluk",
+  "away": "FC Brumov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "SK Stonava",
+  "away": "FK SK Polanka nad Odrou",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "1:3 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-25",
+  "home": "TJ Sokol Horní Bečva",
+  "away": "TJ Valašské Meziříčí",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TATRAN Ždírec nad Doubravou",
+  "away": "FC Kuřim",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "3:4 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Fotbalová škola Třebíč",
+  "away": "TJ Sokol Tasovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bedřichov",
+  "away": "AFC Humpolec",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Krumvíř",
+  "away": "1.SC Znojmo FK",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FC Chotěboř",
+  "away": "FC Velké Meziříčí",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "FK Kozlovice",
+  "away": "FK Frýdek-Místek",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 0,
+  "end": "5:3 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "Fotbalový klub Bílovec",
+  "away": "MFK Vítkovice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Sulko Zábřeh",
+  "away": "SK Hranice",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "5:4 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ MILO Olomouc - FK Nové Sady",
+  "away": "FK Prumrent Šumperk",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Bystřice",
+  "away": "1. BFK Frýdlant nad Ostravicí",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "TJ Sokol Bělotín",
+  "away": "FK Nový Jičín",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-26",
+  "home": "SK Olympia Ráječko",
+  "away": "FC ŽĎAS Žďár nad Sázavou",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-29",
+  "home": "FSC Stará Říše",
+  "away": "FC Slovan Havlíčkův Brod",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 4,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-30",
+  "home": "TJ Hluboká nad Vltavou",
+  "away": "TJ Spartak Soběslav",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Slavoj Vyšehrad",
+  "away": "Sokol Hostouň",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "FC Rokycany",
+  "away": "SK Hořovice",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-07-31",
+  "home": "TJ Viktoria Vestec",
+  "away": "FK Benešov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 4,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Slavia Hradec Králové",
+  "away": "MFK Trutnov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "ABC Braník",
+  "away": "FK Meteor Praha VIII",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia Vejprnice",
+  "away": "SK Senco Doubravka",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:5 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Petřín Plzeň",
+  "away": "FK Komárov",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Jiskra Ústí nad Orlicí",
+  "away": "TJ Svitavy",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Přepeře",
+  "away": "TJ Velké Hamry",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Klášterec nad Ohří",
+  "away": "FK Ostrov",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Okula Nýrsko",
+  "away": "Fotbal klub Křimice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ FC Pěnčín",
+  "away": "FK Turnov",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Jiskra Heřmanův Měštec",
+  "away": "FC Hlinsko",
+  "stage": "Předkolo",
+  "hg": 3,
+  "ag": 0,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Sparta Kolín",
+  "away": "FK Horní Ředice",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Kosmonosy",
+  "away": "FK Neratovice - Byškovice s.r.o.",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 4,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Čechie Vykáň",
+  "away": "FK Čáslav",
+  "stage": "Předkolo",
+  "hg": 4,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Spartak Rychnov nad Kněžnou",
+  "away": "FK Chlumec nad Cidlinou",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Štětí",
+  "away": "FK Varnsdorf",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 6,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slaný",
+  "away": "SK Sokol Brozany",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "TJ Slovan Velvary",
+  "away": "FK Brandýs nad Labem",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FK Hvězda Cheb",
+  "away": "FK Baník Sokolov 1948",
+  "stage": "Předkolo",
+  "hg": 0,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Spartak Příbram",
+  "away": "Povltavská fotbalová akademie",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 2,
+  "end": "4:1 PEN",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Slavia České Budějovice",
+  "away": "FK Slavoj Český Krumlov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 5,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "FC Tempo Praha, o.s.",
+  "away": "FK Loko Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Rapid Psáry",
+  "away": "FK Motorlet Praha",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 3,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-01",
+  "home": "SK Strakonice 1908",
+  "away": "FC ZVVZ Milevsko",
+  "stage": "Předkolo",
+  "hg": 2,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "SK Vysoké Mýto",
+  "away": "FK Letohrad",
+  "stage": "Předkolo",
+  "hg": 8,
+  "ag": 1,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "TJ Dvůr Králové nad Labem",
+  "away": "Spartak Police nad Metují",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 2,
+  "end": "",
+  "season_label": "2023-24"
+ },
+ {
+  "date": "2026-08-02",
+  "home": "FC Slavia Karlovy Vary",
+  "away": "FC Chomutov",
+  "stage": "Předkolo",
+  "hg": 1,
+  "ag": 1,
+  "end": "2:0 PEN",
+  "season_label": "2023-24"
+ }
+]

@@ -1,0 +1,73 @@
+VALIDATION RUS-ADDENDUM-2026_BP-TEAM-PACK_v2 - external re-run, fetched-vs-pack comparison, return date 2026-08-04
+pack sha256: 30576ac4894930b359db19193f08f05cd3f399ecd7d97f9975184ac02386dcea
+PASS G01 - first line pack_id NOTE; last line END
+PASS G02 - MATCH rows 14 fields, TEAM rows 13 fields (RPL-pack convention), SOURCE 6, NOTE 4
+PASS G03 - ASCII-only pack lines (violations: [])
+PASS G04 - MATCH 18 (league 16 = R1 8 + R2 8; supercup 2 Final), TEAM 1, SOURCE 7, NOTE 13
+PASS G05 - ISO dates, non-decreasing order, competition/class grammar
+PASS G06 - Round-1 rows == rsssf-rus2027 print 8/8 (date, home, hg, ag, away)
+PASS G07 - Round-2 rows == premierliga-heritage official print 8/8
+PASS G08 - Super Cup rows == rsssf rus2025/rus2026 #sup prints 2/2 (grammar incl. source labels)
+PASS G09 - league table recomputed from 16 rows == wiki-rpl-2627 table through 2026-08-02, 16/16 club-for-club
+PASS G10 - goals 51 == wiki infobox 51 == table GF/GA sums; R1 attendance anchors sum 102,232 == RSSSF printed total (8/8 keyed)
+PASS G11 - no duplicate (date,home,away); window 2025-07-12..2026-08-02 <= return date 2026-08-04
+PASS G12 - all 16 club strings verbatim in pinned RPL pack (missing: [])
+PASS G13 - stadium strings subset of the pinned set (14 used; extras: [])
+PASS G14 - advancement NOTEs for both finals (2026 pens 4-2 detail; 2025 Diveyev 48, both attendances)
+PASS G15 - single TEAM row = Rodina Moscow top-flight registration, RPL tier
+PASS G16 - policy NOTE types present: rolling_append/source_adaptation/supercup_scope/advancement/venue_era/boundary (['pack_id', 'rolling_append', 'source_adaptation', 'estimate_variance', 'playoff_composition', 'supercup_scope', 'advancement', 'advancement', 'venue_era', 'identity', 'source_conflict', 'boundary', 'attendance'])
+GATES: 16/16 PASS
+
+PER-CLUB PIVOTS (owner decree: per-team full-campaign view of this drop)
+PIVOT Akhmat Grozny (2 games):
+  2026-07-26 Russian Premier League (Round 1): Lokomotiv Moscow 1-1 Akhmat Grozny @ RZD Arena, Moscow [rsssf-rus2027-1l]
+  2026-08-02 Russian Premier League (Round 2): Akhmat Grozny 1-2 Spartak Moscow @ Akhmat Arena, Grozny [premierliga-heritage-2627]
+PIVOT Akron Tolyatti (2 games):
+  2026-07-25 Russian Premier League (Round 1): Akron Tolyatti 0-5 Zenit St Petersburg @ Solidarnost Samara Arena, Samara [rsssf-rus2027-1l]
+  2026-08-01 Russian Premier League (Round 2): Akron Tolyatti 1-2 Rubin Kazan @ Solidarnost Samara Arena, Samara [premierliga-heritage-2627]
+PIVOT Baltika Kaliningrad (2 games):
+  2026-07-24 Russian Premier League (Round 1): CSKA Moscow 2-1 Baltika Kaliningrad @ VEB Arena, Moscow [rsssf-rus2027-1l]
+  2026-08-01 Russian Premier League (Round 2): Baltika Kaliningrad 2-1 Dynamo Moscow @ Rostech Arena, Kaliningrad [premierliga-heritage-2627]
+PIVOT CSKA Moscow (3 games):
+  2025-07-12 Russian Super Cup (Final): FC Krasnodar 0-1 CSKA Moscow @ Ak Bars Arena, Kazan [rsssf-rus2025-sup]
+  2026-07-24 Russian Premier League (Round 1): CSKA Moscow 2-1 Baltika Kaliningrad @ VEB Arena, Moscow [rsssf-rus2027-1l]
+  2026-08-01 Russian Premier League (Round 2): CSKA Moscow 1-1 Krylia Sovetov Samara @ VEB Arena, Moscow [premierliga-heritage-2627]
+PIVOT Dynamo Makhachkala (2 games):
+  2026-07-25 Russian Premier League (Round 1): Fakel Voronezh 1-2 Dynamo Makhachkala @ Fakel Stadium, Voronezh [rsssf-rus2027-1l]
+  2026-08-01 Russian Premier League (Round 2): Dynamo Makhachkala 2-1 Lokomotiv Moscow @ Anzhi Arena, Kaspiysk [premierliga-heritage-2627]
+PIVOT Dynamo Moscow (2 games):
+  2026-07-25 Russian Premier League (Round 1): Dynamo Moscow 0-0 Krylia Sovetov Samara @ VTB Arena, Moscow [rsssf-rus2027-1l]
+  2026-08-01 Russian Premier League (Round 2): Baltika Kaliningrad 2-1 Dynamo Moscow @ Rostech Arena, Kaliningrad [premierliga-heritage-2627]
+PIVOT FC Krasnodar (3 games):
+  2025-07-12 Russian Super Cup (Final): FC Krasnodar 0-1 CSKA Moscow @ Ak Bars Arena, Kazan [rsssf-rus2025-sup]
+  2026-07-26 Russian Premier League (Round 1): Rubin Kazan 1-3 FC Krasnodar @ Ak Bars Arena, Kazan [rsssf-rus2027-1l]
+  2026-08-02 Russian Premier League (Round 2): FC Krasnodar 3-2 Fakel Voronezh @ Ozon Arena, Krasnodar [premierliga-heritage-2627]
+PIVOT FC Orenburg (2 games):
+  2026-07-26 Russian Premier League (Round 1): FC Orenburg 2-1 FC Rostov @ Gazovik Stadium, Orenburg [rsssf-rus2027-1l]
+  2026-08-02 Russian Premier League (Round 2): FC Orenburg 0-3 Zenit St Petersburg @ Gazovik Stadium, Orenburg [premierliga-heritage-2627]
+PIVOT FC Rostov (2 games):
+  2026-07-26 Russian Premier League (Round 1): FC Orenburg 2-1 FC Rostov @ Gazovik Stadium, Orenburg [rsssf-rus2027-1l]
+  2026-07-31 Russian Premier League (Round 2): Rodina Moscow 2-4 FC Rostov @ Arena Khimki, Khimki [premierliga-heritage-2627]
+PIVOT Fakel Voronezh (2 games):
+  2026-07-25 Russian Premier League (Round 1): Fakel Voronezh 1-2 Dynamo Makhachkala @ Fakel Stadium, Voronezh [rsssf-rus2027-1l]
+  2026-08-02 Russian Premier League (Round 2): FC Krasnodar 3-2 Fakel Voronezh @ Ozon Arena, Krasnodar [premierliga-heritage-2627]
+PIVOT Krylia Sovetov Samara (2 games):
+  2026-07-25 Russian Premier League (Round 1): Dynamo Moscow 0-0 Krylia Sovetov Samara @ VTB Arena, Moscow [rsssf-rus2027-1l]
+  2026-08-01 Russian Premier League (Round 2): CSKA Moscow 1-1 Krylia Sovetov Samara @ VEB Arena, Moscow [premierliga-heritage-2627]
+PIVOT Lokomotiv Moscow (2 games):
+  2026-07-26 Russian Premier League (Round 1): Lokomotiv Moscow 1-1 Akhmat Grozny @ RZD Arena, Moscow [rsssf-rus2027-1l]
+  2026-08-01 Russian Premier League (Round 2): Dynamo Makhachkala 2-1 Lokomotiv Moscow @ Anzhi Arena, Kaspiysk [premierliga-heritage-2627]
+PIVOT Rodina Moscow (2 games):
+  2026-07-25 Russian Premier League (Round 1): Spartak Moscow 3-0 Rodina Moscow @ Lukoil Arena, Moscow [rsssf-rus2027-1l]
+  2026-07-31 Russian Premier League (Round 2): Rodina Moscow 2-4 FC Rostov @ Arena Khimki, Khimki [premierliga-heritage-2627]
+PIVOT Rubin Kazan (2 games):
+  2026-07-26 Russian Premier League (Round 1): Rubin Kazan 1-3 FC Krasnodar @ Ak Bars Arena, Kazan [rsssf-rus2027-1l]
+  2026-08-01 Russian Premier League (Round 2): Akron Tolyatti 1-2 Rubin Kazan @ Solidarnost Samara Arena, Samara [premierliga-heritage-2627]
+PIVOT Spartak Moscow (3 games):
+  2026-07-18 Russian Super Cup (Final): Zenit St Petersburg 1-1 Spartak Moscow @ Nizhny Novgorod Stadium, Nizhny Novgorod [rsssf-rus2026-sup]
+  2026-07-25 Russian Premier League (Round 1): Spartak Moscow 3-0 Rodina Moscow @ Lukoil Arena, Moscow [rsssf-rus2027-1l]
+  2026-08-02 Russian Premier League (Round 2): Akhmat Grozny 1-2 Spartak Moscow @ Akhmat Arena, Grozny [premierliga-heritage-2627]
+PIVOT Zenit St Petersburg (3 games):
+  2026-07-18 Russian Super Cup (Final): Zenit St Petersburg 1-1 Spartak Moscow @ Nizhny Novgorod Stadium, Nizhny Novgorod [rsssf-rus2026-sup]
+  2026-07-25 Russian Premier League (Round 1): Akron Tolyatti 0-5 Zenit St Petersburg @ Solidarnost Samara Arena, Samara [rsssf-rus2027-1l]
+  2026-08-02 Russian Premier League (Round 2): FC Orenburg 0-3 Zenit St Petersburg @ Gazovik Stadium, Orenburg [premierliga-heritage-2627]
