@@ -1,0 +1,310 @@
+{
+ "date": "2026-08-05",
+ "store": "previous_work_files/workspace-recent-019fd033-d0ce-7919-abd2-9978a1b06739/pitch-rating-full-5082-D1D2-2026-08-05.json",
+ "engine": "DC online, spec B3 constants, naive init",
+ "results": {
+  "Russian Premier League": {
+   "1": {
+    "n": 1,
+    "scored": 1,
+    "holdout": 1,
+    "brier": 0.4676,
+    "brier_base": 0.0,
+    "logloss": 0.8171,
+    "dir_acc": 100.0
+   },
+   "2": {
+    "n": 2,
+    "scored": 2,
+    "holdout": 2,
+    "brier": 0.2698,
+    "brier_base": 0.5,
+    "logloss": 0.5262,
+    "dir_acc": 100.0
+   },
+   "3": {
+    "n": 3,
+    "scored": 3,
+    "holdout": 3,
+    "brier": 0.2489,
+    "brier_base": 0.4444,
+    "logloss": 0.5024,
+    "dir_acc": 100.0
+   },
+   "5": {
+    "n": 5,
+    "scored": 5,
+    "holdout": 5,
+    "brier": 0.4144,
+    "brier_base": 0.48,
+    "logloss": 0.7387,
+    "dir_acc": 80.0
+   },
+   "8": {
+    "n": 7,
+    "scored": 7,
+    "holdout": 8,
+    "brier": 0.5071,
+    "brier_base": 0.5938,
+    "logloss": 0.858,
+    "dir_acc": 71.4
+   },
+   "10": {
+    "n": 9,
+    "scored": 9,
+    "holdout": 10,
+    "brier": 0.5101,
+    "brier_base": 0.58,
+    "logloss": 0.8658,
+    "dir_acc": 66.7
+   },
+   "15": {
+    "n": 13,
+    "scored": 13,
+    "holdout": 15,
+    "brier": 0.5801,
+    "brier_base": 0.6311,
+    "logloss": 0.9592,
+    "dir_acc": 53.8
+   },
+   "20": {
+    "n": 18,
+    "scored": 18,
+    "holdout": 20,
+    "brier": 0.582,
+    "brier_base": 0.655,
+    "logloss": 0.9617,
+    "dir_acc": 55.6
+   },
+   "25": {
+    "n": 23,
+    "scored": 23,
+    "holdout": 25,
+    "brier": 0.5625,
+    "brier_base": 0.6528,
+    "logloss": 0.9361,
+    "dir_acc": 56.5
+   },
+   "30": {
+    "n": 28,
+    "scored": 28,
+    "holdout": 30,
+    "brier": 0.5502,
+    "brier_base": 0.6378,
+    "logloss": 0.9201,
+    "dir_acc": 57.1
+   },
+   "FULL": {
+    "n": 254,
+    "scored": 254,
+    "holdout": 256,
+    "brier": 0.5675,
+    "brier_base": 0.6465,
+    "logloss": 0.9572,
+    "dir_acc": 55.9
+   }
+  },
+  "Czech First League": {
+   "1": {
+    "n": 1,
+    "scored": 1,
+    "holdout": 1,
+    "brier": 0.2826,
+    "brier_base": 0.0,
+    "logloss": 0.5673,
+    "dir_acc": 100.0
+   },
+   "2": {
+    "n": 2,
+    "scored": 2,
+    "holdout": 2,
+    "brier": 0.3001,
+    "brier_base": 0.0,
+    "logloss": 0.5916,
+    "dir_acc": 100.0
+   },
+   "3": {
+    "n": 3,
+    "scored": 3,
+    "holdout": 3,
+    "brier": 0.3892,
+    "brier_base": 0.0,
+    "logloss": 0.7122,
+    "dir_acc": 100.0
+   },
+   "5": {
+    "n": 5,
+    "scored": 5,
+    "holdout": 5,
+    "brier": 0.3785,
+    "brier_base": 0.0,
+    "logloss": 0.6976,
+    "dir_acc": 100.0
+   },
+   "8": {
+    "n": 8,
+    "scored": 8,
+    "holdout": 8,
+    "brier": 0.4498,
+    "brier_base": 0.375,
+    "logloss": 0.7972,
+    "dir_acc": 87.5
+   },
+   "10": {
+    "n": 10,
+    "scored": 10,
+    "holdout": 10,
+    "brier": 0.5015,
+    "brier_base": 0.42,
+    "logloss": 0.872,
+    "dir_acc": 80.0
+   },
+   "15": {
+    "n": 15,
+    "scored": 15,
+    "holdout": 15,
+    "brier": 0.4773,
+    "brier_base": 0.4444,
+    "logloss": 0.8349,
+    "dir_acc": 80.0
+   },
+   "20": {
+    "n": 20,
+    "scored": 20,
+    "holdout": 20,
+    "brier": 0.5459,
+    "brier_base": 0.515,
+    "logloss": 0.9339,
+    "dir_acc": 70.0
+   },
+   "25": {
+    "n": 25,
+    "scored": 25,
+    "holdout": 25,
+    "brier": 0.5982,
+    "brier_base": 0.5856,
+    "logloss": 1.0058,
+    "dir_acc": 60.0
+   },
+   "30": {
+    "n": 30,
+    "scored": 30,
+    "holdout": 30,
+    "brier": 0.6089,
+    "brier_base": 0.5978,
+    "logloss": 1.0208,
+    "dir_acc": 56.7
+   },
+   "FULL": {
+    "n": 276,
+    "scored": 276,
+    "holdout": 276,
+    "brier": 0.609,
+    "brier_base": 0.6509,
+    "logloss": 1.0146,
+    "dir_acc": 49.3
+   }
+  },
+  "England Premier League": {
+   "1": {
+    "n": 1,
+    "scored": 1,
+    "holdout": 1,
+    "brier": 0.6223,
+    "brier_base": 0.0,
+    "logloss": 1.0269,
+    "dir_acc": 0.0
+   },
+   "2": {
+    "n": 2,
+    "scored": 2,
+    "holdout": 2,
+    "brier": 0.6282,
+    "brier_base": 0.0,
+    "logloss": 1.0349,
+    "dir_acc": 0.0
+   },
+   "3": {
+    "n": 3,
+    "scored": 3,
+    "holdout": 3,
+    "brier": 0.6199,
+    "brier_base": 0.0,
+    "logloss": 1.0241,
+    "dir_acc": 33.3
+   },
+   "5": {
+    "n": 5,
+    "scored": 5,
+    "holdout": 5,
+    "brier": 0.5928,
+    "brier_base": 0.56,
+    "logloss": 0.9934,
+    "dir_acc": 40.0
+   },
+   "8": {
+    "n": 8,
+    "scored": 8,
+    "holdout": 8,
+    "brier": 0.7159,
+    "brier_base": 0.625,
+    "logloss": 1.1806,
+    "dir_acc": 25.0
+   },
+   "10": {
+    "n": 10,
+    "scored": 10,
+    "holdout": 10,
+    "brier": 0.7228,
+    "brier_base": 0.66,
+    "logloss": 1.1873,
+    "dir_acc": 20.0
+   },
+   "15": {
+    "n": 15,
+    "scored": 15,
+    "holdout": 15,
+    "brier": 0.6433,
+    "brier_base": 0.6311,
+    "logloss": 1.0693,
+    "dir_acc": 33.3
+   },
+   "20": {
+    "n": 20,
+    "scored": 20,
+    "holdout": 20,
+    "brier": 0.6518,
+    "brier_base": 0.62,
+    "logloss": 1.0796,
+    "dir_acc": 30.0
+   },
+   "25": {
+    "n": 25,
+    "scored": 25,
+    "holdout": 25,
+    "brier": 0.632,
+    "brier_base": 0.6368,
+    "logloss": 1.0535,
+    "dir_acc": 32.0
+   },
+   "30": {
+    "n": 30,
+    "scored": 30,
+    "holdout": 30,
+    "brier": 0.6435,
+    "brier_base": 0.64,
+    "logloss": 1.0679,
+    "dir_acc": 33.3
+   },
+   "FULL": {
+    "n": 374,
+    "scored": 374,
+    "holdout": 380,
+    "brier": 0.614,
+    "brier_base": 0.6534,
+    "logloss": 1.0226,
+    "dir_acc": 49.2
+   }
+  }
+ }
+}
