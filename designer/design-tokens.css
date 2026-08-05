@@ -1,0 +1,26 @@
+/* DESIGN SYSTEM — Zero-Market Prediction Engine v3.8 Design */
+:root {
+  /* Palette — deep navy / charcoal / emerald / gold */
+  --ink-950: #0a0f1a; --ink-900: #0e1526; --ink-800: #131b33;
+  --ink-700: #1a2545; --ink-600: #25325e; --charcoal: #2d384f;
+  --slate: #8a93ab; --silver: #b8bdd0; --mist: #dce0ec;
+  --surface: #f4f6fb; --paper: #ffffff;
+  --emerald: #10b981; --emerald-deep: #047857; --gold: #c8a84d;
+  --gold-soft: #e8d9a8; --coral: #f87171; --rose-deep: #be123c;
+
+  /* Typography */
+  --font-display: "Tiempos Headline", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", -apple-system, "SF Pro Display", system-ui, sans-serif;
+  --font-mono: "SF Mono", ui-monospace, monospace;
+
+  /* Spacing */
+  --space-xs: 6px; --space-sm: 10px; --space-md: 16px; --space-lg: 24px;
+  --space-xl: 40px; --space-2xl: 64px;
+
+  /* Layout */
+  --max-width: 840px; --radius: 16px; --shadow-card: 0 24px 60px rgba(10,15,26,0.10);
+}
+
+* { box-sizing: border-box; }
+body { background: var(--surface); color: var(--ink-950); font-family: var(--font-body); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
