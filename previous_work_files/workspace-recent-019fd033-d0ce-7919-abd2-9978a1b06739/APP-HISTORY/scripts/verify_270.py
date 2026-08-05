@@ -1,0 +1,8 @@
+bs = chr(92)
+h = open('app-v2.6-cross.html', encoding='utf-8').read()
+needle_ok  = '/' + '^' + bs + 'd{4}'          # /^\d{4}   (correct)
+needle_bad = '/' + '^' + bs*2 + 'd{4}'        # /^\\d{4} (wrong)
+print('html single-bs regex count:', h.count(needle_ok))
+print('html double-bs regex count:', h.count(needle_bad))
+print('phrase ok:', h.count('the venue of this fixture'))
+print('version refs 2.7.0:', h.count('v2.7.0-cross'), '| stale 2.6.9:', h.count('v2.6.9-cross'))
