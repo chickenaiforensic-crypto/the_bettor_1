@@ -76,7 +76,7 @@ RE_ANN = re.compile(r"\s+\[.*$")
 RE_TABROW = re.compile(
     r"^\s*(\d+)\.\s*(.+?)\s{2,}(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)-(\d+)\s+(\d+)\s*(.*)$")
 RE_LEG = re.compile(
-    r"^(First|Second) Leg(?:\s+\[(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{1,2})\])?\s*$")
+    r"^(First|Second) Legs?(?:\s+\[(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{1,2})\])?\s*$")
 
 
 def clean_tail(tail):
@@ -108,8 +108,17 @@ def main(path):
     po_zone = None      # None | 'retro' | 'l2promo' | 'l2rel'
     pending_po_date = None
     pending_leg = None
+    pending_city = None
+    wrap_pending = False
 
     def emit_po(leg, date_iso, line):
+        mawd = re.match(r"^\s*(.+?)\s+awd\s+(.+?)(?:\s{2,}\[(.*)\])?\s*$", line)
+        if mawd and " awd " in f" {line} ":
+            ex = (mawd.group(3) or "").strip()
+            flw = "SHIP-as-other" if leg.startswith("Retro") else "NOT-COMMISSIONED-L2-internal"
+            po.append(f"PO_PLAYOFF|{season}|{leg}|{date_iso}|{mawd.group(1).strip()}|awd||"
+                      f"{mawd.group(2).strip()}|{ex}|{flw}")
+            return
         m2 = RE_SCORE.match(line)
         if not m2:
             return
@@ -170,8 +179,12 @@ def main(path):
         if s.startswith("Final") and mode == "po" and not RE_TABROW.match(s):
             continue
         if s.startswith("Round") and mode == "po":
-            pending_po_date = None
-            pending_leg = None
+            mrd0 = re.match(r"^Round \d+ \[(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{1,2})\]\s*$", s)
+            if mrd0:
+                pending_po_date = iso(mrd0.group(1), mrd0.group(2))
+            else:
+                pending_po_date = None
+                pending_leg = None
             continue
         if s.startswith("Coppa Italia") or s.startswith("#### Coppa"):
             mode = "coppa"
@@ -210,9 +223,10 @@ def main(path):
                     tab2.append(f"TABLE2|{season}|{pos}|{name}|{p}|{w}|{d}|{l}|{gf}|{ga}|{pts}|{flags}")
             continue
         if mode == "po":
-            md = RE_DATE.match(s)
-            if md:
-                pending_po_date = iso(md.group(1), md.group(2))
+            mdc = re.match(r"^\[(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{1,2})(?:,\s*([^\]]+))?\]\s*$", s)
+            if mdc:
+                pending_po_date = iso(mdc.group(1), mdc.group(2))
+                pending_city = (mdc.group(3) or "").strip()
                 continue
             one = re.match(r"^(.+?)\s+\[(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{1,2})(?:,\s*([^\]]+))?\]\s*$", s)
             if one and po_zone == "retro":
@@ -230,23 +244,69 @@ def main(path):
             if pending_po_date:
                 eff = pending_leg if isinstance(pending_leg, str) else \
                     {"l2promo": "L2-P", "l2rel": "L2-R", "retro": "Retro-1"}.get(po_zone, "L2-?")
-                if eff.startswith("Retro") and "-" in eff:
+                if eff.startswith("Retro"):
+                    if po_zone == "retro" and eff == "Retro-1" and pending_city:
+                        eff = f"Retro-1({pending_city})"
+                        pending_city = None
                     emit_po(eff, pending_po_date, line)
                 else:
                     n = sum(1 for p in po if p.split("|")[2].startswith(eff))
                     emit_po(f"{eff}{n + 1}", pending_po_date, line)
             continue
         if mode == "rounds" and rnd:
+            if wrap_pending:
+                # RSSSF wraps long '[abandoned ...' annotations with a trailing backslash; the
+                # continuation line may carry a '[Mon DD]' date header (left column) and/or a
+                # real fixture ahead of the wrapped annotation tail (right column).
+                wrap_pending = False
+                cont = s
+                mdh = RE_DATE.match(cont)
+                if mdh:
+                    cur_date = iso(mdh.group(1), mdh.group(2))
+                    cont = ""
+                else:
+                    mdh2 = re.match(r"^\[(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{1,2})\]\s+(.*)$", cont)
+                    if mdh2:
+                        cur_date = iso(mdh2.group(1), mdh2.group(2))
+                        cont = mdh2.group(3).strip()
+                if cont:
+                    mf = re.match(r"^\s*(.+?) (\d+)-(\d+) (.+?)(?:\s{2,}(.+\]))?\s*$", cont)
+                    if mf:
+                        hh = mf.group(1).strip()
+                        aa = mf.group(4).strip()
+                        hs2, as2 = SHORT.get(hh), SHORT.get(aa)
+                        if hs2 is not None and as2 is not None:
+                            rows.append(f"R{rnd}|{cur_date}|{hs2}|{mf.group(2)}|{mf.group(3)}|{as2}")
+                        else:
+                            unknown.add(("CONT-H:" if hs2 is None else "CONT-A:") + cont)
+                        if mf.group(5):
+                            note_add = mf.group(5).strip()
+                            if note_add.endswith("]"):
+                                note_add = note_add[:-1].strip()
+                            abd[-1] += " " + note_add
+                    else:
+                        note_add = cont.strip()
+                        if note_add.endswith("]"):
+                            note_add = note_add[:-1].strip()
+                        abd[-1] += " " + note_add
+                continue
             md = RE_DATE.match(s)
             if md:
                 cur_date = iso(md.group(1), md.group(2))
                 continue
-            ma = RE_ABD.match(line)
-            if ma:
-                note = (ma.group(3) or "").strip()
-                abd.append(f"ABD|{season}|R{rnd}|{cur_date}|{ma.group(1).strip()}|"
-                           f"{ma.group(2).strip()}|{note}")
-                continue
+            if " abd " in f" {line} ":
+                ma = re.match(r"^\s*(.+?)\s+abd\s+(.+?)(?:\s{2,}\[(.*))?\s*$", line)
+                if ma:
+                    hn = ma.group(1).strip()
+                    an = ma.group(2).strip()
+                    note = (ma.group(3) or "").strip()
+                    if note.endswith("\\"):
+                        note = note[:-1].strip()
+                        wrap_pending = True
+                    if note.endswith("]"):
+                        note = note[:-1].strip()
+                    abd.append(f"ABD|{season}|R{rnd}|{cur_date}|{hn}|{an}|{note}")
+                    continue
             m2 = RE_SCORE.match(line)
             if m2:
                 h = m2.group(1).strip()

@@ -1,3 +1,24 @@
+# ITA Serie A 2021-22 - PRIMARY TRANSCRIPTION (WO-ITA-SPAN-14 on DECREE-2026-08-04)
+# Source: https://www.rsssf.org/tablesi/ital2022.html - "Italy 2021/22" (Roberto Di Maggio /
+# Karel Stokkermans, footer "Last updated: 10 Jun 2022"). Fetched 2026-08-05 (3 chunks = full
+# page); raw transcription data/raw/rsssf-ital2022-1sa.txt; parser tools/parse_rsssf_it.py.
+# Raw is VERIFIED this session: TABLE 20 (Milan 86 champions ... Venezia/Cagliari/Genoa
+# relegated), R 380 = 38 rounds x 10 clean histogram, ABD 0, PO 10, TABLE2 20; table
+# reproduced club-for-club EXACTLY from the 380 fixtures (tools gate), 1,089 = 1,089 goals.
+# ==== ANOMALIES (documented, 90-minute doctrine):
+#  (a) Covid-postponement makeups SHIP inside their banner rounds with their true dates:
+#      R19 '[Apr 20] Udinese 0-1 Salernitana' (Dec-22 abandoned batch) and R20 '[Apr 27]' batch
+#      (Fiorentina 0-4 Udinese, Atalanta 4-4 Torino, Bologna 2-1 Inter) + '[May 5]
+#      Salernitana 2-1 Venezia' - RSSSF prints them under
+#      their original round banners with makeup dates; dates are source-verbatim.
+#  (b) Serie B promotion/relegation playoff blocks = tier-internal context (L2-P1..P8:
+#      Round-1 Ascoli 0-1 Benevento, Brescia 3-2 Perugia [aet]; semis; final Monza over Pisa
+#      3-4 aet leg-2 = the aet print kept, L2-internal not under 90-minute pro/rel doctrine
+#      which governs only top-flight-touching legs; L2-R1/R2 Vicenza-Cosenza). NOT shipped.
+#  (c) Page prints the final table twice (once near the Coppa block); the duplicate is
+#      elided in the raw with a note; TABLE constants below are the single kept print.
+# Boundary (gate EXP 21-22->22-23): out Cagliari, Genoa, Venezia; in Monza (playoff), Lecce,
+# Cremonese.
 TABLE|2021-22|1|Milan|38|26|8|4|69|31|86|Champions
 TABLE|2021-22|2|Inter|38|25|9|4|84|32|84|[C]
 TABLE|2021-22|3|Napoli|38|24|7|7|74|31|79|
@@ -433,3 +454,4 @@ TABLE2|2021-22|17|LR Vicenza Virtus|38|9|7|22|38|59|34|Relegation Playoff
 TABLE2|2021-22|18|US Alessandria|38|8|10|20|37|59|34|[P] Relegated
 TABLE2|2021-22|19|FC Crotone|38|4|14|20|41|61|26|[R] Relegated
 TABLE2|2021-22|20|Pordenone Calcio|38|3|9|26|29|71|18|Relegated
+
