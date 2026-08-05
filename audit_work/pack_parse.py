@@ -30,8 +30,8 @@ def parse_pack(path):
                 "stadium": parts[9] if len(parts) > 9 else "",
                 "city": parts[10] if len(parts) > 10 else "",
                 "country": parts[11] if len(parts) > 11 else "",
-                "sourceId": parts[12] if len(parts) > 12 else "",
-                "tieId": parts[13] if len(parts) > 13 else None,
+                "tieId": parts[12] if len(parts) > 12 else None,
+                "sourceId": parts[13] if len(parts) > 13 else "",
             }
             out["matches"].append(m)
         elif kind == "TEAM":

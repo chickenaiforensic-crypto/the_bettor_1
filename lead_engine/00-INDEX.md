@@ -16,21 +16,23 @@
 | 05 | `05-DATA-VERIFICATION-PLAN.md` | Plan to verify data for leagues etc is not false — independent re-parse, no trust in old auditor | QUEUED |
 | 06 | `06-ARCHITECTURE-BACKLOG.md` | Human-friendly presentation + functionality fix list (after structural engine locked) | BACKLOG — S7 |
 
+| 23 | `23-ITA-GER-FRA-FULL-VERIFICATION-2026-08-05.md` | Full auditor gates pass for new domestic leagues | PASS |
+| 24 | `24-LADDER-BASELINE-EXPANDED-2026-08-05.md` | Production baseline artifact with 6 core leagues | LOCKED |
+| 25 | `25-M10-OUTCOMES-ONLY-INTEGRITY-SCREEN-SPEC.md` | P1-compliant data integrity screen design | DRAFT |
+
 ## Dependencies (Authority)
 
 - SOT v1.3 `Supervior/Build Docs/BLUEPRINT-SOT-2026-08-04.md` — ledger M1-M20, amendments A-01..A-08, pins §14
 - Masterplan v1.1 `ENGINE-MASTERPLAN-2026-08-05.md` — weighting table §2, computation contract §3, approval by test run §5, cross-league fit loop §6, build order S0-S7 §8
 - Functionality v1.0 `FUNCTIONALITY-2026-08-05.md` — current app v3.6.3 screen map, L#### refs
 - Verification v1.0 `VERIFICATION-DATA-2026-08-05.md` — 5000-row independent re-audit, D-1/D-2 defects
-- Harness `audit_work/backtest_harness.py` — first live run done (RPL -12.2%, CZ1 -6.4%, EPL -6.0%)
+- Harness `audit_work/score_audit_full.py` — Average gain +8.70% across 6 leagues (ITA +9.0%, GER +11.7%, FRA +6.9%)
 
 ## Current Verified Store
 
 - Original: `Supervior/other/pitch-rating-full.json` — 5000 rows, sha256 `c7b29e85…8fc00` (SOT pin)
-- D1 fixed: `Supervior/other/pitch-rating-full-D1-corrected-2026-08-05.json` — 5000 rows, 11 CZ1 dates fixed, sha256 `abd0c207…`
-- D1+D2 closed: `previous_work_files/workspace-recent-.../pitch-rating-full-5082-D1D2-2026-08-05.json` — 5082 rows (ENG 1900, CZE 1603, RUS 1579), sha256 `c9ad6a54…`
-
-Operational = 5082. Future connector = UEFA ~2000-2500 rows (workorder 17).
+- D1+D2 closed: `previous_work_files/workspace-recent-.../pitch-rating-full-5082-D1D2-2026-08-05.json` — 5082 rows, sha256 `c9ad6a54…`
+- Expanded Store: `audit_work/pitch-rating-full-10199-new-leagues-2026-08-05.json` — 11,599 matches (includes verified ITA, GER, FRA and fixed UEFA)
 
 ## Process — Trust Nothing
 
