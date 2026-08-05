@@ -1,0 +1,1553 @@
+BP-TEAM-PACK v2
+NOTE|info|research_ack|ACKNOWLEDGED — today is Wednesday, August 5, 2026; I will verify facts against current sources, use plain URLs, mark unverifiable items with NOTE blocker instead of guessing, and return one parseable BP-TEAM-PACK v2 block.
+NOTE|info|catalog|Verbatim declared once: `UEFA Champions League` · `UEFA Europa League` · `UEFA Conference League`
+NOTE|info|last_round_date|Last played match: Sparta Prague 2-1 Lyon on 2026-08-04, Champions League 3rd Qualifying Round 1st leg.
+NOTE|info|spot_audit|Spot-audit trail of European matchweeks:
+NOTE|info|spot_audit_week1|2021-22 Matchweek 1: https://github.com/openfootball/champions-league/blob/master/2021-22/cl.txt
+NOTE|info|spot_audit_week2|2022-23 Matchweek 1: https://github.com/openfootball/champions-league/blob/master/2022-23/cl.txt
+NOTE|info|spot_audit_week3|2023-24 Matchweek 1: https://github.com/openfootball/champions-league/blob/master/2023-24/cl.txt
+NOTE|info|spot_audit_week4|2024-25 Matchweek 1: https://github.com/openfootball/champions-league/blob/master/2024-25/cl.txt
+NOTE|info|spot_audit_week5|2025-26 Matchweek 1: https://github.com/openfootball/champions-league/blob/master/2025-26/cl.txt
+SOURCE|openfootball|https://github.com/openfootball/champions-league|2026-08-05|primary-archive|All UCL/UEL/UECL match dates, scores, rounds and venues 2021-26
+SOURCE|pitch-rating-ref|pitch-rating-full-data-2026-08-02.json|2026-08-05|metadata|Roster names, aliases, stadiums, cities and countries of clubs
+TEAM|AEK Athen|Greece|||AEK Athen|||Greece||||
+TEAM|AEK Larnaca|Cyprus|||AEK Larnaca|||Cyprus||||
+TEAM|AFC Ajax|Netherlands|||AFC Ajax|||Netherlands||||
+TEAM|APOEL Nikosia|Cyprus|||APOEL Nikosia|||Cyprus||||
+TEAM|Aberdeen|Scotland|||Aberdeen|||Scotland||||
+TEAM|Aris Limassol|Cyprus|||Aris Limassol|||Cyprus||||
+TEAM|Austria Wien|Austria|||Austria Wien|||Austria||||
+TEAM|BK Häcken|Sweden|||BK Häcken|||Sweden||||
+TEAM|BSC Young Boys|Switzerland|||BSC Young Boys|||Switzerland||||
+TEAM|Benfica|Portugal|||Benfica|||Portugal||||
+TEAM|Braga|Portugal|||Braga|||Portugal||||
+TEAM|CFR Cluj|Romania|||CFR Cluj|||Romania||||
+TEAM|CS Petrocub|Moldova|||CS Petrocub|||Moldova||||
+TEAM|CSKA Sofia|Bulgaria|||CSKA Sofia|||Bulgaria||||
+TEAM|Celtic|Scotland|||Celtic|||Scotland||||
+TEAM|Crvena Zvezda|Serbia|||Crvena Zvezda|||Serbia||||
+TEAM|Dinamo Kiev|Ukraine|||Dinamo Kiev|||Ukraine||||
+TEAM|Dinamo Zagreb|Croatia|||Dinamo Zagreb|||Croatia||||
+TEAM|FC Ararat-Armenia|Armenia|||FC Ararat-Armenia|||Armenia||||
+TEAM|FC Basel 1893|Switzerland|||FC Basel 1893|||Switzerland||||
+TEAM|FC Lugano|Switzerland|||FC Lugano|||Switzerland||||
+TEAM|FC Noah|Armenia|||FC Noah|||Armenia||||
+TEAM|FC Red Bull Salzburg|Austria|||FC Red Bull Salzburg|||Austria||||
+TEAM|FC Sheriff|Moldova|||FC Sheriff|||Moldova||||
+TEAM|FC St. Gallen|Switzerland|||FC St. Gallen|||Switzerland||||
+TEAM|FC Urartu|Armenia|||FC Urartu|||Armenia||||
+TEAM|FC Zürich|Switzerland|||FC Zürich|||Switzerland||||
+TEAM|FCSB|Romania|||FCSB|||Romania||||
+TEAM|FK Aktobe|Kazakhstan|||FK Aktobe|||Kazakhstan||||
+TEAM|FK Astana|Kazakhstan|||FK Astana|||Kazakhstan||||
+TEAM|FK Bodø/Glimt|Norway|||FK Bodø/Glimt|||Norway||||
+TEAM|FK Crvena Zvezda|Serbia|||FK Crvena Zvezda|||Serbia||||
+TEAM|FK Kairat|Kazakhstan|||FK Kairat|||Kazakhstan||||
+TEAM|FK RFS|Latvia|||FK RFS|||Latvia||||
+TEAM|FK Shakhtar Donetsk|Ukraine|||FK Shakhtar Donetsk|||Ukraine||||
+TEAM|FK TransINVEST|Lithuania|||FK TransINVEST|||Lithuania||||
+TEAM|FK Čukarički|Serbia|||FK Čukarički|||Serbia||||
+TEAM|Ferencvárosi TC|Hungary|||Ferencvárosi TC|||Hungary||||
+TEAM|Feyenoord Rotterdam|Netherlands|||Feyenoord Rotterdam|||Netherlands||||
+TEAM|Fredrikstad FK|Norway|||Fredrikstad FK|||Norway||||
+TEAM|GNK Dinamo Zagreb|Croatia|||GNK Dinamo Zagreb|||Croatia||||
+TEAM|HJK Helsinki|Finland|||HJK Helsinki|||Finland||||
+TEAM|Hapoel Be'er Sheva|Israel|||Hapoel Be'er Sheva|||Israel||||
+TEAM|Heart of Midlothian|Scotland|||Heart of Midlothian|||Scotland||||
+TEAM|IF Elfsborg|Sweden|||IF Elfsborg|||Sweden||||
+TEAM|Jagiellonia Białystok|Poland|||Jagiellonia Białystok|||Poland||||
+TEAM|KRC Genk|Belgium|||KRC Genk|||Belgium||||
+TEAM|Kryvbas Kryvyi Rih|Ukraine|||Kryvbas Kryvyi Rih|||Ukraine||||
+TEAM|KÍ Klaksvík|Faroe Islands|||KÍ Klaksvík|||Faroe Islands||||
+TEAM|LASK|Austria|||LASK|||Austria||||
+TEAM|Lech Poznań|Poland|||Lech Poznań|||Poland||||
+TEAM|Maccabi Haifa|Israel|||Maccabi Haifa|||Israel||||
+TEAM|Maccabi Tel Aviv|Israel|||Maccabi Tel Aviv|||Israel||||
+TEAM|Malmö FF|Sweden|||Malmö FF|||Sweden||||
+TEAM|Molde FK|Norway|||Molde FK|||Norway||||
+TEAM|Neman Grodno|Belarus|||Neman Grodno|||Belarus||||
+TEAM|NŠ Mura|Slovenia|||NŠ Mura|||Slovenia||||
+TEAM|Olimpija Ljubljana|Slovenia|||Olimpija Ljubljana|||Slovenia||||
+TEAM|Olympiakos Piraeus|Greece|||Olympiakos Piraeus|||Greece||||
+TEAM|Omonia Nikosia|Cyprus|||Omonia Nikosia|||Cyprus||||
+TEAM|PAE Olympiakos SFP|Greece|||PAE Olympiakos SFP|||Greece||||
+TEAM|PAOK Saloniki|Greece|||PAOK Saloniki|||Greece||||
+TEAM|PFC Ludogorets Razgrad|Bulgaria|||PFC Ludogorets Razgrad|||Bulgaria||||
+TEAM|PSV|Netherlands|||PSV|||Netherlands||||
+TEAM|Paksi SE|Hungary|||Paksi SE|||Hungary||||
+TEAM|Paphos FC|Cyprus|||Paphos FC|||Cyprus||||
+TEAM|Partizan|Serbia|||Partizan;FK Partizan;Partizan Belgrade|||Serbia||||
+TEAM|Polissya Zhytomyr|Ukraine|||Polissya Zhytomyr|||Ukraine||||
+TEAM|Porto|Portugal|||Porto|||Portugal||||
+TEAM|Puskás FC|Hungary|||Puskás FC|||Hungary||||
+TEAM|Qarabağ Ağdam FK|Azerbaijan|||Qarabağ Ağdam FK|||Azerbaijan||||
+TEAM|Qarabağ FK|Azerbaijan|||Qarabağ FK|||Azerbaijan||||
+TEAM|RB Salzburg|Austria|||RB Salzburg|||Austria||||
+TEAM|RSC Anderlecht|Belgium|||RSC Anderlecht|||Belgium||||
+TEAM|Raków Częstochowa|Poland|||Raków Częstochowa|||Poland||||
+TEAM|Randers FC|Denmark|||Randers FC|||Denmark||||
+TEAM|Rangers|Scotland|||Rangers|||Scotland||||
+TEAM|Rapid Wien|Austria|||Rapid Wien|||Austria||||
+TEAM|Riga FC|Latvia|||Riga FC|||Latvia||||
+TEAM|Rosenborg BK|Norway|||Rosenborg BK|||Norway||||
+TEAM|Royal Antwerp FC|Belgium|||Royal Antwerp FC|||Belgium||||
+TEAM|Royale Union Saint-Gilloise|Belgium|||Royale Union Saint-Gilloise|||Belgium||||
+TEAM|SK Sturm Graz|Austria|||SK Sturm Graz|||Austria||||
+TEAM|Servette FC|Switzerland|||Servette FC|||Switzerland||||
+TEAM|Shakhtar Donetsk|Ukraine|||Shakhtar Donetsk|||Ukraine||||
+TEAM|Silkeborg IF|Denmark|||Silkeborg IF|||Denmark||||
+TEAM|Slovan Bratislava|Slovakia|||Slovan Bratislava|||Slovakia||||
+TEAM|Sporting CP|Portugal|||Sporting CP|||Portugal||||
+TEAM|Sturm Graz|Austria|||Sturm Graz|||Austria||||
+TEAM|TSC Bačka Topola|Serbia|||TSC Bačka Topola|||Serbia||||
+TEAM|The New Saints|Wales|||The New Saints|||Wales||||
+TEAM|Tromso|Norway|||Tromso|||Norway||||
+TEAM|Union Saint-Gilloise|Belgium|||Union Saint-Gilloise|||Belgium||||
+TEAM|Varazdin|Croatia|||Varazdin|||Croatia||||
+TEAM|Vitória Guimarães|Portugal|||Vitória Guimarães|||Portugal||||
+TEAM|Zorya Lugansk|Ukraine|||Zorya Lugansk|||Ukraine||||
+TEAM|Zrinjski Mostar|Bosnia and Herzegovina|||Zrinjski Mostar|||Bosnia and Herzegovina||||
+TEAM|İstanbul Başakşehir|Turkey|||İstanbul Başakşehir|||Turkey||||
+TEAM|ŠK Slovan Bratislava|Slovakia|||ŠK Slovan Bratislava|||Slovakia||||
+MATCH|2021-07-22|UEFA Champions League|uefa-cl|Viktoria Plzen|0|1|Servette FC|2. Round leg1|||Czech Republic|UCL-2526-2. Round-SER-VIK|openfootball
+MATCH|2021-07-23|UEFA Champions League|uefa-cl|Shamrock Rovers|0|2|Sparta Prague|Q2 leg1|||Republic of Ireland|UCL-2425-Q2-SHA-SPA|openfootball
+MATCH|2021-07-24|UEFA Conference League|uefa-uecl|FK Aktobe|2|1|Sparta Prague|2. Round leg1|||Kazakhstan|UECL-2526-2. Round-FKA-SPA|openfootball
+MATCH|2021-07-24|UEFA Europa League|uefa-el|Banik Ostrava|2|2|Legia Warsaw|2. Round leg1|||Czech Republic|UEL-2526-2. Round-BAN-LEG|openfootball
+MATCH|2021-07-25|UEFA Conference League|uefa-uecl|Mlada Boleslav|2|0|FK TransINVEST|Q2 leg1|||Czech Republic|UECL-2425-Q2-FKT-MLA|openfootball
+MATCH|2021-07-25|UEFA Conference League|uefa-uecl|Banik Ostrava|5|1|FC Urartu|Q2 leg1|||Czech Republic|UECL-2425-Q2-BAN-FCU|openfootball
+MATCH|2021-07-30|UEFA Champions League|uefa-cl|Sparta Prague|4|2|Shamrock Rovers|Q2 leg2|||Czech Republic|UCL-2425-Q2-SHA-SPA|openfootball
+MATCH|2021-07-30|UEFA Champions League|uefa-cl|Servette FC|1|3|Viktoria Plzen|2. Round leg2|||Switzerland|UCL-2526-2. Round-SER-VIK|openfootball
+MATCH|2021-07-31|UEFA Conference League|uefa-uecl|Sparta Prague|4|0|FK Aktobe|2. Round leg2|||Czech Republic|UECL-2526-2. Round-FKA-SPA|openfootball
+MATCH|2021-07-31|UEFA Europa League|uefa-el|Legia Warsaw|2|1|Banik Ostrava|2. Round leg2|||Poland|UEL-2526-2. Round-BAN-LEG|openfootball
+MATCH|2021-08-01|UEFA Conference League|uefa-uecl|FK TransINVEST|0|1|Mlada Boleslav|Q2 leg2|||Lithuania|UECL-2425-Q2-FKT-MLA|openfootball
+MATCH|2021-08-01|UEFA Conference League|uefa-uecl|FC Urartu|0|2|Banik Ostrava|Q2 leg2|||Armenia|UECL-2425-Q2-BAN-FCU|openfootball
+MATCH|2021-08-05|UEFA Champions League|uefa-cl|Rangers|3|0|Viktoria Plzen|3. Round leg1|||Scotland|UCL-2526-3. Round-RAN-VIK|openfootball
+MATCH|2021-08-06|UEFA Champions League|uefa-cl|Sparta Prague|1|1|FCSB|Q3 leg1|||Czech Republic|UCL-2425-Q3-FCS-SPA|openfootball
+MATCH|2021-08-06|UEFA Champions League|uefa-cl|Lille|2|1|Fenerbahce|Q3 leg1|||France|UCL-2425-Q3-FEN-LIL|openfootball
+MATCH|2021-08-06|UEFA Champions League|uefa-cl|Nice|0|2|Benfica|3. Round leg1|||France|UCL-2526-3. Round-BEN-NIC|openfootball
+MATCH|2021-08-07|UEFA Champions League|uefa-cl|Slavia Prague|3|1|Union Saint-Gilloise|Q3 leg1|||Czech Republic|UCL-2425-Q3-SLA-UNI|openfootball
+MATCH|2021-08-07|UEFA Conference League|uefa-uecl|Copenhagen|1|0|Banik Ostrava|Q3 leg1|||Denmark|UECL-2425-Q3-BAN-COP|openfootball
+MATCH|2021-08-07|UEFA Conference League|uefa-uecl|Banik Ostrava|4|3|Austria Wien|3. Round leg1|||Czech Republic|UECL-2526-3. Round-AUS-BAN|openfootball
+MATCH|2021-08-07|UEFA Conference League|uefa-uecl|Sparta Prague|4|1|FC Ararat-Armenia|3. Round leg1|||Czech Republic|UECL-2526-3. Round-FCA-SPA|openfootball
+MATCH|2021-08-08|UEFA Conference League|uefa-uecl|Mlada Boleslav|1|1|Hapoel Be'er Sheva|Q3 leg1|||Czech Republic|UECL-2425-Q3-HAP-MLA|openfootball
+MATCH|2021-08-08|UEFA Europa League|uefa-el|Kryvbas Kryvyi Rih|1|2|Viktoria Plzen|Q3 leg1|||Ukraine|UEL-2425-Q3-KRY-VIK|openfootball
+MATCH|2021-08-12|UEFA Champions League|uefa-cl|Viktoria Plzen|2|1|Rangers|3. Round leg2|||Czech Republic|UCL-2526-3. Round-RAN-VIK|openfootball
+MATCH|2021-08-12|UEFA Champions League|uefa-cl|Benfica|2|0|Nice|3. Round leg2|||Portugal|UCL-2526-3. Round-BEN-NIC|openfootball
+MATCH|2021-08-13|UEFA Champions League|uefa-cl|FCSB|2|3|Sparta Prague|Q3 leg2|||Romania|UCL-2425-Q3-FCS-SPA|openfootball
+MATCH|2021-08-13|UEFA Champions League|uefa-cl|Fenerbahce|1|0|Lille|Q3 leg2|||Turkey|UCL-2425-Q3-FEN-LIL|openfootball
+NOTE|info|advancement|UCL-2425-Q3-FEN-LIL|Decided after extra time (90' score: 1-0; after ET: 1-1)
+MATCH|2021-08-13|UEFA Champions League|uefa-cl|Union Saint-Gilloise|0|1|Slavia Prague|Q3 leg2|||Belgium|UCL-2425-Q3-SLA-UNI|openfootball
+MATCH|2021-08-14|UEFA Conference League|uefa-uecl|Austria Wien|1|1|Banik Ostrava|3. Round leg2|||Austria|UECL-2526-3. Round-AUS-BAN|openfootball
+MATCH|2021-08-14|UEFA Conference League|uefa-uecl|FC Ararat-Armenia|1|2|Sparta Prague|3. Round leg2|||Armenia|UECL-2526-3. Round-FCA-SPA|openfootball
+MATCH|2021-08-15|UEFA Conference League|uefa-uecl|Banik Ostrava|1|0|Copenhagen|Q3 leg2|||Czech Republic|UECL-2425-Q3-BAN-COP|openfootball
+NOTE|info|advancement|UECL-2425-Q3-BAN-COP|Decided on penalties (90' score: 1-0; shootout: 1-2)
+MATCH|2021-08-15|UEFA Conference League|uefa-uecl|Hapoel Be'er Sheva|2|4|Mlada Boleslav|Q3 leg2|||Israel|UECL-2425-Q3-HAP-MLA|openfootball
+MATCH|2021-08-15|UEFA Europa League|uefa-el|Viktoria Plzen|1|0|Kryvbas Kryvyi Rih|Q3 leg2|||Czech Republic|UEL-2425-Q3-KRY-VIK|openfootball
+MATCH|2021-08-20|UEFA Champions League|uefa-cl|Lille|2|0|Slavia Prague|PO leg1|||France|UCL-2425-PO-LIL-SLA|openfootball
+MATCH|2021-08-21|UEFA Champions League|uefa-cl|Malmö FF|0|2|Sparta Prague|PO leg1|||Sweden|UCL-2425-PO-MAL-SPA|openfootball
+MATCH|2021-08-21|UEFA Conference League|uefa-uecl|Rosenborg BK|2|1|Mainz|Play-offs leg1|||Norway|UECL-2526-Play-offs-MAI-ROS|openfootball
+MATCH|2021-08-21|UEFA Conference League|uefa-uecl|Strasbourg|0|0|Brondby|Play-offs leg1|||France|UECL-2526-Play-offs-BRO-STR|openfootball
+MATCH|2021-08-21|UEFA Conference League|uefa-uecl|Celje|1|0|Banik Ostrava|Play-offs leg1|||Slovenia|UECL-2526-Play-offs-BAN-CEL|openfootball
+MATCH|2021-08-21|UEFA Conference League|uefa-uecl|Polissya Zhytomyr|0|3|Fiorentina|Play-offs leg1|||Ukraine|UECL-2526-Play-offs-FIO-POL|openfootball
+MATCH|2021-08-21|UEFA Conference League|uefa-uecl|Neman Grodno|0|1|Vallecano|Play-offs leg1|||Belarus|UECL-2526-Play-offs-NEM-VAL|openfootball
+MATCH|2021-08-21|UEFA Conference League|uefa-uecl|Sparta Prague|2|0|Riga FC|Play-offs leg1|||Czech Republic|UECL-2526-Play-offs-RIG-SPA|openfootball
+MATCH|2021-08-21|UEFA Conference League|uefa-uecl|Crystal Palace|1|0|Fredrikstad FK|Play-offs leg1|||England|UECL-2526-Play-offs-CRY-FRE|openfootball
+MATCH|2021-08-21|UEFA Europa League|uefa-el|Malmö FF|3|0|Sigma Olomouc|Play-offs leg1|||Sweden|UEL-2526-Play-offs-MAL-SIG|openfootball
+MATCH|2021-08-22|UEFA Conference League|uefa-uecl|Mlada Boleslav|2|2|Paksi SE|PO leg1|||Czech Republic|UECL-2425-PO-MLA-PAK|openfootball
+MATCH|2021-08-22|UEFA Conference League|uefa-uecl|BK Häcken|1|2|Heidenheim|PO leg1|||Sweden|UECL-2425-PO-BKH-HEI|openfootball
+MATCH|2021-08-22|UEFA Conference League|uefa-uecl|Fiorentina|3|3|Puskás FC|PO leg1|||Italy|UECL-2425-PO-FIO-PUS|openfootball
+MATCH|2021-08-22|UEFA Conference League|uefa-uecl|Kryvbas Kryvyi Rih|0|2|Betis|PO leg1|||Ukraine|UECL-2425-PO-BET-KRY|openfootball
+MATCH|2021-08-22|UEFA Conference League|uefa-uecl|Lens|2|1|Panathinaikos|PO leg1|||France|UECL-2425-PO-LEN-PAN|openfootball
+MATCH|2021-08-22|UEFA Conference League|uefa-uecl|Chelsea|2|0|Servette FC|PO leg1|||England|UECL-2425-PO-CHE-SER|openfootball
+MATCH|2021-08-22|UEFA Europa League|uefa-el|Viktoria Plzen|1|0|Heart of Midlothian|PO leg1|||Czech Republic|UEL-2425-PO-HEA-VIK|openfootball
+MATCH|2021-08-27|UEFA Champions League|uefa-cl|Sparta Prague|2|0|Malmö FF|PO leg2|||Czech Republic|UCL-2425-PO-MAL-SPA|openfootball
+MATCH|2021-08-27|UEFA Conference League|uefa-uecl|Riga FC|1|0|Sparta Prague|Play-offs leg2|||Latvia|UECL-2526-Play-offs-RIG-SPA|openfootball
+MATCH|2021-08-28|UEFA Champions League|uefa-cl|Slavia Prague|2|1|Lille|PO leg2|||Czech Republic|UCL-2425-PO-LIL-SLA|openfootball
+MATCH|2021-08-28|UEFA Conference League|uefa-uecl|Mainz|4|1|Rosenborg BK|Play-offs leg2|||Germany|UECL-2526-Play-offs-MAI-ROS|openfootball
+MATCH|2021-08-28|UEFA Conference League|uefa-uecl|Brondby|2|3|Strasbourg|Play-offs leg2|||Denmark|UECL-2526-Play-offs-BRO-STR|openfootball
+MATCH|2021-08-28|UEFA Conference League|uefa-uecl|Banik Ostrava|0|2|Celje|Play-offs leg2|||Czech Republic|UECL-2526-Play-offs-BAN-CEL|openfootball
+MATCH|2021-08-28|UEFA Conference League|uefa-uecl|Fiorentina|3|2|Polissya Zhytomyr|Play-offs leg2|||Italy|UECL-2526-Play-offs-FIO-POL|openfootball
+MATCH|2021-08-28|UEFA Conference League|uefa-uecl|Vallecano|4|0|Neman Grodno|Play-offs leg2|||Spain|UECL-2526-Play-offs-NEM-VAL|openfootball
+MATCH|2021-08-28|UEFA Conference League|uefa-uecl|Fredrikstad FK|0|0|Crystal Palace|Play-offs leg2|||Norway|UECL-2526-Play-offs-CRY-FRE|openfootball
+MATCH|2021-08-28|UEFA Europa League|uefa-el|Sigma Olomouc|0|2|Malmö FF|Play-offs leg2|||Czech Republic|UEL-2526-Play-offs-MAL-SIG|openfootball
+MATCH|2021-08-29|UEFA Conference League|uefa-uecl|Paksi SE|0|3|Mlada Boleslav|PO leg2|||Hungary|UECL-2425-PO-MLA-PAK|openfootball
+MATCH|2021-08-29|UEFA Conference League|uefa-uecl|Heidenheim|3|2|BK Häcken|PO leg2|||Germany|UECL-2425-PO-BKH-HEI|openfootball
+MATCH|2021-08-29|UEFA Conference League|uefa-uecl|Puskás FC|1|1|Fiorentina|PO leg2|||Hungary|UECL-2425-PO-FIO-PUS|openfootball
+NOTE|info|advancement|UECL-2425-PO-FIO-PUS|Decided on penalties (90' score: 1-1; shootout: 4-5)
+MATCH|2021-08-29|UEFA Conference League|uefa-uecl|Betis|3|0|Kryvbas Kryvyi Rih|PO leg2|||Spain|UECL-2425-PO-BET-KRY|openfootball
+MATCH|2021-08-29|UEFA Conference League|uefa-uecl|Panathinaikos|2|0|Lens|PO leg2|||Greece|UECL-2425-PO-LEN-PAN|openfootball
+MATCH|2021-08-29|UEFA Conference League|uefa-uecl|Servette FC|2|1|Chelsea|PO leg2|||Switzerland|UECL-2425-PO-CHE-SER|openfootball
+MATCH|2021-08-29|UEFA Europa League|uefa-el|Heart of Midlothian|0|1|Viktoria Plzen|PO leg2|||Scotland|UEL-2425-PO-HEA-VIK|openfootball
+MATCH|2021-09-06|UEFA Champions League|uefa-cl|Dinamo Zagreb|1|0|Chelsea|Group stage leg1|||Croatia|UCL-2223-Group stage-CHE-DIN|openfootball
+MATCH|2021-09-06|UEFA Champions League|uefa-cl|RB Salzburg|1|1|Milan|Group stage leg1|||Austria|UCL-2223-Group stage-MIL-RBS|openfootball
+MATCH|2021-09-06|UEFA Champions League|uefa-cl|Celtic|0|3|Real Madrid|Group stage leg1|||Scotland|UCL-2223-Group stage-CEL-REA|openfootball
+MATCH|2021-09-06|UEFA Champions League|uefa-cl|RB Leipzig|1|4|Shakhtar Donetsk|Group stage leg1|||Germany|UCL-2223-Group stage-RBL-SHA|openfootball
+MATCH|2021-09-06|UEFA Champions League|uefa-cl|Dortmund|3|0|Copenhagen|Group stage leg1|||Germany|UCL-2223-Group stage-COP-DOR|openfootball
+MATCH|2021-09-06|UEFA Champions League|uefa-cl|Sevilla|0|4|Man City|Group stage leg1|||Spain|UCL-2223-Group stage-MAN-SEV|openfootball
+MATCH|2021-09-06|UEFA Champions League|uefa-cl|Paris SG|2|1|Juventus|Group stage leg1|||France|UCL-2223-Group stage-JUV-PAR|openfootball
+MATCH|2021-09-07|UEFA Champions League|uefa-cl|Ath Madrid|2|1|Porto|Group stage leg1|||Spain|UCL-2223-Group stage-ATH-POR|openfootball
+MATCH|2021-09-07|UEFA Champions League|uefa-cl|Club Brugge|1|0|Leverkusen|Group stage leg1|||Belgium|UCL-2223-Group stage-CLU-LEV|openfootball
+MATCH|2021-09-07|UEFA Champions League|uefa-cl|Inter|0|2|Bayern Munich|Group stage leg1|||Italy|UCL-2223-Group stage-BAY-INT|openfootball
+MATCH|2021-09-07|UEFA Champions League|uefa-cl|Barcelona|5|1|Viktoria Plzen|Group stage leg1|||Spain|UCL-2223-Group stage-BAR-VIK|openfootball
+MATCH|2021-09-07|UEFA Champions League|uefa-cl|Ein Frankfurt|0|3|Sporting CP|Group stage leg1|||Germany|UCL-2223-Group stage-EIN-SPO|openfootball
+MATCH|2021-09-07|UEFA Champions League|uefa-cl|Tottenham|2|0|Marseille|Group stage leg1|||England|UCL-2223-Group stage-MAR-TOT|openfootball
+MATCH|2021-09-08|UEFA Conference League|uefa-uecl|West Ham|3|1|FCSB|Group stage leg1|||England|UECL-2223-Group stage-FCS-WES|openfootball
+MATCH|2021-09-08|UEFA Conference League|uefa-uecl|Villarreal|4|3|Lech Poznań|Group stage leg1|||Spain|UECL-2223-Group stage-LEC-VIL|openfootball
+MATCH|2021-09-08|UEFA Conference League|uefa-uecl|Slovacko|3|3|Partizan|Group stage leg1|||Czech Republic|UECL-2223-Group stage-PAR-SLO|openfootball
+MATCH|2021-09-08|UEFA Conference League|uefa-uecl|Nice|1|1|FC Koln|Group stage leg1|||France|UECL-2223-Group stage-FCK-NIC|openfootball
+MATCH|2021-09-08|UEFA Conference League|uefa-uecl|Sivasspor|1|1|Slavia Prague|Group stage leg1|||Turkey|UECL-2223-Group stage-SIV-SLA|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|AEK Larnaca|1|2|Rennes|Group stage leg1|||Cyprus|UEL-2223-Group stage-AEK-REN|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|2|1|Roma|Group stage leg1|||Bulgaria|UEL-2223-Group stage-PFC-ROM|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|HJK Helsinki|0|2|Betis|Group stage leg1|||Finland|UEL-2223-Group stage-BET-HJK|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|Union Berlin|0|1|Union Saint-Gilloise|Group stage leg1|||Germany|UEL-2223-Group stage-UNI-UNI|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|Man United|0|1|Sociedad|Group stage leg1|||England|UEL-2223-Group stage-MAN-SOC|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|Lazio|4|2|Feyenoord|Group stage leg1|||Italy|UEL-2223-Group stage-FEY-LAZ|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|Nantes|2|1|Olympiakos Piraeus|Group stage leg1|||France|UEL-2223-Group stage-NAN-OLY|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|Freiburg|2|1|Qarabağ FK|Group stage leg1|||Germany|UEL-2223-Group stage-FRE-QAR|openfootball
+MATCH|2021-09-08|UEFA Europa League|uefa-el|Crvena Zvezda|0|1|Monaco|Group stage leg1|||Serbia|UEL-2223-Group stage-CRV-MON|openfootball
+MATCH|2021-09-13|UEFA Champions League|uefa-cl|Liverpool|2|1|AFC Ajax|Group stage leg1|||England|UCL-2223-Group stage-AFC-LIV|openfootball
+MATCH|2021-09-13|UEFA Champions League|uefa-cl|Leverkusen|2|0|Ath Madrid|Group stage leg1|||Germany|UCL-2223-Group stage-ATH-LEV|openfootball
+MATCH|2021-09-13|UEFA Champions League|uefa-cl|Viktoria Plzen|0|2|Inter|Group stage leg1|||Czech Republic|UCL-2223-Group stage-INT-VIK|openfootball
+MATCH|2021-09-13|UEFA Champions League|uefa-cl|Bayern Munich|2|0|Barcelona|Group stage leg1|||Germany|UCL-2223-Group stage-BAR-BAY|openfootball
+MATCH|2021-09-13|UEFA Champions League|uefa-cl|Sporting CP|2|0|Tottenham|Group stage leg1|||Portugal|UCL-2223-Group stage-SPO-TOT|openfootball
+MATCH|2021-09-13|UEFA Champions League|uefa-cl|Marseille|0|1|Ein Frankfurt|Group stage leg1|||France|UCL-2223-Group stage-EIN-MAR|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Barcelona|0|3|Bayern Munich|Group stage leg1|||Spain|UCL-2122-Group stage-BAR-BAY|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|BSC Young Boys|2|1|Man United|Group stage leg1|||Switzerland|UCL-2122-Group stage-BSC-MAN|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Villarreal|2|2|Atalanta|Group stage leg1|||Spain|UCL-2122-Group stage-ATA-VIL|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Sevilla|1|1|RB Salzburg|Group stage leg1|||Spain|UCL-2122-Group stage-RBS-SEV|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Lille|0|0|Wolfsburg|Group stage leg1|||France|UCL-2122-Group stage-LIL-WOL|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Chelsea|1|0|Zenit St Petersburg|Group stage leg1|||England|UCL-2122-Group stage-CHE-ZEN|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Malmö FF|0|3|Juventus|Group stage leg1|||Sweden|UCL-2122-Group stage-JUV-MAL|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Rangers|0|3|Napoli|Group stage leg1|||Scotland|UCL-2223-Group stage-NAP-RAN|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Milan|3|1|Dinamo Zagreb|Group stage leg1|||Italy|UCL-2223-Group stage-DIN-MIL|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Chelsea|1|1|RB Salzburg|Group stage leg1|||England|UCL-2223-Group stage-CHE-RBS|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Real Madrid|2|0|RB Leipzig|Group stage leg1|||Spain|UCL-2223-Group stage-RBL-REA|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Man City|2|1|Dortmund|Group stage leg1|||England|UCL-2223-Group stage-DOR-MAN|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Copenhagen|0|0|Sevilla|Group stage leg1|||Denmark|UCL-2223-Group stage-COP-SEV|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Juventus|1|2|Benfica|Group stage leg1|||Italy|UCL-2223-Group stage-BEN-JUV|openfootball
+MATCH|2021-09-14|UEFA Champions League|uefa-cl|Maccabi Haifa|1|3|Paris SG|Group stage leg1|||Israel|UCL-2223-Group stage-MAC-PAR|openfootball
+MATCH|2021-09-15|UEFA Champions League|uefa-cl|Man City|6|3|RB Leipzig|Group stage leg1|||England|UCL-2122-Group stage-MAN-RBL|openfootball
+MATCH|2021-09-15|UEFA Champions League|uefa-cl|Club Brugge|1|1|Paris SG|Group stage leg1|||Belgium|UCL-2122-Group stage-CLU-PAR|openfootball
+MATCH|2021-09-15|UEFA Champions League|uefa-cl|Ath Madrid|0|0|Porto|Group stage leg1|||Spain|UCL-2122-Group stage-ATH-POR|openfootball
+MATCH|2021-09-15|UEFA Champions League|uefa-cl|Liverpool|3|2|Milan|Group stage leg1|||England|UCL-2122-Group stage-LIV-MIL|openfootball
+MATCH|2021-09-15|UEFA Champions League|uefa-cl|Besiktas|1|2|Dortmund|Group stage leg1|||Turkey|UCL-2122-Group stage-BES-DOR|openfootball
+MATCH|2021-09-15|UEFA Champions League|uefa-cl|Inter|0|1|Real Madrid|Group stage leg1|||Italy|UCL-2122-Group stage-INT-REA|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Spartak Moscow|0|1|Legia Warsaw|Group stage leg1|||Russia|UEL-2122-Group stage-LEG-SPA|openfootball
+MATCH|2021-09-15|UEFA Conference League|uefa-uecl|İstanbul Başakşehir|3|0|Fiorentina|Group stage leg1|||Turkey|UECL-2223-Group stage-FIO-STA|openfootball
+MATCH|2021-09-15|UEFA Conference League|uefa-uecl|Silkeborg IF|2|3|West Ham|Group stage leg1|||Denmark|UECL-2223-Group stage-SIL-WES|openfootball
+MATCH|2021-09-15|UEFA Conference League|uefa-uecl|Hapoel Be'er Sheva|1|2|Villarreal|Group stage leg1|||Israel|UECL-2223-Group stage-HAP-VIL|openfootball
+MATCH|2021-09-15|UEFA Conference League|uefa-uecl|Partizan|1|1|Nice|Group stage leg1|||Serbia|UECL-2223-Group stage-NIC-PAR|openfootball
+MATCH|2021-09-15|UEFA Conference League|uefa-uecl|FC Koln|4|2|Slovacko|Group stage leg1|||Germany|UECL-2223-Group stage-FCK-SLO|openfootball
+MATCH|2021-09-15|UEFA Conference League|uefa-uecl|Slavia Prague|3|2|KF Ballkani|Group stage leg1|||Czech Republic|UECL-2223-Group stage-KFB-SLA|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Rennes|2|2|Fenerbahce|Group stage leg1|||France|UEL-2223-Group stage-FEN-REN|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Roma|3|0|HJK Helsinki|Group stage leg1|||Italy|UEL-2223-Group stage-HJK-ROM|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Betis|3|2|PFC Ludogorets Razgrad|Group stage leg1|||Spain|UEL-2223-Group stage-BET-PFC|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Braga|1|0|Union Berlin|Group stage leg1|||Portugal|UEL-2223-Group stage-BRA-UNI|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Sociedad|2|1|Omonia Nikosia|Group stage leg1|||Spain|UEL-2223-Group stage-OMO-SOC|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|FC Sheriff|0|2|Man United|Group stage leg1|||Moldova|UEL-2223-Group stage-FCS-MAN|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Midtjylland|5|1|Lazio|Group stage leg1|||Denmark|UEL-2223-Group stage-LAZ-MID|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Olympiakos Piraeus|0|3|Freiburg|Group stage leg1|||Greece|UEL-2223-Group stage-FRE-OLY|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Qarabağ FK|3|0|Nantes|Group stage leg1|||Azerbaijan|UEL-2223-Group stage-NAN-QAR|openfootball
+MATCH|2021-09-15|UEFA Europa League|uefa-el|Monaco|0|1|Ferencvárosi TC|Group stage leg1|||France|UEL-2223-Group stage-FER-MON|openfootball
+MATCH|2021-09-16|UEFA Conference League|uefa-uecl|Roma|5|1|CSKA Sofia|Group stage leg1|||Italy|UECL-2122-Group stage-CSK-ROM|openfootball
+MATCH|2021-09-16|UEFA Conference League|uefa-uecl|Jablonec|1|0|CFR Cluj|Group stage leg1|||Czech Republic|UECL-2122-Group stage-CFR-JAB|openfootball
+MATCH|2021-09-16|UEFA Conference League|uefa-uecl|Slavia Prague|3|1|Union Berlin|Group stage leg1|||Czech Republic|UECL-2122-Group stage-SLA-UNI|openfootball
+MATCH|2021-09-16|UEFA Conference League|uefa-uecl|Rennes|2|2|Tottenham|Group stage leg1|||France|UECL-2122-Group stage-REN-TOT|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Brondby|0|0|Sparta Prague|Group stage leg1|||Denmark|UEL-2122-Group stage-BRO-SPA|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Rangers|0|2|Lyon|Group stage leg1|||Scotland|UEL-2122-Group stage-LYO-RAN|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Monaco|1|0|Sturm Graz|Group stage leg1|||France|UEL-2122-Group stage-MON-STU|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|PSV Eindhoven|2|2|Sociedad|Group stage leg1|||Netherlands|UEL-2122-Group stage-PSV-SOC|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Leicester|2|2|Napoli|Group stage leg1|||England|UEL-2122-Group stage-LEI-NAP|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Ein Frankfurt|1|1|Fenerbahce|Group stage leg1|||Germany|UEL-2122-Group stage-EIN-FEN|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Galatasaray|1|0|Lazio|Group stage leg1|||Turkey|UEL-2122-Group stage-GAL-LAZ|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Lokomotiv Moscow|1|1|Marseille|Group stage leg1|||Russia|UEL-2122-Group stage-LOK-MAR|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Leverkusen|2|1|Ferencvárosi TC|Group stage leg1|||Germany|UEL-2122-Group stage-FER-LEV|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Betis|4|3|Celtic|Group stage leg1|||Spain|UEL-2122-Group stage-BET-CEL|openfootball
+MATCH|2021-09-16|UEFA Europa League|uefa-el|Dinamo Zagreb|0|2|West Ham|Group stage leg1|||Croatia|UEL-2122-Group stage-DIN-WES|openfootball
+MATCH|2021-09-17|UEFA Champions League|uefa-cl|Slavia Prague|2|2|FK Bodø/Glimt|League phase MD1|||Czech Republic||openfootball
+MATCH|2021-09-17|UEFA Champions League|uefa-cl|AFC Ajax|0|2|Inter|League phase MD1|||Netherlands||openfootball
+MATCH|2021-09-17|UEFA Champions League|uefa-cl|Liverpool|3|2|Ath Madrid|League phase MD1|||England||openfootball
+MATCH|2021-09-17|UEFA Champions League|uefa-cl|Paris SG|4|0|Atalanta|League phase MD1|||France||openfootball
+MATCH|2021-09-17|UEFA Champions League|uefa-cl|Bayern Munich|3|1|Chelsea|League phase MD1|||Germany||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Bologna|0|0|FK Shakhtar Donetsk|League phase MD1|||Italy||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Sparta Prague|3|0|FC Red Bull Salzburg|League phase MD1|||Czech Republic||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Man City|0|0|Inter|League phase MD1|||England||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Paris SG|1|0|Girona|League phase MD1|||France||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Club Brugge|0|3|Dortmund|League phase MD1|||Belgium||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Copenhagen|2|2|Leverkusen|League phase MD1|||Denmark||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Newcastle|1|2|Barcelona|League phase MD1|||England||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Man City|2|0|Napoli|League phase MD1|||England||openfootball
+MATCH|2021-09-18|UEFA Champions League|uefa-cl|Ein Frankfurt|5|1|Galatasaray|League phase MD1|||Germany||openfootball
+MATCH|2021-09-19|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|0|4|Leverkusen|League phase MD1|||Netherlands||openfootball
+MATCH|2021-09-19|UEFA Champions League|uefa-cl|Monaco|2|1|Barcelona|League phase MD1|||Monaco||openfootball
+MATCH|2021-09-19|UEFA Champions League|uefa-cl|Brest|2|1|SK Sturm Graz|League phase MD1|||France||openfootball
+MATCH|2021-09-19|UEFA Champions League|uefa-cl|Atalanta|0|0|Arsenal|League phase MD1|||Italy||openfootball
+MATCH|2021-09-19|UEFA Champions League|uefa-cl|Ath Madrid|2|1|RB Leipzig|League phase MD1|||Spain||openfootball
+MATCH|2021-09-20|UEFA Champions League|uefa-cl|Real Madrid|1|0|Union Berlin|Group stage leg1|||Spain|UCL-2324-Group stage-REA-UNI|openfootball
+MATCH|2021-09-20|UEFA Champions League|uefa-cl|Sevilla|1|1|Lens|Group stage leg1|||Spain|UCL-2324-Group stage-LEN-SEV|openfootball
+MATCH|2021-09-20|UEFA Champions League|uefa-cl|Braga|1|2|Napoli|Group stage leg1|||Portugal|UCL-2324-Group stage-BRA-NAP|openfootball
+MATCH|2021-09-20|UEFA Champions League|uefa-cl|Sociedad|1|1|Inter|Group stage leg1|||Spain|UCL-2324-Group stage-INT-SOC|openfootball
+MATCH|2021-09-20|UEFA Champions League|uefa-cl|Bayern Munich|4|3|Man United|Group stage leg1|||Germany|UCL-2324-Group stage-BAY-MAN|openfootball
+MATCH|2021-09-20|UEFA Champions League|uefa-cl|Arsenal|4|0|PSV|Group stage leg1|||England|UCL-2324-Group stage-ARS-PSV|openfootball
+MATCH|2021-09-21|UEFA Conference League|uefa-uecl|Viktoria Plzen|1|0|KF Ballkani|Group stage leg1|||Czech Republic|UECL-2324-Group stage-KFB-VIK|openfootball
+MATCH|2021-09-21|UEFA Conference League|uefa-uecl|Legia Warsaw|3|2|Aston Villa|Group stage leg1|||Poland|UECL-2324-Group stage-AST-LEG|openfootball
+MATCH|2021-09-21|UEFA Conference League|uefa-uecl|KRC Genk|2|2|Fiorentina|Group stage leg1|||Belgium|UECL-2324-Group stage-FIO-KRC|openfootball
+MATCH|2021-09-21|UEFA Conference League|uefa-uecl|Ein Frankfurt|2|1|Aberdeen|Group stage leg1|||Germany|UECL-2324-Group stage-ABE-EIN|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|AFC Ajax|3|3|Marseille|Group stage leg1|||Netherlands|UEL-2324-Group stage-AFC-MAR|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Brighton|2|3|AEK Athen|Group stage leg1|||England|UEL-2324-Group stage-AEK-BRI|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Sparta Prague|3|2|Aris Limassol|Group stage leg1|||Czech Republic|UEL-2324-Group stage-ARI-SPA|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Rangers|1|0|Betis|Group stage leg1|||Scotland|UEL-2324-Group stage-BET-RAN|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Atalanta|2|0|Raków Częstochowa|Group stage leg1|||Italy|UEL-2324-Group stage-ATA-RAK|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Union Saint-Gilloise|1|1|Toulouse|Group stage leg1|||Belgium|UEL-2324-Group stage-TOU-UNI|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|LASK|1|3|Liverpool|Group stage leg1|||Austria|UEL-2324-Group stage-LAS-LIV|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Rennes|3|0|Maccabi Haifa|Group stage leg1|||France|UEL-2324-Group stage-MAC-REN|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Panathinaikos|2|0|Villarreal|Group stage leg1|||Greece|UEL-2324-Group stage-PAN-VIL|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|FC Sheriff|1|2|Roma|Group stage leg1|||Moldova|UEL-2324-Group stage-FCS-ROM|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Servette FC|0|2|Slavia Prague|Group stage leg1|||Switzerland|UEL-2324-Group stage-SER-SLA|openfootball
+MATCH|2021-09-21|UEFA Europa League|uefa-el|Leverkusen|4|0|BK Häcken|Group stage leg1|||Germany|UEL-2324-Group stage-BKH-LEV|openfootball
+MATCH|2021-09-26|UEFA Europa League|uefa-el|Roma|1|1|Ath Bilbao|League phase|||Italy||openfootball
+MATCH|2021-09-26|UEFA Europa League|uefa-el|Ein Frankfurt|3|3|Viktoria Plzen|League phase|||Germany||openfootball
+MATCH|2021-09-26|UEFA Europa League|uefa-el|Lyon|2|0|Olympiakos Piraeus|League phase|||France||openfootball
+MATCH|2021-09-26|UEFA Europa League|uefa-el|Tottenham|3|0|Qarabağ FK|League phase|||England||openfootball
+MATCH|2021-09-28|UEFA Champions League|uefa-cl|Paris SG|2|0|Man City|Group stage leg1|||France|UCL-2122-Group stage-MAN-PAR|openfootball
+MATCH|2021-09-28|UEFA Champions League|uefa-cl|RB Leipzig|1|2|Club Brugge|Group stage leg1|||Germany|UCL-2122-Group stage-CLU-RBL|openfootball
+MATCH|2021-09-28|UEFA Champions League|uefa-cl|Porto|1|5|Liverpool|Group stage leg1|||Portugal|UCL-2122-Group stage-LIV-POR|openfootball
+MATCH|2021-09-28|UEFA Champions League|uefa-cl|Milan|1|2|Ath Madrid|Group stage leg1|||Italy|UCL-2122-Group stage-ATH-MIL|openfootball
+MATCH|2021-09-28|UEFA Champions League|uefa-cl|Dortmund|1|0|Sporting CP|Group stage leg1|||Germany|UCL-2122-Group stage-DOR-SPO|openfootball
+MATCH|2021-09-28|UEFA Champions League|uefa-cl|Shakhtar Donetsk|0|0|Inter|Group stage leg1|||Ukraine|UCL-2122-Group stage-INT-SHA|openfootball
+MATCH|2021-09-28|UEFA Champions League|uefa-cl|Real Madrid|1|2|FC Sheriff|Group stage leg1|||Spain|UCL-2122-Group stage-FCS-REA|openfootball
+MATCH|2021-09-29|UEFA Champions League|uefa-cl|Benfica|3|0|Barcelona|Group stage leg1|||Portugal|UCL-2122-Group stage-BAR-BEN|openfootball
+MATCH|2021-09-29|UEFA Champions League|uefa-cl|Bayern Munich|5|0|Dinamo Kiev|Group stage leg1|||Germany|UCL-2122-Group stage-BAY-DIN|openfootball
+MATCH|2021-09-29|UEFA Champions League|uefa-cl|Atalanta|1|0|BSC Young Boys|Group stage leg1|||Italy|UCL-2122-Group stage-ATA-BSC|openfootball
+MATCH|2021-09-29|UEFA Champions League|uefa-cl|Man United|2|1|Villarreal|Group stage leg1|||England|UCL-2122-Group stage-MAN-VIL|openfootball
+MATCH|2021-09-29|UEFA Champions League|uefa-cl|RB Salzburg|2|1|Lille|Group stage leg1|||Austria|UCL-2122-Group stage-LIL-RBS|openfootball
+MATCH|2021-09-29|UEFA Champions League|uefa-cl|Wolfsburg|1|1|Sevilla|Group stage leg1|||Germany|UCL-2122-Group stage-SEV-WOL|openfootball
+MATCH|2021-09-29|UEFA Champions League|uefa-cl|Zenit St Petersburg|4|0|Malmö FF|Group stage leg1|||Russia|UCL-2122-Group stage-MAL-ZEN|openfootball
+MATCH|2021-09-29|UEFA Champions League|uefa-cl|Juventus|1|0|Chelsea|Group stage leg1|||Italy|UCL-2122-Group stage-CHE-JUV|openfootball
+MATCH|2021-09-30|UEFA Conference League|uefa-uecl|Zorya Lugansk|0|3|Roma|Group stage leg1|||Ukraine|UECL-2122-Group stage-ROM-ZOR|openfootball
+MATCH|2021-09-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|1|0|Jablonec|Group stage leg1|||Netherlands|UECL-2122-Group stage-AZA-JAB|openfootball
+MATCH|2021-09-30|UEFA Conference League|uefa-uecl|Union Berlin|3|0|Maccabi Haifa|Group stage leg1|||Germany|UECL-2122-Group stage-MAC-UNI|openfootball
+MATCH|2021-09-30|UEFA Conference League|uefa-uecl|Feyenoord|2|1|Slavia Prague|Group stage leg1|||Netherlands|UECL-2122-Group stage-FEY-SLA|openfootball
+MATCH|2021-09-30|UEFA Conference League|uefa-uecl|Tottenham|5|1|NŠ Mura|Group stage leg1|||England|UECL-2122-Group stage-NMU-TOT|openfootball
+MATCH|2021-09-30|UEFA Conference League|uefa-uecl|Vitesse|1|2|Rennes|Group stage leg1|||Netherlands|UECL-2122-Group stage-REN-VIT|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Lyon|3|0|Brondby|Group stage leg1|||France|UEL-2122-Group stage-BRO-LYO|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Sparta Prague|1|0|Rangers|Group stage leg1|||Czech Republic|UEL-2122-Group stage-RAN-SPA|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Sociedad|1|1|Monaco|Group stage leg1|||Spain|UEL-2122-Group stage-MON-SOC|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Legia Warsaw|1|0|Leicester|Group stage leg1|||Poland|UEL-2122-Group stage-LEG-LEI|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Napoli|2|3|Spartak Moscow|Group stage leg1|||Italy|UEL-2122-Group stage-NAP-SPA|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Royal Antwerp FC|0|1|Ein Frankfurt|Group stage leg1|||Belgium|UEL-2122-Group stage-EIN-ROY|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Marseille|0|0|Galatasaray|Group stage leg1|||France|UEL-2122-Group stage-GAL-MAR|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Lazio|2|0|Lokomotiv Moscow|Group stage leg1|||Italy|UEL-2122-Group stage-LAZ-LOK|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Celtic|0|4|Leverkusen|Group stage leg1|||Scotland|UEL-2122-Group stage-CEL-LEV|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|Ferencvárosi TC|1|3|Betis|Group stage leg1|||Hungary|UEL-2122-Group stage-BET-FER|openfootball
+MATCH|2021-09-30|UEFA Europa League|uefa-el|West Ham|2|0|Rapid Wien|Group stage leg1|||England|UEL-2122-Group stage-RAP-WES|openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|Atalanta|2|1|Club Brugge|League phase MD2|||Italy||openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|FK Kairat|0|5|Real Madrid|League phase MD2|||Kazakhstan||openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|Galatasaray|1|0|Liverpool|League phase MD2|||Turkey||openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|Ath Madrid|5|1|Ein Frankfurt|League phase MD2|||Spain||openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|Marseille|4|0|AFC Ajax|League phase MD2|||France||openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|2|2|Tottenham|League phase MD2|||Norway||openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|Paphos FC|1|5|Bayern Munich|League phase MD2|||Cyprus||openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|Chelsea|1|0|Benfica|League phase MD2|||England||openfootball
+MATCH|2021-09-30|UEFA Champions League|uefa-cl|Inter|3|0|Slavia Prague|League phase MD2|||Italy||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Stuttgart|1|1|Sparta Prague|League phase MD2|||Germany||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|4|Brest|League phase MD2|||Austria||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|ŠK Slovan Bratislava|0|4|Man City|League phase MD2|||Slovakia||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Dortmund|7|1|Celtic|League phase MD2|||Germany||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Barcelona|5|0|BSC Young Boys|League phase MD2|||Spain||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Inter|4|0|FK Crvena Zvezda|League phase MD2|||Italy||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Leverkusen|1|0|Milan|League phase MD2|||Germany||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Arsenal|2|0|Paris SG|League phase MD2|||England||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Royale Union Saint-Gilloise|0|4|Newcastle|League phase MD2|||Belgium||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Dortmund|4|1|Ath Bilbao|League phase MD2|||Germany||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Barcelona|1|2|Paris SG|League phase MD2|||Spain||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Monaco|2|2|Man City|League phase MD2|||Monaco||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Leverkusen|1|1|PSV|League phase MD2|||Germany||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Arsenal|2|0|PAE Olympiakos SFP|League phase MD2|||England||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Villarreal|2|2|Juventus|League phase MD2|||Spain||openfootball
+MATCH|2021-10-01|UEFA Champions League|uefa-cl|Napoli|2|1|Sporting CP|League phase MD2|||Italy||openfootball
+MATCH|2021-10-02|UEFA Champions League|uefa-cl|Girona|2|3|Feyenoord Rotterdam|League phase MD2|||Spain||openfootball
+MATCH|2021-10-02|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|0|3|Atalanta|League phase MD2|||Ukraine||openfootball
+MATCH|2021-10-02|UEFA Champions League|uefa-cl|Aston Villa|1|0|Bayern Munich|League phase MD2|||England||openfootball
+MATCH|2021-10-02|UEFA Champions League|uefa-cl|Liverpool|2|0|Bologna|League phase MD2|||England||openfootball
+MATCH|2021-10-02|UEFA Champions League|uefa-cl|RB Leipzig|2|3|Juventus|League phase MD2|||Germany||openfootball
+MATCH|2021-10-02|UEFA Champions League|uefa-cl|Benfica|4|0|Ath Madrid|League phase MD2|||Portugal||openfootball
+MATCH|2021-10-02|UEFA Champions League|uefa-cl|Lille|1|0|Real Madrid|League phase MD2|||France||openfootball
+MATCH|2021-10-03|UEFA Champions League|uefa-cl|Union Berlin|2|3|Braga|Group stage leg1|||Germany|UCL-2324-Group stage-BRA-UNI|openfootball
+MATCH|2021-10-03|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|2|Sociedad|Group stage leg1|||Austria|UCL-2324-Group stage-FCR-SOC|openfootball
+MATCH|2021-10-03|UEFA Champions League|uefa-cl|Napoli|2|3|Real Madrid|Group stage leg1|||Italy|UCL-2324-Group stage-NAP-REA|openfootball
+MATCH|2021-10-03|UEFA Champions League|uefa-cl|Inter|1|0|Benfica|Group stage leg1|||Italy|UCL-2324-Group stage-BEN-INT|openfootball
+MATCH|2021-10-03|UEFA Champions League|uefa-cl|Copenhagen|1|2|Bayern Munich|Group stage leg1|||Denmark|UCL-2324-Group stage-BAY-COP|openfootball
+MATCH|2021-10-03|UEFA Champions League|uefa-cl|Man United|2|3|Galatasaray|Group stage leg1|||England|UCL-2324-Group stage-GAL-MAN|openfootball
+MATCH|2021-10-03|UEFA Champions League|uefa-cl|Lens|2|1|Arsenal|Group stage leg1|||France|UCL-2324-Group stage-ARS-LEN|openfootball
+MATCH|2021-10-03|UEFA Champions League|uefa-cl|PSV|2|2|Sevilla|Group stage leg1|||Netherlands|UCL-2324-Group stage-PSV-SEV|openfootball
+MATCH|2021-10-03|UEFA Conference League|uefa-uecl|Legia Warsaw|1|0|Betis|League phase|||Poland||openfootball
+MATCH|2021-10-03|UEFA Conference League|uefa-uecl|Heidenheim|2|1|Olimpija Ljubljana|League phase|||Germany||openfootball
+MATCH|2021-10-03|UEFA Conference League|uefa-uecl|FC Noah|2|0|Mlada Boleslav|League phase|||Armenia||openfootball
+MATCH|2021-10-03|UEFA Conference League|uefa-uecl|Chelsea|4|2|Gent|League phase|||England||openfootball
+MATCH|2021-10-03|UEFA Conference League|uefa-uecl|Fiorentina|2|0|The New Saints|League phase|||Italy||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Slavia Prague|1|1|AFC Ajax|League phase|||Czech Republic||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Lazio|4|1|Nice|League phase|||Italy||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Ferencvárosi TC|1|2|Tottenham|League phase|||Hungary||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Sociedad|1|2|RSC Anderlecht|League phase|||Spain||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Hoffenheim|2|0|Dinamo Kiev|League phase|||Germany||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Rangers|1|4|Lyon|League phase|||Scotland||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Porto|3|3|Man United|League phase|||Portugal||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Viktoria Plzen|0|0|PFC Ludogorets Razgrad|League phase|||Czech Republic||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Besiktas|1|3|Ein Frankfurt|League phase|||Turkey||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|IF Elfsborg|1|0|Roma|League phase|||Sweden||openfootball
+MATCH|2021-10-03|UEFA Europa League|uefa-el|Ath Bilbao|2|0|AZ Alkmaar|League phase|||Spain||openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|AFC Ajax|1|6|Napoli|Group stage leg1|||Netherlands|UCL-2223-Group stage-AFC-NAP|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Liverpool|2|0|Rangers|Group stage leg1|||England|UCL-2223-Group stage-LIV-RAN|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Club Brugge|2|0|Ath Madrid|Group stage leg1|||Belgium|UCL-2223-Group stage-ATH-CLU|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Porto|2|0|Leverkusen|Group stage leg1|||Portugal|UCL-2223-Group stage-LEV-POR|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Bayern Munich|5|0|Viktoria Plzen|Group stage leg1|||Germany|UCL-2223-Group stage-BAY-VIK|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Inter|1|0|Barcelona|Group stage leg1|||Italy|UCL-2223-Group stage-BAR-INT|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Marseille|4|1|Sporting CP|Group stage leg1|||France|UCL-2223-Group stage-MAR-SPO|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Ein Frankfurt|0|0|Tottenham|Group stage leg1|||Germany|UCL-2223-Group stage-EIN-TOT|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Ath Madrid|3|2|Feyenoord Rotterdam|Group stage leg1|||Spain|UCL-2324-Group stage-ATH-FEY|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Celtic|1|2|Lazio|Group stage leg1|||Scotland|UCL-2324-Group stage-CEL-LAZ|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Dortmund|0|0|Milan|Group stage leg1|||Germany|UCL-2324-Group stage-DOR-MIL|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Newcastle|4|1|Paris SG|Group stage leg1|||England|UCL-2324-Group stage-NEW-PAR|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|RB Leipzig|1|3|Man City|Group stage leg1|||Germany|UCL-2324-Group stage-MAN-RBL|openfootball
+MATCH|2021-10-04|UEFA Champions League|uefa-cl|Porto|0|1|Barcelona|Group stage leg1|||Portugal|UCL-2324-Group stage-BAR-POR|openfootball
+MATCH|2021-10-05|UEFA Champions League|uefa-cl|Chelsea|3|0|Milan|Group stage leg1|||England|UCL-2223-Group stage-CHE-MIL|openfootball
+MATCH|2021-10-05|UEFA Champions League|uefa-cl|RB Leipzig|3|1|Celtic|Group stage leg1|||Germany|UCL-2223-Group stage-CEL-RBL|openfootball
+MATCH|2021-10-05|UEFA Champions League|uefa-cl|Real Madrid|2|1|Shakhtar Donetsk|Group stage leg1|||Spain|UCL-2223-Group stage-REA-SHA|openfootball
+MATCH|2021-10-05|UEFA Champions League|uefa-cl|Sevilla|1|4|Dortmund|Group stage leg1|||Spain|UCL-2223-Group stage-DOR-SEV|openfootball
+MATCH|2021-10-05|UEFA Champions League|uefa-cl|Man City|5|0|Copenhagen|Group stage leg1|||England|UCL-2223-Group stage-COP-MAN|openfootball
+MATCH|2021-10-05|UEFA Champions League|uefa-cl|Juventus|3|1|Maccabi Haifa|Group stage leg1|||Italy|UCL-2223-Group stage-JUV-MAC|openfootball
+MATCH|2021-10-05|UEFA Champions League|uefa-cl|Benfica|1|1|Paris SG|Group stage leg1|||Portugal|UCL-2223-Group stage-BEN-PAR|openfootball
+MATCH|2021-10-05|UEFA Conference League|uefa-uecl|KÍ Klaksvík|0|0|Lille|Group stage leg1|||Faroe Islands|UECL-2324-Group stage-KKL-LIL|openfootball
+MATCH|2021-10-05|UEFA Conference League|uefa-uecl|FK Astana|1|2|Viktoria Plzen|Group stage leg1|||Kazakhstan|UECL-2324-Group stage-FKA-VIK|openfootball
+MATCH|2021-10-05|UEFA Conference League|uefa-uecl|Aston Villa|1|0|Zrinjski Mostar|Group stage leg1|||England|UECL-2324-Group stage-AST-ZRI|openfootball
+MATCH|2021-10-05|UEFA Conference League|uefa-uecl|Fiorentina|2|2|Ferencvárosi TC|Group stage leg1|||Italy|UECL-2324-Group stage-FER-FIO|openfootball
+MATCH|2021-10-05|UEFA Conference League|uefa-uecl|PAOK Saloniki|2|1|Ein Frankfurt|Group stage leg1|||Greece|UECL-2324-Group stage-EIN-PAO|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Freiburg|1|2|West Ham|Group stage leg1|||Germany|UEL-2324-Group stage-FRE-WES|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Marseille|2|2|Brighton|Group stage leg1|||France|UEL-2324-Group stage-BRI-MAR|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Betis|2|1|Sparta Prague|Group stage leg1|||Spain|UEL-2324-Group stage-BET-SPA|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Sporting CP|1|2|Atalanta|Group stage leg1|||Portugal|UEL-2324-Group stage-ATA-SPO|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Liverpool|2|0|Union Saint-Gilloise|Group stage leg1|||England|UEL-2324-Group stage-LIV-UNI|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Toulouse|1|0|LASK|Group stage leg1|||France|UEL-2324-Group stage-LAS-TOU|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Villarreal|1|0|Rennes|Group stage leg1|||Spain|UEL-2324-Group stage-REN-VIL|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Roma|4|0|Servette FC|Group stage leg1|||Italy|UEL-2324-Group stage-ROM-SER|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Slavia Prague|6|0|FC Sheriff|Group stage leg1|||Czech Republic|UEL-2324-Group stage-FCS-SLA|openfootball
+MATCH|2021-10-05|UEFA Europa League|uefa-el|Molde FK|1|2|Leverkusen|Group stage leg1|||Norway|UEL-2324-Group stage-LEV-MOL|openfootball
+MATCH|2021-10-06|UEFA Conference League|uefa-uecl|Heart of Midlothian|0|3|Fiorentina|Group stage leg1|||Scotland|UECL-2223-Group stage-FIO-HEA|openfootball
+MATCH|2021-10-06|UEFA Conference League|uefa-uecl|RSC Anderlecht|0|1|West Ham|Group stage leg1|||Belgium|UECL-2223-Group stage-RSC-WES|openfootball
+MATCH|2021-10-06|UEFA Conference League|uefa-uecl|Villarreal|5|0|Austria Wien|Group stage leg1|||Spain|UECL-2223-Group stage-AUS-VIL|openfootball
+MATCH|2021-10-06|UEFA Conference League|uefa-uecl|Slovacko|0|1|Nice|Group stage leg1|||Czech Republic|UECL-2223-Group stage-NIC-SLO|openfootball
+MATCH|2021-10-06|UEFA Conference League|uefa-uecl|FC Koln|0|1|Partizan|Group stage leg1|||Germany|UECL-2223-Group stage-FCK-PAR|openfootball
+MATCH|2021-10-06|UEFA Conference League|uefa-uecl|Slavia Prague|0|1|CFR Cluj|Group stage leg1|||Czech Republic|UECL-2223-Group stage-CFR-SLA|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|Arsenal|3|0|FK Bodø/Glimt|Group stage leg1|||England|UEL-2223-Group stage-ARS-FKB|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|Rennes|2|1|Dinamo Kiev|Group stage leg1|||France|UEL-2223-Group stage-DIN-REN|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|Roma|1|2|Betis|Group stage leg1|||Italy|UEL-2223-Group stage-BET-ROM|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|Malmö FF|0|1|Union Berlin|Group stage leg1|||Sweden|UEL-2223-Group stage-MAL-UNI|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|FC Sheriff|0|2|Sociedad|Group stage leg1|||Moldova|UEL-2223-Group stage-FCS-SOC|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|Omonia Nikosia|2|3|Man United|Group stage leg1|||Cyprus|UEL-2223-Group stage-MAN-OMO|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|Sturm Graz|0|0|Lazio|Group stage leg1|||Austria|UEL-2223-Group stage-LAZ-STU|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|Freiburg|2|0|Nantes|Group stage leg1|||Germany|UEL-2223-Group stage-FRE-NAN|openfootball
+MATCH|2021-10-06|UEFA Europa League|uefa-el|Monaco|3|1|Trabzonspor|Group stage leg1|||France|UEL-2223-Group stage-MON-TRA|openfootball
+MATCH|2021-10-11|UEFA Champions League|uefa-cl|Milan|0|2|Chelsea|Group stage leg2|||Italy|UCL-2223-Group stage-CHE-MIL|openfootball
+MATCH|2021-10-11|UEFA Champions League|uefa-cl|Celtic|0|2|RB Leipzig|Group stage leg2|||Scotland|UCL-2223-Group stage-CEL-RBL|openfootball
+MATCH|2021-10-11|UEFA Champions League|uefa-cl|Shakhtar Donetsk|1|1|Real Madrid|Group stage leg2|||Ukraine|UCL-2223-Group stage-REA-SHA|openfootball
+MATCH|2021-10-11|UEFA Champions League|uefa-cl|Dortmund|1|1|Sevilla|Group stage leg2|||Germany|UCL-2223-Group stage-DOR-SEV|openfootball
+MATCH|2021-10-11|UEFA Champions League|uefa-cl|Copenhagen|0|0|Man City|Group stage leg2|||Denmark|UCL-2223-Group stage-COP-MAN|openfootball
+MATCH|2021-10-11|UEFA Champions League|uefa-cl|Maccabi Haifa|2|0|Juventus|Group stage leg2|||Israel|UCL-2223-Group stage-JUV-MAC|openfootball
+MATCH|2021-10-11|UEFA Champions League|uefa-cl|Paris SG|1|1|Benfica|Group stage leg2|||France|UCL-2223-Group stage-BEN-PAR|openfootball
+MATCH|2021-10-12|UEFA Champions League|uefa-cl|Napoli|4|2|AFC Ajax|Group stage leg2|||Italy|UCL-2223-Group stage-AFC-NAP|openfootball
+MATCH|2021-10-12|UEFA Champions League|uefa-cl|Rangers|1|7|Liverpool|Group stage leg2|||Scotland|UCL-2223-Group stage-LIV-RAN|openfootball
+MATCH|2021-10-12|UEFA Champions League|uefa-cl|Ath Madrid|0|0|Club Brugge|Group stage leg2|||Spain|UCL-2223-Group stage-ATH-CLU|openfootball
+MATCH|2021-10-12|UEFA Champions League|uefa-cl|Leverkusen|0|3|Porto|Group stage leg2|||Germany|UCL-2223-Group stage-LEV-POR|openfootball
+MATCH|2021-10-12|UEFA Champions League|uefa-cl|Viktoria Plzen|2|4|Bayern Munich|Group stage leg2|||Czech Republic|UCL-2223-Group stage-BAY-VIK|openfootball
+MATCH|2021-10-12|UEFA Champions League|uefa-cl|Barcelona|3|3|Inter|Group stage leg2|||Spain|UCL-2223-Group stage-BAR-INT|openfootball
+MATCH|2021-10-12|UEFA Champions League|uefa-cl|Sporting CP|0|2|Marseille|Group stage leg2|||Portugal|UCL-2223-Group stage-MAR-SPO|openfootball
+MATCH|2021-10-12|UEFA Champions League|uefa-cl|Tottenham|3|2|Ein Frankfurt|Group stage leg2|||England|UCL-2223-Group stage-EIN-TOT|openfootball
+MATCH|2021-10-13|UEFA Conference League|uefa-uecl|Fiorentina|5|1|Heart of Midlothian|Group stage leg2|||Italy|UECL-2223-Group stage-FIO-HEA|openfootball
+MATCH|2021-10-13|UEFA Conference League|uefa-uecl|West Ham|2|1|RSC Anderlecht|Group stage leg2|||England|UECL-2223-Group stage-RSC-WES|openfootball
+MATCH|2021-10-13|UEFA Conference League|uefa-uecl|Austria Wien|0|1|Villarreal|Group stage leg2|||Austria|UECL-2223-Group stage-AUS-VIL|openfootball
+MATCH|2021-10-13|UEFA Conference League|uefa-uecl|Nice|1|2|Slovacko|Group stage leg2|||France|UECL-2223-Group stage-NIC-SLO|openfootball
+MATCH|2021-10-13|UEFA Conference League|uefa-uecl|Partizan|2|0|FC Koln|Group stage leg2|||Serbia|UECL-2223-Group stage-FCK-PAR|openfootball
+MATCH|2021-10-13|UEFA Conference League|uefa-uecl|CFR Cluj|2|0|Slavia Prague|Group stage leg2|||Romania|UECL-2223-Group stage-CFR-SLA|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|FK Bodø/Glimt|0|1|Arsenal|Group stage leg2|||Norway|UEL-2223-Group stage-ARS-FKB|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|Dinamo Kiev|0|1|Rennes|Group stage leg2|||Ukraine|UEL-2223-Group stage-DIN-REN|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|Betis|1|1|Roma|Group stage leg2|||Spain|UEL-2223-Group stage-BET-ROM|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|Union Berlin|1|0|Malmö FF|Group stage leg2|||Germany|UEL-2223-Group stage-MAL-UNI|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|Sociedad|3|0|FC Sheriff|Group stage leg2|||Spain|UEL-2223-Group stage-FCS-SOC|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|Man United|1|0|Omonia Nikosia|Group stage leg2|||England|UEL-2223-Group stage-MAN-OMO|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|Lazio|2|2|Sturm Graz|Group stage leg2|||Italy|UEL-2223-Group stage-LAZ-STU|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|Nantes|0|4|Freiburg|Group stage leg2|||France|UEL-2223-Group stage-FRE-NAN|openfootball
+MATCH|2021-10-13|UEFA Europa League|uefa-el|Trabzonspor|4|0|Monaco|Group stage leg2|||Turkey|UEL-2223-Group stage-MON-TRA|openfootball
+MATCH|2021-10-19|UEFA Champions League|uefa-cl|Club Brugge|1|5|Man City|Group stage leg1|||Belgium|UCL-2122-Group stage-CLU-MAN|openfootball
+MATCH|2021-10-19|UEFA Champions League|uefa-cl|Paris SG|3|2|RB Leipzig|Group stage leg1|||France|UCL-2122-Group stage-PAR-RBL|openfootball
+MATCH|2021-10-19|UEFA Champions League|uefa-cl|Ath Madrid|2|3|Liverpool|Group stage leg1|||Spain|UCL-2122-Group stage-ATH-LIV|openfootball
+MATCH|2021-10-19|UEFA Champions League|uefa-cl|Porto|1|0|Milan|Group stage leg1|||Portugal|UCL-2122-Group stage-MIL-POR|openfootball
+MATCH|2021-10-19|UEFA Champions League|uefa-cl|AFC Ajax|4|0|Dortmund|Group stage leg1|||Netherlands|UCL-2122-Group stage-AFC-DOR|openfootball
+MATCH|2021-10-19|UEFA Champions League|uefa-cl|Shakhtar Donetsk|0|5|Real Madrid|Group stage leg1|||Ukraine|UCL-2122-Group stage-REA-SHA|openfootball
+MATCH|2021-10-19|UEFA Champions League|uefa-cl|Inter|3|1|FC Sheriff|Group stage leg1|||Italy|UCL-2122-Group stage-FCS-INT|openfootball
+MATCH|2021-10-20|UEFA Champions League|uefa-cl|Barcelona|1|0|Dinamo Kiev|Group stage leg1|||Spain|UCL-2122-Group stage-BAR-DIN|openfootball
+MATCH|2021-10-20|UEFA Champions League|uefa-cl|Benfica|0|4|Bayern Munich|Group stage leg1|||Portugal|UCL-2122-Group stage-BAY-BEN|openfootball
+MATCH|2021-10-20|UEFA Champions League|uefa-cl|Man United|3|2|Atalanta|Group stage leg1|||England|UCL-2122-Group stage-ATA-MAN|openfootball
+MATCH|2021-10-20|UEFA Champions League|uefa-cl|BSC Young Boys|1|4|Villarreal|Group stage leg1|||Switzerland|UCL-2122-Group stage-BSC-VIL|openfootball
+MATCH|2021-10-20|UEFA Champions League|uefa-cl|RB Salzburg|3|1|Wolfsburg|Group stage leg1|||Austria|UCL-2122-Group stage-RBS-WOL|openfootball
+MATCH|2021-10-20|UEFA Champions League|uefa-cl|Lille|0|0|Sevilla|Group stage leg1|||France|UCL-2122-Group stage-LIL-SEV|openfootball
+MATCH|2021-10-20|UEFA Champions League|uefa-cl|Zenit St Petersburg|0|1|Juventus|Group stage leg1|||Russia|UCL-2122-Group stage-JUV-ZEN|openfootball
+MATCH|2021-10-20|UEFA Champions League|uefa-cl|Chelsea|4|0|Malmö FF|Group stage leg1|||England|UCL-2122-Group stage-CHE-MAL|openfootball
+MATCH|2021-10-20|UEFA Europa League|uefa-el|Spartak Moscow|3|4|Leicester|Group stage leg1|||Russia|UEL-2122-Group stage-LEI-SPA|openfootball
+MATCH|2021-10-20|UEFA Europa League|uefa-el|Arsenal|1|0|PSV Eindhoven|Group stage leg1|||England|UEL-2223-Group stage-ARS-PSV|openfootball
+MATCH|2021-10-21|UEFA Conference League|uefa-uecl|FK Bodø/Glimt|6|1|Roma|Group stage leg1|||Norway|UECL-2122-Group stage-FKB-ROM|openfootball
+MATCH|2021-10-21|UEFA Conference League|uefa-uecl|Jablonec|2|2|Randers FC|Group stage leg1|||Czech Republic|UECL-2122-Group stage-JAB-RAN|openfootball
+MATCH|2021-10-21|UEFA Conference League|uefa-uecl|Feyenoord|3|1|Union Berlin|Group stage leg1|||Netherlands|UECL-2122-Group stage-FEY-UNI|openfootball
+MATCH|2021-10-21|UEFA Conference League|uefa-uecl|Maccabi Haifa|1|0|Slavia Prague|Group stage leg1|||Israel|UECL-2122-Group stage-MAC-SLA|openfootball
+MATCH|2021-10-21|UEFA Conference League|uefa-uecl|NŠ Mura|1|2|Rennes|Group stage leg1|||Slovenia|UECL-2122-Group stage-NMU-REN|openfootball
+MATCH|2021-10-21|UEFA Conference League|uefa-uecl|Vitesse|1|0|Tottenham|Group stage leg1|||Netherlands|UECL-2122-Group stage-TOT-VIT|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|Sparta Prague|3|4|Lyon|Group stage leg1|||Czech Republic|UEL-2122-Group stage-LYO-SPA|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|PSV Eindhoven|1|2|Monaco|Group stage leg1|||Netherlands|UEL-2122-Group stage-MON-PSV|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|Sturm Graz|0|1|Sociedad|Group stage leg1|||Austria|UEL-2122-Group stage-SOC-STU|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|Napoli|3|0|Legia Warsaw|Group stage leg1|||Italy|UEL-2122-Group stage-LEG-NAP|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|Ein Frankfurt|3|1|Olympiakos Piraeus|Group stage leg1|||Germany|UEL-2122-Group stage-EIN-OLY|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|Lazio|0|0|Marseille|Group stage leg1|||Italy|UEL-2122-Group stage-LAZ-MAR|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|Lokomotiv Moscow|0|1|Galatasaray|Group stage leg1|||Russia|UEL-2122-Group stage-GAL-LOK|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|Betis|1|1|Leverkusen|Group stage leg1|||Spain|UEL-2122-Group stage-BET-LEV|openfootball
+MATCH|2021-10-21|UEFA Europa League|uefa-el|West Ham|3|0|KRC Genk|Group stage leg1|||England|UEL-2122-Group stage-KRC-WES|openfootball
+MATCH|2021-10-21|UEFA Champions League|uefa-cl|Barcelona|6|1|PAE Olympiakos SFP|League phase MD3|||Spain||openfootball
+MATCH|2021-10-21|UEFA Champions League|uefa-cl|Royale Union Saint-Gilloise|0|4|Inter|League phase MD3|||Belgium||openfootball
+MATCH|2021-10-21|UEFA Champions League|uefa-cl|Copenhagen|2|4|Dortmund|League phase MD3|||Denmark||openfootball
+MATCH|2021-10-21|UEFA Champions League|uefa-cl|Leverkusen|2|7|Paris SG|League phase MD3|||Germany||openfootball
+MATCH|2021-10-21|UEFA Champions League|uefa-cl|Villarreal|0|2|Man City|League phase MD3|||Spain||openfootball
+MATCH|2021-10-21|UEFA Champions League|uefa-cl|Arsenal|4|0|Ath Madrid|League phase MD3|||England||openfootball
+MATCH|2021-10-21|UEFA Champions League|uefa-cl|Newcastle|3|0|Benfica|League phase MD3|||England||openfootball
+MATCH|2021-10-21|UEFA Champions League|uefa-cl|PSV|6|2|Napoli|League phase MD3|||Netherlands||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Milan|3|1|Club Brugge|League phase MD3|||Italy||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Aston Villa|2|0|Bologna|League phase MD3|||England||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Girona|2|0|ŠK Slovan Bratislava|League phase MD3|||Spain||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Paris SG|1|1|PSV|League phase MD3|||France||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Real Madrid|5|2|Dortmund|League phase MD3|||Spain||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Arsenal|1|0|FK Shakhtar Donetsk|League phase MD3|||England||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Juventus|0|1|Stuttgart|League phase MD3|||Italy||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Ath Bilbao|3|1|Qarabağ Ağdam FK|League phase MD3|||Spain||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Ein Frankfurt|1|5|Liverpool|League phase MD3|||Germany||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Atalanta|0|0|Slavia Prague|League phase MD3|||Italy||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Sporting CP|2|1|Marseille|League phase MD3|||Portugal||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Monaco|0|0|Tottenham|League phase MD3|||Monaco||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Bayern Munich|4|0|Club Brugge|League phase MD3|||Germany||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Chelsea|5|1|AFC Ajax|League phase MD3|||England||openfootball
+MATCH|2021-10-22|UEFA Champions League|uefa-cl|Real Madrid|1|0|Juventus|League phase MD3|||Spain||openfootball
+MATCH|2021-10-23|UEFA Champions League|uefa-cl|Brest|1|1|Leverkusen|League phase MD3|||France||openfootball
+MATCH|2021-10-23|UEFA Champions League|uefa-cl|Atalanta|0|0|Celtic|League phase MD3|||Italy||openfootball
+MATCH|2021-10-23|UEFA Champions League|uefa-cl|BSC Young Boys|0|1|Inter|League phase MD3|||Switzerland||openfootball
+MATCH|2021-10-23|UEFA Champions League|uefa-cl|Barcelona|4|1|Bayern Munich|League phase MD3|||Spain||openfootball
+MATCH|2021-10-23|UEFA Champions League|uefa-cl|Man City|5|0|Sparta Prague|League phase MD3|||England||openfootball
+MATCH|2021-10-23|UEFA Champions League|uefa-cl|RB Leipzig|0|1|Liverpool|League phase MD3|||Germany||openfootball
+MATCH|2021-10-23|UEFA Champions League|uefa-cl|Ath Madrid|1|3|Lille|League phase MD3|||Spain||openfootball
+MATCH|2021-10-24|UEFA Champions League|uefa-cl|Inter|2|1|FC Red Bull Salzburg|Group stage leg1|||Italy|UCL-2324-Group stage-FCR-INT|openfootball
+MATCH|2021-10-24|UEFA Champions League|uefa-cl|Galatasaray|1|3|Bayern Munich|Group stage leg1|||Turkey|UCL-2324-Group stage-BAY-GAL|openfootball
+MATCH|2021-10-24|UEFA Champions League|uefa-cl|Union Berlin|0|1|Napoli|Group stage leg1|||Germany|UCL-2324-Group stage-NAP-UNI|openfootball
+MATCH|2021-10-24|UEFA Champions League|uefa-cl|Braga|1|2|Real Madrid|Group stage leg1|||Portugal|UCL-2324-Group stage-BRA-REA|openfootball
+MATCH|2021-10-24|UEFA Champions League|uefa-cl|Benfica|0|1|Sociedad|Group stage leg1|||Portugal|UCL-2324-Group stage-BEN-SOC|openfootball
+MATCH|2021-10-24|UEFA Champions League|uefa-cl|Man United|1|0|Copenhagen|Group stage leg1|||England|UCL-2324-Group stage-COP-MAN|openfootball
+MATCH|2021-10-24|UEFA Champions League|uefa-cl|Sevilla|1|2|Arsenal|Group stage leg1|||Spain|UCL-2324-Group stage-ARS-SEV|openfootball
+MATCH|2021-10-24|UEFA Champions League|uefa-cl|Lens|1|1|PSV|Group stage leg1|||France|UCL-2324-Group stage-LEN-PSV|openfootball
+MATCH|2021-10-24|UEFA Conference League|uefa-uecl|FC St. Gallen|2|4|Fiorentina|League phase|||Switzerland||openfootball
+MATCH|2021-10-24|UEFA Conference League|uefa-uecl|Panathinaikos|1|4|Chelsea|League phase|||Greece||openfootball
+MATCH|2021-10-24|UEFA Conference League|uefa-uecl|Betis|1|1|Copenhagen|League phase|||Spain||openfootball
+MATCH|2021-10-24|UEFA Conference League|uefa-uecl|Mlada Boleslav|0|1|FC Lugano|League phase|||Czech Republic||openfootball
+MATCH|2021-10-24|UEFA Conference League|uefa-uecl|Paphos FC|0|1|Heidenheim|League phase|||Cyprus||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Roma|1|0|Dinamo Kiev|League phase|||Italy||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Ein Frankfurt|1|0|FK RFS|League phase|||Germany||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Maccabi Tel Aviv|1|2|Sociedad|League phase|||Israel||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Ferencvárosi TC|1|0|Nice|League phase|||Hungary||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|PAOK Saloniki|2|2|Viktoria Plzen|League phase|||Greece||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Porto|2|0|Hoffenheim|League phase|||Portugal||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Tottenham|1|0|AZ Alkmaar|League phase|||England||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Fenerbahce|1|1|Man United|League phase|||Turkey||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Lyon|0|1|Besiktas|League phase|||France||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Twente|0|2|Lazio|League phase|||Netherlands||openfootball
+MATCH|2021-10-24|UEFA Europa League|uefa-el|Ath Bilbao|1|0|Slavia Prague|League phase|||Spain||openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Dinamo Zagreb|0|4|Milan|Group stage leg2|||Croatia|UCL-2223-Group stage-DIN-MIL|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|RB Salzburg|1|2|Chelsea|Group stage leg2|||Austria|UCL-2223-Group stage-CHE-RBS|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|RB Leipzig|3|2|Real Madrid|Group stage leg2|||Germany|UCL-2223-Group stage-RBL-REA|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Dortmund|0|0|Man City|Group stage leg2|||Germany|UCL-2223-Group stage-DOR-MAN|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Sevilla|3|0|Copenhagen|Group stage leg2|||Spain|UCL-2223-Group stage-COP-SEV|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Benfica|4|3|Juventus|Group stage leg2|||Portugal|UCL-2223-Group stage-BEN-JUV|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Paris SG|7|2|Maccabi Haifa|Group stage leg2|||France|UCL-2223-Group stage-MAC-PAR|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|3|1|Lazio|Group stage leg1|||Netherlands|UCL-2324-Group stage-FEY-LAZ|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Barcelona|2|1|FK Shakhtar Donetsk|Group stage leg1|||Spain|UCL-2324-Group stage-BAR-FKS|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Celtic|2|2|Ath Madrid|Group stage leg1|||Scotland|UCL-2324-Group stage-ATH-CEL|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Paris SG|3|0|Milan|Group stage leg1|||France|UCL-2324-Group stage-MIL-PAR|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|Newcastle|0|1|Dortmund|Group stage leg1|||England|UCL-2324-Group stage-DOR-NEW|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|BSC Young Boys|1|3|Man City|Group stage leg1|||Switzerland|UCL-2324-Group stage-BSC-MAN|openfootball
+MATCH|2021-10-25|UEFA Champions League|uefa-cl|RB Leipzig|3|1|FK Crvena Zvezda|Group stage leg1|||Germany|UCL-2324-Group stage-FKC-RBL|openfootball
+MATCH|2021-10-26|UEFA Champions League|uefa-cl|AFC Ajax|0|3|Liverpool|Group stage leg2|||Netherlands|UCL-2223-Group stage-AFC-LIV|openfootball
+MATCH|2021-10-26|UEFA Champions League|uefa-cl|Napoli|3|0|Rangers|Group stage leg2|||Italy|UCL-2223-Group stage-NAP-RAN|openfootball
+MATCH|2021-10-26|UEFA Champions League|uefa-cl|Ath Madrid|2|2|Leverkusen|Group stage leg2|||Spain|UCL-2223-Group stage-ATH-LEV|openfootball
+MATCH|2021-10-26|UEFA Champions League|uefa-cl|Inter|4|0|Viktoria Plzen|Group stage leg2|||Italy|UCL-2223-Group stage-INT-VIK|openfootball
+MATCH|2021-10-26|UEFA Champions League|uefa-cl|Barcelona|0|3|Bayern Munich|Group stage leg2|||Spain|UCL-2223-Group stage-BAR-BAY|openfootball
+MATCH|2021-10-26|UEFA Champions League|uefa-cl|Tottenham|1|1|Sporting CP|Group stage leg2|||England|UCL-2223-Group stage-SPO-TOT|openfootball
+MATCH|2021-10-26|UEFA Champions League|uefa-cl|Ein Frankfurt|2|1|Marseille|Group stage leg2|||Germany|UCL-2223-Group stage-EIN-MAR|openfootball
+MATCH|2021-10-26|UEFA Conference League|uefa-uecl|Lille|2|1|Slovan Bratislava|Group stage leg1|||France|UECL-2324-Group stage-LIL-SLO|openfootball
+MATCH|2021-10-26|UEFA Conference League|uefa-uecl|Dinamo Zagreb|0|1|Viktoria Plzen|Group stage leg1|||Croatia|UECL-2324-Group stage-DIN-VIK|openfootball
+MATCH|2021-10-26|UEFA Conference League|uefa-uecl|AZ Alkmaar|1|4|Aston Villa|Group stage leg1|||Netherlands|UECL-2324-Group stage-AZA-AST|openfootball
+MATCH|2021-10-26|UEFA Conference League|uefa-uecl|Fiorentina|6|0|FK Čukarički|Group stage leg1|||Italy|UECL-2324-Group stage-FKU-FIO|openfootball
+MATCH|2021-10-26|UEFA Conference League|uefa-uecl|Ein Frankfurt|6|0|HJK Helsinki|Group stage leg1|||Germany|UECL-2324-Group stage-EIN-HJK|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Olympiakos Piraeus|2|1|West Ham|Group stage leg1|||Greece|UEL-2324-Group stage-OLY-WES|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|TSC Bačka Topola|1|3|Freiburg|Group stage leg1|||Serbia|UEL-2324-Group stage-FRE-TSC|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Marseille|3|1|AEK Athen|Group stage leg1|||France|UEL-2324-Group stage-AEK-MAR|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Brighton|2|0|AFC Ajax|Group stage leg1|||England|UEL-2324-Group stage-AFC-BRI|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Sparta Prague|0|0|Rangers|Group stage leg1|||Czech Republic|UEL-2324-Group stage-RAN-SPA|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Aris Limassol|0|1|Betis|Group stage leg1|||Cyprus|UEL-2324-Group stage-ARI-BET|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Sturm Graz|2|2|Atalanta|Group stage leg1|||Austria|UEL-2324-Group stage-ATA-STU|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Liverpool|5|1|Toulouse|Group stage leg1|||England|UEL-2324-Group stage-LIV-TOU|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Panathinaikos|1|2|Rennes|Group stage leg1|||Greece|UEL-2324-Group stage-PAN-REN|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Roma|2|0|Slavia Prague|Group stage leg1|||Italy|UEL-2324-Group stage-ROM-SLA|openfootball
+MATCH|2021-10-26|UEFA Europa League|uefa-el|Leverkusen|5|1|Qarabağ FK|Group stage leg1|||Germany|UEL-2324-Group stage-LEV-QAR|openfootball
+MATCH|2021-10-27|UEFA Conference League|uefa-uecl|Fiorentina|2|1|İstanbul Başakşehir|Group stage leg2|||Italy|UECL-2223-Group stage-FIO-STA|openfootball
+MATCH|2021-10-27|UEFA Conference League|uefa-uecl|West Ham|1|0|Silkeborg IF|Group stage leg2|||England|UECL-2223-Group stage-SIL-WES|openfootball
+MATCH|2021-10-27|UEFA Conference League|uefa-uecl|Villarreal|2|2|Hapoel Be'er Sheva|Group stage leg2|||Spain|UECL-2223-Group stage-HAP-VIL|openfootball
+MATCH|2021-10-27|UEFA Conference League|uefa-uecl|Nice|2|1|Partizan|Group stage leg2|||France|UECL-2223-Group stage-NIC-PAR|openfootball
+MATCH|2021-10-27|UEFA Conference League|uefa-uecl|KF Ballkani|0|1|Slavia Prague|Group stage leg2|||Kosovo|UECL-2223-Group stage-KFB-SLA|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|PSV Eindhoven|2|0|Arsenal|Group stage leg2|||Netherlands|UEL-2223-Group stage-ARS-PSV|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|Fenerbahce|3|3|Rennes|Group stage leg2|||Turkey|UEL-2223-Group stage-FEN-REN|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|HJK Helsinki|1|2|Roma|Group stage leg2|||Finland|UEL-2223-Group stage-HJK-ROM|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|0|1|Betis|Group stage leg2|||Bulgaria|UEL-2223-Group stage-BET-PFC|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|Union Berlin|1|0|Braga|Group stage leg2|||Germany|UEL-2223-Group stage-BRA-UNI|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|Omonia Nikosia|0|2|Sociedad|Group stage leg2|||Cyprus|UEL-2223-Group stage-OMO-SOC|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|Man United|3|0|FC Sheriff|Group stage leg2|||England|UEL-2223-Group stage-FCS-MAN|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|Lazio|2|1|Midtjylland|Group stage leg2|||Italy|UEL-2223-Group stage-LAZ-MID|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|Freiburg|1|1|Olympiakos Piraeus|Group stage leg2|||Germany|UEL-2223-Group stage-FRE-OLY|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|Nantes|2|1|Qarabağ FK|Group stage leg2|||France|UEL-2223-Group stage-NAN-QAR|openfootball
+MATCH|2021-10-27|UEFA Europa League|uefa-el|Ferencvárosi TC|1|1|Monaco|Group stage leg2|||Hungary|UEL-2223-Group stage-FER-MON|openfootball
+MATCH|2021-10-28|UEFA Conference League|uefa-uecl|Slovacko|0|1|FC Koln|Group stage leg2|||Czech Republic|UECL-2223-Group stage-FCK-SLO|openfootball
+MATCH|2021-11-01|UEFA Champions League|uefa-cl|Liverpool|2|0|Napoli|Group stage leg1|||England|UCL-2223-Group stage-LIV-NAP|openfootball
+MATCH|2021-11-01|UEFA Champions League|uefa-cl|Porto|2|1|Ath Madrid|Group stage leg2|||Portugal|UCL-2223-Group stage-ATH-POR|openfootball
+MATCH|2021-11-01|UEFA Champions League|uefa-cl|Leverkusen|0|0|Club Brugge|Group stage leg2|||Germany|UCL-2223-Group stage-CLU-LEV|openfootball
+MATCH|2021-11-01|UEFA Champions League|uefa-cl|Bayern Munich|2|0|Inter|Group stage leg2|||Germany|UCL-2223-Group stage-BAY-INT|openfootball
+MATCH|2021-11-01|UEFA Champions League|uefa-cl|Viktoria Plzen|2|4|Barcelona|Group stage leg2|||Czech Republic|UCL-2223-Group stage-BAR-VIK|openfootball
+MATCH|2021-11-01|UEFA Champions League|uefa-cl|Sporting CP|1|2|Ein Frankfurt|Group stage leg2|||Portugal|UCL-2223-Group stage-EIN-SPO|openfootball
+MATCH|2021-11-01|UEFA Champions League|uefa-cl|Marseille|1|2|Tottenham|Group stage leg2|||France|UCL-2223-Group stage-MAR-TOT|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Dinamo Kiev|0|1|Barcelona|Group stage leg2|||Ukraine|UCL-2122-Group stage-BAR-DIN|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Bayern Munich|5|2|Benfica|Group stage leg2|||Germany|UCL-2122-Group stage-BAY-BEN|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Atalanta|2|2|Man United|Group stage leg2|||Italy|UCL-2122-Group stage-ATA-MAN|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Villarreal|2|0|BSC Young Boys|Group stage leg2|||Spain|UCL-2122-Group stage-BSC-VIL|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Wolfsburg|2|1|RB Salzburg|Group stage leg2|||Germany|UCL-2122-Group stage-RBS-WOL|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Sevilla|1|2|Lille|Group stage leg2|||Spain|UCL-2122-Group stage-LIL-SEV|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Juventus|4|2|Zenit St Petersburg|Group stage leg2|||Italy|UCL-2122-Group stage-JUV-ZEN|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Malmö FF|0|1|Chelsea|Group stage leg2|||Sweden|UCL-2122-Group stage-CHE-MAL|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Chelsea|2|1|Dinamo Zagreb|Group stage leg2|||England|UCL-2223-Group stage-CHE-DIN|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Milan|4|0|RB Salzburg|Group stage leg2|||Italy|UCL-2223-Group stage-MIL-RBS|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Real Madrid|5|1|Celtic|Group stage leg2|||Spain|UCL-2223-Group stage-CEL-REA|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Shakhtar Donetsk|0|4|RB Leipzig|Group stage leg2|||Ukraine|UCL-2223-Group stage-RBL-SHA|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Copenhagen|1|1|Dortmund|Group stage leg2|||Denmark|UCL-2223-Group stage-COP-DOR|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Man City|3|1|Sevilla|Group stage leg2|||England|UCL-2223-Group stage-MAN-SEV|openfootball
+MATCH|2021-11-02|UEFA Champions League|uefa-cl|Juventus|1|2|Paris SG|Group stage leg2|||Italy|UCL-2223-Group stage-JUV-PAR|openfootball
+MATCH|2021-11-03|UEFA Champions League|uefa-cl|Man City|4|1|Club Brugge|Group stage leg2|||England|UCL-2122-Group stage-CLU-MAN|openfootball
+MATCH|2021-11-03|UEFA Champions League|uefa-cl|RB Leipzig|2|2|Paris SG|Group stage leg2|||Germany|UCL-2122-Group stage-PAR-RBL|openfootball
+MATCH|2021-11-03|UEFA Champions League|uefa-cl|Liverpool|2|0|Ath Madrid|Group stage leg2|||England|UCL-2122-Group stage-ATH-LIV|openfootball
+MATCH|2021-11-03|UEFA Champions League|uefa-cl|Milan|1|1|Porto|Group stage leg2|||Italy|UCL-2122-Group stage-MIL-POR|openfootball
+MATCH|2021-11-03|UEFA Champions League|uefa-cl|Dortmund|1|3|AFC Ajax|Group stage leg2|||Germany|UCL-2122-Group stage-AFC-DOR|openfootball
+MATCH|2021-11-03|UEFA Champions League|uefa-cl|Real Madrid|2|1|Shakhtar Donetsk|Group stage leg2|||Spain|UCL-2122-Group stage-REA-SHA|openfootball
+MATCH|2021-11-03|UEFA Champions League|uefa-cl|FC Sheriff|1|3|Inter|Group stage leg2|||Moldova|UCL-2122-Group stage-FCS-INT|openfootball
+MATCH|2021-11-03|UEFA Conference League|uefa-uecl|FK RFS|0|3|Fiorentina|Group stage leg1|||Latvia|UECL-2223-Group stage-FKR-FIO|openfootball
+MATCH|2021-11-03|UEFA Conference League|uefa-uecl|FCSB|0|3|West Ham|Group stage leg2|||Romania|UECL-2223-Group stage-FCS-WES|openfootball
+MATCH|2021-11-03|UEFA Conference League|uefa-uecl|Lech Poznań|3|0|Villarreal|Group stage leg2|||Poland|UECL-2223-Group stage-LEC-VIL|openfootball
+MATCH|2021-11-03|UEFA Conference League|uefa-uecl|Partizan|1|1|Slovacko|Group stage leg2|||Serbia|UECL-2223-Group stage-PAR-SLO|openfootball
+MATCH|2021-11-03|UEFA Conference League|uefa-uecl|FC Koln|2|2|Nice|Group stage leg2|||Germany|UECL-2223-Group stage-FCK-NIC|openfootball
+MATCH|2021-11-03|UEFA Conference League|uefa-uecl|Slavia Prague|1|1|Sivasspor|Group stage leg2|||Czech Republic|UECL-2223-Group stage-SIV-SLA|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Arsenal|1|0|FC Zürich|Group stage leg1|||England|UEL-2223-Group stage-ARS-FCZ|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Rennes|1|1|AEK Larnaca|Group stage leg2|||France|UEL-2223-Group stage-AEK-REN|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Roma|3|1|PFC Ludogorets Razgrad|Group stage leg2|||Italy|UEL-2223-Group stage-PFC-ROM|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Betis|3|0|HJK Helsinki|Group stage leg2|||Spain|UEL-2223-Group stage-BET-HJK|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Union Saint-Gilloise|0|1|Union Berlin|Group stage leg2|||Belgium|UEL-2223-Group stage-UNI-UNI|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Sociedad|0|1|Man United|Group stage leg2|||Spain|UEL-2223-Group stage-MAN-SOC|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Feyenoord|1|0|Lazio|Group stage leg2|||Netherlands|UEL-2223-Group stage-FEY-LAZ|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Olympiakos Piraeus|0|2|Nantes|Group stage leg2|||Greece|UEL-2223-Group stage-NAN-OLY|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Qarabağ FK|1|1|Freiburg|Group stage leg2|||Azerbaijan|UEL-2223-Group stage-FRE-QAR|openfootball
+MATCH|2021-11-03|UEFA Europa League|uefa-el|Monaco|4|1|Crvena Zvezda|Group stage leg2|||France|UEL-2223-Group stage-CRV-MON|openfootball
+MATCH|2021-11-04|UEFA Conference League|uefa-uecl|Roma|2|2|FK Bodø/Glimt|Group stage leg2|||Italy|UECL-2122-Group stage-FKB-ROM|openfootball
+MATCH|2021-11-04|UEFA Conference League|uefa-uecl|Randers FC|2|2|Jablonec|Group stage leg2|||Denmark|UECL-2122-Group stage-JAB-RAN|openfootball
+MATCH|2021-11-04|UEFA Conference League|uefa-uecl|Union Berlin|1|2|Feyenoord|Group stage leg2|||Germany|UECL-2122-Group stage-FEY-UNI|openfootball
+MATCH|2021-11-04|UEFA Conference League|uefa-uecl|Slavia Prague|1|0|Maccabi Haifa|Group stage leg2|||Czech Republic|UECL-2122-Group stage-MAC-SLA|openfootball
+MATCH|2021-11-04|UEFA Conference League|uefa-uecl|Rennes|1|0|NŠ Mura|Group stage leg2|||France|UECL-2122-Group stage-NMU-REN|openfootball
+MATCH|2021-11-04|UEFA Conference League|uefa-uecl|Tottenham|3|2|Vitesse|Group stage leg2|||England|UECL-2122-Group stage-TOT-VIT|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Lyon|3|0|Sparta Prague|Group stage leg2|||France|UEL-2122-Group stage-LYO-SPA|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Monaco|0|0|PSV Eindhoven|Group stage leg2|||France|UEL-2122-Group stage-MON-PSV|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Sociedad|1|1|Sturm Graz|Group stage leg2|||Spain|UEL-2122-Group stage-SOC-STU|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Leicester|1|1|Spartak Moscow|Group stage leg2|||England|UEL-2122-Group stage-LEI-SPA|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Legia Warsaw|1|4|Napoli|Group stage leg2|||Poland|UEL-2122-Group stage-LEG-NAP|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Olympiakos Piraeus|1|2|Ein Frankfurt|Group stage leg2|||Greece|UEL-2122-Group stage-EIN-OLY|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Marseille|2|2|Lazio|Group stage leg2|||France|UEL-2122-Group stage-LAZ-MAR|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Galatasaray|1|1|Lokomotiv Moscow|Group stage leg2|||Turkey|UEL-2122-Group stage-GAL-LOK|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|Leverkusen|4|0|Betis|Group stage leg2|||Germany|UEL-2122-Group stage-BET-LEV|openfootball
+MATCH|2021-11-04|UEFA Europa League|uefa-el|KRC Genk|2|2|West Ham|Group stage leg2|||Belgium|UEL-2122-Group stage-KRC-WES|openfootball
+MATCH|2021-11-04|UEFA Champions League|uefa-cl|Slavia Prague|0|3|Arsenal|League phase MD4|||Czech Republic||openfootball
+MATCH|2021-11-04|UEFA Champions League|uefa-cl|Napoli|0|0|Ein Frankfurt|League phase MD4|||Italy||openfootball
+MATCH|2021-11-04|UEFA Champions League|uefa-cl|Juventus|1|1|Sporting CP|League phase MD4|||Italy||openfootball
+MATCH|2021-11-04|UEFA Champions League|uefa-cl|Ath Madrid|3|1|Royale Union Saint-Gilloise|League phase MD4|||Spain||openfootball
+MATCH|2021-11-04|UEFA Champions League|uefa-cl|Tottenham|4|0|Copenhagen|League phase MD4|||England||openfootball
+MATCH|2021-11-04|UEFA Champions League|uefa-cl|Paris SG|1|2|Bayern Munich|League phase MD4|||France||openfootball
+MATCH|2021-11-04|UEFA Champions League|uefa-cl|Liverpool|1|0|Real Madrid|League phase MD4|||England||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|PSV|4|0|Girona|League phase MD4|||Netherlands||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Sporting CP|4|1|Man City|League phase MD4|||Portugal||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Bologna|0|1|Monaco|League phase MD4|||Italy||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Dortmund|1|0|SK Sturm Graz|League phase MD4|||Germany||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Liverpool|4|0|Leverkusen|League phase MD4|||England||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Real Madrid|1|3|Milan|League phase MD4|||Spain||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Celtic|3|1|RB Leipzig|League phase MD4|||Scotland||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Lille|1|1|Juventus|League phase MD4|||France||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Paphos FC|1|0|Villarreal|League phase MD4|||Cyprus||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Qarabağ Ağdam FK|2|2|Chelsea|League phase MD4|||Azerbaijan||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Inter|2|1|FK Kairat|League phase MD4|||Italy||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Man City|4|1|Dortmund|League phase MD4|||England||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Club Brugge|3|3|Barcelona|League phase MD4|||Belgium||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Benfica|0|1|Leverkusen|League phase MD4|||Portugal||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Marseille|0|1|Atalanta|League phase MD4|||France||openfootball
+MATCH|2021-11-05|UEFA Champions League|uefa-cl|Newcastle|2|0|Ath Bilbao|League phase MD4|||England||openfootball
+MATCH|2021-11-06|UEFA Champions League|uefa-cl|Club Brugge|1|0|Aston Villa|League phase MD4|||Belgium||openfootball
+MATCH|2021-11-06|UEFA Champions League|uefa-cl|Sparta Prague|1|2|Brest|League phase MD4|||Czech Republic||openfootball
+MATCH|2021-11-06|UEFA Champions League|uefa-cl|Stuttgart|0|2|Atalanta|League phase MD4|||Germany||openfootball
+MATCH|2021-11-06|UEFA Champions League|uefa-cl|Inter|1|0|Arsenal|League phase MD4|||Italy||openfootball
+MATCH|2021-11-06|UEFA Champions League|uefa-cl|Paris SG|1|2|Ath Madrid|League phase MD4|||France||openfootball
+MATCH|2021-11-06|UEFA Champions League|uefa-cl|FK Crvena Zvezda|2|5|Barcelona|League phase MD4|||Serbia||openfootball
+MATCH|2021-11-06|UEFA Champions League|uefa-cl|Bayern Munich|1|0|Benfica|League phase MD4|||Germany||openfootball
+MATCH|2021-11-07|UEFA Champions League|uefa-cl|Lazio|1|0|Feyenoord Rotterdam|Group stage leg2|||Italy|UCL-2324-Group stage-FEY-LAZ|openfootball
+MATCH|2021-11-07|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|1|0|Barcelona|Group stage leg2|||Ukraine|UCL-2324-Group stage-BAR-FKS|openfootball
+MATCH|2021-11-07|UEFA Champions League|uefa-cl|Ath Madrid|6|0|Celtic|Group stage leg2|||Spain|UCL-2324-Group stage-ATH-CEL|openfootball
+MATCH|2021-11-07|UEFA Champions League|uefa-cl|Milan|2|1|Paris SG|Group stage leg2|||Italy|UCL-2324-Group stage-MIL-PAR|openfootball
+MATCH|2021-11-07|UEFA Champions League|uefa-cl|Dortmund|2|0|Newcastle|Group stage leg2|||Germany|UCL-2324-Group stage-DOR-NEW|openfootball
+MATCH|2021-11-07|UEFA Champions League|uefa-cl|Man City|3|0|BSC Young Boys|Group stage leg2|||England|UCL-2324-Group stage-BSC-MAN|openfootball
+MATCH|2021-11-07|UEFA Champions League|uefa-cl|FK Crvena Zvezda|1|2|RB Leipzig|Group stage leg2|||Serbia|UCL-2324-Group stage-FKC-RBL|openfootball
+MATCH|2021-11-07|UEFA Conference League|uefa-uecl|Chelsea|8|0|FC Noah|League phase|||England||openfootball
+MATCH|2021-11-07|UEFA Conference League|uefa-uecl|Betis|2|1|Celje|League phase|||Spain||openfootball
+MATCH|2021-11-07|UEFA Conference League|uefa-uecl|APOEL Nikosia|2|1|Fiorentina|League phase|||Cyprus||openfootball
+MATCH|2021-11-07|UEFA Conference League|uefa-uecl|Vitória Guimarães|2|1|Mlada Boleslav|League phase|||Portugal||openfootball
+MATCH|2021-11-07|UEFA Conference League|uefa-uecl|Heart of Midlothian|0|2|Heidenheim|League phase|||Scotland||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|Ein Frankfurt|1|0|Slavia Prague|League phase|||Germany||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|Union Saint-Gilloise|1|1|Roma|League phase|||Belgium||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|1|2|Ath Bilbao|League phase|||Bulgaria||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|Galatasaray|3|2|Tottenham|League phase|||Turkey||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|Nice|2|2|Twente|League phase|||France||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|Man United|2|0|PAOK Saloniki|League phase|||England||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|Lazio|2|1|Porto|League phase|||Italy||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|Viktoria Plzen|2|1|Sociedad|League phase|||Czech Republic||openfootball
+MATCH|2021-11-07|UEFA Europa League|uefa-el|Hoffenheim|2|2|Lyon|League phase|||Germany||openfootball
+MATCH|2021-11-08|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|1|Inter|Group stage leg2|||Austria|UCL-2324-Group stage-FCR-INT|openfootball
+MATCH|2021-11-08|UEFA Champions League|uefa-cl|Bayern Munich|2|1|Galatasaray|Group stage leg2|||Germany|UCL-2324-Group stage-BAY-GAL|openfootball
+MATCH|2021-11-08|UEFA Champions League|uefa-cl|Napoli|1|1|Union Berlin|Group stage leg2|||Italy|UCL-2324-Group stage-NAP-UNI|openfootball
+MATCH|2021-11-08|UEFA Champions League|uefa-cl|Real Madrid|3|0|Braga|Group stage leg2|||Spain|UCL-2324-Group stage-BRA-REA|openfootball
+MATCH|2021-11-08|UEFA Champions League|uefa-cl|Sociedad|3|1|Benfica|Group stage leg2|||Spain|UCL-2324-Group stage-BEN-SOC|openfootball
+MATCH|2021-11-08|UEFA Champions League|uefa-cl|Copenhagen|4|3|Man United|Group stage leg2|||Denmark|UCL-2324-Group stage-COP-MAN|openfootball
+MATCH|2021-11-08|UEFA Champions League|uefa-cl|Arsenal|2|0|Sevilla|Group stage leg2|||England|UCL-2324-Group stage-ARS-SEV|openfootball
+MATCH|2021-11-08|UEFA Champions League|uefa-cl|PSV|1|0|Lens|Group stage leg2|||Netherlands|UCL-2324-Group stage-LEN-PSV|openfootball
+MATCH|2021-11-09|UEFA Conference League|uefa-uecl|Slovan Bratislava|1|1|Lille|Group stage leg2|||Slovakia|UECL-2324-Group stage-LIL-SLO|openfootball
+MATCH|2021-11-09|UEFA Conference League|uefa-uecl|Viktoria Plzen|1|0|Dinamo Zagreb|Group stage leg2|||Czech Republic|UECL-2324-Group stage-DIN-VIK|openfootball
+MATCH|2021-11-09|UEFA Conference League|uefa-uecl|Aston Villa|2|1|AZ Alkmaar|Group stage leg2|||England|UECL-2324-Group stage-AZA-AST|openfootball
+MATCH|2021-11-09|UEFA Conference League|uefa-uecl|FK Čukarički|0|1|Fiorentina|Group stage leg2|||Serbia|UECL-2324-Group stage-FKU-FIO|openfootball
+MATCH|2021-11-09|UEFA Conference League|uefa-uecl|HJK Helsinki|0|1|Ein Frankfurt|Group stage leg2|||Finland|UECL-2324-Group stage-EIN-HJK|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|West Ham|1|0|Olympiakos Piraeus|Group stage leg2|||England|UEL-2324-Group stage-OLY-WES|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Freiburg|5|0|TSC Bačka Topola|Group stage leg2|||Germany|UEL-2324-Group stage-FRE-TSC|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|AEK Athen|0|2|Marseille|Group stage leg2|||Greece|UEL-2324-Group stage-AEK-MAR|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|AFC Ajax|0|2|Brighton|Group stage leg2|||Netherlands|UEL-2324-Group stage-AFC-BRI|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Rangers|2|1|Sparta Prague|Group stage leg2|||Scotland|UEL-2324-Group stage-RAN-SPA|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Betis|4|1|Aris Limassol|Group stage leg2|||Spain|UEL-2324-Group stage-ARI-BET|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Atalanta|1|0|Sturm Graz|Group stage leg2|||Italy|UEL-2324-Group stage-ATA-STU|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Toulouse|3|2|Liverpool|Group stage leg2|||France|UEL-2324-Group stage-LIV-TOU|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Rennes|3|1|Panathinaikos|Group stage leg2|||France|UEL-2324-Group stage-PAN-REN|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Maccabi Haifa|1|2|Villarreal|Group stage leg1|||Israel|UEL-2324-Group stage-MAC-VIL|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Slavia Prague|2|0|Roma|Group stage leg2|||Czech Republic|UEL-2324-Group stage-ROM-SLA|openfootball
+MATCH|2021-11-09|UEFA Europa League|uefa-el|Qarabağ FK|0|1|Leverkusen|Group stage leg2|||Azerbaijan|UEL-2324-Group stage-LEV-QAR|openfootball
+MATCH|2021-11-23|UEFA Champions League|uefa-cl|Barcelona|0|0|Benfica|Group stage leg2|||Spain|UCL-2122-Group stage-BAR-BEN|openfootball
+MATCH|2021-11-23|UEFA Champions League|uefa-cl|Dinamo Kiev|1|2|Bayern Munich|Group stage leg2|||Ukraine|UCL-2122-Group stage-BAY-DIN|openfootball
+MATCH|2021-11-23|UEFA Champions League|uefa-cl|BSC Young Boys|3|3|Atalanta|Group stage leg2|||Switzerland|UCL-2122-Group stage-ATA-BSC|openfootball
+MATCH|2021-11-23|UEFA Champions League|uefa-cl|Villarreal|0|2|Man United|Group stage leg2|||Spain|UCL-2122-Group stage-MAN-VIL|openfootball
+MATCH|2021-11-23|UEFA Champions League|uefa-cl|Lille|1|0|RB Salzburg|Group stage leg2|||France|UCL-2122-Group stage-LIL-RBS|openfootball
+MATCH|2021-11-23|UEFA Champions League|uefa-cl|Sevilla|2|0|Wolfsburg|Group stage leg2|||Spain|UCL-2122-Group stage-SEV-WOL|openfootball
+MATCH|2021-11-23|UEFA Champions League|uefa-cl|Malmö FF|1|1|Zenit St Petersburg|Group stage leg2|||Sweden|UCL-2122-Group stage-MAL-ZEN|openfootball
+MATCH|2021-11-23|UEFA Champions League|uefa-cl|Chelsea|4|0|Juventus|Group stage leg2|||England|UCL-2122-Group stage-CHE-JUV|openfootball
+MATCH|2021-11-24|UEFA Champions League|uefa-cl|Man City|2|1|Paris SG|Group stage leg2|||England|UCL-2122-Group stage-MAN-PAR|openfootball
+MATCH|2021-11-24|UEFA Champions League|uefa-cl|Club Brugge|0|5|RB Leipzig|Group stage leg2|||Belgium|UCL-2122-Group stage-CLU-RBL|openfootball
+MATCH|2021-11-24|UEFA Champions League|uefa-cl|Liverpool|2|0|Porto|Group stage leg2|||England|UCL-2122-Group stage-LIV-POR|openfootball
+MATCH|2021-11-24|UEFA Champions League|uefa-cl|Ath Madrid|0|1|Milan|Group stage leg2|||Spain|UCL-2122-Group stage-ATH-MIL|openfootball
+MATCH|2021-11-24|UEFA Champions League|uefa-cl|Sporting CP|3|1|Dortmund|Group stage leg2|||Portugal|UCL-2122-Group stage-DOR-SPO|openfootball
+MATCH|2021-11-24|UEFA Champions League|uefa-cl|Inter|2|0|Shakhtar Donetsk|Group stage leg2|||Italy|UCL-2122-Group stage-INT-SHA|openfootball
+MATCH|2021-11-24|UEFA Champions League|uefa-cl|FC Sheriff|0|3|Real Madrid|Group stage leg2|||Moldova|UCL-2122-Group stage-FCS-REA|openfootball
+MATCH|2021-11-24|UEFA Europa League|uefa-el|Spartak Moscow|2|1|Napoli|Group stage leg2|||Russia|UEL-2122-Group stage-NAP-SPA|openfootball
+MATCH|2021-11-25|UEFA Conference League|uefa-uecl|Roma|4|0|Zorya Lugansk|Group stage leg2|||Italy|UECL-2122-Group stage-ROM-ZOR|openfootball
+MATCH|2021-11-25|UEFA Conference League|uefa-uecl|Jablonec|1|1|AZ Alkmaar|Group stage leg2|||Czech Republic|UECL-2122-Group stage-AZA-JAB|openfootball
+MATCH|2021-11-25|UEFA Conference League|uefa-uecl|Maccabi Haifa|0|1|Union Berlin|Group stage leg2|||Israel|UECL-2122-Group stage-MAC-UNI|openfootball
+MATCH|2021-11-25|UEFA Conference League|uefa-uecl|Slavia Prague|2|2|Feyenoord|Group stage leg2|||Czech Republic|UECL-2122-Group stage-FEY-SLA|openfootball
+MATCH|2021-11-25|UEFA Conference League|uefa-uecl|NŠ Mura|2|1|Tottenham|Group stage leg2|||Slovenia|UECL-2122-Group stage-NMU-TOT|openfootball
+MATCH|2021-11-25|UEFA Conference League|uefa-uecl|Rennes|3|3|Vitesse|Group stage leg2|||France|UECL-2122-Group stage-REN-VIT|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Brondby|1|3|Lyon|Group stage leg2|||Denmark|UEL-2122-Group stage-BRO-LYO|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Rangers|2|0|Sparta Prague|Group stage leg2|||Scotland|UEL-2122-Group stage-RAN-SPA|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Monaco|2|1|Sociedad|Group stage leg2|||France|UEL-2122-Group stage-MON-SOC|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Leicester|3|1|Legia Warsaw|Group stage leg2|||England|UEL-2122-Group stage-LEG-LEI|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Ein Frankfurt|2|2|Royal Antwerp FC|Group stage leg2|||Germany|UEL-2122-Group stage-EIN-ROY|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Galatasaray|4|2|Marseille|Group stage leg2|||Turkey|UEL-2122-Group stage-GAL-MAR|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Lokomotiv Moscow|0|3|Lazio|Group stage leg2|||Russia|UEL-2122-Group stage-LAZ-LOK|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Leverkusen|3|2|Celtic|Group stage leg2|||Germany|UEL-2122-Group stage-CEL-LEV|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Betis|2|0|Ferencvárosi TC|Group stage leg2|||Spain|UEL-2122-Group stage-BET-FER|openfootball
+MATCH|2021-11-25|UEFA Europa League|uefa-el|Rapid Wien|0|2|West Ham|Group stage leg2|||Austria|UEL-2122-Group stage-RAP-WES|openfootball
+MATCH|2021-11-25|UEFA Champions League|uefa-cl|Dortmund|4|0|Villarreal|League phase MD5|||Germany||openfootball
+MATCH|2021-11-25|UEFA Champions League|uefa-cl|Man City|0|2|Leverkusen|League phase MD5|||England||openfootball
+MATCH|2021-11-25|UEFA Champions League|uefa-cl|FK Bodø/Glimt|2|3|Juventus|League phase MD5|||Norway||openfootball
+MATCH|2021-11-25|UEFA Champions League|uefa-cl|Marseille|2|1|Newcastle|League phase MD5|||France||openfootball
+MATCH|2021-11-25|UEFA Champions League|uefa-cl|Slavia Prague|0|0|Ath Bilbao|League phase MD5|||Czech Republic||openfootball
+MATCH|2021-11-25|UEFA Champions League|uefa-cl|Napoli|2|0|Qarabağ Ağdam FK|League phase MD5|||Italy||openfootball
+MATCH|2021-11-25|UEFA Champions League|uefa-cl|Chelsea|3|0|Barcelona|League phase MD5|||England||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|ŠK Slovan Bratislava|2|3|Milan|League phase MD5|||Slovakia||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Sparta Prague|0|6|Ath Madrid|League phase MD5|||Czech Republic||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Sporting CP|1|5|Arsenal|League phase MD5|||Portugal||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|BSC Young Boys|1|6|Atalanta|League phase MD5|||Switzerland||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Bayern Munich|1|0|Paris SG|League phase MD5|||Germany||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Barcelona|3|0|Brest|League phase MD5|||Spain||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Inter|1|0|RB Leipzig|League phase MD5|||Italy||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Man City|3|3|Feyenoord Rotterdam|League phase MD5|||England||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Leverkusen|5|0|FC Red Bull Salzburg|League phase MD5|||Germany||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Liverpool|1|4|PSV|League phase MD5|||England||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Paris SG|5|3|Tottenham|League phase MD5|||France||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Ein Frankfurt|0|3|Atalanta|League phase MD5|||Germany||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Arsenal|3|1|Bayern Munich|League phase MD5|||England||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|PAE Olympiakos SFP|3|4|Real Madrid|League phase MD5|||Greece||openfootball
+MATCH|2021-11-26|UEFA Champions League|uefa-cl|Ath Madrid|2|1|Inter|League phase MD5|||Spain||openfootball
+MATCH|2021-11-27|UEFA Champions League|uefa-cl|SK Sturm Graz|1|0|Girona|League phase MD5|||Austria||openfootball
+MATCH|2021-11-27|UEFA Champions League|uefa-cl|FK Crvena Zvezda|5|1|Stuttgart|League phase MD5|||Serbia||openfootball
+MATCH|2021-11-27|UEFA Champions League|uefa-cl|Aston Villa|0|0|Juventus|League phase MD5|||England||openfootball
+MATCH|2021-11-27|UEFA Champions League|uefa-cl|Bologna|1|2|Lille|League phase MD5|||Italy||openfootball
+MATCH|2021-11-27|UEFA Champions League|uefa-cl|Liverpool|2|0|Real Madrid|League phase MD5|||England||openfootball
+MATCH|2021-11-27|UEFA Champions League|uefa-cl|GNK Dinamo Zagreb|0|3|Dortmund|League phase MD5|||Croatia||openfootball
+MATCH|2021-11-28|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|1|3|Ath Madrid|Group stage leg2|||Netherlands|UCL-2324-Group stage-ATH-FEY|openfootball
+MATCH|2021-11-28|UEFA Champions League|uefa-cl|Lazio|2|0|Celtic|Group stage leg2|||Italy|UCL-2324-Group stage-CEL-LAZ|openfootball
+MATCH|2021-11-28|UEFA Champions League|uefa-cl|Milan|1|3|Dortmund|Group stage leg2|||Italy|UCL-2324-Group stage-DOR-MIL|openfootball
+MATCH|2021-11-28|UEFA Champions League|uefa-cl|Paris SG|1|1|Newcastle|Group stage leg2|||France|UCL-2324-Group stage-NEW-PAR|openfootball
+MATCH|2021-11-28|UEFA Champions League|uefa-cl|Man City|3|2|RB Leipzig|Group stage leg2|||England|UCL-2324-Group stage-MAN-RBL|openfootball
+MATCH|2021-11-28|UEFA Champions League|uefa-cl|Barcelona|2|1|Porto|Group stage leg2|||Spain|UCL-2324-Group stage-BAR-POR|openfootball
+MATCH|2021-11-28|UEFA Conference League|uefa-uecl|Heidenheim|0|2|Chelsea|League phase|||Germany||openfootball
+MATCH|2021-11-28|UEFA Conference League|uefa-uecl|Fiorentina|3|2|Paphos FC|League phase|||Italy||openfootball
+MATCH|2021-11-28|UEFA Conference League|uefa-uecl|Mlada Boleslav|2|1|Betis|League phase|||Czech Republic||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Lazio|0|0|PFC Ludogorets Razgrad|League phase|||Italy||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Dinamo Kiev|1|2|Viktoria Plzen|League phase|||Ukraine||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Qarabağ FK|1|4|Lyon|League phase|||Azerbaijan||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Ath Bilbao|3|0|IF Elfsborg|League phase|||Spain||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Slavia Prague|1|2|Fenerbahce|League phase|||Czech Republic||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Man United|3|2|FK Bodø/Glimt|League phase|||England||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Tottenham|2|2|Roma|League phase|||England||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Braga|3|0|Hoffenheim|League phase|||Portugal||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Sociedad|2|0|AFC Ajax|League phase|||Spain||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Midtjylland|1|2|Ein Frankfurt|League phase|||Denmark||openfootball
+MATCH|2021-11-28|UEFA Europa League|uefa-el|Nice|1|4|Rangers|League phase|||France||openfootball
+MATCH|2021-11-29|UEFA Champions League|uefa-cl|Braga|1|1|Union Berlin|Group stage leg2|||Portugal|UCL-2324-Group stage-BRA-UNI|openfootball
+MATCH|2021-11-29|UEFA Champions League|uefa-cl|Sociedad|0|0|FC Red Bull Salzburg|Group stage leg2|||Spain|UCL-2324-Group stage-FCR-SOC|openfootball
+MATCH|2021-11-29|UEFA Champions League|uefa-cl|Real Madrid|4|2|Napoli|Group stage leg2|||Spain|UCL-2324-Group stage-NAP-REA|openfootball
+MATCH|2021-11-29|UEFA Champions League|uefa-cl|Benfica|3|3|Inter|Group stage leg2|||Portugal|UCL-2324-Group stage-BEN-INT|openfootball
+MATCH|2021-11-29|UEFA Champions League|uefa-cl|Bayern Munich|0|0|Copenhagen|Group stage leg2|||Germany|UCL-2324-Group stage-BAY-COP|openfootball
+MATCH|2021-11-29|UEFA Champions League|uefa-cl|Galatasaray|3|3|Man United|Group stage leg2|||Turkey|UCL-2324-Group stage-GAL-MAN|openfootball
+MATCH|2021-11-29|UEFA Champions League|uefa-cl|Arsenal|6|0|Lens|Group stage leg2|||England|UCL-2324-Group stage-ARS-LEN|openfootball
+MATCH|2021-11-29|UEFA Champions League|uefa-cl|Sevilla|2|3|PSV|Group stage leg2|||Spain|UCL-2324-Group stage-PSV-SEV|openfootball
+MATCH|2021-11-30|UEFA Conference League|uefa-uecl|Olimpija Ljubljana|0|2|Lille|Group stage leg1|||Slovenia|UECL-2324-Group stage-LIL-OLI|openfootball
+MATCH|2021-11-30|UEFA Conference League|uefa-uecl|KF Ballkani|0|1|Viktoria Plzen|Group stage leg2|||Kosovo|UECL-2324-Group stage-KFB-VIK|openfootball
+MATCH|2021-11-30|UEFA Conference League|uefa-uecl|Aston Villa|2|1|Legia Warsaw|Group stage leg2|||England|UECL-2324-Group stage-AST-LEG|openfootball
+MATCH|2021-11-30|UEFA Conference League|uefa-uecl|Fiorentina|2|1|KRC Genk|Group stage leg2|||Italy|UECL-2324-Group stage-FIO-KRC|openfootball
+MATCH|2021-11-30|UEFA Conference League|uefa-uecl|Ein Frankfurt|1|2|PAOK Saloniki|Group stage leg2|||Germany|UECL-2324-Group stage-EIN-PAO|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Freiburg|5|0|Olympiakos Piraeus|Group stage leg1|||Germany|UEL-2324-Group stage-FRE-OLY|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|TSC Bačka Topola|0|1|West Ham|Group stage leg1|||Serbia|UEL-2324-Group stage-TSC-WES|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Marseille|4|3|AFC Ajax|Group stage leg2|||France|UEL-2324-Group stage-AFC-MAR|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|AEK Athen|0|1|Brighton|Group stage leg2|||Greece|UEL-2324-Group stage-AEK-BRI|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Sparta Prague|1|0|Betis|Group stage leg2|||Czech Republic|UEL-2324-Group stage-BET-SPA|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Atalanta|1|1|Sporting CP|Group stage leg2|||Italy|UEL-2324-Group stage-ATA-SPO|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Toulouse|0|0|Union Saint-Gilloise|Group stage leg2|||France|UEL-2324-Group stage-TOU-UNI|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Liverpool|4|0|LASK|Group stage leg2|||England|UEL-2324-Group stage-LAS-LIV|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Maccabi Haifa|0|3|Rennes|Group stage leg2|||Israel|UEL-2324-Group stage-MAC-REN|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Villarreal|3|2|Panathinaikos|Group stage leg2|||Spain|UEL-2324-Group stage-PAN-VIL|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|Servette FC|1|1|Roma|Group stage leg2|||Switzerland|UEL-2324-Group stage-ROM-SER|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|FC Sheriff|2|3|Slavia Prague|Group stage leg2|||Moldova|UEL-2324-Group stage-FCS-SLA|openfootball
+MATCH|2021-11-30|UEFA Europa League|uefa-el|BK Häcken|0|2|Leverkusen|Group stage leg2|||Sweden|UEL-2324-Group stage-BKH-LEV|openfootball
+MATCH|2021-12-06|UEFA Europa League|uefa-el|Villarreal|0|0|Maccabi Haifa|Group stage leg2|||Spain|UEL-2324-Group stage-MAC-VIL|openfootball
+MATCH|2021-12-07|UEFA Champions League|uefa-cl|RB Leipzig|2|1|Man City|Group stage leg2|||Germany|UCL-2122-Group stage-MAN-RBL|openfootball
+MATCH|2021-12-07|UEFA Champions League|uefa-cl|Paris SG|4|1|Club Brugge|Group stage leg2|||France|UCL-2122-Group stage-CLU-PAR|openfootball
+MATCH|2021-12-07|UEFA Champions League|uefa-cl|Porto|1|3|Ath Madrid|Group stage leg2|||Portugal|UCL-2122-Group stage-ATH-POR|openfootball
+MATCH|2021-12-07|UEFA Champions League|uefa-cl|Milan|1|2|Liverpool|Group stage leg2|||Italy|UCL-2122-Group stage-LIV-MIL|openfootball
+MATCH|2021-12-07|UEFA Champions League|uefa-cl|Dortmund|5|0|Besiktas|Group stage leg2|||Germany|UCL-2122-Group stage-BES-DOR|openfootball
+MATCH|2021-12-07|UEFA Champions League|uefa-cl|Real Madrid|2|0|Inter|Group stage leg2|||Spain|UCL-2122-Group stage-INT-REA|openfootball
+MATCH|2021-12-08|UEFA Champions League|uefa-cl|Bayern Munich|3|0|Barcelona|Group stage leg2|||Germany|UCL-2122-Group stage-BAR-BAY|openfootball
+MATCH|2021-12-08|UEFA Champions League|uefa-cl|Man United|1|1|BSC Young Boys|Group stage leg2|||England|UCL-2122-Group stage-BSC-MAN|openfootball
+MATCH|2021-12-08|UEFA Champions League|uefa-cl|RB Salzburg|1|0|Sevilla|Group stage leg2|||Austria|UCL-2122-Group stage-RBS-SEV|openfootball
+MATCH|2021-12-08|UEFA Champions League|uefa-cl|Wolfsburg|1|3|Lille|Group stage leg2|||Germany|UCL-2122-Group stage-LIL-WOL|openfootball
+MATCH|2021-12-08|UEFA Champions League|uefa-cl|Zenit St Petersburg|3|3|Chelsea|Group stage leg2|||Russia|UCL-2122-Group stage-CHE-ZEN|openfootball
+MATCH|2021-12-08|UEFA Champions League|uefa-cl|Juventus|1|0|Malmö FF|Group stage leg2|||Italy|UCL-2122-Group stage-JUV-MAL|openfootball
+MATCH|2021-12-09|UEFA Champions League|uefa-cl|Atalanta|2|3|Villarreal|Group stage leg2|||Italy|UCL-2122-Group stage-ATA-VIL|openfootball
+MATCH|2021-12-09|UEFA Conference League|uefa-uecl|CSKA Sofia|2|3|Roma|Group stage leg2|||Bulgaria|UECL-2122-Group stage-CSK-ROM|openfootball
+MATCH|2021-12-09|UEFA Conference League|uefa-uecl|CFR Cluj|2|0|Jablonec|Group stage leg2|||Romania|UECL-2122-Group stage-CFR-JAB|openfootball
+MATCH|2021-12-09|UEFA Conference League|uefa-uecl|Union Berlin|1|1|Slavia Prague|Group stage leg2|||Germany|UECL-2122-Group stage-SLA-UNI|openfootball
+MATCH|2021-12-09|UEFA Conference League|uefa-uecl|Tottenham|0|3|Rennes|Group stage leg2|||England|UECL-2122-Group stage-REN-TOT|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Sparta Prague|2|0|Brondby|Group stage leg2|||Czech Republic|UEL-2122-Group stage-BRO-SPA|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Lyon|1|1|Rangers|Group stage leg2|||France|UEL-2122-Group stage-LYO-RAN|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Sturm Graz|1|1|Monaco|Group stage leg2|||Austria|UEL-2122-Group stage-MON-STU|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Sociedad|3|0|PSV Eindhoven|Group stage leg2|||Spain|UEL-2122-Group stage-PSV-SOC|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Legia Warsaw|0|1|Spartak Moscow|Group stage leg2|||Poland|UEL-2122-Group stage-LEG-SPA|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Napoli|3|2|Leicester|Group stage leg2|||Italy|UEL-2122-Group stage-LEI-NAP|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Fenerbahce|1|1|Ein Frankfurt|Group stage leg2|||Turkey|UEL-2122-Group stage-EIN-FEN|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Lazio|0|0|Galatasaray|Group stage leg2|||Italy|UEL-2122-Group stage-GAL-LAZ|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Marseille|1|0|Lokomotiv Moscow|Group stage leg2|||France|UEL-2122-Group stage-LOK-MAR|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Ferencvárosi TC|1|0|Leverkusen|Group stage leg2|||Hungary|UEL-2122-Group stage-FER-LEV|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|Celtic|3|2|Betis|Group stage leg2|||Scotland|UEL-2122-Group stage-BET-CEL|openfootball
+MATCH|2021-12-09|UEFA Europa League|uefa-el|West Ham|0|1|Dinamo Zagreb|Group stage leg2|||England|UEL-2122-Group stage-DIN-WES|openfootball
+MATCH|2021-12-09|UEFA Champions League|uefa-cl|Bayern Munich|3|1|Sporting CP|League phase MD6|||Germany||openfootball
+MATCH|2021-12-09|UEFA Champions League|uefa-cl|Barcelona|2|1|Ein Frankfurt|League phase MD6|||Spain||openfootball
+MATCH|2021-12-09|UEFA Champions League|uefa-cl|PSV|2|3|Ath Madrid|League phase MD6|||Netherlands||openfootball
+MATCH|2021-12-09|UEFA Champions League|uefa-cl|Royale Union Saint-Gilloise|2|3|Marseille|League phase MD6|||Belgium||openfootball
+MATCH|2021-12-09|UEFA Champions League|uefa-cl|Tottenham|3|0|Slavia Prague|League phase MD6|||England||openfootball
+MATCH|2021-12-09|UEFA Champions League|uefa-cl|Atalanta|2|1|Chelsea|League phase MD6|||Italy||openfootball
+MATCH|2021-12-09|UEFA Champions League|uefa-cl|Inter|0|1|Liverpool|League phase MD6|||Italy||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Girona|0|1|Liverpool|League phase MD6|||Spain||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Brest|1|0|PSV|League phase MD6|||France||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|RB Leipzig|2|3|Aston Villa|League phase MD6|||Germany||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Atalanta|2|3|Real Madrid|League phase MD6|||Italy||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Leverkusen|1|0|Inter|League phase MD6|||Germany||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|1|5|Bayern Munich|League phase MD6|||Ukraine||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|3|Paris SG|League phase MD6|||Austria||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Villarreal|2|3|Copenhagen|League phase MD6|||Spain||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Dortmund|2|2|FK Bodø/Glimt|League phase MD6|||Germany||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Ath Bilbao|0|0|Paris SG|League phase MD6|||Spain||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Leverkusen|2|2|Newcastle|League phase MD6|||Germany||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Club Brugge|0|3|Arsenal|League phase MD6|||Belgium||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Benfica|2|0|Napoli|League phase MD6|||Portugal||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Juventus|2|0|Paphos FC|League phase MD6|||Italy||openfootball
+MATCH|2021-12-10|UEFA Champions League|uefa-cl|Real Madrid|1|2|Man City|League phase MD6|||Spain||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Ath Madrid|3|1|ŠK Slovan Bratislava|League phase MD6|||Spain||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Lille|3|2|SK Sturm Graz|League phase MD6|||France||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Stuttgart|5|1|BSC Young Boys|League phase MD6|||Germany||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Dortmund|2|3|Barcelona|League phase MD6|||Germany||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Milan|2|1|FK Crvena Zvezda|League phase MD6|||Italy||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Benfica|0|0|Bologna|League phase MD6|||Portugal||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Arsenal|3|0|Monaco|League phase MD6|||England||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Juventus|2|0|Man City|League phase MD6|||Italy||openfootball
+MATCH|2021-12-11|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|4|2|Sparta Prague|League phase MD6|||Netherlands||openfootball
+MATCH|2021-12-11|UEFA Europa League|uefa-el|Fenerbahce|0|2|Ath Bilbao|League phase|||Turkey||openfootball
+MATCH|2021-12-12|UEFA Champions League|uefa-cl|Union Berlin|2|3|Real Madrid|Group stage leg2|||Germany|UCL-2324-Group stage-REA-UNI|openfootball
+MATCH|2021-12-12|UEFA Champions League|uefa-cl|Lens|2|1|Sevilla|Group stage leg2|||France|UCL-2324-Group stage-LEN-SEV|openfootball
+MATCH|2021-12-12|UEFA Champions League|uefa-cl|Napoli|2|0|Braga|Group stage leg2|||Italy|UCL-2324-Group stage-BRA-NAP|openfootball
+MATCH|2021-12-12|UEFA Champions League|uefa-cl|Inter|0|0|Sociedad|Group stage leg2|||Italy|UCL-2324-Group stage-INT-SOC|openfootball
+MATCH|2021-12-12|UEFA Champions League|uefa-cl|Man United|0|1|Bayern Munich|Group stage leg2|||England|UCL-2324-Group stage-BAY-MAN|openfootball
+MATCH|2021-12-12|UEFA Champions League|uefa-cl|PSV|1|1|Arsenal|Group stage leg2|||Netherlands|UCL-2324-Group stage-ARS-PSV|openfootball
+MATCH|2021-12-12|UEFA Conference League|uefa-uecl|FK Astana|1|3|Chelsea|League phase|||Kazakhstan||openfootball
+MATCH|2021-12-12|UEFA Conference League|uefa-uecl|Fiorentina|7|0|LASK|League phase|||Italy||openfootball
+MATCH|2021-12-12|UEFA Conference League|uefa-uecl|İstanbul Başakşehir|3|1|Heidenheim|League phase|||Turkey||openfootball
+MATCH|2021-12-12|UEFA Conference League|uefa-uecl|CS Petrocub|0|1|Betis|League phase|||Moldova||openfootball
+MATCH|2021-12-12|UEFA Conference League|uefa-uecl|Mlada Boleslav|1|0|Jagiellonia Białystok|League phase|||Czech Republic||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|Roma|3|0|Braga|League phase|||Italy||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|Union Saint-Gilloise|2|1|Nice|League phase|||Belgium||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|Viktoria Plzen|1|2|Man United|League phase|||Czech Republic||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|Hoffenheim|0|0|FCSB|League phase|||Germany||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|Rangers|1|1|Tottenham|League phase|||Scotland||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|Slavia Prague|1|2|RSC Anderlecht|League phase|||Czech Republic||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|AFC Ajax|1|3|Lazio|League phase|||Netherlands||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|Sociedad|3|0|Dinamo Kiev|League phase|||Spain||openfootball
+MATCH|2021-12-12|UEFA Europa League|uefa-el|Lyon|3|2|Ein Frankfurt|League phase|||France||openfootball
+MATCH|2021-12-13|UEFA Champions League|uefa-cl|Newcastle|1|2|Milan|Group stage leg1|||England|UCL-2324-Group stage-MIL-NEW|openfootball
+MATCH|2021-12-13|UEFA Champions League|uefa-cl|RB Leipzig|2|1|BSC Young Boys|Group stage leg1|||Germany|UCL-2324-Group stage-BSC-RBL|openfootball
+MATCH|2021-12-13|UEFA Champions League|uefa-cl|Ath Madrid|2|0|Lazio|Group stage leg1|||Spain|UCL-2324-Group stage-ATH-LAZ|openfootball
+MATCH|2021-12-13|UEFA Champions League|uefa-cl|Dortmund|1|1|Paris SG|Group stage leg1|||Germany|UCL-2324-Group stage-DOR-PAR|openfootball
+MATCH|2021-12-13|UEFA Champions League|uefa-cl|FK Crvena Zvezda|2|3|Man City|Group stage leg1|||Serbia|UCL-2324-Group stage-FKC-MAN|openfootball
+MATCH|2021-12-13|UEFA Champions League|uefa-cl|Royal Antwerp FC|3|2|Barcelona|Group stage leg1|||Belgium|UCL-2324-Group stage-BAR-ROY|openfootball
+MATCH|2021-12-14|UEFA Conference League|uefa-uecl|Lille|3|0|KÍ Klaksvík|Group stage leg2|||France|UECL-2324-Group stage-KKL-LIL|openfootball
+MATCH|2021-12-14|UEFA Conference League|uefa-uecl|Viktoria Plzen|3|0|FK Astana|Group stage leg2|||Czech Republic|UECL-2324-Group stage-FKA-VIK|openfootball
+MATCH|2021-12-14|UEFA Conference League|uefa-uecl|Zrinjski Mostar|1|1|Aston Villa|Group stage leg2|||Bosnia and Herzegovina|UECL-2324-Group stage-AST-ZRI|openfootball
+MATCH|2021-12-14|UEFA Conference League|uefa-uecl|Ferencvárosi TC|1|1|Fiorentina|Group stage leg2|||Hungary|UECL-2324-Group stage-FER-FIO|openfootball
+MATCH|2021-12-14|UEFA Conference League|uefa-uecl|Aberdeen|2|0|Ein Frankfurt|Group stage leg2|||Scotland|UECL-2324-Group stage-ABE-EIN|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|West Ham|2|0|Freiburg|Group stage leg2|||England|UEL-2324-Group stage-FRE-WES|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Brighton|1|0|Marseille|Group stage leg2|||England|UEL-2324-Group stage-BRI-MAR|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Aris Limassol|1|3|Sparta Prague|Group stage leg2|||Cyprus|UEL-2324-Group stage-ARI-SPA|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Betis|2|3|Rangers|Group stage leg2|||Spain|UEL-2324-Group stage-BET-RAN|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Raków Częstochowa|0|4|Atalanta|Group stage leg2|||Poland|UEL-2324-Group stage-ATA-RAK|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Union Saint-Gilloise|2|1|Liverpool|Group stage leg2|||Belgium|UEL-2324-Group stage-LIV-UNI|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|LASK|1|2|Toulouse|Group stage leg2|||Austria|UEL-2324-Group stage-LAS-TOU|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Rennes|2|3|Villarreal|Group stage leg2|||France|UEL-2324-Group stage-REN-VIL|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Roma|3|0|FC Sheriff|Group stage leg2|||Italy|UEL-2324-Group stage-FCS-ROM|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Slavia Prague|4|0|Servette FC|Group stage leg2|||Czech Republic|UEL-2324-Group stage-SER-SLA|openfootball
+MATCH|2021-12-14|UEFA Europa League|uefa-el|Leverkusen|5|1|Molde FK|Group stage leg2|||Germany|UEL-2324-Group stage-LEV-MOL|openfootball
+MATCH|2021-12-19|UEFA Conference League|uefa-uecl|Chelsea|5|1|Shamrock Rovers|League phase|||England||openfootball
+MATCH|2021-12-19|UEFA Conference League|uefa-uecl|Betis|1|0|HJK Helsinki|League phase|||Spain||openfootball
+MATCH|2021-12-19|UEFA Conference League|uefa-uecl|Molde FK|4|3|Mlada Boleslav|League phase|||Norway||openfootball
+MATCH|2021-12-19|UEFA Conference League|uefa-uecl|Heidenheim|1|1|FC St. Gallen|League phase|||Germany||openfootball
+MATCH|2021-12-19|UEFA Conference League|uefa-uecl|Vitória Guimarães|1|1|Fiorentina|League phase|||Portugal||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Qarabağ Ağdam FK|3|2|Ein Frankfurt|League phase MD7|||Azerbaijan||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Galatasaray|1|1|Ath Madrid|League phase MD7|||Turkey||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Marseille|0|3|Liverpool|League phase MD7|||France||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Slavia Prague|2|4|Barcelona|League phase MD7|||Czech Republic||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Atalanta|2|3|Ath Bilbao|League phase MD7|||Italy||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Juventus|2|0|Benfica|League phase MD7|||Italy||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Newcastle|3|0|PSV|League phase MD7|||England||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Bayern Munich|2|0|Royale Union Saint-Gilloise|League phase MD7|||Germany||openfootball
+MATCH|2022-01-21|UEFA Champions League|uefa-cl|Chelsea|1|0|Paphos FC|League phase MD7|||England||openfootball
+MATCH|2022-01-22|UEFA Champions League|uefa-cl|RB Leipzig|2|1|Sporting CP|League phase MD7|||Germany||openfootball
+MATCH|2022-01-22|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|2|0|Brest|League phase MD7|||Ukraine||openfootball
+MATCH|2022-01-22|UEFA Champions League|uefa-cl|Sparta Prague|0|1|Inter|League phase MD7|||Czech Republic||openfootball
+MATCH|2022-01-22|UEFA Champions League|uefa-cl|Paris SG|4|2|Man City|League phase MD7|||France||openfootball
+MATCH|2022-01-22|UEFA Champions League|uefa-cl|Real Madrid|5|1|FC Red Bull Salzburg|League phase MD7|||Spain||openfootball
+MATCH|2022-01-22|UEFA Champions League|uefa-cl|Milan|1|0|Girona|League phase MD7|||Italy||openfootball
+MATCH|2022-01-22|UEFA Champions League|uefa-cl|Arsenal|3|0|GNK Dinamo Zagreb|League phase MD7|||England||openfootball
+MATCH|2022-01-22|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|3|0|Bayern Munich|League phase MD7|||Netherlands||openfootball
+MATCH|2022-01-22|UEFA Europa League|uefa-el|Besiktas|4|1|Ath Bilbao|League phase|||Turkey||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|Fenerbahce|0|0|Lyon|League phase|||Turkey||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|AZ Alkmaar|1|0|Roma|League phase|||Netherlands||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|Viktoria Plzen|2|0|RSC Anderlecht|League phase|||Czech Republic||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|Hoffenheim|2|3|Tottenham|League phase|||Germany||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|Ein Frankfurt|2|0|Ferencvárosi TC|League phase|||Germany||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|Man United|2|1|Rangers|League phase|||England||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|Lazio|3|1|Sociedad|League phase|||Italy||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|PAOK Saloniki|2|0|Slavia Prague|League phase|||Greece||openfootball
+MATCH|2022-01-23|UEFA Europa League|uefa-el|IF Elfsborg|1|0|Nice|League phase|||Sweden||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Liverpool|6|0|Qarabağ Ağdam FK|League phase MD8|||England||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Barcelona|4|1|Copenhagen|League phase MD8|||Spain||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Man City|2|0|Galatasaray|League phase MD8|||England||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Leverkusen|3|0|Villarreal|League phase MD8|||Germany||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Arsenal|3|2|FK Kairat|League phase MD8|||England||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Royale Union Saint-Gilloise|1|0|Atalanta|League phase MD8|||Belgium||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Club Brugge|3|0|Marseille|League phase MD8|||Belgium||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Ein Frankfurt|0|2|Tottenham|League phase MD8|||Germany||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Monaco|0|0|Juventus|League phase MD8|||Monaco||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Ath Madrid|1|2|FK Bodø/Glimt|League phase MD8|||Spain||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Ath Bilbao|2|3|Sporting CP|League phase MD8|||Spain||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Paris SG|1|1|Newcastle|League phase MD8|||France||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Paphos FC|4|1|Slavia Prague|League phase MD8|||Cyprus||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|PSV|1|2|Bayern Munich|League phase MD8|||Netherlands||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Napoli|2|3|Chelsea|League phase MD8|||Italy||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Benfica|4|2|Real Madrid|League phase MD8|||Portugal||openfootball
+MATCH|2022-01-28|UEFA Champions League|uefa-cl|Dortmund|0|2|Inter|League phase MD8|||Germany||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Sporting CP|1|1|Bologna|League phase MD8|||Portugal||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Aston Villa|4|2|Celtic|League phase MD8|||England||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Girona|1|2|Arsenal|League phase MD8|||Spain||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Brest|0|3|Real Madrid|League phase MD8|||France||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|SK Sturm Graz|1|0|RB Leipzig|League phase MD8|||Austria||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Stuttgart|1|4|Paris SG|League phase MD8|||Germany||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Bayern Munich|3|1|ŠK Slovan Bratislava|League phase MD8|||Germany||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Dortmund|3|1|FK Shakhtar Donetsk|League phase MD8|||Germany||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Barcelona|2|2|Atalanta|League phase MD8|||Spain||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Inter|3|0|Monaco|League phase MD8|||Italy||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Man City|3|1|Club Brugge|League phase MD8|||England||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Leverkusen|2|0|Sparta Prague|League phase MD8|||Germany||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Juventus|0|2|Benfica|League phase MD8|||Italy||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|GNK Dinamo Zagreb|2|1|Milan|League phase MD8|||Croatia||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|Lille|6|1|Feyenoord Rotterdam|League phase MD8|||France||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|PSV|3|2|Liverpool|League phase MD8|||Netherlands||openfootball
+MATCH|2022-01-29|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|1|4|Ath Madrid|League phase MD8|||Austria||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|Roma|2|0|Ein Frankfurt|League phase|||Italy||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|Slavia Prague|2|2|Malmö FF|League phase|||Czech Republic||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|Tottenham|3|0|IF Elfsborg|League phase|||England||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|Braga|1|0|Lazio|League phase|||Portugal||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|Sociedad|2|0|PAOK Saloniki|League phase|||Spain||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|Lyon|1|1|PFC Ludogorets Razgrad|League phase|||France||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|Ath Bilbao|3|1|Viktoria Plzen|League phase|||Spain||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|RSC Anderlecht|3|4|Hoffenheim|League phase|||Belgium||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|FCSB|0|2|Man United|League phase|||Romania||openfootball
+MATCH|2022-01-30|UEFA Europa League|uefa-el|Nice|1|1|FK Bodø/Glimt|League phase|||France||openfootball
+MATCH|2022-02-11|UEFA Champions League|uefa-cl|Brest|0|3|Paris SG|PO leg1|||France|UCL-2425-PO-BRE-PAR|openfootball
+MATCH|2022-02-11|UEFA Champions League|uefa-cl|Man City|2|3|Real Madrid|PO leg1|||England|UCL-2425-PO-MAN-REA|openfootball
+MATCH|2022-02-11|UEFA Champions League|uefa-cl|Juventus|2|1|PSV|PO leg1|||Italy|UCL-2425-PO-JUV-PSV|openfootball
+MATCH|2022-02-11|UEFA Champions League|uefa-cl|Sporting CP|0|3|Dortmund|PO leg1|||Portugal|UCL-2425-PO-DOR-SPO|openfootball
+MATCH|2022-02-12|UEFA Champions League|uefa-cl|Club Brugge|2|1|Atalanta|PO leg1|||Belgium|UCL-2425-PO-ATA-CLU|openfootball
+MATCH|2022-02-12|UEFA Champions League|uefa-cl|Celtic|1|2|Bayern Munich|PO leg1|||Scotland|UCL-2425-PO-BAY-CEL|openfootball
+MATCH|2022-02-12|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|1|0|Milan|PO leg1|||Netherlands|UCL-2425-PO-FEY-MIL|openfootball
+MATCH|2022-02-13|UEFA Europa League|uefa-el|Midtjylland|1|2|Sociedad|PO leg1|||Denmark|UEL-2425-PO-MID-SOC|openfootball
+MATCH|2022-02-13|UEFA Europa League|uefa-el|Ferencvárosi TC|1|0|Viktoria Plzen|PO leg1|||Hungary|UEL-2425-PO-FER-VIK|openfootball
+MATCH|2022-02-13|UEFA Europa League|uefa-el|Porto|1|1|Roma|PO leg1|||Portugal|UEL-2425-PO-POR-ROM|openfootball
+MATCH|2022-02-14|UEFA Champions League|uefa-cl|Paris SG|2|0|Sociedad|R16 leg1|||France|UCL-2324-R16-PAR-SOC|openfootball
+MATCH|2022-02-14|UEFA Champions League|uefa-cl|Lazio|1|0|Bayern Munich|R16 leg1|||Italy|UCL-2324-R16-BAY-LAZ|openfootball
+MATCH|2022-02-15|UEFA Champions League|uefa-cl|Sporting CP|0|5|Man City|R16 leg1|||Portugal|UCL-2122-R16-MAN-SPO|openfootball
+MATCH|2022-02-15|UEFA Champions League|uefa-cl|Paris SG|1|0|Real Madrid|R16 leg1|||France|UCL-2122-R16-PAR-REA|openfootball
+MATCH|2022-02-15|UEFA Champions League|uefa-cl|Dortmund|1|0|Chelsea|R16 leg1|||Germany|UCL-2223-R16-CHE-DOR|openfootball
+MATCH|2022-02-16|UEFA Champions League|uefa-cl|RB Salzburg|1|1|Bayern Munich|R16 leg1|||Austria|UCL-2122-R16-BAY-RBS|openfootball
+MATCH|2022-02-16|UEFA Champions League|uefa-cl|Inter|0|2|Liverpool|R16 leg1|||Italy|UCL-2122-R16-INT-LIV|openfootball
+MATCH|2022-02-17|UEFA Conference League|uefa-uecl|Fenerbahce|2|3|Slavia Prague|PO leg1|||Turkey|UECL-2122-PO-FEN-SLA|openfootball
+MATCH|2022-02-17|UEFA Conference League|uefa-uecl|Marseille|3|1|Qarabağ FK|PO leg1|||France|UECL-2122-PO-MAR-QAR|openfootball
+MATCH|2022-02-17|UEFA Conference League|uefa-uecl|Leicester|4|1|Randers FC|PO leg1|||England|UECL-2122-PO-LEI-RAN|openfootball
+MATCH|2022-02-17|UEFA Conference League|uefa-uecl|Sparta Prague|0|1|Partizan|PO leg1|||Czech Republic|UECL-2122-PO-PAR-SPA|openfootball
+MATCH|2022-02-17|UEFA Europa League|uefa-el|Barcelona|1|1|Napoli|PO leg1|||Spain|UEL-2122-PO-BAR-NAP|openfootball
+MATCH|2022-02-17|UEFA Europa League|uefa-el|Zenit St Petersburg|2|3|Betis|PO leg1|||Russia|UEL-2122-PO-BET-ZEN|openfootball
+MATCH|2022-02-17|UEFA Europa League|uefa-el|Dortmund|2|4|Rangers|PO leg1|||Germany|UEL-2122-PO-DOR-RAN|openfootball
+MATCH|2022-02-17|UEFA Europa League|uefa-el|Sevilla|3|1|Dinamo Zagreb|PO leg1|||Spain|UEL-2122-PO-DIN-SEV|openfootball
+MATCH|2022-02-17|UEFA Europa League|uefa-el|Atalanta|2|1|Olympiakos Piraeus|PO leg1|||Italy|UEL-2122-PO-ATA-OLY|openfootball
+MATCH|2022-02-17|UEFA Europa League|uefa-el|RB Leipzig|2|2|Sociedad|PO leg1|||Germany|UEL-2122-PO-RBL-SOC|openfootball
+MATCH|2022-02-17|UEFA Europa League|uefa-el|Porto|2|1|Lazio|PO leg1|||Portugal|UEL-2122-PO-LAZ-POR|openfootball
+MATCH|2022-02-17|UEFA Champions League|uefa-cl|Galatasaray|5|2|Juventus|PO leg1|||Turkey|UCL-2526-PO-GAL-JUV|openfootball
+MATCH|2022-02-17|UEFA Champions League|uefa-cl|Benfica|0|1|Real Madrid|PO leg1|||Portugal|UCL-2526-PO-BEN-REA|openfootball
+MATCH|2022-02-17|UEFA Champions League|uefa-cl|Monaco|2|3|Paris SG|PO leg1|||Monaco|UCL-2526-PO-MON-PAR|openfootball
+MATCH|2022-02-17|UEFA Champions League|uefa-cl|Dortmund|2|0|Atalanta|PO leg1|||Germany|UCL-2526-PO-ATA-DOR|openfootball
+MATCH|2022-02-18|UEFA Champions League|uefa-cl|Atalanta|1|3|Club Brugge|PO leg2|||Italy|UCL-2425-PO-ATA-CLU|openfootball
+MATCH|2022-02-18|UEFA Champions League|uefa-cl|Bayern Munich|1|1|Celtic|PO leg2|||Germany|UCL-2425-PO-BAY-CEL|openfootball
+MATCH|2022-02-18|UEFA Champions League|uefa-cl|Milan|1|1|Feyenoord Rotterdam|PO leg2|||Italy|UCL-2425-PO-FEY-MIL|openfootball
+MATCH|2022-02-18|UEFA Champions League|uefa-cl|Qarabağ Ağdam FK|1|6|Newcastle|PO leg1|||Azerbaijan|UCL-2526-PO-NEW-QAR|openfootball
+MATCH|2022-02-18|UEFA Champions League|uefa-cl|Club Brugge|3|3|Ath Madrid|PO leg1|||Belgium|UCL-2526-PO-ATH-CLU|openfootball
+MATCH|2022-02-18|UEFA Champions League|uefa-cl|PAE Olympiakos SFP|0|2|Leverkusen|PO leg1|||Greece|UCL-2526-PO-LEV-PAE|openfootball
+MATCH|2022-02-18|UEFA Champions League|uefa-cl|FK Bodø/Glimt|3|1|Inter|PO leg1|||Norway|UCL-2526-PO-FKB-INT|openfootball
+MATCH|2022-02-19|UEFA Champions League|uefa-cl|Paris SG|7|0|Brest|PO leg2|||France|UCL-2425-PO-BRE-PAR|openfootball
+MATCH|2022-02-19|UEFA Champions League|uefa-cl|Real Madrid|3|1|Man City|PO leg2|||Spain|UCL-2425-PO-MAN-REA|openfootball
+MATCH|2022-02-19|UEFA Champions League|uefa-cl|PSV|3|1|Juventus|PO leg2|||Netherlands|UCL-2425-PO-JUV-PSV|openfootball
+MATCH|2022-02-19|UEFA Champions League|uefa-cl|Dortmund|0|0|Sporting CP|PO leg2|||Germany|UCL-2425-PO-DOR-SPO|openfootball
+MATCH|2022-02-20|UEFA Champions League|uefa-cl|Inter|1|0|Ath Madrid|R16 leg1|||Italy|UCL-2324-R16-ATH-INT|openfootball
+MATCH|2022-02-20|UEFA Champions League|uefa-cl|PSV|1|1|Dortmund|R16 leg1|||Netherlands|UCL-2324-R16-DOR-PSV|openfootball
+MATCH|2022-02-20|UEFA Conference League|uefa-uecl|Betis|0|1|Gent|PO leg1|||Spain|UECL-2425-PO-BET-GEN|openfootball
+MATCH|2022-02-20|UEFA Conference League|uefa-uecl|Heidenheim|1|2|Copenhagen|PO leg1|||Germany|UECL-2425-PO-COP-HEI|openfootball
+NOTE|info|advancement|UECL-2425-PO-COP-HEI|Decided after extra time (90' score: 1-2; after ET: 1-3)
+MATCH|2022-02-20|UEFA Europa League|uefa-el|Sociedad|5|2|Midtjylland|PO leg2|||Spain|UEL-2425-PO-MID-SOC|openfootball
+MATCH|2022-02-20|UEFA Europa League|uefa-el|Viktoria Plzen|3|0|Ferencvárosi TC|PO leg2|||Czech Republic|UEL-2425-PO-FER-VIK|openfootball
+MATCH|2022-02-20|UEFA Europa League|uefa-el|Roma|3|2|Porto|PO leg2|||Italy|UEL-2425-PO-POR-ROM|openfootball
+MATCH|2022-02-21|UEFA Champions League|uefa-cl|Liverpool|2|5|Real Madrid|R16 leg1|||England|UCL-2223-R16-LIV-REA|openfootball
+MATCH|2022-02-21|UEFA Champions League|uefa-cl|Ein Frankfurt|0|2|Napoli|R16 leg1|||Germany|UCL-2223-R16-EIN-NAP|openfootball
+MATCH|2022-02-21|UEFA Champions League|uefa-cl|Porto|1|0|Arsenal|R16 leg1|||Portugal|UCL-2324-R16-ARS-POR|openfootball
+MATCH|2022-02-21|UEFA Champions League|uefa-cl|Napoli|1|1|Barcelona|R16 leg1|||Italy|UCL-2324-R16-BAR-NAP|openfootball
+MATCH|2022-02-22|UEFA Champions League|uefa-cl|Chelsea|2|0|Lille|R16 leg1|||England|UCL-2122-R16-CHE-LIL|openfootball
+MATCH|2022-02-22|UEFA Champions League|uefa-cl|Villarreal|1|1|Juventus|R16 leg1|||Spain|UCL-2122-R16-JUV-VIL|openfootball
+MATCH|2022-02-22|UEFA Champions League|uefa-cl|RB Leipzig|1|1|Man City|R16 leg1|||Germany|UCL-2223-R16-MAN-RBL|openfootball
+MATCH|2022-02-22|UEFA Champions League|uefa-cl|Inter|1|0|Porto|R16 leg1|||Italy|UCL-2223-R16-INT-POR|openfootball
+MATCH|2022-02-22|UEFA Conference League|uefa-uecl|Ein Frankfurt|1|2|Union Saint-Gilloise|PO leg1|||Germany|UECL-2324-PO-EIN-UNI|openfootball
+MATCH|2022-02-22|UEFA Conference League|uefa-uecl|Dinamo Zagreb|1|1|Betis|PO leg1|||Croatia|UECL-2324-PO-BET-DIN|openfootball
+MATCH|2022-02-22|UEFA Europa League|uefa-el|Roma|1|1|Feyenoord|PO leg1|||Italy|UEL-2324-PO-FEY-ROM|openfootball
+NOTE|info|advancement|UEL-2324-PO-FEY-ROM|Decided on penalties (90' score: 1-1; shootout: 4-2)
+MATCH|2022-02-22|UEFA Europa League|uefa-el|Sparta Prague|4|1|Galatasaray|PO leg1|||Czech Republic|UEL-2324-PO-GAL-SPA|openfootball
+MATCH|2022-02-22|UEFA Europa League|uefa-el|Marseille|3|1|Shakhtar Donetsk|PO leg1|||France|UEL-2324-PO-MAR-SHA|openfootball
+MATCH|2022-02-22|UEFA Europa League|uefa-el|Rennes|3|2|Milan|PO leg1|||France|UEL-2324-PO-MIL-REN|openfootball
+MATCH|2022-02-22|UEFA Europa League|uefa-el|Freiburg|2|2|Lens|PO leg1|||Germany|UEL-2324-PO-FRE-LEN|openfootball
+NOTE|info|advancement|UEL-2324-PO-FRE-LEN|Decided after extra time (90' score: 2-2; after ET: 3-2)
+MATCH|2022-02-22|UEFA Europa League|uefa-el|Toulouse|0|0|Benfica|PO leg1|||France|UEL-2324-PO-BEN-TOU|openfootball
+MATCH|2022-02-23|UEFA Champions League|uefa-cl|Ath Madrid|1|1|Man United|R16 leg1|||Spain|UCL-2122-R16-ATH-MAN|openfootball
+MATCH|2022-02-23|UEFA Conference League|uefa-uecl|Fiorentina|3|2|Braga|PO leg1|||Italy|UECL-2223-PO-BRA-FIO|openfootball
+MATCH|2022-02-23|UEFA Conference League|uefa-uecl|CFR Cluj|0|0|Lazio|PO leg1|||Romania|UECL-2223-PO-CFR-LAZ|openfootball
+MATCH|2022-02-23|UEFA Europa League|uefa-el|Man United|2|1|Barcelona|PO leg1|||England|UEL-2223-PO-BAR-MAN|openfootball
+MATCH|2022-02-23|UEFA Europa League|uefa-el|Rennes|1|0|Shakhtar Donetsk|PO leg1|||France|UEL-2223-PO-REN-SHA|openfootball
+NOTE|info|advancement|UEL-2223-PO-REN-SHA|Decided on penalties (90' score: 1-0; shootout: 4-5)
+MATCH|2022-02-23|UEFA Europa League|uefa-el|Union Berlin|3|1|AFC Ajax|PO leg1|||Germany|UEL-2223-PO-AFC-UNI|openfootball
+MATCH|2022-02-23|UEFA Europa League|uefa-el|Roma|2|0|RB Salzburg|PO leg1|||Italy|UEL-2223-PO-RBS-ROM|openfootball
+MATCH|2022-02-23|UEFA Europa League|uefa-el|Nantes|0|3|Juventus|PO leg1|||France|UEL-2223-PO-JUV-NAN|openfootball
+MATCH|2022-02-23|UEFA Europa League|uefa-el|Monaco|2|3|Leverkusen|PO leg1|||France|UEL-2223-PO-LEV-MON|openfootball
+NOTE|info|advancement|UEL-2223-PO-LEV-MON|Decided on penalties (90' score: 2-3; shootout: 3-5)
+MATCH|2022-02-23|UEFA Europa League|uefa-el|PSV Eindhoven|2|0|Sevilla|PO leg1|||Netherlands|UEL-2223-PO-PSV-SEV|openfootball
+MATCH|2022-02-24|UEFA Conference League|uefa-uecl|Slavia Prague|3|2|Fenerbahce|PO leg2|||Czech Republic|UECL-2122-PO-FEN-SLA|openfootball
+MATCH|2022-02-24|UEFA Conference League|uefa-uecl|Qarabağ FK|0|3|Marseille|PO leg2|||Azerbaijan|UECL-2122-PO-MAR-QAR|openfootball
+MATCH|2022-02-24|UEFA Conference League|uefa-uecl|Randers FC|1|3|Leicester|PO leg2|||Denmark|UECL-2122-PO-LEI-RAN|openfootball
+MATCH|2022-02-24|UEFA Conference League|uefa-uecl|Partizan|2|1|Sparta Prague|PO leg2|||Serbia|UECL-2122-PO-PAR-SPA|openfootball
+MATCH|2022-02-24|UEFA Europa League|uefa-el|Napoli|2|4|Barcelona|PO leg2|||Italy|UEL-2122-PO-BAR-NAP|openfootball
+MATCH|2022-02-24|UEFA Europa League|uefa-el|Betis|0|0|Zenit St Petersburg|PO leg2|||Spain|UEL-2122-PO-BET-ZEN|openfootball
+MATCH|2022-02-24|UEFA Europa League|uefa-el|Rangers|2|2|Dortmund|PO leg2|||Scotland|UEL-2122-PO-DOR-RAN|openfootball
+MATCH|2022-02-24|UEFA Europa League|uefa-el|Dinamo Zagreb|1|0|Sevilla|PO leg2|||Croatia|UEL-2122-PO-DIN-SEV|openfootball
+MATCH|2022-02-24|UEFA Europa League|uefa-el|Olympiakos Piraeus|0|3|Atalanta|PO leg2|||Greece|UEL-2122-PO-ATA-OLY|openfootball
+MATCH|2022-02-24|UEFA Europa League|uefa-el|Sociedad|1|3|RB Leipzig|PO leg2|||Spain|UEL-2122-PO-RBL-SOC|openfootball
+MATCH|2022-02-24|UEFA Europa League|uefa-el|Lazio|2|2|Porto|PO leg2|||Italy|UEL-2122-PO-LAZ-POR|openfootball
+MATCH|2022-02-24|UEFA Champions League|uefa-cl|Newcastle|3|2|Qarabağ Ağdam FK|PO leg2|||England|UCL-2526-PO-NEW-QAR|openfootball
+MATCH|2022-02-24|UEFA Champions League|uefa-cl|Ath Madrid|4|1|Club Brugge|PO leg2|||Spain|UCL-2526-PO-ATH-CLU|openfootball
+MATCH|2022-02-24|UEFA Champions League|uefa-cl|Leverkusen|0|0|PAE Olympiakos SFP|PO leg2|||Germany|UCL-2526-PO-LEV-PAE|openfootball
+MATCH|2022-02-24|UEFA Champions League|uefa-cl|Inter|1|2|FK Bodø/Glimt|PO leg2|||Italy|UCL-2526-PO-FKB-INT|openfootball
+MATCH|2022-02-25|UEFA Champions League|uefa-cl|Juventus|3|0|Galatasaray|PO leg2|||Italy|UCL-2526-PO-GAL-JUV|openfootball
+NOTE|info|advancement|UCL-2526-PO-GAL-JUV|Decided after extra time (90' score: 3-0; after ET: 3-2)
+MATCH|2022-02-25|UEFA Champions League|uefa-cl|Real Madrid|2|1|Benfica|PO leg2|||Spain|UCL-2526-PO-BEN-REA|openfootball
+MATCH|2022-02-25|UEFA Champions League|uefa-cl|Paris SG|2|2|Monaco|PO leg2|||France|UCL-2526-PO-MON-PAR|openfootball
+MATCH|2022-02-25|UEFA Champions League|uefa-cl|Atalanta|4|1|Dortmund|PO leg2|||Italy|UCL-2526-PO-ATA-DOR|openfootball
+MATCH|2022-03-04|UEFA Champions League|uefa-cl|Club Brugge|1|3|Aston Villa|R16 leg1|||Belgium|UCL-2425-R16-AST-CLU|openfootball
+MATCH|2022-03-04|UEFA Champions League|uefa-cl|Real Madrid|2|1|Ath Madrid|R16 leg1|||Spain|UCL-2425-R16-ATH-REA|openfootball
+MATCH|2022-03-04|UEFA Champions League|uefa-cl|PSV|1|7|Arsenal|R16 leg1|||Netherlands|UCL-2425-R16-ARS-PSV|openfootball
+MATCH|2022-03-04|UEFA Champions League|uefa-cl|Dortmund|1|1|Lille|R16 leg1|||Germany|UCL-2425-R16-DOR-LIL|openfootball
+MATCH|2022-03-05|UEFA Champions League|uefa-cl|Sociedad|1|2|Paris SG|R16 leg2|||Spain|UCL-2324-R16-PAR-SOC|openfootball
+MATCH|2022-03-05|UEFA Champions League|uefa-cl|Bayern Munich|3|0|Lazio|R16 leg2|||Germany|UCL-2324-R16-BAY-LAZ|openfootball
+MATCH|2022-03-05|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|0|2|Inter|R16 leg1|||Netherlands|UCL-2425-R16-FEY-INT|openfootball
+MATCH|2022-03-05|UEFA Champions League|uefa-cl|Paris SG|0|1|Liverpool|R16 leg1|||France|UCL-2425-R16-LIV-PAR|openfootball
+MATCH|2022-03-05|UEFA Champions League|uefa-cl|Bayern Munich|3|0|Leverkusen|R16 leg1|||Germany|UCL-2425-R16-BAY-LEV|openfootball
+MATCH|2022-03-05|UEFA Champions League|uefa-cl|Benfica|0|1|Barcelona|R16 leg1|||Portugal|UCL-2425-R16-BAR-BEN|openfootball
+MATCH|2022-03-06|UEFA Champions League|uefa-cl|Man City|3|1|Copenhagen|R16 leg1|||England|UCL-2324-R16-COP-MAN|openfootball
+MATCH|2022-03-06|UEFA Champions League|uefa-cl|Real Madrid|1|1|RB Leipzig|R16 leg1|||Spain|UCL-2324-R16-RBL-REA|openfootball
+MATCH|2022-03-06|UEFA Europa League|uefa-el|Sporting CP|1|1|Atalanta|R16 leg1|||Portugal|UEL-2324-R16-ATA-SPO|openfootball
+MATCH|2022-03-06|UEFA Conference League|uefa-uecl|Betis|2|2|Vitória Guimarães|R16 leg1|||Spain|UECL-2425-R16-BET-VIT|openfootball
+MATCH|2022-03-06|UEFA Conference League|uefa-uecl|Copenhagen|1|2|Chelsea|R16 leg1|||Denmark|UECL-2425-R16-CHE-COP|openfootball
+MATCH|2022-03-06|UEFA Conference League|uefa-uecl|Panathinaikos|3|2|Fiorentina|R16 leg1|||Greece|UECL-2425-R16-FIO-PAN|openfootball
+MATCH|2022-03-06|UEFA Europa League|uefa-el|AZ Alkmaar|1|0|Tottenham|R16 leg1|||Netherlands|UEL-2425-R16-AZA-TOT|openfootball
+MATCH|2022-03-06|UEFA Europa League|uefa-el|Sociedad|1|1|Man United|R16 leg1|||Spain|UEL-2425-R16-MAN-SOC|openfootball
+MATCH|2022-03-06|UEFA Europa League|uefa-el|FCSB|1|3|Lyon|R16 leg1|||Romania|UEL-2425-R16-FCS-LYO|openfootball
+MATCH|2022-03-06|UEFA Europa League|uefa-el|Roma|2|1|Ath Bilbao|R16 leg1|||Italy|UEL-2425-R16-ATH-ROM|openfootball
+MATCH|2022-03-06|UEFA Europa League|uefa-el|AFC Ajax|1|2|Ein Frankfurt|R16 leg1|||Netherlands|UEL-2425-R16-AFC-EIN|openfootball
+MATCH|2022-03-06|UEFA Europa League|uefa-el|Viktoria Plzen|1|2|Lazio|R16 leg1|||Czech Republic|UEL-2425-R16-LAZ-VIK|openfootball
+MATCH|2022-03-07|UEFA Champions League|uefa-cl|Chelsea|2|0|Dortmund|R16 leg2|||England|UCL-2223-R16-CHE-DOR|openfootball
+MATCH|2022-03-07|UEFA Conference League|uefa-uecl|Lazio|1|2|AZ Alkmaar|R16 leg1|||Italy|UECL-2223-R16-AZA-LAZ|openfootball
+MATCH|2022-03-07|UEFA Conference League|uefa-uecl|AFC Ajax|0|0|Aston Villa|R16 leg1|||Netherlands|UECL-2324-R16-AFC-AST|openfootball
+MATCH|2022-03-07|UEFA Conference League|uefa-uecl|Sturm Graz|0|3|Lille|R16 leg1|||Austria|UECL-2324-R16-LIL-STU|openfootball
+MATCH|2022-03-07|UEFA Conference League|uefa-uecl|Servette FC|0|0|Viktoria Plzen|R16 leg1|||Switzerland|UECL-2324-R16-SER-VIK|openfootball
+MATCH|2022-03-07|UEFA Conference League|uefa-uecl|Maccabi Haifa|3|4|Fiorentina|R16 leg1|||Israel|UECL-2324-R16-FIO-MAC|openfootball
+NOTE|info|neutral_venue|Match relocated to neutral venue due to safety concerns in home country
+MATCH|2022-03-07|UEFA Europa League|uefa-el|Sparta Prague|1|5|Liverpool|R16 leg1|||Czech Republic|UEL-2324-R16-LIV-SPA|openfootball
+MATCH|2022-03-07|UEFA Europa League|uefa-el|Roma|4|0|Brighton|R16 leg1|||Italy|UEL-2324-R16-BRI-ROM|openfootball
+MATCH|2022-03-07|UEFA Europa League|uefa-el|Qarabağ FK|2|2|Leverkusen|R16 leg1|||Azerbaijan|UEL-2324-R16-LEV-QAR|openfootball
+MATCH|2022-03-07|UEFA Europa League|uefa-el|Marseille|4|0|Villarreal|R16 leg1|||France|UEL-2324-R16-MAR-VIL|openfootball
+MATCH|2022-03-07|UEFA Europa League|uefa-el|Freiburg|1|0|West Ham|R16 leg1|||Germany|UEL-2324-R16-FRE-WES|openfootball
+MATCH|2022-03-07|UEFA Europa League|uefa-el|Milan|4|2|Slavia Prague|R16 leg1|||Italy|UEL-2324-R16-MIL-SLA|openfootball
+MATCH|2022-03-08|UEFA Champions League|uefa-cl|Bayern Munich|7|1|RB Salzburg|R16 leg2|||Germany|UCL-2122-R16-BAY-RBS|openfootball
+MATCH|2022-03-08|UEFA Champions League|uefa-cl|Liverpool|0|1|Inter|R16 leg2|||England|UCL-2122-R16-INT-LIV|openfootball
+MATCH|2022-03-08|UEFA Champions League|uefa-cl|Tottenham|0|0|Milan|R16 leg1|||England|UCL-2223-R16-MIL-TOT|openfootball
+MATCH|2022-03-08|UEFA Champions League|uefa-cl|Bayern Munich|2|0|Paris SG|R16 leg1|||Germany|UCL-2223-R16-BAY-PAR|openfootball
+MATCH|2022-03-09|UEFA Champions League|uefa-cl|Man City|0|0|Sporting CP|R16 leg2|||England|UCL-2122-R16-MAN-SPO|openfootball
+MATCH|2022-03-09|UEFA Champions League|uefa-cl|Real Madrid|3|1|Paris SG|R16 leg2|||Spain|UCL-2122-R16-PAR-REA|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Porto|0|1|Lyon|R16 leg1|||Portugal|UEL-2122-R16-LYO-POR|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Betis|1|2|Ein Frankfurt|R16 leg1|||Spain|UEL-2122-R16-BET-EIN|openfootball
+MATCH|2022-03-09|UEFA Conference League|uefa-uecl|AEK Larnaca|0|2|West Ham|R16 leg1|||Cyprus|UECL-2223-R16-AEK-WES|openfootball
+MATCH|2022-03-09|UEFA Conference League|uefa-uecl|FC Sheriff|0|1|Nice|R16 leg1|||Moldova|UECL-2223-R16-FCS-NIC|openfootball
+MATCH|2022-03-09|UEFA Conference League|uefa-uecl|RSC Anderlecht|1|1|Villarreal|R16 leg1|||Belgium|UECL-2223-R16-RSC-VIL|openfootball
+MATCH|2022-03-09|UEFA Conference League|uefa-uecl|Fiorentina|1|0|Sivasspor|R16 leg1|||Italy|UECL-2223-R16-FIO-SIV|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Union Berlin|3|3|Union Saint-Gilloise|R16 leg1|||Germany|UEL-2223-R16-UNI-UNI|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Leverkusen|2|0|Ferencvárosi TC|R16 leg1|||Germany|UEL-2223-R16-FER-LEV|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Sporting CP|2|2|Arsenal|R16 leg1|||Portugal|UEL-2223-R16-ARS-SPO|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Roma|2|0|Sociedad|R16 leg1|||Italy|UEL-2223-R16-ROM-SOC|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Sevilla|2|0|Fenerbahce|R16 leg1|||Spain|UEL-2223-R16-FEN-SEV|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Juventus|1|0|Freiburg|R16 leg1|||Italy|UEL-2223-R16-FRE-JUV|openfootball
+MATCH|2022-03-09|UEFA Europa League|uefa-el|Man United|4|1|Betis|R16 leg1|||England|UEL-2223-R16-BET-MAN|openfootball
+MATCH|2022-03-10|UEFA Conference League|uefa-uecl|Vitesse|0|1|Roma|R16 leg1|||Netherlands|UECL-2122-R16-ROM-VIT|openfootball
+MATCH|2022-03-10|UEFA Conference League|uefa-uecl|Slavia Prague|4|1|LASK|R16 leg1|||Czech Republic|UECL-2122-R16-LAS-SLA|openfootball
+MATCH|2022-03-10|UEFA Conference League|uefa-uecl|Marseille|2|1|FC Basel 1893|R16 leg1|||France|UECL-2122-R16-FCB-MAR|openfootball
+MATCH|2022-03-10|UEFA Conference League|uefa-uecl|Leicester|2|0|Rennes|R16 leg1|||England|UECL-2122-R16-LEI-REN|openfootball
+MATCH|2022-03-10|UEFA Europa League|uefa-el|Sevilla|1|0|West Ham|R16 leg1|||Spain|UEL-2122-R16-SEV-WES|openfootball
+MATCH|2022-03-10|UEFA Europa League|uefa-el|Braga|2|0|Monaco|R16 leg1|||Portugal|UEL-2122-R16-BRA-MON|openfootball
+MATCH|2022-03-10|UEFA Europa League|uefa-el|Atalanta|3|2|Leverkusen|R16 leg1|||Italy|UEL-2122-R16-ATA-LEV|openfootball
+MATCH|2022-03-10|UEFA Europa League|uefa-el|Barcelona|0|0|Galatasaray|R16 leg1|||Spain|UEL-2122-R16-BAR-GAL|openfootball
+MATCH|2022-03-10|UEFA Champions League|uefa-cl|Galatasaray|1|0|Liverpool|R16 leg1|||Turkey|UCL-2526-R16-GAL-LIV|openfootball
+MATCH|2022-03-10|UEFA Champions League|uefa-cl|Atalanta|1|6|Bayern Munich|R16 leg1|||Italy|UCL-2526-R16-ATA-BAY|openfootball
+MATCH|2022-03-10|UEFA Champions League|uefa-cl|Newcastle|1|1|Barcelona|R16 leg1|||England|UCL-2526-R16-BAR-NEW|openfootball
+MATCH|2022-03-10|UEFA Champions League|uefa-cl|Ath Madrid|5|2|Tottenham|R16 leg1|||Spain|UCL-2526-R16-ATH-TOT|openfootball
+MATCH|2022-03-11|UEFA Champions League|uefa-cl|Inter|2|1|Feyenoord Rotterdam|R16 leg2|||Italy|UCL-2425-R16-FEY-INT|openfootball
+MATCH|2022-03-11|UEFA Champions League|uefa-cl|Liverpool|0|1|Paris SG|R16 leg2|||England|UCL-2425-R16-LIV-PAR|openfootball
+NOTE|info|advancement|UCL-2425-R16-LIV-PAR|Decided on penalties (90' score: 0-1; shootout: 1-4)
+MATCH|2022-03-11|UEFA Champions League|uefa-cl|Leverkusen|0|2|Bayern Munich|R16 leg2|||Germany|UCL-2425-R16-BAY-LEV|openfootball
+MATCH|2022-03-11|UEFA Champions League|uefa-cl|Barcelona|3|1|Benfica|R16 leg2|||Spain|UCL-2425-R16-BAR-BEN|openfootball
+MATCH|2022-03-11|UEFA Champions League|uefa-cl|Leverkusen|1|1|Arsenal|R16 leg1|||Germany|UCL-2526-R16-ARS-LEV|openfootball
+MATCH|2022-03-11|UEFA Champions League|uefa-cl|Paris SG|5|2|Chelsea|R16 leg1|||France|UCL-2526-R16-CHE-PAR|openfootball
+MATCH|2022-03-11|UEFA Champions League|uefa-cl|Real Madrid|3|0|Man City|R16 leg1|||Spain|UCL-2526-R16-MAN-REA|openfootball
+MATCH|2022-03-12|UEFA Champions League|uefa-cl|Arsenal|1|0|Porto|R16 leg2|||England|UCL-2324-R16-ARS-POR|openfootball
+NOTE|info|advancement|UCL-2324-R16-ARS-POR|Decided on penalties (90' score: 1-0; shootout: 4-2)
+MATCH|2022-03-12|UEFA Champions League|uefa-cl|Barcelona|3|1|Napoli|R16 leg2|||Spain|UCL-2324-R16-BAR-NAP|openfootball
+MATCH|2022-03-12|UEFA Champions League|uefa-cl|Aston Villa|3|0|Club Brugge|R16 leg2|||England|UCL-2425-R16-AST-CLU|openfootball
+MATCH|2022-03-12|UEFA Champions League|uefa-cl|Ath Madrid|1|0|Real Madrid|R16 leg2|||Spain|UCL-2425-R16-ATH-REA|openfootball
+NOTE|info|advancement|UCL-2425-R16-ATH-REA|Decided on penalties (90' score: 1-0; shootout: 2-4)
+MATCH|2022-03-12|UEFA Champions League|uefa-cl|Arsenal|2|2|PSV|R16 leg2|||England|UCL-2425-R16-ARS-PSV|openfootball
+MATCH|2022-03-12|UEFA Champions League|uefa-cl|Lille|1|2|Dortmund|R16 leg2|||France|UCL-2425-R16-DOR-LIL|openfootball
+MATCH|2022-03-13|UEFA Champions League|uefa-cl|Ath Madrid|2|1|Inter|R16 leg2|||Spain|UCL-2324-R16-ATH-INT|openfootball
+NOTE|info|advancement|UCL-2324-R16-ATH-INT|Decided on penalties (90' score: 2-1; shootout: 3-2)
+MATCH|2022-03-13|UEFA Champions League|uefa-cl|Dortmund|2|0|PSV|R16 leg2|||Germany|UCL-2324-R16-DOR-PSV|openfootball
+MATCH|2022-03-13|UEFA Conference League|uefa-uecl|Vitória Guimarães|0|4|Betis|R16 leg2|||Portugal|UECL-2425-R16-BET-VIT|openfootball
+MATCH|2022-03-13|UEFA Conference League|uefa-uecl|Chelsea|1|0|Copenhagen|R16 leg2|||England|UECL-2425-R16-CHE-COP|openfootball
+MATCH|2022-03-13|UEFA Conference League|uefa-uecl|Fiorentina|3|1|Panathinaikos|R16 leg2|||Italy|UECL-2425-R16-FIO-PAN|openfootball
+MATCH|2022-03-13|UEFA Europa League|uefa-el|Tottenham|3|1|AZ Alkmaar|R16 leg2|||England|UEL-2425-R16-AZA-TOT|openfootball
+MATCH|2022-03-13|UEFA Europa League|uefa-el|Man United|4|1|Sociedad|R16 leg2|||England|UEL-2425-R16-MAN-SOC|openfootball
+MATCH|2022-03-13|UEFA Europa League|uefa-el|Lyon|4|0|FCSB|R16 leg2|||France|UEL-2425-R16-FCS-LYO|openfootball
+MATCH|2022-03-13|UEFA Europa League|uefa-el|Ath Bilbao|3|1|Roma|R16 leg2|||Spain|UEL-2425-R16-ATH-ROM|openfootball
+MATCH|2022-03-13|UEFA Europa League|uefa-el|Ein Frankfurt|4|1|AFC Ajax|R16 leg2|||Germany|UEL-2425-R16-AFC-EIN|openfootball
+MATCH|2022-03-13|UEFA Europa League|uefa-el|Lazio|1|1|Viktoria Plzen|R16 leg2|||Italy|UEL-2425-R16-LAZ-VIK|openfootball
+MATCH|2022-03-14|UEFA Champions League|uefa-cl|Man City|7|0|RB Leipzig|R16 leg2|||England|UCL-2223-R16-MAN-RBL|openfootball
+MATCH|2022-03-14|UEFA Champions League|uefa-cl|Porto|0|0|Inter|R16 leg2|||Portugal|UCL-2223-R16-INT-POR|openfootball
+MATCH|2022-03-14|UEFA Conference League|uefa-uecl|Aston Villa|4|0|AFC Ajax|R16 leg2|||England|UECL-2324-R16-AFC-AST|openfootball
+MATCH|2022-03-14|UEFA Conference League|uefa-uecl|Lille|1|1|Sturm Graz|R16 leg2|||France|UECL-2324-R16-LIL-STU|openfootball
+MATCH|2022-03-14|UEFA Conference League|uefa-uecl|Viktoria Plzen|0|0|Servette FC|R16 leg2|||Czech Republic|UECL-2324-R16-SER-VIK|openfootball
+NOTE|info|advancement|UECL-2324-R16-SER-VIK|Decided on penalties (90' score: 0-0; shootout: 3-1)
+MATCH|2022-03-14|UEFA Conference League|uefa-uecl|Fiorentina|1|1|Maccabi Haifa|R16 leg2|||Italy|UECL-2324-R16-FIO-MAC|openfootball
+MATCH|2022-03-14|UEFA Europa League|uefa-el|Atalanta|2|1|Sporting CP|R16 leg2|||Italy|UEL-2324-R16-ATA-SPO|openfootball
+MATCH|2022-03-14|UEFA Europa League|uefa-el|Liverpool|6|1|Sparta Prague|R16 leg2|||England|UEL-2324-R16-LIV-SPA|openfootball
+MATCH|2022-03-14|UEFA Europa League|uefa-el|Brighton|1|0|Roma|R16 leg2|||England|UEL-2324-R16-BRI-ROM|openfootball
+MATCH|2022-03-14|UEFA Europa League|uefa-el|Leverkusen|3|2|Qarabağ FK|R16 leg2|||Germany|UEL-2324-R16-LEV-QAR|openfootball
+MATCH|2022-03-14|UEFA Europa League|uefa-el|Villarreal|3|1|Marseille|R16 leg2|||Spain|UEL-2324-R16-MAR-VIL|openfootball
+MATCH|2022-03-14|UEFA Europa League|uefa-el|West Ham|5|0|Freiburg|R16 leg2|||England|UEL-2324-R16-FRE-WES|openfootball
+MATCH|2022-03-14|UEFA Europa League|uefa-el|Slavia Prague|1|3|Milan|R16 leg2|||Czech Republic|UEL-2324-R16-MIL-SLA|openfootball
+MATCH|2022-03-15|UEFA Champions League|uefa-cl|Man United|0|1|Ath Madrid|R16 leg2|||England|UCL-2122-R16-ATH-MAN|openfootball
+MATCH|2022-03-15|UEFA Champions League|uefa-cl|Real Madrid|1|0|Liverpool|R16 leg2|||Spain|UCL-2223-R16-LIV-REA|openfootball
+MATCH|2022-03-15|UEFA Champions League|uefa-cl|Napoli|3|0|Ein Frankfurt|R16 leg2|||Italy|UCL-2223-R16-EIN-NAP|openfootball
+MATCH|2022-03-16|UEFA Champions League|uefa-cl|Lille|1|2|Chelsea|R16 leg2|||France|UCL-2122-R16-CHE-LIL|openfootball
+MATCH|2022-03-16|UEFA Champions League|uefa-cl|Juventus|0|3|Villarreal|R16 leg2|||Italy|UCL-2122-R16-JUV-VIL|openfootball
+MATCH|2022-03-16|UEFA Conference League|uefa-uecl|AZ Alkmaar|2|1|Lazio|R16 leg2|||Netherlands|UECL-2223-R16-AZA-LAZ|openfootball
+MATCH|2022-03-16|UEFA Conference League|uefa-uecl|West Ham|4|0|AEK Larnaca|R16 leg2|||England|UECL-2223-R16-AEK-WES|openfootball
+MATCH|2022-03-16|UEFA Conference League|uefa-uecl|Nice|3|1|FC Sheriff|R16 leg2|||France|UECL-2223-R16-FCS-NIC|openfootball
+MATCH|2022-03-16|UEFA Conference League|uefa-uecl|Villarreal|0|1|RSC Anderlecht|R16 leg2|||Spain|UECL-2223-R16-RSC-VIL|openfootball
+MATCH|2022-03-16|UEFA Conference League|uefa-uecl|Sivasspor|1|4|Fiorentina|R16 leg2|||Turkey|UECL-2223-R16-FIO-SIV|openfootball
+MATCH|2022-03-16|UEFA Europa League|uefa-el|Union Saint-Gilloise|3|0|Union Berlin|R16 leg2|||Belgium|UEL-2223-R16-UNI-UNI|openfootball
+MATCH|2022-03-16|UEFA Europa League|uefa-el|Ferencvárosi TC|0|2|Leverkusen|R16 leg2|||Hungary|UEL-2223-R16-FER-LEV|openfootball
+MATCH|2022-03-16|UEFA Europa League|uefa-el|Arsenal|1|1|Sporting CP|R16 leg2|||England|UEL-2223-R16-ARS-SPO|openfootball
+NOTE|info|advancement|UEL-2223-R16-ARS-SPO|Decided on penalties (90' score: 1-1; shootout: 3-5)
+MATCH|2022-03-16|UEFA Europa League|uefa-el|Sociedad|0|0|Roma|R16 leg2|||Spain|UEL-2223-R16-ROM-SOC|openfootball
+MATCH|2022-03-16|UEFA Europa League|uefa-el|Fenerbahce|1|0|Sevilla|R16 leg2|||Turkey|UEL-2223-R16-FEN-SEV|openfootball
+MATCH|2022-03-16|UEFA Europa League|uefa-el|Freiburg|0|2|Juventus|R16 leg2|||Germany|UEL-2223-R16-FRE-JUV|openfootball
+MATCH|2022-03-16|UEFA Europa League|uefa-el|Betis|0|1|Man United|R16 leg2|||Spain|UEL-2223-R16-BET-MAN|openfootball
+MATCH|2022-03-17|UEFA Conference League|uefa-uecl|Roma|1|1|Vitesse|R16 leg2|||Italy|UECL-2122-R16-ROM-VIT|openfootball
+MATCH|2022-03-17|UEFA Conference League|uefa-uecl|LASK|4|3|Slavia Prague|R16 leg2|||Austria|UECL-2122-R16-LAS-SLA|openfootball
+MATCH|2022-03-17|UEFA Conference League|uefa-uecl|FC Basel 1893|1|2|Marseille|R16 leg2|||Switzerland|UECL-2122-R16-FCB-MAR|openfootball
+MATCH|2022-03-17|UEFA Conference League|uefa-uecl|Rennes|2|1|Leicester|R16 leg2|||France|UECL-2122-R16-LEI-REN|openfootball
+MATCH|2022-03-17|UEFA Europa League|uefa-el|Lyon|1|1|Porto|R16 leg2|||France|UEL-2122-R16-LYO-POR|openfootball
+MATCH|2022-03-17|UEFA Europa League|uefa-el|Ein Frankfurt|0|1|Betis|R16 leg2|||Germany|UEL-2122-R16-BET-EIN|openfootball
+NOTE|info|advancement|UEL-2122-R16-BET-EIN|Decided after extra time (90' score: 0-1; after ET: 1-1)
+MATCH|2022-03-17|UEFA Europa League|uefa-el|West Ham|1|0|Sevilla|R16 leg2|||England|UEL-2122-R16-SEV-WES|openfootball
+NOTE|info|advancement|UEL-2122-R16-SEV-WES|Decided after extra time (90' score: 1-0; after ET: 2-0)
+MATCH|2022-03-17|UEFA Europa League|uefa-el|Monaco|1|1|Braga|R16 leg2|||France|UEL-2122-R16-BRA-MON|openfootball
+MATCH|2022-03-17|UEFA Europa League|uefa-el|Leverkusen|0|1|Atalanta|R16 leg2|||Germany|UEL-2122-R16-ATA-LEV|openfootball
+MATCH|2022-03-17|UEFA Europa League|uefa-el|Galatasaray|1|2|Barcelona|R16 leg2|||Turkey|UEL-2122-R16-BAR-GAL|openfootball
+MATCH|2022-03-17|UEFA Champions League|uefa-cl|Arsenal|2|0|Leverkusen|R16 leg2|||England|UCL-2526-R16-ARS-LEV|openfootball
+MATCH|2022-03-17|UEFA Champions League|uefa-cl|Chelsea|0|3|Paris SG|R16 leg2|||England|UCL-2526-R16-CHE-PAR|openfootball
+MATCH|2022-03-17|UEFA Champions League|uefa-cl|Man City|1|2|Real Madrid|R16 leg2|||England|UCL-2526-R16-MAN-REA|openfootball
+MATCH|2022-03-18|UEFA Champions League|uefa-cl|Liverpool|4|0|Galatasaray|R16 leg2|||England|UCL-2526-R16-GAL-LIV|openfootball
+MATCH|2022-03-18|UEFA Champions League|uefa-cl|Bayern Munich|4|1|Atalanta|R16 leg2|||Germany|UCL-2526-R16-ATA-BAY|openfootball
+MATCH|2022-03-18|UEFA Champions League|uefa-cl|Barcelona|7|2|Newcastle|R16 leg2|||Spain|UCL-2526-R16-BAR-NEW|openfootball
+MATCH|2022-03-18|UEFA Champions League|uefa-cl|Tottenham|3|2|Ath Madrid|R16 leg2|||England|UCL-2526-R16-ATH-TOT|openfootball
+MATCH|2022-04-05|UEFA Champions League|uefa-cl|Man City|1|0|Ath Madrid|QF leg1|||England|UCL-2122-QF-ATH-MAN|openfootball
+MATCH|2022-04-05|UEFA Champions League|uefa-cl|Benfica|1|3|Liverpool|QF leg1|||Portugal|UCL-2122-QF-BEN-LIV|openfootball
+MATCH|2022-04-06|UEFA Champions League|uefa-cl|Chelsea|1|3|Real Madrid|QF leg1|||England|UCL-2122-QF-CHE-REA|openfootball
+MATCH|2022-04-06|UEFA Champions League|uefa-cl|Villarreal|1|0|Bayern Munich|QF leg1|||Spain|UCL-2122-QF-BAY-VIL|openfootball
+MATCH|2022-04-07|UEFA Conference League|uefa-uecl|Feyenoord|3|3|Slavia Prague|QF leg1|||Netherlands|UECL-2122-QF-FEY-SLA|openfootball
+MATCH|2022-04-07|UEFA Conference League|uefa-uecl|FK Bodø/Glimt|2|1|Roma|QF leg1|||Norway|UECL-2122-QF-FKB-ROM|openfootball
+MATCH|2022-04-07|UEFA Conference League|uefa-uecl|Marseille|2|1|PAOK Saloniki|QF leg1|||France|UECL-2122-QF-MAR-PAO|openfootball
+MATCH|2022-04-07|UEFA Conference League|uefa-uecl|Leicester|0|0|PSV Eindhoven|QF leg1|||England|UECL-2122-QF-LEI-PSV|openfootball
+MATCH|2022-04-07|UEFA Europa League|uefa-el|RB Leipzig|1|1|Atalanta|QF leg1|||Germany|UEL-2122-QF-ATA-RBL|openfootball
+MATCH|2022-04-07|UEFA Europa League|uefa-el|Ein Frankfurt|1|1|Barcelona|QF leg1|||Germany|UEL-2122-QF-BAR-EIN|openfootball
+MATCH|2022-04-07|UEFA Europa League|uefa-el|West Ham|1|1|Lyon|QF leg1|||England|UEL-2122-QF-LYO-WES|openfootball
+MATCH|2022-04-07|UEFA Champions League|uefa-cl|Real Madrid|1|2|Bayern Munich|QF leg1|||Spain|UCL-2526-QF-BAY-REA|openfootball
+MATCH|2022-04-07|UEFA Champions League|uefa-cl|Sporting CP|0|1|Arsenal|QF leg1|||Portugal|UCL-2526-QF-ARS-SPO|openfootball
+MATCH|2022-04-08|UEFA Champions League|uefa-cl|Arsenal|3|0|Real Madrid|QF leg1|||England|UCL-2425-QF-ARS-REA|openfootball
+MATCH|2022-04-08|UEFA Champions League|uefa-cl|Bayern Munich|1|2|Inter|QF leg1|||Germany|UCL-2425-QF-BAY-INT|openfootball
+MATCH|2022-04-08|UEFA Champions League|uefa-cl|Paris SG|2|0|Liverpool|QF leg1|||France|UCL-2526-QF-LIV-PAR|openfootball
+MATCH|2022-04-08|UEFA Champions League|uefa-cl|Barcelona|0|2|Ath Madrid|QF leg1|||Spain|UCL-2526-QF-ATH-BAR|openfootball
+MATCH|2022-04-09|UEFA Champions League|uefa-cl|Arsenal|2|2|Bayern Munich|QF leg1|||England|UCL-2324-QF-ARS-BAY|openfootball
+MATCH|2022-04-09|UEFA Champions League|uefa-cl|Real Madrid|3|3|Man City|QF leg1|||Spain|UCL-2324-QF-MAN-REA|openfootball
+MATCH|2022-04-09|UEFA Champions League|uefa-cl|Paris SG|3|1|Aston Villa|QF leg1|||France|UCL-2425-QF-AST-PAR|openfootball
+MATCH|2022-04-09|UEFA Champions League|uefa-cl|Barcelona|4|0|Dortmund|QF leg1|||Spain|UCL-2425-QF-BAR-DOR|openfootball
+MATCH|2022-04-10|UEFA Champions League|uefa-cl|Ath Madrid|2|1|Dortmund|QF leg1|||Spain|UCL-2324-QF-ATH-DOR|openfootball
+MATCH|2022-04-10|UEFA Champions League|uefa-cl|Paris SG|2|3|Barcelona|QF leg1|||France|UCL-2324-QF-BAR-PAR|openfootball
+MATCH|2022-04-10|UEFA Conference League|uefa-uecl|Legia Warsaw|0|3|Chelsea|QF leg1|||Poland|UECL-2425-QF-CHE-LEG|openfootball
+MATCH|2022-04-10|UEFA Conference League|uefa-uecl|Betis|2|0|Jagiellonia Białystok|QF leg1|||Spain|UECL-2425-QF-BET-JAG|openfootball
+MATCH|2022-04-10|UEFA Conference League|uefa-uecl|Celje|1|2|Fiorentina|QF leg1|||Slovenia|UECL-2425-QF-CEL-FIO|openfootball
+MATCH|2022-04-10|UEFA Europa League|uefa-el|FK Bodø/Glimt|2|0|Lazio|QF leg1|||Norway|UEL-2425-QF-FKB-LAZ|openfootball
+MATCH|2022-04-10|UEFA Europa League|uefa-el|Tottenham|1|1|Ein Frankfurt|QF leg1|||England|UEL-2425-QF-EIN-TOT|openfootball
+MATCH|2022-04-10|UEFA Europa League|uefa-el|Rangers|0|0|Ath Bilbao|QF leg1|||Scotland|UEL-2425-QF-ATH-RAN|openfootball
+MATCH|2022-04-10|UEFA Europa League|uefa-el|Lyon|2|2|Man United|QF leg1|||France|UEL-2425-QF-LYO-MAN|openfootball
+MATCH|2022-04-11|UEFA Champions League|uefa-cl|Benfica|0|2|Inter|QF leg1|||Portugal|UCL-2223-QF-BEN-INT|openfootball
+MATCH|2022-04-11|UEFA Champions League|uefa-cl|Man City|3|0|Bayern Munich|QF leg1|||England|UCL-2223-QF-BAY-MAN|openfootball
+MATCH|2022-04-11|UEFA Conference League|uefa-uecl|Viktoria Plzen|0|0|Fiorentina|QF leg1|||Czech Republic|UECL-2324-QF-FIO-VIK|openfootball
+MATCH|2022-04-11|UEFA Conference League|uefa-uecl|Aston Villa|2|1|Lille|QF leg1|||England|UECL-2324-QF-AST-LIL|openfootball
+MATCH|2022-04-11|UEFA Europa League|uefa-el|Milan|0|1|Roma|QF leg1|||Italy|UEL-2324-QF-MIL-ROM|openfootball
+MATCH|2022-04-11|UEFA Europa League|uefa-el|Liverpool|0|3|Atalanta|QF leg1|||England|UEL-2324-QF-ATA-LIV|openfootball
+MATCH|2022-04-11|UEFA Europa League|uefa-el|Leverkusen|2|0|West Ham|QF leg1|||Germany|UEL-2324-QF-LEV-WES|openfootball
+MATCH|2022-04-11|UEFA Europa League|uefa-el|Benfica|2|1|Marseille|QF leg1|||Portugal|UEL-2324-QF-BEN-MAR|openfootball
+MATCH|2022-04-12|UEFA Champions League|uefa-cl|Real Madrid|1|3|Chelsea|QF leg2|||Spain|UCL-2122-QF-CHE-REA|openfootball
+NOTE|info|advancement|UCL-2122-QF-CHE-REA|Decided after extra time (90' score: 1-3; after ET: 2-3)
+MATCH|2022-04-12|UEFA Champions League|uefa-cl|Bayern Munich|1|1|Villarreal|QF leg2|||Germany|UCL-2122-QF-BAY-VIL|openfootball
+MATCH|2022-04-12|UEFA Champions League|uefa-cl|Real Madrid|2|0|Chelsea|QF leg1|||Spain|UCL-2223-QF-CHE-REA|openfootball
+MATCH|2022-04-12|UEFA Champions League|uefa-cl|Milan|1|0|Napoli|QF leg1|||Italy|UCL-2223-QF-MIL-NAP|openfootball
+MATCH|2022-04-13|UEFA Champions League|uefa-cl|Ath Madrid|0|0|Man City|QF leg2|||Spain|UCL-2122-QF-ATH-MAN|openfootball
+MATCH|2022-04-13|UEFA Champions League|uefa-cl|Liverpool|3|3|Benfica|QF leg2|||England|UCL-2122-QF-BEN-LIV|openfootball
+MATCH|2022-04-13|UEFA Conference League|uefa-uecl|Gent|1|1|West Ham|QF leg1|||Belgium|UECL-2223-QF-GEN-WES|openfootball
+MATCH|2022-04-13|UEFA Conference League|uefa-uecl|Lech Poznań|1|4|Fiorentina|QF leg1|||Poland|UECL-2223-QF-FIO-LEC|openfootball
+MATCH|2022-04-13|UEFA Conference League|uefa-uecl|FC Basel 1893|2|2|Nice|QF leg1|||Switzerland|UECL-2223-QF-FCB-NIC|openfootball
+MATCH|2022-04-13|UEFA Europa League|uefa-el|Feyenoord|1|0|Roma|QF leg1|||Netherlands|UEL-2223-QF-FEY-ROM|openfootball
+MATCH|2022-04-13|UEFA Europa League|uefa-el|Man United|2|2|Sevilla|QF leg1|||England|UEL-2223-QF-MAN-SEV|openfootball
+MATCH|2022-04-13|UEFA Europa League|uefa-el|Juventus|1|0|Sporting CP|QF leg1|||Italy|UEL-2223-QF-JUV-SPO|openfootball
+MATCH|2022-04-13|UEFA Europa League|uefa-el|Leverkusen|1|1|Union Saint-Gilloise|QF leg1|||Germany|UEL-2223-QF-LEV-UNI|openfootball
+MATCH|2022-04-14|UEFA Conference League|uefa-uecl|Slavia Prague|1|3|Feyenoord|QF leg2|||Czech Republic|UECL-2122-QF-FEY-SLA|openfootball
+MATCH|2022-04-14|UEFA Conference League|uefa-uecl|Roma|4|0|FK Bodø/Glimt|QF leg2|||Italy|UECL-2122-QF-FKB-ROM|openfootball
+MATCH|2022-04-14|UEFA Conference League|uefa-uecl|PAOK Saloniki|0|1|Marseille|QF leg2|||Greece|UECL-2122-QF-MAR-PAO|openfootball
+MATCH|2022-04-14|UEFA Conference League|uefa-uecl|PSV Eindhoven|1|2|Leicester|QF leg2|||Netherlands|UECL-2122-QF-LEI-PSV|openfootball
+MATCH|2022-04-14|UEFA Europa League|uefa-el|Atalanta|0|2|RB Leipzig|QF leg2|||Italy|UEL-2122-QF-ATA-RBL|openfootball
+MATCH|2022-04-14|UEFA Europa League|uefa-el|Barcelona|2|3|Ein Frankfurt|QF leg2|||Spain|UEL-2122-QF-BAR-EIN|openfootball
+MATCH|2022-04-14|UEFA Europa League|uefa-el|Lyon|0|3|West Ham|QF leg2|||France|UEL-2122-QF-LYO-WES|openfootball
+MATCH|2022-04-14|UEFA Champions League|uefa-cl|Liverpool|0|2|Paris SG|QF leg2|||England|UCL-2526-QF-LIV-PAR|openfootball
+MATCH|2022-04-14|UEFA Champions League|uefa-cl|Ath Madrid|1|2|Barcelona|QF leg2|||Spain|UCL-2526-QF-ATH-BAR|openfootball
+MATCH|2022-04-15|UEFA Champions League|uefa-cl|Aston Villa|3|2|Paris SG|QF leg2|||England|UCL-2425-QF-AST-PAR|openfootball
+MATCH|2022-04-15|UEFA Champions League|uefa-cl|Dortmund|3|1|Barcelona|QF leg2|||Germany|UCL-2425-QF-BAR-DOR|openfootball
+MATCH|2022-04-15|UEFA Champions League|uefa-cl|Bayern Munich|4|3|Real Madrid|QF leg2|||Germany|UCL-2526-QF-BAY-REA|openfootball
+MATCH|2022-04-15|UEFA Champions League|uefa-cl|Arsenal|0|0|Sporting CP|QF leg2|||England|UCL-2526-QF-ARS-SPO|openfootball
+MATCH|2022-04-16|UEFA Champions League|uefa-cl|Dortmund|4|2|Ath Madrid|QF leg2|||Germany|UCL-2324-QF-ATH-DOR|openfootball
+MATCH|2022-04-16|UEFA Champions League|uefa-cl|Barcelona|1|4|Paris SG|QF leg2|||Spain|UCL-2324-QF-BAR-PAR|openfootball
+MATCH|2022-04-16|UEFA Champions League|uefa-cl|Real Madrid|1|2|Arsenal|QF leg2|||Spain|UCL-2425-QF-ARS-REA|openfootball
+MATCH|2022-04-16|UEFA Champions League|uefa-cl|Inter|2|2|Bayern Munich|QF leg2|||Italy|UCL-2425-QF-BAY-INT|openfootball
+MATCH|2022-04-17|UEFA Champions League|uefa-cl|Bayern Munich|1|0|Arsenal|QF leg2|||Germany|UCL-2324-QF-ARS-BAY|openfootball
+MATCH|2022-04-17|UEFA Champions League|uefa-cl|Man City|1|1|Real Madrid|QF leg2|||England|UCL-2324-QF-MAN-REA|openfootball
+NOTE|info|advancement|UCL-2324-QF-MAN-REA|Decided on penalties (90' score: 1-1; shootout: 3-4)
+MATCH|2022-04-17|UEFA Conference League|uefa-uecl|Chelsea|1|2|Legia Warsaw|QF leg2|||England|UECL-2425-QF-CHE-LEG|openfootball
+MATCH|2022-04-17|UEFA Conference League|uefa-uecl|Jagiellonia Białystok|1|1|Betis|QF leg2|||Poland|UECL-2425-QF-BET-JAG|openfootball
+MATCH|2022-04-17|UEFA Conference League|uefa-uecl|Fiorentina|2|2|Celje|QF leg2|||Italy|UECL-2425-QF-CEL-FIO|openfootball
+MATCH|2022-04-17|UEFA Europa League|uefa-el|Lazio|2|0|FK Bodø/Glimt|QF leg2|||Italy|UEL-2425-QF-FKB-LAZ|openfootball
+NOTE|info|advancement|UEL-2425-QF-FKB-LAZ|Decided on penalties (90' score: 2-0; shootout: 2-3)
+MATCH|2022-04-17|UEFA Europa League|uefa-el|Ein Frankfurt|0|1|Tottenham|QF leg2|||Germany|UEL-2425-QF-EIN-TOT|openfootball
+MATCH|2022-04-17|UEFA Europa League|uefa-el|Ath Bilbao|2|0|Rangers|QF leg2|||Spain|UEL-2425-QF-ATH-RAN|openfootball
+MATCH|2022-04-17|UEFA Europa League|uefa-el|Man United|2|2|Lyon|QF leg2|||England|UEL-2425-QF-LYO-MAN|openfootball
+NOTE|info|advancement|UEL-2425-QF-LYO-MAN|Decided after extra time (90' score: 2-2; after ET: 5-4)
+MATCH|2022-04-18|UEFA Champions League|uefa-cl|Chelsea|0|2|Real Madrid|QF leg2|||England|UCL-2223-QF-CHE-REA|openfootball
+MATCH|2022-04-18|UEFA Champions League|uefa-cl|Napoli|1|1|Milan|QF leg2|||Italy|UCL-2223-QF-MIL-NAP|openfootball
+MATCH|2022-04-18|UEFA Conference League|uefa-uecl|Fiorentina|0|0|Viktoria Plzen|QF leg2|||Italy|UECL-2324-QF-FIO-VIK|openfootball
+NOTE|info|advancement|UECL-2324-QF-FIO-VIK|Decided after extra time (90' score: 0-0; after ET: 2-0)
+MATCH|2022-04-18|UEFA Conference League|uefa-uecl|Lille|2|1|Aston Villa|QF leg2|||France|UECL-2324-QF-AST-LIL|openfootball
+NOTE|info|advancement|UECL-2324-QF-AST-LIL|Decided on penalties (90' score: 2-1; shootout: 3-4)
+MATCH|2022-04-18|UEFA Europa League|uefa-el|Roma|2|1|Milan|QF leg2|||Italy|UEL-2324-QF-MIL-ROM|openfootball
+MATCH|2022-04-18|UEFA Europa League|uefa-el|Atalanta|0|1|Liverpool|QF leg2|||Italy|UEL-2324-QF-ATA-LIV|openfootball
+MATCH|2022-04-18|UEFA Europa League|uefa-el|West Ham|1|1|Leverkusen|QF leg2|||England|UEL-2324-QF-LEV-WES|openfootball
+MATCH|2022-04-18|UEFA Europa League|uefa-el|Marseille|1|0|Benfica|QF leg2|||France|UEL-2324-QF-BEN-MAR|openfootball
+NOTE|info|advancement|UEL-2324-QF-BEN-MAR|Decided on penalties (90' score: 1-0; shootout: 4-2)
+MATCH|2022-04-19|UEFA Champions League|uefa-cl|Inter|3|3|Benfica|QF leg2|||Italy|UCL-2223-QF-BEN-INT|openfootball
+MATCH|2022-04-19|UEFA Champions League|uefa-cl|Bayern Munich|1|1|Man City|QF leg2|||Germany|UCL-2223-QF-BAY-MAN|openfootball
+MATCH|2022-04-20|UEFA Conference League|uefa-uecl|West Ham|4|1|Gent|QF leg2|||England|UECL-2223-QF-GEN-WES|openfootball
+MATCH|2022-04-20|UEFA Conference League|uefa-uecl|Fiorentina|2|3|Lech Poznań|QF leg2|||Italy|UECL-2223-QF-FIO-LEC|openfootball
+MATCH|2022-04-20|UEFA Conference League|uefa-uecl|Nice|1|1|FC Basel 1893|QF leg2|||France|UECL-2223-QF-FCB-NIC|openfootball
+NOTE|info|advancement|UECL-2223-QF-FCB-NIC|Decided after extra time (90' score: 1-1; after ET: 1-2)
+MATCH|2022-04-20|UEFA Europa League|uefa-el|Roma|2|1|Feyenoord|QF leg2|||Italy|UEL-2223-QF-FEY-ROM|openfootball
+NOTE|info|advancement|UEL-2223-QF-FEY-ROM|Decided after extra time (90' score: 2-1; after ET: 4-1)
+MATCH|2022-04-20|UEFA Europa League|uefa-el|Sevilla|3|0|Man United|QF leg2|||Spain|UEL-2223-QF-MAN-SEV|openfootball
+MATCH|2022-04-20|UEFA Europa League|uefa-el|Sporting CP|1|1|Juventus|QF leg2|||Portugal|UEL-2223-QF-JUV-SPO|openfootball
+MATCH|2022-04-20|UEFA Europa League|uefa-el|Union Saint-Gilloise|1|4|Leverkusen|QF leg2|||Belgium|UEL-2223-QF-LEV-UNI|openfootball
+MATCH|2022-04-26|UEFA Champions League|uefa-cl|Man City|4|3|Real Madrid|SF leg1|||England|UCL-2122-SF-MAN-REA|openfootball
+MATCH|2022-04-27|UEFA Champions League|uefa-cl|Liverpool|2|0|Villarreal|SF leg1|||England|UCL-2122-SF-LIV-VIL|openfootball
+MATCH|2022-04-28|UEFA Conference League|uefa-uecl|Leicester|1|1|Roma|SF leg1|||England|UECL-2122-SF-LEI-ROM|openfootball
+MATCH|2022-04-28|UEFA Conference League|uefa-uecl|Feyenoord|3|2|Marseille|SF leg1|||Netherlands|UECL-2122-SF-FEY-MAR|openfootball
+MATCH|2022-04-28|UEFA Europa League|uefa-el|RB Leipzig|1|0|Rangers|SF leg1|||Germany|UEL-2122-SF-RBL-RAN|openfootball
+MATCH|2022-04-28|UEFA Europa League|uefa-el|West Ham|1|2|Ein Frankfurt|SF leg1|||England|UEL-2122-SF-EIN-WES|openfootball
+MATCH|2022-04-28|UEFA Champions League|uefa-cl|Paris SG|5|4|Bayern Munich|SF leg1|||France|UCL-2526-SF-BAY-PAR|openfootball
+MATCH|2022-04-29|UEFA Champions League|uefa-cl|Arsenal|0|1|Paris SG|SF leg1|||England|UCL-2425-SF-ARS-PAR|openfootball
+MATCH|2022-04-29|UEFA Champions League|uefa-cl|Ath Madrid|1|1|Arsenal|SF leg1|||Spain|UCL-2526-SF-ARS-ATH|openfootball
+MATCH|2022-04-30|UEFA Champions League|uefa-cl|Bayern Munich|2|2|Real Madrid|SF leg1|||Germany|UCL-2324-SF-BAY-REA|openfootball
+MATCH|2022-04-30|UEFA Champions League|uefa-cl|Barcelona|3|3|Inter|SF leg1|||Spain|UCL-2425-SF-BAR-INT|openfootball
+MATCH|2022-05-01|UEFA Champions League|uefa-cl|Dortmund|1|0|Paris SG|SF leg1|||Germany|UCL-2324-SF-DOR-PAR|openfootball
+MATCH|2022-05-01|UEFA Conference League|uefa-uecl|Betis|2|1|Fiorentina|SF leg1|||Spain|UECL-2425-SF-BET-FIO|openfootball
+MATCH|2022-05-01|UEFA Conference League|uefa-uecl|Djurgården|1|4|Chelsea|SF leg1|||Sweden|UECL-2425-SF-CHE-DJU|openfootball
+MATCH|2022-05-01|UEFA Europa League|uefa-el|Tottenham|3|1|FK Bodø/Glimt|SF leg1|||England|UEL-2425-SF-FKB-TOT|openfootball
+MATCH|2022-05-01|UEFA Europa League|uefa-el|Ath Bilbao|0|3|Man United|SF leg1|||Spain|UEL-2425-SF-ATH-MAN|openfootball
+MATCH|2022-05-02|UEFA Conference League|uefa-uecl|Aston Villa|2|4|Olympiakos Piraeus|SF leg1|||England|UECL-2324-SF-AST-OLY|openfootball
+MATCH|2022-05-02|UEFA Conference League|uefa-uecl|Fiorentina|3|2|Club Brugge|SF leg1|||Italy|UECL-2324-SF-CLU-FIO|openfootball
+MATCH|2022-05-02|UEFA Europa League|uefa-el|Marseille|1|1|Atalanta|SF leg1|||France|UEL-2324-SF-ATA-MAR|openfootball
+MATCH|2022-05-02|UEFA Europa League|uefa-el|Roma|0|2|Leverkusen|SF leg1|||Italy|UEL-2324-SF-LEV-ROM|openfootball
+MATCH|2022-05-03|UEFA Champions League|uefa-cl|Villarreal|2|3|Liverpool|SF leg2|||Spain|UCL-2122-SF-LIV-VIL|openfootball
+MATCH|2022-05-04|UEFA Champions League|uefa-cl|Real Madrid|2|1|Man City|SF leg2|||Spain|UCL-2122-SF-MAN-REA|openfootball
+NOTE|info|advancement|UCL-2122-SF-MAN-REA|Decided after extra time (90' score: 2-1; after ET: 3-1)
+MATCH|2022-05-05|UEFA Conference League|uefa-uecl|Roma|1|0|Leicester|SF leg2|||Italy|UECL-2122-SF-LEI-ROM|openfootball
+MATCH|2022-05-05|UEFA Conference League|uefa-uecl|Marseille|0|0|Feyenoord|SF leg2|||France|UECL-2122-SF-FEY-MAR|openfootball
+MATCH|2022-05-05|UEFA Europa League|uefa-el|Rangers|3|1|RB Leipzig|SF leg2|||Scotland|UEL-2122-SF-RBL-RAN|openfootball
+MATCH|2022-05-05|UEFA Europa League|uefa-el|Ein Frankfurt|1|0|West Ham|SF leg2|||Germany|UEL-2122-SF-EIN-WES|openfootball
+MATCH|2022-05-05|UEFA Champions League|uefa-cl|Arsenal|1|0|Ath Madrid|SF leg2|||England|UCL-2526-SF-ARS-ATH|openfootball
+MATCH|2022-05-06|UEFA Champions League|uefa-cl|Inter|4|3|Barcelona|SF leg2|||Italy|UCL-2425-SF-BAR-INT|openfootball
+MATCH|2022-05-06|UEFA Champions League|uefa-cl|Bayern Munich|1|1|Paris SG|SF leg2|||Germany|UCL-2526-SF-BAY-PAR|openfootball
+MATCH|2022-05-07|UEFA Champions League|uefa-cl|Paris SG|0|1|Dortmund|SF leg2|||France|UCL-2324-SF-DOR-PAR|openfootball
+MATCH|2022-05-07|UEFA Champions League|uefa-cl|Paris SG|2|1|Arsenal|SF leg2|||France|UCL-2425-SF-ARS-PAR|openfootball
+MATCH|2022-05-08|UEFA Champions League|uefa-cl|Real Madrid|2|1|Bayern Munich|SF leg2|||Spain|UCL-2324-SF-BAY-REA|openfootball
+MATCH|2022-05-08|UEFA Conference League|uefa-uecl|Club Brugge|1|1|Fiorentina|SF leg2|||Belgium|UECL-2324-SF-CLU-FIO|openfootball
+MATCH|2022-05-08|UEFA Conference League|uefa-uecl|Fiorentina|2|1|Betis|SF leg2|||Italy|UECL-2425-SF-BET-FIO|openfootball
+NOTE|info|advancement|UECL-2425-SF-BET-FIO|Decided after extra time (90' score: 2-1; after ET: 2-2)
+MATCH|2022-05-08|UEFA Conference League|uefa-uecl|Chelsea|1|0|Djurgården|SF leg2|||England|UECL-2425-SF-CHE-DJU|openfootball
+MATCH|2022-05-08|UEFA Europa League|uefa-el|FK Bodø/Glimt|0|2|Tottenham|SF leg2|||Norway|UEL-2425-SF-FKB-TOT|openfootball
+MATCH|2022-05-08|UEFA Europa League|uefa-el|Man United|4|1|Ath Bilbao|SF leg2|||England|UEL-2425-SF-ATH-MAN|openfootball
+MATCH|2022-05-09|UEFA Champions League|uefa-cl|Real Madrid|1|1|Man City|SF leg1|||Spain|UCL-2223-SF-MAN-REA|openfootball
+MATCH|2022-05-09|UEFA Conference League|uefa-uecl|Olympiakos Piraeus|2|0|Aston Villa|SF leg2|||Greece|UECL-2324-SF-AST-OLY|openfootball
+MATCH|2022-05-09|UEFA Europa League|uefa-el|Atalanta|3|0|Marseille|SF leg2|||Italy|UEL-2324-SF-ATA-MAR|openfootball
+MATCH|2022-05-09|UEFA Europa League|uefa-el|Leverkusen|2|2|Roma|SF leg2|||Germany|UEL-2324-SF-LEV-ROM|openfootball
+MATCH|2022-05-10|UEFA Champions League|uefa-cl|Milan|0|2|Inter|SF leg1|||Italy|UCL-2223-SF-INT-MIL|openfootball
+MATCH|2022-05-11|UEFA Conference League|uefa-uecl|Fiorentina|1|2|FC Basel 1893|SF leg1|||Italy|UECL-2223-SF-FCB-FIO|openfootball
+MATCH|2022-05-11|UEFA Conference League|uefa-uecl|West Ham|2|1|AZ Alkmaar|SF leg1|||England|UECL-2223-SF-AZA-WES|openfootball
+MATCH|2022-05-11|UEFA Europa League|uefa-el|Juventus|1|1|Sevilla|SF leg1|||Italy|UEL-2223-SF-JUV-SEV|openfootball
+MATCH|2022-05-11|UEFA Europa League|uefa-el|Roma|1|0|Leverkusen|SF leg1|||Italy|UEL-2223-SF-LEV-ROM|openfootball
+MATCH|2022-05-16|UEFA Champions League|uefa-cl|Inter|1|0|Milan|SF leg2|||Italy|UCL-2223-SF-INT-MIL|openfootball
+MATCH|2022-05-17|UEFA Champions League|uefa-cl|Man City|4|0|Real Madrid|SF leg2|||England|UCL-2223-SF-MAN-REA|openfootball
+MATCH|2022-05-18|UEFA Europa League|uefa-el|Ein Frankfurt|1|1|Rangers|Final|||Germany||openfootball
+NOTE|info|advancement||Decided on penalties (90' score: 1-1; shootout: 5-4)
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-18|UEFA Conference League|uefa-uecl|FC Basel 1893|1|2|Fiorentina|SF leg2|||Switzerland|UECL-2223-SF-FCB-FIO|openfootball
+NOTE|info|advancement|UECL-2223-SF-FCB-FIO|Decided after extra time (90' score: 1-2; after ET: 1-3)
+MATCH|2022-05-18|UEFA Conference League|uefa-uecl|AZ Alkmaar|0|1|West Ham|SF leg2|||Netherlands|UECL-2223-SF-AZA-WES|openfootball
+MATCH|2022-05-18|UEFA Europa League|uefa-el|Sevilla|1|1|Juventus|SF leg2|||Spain|UEL-2223-SF-JUV-SEV|openfootball
+NOTE|info|advancement|UEL-2223-SF-JUV-SEV|Decided after extra time (90' score: 1-1; after ET: 2-1)
+MATCH|2022-05-18|UEFA Europa League|uefa-el|Leverkusen|0|0|Roma|SF leg2|||Germany|UEL-2223-SF-LEV-ROM|openfootball
+MATCH|2022-05-21|UEFA Europa League|uefa-el|Tottenham|1|0|Man United|Final|||England||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-22|UEFA Europa League|uefa-el|Atalanta|3|0|Leverkusen|Final|||Italy||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-25|UEFA Conference League|uefa-uecl|Roma|1|0|Feyenoord|Final|||Italy||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-28|UEFA Champions League|uefa-cl|Liverpool|0|1|Real Madrid|Final|||England||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-28|UEFA Conference League|uefa-uecl|Betis|1|4|Chelsea|Final|||Spain||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-29|UEFA Conference League|uefa-uecl|Olympiakos Piraeus|0|0|Fiorentina|Final|||Greece||openfootball
+NOTE|info|advancement||Decided after extra time (90' score: 0-0; after ET: 1-0)
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-30|UEFA Champions League|uefa-cl|Paris SG|1|1|Arsenal|Final|||France||openfootball
+NOTE|info|advancement||Decided on penalties (90' score: 1-1; shootout: 4-3)
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-31|UEFA Europa League|uefa-el|Sevilla|1|1|Roma|Final|||Spain||openfootball
+NOTE|info|advancement||Decided on penalties (90' score: 1-1; shootout: 4-1)
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-05-31|UEFA Champions League|uefa-cl|Paris SG|5|0|Inter|Final|||France||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-06-01|UEFA Champions League|uefa-cl|Dortmund|0|2|Real Madrid|Final|||Germany||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-06-07|UEFA Conference League|uefa-uecl|Fiorentina|1|2|West Ham|Final|||Italy||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-06-10|UEFA Champions League|uefa-cl|Man City|1|0|Inter|Final|||England||openfootball
+NOTE|info|neutral_venue|Tournament Final played at designated neutral venue
+MATCH|2022-09-07|UEFA Champions League|uefa-cl|Napoli|4|1|Liverpool|Group stage leg2|||Italy|UCL-2223-Group stage-LIV-NAP|openfootball
+MATCH|2022-09-08|UEFA Conference League|uefa-uecl|Fiorentina|1|1|FK RFS|Group stage leg2|||Italy|UECL-2223-Group stage-FKR-FIO|openfootball
+MATCH|2022-09-08|UEFA Europa League|uefa-el|FC Zürich|1|2|Arsenal|Group stage leg2|||Switzerland|UEL-2223-Group stage-ARS-FCZ|openfootball
+MATCH|2023-02-14|UEFA Champions League|uefa-cl|Milan|1|0|Tottenham|R16 leg2|||Italy|UCL-2223-R16-MIL-TOT|openfootball
+MATCH|2023-02-14|UEFA Champions League|uefa-cl|Paris SG|0|1|Bayern Munich|R16 leg2|||France|UCL-2223-R16-BAY-PAR|openfootball
+MATCH|2023-02-16|UEFA Conference League|uefa-uecl|Braga|0|4|Fiorentina|PO leg2|||Portugal|UECL-2223-PO-BRA-FIO|openfootball
+MATCH|2023-02-16|UEFA Conference League|uefa-uecl|Lazio|1|0|CFR Cluj|PO leg2|||Italy|UECL-2223-PO-CFR-LAZ|openfootball
+MATCH|2023-02-16|UEFA Europa League|uefa-el|Barcelona|2|2|Man United|PO leg2|||Spain|UEL-2223-PO-BAR-MAN|openfootball
+MATCH|2023-02-16|UEFA Europa League|uefa-el|Shakhtar Donetsk|2|1|Rennes|PO leg2|||Ukraine|UEL-2223-PO-REN-SHA|openfootball
+NOTE|info|neutral_venue|Match relocated to neutral venue due to safety concerns in home country
+MATCH|2023-02-16|UEFA Europa League|uefa-el|AFC Ajax|0|0|Union Berlin|PO leg2|||Netherlands|UEL-2223-PO-AFC-UNI|openfootball
+MATCH|2023-02-16|UEFA Europa League|uefa-el|RB Salzburg|1|0|Roma|PO leg2|||Austria|UEL-2223-PO-RBS-ROM|openfootball
+MATCH|2023-02-16|UEFA Europa League|uefa-el|Juventus|1|1|Nantes|PO leg2|||Italy|UEL-2223-PO-JUV-NAN|openfootball
+MATCH|2023-02-16|UEFA Europa League|uefa-el|Leverkusen|2|3|Monaco|PO leg2|||Germany|UEL-2223-PO-LEV-MON|openfootball
+MATCH|2023-02-16|UEFA Europa League|uefa-el|Sevilla|3|0|PSV Eindhoven|PO leg2|||Spain|UEL-2223-PO-PSV-SEV|openfootball
+MATCH|2023-09-19|UEFA Champions League|uefa-cl|Milan|0|0|Newcastle|Group stage leg2|||Italy|UCL-2324-Group stage-MIL-NEW|openfootball
+MATCH|2023-09-19|UEFA Champions League|uefa-cl|BSC Young Boys|1|3|RB Leipzig|Group stage leg2|||Switzerland|UCL-2324-Group stage-BSC-RBL|openfootball
+MATCH|2023-09-19|UEFA Champions League|uefa-cl|Lazio|1|1|Ath Madrid|Group stage leg2|||Italy|UCL-2324-Group stage-ATH-LAZ|openfootball
+MATCH|2023-09-19|UEFA Champions League|uefa-cl|Paris SG|2|0|Dortmund|Group stage leg2|||France|UCL-2324-Group stage-DOR-PAR|openfootball
+MATCH|2023-09-19|UEFA Champions League|uefa-cl|Man City|3|1|FK Crvena Zvezda|Group stage leg2|||England|UCL-2324-Group stage-FKC-MAN|openfootball
+MATCH|2023-09-19|UEFA Champions League|uefa-cl|Barcelona|5|0|Royal Antwerp FC|Group stage leg2|||Spain|UCL-2324-Group stage-BAR-ROY|openfootball
+MATCH|2023-09-20|UEFA Conference League|uefa-uecl|Lille|2|0|Olimpija Ljubljana|Group stage leg2|||France|UECL-2324-Group stage-LIL-OLI|openfootball
+MATCH|2023-09-21|UEFA Europa League|uefa-el|Olympiakos Piraeus|2|3|Freiburg|Group stage leg2|||Greece|UEL-2324-Group stage-FRE-OLY|openfootball
+MATCH|2023-09-21|UEFA Europa League|uefa-el|West Ham|3|1|TSC Bačka Topola|Group stage leg2|||England|UEL-2324-Group stage-TSC-WES|openfootball
+MATCH|2024-02-13|UEFA Champions League|uefa-cl|Copenhagen|1|3|Man City|R16 leg2|||Denmark|UCL-2324-R16-COP-MAN|openfootball
+MATCH|2024-02-13|UEFA Champions League|uefa-cl|RB Leipzig|0|1|Real Madrid|R16 leg2|||Germany|UCL-2324-R16-RBL-REA|openfootball
+MATCH|2024-02-15|UEFA Conference League|uefa-uecl|Union Saint-Gilloise|2|2|Ein Frankfurt|PO leg2|||Belgium|UECL-2324-PO-EIN-UNI|openfootball
+MATCH|2024-02-15|UEFA Conference League|uefa-uecl|Betis|0|1|Dinamo Zagreb|PO leg2|||Spain|UECL-2324-PO-BET-DIN|openfootball
+MATCH|2024-02-15|UEFA Europa League|uefa-el|Feyenoord|1|1|Roma|PO leg2|||Netherlands|UEL-2324-PO-FEY-ROM|openfootball
+MATCH|2024-02-15|UEFA Europa League|uefa-el|Galatasaray|3|2|Sparta Prague|PO leg2|||Turkey|UEL-2324-PO-GAL-SPA|openfootball
+MATCH|2024-02-15|UEFA Europa League|uefa-el|Shakhtar Donetsk|2|2|Marseille|PO leg2|||Ukraine|UEL-2324-PO-MAR-SHA|openfootball
+NOTE|info|neutral_venue|Match relocated to neutral venue due to safety concerns in home country
+MATCH|2024-02-15|UEFA Europa League|uefa-el|Milan|3|0|Rennes|PO leg2|||Italy|UEL-2324-PO-MIL-REN|openfootball
+MATCH|2024-02-15|UEFA Europa League|uefa-el|Lens|0|0|Freiburg|PO leg2|||France|UEL-2324-PO-FRE-LEN|openfootball
+MATCH|2024-02-15|UEFA Europa League|uefa-el|Benfica|2|1|Toulouse|PO leg2|||Portugal|UEL-2324-PO-BEN-TOU|openfootball
+MATCH|2024-09-17|UEFA Champions League|uefa-cl|BSC Young Boys|0|3|Aston Villa|League phase MD1|||Switzerland||openfootball
+MATCH|2024-09-17|UEFA Champions League|uefa-cl|Juventus|3|1|PSV|League phase MD1|||Italy||openfootball
+MATCH|2024-09-17|UEFA Champions League|uefa-cl|Sporting CP|2|0|Lille|League phase MD1|||Portugal||openfootball
+MATCH|2024-09-17|UEFA Champions League|uefa-cl|Bayern Munich|9|2|GNK Dinamo Zagreb|League phase MD1|||Germany||openfootball
+MATCH|2024-09-17|UEFA Champions League|uefa-cl|Real Madrid|3|1|Stuttgart|League phase MD1|||Spain||openfootball
+MATCH|2024-09-17|UEFA Champions League|uefa-cl|Milan|1|3|Liverpool|League phase MD1|||Italy||openfootball
+MATCH|2024-09-25|UEFA Europa League|uefa-el|Man United|1|1|Twente|League phase|||England||openfootball
+MATCH|2024-09-25|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|0|2|Slavia Prague|League phase|||Bulgaria||openfootball
+MATCH|2024-09-25|UEFA Europa League|uefa-el|Dinamo Kiev|0|3|Lazio|League phase|||Ukraine||openfootball
+NOTE|info|neutral_venue|Match relocated to neutral venue due to safety concerns in home country
+MATCH|2024-09-25|UEFA Europa League|uefa-el|Midtjylland|1|1|Hoffenheim|League phase|||Denmark||openfootball
+MATCH|2024-09-25|UEFA Europa League|uefa-el|Nice|1|1|Sociedad|League phase|||France||openfootball
+MATCH|2025-01-21|UEFA Champions League|uefa-cl|Monaco|1|0|Aston Villa|League phase MD7|||Monaco||openfootball
+MATCH|2025-01-21|UEFA Champions League|uefa-cl|Atalanta|5|0|SK Sturm Graz|League phase MD7|||Italy||openfootball
+MATCH|2025-01-21|UEFA Champions League|uefa-cl|Bologna|2|1|Dortmund|League phase MD7|||Italy||openfootball
+MATCH|2025-01-21|UEFA Champions League|uefa-cl|ŠK Slovan Bratislava|1|3|Stuttgart|League phase MD7|||Slovakia||openfootball
+MATCH|2025-01-21|UEFA Champions League|uefa-cl|Liverpool|2|1|Lille|League phase MD7|||England||openfootball
+MATCH|2025-01-21|UEFA Champions League|uefa-cl|Ath Madrid|2|1|Leverkusen|League phase MD7|||Spain||openfootball
+MATCH|2025-01-21|UEFA Champions League|uefa-cl|Benfica|4|5|Barcelona|League phase MD7|||Portugal||openfootball
+MATCH|2025-01-21|UEFA Champions League|uefa-cl|Club Brugge|0|0|Juventus|League phase MD7|||Belgium||openfootball
+MATCH|2025-02-13|UEFA Conference League|uefa-uecl|Gent|0|3|Betis|PO leg2|||Belgium|UECL-2425-PO-BET-GEN|openfootball
+MATCH|2025-02-13|UEFA Conference League|uefa-uecl|Copenhagen|1|2|Heidenheim|PO leg2|||Denmark|UECL-2425-PO-COP-HEI|openfootball
+MATCH|2025-09-16|UEFA Champions League|uefa-cl|Ath Bilbao|0|2|Arsenal|League phase MD1|||Spain||openfootball
+MATCH|2025-09-16|UEFA Champions League|uefa-cl|Juventus|4|4|Dortmund|League phase MD1|||Italy||openfootball
+MATCH|2025-09-16|UEFA Champions League|uefa-cl|Tottenham|1|0|Villarreal|League phase MD1|||England||openfootball
+MATCH|2025-09-16|UEFA Champions League|uefa-cl|Real Madrid|2|1|Marseille|League phase MD1|||Spain||openfootball
+MATCH|2026-01-20|UEFA Champions League|uefa-cl|FK Bodø/Glimt|3|1|Man City|League phase MD7|||Norway||openfootball
+MATCH|2026-01-20|UEFA Champions League|uefa-cl|Tottenham|2|0|Dortmund|League phase MD7|||England||openfootball
+MATCH|2026-01-20|UEFA Champions League|uefa-cl|Sporting CP|2|1|Paris SG|League phase MD7|||Portugal||openfootball
+MATCH|2026-01-20|UEFA Champions League|uefa-cl|PAE Olympiakos SFP|2|0|Leverkusen|League phase MD7|||Greece||openfootball
+MATCH|2026-01-20|UEFA Champions League|uefa-cl|Villarreal|1|2|AFC Ajax|League phase MD7|||Spain||openfootball
+MATCH|2026-01-20|UEFA Champions League|uefa-cl|Copenhagen|1|1|Napoli|League phase MD7|||Denmark||openfootball
+MATCH|2026-01-20|UEFA Champions League|uefa-cl|Real Madrid|6|1|Monaco|League phase MD7|||Spain||openfootball
+MATCH|2026-01-20|UEFA Champions League|uefa-cl|Inter|1|3|Arsenal|League phase MD7|||Italy||openfootball
+MATCH|2026-07-23|UEFA Europa League|uefa-el|Tromso|0|1|Hradec Kralove|Q2 leg1|||Norway|UEL-2627-Q2-HRA-TRO|openfootball
+MATCH|2026-07-23|UEFA Conference League|uefa-uecl|Varazdin|3|2|Jablonec|Q2 leg1|||Croatia|UEC-2627-Q2-JAB-VAR|openfootball
+MATCH|2026-07-30|UEFA Europa League|uefa-el|Hradec Kralove|3|1|Tromso|Q2 leg2|||Czech Republic|UEL-2627-Q2-HRA-TRO|openfootball
+MATCH|2026-07-30|UEFA Conference League|uefa-uecl|Jablonec|2|0|Varazdin|Q2 leg2|||Czech Republic|UEC-2627-Q2-JAB-VAR|openfootball
+MATCH|2026-08-04|UEFA Champions League|uefa-cl|Sparta Prague|2|1|Lyon|Q3 leg1|||Czech Republic|UCL-2627-Q3-LYO-SPA|openfootball
+END
