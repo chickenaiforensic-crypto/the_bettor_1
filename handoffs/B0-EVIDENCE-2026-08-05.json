@@ -1,0 +1,3194 @@
+{
+ "workorder": "WORKORDER-BUILDER-B0-HARNESS (Engine masterplan S0)",
+ "date": "2026-08-05",
+ "builder": "Arena builder session \u2014 branch arena/019fd227-the-bettor-1 (session-fixed; the relay's arena/019fd213 line refers to the Lead Planner's session)",
+ "pins_pre": {
+  "baseline_app": {
+   "path": "previous_work_files/workspace-recent-019fd033-d0ce-7919-abd2-9978a1b06739/APP-V3.6.3/app-v3.6.3.html",
+   "md5": "17dd2b5b66ceb572a3fd946db9b56a92",
+   "sha256": "268dc5296189cf3016847624ba180cb14904a35a07bb2648428581bb78dad0f9",
+   "bytes": 635798
+  },
+  "store_5082": {
+   "path": "previous_work_files/workspace-recent-019fd033-d0ce-7919-abd2-9978a1b06739/pitch-rating-full-5082-D1D2-2026-08-05.json",
+   "md5": "3c068c1f67ee8a81d412631fd0feb162",
+   "sha256": "c9ad6a54fa008a69fca50cd70ee0d367be7fe8a04fc35f72298698033d7cbe1c",
+   "rows": 5082
+  }
+ },
+ "pins_post": {
+  "built_app": {
+   "file": "builder/app-v3.7.0-b0.html",
+   "version": "3.7.0",
+   "md5": "e688eee2d0fe4009b60cab253335eceb",
+   "sha256": "b46b09496e7f13806bde15f6c1362dd93f0c7fbc8692d6b16cd03544e39c91d8",
+   "bytes": 665694
+  }
+ },
+ "harness_rerun_gate": {
+  "backtest_harness_5000store": [
+   "== Russian Premier League ==",
+   "  train 960 rows -> test 254 scored (+2 refused: <6 games, P3)",
+   "  Brier DC      : 0.5675   (n=254)",
+   "  Brier base    : 0.6465   (test-window marginals [0.449, 0.273, 0.277])",
+   "  log loss DC   : 0.9572",
+   "  direction acc : 55.9%",
+   "== Czech First League ==",
+   "  train 1105 rows -> test 276 scored (+0 refused: <6 games, P3)",
+   "  Brier DC      : 0.6090   (n=276)",
+   "  Brier base    : 0.6509   (test-window marginals [0.42, 0.243, 0.337])",
+   "  log loss DC   : 1.0146",
+   "  direction acc : 49.3%",
+   "== England Premier League ==",
+   "  train 1520 rows -> test 374 scored (+6 refused: <6 games, P3)",
+   "  Brier DC      : 0.6140   (n=374)",
+   "  Brier base    : 0.6534   (test-window marginals [0.426, 0.274, 0.3])",
+   "  log loss DC   : 1.0226",
+   "  direction acc : 49.2%"
+  ],
+  "ladder_run_5082store_rerun_artifact_identical": true,
+  "note": "python3 audit_work/backtest_harness.py reproduces masterplan \u00a75.2 exactly; python3 audit_work/ladder_run.py on the 5,082 store rewrites ladder_baseline_2026-08-05.json byte-identically (diff empty)"
+ },
+ "acceptance": {
+  "parity_5082_full_last_omitted_season": {
+   "reference": "audit_work/ladder_baseline_2026-08-05.json FULL rows (= masterplan \u00a75.2 first live run)",
+   "tolerance": 0.0005,
+   "rows": {
+    "Russian Premier League": {
+     "measured": {
+      "brier_dc": 0.5675,
+      "brier_base": 0.6465,
+      "scored": 254,
+      "refused": 2
+     },
+     "expected": {
+      "brier_dc": 0.5675,
+      "brier_base": 0.6465,
+      "scored": 254,
+      "refused": 2,
+      "logloss": 0.9572,
+      "dir_acc": 55.9
+     },
+     "delta": 0,
+     "ok": true
+    },
+    "Czech First League": {
+     "measured": {
+      "brier_dc": 0.609,
+      "brier_base": 0.6509,
+      "scored": 276,
+      "refused": 0
+     },
+     "expected": {
+      "brier_dc": 0.609,
+      "brier_base": 0.6509,
+      "scored": 276,
+      "refused": 0,
+      "logloss": 1.0146,
+      "dir_acc": 49.3
+     },
+     "delta": 0,
+     "ok": true
+    },
+    "England Premier League": {
+     "measured": {
+      "brier_dc": 0.614,
+      "brier_base": 0.6534,
+      "scored": 374,
+      "refused": 6
+     },
+     "expected": {
+      "brier_dc": 0.614,
+      "brier_base": 0.6534,
+      "scored": 374,
+      "refused": 6,
+      "logloss": 1.0226,
+      "dir_acc": 49.2
+     },
+     "delta": 0,
+     "ok": true
+    }
+   },
+   "allOk": true
+  },
+  "ladder_33_rows_vs_baseline_4dp": {
+   "name": "ladder.exact_4dp",
+   "ok": true,
+   "detail": "all 33 holdout rows match ladder_baseline_2026-08-05.json (maxAbsDelta 0)"
+  },
+  "bounded_constants_gate": [
+   {
+    "name": "caps.bounded_ok",
+    "ok": true,
+    "detail": "LR 0.055\u21920.06 (step .005 \u2264 .01) and RHO -0.06\u2192-0.10 accepted"
+   },
+   {
+    "name": "caps.freerun_refused",
+    "ok": true,
+    "detail": "LR\u21920.5 outside cap refused; RHO\u21920.1 outside cap refused; unknown constant refused"
+   },
+   {
+    "name": "run.freerun_refusal",
+    "ok": true,
+    "detail": "constant \"MU0\" = 5 is outside the existing cap [0.2, 0.65] \u2014 free-run calibration is not allowed"
+   }
+  ],
+  "full_metrics_T1_T2_T4_FULL_rows": {
+   "Russian Premier League": {
+    "train": {
+     "rows": 960,
+     "window": [
+      "2021-07-23",
+      "2025-05-24"
+     ]
+    },
+    "holdout": {
+     "rows": 256,
+     "window": [
+      "2025-07-18",
+      "2026-08-02"
+     ],
+     "scored": 254,
+     "refused": 2
+    },
+    "brier_dc": 0.5674676989495104,
+    "brier_base": 0.646514892578125,
+    "gain_pct": -12.226662453728776,
+    "brier_side_dc": {
+     "home": 0.200287689592917,
+     "draw": 0.19653336655211204,
+     "away": 0.17064664280448133
+    },
+    "brier_side_base": {
+     "home": 0.24738065464290107,
+     "draw": 0.199645034910187,
+     "away": 0.19964347298689714
+    },
+    "logloss": 0.9571860018273624,
+    "dir_acc": 55.90551181102362,
+    "calib_max_err": {
+     "err": 0.2689990820663095,
+     "side": "away",
+     "bin": 7,
+     "binLo": 0.7,
+     "binHi": 0.8,
+     "n": 1,
+     "meanPred": 0.7310009179336905,
+     "observedFreq": 1
+    },
+    "marginals_holdout": [
+     0.44921875,
+     0.2734375,
+     0.27734375
+    ],
+    "paired": {
+     "n": 254,
+     "meanDelta": -0.07920146359047497,
+     "sd": 0.27184237290245883,
+     "se": 0.017056907496017983,
+     "t": -4.643365956517319,
+     "df": 253,
+     "pTwo": 5.5119013017805985e-06,
+     "mde80": 0.047786379934516586,
+     "note": null
+    },
+    "markets": {
+     "o25": {
+      "predMean": 0.48868738009469165,
+      "freq": 0.47244094488188976,
+      "errPct": 1.624643521280189,
+      "gate": "ship \u22642.7% (I3)",
+      "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+     },
+     "btts": {
+      "predMean": 0.49390802607850814,
+      "freq": 0.5354330708661418,
+      "errPct": 4.152504478763364,
+      "status": "withheld (I3) \u2014 measured only, never an output"
+     }
+    }
+   },
+   "Czech First League": {
+    "train": {
+     "rows": 1105,
+     "window": [
+      "2021-07-24",
+      "2025-05-25"
+     ]
+    },
+    "holdout": {
+     "rows": 276,
+     "window": [
+      "2025-07-18",
+      "2026-05-24"
+     ],
+     "scored": 276,
+     "refused": 0
+    },
+    "brier_dc": 0.6089720554264065,
+    "brier_base": 0.6508874186095353,
+    "gain_pct": -6.43972551699814,
+    "brier_side_dc": {
+     "home": 0.22419847387538017,
+     "draw": 0.18418368825917888,
+     "away": 0.2005898932918467
+    },
+    "brier_side_base": {
+     "home": 0.24364629279563102,
+     "draw": 0.18382430161730784,
+     "away": 0.22341682419659747
+    },
+    "logloss": 1.0145947809495042,
+    "dir_acc": 49.275362318840585,
+    "calib_max_err": {
+     "err": 0.12043171662562813,
+     "side": "away",
+     "bin": 5,
+     "binLo": 0.5,
+     "binHi": 0.6,
+     "n": 19,
+     "meanPred": 0.5414843482045755,
+     "observedFreq": 0.42105263157894735
+    },
+    "marginals_holdout": [
+     0.42028985507246375,
+     0.2427536231884058,
+     0.33695652173913043
+    ],
+    "paired": {
+     "n": 276,
+     "meanDelta": -0.04191536318312994,
+     "sd": 0.2636349324232189,
+     "se": 0.01586895812148916,
+     "t": -2.6413431091213035,
+     "df": 275,
+     "pTwo": 0.008730346849978103,
+     "mde80": 0.04445823852509296,
+     "note": null
+    },
+    "markets": {
+     "o25": {
+      "predMean": 0.48743966578470915,
+      "freq": 0.4891304347826087,
+      "errPct": 0.169076899789955,
+      "gate": "ship \u22642.7% (I3)",
+      "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+     },
+     "btts": {
+      "predMean": 0.49638475342743105,
+      "freq": 0.5,
+      "errPct": 0.3615246572568953,
+      "status": "withheld (I3) \u2014 measured only, never an output"
+     }
+    }
+   },
+   "England Premier League": {
+    "train": {
+     "rows": 1520,
+     "window": [
+      "2021-08-13",
+      "2025-05-25"
+     ]
+    },
+    "holdout": {
+     "rows": 380,
+     "window": [
+      "2025-08-15",
+      "2026-05-24"
+     ],
+     "scored": 374,
+     "refused": 6
+    },
+    "brier_dc": 0.6140202920669079,
+    "brier_base": 0.6533518005540199,
+    "gain_pct": -6.019958688988114,
+    "brier_side_dc": {
+     "home": 0.22095285669926676,
+     "draw": 0.19960935836940694,
+     "away": 0.19345807699823397
+    },
+    "brier_side_base": {
+     "home": 0.24439643296250715,
+     "draw": 0.19834802316796732,
+     "away": 0.21085561497326327
+    },
+    "logloss": 1.0225810389732322,
+    "dir_acc": 49.19786096256685,
+    "calib_max_err": {
+     "err": 0.2585913380093714,
+     "side": "away",
+     "bin": 7,
+     "binLo": 0.7,
+     "binHi": 0.8,
+     "n": 1,
+     "meanPred": 0.7414086619906286,
+     "observedFreq": 1
+    },
+    "marginals_holdout": [
+     0.4263157894736842,
+     0.2736842105263158,
+     0.3
+    ],
+    "paired": {
+     "n": 374,
+     "meanDelta": -0.03957977903682932,
+     "sd": 0.23156836671018619,
+     "se": 0.011974115181808968,
+     "t": -3.3054449899528926,
+     "df": 373,
+     "pTwo": 0.0010401984316556216,
+     "mde80": 0.033546504112258874,
+     "note": null
+    },
+    "markets": {
+     "o25": {
+      "predMean": 0.5039570770130196,
+      "freq": 0.553475935828877,
+      "errPct": 4.9518858815857385,
+      "gate": "withheld >3.3% (I3)",
+      "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+     },
+     "btts": {
+      "predMean": 0.5217006320971094,
+      "freq": 0.5641711229946524,
+      "errPct": 4.247049089754307,
+      "status": "withheld (I3) \u2014 measured only, never an output"
+     }
+    }
+   }
+  },
+  "tdist_independent_crosscheck": {
+   "method": "independent Simpson integration of the t pdf (fresh code; table points t=2.26216 df=9 \u2192 0.05, t=1.959964 df=1e5 \u2192 0.05 verified)",
+   "table_points": {
+    "t=2.26216,df=9": 0.05,
+    "t=1.959964,df=100000": 0.05
+   },
+   "leagues": {
+    "Russian Premier League": {
+     "t": -4.643365956517319,
+     "df": 253,
+     "p_module": 5.5119013017805985e-06,
+     "p_reference": 5.511901350230275e-06,
+     "abs_diff": 4.844967641328985e-14
+    },
+    "Czech First League": {
+     "t": -2.6413431091213035,
+     "df": 275,
+     "p_module": 0.008730346849978103,
+     "p_reference": 0.008730346849919357,
+     "abs_diff": 5.874641051395457e-14
+    },
+    "England Premier League": {
+     "t": -3.3054449899528926,
+     "df": 373,
+     "p_module": 0.0010401984316556216,
+     "p_reference": 0.0010401984316059654,
+     "abs_diff": 4.9656242659401606e-14
+    }
+   }
+  }
+ },
+ "gates": {
+  "byte_diff_vs_baseline": {
+   "file": "builder/b0_byte_diff.txt",
+   "hunks": [
+    "228a229,234",
+    "380c386",
+    "2341a2348,2806",
+    "3518c3983",
+    "3526c3991,3994",
+    "3604a4073,4074",
+    "3855a4326,4384"
+   ],
+   "lines_added": 532,
+   "lines_removed": 3,
+   "intended_edits": [
+    "228a229,234 \u2192 CSS rules .ladder-tbl/.ladder-note (presentational)",
+    "380c386 \u2192 APP_VERSION '3.6.3' \u2192 '3.7.0' (+B0 comment)",
+    "2341a2348,2806 \u2192 new module section /* ==== calibration.js ==== */ (PR.calibration, S0)",
+    "3518c3983 \u2192 artifact kind list: 'calibration-run' registered in Calibration tab",
+    "3526c3991,3994 \u2192 Calibration tab: test-run ladder section (button + explainer + output div)",
+    "3604a4073,4074 \u2192 event bindings #btn-ladder / #btn-ladder-dl",
+    "3855a4326,4384 \u2192 runLadder + downloadLadderArtifact + fmt helpers (ui.js)"
+   ],
+   "ok": true
+  },
+  "p1_no_market_no_network_greps": {
+   "table": {
+    "fetch (code call)": {
+     "baseline_app_v3.6.3": 1,
+     "built_app_v3.7.0": 1,
+     "inside_new_module": 0,
+     "ok": true,
+     "note": "baseline matches sit inside embedded seed-pack NOTE/SOURCE text; code-call count 0"
+    },
+    "XMLHttpRequest": {
+     "baseline_app_v3.6.3": 0,
+     "built_app_v3.7.0": 0,
+     "inside_new_module": 0,
+     "ok": true,
+     "note": null
+    },
+    "odds (case-insensitive)": {
+     "baseline_app_v3.6.3": 2,
+     "built_app_v3.7.0": 2,
+     "inside_new_module": 0,
+     "ok": true,
+     "note": "baseline matches sit inside embedded seed-pack NOTE/SOURCE text; code-call count 0"
+    },
+    "http": {
+     "baseline_app_v3.6.3": 343,
+     "built_app_v3.7.0": 343,
+     "inside_new_module": 0,
+     "ok": true,
+     "note": "baseline matches sit inside embedded seed-pack NOTE/SOURCE text; code-call count 0"
+    },
+    "<script src": {
+     "baseline_app_v3.6.3": 0,
+     "built_app_v3.7.0": 0,
+     "inside_new_module": 0,
+     "ok": true,
+     "note": null
+    },
+    "import(": {
+     "baseline_app_v3.6.3": 0,
+     "built_app_v3.7.0": 0,
+     "inside_new_module": 0,
+     "ok": true,
+     "note": null
+    }
+   },
+   "ok": true
+  },
+  "one_gate_grep": {
+   "PR.ingest": {
+    "baseline": 11,
+    "built": 11
+   },
+   "PR.ingest.commit": {
+    "baseline": 3,
+    "built": 3
+   },
+   "ok": true
+  },
+  "harness_rerun": "see harness_rerun_gate",
+  "syntax_all_script_blocks": "node --check on all 4 inline <script> blocks: OK (extracted after build)",
+  "js_module_harness_parity": {
+   "script": "builder/b0_selfcheck.js",
+   "result_file": "builder/b0_selfcheck_result.json",
+   "ok": true,
+   "summary": "Calibration ladder (3 leagues): Russian FULL 0.5675 vs base 0.6465 (-12.2%, n 254 +2 refused) \u00b7 Czech FULL 0.6090 vs base 0.6509 (-6.4%, n 276) \u00b7 England FULL 0.6140 vs base 0.6534 (-6.0%, n 374 +6 refused) \u2014 parity vs 2026-08-05 baseline: PASS"
+  }
+ },
+ "artifact_example": {
+  "shape": "as stored in store.artifacts by the app's Run test-run ladder button (id assigned by STORE.nextId at run time)",
+  "kind": "calibration-run",
+  "version": "vB0.1",
+  "generatedAt": "2026-08-05T14:25:00.163Z",
+  "note": "Calibration ladder (3 leagues): Russian FULL 0.5675 vs base 0.6465 (-12.2%, n 254 +2 refused) \u00b7 Czech FULL 0.6090 vs base 0.6509 (-6.4%, n 276) \u00b7 England FULL 0.6140 vs base 0.6534 (-6.0%, n 374 +6 refused) \u2014 parity vs 2026-08-05 baseline: PASS",
+  "data": {
+   "module": "PR.calibration vB0.1",
+   "engine": "Dixon-Coles online fit \u2014 spec B3 constants (LR 0.055 \u00b7 DECAY 0.0022 \u00b7 HFA_LR 0.010 \u00b7 new-team 1.6x/8 \u00b7 rho -0.06 \u00b7 clamps) \u00b7 naive init mu 0.45 hfa 0.25 \u00b7 no star correction \u00b7 no evidence ensemble \u2014 exact port of audit_work/backtest_harness.py + ladder_run.py",
+   "protocol": "owner ladder 2026-08-05: L-1 \u2192 L-2 \u2192 L-n expanding \u2192 FULL last season per league \u00b7 rolling-origin \u22654 expanding splits (T3) \u00b7 paired per-match (T1) \u00b7 MDE reported (T2) \u00b7 full metric set (T4) \u00b7 holdout scored never fitted (E8) \u00b7 muted rows excluded (doctrine: exclusion = mute; on the 5,082 store 0 mutes, so rows are byte-identical to the harness set) \u00b7 BTTS withheld (I3)",
+   "constants": {
+    "LR": 0.055,
+    "DECAY": 0.0022,
+    "HFA_LR": 0.01,
+    "RHO": -0.06,
+    "NEW_TEAM_MULT": 1.6,
+    "NEW_TEAM_N": 8,
+    "MU0": 0.45,
+    "HFA0": 0.25,
+    "MU_STEP": 0.004,
+    "MIN_GAMES": 6,
+    "LAMBDA_MIN": 0.05,
+    "LAMBDA_MAX": 6,
+    "HFA_CLAMP_LO": 0.05,
+    "HFA_CLAMP_HI": 0.55,
+    "HOME_EXTRA_CLAMP": 0.25,
+    "HOME_EXTRA_DECAY": 0.999,
+    "GRID_N": 10,
+    "GMU": 2.6186,
+    "G_K": 0.5
+   },
+   "caps": {
+    "LR": [
+     0.01,
+     0.1,
+     0.01
+    ],
+    "DECAY": [
+     0,
+     0.01,
+     0.002
+    ],
+    "HFA_LR": [
+     0.001,
+     0.05,
+     0.01
+    ],
+    "RHO": [
+     -0.2,
+     0,
+     0.05
+    ],
+    "MU0": [
+     0.2,
+     0.65,
+     0.1
+    ],
+    "HFA0": [
+     0.05,
+     0.55,
+     0.1
+    ]
+   },
+   "generatedAt": "2026-08-05T14:25:00.163Z",
+   "storeRows": 5082,
+   "leagues": {
+    "Russian Premier League": {
+     "league": "Russian Premier League",
+     "cutoff": "2025-07-01",
+     "seasonStartYear": 2021,
+     "trainRows": 960,
+     "lastSeasonRows": 256,
+     "trainWindow": [
+      "2021-07-23",
+      "2025-05-24"
+     ],
+     "lastSeasonWindow": [
+      "2025-07-18",
+      "2026-08-02"
+     ],
+     "ladder": [
+      {
+       "holdout": "1",
+       "holdoutRows": 1,
+       "trainRows": 1215,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-08-02"
+       ],
+       "testWindow": [
+        "2026-08-02",
+        "2026-08-02"
+       ],
+       "scored": 1,
+       "refused": 0,
+       "brier_dc": 0.4675618962078186,
+       "brier_base": 0,
+       "gain_pct": null,
+       "brier_side_dc": {
+        "home": 0.07673460919765335,
+        "draw": 0.07912546911029332,
+        "away": 0.3117018178998719
+       },
+       "brier_side_base": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+       },
+       "logloss": 0.817130296893257,
+       "dir_acc": 100,
+       "calib_max_err": {
+        "err": 0.5583026221502743,
+        "side": "away",
+        "bin": 4,
+        "binLo": 0.4,
+        "binHi": 0.5,
+        "n": 1,
+        "meanPred": 0.4416973778497258,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0,
+        0,
+        1
+       ],
+       "marginals_scored": [
+        0,
+        0,
+        1
+       ],
+       "paired": {
+        "n": 1,
+        "meanDelta": 0.4675618962078186,
+        "sd": null,
+        "se": null,
+        "t": null,
+        "df": null,
+        "pTwo": null,
+        "mde80": null,
+        "note": "paired stats need \u22652 scored rows \u2014 one game is noise (T2/E2)"
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.4691783615314895,
+         "freq": 1,
+         "errPct": 53.082163846851046,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5180083082234751,
+         "freq": 1,
+         "errPct": 48.19916917765249,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "2",
+       "holdoutRows": 2,
+       "trainRows": 1214,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-08-02"
+       ],
+       "testWindow": [
+        "2026-08-02",
+        "2026-08-02"
+       ],
+       "scored": 2,
+       "refused": 0,
+       "brier_dc": 0.2697796559372972,
+       "brier_base": 0.5,
+       "gain_pct": -46.04406881254056,
+       "brier_side_dc": {
+        "home": 0.06033668644001962,
+        "draw": 0.052360508757810856,
+        "away": 0.15708246073946672
+       },
+       "brier_side_base": {
+        "home": 0.25,
+        "draw": 0,
+        "away": 0.25
+       },
+       "logloss": 0.5261831796906065,
+       "dir_acc": 100,
+       "calib_max_err": {
+        "err": 0.5583026221502743,
+        "side": "away",
+        "bin": 4,
+        "binLo": 0.4,
+        "binHi": 0.5,
+        "n": 1,
+        "meanPred": 0.4416973778497258,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.5,
+        0,
+        0.5
+       ],
+       "marginals_scored": [
+        0.5,
+        0,
+        0.5
+       ],
+       "paired": {
+        "n": 2,
+        "meanDelta": -0.2302203440627028,
+        "sd": 0.2797063265871054,
+        "se": 0.19778224027052135,
+        "t": -1.164009183776124,
+        "df": 1,
+        "pTwo": 0.4518429675353741,
+        "mde80": 0.5541038010596839,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.47945747639638847,
+         "freq": 1,
+         "errPct": 52.054252360361154,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.410038145333914,
+         "freq": 1,
+         "errPct": 58.99618546660861,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "3",
+       "holdoutRows": 3,
+       "trainRows": 1213,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-08-01"
+       ],
+       "testWindow": [
+        "2026-08-02",
+        "2026-08-02"
+       ],
+       "scored": 3,
+       "refused": 0,
+       "brier_dc": 0.24888377971988204,
+       "brier_base": 0.4444444444444445,
+       "gain_pct": -44.001149563026544,
+       "brier_side_dc": {
+        "home": 0.045366490948316594,
+        "draw": 0.05429550619809361,
+        "away": 0.14922178257347185
+       },
+       "brier_side_base": {
+        "home": 0.22222222222222224,
+        "draw": 0,
+        "away": 0.22222222222222224
+       },
+       "logloss": 0.5023635587927654,
+       "dir_acc": 100,
+       "calib_max_err": {
+        "err": 0.5583026221502743,
+        "side": "away",
+        "bin": 4,
+        "binLo": 0.4,
+        "binHi": 0.5,
+        "n": 1,
+        "meanPred": 0.4416973778497258,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.3333333333333333,
+        0,
+        0.6666666666666666
+       ],
+       "marginals_scored": [
+        0.3333333333333333,
+        0,
+        0.6666666666666666
+       ],
+       "paired": {
+        "n": 3,
+        "meanDelta": -0.19556066472456243,
+        "sd": 0.5536245283089667,
+        "se": 0.3196352704491615,
+        "t": -0.6118244224104381,
+        "df": 2,
+        "pTwo": 0.6029398072722425,
+        "mde80": 0.8954854493829806,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.470720129599764,
+         "freq": 1,
+         "errPct": 52.927987040023595,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.4108466950501872,
+         "freq": 0.6666666666666666,
+         "errPct": 25.58199716164794,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "5",
+       "holdoutRows": 5,
+       "trainRows": 1211,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-08-01"
+       ],
+       "testWindow": [
+        "2026-08-01",
+        "2026-08-02"
+       ],
+       "scored": 5,
+       "refused": 0,
+       "brier_dc": 0.4143857515333945,
+       "brier_base": 0.4800000000000001,
+       "gain_pct": -13.669635097209486,
+       "brier_side_dc": {
+        "home": 0.20295912695145407,
+        "draw": 0.06699835482418474,
+        "away": 0.14442826975775575
+       },
+       "brier_side_base": {
+        "home": 0.24000000000000005,
+        "draw": 0,
+        "away": 0.24000000000000005
+       },
+       "logloss": 0.7387488534240465,
+       "dir_acc": 80,
+       "calib_max_err": {
+        "err": 0.6073746360080068,
+        "side": "home",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 1,
+        "meanPred": 0.3926253639919932,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.6,
+        0,
+        0.4
+       ],
+       "marginals_scored": [
+        0.6,
+        0,
+        0.4
+       ],
+       "paired": {
+        "n": 5,
+        "meanDelta": -0.0656142484666055,
+        "sd": 0.3953600310012493,
+        "se": 0.1768103809810435,
+        "t": -0.3710995253929137,
+        "df": 4,
+        "pTwo": 0.729382256119463,
+        "mde80": 0.49534935004479913,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.4637118885373866,
+         "freq": 1,
+         "errPct": 53.62881114626135,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.45072631784477,
+         "freq": 0.8,
+         "errPct": 34.927368215523,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "8",
+       "holdoutRows": 8,
+       "trainRows": 1208,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-07-26"
+       ],
+       "testWindow": [
+        "2026-07-31",
+        "2026-08-02"
+       ],
+       "scored": 7,
+       "refused": 1,
+       "brier_dc": 0.5070906976439884,
+       "brier_base": 0.59375,
+       "gain_pct": -14.595250923117742,
+       "brier_side_dc": {
+        "home": 0.2092391565796581,
+        "draw": 0.14193426922727864,
+        "away": 0.15591727183705167
+       },
+       "brier_side_base": {
+        "home": 0.24776785714285715,
+        "draw": 0.12276785714285714,
+        "away": 0.25
+       },
+       "logloss": 0.8580156435938558,
+       "dir_acc": 71.42857142857143,
+       "calib_max_err": {
+        "err": 0.5978702713247613,
+        "side": "home",
+        "bin": 5,
+        "binLo": 0.5,
+        "binHi": 0.6,
+        "n": 1,
+        "meanPred": 0.5978702713247613,
+        "observedFreq": 0
+       },
+       "marginals_holdout": [
+        0.375,
+        0.125,
+        0.5
+       ],
+       "marginals_scored": [
+        0.42857142857142855,
+        0.14285714285714285,
+        0.42857142857142855
+       ],
+       "paired": {
+        "n": 7,
+        "meanDelta": -0.11344501664172582,
+        "sd": 0.24738861013865052,
+        "se": 0.0935041056595402,
+        "t": -1.2132624106880707,
+        "df": 6,
+        "pTwo": 0.2706212746462425,
+        "mde80": 0.26195972039639065,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.46918026229513254,
+         "freq": 0.8571428571428571,
+         "errPct": 38.796259484772456,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.4657652340362811,
+         "freq": 0.8571428571428571,
+         "errPct": 39.1377623106576,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "10",
+       "holdoutRows": 10,
+       "trainRows": 1206,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-07-26"
+       ],
+       "testWindow": [
+        "2026-07-26",
+        "2026-08-02"
+       ],
+       "scored": 9,
+       "refused": 1,
+       "brier_dc": 0.5100673346204441,
+       "brier_base": 0.58,
+       "gain_pct": -12.057356099923433,
+       "brier_side_dc": {
+        "home": 0.21680427615122322,
+        "draw": 0.13191645587435563,
+        "away": 0.16134660259486516
+       },
+       "brier_side_base": {
+        "home": 0.2488888888888889,
+        "draw": 0.0988888888888889,
+        "away": 0.25
+       },
+       "logloss": 0.865771400780148,
+       "dir_acc": 66.66666666666666,
+       "calib_max_err": {
+        "err": 0.5978702713247613,
+        "side": "home",
+        "bin": 5,
+        "binLo": 0.5,
+        "binHi": 0.6,
+        "n": 1,
+        "meanPred": 0.5978702713247613,
+        "observedFreq": 0
+       },
+       "marginals_holdout": [
+        0.4,
+        0.1,
+        0.5
+       ],
+       "marginals_scored": [
+        0.4444444444444444,
+        0.1111111111111111,
+        0.4444444444444444
+       ],
+       "paired": {
+        "n": 9,
+        "meanDelta": -0.08771044315733374,
+        "sd": 0.21932141168822722,
+        "se": 0.07310713722940908,
+        "t": -1.1997521238193163,
+        "df": 8,
+        "pTwo": 0.26455814481626927,
+        "mde80": 0.2048158751159883,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.45694468676743977,
+         "freq": 0.8888888888888888,
+         "errPct": 43.194420212144905,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.4658840458643756,
+         "freq": 0.8888888888888888,
+         "errPct": 42.30048430245132,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "15",
+       "holdoutRows": 15,
+       "trainRows": 1201,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-07-24"
+       ],
+       "testWindow": [
+        "2026-07-25",
+        "2026-08-02"
+       ],
+       "scored": 13,
+       "refused": 2,
+       "brier_dc": 0.5801448124010095,
+       "brier_base": 0.6311111111111113,
+       "gain_pct": -8.075645922375285,
+       "brier_side_dc": {
+        "home": 0.21584783159051452,
+        "draw": 0.20116193981954925,
+        "away": 0.16313504099094572
+       },
+       "brier_side_base": {
+        "home": 0.21367521367521375,
+        "draw": 0.1784615384615385,
+        "away": 0.24854700854700854
+       },
+       "logloss": 0.9592434769839902,
+       "dir_acc": 53.84615384615385,
+       "calib_max_err": {
+        "err": 0.6668417911801882,
+        "side": "home",
+        "bin": 6,
+        "binLo": 0.6,
+        "binHi": 0.7,
+        "n": 1,
+        "meanPred": 0.6668417911801882,
+        "observedFreq": 0
+       },
+       "marginals_holdout": [
+        0.3333333333333333,
+        0.2,
+        0.4666666666666667
+       ],
+       "marginals_scored": [
+        0.3076923076923077,
+        0.23076923076923078,
+        0.46153846153846156
+       ],
+       "paired": {
+        "n": 13,
+        "meanDelta": -0.06053894828275133,
+        "sd": 0.22824799076733193,
+        "se": 0.06330460263332666,
+        "t": -0.9563119546521038,
+        "df": 12,
+        "pTwo": 0.35778453596702786,
+        "mde80": 0.17735323907607345,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.46225905210601437,
+         "freq": 0.7692307692307693,
+         "errPct": 30.69717171247549,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.4682579887442212,
+         "freq": 0.7692307692307693,
+         "errPct": 30.097278048654807,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "20",
+       "holdoutRows": 20,
+       "trainRows": 1196,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-05-17"
+       ],
+       "testWindow": [
+        "2026-05-17",
+        "2026-08-02"
+       ],
+       "scored": 18,
+       "refused": 2,
+       "brier_dc": 0.5820223964887156,
+       "brier_base": 0.655,
+       "gain_pct": -11.141618856684655,
+       "brier_side_dc": {
+        "home": 0.21701007911266598,
+        "draw": 0.2166849920343744,
+        "away": 0.14832732534167525
+       },
+       "brier_side_base": {
+        "home": 0.2225,
+        "draw": 0.2013888888888889,
+        "away": 0.23777777777777778
+       },
+       "logloss": 0.9617467418057698,
+       "dir_acc": 55.55555555555556,
+       "calib_max_err": {
+        "err": 0.6668417911801882,
+        "side": "home",
+        "bin": 6,
+        "binLo": 0.6,
+        "binHi": 0.7,
+        "n": 1,
+        "meanPred": 0.6668417911801882,
+        "observedFreq": 0
+       },
+       "marginals_holdout": [
+        0.35,
+        0.25,
+        0.4
+       ],
+       "marginals_scored": [
+        0.3333333333333333,
+        0.2777777777777778,
+        0.3888888888888889
+       ],
+       "paired": {
+        "n": 18,
+        "meanDelta": -0.07964427017795103,
+        "sd": 0.20957311620347183,
+        "se": 0.04939685720729042,
+        "t": -1.6123347654230202,
+        "df": 17,
+        "pTwo": 0.12529761903944547,
+        "mde80": 0.1383895050512359,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.4568228538841127,
+         "freq": 0.7222222222222222,
+         "errPct": 26.539936833810952,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.47153823624572627,
+         "freq": 0.7777777777777778,
+         "errPct": 30.62395415320515,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "25",
+       "holdoutRows": 25,
+       "trainRows": 1191,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-05-11"
+       ],
+       "testWindow": [
+        "2026-05-11",
+        "2026-08-02"
+       ],
+       "scored": 23,
+       "refused": 2,
+       "brier_dc": 0.5624773206645765,
+       "brier_base": 0.6528000000000002,
+       "gain_pct": -13.83619475113721,
+       "brier_side_dc": {
+        "home": 0.20657336800268972,
+        "draw": 0.20333317570908171,
+        "away": 0.1525707769528051
+       },
+       "brier_side_base": {
+        "home": 0.2382608695652175,
+        "draw": 0.1932521739130434,
+        "away": 0.2269913043478261
+       },
+       "logloss": 0.9360552936247456,
+       "dir_acc": 56.52173913043478,
+       "calib_max_err": {
+        "err": 0.6668417911801882,
+        "side": "home",
+        "bin": 6,
+        "binLo": 0.6,
+        "binHi": 0.7,
+        "n": 1,
+        "meanPred": 0.6668417911801882,
+        "observedFreq": 0
+       },
+       "marginals_holdout": [
+        0.4,
+        0.24,
+        0.36
+       ],
+       "marginals_scored": [
+        0.391304347826087,
+        0.2608695652173913,
+        0.34782608695652173
+       ],
+       "paired": {
+        "n": 23,
+        "meanDelta": -0.09602702716151035,
+        "sd": 0.21106176349970732,
+        "se": 0.04400941994599437,
+        "t": -2.1819652992325,
+        "df": 22,
+        "pTwo": 0.040076817826737374,
+        "mde80": 0.12329614044796493,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.4584340628792863,
+         "freq": 0.7391304347826086,
+         "errPct": 28.069637190332237,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.4722878583113058,
+         "freq": 0.7391304347826086,
+         "errPct": 26.684257647130284,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "30",
+       "holdoutRows": 30,
+       "trainRows": 1186,
+       "trainWindow": [
+        "2021-07-23",
+        "2026-05-10"
+       ],
+       "testWindow": [
+        "2026-05-10",
+        "2026-08-02"
+       ],
+       "scored": 28,
+       "refused": 2,
+       "brier_dc": 0.5501729629568443,
+       "brier_base": 0.6377777777777777,
+       "gain_pct": -13.73594657471081,
+       "brier_side_dc": {
+        "home": 0.20838150616672985,
+        "draw": 0.17932243262714914,
+        "away": 0.16246902416296538
+       },
+       "brier_side_base": {
+        "home": 0.24492063492063484,
+        "draw": 0.16857142857142862,
+        "away": 0.22968253968253957
+       },
+       "logloss": 0.9201005110262177,
+       "dir_acc": 57.14285714285714,
+       "calib_max_err": {
+        "err": 0.6668417911801882,
+        "side": "home",
+        "bin": 6,
+        "binLo": 0.6,
+        "binHi": 0.7,
+        "n": 1,
+        "meanPred": 0.6668417911801882,
+        "observedFreq": 0
+       },
+       "marginals_holdout": [
+        0.43333333333333335,
+        0.2,
+        0.36666666666666664
+       ],
+       "marginals_scored": [
+        0.42857142857142855,
+        0.21428571428571427,
+        0.35714285714285715
+       ],
+       "paired": {
+        "n": 28,
+        "meanDelta": -0.09300164021775874,
+        "sd": 0.21455112029669174,
+        "se": 0.0405463505582392,
+        "t": -2.2937117382284455,
+        "df": 27,
+        "pTwo": 0.029816524020046132,
+        "mde80": 0.1135940564364584,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.46208793676250487,
+         "freq": 0.75,
+         "errPct": 28.791206323749513,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.4738124482678264,
+         "freq": 0.75,
+         "errPct": 27.61875517321736,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "FULL",
+       "holdoutRows": 256,
+       "trainRows": 960,
+       "trainWindow": [
+        "2021-07-23",
+        "2025-05-24"
+       ],
+       "testWindow": [
+        "2025-07-18",
+        "2026-08-02"
+       ],
+       "scored": 254,
+       "refused": 2,
+       "brier_dc": 0.5674676989495104,
+       "brier_base": 0.646514892578125,
+       "gain_pct": -12.226662453728776,
+       "brier_side_dc": {
+        "home": 0.200287689592917,
+        "draw": 0.19653336655211204,
+        "away": 0.17064664280448133
+       },
+       "brier_side_base": {
+        "home": 0.24738065464290107,
+        "draw": 0.199645034910187,
+        "away": 0.19964347298689714
+       },
+       "logloss": 0.9571860018273624,
+       "dir_acc": 55.90551181102362,
+       "calib_max_err": {
+        "err": 0.2689990820663095,
+        "side": "away",
+        "bin": 7,
+        "binLo": 0.7,
+        "binHi": 0.8,
+        "n": 1,
+        "meanPred": 0.7310009179336905,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.44921875,
+        0.2734375,
+        0.27734375
+       ],
+       "marginals_scored": [
+        0.44881889763779526,
+        0.2755905511811024,
+        0.2755905511811024
+       ],
+       "paired": {
+        "n": 254,
+        "meanDelta": -0.07920146359047497,
+        "sd": 0.27184237290245883,
+        "se": 0.017056907496017983,
+        "t": -4.643365956517319,
+        "df": 253,
+        "pTwo": 5.5119013017805985e-06,
+        "mde80": 0.047786379934516586,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.48868738009469165,
+         "freq": 0.47244094488188976,
+         "errPct": 1.624643521280189,
+         "gate": "ship \u22642.7% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.49390802607850814,
+         "freq": 0.5354330708661418,
+         "errPct": 4.152504478763364,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      }
+     ]
+    },
+    "Czech First League": {
+     "league": "Czech First League",
+     "cutoff": "2025-07-01",
+     "seasonStartYear": 2021,
+     "trainRows": 1105,
+     "lastSeasonRows": 276,
+     "trainWindow": [
+      "2021-07-24",
+      "2025-05-25"
+     ],
+     "lastSeasonWindow": [
+      "2025-07-18",
+      "2026-05-24"
+     ],
+     "ladder": [
+      {
+       "holdout": "1",
+       "holdoutRows": 1,
+       "trainRows": 1380,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-24"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 1,
+       "refused": 0,
+       "brier_dc": 0.2826197614224141,
+       "brier_base": 0,
+       "gain_pct": null,
+       "brier_side_dc": {
+        "home": 0.18743687214582977,
+        "draw": 0.05930665970033288,
+        "away": 0.03587622957625141
+       },
+       "brier_side_base": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+       },
+       "logloss": 0.5672898115574742,
+       "dir_acc": 100,
+       "calib_max_err": {
+        "err": 0.43293980198848636,
+        "side": "home",
+        "bin": 5,
+        "binLo": 0.5,
+        "binHi": 0.6,
+        "n": 1,
+        "meanPred": 0.5670601980115136,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        1,
+        0,
+        0
+       ],
+       "marginals_scored": [
+        1,
+        0,
+        0
+       ],
+       "paired": {
+        "n": 1,
+        "meanDelta": 0.2826197614224141,
+        "sd": null,
+        "se": null,
+        "t": null,
+        "df": null,
+        "pTwo": null,
+        "mde80": null,
+        "note": "paired stats need \u22652 scored rows \u2014 one game is noise (T2/E2)"
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.5011474525992118,
+         "freq": 1,
+         "errPct": 49.88525474007882,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5054431467596635,
+         "freq": 1,
+         "errPct": 49.45568532403365,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "2",
+       "holdoutRows": 2,
+       "trainRows": 1379,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-24"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 2,
+       "refused": 0,
+       "brier_dc": 0.30012414160119566,
+       "brier_base": 0,
+       "gain_pct": null,
+       "brier_side_dc": {
+        "home": 0.19947275378405743,
+        "draw": 0.05929217835868916,
+        "away": 0.04135920945844908
+       },
+       "brier_side_base": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+       },
+       "logloss": 0.591646020941382,
+       "dir_acc": 100,
+       "calib_max_err": {
+        "err": 0.44642024097131583,
+        "side": "home",
+        "bin": 5,
+        "binLo": 0.5,
+        "binHi": 0.6,
+        "n": 2,
+        "meanPred": 0.5535797590286842,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        1,
+        0,
+        0
+       ],
+       "marginals_scored": [
+        1,
+        0,
+        0
+       ],
+       "paired": {
+        "n": 2,
+        "meanDelta": 0.30012414160119566,
+        "sd": 0.0247549318497677,
+        "se": 0.017504380178781587,
+        "t": 17.14565945985333,
+        "df": 1,
+        "pTwo": 0.03708806813425533,
+        "mde80": 0.04904001278876352,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.5097025629052745,
+         "freq": 1,
+         "errPct": 49.02974370947255,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5192420195461676,
+         "freq": 0.5,
+         "errPct": 1.9242019546167555,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "3",
+       "holdoutRows": 3,
+       "trainRows": 1378,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-23"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 3,
+       "refused": 0,
+       "brier_dc": 0.3891701223142894,
+       "brier_base": 0,
+       "gain_pct": null,
+       "brier_side_dc": {
+        "home": 0.25884645096694875,
+        "draw": 0.06686421770518337,
+        "away": 0.06345945364215723
+       },
+       "brier_side_base": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+       },
+       "logloss": 0.7121571676583242,
+       "dir_acc": 100,
+       "calib_max_err": {
+        "err": 0.6144866518751497,
+        "side": "home",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 1,
+        "meanPred": 0.3855133481248502,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        1,
+        0,
+        0
+       ],
+       "marginals_scored": [
+        1,
+        0,
+        0
+       ],
+       "paired": {
+        "n": 3,
+        "meanDelta": 0.3891701223142894,
+        "sd": 0.15522230306535623,
+        "se": 0.0896176384590171,
+        "t": 4.342561676541612,
+        "df": 2,
+        "pTwo": 0.049151535290861505,
+        "mde80": 0.25107145133058306,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.49591216542398353,
+         "freq": 1,
+         "errPct": 50.40878345760164,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5212503816023469,
+         "freq": 0.6666666666666666,
+         "errPct": 14.54162850643197,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "5",
+       "holdoutRows": 5,
+       "trainRows": 1376,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-23"
+       ],
+       "testWindow": [
+        "2026-05-23",
+        "2026-05-24"
+       ],
+       "scored": 5,
+       "refused": 0,
+       "brier_dc": 0.378464436889555,
+       "brier_base": 0,
+       "gain_pct": null,
+       "brier_side_dc": {
+        "home": 0.25189312840375233,
+        "draw": 0.06285012980094935,
+        "away": 0.06372117868485326
+       },
+       "brier_side_base": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+       },
+       "logloss": 0.6976457240375024,
+       "dir_acc": 100,
+       "calib_max_err": {
+        "err": 0.6144866518751497,
+        "side": "home",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 1,
+        "meanPred": 0.3855133481248502,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        1,
+        0,
+        0
+       ],
+       "marginals_scored": [
+        1,
+        0,
+        0
+       ],
+       "paired": {
+        "n": 5,
+        "meanDelta": 0.378464436889555,
+        "sd": 0.12225085739953717,
+        "se": 0.05467224549059965,
+        "t": 6.922423498311007,
+        "df": 4,
+        "pTwo": 0.002285553953909197,
+        "mde80": 0.15316895489389723,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.516463065517027,
+         "freq": 0.8,
+         "errPct": 28.3536934482973,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5394641272869881,
+         "freq": 0.4,
+         "errPct": 13.94641272869881,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "8",
+       "holdoutRows": 8,
+       "trainRows": 1373,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-17"
+       ],
+       "testWindow": [
+        "2026-05-17",
+        "2026-05-24"
+       ],
+       "scored": 8,
+       "refused": 0,
+       "brier_dc": 0.44981911184786544,
+       "brier_base": 0.375,
+       "gain_pct": 19.95176315943079,
+       "brier_side_dc": {
+        "home": 0.21923562577126154,
+        "draw": 0.06843978637901854,
+        "away": 0.16214369969758544
+       },
+       "brier_side_base": {
+        "home": 0.1875,
+        "draw": 0,
+        "away": 0.1875
+       },
+       "logloss": 0.7972425911474675,
+       "dir_acc": 87.5,
+       "calib_max_err": {
+        "err": 0.44009163207501445,
+        "side": "home",
+        "bin": 5,
+        "binLo": 0.5,
+        "binHi": 0.6,
+        "n": 4,
+        "meanPred": 0.5599083679249856,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.75,
+        0,
+        0.25
+       ],
+       "marginals_scored": [
+        0.75,
+        0,
+        0.25
+       ],
+       "paired": {
+        "n": 8,
+        "meanDelta": 0.0748191118478655,
+        "sd": 0.3191125252757292,
+        "se": 0.11282331529201582,
+        "t": 0.663152927692422,
+        "df": 7,
+        "pTwo": 0.5284583581997224,
+        "mde80": 0.31608413255888707,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.49843712716412497,
+         "freq": 0.75,
+         "errPct": 25.156287283587503,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5272748932039868,
+         "freq": 0.25,
+         "errPct": 27.72748932039868,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "10",
+       "holdoutRows": 10,
+       "trainRows": 1371,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-16"
+       ],
+       "testWindow": [
+        "2026-05-17",
+        "2026-05-24"
+       ],
+       "scored": 10,
+       "refused": 0,
+       "brier_dc": 0.5015432416055,
+       "brier_base": 0.42000000000000004,
+       "gain_pct": 19.41505752511903,
+       "brier_side_dc": {
+        "home": 0.24438097728220082,
+        "draw": 0.06982498730301878,
+        "away": 0.18733727702028027
+       },
+       "brier_side_base": {
+        "home": 0.21000000000000002,
+        "draw": 0,
+        "away": 0.21000000000000002
+       },
+       "logloss": 0.8719824629847285,
+       "dir_acc": 80,
+       "calib_max_err": {
+        "err": 0.5664237430817415,
+        "side": "away",
+        "bin": 4,
+        "binLo": 0.4,
+        "binHi": 0.5,
+        "n": 1,
+        "meanPred": 0.4335762569182585,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.7,
+        0,
+        0.3
+       ],
+       "marginals_scored": [
+        0.7,
+        0,
+        0.3
+       ],
+       "paired": {
+        "n": 10,
+        "meanDelta": 0.08154324160549986,
+        "sd": 0.36159515095787287,
+        "se": 0.1143464267899294,
+        "t": 0.7131245277590209,
+        "df": 9,
+        "pTwo": 0.4938430840913721,
+        "mde80": 0.3203512592193864,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.49342979337524884,
+         "freq": 0.7,
+         "errPct": 20.657020662475112,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5244538924518117,
+         "freq": 0.3,
+         "errPct": 22.445389245181175,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "15",
+       "holdoutRows": 15,
+       "trainRows": 1366,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-13"
+       ],
+       "testWindow": [
+        "2026-05-13",
+        "2026-05-24"
+       ],
+       "scored": 15,
+       "refused": 0,
+       "brier_dc": 0.47729003944585713,
+       "brier_base": 0.44444444444444453,
+       "gain_pct": 7.390258875317834,
+       "brier_side_dc": {
+        "home": 0.2221555484216974,
+        "draw": 0.06893396212151098,
+        "away": 0.18620052890264857
+       },
+       "brier_side_base": {
+        "home": 0.22222222222222224,
+        "draw": 0,
+        "away": 0.2222222222222223
+       },
+       "logloss": 0.834869154994914,
+       "dir_acc": 80,
+       "calib_max_err": {
+        "err": 0.5664237430817415,
+        "side": "away",
+        "bin": 4,
+        "binLo": 0.4,
+        "binHi": 0.5,
+        "n": 1,
+        "meanPred": 0.4335762569182585,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.6666666666666666,
+        0,
+        0.3333333333333333
+       ],
+       "marginals_scored": [
+        0.6666666666666666,
+        0,
+        0.3333333333333333
+       ],
+       "paired": {
+        "n": 15,
+        "meanDelta": 0.03284559500141252,
+        "sd": 0.28396860871582214,
+        "se": 0.0733203794934713,
+        "t": 0.44797360881550274,
+        "df": 14,
+        "pTwo": 0.6610264130328617,
+        "mde80": 0.2054132914911989,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.49420962824196163,
+         "freq": 0.6666666666666666,
+         "errPct": 17.2457038424705,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5217891912771065,
+         "freq": 0.3333333333333333,
+         "errPct": 18.845585794377325,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "20",
+       "holdoutRows": 20,
+       "trainRows": 1361,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-10"
+       ],
+       "testWindow": [
+        "2026-05-12",
+        "2026-05-24"
+       ],
+       "scored": 20,
+       "refused": 0,
+       "brier_dc": 0.545867708907657,
+       "brier_base": 0.5150000000000001,
+       "gain_pct": 5.993729884981924,
+       "brier_side_dc": {
+        "home": 0.2404517145204978,
+        "draw": 0.09735010714084917,
+        "away": 0.2080658872463102
+       },
+       "brier_side_base": {
+        "home": 0.24000000000000005,
+        "draw": 0.047499999999999945,
+        "away": 0.2274999999999999
+       },
+       "logloss": 0.9339089445242047,
+       "dir_acc": 70,
+       "calib_max_err": {
+        "err": 0.5664237430817415,
+        "side": "away",
+        "bin": 4,
+        "binLo": 0.4,
+        "binHi": 0.5,
+        "n": 1,
+        "meanPred": 0.4335762569182585,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.6,
+        0.05,
+        0.35
+       ],
+       "marginals_scored": [
+        0.6,
+        0.05,
+        0.35
+       ],
+       "paired": {
+        "n": 20,
+        "meanDelta": 0.030867708907657054,
+        "sd": 0.25114102987395676,
+        "se": 0.05615684147374727,
+        "t": 0.549669605654146,
+        "df": 19,
+        "pTwo": 0.5889494199912872,
+        "mde80": 0.15732817705749935,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.48843309688933434,
+         "freq": 0.65,
+         "errPct": 16.15669031106657,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5190974299784723,
+         "freq": 0.4,
+         "errPct": 11.909742997847228,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "25",
+       "holdoutRows": 25,
+       "trainRows": 1356,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-09"
+       ],
+       "testWindow": [
+        "2026-05-09",
+        "2026-05-24"
+       ],
+       "scored": 25,
+       "refused": 0,
+       "brier_dc": 0.598234466786006,
+       "brier_base": 0.5855999999999998,
+       "gain_pct": 2.1575250659163547,
+       "brier_side_dc": {
+        "home": 0.24599163303198615,
+        "draw": 0.1322065845488215,
+        "away": 0.22003624920519832
+       },
+       "brier_side_base": {
+        "home": 0.24960000000000016,
+        "draw": 0.10560000000000012,
+        "away": 0.2304
+       },
+       "logloss": 1.005787877894463,
+       "dir_acc": 60,
+       "calib_max_err": {
+        "err": 0.5664237430817415,
+        "side": "away",
+        "bin": 4,
+        "binLo": 0.4,
+        "binHi": 0.5,
+        "n": 1,
+        "meanPred": 0.4335762569182585,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.52,
+        0.12,
+        0.36
+       ],
+       "marginals_scored": [
+        0.52,
+        0.12,
+        0.36
+       ],
+       "paired": {
+        "n": 25,
+        "meanDelta": 0.012634466786005877,
+        "sd": 0.21239480220971718,
+        "se": 0.042478960441943436,
+        "t": 0.29742881310086605,
+        "df": 24,
+        "pTwo": 0.7686984391589765,
+        "mde80": 0.119008427722077,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.4867405986559524,
+         "freq": 0.64,
+         "errPct": 15.325940134404764,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5183482460077727,
+         "freq": 0.52,
+         "errPct": 0.16517539922272784,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "30",
+       "holdoutRows": 30,
+       "trainRows": 1351,
+       "trainWindow": [
+        "2021-07-24",
+        "2026-05-03"
+       ],
+       "testWindow": [
+        "2026-05-03",
+        "2026-05-24"
+       ],
+       "scored": 30,
+       "refused": 0,
+       "brier_dc": 0.6089062858557704,
+       "brier_base": 0.5977777777777776,
+       "gain_pct": 1.8616463327497224,
+       "brier_side_dc": {
+        "home": 0.24540225640860153,
+        "draw": 0.1360326558825045,
+        "away": 0.22747137356466443
+       },
+       "brier_side_base": {
+        "home": 0.25,
+        "draw": 0.11555555555555565,
+        "away": 0.2322222222222221
+       },
+       "logloss": 1.0207593934771453,
+       "dir_acc": 56.666666666666664,
+       "calib_max_err": {
+        "err": 0.5664237430817415,
+        "side": "away",
+        "bin": 4,
+        "binLo": 0.4,
+        "binHi": 0.5,
+        "n": 1,
+        "meanPred": 0.4335762569182585,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.5,
+        0.13333333333333333,
+        0.36666666666666664
+       ],
+       "marginals_scored": [
+        0.5,
+        0.13333333333333333,
+        0.36666666666666664
+       ],
+       "paired": {
+        "n": 30,
+        "meanDelta": 0.011128508077992642,
+        "sd": 0.21290585501897824,
+        "se": 0.03887111313960629,
+        "t": 0.2862924979283307,
+        "df": 29,
+        "pTwo": 0.7766894303869694,
+        "mde80": 0.10890073604493959,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.48593563332814926,
+         "freq": 0.5666666666666667,
+         "errPct": 8.073103333851739,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.516278142223559,
+         "freq": 0.4666666666666667,
+         "errPct": 4.961147555689227,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "FULL",
+       "holdoutRows": 276,
+       "trainRows": 1105,
+       "trainWindow": [
+        "2021-07-24",
+        "2025-05-25"
+       ],
+       "testWindow": [
+        "2025-07-18",
+        "2026-05-24"
+       ],
+       "scored": 276,
+       "refused": 0,
+       "brier_dc": 0.6089720554264065,
+       "brier_base": 0.6508874186095353,
+       "gain_pct": -6.43972551699814,
+       "brier_side_dc": {
+        "home": 0.22419847387538017,
+        "draw": 0.18418368825917888,
+        "away": 0.2005898932918467
+       },
+       "brier_side_base": {
+        "home": 0.24364629279563102,
+        "draw": 0.18382430161730784,
+        "away": 0.22341682419659747
+       },
+       "logloss": 1.0145947809495042,
+       "dir_acc": 49.275362318840585,
+       "calib_max_err": {
+        "err": 0.12043171662562813,
+        "side": "away",
+        "bin": 5,
+        "binLo": 0.5,
+        "binHi": 0.6,
+        "n": 19,
+        "meanPred": 0.5414843482045755,
+        "observedFreq": 0.42105263157894735
+       },
+       "marginals_holdout": [
+        0.42028985507246375,
+        0.2427536231884058,
+        0.33695652173913043
+       ],
+       "marginals_scored": [
+        0.42028985507246375,
+        0.2427536231884058,
+        0.33695652173913043
+       ],
+       "paired": {
+        "n": 276,
+        "meanDelta": -0.04191536318312994,
+        "sd": 0.2636349324232189,
+        "se": 0.01586895812148916,
+        "t": -2.6413431091213035,
+        "df": 275,
+        "pTwo": 0.008730346849978103,
+        "mde80": 0.04445823852509296,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.48743966578470915,
+         "freq": 0.4891304347826087,
+         "errPct": 0.169076899789955,
+         "gate": "ship \u22642.7% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.49638475342743105,
+         "freq": 0.5,
+         "errPct": 0.3615246572568953,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      }
+     ]
+    },
+    "England Premier League": {
+     "league": "England Premier League",
+     "cutoff": "2025-07-01",
+     "seasonStartYear": 2021,
+     "trainRows": 1520,
+     "lastSeasonRows": 380,
+     "trainWindow": [
+      "2021-08-13",
+      "2025-05-25"
+     ],
+     "lastSeasonWindow": [
+      "2025-08-15",
+      "2026-05-24"
+     ],
+     "ladder": [
+      {
+       "holdout": "1",
+       "holdoutRows": 1,
+       "trainRows": 1899,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-24"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 1,
+       "refused": 0,
+       "brier_dc": 0.6223225781956057,
+       "brier_base": 0,
+       "gain_pct": null,
+       "brier_side_dc": {
+        "home": 0.41202210812406764,
+        "draw": 0.07542369616175049,
+        "away": 0.13487677390978758
+       },
+       "brier_side_base": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+       },
+       "logloss": 1.0269136329478736,
+       "dir_acc": 0,
+       "calib_max_err": {
+        "err": 0.641889482795962,
+        "side": "home",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 1,
+        "meanPred": 0.358110517204038,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        1,
+        0,
+        0
+       ],
+       "marginals_scored": [
+        1,
+        0,
+        0
+       ],
+       "paired": {
+        "n": 1,
+        "meanDelta": 0.6223225781956057,
+        "sd": null,
+        "se": null,
+        "t": null,
+        "df": null,
+        "pTwo": null,
+        "mde80": null,
+        "note": "paired stats need \u22652 scored rows \u2014 one game is noise (T2/E2)"
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.4926798434795493,
+         "freq": 1,
+         "errPct": 50.73201565204507,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5453944451986668,
+         "freq": 0,
+         "errPct": 54.53944451986668,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "2",
+       "holdoutRows": 2,
+       "trainRows": 1898,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-24"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 2,
+       "refused": 0,
+       "brier_dc": 0.6282207801685866,
+       "brier_base": 0,
+       "gain_pct": null,
+       "brier_side_dc": {
+        "home": 0.41567973746916637,
+        "draw": 0.07503638064654394,
+        "away": 0.13750466205287631
+       },
+       "brier_side_base": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+       },
+       "logloss": 1.0348979973247963,
+       "dir_acc": 0,
+       "calib_max_err": {
+        "err": 0.6447260591165397,
+        "side": "home",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 2,
+        "meanPred": 0.3552739408834603,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        1,
+        0,
+        0
+       ],
+       "marginals_scored": [
+        1,
+        0,
+        0
+       ],
+       "paired": {
+        "n": 2,
+        "meanDelta": 0.6282207801685866,
+        "sd": 0.008341317223805428,
+        "se": 0.0058982019729809645,
+        "t": 106.51055746249436,
+        "df": 1,
+        "pTwo": 0.005976882318907797,
+        "mde80": 0.016524315470268208,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.494067260092919,
+         "freq": 0.5,
+         "errPct": 0.5932739907080986,
+         "gate": "ship \u22642.7% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5464148124534592,
+         "freq": 0,
+         "errPct": 54.64148124534592,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "3",
+       "holdoutRows": 3,
+       "trainRows": 1897,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-24"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 3,
+       "refused": 0,
+       "brier_dc": 0.6198612840075185,
+       "brier_base": 0,
+       "gain_pct": null,
+       "brier_side_dc": {
+        "home": 0.4106960489504967,
+        "draw": 0.07700540674976523,
+        "away": 0.1321598283072565
+       },
+       "brier_side_base": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+       },
+       "logloss": 1.0240916041538126,
+       "dir_acc": 33.33333333333333,
+       "calib_max_err": {
+        "err": 0.640827817960588,
+        "side": "home",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 3,
+        "meanPred": 0.35917218203941204,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        1,
+        0,
+        0
+       ],
+       "marginals_scored": [
+        1,
+        0,
+        0
+       ],
+       "paired": {
+        "n": 3,
+        "meanDelta": 0.6198612840075185,
+        "sd": 0.015634331284542252,
+        "se": 0.009026485375730257,
+        "t": 68.67138849791476,
+        "df": 2,
+        "pTwo": 0.00021198748773774455,
+        "mde80": 0.02528846801442189,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.48703156384863305,
+         "freq": 0.6666666666666666,
+         "errPct": 17.96351028180336,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5409030850277854,
+         "freq": 0.3333333333333333,
+         "errPct": 20.75697516944521,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "5",
+       "holdoutRows": 5,
+       "trainRows": 1895,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-24"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 5,
+       "refused": 0,
+       "brier_dc": 0.5927663171046185,
+       "brier_base": 0.5600000000000002,
+       "gain_pct": 5.851128054396115,
+       "brier_side_dc": {
+        "home": 0.2868308760002127,
+        "draw": 0.1669290859359287,
+        "away": 0.1390063551684771
+       },
+       "brier_side_base": {
+        "home": 0.24000000000000005,
+        "draw": 0.16000000000000006,
+        "away": 0.16000000000000006
+       },
+       "logloss": 0.9933910389343733,
+       "dir_acc": 40,
+       "calib_max_err": {
+        "err": 0.640827817960588,
+        "side": "home",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 3,
+        "meanPred": 0.35917218203941204,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.6,
+        0.2,
+        0.2
+       ],
+       "marginals_scored": [
+        0.6,
+        0.2,
+        0.2
+       ],
+       "paired": {
+        "n": 5,
+        "meanDelta": 0.032766317104618484,
+        "sd": 0.5067653042338081,
+        "se": 0.22663233378103134,
+        "t": 0.14457918055186597,
+        "df": 4,
+        "pTwo": 0.892035250257255,
+        "mde80": 0.6349297966254928,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.4801564084701299,
+         "freq": 0.6,
+         "errPct": 11.984359152987006,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5242441256002552,
+         "freq": 0.6,
+         "errPct": 7.575587439974473,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "8",
+       "holdoutRows": 8,
+       "trainRows": 1892,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-24"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 8,
+       "refused": 0,
+       "brier_dc": 0.7158762649097576,
+       "brier_base": 0.625,
+       "gain_pct": 14.54020238556122,
+       "brier_side_dc": {
+        "home": 0.3182959386357768,
+        "draw": 0.19161371176845066,
+        "away": 0.20596661450553036
+       },
+       "brier_side_base": {
+        "home": 0.25,
+        "draw": 0.1875,
+        "away": 0.1875
+       },
+       "logloss": 1.1806479968435868,
+       "dir_acc": 25,
+       "calib_max_err": {
+        "err": 0.8651045204466963,
+        "side": "away",
+        "bin": 1,
+        "binLo": 0.1,
+        "binHi": 0.2,
+        "n": 1,
+        "meanPred": 0.13489547955330375,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.5,
+        0.25,
+        0.25
+       ],
+       "marginals_scored": [
+        0.5,
+        0.25,
+        0.25
+       ],
+       "paired": {
+        "n": 8,
+        "meanDelta": 0.09087626490975773,
+        "sd": 0.3014587145624639,
+        "se": 0.10658175065744903,
+        "t": 0.8526437626440541,
+        "df": 7,
+        "pTwo": 0.42206861365257153,
+        "mde80": 0.29859785733092553,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.5006520033629236,
+         "freq": 0.5,
+         "errPct": 0.06520033629235922,
+         "gate": "ship \u22642.7% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5309712684989663,
+         "freq": 0.625,
+         "errPct": 9.402873150103375,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "10",
+       "holdoutRows": 10,
+       "trainRows": 1890,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-19"
+       ],
+       "testWindow": [
+        "2026-05-24",
+        "2026-05-24"
+       ],
+       "scored": 10,
+       "refused": 0,
+       "brier_dc": 0.7227560428839226,
+       "brier_base": 0.6599999999999999,
+       "gain_pct": 9.508491346048897,
+       "brier_side_dc": {
+        "home": 0.28968094972424757,
+        "draw": 0.21170685661496674,
+        "away": 0.22136823654470844
+       },
+       "brier_side_base": {
+        "home": 0.24,
+        "draw": 0.20999999999999996,
+        "away": 0.21000000000000002
+       },
+       "logloss": 1.1873194603203927,
+       "dir_acc": 20,
+       "calib_max_err": {
+        "err": 0.8651045204466963,
+        "side": "away",
+        "bin": 1,
+        "binLo": 0.1,
+        "binHi": 0.2,
+        "n": 1,
+        "meanPred": 0.13489547955330375,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.4,
+        0.3,
+        0.3
+       ],
+       "marginals_scored": [
+        0.4,
+        0.3,
+        0.3
+       ],
+       "paired": {
+        "n": 10,
+        "meanDelta": 0.06275604288392277,
+        "sd": 0.22434976886163485,
+        "se": 0.07094562621350874,
+        "t": 0.8845653528388112,
+        "df": 9,
+        "pTwo": 0.3994055456528688,
+        "mde80": 0.19876021780163808,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.49941657364858044,
+         "freq": 0.5,
+         "errPct": 0.05834263514195581,
+         "gate": "ship \u22642.7% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5333927710999653,
+         "freq": 0.6,
+         "errPct": 6.660722890003468,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "15",
+       "holdoutRows": 15,
+       "trainRows": 1885,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-17"
+       ],
+       "testWindow": [
+        "2026-05-17",
+        "2026-05-24"
+       ],
+       "scored": 15,
+       "refused": 0,
+       "brier_dc": 0.6432761958475004,
+       "brier_base": 0.6311111111111114,
+       "gain_pct": 1.927566243441925,
+       "brier_side_dc": {
+        "home": 0.23840734572640754,
+        "draw": 0.22073528675667967,
+        "away": 0.18413356336441336
+       },
+       "brier_side_base": {
+        "home": 0.24888888888888888,
+        "draw": 0.2222222222222223,
+        "away": 0.16000000000000006
+       },
+       "logloss": 1.0692543606385618,
+       "dir_acc": 33.33333333333333,
+       "calib_max_err": {
+        "err": 0.8651045204466963,
+        "side": "away",
+        "bin": 1,
+        "binLo": 0.1,
+        "binHi": 0.2,
+        "n": 1,
+        "meanPred": 0.13489547955330375,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.4666666666666667,
+        0.3333333333333333,
+        0.2
+       ],
+       "marginals_scored": [
+        0.4666666666666667,
+        0.3333333333333333,
+        0.2
+       ],
+       "paired": {
+        "n": 15,
+        "meanDelta": 0.012165084736389324,
+        "sd": 0.2624804435099018,
+        "se": 0.06777215909459909,
+        "t": 0.17949973704406869,
+        "df": 14,
+        "pTwo": 0.860117342493872,
+        "mde80": 0.18986947922611874,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.5055227664897278,
+         "freq": 0.4666666666666667,
+         "errPct": 3.885609982306115,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5224144758262991,
+         "freq": 0.6666666666666666,
+         "errPct": 14.425219084036755,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "20",
+       "holdoutRows": 20,
+       "trainRows": 1880,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-13"
+       ],
+       "testWindow": [
+        "2026-05-15",
+        "2026-05-24"
+       ],
+       "scored": 20,
+       "refused": 0,
+       "brier_dc": 0.6517927225001391,
+       "brier_base": 0.6200000000000001,
+       "gain_pct": 5.127858467764357,
+       "brier_side_dc": {
+        "home": 0.2572442586706058,
+        "draw": 0.20647032326777787,
+        "away": 0.1880781405617555
+       },
+       "brier_side_base": {
+        "home": 0.25,
+        "draw": 0.2099999999999999,
+        "away": 0.16000000000000006
+       },
+       "logloss": 1.079588343880856,
+       "dir_acc": 30,
+       "calib_max_err": {
+        "err": 0.8651045204466963,
+        "side": "away",
+        "bin": 1,
+        "binLo": 0.1,
+        "binHi": 0.2,
+        "n": 1,
+        "meanPred": 0.13489547955330375,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.5,
+        0.3,
+        0.2
+       ],
+       "marginals_scored": [
+        0.5,
+        0.3,
+        0.2
+       ],
+       "paired": {
+        "n": 20,
+        "meanDelta": 0.03179272250013914,
+        "sd": 0.24009512972947125,
+        "se": 0.05368690311417284,
+        "t": 0.5921876781107562,
+        "df": 19,
+        "pTwo": 0.5607067389594745,
+        "mde80": 0.15040843425576259,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.5033328555498398,
+         "freq": 0.55,
+         "errPct": 4.666714445016029,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.524509613660695,
+         "freq": 0.7,
+         "errPct": 17.549038633930493,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "25",
+       "holdoutRows": 25,
+       "trainRows": 1875,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-10"
+       ],
+       "testWindow": [
+        "2026-05-10",
+        "2026-05-24"
+       ],
+       "scored": 25,
+       "refused": 0,
+       "brier_dc": 0.6320492677375141,
+       "brier_base": 0.6368000000000001,
+       "gain_pct": -0.7460320763954198,
+       "brier_side_dc": {
+        "home": 0.2296596600167087,
+        "draw": 0.23196732609841272,
+        "away": 0.17042228162239276
+       },
+       "brier_side_base": {
+        "home": 0.24640000000000004,
+        "draw": 0.2304,
+        "away": 0.16000000000000003
+       },
+       "logloss": 1.053493638867271,
+       "dir_acc": 32,
+       "calib_max_err": {
+        "err": 0.6878288821880167,
+        "side": "draw",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 1,
+        "meanPred": 0.31217111781198326,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.44,
+        0.36,
+        0.2
+       ],
+       "marginals_scored": [
+        0.44,
+        0.36,
+        0.2
+       ],
+       "paired": {
+        "n": 25,
+        "meanDelta": -0.004750732262485853,
+        "sd": 0.27996914128190087,
+        "se": 0.055993828256380176,
+        "t": -0.0848438553037233,
+        "df": 24,
+        "pTwo": 0.9330893223832364,
+        "mde80": 0.1568714816371091,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.5015596017398041,
+         "freq": 0.52,
+         "errPct": 1.8440398260195945,
+         "gate": "ship \u22642.7% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5208158933386122,
+         "freq": 0.68,
+         "errPct": 15.918410666138783,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "30",
+       "holdoutRows": 30,
+       "trainRows": 1870,
+       "trainWindow": [
+        "2021-08-13",
+        "2026-05-09"
+       ],
+       "testWindow": [
+        "2026-05-09",
+        "2026-05-24"
+       ],
+       "scored": 30,
+       "refused": 0,
+       "brier_dc": 0.6434928457222487,
+       "brier_base": 0.6400000000000001,
+       "gain_pct": 0.5457571441013442,
+       "brier_side_dc": {
+        "home": 0.21549361308380285,
+        "draw": 0.2543315290239805,
+        "away": 0.17366770361446543
+       },
+       "brier_side_base": {
+        "home": 0.2400000000000001,
+        "draw": 0.2400000000000001,
+        "away": 0.16000000000000006
+       },
+       "logloss": 1.0678992119882367,
+       "dir_acc": 33.33333333333333,
+       "calib_max_err": {
+        "err": 0.6878288821880167,
+        "side": "draw",
+        "bin": 3,
+        "binLo": 0.3,
+        "binHi": 0.4,
+        "n": 1,
+        "meanPred": 0.31217111781198326,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.4,
+        0.4,
+        0.2
+       ],
+       "marginals_scored": [
+        0.4,
+        0.4,
+        0.2
+       ],
+       "paired": {
+        "n": 30,
+        "meanDelta": 0.0034928457222487014,
+        "sd": 0.31534887777996684,
+        "se": 0.057574564614675826,
+        "t": 0.060666472176124295,
+        "df": 29,
+        "pTwo": 0.9520409996718971,
+        "mde80": 0.1613000492547417,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.5046759583248935,
+         "freq": 0.5,
+         "errPct": 0.46759583248935366,
+         "gate": "ship \u22642.7% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5240703409379575,
+         "freq": 0.6333333333333333,
+         "errPct": 10.926299239537585,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      },
+      {
+       "holdout": "FULL",
+       "holdoutRows": 380,
+       "trainRows": 1520,
+       "trainWindow": [
+        "2021-08-13",
+        "2025-05-25"
+       ],
+       "testWindow": [
+        "2025-08-15",
+        "2026-05-24"
+       ],
+       "scored": 374,
+       "refused": 6,
+       "brier_dc": 0.6140202920669079,
+       "brier_base": 0.6533518005540199,
+       "gain_pct": -6.019958688988114,
+       "brier_side_dc": {
+        "home": 0.22095285669926676,
+        "draw": 0.19960935836940694,
+        "away": 0.19345807699823397
+       },
+       "brier_side_base": {
+        "home": 0.24439643296250715,
+        "draw": 0.19834802316796732,
+        "away": 0.21085561497326327
+       },
+       "logloss": 1.0225810389732322,
+       "dir_acc": 49.19786096256685,
+       "calib_max_err": {
+        "err": 0.2585913380093714,
+        "side": "away",
+        "bin": 7,
+        "binLo": 0.7,
+        "binHi": 0.8,
+        "n": 1,
+        "meanPred": 0.7414086619906286,
+        "observedFreq": 1
+       },
+       "marginals_holdout": [
+        0.4263157894736842,
+        0.2736842105263158,
+        0.3
+       ],
+       "marginals_scored": [
+        0.42513368983957217,
+        0.2727272727272727,
+        0.30213903743315507
+       ],
+       "paired": {
+        "n": 374,
+        "meanDelta": -0.03957977903682932,
+        "sd": 0.23156836671018619,
+        "se": 0.011974115181808968,
+        "t": -3.3054449899528926,
+        "df": 373,
+        "pTwo": 0.0010401984316556216,
+        "mde80": 0.033546504112258874,
+        "note": null
+       },
+       "markets": {
+        "o25": {
+         "predMean": 0.5039570770130196,
+         "freq": 0.553475935828877,
+         "errPct": 4.9518858815857385,
+         "gate": "withheld >3.3% (I3)",
+         "note": "shrunk goals grid k=0.5 GMU 2.6186 \u2014 measured only"
+        },
+        "btts": {
+         "predMean": 0.5217006320971094,
+         "freq": 0.5641711229946524,
+         "errPct": 4.247049089754307,
+         "status": "withheld (I3) \u2014 measured only, never an output"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "refusals": [],
+   "parity": {
+    "reference": "audit_work/ladder_baseline_2026-08-05.json FULL rows (= masterplan \u00a75.2 first live run)",
+    "tolerance": 0.0005,
+    "rows": {
+     "Russian Premier League": {
+      "measured": {
+       "brier_dc": 0.5675,
+       "brier_base": 0.6465,
+       "scored": 254,
+       "refused": 2
+      },
+      "expected": {
+       "brier_dc": 0.5675,
+       "brier_base": 0.6465,
+       "scored": 254,
+       "refused": 2,
+       "logloss": 0.9572,
+       "dir_acc": 55.9
+      },
+      "delta": 0,
+      "ok": true
+     },
+     "Czech First League": {
+      "measured": {
+       "brier_dc": 0.609,
+       "brier_base": 0.6509,
+       "scored": 276,
+       "refused": 0
+      },
+      "expected": {
+       "brier_dc": 0.609,
+       "brier_base": 0.6509,
+       "scored": 276,
+       "refused": 0,
+       "logloss": 1.0146,
+       "dir_acc": 49.3
+      },
+      "delta": 0,
+      "ok": true
+     },
+     "England Premier League": {
+      "measured": {
+       "brier_dc": 0.614,
+       "brier_base": 0.6534,
+       "scored": 374,
+       "refused": 6
+      },
+      "expected": {
+       "brier_dc": 0.614,
+       "brier_base": 0.6534,
+       "scored": 374,
+       "refused": 6,
+       "logloss": 1.0226,
+       "dir_acc": 49.2
+      },
+      "delta": 0,
+      "ok": true
+     }
+    },
+    "allOk": true
+   },
+   "summary": "Calibration ladder (3 leagues): Russian FULL 0.5675 vs base 0.6465 (-12.2%, n 254 +2 refused) \u00b7 Czech FULL 0.6090 vs base 0.6509 (-6.4%, n 276) \u00b7 England FULL 0.6140 vs base 0.6534 (-6.0%, n 374 +6 refused) \u2014 parity vs 2026-08-05 baseline: PASS"
+  }
+ },
+ "deliverables": {
+  "app_b64": {
+   "file": "handoffs/B0-v3.7.0-e688eee2.b64.txt",
+   "md5_b64_file": "ba3df307543cfb6758700018fae1a562",
+   "decoded_md5": "e688eee2d0fe4009b60cab253335eceb",
+   "roundtrip_md5_matches_pre": true
+  },
+  "evidence": {
+   "file": "handoffs/B0-EVIDENCE-2026-08-05.json"
+  },
+  "repo_evidence": [
+   "builder/calibration_module.js",
+   "builder/build_b0.py",
+   "builder/b0_selfcheck.js",
+   "builder/b0_selfcheck_result.json",
+   "builder/b0_byte_diff.txt",
+   "builder/app-v3.7.0-b0.html"
+  ]
+ },
+ "versioning_note": "B0 ships v3.7.0 (policy: every ship bumps upward). Docs that queued 'v3.6.4' for S1/LIVE-DERIVE-01 should re-pin that label to the next bump after 3.7.0 \u2014 flagging for the planner, no silent rewrite."
+}
