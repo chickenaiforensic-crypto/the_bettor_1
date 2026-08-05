@@ -1,0 +1,124 @@
+# ITA VENUES 2021-22..2025-26 (WO-ITA-SPAN-14) - transcribed 2026-08-05 from the Wikipedia
+# season articles' "Stadiums and locations" tables (fetched 2026-08-05 via fetch_page;
+# action=raw wikitext for 2021-22/2023-24/2024-25/2025-26, rendered markdown for 2022-23
+# whose wikitext capture was thrown away in the controller-abort - its venue layer was
+# re-verified against the rendered table 20/20 plus capacities; matrices never come from
+# rendered pages). Independent of RSSSF fixtures = venue second index.
+# VENUE|<season>|<roster-string>|<stadium-canonical (as printed per season, ASCII-folded)>|<city>|<cap as printed, commas folded>|<verbatim wiki notes>
+# Roster map: Hellas Verona->Verona, AC Milan->Milan, Inter Milan->Inter (pinned section-3
+# strings; Inter never Internazionale, Milan never AC Milan, Verona never Hellas).
+# Epochs are era data (FRA sponsor-epoch decree analogue): Juventus 'Allianz Stadium'
+# 2021-22 -> 'Juventus Stadium' 2022-23..2024-25 -> 'Allianz Stadium' 2025-26; Atalanta
+# 'Gewiss Stadium' 19,768 (2021-22) -> 'Stadio Atleti Azzurri d'Italia' 21,000 (2022-23)
+# -> 'Gewiss Stadium' 15,222 rebuild-reduced (2023-24) -> 23,439 (2024-25) -> renamed
+# 'Stadio di Bergamo' 23,439 (2025-26). Capacity prints shift by season and are carried
+# VERBATIM per season table (wiki re-count waves incl. 2023-24 San Siro/Meazza 75,923->
+# 75,710, Olimpico 70,634->67,585, Ferraris 36,599->33,205, OGT 28,958->28,177; 2025-26
+# Olimpico print swings BACK to 70,634 - source reprints, not structural changes).
+# 2023-24 SAME-GROUND SPLIT PRINT: Inter 'Giuseppe Meazza' vs Milan 'San Siro' (one
+# stadium, both 75,710). 2025-26 rowspan=2 shared cells Milan/Inter + Lazio/Roma.
+# Sassuolo home ground is in Reggio Emilia (Mapei Stadium - Citta del Tricolore) while the
+# club city prints Sassuolo all five window seasons (2026-27 boundary article prints
+# 'Reggio Emilia' - post-window, NOTE-only).
+# ASCII folds in canonical fields: Mapei Stadium - Citta del Tricolore (<- Città/en-dash).
+VENUE|2021-22|Atalanta|Gewiss Stadium|Bergamo|19768|print 'Gewiss Stadium' 19,768
+VENUE|2021-22|Bologna|Stadio Renato Dall'Ara|Bologna|36462|print 'Stadio Renato Dall'Ara' 36,462
+VENUE|2021-22|Cagliari|Sardegna Arena|Cagliari|16416|print 'Sardegna Arena' 16,416
+VENUE|2021-22|Empoli|Stadio Carlo Castellani|Empoli|16284|print 'Stadio Carlo Castellani' 16,284
+VENUE|2021-22|Fiorentina|Stadio Artemio Franchi|Florence|43147|print 'Stadio Artemio Franchi' 43,147
+VENUE|2021-22|Genoa|Stadio Luigi Ferraris|Genoa|36599|print 'Stadio Luigi Ferraris' 36,599
+VENUE|2021-22|Verona|Stadio Marcantonio Bentegodi|Verona|39371|print 'Stadio Marcantonio Bentegodi' 39,371
+VENUE|2021-22|Inter|San Siro|Milan|75923|print 'San Siro' 75,923
+VENUE|2021-22|Juventus|Allianz Stadium|Turin|41507|print 'Allianz Stadium' 41,507
+VENUE|2021-22|Lazio|Stadio Olimpico|Rome|70634|print 'Stadio Olimpico' 70,634
+VENUE|2021-22|Milan|San Siro|Milan|75923|print 'San Siro' 75,923
+VENUE|2021-22|Napoli|Stadio Diego Armando Maradona|Naples|54726|print 'Stadio Diego Armando Maradona' 54,726
+VENUE|2021-22|Roma|Stadio Olimpico|Rome|70634|print 'Stadio Olimpico' 70,634
+VENUE|2021-22|Salernitana|Stadio Arechi|Salerno|26000|print 'Stadio Arechi' 26,000
+VENUE|2021-22|Sampdoria|Stadio Luigi Ferraris|Genoa|36599|print 'Stadio Luigi Ferraris' 36,599
+VENUE|2021-22|Sassuolo|Mapei Stadium|Sassuolo|21525|print 'Mapei Stadium' + parenthetical '([[Reggio Emilia]])' on the stadium line; cap 21,525. Club home city listed Sassuolo.
+VENUE|2021-22|Spezia|Stadio Alberto Picco|La Spezia|11512|print 'Stadio Alberto Picco' 11,512
+VENUE|2021-22|Torino|Stadio Olimpico Grande Torino|Turin|28958|print 'Stadio Olimpico Grande Torino' 28,958
+VENUE|2021-22|Udinese|Stadio Friuli|Udine|25144|print 'Stadio Friuli' 25,144
+VENUE|2021-22|Venezia|Stadio Pier Luigi Penzo|Venice|11150|print 'Stadio Pier Luigi Penzo' 11,150
+VENUE|2022-23|Atalanta|Stadio Atleti Azzurri d'Italia|Bergamo|21000|print 'Stadio Atleti Azzurri d'Italia' (historical name restored this season's table) 21,000
+VENUE|2022-23|Bologna|Stadio Renato Dall'Ara|Bologna|36462|print 'Stadio Renato Dall'Ara' 36,462
+VENUE|2022-23|Cremonese|Stadio Giovanni Zini|Cremona|16003|print 'Stadio Giovanni Zini' 16,003
+VENUE|2022-23|Empoli|Stadio Carlo Castellani|Empoli|16284|print 'Stadio Carlo Castellani' 16,284
+VENUE|2022-23|Fiorentina|Stadio Artemio Franchi|Florence|43147|print 'Stadio Artemio Franchi' 43,147
+VENUE|2022-23|Verona|Stadio Marcantonio Bentegodi|Verona|31045|print 'Stadio Marcantonio Bentegodi' 31,045
+VENUE|2022-23|Inter|San Siro|Milan|75923|print 'San Siro' 75,923
+VENUE|2022-23|Juventus|Juventus Stadium|Turin|41507|print 'Juventus Stadium' (link Juventus Stadium) 41,507
+VENUE|2022-23|Lazio|Stadio Olimpico|Rome|70634|print 'Stadio Olimpico' 70,634
+VENUE|2022-23|Lecce|Stadio Via del mare|Lecce|31533|print 'Stadio Via del mare' 31,533
+VENUE|2022-23|Milan|San Siro|Milan|75923|print 'San Siro' 75,923
+VENUE|2022-23|Monza|Stadio Brianteo|Monza|15039|print 'Stadio Brianteo' 15,039
+VENUE|2022-23|Napoli|Stadio Diego Armando Maradona|Naples|54726|print 'Stadio Diego Armando Maradona' 54,726
+VENUE|2022-23|Roma|Stadio Olimpico|Rome|70634|print 'Stadio Olimpico' 70,634
+VENUE|2022-23|Salernitana|Stadio Arechi|Salerno|37180|print 'Stadio Arechi' 37,180
+VENUE|2022-23|Sampdoria|Stadio Luigi Ferraris|Genoa|36599|print 'Stadio Luigi Ferraris' 36,599
+VENUE|2022-23|Sassuolo|Mapei Stadium - Citta del Tricolore|Sassuolo|21525|print 'Mapei Stadium – Città del Tricolore' 21,525
+VENUE|2022-23|Spezia|Stadio Alberto Picco|La Spezia|11512|print 'Stadio Alberto Picco' 11,512
+VENUE|2022-23|Torino|Stadio Olimpico Grande Torino|Turin|27958|print 'Stadio Olimpico Grande Torino' 27,958
+VENUE|2022-23|Udinese|Stadio Friuli|Udine|25144|print 'Stadio Friuli' 25,144
+VENUE|2022-23|PLAYOFF-NEUTRAL|Mapei Stadium - Citta del Tricolore|Reggio Emilia|21515|Relegation tie-breaker 'spareggio' 2023-06-11 Spezia 1-3 Verona at NEUTRAL Reggio Emilia (wiki box: Mapei Stadium - Citta del Tricolore, attendance 15,000, ref Daniele Orsato, 20:45 CEST; report legaseriea.it/en/match/2022-23aspareuni1spever). Cap carried from the 2022-23 season table print.
+VENUE|2023-24|Atalanta|Gewiss Stadium|Bergamo|15222|print 'Gewiss Stadium' 15,222 (rebuild-phase reduced capacity)
+VENUE|2023-24|Bologna|Stadio Renato Dall'Ara|Bologna|36532|print 'Stadio Renato Dall'Ara' 36532
+VENUE|2023-24|Cagliari|Unipol Domus|Cagliari|16412|print 'Unipol Domus' 16412
+VENUE|2023-24|Empoli|Stadio Carlo Castellani|Empoli|16167|print 'Stadio Carlo Castellani' 16167
+VENUE|2023-24|Fiorentina|Stadio Artemio Franchi|Florence|43118|print 'Stadio Artemio Franchi' 43118
+VENUE|2023-24|Frosinone|Stadio Benito Stirpe|Frosinone|16227|print 'Stadio Benito Stirpe' 16227
+VENUE|2023-24|Genoa|Stadio Luigi Ferraris|Genoa|33205|print 'Stadio Luigi Ferraris' 33205
+VENUE|2023-24|Verona|Stadio Marcantonio Bentegodi|Verona|31713|print 'Stadio Marcantonio Bentegodi' 31713
+VENUE|2023-24|Inter|Giuseppe Meazza|Milan|75710|print 'Giuseppe Meazza' 75,710 - SAME GROUND as Milan's 'San Siro' print this season (wiki prints the two tenants' own names; one physical stadium)
+VENUE|2023-24|Juventus|Juventus Stadium|Turin|41507|print 'Juventus Stadium' 41507
+VENUE|2023-24|Lazio|Stadio Olimpico|Rome|67585|print 'Stadio Olimpico' 67585
+VENUE|2023-24|Lecce|Stadio Via del mare|Lecce|30354|print 'Stadio Via del mare' 30354
+VENUE|2023-24|Milan|San Siro|Milan|75710|print 'San Siro' 75,710 (see Inter row: same ground)
+VENUE|2023-24|Monza|Stadio Brianteo|Monza|15039|print 'Stadio Brianteo' 15039
+VENUE|2023-24|Napoli|Stadio Diego Armando Maradona|Naples|54732|print 'Stadio Diego Armando Maradona' 54732
+VENUE|2023-24|Roma|Stadio Olimpico|Rome|67585|print 'Stadio Olimpico' 67585
+VENUE|2023-24|Salernitana|Stadio Arechi|Salerno|29739|print 'Stadio Arechi' 29739
+VENUE|2023-24|Sassuolo|Mapei Stadium - Citta del Tricolore|Sassuolo|21515|print 'Mapei Stadium – Città del Tricolore' 21515
+VENUE|2023-24|Torino|Stadio Olimpico Grande Torino|Turin|28177|print 'Stadio Olimpico Grande Torino' 28177
+VENUE|2023-24|Udinese|Stadio Friuli|Udine|25132|print 'Stadio Friuli' 25132
+VENUE|2024-25|Atalanta|Gewiss Stadium|Bergamo|23439|print 'Gewiss Stadium' 23439
+VENUE|2024-25|Bologna|Stadio Renato Dall'Ara|Bologna|36000|print 'Stadio Renato Dall'Ara' 36000
+VENUE|2024-25|Cagliari|Unipol Domus|Cagliari|16416|print 'Unipol Domus' 16416
+VENUE|2024-25|Como|Stadio Giuseppe Sinigaglia|Como|13602|print 'Stadio Giuseppe Sinigaglia' 13602
+VENUE|2024-25|Empoli|Stadio Carlo Castellani - Computer Gross Arena|Empoli|16167|print 'Stadio Carlo Castellani - Computer Gross Arena' (sponsor suffix new in table) 16,167
+VENUE|2024-25|Fiorentina|Stadio Artemio Franchi|Florence|43118|print 'Stadio Artemio Franchi' 43118
+VENUE|2024-25|Genoa|Stadio Luigi Ferraris|Genoa|33205|print 'Stadio Luigi Ferraris' 33205
+VENUE|2024-25|Verona|Stadio Marcantonio Bentegodi|Verona|31713|print 'Stadio Marcantonio Bentegodi' 31713
+VENUE|2024-25|Inter|San Siro|Milan|75710|print 'San Siro' 75710
+VENUE|2024-25|Juventus|Juventus Stadium|Turin|41507|print 'Juventus Stadium' 41507
+VENUE|2024-25|Lazio|Stadio Olimpico|Rome|67585|print 'Stadio Olimpico' 67585
+VENUE|2024-25|Lecce|Stadio Via del mare|Lecce|30354|print 'Stadio Via del mare' 30354
+VENUE|2024-25|Milan|San Siro|Milan|75710|print 'San Siro' 75710
+VENUE|2024-25|Monza|Stadio Brianteo|Monza|17102|print 'Stadio Brianteo' 17102
+VENUE|2024-25|Napoli|Stadio Diego Armando Maradona|Naples|54732|print 'Stadio Diego Armando Maradona' 54732
+VENUE|2024-25|Parma|Stadio Ennio Tardini|Parma|22352|print 'Stadio Ennio Tardini' 22352
+VENUE|2024-25|Roma|Stadio Olimpico|Rome|67585|print 'Stadio Olimpico' 67585
+VENUE|2024-25|Torino|Stadio Olimpico Grande Torino|Turin|28177|print 'Stadio Olimpico Grande Torino' 28177
+VENUE|2024-25|Udinese|Stadio Friuli|Udine|25132|print 'Stadio Friuli' 25132
+VENUE|2024-25|Venezia|Stadio Pier Luigi Penzo|Venice|11150|print 'Stadio Pier Luigi Penzo' 11150
+VENUE|2025-26|Atalanta|Stadio di Bergamo|Bergamo|23439|print 'Stadio di Bergamo' 23,439 (official rename of the Gewiss/Atleti Azzurri ground; link Stadio Atleti Azzurri d'Italia)
+VENUE|2025-26|Bologna|Stadio Renato Dall'Ara|Bologna|38279|print 'Stadio Renato Dall'Ara' 38279
+VENUE|2025-26|Cagliari|Unipol Domus|Cagliari|16416|print 'Unipol Domus' 16416
+VENUE|2025-26|Como|Stadio Giuseppe Sinigaglia|Como|13602|print 'Stadio Giuseppe Sinigaglia' 13602
+VENUE|2025-26|Cremonese|Stadio Giovanni Zini|Cremona|20641|print 'Stadio Giovanni Zini' 20641
+VENUE|2025-26|Fiorentina|Stadio Artemio Franchi|Florence|43118|print 'Stadio Artemio Franchi' 43118
+VENUE|2025-26|Genoa|Stadio Luigi Ferraris|Genoa|33205|print 'Stadio Luigi Ferraris' 33205
+VENUE|2025-26|Verona|Stadio Marcantonio Bentegodi|Verona|31713|print 'Stadio Marcantonio Bentegodi' 31713
+VENUE|2025-26|Milan|San Siro|Milan|75710|rowspan-shared cells with Inter this season (wiki rowspan=2 block); San Siro 75,710 both
+VENUE|2025-26|Inter|San Siro|Milan|75710|rowspan-shared; see Milan note
+VENUE|2025-26|Juventus|Allianz Stadium|Turin|41507|print 'Allianz Stadium' 41,507 (link Juventus Stadium)
+VENUE|2025-26|Lazio|Stadio Olimpico|Rome|70634|rowspan-shared cells with Roma; Olimpico 70,634 both
+VENUE|2025-26|Roma|Stadio Olimpico|Rome|70634|rowspan-shared; see Lazio note
+VENUE|2025-26|Lecce|Stadio Via del Mare-Ettore Giardiniero|Lecce|30354|print 'Stadio Via del Mare-Ettore Giardiniero' (sponsor suffix) 30,354
+VENUE|2025-26|Napoli|Stadio Diego Armando Maradona|Naples|54732|print 'Stadio Diego Armando Maradona' 54732
+VENUE|2025-26|Parma|Stadio Ennio Tardini|Parma|22352|print 'Stadio Ennio Tardini' 22352
+VENUE|2025-26|Pisa|Cetilar Arena|Pisa|12508|print 'Cetilar Arena' (sponsor name; link 'Arena Garibaldi - Stadio Romeo Anconetani') 12,508
+VENUE|2025-26|Sassuolo|Mapei Stadium - Citta del Tricolore|Sassuolo|21515|print 'Mapei Stadium – Città del Tricolore' 21515
+VENUE|2025-26|Torino|Stadio Olimpico Grande Torino|Turin|28177|print 'Stadio Olimpico Grande Torino' 28177
+VENUE|2025-26|Udinese|Bluenergy Stadium|Udine|25132|print 'Bluenergy Stadium' (sponsor name; link Stadio Friuli) 25,132

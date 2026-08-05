@@ -884,3 +884,88 @@ EPL `707dd830…`, RUS-ADDENDUM `30576ac4…`, FRA `44fe06b5…`.
 
 **Queue state:** GER closed. Next on the owner's one-at-a-time queue: ITA (workorder
 staged), then KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
+
+## Addendum #14 — ITA Serie A full span shipped (2026-08-05)
+
+**Scope:** WO-ITA-SPAN-14 on DECREE-2026-08-04 override — Italy Serie A seasons
+2021-22, 2022-23, 2023-24, 2024-25, 2025-26 end-to-end + the ONE pro/rel decider touching
+the top flight + sourced 2026-27 boundary. The WO's shape applies verbatim: **20 clubs ×
+38 matchdays** — 380 rows per season ×5 = 1,900 league rows + **1** `Italy Relegation
+Playoffs` `other` row (the 2022-23 relegation spareggio Spezia 1-3 Verona 2023-06-11 —
+the WO's conditioned spareggio clause fired exactly once in-window; ERRATA-2026-08-03 +
+DECREE-2026-08-04 handling, mirrors RPL/CZ1/MOLCUP/FRA/GER) = **1,901 MATCH rows**.
+0 TEAM rows: the union of clubs across the five seasons is exactly the 27 pinned section-3
+roster strings and both spareggio participants (Spezia, Verona) are pins.
+
+**Evidence chain (all fetched 2026-08-05, ledgers transcribed chunk-by-chunk; full pages):**
+- PRIMARY RSSSF `ital2022..ital2025.html` full round-by-round → `audit/ledger/ita-<s>.txt`
+  (TABLE 20 + R 380 + PO context 10 + TABLE2 20 each; parser `tools/parse_rsssf_it.py` —
+  its 2023-24 PO year-plural/inline-date/`awd`-token cycles and ABD wrap-continuation
+  recovery were sealed in the preceding layer cycle, incident closed).
+  **`ital2026.html` prints NO Serie A round-by-round** (final table + Coppa Italia +
+  Serie B only, verified full page) → 2025-26 carrier = openfootball/italy
+  `2025-26/1-seriea.txt` format B (raw verbatim in `data/raw/`, c0-c1 `Mon Oct20` defect
+  repaired + disclosed in the raw header, parser `tools/parse_ofb_it.py`, ledger
+  `ita-2ndidx-2025-26.txt` in the carrier role) gated by full recompute vs the RSSSF
+  table: **20/20 club-for-club EXACT, 922 goals** — documented `source_adaptation`,
+  same class as FRA/GER 2025-26.
+- Second indexes: openfootball season files 2021-22..2024-25 → diffs **380/380 IDENTICAL
+  ×3** (round+date+score) and **379/380** for 2023-24: the single divergence is the
+  OFB-side MD30 typo 'Torino 0-0 Monza' vs the played 1-0 — RSSSF stands, the error is
+  quadruple-corroborated on the OFB side (ESPN / FoxSports / live-result / wf-md30
+  '30.03.2024 15:00 Torino FC 1:0 AC Monza (Ended)'), quarantined from any downstream
+  use; dates 380/380 everywhere (`tools/diff_ita_second_index.py`). Wikipedia 2025-26
+  FBR matrix 380 cells vs the carrier: **380/380 IDENTICAL, 922 goals both**
+  (`tools/diff_ita_matrix.py`, action=raw matrix only — the fetcher's rendered-markdown
+  SEAM-DROP class kept away from matrices per protocol; all chunk joins byte-verified
+  mid-word/mid-token and disclosed per raw header). worldfootball matchday pages
+  spot-audit one full round per season + four adjudication anchors (R19 COVID makeup
+  '20.04.2022 Udinese 0:1 US Salernitana (Ended)' inside MD19; R9 '10.10.2022 20:45'
+  Fiorentina-Lazio; MD30 the 1-0 fourth witness; MD14 '06.02.2025 20:45 ... 3:0 Inter
+  (Ended)'; MD24 Milan-Como with the full match report ma11129283 = Giuseppe Meazza,
+  75,251, Mariani, Paz 32' / Leao 64'). League-table reproduction from the five
+  Wikipedia articles' templates: **5/5 club-for-club + position order** incl. the
+  2022-23 rendered-table 20/20 second witness, `adjust_points_JUV=-10` FIGC-cited, the
+  Spezia template status_R ↔ RSSSF 'Relegation Playoff' note alias accepted + disclosed
+  (`tools/wiki_ita_tables.py` — byte-deterministic). Venues: 101-row lattice (20×5 + the
+  spareggio neutral entry `Mapei Stadium - Citta del Tricolore|Reggio Emilia|21515`),
+  same-ground split prints (Inter 'Giuseppe Meazza' 75,710 vs Milan 'San Siro' 75,710 in
+  2023-24) and capacity reprint swings (Olimpico 70,634→67,585→70,634) carried as source
+  epochs, verified not structural (`tools/wiki_ita_venues.py`; 2021-22 raw-archive
+  repairs — orphan merge + six doubled-backslash lines — disclosed in the raw header).
+- Adjudications (exactly two conflicts in the whole order, SPEC §4 two-index rule):
+  (1) RSSSF-side — 2022-23 R9 'Fiorentina 0-4 Lazio' printed under '[Oct 1]' (a
+  fixtureless Saturday; the fixture was the Monday-night game) → pack carries
+  **2022-10-10** on OFB 'Mon Oct 10 20:45' + wf-md9 '10.10.2022 20:45' agreement;
+  (2) OFB-side — the MD30 0-0 typo above (RSSSF's 1-0 stands, never shipped otherwise).
+  Both `NOTE|warning|source_conflict` rows in the pack; prints preserved verbatim in raws.
+- Deduction arithmetic: Juventus 2022-23 FIGC plusvalenze −10 (initial −15 of 2023-01-20
+  revoked on re-trial, re-set −10 on 2023-05-22) — rows recompute 71 raw → **61 official
+  EXACT**; position order re-verified around the deduction (61 lands 7th, Roma 63 6th);
+  UEFA-exclusion note_JUV witnessed in the template parse.
+- Abandonment doctrine: 2023-24 R32 Udinese-Roma abandoned at 1-1 in 72' 2024-04-14
+  (Ndicka medical emergency — RSSSF verbatim 72'; a prior draft of this pack text saying
+  52' was caught by the builder's own ABD-context gate and corrected before delivery),
+  completion ships 2024-04-25 as 1-2 inside R32; 2024-25 R14 Fiorentina-Inter abandoned
+  at 0-0 in 16' 2024-12-01 (Bove), completion ships 2025-02-06 as 3-0 inside R14.
+  `awd` token stays NOT-COMMISSIONED L2 context-only (Salernitana awd Sampdoria 0-3).
+- Perth episode (2025-26): Milan-Como scheduled 2026-02-08 at Perth Stadium, cancelled
+  2025-12-22 (AFC 'unacceptable demands'; San Siro unavailable via the 2026-02-06 Winter
+  Olympics opening), played **2026-02-18 at San Siro** 1-1 — ships normally as MD24;
+  no 2026-02-08 Milan row exists (gated); venue/report/goal-scorers exact-agree wf.
+- Boundary: 2026-27 starts **2026-08-23** (article + gazzetta cite; ital2027 = 404) —
+  promoted Venezia (1y)/Frosinone (2y)/Monza (playoff, better-record agg 2-2 — first
+  such case; the Serie B block's same-date '[May 20]' anomaly is context-only, documented
+  not adjudicated); relegated Cremonese/Verona/Pisa = this pack's 2025-26 bottom three.
+
+**Gates:** 92/92 PASS (`audit/pack-validation-ita.txt` + 100/100 per-club pivots in its
+section B), byte-deterministic double rebuild. Pack sha256
+`e808c9f82c1682f56aaea6807344d7091205ca3530d1944ad904cfba577d89b4`, builder
+`tools/build_ita_pack.py`. Anti-appear traps clean (Inter never Internazionale/Inter
+Milan, Milan never AC Milan, Verona never Hellas on identity fields — the Hellas print
+survives only inside the 2022-23 ledger's verbatim PO line before the pack map).
+Pins untouched: RPL `d71ed24f…`, RUSCUP `f89501cf…`, CZ1 `cbd5710b…`, MOLCUP `50ead762…`,
+EPL `707dd830…`, RUS-ADDENDUM `30576ac4…`, FRA `44fe06b5…`, GER `4f90ddb1…`.
+
+**Queue state:** ITA closed. Next on the owner's one-at-a-time queue: KOS — started ONLY
+after the owner's ITA touch-base — then KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
