@@ -1,0 +1,60 @@
+BP-TEAM-PACK v2
+NOTE|info|research_ack|ACKNOWLEDGED — today is Friday, July 31, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+NOTE|info|scope|The 2026-07-30 second leg Hibernian v Malisheva is deliberately OMITTED on the user's instruction, so the system predicts it cold. Everything else completed before cutoff 2026-07-31 is included.
+NOTE|info|current_season|Scottish Premiership 2026-27 had not started by the cutoff; Hibernian holds a Scottish League Cup bye as a European-qualified club, so the only 2026-27 competitive match before cutoff is the UECL Q2 first leg. Current-season aggregate is given for Europe only.
+NOTE|warning|aet_handling|Two 2025-26 European home matches went to extra time; 90-minute scores are used per rule 4: Hibernian v Midtjylland 90' was 0-1 (AET final 1-2); Hibernian v Partizan 90' was 1-2 (AET final 2-3; Hibernian advanced 4-3 on aggregate).
+NOTE|warning|level3_bridge|Dated bridge rows verified for the Scottish opponent pool (post-split fixtures with BBC/Guardian/ESPN/ Sporting Life dates). Kosovo/Albanian opponent pools: league results matrices carry no match dates, so mutual rows could not be date-verified and were omitted; see the Malisheva pack NOTE.
+TEAM|Hibernian|Scotland|Scottish Premiership|SC0|Hibernian FC;Hibs|Easter Road|Edinburgh|Scotland|hybrid|20421|1875|https://www.hibernianfc.co.uk/
+TEAM|Malisheva|Kosovo|Kosovo Superliga|KOS|FC Malisheva;KF Malisheva;KF UV Malisheva;Klubi Futbollistik UV Malisheva|Liman Gegaj Stadium|Malishevë|Kosovo|artificial|2000|unknown|unknown
+TEAM|Brondby|Denmark|Danish Superliga|DEN|Brøndby;Brondby IF;Brøndby IF|Brøndby Stadium|Brøndby|Denmark|grass|28000|unknown|unknown
+TEAM|Shamrock Rovers|Republic of Ireland|League of Ireland Premier Division|IRL|Shamrock Rovers FC|Tallaght Stadium|Dublin|Republic of Ireland|grass|10500|unknown|unknown
+TEAM|Cliftonville|Northern Ireland|NIFL Premiership|NIR|Cliftonville FC|unknown|Belfast|Northern Ireland|unknown|unknown|unknown|unknown
+TEAM|Midtjylland|Denmark|Danish Superliga|DEN|FC Midtjylland|MCH Arena|Herning|Denmark|grass|unknown|unknown|https://www.fcm.dk/
+TEAM|Partizan|Serbia|Serbian SuperLiga|SRB|FK Partizan;Partizan Belgrade|Partizan Stadium|Belgrade|Serbia|grass|unknown|unknown|https://partizan.rs/
+TEAM|Legia Warsaw|Poland|Ekstraklasa|POL|Legia Warszawa|Polish Army Stadium|Warsaw|Poland|grass|unknown|unknown|https://legia.com/
+VENUE|Hibernian|Easter Road|Edinburgh|Scotland|hybrid|20421|normal|Normal home venue|src-hib-venue
+SEASON|Hibernian|2025-26|Scottish Premiership|domestic league|38|15|12|11|58|44|19|8|6|5|32|19|19|7|6|6|26|25|5|57|src-hib-season
+SEASON|Hibernian|2026-27|UEFA Conference League|uefa-conference-league|1|0|0|1|0|2|0|0|0|0|0|0|1|0|0|1|0|2|Q2 first leg played|0|src-hib-uecl2627
+FORM|Hibernian|last 15 all competitions|2026-07-31|15|4|4|7|21|18|3|6|8|7|src-hib-form
+MATCH|2026-07-23|UECL Q2|uefa-conference-league|Malisheva|2|0|Hibernian|relocated|Fadil Vokrri Stadium|Pristina|Kosovo|MAL-HIB-2026-Q2|src-hib-leg1
+MATCH|2026-07-18|Club Friendly|club-friendly|Hibernian|2|1|Brondby|normal|Easter Road|Edinburgh|Scotland||src-hib-friendlies
+MATCH|2026-07-11|Club Friendly|club-friendly|Porto|1|1|Hibernian|normal|CTFD PortoGaia|Vila Nova de Gaia|Portugal||src-hib-friendlies
+MATCH|2026-07-04|Club Friendly|club-friendly|Cliftonville|1|5|Hibernian|normal|unknown|Belfast|Northern Ireland||src-hib-friendlies
+MATCH|2026-06-30|Club Friendly|club-friendly|Shamrock Rovers|1|0|Hibernian|normal|Tallaght Stadium|Dublin|Republic of Ireland||src-hib-friendlies
+MATCH|2026-05-16|Scottish Premiership Championship Round|domestic-league|Hibernian|0|1|Motherwell|normal|Easter Road|Edinburgh|Scotland||src-hib-league
+MATCH|2026-05-13|Scottish Premiership Championship Round|domestic-league|Rangers|1|2|Hibernian|normal|Ibrox Stadium|Glasgow|Scotland||src-hib-league
+MATCH|2026-05-09|Scottish Premiership Championship Round|domestic-league|Falkirk|1|3|Hibernian|normal|Falkirk Stadium|Falkirk|Scotland||src-hib-league
+MATCH|2026-05-03|Scottish Premiership Championship Round|domestic-league|Hibernian|1|2|Celtic|normal|Easter Road|Edinburgh|Scotland||src-hib-league
+MATCH|2026-04-26|Scottish Premiership Championship Round|domestic-league|Hibernian|1|2|Hearts|normal|Easter Road|Edinburgh|Scotland||src-hib-league
+MATCH|2026-04-11|Scottish Premiership|domestic-league|Aberdeen|2|0|Hibernian|normal|Pittodrie Stadium|Aberdeen|Scotland||src-hib-league
+MATCH|2026-04-04|Scottish Premiership|domestic-league|Hibernian|3|0|Kilmarnock|normal|Easter Road|Edinburgh|Scotland||src-hib-league
+MATCH|2026-03-21|Scottish Premiership|domestic-league|Motherwell|0|0|Hibernian|normal|Fir Park|Motherwell|Scotland||src-hib-league
+MATCH|2026-03-14|Scottish Premiership|domestic-league|Hibernian|0|0|Livingston|normal|Easter Road|Edinburgh|Scotland||src-hib-league
+MATCH|2026-02-28|Scottish Premiership|domestic-league|Dundee|3|3|Hibernian|normal|Dens Park|Dundee|Scotland||src-hib-league
+MATCH|2025-07-24|UEL Q2|uefa-europa-league|Midtjylland|1|1|Hibernian|normal|MCH Arena|Herning|Denmark|HIB-MID-2025-UELQ2|src-hib-europe2526
+MATCH|2025-07-31|UEL Q2|uefa-europa-league|Hibernian|0|1|Midtjylland|normal|Easter Road|Edinburgh|Scotland|HIB-MID-2025-UELQ2|src-hib-europe2526
+MATCH|2025-08-07|UECL Q3|uefa-conference-league|Partizan|0|2|Hibernian|normal|Partizan Stadium|Belgrade|Serbia|HIB-PAR-2025-UECLQ3|src-hib-europe2526
+MATCH|2025-08-14|UECL Q3|uefa-conference-league|Hibernian|1|2|Partizan|normal|Easter Road|Edinburgh|Scotland|HIB-PAR-2025-UECLQ3|src-hib-europe2526
+MATCH|2025-08-21|UECL PO|uefa-conference-league|Hibernian|1|2|Legia Warsaw|normal|Easter Road|Edinburgh|Scotland|HIB-LEG-2025-UECLPO|src-hib-europe2526
+MATCH|2025-08-28|UECL PO|uefa-conference-league|Legia Warsaw|3|3|Hibernian|normal|Polish Army Stadium|Warsaw|Poland|HIB-LEG-2025-UECLPO|src-hib-europe2526
+MATCH|2026-05-16|Scottish Premiership Championship Round|domestic-league|Celtic|3|1|Hearts|normal|Celtic Park|Glasgow|Scotland||src-hib-bridge2
+MATCH|2026-05-16|Scottish Premiership Championship Round|domestic-league|Falkirk|2|5|Rangers|normal|Falkirk Stadium|Falkirk|Scotland||src-hib-bridge2
+MATCH|2026-05-13|Scottish Premiership Championship Round|domestic-league|Motherwell|2|3|Celtic|normal|Fir Park|Motherwell|Scotland||src-hib-bridge1
+MATCH|2026-05-13|Scottish Premiership Championship Round|domestic-league|Hearts|3|0|Falkirk|normal|Tynecastle Park|Edinburgh|Scotland||src-hib-bridge1
+MATCH|2026-05-10|Scottish Premiership Championship Round|domestic-league|Celtic|3|1|Rangers|normal|Celtic Park|Glasgow|Scotland||src-hib-bridge3
+MATCH|2026-04-11|Scottish Premiership|domestic-league|Hearts|3|1|Motherwell|normal|Tynecastle Park|Edinburgh|Scotland||src-hib-bridge4
+MATCH|2026-04-11|Scottish Premiership|domestic-league|Falkirk|3|6|Rangers|normal|Falkirk Stadium|Falkirk|Scotland||src-hib-bridge4
+SOURCE|src-hib-venue|https://stadiumdb.com/stadiums/sco/easter_road_stadium|2026-07-31|stadium-database|Easter Road identity and capacity 20421
+SOURCE|src-hib-season|https://www.goal.com/en/premiership/table/e21cf135btr8t3upw0vl6n6x0|2026-07-31|results-database|2025-26 Scottish Premiership final table: Hibernian 38, 15-12-11, 58-44, 57 pts, 5th
+SOURCE|src-hib-splits|https://www.sportsmole.co.uk/football/scottish-premiership/table.html|2026-07-31|results-database|Hibernian home/away split: home 19 8-6-5 32-19; away 19 7-6-6 26-25
+SOURCE|src-hib-europe2526|https://en.wikipedia.org/wiki/2025%E2%80%9326_Hibernian_F.C._season|2026-07-31|other|2025-26 European campaign dates and scores: UEL Q2 v Midtjylland; UECL Q3 v Partizan; UECL play-off v Legia Warsaw
+SOURCE|src-hib-leg1|https://www.bbc.com/sport/football/live/c62er2d0m49t|2026-07-31|news-report|Malisheva 2-0 Hibernian, UEFA Conference League Q2 first leg, 23 July 2026, Stadiumi Fadil Vokrri
+SOURCE|src-hib-friendlies|https://en.wikipedia.org/wiki/2026%E2%80%9327_Hibernian_F.C._season|2026-07-31|other|2026-27 pre-season: Shamrock Rovers 1-0, Cliftonville 1-5, Porto 1-1, Brondby 2-1 from Hibernian perspective
+SOURCE|src-hib-league|https://www.sportinglife.com/football/league-tables/scottish-premiership/62/scores-and-fixtures|2026-07-31|results-database|Post-split Premiership dates and scores cross-checked for the Hibernian last-15 sequence
+SOURCE|src-hib-form|https://www.sportinglife.com/football/league-tables/scottish-premiership/62/scores-and-fixtures|2026-07-31|results-database|FORM computed from the 15 MATCH rows in this pack: W4 D4 L7, 21-18, CS3, FTS6, O25 8/U25 7
+SOURCE|src-hib-uecl2627|https://www.bbc.com/sport/football/live/c62er2d0m49t|2026-07-31|news-report|2026-27 competitive record before cutoff is the single UECL Q2 first leg: P1 W0 D0 L1 0-2
+SOURCE|src-hib-bridge1|https://www.theguardian.com/football/live/2026/may/13/hearts-v-falkirk-motherwell-v-celtic-scottish-premiership-live|2026-07-31|news-report|13 May 2026: Hearts 3-0 Falkirk; Motherwell 2-3 Celtic
+SOURCE|src-hib-bridge2|https://www.sportinglife.com/football/league-tables/scottish-premiership/62/scores-and-fixtures|2026-07-31|results-database|16 May 2026: Celtic 3-1 Hearts; Falkirk 2-5 Rangers
+SOURCE|src-hib-bridge3|https://www.espn.com/soccer/match/_/gameId/401867712|2026-07-31|results-database|10 May 2026: Celtic 3-1 Rangers, Celtic Park
+SOURCE|src-hib-bridge4|https://www.theguardian.com/football/2026/apr/11/scottish-premiership-celtic-hearts-rangers|2026-07-31|news-report|11 April 2026: Hearts 3-1 Motherwell; Falkirk 3-6 Rangers
+END

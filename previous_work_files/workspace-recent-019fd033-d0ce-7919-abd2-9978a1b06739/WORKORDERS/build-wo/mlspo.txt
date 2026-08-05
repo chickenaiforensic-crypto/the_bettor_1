@@ -1,0 +1,28 @@
+2024-10-22 | CF Montréal 2-2 Atlanta United FC
+2024-10-24 | Vancouver Whitecaps FC 5-0 Portland Timbers
+2024-10-25 | Inter Miami CF 2-1 Atlanta United FC
+2024-10-26 | LA Galaxy 5-0 Colorado Rapids
+2024-10-27 | Orlando City SC 2-0 Charlotte FC
+2024-10-27 | Los Angeles FC 2-1 Vancouver Whitecaps FC
+2024-10-28 | FC Cincinnati 1-0 New York City FC
+2024-10-28 | Seattle Sounders FC 0-0 Houston Dynamo FC
+2024-10-29 | Columbus Crew 0-1 New York Red Bulls
+2024-10-29 | Real Salt Lake 0-0 Minnesota United FC
+2024-11-01 | Charlotte FC 0-0 Orlando City SC
+2024-11-01 | Colorado Rapids 1-4 LA Galaxy
+2024-11-02 | New York City FC 3-1 FC Cincinnati
+2024-11-02 | Atlanta United FC 2-1 Inter Miami CF
+2024-11-02 | Minnesota United FC 1-1 Real Salt Lake
+2024-11-03 | New York Red Bulls 2-2 Columbus Crew
+2024-11-03 | Houston Dynamo FC 1-1 Seattle Sounders FC
+2024-11-03 | Vancouver Whitecaps FC 3-0 Los Angeles FC
+2024-11-08 | Los Angeles FC 1-0 Vancouver Whitecaps FC
+2024-11-09 | FC Cincinnati 0-0 New York City FC
+2024-11-09 | Orlando City SC 1-1 Charlotte FC
+2024-11-09 | Inter Miami CF 2-3 Atlanta United FC
+2024-11-23 | Los Angeles FC 1-1 Seattle Sounders FC
+2024-11-24 | Orlando City SC 1-0 Atlanta United FC
+2024-11-24 | LA Galaxy 6-2 Minnesota United FC
+2024-11-30 | Orlando City SC 0-1 New York Red Bulls
+2024-11-30 | LA Galaxy 1-0 Seattle Sounders FC
+2024-12-07 | LA Galaxy 2-1 New York Red Bulls

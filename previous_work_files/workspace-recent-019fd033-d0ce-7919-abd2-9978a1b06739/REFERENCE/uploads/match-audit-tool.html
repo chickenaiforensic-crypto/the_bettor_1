@@ -1,0 +1,2505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Match Audit Tool</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #6b7280;
+    --line: #d9d9d4;
+    --bg: #fafaf8;
+    --panel: #ffffff;
+    --accent: #1a1a1a;
+    --green: #1f9254;
+    --amber: #b6790a;
+    --blue: #1f5fa8;
+    --gray: #6b7280;
+    --teal: #0f7d76;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    padding: 32px 16px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 20px; margin: 0 0 24px; }
+  h2 { font-size: 17px; margin: 0 0 4px; }
+  .steps { display: flex; align-items: center; gap: 8px; margin-bottom: 28px; font-size: 12px; }
+  .step-dot { width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; background: #ececea; color: var(--muted); }
+  .step-dot.active { background: var(--ink); color: #fff; }
+  .step-dot.done { background: #d3d3cd; color: #444; }
+  .step-label { color: var(--muted); }
+  .step-label.active { color: var(--ink); font-weight: 600; }
+  .step-line { flex: 1; height: 1px; background: var(--line); }
+  .field { margin-bottom: 16px; }
+  label.field-label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+  input[type=text], input[type=number], input[type=date], select, textarea {
+    width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 9px 11px;
+    font-size: 14px; background: var(--panel); color: var(--ink); font-family: inherit;
+  }
+  input[type=date] { color-scheme: light; }
+  input[type=date]::-webkit-calendar-picker-indicator { opacity: 0.6; cursor: pointer; }
+  textarea { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  button { font-family: inherit; cursor: pointer; }
+  .btn-primary { background: var(--ink); color: #fff; border: none; padding: 10px 18px; border-radius: 6px; font-size: 14px; font-weight: 600; }
+  .btn-primary:hover { background: #333; }
+  .btn-secondary { background: transparent; border: 1px solid var(--line); padding: 10px 18px; border-radius: 6px; font-size: 14px; color: var(--ink); }
+  .btn-secondary:hover { background: #f0f0ee; }
+  .btn-secondary:disabled { opacity: 0.5; cursor: default; }
+  .btn-secondary:disabled:hover { background: transparent; }
+  .btn-link { background: transparent; border: none; color: var(--muted); font-size: 14px; padding: 10px 4px; }
+  .btn-link:hover { color: var(--ink); }
+  .btn-row { display: flex; gap: 10px; align-items: center; margin-top: 12px; }
+  .btn-row .spacer { flex: 1; }
+  .card { border: 1px solid var(--line); border-radius: 8px; padding: 14px; margin-bottom: 12px; background: var(--panel); }
+  .card .title { font-size: 14px; font-weight: 600; margin-bottom: 2px; display: flex; align-items: center; gap: 6px; }
+  .card .help { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .info-icon {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 16px; height: 16px; border-radius: 50%;
+    background: var(--muted); color: #fff;
+    font-size: 11px; font-weight: 700; font-style: normal; line-height: 1;
+    cursor: help; position: relative; flex: none;
+  }
+  .info-icon .tooltip {
+    visibility: hidden; opacity: 0; pointer-events: none;
+    position: absolute; left: 50%; bottom: 130%; transform: translateX(-50%);
+    background: var(--ink); color: #fff; text-align: left;
+    padding: 8px 10px; border-radius: 8px; font-size: 12px; font-weight: 400; line-height: 1.4;
+    width: 240px; max-width: 60vw;
+    transition: opacity 0.12s ease; z-index: 20;
+  }
+  .info-icon:hover .tooltip, .info-icon:focus .tooltip { visibility: visible; opacity: 1; }
+  .hidden { display: none; }
+  .badge { font-size: 11px; font-weight: 700; padding: 4px 9px; border-radius: 5px; color: #fff; white-space: nowrap; }
+  .badge-green { background: var(--green); }
+  .badge-amber { background: var(--amber); }
+  .badge-blue { background: var(--blue); }
+  .badge-gray { background: var(--gray); }
+  .badge-teal { background: var(--teal); }
+  .badge-red { background: #b23b3b; }
+  .verdict-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .verdict-sub { font-size: 13px; color: var(--muted); }
+  .verdict-lean { font-size: 24px; font-weight: 700; margin: 4px 0; }
+  .reason-list { margin: 0; padding-left: 18px; font-size: 14px; }
+  .reason-list li { margin-bottom: 4px; }
+  .play-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .play-title { font-size: 14px; font-weight: 600; }
+  .play-detail { font-size: 12px; color: var(--muted); }
+  .checkbox-row { display: flex; align-items: center; gap: 8px; font-size: 14px; margin-bottom: 6px; }
+
+  /* Top-level nav */
+  .top-nav { display: flex; gap: 4px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .top-nav-tab { background: transparent; border: none; padding: 10px 4px; margin-right: 20px; font-size: 14px; font-weight: 600; color: var(--muted); border-bottom: 2px solid transparent; position: relative; top: 1px; }
+  .top-nav-tab.active { color: var(--ink); border-bottom-color: var(--ink); }
+  .top-nav-tab .count-pill { display: inline-block; margin-left: 6px; background: #ececea; color: var(--muted); font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 10px; }
+  .top-nav-tab.active .count-pill { background: var(--ink); color: #fff; }
+  .comp-group-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 12px 0 4px; }
+  .comp-group-label:first-child { margin-top: 4px; }
+  .comp-row { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 8px; margin-bottom: 6px; background: var(--panel); padding: 9px 12px; cursor: pointer; }
+  .comp-row:hover { background: #f7f7f5; }
+  .comp-row.active { border-color: var(--ink); background: #f2f2ef; }
+  .comp-row-name { flex: 1; min-width: 0; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .comp-pending-badge { flex-shrink: 0; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 10px; background: #ececea; color: var(--muted); }
+  .comp-pending-badge.has-games { background: #1f8a4c; color: #fff; }
+
+  /* Log page */
+  .log-header-row { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
+  .log-header-row h2 { margin: 0; }
+  .log-count-text { font-size: 12px; color: var(--muted); }
+  .log-controls { display: flex; gap: 8px; margin-bottom: 16px; }
+  .log-controls input[type=text] { flex: 2; }
+  .log-controls select { flex: 1; }
+  .log-date-heading { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); margin: 20px 0 8px; }
+  .info-icon { display: inline-flex; align-items: center; justify-content: center; width: 15px; height: 15px; border-radius: 50%; border: 1px solid var(--muted); color: var(--muted); font-size: 10px; font-weight: 700; font-style: normal; cursor: help; flex-shrink: 0; }
+  .log-date-heading:first-of-type { margin-top: 4px; }
+  .log-entry { border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; background: var(--panel); overflow: hidden; }
+  .log-entry-head { display: flex; align-items: center; gap: 10px; padding: 12px 14px; cursor: pointer; user-select: none; }
+  .log-entry-head:hover { background: #f7f7f5; }
+  .log-chevron { width: 14px; height: 14px; flex-shrink: 0; transition: transform 0.15s ease; color: var(--muted); }
+  .log-entry.expanded .log-chevron { transform: rotate(90deg); }
+  .log-entry-main { flex: 1; min-width: 0; }
+  .log-entry-title { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .log-entry-sub { font-size: 12px; color: var(--muted); margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .log-entry-time { font-size: 11px; color: var(--muted); flex-shrink: 0; white-space: nowrap; }
+  .log-entry-badges { display: flex; gap: 6px; flex-shrink: 0; }
+  .log-entry-body { display: none; padding: 4px 14px 16px; border-top: 1px solid var(--line); }
+  .log-entry.expanded .log-entry-body { display: block; }
+  .log-detail-section { margin-top: 14px; }
+  .log-detail-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); margin-bottom: 6px; }
+  .log-inputs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 16px; font-size: 13px; }
+  .log-inputs-grid div { display: flex; justify-content: space-between; gap: 8px; border-bottom: 1px dashed var(--line); padding-bottom: 3px; }
+  .log-inputs-grid .k { color: var(--muted); }
+  .log-entry-actions { display: flex; justify-content: flex-end; margin-top: 14px; }
+  .log-empty { text-align: center; padding: 60px 20px; color: var(--muted); font-size: 14px; }
+  .log-loading { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 13px; }
+  .btn-danger-link { background: transparent; border: none; color: #b33; font-size: 12px; padding: 6px 4px; }
+  .btn-danger-link:hover { text-decoration: underline; }
+  .result-pill { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 9px; color: #fff; flex-shrink: 0; }
+  .result-pill.correct { background: var(--green); }
+  .result-pill.incorrect { background: #b23b3b; }
+  .result-pill.push { background: var(--gray); }
+  .result-check-box { background: #f7f7f5; border: 1px solid var(--line); border-radius: 8px; padding: 12px; margin-top: 6px; }
+  .result-check-box .manual-row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top-nav">
+    <button class="top-nav-tab" id="navAudit" onclick="showView('audit')">New audit</button>
+    <button class="top-nav-tab" id="navLog" onclick="showView('log')">Log<span class="count-pill" id="navLogCount">0</span></button>
+  </div>
+
+  <div id="auditView">
+  <div class="steps" id="stepper"></div>
+
+  <!-- STEP 1 -->
+  <div id="step1">
+    <h2>Match setup</h2>
+    <div class="field" style="margin-top:16px">
+      <label class="field-label">Sport</label>
+      <select id="sport">
+        <option value="tennis">Tennis</option>
+        <option value="football">Football (major tournaments)</option>
+        <option value="basketball">Basketball</option>
+        <option value="baseball">Baseball</option>
+        <option value="volleyball">Volleyball</option>
+      </select>
+    </div>
+
+    <div class="card" id="majorCompCard" style="background:#f6f7fb">
+      <div class="title">Find a game by competition <span class="info-icon" tabindex="0" aria-label="Pick a major competition for this sport and Gemini pulls its schedule for the next 2 days. Click a game to fill in the names below. Or skip this and type them in yourself.">!<span class="tooltip">Pick a major competition for this sport and Gemini pulls its schedule for the next 2 days. Click a game to fill in the names below. Or skip this and type them in yourself.</span></span></div>
+      <div class="field">
+        <label class="field-label">Competition</label>
+        <select id="majorCompetitionSelect" onchange="onMajorCompetitionChange()"><option value="">Select a competition&hellip;</option></select>
+      </div>
+      <div class="verdict-sub" id="majorCompStatus" style="margin-top:6px"></div>
+      <div id="majorCompGameList" style="margin-top:8px"></div>
+    </div>
+
+    <div class="card" id="pasteGameCard" style="background:#f6f7fb">
+      <div class="title">Paste a game (e.g. from 1xbet) <span class="info-icon" tabindex="0" aria-label="Paste a single game or a whole list. Gemini extracts the match(es) below, click one to fill Sport, names, tournament, date. The one-click path needs the same results backend as the competition picker above; the copy/paste path works without it.">!<span class="tooltip">Paste a single game or a whole list (like "MLB games scheduled today"). Gemini extracts the match(es) below &mdash; click one to fill Sport / names / tournament / date. The one-click path needs the same results backend as the competition picker above; the copy/paste path works without it.</span></span></div>
+      <textarea id="pasteGameBox" rows="5" placeholder="e.g. Seattle Mariners @ Texas Rangers, 6:35 PM &mdash; or paste a whole list of today's games"></textarea>
+      <div class="btn-row">
+        <button class="btn-secondary" id="pasteGameGeminiBtn" onclick="parseGamesWithGemini()">Parse with Gemini</button>
+        <button class="btn-secondary" onclick="copyGamesPrompt()">Copy prompt for Gemini desktop</button>
+      </div>
+      <div class="verdict-sub" id="pasteGameStatus" style="margin-top:6px"></div>
+      <div id="pasteGameReplyRow" class="hidden" style="margin-top:10px">
+        <label class="field-label">Paste Gemini's reply</label>
+        <textarea id="pasteGameReplyBox" rows="5" placeholder="Paste the JSON array Gemini gives you"></textarea>
+        <div class="btn-row"><button class="btn-secondary" onclick="parseGamesReply()">Parse reply</button></div>
+      </div>
+      <div id="pastedGameList" style="margin-top:8px"></div>
+    </div>
+
+    <div class="row2">
+      <div class="field">
+        <label class="field-label" id="labelA">Player A</label>
+        <input type="text" id="nameA" placeholder="Name" list="nameHistoryList" oninput="pickedGameDate=null; checkPastDateWarning()">
+      </div>
+      <div class="field">
+        <label class="field-label" id="labelB">Player B</label>
+        <input type="text" id="nameB" placeholder="Name" list="nameHistoryList" oninput="pickedGameDate=null; checkPastDateWarning()">
+      </div>
+    </div>
+    <div class="field">
+      <label class="field-label">Tournament / competition</label>
+      <input type="text" id="tournament" placeholder="e.g. Wimbledon, round of 16" list="tournamentHistoryList">
+    </div>
+    <div class="card hidden" id="pastDateWarning" style="background:#fff6f0; border-color:#e0b088">
+      <div class="title" style="color:#8a4a12">This match's date isn't in the future</div>
+      <div class="help" style="color:#8a4a12">The picked fixture date is today or earlier, which means the match may already be in progress or finished. Research and odds gathered now can reflect live/in-play information rather than a genuine pre-match picture &mdash; treat any resulting verdict with that in mind, or pick a different, upcoming fixture.</div>
+    </div>
+    <datalist id="nameHistoryList"></datalist>
+    <datalist id="tournamentHistoryList"></datalist>
+    <button class="btn-primary" onclick="goStep(2)">Generate questions</button>
+  </div>
+
+  <!-- STEP 2 -->
+  <div id="step2" class="hidden">
+    <h2>Research questions</h2>
+    <div class="verdict-sub" style="margin-bottom:10px">Copy this to your own research or an AI assistant. The block ends with a required output format — make sure whatever answers you, human or AI, includes that fenced KEY: VALUE block, then bring it back here and paste it into Step 3.</div>
+    <textarea id="questionsBox" rows="16" readonly onclick="this.select()"></textarea>
+    <div class="btn-row">
+      <button class="btn-secondary" onclick="copyQuestions()">Copy to clipboard</button>
+      <button class="btn-secondary" id="geminiBtn" onclick="runGemini()">Run with Gemini</button>
+      <button class="btn-link" onclick="goStep(1)">Back</button>
+      <div class="spacer"></div>
+      <button class="btn-primary" onclick="goStep(3)">I have my answers &rarr;</button>
+    </div>
+    <div class="verdict-sub" id="geminiStatus" style="margin-top:6px"></div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div id="step3" class="hidden">
+    <h2>Feed back your answers</h2>
+    <div class="verdict-sub" style="margin-bottom:14px">For each area, say which side the evidence favors.</div>
+
+    <div class="card" style="background:#f6f7fb">
+      <div class="title">Paste AI-generated answer key</div>
+      <div class="help">Paste the answer block your assistant gives you after research. Every field below gets filled automatically &mdash; review, then adjust anything by hand if needed.</div>
+      <textarea id="pasteBox" rows="7" placeholder="COMMON_OPPONENT: NO_DATA&#10;CURRENT_FORM: FAVORS_A&#10;RECENT_FORM: EVEN&#10;CONDITIONS_FIT: FAVORS_A&#10;HEAD_TO_HEAD: NO_DATA&#10;SHARED_COUNT: 0&#10;BASELINE: AGREES&#10;RESILIENCE: B&#10;ANOMALY_A: NO&#10;ANOMALY_B: YES&#10;ODDS_A: 1.40&#10;ODDS_B: 3.00"></textarea>
+      <div class="btn-row">
+        <button class="btn-secondary" onclick="parseAndFill()">Parse &amp; autofill</button>
+        <div class="spacer"></div>
+        <div class="verdict-sub" id="parseStatus"></div>
+      </div>
+    </div>
+
+    <div id="subscaleCards"></div>
+
+    <div class="card">
+      <div class="title">Shared opponents found</div>
+      <div class="help">Sets confidence in the common-opponent comparison.</div>
+      <select id="sharedCount">
+        <option value="" selected disabled>&mdash; Not answered &mdash;</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2-3">2&ndash;3</option>
+        <option value="4+">4 or more</option>
+      </select>
+    </div>
+
+    <div class="card">
+      <div class="title">Quality-of-wins fallback (advisory only)</div>
+      <div class="help">Only relevant if there were zero usable shared opponents above. Based on ranking-POINTS gap, not raw position count &mdash; see the research questions. This does not currently move the tier or probability; a contradicting result is the one thing here that can add caution.</div>
+      <select id="qualityProxy">
+        <option value="" selected disabled>&mdash; Not answered &mdash;</option>
+        <option value="not-applicable">Not applicable (real common-opponent data existed, or not checked)</option>
+        <option value="strong-support">Strong support &mdash; clear quality wins, no contradicting loss found</option>
+        <option value="some-support">Some support &mdash; a couple of quality wins, mixed picture</option>
+        <option value="contradicted">Contradicted &mdash; found a real loss to a clearly weaker opponent</option>
+      </select>
+    </div>
+
+    <div class="card">
+      <div class="title">Baseline official rating</div>
+      <div class="help">Does the official ranking/rating agree with the performance-based lean above?</div>
+      <select id="baseline">
+        <option value="" selected disabled>&mdash; Not answered &mdash;</option>
+        <option value="agrees">Agrees with the lean</option>
+        <option value="conflicts">Conflicts with the lean</option>
+        <option value="no-signal">No strong signal either way</option>
+      </select>
+    </div>
+
+    <div class="card">
+      <div class="title">Resilience &amp; adaptability</div>
+      <div class="help">Comeback rate, deciding-set record, in-match adjustment.</div>
+      <select id="resilience">
+        <option value="" selected disabled>&mdash; Not answered &mdash;</option>
+        <option value="A" id="resOptA">Favors A</option>
+        <option value="B" id="resOptB">Favors B</option>
+        <option value="neutral">Neutral / unclear</option>
+      </select>
+    </div>
+
+    <div class="card">
+      <div class="title">Anomaly check</div>
+      <div class="help">Any unusual line movement or effort-inconsistency on either side's recent matches.</div>
+      <div class="checkbox-row"><label><input type="checkbox" id="anomalyA"> <span id="anomalyLabelA">Flag on A's data</span></label></div>
+      <div class="checkbox-row"><label><input type="checkbox" id="anomalyB"> <span id="anomalyLabelB">Flag on B's data</span></label></div>
+    </div>
+
+    <div class="card">
+      <div class="title">Key player availability</div>
+      <div class="help">A confirmed absence tonight (injury, rest, suspension) of a starter/key rotation player — distinct from an anomaly, this is a known, current-game fact, not a pattern in past data. Most relevant for team sports; leave unchecked for individual sports where this doesn't apply.</div>
+      <div class="checkbox-row"><label><input type="checkbox" id="availabilityA"> <span id="availabilityLabelA">Key player(s) out for A</span></label></div>
+      <div class="checkbox-row"><label><input type="checkbox" id="availabilityB"> <span id="availabilityLabelB">Key player(s) out for B</span></label></div>
+    </div>
+
+    <div class="card">
+      <div class="title">Bookmaker odds (optional, decimal)</div>
+      <div class="help">Used to check your edge against the de-vigged market price.</div>
+      <div class="row2">
+        <input type="number" step="0.01" id="oddsA" placeholder="A odds e.g. 1.85">
+        <input type="number" step="0.01" id="oddsB" placeholder="B odds e.g. 2.05">
+      </div>
+      <div class="help" style="margin-top:8px">Draw odds (football only — leave blank for 2-outcome sports). Without this, a football edge number is computed on a binary market and will overstate both sides' true win probability, since it ignores the draw's share.</div>
+      <input type="number" step="0.01" id="oddsDraw" placeholder="Draw odds e.g. 3.40 (football only)">
+    </div>
+
+    <div class="card hidden" id="verdictValidationWarning" style="background:#fff6f0; border-color:#e0b088">
+      <div class="title" style="color:#8a4a12">Not answered yet</div>
+      <div class="help" id="verdictValidationList" style="color:#8a4a12"></div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn-link" onclick="goStep(2)">Back</button>
+      <div class="spacer"></div>
+      <button class="btn-primary" onclick="computeVerdict()">Compute verdict</button>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <div id="step4" class="hidden">
+    <div class="card hidden" id="logSaveWarning" style="background:#fff6f0; border-color:#e0b088">
+      <div class="title" style="color:#8a4a12">Couldn't save this audit to the log</div>
+      <div class="help">The verdict below is fine, but it didn't get saved to your log — likely a temporary storage hiccup.</div>
+      <button class="btn-secondary" onclick="retrySaveLogEntry()">Retry save</button>
+    </div>
+    <div class="card">
+      <div class="verdict-top">
+        <div class="verdict-sub" id="verdictHeader"></div>
+        <span class="badge" id="verdictBadge"></span>
+      </div>
+      <div class="verdict-lean" id="verdictLean"></div>
+      <div class="verdict-sub" id="verdictProb"></div>
+      <div class="verdict-sub" id="verdictConfidence" style="margin-top:4px"></div>
+    </div>
+
+    <div class="card">
+      <div class="title" style="margin-bottom:8px">Why this tier</div>
+      <ul class="reason-list" id="reasonList"></ul>
+    </div>
+
+    <div class="title" style="margin-bottom:8px">Top plays</div>
+    <div id="playsList"></div>
+
+    <div class="btn-row">
+      <button class="btn-link" onclick="goStep(3)">Back</button>
+      <button class="btn-link" onclick="viewLastAuditInLog()">View in log</button>
+      <div class="spacer"></div>
+      <button class="btn-secondary" onclick="goStep(1)">New match</button>
+    </div>
+  </div>
+  </div>
+  <!-- /auditView -->
+
+  <!-- LOG PAGE -->
+  <div id="logView" class="hidden">
+    <div class="log-header-row">
+      <h2>Audit log</h2>
+      <span class="log-count-text" id="logCountText"></span>
+    </div>
+    <div class="verdict-sub" id="logStatsLine" style="margin-bottom:12px"></div>
+    <div style="display:flex; align-items:center; gap:10px; margin-bottom:12px; flex-wrap:wrap">
+      <button class="btn-secondary" id="checkAllBtn" onclick="checkAllUnmarkedResults()">Check all unmarked results</button>
+      <span class="help" id="bulkCheckNote" style="margin:0"></span>
+    </div>
+    <div class="log-controls">
+      <input type="text" id="logSearch" placeholder="Search by name or tournament…" oninput="renderLogList()">
+      <select id="logSportFilter" onchange="renderLogList()">
+        <option value="">All sports</option>
+        <option value="tennis">Tennis</option>
+        <option value="football">Football</option>
+        <option value="basketball">Basketball</option>
+        <option value="baseball">Baseball</option>
+        <option value="volleyball">Volleyball</option>
+      </select>
+      <select id="logTierFilter" onchange="renderLogList()">
+        <option value="">All tiers</option>
+        <option value="CLEAR_WIN">Clear win</option>
+        <option value="STRONG_LEAN">Strong lean</option>
+        <option value="LEAN">Lean</option>
+        <option value="TIDE_MATCH">Tide match</option>
+        <option value="PASS">Pass</option>
+        <option value="INSUFFICIENT_DATA">Insufficient data</option>
+      </select>
+      <select id="logResultFilter" onchange="renderLogList()">
+        <option value="">Any result</option>
+        <option value="correct">Correct</option>
+        <option value="incorrect">Incorrect</option>
+        <option value="push">Push/void</option>
+        <option value="unchecked">Unchecked</option>
+      </select>
+    </div>
+    <div class="card" style="margin-bottom:16px">
+      <div class="log-detail-label" style="cursor:pointer" onclick="toggleSettingsPanel()">⚙︎ Result-checking backend <span id="settingsChevron">▸</span></div>
+      <div id="settingsPanel" class="hidden" style="margin-top:10px">
+        <div class="help" style="margin-bottom:8px">Paste the URL of your deployed result-checker backend (see setup instructions). Left blank, results have to be marked manually — which always works regardless.</div>
+        <div style="display:flex; gap:8px">
+          <input type="text" id="backendUrlInput" placeholder="https://your-backend.example.com" style="flex:1">
+          <button class="btn-secondary" onclick="saveSettings()">Save</button>
+          <button class="btn-secondary" onclick="testBackendConnection()">Test</button>
+        </div>
+        <div class="help" id="settingsSavedNote" style="margin-top:6px"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:16px">
+      <div class="log-detail-label" style="display:flex; align-items:center; gap:6px">
+        💾 Backup / restore
+        <span class="info-icon" title="Your log lives in this browser (or in Claude.ai's storage, if that's where you're running this). Export a copy whenever you like, and import it back in — into this same file later, a new version of the file, or a different device — without losing anything. The export also carries your result-checking backend URL and your name/tournament autocomplete list, so importing into a fresh copy reconnects the backend automatically (only if that copy doesn't already have one set) and restores autocomplete — you shouldn't need to re-enter either by hand after an update. In Chrome or Edge you can also point this at your Logs folder once, and exports write straight there.">!</span>
+      </div>
+
+      <div id="logsFolderRow" class="hidden" style="display:flex; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap">
+        <span class="help" id="logsFolderStatus" style="margin:0">Logs folder: not set</span>
+        <button class="btn-secondary" type="button" onclick="chooseLogsFolder()">Choose logs folder…</button>
+      </div>
+      <div id="logsFolderUnsupportedNote" class="help hidden" style="margin-bottom:10px">Direct-to-folder saving needs Chrome or Edge. Here, Export downloads a file as usual — move it into Contents/Logs yourself.</div>
+
+      <div style="display:flex; gap:14px; align-items:center; flex-wrap:wrap">
+        <button class="btn-secondary" onclick="exportLog()">Export log</button>
+        <label class="checkbox-row" style="margin:0">
+          <input type="checkbox" id="exportMergeToggle" onchange="onExportMergeToggle()"> merge into an existing file
+        </label>
+      </div>
+      <div id="exportMergeTargetRow" class="hidden" style="margin-top:8px"></div>
+
+      <div style="display:flex; gap:14px; align-items:center; margin-top:14px; flex-wrap:wrap">
+        <button class="btn-secondary" onclick="triggerImportPicker()">Import log</button>
+        <label class="checkbox-row" style="margin:0">
+          <input type="checkbox" id="importReplaceToggle"> replace current log instead of merging
+        </label>
+        <input type="file" id="importFileInput" accept="application/json" class="hidden" onchange="importLogFile(event)">
+      </div>
+
+      <div class="help" id="importNote" style="margin-top:8px"></div>
+    </div>
+    <div id="logList"><div class="log-loading">Loading log…</div></div>
+  </div>
+</div>
+
+<script>
+const SPORTS = {
+  tennis: { label: "Tennis", entity: "Player" },
+  football: { label: "Football (major tournaments)", entity: "Team" },
+  basketball: { label: "Basketball", entity: "Team" },
+  baseball: { label: "Baseball", entity: "Team" },
+  volleyball: { label: "Volleyball", entity: "Team" },
+};
+
+const LEVELS = [
+  { v: 2, label: "Strongly favors {{A}}" },
+  { v: 1, label: "Favors {{A}}" },
+  { v: 0, label: "Even / toss-up" },
+  { v: -1, label: "Favors {{B}}" },
+  { v: -2, label: "Strongly favors {{B}}" },
+];
+
+const NO_DATA = "no-data";
+
+const SUBSCALES = [
+  { key: "commonOpponent", weight: 0.30, title: "Common-opponent comparison", help: "How each side performed against shared opponents." },
+  { key: "currentForm", weight: 0.25, title: "Current tournament run form", help: "Dominance so far this event (skip if just starting)." },
+  { key: "recentForm", weight: 0.20, title: "Recent serious match history", help: "Last 8\u201310 serious matches, trend, injuries." },
+  { key: "conditionsFit", weight: 0.10, title: "Conditions fit", help: "Surface / pitch / home-away / rest." },
+  { key: "headToHead", weight: 0.10, title: "Head-to-head", help: "Direct history between the two." },
+];
+
+let state = { step: 1 };
+
+const steps = ["Setup", "Questions", "Feed back answers", "Verdict"];
+function renderStepper() {
+  const el = document.getElementById("stepper");
+  el.innerHTML = "";
+  steps.forEach((label, i) => {
+    const n = i + 1;
+    const dot = document.createElement("div");
+    dot.className = "step-dot " + (state.step === n ? "active" : state.step > n ? "done" : "");
+    dot.textContent = n;
+    const lbl = document.createElement("span");
+    lbl.className = "step-label " + (state.step === n ? "active" : "");
+    lbl.textContent = label;
+    el.appendChild(dot);
+    el.appendChild(lbl);
+    if (i < steps.length - 1) {
+      const line = document.createElement("div");
+      line.className = "step-line";
+      el.appendChild(line);
+    }
+  });
+}
+
+function goStep(n) {
+  state.step = n;
+  [1, 2, 3, 4].forEach((i) => {
+    document.getElementById("step" + i).className = i === n ? "" : "hidden";
+  });
+  renderStepper();
+  if (n === 1) checkPastDateWarning();
+  if (n === 2) buildQuestions();
+  if (n === 3) buildSubscaleCards();
+}
+
+function getNames() {
+  const sport = document.getElementById("sport").value;
+  const s = SPORTS[sport];
+  const nameA = document.getElementById("nameA").value.trim();
+  const nameB = document.getElementById("nameB").value.trim();
+  const A = nameA || (s.entity + " A");
+  const B = nameB || (s.entity + " B");
+  return { sport, s, A, B };
+}
+
+document.getElementById("sport").addEventListener("change", () => {
+  const { s } = getNames();
+  document.getElementById("labelA").textContent = s.entity + " A";
+  document.getElementById("labelB").textContent = s.entity + " B";
+  populateMajorCompetitions();
+});
+
+// ---------- Step 1 game picker: major competition -> Gemini schedule (next 2 days) -> click-to-fill ----------
+// Replaces the old API-SPORTS-backed country/competition/game browser. That needed a paid plan
+// to return real data for anything except baseball (tennis has no API-SPORTS product at all --
+// it needs a separate RapidAPI tennis key -- and football/basketball/volleyball came back "free
+// plans don't have access to this season"). This is a personal tool, not a commercial one, so
+// instead of paying for that API this reuses the same Gemini-backed /api/research backend the
+// "Paste a game" card and Step 2's "Run with Gemini" button already talk to: pick a curated
+// major competition for the selected sport, Gemini is asked for that competition's schedule
+// over the next 2 days, and results render through the exact same renderPastedGames/
+// selectPastedGame pipeline the paste flow below uses -- so fill behavior is identical
+// regardless of which path found the game.
+
+let pickedGameDate = null; // yyyy-mm-dd of the clicked fixture, if any -- carried into the log entry for a more accurate result check than guessing from the save timestamp
+
+// Starting list, not fetched/verified against any provider -- edit these arrays directly to
+// add, rename, or remove competitions for a sport.
+const MAJOR_COMPETITIONS = {
+  tennis: ["ATP Tour", "WTA Tour", "Grand Slam", "ATP Challenger", "ITF"],
+  football: ["UEFA Champions League", "UEFA Europa League", "FIFA World Cup", "UEFA European Championship", "Premier League", "La Liga", "Serie A", "Bundesliga", "Ligue 1", "Copa America", "Africa Cup of Nations"],
+  basketball: ["NBA", "WNBA", "EuroLeague", "NCAA Men's Basketball", "FIBA World Cup"],
+  baseball: ["MLB", "NPB", "KBO", "MLB Spring Training", "Triple-A East", "Triple-A West", "Pacific Coast League"],
+  volleyball: ["FIVB Volleyball Nations League", "FIVB World Championship", "CEV Champions League"],
+};
+
+function populateMajorCompetitions() {
+  const sport = document.getElementById("sport").value;
+  const sel = document.getElementById("majorCompetitionSelect");
+  sel.innerHTML = "";
+  sel.appendChild(new Option("Select a competition\u2026", ""));
+  (MAJOR_COMPETITIONS[sport] || []).forEach((name) => sel.appendChild(new Option(name, name)));
+  document.getElementById("majorCompStatus").textContent = "";
+  document.getElementById("majorCompGameList").innerHTML = "";
+}
+
+function buildCompetitionSchedulePrompt(sport, competition) {
+  const start = todayISO();
+  const endDate = new Date();
+  endDate.setDate(endDate.getDate() + 2);
+  const end = endDate.getFullYear() + "-" + String(endDate.getMonth() + 1).padStart(2, "0") + "-" + String(endDate.getDate()).padStart(2, "0");
+  return [
+    "List every " + (SPORTS[sport] ? SPORTS[sport].label : sport) + " game scheduled in \"" + competition + "\" from " + start + " through " + end + " (today and the next 2 days).",
+    "Return ONLY a JSON array (no markdown fences, no commentary before or after) of objects with exactly these keys: sport, a, b, tournament, date.",
+    "- sport: always \"" + sport + "\" for every entry.",
+    "- a / b: the two team or player names.",
+    "- tournament: always \"" + competition + "\".",
+    "- date: the scheduled match date in YYYY-MM-DD format, within " + start + " to " + end + ".",
+    "If nothing is scheduled for this competition in that window, return an empty JSON array: []",
+  ].join("\n");
+}
+
+async function onMajorCompetitionChange() {
+  const status = document.getElementById("majorCompStatus");
+  const listEl = document.getElementById("majorCompGameList");
+  const competition = document.getElementById("majorCompetitionSelect").value;
+  listEl.innerHTML = "";
+  if (!competition) { status.textContent = ""; return; }
+  const backendUrl = await pickerBackend();
+  if (!backendUrl) {
+    status.textContent = "Set up a results backend first (Log tab \u2192 \u201cResult-checking backend\u201d) \u2014 this needs the same Gemini-backed backend as \u201cParse with Gemini\u201d below.";
+    return;
+  }
+  const sport = document.getElementById("sport").value;
+  status.textContent = "Asking Gemini for " + competition + "\u2019s schedule\u2026";
+  try {
+    const resp = await fetch(backendUrl + "/api/research", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt: buildCompetitionSchedulePrompt(sport, competition) }),
+    });
+    const data = await resp.json();
+    if (!resp.ok || data.status === "error") {
+      status.textContent = "Gemini error: " + (data.message || resp.status);
+      return;
+    }
+    applyExtractedGamesText(data.text || "", status, "majorCompGameList");
+  } catch (e) {
+    status.textContent = "Couldn\u2019t reach the backend.";
+  }
+}
+
+async function pickerBackend() {
+  await loadSettings();
+  return appSettings && appSettings.backendUrl;
+}
+
+// ---------- Step 1 paste-a-game: free text (e.g. from 1xbet) -> Gemini extraction -> click-to-fill ----------
+// Reuses the same /api/research backend endpoint the Step 2 "Run with Gemini"
+// button already talks to -- no backend changes needed. Two paths in: the
+// automatic one posts straight to that endpoint; the manual one just copies
+// the same prompt for pasting into Gemini desktop (or any AI), then parses
+// whatever comes back the same way. Either path ends at the same click-to-fill
+// list the API game picker below already uses, so the fill behavior is
+// identical regardless of source.
+
+function todayISO() {
+  const d = new Date();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  return d.getFullYear() + "-" + mm + "-" + dd;
+}
+
+function buildGamesExtractionPrompt(rawText) {
+  return [
+    "Extract sports match/game listings from the text below and return ONLY a JSON array (no markdown fences, no commentary before or after) of objects with exactly these keys: sport, a, b, tournament, date.",
+    "- sport: one of exactly \"tennis\", \"football\", \"basketball\", \"baseball\", \"volleyball\" \u2014 map leagues onto these (MLB/NPB/KBO -> baseball; NBA/WNBA/EuroLeague/NCAAB -> basketball; EPL/UEFA/La Liga/Serie A/Bundesliga/MLS/international soccer -> football; ATP/WTA/ITF/Challenger -> tennis; FIVB/CEV -> volleyball). If a listed game's sport doesn't map cleanly onto one of these five (e.g. hockey, cricket, MMA), set sport to \"unsupported\" \u2014 do not guess a nearest match.",
+    "- a / b: the two team or player names exactly as written in the source text.",
+    "- tournament: the league/competition name as written, or null if not present.",
+    "- date: the match date in YYYY-MM-DD format. If the text says \"today\" or gives no date at all, use " + todayISO() + ".",
+    "",
+    "Text to extract from:",
+    '"""',
+    rawText.trim(),
+    '"""',
+  ].join("\n");
+}
+
+async function parseGamesWithGemini() {
+  const box = document.getElementById("pasteGameBox");
+  const status = document.getElementById("pasteGameStatus");
+  const btn = document.getElementById("pasteGameGeminiBtn");
+  if (!box.value.trim()) { status.textContent = "Paste a game (or list) first."; return; }
+  const backendUrl = await pickerBackend();
+  if (!backendUrl) {
+    status.textContent = "Set up a results backend first (Log tab \u2192 \u201cResult-checking backend\u201d) \u2014 or use \u201cCopy prompt for Gemini desktop\u201d instead, which needs no backend.";
+    return;
+  }
+  btn.disabled = true;
+  status.textContent = "Asking Gemini to extract games\u2026";
+  try {
+    const resp = await fetch(backendUrl + "/api/research", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt: buildGamesExtractionPrompt(box.value) }),
+    });
+    const data = await resp.json();
+    if (!resp.ok || data.status === "error") {
+      status.textContent = "Gemini error: " + (data.message || resp.status);
+      return;
+    }
+    applyExtractedGamesText(data.text || "", status);
+  } catch (e) {
+    status.textContent = "Couldn\u2019t reach the backend.";
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function copyGamesPrompt() {
+  const box = document.getElementById("pasteGameBox");
+  const status = document.getElementById("pasteGameStatus");
+  if (!box.value.trim()) { status.textContent = "Paste a game (or list) first."; return; }
+  const prompt = buildGamesExtractionPrompt(box.value);
+  try {
+    navigator.clipboard && navigator.clipboard.writeText(prompt);
+    status.textContent = "Prompt copied \u2014 paste it into Gemini desktop, then paste its reply below.";
+  } catch (e) {
+    status.textContent = "Couldn\u2019t copy automatically \u2014 select and copy the prompt text yourself.";
+  }
+  document.getElementById("pasteGameReplyRow").classList.remove("hidden");
+}
+
+function parseGamesReply() {
+  const raw = document.getElementById("pasteGameReplyBox").value;
+  const status = document.getElementById("pasteGameStatus");
+  applyExtractedGamesText(raw, status);
+}
+
+function applyExtractedGamesText(text, status, containerId) {
+  const cleaned = text.replace(/```json/gi, "").replace(/```/g, "").trim();
+  let games;
+  try {
+    games = JSON.parse(cleaned);
+  } catch (e) {
+    status.textContent = "Couldn\u2019t read that as JSON \u2014 check nothing but the array came back.";
+    return;
+  }
+  if (!Array.isArray(games)) {
+    status.textContent = "Expected a JSON array of games \u2014 got something else.";
+    return;
+  }
+  renderPastedGames(games, containerId);
+  if (games.length === 0) {
+    status.textContent = "No games found.";
+    return;
+  }
+  const usable = games.filter((g) => SPORTS[g.sport]).length;
+  const unsupported = games.length - usable;
+  status.textContent = games.length + " game" + (games.length === 1 ? "" : "s") + " found" +
+    (unsupported ? " (" + unsupported + " unsupported sport, skipped)" : "") +
+    (usable ? " \u2014 click one to fill Step 1." : ".");
+}
+
+function renderPastedGames(games, containerId) {
+  const id = containerId || "pastedGameList";
+  const listEl = document.getElementById(id);
+  listEl.innerHTML = "";
+  games.forEach((g) => {
+    const supported = !!SPORTS[g.sport];
+    const row = document.createElement("div");
+    row.className = "log-entry";
+    row.style.padding = "10px 14px";
+    row.style.cursor = supported ? "pointer" : "default";
+    if (!supported) row.style.opacity = "0.5";
+    const when = g.date || "";
+    row.innerHTML = '<div class="log-entry-main">' + (g.a || "?") + " vs " + (g.b || "?") + '</div>' +
+      '<div class="log-entry-sub">' + (supported ? SPORTS[g.sport].label : (g.sport || "unsupported") + " \u2014 not supported") +
+      (g.tournament ? " \u00b7 " + g.tournament : "") + (when ? " \u00b7 " + when : "") + '</div>';
+    if (supported) row.onclick = () => selectPastedGame(g, id);
+    listEl.appendChild(row);
+  });
+}
+
+// Flags a picked fixture whose date is today-or-earlier -- the only signal
+// available (there's no live/finished status from the game picker) that a
+// match may already be underway or over. Doesn't block anything -- research
+// gathered on an in-play match can still be useful -- but the person running
+// the audit should know before trusting a "pre-match" read.
+function checkPastDateWarning() {
+  const el = document.getElementById("pastDateWarning");
+  if (!el) return;
+  const isPast = !!pickedGameDate && pickedGameDate < todayISO();
+  el.className = isPast ? "card" : "card hidden";
+}
+
+function selectPastedGame(g, containerId) {
+  const id = containerId || "pastedGameList";
+  document.getElementById("sport").value = g.sport;
+  const { s } = getNames();
+  document.getElementById("labelA").textContent = s.entity + " A";
+  document.getElementById("labelB").textContent = s.entity + " B";
+  populateMajorCompetitions();
+  document.getElementById("nameA").value = g.a || "";
+  document.getElementById("nameB").value = g.b || "";
+  if (g.tournament) document.getElementById("tournament").value = g.tournament;
+  pickedGameDate = g.date || null;
+  checkPastDateWarning();
+  document.querySelectorAll("#" + id + " .log-entry").forEach((el) => el.classList.remove("active"));
+  const note = document.createElement("div");
+  note.className = "verdict-sub";
+  note.textContent = "Loaded " + g.a + " vs " + g.b + " \u2014 adjust below if needed, or continue.";
+  document.getElementById(id).prepend(note);
+}
+
+function buildQuestions() {
+  const { sport, A, B } = getNames();
+
+  const tournament = document.getElementById("tournament").value.trim() || "the tournament";
+  rememberNamesAndTournament(A, B, document.getElementById("tournament").value.trim());
+  const teamNote = sport === "tennis" ? "" : " Treat each team as one unit \u2014 note which key players/starters were missing, don't break it down by individual teammate.";
+  // Basketball (and any other long-season, round-robin-style league) doesn't have a
+  // bracket/tournament shape -- no rounds, no byes, no walkovers. Asking about "current
+  // tournament run" produces nothing honest to report and silently suppresses the model's
+  // confidence (verified: this was the difference between a LEAN and a CLEAR_WIN in a real
+  // WNBA test case). Branch the wording instead of forcing a bracket-shaped question onto a
+  // season-shaped sport.
+  const isLeagueSport = sport === "basketball" || sport === "baseball";
+  const section1 = isLeagueSport ? [
+    "1. Recent run of games (replaces \"tournament run\" \u2014 league play has no bracket)",
+    "- Last 5\u20136 games for each side, in-season only: results, margins, and opponent quality for each.",
+    "- Any " + (sport === "baseball" ? "getaway-day travel, doubleheaders, or bullpen overuse" : "back-to-backs, unusual rest/travel") + " or scheduling quirks in that stretch?",
+    "- Confirm tonight's roster: any starter or key rotation player ruled out (injury, rest, suspension)? Log this in the Key player availability section below \u2014 don't fold it into a form rating, it needs to be flagged as a distinct, current-game fact.",
+    (sport === "baseball" ? "- Name tonight's confirmed starting pitcher for each side. This is a plain fact for later, not a lean yet \u2014 the comparison between the two happens in the Conditions fit section below." : null),
+  ].filter((l) => l !== null) : [
+    "1. Current tournament run",
+    "- How many matches has each side won so far in " + tournament + ", and against whom by name?",
+    "- For each win, note the opponent's quality (ranking, seed, recent form) alongside the score \u2014 a close win over a strong opponent is not a weaker result than a lopsided win over a weak one. Don't rate this section on scoreline margin alone; margin from a single match is a noisy signal and can mislead if opponent strength isn't weighed alongside it.",
+    "- Where available, pull serve/return process stats (first/second-serve points won, break points converted/saved) rather than relying on the final score shape \u2014 a player can win comfortably on the scoreboard while being outplayed on the underlying numbers, or grind out a close score while actually dominating play.",
+    "- Any win by retirement/walkover? Any signs of fatigue (short turnaround, extra-time/tiebreak games)?",
+  ];
+  const monthNames = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const dayNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const now = new Date();
+  const todayStr = dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear();
+
+  const lines = [
+    "Match audit questions \u2014 " + A + " vs " + B + " \u2014 " + tournament,
+    "",
+    "Scope: only count serious matches (majors/tour level for tennis; major tournaments only for football; recognized league/tour level for basketball, baseball, and volleyball). Exclude exhibitions, friendlies, spring training, and walkovers.",
+    "",
+    "0. Ground rules for whoever/whatever answers this (read first)",
+    "- TODAY'S DATE IS " + todayStr.toUpperCase() + ". Answer from this present moment, not from whatever your training data considered \"recent.\" A model's built-in knowledge has a fixed cutoff and goes stale the moment real events move past it \u2014 rankings, form, injuries, rosters, and odds all change daily. Treat any memorized fact that could have changed since your training cutoff as unverified until checked against a source dated at or after " + todayStr + ". If your own knowledge and a current source disagree, the current source wins.",
+    "- Communication: be clear (state exactly what was found, per section, no vague language), brief (no padding, no preamble, no closing summary), and summarised (the essential point, not a wall of text).",
+    "- Never skim: check the actual source behind each data point before answering \u2014 don't infer a lean from a summary, a ranking, or a betting site's blurb.",
+    "- Never assume, never guess: if a fact isn't confirmed by a source you actually looked at, it isn't known. No inference presented as fact.",
+    "- Market independence: build and lock sections 1\u20138 from raw match logs and official results only. Do not open, read, or cite any odds page, prediction-market page, tipster preview, or betting-market commentary until you reach section 9 \u2014 no preview article, tipster blurb, or market commentary may be cited as evidence anywhere in sections 1\u20138. Source Key player availability from the official order of play / withdrawal list, not from a market note. Fetch odds last, and only to answer section 9 and the line-movement half of section 8.",
+    "- Audit before answering: verify each data point first, write the lean for that section second.",
+    "- Answer exactly what each section asks \u2014 not what seems more useful or interesting.",
+    "- If something is unclear or hard to find, dig further and search harder \u2014 do not stop to ask a clarifying question, there is no one on the other end to ask. Only report NO_DATA after a genuine search has actually failed to resolve it, not as a shortcut for not having looked.",
+    "",
+    "BEFORE YOU BEGIN: print this exact line first, filled in, then start section 1: \"ACKNOWLEDGED \u2014 today is " + todayStr + "; I will verify time-sensitive facts against current sources instead of memory, mark unverifiable items NO_DATA instead of guessing, and will not stop to ask a question.\" This line is required and checked \u2014 an answer missing it is treated as not having read the ground rules above.",
+    "",
+    ...section1,
+    "",
+    "2. Recent serious match history (use if the tournament just started, or as a supplement)",
+    "- Last 8\u201310 serious matches for each side \u2014 results, margins, dates, and the quality of each opponent. Same rule as above: weigh the result against who it came against, not the margin in isolation.",
+    "- Trend over the last 4\u20136 weeks: improving, flat, declining?",
+    "- Any injuries, suspensions, or withdrawals in that window?" + teamNote,
+    "",
+    "3. Common opponents (core \u2014 highest-weighted category, dig here first)" + (isLeagueSport ? " \u2014 IMPORTANT for league sports" : ""),
+    "- Minimum required lookback: for EACH side, check their last 2 tournaments/events (not just this one) plus last year's edition of this same tournament if it exists. Do not stop at the current event's draw alone \u2014 a real shared opponent from a recent tournament counts just as much as one from this week's bracket.",
+    "- Which opponents have both " + A + " and " + B + " faced across that lookback window (at least the last two tournaments/events for each side as the outer bound)? Search for each side's match history individually \u2014 tournament by tournament \u2014 then cross-reference by name. Don't rely on a single \"common opponents\" page if you can find the underlying results yourself.",
+    "- For EACH shared opponent found: state the exact scoreline, the surface, and how long ago \u2014 not just 'won' or 'lost.' A scoreline you can't find is a shared opponent you can't actually use; don't credit it toward the lean if you're missing the score.",
+    "- Only after listing every shared opponent with its scoreline, weigh them: who performed better against the same opposition, and is that recent enough and on a similar-enough surface to mean something?",
+    "- How many shared opponents are there in total \u2014 this sets confidence in the comparison." + (isLeagueSport ? " CAVEAT: in a league, both sides have played most of the same opponents by default \u2014 a large raw count here does NOT by itself mean high-quality evidence the way it does for individual sports. Only count an opponent if the comparison is genuinely informative (recent, similar game context, not just \"both played team X sometime this season\"). Don't let a trivially large number inflate SHARED_COUNT/confidence." : ""),
+    "",
+    "3b. Quality-of-wins fallback (ONLY if section 3 found zero usable shared opponents)",
+    "- This is an advisory cross-check, not a substitute for real common-opponent data \u2014 it currently feeds the reasoning shown, not the tier or probability math.",
+    "- Do NOT use raw ranking-position gaps (e.g. \"beat someone 30 spots higher\") \u2014 rank position is only meaningful among top-tier players; outside roughly the top 100 a 30-spot gap can be close to noise, while the same gap near the top is a huge quality difference. Use ranking POINTS/rating differential (or seed tier) instead, and only count an opponent as \"clearly stronger\" if the points gap is large relative to both players' own tier.",
+    "- Find up to 3 of the strongest wins for each side (last 12 months) against an opponent clearly stronger by ranking points \u2014 name the opponent, the points gap, the score, and how recent.",
+    "- Required cross-check: search specifically for any CONTRADICTING result \u2014 a loss in the same window to someone clearly weaker by ranking points. Report this even if it complicates the story; don't just collect the 3 supporting wins and stop looking.",
+    "",
+    "4. Head-to-head",
+    "- Have " + A + " and " + B + " met before? How many times, what result and margin, how recent, what surface/conditions?",
+    "",
+    "5. Conditions fit",
+    (sport === "baseball"
+      ? "- Starting pitcher matchup for this specific game: compare the two named starters \u2014 recent form (last 4\u20136 starts), ERA/FIP or equivalent, and each side's platoon/handedness split against that pitcher's throwing hand. This is the main driver of this category for baseball, not an afterthought."
+      : "- Win rate on this surface / in these conditions over the last 12 months for each side."),
+    "- Playing-style fit, separate from the aggregate number above: does either side's game (e.g. serve-dominant, heavy topspin, counter-puncher) specifically suit or struggle against these conditions, or against the other side's style? A player with a modest surface win-rate can still be the stylistic problem for a specific opponent \u2014 e.g. a big server can neutralize a grinder regardless of that grinder's general surface numbers. Note this explicitly rather than letting the aggregate rate stand in for it.",
+    "- Home/away or neutral venue, altitude, indoor/outdoor, rest days." + (sport === "baseball" ? " Ballpark factors too (park effects, wind, roof) if they're notable." : ""),
+    "",
+    "6. Baseline rating check",
+    "- What is each side's current official ranking/rating (not seeding)?",
+    "- Does it agree or conflict with what sections 1\u20135 suggest?",
+    "",
+    "7. Resilience & adaptability",
+    "- Comeback rate after losing the first set/going a break down (or falling behind, for team sports).",
+    "- Deciding-set/period win rate, tiebreak or clutch-moment record.",
+    "- For repeat meetings: does the losing side's performance improve meeting to meeting?",
+    "",
+    "8. Anomaly check",
+    "- Any matches with unusually heavy, lopsided line movement disproportionate to known form?",
+    "- Any match where a side's effort markers (errors, first-serve %, etc.) were well outside their own normal range, followed by a sharp reversal?",
+    "",
+    "BEFORE SECTION 9: print this exact line first, filled in from what you actually did: \"Method note for this run: sections 1\u20138 were built and locked from raw match logs and official results only, before any odds or prediction-market source was opened. No preview article, tipster blurb or market commentary is cited as evidence anywhere above. Availability is sourced from the official order of play and withdrawal lists, not from a market note. Odds were fetched last and only to answer section 9 and the line-movement half of section 8.\" This line is required and checked \u2014 if it isn't true, go back and rebuild the affected section from raw data before printing it, rather than printing it anyway.",
+    "",
+    "9. Bookmaker odds (optional, decimal)",
+    "- Check an odds-comparison/aggregator source that lists multiple bookmakers side-by-side for this match, not just one book.",
+    "- Report the best available decimal price for " + A + " and the best available decimal price for " + B + " \u2014 these can come from different books if one book leads on each side \u2014 and name which book each price is from." + (sport === "football" ? " Also report the draw price. Football is a 3-outcome market \u2014 omitting the draw price means the edge calculation will overstate both sides' true win probability, since it has nowhere to put the draw's share." : ""),
+    "- Note if these are pre-match odds or if the match has already started/finished \u2014 flag clearly rather than mixing live-in-play pricing with a pre-match line.",
+    "",
+    "\u2014\u2014\u2014",
+    "REQUIRED OUTPUT FORMAT",
+    "After your written analysis, end your answer with a fenced code block containing exactly these " + (sport === "football" ? "16" : "15") + " lines (this exact key set, in this order) so it can be pasted into the tool's autofill parser. Use only the allowed values shown, in the exact spelling shown (e.g. YES/NO, not NONE/AVAILABLE/N-A) \u2014 don't add units, explanations, or extra lines inside the block.",
+    "",
+    "COMMON_OPPONENT: <STRONG_A|FAVORS_A|EVEN|FAVORS_B|STRONG_B|NO_DATA>",
+    "CURRENT_FORM: <STRONG_A|FAVORS_A|EVEN|FAVORS_B|STRONG_B|NO_DATA>",
+    "RECENT_FORM: <STRONG_A|FAVORS_A|EVEN|FAVORS_B|STRONG_B|NO_DATA>",
+    "CONDITIONS_FIT: <STRONG_A|FAVORS_A|EVEN|FAVORS_B|STRONG_B|NO_DATA>",
+    "HEAD_TO_HEAD: <STRONG_A|FAVORS_A|EVEN|FAVORS_B|STRONG_B|NO_DATA>",
+    "SHARED_COUNT: <0|1|2-3|4+>",
+    "QUALITY_PROXY: <STRONG_SUPPORT|SOME_SUPPORT|CONTRADICTED|NOT_APPLICABLE> \u2014 only meaningful if COMMON_OPPONENT is NO_DATA; NOT_APPLICABLE if real common-opponent data existed or section 3b wasn't needed. CONTRADICTED = the search found a real contradicting loss to a clearly weaker opponent.",
+    "BASELINE: <AGREES|CONFLICTS|NO_SIGNAL>",
+    "RESILIENCE: <A|B|NEUTRAL>",
+    "ANOMALY_A: <YES|NO>",
+    "ANOMALY_B: <YES|NO>",
+    "AVAILABILITY_A: <YES|NO>  \u2014 a confirmed starter/key rotation player out for A tonight (injury, rest, suspension), not a pattern in past data",
+    "AVAILABILITY_B: <YES|NO>  \u2014 same, for B",
+    "ODDS_A: <decimal odds, e.g. 1.85, or omit line if unavailable>",
+    "ODDS_B: <decimal odds, e.g. 2.05, or omit line if unavailable>",
+    (sport === "football" ? "ODDS_DRAW: <decimal draw odds, e.g. 3.40 \u2014 football is a 3-outcome market, include this or the edge number will be wrong>" : null),
+    "",
+    "STRONG_A/STRONG_B = strongly favors that side; FAVORS_A/FAVORS_B = favors that side; EVEN = toss-up; NO_DATA = nothing usable was found for that category. Use NO_DATA honestly \u2014 don't guess a lean just to fill the field.",
+  ];
+  document.getElementById("questionsBox").value = lines.filter((l) => l !== null).join("\n");
+}
+
+function copyQuestions() {
+  const box = document.getElementById("questionsBox");
+  box.select();
+  try {
+    document.execCommand("copy");
+  } catch (e) {}
+  try {
+    navigator.clipboard && navigator.clipboard.writeText(box.value);
+  } catch (e) {}
+}
+
+async function runGemini() {
+  const box = document.getElementById("questionsBox");
+  const status = document.getElementById("geminiStatus");
+  const btn = document.getElementById("geminiBtn");
+  if (!box.value.trim()) {
+    status.textContent = "Generate questions first.";
+    return;
+  }
+  const backendUrl = await pickerBackend();
+  if (!backendUrl) {
+    status.textContent = "Set up a results backend first (Log tab \u2192 \u201cResult-checking backend\u201d) \u2014 Gemini runs through that same backend.";
+    return;
+  }
+  btn.disabled = true;
+  status.textContent = "Running Gemini\u2026";
+  try {
+    const resp = await fetch(backendUrl + "/api/research", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt: box.value }),
+    });
+    const data = await resp.json();
+    if (!resp.ok || data.status === "error") {
+      status.textContent = "Gemini error: " + (data.message || resp.status);
+      return;
+    }
+    document.getElementById("pasteBox").value = data.text || "";
+    status.textContent = "Done \u2014 filled Step 3\u2019s answer box. Review it there before computing the verdict.";
+    goStep(3);
+    parseAndFill();
+  } catch (e) {
+    status.textContent = "Couldn\u2019t reach the backend.";
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function parseAndFill() {
+  const raw = document.getElementById("pasteBox").value;
+  const status = document.getElementById("parseStatus");
+  if (!raw.trim()) {
+    status.textContent = "Nothing pasted.";
+    return;
+  }
+
+  // KEY: VALUE or KEY=VALUE, one per line, case/spacing-insensitive
+  const lines = raw.split("\n").map((l) => l.trim()).filter(Boolean);
+  const map = {};
+  const unreadable = [];
+  lines.forEach((line) => {
+    const idx = line.search(/[:=]/);
+    if (idx === -1) { unreadable.push(line); return; }
+    const key = line.slice(0, idx).trim().toUpperCase().replace(/\s+/g, "_");
+    const val = line.slice(idx + 1).trim().toUpperCase().replace(/\s+/g, "_");
+    if (!key) { unreadable.push(line); return; }
+    map[key] = val;
+  });
+
+  const levelValue = (v) => {
+    if (v === "NO_DATA" || v === "N/A" || v === "NOT_APPLICABLE") return NO_DATA;
+    if (v === "STRONG_A" || v === "STRONGLY_FAVORS_A") return "2";
+    if (v === "FAVORS_A") return "1";
+    if (v === "EVEN" || v === "TOSS_UP" || v === "EVEN/TOSS-UP" || v === "EVEN_/_TOSS-UP") return "0";
+    if (v === "FAVORS_B") return "-1";
+    if (v === "STRONG_B" || v === "STRONGLY_FAVORS_B") return "-2";
+    return null;
+  };
+
+  let filled = 0, skipped = [];
+  const subKeyMap = { COMMON_OPPONENT: "commonOpponent", CURRENT_FORM: "currentForm", RECENT_FORM: "recentForm", CONDITIONS_FIT: "conditionsFit", HEAD_TO_HEAD: "headToHead" };
+  Object.keys(subKeyMap).forEach((k) => {
+    if (map[k] === undefined) return;
+    const lv = levelValue(map[k]);
+    const el = document.getElementById("sub_" + subKeyMap[k]);
+    if (lv !== null && el) { el.value = lv; filled++; } else skipped.push(k);
+  });
+
+  if (map.SHARED_COUNT !== undefined) {
+    const v = map.SHARED_COUNT.replace(/_/g, "").replace("+", "+").replace("-", "-");
+    const valid = ["0", "1", "2-3", "4+"];
+    const norm = map.SHARED_COUNT.replace(/_/g, "-").replace("OR-MORE", "+").replace("ORMORE", "+");
+    const match = valid.find((x) => x === map.SHARED_COUNT || x === norm) || (map.SHARED_COUNT.startsWith("4") ? "4+" : map.SHARED_COUNT.includes("2") ? "2-3" : map.SHARED_COUNT);
+    if (valid.includes(match)) { document.getElementById("sharedCount").value = match; filled++; } else skipped.push("SHARED_COUNT");
+  }
+
+  if (map.BASELINE !== undefined) {
+    const b = { AGREES: "agrees", CONFLICTS: "conflicts", NO_SIGNAL: "no-signal", NO_STRONG_SIGNAL: "no-signal" }[map.BASELINE];
+    if (b) { document.getElementById("baseline").value = b; filled++; } else skipped.push("BASELINE");
+  }
+
+  if (map.QUALITY_PROXY !== undefined) {
+    const q = { STRONG_SUPPORT: "strong-support", SOME_SUPPORT: "some-support", CONTRADICTED: "contradicted", NOT_APPLICABLE: "not-applicable", NO_DATA: "not-applicable" }[map.QUALITY_PROXY];
+    if (q) { document.getElementById("qualityProxy").value = q; filled++; } else skipped.push("QUALITY_PROXY");
+  }
+
+  if (map.RESILIENCE !== undefined) {
+    const r = { A: "A", B: "B", NEUTRAL: "neutral", UNCLEAR: "neutral" }[map.RESILIENCE];
+    if (r) { document.getElementById("resilience").value = r; filled++; } else skipped.push("RESILIENCE");
+  }
+
+  // Strict YES/NO parsing: the required output format only allows YES|NO for
+  // these four fields. Anything else (e.g. "NONE", "AVAILABLE", "N/A") used to
+  // be silently treated as "NO" with no warning -- indistinguishable from a
+  // real, considered "NO" answer. Off-format values are now rejected into
+  // `skipped` instead, so a source that didn't follow the spec is visibly
+  // flagged rather than quietly asserting a checkbox state it never confirmed.
+  const yesNoValue = (v) => {
+    if (v === "YES" || v === "TRUE") return true;
+    if (v === "NO" || v === "FALSE") return false;
+    return undefined;
+  };
+  [
+    ["ANOMALY_A", "anomalyA"],
+    ["ANOMALY_B", "anomalyB"],
+    ["AVAILABILITY_A", "availabilityA"],
+    ["AVAILABILITY_B", "availabilityB"],
+  ].forEach(([key, elId]) => {
+    if (map[key] === undefined) return;
+    const v = yesNoValue(map[key]);
+    if (v !== undefined) { document.getElementById(elId).checked = v; filled++; }
+    else skipped.push(key);
+  });
+
+  ["ODDS_A", "ODDS_B", "ODDS_DRAW"].forEach((k) => {
+    if (map[k] === undefined) return;
+    const n = parseFloat(map[k].replace(/[^0-9.]/g, ""));
+    const fieldId = k === "ODDS_A" ? "oddsA" : k === "ODDS_B" ? "oddsB" : "oddsDraw";
+    if (!isNaN(n) && n > 1) { document.getElementById(fieldId).value = n; filled++; }
+    else skipped.push(k);
+  });
+
+  const knownKeys = new Set(["COMMON_OPPONENT", "CURRENT_FORM", "RECENT_FORM", "CONDITIONS_FIT", "HEAD_TO_HEAD", "SHARED_COUNT", "BASELINE", "QUALITY_PROXY", "RESILIENCE", "ANOMALY_A", "ANOMALY_B", "AVAILABILITY_A", "AVAILABILITY_B", "ODDS_A", "ODDS_B", "ODDS_DRAW"]);
+  const unrecognizedKeys = Object.keys(map).filter((k) => !knownKeys.has(k));
+  let msg = filled + " field" + (filled === 1 ? "" : "s") + " filled.";
+  if (skipped.length) msg += " Couldn't apply: " + skipped.join(", ") + ".";
+  if (unrecognizedKeys.length) msg += " Unrecognized key(s), not applied: " + unrecognizedKeys.join(", ") + ".";
+  if (unreadable.length) msg += " Line(s) with no key found: \u201c" + unreadable.join("\u201d, \u201c") + "\u201d.";
+  if (filled === 0 && !skipped.length && !unrecognizedKeys.length && !unreadable.length) msg = "Nothing recognized in the paste \u2014 check the format (KEY: VALUE or KEY=VALUE, one per line).";
+  status.textContent = msg;
+  status.style.color = (unreadable.length || unrecognizedKeys.length || skipped.length) ? "#8a4a12" : "";
+}
+
+function buildSubscaleCards() {
+  const { sport, A, B } = getNames();
+  const container = document.getElementById("subscaleCards");
+  // Preserve any answers already set (e.g. via Parse & autofill, or by hand) if this
+  // runs again on re-entry to step 3 -- previously this rebuilt from scratch every
+  // time and silently threw away completed answers on Back/forward navigation.
+  const previous = {};
+  SUBSCALES.forEach(({ key }) => {
+    const el = document.getElementById("sub_" + key);
+    if (el) previous[key] = el.value;
+  });
+  container.innerHTML = "";
+  SUBSCALES.forEach(({ key, title, help }) => {
+    const card = document.createElement("div");
+    card.className = "card";
+    const effectiveHelp = key === "conditionsFit" && sport === "baseball"
+      ? "Starting pitcher matchup (main driver), plus home/away, ballpark, rest."
+      : help;
+    const opts = LEVELS.map((l) => '<option value="' + l.v + '">' + l.label.split("{{A}}").join(A).split("{{B}}").join(B) + "</option>").join("");
+    card.innerHTML =
+      '<div class="title">' + title + "</div>" +
+      '<div class="help">' + effectiveHelp + "</div>" +
+      '<select id="sub_' + key + '"><option value="" selected disabled>\u2014 Not answered \u2014</option>' + opts + '<option value="' + NO_DATA + '">No data / not applicable</option></select>';
+    container.appendChild(card);
+    const restored = previous[key];
+    if (restored) document.getElementById("sub_" + key).value = restored;
+  });
+  document.getElementById("resOptA").textContent = "Favors A (" + A + ")";
+  document.getElementById("resOptB").textContent = "Favors B (" + B + ")";
+  document.getElementById("anomalyLabelA").textContent = "Flag on " + A + "'s data";
+  document.getElementById("anomalyLabelB").textContent = "Flag on " + B + "'s data";
+}
+
+function sigmoid(x) { return 1 / (1 + Math.exp(-4 * x)); }
+
+function deVig(oddsA, oddsB, oddsDraw) {
+  // If draw odds are supplied (football), do a proper 3-way de-vig: normalize all
+  // three implied probabilities together so the draw's share of the market isn't
+  // silently folded into A and B, inflating both sides' true win probability.
+  // Falls back to the original 2-way math exactly when no draw odds are given, so
+  // every tennis/basketball/volleyball entry -- and every football entry logged
+  // before this fix -- is computed identically to before.
+  if (oddsDraw && oddsDraw > 1) {
+    const a = 1 / oddsA, b = 1 / oddsB, d = 1 / oddsDraw;
+    const total = a + b + d;
+    return { a: a / total, b: b / total, draw: d / total };
+  }
+  const a = 1 / oddsA;
+  const b = 1 / oddsB;
+  const total = a + b;
+  return { a: a / total, b: b / total };
+}
+
+function badgeClass(tier) {
+  if (tier === "CLEAR_WIN") return "badge badge-green";
+  if (tier === "STRONG_LEAN") return "badge badge-teal";
+  if (tier === "LEAN") return "badge badge-amber";
+  if (tier === "TIDE_MATCH") return "badge badge-blue";
+  if (tier === "PASS") return "badge badge-gray";
+  return "badge badge-gray";
+}
+
+function computeVerdict() {
+  // Hard gate: every select below defaults to a disabled, unselectable "\u2014 Not
+  // answered \u2014" placeholder rather than a real-looking value. If Parse & autofill
+  // silently failed (wrong format, unrecognized keys) or a field was just never
+  // touched, its value here is "" -- refuse to compute rather than let that read as
+  // a considered "neutral"/"no-signal"/"2-3" answer.
+  const warnEl = document.getElementById("verdictValidationWarning");
+  const listEl = document.getElementById("verdictValidationList");
+  const missing = [];
+  SUBSCALES.forEach(({ key, title }) => {
+    const el = document.getElementById("sub_" + key);
+    if (el && el.value === "") missing.push(title);
+  });
+  [
+    ["sharedCount", "Shared opponents found"],
+    ["qualityProxy", "Quality-of-wins fallback"],
+    ["baseline", "Baseline official rating"],
+    ["resilience", "Resilience & adaptability"],
+  ].forEach(([id, label]) => {
+    const el = document.getElementById(id);
+    if (el && el.value === "") missing.push(label);
+  });
+  if (missing.length) {
+    listEl.textContent = "These fields haven't been set, so no verdict was computed: " + missing.join(", ") + ". Fix parsing above or set them by hand, then compute again.";
+    warnEl.className = "card";
+    warnEl.scrollIntoView({ behavior: "smooth", block: "center" });
+    return;
+  }
+  warnEl.className = "card hidden";
+
+  const { sport, A, B } = getNames();
+
+  const FULL_WEIGHT = SUBSCALES.reduce((sum, s) => sum + s.weight, 0); // 0.95 total across all 5 subscales
+
+  let weightedSum = 0, presentWeight = 0;
+  const vals = {};
+  SUBSCALES.forEach(({ key, weight }) => {
+    const raw = document.getElementById("sub_" + key).value;
+    if (raw !== NO_DATA) {
+      const v = parseInt(raw, 10);
+      vals[key] = v;
+      weightedSum += weight * v;
+      presentWeight += weight;
+    }
+  });
+  // Calibration fix: divide by the FULL theoretical weight, not just the weight of
+  // categories that happen to be populated. Missing categories (NO_DATA) contribute
+  // zero signal but still count against the denominator, so a handful of thin-but-
+  // agreeing subscales can no longer produce the same confidence as a fully
+  // cross-checked case. Confidence now shrinks toward 50/50 in proportion to how
+  // much evidence is actually missing, instead of being artificially inflated by
+  // renormalizing it away.
+  const rawScore = FULL_WEIGHT > 0 ? weightedSum / FULL_WEIGHT : 0;
+  const normScore = rawScore / 2;
+  const probA = sigmoid(normScore);
+
+  const sharedCount = document.getElementById("sharedCount").value;
+  let confidence = { "0": "low", "1": "low", "2-3": "medium", "4+": "high" }[sharedCount] || "low";
+
+  // Completeness cross-check: SHARED_COUNT only measures how many shared opponents were
+  // found -- it says nothing about whether the OTHER four subscales (current form, recent
+  // form, conditions fit, head-to-head) actually have data. A match can have "4+" shared
+  // opponents (confidence: high by the old rule) while everything else is NO_DATA, which
+  // means the subscale weighting is running on ~30% of its theoretical evidence while the
+  // system reports itself as maximally confident. This can only pull confidence DOWN from
+  // what SHARED_COUNT alone would say, never up -- so it can't manufacture false confidence,
+  // only catch cases where SHARED_COUNT was overstating it.
+  const completeness = presentWeight / FULL_WEIGHT; // 0..1, how much of the 5-way weight is populated
+  if (completeness < 0.4 && confidence !== "low") confidence = "low";
+  else if (completeness < 0.6 && confidence === "high") confidence = "medium";
+
+  const leader = normScore > 0 ? "A" : normScore < 0 ? "B" : null;
+  const leaderName = leader === "A" ? A : leader === "B" ? B : null;
+
+  const tideBand = Math.abs(normScore) < 0.15;
+  const strongOutsideTide = Math.abs(normScore) > 0.4;
+
+  // Football model-side draw estimate. Only the market side got a real 3-way de-vig before;
+  // the model side still treated football as a binary win/lose market, which understates
+  // both sides' true footing and can make the "edge vs market" number look like a real
+  // disagreement when part of it is just the missing draw slice. FOOTBALL_BASE_DRAW_RATE is
+  // a rough empirical constant (roughly the share of top-competition matches that end level),
+  // not a fitted one -- flagged explicitly, same as the other hand-set thresholds, so it gets
+  // revisited once there's a real sample of scored football matches to calibrate against.
+  const FOOTBALL_BASE_DRAW_RATE = 0.26;
+  let probA3 = probA, probB3 = 1 - probA, modelDraw = null;
+  if (sport === "football") {
+    modelDraw = FOOTBALL_BASE_DRAW_RATE * Math.max(0, 1 - Math.min(Math.abs(normScore), 1));
+    const nonDraw = 1 - modelDraw;
+    probA3 = probA * nonDraw;
+    probB3 = (1 - probA) * nonDraw;
+  }
+
+  const oddsAraw = parseFloat(document.getElementById("oddsA").value);
+  const oddsBraw = parseFloat(document.getElementById("oddsB").value);
+  const oddsDrawRaw = parseFloat(document.getElementById("oddsDraw").value);
+  const drawOddsGiven = !isNaN(oddsDrawRaw) && oddsDrawRaw > 1;
+  let odds = null, edge = null;
+  if (oddsAraw > 1 && oddsBraw > 1) {
+    odds = deVig(oddsAraw, oddsBraw, oddsDrawRaw);
+    if (sport === "football") {
+      // deVig only does a real 3-way split when draw odds were actually entered; otherwise
+      // odds.a/odds.b fall back to a plain 2-way implied probability (no draw removed). probA3/
+      // probB3 above are ALWAYS draw-discounted, regardless of whether draw odds were entered --
+      // so without this branch, a football edge with no draw odds compared a draw-discounted
+      // model number against a non-draw-discounted market number and understated the true edge.
+      // Match bases: 3-way model vs 3-way market when draw odds are given, 2-way vs 2-way otherwise.
+      const modelA = drawOddsGiven ? probA3 : probA;
+      const modelB = drawOddsGiven ? probB3 : (1 - probA);
+      edge = leader === "A" ? modelA - odds.a : leader === "B" ? modelB - odds.b : null;
+    } else {
+      edge = leader === "A" ? probA - odds.a : leader === "B" ? (1 - probA) - odds.b : null;
+    }
+  }
+
+  const resilience = document.getElementById("resilience").value;
+  const resilienceAgainstLeader = (leader === "A" && resilience === "B") || (leader === "B" && resilience === "A");
+
+  const baseline = document.getElementById("baseline").value;
+  const baselineConflicts = baseline === "conflicts";
+
+  const anomalyA = document.getElementById("anomalyA").checked;
+  const anomalyB = document.getElementById("anomalyB").checked;
+  const anomalyOnLeader = (leader === "A" && anomalyA) || (leader === "B" && anomalyB);
+
+  const availabilityA = document.getElementById("availabilityA").checked;
+  const availabilityB = document.getElementById("availabilityB").checked;
+  const availabilityAgainstLeader = (leader === "A" && availabilityA) || (leader === "B" && availabilityB);
+  // Trailing-side absence: previously invisible to the tool entirely. It doesn't block a
+  // tier the way a leader-side absence does (a weaker trailing side losing a key player
+  // does not make the leader's case worse), but it's part of the picture the tool claims to
+  // have checked, so it's surfaced as context rather than silently dropped.
+  const availabilityAgainstTrailer = (leader === "A" && availabilityB) || (leader === "B" && availabilityA);
+
+  let tier = "INSUFFICIENT_DATA";
+  const reasons = [];
+
+  // Pass rule: fires when 2 or more of the highest-signal cross-check
+  // categories come back weak, regardless of what the weighted lean says.
+  const commonOppRaw = document.getElementById("sub_commonOpponent").value;
+  const headToHeadRaw = document.getElementById("sub_headToHead").value;
+  const qualityProxy = document.getElementById("qualityProxy").value;
+  // Only meaningful as a fallback when there's no real common-opponent data. A contradicting
+  // result found during that check is real negative evidence and is allowed to add caution
+  // (push toward PASS) same as the other signals below -- it can only make the tool MORE
+  // careful, never less. Supporting evidence ("strong-support"/"some-support") is NOT wired
+  // into the math yet -- rank-points-based quality-of-wins is a reasonable proxy in the
+  // literature, but this specific implementation hasn't been validated against real outcomes,
+  // so for now it only appears in the reasons text, advisory only.
+  const qualityContradicts = commonOppRaw === NO_DATA && qualityProxy === "contradicted";
+  const passSignals = [
+    commonOppRaw === NO_DATA,
+    headToHeadRaw === NO_DATA,
+    baselineConflicts,
+    qualityContradicts,
+  ];
+  const passTriggerCount = passSignals.filter(Boolean).length;
+
+  if (passTriggerCount >= 2) {
+    // Narrow override: missing common-opponent/H2H data is legitimate caution, but it
+    // must not silently override a case where every AVAILABLE signal agrees and the
+    // market itself confirms a real edge. Without this, the tool can never produce a
+    // real pick for any first-ever matchup (the norm, not the exception, in cup
+    // qualifying rounds), no matter how lopsided the actual picture is -- which
+    // defeats the point of collecting the other four categories at all.
+    // This does NOT apply when baseline conflicts (that's real disagreement, not
+    // missing data) or when any populated subscale opposes the leader -- only when
+    // the shortfall is purely an absence of cross-check data, not a contradiction.
+    const disagreement = qualityContradicts || SUBSCALES.some(({ key }) => {
+      const raw = document.getElementById("sub_" + key).value;
+      if (raw === NO_DATA) return false;
+      const v = parseInt(raw, 10);
+      return leader === "A" ? v < 0 : leader === "B" ? v > 0 : false;
+    });
+    const unanimousStrongEdge = leader && !disagreement && !baselineConflicts && edge !== null && edge >= 0.08;
+
+    if (unanimousStrongEdge) {
+      tier = "LEAN";
+      reasons.push("Common-opponent/head-to-head data is missing, but every available signal agrees with " + leaderName + " and the edge over the market (" + (edge * 100).toFixed(1) + "%) is large enough to override a default pass. Confidence stays capped since the core cross-checks are still unverified.");
+    } else {
+      tier = "PASS";
+      if (commonOppRaw === NO_DATA) reasons.push("No usable common-opponent data.");
+      if (headToHeadRaw === NO_DATA) reasons.push("No head-to-head history between these two.");
+      if (baselineConflicts) reasons.push("Baseline official rating conflicts with the performance-based lean.");
+      reasons.push("2 or more of the core cross-check categories are empty or conflicting \u2014 not enough to trust a pick either way.");
+    }
+  } else if (confidence === "low") {
+    tier = "INSUFFICIENT_DATA";
+    reasons.push("Fewer than 2 shared opponents \u2014 not enough to trust the comparison.");
+  } else if (tideBand) {
+    tier = "TIDE_MATCH";
+    reasons.push("Common-opponent and form signals are close to even \u2014 no reliable winner edge.");
+  } else if (!leader) {
+    tier = "INSUFFICIENT_DATA";
+  } else {
+    // clearOkExceptEdge = every model-side cross-check that CLEAR_WIN has always required,
+    // with the market-edge requirement pulled out and checked separately. Win-confidence
+    // (is this side actually going to win) and market value (is there a mispriced bet here)
+    // are two different questions; a case can be fully validated on the first and still show
+    // no edge simply because the market already agrees. That used to fall into the same
+    // generic LEAN bucket as a case held back by real doubt (resilience/baseline/anomaly/thin
+    // data) -- this splits them so "no edge" and "not actually sure" read differently.
+    const clearOkExceptEdge = strongOutsideTide && confidence === "high" && !resilienceAgainstLeader && !baselineConflicts && !anomalyOnLeader && !availabilityAgainstLeader;
+    const edgeOk = edge !== null && edge >= 0.05;
+
+    if (clearOkExceptEdge && edgeOk) {
+      tier = "CLEAR_WIN";
+      reasons.push("Strong, well-supported lean toward " + leaderName + ", confirmed by resilience data, no baseline conflict, no anomaly flag, and a real edge over the market.");
+      if (availabilityAgainstTrailer) reasons.push("A key player is also out on the trailing side \u2014 noted for completeness; it doesn't weaken " + leaderName + "'s case.");
+    } else if (clearOkExceptEdge && !edgeOk) {
+      tier = "STRONG_LEAN";
+      reasons.push("Every model cross-check confirms a strong lean toward " + leaderName + " \u2014 resilience, baseline, anomaly, and availability data all agree, at high confidence, well outside the tide band.");
+      reasons.push(edge === null ? "No odds entered, so there's nothing to compare against \u2014 this reflects model confidence only, not a claim about betting value." : "But there's little to no edge over the de-vigged market price (" + (edge * 100).toFixed(1) + "%) \u2014 the market already prices this correctly, so it isn't flagged as a value play even though the model is confident.");
+      if (availabilityAgainstTrailer) reasons.push("A key player is also out on the trailing side \u2014 noted for completeness; it doesn't weaken " + leaderName + "'s case.");
+    } else {
+      tier = "LEAN";
+      if (!strongOutsideTide) reasons.push("Differential isn't strongly outside the tide band.");
+      if (confidence !== "high") reasons.push(confidence === "medium" && completeness < 0.6 ? "Confidence capped at medium \u2014 several subscale categories are missing even though shared-opponent count looked strong." : "Fewer than 4 shared opponents \u2014 confidence isn't high.");
+      if (resilienceAgainstLeader) reasons.push("Resilience/adaptability data favors " + (leader === "A" ? B : A) + ", against the leading side.");
+      if (baselineConflicts) reasons.push("Baseline rating conflicts with this lean \u2014 worth rechecking the data.");
+      if (anomalyOnLeader) reasons.push("An anomaly flag sits on the leading side's data.");
+      if (availabilityAgainstLeader) reasons.push("A key player is confirmed out on the leading side \u2014 too significant to call a clean win regardless of what the historical data says.");
+      if (edge === null) reasons.push("No odds entered \u2014 can't confirm a real edge over the market yet.");
+      else if (edge < 0.05) reasons.push("Edge over the de-vigged market price is too small to call a clear win.");
+    }
+  }
+
+  if (commonOppRaw === NO_DATA) {
+    if (qualityProxy === "strong-support" || qualityProxy === "some-support") {
+      reasons.push("Advisory only (not counted toward the tier or probability yet): quality-of-wins fallback found " + (qualityProxy === "strong-support" ? "clear supporting evidence" : "mixed/partial supporting evidence") + " via ranking-points gap, with no contradicting loss found. Flagged for context while this method is still unvalidated.");
+    } else if (qualityContradicts) {
+      reasons.push("Quality-of-wins fallback found a contradicting result \u2014 a real loss to a clearly weaker opponent \u2014 which added caution toward this match's tier rather than being ignored.");
+    }
+  }
+
+  // Same past-date check as Step 1's banner, restated here so it survives into
+  // the verdict itself and the saved log entry -- Step 1's warning is easy to
+  // miss or scroll past by the time a verdict is actually computed.
+  if (pickedGameDate && pickedGameDate < todayISO()) {
+    reasons.push("Fixture date (" + pickedGameDate + ") is today or earlier \u2014 this match may already be in progress or finished. Treat this as a caution on the research itself, not a change to the tier.");
+  }
+
+  const verdict = { sport, A, B, tier, reasons, leaderName, leader, probA, probA3, probB3, modelDraw, odds, edge, confidence };
+
+  const inputsSnapshot = {
+    tournament: document.getElementById("tournament").value.trim(),
+    pickedMatchDate: pickedGameDate,
+    subscales: SUBSCALES.map(({ key, title }) => ({
+      title,
+      value: (() => {
+        const raw = document.getElementById("sub_" + key).value;
+        if (raw === NO_DATA) return "No data";
+        const lvl = LEVELS.find((l) => String(l.v) === raw);
+        return lvl ? lvl.label.split("{{A}}").join(A).split("{{B}}").join(B) : raw;
+      })(),
+    })),
+    sharedCount: sharedCount,
+    qualityProxy: qualityProxy,
+    baseline: baseline,
+    resilience: resilience === "A" ? A : resilience === "B" ? B : "Neutral / unclear",
+    anomalyA: anomalyA, anomalyB: anomalyB,
+    availabilityA: availabilityA, availabilityB: availabilityB,
+    oddsA: document.getElementById("oddsA").value || null,
+    oddsB: document.getElementById("oddsB").value || null,
+    oddsDraw: document.getElementById("oddsDraw").value || null,
+  };
+
+  saveLogEntry(verdict, inputsSnapshot);
+  renderVerdict(verdict);
+}
+
+function renderVerdict(r) {
+  const tournament = document.getElementById("tournament").value.trim();
+  document.getElementById("verdictHeader").textContent = r.A + " vs " + r.B + (tournament ? " \u2014 " + tournament : "");
+  const badge = document.getElementById("verdictBadge");
+  badge.textContent = r.tier.replace("_", " ");
+  badge.className = badgeClass(r.tier);
+  document.getElementById("verdictLean").textContent = r.tier === "PASS" ? "No pick \u2014 pass" : (r.leaderName ? "Lean: " + r.leaderName : "No lean");
+  let probText = r.tier === "PASS"
+    ? "Weighted lean withheld \u2014 core cross-checks are missing, so a probability figure would be misleading here."
+    : (r.sport === "football"
+        ? "Model probability: " + r.A + " " + (r.probA3 * 100).toFixed(1) + "% / " + r.B + " " + (r.probB3 * 100).toFixed(1) + "% / Draw " + (r.modelDraw * 100).toFixed(1) + "% (est.)"
+        : "Model probability for " + r.A + ": " + (r.probA * 100).toFixed(1) + "%");
+  if (r.tier !== "PASS" && r.odds) {
+    probText += " \u00b7 Market (de-vigged): " + r.A + " " + (r.odds.a * 100).toFixed(1) + "% / " + r.B + " " + (r.odds.b * 100).toFixed(1) + "%";
+    if (r.odds.draw !== undefined) probText += " / Draw " + (r.odds.draw * 100).toFixed(1) + "%";
+  }
+  document.getElementById("verdictProb").textContent = probText;
+  document.getElementById("verdictConfidence").textContent = "Confidence: " + r.confidence;
+
+  const reasonList = document.getElementById("reasonList");
+  reasonList.innerHTML = "";
+  r.reasons.forEach((txt) => {
+    const li = document.createElement("li");
+    li.textContent = txt;
+    reasonList.appendChild(li);
+  });
+
+  const plays = buildPlays(r);
+  const playsList = document.getElementById("playsList");
+  playsList.innerHTML = "";
+  plays.forEach((p) => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML =
+      '<div class="play-row"><div><div class="play-title">' + p.title + '</div><div class="play-detail">' + p.detail + '</div></div>' +
+      '<span class="' + badgeClass(p.tier) + '">' + p.tier.replace("_", " ") + "</span></div>";
+    playsList.appendChild(card);
+  });
+
+  goStep(4);
+}
+
+function buildPlays(r) {
+  const { sport, tier, leaderName, edge, A, B } = r;
+  const list = [];
+  if (tier === "CLEAR_WIN" || tier === "STRONG_LEAN" || tier === "LEAN") {
+    list.push({
+      title: leaderName + " to win",
+      detail: edge !== null ? (tier === "STRONG_LEAN" ? "No real edge over market (" + (edge * 100).toFixed(1) + "%) \u2014 model is confident but the market already agrees, so size accordingly." : "Edge over market: " + (edge * 100).toFixed(1) + "%") : "Add odds to see edge vs. the market.",
+      tier,
+    });
+    list.push({
+      title: sport === "tennis" ? leaderName + " -1.5 sets handicap" : sport === "baseball" ? leaderName + " run line" : leaderName + " on the handicap/spread",
+      detail: "Worth considering if hold/dominance rate is clearly higher even where the win margin is uncertain.",
+      tier: "LEAN",
+    });
+    list.push({
+      title: sport === "tennis" ? "First-set winner" : sport === "baseball" ? "First 5 innings winner" : "First-half / first-quarter winner",
+      detail: "Lower-variance alternative \u2014 less exposure to full-match momentum swings.",
+      tier: "LEAN",
+    });
+  } else if (tier === "TIDE_MATCH") {
+    list.push({
+      title: sport === "football" ? "Total goals over/under" : sport === "tennis" ? "Total games over/under" : sport === "baseball" ? "Total runs over/under" : "Points/sets total",
+      detail: "Derive your own line from both sides' recent scoring/hold rates and compare to the posted line.",
+      tier,
+    });
+    list.push({
+      title: sport === "football" ? "Draw no bet / Asian handicap" : sport === "baseball" ? "Run line handicap" : "Set/spread handicap",
+      detail: "Removes some of the coin-flip risk on a genuine toss-up.",
+      tier,
+    });
+    list.push({
+      title: sport === "tennis" ? "Match to include a tiebreak" : sport === "baseball" ? "First 5 innings winner" : "First-half / first-set winner",
+      detail: "A narrower, lower-variance angle on an evenly matched game.",
+      tier,
+    });
+  } else if (tier === "PASS") {
+    list.push({
+      title: "Pass \u2014 no bet",
+      detail: "2 or more of common-opponent data, head-to-head, and baseline rating agreement are missing or conflicting. The cross-checks this system is built on aren't there, so no play is recommended regardless of which side the weighted lean favors.",
+      tier,
+    });
+  } else {
+    list.push({
+      title: "No recommendation",
+      detail: "Not enough shared-opponent data to trust a call either way \u2014 gather more history before betting this one.",
+      tier,
+    });
+  }
+  return list;
+}
+
+// ---------- LOG: storage, list rendering, expand/collapse ----------
+
+// This file works two ways: opened inside Claude.ai (as an artifact, where
+// window.storage is Anthropic's persistent backend) or opened as a plain
+// .html file in an ordinary browser (double-clicked, hosted, etc.), where
+// window.storage doesn't exist at all. Previously every save silently threw
+// in that second case, so nothing was ever actually written to disk -- the
+// log looked fine until the page reloaded, then it was gone. This adapter
+// picks the real persistent backend when available and falls back to the
+// browser's own localStorage (which *does* survive restarts) otherwise, so
+// the log is durable either way this file gets used.
+const hasArtifactStorage = typeof window !== "undefined" && !!window.storage && typeof window.storage.get === "function";
+const LOCAL_PREFIX = "matchAuditTool:";
+const storageBackend = {
+  async get(key, shared) {
+    if (hasArtifactStorage) return window.storage.get(key, !!shared);
+    const raw = localStorage.getItem(LOCAL_PREFIX + key);
+    if (raw === null) throw new Error("key not found: " + key);
+    return { key, value: raw, shared: !!shared };
+  },
+  async set(key, value, shared) {
+    if (hasArtifactStorage) return window.storage.set(key, value, !!shared);
+    localStorage.setItem(LOCAL_PREFIX + key, value);
+    return { key, value, shared: !!shared };
+  },
+  async delete(key, shared) {
+    if (hasArtifactStorage) return window.storage.delete(key, !!shared);
+    localStorage.removeItem(LOCAL_PREFIX + key);
+    return { key, deleted: true, shared: !!shared };
+  },
+};
+
+const LOG_INDEX_KEY = "log-index";
+let logIndexCache = null;      // array of summary objects, newest first
+let logDetailCache = {};       // id -> full entry (populated on expand)
+let currentView = "audit";
+
+// ---------- Name/tournament autocomplete (recall-as-you-type) ----------
+// Backed by the same storage adapter as everything else (artifact storage
+// or localStorage), so it survives page reloads. Populates two <datalist>s
+// which give native browser "type a few letters, see past matches" recall
+// on the name and tournament fields -- no extra UI needed.
+const NAME_HISTORY_KEY = "name-history";
+const TOURNAMENT_HISTORY_KEY = "tournament-history";
+let nameHistory = [];
+let tournamentHistory = [];
+
+function renderHistoryDatalist(id, list) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.innerHTML = list.map((v) => '<option value="' + v.replace(/"/g, "&quot;") + '">').join("");
+}
+
+async function loadNameAndTournamentHistory() {
+  try {
+    const res = await storageBackend.get(NAME_HISTORY_KEY, false);
+    nameHistory = res && res.value ? JSON.parse(res.value) : [];
+  } catch (e) { nameHistory = []; }
+  try {
+    const res = await storageBackend.get(TOURNAMENT_HISTORY_KEY, false);
+    tournamentHistory = res && res.value ? JSON.parse(res.value) : [];
+  } catch (e) { tournamentHistory = []; }
+  renderHistoryDatalist("nameHistoryList", nameHistory);
+  renderHistoryDatalist("tournamentHistoryList", tournamentHistory);
+}
+
+function addUnique(list, value, max) {
+  const v = (value || "").trim();
+  if (!v) return list;
+  const filtered = list.filter((x) => x.toLowerCase() !== v.toLowerCase());
+  filtered.unshift(v);
+  return filtered.slice(0, max);
+}
+
+// Called whenever a real set of names is committed (Step 2 generated, or a
+// result logged) -- not on every keystroke, so partial typing never pollutes
+// the list. Best-effort: a storage failure here never blocks the actual
+// audit flow.
+async function rememberNamesAndTournament(a, b, tournament) {
+  let changed = false;
+  const beforeN = nameHistory.length, beforeT = tournamentHistory.length;
+  nameHistory = addUnique(nameHistory, a, 200);
+  nameHistory = addUnique(nameHistory, b, 200);
+  tournamentHistory = addUnique(tournamentHistory, tournament, 100);
+  changed = nameHistory.length !== beforeN || nameHistory[0] !== a || tournamentHistory.length !== beforeT || tournamentHistory[0] !== tournament;
+  renderHistoryDatalist("nameHistoryList", nameHistory);
+  renderHistoryDatalist("tournamentHistoryList", tournamentHistory);
+  try {
+    await storageBackend.set(NAME_HISTORY_KEY, JSON.stringify(nameHistory), false);
+    await storageBackend.set(TOURNAMENT_HISTORY_KEY, JSON.stringify(tournamentHistory), false);
+  } catch (e) { /* best effort -- autocomplete list just won't persist this entry */ }
+}
+
+function fmtProb(v) {
+  return (v * 100).toFixed(1) + "%";
+}
+
+let lastVerdict = null, lastInputsSnapshot = null; // kept for retry-on-failure
+let lastSavedLogEntryId = null; // so "View in log" can jump straight to this entry instead of just opening the tab
+
+async function saveLogEntry(r, inputsSnapshot) {
+  lastVerdict = r;
+  lastInputsSnapshot = inputsSnapshot;
+  hideLogSaveWarning();
+
+  const id = Date.now() + "-" + Math.random().toString(36).slice(2, 8);
+  const sportLabel = SPORTS[r.sport] ? SPORTS[r.sport].label : r.sport;
+  let probShort;
+  if (r.tier === "PASS") {
+    probShort = "No probability (pass)";
+  } else if (r.sport === "football") {
+    probShort = r.A + " " + fmtProb(r.probA3) + " / " + r.B + " " + fmtProb(r.probB3) + (r.modelDraw !== null ? " / Draw " + fmtProb(r.modelDraw) : "");
+  } else {
+    probShort = r.A + " " + fmtProb(r.probA) + " / " + r.B + " " + fmtProb(1 - r.probA);
+  }
+
+  const summary = {
+    id, ts: Date.now(),
+    sport: r.sport, sportLabel,
+    A: r.A, B: r.B, tournament: inputsSnapshot.tournament,
+    tier: r.tier, leaderName: r.leaderName, confidence: r.confidence,
+    probShort,
+  };
+
+  const full = { ...summary, reasons: r.reasons, plays: buildPlays(r), odds: r.odds, edge: r.edge, inputs: inputsSnapshot };
+
+  // Write the full record FIRST. Only once it's actually persisted do we add it to
+  // the index -- otherwise a failure on this second step would leave an index entry
+  // pointing at a detail record that was never saved, which shows up later as a
+  // permanently blank "Detail unavailable" row with no way to recover it.
+  try {
+    await storageBackend.set("log-entry:" + id, JSON.stringify(full), false);
+    logDetailCache[id] = full;
+    lastSavedLogEntryId = id;
+  } catch (e) {
+    console.error("Could not save log entry detail", e);
+    showLogSaveWarning();
+    return;
+  }
+
+  try {
+    if (logIndexCache === null) logIndexCache = await loadLogIndex();
+    logIndexCache.unshift(summary);
+    await storageBackend.set(LOG_INDEX_KEY, JSON.stringify(logIndexCache), false);
+    updateLogCount();
+  } catch (e) {
+    console.error("Could not update log index", e);
+    // Roll back the in-memory index add so it doesn't drift from what's on disk.
+    logIndexCache = (logIndexCache || []).filter((s) => s.id !== id);
+    showLogSaveWarning();
+  }
+}
+
+function showLogSaveWarning() {
+  const el = document.getElementById("logSaveWarning");
+  if (el) el.className = "card";
+}
+function hideLogSaveWarning() {
+  const el = document.getElementById("logSaveWarning");
+  if (el) el.className = "card hidden";
+}
+async function retrySaveLogEntry() {
+  if (lastVerdict) await saveLogEntry(lastVerdict, lastInputsSnapshot);
+}
+
+async function loadLogIndex() {
+  try {
+    const res = await storageBackend.get(LOG_INDEX_KEY, false);
+    if (res && res.value) return JSON.parse(res.value);
+    return [];
+  } catch (e) {
+    return []; // no log-index key yet -- brand new log, not an error
+  }
+}
+
+function updateLogCount() {
+  const n = logIndexCache ? logIndexCache.length : 0;
+  document.getElementById("navLogCount").textContent = n;
+}
+
+async function showView(view) {
+  currentView = view;
+  document.getElementById("auditView").className = view === "audit" ? "" : "hidden";
+  document.getElementById("logView").className = view === "log" ? "" : "hidden";
+  document.getElementById("navAudit").className = "top-nav-tab" + (view === "audit" ? " active" : "");
+  document.getElementById("navLog").className = "top-nav-tab" + (view === "log" ? " active" : "");
+  if (view === "log") await loadAndRenderLog();
+}
+
+// "View in log" (Step 4) used to just open the Log tab at the top of the whole
+// list, leaving the person to scroll and find the entry they just generated.
+// This jumps straight to it: clears any filters that could be hiding it,
+// scrolls it into view, and expands it the same way clicking it would.
+async function viewLastAuditInLog() {
+  if (!lastSavedLogEntryId) { showView("log"); return; }
+  const id = lastSavedLogEntryId;
+  await showView("log");
+  document.getElementById("logSearch").value = "";
+  document.getElementById("logSportFilter").value = "";
+  document.getElementById("logTierFilter").value = "";
+  document.getElementById("logResultFilter").value = "";
+  renderLogList();
+  const el = document.getElementById("logentry-" + id);
+  if (!el) return;
+  el.scrollIntoView({ behavior: "smooth", block: "center" });
+  if (el.className.indexOf("expanded") === -1) await toggleLogEntry(id);
+}
+
+let appSettings = null; // { backendUrl }
+
+async function loadSettings() {
+  if (appSettings !== null) return appSettings;
+  try {
+    const res = await storageBackend.get("settings", false);
+    appSettings = res && res.value ? JSON.parse(res.value) : { backendUrl: "" };
+  } catch (e) {
+    appSettings = { backendUrl: "" };
+  }
+  return appSettings;
+}
+
+function toggleSettingsPanel() {
+  const panel = document.getElementById("settingsPanel");
+  const chevron = document.getElementById("settingsChevron");
+  const opening = panel.className.indexOf("hidden") !== -1;
+  panel.className = opening ? "" : "hidden";
+  chevron.textContent = opening ? "\u25be" : "\u25b8";
+  if (opening) document.getElementById("backendUrlInput").value = (appSettings && appSettings.backendUrl) || "";
+}
+
+async function saveSettings() {
+  const url = document.getElementById("backendUrlInput").value.trim().replace(/\/+$/, "");
+  appSettings = { backendUrl: url };
+  try {
+    await storageBackend.set("settings", JSON.stringify(appSettings), false);
+    document.getElementById("settingsSavedNote").textContent = url ? "Saved. Auto-check is now available." : "Cleared \u2014 results will need to be marked manually.";
+  } catch (e) {
+    document.getElementById("settingsSavedNote").textContent = "Couldn't save (storage error). Try again.";
+  }
+}
+
+async function testBackendConnection() {
+  const url = document.getElementById("backendUrlInput").value.trim().replace(/\/+$/, "");
+  const note = document.getElementById("settingsSavedNote");
+  if (!url) { note.textContent = "Enter a backend URL first."; return; }
+  note.textContent = "Testing\u2026";
+  try {
+    const resp = await fetch(url + "/api/health");
+    const data = await resp.json();
+    note.textContent = data && data.ok ? "\u2713 Reachable and responding." : "Reached the server, but it didn't respond as expected.";
+  } catch (e) {
+    note.textContent = "Couldn't reach that URL (" + e.message + "). Check it's deployed and CORS is open.";
+  }
+}
+
+function renderLogStats() {
+  const all = logIndexCache || [];
+  const line = document.getElementById("logStatsLine");
+  if (all.length === 0) { line.textContent = ""; return; }
+  const checked = all.filter((e) => e.resultStatus);
+  const correct = checked.filter((e) => e.resultStatus === "correct").length;
+  const incorrect = checked.filter((e) => e.resultStatus === "incorrect").length;
+  const push = checked.filter((e) => e.resultStatus === "push").length;
+  let text = all.length + " audit" + (all.length === 1 ? "" : "s") + " logged \u00b7 " + checked.length + " result" + (checked.length === 1 ? "" : "s") + " checked";
+  if (checked.length > 0) {
+    text += " (" + correct + " correct, " + incorrect + " incorrect" + (push ? ", " + push + " push" : "") + ")";
+    if (correct + incorrect > 0) text += " \u00b7 " + ((correct / (correct + incorrect)) * 100).toFixed(1) + "% hit rate";
+  }
+  line.textContent = text;
+}
+
+async function loadAndRenderLog() {
+  if (logIndexCache === null) {
+    document.getElementById("logList").innerHTML = '<div class="log-loading">Loading log\u2026</div>';
+    logIndexCache = await loadLogIndex();
+  }
+  await loadSettings();
+  updateLogCount();
+  renderLogStats();
+  renderLogList();
+}
+
+function dayLabel(ts) {
+  const d = new Date(ts);
+  const today = new Date();
+  const yest = new Date(); yest.setDate(today.getDate() - 1);
+  const sameDay = (a, b) => a.toDateString() === b.toDateString();
+  if (sameDay(d, today)) return "Today";
+  if (sameDay(d, yest)) return "Yesterday";
+  return d.toLocaleDateString(undefined, { weekday: "short", year: "numeric", month: "short", day: "numeric" });
+}
+
+function renderLogList() {
+  const container = document.getElementById("logList");
+  const all = logIndexCache || [];
+  const q = document.getElementById("logSearch").value.trim().toLowerCase();
+  const sportF = document.getElementById("logSportFilter").value;
+  const tierF = document.getElementById("logTierFilter").value;
+  const resultF = document.getElementById("logResultFilter").value;
+
+  const filtered = all.filter((e) => {
+    if (sportF && e.sport !== sportF) return false;
+    if (tierF && e.tier !== tierF) return false;
+    if (resultF === "unchecked" && e.resultStatus) return false;
+    if (resultF && resultF !== "unchecked" && e.resultStatus !== resultF) return false;
+    if (q) {
+      const hay = (e.A + " " + e.B + " " + (e.tournament || "")).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  document.getElementById("logCountText").textContent =
+    all.length === 0 ? "" : filtered.length + " of " + all.length + " audit" + (all.length === 1 ? "" : "s");
+
+  if (all.length === 0) {
+    container.innerHTML = '<div class="log-empty">No audits logged yet. Run one from \u201cNew audit\u201d and it\u2019ll show up here.</div>';
+    return;
+  }
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="log-empty">No entries match your search/filters.</div>';
+    return;
+  }
+
+  container.innerHTML = "";
+  let lastDay = null;
+  filtered.forEach((e) => {
+    const day = dayLabel(e.ts);
+    if (day !== lastDay) {
+      const h = document.createElement("div");
+      h.className = "log-date-heading";
+      h.textContent = day;
+      container.appendChild(h);
+      lastDay = day;
+    }
+
+    const entry = document.createElement("div");
+    entry.className = "log-entry";
+    entry.id = "logentry-" + e.id;
+    const time = new Date(e.ts).toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" });
+    const resultPill = e.resultStatus
+      ? '<span class="result-pill ' + e.resultStatus + '">' + (e.resultStatus === "correct" ? "\u2713" : e.resultStatus === "incorrect" ? "\u2717" : "push") + '</span>'
+      : "";
+    entry.innerHTML =
+      '<div class="log-entry-head" onclick="toggleLogEntry(\'' + e.id + '\')">' +
+        '<svg class="log-chevron" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+        '<div class="log-entry-main">' +
+          '<div class="log-entry-title">' + e.A + ' vs ' + e.B + '</div>' +
+          '<div class="log-entry-sub">' + e.sportLabel + (e.tournament ? " \u00b7 " + e.tournament : "") + '</div>' +
+        '</div>' +
+        '<div class="log-entry-badges">' + resultPill + '<span class="' + badgeClass(e.tier) + '">' + e.tier.replace("_", " ") + '</span></div>' +
+        '<div class="log-entry-time">' + time + '</div>' +
+      '</div>' +
+      '<div class="log-entry-body" id="logbody-' + e.id + '"><div class="log-loading">Loading detail\u2026</div></div>';
+    container.appendChild(entry);
+  });
+}
+
+async function toggleLogEntry(id) {
+  const entryEl = document.getElementById("logentry-" + id);
+  const wasExpanded = entryEl.className.indexOf("expanded") !== -1;
+  if (wasExpanded) {
+    entryEl.className = "log-entry";
+    return;
+  }
+  entryEl.className = "log-entry expanded";
+  await renderLogDetail(id);
+}
+
+async function renderLogDetail(id) {
+  const body = document.getElementById("logbody-" + id);
+  let full = logDetailCache[id];
+  if (!full) {
+    try {
+      const res = await storageBackend.get("log-entry:" + id, false);
+      full = res && res.value ? JSON.parse(res.value) : null;
+      if (full) logDetailCache[id] = full;
+    } catch (e) {
+      full = null;
+    }
+  }
+  if (!full) {
+    body.innerHTML = '<div class="log-loading">Couldn\u2019t load this entry\u2019s detail. <a href="#" onclick="renderLogDetail(\'' + id + '\'); return false;">Retry</a></div>';
+    return;
+  }
+
+  let html = "";
+  html += '<div class="log-detail-section"><div class="log-detail-label">Verdict</div>' +
+    '<div class="verdict-sub">' + (full.leaderName ? "Lean: " + full.leaderName : "No lean") + ' \u00b7 Confidence: ' + full.confidence + '</div>' +
+    '<div class="verdict-sub" style="margin-top:2px">' + full.probShort + '</div>';
+  if (full.odds) {
+    let oddsTxt = "Market (de-vigged): " + full.A + " " + fmtProb(full.odds.a) + " / " + full.B + " " + fmtProb(full.odds.b);
+    if (full.odds.draw !== undefined) oddsTxt += " / Draw " + fmtProb(full.odds.draw);
+    if (full.edge !== null && full.edge !== undefined) oddsTxt += " \u00b7 Edge: " + (full.edge * 100).toFixed(1) + "%";
+    html += '<div class="verdict-sub" style="margin-top:2px">' + oddsTxt + '</div>';
+  }
+  html += '</div>';
+
+  html += '<div class="log-detail-section"><div class="log-detail-label">Why this tier</div><ul class="reason-list">' +
+    full.reasons.map((t) => "<li>" + t + "</li>").join("") + '</ul></div>';
+
+  html += '<div class="log-detail-section"><div class="log-detail-label">Top plays</div>' +
+    full.plays.map((p) =>
+      '<div class="card" style="margin-bottom:6px"><div class="play-row"><div><div class="play-title">' + p.title + '</div><div class="play-detail">' + p.detail + '</div></div>' +
+      '<span class="' + badgeClass(p.tier) + '">' + p.tier.replace("_", " ") + '</span></div></div>'
+    ).join("") + '</div>';
+
+  const inp = full.inputs;
+  html += '<div class="log-detail-section"><div class="log-detail-label">Inputs used</div><div class="log-inputs-grid">' +
+    inp.subscales.map((s) => '<div><span class="k">' + s.title + '</span><span>' + s.value + '</span></div>').join("") +
+    '<div><span class="k">Shared opponents</span><span>' + inp.sharedCount + '</span></div>' +
+    '<div><span class="k">Quality-of-wins fallback</span><span>' + inp.qualityProxy + '</span></div>' +
+    '<div><span class="k">Baseline rating</span><span>' + inp.baseline + '</span></div>' +
+    '<div><span class="k">Resilience</span><span>' + inp.resilience + '</span></div>' +
+    '<div><span class="k">Anomaly A / B</span><span>' + (inp.anomalyA ? "Yes" : "No") + " / " + (inp.anomalyB ? "Yes" : "No") + '</span></div>' +
+    '<div><span class="k">Availability A / B</span><span>' + (inp.availabilityA ? "Out" : "\u2014") + " / " + (inp.availabilityB ? "Out" : "\u2014") + '</span></div>' +
+    (inp.oddsA ? '<div><span class="k">Odds A / B' + (inp.oddsDraw ? " / Draw" : "") + '</span><span>' + inp.oddsA + " / " + inp.oddsB + (inp.oddsDraw ? " / " + inp.oddsDraw : "") + '</span></div>' : "") +
+    '</div></div>';
+
+  html += '<div class="log-detail-section"><div class="log-detail-label">Result</div><div id="resultBox-' + id + '">' + renderResultBoxHtml(full) + '</div></div>';
+
+  html += '<div class="log-entry-actions"><button class="btn-danger-link" onclick="deleteLogEntry(\'' + id + '\', event)">Delete this entry</button></div>';
+
+  body.innerHTML = html;
+}
+
+function renderResultBoxHtml(full) {
+  if (!full.leaderName) {
+    return '<div class="verdict-sub">No pick was made on this audit (pass/tide match) \u2014 nothing to check.</div>';
+  }
+  if (full.result) {
+    const r = full.result;
+    const label = r.status === "correct" ? "Correct \u2713" : r.status === "incorrect" ? "Incorrect \u2717" : "Push / void";
+    return (
+      '<div class="verdict-sub"><span class="result-pill ' + r.status + '" style="margin-right:6px">' + label + '</span>' +
+      (r.scoreText ? r.scoreText + " \u00b7 " : "") + (r.source === "auto" ? "auto-checked" : "marked manually") +
+      '</div>' +
+      '<div class="log-entry-actions" style="margin-top:8px"><button class="btn-danger-link" onclick="clearResult(\'' + full.id + '\', event)">Clear result</button></div>'
+    );
+  }
+  return (
+    '<div class="result-check-box">' +
+    '<div class="verdict-sub">Pick: ' + full.leaderName + '</div>' +
+    '<div style="margin-top:8px"><button class="btn-secondary" onclick="checkResult(\'' + full.id + '\')">Check result</button></div>' +
+    '<div class="manual-row">' +
+      '<button class="btn-link" onclick="markResult(\'' + full.id + '\', \'correct\', {source:\'manual\'})">Mark correct</button>' +
+      '<button class="btn-link" onclick="markResult(\'' + full.id + '\', \'incorrect\', {source:\'manual\'})">Mark incorrect</button>' +
+      '<button class="btn-link" onclick="markResult(\'' + full.id + '\', \'push\', {source:\'manual\'})">Mark push/void</button>' +
+    '</div>' +
+    '</div>'
+  );
+}
+
+// There's no manual "match date" field -- picks are logged close to game
+// time, so the save timestamp is normally a reliable stand-in for the day
+// the match was played. When a game was clicked from the Step 1 picker,
+// though, we have the fixture's real scheduled date, which is more
+// accurate, so that's preferred when present.
+function deriveMatchDate(full) {
+  const picked = full.inputs && full.inputs.pickedMatchDate;
+  if (picked) return picked;
+  return new Date(full.ts).toISOString().slice(0, 10);
+}
+
+async function checkResult(id) {
+  const box = document.getElementById("resultBox-" + id);
+  const full = logDetailCache[id];
+  if (!full) return;
+  await loadSettings();
+  const backendUrl = appSettings && appSettings.backendUrl;
+  if (!backendUrl) {
+    box.innerHTML = '<div class="result-check-box"><div class="verdict-sub">No results backend is set up yet \u2014 open \u201cResult-checking backend\u201d above to add one, or mark this manually below.</div>' +
+      '<div class="manual-row">' +
+        '<button class="btn-link" onclick="markResult(\'' + id + '\', \'correct\', {source:\'manual\'})">Mark correct</button>' +
+        '<button class="btn-link" onclick="markResult(\'' + id + '\', \'incorrect\', {source:\'manual\'})">Mark incorrect</button>' +
+        '<button class="btn-link" onclick="markResult(\'' + id + '\', \'push\', {source:\'manual\'})">Mark push/void</button>' +
+      '</div></div>';
+    return;
+  }
+
+  box.innerHTML = '<div class="log-loading">Checking\u2026</div>';
+  let data;
+  try {
+    const resp = await fetch(backendUrl + "/api/check-result", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ sport: full.sport, A: full.A, B: full.B, tournament: full.inputs.tournament, matchDate: deriveMatchDate(full) }),
+    });
+    data = await resp.json();
+  } catch (e) {
+    data = { status: "error", message: e.message };
+  }
+
+  const pickedSide = full.leaderName === full.A ? "A" : full.leaderName === full.B ? "B" : null;
+  const manualFallback =
+    '<div class="manual-row">' +
+      '<button class="btn-link" onclick="markResult(\'' + id + '\', \'correct\', {source:\'manual\'})">Mark correct</button>' +
+      '<button class="btn-link" onclick="markResult(\'' + id + '\', \'incorrect\', {source:\'manual\'})">Mark incorrect</button>' +
+      '<button class="btn-link" onclick="markResult(\'' + id + '\', \'push\', {source:\'manual\'})">Mark push/void</button>' +
+    '</div>';
+
+  if (data.status === "found" && pickedSide) {
+    const status = data.winnerSide === "draw" ? "push" : data.winnerSide === pickedSide ? "correct" : "incorrect";
+    const scoreText = (data.scoreText || "") + (data.matchedNames ? " (matched to " + data.matchedNames.a + " vs " + data.matchedNames.b + ")" : "");
+    box.innerHTML =
+      '<div class="result-check-box"><div class="verdict-sub">Found: ' + scoreText + '</div>' +
+      '<div class="verdict-sub" style="margin-top:4px">This would mark the pick as <b>' + status + '</b>.</div>' +
+      '<div style="margin-top:8px"><button class="btn-secondary" onclick="markResult(\'' + id + '\', \'' + status + '\', {source:\'auto\', scoreText: ' + JSON.stringify(data.scoreText || "") + '})">Confirm & save</button></div>' +
+      manualFallback + '</div>';
+  } else if (data.status === "not_finished") {
+    box.innerHTML = '<div class="result-check-box"><div class="verdict-sub">This match hasn\u2019t finished yet (or hasn\u2019t started). Check back later.</div>' + manualFallback + '</div>';
+  } else if (data.status === "ambiguous") {
+    box.innerHTML = '<div class="result-check-box"><div class="verdict-sub">Found more than one possible match and couldn\u2019t tell which one \u2014 mark it manually instead.</div>' + manualFallback + '</div>';
+  } else if (data.status === "unsupported") {
+    box.innerHTML = '<div class="result-check-box"><div class="verdict-sub">Auto-check isn\u2019t wired up for this sport yet on your backend \u2014 mark it manually.</div>' + manualFallback + '</div>';
+  } else {
+    box.innerHTML = '<div class="result-check-box"><div class="verdict-sub">Couldn\u2019t find this match' + (data.message ? " (" + data.message + ")" : "") + ' \u2014 mark it manually.</div>' + manualFallback + '</div>';
+  }
+}
+
+// Walks every logged pick that doesn't have a result yet and auto-checks it
+// against the backend, one request at a time with a short pause between each
+// (be polite to the free-tier API and avoid tripping any rate limit). Unlike
+// the single-entry "Check result" button -- which shows a Confirm & save step
+// so you can eyeball one match before it's written -- this applies "found"
+// results straight away, on the same confidence rule the backend already
+// uses (unambiguous team + game match, or it reports not_found/ambiguous and
+// gets left for manual review here instead of guessed at).
+let bulkCheckRunning = false;
+
+async function checkAllUnmarkedResults() {
+  if (bulkCheckRunning) return;
+  await loadSettings();
+  const note = document.getElementById("bulkCheckNote");
+  const backendUrl = appSettings && appSettings.backendUrl;
+  if (!backendUrl) {
+    if (note) note.textContent = "No results backend is set up yet \u2014 open \u201cResult-checking backend\u201d above to add one first.";
+    return;
+  }
+  logIndexCache = await loadLogIndex(); // always reload fresh -- an in-memory cache from earlier in
+  // the session (or stale from before a fix like this one) could silently miss entries and skim
+  // past them instead of checking every logged pick, which is exactly what "always, no skimming" means
+  const targets = (logIndexCache || []).filter((e) => !e.resultStatus);
+  if (targets.length === 0) {
+    if (note) note.textContent = "Nothing to check \u2014 every logged entry already has a result.";
+    return;
+  }
+
+  bulkCheckRunning = true;
+  const btn = document.getElementById("checkAllBtn");
+  if (btn) btn.disabled = true;
+
+  let checkedCount = 0, updated = 0, needsReview = 0, unsupported = 0, noPick = 0, failed = 0;
+  for (const summary of targets) {
+    if (note) note.textContent = "Checking " + (checkedCount + 1) + " of " + targets.length + "\u2026 (" + updated + " updated so far)";
+
+    let full = logDetailCache[summary.id];
+    if (!full) {
+      try {
+        const res = await storageBackend.get("log-entry:" + summary.id, false);
+        full = res && res.value ? JSON.parse(res.value) : null;
+        if (full) logDetailCache[summary.id] = full;
+      } catch (e) {
+        full = null;
+      }
+    }
+    checkedCount++;
+
+    if (!full || !full.leaderName) { noPick++; continue; } // pass/tide-match audits had no pick to check
+    const pickedSide = full.leaderName === full.A ? "A" : full.leaderName === full.B ? "B" : null;
+    if (!pickedSide) { noPick++; continue; }
+
+    try {
+      const resp = await fetch(backendUrl + "/api/check-result", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          sport: full.sport, A: full.A, B: full.B,
+          tournament: (full.inputs && full.inputs.tournament) || full.tournament,
+          matchDate: deriveMatchDate(full),
+        }),
+      });
+      const data = await resp.json();
+      if (data && data.status === "found") {
+        const status = data.winnerSide === "draw" ? "push" : data.winnerSide === pickedSide ? "correct" : "incorrect";
+        await markResult(summary.id, status, { source: "auto", scoreText: data.scoreText || "" }, true);
+        updated++;
+      } else if (data && data.status === "unsupported") {
+        unsupported++;
+      } else {
+        needsReview++;
+      }
+    } catch (e) {
+      failed++;
+    }
+
+    await new Promise((r) => setTimeout(r, 350)); // stagger requests
+  }
+
+  bulkCheckRunning = false;
+  if (btn) btn.disabled = false;
+  renderLogStats();
+  renderLogList();
+
+  if (note) {
+    let msg = "Checked " + checkedCount + " of " + targets.length + " \u2014 " + updated + " updated automatically";
+    if (needsReview) msg += ", " + needsReview + " need manual review (not found / ambiguous / not finished)";
+    if (unsupported) msg += ", " + unsupported + " on a sport with no results provider configured";
+    if (noPick) msg += ", " + noPick + " had no pick to check";
+    if (failed) msg += ", " + failed + " failed to reach the backend";
+    note.textContent = msg + ".";
+  }
+}
+
+async function markResult(id, status, extra, silent) {
+  const full = logDetailCache[id];
+  if (!full) return;
+  full.result = { status, scoreText: (extra && extra.scoreText) || null, source: (extra && extra.source) || "manual", checkedAt: Date.now() };
+  try {
+    await storageBackend.set("log-entry:" + id, JSON.stringify(full), false);
+    logDetailCache[id] = full;
+    const idxEntry = (logIndexCache || []).find((e) => e.id === id);
+    if (idxEntry) idxEntry.resultStatus = status;
+    await storageBackend.set(LOG_INDEX_KEY, JSON.stringify(logIndexCache), false);
+    if (!silent) {
+      const box = document.getElementById("resultBox-" + id);
+      if (box) box.innerHTML = renderResultBoxHtml(full);
+      renderLogStats();
+      renderLogList();
+    }
+  } catch (e) {
+    console.error("Could not save result", e);
+  }
+}
+
+async function clearResult(id, evt) {
+  if (evt) evt.stopPropagation();
+  const full = logDetailCache[id];
+  if (!full) return;
+  full.result = null;
+  try {
+    await storageBackend.set("log-entry:" + id, JSON.stringify(full), false);
+    logDetailCache[id] = full;
+    const idxEntry = (logIndexCache || []).find((e) => e.id === id);
+    if (idxEntry) idxEntry.resultStatus = null;
+    await storageBackend.set(LOG_INDEX_KEY, JSON.stringify(logIndexCache), false);
+    const box = document.getElementById("resultBox-" + id);
+    if (box) box.innerHTML = renderResultBoxHtml(full);
+    renderLogStats();
+    renderLogList();
+  } catch (e) {
+    console.error("Could not clear result", e);
+  }
+}
+
+async function deleteLogEntry(id, evt) {
+  if (evt) evt.stopPropagation();
+  if (!confirm("Delete this log entry? This can't be undone.")) return;
+  try {
+    logIndexCache = (logIndexCache || []).filter((e) => e.id !== id);
+    await storageBackend.set(LOG_INDEX_KEY, JSON.stringify(logIndexCache), false);
+    await storageBackend.delete("log-entry:" + id, false);
+    delete logDetailCache[id];
+    updateLogCount();
+    renderLogList();
+  } catch (e) {
+    console.error("Could not delete log entry", e);
+  }
+}
+
+// ---------- Backup / restore: a real file you keep, independent of whichever
+// storage backend (Claude.ai artifact storage vs this browser's localStorage)
+// happens to be in play when you open a given copy of this file. ----------
+
+// Optional upgrade for Chrome/Edge: instead of every export landing in the
+// Downloads folder for you to move by hand, the File System Access API lets
+// you point this tool at your Contents/Logs folder once and write straight
+// into it from then on. The folder handle is remembered in this browser's
+// IndexedDB (a separate, larger-capacity store from localStorage) so you
+// don't have to re-pick it every visit -- only re-confirm permission, which
+// the browser requires once per session and which happens automatically the
+// next time you click Export. Firefox and Safari don't implement this API at
+// all, so on those the tool quietly falls back to a normal download; nothing
+// breaks, you just lose the "writes itself into the folder" convenience.
+const hasFSAccess = typeof window !== "undefined" && typeof window.showDirectoryPicker === "function";
+let logsFolderHandle = null;
+
+function idbOpen() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open("matchAuditToolHandles", 1);
+    req.onupgradeneeded = () => req.result.createObjectStore("handles");
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+async function idbGet(key) {
+  const db = await idbOpen();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction("handles", "readonly");
+    const req = tx.objectStore("handles").get(key);
+    req.onsuccess = () => resolve(req.result || null);
+    req.onerror = () => reject(req.error);
+  });
+}
+async function idbSet(key, val) {
+  const db = await idbOpen();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction("handles", "readwrite");
+    tx.objectStore("handles").put(val, key);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+async function initLogsFolder() {
+  const row = document.getElementById("logsFolderRow");
+  const unsupported = document.getElementById("logsFolderUnsupportedNote");
+  if (!hasFSAccess) {
+    if (unsupported) unsupported.className = "help";
+    return;
+  }
+  if (row) row.className = "";
+  try {
+    const handle = await idbGet("logsFolderHandle");
+    if (handle) {
+      logsFolderHandle = handle;
+      const perm = await handle.queryPermission({ mode: "readwrite" });
+      updateLogsFolderStatus(perm);
+    }
+  } catch (e) {
+    console.warn("Could not restore remembered logs folder", e);
+  }
+}
+
+function updateLogsFolderStatus(permState) {
+  const el = document.getElementById("logsFolderStatus");
+  if (!el) return;
+  if (!logsFolderHandle) { el.textContent = "Logs folder: not set"; return; }
+  el.textContent = permState === "granted"
+    ? "Logs folder: " + logsFolderHandle.name + " (ready)"
+    : "Logs folder: " + logsFolderHandle.name + " (click Export to reconfirm access)";
+}
+
+async function chooseLogsFolder() {
+  if (!hasFSAccess) return;
+  try {
+    const handle = await window.showDirectoryPicker({ mode: "readwrite" });
+    logsFolderHandle = handle;
+    await idbSet("logsFolderHandle", handle);
+    updateLogsFolderStatus("granted");
+    if (document.getElementById("exportMergeToggle") && document.getElementById("exportMergeToggle").checked) {
+      onExportMergeToggle();
+    }
+  } catch (e) {
+    if (e.name !== "AbortError") console.error("Could not set logs folder", e);
+  }
+}
+
+// Must be called from inside a click handler (not after other awaits) so the
+// browser still counts it as a user gesture if it needs to re-prompt.
+async function ensureLogsFolderPermission() {
+  if (!logsFolderHandle) return false;
+  let perm = await logsFolderHandle.queryPermission({ mode: "readwrite" });
+  if (perm !== "granted") perm = await logsFolderHandle.requestPermission({ mode: "readwrite" });
+  updateLogsFolderStatus(perm);
+  return perm === "granted";
+}
+
+async function refreshLogsFolderFiles() {
+  const select = document.getElementById("exportMergeTargetSelect");
+  if (!select || !logsFolderHandle) return;
+  select.innerHTML = '<option value="">(loading\u2026)</option>';
+  const ok = await ensureLogsFolderPermission();
+  if (!ok) { select.innerHTML = '<option value="">(permission needed \u2014 click Export)</option>'; return; }
+  try {
+    const names = [];
+    for await (const [name, entryHandle] of logsFolderHandle.entries()) {
+      if (entryHandle.kind === "file" && name.toLowerCase().endsWith(".json")) names.push(name);
+    }
+    names.sort().reverse();
+    select.innerHTML = '<option value="">Create a new file</option>' +
+      names.map((n) => '<option value="' + n.replace(/"/g, "&quot;") + '">' + n + "</option>").join("");
+  } catch (e) {
+    select.innerHTML = '<option value="">(couldn\u2019t read folder)</option>';
+  }
+}
+
+function onExportMergeToggle() {
+  const on = document.getElementById("exportMergeToggle").checked;
+  const row = document.getElementById("exportMergeTargetRow");
+  if (!on) { row.className = "hidden"; row.innerHTML = ""; return; }
+  row.className = "";
+  if (logsFolderHandle) {
+    row.innerHTML =
+      '<div style="display:flex; gap:8px; align-items:center">' +
+      '<select id="exportMergeTargetSelect" style="flex:1"></select>' +
+      '<button class="btn-secondary" type="button" onclick="refreshLogsFolderFiles()">Refresh</button>' +
+      "</div>" +
+      '<div class="help" style="margin-top:4px">Pick a file already in your Logs folder to merge into, or leave it on "Create a new file".</div>';
+    refreshLogsFolderFiles();
+  } else {
+    row.innerHTML =
+      '<input type="file" id="exportMergeFileInput" accept="application/json">' +
+      '<div class="help" style="margin-top:4px">Pick a previously exported log file \u2014 the download will contain both, combined.</div>';
+  }
+}
+
+// Combines two entry lists by id. When the same id shows up in both (e.g. an
+// older export and the live log), the copy with the more recently checked
+// result wins, so re-merging never regresses an entry that's since been
+// marked correct/incorrect back to "unchecked".
+function mergeEntryLists(baseEntries, incomingEntries) {
+  const byId = new Map();
+  for (const e of baseEntries || []) if (e && e.id) byId.set(e.id, e);
+  for (const e of incomingEntries || []) {
+    if (!e || !e.id) continue;
+    const existing = byId.get(e.id);
+    if (!existing) { byId.set(e.id, e); continue; }
+    const existingChecked = (existing.result && existing.result.checkedAt) || 0;
+    const incomingChecked = (e.result && e.result.checkedAt) || 0;
+    byId.set(e.id, incomingChecked >= existingChecked ? e : existing);
+  }
+  return Array.from(byId.values()).sort((a, b) => b.ts - a.ts);
+}
+
+async function exportLog() {
+  const note = document.getElementById("importNote");
+  const ids = (logIndexCache || []).map((e) => e.id);
+  const currentEntries = [];
+  for (const id of ids) {
+    let full = logDetailCache[id];
+    if (!full) {
+      try {
+        const res = await storageBackend.get("log-entry:" + id, false);
+        full = res && res.value ? JSON.parse(res.value) : null;
+      } catch (e) {
+        full = null;
+      }
+    }
+    if (full) currentEntries.push(full);
+  }
+  const missing = ids.length - currentEntries.length;
+  const mergeOn = !!(document.getElementById("exportMergeToggle") && document.getElementById("exportMergeToggle").checked);
+
+  // ---- Direct-to-folder path (Chrome/Edge, once a Logs folder is set) ----
+  if (logsFolderHandle) {
+    const ok = await ensureLogsFolderPermission();
+    if (!ok) {
+      note.textContent = "Couldn't get permission to write to the Logs folder. Choose it again above.";
+      return;
+    }
+    try {
+      const select = document.getElementById("exportMergeTargetSelect");
+      const targetName = mergeOn && select && select.value ? select.value : null;
+      let finalEntries = currentEntries;
+      if (targetName) {
+        const fh = await logsFolderHandle.getFileHandle(targetName);
+        const file = await fh.getFile();
+        const oldPayload = JSON.parse(await file.text());
+        const oldEntries = Array.isArray(oldPayload) ? oldPayload : oldPayload.entries || [];
+        finalEntries = mergeEntryLists(oldEntries, currentEntries);
+      }
+      const fileName = targetName || ("match-audit-log-" + new Date().toISOString().slice(0, 10) + ".json");
+      const payload = {
+        version: 2, exportedAt: new Date().toISOString(), entries: finalEntries,
+        settings: appSettings || { backendUrl: "" },
+        nameHistory, tournamentHistory,
+      };
+      const fileHandle = await logsFolderHandle.getFileHandle(fileName, { create: true });
+      const writable = await fileHandle.createWritable();
+      await writable.write(JSON.stringify(payload, null, 2));
+      await writable.close();
+      note.textContent = (targetName ? "Merged into " : "Saved ") + fileName + " in your Logs folder (" +
+        finalEntries.length + " entr" + (finalEntries.length === 1 ? "y" : "ies") + ")" +
+        (missing ? ", " + missing + " couldn't be read" : "") + ".";
+      await refreshLogsFolderFiles();
+      return;
+    } catch (e) {
+      console.error("Could not write to logs folder", e);
+      note.textContent = "Couldn't write to the Logs folder (" + e.message + "). Falling back to a download instead.";
+      // fall through to the download path below
+    }
+  }
+
+  // ---- Download path (default, and the fallback if the folder write above failed) ----
+  let finalEntries = currentEntries;
+  let mergedIntoFile = false;
+  if (mergeOn) {
+    const fileInput = document.getElementById("exportMergeFileInput");
+    const file = fileInput && fileInput.files && fileInput.files[0];
+    if (file) {
+      try {
+        const oldPayload = JSON.parse(await file.text());
+        const oldEntries = Array.isArray(oldPayload) ? oldPayload : oldPayload.entries || [];
+        finalEntries = mergeEntryLists(oldEntries, currentEntries);
+        mergedIntoFile = true;
+      } catch (e) {
+        note.textContent = "Couldn't read the file to merge with (" + e.message + "). Exported the current log only.";
+      }
+    }
+  }
+  const payload = {
+    version: 2, exportedAt: new Date().toISOString(), entries: finalEntries,
+    settings: appSettings || { backendUrl: "" },
+    nameHistory, tournamentHistory,
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "match-audit-log-" + new Date().toISOString().slice(0, 10) + ".json";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+  if (!note.textContent || note.textContent === "") {
+    note.textContent = (mergedIntoFile ? "Merged & downloaded " : "Downloaded ") + finalEntries.length + " entries" +
+      (missing ? " (" + missing + " couldn't be read)" : "") + ".";
+  }
+}
+
+function triggerImportPicker() {
+  document.getElementById("importFileInput").click();
+}
+
+async function importLogFile(evt) {
+  const file = evt.target.files && evt.target.files[0];
+  evt.target.value = ""; // allow re-selecting the same file later
+  if (!file) return;
+  const note = document.getElementById("importNote");
+  const replaceMode = !!(document.getElementById("importReplaceToggle") && document.getElementById("importReplaceToggle").checked);
+
+  if (replaceMode) {
+    const count = (logIndexCache || []).length;
+    if (count > 0 && !confirm(
+      "This will permanently delete your current " + count + " log entr" + (count === 1 ? "y" : "ies") +
+      " and replace them with what's in the imported file. This can't be undone. Continue?"
+    )) {
+      note.textContent = "Import cancelled.";
+      return;
+    }
+  }
+
+  note.textContent = "Importing\u2026";
+  try {
+    const text = await file.text();
+    const payload = JSON.parse(text);
+    const entries = Array.isArray(payload) ? payload : payload.entries || [];
+    if (logIndexCache === null) logIndexCache = await loadLogIndex();
+
+    // Reconnect settings + autocomplete history from the export (version 2+).
+    // Settings: only adopt the imported backend URL if nothing is configured
+    // here yet -- never silently overwrite a backend the user already set up
+    // on this copy. History: always safe to merge, since it's additive only.
+    let reconnectNote = "";
+    if (payload && payload.settings && payload.settings.backendUrl) {
+      if (!appSettings) appSettings = await loadSettings();
+      if (!appSettings.backendUrl) {
+        appSettings = { backendUrl: payload.settings.backendUrl };
+        await storageBackend.set("settings", JSON.stringify(appSettings), false);
+        reconnectNote = " Reconnected result-checking backend from the file.";
+      }
+    }
+    if (payload && Array.isArray(payload.nameHistory)) {
+      for (const n of payload.nameHistory) nameHistory = addUnique(nameHistory, n, 200);
+    }
+    if (payload && Array.isArray(payload.tournamentHistory)) {
+      for (const t of payload.tournamentHistory) tournamentHistory = addUnique(tournamentHistory, t, 100);
+    }
+    if ((payload.nameHistory && payload.nameHistory.length) || (payload.tournamentHistory && payload.tournamentHistory.length)) {
+      renderHistoryDatalist("nameHistoryList", nameHistory);
+      renderHistoryDatalist("tournamentHistoryList", tournamentHistory);
+      await storageBackend.set(NAME_HISTORY_KEY, JSON.stringify(nameHistory), false);
+      await storageBackend.set(TOURNAMENT_HISTORY_KEY, JSON.stringify(tournamentHistory), false);
+    }
+
+    if (replaceMode) {
+      const idsToDelete = (logIndexCache || []).map((e) => e.id);
+      for (const oldId of idsToDelete) {
+        try { await storageBackend.delete("log-entry:" + oldId, false); } catch (e) { /* best effort */ }
+      }
+      logIndexCache = [];
+      logDetailCache = {};
+    }
+
+    let added = 0, skipped = 0;
+    for (const full of entries) {
+      if (!full || !full.id) continue;
+      if (logIndexCache.some((e) => e.id === full.id)) { skipped++; continue; }
+      await storageBackend.set("log-entry:" + full.id, JSON.stringify(full), false);
+      logDetailCache[full.id] = full;
+      logIndexCache.push({
+        id: full.id, ts: full.ts, sport: full.sport, sportLabel: full.sportLabel,
+        A: full.A, B: full.B, tournament: full.tournament, tier: full.tier,
+        leaderName: full.leaderName, confidence: full.confidence, probShort: full.probShort,
+        resultStatus: full.result ? full.result.status : null,
+      });
+      added++;
+    }
+    logIndexCache.sort((a, b) => b.ts - a.ts);
+    await storageBackend.set(LOG_INDEX_KEY, JSON.stringify(logIndexCache), false);
+    updateLogCount();
+    renderLogStats();
+    renderLogList();
+    note.textContent = (replaceMode ? "Replaced log with " : "Imported ") + added + " entr" + (added === 1 ? "y" : "ies") +
+      (skipped ? " (" + skipped + " already present, left as-is)" : "") + "." + reconnectNote;
+  } catch (e) {
+    note.textContent = "Couldn't read that file (" + e.message + "). Make sure it's a log export from this tool.";
+  }
+}
+
+
+renderStepper();
+showView("audit");
+loadAndRenderLog(); // pre-warm the count badge without switching views
+initLogsFolder();
+populateMajorCompetitions(); // populate the Step 1 major-competition dropdown for the default sport
+loadNameAndTournamentHistory(); // populate name/tournament autocomplete
+</script>
+</body>
+</html>

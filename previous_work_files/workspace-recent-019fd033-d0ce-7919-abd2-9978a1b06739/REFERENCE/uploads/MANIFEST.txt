@@ -1,0 +1,17 @@
+PITCH RATING — DELIVERY PACKAGE 10  (v3.6.2 — scope delta D1+D2+D3)
+==========================================================================
+
+Version: v3.6.2   |   verify: base64 -d <file> > out  then  md5sum out
+
+Files (decoded md5s):
+  app-v3.6.2-c7f955d4.b64.txt
+      decoded md5 = c7f955d4aacdeaaca9a44e4314f2b14e
+  ZONES-v3.6.2.b64.txt
+      decoded md5 = fd559974b2df643de45601e2bf04e45f
+  SCOPE-CLEAR-DELTA.b64.txt
+      decoded md5 = 80ae2141e10400057d986d0f26f20006
+
+Plain-text source: app/app-v3.6.2.html  md5 c7f955d4aacdeaaca9a44e4314f2b14e
+
+Note: amended workorder labelled this delta "v3.6.1"; per the standing version policy
+(upward, no reused names) it ships as v3.6.2. D2 already shipped in v3.6.1.

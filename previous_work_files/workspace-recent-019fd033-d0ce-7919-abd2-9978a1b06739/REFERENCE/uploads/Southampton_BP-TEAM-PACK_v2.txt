@@ -1,0 +1,36 @@
+BP-TEAM-PACK v2
+# batch: Job 1 - Southampton only
+# researcher: Arena.ai
+# created: 2026-07-30
+# cutoff: 2026-07-30
+NOTE|info|research_ack|ACKNOWLEDGED — today is Thursday, July 30, 2026; I will verify time-sensitive facts against current sources, use plain URLs only, mark unverifiable items with NOTE blocker instead of guessing, and return one parseable BP-TEAM-PACK v2 block only.
+TEAM|Southampton|England|England Premier League|E0|Southampton FC;The Saints;Saints|St Mary's Stadium|Southampton|England|grass|32384|1885|https://www.southamptonfc.com/
+VENUE|Southampton|St Mary's Stadium|Southampton|England|grass|32384|normal|Normal home venue|source-venue-sou
+NOTE|info|Southampton|App code E0 is current app rating context; SEASON row uses EFL Championship because it is the latest completed domestic season.
+NOTE|info|Southampton-Middlesbrough-2026-PO-SF2|The match finished 2-1 after extra time; MATCH row records the required 90-minute score of 1-1.
+SEASON|Southampton|2025-26|EFL Championship|domestic league|46|22|14|10|82|56|23|12|8|3|38|19|23|10|6|7|44|37|4|80|source-season-sou
+FORM|Southampton|last 15 all competitions|2026-07-30|15|9|4|2|30|15|4|1|11|4|source-form-sou
+MATCH|2026-07-29|Pre-season friendly|club-friendly|SC Paderborn 07|2|1|Southampton|relocated|SC Paderborn Trainingszentrum|Paderborn|Germany|FRI-2026-07-29-SCP-SOU|source-match-sou-paderborn
+MATCH|2026-07-24|Pre-season friendly|club-friendly|Eintracht Braunschweig|0|1|Southampton|normal|Eintracht-Stadion|Braunschweig|Germany|FRI-2026-07-24-EBS-SOU|source-match-sou-braunschweig
+MATCH|2026-07-18|Pre-season friendly|club-friendly|Eastleigh|1|3|Southampton|normal|Silverlake Stadium|Eastleigh|England|FRI-2026-07-18-EAS-SOU|source-match-sou-eastleigh
+MATCH|2026-05-12|EFL Championship promotion play-offs semi-final|domestic-league|Southampton|1|1|Middlesbrough|normal|St Mary's Stadium|Southampton|England|EFLCH-2026-PO-SF-SOU-MID|source-match-sou-2025-26
+MATCH|2026-05-09|EFL Championship promotion play-offs semi-final|domestic-league|Middlesbrough|0|0|Southampton|normal|Riverside Stadium|Middlesbrough|England|EFLCH-2026-PO-SF-MID-SOU|source-match-sou-2025-26
+MATCH|2026-05-02|EFL Championship|domestic-league|Preston North End|1|3|Southampton|normal|Deepdale|Preston|England|EFLCH-2026-05-02-PNE-SOU|source-match-sou-2025-26
+MATCH|2026-04-28|EFL Championship|domestic-league|Southampton|2|2|Ipswich|normal|St Mary's Stadium|Southampton|England|EFLCH-2026-04-28-SOU-IPS|source-match-sou-2025-26
+MATCH|2026-04-25|FA Cup semi-final|domestic-cup|Manchester City|2|1|Southampton|neutral|Wembley Stadium|London|England|FAC-2026-SF-MCI-SOU|source-match-sou-2025-26
+MATCH|2026-04-21|EFL Championship|domestic-league|Southampton|2|2|Bristol City|normal|St Mary's Stadium|Southampton|England|EFLCH-2026-04-21-SOU-BRC|source-match-sou-2025-26
+MATCH|2026-04-18|EFL Championship|domestic-league|Swansea City|1|2|Southampton|normal|Swansea.com Stadium|Swansea|Wales|EFLCH-2026-04-18-SWA-SOU|source-match-sou-2025-26
+MATCH|2026-04-14|EFL Championship|domestic-league|Southampton|3|0|Blackburn Rovers|normal|St Mary's Stadium|Southampton|England|EFLCH-2026-04-14-SOU-BLA|source-match-sou-2025-26
+MATCH|2026-04-11|EFL Championship|domestic-league|Southampton|2|1|Derby County|normal|St Mary's Stadium|Southampton|England|EFLCH-2026-04-11-SOU-DER|source-match-sou-2025-26
+MATCH|2026-04-07|EFL Championship|domestic-league|Wrexham|1|5|Southampton|normal|Racecourse Ground|Wrexham|Wales|EFLCH-2026-04-07-WRE-SOU|source-match-sou-2025-26
+MATCH|2026-04-04|FA Cup quarter-final|domestic-cup|Southampton|2|1|Arsenal|normal|St Mary's Stadium|Southampton|England|FAC-2026-QF-SOU-ARS|source-match-sou-2025-26
+MATCH|2026-03-21|EFL Championship|domestic-league|Southampton|2|0|Oxford United|normal|St Mary's Stadium|Southampton|England|EFLCH-2026-03-21-SOU-OXF|source-match-sou-2025-26
+SOURCE|source-venue-sou|https://www.southamptonfc.news/club/stadium/|2026-07-30|stadium-database|St Mary's Stadium identity and 32384 capacity
+SOURCE|source-season-sou|https://www.soccerstats.com/teamstats.asp?league=england2&stats=u326-southampton|2026-07-30|results-database|Final Championship record and verified home-away split: 46 matches, 22-14-10, 82-56, 80 points; home 23 matches, 12-8-3, 38-19; away 23 matches, 10-6-7, 44-37
+SOURCE|source-season-sou-final|https://fbref.com/en/squads/33c895d4/Southampton-Stats|2026-07-30|results-database|Final 2025-26 Championship record: 22-14-10, 80 points, fourth place
+SOURCE|source-form-sou|https://fbref.com/en/squads/33c895d4/2025-2026/matchlogs/all_comps/schedule/Southampton-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|2025-26 component of the consecutive last-15 sequence; FORM calculated from listed MATCH rows, including three completed 2026 pre-season friendlies
+SOURCE|source-match-sou-2025-26|https://fbref.com/en/squads/33c895d4/2025-2026/matchlogs/all_comps/schedule/Southampton-Scores-and-Fixtures-All-Competitions|2026-07-30|results-database|Completed 2025-26 all-competition fixture log, including dates, official home-away order and final scores; the 12 May play-off second leg required extra time
+SOURCE|source-match-sou-paderborn|https://www.southamptonfc.com/en/news/article/report-saints-suffer-late-defeat-in-paderborn-test|2026-07-30|club|Official report: SC Paderborn 07 2 Southampton 1 on 29 July 2026 at SC Paderborn Trainingszentrum, behind closed doors
+SOURCE|source-match-sou-braunschweig|https://www.southamptonfc.com/en/news/article/eckert-pleased-with-saints-sharpness|2026-07-30|club|Official report: Eintracht Braunschweig 0 Southampton 1 on 24 July 2026 at Eintracht-Stadion
+SOURCE|source-match-sou-eastleigh|https://www.bbc.com/sport/football/articles/cvgw05837nko|2026-07-30|news-report|Completed friendly: Eastleigh 1 Southampton 3 on 18 July 2026 at Silverlake Stadium
+END

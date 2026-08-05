@@ -1,0 +1,17 @@
+PITCH RATING — DELIVERY PACKAGE 11  (v3.6.3 — HOLD-APPROVE-01)
+==========================================================================
+
+Version: v3.6.3   |   verify: base64 -d <file> > out  then  md5sum out
+
+Files (decoded md5s):
+  app-v3.6.3-17dd2b5b.b64.txt
+      decoded md5 = 17dd2b5b66ceb572a3fd946db9b56a92
+  ZONES-v3.6.3.b64.txt
+      decoded md5 = c88cfba3a2084505c95fee8c6dc85aed
+  HOLD-APPROVE.b64.txt
+      decoded md5 = 38af9d9ef826d8f4d6bd71f2caedf0d2
+
+Plain-text source: app/app-v3.6.3.html  md5 17dd2b5b66ceb572a3fd946db9b56a92
+                                        sha256 268dc5296189cf3016847624ba180cb14904a35a07bb2648428581bb78dad0f9
+                                        bytes  635798
+                                        UTC build 2026-08-04 16:54:54 UTC

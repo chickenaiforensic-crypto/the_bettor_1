@@ -1,0 +1,1480 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-16LE">
+<title>Russia 2026/27</title>
+</head>
+<body>
+<h2>Russia 2026/27</h2>
+<p>
+</p><hr>
+<a href="#1l">Premier League</a> | <a href="#1ldet">Premier League Details</a><br>
+<a href="#kubok">Russian Cup</a><br>
+<a href="#2l">First League</a> |
+<a href="#3la">Second League - Division A</a>
+<p>
+<hr>
+<h4><a name="1l">Russian Premier League</a></h4>
+<pre>
+ALFA-BANK RUSSIAN PREMIER LEAGUE 2026/27
+========================================
+
+Table:
+
+ 1.Zenít (Sankt-Peterbúrg)   1   1  0  0   5- 0   3  [C]
+ 2.Sparták (Moskvá)          1   1  0  0   3- 0   3  
+ 3.FC Krasnodár              1   1  0  0   3- 1   3  
+ 4.CSKA (Moskvá)             1   1  0  0   2- 1   3  
+ 5.FC Orenbúrg               1   1  0  0   2- 1   3  
+ 6.Dinámo (Mahačkalá)        1   1  0  0   2- 1   3  
+ 7.Lokomotív (Moskvá)        1   0  1  0   1- 1   1  
+ 8.Ahmát (Gróznyj)           1   0  1  0   1- 1   1  
+ 9.Dinámo (Moskvá)           1   0  1  0   0- 0   1  
+10.Krýĺja Sovétov (Samára)   1   0  1  0   0- 0   1  
+11.Báltika (Kaliningrád)     1   0  0  1   1- 2   0  
+12.FC Rostóv                 1   0  0  1   1- 2   0  
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+13.Fákel (Vorónež)           1   0  0  1   1- 2   0  [P]
+14.Rubín (Kazáń)             1   0  0  1   1- 3   0  
+---------------------------------------------------
+15.Ródina (Moskvá)           1   0  0  1   0- 3   0  [P]
+16.Akrón (Togliátti)         1   0  0  1   0- 5   0  
+
+Akrón play home games at Krýľja Sovétov's home stadium in Samara (100 km south-east of Togliatti).
+Dinámo (Mahačkalá) play home games in Kaspíjsk (the satellite city south-east of Mahačkalá).
+
+Round 1 [Total Att: 102,232; Average: 12,779]
+[Jul 24]
+CSKA       2-1  Baltika  
+  [Eduardo Anderson (Bal) 33 og; Kiríll Glébov 36 - Chinonso Offor 1. Att: 15,196. +20°C]
+[Jul 25]
+Akron      0-5  Zenit    
+  [Alexándr Sóbolev 7, 18; Gustavo Mantuan 34; Jhon Jhon 78; Felipe Augusto 84. Att: 5,091. +34°C]
+Spartak    3-0  Rodina   
+  [Marcos "Marquinhos" Martins 24; Christopher Martins 79; Daníl Prúcev 86. Att: 23,601. +18°C]
+Dinamo Ms  0-0  Krylja S.
+  [Att: 15,335. +23°C]
+Fakel      1-2  Dinamo Mh
+  [Vjačesláv Jakímov 21 - Júrij Žuravljóv (Fak) 30 og; Alexándr Sandračúk 79. Att: 9,289. +21°C]
+[Jul 26]
+Rubin      1-3  Krasnodar
+  [Mirlind Daku 12 - Juan M. Boselli 45+6; Nikíta Krivcóv 53; 
+   Christian Cardoso 90+4. Att: 18,866. +28°C]
+Lokomotiv  1-1  Ahmat    
+  [Zelimhán Bakájev 8 - Erald Maksuti 83. Att: 10,051. +16°C, light rain]
+Orenburg   2-1  Rostov   
+  [Ruslán Kuĺ 84; Andréj Kasadžíkov 90+4 - Víktor Meljóhin 47. Att: 4,803. +28°C]
+
+Table:
+
+ 1.Zenít (Sankt-Peterbúrg)   1   1  0  0   5- 0   3  [C]
+ 2.Sparták (Moskvá)          1   1  0  0   3- 0   3  
+ 3.FC Krasnodár              1   1  0  0   3- 1   3  
+ 4.CSKA (Moskvá)             1   1  0  0   2- 1   3  
+ 5.FC Orenbúrg               1   1  0  0   2- 1   3  
+ 6.Dinámo (Mahačkalá)        1   1  0  0   2- 1   3  
+ 7.Lokomotív (Moskvá)        1   0  1  0   1- 1   1  
+ 8.Ahmát (Gróznyj)           1   0  1  0   1- 1   1  
+ 9.Dinámo (Moskvá)           1   0  1  0   0- 0   1  
+10.Krýĺja Sovétov (Samára)   1   0  1  0   0- 0   1  
+11.Báltika (Kaliningrád)     1   0  0  1   1- 2   0  
+12.FC Rostóv                 1   0  0  1   1- 2   0  
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+13.Fákel (Vorónež)           1   0  0  1   1- 2   0  [P]
+14.Rubín (Kazáń)             1   0  0  1   1- 3   0  
+---------------------------------------------------
+15.Ródina (Moskvá)           1   0  0  1   0- 3   0  [P]
+16.Akrón (Togliátti)         1   0  0  1   0- 5   0  
+
+Akrón play home games at Krýľja Sovétov's home stadium in Samara (100 km south-east of Togliatti).
+Dinámo (Mahačkalá) play home games in Kaspíjsk (the satellite city south-east of Mahačkalá).
+
+Top scorers:
+
+Alexándr Sóbolev (Zenít)  2
+
+Round 2 [Jul 31 - Aug 3]
+Dinamo Mh - Lokomotiv
+Baltika   - Dinamo Ms
+Orenburg  - Zenit    
+Krasnodar - Fakel    
+Ahmat     - Spartak  
+CSKA      - Krylja S.
+Rodina    - Rostov   
+Akron     - Rubin    
+
+Round 3 [Aug 7-10]
+Dinamo Ms - Dinamo Mh
+Spartak   - Krasnodar
+Krylja S. - Baltika  
+Rostov    - CSKA     
+Lokomotiv - Akron    
+Rubin     - Orenburg 
+Zenit     - Rodina   
+Fakel     - Ahmat    
+
+Round 4 [Aug 14-17]
+Krylja S. - Dinamo Mh
+Rostov    - Rubin    
+Baltika   - Spartak  
+Orenburg  - Lokomotiv
+Krasnodar - Ahmat    
+CSKA      - Fakel    
+Rodina    - Akron    
+Zenit     - Dinamo Ms
+
+Round 5 [Aug 21-24]
+Dinamo Ms - Rodina   
+Spartak   - Zenit    
+Dinamo Mh - Krasnodar
+Baltika   - Rubin    
+Ahmat     - Rostov   
+CSKA      - Lokomotiv
+Akron     - Krylja S.
+Fakel     - Orenburg 
+
+Round 6 [Aug 28-31]
+Spartak   - Orenburg 
+Lokomotiv - Dinamo Ms
+Krasnodar - Rostov   
+Ahmat     - Krylja S.
+Rodina    - Baltika  
+Rubin     - Dinamo Mh
+Akron     - CSKA     
+Fakel     - Zenit    
+
+Round 7 [Sep 4-7]
+Dinamo Ms - Spartak  
+Krylja S. - Krasnodar
+Dinamo Mh - Rodina   
+Rostov    - Fakel    
+Baltika   - Lokomotiv
+Orenburg  - Akron    
+Rubin     - Ahmat    
+Zenit     - CSKA     
+
+Round 8 [Sep 11-14]
+Dinamo Ms - Orenburg 
+Spartak   - Rostov   
+Krylja S. - Rodina   
+Krasnodar - Akron    
+Ahmat     - Dinamo Mh
+CSKA      - Rubin    
+Zenit     - Lokomotiv
+Fakel     - Baltika  
+
+Round 9 [Sep 15-17]
+Spartak   - Fakel    
+Dinamo Mh - CSKA     
+Rostov    - Dinamo Ms
+Baltika   - Zenit    
+Orenburg  - Krasnodar
+Lokomotiv - Krylja S.
+Rodina    - Rubin    
+Akron     - Ahmat    
+
+Round 10 [Oct 9-12]
+Krylja S. - Spartak  
+Rostov    - Akron    
+Orenburg  - Dinamo Mh
+Krasnodar - Zenit    
+Ahmat     - Baltika  
+CSKA      - Rodina   
+Rubin     - Dinamo Ms
+Fakel     - Lokomotiv
+
+Round 11 [Oct 16-19]
+Dinamo Ms - CSKA     
+Spartak   - Rubin    
+Krylja S. - Fakel    
+Dinamo Mh - Akron    
+Baltika   - Rostov   
+Lokomotiv - Krasnodar
+Rodina    - Orenburg 
+Zenit     - Ahmat    
+
+Round 12 [Oct 23-26]
+Rostov    - Lokomotiv
+Krasnodar - Baltika  
+Ahmat     - Orenburg 
+CSKA      - Spartak  
+Rubin     - Krylja S.
+Akron     - Dinamo Ms
+Zenit     - Dinamo Mh
+Fakel     - Rodina   
+
+Round 13 [Oct 30 - Nov 2]
+Dinamo Ms - Ahmat    
+Krylja S. - Zenit    
+Dinamo Mh - Rostov   
+Baltika   - Akron    
+Orenburg  - CSKA     
+Lokomotiv - Spartak  
+Rodina    - Krasnodar
+Rubin     - Fakel    
+
+Round 14 [Nov 6-8]
+Spartak   - Akron    
+Krylja S. - Orenburg 
+Baltika   - Dinamo Mh
+Lokomotiv - Rubin    
+Krasnodar - CSKA     
+Ahmat     - Rodina   
+Zenit     - Rostov   
+Fakel     - Dinamo Ms
+
+Round 15 [Nov 20-23]
+Dinamo Ms - Krasnodar
+Dinamo Mh - Spartak  
+Rostov    - Krylja S.
+Orenburg  - Baltika  
+CSKA      - Ahmat    
+Rodina    - Lokomotiv
+Rubin     - Zenit    
+Akron     - Fakel    
+
+Round 16 [Nov 27-30]
+Krylja S. - Dinamo Ms
+Rostov    - Krasnodar
+Baltika   - Ahmat    
+Orenburg  - Rodina   
+Lokomotiv - Dinamo Mh
+CSKA      - Zenit    
+Rubin     - Akron    
+Fakel     - Spartak  
+
+Round 17 [Dec 4-7]
+Spartak   - Dinamo Ms
+Dinamo Mh - Krylja S.
+Krasnodar - Rubin    
+Ahmat     - Lokomotiv
+Rodina    - CSKA     
+Akron     - Orenburg 
+Zenit     - Baltika  
+Fakel     - Rostov   
+
+Round 18 [Feb 26 - Mar 1]
+Dinamo Ms - Rubin    
+Krylja S. - Lokomotiv
+Dinamo Mh - Orenburg 
+Baltika   - Rodina   
+Krasnodar - Spartak  
+Ahmat     - Akron    
+CSKA      - Rostov   
+Zenit     - Fakel    
+
+Round 19 [Mar 5-8]
+Dinamo Mh - Fakel    
+Rostov    - Baltika  
+Lokomotiv - CSKA     
+Krasnodar - Krylja S.
+Ahmat     - Rubin    
+Rodina    - Dinamo Ms
+Akron     - Spartak  
+Zenit     - Orenburg 
+
+Round 20 [Mar 12-15]
+Dinamo Ms - Lokomotiv
+Spartak   - Ahmat    
+Baltika   - Krasnodar
+Orenburg  - Krylja S.
+Rodina    - Zenit    
+Rubin     - Rostov   
+Akron     - Dinamo Mh
+Fakel     - CSKA     
+
+Round 21 [Mar 19-21]
+Krylja S. - Ahmat    
+Dinamo Mh - Балтика»
+Rostov    - Rodina   
+Lokomotiv - Fakel    
+Krasnodar - Dinamo Ms
+CSKA      - Orenburg 
+Rubin     - Spartak  
+Zenit     - Akron    
+
+Round 22 [Apr 2-5]
+Dinamo Ms - Baltika  
+Spartak   - Dinamo Mh
+Rostov    - Zenit    
+Orenburg  - Rubin    
+Ahmat     - Fakel    
+CSKA      - Krasnodar
+Rodina    - Krylja S.
+Akron     - Lokomotiv
+
+Round 23 [Apr 9-12]
+Krylja S. - Rostov   
+Dinamo Mh - Rubin    
+Baltika   - CSKA     
+Orenburg  - Spartak  
+Lokomotiv - Zenit    
+Krasnodar - Rodina   
+Ahmat     - Dinamo Ms
+Fakel     - Akron    
+
+Round 24 [Apr 16-19]
+Dinamo Ms - Fakel    
+Spartak   - CSKA     
+Rostov    - Ahmat    
+Lokomotiv - Orenburg 
+Rodina    - Dinamo Mh
+Rubin     - Baltika  
+Akron     - Krasnodar
+Zenit     - Krylja S.
+
+Round 25 [Apr 23-26]
+Baltika   - Krylja S.
+Orenburg  - Fakel    
+Krasnodar - Dinamo Mh
+Ahmat     - Zenit    
+CSKA      - Dinamo Ms
+Rodina    - Spartak  
+Rubin     - Lokomotiv
+Akron     - Rostov   
+
+Round 26 [Apr 30 - May 3]
+Dinamo Ms - Akron    
+Spartak   - Baltika  
+Krylja S. - CSKA     
+Dinamo Mh - Ahmat    
+Rostov    - Orenburg 
+Lokomotiv - Rodina   
+Zenit     - Krasnodar
+Fakel     - Rubin    
+
+Round 27 [May 7-10]
+Dinamo Ms - Rostov   
+Spartak   - Lokomotiv
+Krylja S. - Rubin    
+Dinamo Mh - Zenit    
+Baltika   - Fakel    
+Krasnodar - Orenburg 
+CSKA      - Akron    
+Rodina    - Ahmat    
+
+Round 28 [May 14-17]
+Rostov    - Dinamo Mh
+Orenburg  - Dinamo Ms
+Lokomotiv - Baltika  
+Ahmat     - Krasnodar
+Rubin     - CSKA     
+Akron     - Rodina   
+Zenit     - Spartak  
+Fakel     - Krylja S.
+
+Round 29 [May 21-24]
+Dinamo Ms - Zenit    
+Spartak   - Krylja S.
+Orenburg  - Ahmat    
+Lokomotiv - Rostov   
+CSKA      - Dinamo Mh
+Rubin     - Rodina   
+Akron     - Baltika  
+Fakel     - Krasnodar
+
+Round 30 [May 29]
+Krylja S. - Akron    
+Dinamo Mh - Dinamo Ms
+Rostov    - Spartak  
+Baltika   - Orenburg 
+Krasnodar - Lokomotiv
+Ahmat     - CSKA     
+Rodina    - Fakel    
+Zenit     - Rubin    
+
+
+</pre>
+
+<hr>
+<h4><a name="1ldet">Premier League - Details</a></h4>
+<pre>
+Round 1
+-------
+
+Akron 0-5 Zenit
+[A.Sóbolev 7, 18; Gus.Mantuan 34; Jhon Jhon 78; Felipe Augusto 84]
+AKR: V.Gudíjev - V.Bardybáhin (Yom.Rocha 46), I.Nedelcearu, M.Bokójev(C), R.Fernández-Toro - A.Đurasović - Ars.Dmítrijev 
+(Ju.Železnóv 63), K.Bistrović (N.Bazilévskij 46), Stef.Lončar (K.Maradishvíli 83), K.Arévalo (G.Benchimol 63) - S.Tedić.
+Head coach: Srđan Blagojević (Serbia). Colors: combined white, red & blue / white / white.
+ZEN: D.Adámov - Gus.Mantuan (Kev.Andrade-M. 87), I.Divéjev, Nino, Rom.Vega - Wil.Barrios(C) (Felipe Augusto 46), 
+Wendel (V.Drkušić 67) - M.Glušenkóv (V.Karavájev 46), Pedro, Jhon Jhon - A.Sóbolev (D.Kondakóv 83).
+Head coach: Sergéj Semák. Colors: all sky blue.
+Yellow cards: Ars.Dmítrijev 12, Stef.Lončar 39 - Wil.Barrios 40, Wendel 55.
+Referee: Andréj Prokópov (Jaroslávl)
+25.07.26. Solidárnosť Samára Aréna, Samára. Att: 5,091. +34°C.
+
+Rubin 1-3 Krasnodar
+[M.Daku 12 - J.M.Boselli 45+6; N.Krivcóv 53; Christian 90+4]
+RUB: Je.Stáver - I.Rožkóv, Ig.Vujačić(C), Je.Téslenko (N.Lóbov 88) - Ander.Arroyo (D.A.Kuznecóv 77), I.Saavedra, 
+V.Hodža, K.Nižegoródov (D.Maldonado-M. 64) - Naz.Gripshi (I.Samóšnikov 46), M.Daku, R.Bezrúkov (Jac.Siwe 64).
+Head coach: Francesc Artiga Cebrián (Spain). Colors: all ruby.
+KRA: St.Agkácev - I.Vaxánia, V.Tormena, Jubal, L.Olaza - A.Čérnikov (M.Ozdójev 80), D.Augusto 
+(K.Pina 84) - J.M.Boselli (D.Útkin 77), N.Krivcóv, João Batxi - D.Vorob'jóv (Christian 80).
+Head coach: Murád Musájev. Colors: white / dark green / white.
+Yellow cards: Naz.Gripshi 45+4 - N.Krivcóv 45+1, D.Augusto 45+4, Christian 90+3.
+Red card: I.Rožkóv 18 (punching to the face).
+Referee: Artjóm Čistjakóv (Azóv)
+26.07.26. Ak Bars Aréna, Kazáń. Att: 18,866. +28°C.
+
+Lokomotiv 1-1 Ahmat
+[Z.Bakájev 8 - Er.Maksuti 83]
+LOK: A.Mitrjúškin(C) - Ger.Nyamsi, Je.Morózov, A.Siĺjánov, L.Fasson (M.Nenáhov 58) - A.Batrakóv, A.Karpukás, 
+Z.Bakájev (N.Saltykóv 68) - S.Pinjájev (Al-r Kovalénko 68), V.Rákov (G.Jíkia 83), A.Rudénko (V.Gólubev 83).
+Head coach: Mihaíl Galaktiónov. Colors: combined dark red, white & black / dark green / dark red.
+AHM: G.Shélia - T.A.Ibíšev (O.Ndong 78), A.Adámov, K.Cake - M.Samoródov (K.Ščetínin 68), Ism.Silva 
+(Er.Maksuti 78), E.Cacintura, M.Bogosavac - L.Sadulájev(C) (Ğ.Kenjebek 59), G.Melkádze, Júl.Romão.
+Head coach: Stanisláv Čerčésov. Colors: combined dark green & black / black / black.
+Yellow cards: Ger.Nyamsi 13, L.Fasson 53, A.Batrakóv 88.
+Referee: Kiríll Lévnikov (Sankt-Peterbúrg).
+26.07.26. Russian Railways Arena, Moskvá. Att: 10,051. +16°C, light rain.
+
+Spartak 3-0 Rodina
+[Marquinhos 24; C.Martins 79; D.Prúcev 86]
+SPA: Al.V.Maximénko - Ged.Fernandes (D.Denísov 63), R.Litvínov, Sr.Babić (D.Prúcev 84), R.Zóbnin(C) - 
+N.Umjárov, V.Parada (A.Djiku 63) - P.Solari, E.Barco, Marquinhos (I.S.Dmítrijev 81) - M.Ugalde (Ch.Martins 63).
+Head coach: Juan Carlos Carcedo Mardones (Spain). Colors: red with white stripe / white / red.
+ROD: S.A.Vólkov - A.Sókol (S.Bessmértnyj 82), Mit.Križan (L.Musájev 75), A.Meščanínov(C), I.Djátlov (L.Goglichídze 75) - 
+R.Fíščenko, A.Jegóryčev (I.Pozo 54) - Art.Maximénko, Y.Reyna, S.Bakájev (M.Abdusalámov 75) - I.Timošénko.
+Head coach: Juan Díaz Quinta (Spain). Colors: all dark blue.
+Yellow cards: A.Jegóryčev 32, I.Djátlov 38, I.Timošénko 73.
+Referee: Rafaéĺ Šaféjev (Volgográd)
+25.07.26. Lukóil Aréna, Moskvá. Att: 23,601. +18°C.
+
+CSKA 2-1 Baltika
+[Ed.Anderson (Bal) 33 og; K.Glébov 36 - C.Offor 1]
+CSK: V.Tórop - D.Krugovój, João Victor, K.Danílov, Moisés Bar. - I.Obljakóv(C), M.Kislják, 
+D.S.Kozlóv - Mat.Popović (I.Fírov 84), L.Gondou (T.Musájev 76), K.Glébov (H.Carmo 76).
+Head coach: Dmítrij Igdisámov. Colors: striped red & blue / blue / blue.
+BAL: M.Boriskó - F.Moufi (El.Ćivić 46), S.Varatýnov, Ed.Anderson, N.Gassama, M.Bevéjev - A.Méndeĺ(C) 
+(I.Bélikov 69), Il.Petróv (V.Pospélov 46), Max.V.Petróv (T.Yenne 69), N.Titkóv - C.Offor (D.P.Nikítin 76).
+Head coach: Andréj Talalájev. Colors: all white.
+Yellow cards: João Victor 90+6 - A.Méndeĺ 64.
+Referee: Iván Abrósimov (Sankt-Peterbúrg)
+24.07.26. VEB Aréna, Moskvá. Att: 15,196. +20°C.
+
+Dinamo Moskva 0-0 Kryĺja Sovetov
+DMS: A.Lunjóv - L.Seidensaal, M.Osipénko, David Ricardo, D.Skópincev (Rubens 76) - Dan.Fomín(C) (V.Ochișor 64), 
+D.Glébov, Bitello - Ja.Gládyšev (Ant.Mirančúk 64), K.Tjukávin, Arthur Gomes (Iv.V.Sergéjev 76).
+Head coach: Sandro Schwarz (Germany). Colors: blue / white / white.
+KRS: S.Peśjakóv(C) - F.Costanza, N.Černóv, S.Bóžin, K.Piačénin - M.Vitjugóv (Dom.Oroz 78), S.Bábkin - N.Rasskázov 
+(D.Je.Makárov 64), Mih.Banjac (T.Galdames 64), I.Oléjnikov (K.Stolbóv 88) - A.Rahmanović (Mar.Kramarič 64).
+Head coach: Sergéj Bulátov. Colors: white / navy blue / navy blue.
+Yellow cards: None.
+Referee: Matvéj Zaíka (Rostóv-na-Donú)
+25.07.26. VTB Arena, Moskvá. Att: 15,335. +23°C.
+
+Orenburg 2-1 Rostov
+[R.Kuĺ 84; And.Kasadžíkov 90+4 - V.Meljóhin 47]
+ORE: B.Ovsjánnikov - M.Sivis, J.A.Palacios (A.Tatájev 90+1), D.Hotuljóv(C), D.Vedérnikov - Je.Nazárenko (Jers.González 80), 
+Je.Bólotov - D.Puebla (R.Kuĺ 80), R.Golýbin (G.Guzina 65), D.Rybčínskij (And.Kasadžíkov 65) - M.Savéĺjev.
+Head coach: Iĺdár Ahmetzjánov. Colors: striped dark blue & blue / dark blue / dark blue.
+ROS: R.Yatímov - A.Langóvič (G.Ignátov 67), V.Meljóhin, M.A.Múhin (Ja.Mihájlov 67), O.Sako, Y.Nogueira 
+(D.Semenčúk 46) - Ronaldo, Al-j Mirónov, I.Komaróv, K.Kučájev(C) (O.Olusegun 55) - T.Sulejmánov (A.Šamónin 76).
+Head coach: Jonatan Alba Cabello (Spain). Colors: yellow / dark blue / yellow.
+Yellow cards: D.Hotuljóv 4, M.Savéĺjev 36 - Y.Nogueira 45+3, K.Kučájev 45+6, 
+A.Langóvič 59, O.Olusegun 71, V.Meljóhin 74, D.Semenčúk 90+6.
+Red card: M.Savéĺjev 49 (second yellow card).
+Referee: Nikíta Nóvikov (Petrozavódsk)
+26.07.26. Gazovík Stadium, Orenbúrg. Att: 4,803. +28°C.
+
+Fakel 1-2 Dinamo Mahačkala
+[V.Jakímov 21 - Ju.Žuravljóv (Fak) 30 og; A.Sandračúk 79]
+FAK: D.Frólkin - Dar.Todorović (M.Urídia 84), A.Gabarájev, I.Jurgánov, Ju.Žuravljóv, I.Áĺšin(C) (N.Giorgobiáni 74) - 
+B.Magomédov (A.Bagamájev 84), R.Netfúllin, V.Jakímov (Ant.Kavalióŭ 68) - Ax.Gnapi (M.Turíščev 74), B.Pusi.
+Head coach: Olég Vasilénko (Russia/Finland). Colors: white with blue stripe / blue / white.
+DMH: T.Magomédov - A.Sandračúk, S.Kagermázov, M.Alibékov(C), A.Alarcón-Men., T.Sundúkov - H.Mrezigue, M.Apšacev 
+(Abd.Džabraílov 65), N.S.Gluškóv (Moh-d.Hosseinnejad 88) - G.Agalárov (D.Lesovój 65), Miro (K.Zinóvič 90+3).
+Head coach: Vadím Jevséjev. Colors: all blue.
+Yellow card: M.Apšacev 42.
+Referee: Ígoŕ Kaplenkóv (Moskvá)
+25.07.26. Fákel Stadium, Vorónež. Att: 9,289. +21°C.
+
+</pre>
+<hr>
+<h4><a name="kubok">Russian Cup 2026/27</a></h4>
+<pre>
+FONBET RUSSIAN CUP 2026/27
+==========================
+
+D1 = Russian Premier League (RPL)
+D2 = First League
+D3 = Second League Division A
+D4 = Second League Division B
+D5 = Third League
+ML = Media Football League
+
+NB: The farm clubs are not eligible for the Cup.
+
+
+REGIONS PATH
+------------
+
+FIRST ROUND [Total Att: 11,519; Average: 1,047]
+
+[Jul 28]
+BoMiK (Civíĺsk) [D5]             1-2  FANKÓM BROKE BOYS (Kírov) [ML]
+  [O.Vólkov 87 - K.Hvastúhin 31; M.Zemskóv 60. Kazáń. Att: 421]
+Anží (Mahačkalá) [D5]            1-5  NEFTJÁNIK (Izberbáš) [D4]
+  [A.Vagídov 41 - Š.Magomédov 16; A.Temirsultánov 37; 
+   G.Manápov 75; M.Kurbánov 86; G.Karájev 90+3. Att: 1,800]
+CRYSTAL OEP (Borisoglébsk) [D5]  3-0  Salute (Bélgorod) [D4]
+  [D.Sápeĺnikov 6; I.Pospélov 14; D.Borísov 59. Att: 1,658]
+2DROTS (Moskvá) [ML]             2-0  FC Orjól [D4]
+  [I.Mázurov 30; M.Černomýrdin 37. Att: 1,400]
+[Jul 29]
+IĹPÁR (Gájva) [D5]               1-0  Metallúrg (Áša) [D5]
+  [N.Ponomarjóv 14. Att: 640]
+Kírovec-As. (St-Peterbúrg) [D5]  0-3  FC TÓSNO [D5]
+  [A.Magomédov 56; A.Ayloyán 73, 87. Att: 490]
+MZ Crystal (St-Peterbúrg) [D5]   2-3  RED BANNER (Nogínsk) [D5]
+  [L.Titóv 8; M.Godzójev 86 - K.Filincóv (MZC) 5 og; A.Gerásimov 20; 
+   D.Dorónin 71. Missed PK: A.Kukúškin (RB) 81. Att: 292]
+SKA (Rostóv-na-Donú) [ML]        2-2  Zenít (Pénza) [D4]              [pen 6-5]
+  [K.Korž 12; R.Símonov 62 pen - A.Vézikov 40; G.Géjkin 90+3. Moskvá. Att: 502]
+[Jul 30]
+Temp (Barnaúl) [D5]              3-4  KDV (Tomsk) [D4]
+  [S.Mizgirjóv 16; N.Šibájev 64, 90+2 pen - D.Nikíforov 7; 
+   D.Stepanénko 18; D.Lavríščev 45+2, 56. Att: 2,572]
+FC ČITÁ [D5]                     +/-  FC Irkútsk [D4]
+  [FC Irkútsk has ceased to be]
+Anrí (Vladivostók) [D5]          1-2  DINÁMO (Barnaúl) [D4]
+  [R.Gordijénko 44 - Je.Perevóznikov 34; K.Mógeĺ 61. Att: 711]
+FC 10 (Moskvá) [ML]              3-2  Cósmos (Hímki) [D4]
+  [S.Kutúzov 27, 73; A.Balašóv 67 - N.Šarkóv 1; Je.Lýsov (FC10) 53 og. Att: 1,033]
+
+SECOND ROUND
+
+[Aug 11-13]
+Čájka (Pesčanokópskoje) [D4]     -  Neftjánik (Izberbáš) [D4]
+Angúšt (Nazráń) [D4]             -  Drúžba (Majkóp) [D4]
+SC Ástrahań [D4]                 -  Mašúk-CMW (Pjatigórsk) [D3]
+Nart (Čerkéssk) [D4]             -  Dinámo (Stávropoĺ) [D3]
+Volgáŕ (Ástrahań) [D3]           -  Pobéda (Hasavjúrt) [D4]
+Sparták (Náĺčik) [D4]            -  Alánija (Vladikavkáz) [D3]
+Sibíŕ (Novosibírsk) [D3]         -  KDV (Tomsk) [D4]
+Čertánovo (Moskvá) [D4]          -  FC Čitá [D5]
+Dinámo (Vladivostók) [D3]        -  Dinámo (Barnaúl) [D4]
+Irtýš (Ómsk) [D3]                -  Satúrn (Rámenskoje) [D4]
+Sókol (Sarátov) [D3]             -  Iĺpár (Gájva) [D5]
+Hímik (Dzeržínsk) [D4]           -  NóSta (Novotróick) [D4]
+Dinámo (Kírov) [D3]              -  Fankóm Broke Boys (Kírov) [ML]
+Amcár (Perḿ) [D3]                -  Pobéda (Nížnij Nóvgorod) [D4]
+FC Ižévsk [D4]                   -  Torpédo (Miáss) [D3]
+Volná (Zavólžje) [D4]            -  FC Tjuméń [D3]
+Dinámo (Sankt-Peterbúrg) [D4]    -  FC 10 (Moskvá) [ML]
+Dinámo (Vólogda) [D4]            -  FC Tveŕ [D4]
+FC Čerepovéc [D4]                -  FC Tósno [D5]
+Zvezdá (Sankt-Peterbúrg) [D4]    -  Lúki-Energy (Velíkije Lúki) [D4]
+Dinámo (Brjansk) [D3]            -  Red Banner (Nogínsk) [D5]
+Stroginó (Moskvá) [D4]           -  Torpédo (Vladímir) [D4]
+FC Kalúga [D3]                   -  Ískra (Smolénsk) [D4]
+Avantgarde (Kursk) [D4]          -  Crystal OEP (Borisoglébsk) [D5]
+Sparták (Tambóv) [D4]            -  SKA (Rostóv-na-Donú) [ML]
+Quant (Óbninsk) [D4]             -  FC Rjazáń [D4]
+FC Múrom [D4]                    -  Metallúrg (Lípeck) [D4]
+Šumbrát (Saránsk) [D4]           -  2Drots (Moskvá) [ML]
+
+THIRD ROUND [Aug 25-27]
+
+FOURTH ROUND [Sep 8-10]
+
+FIFTH ROUND [Oct 14-16]
+
+SIXTH ROUND [Nov 3-5]
+
+
+RPL PATH
+--------
+
+Round 1 [Aug 4-6]
+Spartak    -  Orenburg 
+Rodina     -  Rubin    
+Fakel      -  Dinamo Ms
+Krasnodar  -  Ahmat    
+Dinamo Mh  -  Krylja S.
+Zenit      -  Baltika  
+Akron      -  Rostov   
+Lokomotiv  -  CSKA     
+
+Tables:
+
+Group A                         W WP LP  L
+
+1.Rubín (Kazáń)             0   0  0  0  0  0-0   0
+2.Sparták (Moskvá)          0   0  0  0  0  0-0   0
+---------------------------------------------------
+3.FC Orenbúrg               0   0  0  0  0  0-0   0
+---------------------------------------------------
+4.Ródina (Moskvá)           0   0  0  0  0  0-0   0
+
+Group B                         W WP LP  L
+
+1.Dinámo (Moskvá)           0   0  0  0  0  0-0   0
+2.Ahmát (Gróznyj)           0   0  0  0  0  0-0   0
+---------------------------------------------------
+3.Fákel (Vorónež)           0   0  0  0  0  0-0   0
+---------------------------------------------------
+4.FC Krasnodár              0   0  0  0  0  0-0   0
+
+Group C                         W WP LP  L
+
+1.Zenít (Sankt-Peterbúrg)   0   0  0  0  0  0-0   0
+2.Báltika (Kaliningrád)     0   0  0  0  0  0-0   0
+---------------------------------------------------
+3.Krýĺja Sovétov (Samára)   0   0  0  0  0  0-0   0
+---------------------------------------------------
+4.Dinámo (Mahačkalá)        0   0  0  0  0  0-0   0
+
+Group D                         W WP LP  L
+
+1.Lokomotív (Moskvá)        0   0  0  0  0  0-0   0
+2.CSKA (Moskvá)             0   0  0  0  0  0-0   0
+---------------------------------------------------
+3.FC Rostóv                 0   0  0  0  0  0-0   0
+---------------------------------------------------
+4.Akrón (Togliatti)         0   0  0  0  0  0-0   0
+
+Round 2 [Aug 18-20]
+Rubin      -  Spartak  
+Rodina     -  Orenburg 
+Dinamo Ms  -  Krasnodar
+Ahmat      -  Fakel    
+Krylja S.  -  Zenit    
+Baltika    -  Dinamo Mh
+Rostov     -  Lokomotiv
+CSKA       -  Akron    
+
+Round 3 [Sep 1-3]
+Spartak    -  Rodina   
+Orenburg   -  Rubin    
+Dinamo Ms  -  Ahmat    
+Fakel      -  Krasnodar
+Baltika    -  Krylja S.
+Zenit      -  Dinamo Mh
+Rostov     -  CSKA     
+Akron      -  Lokomotiv
+
+Round 4 [Oct 13-15]
+Rodina     -  Spartak  
+Rubin      -  Orenburg 
+Ahmat      -  Dinamo Ms
+Krasnodar  -  Fakel    
+Krylja S.  -  Baltika  
+Dinamo Mh  -  Zenit    
+CSKA       -  Rostov   
+Lokomotiv  -  Akron    
+
+Round 5 [Oct 27-29]
+Spartak    -  Rubin    
+Orenburg   -  Rodina   
+Krasnodar  -  Dinamo Ms
+Fakel      -  Ahmat    
+Krylja S.  -  Dinamo Mh
+Baltika    -  Zenit    
+Rostov     -  Akron    
+CSKA       -  Lokomotiv
+
+Round 6 [Nov 24-26]
+Orenburg   -  Spartak  
+Rubin      -  Rodina   
+Dinamo Ms  -  Fakel    
+Ahmat      -  Krasnodar
+Zenit      -  Krylja S.
+Dinamo Mh  -  Baltika  
+Lokomotiv  -  Rostov   
+Akron      -  CSKA     
+
+</pre>
+<hr>
+<h4><a name="2l">First League</a></h4>
+<pre>
+PARI PERVAJA LIGA (First League) 2026/27
+========================================
+
+Table:
+
+ 1.FC Nižnij Nóvgorod          3   3  0  0   8- 4    9  [R]
+ 2.FC Ufá                      3   2  1  0   6- 2    7  
+------------------------------------------------------
+ 3.Sparták (Kostromá)          3   2  1  0   5- 1    7  
+ 4.Torpédo (Moskvá)            3   2  1  0   5- 2    7  
+- - - - - - - - - - - - - - - - - - - - - - - - - - --
+ 5.Jeniséj (Krasnojársk)       3   2  0  1   6- 5    6  
+ 6.Rótor (Volgográd)           3   2  0  1   5- 4    6  
+ 7.Véles (Domodédovo)          3   2  0  1   3- 4    6  [P]
+ 8.Šínnik (Jaroslávĺ)          3   1  2  0   5- 3    5  
+ 9.FC Sóči                     3   1  1  1   7- 4    4  [R]
+10.Urál (Jekaterinbúrg)        3   1  1  1   3- 1    4  
+11.FC Čeljábinsk               3   1  0  2   4- 4    3  
+12.Vólga (Uĺjánovsk)           3   1  0  2   4- 5    3  
+13.Neftehímik (Nižnekámsk)     3   1  0  2   1- 3    3  
+14.Arsenál (Túla)              3   1  0  2   2- 7    3  
+15.Textíĺščik (Ivánovo)        3   0  2  1   3- 4    2  [P]
+------------------------------------------------------
+16.Leningrádec (Gátčina)       3   0  1  2   0- 5    1  [P]
+17.SKA (Habárovsk)             3   0  0  3   1- 5    0  
+18.KamAZ (Náberežnyje Čelný)   3   0  0  3   2- 7    0  
+
+Parí NN (Nižnij Nóvgorod) reverted to their previous name FC Nižnij Nóvgorod.
+Leningrádec play home games in Róščino (107 km north of Gátčina).
+Sparták and Torpédo play home games in Hímki (345 km south-west of Kostromá).
+
+Round 1 [Total Att: 39,814; Average: 4,424]
+[Jul 11]
+Volga        1-2  Jenisej    
+  [Vladisláv Jákovlev 35 - Radzivón Piačúra 25; Marát Tlehúgov 27. Att: 2,098. +29°C]
+Neftehimik   0-1  Veles      
+  [Alexándr S. Šúbin 55. Att: 598. +22°C]
+Ufa          3-0  Leningradec
+  [Šamíĺ Isájev 19; Daniíl Ródin (Len) 41 og; Artúr Giljazetdínov 78. Att: 1,405. +27°C]
+[Jul 12]
+N. Novgorod  4-2  Rotor      
+  [Artjóm Je. Sokolóv 32; Gleb Popolítov 33; Vjačesláv Gruljóv 47 pen; 
+   Stanisláv Lapínskij 82 - Émmerson Illoy-Ayet 41, 45. Att: 10,324. +21°C, rain]
+Sinnik       2-2  Soci       
+  [Iĺjá Pórohov 14; Vadím Kárpov 47 - Alexándr Ósipov 56; Román Ježóv 60. Att: 2,012. +19°C, rain]
+Spartak Kos  3-1  KamAZ      
+  [Amúr Kalmykóv 24 pen, 54, 64 - Román Manújlov 76. Att: 377. +17°C]
+[Jul 13]
+Ural         0-1  Torpedo    
+  [Sergéj Borodín 90+1. Att: 10,864. +19°C]
+Celjabinsk   3-1  SKA        
+  [Alexéj Bérdnikov 24; Ramazán Gadžimurádov 56, 65 - Mihaíl Gorelishvíli 46. Att: 5,078. +22°C]
+Arsenal      2-1  Textilscik 
+  [Rašíd Magomédov 68; Kiríll Gocúk 70 - Arsénij Filjóv 45. Att: 7,058. +17°C]
+
+Round 2 [Total Att: 43,587; Average: 4,843]
+[Jul 19]
+Textilscik   2-2  Ufa        
+  [Nikíta Péršin 19, 30 pen - Dilan Ortíz 14; Dmítrij Ivánnikov (Tex) 48 og. Att: 4,100. +26°C]
+KamAZ        1-2  N. Novgorod
+  [Maxím Bogdanéc 89 - Vjačesláv Gruljóv 29; Víktor Alexandróv 47. Att: 2,891. +26°C]
+Soci         0-2  Spartak Kos
+  [Amúr Kalmykóv 2, 24. Missed PK: Maxím Kuźmín (Soč) 58/held. Att: 2,847. +25°C]
+Veles        1-0  Celjabinsk 
+  [Olég A. Smirnóv 47. Att: 585. +25°C]
+Ural         3-0  Jenisej    
+  [Jevgénij Hárin 49; Nikíta And. Morózov 77; Denís Bókov 84. Att: 8,533. +20°C]
+Arsenal      0-1  Neftehimik 
+  [Islám Mašúkov 52. Att: 7,042. +17°C]
+Torpedo      3-1  Volga      
+  [Alexándr Júšin 22, 26; Artúr Galoyán 57 - Andréj Kóstin 53. Att: 1,223. +23°C]
+Sinnik       2-0  Leningradec
+  [Iĺjá Azjávin 80; Daniíl Martovój 84. Att: 1,984. +25°C]
+[Jul 20]
+Rotor        1-0  SKA        
+  [Alexándr Hubúlov 80 pen. Att: 14,382. +27°C]
+
+Round 3 [Total Att: 28,433; Average: 3,159]
+[Jul 25]
+Textilscik   0-0  Spartak Kos
+  [Att: 4,145. +16°C]
+Celjabinsk   1-2  N. Novgorod
+  [Matvéj Úrvancev 40 - Vjačesláv Gruljóv 33 pen; Timoféj Komissárov 47. Att: 5,347. +26°C]
+Volga        2-0  Neftehimik 
+  [Andréj Nikítin 41; Alexándr Saplinóv 90+3. Missed PK: 
+   Islám Mašúkov (Nef) 45/wide. Att: 1,740. +30°C]
+[Jul 26]
+Torpedo      1-1  Sinnik     
+  [Alexéj Kaštánov 52 - Denís Mirónov 17. Att: 1,231. +17°C, light rain]
+Jenisej      4-1  Veles      
+  [Andréj Okládnikov 11 pen, 27 pen; Alexándr Nadóĺskij 51; 
+   Alexándr Lomákin 90+3 - Zahár Tarasénko 54. Att: 6,532. +24°C]
+Ufa          1-0  SKA        
+  [Dilan Ortíz 17 pen. Att: 1,400. +27°C]
+Leningradec  0-0  Ural       
+  [Att: 1,389. +22°C]
+Soci         5-0  Arsenal    
+  [Mihaíl Ignátov 21, 30, 56; Pável Meljóšin 27; Zahár Fjódorov 82. Att: 4,308. +23°C]
+[Jul 27]
+KamAZ        0-2  Rotor      
+  [Abú-Saíd Eĺdarúšev 10 pen; Artyóm Simonyán 54. Att: 2,341. +28°C]
+
+Table:
+
+ 1.FC Nižnij Nóvgorod          3   3  0  0   8- 4    9  [R]
+ 2.FC Ufá                      3   2  1  0   6- 2    7  
+------------------------------------------------------
+ 3.Sparták (Kostromá)          3   2  1  0   5- 1    7  
+ 4.Torpédo (Moskvá)            3   2  1  0   5- 2    7  
+- - - - - - - - - - - - - - - - - - - - - - - - - - --
+ 5.Jeniséj (Krasnojársk)       3   2  0  1   6- 5    6  
+ 6.Rótor (Volgográd)           3   2  0  1   5- 4    6  
+ 7.Véles (Domodédovo)          3   2  0  1   3- 4    6  [P]
+ 8.Šínnik (Jaroslávĺ)          3   1  2  0   5- 3    5  
+ 9.FC Sóči                     3   1  1  1   7- 4    4  [R]
+10.Urál (Jekaterinbúrg)        3   1  1  1   3- 1    4  
+11.FC Čeljábinsk               3   1  0  2   4- 4    3  
+12.Vólga (Uĺjánovsk)           3   1  0  2   4- 5    3  
+13.Neftehímik (Nižnekámsk)     3   1  0  2   1- 3    3  
+14.Arsenál (Túla)              3   1  0  2   2- 7    3  
+15.Textíĺščik (Ivánovo)        3   0  2  1   3- 4    2  [P]
+------------------------------------------------------
+16.Leningrádec (Gátčina)       3   0  1  2   0- 5    1  [P]
+17.SKA (Habárovsk)             3   0  0  3   1- 5    0  
+18.KamAZ (Náberežnyje Čelný)   3   0  0  3   2- 7    0  
+
+Parí NN (Nižnij Nóvgorod) reverted to their previous name FC Nižnij Nóvgorod.
+Leningrádec play home games in Róščino (107 km north of Gátčina).
+Sparták and Torpédo play home games in Hímki (345 km south-west of Kostromá).
+
+Top scorers:
+
+ 1.Amúr KALMYKÓV (Sparták)            5
+ 2.Vjačesláv GRULJÓV (N.Nóvgorod)     3
+   Mihaíl IGNÁTOV (Sóči)              3
+ 4.ÉMMERSON Illoy-Ayet (Rótor)        2  [Congo/Ukraine]
+   Ramazán GADŽIMURÁDOV (Čeljábinsk)  2
+   Alexándr JÚŠIN (Torpédo)           2
+   Andréj OKLÁDNIKOV (Jeniséj)        2
+   Dilan Andrés ORTÍZ Aragón (Ufá)    2  [Colombia]
+   Nikíta PÉRŠIN (Textíĺščik)         2
+
+Round 4 [Aug 1]
+Leningradec  -  Soci       
+Neftehimik   -  Textilscik 
+Arsenal      -  Torpedo    
+Veles        -  Rotor      
+Volga        -  Celjabinsk 
+Spartak Kos  -  Jenisej    
+Pari NN      -  Sinnik     
+Ufa          -  KamAZ      
+SKA          -  Ural       
+
+Round 5 [Aug 8]
+Ural         -  Ufa        
+Veles        -  Leningradec
+Pari NN      -  Neftehimik 
+SKA          -  Spartak Kos
+Torpedo      -  Soci       
+Sinnik       -  Arsenal    
+Rotor        -  Celjabinsk 
+KamAZ        -  Volga      
+Jenisej      -  Textilscik 
+
+Round 6 [Aug 15]
+SKA          -  Veles      
+Spartak Kos  -  Ufa        
+Neftehimik   -  Sinnik     
+Textilscik   -  Pari NN    
+Jenisej      -  KamAZ      
+Rotor        -  Ural       
+Soci         -  Volga      
+Leningradec  -  Arsenal    
+Celjabinsk   -  Torpedo    
+
+Round 7 [Aug 19]
+Volga        -  Leningradec
+Veles        -  Pari NN    
+Sinnik       -  SKA        
+Ufa          -  Torpedo    
+Spartak Kos  -  Ural       
+Celjabinsk   -  Jenisej    
+Neftehimik   -  Soci       
+KamAZ        -  Textilscik 
+Arsenal      -  Rotor      
+
+Round 8 [Aug 22]
+Ural         -  Textilscik 
+Volga        -  Sinnik     
+Ufa          -  Jenisej    
+Veles        -  Arsenal    
+Pari NN      -  SKA        
+Torpedo      -  Spartak Kos
+Leningradec  -  Celjabinsk 
+Rotor        -  Neftehimik 
+KamAZ        -  Soci       
+
+Round 9 [Aug 29]
+Jenisej      -  Sinnik     
+Textilscik   -  Veles      
+SKA          -  Torpedo    
+Pari NN      -  Volga      
+Soci         -  Celjabinsk 
+Spartak Kos  -  Rotor      
+Neftehimik   -  Ufa        
+Leningradec  -  KamAZ      
+Arsenal      -  Ural       
+
+Round 10 [Sep 5]
+Jenisej      -  Neftehimik 
+Volga        -  Arsenal    
+Ural         -  KamAZ      
+Ufa          -  Veles      
+Textilscik   -  Torpedo    
+Sinnik       -  Rotor      
+SKA          -  Leningradec
+Soci         -  Pari NN    
+Celjabinsk   -  Spartak Kos
+
+Round 11 [Sep 12]
+KamAZ        -  Celjabinsk 
+Veles        -  Soci       
+Spartak Kos  -  Neftehimik 
+Leningradec  -  Textilscik 
+Torpedo      -  Pari NN    
+Arsenal      -  SKA        
+Ural         -  Sinnik     
+Ufa          -  Volga      
+Rotor        -  Jenisej    
+
+Round 12 [Sep 17]
+Jenisej      -  Arsenal    
+Torpedo      -  Veles      
+Neftehimik   -  Ural       
+Pari NN      -  Leningradec
+Textilscik   -  Rotor      
+Soci         -  SKA        
+Sinnik       -  KamAZ      
+Volga        -  Spartak Kos
+Celjabinsk   -  Ufa        
+
+Round 13 [Oct 10]
+Ural         -  Veles      
+Sinnik       -  Textilscik 
+SKA          -  KamAZ      
+Soci         -  Ufa        
+Pari NN      -  Jenisej    
+Arsenal      -  Spartak Kos
+Neftehimik   -  Celjabinsk 
+Leningradec  -  Torpedo    
+Rotor        -  Volga      
+
+Round 14 [Oct 17]
+Jenisej      -  Torpedo    
+Veles        -  Sinnik     
+Ural         -  Pari NN    
+Spartak Kos  -  Leningradec
+Textilscik   -  Celjabinsk 
+Ufa          -  Arsenal    
+SKA          -  Volga      
+KamAZ        -  Neftehimik 
+Rotor        -  Soci       
+
+Round 15 [Oct 24]
+Ufa          -  Pari NN    
+Volga        -  Veles      
+Torpedo      -  Rotor      
+Neftehimik   -  Leningradec
+Celjabinsk   -  Ural       
+Sinnik       -  Spartak Kos
+Textilscik   -  Soci       
+SKA          -  Jenisej    
+Arsenal      -  KamAZ      
+
+Round 16 [Nov 1]
+Veles        -  Spartak Kos
+Rotor        -  Ufa        
+Soci         -  Ural       
+Pari NN      -  Arsenal    
+Neftehimik   -  SKA        
+Leningradec  -  Jenisej    
+Celjabinsk   -  Sinnik     
+KamAZ        -  Torpedo    
+Volga        -  Textilscik 
+
+Round 17 [Nov 7]
+Torpedo      -  Neftehimik 
+Jenisej      -  Soci       
+Veles        -  KamAZ      
+Sinnik       -  Ufa        
+Rotor        -  Leningradec
+Ural         -  Volga      
+SKA          -  Textilscik 
+Spartak Kos  -  Pari NN    
+Arsenal      -  Celjabinsk 
+
+Round 18 [Nov 21]
+KamAZ        -  Spartak Kos
+Jenisej      -  Volga      
+Ufa          -  Ural       
+Celjabinsk   -  Leningradec
+SKA          -  Rotor      
+Textilscik   -  Arsenal    
+Soci         -  Veles      
+Pari NN      -  Torpedo    
+Sinnik       -  Neftehimik 
+
+Round 19 [Nov 25]
+Ural         -  Arsenal    
+Ufa          -  Spartak Kos
+Soci         -  Sinnik     
+Volga        -  Torpedo    
+Pari NN      -  Textilscik 
+Neftehimik   -  Rotor      
+KamAZ        -  Jenisej    
+Leningradec  -  SKA        
+Celjabinsk   -  Veles      
+
+Round 20 [Nov 28]
+Spartak Kos  -  Celjabinsk 
+Veles        -  Ufa        
+Sinnik       -  Ural       
+Rotor        -  KamAZ      
+Leningradec  -  Volga      
+Neftehimik   -  Pari NN    
+Torpedo      -  SKA        
+Arsenal      -  Soci       
+Textilscik   -  Jenisej    
+
+Round 21 [Dec 5]
+Jenisej      -  Ural       
+Veles        -  Volga      
+Torpedo      -  Celjabinsk 
+Spartak Kos  -  SKA        
+Soci         -  Leningradec
+Arsenal      -  Ufa        
+Textilscik   -  Neftehimik 
+Rotor        -  Sinnik     
+Pari NN      -  KamAZ      
+
+Round 22 [Mar 6]
+Veles        -  Neftehimik 
+Textilscik   -  Volga      
+Jenisej      -  SKA        
+Spartak Kos  -  Arsenal    
+Torpedo      -  Ural       
+Pari NN      -  Celjabinsk 
+Soci         -  Rotor      
+Leningradec  -  Ufa        
+KamAZ        -  Sinnik     
+
+Round 23 [Mar 13]
+Sinnik       -  Celjabinsk 
+Torpedo      -  Ufa        
+Volga        -  Pari NN    
+Leningradec  -  Neftehimik 
+Veles        -  SKA        
+Textilscik   -  Ural       
+Spartak Kos  -  Soci       
+Jenisej      -  Rotor      
+KamAZ        -  Arsenal    
+
+Round 24 [Mar 20]
+Ural         -  Spartak Kos
+SKA          -  Sinnik     
+Ufa          -  Textilscik 
+Volga        -  Rotor      
+Neftehimik   -  Jenisej    
+Soci         -  Torpedo    
+Celjabinsk   -  KamAZ      
+Pari NN      -  Veles      
+Arsenal      -  Leningradec
+
+Round 25 [Apr 3]
+Jenisej      -  Ufa        
+Torpedo      -  KamAZ      
+Ural         -  Soci       
+SKA          -  Neftehimik 
+Sinnik       -  Volga      
+Rotor        -  Spartak Kos
+Celjabinsk   -  Textilscik 
+Arsenal      -  Veles      
+Leningradec  -  Pari NN    
+
+Round 26 [Apr 10]
+Spartak Kos  -  Sinnik     
+Textilscik   -  Leningradec
+Neftehimik   -  Arsenal    
+Jenisej      -  Celjabinsk 
+SKA          -  Pari NN    
+Rotor        -  Torpedo    
+Veles        -  Ural       
+KamAZ        -  Ufa        
+Volga        -  Soci       
+
+Round 27 [Apr 14]
+Torpedo      -  Jenisej    
+Soci         -  Textilscik 
+Pari NN      -  Spartak Kos
+Celjabinsk   -  Arsenal    
+Neftehimik   -  Volga      
+Leningradec  -  Veles      
+KamAZ        -  SKA        
+Ural         -  Rotor      
+Ufa          -  Sinnik     
+
+Round 28 [Apr 17]
+Volga        -  KamAZ      
+Ufa          -  Neftehimik 
+Ural         -  Leningradec
+Textilscik   -  SKA        
+Spartak Kos  -  Torpedo    
+Sinnik       -  Veles      
+Arsenal      -  Jenisej    
+Rotor        -  Pari NN    
+Celjabinsk   -  Soci       
+
+Round 29 [Apr 24]
+Veles        -  Textilscik 
+SKA          -  Celjabinsk 
+Sinnik       -  Torpedo    
+Jenisej      -  Leningradec
+Volga        -  Ural       
+Soci         -  KamAZ      
+Pari NN      -  Ufa        
+Rotor        -  Arsenal    
+Neftehimik   -  Spartak Kos
+
+Round 30 [May 1]
+Celjabinsk   -  Neftehimik 
+Arsenal      -  Volga      
+Leningradec  -  Sinnik     
+Ufa          -  Rotor      
+Torpedo      -  Textilscik 
+Spartak Kos  -  Veles      
+Jenisej      -  Pari NN    
+SKA          -  Soci       
+KamAZ        -  Ural       
+
+Round 31 [May 8]
+Neftehimik   -  Torpedo    
+Veles        -  Jenisej    
+Volga        -  Ufa        
+Ural         -  SKA        
+Textilscik   -  KamAZ      
+Leningradec  -  Spartak Kos
+Arsenal      -  Sinnik     
+Celjabinsk   -  Rotor      
+Pari NN      -  Soci       
+
+Round 32 [May 15]
+Ufa          -  Celjabinsk 
+Sinnik       -  Pari NN    
+Spartak Kos  -  Volga      
+Ural         -  Neftehimik 
+KamAZ        -  Veles      
+Torpedo      -  Leningradec
+Rotor        -  Textilscik 
+Soci         -  Jenisej    
+SKA          -  Arsenal    
+
+Round 33 [May 22]
+Jenisej      -  Spartak Kos
+Torpedo      -  Arsenal    
+Textilscik   -  Sinnik     
+Soci         -  Neftehimik 
+SKA          -  Ufa        
+KamAZ        -  Leningradec
+Pari NN      -  Ural       
+Rotor        -  Veles      
+Celjabinsk   -  Volga      
+
+Round 34 [May 29]
+Veles        -  Torpedo    
+Ufa          -  Soci       
+Ural         -  Celjabinsk 
+Volga        -  SKA        
+Spartak Kos  -  Textilscik 
+Sinnik       -  Jenisej    
+Neftehimik   -  KamAZ      
+Leningradec  -  Rotor      
+Arsenal      -  Pari NN    
+
+</pre>
+<hr>
+
+<h4><a name="3la">Second League - Division A</a></h4>
+<pre>
+<a href="#3gg">Golden Group</a> | <a href="#3gs">Silver Group</a>
+
+<a name="3gg">Golden Group</a>
+
+FIRST STAGE
+
+Round 1 [Jul 19. Total Att: 7,375; Average: 1,475]
+Sokol       1-1  Kaluga    
+  [Artjóm Maláhov 38 - Artjóm Nadóĺskij 90+3. Att: 2,553]
+Dinamo Vla  1-2  Sibir     
+  [Andréj Semjónov 68 - Antón Kobjálko 29; Artúr Jangájev 60. Att: 2,738]
+Masuk-CMW   0-0  Dinamo Brj
+  [Att: 495]
+Dinamo Kir  0-0  Volgar    
+  [Att: 1,343]
+Rodina-2    2-1  Alanija   
+  [Denís Tíhonov 52 pen; Ígoŕ Andréjev 90+2 - Maháč Abdulhamídov 43 pen. Att: 246]
+
+Round 2 [Total Att: 9,205; Average: 1,841]
+[Jul 25]
+Rodina-2    0-0  Dinamo Vla
+  [Att: 139]
+[Jul 26]
+Kaluga      0-1  Sibir     
+  [Antón Kobjálko 25. Att: 469]
+Sokol       0-1  Dinamo Kir
+  [Iván Gorjáinov 60. Att: 2,017]
+Volgar      1-2  Masuk-CMW 
+  [Vjačesláv Krótov 43 - Seváda Torosyán 5; Rasúl Gystárov 65. Att: 2,130]
+Dinamo Brj  0-4  Alanija   
+  [Iván Matjušénko 40; Maháč Abdulhamídov 45; Artúr Kózyrev 50; Batráz Gurcíjev 67. Att: 4,450]
+
+Table:
+
+ 1.Sibíŕ (Novosibírsk)      2   2  0  0   3- 1    6  
+ 2.Mašúk-CMW (Pjatigórsk)   2   1  1  0   2- 1    4  
+ 3.Ródina-2 (Moskvá)        2   1  1  0   2- 1    4  
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+ 4.Dinámo (Kírov)           2   1  1  0   1- 0    4  
+ 5.Alánija (Vladikavkáz)    2   1  0  1   5- 2    3  
+ 6.Sókol (Sarátov)          2   0  1  1   1- 2    1  [R]
+---------------------------------------------------
+ 7.Volgáŕ (Ástrahań)        2   0  1  1   1- 2    1  
+ 8.FC Kalúga                2   0  1  1   1- 2    1  
+ 9.Dinámo (Vladivostók)     2   0  1  1   1- 2    1  
+10.Dinámo (Brjansk)         2   0  1  1   0- 4    1  
+
+The professional team of Čájka (Pesčanokópskoje) was disbanded.
+Černomórec (Novorossíjsk) failed to obtain the Second League 
+  Division A license and are going to start in Division B 2027.
+The withdrawal of the two teams saved FC Kalúga and Ródina-2 (Moskvá) from relegation.
+Mašúk-CMW play home games in Jessentukí (18 km west of Pjatigórsk).
+CMW = Caucasian Mineral Waters
+
+Top scorers:
+
+Maháč Abdulhamídov (Alánija)  2
+Antón Kobjálko (Sibíŕ)        2
+
+Round 3 [Aug 2]
+Alanija     -  Volgar    
+Dinamo Kír  -  Kaluga    
+Dinamo Vla  -  Dinamo Brj
+Masuk-CMW   -  Sokol     
+Sibir       -  Rodina-2  
+
+Round 4 [Aug 8]
+Volgar      -  Dinamo Vla
+Dinamo Kír  -  Masuk-CMW 
+Dinamo Brj  -  Sibir     
+Kaluga      -  Rodina-2  
+Sokol       -  Alanija   
+
+Round 5 [Aug 16]
+Alanija     -  Dinamo Kír
+Dinamo Vla  -  Sokol     
+Masuk-CMW   -  Kaluga    
+Rodina-2    -  Dinamo Brj
+Sibir       -  Volgar    
+
+Round 6 [Aug 22]
+Volgar      -  Rodina-2  
+Dinamo Kír  -  Dinamo Vla
+Kaluga      -  Dinamo Brj
+Masuk-CMW   -  Alanija   
+Sokol       -  Sibir     
+
+Round 7 [Aug 30]
+Dinamo Brj  -  Volgar    
+Dinamo Vla  -  Masuk-CMW 
+Kaluga      -  Alanija   
+Rodina-2    -  Sokol     
+Sibir       -  Dinamo Kír
+
+Round 8 [Sep 5]
+Alanija     -  Dinamo Vla
+Volgar      -  Kaluga    
+Dinamo Kír  -  Rodina-2  
+Masuk-CMW   -  Sibir     
+Sokol       -  Dinamo Brj
+
+Round 9 [Sep 13]
+Volgar      -  Sokol     
+Dinamo Brj  -  Dinamo Kír
+Kaluga      -  Dinamo Vla
+Rodina-2    -  Masuk-CMW 
+Sibir       -  Alanija   
+
+Round 10 [Sep 20]
+Alanija     -  Dinamo Brj
+Dinamo Kír  -  Sokol     
+Dinamo Vla  -  Rodina-2  
+Masuk-CMW   -  Volgar    
+Sibir       -  Kaluga    
+
+Round 11 [Sep 27]
+Volgar      -  Alanija   
+Dinamo Brj  -  Dinamo Vla
+Kaluga      -  Dinamo Kír
+Rodina-2    -  Sibir     
+Sokol       -  Masuk-CMW 
+
+Round 12 [Oct 4]
+Alanija     -  Sokol     
+Dinamo Vla  -  Volgar    
+Masuk-CMW   -  Dinamo Kír
+Rodina-2    -  Kaluga    
+Sibir       -  Dinamo Brj
+
+Round 13 [Oct 10]
+Volgar      -  Sibir     
+Dinamo Kír  -  Alanija   
+Dinamo Brj  -  Rodina-2  
+Kaluga      -  Masuk-CMW 
+Sokol       -  Dinamo Vla
+
+Round 14 [Oct 18]
+Alanija     -  Masuk-CMW 
+Dinamo Brj  -  Kaluga    
+Dinamo Vla  -  Dinamo Kír
+Rodina-2    -  Volgar    
+Sibir       -  Sokol     
+
+Round 15 [Oct 24]
+Alanija     -  Kaluga    
+Volgar      -  Dinamo Brj
+Dinamo Kír  -  Sibir     
+Masuk-CMW   -  Dinamo Vla
+Sokol       -  Rodina-2  
+
+Round 16 [Oct 31]
+Dinamo Brj  -  Sokol     
+Dinamo Vla  -  Alanija   
+Kaluga      -  Volgar    
+Rodina-2    -  Dinamo Kír
+Sibir       -  Masuk-CMW 
+
+Round 17 [Nov 8]
+Alanija     -  Sibir     
+Dinamo Kír  -  Dinamo Brj
+Dinamo Vla  -  Kaluga    
+Masuk-CMW   -  Rodina-2  
+Sokol       -  Volgar    
+
+Round 18 [Nov 15]
+Volgar      -  Dinamo Kír
+Dinamo Brj  -  Masuk-CMW 
+Kaluga      -  Sokol     
+Rodina-2    -  Alanija   
+Sibir       -  Dinamo Vla
+
+<a name="3gs">Silver Group</a>
+
+FIRST STAGE
+
+Round 1 [Jul 18. Total Att: 2,026; Average: 675]
+Torpedo Mi  0-2  Dinamo-2 M
+  [Arsénij Abdulhalíkov 7; Gadžimagoméd Halilulájev 61. Att: 455]
+Irtys       0-3  Amcar     
+  [Emíĺ Galljámov 5; Dmítrij Úsov 32, 76. Att: 1,010]
+Zenit-2     3-0  Dinamo Sta
+  [Bogdán Levandóvskij 16; Linár Hánov 57; Matvéj Ivanóv 65. Att: 561]
+
+Round 2 [Jul 25. Total Att: 745; Average: 248]
+Torpedo Mi  0-1  Zenit-2   
+  [Matvéj Ivanóv 66. Att: 450]
+Dinamo-2 M  0-2  Tjumen    
+  [Víktor Deḿjánov 46; Vladlén Babájev 84. Att: 205]
+Dinamo Sta  1-1  Irtys     
+  [Iĺjá Koróbočkin (Irt) 40 og - Andréj Razbórov 55. Att: 90]
+
+Table:
+
+ 1.Zenít-2 (Sankt-Peterbúrg)   2   2  0  0   4- 0   6  
+ 2.Amcár (Perḿ)                1   1  0  0   3- 0   3  
+ 3.FC Tjuméń                   1   1  0  0   2- 0   3  
+ 4.Dinámo-2 (Moskvá)           2   1  0  1   2- 2   3  
+-----------------------------------------------------
+ 5.Irtýš (Ómsk)                2   0  1  1   1- 4   1  
+ 6.Dinámo (Stávropoĺ)          2   0  1  1   1- 4   1  [Q]
+-----------------------------------------------------
+ 7.Torpédo (Miáss)             2   0  0  2   0- 3   0  
+
+Kubáń (Krasnodár) failed to obtain the Second League Division A 
+  license and are going to start in Division B 2027.
+Due to withdrawal of Kubáń and two clubs from Golden Group, Silver Group runs with just 7 teams.
+Dinámo-2 (Moskvá) play home matches in the satellite city of Hímki.
+Dinámo (Stávropoĺ) play home matches in Jessentukí (185 km south-east of Stávropoĺ).
+[Q] qualified for relegation playoff
+
+Top scorers:
+
+Matvéj Ivanóv (Zenít-2)  2
+Dmítrij Úsov (Amcár)     2
+
+Round 3 [Aug 1]
+Zenit-2     -  Dinamo-2 M
+Irtys       -  Torpedo Mi
+Tjumen      -  Amcar     
+
+Round 4 [Aug 8]
+Dinamo Sta  -  Tjumen    
+Dinamo-2 M  -  Amcar     
+Zenit-2     -  Irtys     
+
+Round 5 [Aug 16]
+Amcar       -  Dinamo Sta
+Dinamo-2 M  -  Irtys     
+Tjumen      -  Torpedo Mi
+
+Round 6 [Aug 22]
+Dinamo Sta  -  Dinamo-2 M
+Zenit-2     -  Tjumen    
+Torpedo Mi  -  Amcar     
+
+Round 7 [Aug 30]
+Amcar       -  Zenit-2   
+Dinamo Sta  -  Torpedo Mi
+Tjumen      -  Irtys     
+
+Round 8 [Sep 5]
+Zenit-2     -  Torpedo Mi
+Irtys       -  Dinamo Sta
+Tjumen      -  Dinamo-2 M
+
+Round 9 [Sep 13]
+Amcar       -  Tjumen    
+Dinamo-2 M  -  Zenit-2   
+Torpedo Mi  -  Irtys     
+
+Round 10 [Sep 19]
+Amcar       -  Dinamo-2 M
+Irtys       -  Zenit-2   
+Tjumen      -  Dinamo Sta
+
+Round 11 [Sep 26]
+Dinamo Sta  -  Amcar     
+Irtys       -  Dinamo-2 M
+Torpedo Mi  -  Tjumen    
+
+Round 12 [Oct 3]
+Amcar       -  Torpedo Mi
+Dinamo-2 M  -  Dinamo Sta
+Tjumen      -  Zenit-2   
+
+Round 13 [Oct 10]
+Zenit-2     -  Amcar     
+Irtys       -  Tjumen    
+Torpedo Mi  -  Dinamo Sta
+
+Round 14 [Oct 18]
+Amcar       -  Irtys     
+Dinamo Sta  -  Zenit-2   
+Dinamo-2 M  -  Torpedo Mi
+
+
+</pre>
+<hr>
+<p>
+<a href="rus2026.html"><cite>2025/26</cite></a>.
+<p>
+<a href="rus2026b.html"><cite>2026 (4th to 6th level)</cite></a>.
+<p>
+<a href="ruschamp.html"><cite>list of champions</cite></a>.
+<p>
+<a href="rushist.html"><cite>list of final tables</cite></a>.
+<p>
+<a href="ruscuphist.html"><cite>list of cup winners</cite></a>.
+
+</p><hr>
+<a name="about"><h2>About this document</h2></a>
+<p>Prepared and maintained by <i>Theodore Dreiman</i>
+for the <a href="../nersssf.html">Rec.Sport.Soccer Statistics Foundation</a>
+</p><p><i>
+Author: Theodore Dreiman
+<br>
+Last updated: 2 Aug 2026<br></i>
+</p><p>
+<b>(C) Copyright Theodore Dreiman and RSSSF 2026</b><br>
+You are free to copy this document in whole or part provided that proper
+acknowledgement is given to the author. All rights reserved.
+</p></body></html>

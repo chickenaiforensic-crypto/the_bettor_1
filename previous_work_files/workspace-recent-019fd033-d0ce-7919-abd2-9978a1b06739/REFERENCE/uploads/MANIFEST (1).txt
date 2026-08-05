@@ -1,0 +1,14 @@
+PITCH RATING — DELIVERY PACKAGE 5  (v3.5.0 — R9 (D9/D10) + picker — CURRENT)
+==========================================================================
+
+Version: v3.5.0   |   verify: base64 -d <file> > out  then  md5sum out
+
+Files (decoded md5s):
+  app-v3.5.0-400077a9.b64.txt
+      decoded md5 = 400077a96bf0ce885908aceeb616ebc3
+  ZONES-v3.5.0.b64.txt
+      decoded md5 = 58ca2c011e2f5408ca62cb085f9b3a9c
+  R9-D10.b64.txt
+      decoded md5 = cd63ccb778e51eea624edd1fbf58e613
+
+Plain-text source: app/app-v3.5.html  md5 400077a96bf0ce885908aceeb616ebc3
