@@ -1,0 +1,44 @@
+[
+ {
+  "fixture": "Lech Poznan v Aarhus",
+  "date": "2026-07-29",
+  "domain": "IN",
+  "verdict": "AVOID HOME",
+  "grade": "C",
+  "tier": "CH-F Clear away",
+  "tier_rate": 0.327,
+  "est": -1.22,
+  "sd": 0.78,
+  "paths": 2,
+  "H": 0.194,
+  "D": 0.225,
+  "A": 0.581,
+  "extrapolated": false,
+  "result": {
+   "hg": 1,
+   "ag": 5,
+   "res": "A"
+  },
+  "note": "first live case",
+  "brier": 0.263822,
+  "direction_correct": true
+ },
+ {
+  "fixture": "Maccabi Tel Aviv v FC Sheriff",
+  "date": "2026-07-30",
+  "domain": "IN",
+  "verdict": "NO EDGE",
+  "grade": "B+",
+  "tier": "CH-C  Slight home",
+  "tier_rate": 0.551,
+  "est": 0.5262163050624589,
+  "sd": 1.9376571447332396,
+  "paths": 36,
+  "H": 0.5196252826220437,
+  "D": 0.2574812818902847,
+  "A": 0.22289343548767204,
+  "extrapolated": false,
+  "result": null,
+  "note": "protocol run #1; p2/p3 contradiction"
+ }
+]
