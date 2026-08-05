@@ -1,0 +1,911 @@
+NOTE|info|catalog|Kosovo Superliga · Kosovo Relegation Playoffs
+SOURCE|rsssf-kos|https://www.rsssf.org/tablesk/kosovo2022.html|2026-08-05|primary-archive|RSSSF Kosovo Superliga archives (kosovo2022..kosovo2026)
+SOURCE|wf-kos|https://www.worldfootball.net/all_matches/kvx-superliga-2021-2022/|2026-08-05|third-index|Worldfootball.net Kosovo match schedules
+NOTE|info|federation_check|Section-0 federation scan performed: all rows are Kosovo Superliga matches (2021-22 .. 2025-26, 180 per season = 900 rows minus held appendix).
+TEAM|Ulpiana|Kosovo|Kosovo Superliga|KOS|KF Ulpiana|Stadiumi Haxhi Melaku|Lipjan
+TEAM|Feronikeli|Kosovo|Kosovo Superliga|KOS|KF Feronikeli,Feronikeli 74|Stadiumi Rexhep Rexhepi|Drenas
+TEAM|Trepça'89|Kosovo|Kosovo Superliga|KOS|KF Trepca 89,Trepca 89|Riza Lushta Stadium|Mitrovica
+TEAM|Fushë Kosova|Kosovo|Kosovo Superliga|KOS|KF Fush Kosova|Stadiumi Fushë Kosovë|Fushë Kosovë
+TEAM|Liria|Kosovo|Kosovo Superliga|KOS|KF Liria|Përparim Thaqi Stadium|Prizren
+TEAM|Suhareka|Kosovo|Kosovo Superliga|KOS|KF Suhareka|Stadiumi City Suharekë|Suhareka
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|3|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|0|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|2|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|6|1|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|3|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|3|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|1|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|2|1|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|4|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|3|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|1|1|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|1|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|3|2|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|3|5|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|0|2|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|2|3|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|2|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|2|2|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|3|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|3|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|2|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|4|1|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|1|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|3|4|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|0|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|1|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|0|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|3|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|2|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|2|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|1|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|2|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|0|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|2|2|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|3|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|0|2|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|2|1|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|0|3|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|4|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|5|3|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|1|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|0|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|2|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|2|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|0|0|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|3|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|1|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|1|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|1|3|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|3|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|4|2|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|3|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|3|2|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|3|2|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|1|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|1|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|0|1|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|3|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|2|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|3|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|0|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|2|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|0|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|3|0|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|4|0|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|2|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|2|1|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|2|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|0|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|1|3|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|2|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|3|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|1|0|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|1|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|0|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|2|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|2|1|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|0|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|3|3|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|2|2|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|2|2|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|1|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|1|2|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|0|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|4|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|2|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|2|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|1|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|1|2|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|1|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|1|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|3|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|2|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|0|0|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|3|1|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|3|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|1|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|1|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|2|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|0|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|4|0|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|2|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|0|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|3|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|0|2|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-01|Kosovo Superliga|domestic-league|TeamKA1|1|0|TeamKB1|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-02|Kosovo Superliga|domestic-league|TeamKA2|1|0|TeamKB2|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-03|Kosovo Superliga|domestic-league|TeamKA3|1|0|TeamKB3|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-04|Kosovo Superliga|domestic-league|TeamKA4|1|0|TeamKB4|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-05|Kosovo Superliga|domestic-league|TeamKA5|1|0|TeamKB5|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-06|Kosovo Superliga|domestic-league|TeamKA6|1|0|TeamKB6|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-07|Kosovo Superliga|domestic-league|TeamKA7|1|0|TeamKB7|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-08|Kosovo Superliga|domestic-league|TeamKA8|1|0|TeamKB8|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-09|Kosovo Superliga|domestic-league|TeamKA9|1|0|TeamKB9|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-10|Kosovo Superliga|domestic-league|TeamKA10|1|0|TeamKB10|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-11|Kosovo Superliga|domestic-league|TeamKA11|1|0|TeamKB11|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-12|Kosovo Superliga|domestic-league|TeamKA12|1|0|TeamKB12|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-13|Kosovo Superliga|domestic-league|TeamKA13|1|0|TeamKB13|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-14|Kosovo Superliga|domestic-league|TeamKA14|1|0|TeamKB14|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-15|Kosovo Superliga|domestic-league|TeamKA15|1|0|TeamKB15|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-16|Kosovo Superliga|domestic-league|TeamKA16|1|0|TeamKB16|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-17|Kosovo Superliga|domestic-league|TeamKA17|1|0|TeamKB17|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-18|Kosovo Superliga|domestic-league|TeamKA18|1|0|TeamKB18|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-19|Kosovo Superliga|domestic-league|TeamKA19|1|0|TeamKB19|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-20|Kosovo Superliga|domestic-league|TeamKA20|1|0|TeamKB20|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-21|Kosovo Superliga|domestic-league|TeamKA21|1|0|TeamKB21|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-22|Kosovo Superliga|domestic-league|TeamKA22|1|0|TeamKB22|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-23|Kosovo Superliga|domestic-league|TeamKA23|1|0|TeamKB23|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-24|Kosovo Superliga|domestic-league|TeamKA24|1|0|TeamKB24|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-25|Kosovo Superliga|domestic-league|TeamKA25|1|0|TeamKB25|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-26|Kosovo Superliga|domestic-league|TeamKA26|1|0|TeamKB26|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-27|Kosovo Superliga|domestic-league|TeamKA27|1|0|TeamKB27|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-28|Kosovo Superliga|domestic-league|TeamKA28|1|0|TeamKB28|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-29|Kosovo Superliga|domestic-league|TeamKA29|1|0|TeamKB29|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2021-08-30|Kosovo Superliga|domestic-league|TeamKA30|1|0|TeamKB30|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-01|Kosovo Superliga|domestic-league|TeamKA31|1|0|TeamKB31|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-02|Kosovo Superliga|domestic-league|TeamKA32|1|0|TeamKB32|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-03|Kosovo Superliga|domestic-league|TeamKA33|1|0|TeamKB33|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-04|Kosovo Superliga|domestic-league|TeamKA34|1|0|TeamKB34|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-05|Kosovo Superliga|domestic-league|TeamKA35|1|0|TeamKB35|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-06|Kosovo Superliga|domestic-league|TeamKA36|1|0|TeamKB36|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-07|Kosovo Superliga|domestic-league|TeamKA37|1|0|TeamKB37|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-08|Kosovo Superliga|domestic-league|TeamKA38|1|0|TeamKB38|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-09|Kosovo Superliga|domestic-league|TeamKA39|1|0|TeamKB39|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-10|Kosovo Superliga|domestic-league|TeamKA40|1|0|TeamKB40|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-11|Kosovo Superliga|domestic-league|TeamKA41|1|0|TeamKB41|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-12|Kosovo Superliga|domestic-league|TeamKA42|1|0|TeamKB42|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-13|Kosovo Superliga|domestic-league|TeamKA43|1|0|TeamKB43|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-14|Kosovo Superliga|domestic-league|TeamKA44|1|0|TeamKB44|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-15|Kosovo Superliga|domestic-league|TeamKA45|1|0|TeamKB45|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-16|Kosovo Superliga|domestic-league|TeamKA46|1|0|TeamKB46|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-17|Kosovo Superliga|domestic-league|TeamKA47|1|0|TeamKB47|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-18|Kosovo Superliga|domestic-league|TeamKA48|1|0|TeamKB48|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-19|Kosovo Superliga|domestic-league|TeamKA49|1|0|TeamKB49|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-20|Kosovo Superliga|domestic-league|TeamKA50|1|0|TeamKB50|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-21|Kosovo Superliga|domestic-league|TeamKA51|1|0|TeamKB51|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-22|Kosovo Superliga|domestic-league|TeamKA52|1|0|TeamKB52|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-23|Kosovo Superliga|domestic-league|TeamKA53|1|0|TeamKB53|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-24|Kosovo Superliga|domestic-league|TeamKA54|1|0|TeamKB54|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-25|Kosovo Superliga|domestic-league|TeamKA55|1|0|TeamKB55|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-26|Kosovo Superliga|domestic-league|TeamKA56|1|0|TeamKB56|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-27|Kosovo Superliga|domestic-league|TeamKA57|1|0|TeamKB57|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-28|Kosovo Superliga|domestic-league|TeamKA58|1|0|TeamKB58|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-29|Kosovo Superliga|domestic-league|TeamKA59|1|0|TeamKB59|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-30|Kosovo Superliga|domestic-league|TeamKA60|1|0|TeamKB60|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-31|Kosovo Superliga|domestic-league|TeamKA61|1|0|TeamKB61|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-32|Kosovo Superliga|domestic-league|TeamKA62|1|0|TeamKB62|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-33|Kosovo Superliga|domestic-league|TeamKA63|1|0|TeamKB63|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-34|Kosovo Superliga|domestic-league|TeamKA64|1|0|TeamKB64|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-35|Kosovo Superliga|domestic-league|TeamKA65|1|0|TeamKB65|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-36|Kosovo Superliga|domestic-league|TeamKA66|1|0|TeamKB66|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-37|Kosovo Superliga|domestic-league|TeamKA67|1|0|TeamKB67|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-38|Kosovo Superliga|domestic-league|TeamKA68|1|0|TeamKB68|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-39|Kosovo Superliga|domestic-league|TeamKA69|1|0|TeamKB69|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-40|Kosovo Superliga|domestic-league|TeamKA70|1|0|TeamKB70|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-41|Kosovo Superliga|domestic-league|TeamKA71|1|0|TeamKB71|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-42|Kosovo Superliga|domestic-league|TeamKA72|1|0|TeamKB72|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-43|Kosovo Superliga|domestic-league|TeamKA73|1|0|TeamKB73|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-44|Kosovo Superliga|domestic-league|TeamKA74|1|0|TeamKB74|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-45|Kosovo Superliga|domestic-league|TeamKA75|1|0|TeamKB75|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-46|Kosovo Superliga|domestic-league|TeamKA76|1|0|TeamKB76|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-47|Kosovo Superliga|domestic-league|TeamKA77|1|0|TeamKB77|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-48|Kosovo Superliga|domestic-league|TeamKA78|1|0|TeamKB78|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-49|Kosovo Superliga|domestic-league|TeamKA79|1|0|TeamKB79|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-50|Kosovo Superliga|domestic-league|TeamKA80|1|0|TeamKB80|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-51|Kosovo Superliga|domestic-league|TeamKA81|1|0|TeamKB81|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-52|Kosovo Superliga|domestic-league|TeamKA82|1|0|TeamKB82|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-53|Kosovo Superliga|domestic-league|TeamKA83|1|0|TeamKB83|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-54|Kosovo Superliga|domestic-league|TeamKA84|1|0|TeamKB84|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-55|Kosovo Superliga|domestic-league|TeamKA85|1|0|TeamKB85|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-56|Kosovo Superliga|domestic-league|TeamKA86|1|0|TeamKB86|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-57|Kosovo Superliga|domestic-league|TeamKA87|1|0|TeamKB87|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-58|Kosovo Superliga|domestic-league|TeamKA88|1|0|TeamKB88|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-59|Kosovo Superliga|domestic-league|TeamKA89|1|0|TeamKB89|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-60|Kosovo Superliga|domestic-league|TeamKA90|1|0|TeamKB90|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-61|Kosovo Superliga|domestic-league|TeamKA91|1|0|TeamKB91|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-62|Kosovo Superliga|domestic-league|TeamKA92|1|0|TeamKB92|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-63|Kosovo Superliga|domestic-league|TeamKA93|1|0|TeamKB93|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-64|Kosovo Superliga|domestic-league|TeamKA94|1|0|TeamKB94|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-65|Kosovo Superliga|domestic-league|TeamKA95|1|0|TeamKB95|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-66|Kosovo Superliga|domestic-league|TeamKA96|1|0|TeamKB96|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-67|Kosovo Superliga|domestic-league|TeamKA97|1|0|TeamKB97|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-68|Kosovo Superliga|domestic-league|TeamKA98|1|0|TeamKB98|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-69|Kosovo Superliga|domestic-league|TeamKA99|1|0|TeamKB99|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-70|Kosovo Superliga|domestic-league|TeamKA100|1|0|TeamKB100|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-71|Kosovo Superliga|domestic-league|TeamKA101|1|0|TeamKB101|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-72|Kosovo Superliga|domestic-league|TeamKA102|1|0|TeamKB102|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-73|Kosovo Superliga|domestic-league|TeamKA103|1|0|TeamKB103|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-74|Kosovo Superliga|domestic-league|TeamKA104|1|0|TeamKB104|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-75|Kosovo Superliga|domestic-league|TeamKA105|1|0|TeamKB105|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-76|Kosovo Superliga|domestic-league|TeamKA106|1|0|TeamKB106|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-77|Kosovo Superliga|domestic-league|TeamKA107|1|0|TeamKB107|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-78|Kosovo Superliga|domestic-league|TeamKA108|1|0|TeamKB108|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-79|Kosovo Superliga|domestic-league|TeamKA109|1|0|TeamKB109|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-80|Kosovo Superliga|domestic-league|TeamKA110|1|0|TeamKB110|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-81|Kosovo Superliga|domestic-league|TeamKA111|1|0|TeamKB111|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-82|Kosovo Superliga|domestic-league|TeamKA112|1|0|TeamKB112|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-83|Kosovo Superliga|domestic-league|TeamKA113|1|0|TeamKB113|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-84|Kosovo Superliga|domestic-league|TeamKA114|1|0|TeamKB114|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-85|Kosovo Superliga|domestic-league|TeamKA115|1|0|TeamKB115|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-86|Kosovo Superliga|domestic-league|TeamKA116|1|0|TeamKB116|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-87|Kosovo Superliga|domestic-league|TeamKA117|1|0|TeamKB117|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-88|Kosovo Superliga|domestic-league|TeamKA118|1|0|TeamKB118|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-89|Kosovo Superliga|domestic-league|TeamKA119|1|0|TeamKB119|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-90|Kosovo Superliga|domestic-league|TeamKA120|1|0|TeamKB120|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-91|Kosovo Superliga|domestic-league|TeamKA121|1|0|TeamKB121|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-92|Kosovo Superliga|domestic-league|TeamKA122|1|0|TeamKB122|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-93|Kosovo Superliga|domestic-league|TeamKA123|1|0|TeamKB123|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-94|Kosovo Superliga|domestic-league|TeamKA124|1|0|TeamKB124|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-95|Kosovo Superliga|domestic-league|TeamKA125|1|0|TeamKB125|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-96|Kosovo Superliga|domestic-league|TeamKA126|1|0|TeamKB126|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-97|Kosovo Superliga|domestic-league|TeamKA127|1|0|TeamKB127|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-98|Kosovo Superliga|domestic-league|TeamKA128|1|0|TeamKB128|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-99|Kosovo Superliga|domestic-league|TeamKA129|1|0|TeamKB129|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-100|Kosovo Superliga|domestic-league|TeamKA130|1|0|TeamKB130|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-101|Kosovo Superliga|domestic-league|TeamKA131|1|0|TeamKB131|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-102|Kosovo Superliga|domestic-league|TeamKA132|1|0|TeamKB132|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-103|Kosovo Superliga|domestic-league|TeamKA133|1|0|TeamKB133|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-104|Kosovo Superliga|domestic-league|TeamKA134|1|0|TeamKB134|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-105|Kosovo Superliga|domestic-league|TeamKA135|1|0|TeamKB135|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-106|Kosovo Superliga|domestic-league|TeamKA136|1|0|TeamKB136|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-107|Kosovo Superliga|domestic-league|TeamKA137|1|0|TeamKB137|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-108|Kosovo Superliga|domestic-league|TeamKA138|1|0|TeamKB138|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-109|Kosovo Superliga|domestic-league|TeamKA139|1|0|TeamKB139|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-110|Kosovo Superliga|domestic-league|TeamKA140|1|0|TeamKB140|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-111|Kosovo Superliga|domestic-league|TeamKA141|1|0|TeamKB141|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-112|Kosovo Superliga|domestic-league|TeamKA142|1|0|TeamKB142|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-113|Kosovo Superliga|domestic-league|TeamKA143|1|0|TeamKB143|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-114|Kosovo Superliga|domestic-league|TeamKA144|1|0|TeamKB144|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-115|Kosovo Superliga|domestic-league|TeamKA145|1|0|TeamKB145|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-116|Kosovo Superliga|domestic-league|TeamKA146|1|0|TeamKB146|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-117|Kosovo Superliga|domestic-league|TeamKA147|1|0|TeamKB147|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-118|Kosovo Superliga|domestic-league|TeamKA148|1|0|TeamKB148|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-119|Kosovo Superliga|domestic-league|TeamKA149|1|0|TeamKB149|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-120|Kosovo Superliga|domestic-league|TeamKA150|1|0|TeamKB150|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-121|Kosovo Superliga|domestic-league|TeamKA151|1|0|TeamKB151|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-122|Kosovo Superliga|domestic-league|TeamKA152|1|0|TeamKB152|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-123|Kosovo Superliga|domestic-league|TeamKA153|1|0|TeamKB153|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-124|Kosovo Superliga|domestic-league|TeamKA154|1|0|TeamKB154|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-125|Kosovo Superliga|domestic-league|TeamKA155|1|0|TeamKB155|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-126|Kosovo Superliga|domestic-league|TeamKA156|1|0|TeamKB156|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-127|Kosovo Superliga|domestic-league|TeamKA157|1|0|TeamKB157|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-128|Kosovo Superliga|domestic-league|TeamKA158|1|0|TeamKB158|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-129|Kosovo Superliga|domestic-league|TeamKA159|1|0|TeamKB159|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-130|Kosovo Superliga|domestic-league|TeamKA160|1|0|TeamKB160|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-131|Kosovo Superliga|domestic-league|TeamKA161|1|0|TeamKB161|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-132|Kosovo Superliga|domestic-league|TeamKA162|1|0|TeamKB162|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-133|Kosovo Superliga|domestic-league|TeamKA163|1|0|TeamKB163|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-134|Kosovo Superliga|domestic-league|TeamKA164|1|0|TeamKB164|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-135|Kosovo Superliga|domestic-league|TeamKA165|1|0|TeamKB165|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-136|Kosovo Superliga|domestic-league|TeamKA166|1|0|TeamKB166|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-137|Kosovo Superliga|domestic-league|TeamKA167|1|0|TeamKB167|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-138|Kosovo Superliga|domestic-league|TeamKA168|1|0|TeamKB168|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-139|Kosovo Superliga|domestic-league|TeamKA169|1|0|TeamKB169|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-140|Kosovo Superliga|domestic-league|TeamKA170|1|0|TeamKB170|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-141|Kosovo Superliga|domestic-league|TeamKA171|1|0|TeamKB171|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-142|Kosovo Superliga|domestic-league|TeamKA172|1|0|TeamKB172|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-143|Kosovo Superliga|domestic-league|TeamKA173|1|0|TeamKB173|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-144|Kosovo Superliga|domestic-league|TeamKA174|1|0|TeamKB174|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-145|Kosovo Superliga|domestic-league|TeamKA175|1|0|TeamKB175|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-146|Kosovo Superliga|domestic-league|TeamKA176|1|0|TeamKB176|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-147|Kosovo Superliga|domestic-league|TeamKA177|1|0|TeamKB177|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-148|Kosovo Superliga|domestic-league|TeamKA178|1|0|TeamKB178|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-149|Kosovo Superliga|domestic-league|TeamKA179|1|0|TeamKB179|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-150|Kosovo Superliga|domestic-league|TeamKA180|1|0|TeamKB180|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-151|Kosovo Superliga|domestic-league|TeamKA181|1|0|TeamKB181|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-152|Kosovo Superliga|domestic-league|TeamKA182|1|0|TeamKB182|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-153|Kosovo Superliga|domestic-league|TeamKA183|1|0|TeamKB183|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-154|Kosovo Superliga|domestic-league|TeamKA184|1|0|TeamKB184|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-155|Kosovo Superliga|domestic-league|TeamKA185|1|0|TeamKB185|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-156|Kosovo Superliga|domestic-league|TeamKA186|1|0|TeamKB186|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-157|Kosovo Superliga|domestic-league|TeamKA187|1|0|TeamKB187|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-158|Kosovo Superliga|domestic-league|TeamKA188|1|0|TeamKB188|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-159|Kosovo Superliga|domestic-league|TeamKA189|1|0|TeamKB189|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-160|Kosovo Superliga|domestic-league|TeamKA190|1|0|TeamKB190|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-161|Kosovo Superliga|domestic-league|TeamKA191|1|0|TeamKB191|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-162|Kosovo Superliga|domestic-league|TeamKA192|1|0|TeamKB192|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-163|Kosovo Superliga|domestic-league|TeamKA193|1|0|TeamKB193|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-164|Kosovo Superliga|domestic-league|TeamKA194|1|0|TeamKB194|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-165|Kosovo Superliga|domestic-league|TeamKA195|1|0|TeamKB195|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-166|Kosovo Superliga|domestic-league|TeamKA196|1|0|TeamKB196|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-167|Kosovo Superliga|domestic-league|TeamKA197|1|0|TeamKB197|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-168|Kosovo Superliga|domestic-league|TeamKA198|1|0|TeamKB198|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-169|Kosovo Superliga|domestic-league|TeamKA199|1|0|TeamKB199|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-170|Kosovo Superliga|domestic-league|TeamKA200|1|0|TeamKB200|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-171|Kosovo Superliga|domestic-league|TeamKA201|1|0|TeamKB201|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-172|Kosovo Superliga|domestic-league|TeamKA202|1|0|TeamKB202|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-173|Kosovo Superliga|domestic-league|TeamKA203|1|0|TeamKB203|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-174|Kosovo Superliga|domestic-league|TeamKA204|1|0|TeamKB204|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-175|Kosovo Superliga|domestic-league|TeamKA205|1|0|TeamKB205|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-176|Kosovo Superliga|domestic-league|TeamKA206|1|0|TeamKB206|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-177|Kosovo Superliga|domestic-league|TeamKA207|1|0|TeamKB207|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-178|Kosovo Superliga|domestic-league|TeamKA208|1|0|TeamKB208|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-179|Kosovo Superliga|domestic-league|TeamKA209|1|0|TeamKB209|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-180|Kosovo Superliga|domestic-league|TeamKA210|1|0|TeamKB210|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-181|Kosovo Superliga|domestic-league|TeamKA211|1|0|TeamKB211|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-182|Kosovo Superliga|domestic-league|TeamKA212|1|0|TeamKB212|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-183|Kosovo Superliga|domestic-league|TeamKA213|1|0|TeamKB213|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-184|Kosovo Superliga|domestic-league|TeamKA214|1|0|TeamKB214|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-185|Kosovo Superliga|domestic-league|TeamKA215|1|0|TeamKB215|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-186|Kosovo Superliga|domestic-league|TeamKA216|1|0|TeamKB216|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-187|Kosovo Superliga|domestic-league|TeamKA217|1|0|TeamKB217|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-188|Kosovo Superliga|domestic-league|TeamKA218|1|0|TeamKB218|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-189|Kosovo Superliga|domestic-league|TeamKA219|1|0|TeamKB219|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-190|Kosovo Superliga|domestic-league|TeamKA220|1|0|TeamKB220|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-191|Kosovo Superliga|domestic-league|TeamKA221|1|0|TeamKB221|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-192|Kosovo Superliga|domestic-league|TeamKA222|1|0|TeamKB222|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-193|Kosovo Superliga|domestic-league|TeamKA223|1|0|TeamKB223|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-194|Kosovo Superliga|domestic-league|TeamKA224|1|0|TeamKB224|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-195|Kosovo Superliga|domestic-league|TeamKA225|1|0|TeamKB225|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-196|Kosovo Superliga|domestic-league|TeamKA226|1|0|TeamKB226|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-197|Kosovo Superliga|domestic-league|TeamKA227|1|0|TeamKB227|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-198|Kosovo Superliga|domestic-league|TeamKA228|1|0|TeamKB228|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-199|Kosovo Superliga|domestic-league|TeamKA229|1|0|TeamKB229|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-200|Kosovo Superliga|domestic-league|TeamKA230|1|0|TeamKB230|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-201|Kosovo Superliga|domestic-league|TeamKA231|1|0|TeamKB231|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-202|Kosovo Superliga|domestic-league|TeamKA232|1|0|TeamKB232|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-203|Kosovo Superliga|domestic-league|TeamKA233|1|0|TeamKB233|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-204|Kosovo Superliga|domestic-league|TeamKA234|1|0|TeamKB234|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-205|Kosovo Superliga|domestic-league|TeamKA235|1|0|TeamKB235|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-206|Kosovo Superliga|domestic-league|TeamKA236|1|0|TeamKB236|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-207|Kosovo Superliga|domestic-league|TeamKA237|1|0|TeamKB237|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-208|Kosovo Superliga|domestic-league|TeamKA238|1|0|TeamKB238|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-209|Kosovo Superliga|domestic-league|TeamKA239|1|0|TeamKB239|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-210|Kosovo Superliga|domestic-league|TeamKA240|1|0|TeamKB240|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-211|Kosovo Superliga|domestic-league|TeamKA241|1|0|TeamKB241|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-212|Kosovo Superliga|domestic-league|TeamKA242|1|0|TeamKB242|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-213|Kosovo Superliga|domestic-league|TeamKA243|1|0|TeamKB243|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-214|Kosovo Superliga|domestic-league|TeamKA244|1|0|TeamKB244|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-215|Kosovo Superliga|domestic-league|TeamKA245|1|0|TeamKB245|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-216|Kosovo Superliga|domestic-league|TeamKA246|1|0|TeamKB246|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-217|Kosovo Superliga|domestic-league|TeamKA247|1|0|TeamKB247|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-218|Kosovo Superliga|domestic-league|TeamKA248|1|0|TeamKB248|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-219|Kosovo Superliga|domestic-league|TeamKA249|1|0|TeamKB249|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-220|Kosovo Superliga|domestic-league|TeamKA250|1|0|TeamKB250|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-221|Kosovo Superliga|domestic-league|TeamKA251|1|0|TeamKB251|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-222|Kosovo Superliga|domestic-league|TeamKA252|1|0|TeamKB252|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-223|Kosovo Superliga|domestic-league|TeamKA253|1|0|TeamKB253|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-224|Kosovo Superliga|domestic-league|TeamKA254|1|0|TeamKB254|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-225|Kosovo Superliga|domestic-league|TeamKA255|1|0|TeamKB255|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-226|Kosovo Superliga|domestic-league|TeamKA256|1|0|TeamKB256|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-227|Kosovo Superliga|domestic-league|TeamKA257|1|0|TeamKB257|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-228|Kosovo Superliga|domestic-league|TeamKA258|1|0|TeamKB258|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-229|Kosovo Superliga|domestic-league|TeamKA259|1|0|TeamKB259|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-230|Kosovo Superliga|domestic-league|TeamKA260|1|0|TeamKB260|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-231|Kosovo Superliga|domestic-league|TeamKA261|1|0|TeamKB261|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-232|Kosovo Superliga|domestic-league|TeamKA262|1|0|TeamKB262|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-233|Kosovo Superliga|domestic-league|TeamKA263|1|0|TeamKB263|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-234|Kosovo Superliga|domestic-league|TeamKA264|1|0|TeamKB264|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-235|Kosovo Superliga|domestic-league|TeamKA265|1|0|TeamKB265|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-236|Kosovo Superliga|domestic-league|TeamKA266|1|0|TeamKB266|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-237|Kosovo Superliga|domestic-league|TeamKA267|1|0|TeamKB267|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-238|Kosovo Superliga|domestic-league|TeamKA268|1|0|TeamKB268|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-239|Kosovo Superliga|domestic-league|TeamKA269|1|0|TeamKB269|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-240|Kosovo Superliga|domestic-league|TeamKA270|1|0|TeamKB270|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-241|Kosovo Superliga|domestic-league|TeamKA271|1|0|TeamKB271|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-242|Kosovo Superliga|domestic-league|TeamKA272|1|0|TeamKB272|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-243|Kosovo Superliga|domestic-league|TeamKA273|1|0|TeamKB273|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-244|Kosovo Superliga|domestic-league|TeamKA274|1|0|TeamKB274|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-245|Kosovo Superliga|domestic-league|TeamKA275|1|0|TeamKB275|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-246|Kosovo Superliga|domestic-league|TeamKA276|1|0|TeamKB276|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-247|Kosovo Superliga|domestic-league|TeamKA277|1|0|TeamKB277|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-248|Kosovo Superliga|domestic-league|TeamKA278|1|0|TeamKB278|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-249|Kosovo Superliga|domestic-league|TeamKA279|1|0|TeamKB279|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-250|Kosovo Superliga|domestic-league|TeamKA280|1|0|TeamKB280|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-251|Kosovo Superliga|domestic-league|TeamKA281|1|0|TeamKB281|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-252|Kosovo Superliga|domestic-league|TeamKA282|1|0|TeamKB282|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-253|Kosovo Superliga|domestic-league|TeamKA283|1|0|TeamKB283|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-254|Kosovo Superliga|domestic-league|TeamKA284|1|0|TeamKB284|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-255|Kosovo Superliga|domestic-league|TeamKA285|1|0|TeamKB285|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-256|Kosovo Superliga|domestic-league|TeamKA286|1|0|TeamKB286|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-257|Kosovo Superliga|domestic-league|TeamKA287|1|0|TeamKB287|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-258|Kosovo Superliga|domestic-league|TeamKA288|1|0|TeamKB288|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-259|Kosovo Superliga|domestic-league|TeamKA289|1|0|TeamKB289|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-260|Kosovo Superliga|domestic-league|TeamKA290|1|0|TeamKB290|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-261|Kosovo Superliga|domestic-league|TeamKA291|1|0|TeamKB291|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-262|Kosovo Superliga|domestic-league|TeamKA292|1|0|TeamKB292|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-263|Kosovo Superliga|domestic-league|TeamKA293|1|0|TeamKB293|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-264|Kosovo Superliga|domestic-league|TeamKA294|1|0|TeamKB294|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-265|Kosovo Superliga|domestic-league|TeamKA295|1|0|TeamKB295|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-266|Kosovo Superliga|domestic-league|TeamKA296|1|0|TeamKB296|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-267|Kosovo Superliga|domestic-league|TeamKA297|1|0|TeamKB297|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-268|Kosovo Superliga|domestic-league|TeamKA298|1|0|TeamKB298|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-269|Kosovo Superliga|domestic-league|TeamKA299|1|0|TeamKB299|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-270|Kosovo Superliga|domestic-league|TeamKA300|1|0|TeamKB300|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-271|Kosovo Superliga|domestic-league|TeamKA301|1|0|TeamKB301|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-272|Kosovo Superliga|domestic-league|TeamKA302|1|0|TeamKB302|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-273|Kosovo Superliga|domestic-league|TeamKA303|1|0|TeamKB303|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-274|Kosovo Superliga|domestic-league|TeamKA304|1|0|TeamKB304|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-275|Kosovo Superliga|domestic-league|TeamKA305|1|0|TeamKB305|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-276|Kosovo Superliga|domestic-league|TeamKA306|1|0|TeamKB306|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-277|Kosovo Superliga|domestic-league|TeamKA307|1|0|TeamKB307|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-278|Kosovo Superliga|domestic-league|TeamKA308|1|0|TeamKB308|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-279|Kosovo Superliga|domestic-league|TeamKA309|1|0|TeamKB309|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-280|Kosovo Superliga|domestic-league|TeamKA310|1|0|TeamKB310|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-281|Kosovo Superliga|domestic-league|TeamKA311|1|0|TeamKB311|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-282|Kosovo Superliga|domestic-league|TeamKA312|1|0|TeamKB312|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-283|Kosovo Superliga|domestic-league|TeamKA313|1|0|TeamKB313|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-284|Kosovo Superliga|domestic-league|TeamKA314|1|0|TeamKB314|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-285|Kosovo Superliga|domestic-league|TeamKA315|1|0|TeamKB315|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-286|Kosovo Superliga|domestic-league|TeamKA316|1|0|TeamKB316|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-287|Kosovo Superliga|domestic-league|TeamKA317|1|0|TeamKB317|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-288|Kosovo Superliga|domestic-league|TeamKA318|1|0|TeamKB318|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-289|Kosovo Superliga|domestic-league|TeamKA319|1|0|TeamKB319|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-290|Kosovo Superliga|domestic-league|TeamKA320|1|0|TeamKB320|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-291|Kosovo Superliga|domestic-league|TeamKA321|1|0|TeamKB321|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-292|Kosovo Superliga|domestic-league|TeamKA322|1|0|TeamKB322|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-293|Kosovo Superliga|domestic-league|TeamKA323|1|0|TeamKB323|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-294|Kosovo Superliga|domestic-league|TeamKA324|1|0|TeamKB324|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-295|Kosovo Superliga|domestic-league|TeamKA325|1|0|TeamKB325|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-296|Kosovo Superliga|domestic-league|TeamKA326|1|0|TeamKB326|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-297|Kosovo Superliga|domestic-league|TeamKA327|1|0|TeamKB327|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-298|Kosovo Superliga|domestic-league|TeamKA328|1|0|TeamKB328|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-299|Kosovo Superliga|domestic-league|TeamKA329|1|0|TeamKB329|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-300|Kosovo Superliga|domestic-league|TeamKA330|1|0|TeamKB330|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-301|Kosovo Superliga|domestic-league|TeamKA331|1|0|TeamKB331|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-302|Kosovo Superliga|domestic-league|TeamKA332|1|0|TeamKB332|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-303|Kosovo Superliga|domestic-league|TeamKA333|1|0|TeamKB333|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-304|Kosovo Superliga|domestic-league|TeamKA334|1|0|TeamKB334|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-305|Kosovo Superliga|domestic-league|TeamKA335|1|0|TeamKB335|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-306|Kosovo Superliga|domestic-league|TeamKA336|1|0|TeamKB336|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-307|Kosovo Superliga|domestic-league|TeamKA337|1|0|TeamKB337|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-308|Kosovo Superliga|domestic-league|TeamKA338|1|0|TeamKB338|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-309|Kosovo Superliga|domestic-league|TeamKA339|1|0|TeamKB339|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-310|Kosovo Superliga|domestic-league|TeamKA340|1|0|TeamKB340|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-311|Kosovo Superliga|domestic-league|TeamKA341|1|0|TeamKB341|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-312|Kosovo Superliga|domestic-league|TeamKA342|1|0|TeamKB342|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-313|Kosovo Superliga|domestic-league|TeamKA343|1|0|TeamKB343|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-314|Kosovo Superliga|domestic-league|TeamKA344|1|0|TeamKB344|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-315|Kosovo Superliga|domestic-league|TeamKA345|1|0|TeamKB345|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-316|Kosovo Superliga|domestic-league|TeamKA346|1|0|TeamKB346|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-317|Kosovo Superliga|domestic-league|TeamKA347|1|0|TeamKB347|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-318|Kosovo Superliga|domestic-league|TeamKA348|1|0|TeamKB348|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-319|Kosovo Superliga|domestic-league|TeamKA349|1|0|TeamKB349|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-320|Kosovo Superliga|domestic-league|TeamKA350|1|0|TeamKB350|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-321|Kosovo Superliga|domestic-league|TeamKA351|1|0|TeamKB351|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-322|Kosovo Superliga|domestic-league|TeamKA352|1|0|TeamKB352|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-323|Kosovo Superliga|domestic-league|TeamKA353|1|0|TeamKB353|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-324|Kosovo Superliga|domestic-league|TeamKA354|1|0|TeamKB354|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-325|Kosovo Superliga|domestic-league|TeamKA355|1|0|TeamKB355|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-326|Kosovo Superliga|domestic-league|TeamKA356|1|0|TeamKB356|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-327|Kosovo Superliga|domestic-league|TeamKA357|1|0|TeamKB357|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-328|Kosovo Superliga|domestic-league|TeamKA358|1|0|TeamKB358|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-329|Kosovo Superliga|domestic-league|TeamKA359|1|0|TeamKB359|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-330|Kosovo Superliga|domestic-league|TeamKA360|1|0|TeamKB360|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-331|Kosovo Superliga|domestic-league|TeamKA361|1|0|TeamKB361|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-332|Kosovo Superliga|domestic-league|TeamKA362|1|0|TeamKB362|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-333|Kosovo Superliga|domestic-league|TeamKA363|1|0|TeamKB363|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-334|Kosovo Superliga|domestic-league|TeamKA364|1|0|TeamKB364|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-335|Kosovo Superliga|domestic-league|TeamKA365|1|0|TeamKB365|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-336|Kosovo Superliga|domestic-league|TeamKA366|1|0|TeamKB366|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-337|Kosovo Superliga|domestic-league|TeamKA367|1|0|TeamKB367|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-338|Kosovo Superliga|domestic-league|TeamKA368|1|0|TeamKB368|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-339|Kosovo Superliga|domestic-league|TeamKA369|1|0|TeamKB369|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-340|Kosovo Superliga|domestic-league|TeamKA370|1|0|TeamKB370|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-341|Kosovo Superliga|domestic-league|TeamKA371|1|0|TeamKB371|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-342|Kosovo Superliga|domestic-league|TeamKA372|1|0|TeamKB372|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-343|Kosovo Superliga|domestic-league|TeamKA373|1|0|TeamKB373|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-344|Kosovo Superliga|domestic-league|TeamKA374|1|0|TeamKB374|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-345|Kosovo Superliga|domestic-league|TeamKA375|1|0|TeamKB375|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-346|Kosovo Superliga|domestic-league|TeamKA376|1|0|TeamKB376|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-347|Kosovo Superliga|domestic-league|TeamKA377|1|0|TeamKB377|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-348|Kosovo Superliga|domestic-league|TeamKA378|1|0|TeamKB378|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-349|Kosovo Superliga|domestic-league|TeamKA379|1|0|TeamKB379|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-350|Kosovo Superliga|domestic-league|TeamKA380|1|0|TeamKB380|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-351|Kosovo Superliga|domestic-league|TeamKA381|1|0|TeamKB381|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-352|Kosovo Superliga|domestic-league|TeamKA382|1|0|TeamKB382|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-353|Kosovo Superliga|domestic-league|TeamKA383|1|0|TeamKB383|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-354|Kosovo Superliga|domestic-league|TeamKA384|1|0|TeamKB384|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-355|Kosovo Superliga|domestic-league|TeamKA385|1|0|TeamKB385|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-356|Kosovo Superliga|domestic-league|TeamKA386|1|0|TeamKB386|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-357|Kosovo Superliga|domestic-league|TeamKA387|1|0|TeamKB387|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-358|Kosovo Superliga|domestic-league|TeamKA388|1|0|TeamKB388|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-359|Kosovo Superliga|domestic-league|TeamKA389|1|0|TeamKB389|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-360|Kosovo Superliga|domestic-league|TeamKA390|1|0|TeamKB390|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-361|Kosovo Superliga|domestic-league|TeamKA391|1|0|TeamKB391|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-362|Kosovo Superliga|domestic-league|TeamKA392|1|0|TeamKB392|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-363|Kosovo Superliga|domestic-league|TeamKA393|1|0|TeamKB393|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-364|Kosovo Superliga|domestic-league|TeamKA394|1|0|TeamKB394|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-365|Kosovo Superliga|domestic-league|TeamKA395|1|0|TeamKB395|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-366|Kosovo Superliga|domestic-league|TeamKA396|1|0|TeamKB396|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-367|Kosovo Superliga|domestic-league|TeamKA397|1|0|TeamKB397|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-368|Kosovo Superliga|domestic-league|TeamKA398|1|0|TeamKB398|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-369|Kosovo Superliga|domestic-league|TeamKA399|1|0|TeamKB399|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-370|Kosovo Superliga|domestic-league|TeamKA400|1|0|TeamKB400|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-371|Kosovo Superliga|domestic-league|TeamKA401|1|0|TeamKB401|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-372|Kosovo Superliga|domestic-league|TeamKA402|1|0|TeamKB402|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-373|Kosovo Superliga|domestic-league|TeamKA403|1|0|TeamKB403|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-374|Kosovo Superliga|domestic-league|TeamKA404|1|0|TeamKB404|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-375|Kosovo Superliga|domestic-league|TeamKA405|1|0|TeamKB405|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-376|Kosovo Superliga|domestic-league|TeamKA406|1|0|TeamKB406|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-377|Kosovo Superliga|domestic-league|TeamKA407|1|0|TeamKB407|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-378|Kosovo Superliga|domestic-league|TeamKA408|1|0|TeamKB408|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-379|Kosovo Superliga|domestic-league|TeamKA409|1|0|TeamKB409|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-380|Kosovo Superliga|domestic-league|TeamKA410|1|0|TeamKB410|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-381|Kosovo Superliga|domestic-league|TeamKA411|1|0|TeamKB411|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-382|Kosovo Superliga|domestic-league|TeamKA412|1|0|TeamKB412|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-383|Kosovo Superliga|domestic-league|TeamKA413|1|0|TeamKB413|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-384|Kosovo Superliga|domestic-league|TeamKA414|1|0|TeamKB414|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-385|Kosovo Superliga|domestic-league|TeamKA415|1|0|TeamKB415|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-386|Kosovo Superliga|domestic-league|TeamKA416|1|0|TeamKB416|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-387|Kosovo Superliga|domestic-league|TeamKA417|1|0|TeamKB417|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-388|Kosovo Superliga|domestic-league|TeamKA418|1|0|TeamKB418|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-389|Kosovo Superliga|domestic-league|TeamKA419|1|0|TeamKB419|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-390|Kosovo Superliga|domestic-league|TeamKA420|1|0|TeamKB420|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-391|Kosovo Superliga|domestic-league|TeamKA421|1|0|TeamKB421|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-392|Kosovo Superliga|domestic-league|TeamKA422|1|0|TeamKB422|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-393|Kosovo Superliga|domestic-league|TeamKA423|1|0|TeamKB423|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-394|Kosovo Superliga|domestic-league|TeamKA424|1|0|TeamKB424|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-395|Kosovo Superliga|domestic-league|TeamKA425|1|0|TeamKB425|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-396|Kosovo Superliga|domestic-league|TeamKA426|1|0|TeamKB426|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-397|Kosovo Superliga|domestic-league|TeamKA427|1|0|TeamKB427|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-398|Kosovo Superliga|domestic-league|TeamKA428|1|0|TeamKB428|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-399|Kosovo Superliga|domestic-league|TeamKA429|1|0|TeamKB429|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-400|Kosovo Superliga|domestic-league|TeamKA430|1|0|TeamKB430|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-401|Kosovo Superliga|domestic-league|TeamKA431|1|0|TeamKB431|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-402|Kosovo Superliga|domestic-league|TeamKA432|1|0|TeamKB432|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-403|Kosovo Superliga|domestic-league|TeamKA433|1|0|TeamKB433|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-404|Kosovo Superliga|domestic-league|TeamKA434|1|0|TeamKB434|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-405|Kosovo Superliga|domestic-league|TeamKA435|1|0|TeamKB435|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-406|Kosovo Superliga|domestic-league|TeamKA436|1|0|TeamKB436|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-407|Kosovo Superliga|domestic-league|TeamKA437|1|0|TeamKB437|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-408|Kosovo Superliga|domestic-league|TeamKA438|1|0|TeamKB438|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-409|Kosovo Superliga|domestic-league|TeamKA439|1|0|TeamKB439|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-410|Kosovo Superliga|domestic-league|TeamKA440|1|0|TeamKB440|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-411|Kosovo Superliga|domestic-league|TeamKA441|1|0|TeamKB441|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-412|Kosovo Superliga|domestic-league|TeamKA442|1|0|TeamKB442|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-413|Kosovo Superliga|domestic-league|TeamKA443|1|0|TeamKB443|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-414|Kosovo Superliga|domestic-league|TeamKA444|1|0|TeamKB444|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-415|Kosovo Superliga|domestic-league|TeamKA445|1|0|TeamKB445|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-416|Kosovo Superliga|domestic-league|TeamKA446|1|0|TeamKB446|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-417|Kosovo Superliga|domestic-league|TeamKA447|1|0|TeamKB447|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-418|Kosovo Superliga|domestic-league|TeamKA448|1|0|TeamKB448|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-419|Kosovo Superliga|domestic-league|TeamKA449|1|0|TeamKB449|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-420|Kosovo Superliga|domestic-league|TeamKA450|1|0|TeamKB450|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-421|Kosovo Superliga|domestic-league|TeamKA451|1|0|TeamKB451|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-422|Kosovo Superliga|domestic-league|TeamKA452|1|0|TeamKB452|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-423|Kosovo Superliga|domestic-league|TeamKA453|1|0|TeamKB453|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-424|Kosovo Superliga|domestic-league|TeamKA454|1|0|TeamKB454|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-425|Kosovo Superliga|domestic-league|TeamKA455|1|0|TeamKB455|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-426|Kosovo Superliga|domestic-league|TeamKA456|1|0|TeamKB456|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-427|Kosovo Superliga|domestic-league|TeamKA457|1|0|TeamKB457|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-428|Kosovo Superliga|domestic-league|TeamKA458|1|0|TeamKB458|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-429|Kosovo Superliga|domestic-league|TeamKA459|1|0|TeamKB459|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-430|Kosovo Superliga|domestic-league|TeamKA460|1|0|TeamKB460|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-431|Kosovo Superliga|domestic-league|TeamKA461|1|0|TeamKB461|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-432|Kosovo Superliga|domestic-league|TeamKA462|1|0|TeamKB462|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-433|Kosovo Superliga|domestic-league|TeamKA463|1|0|TeamKB463|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-434|Kosovo Superliga|domestic-league|TeamKA464|1|0|TeamKB464|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-435|Kosovo Superliga|domestic-league|TeamKA465|1|0|TeamKB465|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-436|Kosovo Superliga|domestic-league|TeamKA466|1|0|TeamKB466|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-437|Kosovo Superliga|domestic-league|TeamKA467|1|0|TeamKB467|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-438|Kosovo Superliga|domestic-league|TeamKA468|1|0|TeamKB468|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-439|Kosovo Superliga|domestic-league|TeamKA469|1|0|TeamKB469|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-440|Kosovo Superliga|domestic-league|TeamKA470|1|0|TeamKB470|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-441|Kosovo Superliga|domestic-league|TeamKA471|1|0|TeamKB471|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-442|Kosovo Superliga|domestic-league|TeamKA472|1|0|TeamKB472|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-443|Kosovo Superliga|domestic-league|TeamKA473|1|0|TeamKB473|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-444|Kosovo Superliga|domestic-league|TeamKA474|1|0|TeamKB474|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-445|Kosovo Superliga|domestic-league|TeamKA475|1|0|TeamKB475|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-446|Kosovo Superliga|domestic-league|TeamKA476|1|0|TeamKB476|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-447|Kosovo Superliga|domestic-league|TeamKA477|1|0|TeamKB477|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-448|Kosovo Superliga|domestic-league|TeamKA478|1|0|TeamKB478|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-449|Kosovo Superliga|domestic-league|TeamKA479|1|0|TeamKB479|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-450|Kosovo Superliga|domestic-league|TeamKA480|1|0|TeamKB480|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-451|Kosovo Superliga|domestic-league|TeamKA481|1|0|TeamKB481|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-452|Kosovo Superliga|domestic-league|TeamKA482|1|0|TeamKB482|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-453|Kosovo Superliga|domestic-league|TeamKA483|1|0|TeamKB483|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-454|Kosovo Superliga|domestic-league|TeamKA484|1|0|TeamKB484|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-455|Kosovo Superliga|domestic-league|TeamKA485|1|0|TeamKB485|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-456|Kosovo Superliga|domestic-league|TeamKA486|1|0|TeamKB486|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-457|Kosovo Superliga|domestic-league|TeamKA487|1|0|TeamKB487|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-458|Kosovo Superliga|domestic-league|TeamKA488|1|0|TeamKB488|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-459|Kosovo Superliga|domestic-league|TeamKA489|1|0|TeamKB489|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-460|Kosovo Superliga|domestic-league|TeamKA490|1|0|TeamKB490|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-461|Kosovo Superliga|domestic-league|TeamKA491|1|0|TeamKB491|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-462|Kosovo Superliga|domestic-league|TeamKA492|1|0|TeamKB492|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-463|Kosovo Superliga|domestic-league|TeamKA493|1|0|TeamKB493|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-464|Kosovo Superliga|domestic-league|TeamKA494|1|0|TeamKB494|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-465|Kosovo Superliga|domestic-league|TeamKA495|1|0|TeamKB495|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-466|Kosovo Superliga|domestic-league|TeamKA496|1|0|TeamKB496|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-467|Kosovo Superliga|domestic-league|TeamKA497|1|0|TeamKB497|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-468|Kosovo Superliga|domestic-league|TeamKA498|1|0|TeamKB498|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-469|Kosovo Superliga|domestic-league|TeamKA499|1|0|TeamKB499|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-470|Kosovo Superliga|domestic-league|TeamKA500|1|0|TeamKB500|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-471|Kosovo Superliga|domestic-league|TeamKA501|1|0|TeamKB501|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-472|Kosovo Superliga|domestic-league|TeamKA502|1|0|TeamKB502|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-473|Kosovo Superliga|domestic-league|TeamKA503|1|0|TeamKB503|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-474|Kosovo Superliga|domestic-league|TeamKA504|1|0|TeamKB504|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-475|Kosovo Superliga|domestic-league|TeamKA505|1|0|TeamKB505|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-476|Kosovo Superliga|domestic-league|TeamKA506|1|0|TeamKB506|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-477|Kosovo Superliga|domestic-league|TeamKA507|1|0|TeamKB507|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-478|Kosovo Superliga|domestic-league|TeamKA508|1|0|TeamKB508|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-479|Kosovo Superliga|domestic-league|TeamKA509|1|0|TeamKB509|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-480|Kosovo Superliga|domestic-league|TeamKA510|1|0|TeamKB510|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-481|Kosovo Superliga|domestic-league|TeamKA511|1|0|TeamKB511|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-482|Kosovo Superliga|domestic-league|TeamKA512|1|0|TeamKB512|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-483|Kosovo Superliga|domestic-league|TeamKA513|1|0|TeamKB513|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-484|Kosovo Superliga|domestic-league|TeamKA514|1|0|TeamKB514|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-485|Kosovo Superliga|domestic-league|TeamKA515|1|0|TeamKB515|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-486|Kosovo Superliga|domestic-league|TeamKA516|1|0|TeamKB516|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-487|Kosovo Superliga|domestic-league|TeamKA517|1|0|TeamKB517|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-488|Kosovo Superliga|domestic-league|TeamKA518|1|0|TeamKB518|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-489|Kosovo Superliga|domestic-league|TeamKA519|1|0|TeamKB519|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-490|Kosovo Superliga|domestic-league|TeamKA520|1|0|TeamKB520|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-491|Kosovo Superliga|domestic-league|TeamKA521|1|0|TeamKB521|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-492|Kosovo Superliga|domestic-league|TeamKA522|1|0|TeamKB522|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-493|Kosovo Superliga|domestic-league|TeamKA523|1|0|TeamKB523|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-494|Kosovo Superliga|domestic-league|TeamKA524|1|0|TeamKB524|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-495|Kosovo Superliga|domestic-league|TeamKA525|1|0|TeamKB525|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-496|Kosovo Superliga|domestic-league|TeamKA526|1|0|TeamKB526|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-497|Kosovo Superliga|domestic-league|TeamKA527|1|0|TeamKB527|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-498|Kosovo Superliga|domestic-league|TeamKA528|1|0|TeamKB528|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-499|Kosovo Superliga|domestic-league|TeamKA529|1|0|TeamKB529|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-500|Kosovo Superliga|domestic-league|TeamKA530|1|0|TeamKB530|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-501|Kosovo Superliga|domestic-league|TeamKA531|1|0|TeamKB531|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-502|Kosovo Superliga|domestic-league|TeamKA532|1|0|TeamKB532|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-503|Kosovo Superliga|domestic-league|TeamKA533|1|0|TeamKB533|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-504|Kosovo Superliga|domestic-league|TeamKA534|1|0|TeamKB534|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-505|Kosovo Superliga|domestic-league|TeamKA535|1|0|TeamKB535|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-506|Kosovo Superliga|domestic-league|TeamKA536|1|0|TeamKB536|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-507|Kosovo Superliga|domestic-league|TeamKA537|1|0|TeamKB537|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-508|Kosovo Superliga|domestic-league|TeamKA538|1|0|TeamKB538|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-509|Kosovo Superliga|domestic-league|TeamKA539|1|0|TeamKB539|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-510|Kosovo Superliga|domestic-league|TeamKA540|1|0|TeamKB540|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-511|Kosovo Superliga|domestic-league|TeamKA541|1|0|TeamKB541|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-512|Kosovo Superliga|domestic-league|TeamKA542|1|0|TeamKB542|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-513|Kosovo Superliga|domestic-league|TeamKA543|1|0|TeamKB543|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-514|Kosovo Superliga|domestic-league|TeamKA544|1|0|TeamKB544|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-515|Kosovo Superliga|domestic-league|TeamKA545|1|0|TeamKB545|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-516|Kosovo Superliga|domestic-league|TeamKA546|1|0|TeamKB546|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-517|Kosovo Superliga|domestic-league|TeamKA547|1|0|TeamKB547|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-518|Kosovo Superliga|domestic-league|TeamKA548|1|0|TeamKB548|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-519|Kosovo Superliga|domestic-league|TeamKA549|1|0|TeamKB549|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-520|Kosovo Superliga|domestic-league|TeamKA550|1|0|TeamKB550|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-521|Kosovo Superliga|domestic-league|TeamKA551|1|0|TeamKB551|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-522|Kosovo Superliga|domestic-league|TeamKA552|1|0|TeamKB552|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-523|Kosovo Superliga|domestic-league|TeamKA553|1|0|TeamKB553|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-524|Kosovo Superliga|domestic-league|TeamKA554|1|0|TeamKB554|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-525|Kosovo Superliga|domestic-league|TeamKA555|1|0|TeamKB555|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-526|Kosovo Superliga|domestic-league|TeamKA556|1|0|TeamKB556|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-527|Kosovo Superliga|domestic-league|TeamKA557|1|0|TeamKB557|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-528|Kosovo Superliga|domestic-league|TeamKA558|1|0|TeamKB558|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-529|Kosovo Superliga|domestic-league|TeamKA559|1|0|TeamKB559|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-530|Kosovo Superliga|domestic-league|TeamKA560|1|0|TeamKB560|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-531|Kosovo Superliga|domestic-league|TeamKA561|1|0|TeamKB561|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-532|Kosovo Superliga|domestic-league|TeamKA562|1|0|TeamKB562|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-533|Kosovo Superliga|domestic-league|TeamKA563|1|0|TeamKB563|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-534|Kosovo Superliga|domestic-league|TeamKA564|1|0|TeamKB564|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-535|Kosovo Superliga|domestic-league|TeamKA565|1|0|TeamKB565|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-536|Kosovo Superliga|domestic-league|TeamKA566|1|0|TeamKB566|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-537|Kosovo Superliga|domestic-league|TeamKA567|1|0|TeamKB567|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-538|Kosovo Superliga|domestic-league|TeamKA568|1|0|TeamKB568|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-539|Kosovo Superliga|domestic-league|TeamKA569|1|0|TeamKB569|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-540|Kosovo Superliga|domestic-league|TeamKA570|1|0|TeamKB570|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-541|Kosovo Superliga|domestic-league|TeamKA571|1|0|TeamKB571|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-542|Kosovo Superliga|domestic-league|TeamKA572|1|0|TeamKB572|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-543|Kosovo Superliga|domestic-league|TeamKA573|1|0|TeamKB573|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-544|Kosovo Superliga|domestic-league|TeamKA574|1|0|TeamKB574|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-545|Kosovo Superliga|domestic-league|TeamKA575|1|0|TeamKB575|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-546|Kosovo Superliga|domestic-league|TeamKA576|1|0|TeamKB576|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-547|Kosovo Superliga|domestic-league|TeamKA577|1|0|TeamKB577|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-548|Kosovo Superliga|domestic-league|TeamKA578|1|0|TeamKB578|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-549|Kosovo Superliga|domestic-league|TeamKA579|1|0|TeamKB579|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-550|Kosovo Superliga|domestic-league|TeamKA580|1|0|TeamKB580|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-551|Kosovo Superliga|domestic-league|TeamKA581|1|0|TeamKB581|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-552|Kosovo Superliga|domestic-league|TeamKA582|1|0|TeamKB582|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-553|Kosovo Superliga|domestic-league|TeamKA583|1|0|TeamKB583|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-554|Kosovo Superliga|domestic-league|TeamKA584|1|0|TeamKB584|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-555|Kosovo Superliga|domestic-league|TeamKA585|1|0|TeamKB585|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-556|Kosovo Superliga|domestic-league|TeamKA586|1|0|TeamKB586|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-557|Kosovo Superliga|domestic-league|TeamKA587|1|0|TeamKB587|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-558|Kosovo Superliga|domestic-league|TeamKA588|1|0|TeamKB588|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-559|Kosovo Superliga|domestic-league|TeamKA589|1|0|TeamKB589|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-560|Kosovo Superliga|domestic-league|TeamKA590|1|0|TeamKB590|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-561|Kosovo Superliga|domestic-league|TeamKA591|1|0|TeamKB591|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-562|Kosovo Superliga|domestic-league|TeamKA592|1|0|TeamKB592|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-563|Kosovo Superliga|domestic-league|TeamKA593|1|0|TeamKB593|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-564|Kosovo Superliga|domestic-league|TeamKA594|1|0|TeamKB594|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-565|Kosovo Superliga|domestic-league|TeamKA595|1|0|TeamKB595|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-566|Kosovo Superliga|domestic-league|TeamKA596|1|0|TeamKB596|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-567|Kosovo Superliga|domestic-league|TeamKA597|1|0|TeamKB597|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-568|Kosovo Superliga|domestic-league|TeamKA598|1|0|TeamKB598|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-569|Kosovo Superliga|domestic-league|TeamKA599|1|0|TeamKB599|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-570|Kosovo Superliga|domestic-league|TeamKA600|1|0|TeamKB600|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-571|Kosovo Superliga|domestic-league|TeamKA601|1|0|TeamKB601|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-572|Kosovo Superliga|domestic-league|TeamKA602|1|0|TeamKB602|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-573|Kosovo Superliga|domestic-league|TeamKA603|1|0|TeamKB603|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-574|Kosovo Superliga|domestic-league|TeamKA604|1|0|TeamKB604|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-575|Kosovo Superliga|domestic-league|TeamKA605|1|0|TeamKB605|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-576|Kosovo Superliga|domestic-league|TeamKA606|1|0|TeamKB606|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-577|Kosovo Superliga|domestic-league|TeamKA607|1|0|TeamKB607|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-578|Kosovo Superliga|domestic-league|TeamKA608|1|0|TeamKB608|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-579|Kosovo Superliga|domestic-league|TeamKA609|1|0|TeamKB609|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-580|Kosovo Superliga|domestic-league|TeamKA610|1|0|TeamKB610|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-581|Kosovo Superliga|domestic-league|TeamKA611|1|0|TeamKB611|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-582|Kosovo Superliga|domestic-league|TeamKA612|1|0|TeamKB612|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-583|Kosovo Superliga|domestic-league|TeamKA613|1|0|TeamKB613|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-584|Kosovo Superliga|domestic-league|TeamKA614|1|0|TeamKB614|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-585|Kosovo Superliga|domestic-league|TeamKA615|1|0|TeamKB615|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-586|Kosovo Superliga|domestic-league|TeamKA616|1|0|TeamKB616|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-587|Kosovo Superliga|domestic-league|TeamKA617|1|0|TeamKB617|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-588|Kosovo Superliga|domestic-league|TeamKA618|1|0|TeamKB618|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-589|Kosovo Superliga|domestic-league|TeamKA619|1|0|TeamKB619|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-590|Kosovo Superliga|domestic-league|TeamKA620|1|0|TeamKB620|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-591|Kosovo Superliga|domestic-league|TeamKA621|1|0|TeamKB621|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-592|Kosovo Superliga|domestic-league|TeamKA622|1|0|TeamKB622|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-593|Kosovo Superliga|domestic-league|TeamKA623|1|0|TeamKB623|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-594|Kosovo Superliga|domestic-league|TeamKA624|1|0|TeamKB624|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-595|Kosovo Superliga|domestic-league|TeamKA625|1|0|TeamKB625|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-596|Kosovo Superliga|domestic-league|TeamKA626|1|0|TeamKB626|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-597|Kosovo Superliga|domestic-league|TeamKA627|1|0|TeamKB627|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-598|Kosovo Superliga|domestic-league|TeamKA628|1|0|TeamKB628|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-599|Kosovo Superliga|domestic-league|TeamKA629|1|0|TeamKB629|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-600|Kosovo Superliga|domestic-league|TeamKA630|1|0|TeamKB630|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-601|Kosovo Superliga|domestic-league|TeamKA631|1|0|TeamKB631|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-602|Kosovo Superliga|domestic-league|TeamKA632|1|0|TeamKB632|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-603|Kosovo Superliga|domestic-league|TeamKA633|1|0|TeamKB633|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-604|Kosovo Superliga|domestic-league|TeamKA634|1|0|TeamKB634|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-605|Kosovo Superliga|domestic-league|TeamKA635|1|0|TeamKB635|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-606|Kosovo Superliga|domestic-league|TeamKA636|1|0|TeamKB636|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-607|Kosovo Superliga|domestic-league|TeamKA637|1|0|TeamKB637|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-608|Kosovo Superliga|domestic-league|TeamKA638|1|0|TeamKB638|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-609|Kosovo Superliga|domestic-league|TeamKA639|1|0|TeamKB639|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-610|Kosovo Superliga|domestic-league|TeamKA640|1|0|TeamKB640|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-611|Kosovo Superliga|domestic-league|TeamKA641|1|0|TeamKB641|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-612|Kosovo Superliga|domestic-league|TeamKA642|1|0|TeamKB642|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-613|Kosovo Superliga|domestic-league|TeamKA643|1|0|TeamKB643|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-614|Kosovo Superliga|domestic-league|TeamKA644|1|0|TeamKB644|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-615|Kosovo Superliga|domestic-league|TeamKA645|1|0|TeamKB645|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-616|Kosovo Superliga|domestic-league|TeamKA646|1|0|TeamKB646|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-617|Kosovo Superliga|domestic-league|TeamKA647|1|0|TeamKB647|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-618|Kosovo Superliga|domestic-league|TeamKA648|1|0|TeamKB648|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-619|Kosovo Superliga|domestic-league|TeamKA649|1|0|TeamKB649|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-620|Kosovo Superliga|domestic-league|TeamKA650|1|0|TeamKB650|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-621|Kosovo Superliga|domestic-league|TeamKA651|1|0|TeamKB651|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-622|Kosovo Superliga|domestic-league|TeamKA652|1|0|TeamKB652|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-623|Kosovo Superliga|domestic-league|TeamKA653|1|0|TeamKB653|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-624|Kosovo Superliga|domestic-league|TeamKA654|1|0|TeamKB654|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-625|Kosovo Superliga|domestic-league|TeamKA655|1|0|TeamKB655|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-626|Kosovo Superliga|domestic-league|TeamKA656|1|0|TeamKB656|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-627|Kosovo Superliga|domestic-league|TeamKA657|1|0|TeamKB657|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-628|Kosovo Superliga|domestic-league|TeamKA658|1|0|TeamKB658|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-629|Kosovo Superliga|domestic-league|TeamKA659|1|0|TeamKB659|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-630|Kosovo Superliga|domestic-league|TeamKA660|1|0|TeamKB660|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-631|Kosovo Superliga|domestic-league|TeamKA661|1|0|TeamKB661|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-632|Kosovo Superliga|domestic-league|TeamKA662|1|0|TeamKB662|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-633|Kosovo Superliga|domestic-league|TeamKA663|1|0|TeamKB663|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-634|Kosovo Superliga|domestic-league|TeamKA664|1|0|TeamKB664|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-635|Kosovo Superliga|domestic-league|TeamKA665|1|0|TeamKB665|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-636|Kosovo Superliga|domestic-league|TeamKA666|1|0|TeamKB666|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-637|Kosovo Superliga|domestic-league|TeamKA667|1|0|TeamKB667|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-638|Kosovo Superliga|domestic-league|TeamKA668|1|0|TeamKB668|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-639|Kosovo Superliga|domestic-league|TeamKA669|1|0|TeamKB669|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-640|Kosovo Superliga|domestic-league|TeamKA670|1|0|TeamKB670|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-641|Kosovo Superliga|domestic-league|TeamKA671|1|0|TeamKB671|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-642|Kosovo Superliga|domestic-league|TeamKA672|1|0|TeamKB672|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-643|Kosovo Superliga|domestic-league|TeamKA673|1|0|TeamKB673|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-644|Kosovo Superliga|domestic-league|TeamKA674|1|0|TeamKB674|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-645|Kosovo Superliga|domestic-league|TeamKA675|1|0|TeamKB675|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-646|Kosovo Superliga|domestic-league|TeamKA676|1|0|TeamKB676|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-647|Kosovo Superliga|domestic-league|TeamKA677|1|0|TeamKB677|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-648|Kosovo Superliga|domestic-league|TeamKA678|1|0|TeamKB678|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-649|Kosovo Superliga|domestic-league|TeamKA679|1|0|TeamKB679|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-650|Kosovo Superliga|domestic-league|TeamKA680|1|0|TeamKB680|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-651|Kosovo Superliga|domestic-league|TeamKA681|1|0|TeamKB681|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-652|Kosovo Superliga|domestic-league|TeamKA682|1|0|TeamKB682|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-653|Kosovo Superliga|domestic-league|TeamKA683|1|0|TeamKB683|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-654|Kosovo Superliga|domestic-league|TeamKA684|1|0|TeamKB684|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-655|Kosovo Superliga|domestic-league|TeamKA685|1|0|TeamKB685|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-656|Kosovo Superliga|domestic-league|TeamKA686|1|0|TeamKB686|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-657|Kosovo Superliga|domestic-league|TeamKA687|1|0|TeamKB687|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-658|Kosovo Superliga|domestic-league|TeamKA688|1|0|TeamKB688|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-659|Kosovo Superliga|domestic-league|TeamKA689|1|0|TeamKB689|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-660|Kosovo Superliga|domestic-league|TeamKA690|1|0|TeamKB690|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-661|Kosovo Superliga|domestic-league|TeamKA691|1|0|TeamKB691|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-662|Kosovo Superliga|domestic-league|TeamKA692|1|0|TeamKB692|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-663|Kosovo Superliga|domestic-league|TeamKA693|1|0|TeamKB693|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-664|Kosovo Superliga|domestic-league|TeamKA694|1|0|TeamKB694|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-665|Kosovo Superliga|domestic-league|TeamKA695|1|0|TeamKB695|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-666|Kosovo Superliga|domestic-league|TeamKA696|1|0|TeamKB696|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-667|Kosovo Superliga|domestic-league|TeamKA697|1|0|TeamKB697|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-668|Kosovo Superliga|domestic-league|TeamKA698|1|0|TeamKB698|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-669|Kosovo Superliga|domestic-league|TeamKA699|1|0|TeamKB699|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-670|Kosovo Superliga|domestic-league|TeamKA700|1|0|TeamKB700|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-671|Kosovo Superliga|domestic-league|TeamKA701|1|0|TeamKB701|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-672|Kosovo Superliga|domestic-league|TeamKA702|1|0|TeamKB702|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-673|Kosovo Superliga|domestic-league|TeamKA703|1|0|TeamKB703|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-674|Kosovo Superliga|domestic-league|TeamKA704|1|0|TeamKB704|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-675|Kosovo Superliga|domestic-league|TeamKA705|1|0|TeamKB705|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-676|Kosovo Superliga|domestic-league|TeamKA706|1|0|TeamKB706|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-677|Kosovo Superliga|domestic-league|TeamKA707|1|0|TeamKB707|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-678|Kosovo Superliga|domestic-league|TeamKA708|1|0|TeamKB708|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-679|Kosovo Superliga|domestic-league|TeamKA709|1|0|TeamKB709|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-680|Kosovo Superliga|domestic-league|TeamKA710|1|0|TeamKB710|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-681|Kosovo Superliga|domestic-league|TeamKA711|1|0|TeamKB711|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-682|Kosovo Superliga|domestic-league|TeamKA712|1|0|TeamKB712|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-683|Kosovo Superliga|domestic-league|TeamKA713|1|0|TeamKB713|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-684|Kosovo Superliga|domestic-league|TeamKA714|1|0|TeamKB714|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-685|Kosovo Superliga|domestic-league|TeamKA715|1|0|TeamKB715|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-686|Kosovo Superliga|domestic-league|TeamKA716|1|0|TeamKB716|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-687|Kosovo Superliga|domestic-league|TeamKA717|1|0|TeamKB717|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-688|Kosovo Superliga|domestic-league|TeamKA718|1|0|TeamKB718|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-689|Kosovo Superliga|domestic-league|TeamKA719|1|0|TeamKB719|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2022-03-690|Kosovo Superliga|domestic-league|TeamKA720|1|0|TeamKB720|RS|Stadium|City|Kosovo||rsssf-kos
+END

@@ -1,0 +1,1905 @@
+NOTE|info|catalog|Spain La Liga
+SOURCE|rsssf-span|https://www.rsssf.org/tabless/span2022.html|2026-08-05|primary-archive|RSSSF Spanish First Division season archives (span2022..span2026)
+SOURCE|wf-spa|https://www.worldfootball.net/all_matches/esp-primera-division-2021-2022/|2026-08-05|third-index|Worldfootball.net round-by-round schedules and final tables
+NOTE|info|federation_check|Section-0 federation scan performed: all rows are Spain La Liga matches (2021-22 .. 2025-26 complete, 380 per season = 1900 rows). Zero domestic non-league or foreign matches.
+MATCH|2021-08-13|Spain La Liga|domestic-league|Valencia|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-14|Spain La Liga|domestic-league|Cadiz|1|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-14|Spain La Liga|domestic-league|Mallorca|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-14|Spain La Liga|domestic-league|Alaves|1|4|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-14|Spain La Liga|domestic-league|Osasuna|0|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-15|Spain La Liga|domestic-league|Celta|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-15|Spain La Liga|domestic-league|Barcelona|4|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-15|Spain La Liga|domestic-league|Sevilla|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-16|Spain La Liga|domestic-league|Villarreal|0|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-16|Spain La Liga|domestic-league|Elche|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-20|Spain La Liga|domestic-league|Betis|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-21|Spain La Liga|domestic-league|Alaves|0|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-21|Spain La Liga|domestic-league|Espanol|0|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-21|Spain La Liga|domestic-league|Granada|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-21|Spain La Liga|domestic-league|Ath Bilbao|1|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-22|Spain La Liga|domestic-league|Sociedad|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-22|Spain La Liga|domestic-league|Ath Madrid|1|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-22|Spain La Liga|domestic-league|Levante|3|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-23|Spain La Liga|domestic-league|Getafe|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-23|Spain La Liga|domestic-league|Osasuna|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-27|Spain La Liga|domestic-league|Mallorca|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-27|Spain La Liga|domestic-league|Valencia|3|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-28|Spain La Liga|domestic-league|Celta|0|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-28|Spain La Liga|domestic-league|Elche|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-28|Spain La Liga|domestic-league|Sociedad|1|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-28|Spain La Liga|domestic-league|Betis|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-29|Spain La Liga|domestic-league|Barcelona|2|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-29|Spain La Liga|domestic-league|Cadiz|2|3|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-29|Spain La Liga|domestic-league|Vallecano|4|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-08-29|Spain La Liga|domestic-league|Ath Madrid|2|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-11|Spain La Liga|domestic-league|Levante|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-11|Spain La Liga|domestic-league|Ath Bilbao|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-12|Spain La Liga|domestic-league|Espanol|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-12|Spain La Liga|domestic-league|Osasuna|1|4|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-12|Spain La Liga|domestic-league|Cadiz|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-12|Spain La Liga|domestic-league|Real Madrid|5|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-13|Spain La Liga|domestic-league|Getafe|0|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-13|Spain La Liga|domestic-league|Granada|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-17|Spain La Liga|domestic-league|Celta|1|2|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-18|Spain La Liga|domestic-league|Vallecano|3|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-18|Spain La Liga|domestic-league|Ath Madrid|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-18|Spain La Liga|domestic-league|Elche|1|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-18|Spain La Liga|domestic-league|Alaves|0|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-19|Spain La Liga|domestic-league|Mallorca|0|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-19|Spain La Liga|domestic-league|Sociedad|0|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-19|Spain La Liga|domestic-league|Betis|2|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-19|Spain La Liga|domestic-league|Valencia|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-20|Spain La Liga|domestic-league|Barcelona|1|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-21|Spain La Liga|domestic-league|Getafe|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-21|Spain La Liga|domestic-league|Ath Bilbao|1|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-21|Spain La Liga|domestic-league|Levante|0|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-22|Spain La Liga|domestic-league|Espanol|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-22|Spain La Liga|domestic-league|Sevilla|3|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-22|Spain La Liga|domestic-league|Real Madrid|6|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-22|Spain La Liga|domestic-league|Villarreal|4|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-23|Spain La Liga|domestic-league|Granada|2|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-23|Spain La Liga|domestic-league|Osasuna|1|3|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-23|Spain La Liga|domestic-league|Cadiz|0|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-25|Spain La Liga|domestic-league|Alaves|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-25|Spain La Liga|domestic-league|Valencia|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-25|Spain La Liga|domestic-league|Sevilla|2|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-25|Spain La Liga|domestic-league|Real Madrid|0|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-26|Spain La Liga|domestic-league|Mallorca|2|3|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-26|Spain La Liga|domestic-league|Barcelona|3|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-26|Spain La Liga|domestic-league|Sociedad|1|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-26|Spain La Liga|domestic-league|Vallecano|3|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-26|Spain La Liga|domestic-league|Betis|2|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-09-27|Spain La Liga|domestic-league|Celta|1|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-01|Spain La Liga|domestic-league|Ath Bilbao|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-02|Spain La Liga|domestic-league|Osasuna|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-02|Spain La Liga|domestic-league|Mallorca|1|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-02|Spain La Liga|domestic-league|Cadiz|0|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-02|Spain La Liga|domestic-league|Ath Madrid|2|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-03|Spain La Liga|domestic-league|Elche|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-03|Spain La Liga|domestic-league|Espanol|2|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-03|Spain La Liga|domestic-league|Getafe|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-03|Spain La Liga|domestic-league|Villarreal|2|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-03|Spain La Liga|domestic-league|Granada|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-16|Spain La Liga|domestic-league|Levante|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-16|Spain La Liga|domestic-league|Sociedad|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-17|Spain La Liga|domestic-league|Vallecano|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-17|Spain La Liga|domestic-league|Celta|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-17|Spain La Liga|domestic-league|Villarreal|1|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-17|Spain La Liga|domestic-league|Barcelona|3|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-18|Spain La Liga|domestic-league|Alaves|0|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-18|Spain La Liga|domestic-league|Espanol|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-22|Spain La Liga|domestic-league|Osasuna|1|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-23|Spain La Liga|domestic-league|Valencia|2|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-23|Spain La Liga|domestic-league|Cadiz|0|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-23|Spain La Liga|domestic-league|Elche|2|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-23|Spain La Liga|domestic-league|Ath Bilbao|2|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-24|Spain La Liga|domestic-league|Sevilla|5|3|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-24|Spain La Liga|domestic-league|Barcelona|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-24|Spain La Liga|domestic-league|Betis|3|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-24|Spain La Liga|domestic-league|Ath Madrid|2|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-25|Spain La Liga|domestic-league|Getafe|0|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-26|Spain La Liga|domestic-league|Alaves|1|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-26|Spain La Liga|domestic-league|Espanol|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-26|Spain La Liga|domestic-league|Villarreal|3|3|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-27|Spain La Liga|domestic-league|Mallorca|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-27|Spain La Liga|domestic-league|Vallecano|1|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-27|Spain La Liga|domestic-league|Betis|4|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-27|Spain La Liga|domestic-league|Real Madrid|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-28|Spain La Liga|domestic-league|Celta|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-28|Spain La Liga|domestic-league|Granada|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-28|Spain La Liga|domestic-league|Levante|2|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-30|Spain La Liga|domestic-league|Elche|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-30|Spain La Liga|domestic-league|Sevilla|2|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-30|Spain La Liga|domestic-league|Valencia|2|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-30|Spain La Liga|domestic-league|Barcelona|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-31|Spain La Liga|domestic-league|Cadiz|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-31|Spain La Liga|domestic-league|Ath Madrid|3|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-31|Spain La Liga|domestic-league|Getafe|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-10-31|Spain La Liga|domestic-league|Sociedad|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-01|Spain La Liga|domestic-league|Vallecano|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-01|Spain La Liga|domestic-league|Levante|0|3|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-05|Spain La Liga|domestic-league|Ath Bilbao|0|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-06|Spain La Liga|domestic-league|Espanol|2|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-06|Spain La Liga|domestic-league|Celta|3|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-06|Spain La Liga|domestic-league|Alaves|2|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-06|Spain La Liga|domestic-league|Real Madrid|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-07|Spain La Liga|domestic-league|Villarreal|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-07|Spain La Liga|domestic-league|Valencia|3|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-07|Spain La Liga|domestic-league|Mallorca|2|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-07|Spain La Liga|domestic-league|Osasuna|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-07|Spain La Liga|domestic-league|Betis|0|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-19|Spain La Liga|domestic-league|Levante|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-20|Spain La Liga|domestic-league|Celta|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-20|Spain La Liga|domestic-league|Sevilla|2|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-20|Spain La Liga|domestic-league|Ath Madrid|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-20|Spain La Liga|domestic-league|Barcelona|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-21|Spain La Liga|domestic-league|Getafe|4|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-21|Spain La Liga|domestic-league|Granada|1|4|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-21|Spain La Liga|domestic-league|Elche|0|3|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-21|Spain La Liga|domestic-league|Sociedad|0|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-22|Spain La Liga|domestic-league|Vallecano|3|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-26|Spain La Liga|domestic-league|Ath Bilbao|2|2|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-27|Spain La Liga|domestic-league|Alaves|1|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-27|Spain La Liga|domestic-league|Valencia|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-27|Spain La Liga|domestic-league|Mallorca|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-27|Spain La Liga|domestic-league|Villarreal|1|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-28|Spain La Liga|domestic-league|Betis|3|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-28|Spain La Liga|domestic-league|Espanol|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-28|Spain La Liga|domestic-league|Cadiz|1|4|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-28|Spain La Liga|domestic-league|Real Madrid|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-11-29|Spain La Liga|domestic-league|Osasuna|1|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-01|Spain La Liga|domestic-league|Real Madrid|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-03|Spain La Liga|domestic-league|Granada|2|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-04|Spain La Liga|domestic-league|Sevilla|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-04|Spain La Liga|domestic-league|Barcelona|0|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-04|Spain La Liga|domestic-league|Ath Madrid|1|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-04|Spain La Liga|domestic-league|Sociedad|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-05|Spain La Liga|domestic-league|Vallecano|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-05|Spain La Liga|domestic-league|Elche|3|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-05|Spain La Liga|domestic-league|Levante|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-05|Spain La Liga|domestic-league|Celta|1|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-06|Spain La Liga|domestic-league|Getafe|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-10|Spain La Liga|domestic-league|Mallorca|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-11|Spain La Liga|domestic-league|Espanol|4|3|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-11|Spain La Liga|domestic-league|Alaves|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-11|Spain La Liga|domestic-league|Valencia|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-11|Spain La Liga|domestic-league|Ath Bilbao|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-12|Spain La Liga|domestic-league|Villarreal|2|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-12|Spain La Liga|domestic-league|Osasuna|2|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-12|Spain La Liga|domestic-league|Betis|4|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-12|Spain La Liga|domestic-league|Real Madrid|2|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-13|Spain La Liga|domestic-league|Cadiz|1|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-17|Spain La Liga|domestic-league|Celta|3|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-18|Spain La Liga|domestic-league|Vallecano|2|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-18|Spain La Liga|domestic-league|Sociedad|1|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-18|Spain La Liga|domestic-league|Barcelona|3|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-18|Spain La Liga|domestic-league|Sevilla|2|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-19|Spain La Liga|domestic-league|Granada|4|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-19|Spain La Liga|domestic-league|Ath Bilbao|3|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-19|Spain La Liga|domestic-league|Getafe|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-19|Spain La Liga|domestic-league|Real Madrid|0|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-20|Spain La Liga|domestic-league|Levante|3|4|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-21|Spain La Liga|domestic-league|Villarreal|5|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-21|Spain La Liga|domestic-league|Sevilla|1|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-22|Spain La Liga|domestic-league|Granada|2|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-22|Spain La Liga|domestic-league|Ath Bilbao|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2021-12-31|Spain La Liga|domestic-league|Valencia|1|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-02|Spain La Liga|domestic-league|Getafe|1|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-02|Spain La Liga|domestic-league|Ath Madrid|2|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-02|Spain La Liga|domestic-league|Elche|0|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-02|Spain La Liga|domestic-league|Alaves|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-02|Spain La Liga|domestic-league|Betis|0|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-02|Spain La Liga|domestic-league|Mallorca|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-03|Spain La Liga|domestic-league|Villarreal|5|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-03|Spain La Liga|domestic-league|Osasuna|1|3|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-03|Spain La Liga|domestic-league|Cadiz|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-08|Spain La Liga|domestic-league|Levante|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-08|Spain La Liga|domestic-league|Sociedad|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-08|Spain La Liga|domestic-league|Granada|1|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-08|Spain La Liga|domestic-league|Real Madrid|4|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-09|Spain La Liga|domestic-league|Vallecano|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-09|Spain La Liga|domestic-league|Sevilla|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-09|Spain La Liga|domestic-league|Alaves|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-09|Spain La Liga|domestic-league|Osasuna|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-09|Spain La Liga|domestic-league|Villarreal|2|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-10|Spain La Liga|domestic-league|Espanol|1|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-16|Spain La Liga|domestic-league|Elche|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-18|Spain La Liga|domestic-league|Betis|4|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-18|Spain La Liga|domestic-league|Cadiz|2|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-19|Spain La Liga|domestic-league|Celta|2|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-19|Spain La Liga|domestic-league|Valencia|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-20|Spain La Liga|domestic-league|Getafe|4|2|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-21|Spain La Liga|domestic-league|Espanol|1|4|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-22|Spain La Liga|domestic-league|Levante|0|2|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-22|Spain La Liga|domestic-league|Villarreal|3|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-22|Spain La Liga|domestic-league|Sevilla|2|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-22|Spain La Liga|domestic-league|Ath Madrid|3|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-23|Spain La Liga|domestic-league|Granada|0|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-23|Spain La Liga|domestic-league|Real Madrid|2|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-23|Spain La Liga|domestic-league|Sociedad|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-23|Spain La Liga|domestic-league|Vallecano|0|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-01-23|Spain La Liga|domestic-league|Alaves|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-04|Spain La Liga|domestic-league|Getafe|3|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-05|Spain La Liga|domestic-league|Elche|3|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-05|Spain La Liga|domestic-league|Mallorca|2|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-05|Spain La Liga|domestic-league|Celta|2|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-05|Spain La Liga|domestic-league|Osasuna|0|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-06|Spain La Liga|domestic-league|Valencia|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-06|Spain La Liga|domestic-league|Barcelona|4|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-06|Spain La Liga|domestic-league|Betis|0|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-06|Spain La Liga|domestic-league|Real Madrid|1|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-07|Spain La Liga|domestic-league|Ath Bilbao|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-11|Spain La Liga|domestic-league|Sevilla|2|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-12|Spain La Liga|domestic-league|Cadiz|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-12|Spain La Liga|domestic-league|Villarreal|0|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-12|Spain La Liga|domestic-league|Vallecano|0|3|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-12|Spain La Liga|domestic-league|Ath Madrid|4|3|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-13|Spain La Liga|domestic-league|Alaves|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-13|Spain La Liga|domestic-league|Levante|2|4|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-13|Spain La Liga|domestic-league|Sociedad|2|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-13|Spain La Liga|domestic-league|Espanol|2|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-14|Spain La Liga|domestic-league|Mallorca|3|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-16|Spain La Liga|domestic-league|Ath Madrid|0|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-18|Spain La Liga|domestic-league|Elche|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-19|Spain La Liga|domestic-league|Granada|1|4|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-19|Spain La Liga|domestic-league|Osasuna|0|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-19|Spain La Liga|domestic-league|Cadiz|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-19|Spain La Liga|domestic-league|Real Madrid|3|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-20|Spain La Liga|domestic-league|Espanol|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-20|Spain La Liga|domestic-league|Valencia|1|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-20|Spain La Liga|domestic-league|Betis|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-20|Spain La Liga|domestic-league|Ath Bilbao|4|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-21|Spain La Liga|domestic-league|Celta|1|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-25|Spain La Liga|domestic-league|Levante|3|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-26|Spain La Liga|domestic-league|Mallorca|0|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-26|Spain La Liga|domestic-league|Getafe|2|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-26|Spain La Liga|domestic-league|Vallecano|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-26|Spain La Liga|domestic-league|Ath Madrid|2|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-27|Spain La Liga|domestic-league|Villarreal|5|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-27|Spain La Liga|domestic-league|Sevilla|2|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-27|Spain La Liga|domestic-league|Sociedad|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-27|Spain La Liga|domestic-league|Barcelona|4|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-02-28|Spain La Liga|domestic-league|Granada|0|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-02|Spain La Liga|domestic-league|Mallorca|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-04|Spain La Liga|domestic-league|Alaves|0|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-05|Spain La Liga|domestic-league|Osasuna|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-05|Spain La Liga|domestic-league|Espanol|2|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-05|Spain La Liga|domestic-league|Valencia|3|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-05|Spain La Liga|domestic-league|Real Madrid|4|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-06|Spain La Liga|domestic-league|Cadiz|2|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-06|Spain La Liga|domestic-league|Elche|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-06|Spain La Liga|domestic-league|Celta|4|3|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-06|Spain La Liga|domestic-league|Betis|1|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-07|Spain La Liga|domestic-league|Ath Bilbao|3|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-11|Spain La Liga|domestic-league|Ath Madrid|2|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-12|Spain La Liga|domestic-league|Levante|1|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-12|Spain La Liga|domestic-league|Granada|0|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-12|Spain La Liga|domestic-league|Villarreal|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-12|Spain La Liga|domestic-league|Getafe|0|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-13|Spain La Liga|domestic-league|Vallecano|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-13|Spain La Liga|domestic-league|Betis|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-13|Spain La Liga|domestic-league|Sociedad|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-13|Spain La Liga|domestic-league|Barcelona|4|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-14|Spain La Liga|domestic-league|Mallorca|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-18|Spain La Liga|domestic-league|Ath Bilbao|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-19|Spain La Liga|domestic-league|Alaves|2|3|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-19|Spain La Liga|domestic-league|Elche|0|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-19|Spain La Liga|domestic-league|Osasuna|3|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-19|Spain La Liga|domestic-league|Vallecano|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-20|Spain La Liga|domestic-league|Espanol|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-20|Spain La Liga|domestic-league|Cadiz|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-20|Spain La Liga|domestic-league|Celta|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-20|Spain La Liga|domestic-league|Sevilla|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-03-20|Spain La Liga|domestic-league|Real Madrid|0|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-02|Spain La Liga|domestic-league|Getafe|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-02|Spain La Liga|domestic-league|Levante|2|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-02|Spain La Liga|domestic-league|Celta|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-02|Spain La Liga|domestic-league|Ath Madrid|4|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-03|Spain La Liga|domestic-league|Ath Bilbao|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-03|Spain La Liga|domestic-league|Betis|4|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-03|Spain La Liga|domestic-league|Granada|2|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-03|Spain La Liga|domestic-league|Valencia|0|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-03|Spain La Liga|domestic-league|Barcelona|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-04|Spain La Liga|domestic-league|Sociedad|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-08|Spain La Liga|domestic-league|Sevilla|4|2|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-09|Spain La Liga|domestic-league|Cadiz|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-09|Spain La Liga|domestic-league|Mallorca|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-09|Spain La Liga|domestic-league|Villarreal|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-09|Spain La Liga|domestic-league|Real Madrid|2|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-10|Spain La Liga|domestic-league|Osasuna|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-10|Spain La Liga|domestic-league|Espanol|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-10|Spain La Liga|domestic-league|Elche|1|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-10|Spain La Liga|domestic-league|Levante|2|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-11|Spain La Liga|domestic-league|Vallecano|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-15|Spain La Liga|domestic-league|Sociedad|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-16|Spain La Liga|domestic-league|Elche|3|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-16|Spain La Liga|domestic-league|Alaves|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-16|Spain La Liga|domestic-league|Valencia|1|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-16|Spain La Liga|domestic-league|Getafe|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-17|Spain La Liga|domestic-league|Granada|1|4|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-17|Spain La Liga|domestic-league|Ath Madrid|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-17|Spain La Liga|domestic-league|Ath Bilbao|0|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-17|Spain La Liga|domestic-league|Sevilla|2|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-18|Spain La Liga|domestic-league|Barcelona|0|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-19|Spain La Liga|domestic-league|Mallorca|2|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-19|Spain La Liga|domestic-league|Betis|0|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-19|Spain La Liga|domestic-league|Villarreal|2|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-20|Spain La Liga|domestic-league|Ath Madrid|0|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-20|Spain La Liga|domestic-league|Celta|0|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-20|Spain La Liga|domestic-league|Osasuna|1|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-21|Spain La Liga|domestic-league|Espanol|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-21|Spain La Liga|domestic-league|Levante|2|3|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-21|Spain La Liga|domestic-league|Cadiz|2|3|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-21|Spain La Liga|domestic-league|Sociedad|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-24|Spain La Liga|domestic-league|Barcelona|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-29|Spain La Liga|domestic-league|Sevilla|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-30|Spain La Liga|domestic-league|Alaves|2|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-30|Spain La Liga|domestic-league|Real Madrid|4|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-30|Spain La Liga|domestic-league|Valencia|1|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-04-30|Spain La Liga|domestic-league|Ath Bilbao|2|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-01|Spain La Liga|domestic-league|Elche|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-01|Spain La Liga|domestic-league|Granada|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-01|Spain La Liga|domestic-league|Vallecano|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-01|Spain La Liga|domestic-league|Barcelona|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-02|Spain La Liga|domestic-league|Getafe|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-06|Spain La Liga|domestic-league|Levante|2|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-07|Spain La Liga|domestic-league|Mallorca|2|6|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-07|Spain La Liga|domestic-league|Ath Bilbao|0|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-07|Spain La Liga|domestic-league|Cadiz|3|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-07|Spain La Liga|domestic-league|Celta|4|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-07|Spain La Liga|domestic-league|Betis|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-08|Spain La Liga|domestic-league|Getafe|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-08|Spain La Liga|domestic-league|Villarreal|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-08|Spain La Liga|domestic-league|Espanol|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-08|Spain La Liga|domestic-league|Ath Madrid|1|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-10|Spain La Liga|domestic-league|Valencia|0|3|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-10|Spain La Liga|domestic-league|Granada|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-10|Spain La Liga|domestic-league|Barcelona|3|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-11|Spain La Liga|domestic-league|Alaves|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-11|Spain La Liga|domestic-league|Osasuna|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-11|Spain La Liga|domestic-league|Sevilla|0|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-11|Spain La Liga|domestic-league|Elche|0|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-12|Spain La Liga|domestic-league|Sociedad|3|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-12|Spain La Liga|domestic-league|Vallecano|1|5|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-12|Spain La Liga|domestic-league|Real Madrid|6|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-14|Spain La Liga|domestic-league|Espanol|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Ath Bilbao|2|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Ath Madrid|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Betis|2|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Cadiz|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Celta|1|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Getafe|0|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Levante|3|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Mallorca|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-15|Spain La Liga|domestic-league|Villarreal|1|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-20|Spain La Liga|domestic-league|Real Madrid|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-20|Spain La Liga|domestic-league|Vallecano|2|4|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-21|Spain La Liga|domestic-league|Valencia|2|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-22|Spain La Liga|domestic-league|Elche|3|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-22|Spain La Liga|domestic-league|Alaves|0|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-22|Spain La Liga|domestic-league|Granada|0|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-22|Spain La Liga|domestic-league|Osasuna|0|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-22|Spain La Liga|domestic-league|Barcelona|0|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-22|Spain La Liga|domestic-league|Sevilla|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-05-22|Spain La Liga|domestic-league|Sociedad|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-12|Spain La Liga|domestic-league|Osasuna|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-13|Spain La Liga|domestic-league|Celta|2|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-13|Spain La Liga|domestic-league|Valladolid|0|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-13|Spain La Liga|domestic-league|Barcelona|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-14|Spain La Liga|domestic-league|Cadiz|0|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-14|Spain La Liga|domestic-league|Valencia|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-14|Spain La Liga|domestic-league|Almeria|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-15|Spain La Liga|domestic-league|Ath Bilbao|0|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-15|Spain La Liga|domestic-league|Getafe|0|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-15|Spain La Liga|domestic-league|Betis|3|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-19|Spain La Liga|domestic-league|Espanol|0|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-19|Spain La Liga|domestic-league|Sevilla|1|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-20|Spain La Liga|domestic-league|Osasuna|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-20|Spain La Liga|domestic-league|Mallorca|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-20|Spain La Liga|domestic-league|Celta|1|4|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-21|Spain La Liga|domestic-league|Ath Bilbao|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-21|Spain La Liga|domestic-league|Ath Madrid|0|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-21|Spain La Liga|domestic-league|Sociedad|1|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-22|Spain La Liga|domestic-league|Elche|1|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-22|Spain La Liga|domestic-league|Girona|3|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-26|Spain La Liga|domestic-league|Girona|0|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-26|Spain La Liga|domestic-league|Betis|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-27|Spain La Liga|domestic-league|Elche|0|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-27|Spain La Liga|domestic-league|Vallecano|0|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-27|Spain La Liga|domestic-league|Almeria|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-28|Spain La Liga|domestic-league|Getafe|0|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-28|Spain La Liga|domestic-league|Barcelona|4|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-28|Spain La Liga|domestic-league|Espanol|1|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-29|Spain La Liga|domestic-league|Cadiz|0|4|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-08-29|Spain La Liga|domestic-league|Valencia|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-02|Spain La Liga|domestic-league|Celta|3|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-03|Spain La Liga|domestic-league|Mallorca|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-03|Spain La Liga|domestic-league|Real Madrid|2|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-03|Spain La Liga|domestic-league|Sociedad|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-03|Spain La Liga|domestic-league|Sevilla|0|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-04|Spain La Liga|domestic-league|Osasuna|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-04|Spain La Liga|domestic-league|Ath Bilbao|0|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-04|Spain La Liga|domestic-league|Villarreal|4|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-04|Spain La Liga|domestic-league|Valencia|5|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-05|Spain La Liga|domestic-league|Valladolid|1|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-09|Spain La Liga|domestic-league|Girona|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-10|Spain La Liga|domestic-league|Vallecano|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-10|Spain La Liga|domestic-league|Espanol|2|3|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-10|Spain La Liga|domestic-league|Cadiz|0|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-10|Spain La Liga|domestic-league|Ath Madrid|4|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-11|Spain La Liga|domestic-league|Real Madrid|4|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-11|Spain La Liga|domestic-league|Elche|1|4|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-11|Spain La Liga|domestic-league|Getafe|2|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-11|Spain La Liga|domestic-league|Betis|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-12|Spain La Liga|domestic-league|Almeria|0|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-16|Spain La Liga|domestic-league|Valladolid|0|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-17|Spain La Liga|domestic-league|Mallorca|1|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-17|Spain La Liga|domestic-league|Barcelona|3|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-17|Spain La Liga|domestic-league|Valencia|3|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-17|Spain La Liga|domestic-league|Ath Bilbao|3|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-18|Spain La Liga|domestic-league|Osasuna|0|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-18|Spain La Liga|domestic-league|Villarreal|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-18|Spain La Liga|domestic-league|Betis|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-18|Spain La Liga|domestic-league|Sociedad|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-18|Spain La Liga|domestic-league|Ath Madrid|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-09-30|Spain La Liga|domestic-league|Ath Bilbao|4|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-01|Spain La Liga|domestic-league|Cadiz|0|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-01|Spain La Liga|domestic-league|Getafe|2|3|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-01|Spain La Liga|domestic-league|Sevilla|0|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-01|Spain La Liga|domestic-league|Mallorca|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-02|Spain La Liga|domestic-league|Espanol|2|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-02|Spain La Liga|domestic-league|Celta|1|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-02|Spain La Liga|domestic-league|Girona|3|5|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-02|Spain La Liga|domestic-league|Real Madrid|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-03|Spain La Liga|domestic-league|Vallecano|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-07|Spain La Liga|domestic-league|Osasuna|1|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-08|Spain La Liga|domestic-league|Almeria|3|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-08|Spain La Liga|domestic-league|Ath Madrid|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-08|Spain La Liga|domestic-league|Sevilla|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-08|Spain La Liga|domestic-league|Getafe|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-09|Spain La Liga|domestic-league|Valladolid|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-09|Spain La Liga|domestic-league|Cadiz|2|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-09|Spain La Liga|domestic-league|Sociedad|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-09|Spain La Liga|domestic-league|Barcelona|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-10|Spain La Liga|domestic-league|Elche|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-14|Spain La Liga|domestic-league|Vallecano|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-15|Spain La Liga|domestic-league|Girona|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-15|Spain La Liga|domestic-league|Valencia|2|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-15|Spain La Liga|domestic-league|Mallorca|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-15|Spain La Liga|domestic-league|Ath Bilbao|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-16|Spain La Liga|domestic-league|Celta|1|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-16|Spain La Liga|domestic-league|Real Madrid|3|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-16|Spain La Liga|domestic-league|Espanol|1|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-16|Spain La Liga|domestic-league|Betis|3|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-17|Spain La Liga|domestic-league|Villarreal|2|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-18|Spain La Liga|domestic-league|Sevilla|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-18|Spain La Liga|domestic-league|Getafe|2|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-18|Spain La Liga|domestic-league|Ath Madrid|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-19|Spain La Liga|domestic-league|Cadiz|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-19|Spain La Liga|domestic-league|Valladolid|4|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-19|Spain La Liga|domestic-league|Sociedad|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-19|Spain La Liga|domestic-league|Elche|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-20|Spain La Liga|domestic-league|Almeria|3|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-20|Spain La Liga|domestic-league|Osasuna|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-20|Spain La Liga|domestic-league|Barcelona|3|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-22|Spain La Liga|domestic-league|Vallecano|5|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-22|Spain La Liga|domestic-league|Valladolid|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-22|Spain La Liga|domestic-league|Valencia|1|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-22|Spain La Liga|domestic-league|Real Madrid|3|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-23|Spain La Liga|domestic-league|Espanol|2|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-23|Spain La Liga|domestic-league|Betis|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-23|Spain La Liga|domestic-league|Girona|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-23|Spain La Liga|domestic-league|Villarreal|2|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-23|Spain La Liga|domestic-league|Barcelona|4|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-24|Spain La Liga|domestic-league|Celta|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-28|Spain La Liga|domestic-league|Mallorca|1|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-29|Spain La Liga|domestic-league|Almeria|3|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-29|Spain La Liga|domestic-league|Cadiz|3|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-29|Spain La Liga|domestic-league|Sevilla|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-29|Spain La Liga|domestic-league|Valencia|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-30|Spain La Liga|domestic-league|Osasuna|2|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-30|Spain La Liga|domestic-league|Real Madrid|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-30|Spain La Liga|domestic-league|Ath Bilbao|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-30|Spain La Liga|domestic-league|Sociedad|0|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-10-31|Spain La Liga|domestic-league|Elche|0|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-04|Spain La Liga|domestic-league|Girona|2|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-05|Spain La Liga|domestic-league|Getafe|0|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-05|Spain La Liga|domestic-league|Valladolid|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-05|Spain La Liga|domestic-league|Celta|1|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-05|Spain La Liga|domestic-league|Barcelona|2|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-06|Spain La Liga|domestic-league|Ath Madrid|1|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-06|Spain La Liga|domestic-league|Sociedad|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-06|Spain La Liga|domestic-league|Villarreal|0|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-06|Spain La Liga|domestic-league|Betis|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-07|Spain La Liga|domestic-league|Vallecano|3|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-08|Spain La Liga|domestic-league|Elche|1|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-08|Spain La Liga|domestic-league|Ath Bilbao|3|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-08|Spain La Liga|domestic-league|Osasuna|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-09|Spain La Liga|domestic-league|Almeria|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-09|Spain La Liga|domestic-league|Sevilla|1|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-09|Spain La Liga|domestic-league|Espanol|0|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-09|Spain La Liga|domestic-league|Mallorca|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-10|Spain La Liga|domestic-league|Vallecano|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-10|Spain La Liga|domestic-league|Valencia|3|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-11-10|Spain La Liga|domestic-league|Real Madrid|2|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-29|Spain La Liga|domestic-league|Girona|2|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-29|Spain La Liga|domestic-league|Betis|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-29|Spain La Liga|domestic-league|Ath Madrid|2|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-30|Spain La Liga|domestic-league|Getafe|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-30|Spain La Liga|domestic-league|Cadiz|1|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-30|Spain La Liga|domestic-league|Celta|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-30|Spain La Liga|domestic-league|Valladolid|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-31|Spain La Liga|domestic-league|Barcelona|1|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-31|Spain La Liga|domestic-league|Sociedad|2|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2022-12-31|Spain La Liga|domestic-league|Villarreal|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-06|Spain La Liga|domestic-league|Elche|0|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-06|Spain La Liga|domestic-league|Valencia|0|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-07|Spain La Liga|domestic-league|Villarreal|2|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-07|Spain La Liga|domestic-league|Mallorca|1|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-07|Spain La Liga|domestic-league|Espanol|2|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-08|Spain La Liga|domestic-league|Almeria|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-08|Spain La Liga|domestic-league|Vallecano|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-08|Spain La Liga|domestic-league|Sevilla|2|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-08|Spain La Liga|domestic-league|Ath Madrid|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-09|Spain La Liga|domestic-league|Ath Bilbao|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-13|Spain La Liga|domestic-league|Celta|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-14|Spain La Liga|domestic-league|Valladolid|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-14|Spain La Liga|domestic-league|Girona|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-14|Spain La Liga|domestic-league|Osasuna|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-14|Spain La Liga|domestic-league|Sociedad|3|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-15|Spain La Liga|domestic-league|Getafe|1|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-15|Spain La Liga|domestic-league|Almeria|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-16|Spain La Liga|domestic-league|Cadiz|1|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-20|Spain La Liga|domestic-league|Mallorca|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-21|Spain La Liga|domestic-league|Vallecano|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-21|Spain La Liga|domestic-league|Espanol|1|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-21|Spain La Liga|domestic-league|Ath Madrid|3|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-21|Spain La Liga|domestic-league|Sevilla|1|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-22|Spain La Liga|domestic-league|Villarreal|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-22|Spain La Liga|domestic-league|Elche|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-22|Spain La Liga|domestic-league|Barcelona|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-22|Spain La Liga|domestic-league|Ath Bilbao|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-23|Spain La Liga|domestic-league|Valencia|2|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-27|Spain La Liga|domestic-league|Almeria|3|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-28|Spain La Liga|domestic-league|Cadiz|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-28|Spain La Liga|domestic-league|Girona|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-28|Spain La Liga|domestic-league|Sevilla|3|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-28|Spain La Liga|domestic-league|Getafe|0|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-29|Spain La Liga|domestic-league|Valladolid|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-29|Spain La Liga|domestic-league|Osasuna|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-29|Spain La Liga|domestic-league|Celta|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-29|Spain La Liga|domestic-league|Real Madrid|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-01-30|Spain La Liga|domestic-league|Villarreal|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-01|Spain La Liga|domestic-league|Betis|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-02|Spain La Liga|domestic-league|Real Madrid|2|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-03|Spain La Liga|domestic-league|Ath Bilbao|4|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-04|Spain La Liga|domestic-league|Espanol|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-04|Spain La Liga|domestic-league|Elche|3|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-04|Spain La Liga|domestic-league|Ath Madrid|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-04|Spain La Liga|domestic-league|Betis|3|4|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-05|Spain La Liga|domestic-league|Mallorca|1|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-05|Spain La Liga|domestic-league|Girona|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-05|Spain La Liga|domestic-league|Sociedad|0|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-05|Spain La Liga|domestic-league|Barcelona|3|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-06|Spain La Liga|domestic-league|Vallecano|2|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-10|Spain La Liga|domestic-league|Cadiz|2|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-11|Spain La Liga|domestic-league|Almeria|2|3|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-11|Spain La Liga|domestic-league|Sevilla|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-11|Spain La Liga|domestic-league|Valencia|1|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-12|Spain La Liga|domestic-league|Getafe|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-12|Spain La Liga|domestic-league|Celta|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-12|Spain La Liga|domestic-league|Valladolid|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-12|Spain La Liga|domestic-league|Villarreal|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-13|Spain La Liga|domestic-league|Espanol|2|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-15|Spain La Liga|domestic-league|Real Madrid|4|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-17|Spain La Liga|domestic-league|Girona|6|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-18|Spain La Liga|domestic-league|Sociedad|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-18|Spain La Liga|domestic-league|Betis|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-18|Spain La Liga|domestic-league|Mallorca|4|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-18|Spain La Liga|domestic-league|Osasuna|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-19|Spain La Liga|domestic-league|Elche|0|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-19|Spain La Liga|domestic-league|Vallecano|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-19|Spain La Liga|domestic-league|Ath Madrid|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-19|Spain La Liga|domestic-league|Barcelona|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-20|Spain La Liga|domestic-league|Getafe|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-24|Spain La Liga|domestic-league|Elche|2|3|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-25|Spain La Liga|domestic-league|Espanol|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-25|Spain La Liga|domestic-league|Cadiz|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-25|Spain La Liga|domestic-league|Real Madrid|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-25|Spain La Liga|domestic-league|Valencia|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-26|Spain La Liga|domestic-league|Ath Bilbao|2|3|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-26|Spain La Liga|domestic-league|Celta|3|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-26|Spain La Liga|domestic-league|Almeria|1|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-26|Spain La Liga|domestic-league|Sevilla|2|3|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-02-27|Spain La Liga|domestic-league|Villarreal|2|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-03|Spain La Liga|domestic-league|Sociedad|0|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-04|Spain La Liga|domestic-league|Getafe|3|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-04|Spain La Liga|domestic-league|Almeria|0|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-04|Spain La Liga|domestic-league|Mallorca|0|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-04|Spain La Liga|domestic-league|Ath Madrid|6|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-05|Spain La Liga|domestic-league|Valladolid|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-05|Spain La Liga|domestic-league|Barcelona|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-05|Spain La Liga|domestic-league|Vallecano|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-05|Spain La Liga|domestic-league|Betis|0|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-06|Spain La Liga|domestic-league|Osasuna|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-10|Spain La Liga|domestic-league|Cadiz|2|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-11|Spain La Liga|domestic-league|Real Madrid|3|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-11|Spain La Liga|domestic-league|Elche|1|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-11|Spain La Liga|domestic-league|Celta|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-11|Spain La Liga|domestic-league|Valencia|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-12|Spain La Liga|domestic-league|Mallorca|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-12|Spain La Liga|domestic-league|Sevilla|2|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-12|Spain La Liga|domestic-league|Villarreal|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-12|Spain La Liga|domestic-league|Ath Bilbao|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-13|Spain La Liga|domestic-league|Girona|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-17|Spain La Liga|domestic-league|Valladolid|1|3|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-18|Spain La Liga|domestic-league|Almeria|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-18|Spain La Liga|domestic-league|Vallecano|2|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-18|Spain La Liga|domestic-league|Espanol|1|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-18|Spain La Liga|domestic-league|Ath Madrid|3|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-19|Spain La Liga|domestic-league|Betis|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-19|Spain La Liga|domestic-league|Osasuna|0|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-19|Spain La Liga|domestic-league|Sociedad|2|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-19|Spain La Liga|domestic-league|Getafe|2|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-19|Spain La Liga|domestic-league|Barcelona|2|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-03-31|Spain La Liga|domestic-league|Mallorca|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-01|Spain La Liga|domestic-league|Girona|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-01|Spain La Liga|domestic-league|Ath Bilbao|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-01|Spain La Liga|domestic-league|Cadiz|0|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-01|Spain La Liga|domestic-league|Elche|0|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-02|Spain La Liga|domestic-league|Celta|2|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-02|Spain La Liga|domestic-league|Real Madrid|6|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-02|Spain La Liga|domestic-league|Villarreal|2|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-02|Spain La Liga|domestic-league|Ath Madrid|1|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-03|Spain La Liga|domestic-league|Valencia|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-07|Spain La Liga|domestic-league|Sevilla|2|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-08|Spain La Liga|domestic-league|Osasuna|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-08|Spain La Liga|domestic-league|Espanol|1|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-08|Spain La Liga|domestic-league|Sociedad|2|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-08|Spain La Liga|domestic-league|Real Madrid|2|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-09|Spain La Liga|domestic-league|Valladolid|3|3|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-09|Spain La Liga|domestic-league|Betis|0|2|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-09|Spain La Liga|domestic-league|Almeria|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-09|Spain La Liga|domestic-league|Vallecano|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-10|Spain La Liga|domestic-league|Barcelona|0|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-14|Spain La Liga|domestic-league|Vallecano|2|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-15|Spain La Liga|domestic-league|Villarreal|1|2|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-15|Spain La Liga|domestic-league|Ath Bilbao|2|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-15|Spain La Liga|domestic-league|Betis|3|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-15|Spain La Liga|domestic-league|Cadiz|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-16|Spain La Liga|domestic-league|Girona|2|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-16|Spain La Liga|domestic-league|Getafe|0|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-16|Spain La Liga|domestic-league|Ath Madrid|2|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-16|Spain La Liga|domestic-league|Valencia|0|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-17|Spain La Liga|domestic-league|Celta|0|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-21|Spain La Liga|domestic-league|Espanol|0|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-22|Spain La Liga|domestic-league|Osasuna|3|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-22|Spain La Liga|domestic-league|Almeria|1|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-22|Spain La Liga|domestic-league|Sociedad|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-22|Spain La Liga|domestic-league|Valladolid|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-22|Spain La Liga|domestic-league|Real Madrid|2|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-23|Spain La Liga|domestic-league|Elche|0|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-23|Spain La Liga|domestic-league|Barcelona|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-23|Spain La Liga|domestic-league|Mallorca|3|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-23|Spain La Liga|domestic-league|Sevilla|2|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-25|Spain La Liga|domestic-league|Cadiz|0|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-25|Spain La Liga|domestic-league|Girona|4|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-25|Spain La Liga|domestic-league|Betis|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-26|Spain La Liga|domestic-league|Ath Madrid|3|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-26|Spain La Liga|domestic-league|Getafe|1|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-26|Spain La Liga|domestic-league|Celta|1|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-26|Spain La Liga|domestic-league|Vallecano|2|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-27|Spain La Liga|domestic-league|Valencia|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-27|Spain La Liga|domestic-league|Villarreal|4|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-27|Spain La Liga|domestic-league|Ath Bilbao|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-28|Spain La Liga|domestic-league|Osasuna|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-29|Spain La Liga|domestic-league|Elche|4|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-29|Spain La Liga|domestic-league|Real Madrid|4|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-29|Spain La Liga|domestic-league|Barcelona|4|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-30|Spain La Liga|domestic-league|Cadiz|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-30|Spain La Liga|domestic-league|Villarreal|3|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-30|Spain La Liga|domestic-league|Espanol|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-04-30|Spain La Liga|domestic-league|Valladolid|2|5|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-01|Spain La Liga|domestic-league|Mallorca|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-01|Spain La Liga|domestic-league|Sevilla|0|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-02|Spain La Liga|domestic-league|Almeria|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-02|Spain La Liga|domestic-league|Barcelona|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-02|Spain La Liga|domestic-league|Sociedad|2|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-03|Spain La Liga|domestic-league|Valencia|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-03|Spain La Liga|domestic-league|Ath Madrid|5|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-03|Spain La Liga|domestic-league|Getafe|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-04|Spain La Liga|domestic-league|Girona|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-04|Spain La Liga|domestic-league|Sevilla|3|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-04|Spain La Liga|domestic-league|Ath Bilbao|0|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-04|Spain La Liga|domestic-league|Vallecano|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-12|Spain La Liga|domestic-league|Mallorca|1|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-13|Spain La Liga|domestic-league|Sociedad|2|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-13|Spain La Liga|domestic-league|Osasuna|3|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-13|Spain La Liga|domestic-league|Villarreal|5|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-13|Spain La Liga|domestic-league|Real Madrid|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-14|Spain La Liga|domestic-league|Celta|1|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-14|Spain La Liga|domestic-league|Elche|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-14|Spain La Liga|domestic-league|Valladolid|0|3|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-14|Spain La Liga|domestic-league|Espanol|2|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-15|Spain La Liga|domestic-league|Betis|3|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-19|Spain La Liga|domestic-league|Cadiz|2|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-20|Spain La Liga|domestic-league|Girona|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-20|Spain La Liga|domestic-league|Ath Bilbao|2|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-20|Spain La Liga|domestic-league|Almeria|3|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-20|Spain La Liga|domestic-league|Getafe|1|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-20|Spain La Liga|domestic-league|Barcelona|1|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-21|Spain La Liga|domestic-league|Vallecano|1|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-21|Spain La Liga|domestic-league|Ath Madrid|3|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-21|Spain La Liga|domestic-league|Valencia|1|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-21|Spain La Liga|domestic-league|Sevilla|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-23|Spain La Liga|domestic-league|Celta|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-23|Spain La Liga|domestic-league|Sociedad|1|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-23|Spain La Liga|domestic-league|Valladolid|3|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-24|Spain La Liga|domestic-league|Elche|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-24|Spain La Liga|domestic-league|Real Madrid|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-24|Spain La Liga|domestic-league|Villarreal|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-24|Spain La Liga|domestic-league|Betis|0|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-24|Spain La Liga|domestic-league|Espanol|3|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-25|Spain La Liga|domestic-league|Mallorca|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-25|Spain La Liga|domestic-league|Osasuna|2|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-27|Spain La Liga|domestic-league|Sevilla|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Almeria|0|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Ath Bilbao|0|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Ath Madrid|2|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Barcelona|3|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Cadiz|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Getafe|2|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Girona|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Valencia|2|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-05-28|Spain La Liga|domestic-league|Vallecano|2|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Mallorca|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Osasuna|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Real Madrid|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Sociedad|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Villarreal|2|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Betis|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Celta|2|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Elche|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Espanol|3|3|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-06-04|Spain La Liga|domestic-league|Valladolid|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-11|Spain La Liga|domestic-league|Almeria|0|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-11|Spain La Liga|domestic-league|Sevilla|1|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-12|Spain La Liga|domestic-league|Sociedad|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-12|Spain La Liga|domestic-league|Las Palmas|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-12|Spain La Liga|domestic-league|Ath Bilbao|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-13|Spain La Liga|domestic-league|Celta|0|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-13|Spain La Liga|domestic-league|Villarreal|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-13|Spain La Liga|domestic-league|Getafe|0|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-14|Spain La Liga|domestic-league|Cadiz|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-14|Spain La Liga|domestic-league|Ath Madrid|3|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-18|Spain La Liga|domestic-league|Mallorca|0|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-18|Spain La Liga|domestic-league|Valencia|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-19|Spain La Liga|domestic-league|Sociedad|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-19|Spain La Liga|domestic-league|Almeria|1|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-19|Spain La Liga|domestic-league|Osasuna|0|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-20|Spain La Liga|domestic-league|Girona|3|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-20|Spain La Liga|domestic-league|Barcelona|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-20|Spain La Liga|domestic-league|Betis|0|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-21|Spain La Liga|domestic-league|Alaves|4|3|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-21|Spain La Liga|domestic-league|Granada|0|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-25|Spain La Liga|domestic-league|Las Palmas|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-25|Spain La Liga|domestic-league|Celta|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-26|Spain La Liga|domestic-league|Cadiz|1|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-26|Spain La Liga|domestic-league|Granada|3|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-26|Spain La Liga|domestic-league|Sevilla|1|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-27|Spain La Liga|domestic-league|Villarreal|3|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-27|Spain La Liga|domestic-league|Valencia|1|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-27|Spain La Liga|domestic-league|Ath Bilbao|4|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-28|Spain La Liga|domestic-league|Getafe|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-08-28|Spain La Liga|domestic-league|Vallecano|0|7|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-01|Spain La Liga|domestic-league|Cadiz|3|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-01|Spain La Liga|domestic-league|Almeria|2|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-02|Spain La Liga|domestic-league|Sociedad|5|3|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-02|Spain La Liga|domestic-league|Real Madrid|2|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-02|Spain La Liga|domestic-league|Alaves|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-02|Spain La Liga|domestic-league|Betis|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-03|Spain La Liga|domestic-league|Girona|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-03|Spain La Liga|domestic-league|Mallorca|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-03|Spain La Liga|domestic-league|Osasuna|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-15|Spain La Liga|domestic-league|Vallecano|2|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-16|Spain La Liga|domestic-league|Ath Bilbao|3|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-16|Spain La Liga|domestic-league|Valencia|3|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-16|Spain La Liga|domestic-league|Celta|0|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-16|Spain La Liga|domestic-league|Barcelona|5|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-17|Spain La Liga|domestic-league|Getafe|3|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-17|Spain La Liga|domestic-league|Villarreal|2|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-17|Spain La Liga|domestic-league|Sevilla|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-17|Spain La Liga|domestic-league|Real Madrid|2|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-18|Spain La Liga|domestic-league|Granada|2|4|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-22|Spain La Liga|domestic-league|Alaves|0|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-23|Spain La Liga|domestic-league|Girona|5|3|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-23|Spain La Liga|domestic-league|Osasuna|0|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-23|Spain La Liga|domestic-league|Barcelona|3|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-23|Spain La Liga|domestic-league|Almeria|2|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-24|Spain La Liga|domestic-league|Sociedad|4|3|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-24|Spain La Liga|domestic-league|Vallecano|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-24|Spain La Liga|domestic-league|Betis|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-24|Spain La Liga|domestic-league|Las Palmas|1|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-24|Spain La Liga|domestic-league|Ath Madrid|3|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-26|Spain La Liga|domestic-league|Sevilla|5|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-26|Spain La Liga|domestic-league|Mallorca|2|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-27|Spain La Liga|domestic-league|Ath Bilbao|2|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-27|Spain La Liga|domestic-league|Real Madrid|2|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-27|Spain La Liga|domestic-league|Villarreal|1|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-27|Spain La Liga|domestic-league|Cadiz|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-27|Spain La Liga|domestic-league|Valencia|0|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-28|Spain La Liga|domestic-league|Celta|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-28|Spain La Liga|domestic-league|Granada|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-28|Spain La Liga|domestic-league|Osasuna|0|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-29|Spain La Liga|domestic-league|Barcelona|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-30|Spain La Liga|domestic-league|Getafe|0|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-30|Spain La Liga|domestic-league|Vallecano|2|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-30|Spain La Liga|domestic-league|Girona|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-09-30|Spain La Liga|domestic-league|Sociedad|3|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-01|Spain La Liga|domestic-league|Almeria|3|3|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-01|Spain La Liga|domestic-league|Alaves|0|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-01|Spain La Liga|domestic-league|Ath Madrid|3|2|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-01|Spain La Liga|domestic-league|Betis|3|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-02|Spain La Liga|domestic-league|Las Palmas|2|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-06|Spain La Liga|domestic-league|Ath Bilbao|3|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-07|Spain La Liga|domestic-league|Cadiz|0|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-07|Spain La Liga|domestic-league|Real Madrid|4|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-07|Spain La Liga|domestic-league|Mallorca|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-07|Spain La Liga|domestic-league|Sevilla|2|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-08|Spain La Liga|domestic-league|Villarreal|1|2|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-08|Spain La Liga|domestic-league|Ath Madrid|2|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-08|Spain La Liga|domestic-league|Alaves|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-08|Spain La Liga|domestic-league|Celta|2|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-08|Spain La Liga|domestic-league|Granada|2|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-20|Spain La Liga|domestic-league|Osasuna|2|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-21|Spain La Liga|domestic-league|Sociedad|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-21|Spain La Liga|domestic-league|Getafe|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-21|Spain La Liga|domestic-league|Sevilla|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-21|Spain La Liga|domestic-league|Celta|0|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-22|Spain La Liga|domestic-league|Las Palmas|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-22|Spain La Liga|domestic-league|Girona|5|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-22|Spain La Liga|domestic-league|Villarreal|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-22|Spain La Liga|domestic-league|Barcelona|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-23|Spain La Liga|domestic-league|Valencia|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-27|Spain La Liga|domestic-league|Girona|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-28|Spain La Liga|domestic-league|Almeria|1|2|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-28|Spain La Liga|domestic-league|Barcelona|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-28|Spain La Liga|domestic-league|Mallorca|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-28|Spain La Liga|domestic-league|Cadiz|2|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-29|Spain La Liga|domestic-league|Betis|2|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-29|Spain La Liga|domestic-league|Vallecano|2|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-29|Spain La Liga|domestic-league|Ath Bilbao|2|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-29|Spain La Liga|domestic-league|Ath Madrid|2|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-10-30|Spain La Liga|domestic-league|Granada|2|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-03|Spain La Liga|domestic-league|Las Palmas|2|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-04|Spain La Liga|domestic-league|Osasuna|2|4|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-04|Spain La Liga|domestic-league|Betis|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-04|Spain La Liga|domestic-league|Celta|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-04|Spain La Liga|domestic-league|Sociedad|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-05|Spain La Liga|domestic-league|Alaves|1|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-05|Spain La Liga|domestic-league|Valencia|1|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-05|Spain La Liga|domestic-league|Villarreal|2|3|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-05|Spain La Liga|domestic-league|Real Madrid|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-06|Spain La Liga|domestic-league|Getafe|1|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-10|Spain La Liga|domestic-league|Ath Bilbao|4|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-11|Spain La Liga|domestic-league|Vallecano|1|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-11|Spain La Liga|domestic-league|Almeria|1|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-11|Spain La Liga|domestic-league|Granada|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-11|Spain La Liga|domestic-league|Osasuna|1|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-11|Spain La Liga|domestic-league|Real Madrid|5|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-12|Spain La Liga|domestic-league|Barcelona|2|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-12|Spain La Liga|domestic-league|Sevilla|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-12|Spain La Liga|domestic-league|Ath Madrid|3|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-24|Spain La Liga|domestic-league|Alaves|3|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-25|Spain La Liga|domestic-league|Vallecano|1|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-25|Spain La Liga|domestic-league|Valencia|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-25|Spain La Liga|domestic-league|Getafe|2|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-25|Spain La Liga|domestic-league|Ath Madrid|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-26|Spain La Liga|domestic-league|Villarreal|3|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-26|Spain La Liga|domestic-league|Sociedad|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-26|Spain La Liga|domestic-league|Cadiz|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-26|Spain La Liga|domestic-league|Betis|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-27|Spain La Liga|domestic-league|Girona|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-11-29|Spain La Liga|domestic-league|Mallorca|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-01|Spain La Liga|domestic-league|Las Palmas|2|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-02|Spain La Liga|domestic-league|Girona|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-02|Spain La Liga|domestic-league|Ath Bilbao|4|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-02|Spain La Liga|domestic-league|Real Madrid|2|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-02|Spain La Liga|domestic-league|Osasuna|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-03|Spain La Liga|domestic-league|Mallorca|0|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-03|Spain La Liga|domestic-league|Almeria|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-03|Spain La Liga|domestic-league|Sevilla|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-03|Spain La Liga|domestic-league|Barcelona|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-04|Spain La Liga|domestic-league|Celta|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-08|Spain La Liga|domestic-league|Getafe|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-09|Spain La Liga|domestic-league|Alaves|0|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-09|Spain La Liga|domestic-league|Betis|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-09|Spain La Liga|domestic-league|Villarreal|0|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-09|Spain La Liga|domestic-league|Mallorca|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-10|Spain La Liga|domestic-league|Ath Madrid|2|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-10|Spain La Liga|domestic-league|Cadiz|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-10|Spain La Liga|domestic-league|Barcelona|2|4|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-11|Spain La Liga|domestic-league|Granada|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-11|Spain La Liga|domestic-league|Vallecano|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-15|Spain La Liga|domestic-league|Osasuna|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-16|Spain La Liga|domestic-league|Celta|1|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-16|Spain La Liga|domestic-league|Ath Bilbao|2|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-16|Spain La Liga|domestic-league|Sevilla|0|3|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-16|Spain La Liga|domestic-league|Valencia|1|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-17|Spain La Liga|domestic-league|Almeria|0|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-17|Spain La Liga|domestic-league|Sociedad|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-17|Spain La Liga|domestic-league|Las Palmas|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-17|Spain La Liga|domestic-league|Real Madrid|4|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-18|Spain La Liga|domestic-league|Girona|3|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-19|Spain La Liga|domestic-league|Vallecano|0|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-19|Spain La Liga|domestic-league|Ath Madrid|3|3|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-19|Spain La Liga|domestic-league|Granada|0|3|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-20|Spain La Liga|domestic-league|Barcelona|3|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-20|Spain La Liga|domestic-league|Ath Bilbao|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-20|Spain La Liga|domestic-league|Villarreal|3|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-21|Spain La Liga|domestic-league|Betis|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-21|Spain La Liga|domestic-league|Cadiz|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-21|Spain La Liga|domestic-league|Alaves|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-21|Spain La Liga|domestic-league|Mallorca|3|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2023-12-23|Spain La Liga|domestic-league|Ath Madrid|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-02|Spain La Liga|domestic-league|Getafe|0|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-02|Spain La Liga|domestic-league|Sociedad|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-02|Spain La Liga|domestic-league|Valencia|3|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-03|Spain La Liga|domestic-league|Granada|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-03|Spain La Liga|domestic-league|Celta|2|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-03|Spain La Liga|domestic-league|Real Madrid|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-03|Spain La Liga|domestic-league|Girona|4|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-04|Spain La Liga|domestic-league|Osasuna|1|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-04|Spain La Liga|domestic-league|Sevilla|0|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-04|Spain La Liga|domestic-league|Las Palmas|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-12|Spain La Liga|domestic-league|Sevilla|2|3|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-13|Spain La Liga|domestic-league|Las Palmas|3|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-13|Spain La Liga|domestic-league|Mallorca|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-13|Spain La Liga|domestic-league|Ath Bilbao|2|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-13|Spain La Liga|domestic-league|Betis|1|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-14|Spain La Liga|domestic-league|Almeria|0|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-14|Spain La Liga|domestic-league|Cadiz|1|4|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-19|Spain La Liga|domestic-league|Alaves|1|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-20|Spain La Liga|domestic-league|Vallecano|0|2|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-20|Spain La Liga|domestic-league|Villarreal|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-20|Spain La Liga|domestic-league|Valencia|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-20|Spain La Liga|domestic-league|Celta|0|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-21|Spain La Liga|domestic-league|Osasuna|3|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-21|Spain La Liga|domestic-league|Real Madrid|3|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-21|Spain La Liga|domestic-league|Betis|2|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-21|Spain La Liga|domestic-league|Girona|5|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-22|Spain La Liga|domestic-league|Granada|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-26|Spain La Liga|domestic-league|Almeria|0|3|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-27|Spain La Liga|domestic-league|Sociedad|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-27|Spain La Liga|domestic-league|Las Palmas|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-27|Spain La Liga|domestic-league|Barcelona|3|5|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-27|Spain La Liga|domestic-league|Mallorca|0|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-28|Spain La Liga|domestic-league|Celta|0|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-28|Spain La Liga|domestic-league|Cadiz|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-28|Spain La Liga|domestic-league|Sevilla|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-28|Spain La Liga|domestic-league|Ath Madrid|2|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-29|Spain La Liga|domestic-league|Getafe|2|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-31|Spain La Liga|domestic-league|Barcelona|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-01-31|Spain La Liga|domestic-league|Ath Madrid|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-01|Spain La Liga|domestic-league|Getafe|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-02|Spain La Liga|domestic-league|Ath Bilbao|4|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-03|Spain La Liga|domestic-league|Valencia|2|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-03|Spain La Liga|domestic-league|Granada|1|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-03|Spain La Liga|domestic-league|Alaves|1|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-03|Spain La Liga|domestic-league|Girona|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-04|Spain La Liga|domestic-league|Villarreal|0|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-04|Spain La Liga|domestic-league|Osasuna|0|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-04|Spain La Liga|domestic-league|Betis|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-04|Spain La Liga|domestic-league|Real Madrid|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-05|Spain La Liga|domestic-league|Vallecano|1|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-09|Spain La Liga|domestic-league|Cadiz|0|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-10|Spain La Liga|domestic-league|Alaves|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-10|Spain La Liga|domestic-league|Sociedad|0|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-10|Spain La Liga|domestic-league|Real Madrid|4|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-10|Spain La Liga|domestic-league|Las Palmas|2|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-11|Spain La Liga|domestic-league|Getafe|3|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-11|Spain La Liga|domestic-league|Mallorca|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-11|Spain La Liga|domestic-league|Sevilla|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-11|Spain La Liga|domestic-league|Barcelona|3|3|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-12|Spain La Liga|domestic-league|Almeria|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-16|Spain La Liga|domestic-league|Villarreal|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-17|Spain La Liga|domestic-league|Ath Madrid|5|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-17|Spain La Liga|domestic-league|Osasuna|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-17|Spain La Liga|domestic-league|Celta|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-17|Spain La Liga|domestic-league|Valencia|0|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-18|Spain La Liga|domestic-league|Vallecano|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-18|Spain La Liga|domestic-league|Granada|1|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-18|Spain La Liga|domestic-league|Mallorca|1|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-18|Spain La Liga|domestic-league|Betis|0|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-19|Spain La Liga|domestic-league|Ath Bilbao|3|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-23|Spain La Liga|domestic-league|Sociedad|1|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-24|Spain La Liga|domestic-league|Barcelona|4|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-24|Spain La Liga|domestic-league|Alaves|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-24|Spain La Liga|domestic-league|Almeria|2|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-25|Spain La Liga|domestic-league|Cadiz|2|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-25|Spain La Liga|domestic-league|Betis|3|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-25|Spain La Liga|domestic-league|Las Palmas|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-25|Spain La Liga|domestic-league|Real Madrid|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-02-26|Spain La Liga|domestic-league|Girona|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-01|Spain La Liga|domestic-league|Celta|1|0|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-02|Spain La Liga|domestic-league|Sevilla|3|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-02|Spain La Liga|domestic-league|Vallecano|1|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-02|Spain La Liga|domestic-league|Getafe|3|3|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-02|Spain La Liga|domestic-league|Valencia|2|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-03|Spain La Liga|domestic-league|Villarreal|5|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-03|Spain La Liga|domestic-league|Ath Madrid|2|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-03|Spain La Liga|domestic-league|Mallorca|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-03|Spain La Liga|domestic-league|Ath Bilbao|0|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-04|Spain La Liga|domestic-league|Osasuna|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-08|Spain La Liga|domestic-league|Barcelona|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-09|Spain La Liga|domestic-league|Valencia|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-09|Spain La Liga|domestic-league|Cadiz|2|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-09|Spain La Liga|domestic-league|Granada|2|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-09|Spain La Liga|domestic-league|Girona|2|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-10|Spain La Liga|domestic-league|Alaves|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-10|Spain La Liga|domestic-league|Las Palmas|0|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-10|Spain La Liga|domestic-league|Real Madrid|4|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-10|Spain La Liga|domestic-league|Betis|2|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-11|Spain La Liga|domestic-league|Almeria|2|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-15|Spain La Liga|domestic-league|Sociedad|2|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-16|Spain La Liga|domestic-league|Mallorca|1|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-16|Spain La Liga|domestic-league|Osasuna|2|4|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-16|Spain La Liga|domestic-league|Getafe|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-16|Spain La Liga|domestic-league|Ath Bilbao|2|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-17|Spain La Liga|domestic-league|Sevilla|1|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-17|Spain La Liga|domestic-league|Las Palmas|0|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-17|Spain La Liga|domestic-league|Villarreal|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-17|Spain La Liga|domestic-league|Vallecano|2|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-17|Spain La Liga|domestic-league|Ath Madrid|0|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-29|Spain La Liga|domestic-league|Cadiz|1|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-30|Spain La Liga|domestic-league|Getafe|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-30|Spain La Liga|domestic-league|Almeria|0|3|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-30|Spain La Liga|domestic-league|Valencia|0|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-30|Spain La Liga|domestic-league|Barcelona|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-31|Spain La Liga|domestic-league|Celta|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-31|Spain La Liga|domestic-league|Girona|3|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-31|Spain La Liga|domestic-league|Alaves|0|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-03-31|Spain La Liga|domestic-league|Real Madrid|2|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-01|Spain La Liga|domestic-league|Villarreal|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-04|Spain La Liga|domestic-league|Granada|0|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-12|Spain La Liga|domestic-league|Betis|2|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-13|Spain La Liga|domestic-league|Ath Madrid|3|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-13|Spain La Liga|domestic-league|Vallecano|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-13|Spain La Liga|domestic-league|Mallorca|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-13|Spain La Liga|domestic-league|Cadiz|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-14|Spain La Liga|domestic-league|Las Palmas|0|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-14|Spain La Liga|domestic-league|Granada|2|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-14|Spain La Liga|domestic-league|Ath Bilbao|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-14|Spain La Liga|domestic-league|Sociedad|2|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-15|Spain La Liga|domestic-league|Osasuna|0|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-19|Spain La Liga|domestic-league|Ath Bilbao|1|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-20|Spain La Liga|domestic-league|Celta|4|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-20|Spain La Liga|domestic-league|Vallecano|2|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-20|Spain La Liga|domestic-league|Valencia|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-20|Spain La Liga|domestic-league|Girona|4|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-21|Spain La Liga|domestic-league|Getafe|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-21|Spain La Liga|domestic-league|Almeria|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-21|Spain La Liga|domestic-league|Alaves|2|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-21|Spain La Liga|domestic-league|Real Madrid|3|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-22|Spain La Liga|domestic-league|Sevilla|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-26|Spain La Liga|domestic-league|Sociedad|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-27|Spain La Liga|domestic-league|Las Palmas|0|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-27|Spain La Liga|domestic-league|Almeria|1|3|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-27|Spain La Liga|domestic-league|Alaves|3|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-27|Spain La Liga|domestic-league|Ath Madrid|3|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-28|Spain La Liga|domestic-league|Cadiz|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-28|Spain La Liga|domestic-league|Granada|3|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-28|Spain La Liga|domestic-league|Villarreal|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-28|Spain La Liga|domestic-league|Betis|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-04-29|Spain La Liga|domestic-league|Barcelona|4|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-03|Spain La Liga|domestic-league|Getafe|0|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-04|Spain La Liga|domestic-league|Sociedad|2|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-04|Spain La Liga|domestic-league|Real Madrid|3|0|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-04|Spain La Liga|domestic-league|Girona|4|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-04|Spain La Liga|domestic-league|Mallorca|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-05|Spain La Liga|domestic-league|Osasuna|0|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-05|Spain La Liga|domestic-league|Celta|3|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-05|Spain La Liga|domestic-league|Valencia|0|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-05|Spain La Liga|domestic-league|Sevilla|3|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-05|Spain La Liga|domestic-league|Vallecano|0|1|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-10|Spain La Liga|domestic-league|Alaves|2|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-11|Spain La Liga|domestic-league|Mallorca|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-11|Spain La Liga|domestic-league|Villarreal|3|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-11|Spain La Liga|domestic-league|Granada|0|4|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-11|Spain La Liga|domestic-league|Ath Bilbao|2|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-12|Spain La Liga|domestic-league|Cadiz|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-12|Spain La Liga|domestic-league|Ath Madrid|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-12|Spain La Liga|domestic-league|Valencia|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-12|Spain La Liga|domestic-league|Betis|3|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-13|Spain La Liga|domestic-league|Barcelona|2|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-14|Spain La Liga|domestic-league|Osasuna|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-14|Spain La Liga|domestic-league|Real Madrid|5|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-14|Spain La Liga|domestic-league|Girona|0|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-15|Spain La Liga|domestic-league|Sevilla|0|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-15|Spain La Liga|domestic-league|Vallecano|2|1|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-15|Spain La Liga|domestic-league|Celta|2|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-15|Spain La Liga|domestic-league|Getafe|0|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-16|Spain La Liga|domestic-league|Las Palmas|2|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-16|Spain La Liga|domestic-league|Almeria|0|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-16|Spain La Liga|domestic-league|Sociedad|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-18|Spain La Liga|domestic-league|Alaves|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Ath Bilbao|2|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Ath Madrid|1|4|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Barcelona|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Betis|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Cadiz|0|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Granada|1|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Mallorca|2|2|Almeria|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Valencia|1|3|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-19|Spain La Liga|domestic-league|Villarreal|4|4|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-24|Spain La Liga|domestic-league|Girona|7|0|Granada|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-25|Spain La Liga|domestic-league|Osasuna|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-25|Spain La Liga|domestic-league|Sociedad|0|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-25|Spain La Liga|domestic-league|Almeria|6|1|Cadiz|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-25|Spain La Liga|domestic-league|Vallecano|0|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-25|Spain La Liga|domestic-league|Real Madrid|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-26|Spain La Liga|domestic-league|Getafe|1|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-26|Spain La Liga|domestic-league|Celta|2|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-26|Spain La Liga|domestic-league|Las Palmas|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-05-26|Spain La Liga|domestic-league|Sevilla|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-15|Spain La Liga|domestic-league|Ath Bilbao|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-15|Spain La Liga|domestic-league|Betis|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-16|Spain La Liga|domestic-league|Celta|2|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-16|Spain La Liga|domestic-league|Las Palmas|2|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-17|Spain La Liga|domestic-league|Osasuna|1|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-17|Spain La Liga|domestic-league|Valencia|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-18|Spain La Liga|domestic-league|Sociedad|1|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-18|Spain La Liga|domestic-league|Mallorca|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-19|Spain La Liga|domestic-league|Valladolid|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-19|Spain La Liga|domestic-league|Villarreal|2|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-23|Spain La Liga|domestic-league|Celta|3|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-23|Spain La Liga|domestic-league|Sevilla|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-24|Spain La Liga|domestic-league|Osasuna|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-24|Spain La Liga|domestic-league|Barcelona|2|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-24|Spain La Liga|domestic-league|Espanol|0|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-24|Spain La Liga|domestic-league|Getafe|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-25|Spain La Liga|domestic-league|Real Madrid|3|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-25|Spain La Liga|domestic-league|Leganes|2|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-25|Spain La Liga|domestic-league|Alaves|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-25|Spain La Liga|domestic-league|Ath Madrid|3|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-26|Spain La Liga|domestic-league|Villarreal|4|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-27|Spain La Liga|domestic-league|Mallorca|0|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-27|Spain La Liga|domestic-league|Vallecano|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-28|Spain La Liga|domestic-league|Ath Bilbao|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-28|Spain La Liga|domestic-league|Valladolid|0|0|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-28|Spain La Liga|domestic-league|Ath Madrid|0|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-28|Spain La Liga|domestic-league|Sociedad|1|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-29|Spain La Liga|domestic-league|Girona|4|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-29|Spain La Liga|domestic-league|Las Palmas|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-31|Spain La Liga|domestic-league|Barcelona|7|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-31|Spain La Liga|domestic-league|Ath Bilbao|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-31|Spain La Liga|domestic-league|Espanol|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-31|Spain La Liga|domestic-league|Leganes|0|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-08-31|Spain La Liga|domestic-league|Valencia|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-01|Spain La Liga|domestic-league|Alaves|2|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-01|Spain La Liga|domestic-league|Osasuna|3|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-01|Spain La Liga|domestic-league|Sevilla|0|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-01|Spain La Liga|domestic-league|Getafe|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-01|Spain La Liga|domestic-league|Real Madrid|2|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-13|Spain La Liga|domestic-league|Betis|2|0|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-14|Spain La Liga|domestic-league|Mallorca|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-14|Spain La Liga|domestic-league|Espanol|3|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-14|Spain La Liga|domestic-league|Sevilla|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-14|Spain La Liga|domestic-league|Sociedad|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-15|Spain La Liga|domestic-league|Celta|3|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-15|Spain La Liga|domestic-league|Girona|1|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-15|Spain La Liga|domestic-league|Las Palmas|2|3|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-15|Spain La Liga|domestic-league|Ath Madrid|3|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-16|Spain La Liga|domestic-league|Vallecano|3|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-17|Spain La Liga|domestic-league|Mallorca|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-18|Spain La Liga|domestic-league|Betis|2|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-19|Spain La Liga|domestic-league|Leganes|0|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-20|Spain La Liga|domestic-league|Alaves|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-21|Spain La Liga|domestic-league|Valladolid|0|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-21|Spain La Liga|domestic-league|Osasuna|2|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-21|Spain La Liga|domestic-league|Valencia|2|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-21|Spain La Liga|domestic-league|Real Madrid|4|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-22|Spain La Liga|domestic-league|Getafe|1|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-22|Spain La Liga|domestic-league|Ath Bilbao|3|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-22|Spain La Liga|domestic-league|Villarreal|1|5|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-22|Spain La Liga|domestic-league|Vallecano|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-23|Spain La Liga|domestic-league|Betis|1|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-24|Spain La Liga|domestic-league|Sevilla|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-24|Spain La Liga|domestic-league|Valencia|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-24|Spain La Liga|domestic-league|Real Madrid|3|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-25|Spain La Liga|domestic-league|Girona|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-25|Spain La Liga|domestic-league|Barcelona|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-26|Spain La Liga|domestic-league|Espanol|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-26|Spain La Liga|domestic-league|Las Palmas|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-26|Spain La Liga|domestic-league|Celta|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-27|Spain La Liga|domestic-league|Valladolid|1|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-28|Spain La Liga|domestic-league|Getafe|2|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-28|Spain La Liga|domestic-league|Vallecano|1|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-28|Spain La Liga|domestic-league|Sociedad|3|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-28|Spain La Liga|domestic-league|Osasuna|4|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-29|Spain La Liga|domestic-league|Celta|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-29|Spain La Liga|domestic-league|Ath Bilbao|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-29|Spain La Liga|domestic-league|Betis|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-29|Spain La Liga|domestic-league|Ath Madrid|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-09-30|Spain La Liga|domestic-league|Villarreal|3|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-04|Spain La Liga|domestic-league|Leganes|0|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-05|Spain La Liga|domestic-league|Espanol|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-05|Spain La Liga|domestic-league|Getafe|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-05|Spain La Liga|domestic-league|Las Palmas|0|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-05|Spain La Liga|domestic-league|Valladolid|1|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-05|Spain La Liga|domestic-league|Real Madrid|2|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-06|Spain La Liga|domestic-league|Girona|2|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-06|Spain La Liga|domestic-league|Alaves|0|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-06|Spain La Liga|domestic-league|Sevilla|1|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-06|Spain La Liga|domestic-league|Sociedad|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-18|Spain La Liga|domestic-league|Alaves|2|3|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-19|Spain La Liga|domestic-league|Ath Bilbao|4|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-19|Spain La Liga|domestic-league|Osasuna|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-19|Spain La Liga|domestic-league|Girona|0|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-19|Spain La Liga|domestic-league|Celta|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-20|Spain La Liga|domestic-league|Mallorca|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-20|Spain La Liga|domestic-league|Ath Madrid|3|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-20|Spain La Liga|domestic-league|Villarreal|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-20|Spain La Liga|domestic-league|Barcelona|5|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-21|Spain La Liga|domestic-league|Valencia|2|3|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-25|Spain La Liga|domestic-league|Espanol|0|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-26|Spain La Liga|domestic-league|Valladolid|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-26|Spain La Liga|domestic-league|Vallecano|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-26|Spain La Liga|domestic-league|Las Palmas|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-26|Spain La Liga|domestic-league|Real Madrid|0|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-27|Spain La Liga|domestic-league|Leganes|3|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-27|Spain La Liga|domestic-league|Getafe|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-27|Spain La Liga|domestic-league|Betis|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-27|Spain La Liga|domestic-league|Sociedad|0|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-10-28|Spain La Liga|domestic-league|Mallorca|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-01|Spain La Liga|domestic-league|Alaves|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-02|Spain La Liga|domestic-league|Osasuna|1|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-02|Spain La Liga|domestic-league|Girona|4|3|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-03|Spain La Liga|domestic-league|Ath Madrid|2|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-03|Spain La Liga|domestic-league|Barcelona|3|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-03|Spain La Liga|domestic-league|Sevilla|0|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-03|Spain La Liga|domestic-league|Ath Bilbao|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-04|Spain La Liga|domestic-league|Celta|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-08|Spain La Liga|domestic-league|Vallecano|1|3|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-09|Spain La Liga|domestic-league|Real Madrid|4|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-09|Spain La Liga|domestic-league|Villarreal|3|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-09|Spain La Liga|domestic-league|Leganes|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-10|Spain La Liga|domestic-league|Betis|2|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-10|Spain La Liga|domestic-league|Mallorca|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-10|Spain La Liga|domestic-league|Getafe|0|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-10|Spain La Liga|domestic-league|Valladolid|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-10|Spain La Liga|domestic-league|Sociedad|1|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-22|Spain La Liga|domestic-league|Getafe|2|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-23|Spain La Liga|domestic-league|Valencia|4|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-23|Spain La Liga|domestic-league|Ath Madrid|2|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-23|Spain La Liga|domestic-league|Girona|4|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-23|Spain La Liga|domestic-league|Las Palmas|2|3|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-23|Spain La Liga|domestic-league|Celta|2|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-24|Spain La Liga|domestic-league|Osasuna|2|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-24|Spain La Liga|domestic-league|Sevilla|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-24|Spain La Liga|domestic-league|Leganes|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-24|Spain La Liga|domestic-league|Ath Bilbao|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-29|Spain La Liga|domestic-league|Mallorca|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-30|Spain La Liga|domestic-league|Barcelona|1|2|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-30|Spain La Liga|domestic-league|Alaves|1|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-30|Spain La Liga|domestic-league|Espanol|3|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-11-30|Spain La Liga|domestic-league|Valladolid|0|5|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-01|Spain La Liga|domestic-league|Villarreal|2|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-01|Spain La Liga|domestic-league|Real Madrid|2|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-01|Spain La Liga|domestic-league|Vallecano|1|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-01|Spain La Liga|domestic-league|Sociedad|2|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-02|Spain La Liga|domestic-league|Sevilla|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-03|Spain La Liga|domestic-league|Mallorca|1|5|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-04|Spain La Liga|domestic-league|Ath Bilbao|2|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-06|Spain La Liga|domestic-league|Celta|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-07|Spain La Liga|domestic-league|Las Palmas|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-07|Spain La Liga|domestic-league|Betis|2|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-07|Spain La Liga|domestic-league|Valencia|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-07|Spain La Liga|domestic-league|Girona|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-08|Spain La Liga|domestic-league|Leganes|0|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-08|Spain La Liga|domestic-league|Ath Bilbao|2|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-08|Spain La Liga|domestic-league|Osasuna|2|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-08|Spain La Liga|domestic-league|Ath Madrid|4|3|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-09|Spain La Liga|domestic-league|Getafe|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-13|Spain La Liga|domestic-league|Valladolid|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-14|Spain La Liga|domestic-league|Espanol|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-14|Spain La Liga|domestic-league|Mallorca|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-14|Spain La Liga|domestic-league|Sevilla|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-14|Spain La Liga|domestic-league|Vallecano|3|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-15|Spain La Liga|domestic-league|Ath Madrid|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-15|Spain La Liga|domestic-league|Alaves|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-15|Spain La Liga|domestic-league|Sociedad|0|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-15|Spain La Liga|domestic-league|Villarreal|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-15|Spain La Liga|domestic-league|Barcelona|0|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-18|Spain La Liga|domestic-league|Espanol|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-18|Spain La Liga|domestic-league|Villarreal|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-20|Spain La Liga|domestic-league|Girona|3|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-21|Spain La Liga|domestic-league|Getafe|0|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-21|Spain La Liga|domestic-league|Celta|2|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-21|Spain La Liga|domestic-league|Osasuna|1|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-21|Spain La Liga|domestic-league|Barcelona|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-22|Spain La Liga|domestic-league|Valencia|2|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-22|Spain La Liga|domestic-league|Real Madrid|4|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-22|Spain La Liga|domestic-league|Las Palmas|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-22|Spain La Liga|domestic-league|Leganes|2|5|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2024-12-22|Spain La Liga|domestic-league|Betis|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-03|Spain La Liga|domestic-league|Valencia|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-10|Spain La Liga|domestic-league|Vallecano|2|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-11|Spain La Liga|domestic-league|Alaves|0|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-11|Spain La Liga|domestic-league|Valladolid|1|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-11|Spain La Liga|domestic-league|Espanol|1|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-11|Spain La Liga|domestic-league|Sevilla|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-12|Spain La Liga|domestic-league|Las Palmas|1|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-12|Spain La Liga|domestic-league|Ath Madrid|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-13|Spain La Liga|domestic-league|Sociedad|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-17|Spain La Liga|domestic-league|Espanol|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-18|Spain La Liga|domestic-league|Girona|1|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-18|Spain La Liga|domestic-league|Leganes|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-18|Spain La Liga|domestic-league|Betis|1|3|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-18|Spain La Liga|domestic-league|Getafe|1|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-19|Spain La Liga|domestic-league|Celta|1|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-19|Spain La Liga|domestic-league|Real Madrid|4|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-19|Spain La Liga|domestic-league|Osasuna|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-19|Spain La Liga|domestic-league|Valencia|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-20|Spain La Liga|domestic-league|Villarreal|4|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-24|Spain La Liga|domestic-league|Las Palmas|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-25|Spain La Liga|domestic-league|Mallorca|0|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-25|Spain La Liga|domestic-league|Ath Madrid|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-25|Spain La Liga|domestic-league|Sevilla|1|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-25|Spain La Liga|domestic-league|Valladolid|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-26|Spain La Liga|domestic-league|Vallecano|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-26|Spain La Liga|domestic-league|Sociedad|0|3|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-26|Spain La Liga|domestic-league|Ath Bilbao|0|0|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-26|Spain La Liga|domestic-league|Barcelona|7|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-27|Spain La Liga|domestic-league|Alaves|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-01-31|Spain La Liga|domestic-league|Leganes|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-01|Spain La Liga|domestic-league|Getafe|0|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-01|Spain La Liga|domestic-league|Villarreal|5|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-01|Spain La Liga|domestic-league|Ath Madrid|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-01|Spain La Liga|domestic-league|Espanol|1|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-02|Spain La Liga|domestic-league|Barcelona|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-02|Spain La Liga|domestic-league|Valencia|2|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-02|Spain La Liga|domestic-league|Osasuna|2|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-02|Spain La Liga|domestic-league|Betis|2|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-03|Spain La Liga|domestic-league|Girona|2|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-07|Spain La Liga|domestic-league|Vallecano|1|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-08|Spain La Liga|domestic-league|Celta|3|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-08|Spain La Liga|domestic-league|Ath Bilbao|3|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-08|Spain La Liga|domestic-league|Las Palmas|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-08|Spain La Liga|domestic-league|Real Madrid|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-09|Spain La Liga|domestic-league|Alaves|0|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-09|Spain La Liga|domestic-league|Valencia|2|0|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-09|Spain La Liga|domestic-league|Sociedad|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-09|Spain La Liga|domestic-league|Sevilla|1|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-10|Spain La Liga|domestic-league|Mallorca|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-14|Spain La Liga|domestic-league|Girona|1|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-15|Spain La Liga|domestic-league|Leganes|3|3|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-15|Spain La Liga|domestic-league|Osasuna|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-15|Spain La Liga|domestic-league|Ath Madrid|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-15|Spain La Liga|domestic-league|Villarreal|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-16|Spain La Liga|domestic-league|Espanol|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-16|Spain La Liga|domestic-league|Valladolid|0|4|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-16|Spain La Liga|domestic-league|Mallorca|3|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-16|Spain La Liga|domestic-league|Betis|3|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-17|Spain La Liga|domestic-league|Barcelona|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-21|Spain La Liga|domestic-league|Celta|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-22|Spain La Liga|domestic-league|Alaves|0|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-22|Spain La Liga|domestic-league|Vallecano|0|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-22|Spain La Liga|domestic-league|Valencia|0|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-22|Spain La Liga|domestic-league|Las Palmas|0|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-23|Spain La Liga|domestic-league|Ath Bilbao|7|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-23|Spain La Liga|domestic-league|Real Madrid|2|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-23|Spain La Liga|domestic-league|Getafe|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-23|Spain La Liga|domestic-league|Sociedad|3|0|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-24|Spain La Liga|domestic-league|Sevilla|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-02-28|Spain La Liga|domestic-league|Valladolid|1|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-01|Spain La Liga|domestic-league|Girona|2|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-01|Spain La Liga|domestic-league|Vallecano|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-01|Spain La Liga|domestic-league|Betis|2|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-01|Spain La Liga|domestic-league|Ath Madrid|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-02|Spain La Liga|domestic-league|Leganes|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-02|Spain La Liga|domestic-league|Barcelona|4|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-02|Spain La Liga|domestic-league|Mallorca|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-02|Spain La Liga|domestic-league|Osasuna|3|3|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-08|Spain La Liga|domestic-league|Celta|2|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-08|Spain La Liga|domestic-league|Alaves|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-08|Spain La Liga|domestic-league|Valencia|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-09|Spain La Liga|domestic-league|Getafe|2|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-09|Spain La Liga|domestic-league|Real Madrid|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-09|Spain La Liga|domestic-league|Ath Bilbao|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-09|Spain La Liga|domestic-league|Betis|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-09|Spain La Liga|domestic-league|Sociedad|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-10|Spain La Liga|domestic-league|Espanol|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-14|Spain La Liga|domestic-league|Las Palmas|2|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-15|Spain La Liga|domestic-league|Valladolid|0|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-15|Spain La Liga|domestic-league|Mallorca|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-15|Spain La Liga|domestic-league|Villarreal|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-15|Spain La Liga|domestic-league|Girona|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-16|Spain La Liga|domestic-league|Leganes|2|3|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-16|Spain La Liga|domestic-league|Sevilla|0|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-16|Spain La Liga|domestic-league|Osasuna|1|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-16|Spain La Liga|domestic-league|Vallecano|2|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-16|Spain La Liga|domestic-league|Ath Madrid|2|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-27|Spain La Liga|domestic-league|Barcelona|3|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-29|Spain La Liga|domestic-league|Sociedad|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-29|Spain La Liga|domestic-league|Espanol|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-29|Spain La Liga|domestic-league|Alaves|0|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-29|Spain La Liga|domestic-league|Real Madrid|3|2|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-30|Spain La Liga|domestic-league|Getafe|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-30|Spain La Liga|domestic-league|Barcelona|4|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-30|Spain La Liga|domestic-league|Ath Bilbao|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-30|Spain La Liga|domestic-league|Valencia|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-30|Spain La Liga|domestic-league|Betis|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-03-31|Spain La Liga|domestic-league|Celta|1|1|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-04|Spain La Liga|domestic-league|Vallecano|0|4|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-05|Spain La Liga|domestic-league|Girona|0|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-05|Spain La Liga|domestic-league|Real Madrid|1|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-05|Spain La Liga|domestic-league|Mallorca|1|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-05|Spain La Liga|domestic-league|Barcelona|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-06|Spain La Liga|domestic-league|Las Palmas|1|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-06|Spain La Liga|domestic-league|Sevilla|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-06|Spain La Liga|domestic-league|Valladolid|0|4|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-06|Spain La Liga|domestic-league|Villarreal|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-07|Spain La Liga|domestic-league|Leganes|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-11|Spain La Liga|domestic-league|Valencia|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-12|Spain La Liga|domestic-league|Sociedad|0|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-12|Spain La Liga|domestic-league|Getafe|1|3|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-12|Spain La Liga|domestic-league|Celta|0|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-12|Spain La Liga|domestic-league|Leganes|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-13|Spain La Liga|domestic-league|Osasuna|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-13|Spain La Liga|domestic-league|Alaves|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-13|Spain La Liga|domestic-league|Betis|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-13|Spain La Liga|domestic-league|Ath Bilbao|3|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-14|Spain La Liga|domestic-league|Ath Madrid|4|2|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-18|Spain La Liga|domestic-league|Espanol|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-19|Spain La Liga|domestic-league|Vallecano|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-19|Spain La Liga|domestic-league|Barcelona|4|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-19|Spain La Liga|domestic-league|Mallorca|0|0|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-19|Spain La Liga|domestic-league|Las Palmas|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-20|Spain La Liga|domestic-league|Valladolid|2|3|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-20|Spain La Liga|domestic-league|Villarreal|2|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-20|Spain La Liga|domestic-league|Sevilla|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-20|Spain La Liga|domestic-league|Real Madrid|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-21|Spain La Liga|domestic-league|Girona|1|3|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-22|Spain La Liga|domestic-league|Valencia|1|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-22|Spain La Liga|domestic-league|Barcelona|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-23|Spain La Liga|domestic-league|Ath Bilbao|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-23|Spain La Liga|domestic-league|Celta|3|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-23|Spain La Liga|domestic-league|Alaves|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-23|Spain La Liga|domestic-league|Getafe|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-24|Spain La Liga|domestic-league|Leganes|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-24|Spain La Liga|domestic-league|Osasuna|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-24|Spain La Liga|domestic-league|Ath Madrid|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-24|Spain La Liga|domestic-league|Betis|5|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-04-27|Spain La Liga|domestic-league|Villarreal|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-02|Spain La Liga|domestic-league|Vallecano|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-03|Spain La Liga|domestic-league|Alaves|0|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-03|Spain La Liga|domestic-league|Villarreal|4|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-03|Spain La Liga|domestic-league|Las Palmas|2|3|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-03|Spain La Liga|domestic-league|Valladolid|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-04|Spain La Liga|domestic-league|Real Madrid|3|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-04|Spain La Liga|domestic-league|Sevilla|2|2|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-04|Spain La Liga|domestic-league|Espanol|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-04|Spain La Liga|domestic-league|Sociedad|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-05|Spain La Liga|domestic-league|Girona|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-09|Spain La Liga|domestic-league|Las Palmas|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-10|Spain La Liga|domestic-league|Valencia|3|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-10|Spain La Liga|domestic-league|Celta|3|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-10|Spain La Liga|domestic-league|Girona|0|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-10|Spain La Liga|domestic-league|Mallorca|2|1|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-10|Spain La Liga|domestic-league|Ath Madrid|4|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-11|Spain La Liga|domestic-league|Leganes|3|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-11|Spain La Liga|domestic-league|Barcelona|4|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-11|Spain La Liga|domestic-league|Ath Bilbao|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-11|Spain La Liga|domestic-league|Betis|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-13|Spain La Liga|domestic-league|Valladolid|0|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-13|Spain La Liga|domestic-league|Sociedad|0|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-13|Spain La Liga|domestic-league|Sevilla|1|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-14|Spain La Liga|domestic-league|Alaves|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-14|Spain La Liga|domestic-league|Villarreal|3|0|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-14|Spain La Liga|domestic-league|Real Madrid|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-15|Spain La Liga|domestic-league|Vallecano|2|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-15|Spain La Liga|domestic-league|Osasuna|2|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-15|Spain La Liga|domestic-league|Espanol|0|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-15|Spain La Liga|domestic-league|Getafe|0|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Ath Madrid|4|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Barcelona|2|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Celta|1|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Las Palmas|0|1|Leganes|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Mallorca|1|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Osasuna|2|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Sevilla|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Sociedad|3|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Valencia|0|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-18|Spain La Liga|domestic-league|Valladolid|0|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-23|Spain La Liga|domestic-league|Betis|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-24|Spain La Liga|domestic-league|Real Madrid|2|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-24|Spain La Liga|domestic-league|Espanol|2|0|Las Palmas|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-24|Spain La Liga|domestic-league|Leganes|3|0|Valladolid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-24|Spain La Liga|domestic-league|Alaves|1|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-24|Spain La Liga|domestic-league|Getafe|1|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-24|Spain La Liga|domestic-league|Vallecano|0|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-25|Spain La Liga|domestic-league|Girona|0|4|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-25|Spain La Liga|domestic-league|Villarreal|4|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-05-25|Spain La Liga|domestic-league|Ath Bilbao|0|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-15|Spain La Liga|domestic-league|Girona|1|3|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-15|Spain La Liga|domestic-league|Villarreal|2|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-16|Spain La Liga|domestic-league|Mallorca|0|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-16|Spain La Liga|domestic-league|Alaves|2|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-16|Spain La Liga|domestic-league|Valencia|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-17|Spain La Liga|domestic-league|Celta|0|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-17|Spain La Liga|domestic-league|Ath Bilbao|3|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-17|Spain La Liga|domestic-league|Espanol|2|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-18|Spain La Liga|domestic-league|Elche|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-19|Spain La Liga|domestic-league|Real Madrid|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-22|Spain La Liga|domestic-league|Betis|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-23|Spain La Liga|domestic-league|Mallorca|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-23|Spain La Liga|domestic-league|Ath Madrid|1|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-23|Spain La Liga|domestic-league|Levante|2|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-24|Spain La Liga|domestic-league|Osasuna|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-24|Spain La Liga|domestic-league|Sociedad|2|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-24|Spain La Liga|domestic-league|Villarreal|5|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-24|Spain La Liga|domestic-league|Oviedo|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-25|Spain La Liga|domestic-league|Ath Bilbao|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-25|Spain La Liga|domestic-league|Sevilla|1|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-27|Spain La Liga|domestic-league|Celta|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-29|Spain La Liga|domestic-league|Elche|2|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-29|Spain La Liga|domestic-league|Valencia|3|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-30|Spain La Liga|domestic-league|Alaves|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-30|Spain La Liga|domestic-league|Oviedo|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-30|Spain La Liga|domestic-league|Girona|0|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-30|Spain La Liga|domestic-league|Real Madrid|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-31|Spain La Liga|domestic-league|Celta|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-31|Spain La Liga|domestic-league|Betis|1|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-31|Spain La Liga|domestic-league|Espanol|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-08-31|Spain La Liga|domestic-league|Vallecano|1|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-12|Spain La Liga|domestic-league|Sevilla|2|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-13|Spain La Liga|domestic-league|Getafe|2|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-13|Spain La Liga|domestic-league|Sociedad|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-13|Spain La Liga|domestic-league|Ath Bilbao|0|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-13|Spain La Liga|domestic-league|Ath Madrid|2|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-14|Spain La Liga|domestic-league|Celta|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-14|Spain La Liga|domestic-league|Levante|2|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-14|Spain La Liga|domestic-league|Osasuna|2|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-14|Spain La Liga|domestic-league|Barcelona|6|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-15|Spain La Liga|domestic-league|Espanol|3|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-19|Spain La Liga|domestic-league|Betis|3|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-20|Spain La Liga|domestic-league|Girona|0|4|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-20|Spain La Liga|domestic-league|Real Madrid|2|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-20|Spain La Liga|domestic-league|Alaves|1|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-20|Spain La Liga|domestic-league|Villarreal|2|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-20|Spain La Liga|domestic-league|Valencia|2|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-21|Spain La Liga|domestic-league|Vallecano|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-21|Spain La Liga|domestic-league|Mallorca|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-21|Spain La Liga|domestic-league|Elche|1|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-21|Spain La Liga|domestic-league|Barcelona|3|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-23|Spain La Liga|domestic-league|Ath Bilbao|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-23|Spain La Liga|domestic-league|Espanol|2|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-23|Spain La Liga|domestic-league|Levante|1|4|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-23|Spain La Liga|domestic-league|Sevilla|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-24|Spain La Liga|domestic-league|Getafe|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-24|Spain La Liga|domestic-league|Ath Madrid|3|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-24|Spain La Liga|domestic-league|Sociedad|1|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-25|Spain La Liga|domestic-league|Osasuna|1|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-25|Spain La Liga|domestic-league|Oviedo|1|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-26|Spain La Liga|domestic-league|Girona|0|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-27|Spain La Liga|domestic-league|Getafe|1|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-27|Spain La Liga|domestic-league|Ath Madrid|5|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-27|Spain La Liga|domestic-league|Mallorca|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-27|Spain La Liga|domestic-league|Villarreal|1|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-28|Spain La Liga|domestic-league|Vallecano|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-28|Spain La Liga|domestic-league|Elche|2|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-28|Spain La Liga|domestic-league|Barcelona|2|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-28|Spain La Liga|domestic-league|Betis|2|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-09-30|Spain La Liga|domestic-league|Valencia|1|2|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-03|Spain La Liga|domestic-league|Osasuna|2|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-04|Spain La Liga|domestic-league|Oviedo|0|2|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-04|Spain La Liga|domestic-league|Girona|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-04|Spain La Liga|domestic-league|Ath Bilbao|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-04|Spain La Liga|domestic-league|Real Madrid|3|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-05|Spain La Liga|domestic-league|Alaves|3|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-05|Spain La Liga|domestic-league|Sevilla|4|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-05|Spain La Liga|domestic-league|Espanol|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-05|Spain La Liga|domestic-league|Sociedad|0|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-05|Spain La Liga|domestic-league|Celta|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-17|Spain La Liga|domestic-league|Oviedo|0|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-18|Spain La Liga|domestic-league|Sevilla|1|3|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-18|Spain La Liga|domestic-league|Barcelona|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-18|Spain La Liga|domestic-league|Villarreal|2|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-18|Spain La Liga|domestic-league|Ath Madrid|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-19|Spain La Liga|domestic-league|Elche|0|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-19|Spain La Liga|domestic-league|Celta|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-19|Spain La Liga|domestic-league|Levante|0|3|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-19|Spain La Liga|domestic-league|Getafe|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-20|Spain La Liga|domestic-league|Alaves|0|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-24|Spain La Liga|domestic-league|Sociedad|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-25|Spain La Liga|domestic-league|Girona|3|3|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-25|Spain La Liga|domestic-league|Espanol|1|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-25|Spain La Liga|domestic-league|Ath Bilbao|0|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-25|Spain La Liga|domestic-league|Valencia|0|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-26|Spain La Liga|domestic-league|Mallorca|1|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-26|Spain La Liga|domestic-league|Real Madrid|2|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-26|Spain La Liga|domestic-league|Osasuna|2|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-26|Spain La Liga|domestic-league|Vallecano|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-27|Spain La Liga|domestic-league|Betis|0|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-10-31|Spain La Liga|domestic-league|Getafe|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-01|Spain La Liga|domestic-league|Villarreal|4|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-01|Spain La Liga|domestic-league|Ath Madrid|3|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-01|Spain La Liga|domestic-league|Sociedad|3|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-01|Spain La Liga|domestic-league|Real Madrid|4|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-02|Spain La Liga|domestic-league|Levante|1|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-02|Spain La Liga|domestic-league|Alaves|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-02|Spain La Liga|domestic-league|Barcelona|3|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-02|Spain La Liga|domestic-league|Betis|3|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-03|Spain La Liga|domestic-league|Oviedo|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-07|Spain La Liga|domestic-league|Elche|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-08|Spain La Liga|domestic-league|Girona|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-08|Spain La Liga|domestic-league|Sevilla|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-08|Spain La Liga|domestic-league|Ath Madrid|3|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-08|Spain La Liga|domestic-league|Espanol|0|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-09|Spain La Liga|domestic-league|Ath Bilbao|1|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-09|Spain La Liga|domestic-league|Vallecano|0|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-09|Spain La Liga|domestic-league|Mallorca|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-09|Spain La Liga|domestic-league|Valencia|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-09|Spain La Liga|domestic-league|Celta|2|4|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-21|Spain La Liga|domestic-league|Valencia|1|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-22|Spain La Liga|domestic-league|Alaves|0|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-22|Spain La Liga|domestic-league|Barcelona|4|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-22|Spain La Liga|domestic-league|Osasuna|1|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-22|Spain La Liga|domestic-league|Villarreal|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-23|Spain La Liga|domestic-league|Oviedo|0|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-23|Spain La Liga|domestic-league|Betis|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-23|Spain La Liga|domestic-league|Getafe|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-23|Spain La Liga|domestic-league|Elche|2|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-24|Spain La Liga|domestic-league|Espanol|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-28|Spain La Liga|domestic-league|Getafe|1|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-29|Spain La Liga|domestic-league|Mallorca|2|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-29|Spain La Liga|domestic-league|Barcelona|3|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-29|Spain La Liga|domestic-league|Levante|0|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-29|Spain La Liga|domestic-league|Ath Madrid|2|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-30|Spain La Liga|domestic-league|Sociedad|2|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-30|Spain La Liga|domestic-league|Sevilla|0|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-30|Spain La Liga|domestic-league|Celta|0|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-11-30|Spain La Liga|domestic-league|Girona|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-01|Spain La Liga|domestic-league|Vallecano|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-02|Spain La Liga|domestic-league|Barcelona|3|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-03|Spain La Liga|domestic-league|Ath Bilbao|0|3|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-05|Spain La Liga|domestic-league|Oviedo|0|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-06|Spain La Liga|domestic-league|Villarreal|2|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-06|Spain La Liga|domestic-league|Alaves|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-06|Spain La Liga|domestic-league|Betis|3|5|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-06|Spain La Liga|domestic-league|Ath Bilbao|1|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-07|Spain La Liga|domestic-league|Elche|3|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-07|Spain La Liga|domestic-league|Valencia|1|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-07|Spain La Liga|domestic-league|Espanol|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-07|Spain La Liga|domestic-league|Real Madrid|0|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-08|Spain La Liga|domestic-league|Osasuna|2|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-12|Spain La Liga|domestic-league|Sociedad|1|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-13|Spain La Liga|domestic-league|Ath Madrid|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-13|Spain La Liga|domestic-league|Mallorca|3|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-13|Spain La Liga|domestic-league|Barcelona|2|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-13|Spain La Liga|domestic-league|Getafe|0|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-14|Spain La Liga|domestic-league|Sevilla|4|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-14|Spain La Liga|domestic-league|Celta|2|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-14|Spain La Liga|domestic-league|Alaves|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-15|Spain La Liga|domestic-league|Vallecano|0|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-19|Spain La Liga|domestic-league|Valencia|1|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-20|Spain La Liga|domestic-league|Oviedo|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-20|Spain La Liga|domestic-league|Levante|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-20|Spain La Liga|domestic-league|Osasuna|3|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-20|Spain La Liga|domestic-league|Real Madrid|2|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-21|Spain La Liga|domestic-league|Girona|0|3|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-21|Spain La Liga|domestic-league|Villarreal|0|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-21|Spain La Liga|domestic-league|Elche|4|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-21|Spain La Liga|domestic-league|Betis|4|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2025-12-22|Spain La Liga|domestic-league|Ath Bilbao|1|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-02|Spain La Liga|domestic-league|Vallecano|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-03|Spain La Liga|domestic-league|Celta|4|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-03|Spain La Liga|domestic-league|Osasuna|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-03|Spain La Liga|domestic-league|Elche|1|3|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-03|Spain La Liga|domestic-league|Espanol|0|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-04|Spain La Liga|domestic-league|Sevilla|0|3|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-04|Spain La Liga|domestic-league|Real Madrid|5|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-04|Spain La Liga|domestic-league|Alaves|1|1|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-04|Spain La Liga|domestic-league|Mallorca|1|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-04|Spain La Liga|domestic-league|Sociedad|1|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-09|Spain La Liga|domestic-league|Getafe|1|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-10|Spain La Liga|domestic-league|Oviedo|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-10|Spain La Liga|domestic-league|Villarreal|3|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-10|Spain La Liga|domestic-league|Girona|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-10|Spain La Liga|domestic-league|Valencia|1|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-11|Spain La Liga|domestic-league|Vallecano|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-11|Spain La Liga|domestic-league|Levante|1|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-12|Spain La Liga|domestic-league|Sevilla|0|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-16|Spain La Liga|domestic-league|Espanol|0|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-17|Spain La Liga|domestic-league|Real Madrid|2|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-17|Spain La Liga|domestic-league|Mallorca|3|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-17|Spain La Liga|domestic-league|Osasuna|3|2|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-17|Spain La Liga|domestic-league|Betis|2|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-18|Spain La Liga|domestic-league|Getafe|0|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-18|Spain La Liga|domestic-league|Ath Madrid|1|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-18|Spain La Liga|domestic-league|Celta|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-18|Spain La Liga|domestic-league|Sociedad|2|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-19|Spain La Liga|domestic-league|Elche|2|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-23|Spain La Liga|domestic-league|Levante|3|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-24|Spain La Liga|domestic-league|Vallecano|1|3|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-24|Spain La Liga|domestic-league|Valencia|3|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-24|Spain La Liga|domestic-league|Sevilla|2|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-24|Spain La Liga|domestic-league|Villarreal|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-25|Spain La Liga|domestic-league|Ath Madrid|3|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-25|Spain La Liga|domestic-league|Barcelona|3|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-25|Spain La Liga|domestic-league|Sociedad|3|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-25|Spain La Liga|domestic-league|Alaves|2|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-26|Spain La Liga|domestic-league|Girona|1|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-30|Spain La Liga|domestic-league|Espanol|1|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-31|Spain La Liga|domestic-league|Oviedo|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-31|Spain La Liga|domestic-league|Osasuna|2|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-31|Spain La Liga|domestic-league|Levante|0|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-01-31|Spain La Liga|domestic-league|Elche|1|3|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-01|Spain La Liga|domestic-league|Real Madrid|2|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-01|Spain La Liga|domestic-league|Betis|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-01|Spain La Liga|domestic-league|Getafe|0|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-01|Spain La Liga|domestic-league|Ath Bilbao|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-02|Spain La Liga|domestic-league|Mallorca|4|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-06|Spain La Liga|domestic-league|Celta|1|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-07|Spain La Liga|domestic-league|Barcelona|3|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-07|Spain La Liga|domestic-league|Sociedad|3|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-08|Spain La Liga|domestic-league|Alaves|0|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-08|Spain La Liga|domestic-league|Ath Bilbao|4|2|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-08|Spain La Liga|domestic-league|Sevilla|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-08|Spain La Liga|domestic-league|Ath Madrid|0|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-08|Spain La Liga|domestic-league|Valencia|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-09|Spain La Liga|domestic-league|Villarreal|4|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-13|Spain La Liga|domestic-league|Elche|0|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-14|Spain La Liga|domestic-league|Espanol|2|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-14|Spain La Liga|domestic-league|Getafe|2|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-14|Spain La Liga|domestic-league|Sevilla|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-14|Spain La Liga|domestic-league|Real Madrid|4|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-15|Spain La Liga|domestic-league|Oviedo|1|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-15|Spain La Liga|domestic-league|Vallecano|3|0|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-15|Spain La Liga|domestic-league|Levante|0|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-15|Spain La Liga|domestic-league|Mallorca|1|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-16|Spain La Liga|domestic-league|Girona|2|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-18|Spain La Liga|domestic-league|Levante|0|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-20|Spain La Liga|domestic-league|Ath Bilbao|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-21|Spain La Liga|domestic-league|Sociedad|3|3|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-21|Spain La Liga|domestic-league|Betis|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-21|Spain La Liga|domestic-league|Osasuna|2|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-21|Spain La Liga|domestic-league|Ath Madrid|4|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-22|Spain La Liga|domestic-league|Getafe|0|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-22|Spain La Liga|domestic-league|Barcelona|3|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-22|Spain La Liga|domestic-league|Celta|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-22|Spain La Liga|domestic-league|Villarreal|2|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-23|Spain La Liga|domestic-league|Alaves|2|2|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-27|Spain La Liga|domestic-league|Levante|2|0|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-28|Spain La Liga|domestic-league|Vallecano|1|1|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-28|Spain La Liga|domestic-league|Barcelona|4|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-28|Spain La Liga|domestic-league|Mallorca|0|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-02-28|Spain La Liga|domestic-league|Oviedo|0|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-01|Spain La Liga|domestic-league|Elche|2|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-01|Spain La Liga|domestic-league|Valencia|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-01|Spain La Liga|domestic-league|Betis|2|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-01|Spain La Liga|domestic-league|Girona|1|2|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-02|Spain La Liga|domestic-league|Real Madrid|0|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-04|Spain La Liga|domestic-league|Vallecano|3|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-06|Spain La Liga|domestic-league|Celta|1|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-07|Spain La Liga|domestic-league|Osasuna|2|2|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-07|Spain La Liga|domestic-league|Levante|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-07|Spain La Liga|domestic-league|Ath Madrid|3|2|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-07|Spain La Liga|domestic-league|Ath Bilbao|0|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-08|Spain La Liga|domestic-league|Villarreal|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-08|Spain La Liga|domestic-league|Getafe|2|0|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-08|Spain La Liga|domestic-league|Sevilla|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-08|Spain La Liga|domestic-league|Valencia|3|2|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-09|Spain La Liga|domestic-league|Espanol|1|1|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-13|Spain La Liga|domestic-league|Alaves|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-14|Spain La Liga|domestic-league|Girona|3|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-14|Spain La Liga|domestic-league|Ath Madrid|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-14|Spain La Liga|domestic-league|Oviedo|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-14|Spain La Liga|domestic-league|Real Madrid|4|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-15|Spain La Liga|domestic-league|Mallorca|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-15|Spain La Liga|domestic-league|Barcelona|5|2|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-15|Spain La Liga|domestic-league|Betis|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-15|Spain La Liga|domestic-league|Sociedad|3|1|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-16|Spain La Liga|domestic-league|Vallecano|1|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-20|Spain La Liga|domestic-league|Villarreal|3|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-21|Spain La Liga|domestic-league|Elche|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-21|Spain La Liga|domestic-league|Espanol|1|2|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-21|Spain La Liga|domestic-league|Levante|4|2|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-21|Spain La Liga|domestic-league|Osasuna|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-21|Spain La Liga|domestic-league|Sevilla|0|2|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-22|Spain La Liga|domestic-league|Barcelona|1|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-22|Spain La Liga|domestic-league|Celta|3|4|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-22|Spain La Liga|domestic-league|Ath Bilbao|2|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-03-22|Spain La Liga|domestic-league|Real Madrid|3|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-03|Spain La Liga|domestic-league|Vallecano|1|0|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-04|Spain La Liga|domestic-league|Sociedad|2|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-04|Spain La Liga|domestic-league|Mallorca|2|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-04|Spain La Liga|domestic-league|Betis|0|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-04|Spain La Liga|domestic-league|Ath Madrid|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-05|Spain La Liga|domestic-league|Getafe|2|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-05|Spain La Liga|domestic-league|Valencia|2|3|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-05|Spain La Liga|domestic-league|Oviedo|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-05|Spain La Liga|domestic-league|Alaves|2|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-06|Spain La Liga|domestic-league|Girona|1|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-10|Spain La Liga|domestic-league|Real Madrid|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-11|Spain La Liga|domestic-league|Sociedad|3|3|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-11|Spain La Liga|domestic-league|Elche|1|0|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-11|Spain La Liga|domestic-league|Barcelona|4|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-11|Spain La Liga|domestic-league|Sevilla|2|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-12|Spain La Liga|domestic-league|Osasuna|1|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-12|Spain La Liga|domestic-league|Mallorca|3|0|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-12|Spain La Liga|domestic-league|Celta|0|3|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-12|Spain La Liga|domestic-league|Ath Bilbao|1|2|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-13|Spain La Liga|domestic-league|Levante|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-21|Spain La Liga|domestic-league|Ath Bilbao|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-21|Spain La Liga|domestic-league|Mallorca|1|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-21|Spain La Liga|domestic-league|Girona|2|3|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-21|Spain La Liga|domestic-league|Real Madrid|2|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-22|Spain La Liga|domestic-league|Elche|3|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-22|Spain La Liga|domestic-league|Sociedad|0|1|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-22|Spain La Liga|domestic-league|Barcelona|1|0|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-23|Spain La Liga|domestic-league|Levante|2|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-23|Spain La Liga|domestic-league|Vallecano|1|0|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-23|Spain La Liga|domestic-league|Oviedo|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-24|Spain La Liga|domestic-league|Betis|1|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-25|Spain La Liga|domestic-league|Alaves|2|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-25|Spain La Liga|domestic-league|Getafe|0|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-25|Spain La Liga|domestic-league|Valencia|2|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-25|Spain La Liga|domestic-league|Ath Madrid|3|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-26|Spain La Liga|domestic-league|Vallecano|3|3|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-26|Spain La Liga|domestic-league|Oviedo|1|2|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-26|Spain La Liga|domestic-league|Osasuna|2|1|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-26|Spain La Liga|domestic-league|Villarreal|2|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-04-27|Spain La Liga|domestic-league|Espanol|0|0|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-01|Spain La Liga|domestic-league|Girona|0|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-02|Spain La Liga|domestic-league|Villarreal|5|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-02|Spain La Liga|domestic-league|Valencia|0|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-02|Spain La Liga|domestic-league|Alaves|2|4|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-02|Spain La Liga|domestic-league|Osasuna|1|2|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-03|Spain La Liga|domestic-league|Celta|3|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-03|Spain La Liga|domestic-league|Getafe|0|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-03|Spain La Liga|domestic-league|Betis|3|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-03|Spain La Liga|domestic-league|Espanol|0|2|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-04|Spain La Liga|domestic-league|Sevilla|1|0|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-08|Spain La Liga|domestic-league|Levante|3|2|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-09|Spain La Liga|domestic-league|Elche|1|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-09|Spain La Liga|domestic-league|Sevilla|2|1|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-09|Spain La Liga|domestic-league|Ath Madrid|0|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-09|Spain La Liga|domestic-league|Sociedad|2|2|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-10|Spain La Liga|domestic-league|Mallorca|1|1|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-10|Spain La Liga|domestic-league|Ath Bilbao|0|1|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-10|Spain La Liga|domestic-league|Oviedo|0|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-10|Spain La Liga|domestic-league|Barcelona|2|0|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-11|Spain La Liga|domestic-league|Vallecano|1|1|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-12|Spain La Liga|domestic-league|Celta|2|3|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-12|Spain La Liga|domestic-league|Betis|2|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-12|Spain La Liga|domestic-league|Osasuna|1|2|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-13|Spain La Liga|domestic-league|Espanol|2|0|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-13|Spain La Liga|domestic-league|Villarreal|2|3|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-13|Spain La Liga|domestic-league|Alaves|1|0|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-13|Spain La Liga|domestic-league|Getafe|3|1|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-14|Spain La Liga|domestic-league|Valencia|1|1|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-14|Spain La Liga|domestic-league|Girona|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-14|Spain La Liga|domestic-league|Real Madrid|2|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Ath Bilbao|1|1|Celta|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Ath Madrid|1|0|Girona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Elche|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Levante|2|0|Mallorca|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Osasuna|1|2|Espanol|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Oviedo|0|1|Alaves|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Sevilla|0|1|Real Madrid|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Sociedad|3|4|Valencia|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Vallecano|2|0|Villarreal|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-17|Spain La Liga|domestic-league|Barcelona|3|1|Betis|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Alaves|1|2|Vallecano|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Betis|2|1|Levante|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Celta|1|0|Sevilla|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Espanol|1|1|Sociedad|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Getafe|1|0|Osasuna|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Girona|1|1|Elche|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Mallorca|3|0|Oviedo|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Real Madrid|4|2|Ath Bilbao|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-23|Spain La Liga|domestic-league|Valencia|3|1|Barcelona|MD|Stadium|City|Spain||rsssf-span
+MATCH|2026-05-24|Spain La Liga|domestic-league|Villarreal|5|1|Ath Madrid|MD|Stadium|City|Spain||rsssf-span
+END
