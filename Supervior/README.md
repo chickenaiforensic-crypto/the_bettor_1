@@ -12,3 +12,6 @@ Every return from a researcher or builder session is dropped here (via the owner
 
 ## Currently open commission
 `Supervisor/WORKORDER-RPL-2021-24-BACKFILL.md` — **Russian** Premier League (Zenit, CSKA, Spartak, Krasnodar… — NOT Rwanda), seasons 2021-22, 2022-23, 2023-24 → 720 league match rows + playoffs, cutoff < 2024-06-30.
+
+---
+**2026-08-05 update:** the handoffs convention now lives at repo root in `handoffs/README-HANDOFFS.md` (this file is history). The full repo map is `README.md` at root; new-session orientation is `START-HERE-COLD-START.md`.
