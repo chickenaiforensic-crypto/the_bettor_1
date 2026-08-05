@@ -801,3 +801,86 @@ MOLCUP `50ead762…`, EPL `707dd830…`, RUS-ADDENDUM `30576ac4…`.
 **Queue state:** FRA closed. Next on the owner's one-at-a-time queue: GER (workorder
 staged; 18 clubs/34 rounds per its card — same shape as FRA 2023-24+, builder pattern
 reusable), then ITA, KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
+
+## Addendum #13 — GER Bundesliga full span shipped (2026-08-05)
+
+**Scope:** WO-GER-SPAN-15 on DECREE-2026-08-04 override — Germany Bundesliga seasons
+2021-22, 2022-23, 2023-24, 2024-25, 2025-26 end-to-end + the pro/rel playoff legs
+touching the top flight + sourced 2026-27 boundary. The WO's shape applies verbatim:
+**18 clubs × 34 matchdays — NOT 20/38** — 306 rows per season ×5 = 1,530 league rows +
+10 `Germany Relegation Playoffs` `other` legs (one two-leg tie per season, ERRATA-2026-08-03
+superseding the WO section-1 line "Relegation playoff exists but is OUT of this order",
+same handling as RPL/CZ1/MOLCUP/FRA — tension disclosed in `errata_playoffs`) =
+**1,540 MATCH rows**.
+
+**Evidence chain (all fetched 2026-08-05, ledgers transcribed immediately; chunk-count
+full pages):**
+- PRIMARY RSSSF `duit2022..duit2025.html` full round-by-round → `audit/ledger/ger-<s>.txt`
+  (TABLE 18 + R 306 + PO 4 + TABLE2 18 each). **`duit2026.html` prints NO 1.Bundesliga
+  round-by-round** (final table + playoffs + cups only; an interim GARBLED revision was
+  briefly served on first fetch — quarantined, never sourced, disclosed as anomaly not
+  source_conflict) → 2025-26 carrier = openfootball/deutschland `2025-26/1-bundesliga.txt`
+  format B (raw verbatim in `data/raw/`, parser `tools/parse_ofb_de.py`, ledger
+  `ger-2ndidx-2025-26.txt` in the carrier role) gated by full recompute vs the RSSSF
+  table: **18/18 club-for-club EXACT, 990 goals** — documented `source_adaptation`,
+  same class as FRA 2025-26.
+- Second indexes: openfootball season files 2021-22..2024-25 → diffs **306/306 ×4
+  IDENTICAL** round+date+score after the two adjudications below
+  (`tools/diff_ger_second_index.py`; the `2022-23` index first surfaced a **parser
+  year-roll defect** — Nov→Jan across the World Cup winter never rolled, 171 spring
+  rows year-stamped 2022; rule generalized to any month drop, index regenerated,
+  multiset diff unchanged throughout); Wikipedia 2025-26 FBR matrix
+  (`ger-2ndidx-2025-26-MX.txt`, tools/diff_ger_matrix.py — new, MD-carrier edition of
+  the EPL tool) **306/306 IDENTICAL scores, 990 goals both**; worldfootball matchday
+  pages ×5 spot + ×2 adjudication; Wikipedia season articles → 96-row venue lattice
+  (`ger-venues.txt` = 90-season lattice + Freiburg 2021-22 Dreisamstadion/Europa-Park
+  SPLIT footnote, keyed MD2/MD4/MD6 home rows + 5 playoff fallback grounds) + playoff
+  boxes (90-min splits via goal minutes).
+- Boundary: `duit2027.html` 404 + wiki 2026-27 (starts **2026-08-28**, Schalke 04 /
+  SV Elversberg (Bundesliga debut, 59th club) / SC Paderborn (playoff winners) up,
+  Wolfsburg (via playoff) / Heidenheim / St Pauli down) → zero 2026-27 rows.
+
+**Adjudications shipped (rule: RSSSF stands unless two independents agree against it):**
+1. `source_conflict` 2021-22 R23 — RSSSF prints the three Sunday fixtures (Bayern 4-1
+   Greuther Fuerth, Dortmund 6-0 M'gladbach, Hertha 1-6 RB Leipzig) under `[Feb 21]`, a
+   fixtureless Monday; openfootball AND worldfootball MD23 (20.02.2022 15:30/17:30/19:30)
+   agree → rows dated **2022-02-20** (ledger addendum + diff re-run to 306/306).
+2. `source_conflict` 2023-24 R1 — RSSSF prints the two Sunday fixtures (Union 4-1 Mainz,
+   Eintracht Frankfurt 1-0 Darmstadt) under `[Aug 21]`, likewise a Monday; openfootball
+   AND worldfootball MD1 (20.08.2023 15:30/17:30) agree → **2023-08-20** (ledger addendum
+   + diff re-run to 306/306).
+(Score multisets were identical across every source in both cases; tables unaffected.)
+
+**Doctrine disclosures in the pack:** two abandonment/award cases, both with the result
+STANDING (rows ship normally): 2021-22 R27 Bochum 0-2 M'gladbach abandoned 70' (assistant
+referee hit by a cup), awarded 0-2 on 2022-03-24; 2024-25 R14 Union AWD Bochum originally
+1-1, awarded 0-2 (keeper Drewes hit by a lighter) — OFB `[awarded]` + wf `dec.` both.
+Postponement strays mapped: 2021-22 MD25/MD26 (Mainz-Dortmund, Augsburg-Mainz), 2023-24
+MD13 Bayern-Union 2024-01-24 snow + MD18 Mainz-Union 2024-02-07 (wf-md13 corroborated),
+2025-26 RS16 two makeups 2026-01-27 + RS17 Hamburg-Leverkusen 2026-03-04 (wf-md17
+corroborated; RS17 main round mid-week 2026-01-13..15). Zero point deductions in the
+window. Playoff 90-minute splits (goal-minute verified): 2023-24 leg2 all three Bochum
+goals ≤90' (Hofmann 18'/66', Stoeger 70' p) + goalless ET → ships 0-3, pens 5-6, both
+remain; 2024-25 leg2 winner Scienza 90+5' = regulation, no ET → ships 1-2, both remain;
+2025-26 leg2 1-1 at 90 (Curda 100' ET) → PADERBORN PROMOTED, Wolfsburg relegated — the
+window's first playoff exchange; 2021-22 Hertha 2-1 agg and 2022-23 Stuttgart 6-1 agg,
+both remain. The 2./3. playoffs = NOT-COMMISSIONED ledger context (10 lines).
+
+**Delivery:** `handoffs/GER-2021-2026_BP-TEAM-PACK_v2.txt` — **1,540 rows (1,530 league
++ 10 playoff), sha256 `4f90ddb189c929863e908eeb760c7c1f52c9add8c94483d4993d894c28e85fb9`**
+(double-rebuild identical; triple-checked), **3 TEAM** rows registering the ERRATA-shipped
+2.Bundesliga participants outside the section-3 roster (Fortuna Dusseldorf, SC Paderborn,
+SV Elversberg — WO anticipates "all clubs already rostered" for league rows only; TEAM
+rows follow the MOLCUP/RUS-ADDENDUM registration shape, ASCII-canonical + ue-aliases,
+disclosed under `team_registration`, no blocker needed — nothing invented), **21 SOURCE /
+25 NOTE**; `tools/build_ger_pack.py` → `audit/pack-validation-ger.txt` **93/93 PASS**
+(per-club pivots 90/90 = 18 clubs × 5 seasons, venue lattice 96-rows/95-keys + 1 SPLIT,
+roster-domain exactly the 25 pins on league rows, anti-appear traps empty, ASCII-only,
+Bundesliga position-order pts→GD→GF→H2H→H2H-away→away reproduced). Roster-faithful stock
+map (Bayern→Bayern Munich, Frankfurt→Ein Frankfurt, FCKoln→FC Koln, Mgladbach→M'gladbach,
+Schalke04→Schalke 04, StPauli→St Pauli — exact WO pins incl. the apostrophe/dot traps).
+Pins untouched: RPL `d71ed24f…`, RUSCUP `f89501cf…`, CZ1 `cbd5710b…`, MOLCUP `50ead762…`,
+EPL `707dd830…`, RUS-ADDENDUM `30576ac4…`, FRA `44fe06b5…`.
+
+**Queue state:** GER closed. Next on the owner's one-at-a-time queue: ITA (workorder
+staged), then KOS, KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.

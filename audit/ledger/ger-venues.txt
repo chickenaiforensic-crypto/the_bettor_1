@@ -1,0 +1,109 @@
+# GER VENUES 2021-22..2025-26 (WO-GER-SPAN-15) - transcribed 2026-08-05 from the Wikipedia
+# season articles' "Stadiums and locations" tables (fetched 2026-08-05 via fetch_page;
+# 2021-22..2025-26 Bundesliga articles; 2024-25 values cross-read from action=raw wikitext).
+# Independent of RSSSF fixtures = venue second index.
+# VENUE|<season>|<stock>|<stadium-canonical (as printed per season, ASCII-folded)>|<city-canonical>|<cap as printed>|<verbatim wiki notes>
+# Epochs are era data, not errors (mirrors the FRA sponsor-epoch decree): Werder Bremen
+# "Wohninvest Weserstadion" 2022-23..2023-24 vs plain "Weserstadion" 2024-25..2025-26;
+# Stuttgart "Mercedes-Benz Arena" <=2022-23 vs "MHPArena" 2023-24..; Mainz "Mewa Arena"
+# <=2024-25 vs uppercase "MEWA Arena" 2025-26. Capacity prints shift some seasons; carried
+# values repeat the last explicit print of the same table family.
+# ASCII folds in canonical fields: Schuco-Arena (<- Schüco-Arena), Stadion An der Alten
+# Forsterei (<- Försterei), Monchengladbach (<- Mönchengladbach), Furth (<- Fürth);
+# verbatim field keeps the wikitext spelling.
+VENUE|2021-22|Augsburg|WWK Arena|Augsburg|30660|[[FC Augsburg]] WWK Arena 30,660
+VENUE|2021-22|Hertha|Olympiastadion|Berlin|74649|[[Hertha BSC]] Olympiastadion 74,649
+VENUE|2021-22|UnionBerlin|Stadion An der Alten Forsterei|Berlin|22012|[[1. FC Union Berlin]] Stadion An der Alten Försterei 22,012
+VENUE|2021-22|Bielefeld|Schuco-Arena|Bielefeld|27300|[[Arminia Bielefeld]] Schüco-Arena 27,300
+VENUE|2021-22|Bochum|Vonovia Ruhrstadion|Bochum|27599|[[VfL Bochum]] Vonovia Ruhrstadion 27,599
+VENUE|2021-22|Dortmund|Signal Iduna Park|Dortmund|81365|[[Borussia Dortmund]] Signal Iduna Park 81,365
+VENUE|2021-22|Frankfurt|Deutsche Bank Park|Frankfurt|51500|[[Eintracht Frankfurt]] Deutsche Bank Park 51,500
+VENUE|2021-22|Freiburg|Europa-Park Stadion|Freiburg im Breisgau|34700|[[SC Freiburg]] Europa-Park Stadion 34,700 (all home rounds except MD2/MD4/MD6)
+VENUE|2021-22|Freiburg|Dreisamstadion|Freiburg im Breisgau|24000|SPLIT footnote verbatim: "SC Freiburg played their first three home matches at the Dreisamstadion before permanently moving to the Europa-Park Stadion" -> builder keys MD2/MD4/MD6 home rows to Dreisamstadion 24,000
+VENUE|2021-22|GreutherFurth|Sportpark Ronhof Thomas Sommer|Furth|16626|[[SpVgg Greuther Fürth]] Sportpark Ronhof Thomas Sommer 16,626
+VENUE|2021-22|Hoffenheim|PreZero Arena|Sinsheim|30150|[[TSG 1899 Hoffenheim]] PreZero Arena 30,150
+VENUE|2021-22|FCKoln|RheinEnergieStadion|Cologne|49698|[[1. FC Köln]] RheinEnergieStadion 49,698
+VENUE|2021-22|RBLeipzig|Red Bull Arena|Leipzig|47069|[[RB Leipzig]] Red Bull Arena 47,069
+VENUE|2021-22|Leverkusen|BayArena|Leverkusen|30210|[[Bayer 04 Leverkusen]] BayArena 30,210
+VENUE|2021-22|Mainz|Mewa Arena|Mainz|34000|[[1. FSV Mainz 05]] Mewa Arena 34,000
+VENUE|2021-22|Mgladbach|Borussia-Park|Monchengladbach|54057|[[Borussia Mönchengladbach]] Borussia-Park 54,057
+VENUE|2021-22|Bayern|Allianz Arena|Munich|75000|[[FC Bayern Munich]] Allianz Arena 75,000
+VENUE|2021-22|Stuttgart|Mercedes-Benz Arena|Stuttgart|60449|[[VfB Stuttgart]] Mercedes-Benz Arena 60,449
+VENUE|2021-22|Wolfsburg|Volkswagen Arena|Wolfsburg|30000|[[VfL Wolfsburg]] Volkswagen Arena 30,000
+VENUE|2021-22|Hamburg|Volksparkstadion|Hamburg||PO fallback (2.BL club hosting playoff leg2; Volksparkstadion per wiki PO box)
+VENUE|2022-23|Augsburg|WWK Arena|Augsburg|30660|carried print
+VENUE|2022-23|UnionBerlin|Stadion An der Alten Forsterei|Berlin|22012|carried print
+VENUE|2022-23|Hertha|Olympiastadion|Berlin|74649|carried print
+VENUE|2022-23|Bochum|Vonovia Ruhrstadion|Bochum|27599|carried print
+VENUE|2022-23|Dortmund|Signal Iduna Park|Dortmund|81365|carried print
+VENUE|2022-23|Frankfurt|Deutsche Bank Park|Frankfurt|51500|Deutsche Bank Park 51,500 this season
+VENUE|2022-23|Freiburg|Europa-Park Stadion|Freiburg im Breisgau|34700|sole home this season (move completed 2021-22)
+VENUE|2022-23|Hoffenheim|PreZero Arena|Sinsheim|30150|carried print
+VENUE|2022-23|FCKoln|RheinEnergieStadion|Cologne|49698|RheinEnergieStadion 49,698 this season
+VENUE|2022-23|RBLeipzig|Red Bull Arena|Leipzig|47069|carried print
+VENUE|2022-23|Leverkusen|BayArena|Leverkusen|30210|carried print
+VENUE|2022-23|Mainz|Mewa Arena|Mainz|34000|Mewa Arena 34,000 this season
+VENUE|2022-23|Mgladbach|Borussia-Park|Monchengladbach|54057|Borussia-Park 54,057 this season
+VENUE|2022-23|Bayern|Allianz Arena|Munich|75000|Allianz Arena 75,000 this season
+VENUE|2022-23|Schalke04|Veltins-Arena|Gelsenkirchen|62271|[[FC Schalke 04]] Veltins-Arena 62,271 Gelsenkirchen
+VENUE|2022-23|Stuttgart|Mercedes-Benz Arena|Stuttgart|60449|Mercedes-Benz Arena 60,449 this season
+VENUE|2022-23|WerderBremen|Wohninvest Weserstadion|Bremen|42100|[[SV Werder Bremen]] Wohninvest Weserstadion 42,100 (sponsor epoch)
+VENUE|2022-23|Wolfsburg|Volkswagen Arena|Wolfsburg|30000|Volkswagen Arena 30,000 this season
+VENUE|2022-23|Hamburg|Volksparkstadion|Hamburg||PO fallback (2.BL club hosting playoff leg1 home? NO - leg2 Hamburg 1-3 Stuttgart at Volksparkstadion per wiki PO box)
+VENUE|2023-24|Augsburg|WWK Arena|Augsburg|30660|carried print
+VENUE|2023-24|UnionBerlin|Stadion An der Alten Forsterei|Berlin|22012|carried print
+VENUE|2023-24|Bochum|Vonovia Ruhrstadion|Bochum|26000|Vonovia Ruhrstadion cap print 26,000 this season
+VENUE|2023-24|Dortmund|Signal Iduna Park|Dortmund|81365|carried print
+VENUE|2023-24|Frankfurt|Deutsche Bank Park|Frankfurt|58000|Deutsche Bank Park cap print 58,000 this season
+VENUE|2023-24|Freiburg|Europa-Park Stadion|Freiburg im Breisgau|34700|carried print
+VENUE|2023-24|Hoffenheim|PreZero Arena|Sinsheim|30150|carried print
+VENUE|2023-24|FCKoln|RheinEnergieStadion|Cologne|50000|RheinEnergieStadion cap print 50,000 this season
+VENUE|2023-24|RBLeipzig|Red Bull Arena|Leipzig|47069|carried print
+VENUE|2023-24|Leverkusen|BayArena|Leverkusen|30210|carried print
+VENUE|2023-24|Mainz|Mewa Arena|Mainz|33305|Mewa Arena cap print 33,305 this season
+VENUE|2023-24|Mgladbach|Borussia-Park|Monchengladbach|54042|Borussia-Park cap print 54,042 this season
+VENUE|2023-24|Bayern|Allianz Arena|Munich|75000|carried print
+VENUE|2023-24|Stuttgart|MHPArena|Stuttgart|60058|[[VfB Stuttgart]] MHPArena 60,058 (renamed from Mercedes-Benz Arena = era data)
+VENUE|2023-24|WerderBremen|Wohninvest Weserstadion|Bremen|42100|Wohninvest Weserstadion (sponsor epoch)
+VENUE|2023-24|Wolfsburg|Volkswagen Arena|Wolfsburg|28917|Volkswagen Arena cap print 28,917 this season
+VENUE|2023-24|Heidenheim|Voith-Arena|Heidenheim|15000|[[1. FC Heidenheim]] Voith-Arena 15,000 (city print "Heidenheim"; article link Heidenheim an der Brenz)
+VENUE|2023-24|Darmstadt|Merck-Stadion am Bollenfalltor|Darmstadt|17810|[[SV Darmstadt 98]] Merck-Stadion am Böllenfalltor 17,810 Darmstadt
+VENUE|2023-24|FortunaDusseldorf|Merkur Spiel-Arena|Dusseldorf||PO fallback (2.BL club hosting playoff leg2; Merkur Spiel-Arena per wiki PO box, attendance 51,500)
+VENUE|2024-25|Augsburg|WWK Arena|Augsburg|30660|carried print
+VENUE|2024-25|UnionBerlin|Stadion An der Alten Forsterei|Berlin|22012|carried print
+VENUE|2024-25|Bochum|Vonovia Ruhrstadion|Bochum|26000|Vonovia Ruhrstadion cap print 26,000 this season
+VENUE|2024-25|Dortmund|Signal Iduna Park|Dortmund|81365|carried print
+VENUE|2024-25|Frankfurt|Deutsche Bank Park|Frankfurt|58000|Deutsche Bank Park cap print 58,000 this season
+VENUE|2024-25|Freiburg|Europa-Park Stadion|Freiburg im Breisgau|34700|carried print
+VENUE|2024-25|Hoffenheim|PreZero Arena|Sinsheim|30150|carried print
+VENUE|2024-25|RBLeipzig|Red Bull Arena|Leipzig|47800|Red Bull Arena cap print 47,800 this season
+VENUE|2024-25|Leverkusen|BayArena|Leverkusen|30210|carried print
+VENUE|2024-25|Mainz|Mewa Arena|Mainz|33305|Mewa Arena cap print 33,305 this season
+VENUE|2024-25|Mgladbach|Borussia-Park|Monchengladbach|54042|Borussia-Park cap print 54,042 this season
+VENUE|2024-25|Bayern|Allianz Arena|Munich|75000|Allianz Arena 75,000 (raw cite confirmed)
+VENUE|2024-25|Stuttgart|MHPArena|Stuttgart|60058|MHPArena 60,058 (raw cite confirmed)
+VENUE|2024-25|WerderBremen|Weserstadion|Bremen|42100|plain [[Weserstadion]] 42,100 this season (sponsor dropped = era data)
+VENUE|2024-25|Wolfsburg|Volkswagen Arena|Wolfsburg|28917|carried print
+VENUE|2024-25|Heidenheim|Voith-Arena|Heidenheim|15000|carried print
+VENUE|2024-25|StPauli|Millerntor-Stadion|Hamburg|29546|[[FC St. Pauli]] Millerntor-Stadion 29,546 Hamburg (raw cite confirmed)
+VENUE|2024-25|HolsteinKiel|Holstein-Stadion|Kiel|15034|[[Holstein Kiel]] Holstein-Stadion 15,034 Kiel
+VENUE|2024-25|Elversberg|Waldstadion an der Kaiserlinde|Spiesen-Elversberg||PO fallback (2.BL club hosting playoff leg2; Waldstadion an der Kaiserlinde per wiki PO box, attendance 9,105)
+VENUE|2025-26|Augsburg|WWK Arena|Augsburg|30660|carried print
+VENUE|2025-26|UnionBerlin|Stadion An der Alten Forsterei|Berlin|22012|carried print
+VENUE|2025-26|Dortmund|Signal Iduna Park|Dortmund|81365|carried print
+VENUE|2025-26|Frankfurt|Deutsche Bank Park|Frankfurt|59500|Deutsche Bank Park cap print 59,500 this season
+VENUE|2025-26|Freiburg|Europa-Park Stadion|Freiburg im Breisgau|34700|carried print
+VENUE|2025-26|Hoffenheim|PreZero Arena|Sinsheim|30150|carried print
+VENUE|2025-26|FCKoln|RheinEnergieStadion|Cologne|49698|RheinEnergieStadion cap print 49,698 this season
+VENUE|2025-26|RBLeipzig|Red Bull Arena|Leipzig|47800|Red Bull Arena cap print 47,800 this season
+VENUE|2025-26|Leverkusen|BayArena|Leverkusen|30210|carried print
+VENUE|2025-26|Mainz|MEWA Arena|Mainz|33305|MEWA Arena (uppercase print this season) 33,305 = era data
+VENUE|2025-26|Mgladbach|Borussia-Park|Monchengladbach|54057|Borussia-Park cap print 54,057 this season
+VENUE|2025-26|Bayern|Allianz Arena|Munich|75024|Allianz Arena cap print 75,024 this season
+VENUE|2025-26|Stuttgart|MHPArena|Stuttgart|60058|carried print
+VENUE|2025-26|WerderBremen|Weserstadion|Bremen|42100|plain Weserstadion 42,100 (sponsor-free epoch)
+VENUE|2025-26|Wolfsburg|Volkswagen Arena|Wolfsburg|30000|Volkswagen Arena cap print 30,000 this season
+VENUE|2025-26|Heidenheim|Voith-Arena|Heidenheim|15000|carried print
+VENUE|2025-26|StPauli|Millerntor-Stadion|Hamburg|29546|Millerntor-Stadion 29,546 Hamburg
+VENUE|2025-26|Hamburg|Volksparkstadion|Hamburg|57000|[[Hamburger SV]] Volksparkstadion cap print 57,000
+VENUE|2025-26|SCPaderborn|Home Deluxe Arena|Paderborn||PO fallback (2.BL club hosting playoff leg2; Home Deluxe Arena per wiki PO box, attendance 15,000)
