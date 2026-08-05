@@ -1,0 +1,332 @@
+{
+ "ok": true,
+ "checks": [
+  {
+   "name": "module.eval",
+   "ok": true,
+   "detail": "PR.calibration.run defined, version B0.1"
+  },
+  {
+   "name": "parity.module_allOk",
+   "ok": true,
+   "detail": "{\"Russian Premier League\":{\"measured\":{\"brier_dc\":0.5675,\"brier_base\":0.6465,\"scored\":254,\"refused\":2},\"expected\":{\"brier_dc\":0.5675,\"brier_base\":0.6465,\"scored\":254,\"refused\":2,\"logloss\":0.9572,\"dir_acc\":55.9},\"delta\":0,\"ok\":true},\"Czech First League\":{\"measured\":{\"brier_dc\":0.609,\"brier_base\":0.6509,\"scored\":276,\"refused\":0},\"expected\":{\"brier_dc\":0.609,\"brier_base\":0.6509,\"scored\":276,\"refused\":0,\"logloss\":1.0146,\"dir_acc\":49.3},\"delta\":0,\"ok\":true},\"England Premier League\":{\"measured\":{\"brier_dc\":0.614,\"brier_base\":0.6534,\"scored\":374,\"refused\":6},\"expected\":{\"brier_dc\":0.614,\"brier_base\":0.6534,\"scored\":374,\"refused\":6,\"logloss\":1.0226,\"dir_acc\":49.2},\"delta\":0,\"ok\":true}}"
+  },
+  {
+   "name": "ladder.exact_4dp",
+   "ok": true,
+   "detail": "all 33 holdout rows match ladder_baseline_2026-08-05.json (maxAbsDelta 0)"
+  },
+  {
+   "name": "paired_blocks_sane",
+   "ok": true,
+   "detail": "T1 deltas, se, t, df, p, MDE80 present for every FULL row"
+  },
+  {
+   "name": "rpl_growth_direction",
+   "ok": true,
+   "detail": "DC beats base on paired deltas: mean -0.07920146359047497"
+  },
+  {
+   "name": "caps.bounded_ok",
+   "ok": true,
+   "detail": "LR 0.055→0.06 (step .005 ≤ .01) and RHO -0.06→-0.10 accepted"
+  },
+  {
+   "name": "caps.freerun_refused",
+   "ok": true,
+   "detail": "LR→0.5 outside cap refused; RHO→0.1 outside cap refused; unknown constant refused"
+  },
+  {
+   "name": "run.freerun_refusal",
+   "ok": true,
+   "detail": "constant \"MU0\" = 5 is outside the existing cap [0.2, 0.65] — free-run calibration is not allowed"
+  }
+ ],
+ "parity": {
+  "reference": "audit_work/ladder_baseline_2026-08-05.json FULL rows (= masterplan §5.2 first live run)",
+  "tolerance": 0.0005,
+  "rows": {
+   "Russian Premier League": {
+    "measured": {
+     "brier_dc": 0.5675,
+     "brier_base": 0.6465,
+     "scored": 254,
+     "refused": 2
+    },
+    "expected": {
+     "brier_dc": 0.5675,
+     "brier_base": 0.6465,
+     "scored": 254,
+     "refused": 2,
+     "logloss": 0.9572,
+     "dir_acc": 55.9
+    },
+    "delta": 0,
+    "ok": true
+   },
+   "Czech First League": {
+    "measured": {
+     "brier_dc": 0.609,
+     "brier_base": 0.6509,
+     "scored": 276,
+     "refused": 0
+    },
+    "expected": {
+     "brier_dc": 0.609,
+     "brier_base": 0.6509,
+     "scored": 276,
+     "refused": 0,
+     "logloss": 1.0146,
+     "dir_acc": 49.3
+    },
+    "delta": 0,
+    "ok": true
+   },
+   "England Premier League": {
+    "measured": {
+     "brier_dc": 0.614,
+     "brier_base": 0.6534,
+     "scored": 374,
+     "refused": 6
+    },
+    "expected": {
+     "brier_dc": 0.614,
+     "brier_base": 0.6534,
+     "scored": 374,
+     "refused": 6,
+     "logloss": 1.0226,
+     "dir_acc": 49.2
+    },
+    "delta": 0,
+    "ok": true
+   }
+  },
+  "allOk": true
+ },
+ "summary": "Calibration ladder (3 leagues): Russian FULL 0.5675 vs base 0.6465 (-12.2%, n 254 +2 refused) · Czech FULL 0.6090 vs base 0.6509 (-6.4%, n 276) · England FULL 0.6140 vs base 0.6534 (-6.0%, n 374 +6 refused) — parity vs 2026-08-05 baseline: PASS",
+ "generatedAt": "2026-08-05T14:18:10.775Z",
+ "fullMetrics": {
+  "Russian Premier League": {
+   "train": {
+    "rows": 960,
+    "window": [
+     "2021-07-23",
+     "2025-05-24"
+    ]
+   },
+   "holdout": {
+    "rows": 256,
+    "window": [
+     "2025-07-18",
+     "2026-08-02"
+    ],
+    "scored": 254,
+    "refused": 2
+   },
+   "brier_dc": 0.5674676989495104,
+   "brier_base": 0.646514892578125,
+   "gain_pct": -12.226662453728776,
+   "brier_side_dc": {
+    "home": 0.200287689592917,
+    "draw": 0.19653336655211204,
+    "away": 0.17064664280448133
+   },
+   "brier_side_base": {
+    "home": 0.24738065464290107,
+    "draw": 0.199645034910187,
+    "away": 0.19964347298689714
+   },
+   "logloss": 0.9571860018273624,
+   "dir_acc": 55.90551181102362,
+   "calib_max_err": {
+    "err": 0.2689990820663095,
+    "side": "away",
+    "bin": 7,
+    "binLo": 0.7,
+    "binHi": 0.8,
+    "n": 1,
+    "meanPred": 0.7310009179336905,
+    "observedFreq": 1
+   },
+   "marginals_holdout": [
+    0.44921875,
+    0.2734375,
+    0.27734375
+   ],
+   "paired": {
+    "n": 254,
+    "meanDelta": -0.07920146359047497,
+    "sd": 0.27184237290245883,
+    "se": 0.017056907496017983,
+    "t": -4.643365956517319,
+    "df": 253,
+    "pTwo": 0.0000055119013017805985,
+    "mde80": 0.047786379934516586,
+    "note": null
+   },
+   "markets": {
+    "o25": {
+     "predMean": 0.48868738009469165,
+     "freq": 0.47244094488188976,
+     "errPct": 1.624643521280189,
+     "gate": "ship ≤2.7% (I3)",
+     "note": "shrunk goals grid k=0.5 GMU 2.6186 — measured only"
+    },
+    "btts": {
+     "predMean": 0.49390802607850814,
+     "freq": 0.5354330708661418,
+     "errPct": 4.152504478763364,
+     "status": "withheld (I3) — measured only, never an output"
+    }
+   }
+  },
+  "Czech First League": {
+   "train": {
+    "rows": 1105,
+    "window": [
+     "2021-07-24",
+     "2025-05-25"
+    ]
+   },
+   "holdout": {
+    "rows": 276,
+    "window": [
+     "2025-07-18",
+     "2026-05-24"
+    ],
+    "scored": 276,
+    "refused": 0
+   },
+   "brier_dc": 0.6089720554264065,
+   "brier_base": 0.6508874186095353,
+   "gain_pct": -6.43972551699814,
+   "brier_side_dc": {
+    "home": 0.22419847387538017,
+    "draw": 0.18418368825917888,
+    "away": 0.2005898932918467
+   },
+   "brier_side_base": {
+    "home": 0.24364629279563102,
+    "draw": 0.18382430161730784,
+    "away": 0.22341682419659747
+   },
+   "logloss": 1.0145947809495042,
+   "dir_acc": 49.275362318840585,
+   "calib_max_err": {
+    "err": 0.12043171662562813,
+    "side": "away",
+    "bin": 5,
+    "binLo": 0.5,
+    "binHi": 0.6,
+    "n": 19,
+    "meanPred": 0.5414843482045755,
+    "observedFreq": 0.42105263157894735
+   },
+   "marginals_holdout": [
+    0.42028985507246375,
+    0.2427536231884058,
+    0.33695652173913043
+   ],
+   "paired": {
+    "n": 276,
+    "meanDelta": -0.04191536318312994,
+    "sd": 0.2636349324232189,
+    "se": 0.01586895812148916,
+    "t": -2.6413431091213035,
+    "df": 275,
+    "pTwo": 0.008730346849978103,
+    "mde80": 0.04445823852509296,
+    "note": null
+   },
+   "markets": {
+    "o25": {
+     "predMean": 0.48743966578470915,
+     "freq": 0.4891304347826087,
+     "errPct": 0.169076899789955,
+     "gate": "ship ≤2.7% (I3)",
+     "note": "shrunk goals grid k=0.5 GMU 2.6186 — measured only"
+    },
+    "btts": {
+     "predMean": 0.49638475342743105,
+     "freq": 0.5,
+     "errPct": 0.3615246572568953,
+     "status": "withheld (I3) — measured only, never an output"
+    }
+   }
+  },
+  "England Premier League": {
+   "train": {
+    "rows": 1520,
+    "window": [
+     "2021-08-13",
+     "2025-05-25"
+    ]
+   },
+   "holdout": {
+    "rows": 380,
+    "window": [
+     "2025-08-15",
+     "2026-05-24"
+    ],
+    "scored": 374,
+    "refused": 6
+   },
+   "brier_dc": 0.6140202920669079,
+   "brier_base": 0.6533518005540199,
+   "gain_pct": -6.019958688988114,
+   "brier_side_dc": {
+    "home": 0.22095285669926676,
+    "draw": 0.19960935836940694,
+    "away": 0.19345807699823397
+   },
+   "brier_side_base": {
+    "home": 0.24439643296250715,
+    "draw": 0.19834802316796732,
+    "away": 0.21085561497326327
+   },
+   "logloss": 1.0225810389732322,
+   "dir_acc": 49.19786096256685,
+   "calib_max_err": {
+    "err": 0.2585913380093714,
+    "side": "away",
+    "bin": 7,
+    "binLo": 0.7,
+    "binHi": 0.8,
+    "n": 1,
+    "meanPred": 0.7414086619906286,
+    "observedFreq": 1
+   },
+   "marginals_holdout": [
+    0.4263157894736842,
+    0.2736842105263158,
+    0.3
+   ],
+   "paired": {
+    "n": 374,
+    "meanDelta": -0.03957977903682932,
+    "sd": 0.23156836671018619,
+    "se": 0.011974115181808968,
+    "t": -3.3054449899528926,
+    "df": 373,
+    "pTwo": 0.0010401984316556216,
+    "mde80": 0.033546504112258874,
+    "note": null
+   },
+   "markets": {
+    "o25": {
+     "predMean": 0.5039570770130196,
+     "freq": 0.553475935828877,
+     "errPct": 4.9518858815857385,
+     "gate": "withheld >3.3% (I3)",
+     "note": "shrunk goals grid k=0.5 GMU 2.6186 — measured only"
+    },
+    "btts": {
+     "predMean": 0.5217006320971094,
+     "freq": 0.5641711229946524,
+     "errPct": 4.247049089754307,
+     "status": "withheld (I3) — measured only, never an output"
+    }
+   }
+  }
+ }
+}
