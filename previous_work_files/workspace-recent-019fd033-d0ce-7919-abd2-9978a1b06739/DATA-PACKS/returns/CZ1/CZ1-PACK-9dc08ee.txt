@@ -1,0 +1,877 @@
+NOTE|info|pack_id|CZ1-2021-2026_BP-TEAM-PACK_v2 - return of WO-CZ1-BACKFILL-02 (issued 2026-08-02; opened after the RPL return passed gates). Segment 2021-22/2022-23/2023-24 of the 5-year Czech First League span; new rows stop at the 2024-06-30 hard cutoff (2024-25 + 2025-26 already held and auditor-verified client-side, current season fills centrally). 841 MATCH rows = 276 + 276 + 277 league + 12 Czech Relegation Playoffs pro/rel legs: every regular-stage game (240 per season), every Titul and Zachranu group game (15+15 per season), every Evropu play-off leg (6 per season), the single extra Conference League playoff Final of 2023-24 (shape deviation documented below) AND, per the owner's 2026-08-03 decision closing the roster_scope hold-out, the complete pro/rel block WO section-1 commissions (2 ties x 2 legs x 3 seasons; compType 'other' per ERRATA-2026-08-03). Compiled 2026-08-03.
+SOURCE|rsssf-tsje2022|https://www.rsssf.org/tablest/tsje2022.html|2026-08-03|primary-archive|2021-22: all 30 regular rounds dates+scores, Titul and Zachranu rounds 31-35, Evropu semifinal/final legs, official regular table with H2H brackets, group tables, pro/rel ties + NB; transcribed in audit/ledger/cz1-2021-22.txt
+SOURCE|rsssf-tsje2023|https://www.rsssf.org/tablest/tsje2023.html|2026-08-03|primary-archive|2022-23: all 30 regular rounds dates+scores, both group stages, Evropu legs, official regular table with H2H brackets, the regular-points tie-break NB (Sparta champion), Zlin rename note [*], pro/rel ties; audit/ledger/cz1-2022-23.txt
+SOURCE|rsssf-tsje2024|https://www.rsssf.org/tablest/tsje2024.html|2026-08-03|primary-archive|2023-24: all 30 regular rounds dates+scores, both group stages, Evropu legs + the extra Conference League playoff Final (2024-05-31), official regular table, group tables, pro/rel ties; audit/ledger/cz1-2023-24.txt
+SOURCE|wiki-cz1-2122|https://en.wikipedia.org/wiki/2021%E2%80%9322_Czech_First_League|2026-08-03|second-index|240-cell FBR results matrix, 16-row regular table, 6+6 group tables, Evropu bracket, venues + efn venue moves (Hradec in Mlada Boleslav, Pardubice at Dolicek), infobox 276 matches/763 goals, pro/rel TwoLeg aggregates
+SOURCE|wiki-cz1-2223|https://en.wikipedia.org/wiki/2022%E2%80%9323_Czech_First_League|2026-08-03|second-index|240-cell FBR matrix, regular + Titul/Zachranu tables, Evropu bracket, venues (Pardubice autumn at Dolicek, spring CFIG Arena; Slavia Fortuna Arena, Sparta epet ARENA), infobox 276/819, pro/rel match boxes with dates/venues
+SOURCE|wiki-cz1-2324|https://en.wikipedia.org/wiki/2023%E2%80%9324_Czech_First_League|2026-08-03|second-index|240-cell FBR matrix, regular + group tables, Conference League play-off structure text + brackets + the Final match box (2024-05-31, MlBoleslav 3-1 Hradec, Lokotrans Arena, att 4173), venues (Hradec Malsovicka Arena opened 2023-08-05), infobox 277 matches/804 goals, pro/rel TwoLeg aggregates (legs identical all 4)
+SOURCE|wf-cz1-2122-r10|https://www.worldfootball.net/schedule/cze-1-fotbalova-liga-2021-2022-spieltag/10/|2026-08-03|second-index|matchday-10 spot-audit: 8 fixtures, dates AND scores identical to the pack rows (results-and-standings matchday page)
+SOURCE|wf-cz1-2223-r20|https://www.worldfootball.net/schedule/cze-1-fotbalova-liga-2022-2023-spieltag/20/|2026-08-03|second-index|matchday-20 spot-audit: 8 fixtures, dates AND scores identical to the pack rows
+SOURCE|wf-cz1-2324-r25|https://www.worldfootball.net/schedule/cze-1-fotbalova-liga-2023-2024-spieltag/25/|2026-08-03|second-index|matchday-25 spot-audit: 8 fixtures, dates AND scores identical to the pack rows
+SOURCE|isport-baraz-2024|https://isport.blesk.cz/clanek/fotbal-chance-liga-rocnik-2023-24/448139/vyskov-karvina-0-1-hoste-jsou-bliz-zachrane-v-lize-rozhodl-cavos.html|2026-08-03|web-index|2024-05-30 evening report on pro/rel leg 1 Vyskov 0-1 Karvina (Cavos) - confirms the played date vs the pre-season announced 29 May
+SOURCE|ctsport-baraz-2024|https://sport.ceskatelevize.cz/clanek/fotbal/1-liga/zive-ceske-budejovice-taborsko-0-0-a-vyskov-karvina-0-0/665885f861d8d47534fa048b|2026-08-03|web-index|CT sport same-evening coverage 2024-05-30: both pro/rel leg-1 ties played that date (CBudejovice 2-1 Taborsko, Vyskov 0-1 Karvina)
+SOURCE|sportcz-karvina-vyskov-2024|https://www.sport.cz/clanek/fotbal-ceska-1-liga-vyskov-barazove-prokleti-nezlomil-karvina-je-stale-prvoligova-5029534|2026-08-03|web-index|2024-06-02 return-leg report: Karvina 1-0 Vyskov (Mikus 54), Karvina stays in the top flight
+SOURCE|wf-molcup-stadiums|https://www.worldfootball.net/competition/co88/se55490/stadiums/|2026-08-03|third-index|FNL home grounds of the pro/rel legs, from the season cup-stadium indexes se39724/se46910/se55490: Opava Stadion v Mestskych sadech 7758, Vlasim Stadion Kollarova ulice 6000, Pribram Na Litavce 7120, Vyskov listed as Stadion FK Drnovice 6400 (row string Sportovni areal Drnovice per the wiki 2023-06-04 playoff match box); full listings in audit/ledger/molcup-venues-teams.txt section A
+SOURCE|wiki-taborsko|https://en.wikipedia.org/wiki/FC_Silon_T%C3%A1borsko|2026-08-03|second-index|FC Silon Taborsko (CNFL/2nd tier in-window) ground = Stadion v Kvapilove ulici, Tabor - venue evidence for pro/rel leg-2 2024-06-02 Taborsko 1-1 CBudejovice (infobox Ground + lead prose)
+NOTE|info|federation_check|Section-0 federation scan performed on the finished pack: the 829 league rows are all FORTUNA:LIGA Czech First League 2021-22..2023-24 - Sparta Prague, Slavia Prague, Viktoria Plzen and the 13-14 companions pinned in section-3 per season; the 12 additional rows are the season-closing Czech Relegation Playoffs pro/rel legs of the same three seasons (2 ties x 2 legs each), the only place the five FNL opponent strings appear. Not Russia, not Slovakia. No non-pinned string appears on a league row; the anti-appear list (Dukla Prague - promoted 2024, Artis Brno - promoted 2026) is empty; no standings tables are carried - match rows only (+SOURCE/NOTE scaffolding).
+NOTE|info|comp_class|compType is domestic-league on the 829 league rows, verbatim per WO-CZ1 section-2 (regular stage AND all three playoff-stage groups are league championship phases, not separate events); and 'other' on the 12 Czech Relegation Playoffs pro/rel rows per the 2026-08-03 auditor errata class rule (promotion/relegation-playoff rows = other; cups = domestic-cup). The errata SUPERSEDES the section-2 single-class instruction for these ties - that line predates the block's re-entry; the same reclassing was applied to the RPL return's 12 playoff rows (errata mirror: supervisor/ERRATA-2026-08-03.as-relayed.md; the original file upload is still pending).
+NOTE|info|identity|The 17 pinned section-3 strings are used verbatim in every row for every season. Rename traps mapped silently to the pinned strings, each NOTE-mapped once: FC Fastav Zlin -> FC Trinity Zlin (2022 sponsor rename, RSSSF [*] note; wiki name fields follow the era) - always Zlin. MFK OKD Karvina / MFK Karvina - always Karvina. FK Jablonec 97 / FK Baumit Jablonec - always Jablonec. SK Dynamo Ceske Budejovice - always Ceske Budejovice. FC Bohemians 1905 Praha - always Bohemians 1905. 1. FC Slovacko - always Slovacko. AC Sparta Praha / SK Slavia Praha / FC Viktoria Plzen / FC Banik Ostrava / FC Hradec Kralove (FK Vysocina-era none) / FK Mlada Boleslav / FC Slovan Liberec / SK Sigma Olomouc / FK Pardubice / FK Teplice / FC Zbrojovka Brno - the section-3 strings. Per-season composition (pinned): 2021-22 the 16 listed clubs incl. Karvina; 2022-23 Karvina out (relegated), Zbrojovka Brno in (promoted); 2023-24 Brno out, Karvina back. Pro/rel block (owner sanction, see roster_scope): the FNL opponents are reused client-roster strings - Vlasim (FC Sellier & Bellot Vlasim), Opava (SFC Opava), Pribram (FK Viagem Pribram), Vyskov (MFK Vyskov), Taborsko (FC Silon Taborsko) - the identical strings the MOL Cup return carries for these clubs; era sponsor names live in this NOTE only, never in row fields. No TEAM rows are declared (WO section-2 directive stands: every participant already on the client roster).
+NOTE|info|venue_policy|MATCH stadium/city = the home club's documented ground for that season per the Wikipedia season-team tables (second index; RSSSF carries no venues): 2021-22 + 2022-23 Hradec home matches are recorded at Lokotrans Arena, MLADA BOLESLAV (their Vsesportovni stadion under rebuild; wiki efn both seasons) - the city field follows the actual match location, not the club seat; 2021-22 Pardubice home matches at Dolicek, PRAGUE (Bohemians' ground during the Pod Vinici rebuild; wiki efn); 2022-23 Pardubice split at the winter break - home rows before 2023-01-01 at Dolicek, Prague (first half of season per wiki efn; autumn half = 16 rounds ending 2022-11-13 per the season infobox), home rows from 2023-01-01 at the rebuilt CFIG Arena, Pardubice (spring, corroborated by the 2023-06-04 pro/rel leg match box staged there); 2023-24 Hradec home at the new Malsovicka Arena, Hradec Kralove (first home game of the season 2023-08-05 = the arena's opening date). Era sponsor names carried verbatim per season: Slavia Sinobo Stadium (2021-22) -> Fortuna Arena (2022-23 on); Sparta Generali Ceska pojistovna Arena (2021-22) -> epet ARENA; Zlin's Letna Stadion unchanged while the club name changed. One-ground equivalences: Doosan Arena = Stadion mesta Plzne (the name carried on the team lists in all three seasons). Pro/rel legs carry the home club's own documented ground: league homes reuse the same per-season constants as above (the 2023-06-04 Pardubice leg at CFIG Arena is corroborated by its wiki match box; the 2023-06-01 Zlin leg at Letna Stadion att 5442 and the 2023-06-01 Pribram leg at Na Litavce att 3500 likewise); FNL homes - Opava Stadion v Mestskych sadech 7758, Vlasim Stadion Kollarova ulice 6000, Pribram Na Litavce 7120 (worldfootball cup-stadium indexes se39724/se46910, transcribed in audit/ledger/molcup-venues-teams.txt; Na Litavce also in the 2023-06-01 wiki box), Vyskov Sportovni areal Drnovice (wiki 2023-06-04 box att 4500; worldfootball lists the same ground as Stadion FK Drnovice, Drnovice 6400 - the Drnovice-ground string is kept for cross-pack consistency), Taborsko Stadion v Kvapilove ulici, Tabor (en.wiki FC Silon Taborsko infobox Ground + lead).
+NOTE|info|stage_mapping|Venue-detail labels: 'Round n' (n = 1..30) regular stage - the official matchday, kept even where postponed (see continuity); 'Titul R31'..'Titul R35' championship group (top 6); 'Zachranu R31'..'Zachranu R35' relegation group (bottom 6); 'Evropu-SF L1'/'L2' and 'Evropu-F L1'/'L2' the two-legged middle-four play-off (positions 7-10) exactly like the section-2 example row 'Evropu-SF'; 'Evropu-CLP' the single 2023-24 Conference League playoff Final between the Titul-5th and the Evropu winner; 'Playoff leg1'/'Playoff leg2' the two legs of a Czech Relegation Playoffs pro/rel tie, in chronological order. Two-legged ties are always two rows (home/away swapped). 90-minute doctrine: league = full-time; no aet/shootout needed anywhere in-window (the one 2021-22 Evropu SF, both finals and all six pro/rel ties decided inside the regulation 180 minutes - every pro/rel aggregate was settled without extra time).
+NOTE|info|round_counts|Per season, league rows: 240 regular rows (30 matchdays x 8, every matchday fully dated, each club exactly 30 - enumerated club-by-club in the audit pivot ledger) + 15 Titul + 15 Zachranu (five rounds x 3 fixtures each) + 6 Evropu legs (2 SF ties x 2 legs + 1 final tie x 2 legs) = 276; 2023-24 adds the Conference League playoff Final (1 row) = 277. Plus the pro/rel block: 4 rows per season (2 ties x 2 legs) = 280/280/281. Pack total 841. Season totals anchors (matches played / goals scored, league matches incl. playoff stages, excl. the pro/rel ties) recompute from the finished pack as 276/770, 276/819, 277/792 - and the official tables and results matrices of the second index (fetched sections of the wiki articles) recompute to the identical figures. The wiki INFOBOX scalars agree for 2022-23 (276/819) but slip for 2021-22 (says 763) and 2023-24 (says 804) against the very tables/matrices inside the same article - documented in source_conflict, not propagated.
+NOTE|info|shape_deviation|2023-24 = 277 rows, not the section-1 template's 276: that season's play-off structure gave the Europe-path winner a further single match against the championship-group 5th for the Conference League ticket (official 'Conference League play-off' Final, 2024-05-31 MlBoleslav 3-1 Hradec Kralove, cited in the wiki structure text and the Final match box). The official record itself counts the season as 277 league matches (wiki infobox matches=277, season dates 2023-07-22..2024-05-31) - reproducing it. Per-club game-count multisets: 2021-22 and 2022-23 = {35 games x12 clubs, 34 x2 (Evropu finalists), 32 x2 (SF losers)} exactly as section-1 proves; 2023-24 = {36 x1 (MlBoleslav, Titul 5th + CLP), 35 x12 (5 other group clubs + 6 Zachranu + Hradec: Evropu finalist + CLP), 34 x1 (Teplice, Evropu finalist), 32 x2 (SF losers)} - the deviation is fully explained.
+NOTE|info|tiebreak|Official table orders reproduced from the rows via the federation chain printed with the wiki tables (1) points 2) H2H points 3) H2H goal difference 4) H2H goals scored 5) GD 6) GF). Regular stage: 2021-22 - Liberec over Olomouc at 37 (RSSSF bracket [2 1 0 1 3-2 3 v 1-2 3], recomputed) and Jablonec over Bohemians at 26 ([2 1 1 0 4-3 4 v 3-4 1]); 2022-23 - Liberec over Hradec at 38 ([2 2 0 0 4-1 6 v 1-4 0]) and the 3-way at 35 CBudejovice over Jablonec over Ostrava ([4 3 0 1 9-6 9 | 4 2 1 1 7-7 7 | 4 0 1 3 4-7 1]); 2023-24 - Olomouc over Hradec at 37 (H2H 4-1 pts: HKR 1-3, OLO 0-0) and Karvina over Zlin at 25 (H2H 6-0). Group-stage final tables decide equal totals by rule 2) points earned in the regular season, then regular-season H2H (printed as wiki class_rules and the 2022-23 RSSSF NB): 2021-22 Zachranu - Jablonec over Bohemians at 34 (regular pts equal 26-26; regular H2H JAB 4-1: BOH 1-2, JAB 2-2); 2022-23 TITUL - SPARTA CHAMPION over Slavia at 78-78 by regular-season points 68-66 (RSSSF NB: first tie-breaker is points won in the regular season; wiki class_rules identical); 2022-23 Zachranu - Ostrava over Teplice at 42 by regular points 35-32. No points deductions anywhere in-window.
+NOTE|info|playoff_outcomes|Evropu (middle-four, positions 7-10): 2021-22 SF CBudejovice 2-3 / 0-1 MlBoleslav (agg MB 4-2) and Olomouc 1-0 / 2-0 Liberec (agg OLO 3-0); final Olomouc 1-2 / 2-2 MlBoleslav - MLBOLESLAV winner 4-3 (cash bonus + better Czech Cup draw only; 4 European licences that year). 2022-23 SF MlBoleslav 0-0 / 0-2 Hradec (agg HKR 2-0) and CBudejovice 3-2 / 0-4 Liberec (agg LIB 6-3); final Hradec 0-4 / 3-2 Liberec - SLOVAN LIBEREC winner 6-3 (cash bonus + Czech Cup round-3 bye). 2023-24 SF Teplice 2-0 / 2-1 Liberec (agg TEP 4-1) and Hradec 3-1 / 3-1 Olomouc (agg HKR 6-2); final Teplice 0-1 / 0-2 Hradec - HRADEC winner 3-0, then lost the Conference League playoff Final 2024-05-31 at Lokotrans Arena: MlBoleslav 3-1 Hradec (Marecek 13, Kostka 45+1, Matejovsky 54pen; Cmelik 83; att 4173) - MlBoleslav took the Conference League Q2 ticket.
+NOTE|info|playoff_count|Czech Relegation Playoffs (pro/rel) occurred in ALL three seasons of the window - count per WO section-1: 2 ties x 2 legs x 3 seasons = 12 rows, ALL EMITTED in this pack (owner decision 2026-08-03, see roster_scope; compType 'other' per the errata). 2021-22 (2022-05-19/22): Teplice 3-0 / 2-2 Vlasim (agg 5-2), Opava 0-1 / 0-2 Bohemians 1905 (agg 0-3) - both league sides stay. 2022-23 (2023-06-01/04): Viagem Pribram 0-2 / 0-0 Pardubice (agg 0-2), Trinity Zlin 1-0 / 0-0 Vyskov (agg 1-0) - both league sides stay. 2023-24 (2024-05-30/2024-06-02): Vyskov 0-1 / 0-1 Karvina (agg 0-2), CBudejovice 2-1 / 1-1 Silon Taborsko (agg 3-2) - both league sides stay; played dates 2024-05-30 confirmed by the isport and CT sport same-evening reports, the pre-season calendar had announced 29 May (wiki infobox plan date).
+NOTE|info|roster_scope|OWNER DECISION RECEIVED 2026-08-03 (closes the v2.1 hold-out; the auditor's return message: 'workorder section-1 also commissions Czech Relegation Playoffs (pro/rel ties, compType "other" per ERRATA). Add the 12 rows ... 2 legs each, 90-min scores'). The five FNL opponent strings (Vlasim, Opava, Pribram, Vyskov, Taborsko) are reused client-roster identities - the identical strings the MOL Cup return documents as already-on-the-client-roster - not invented names and not new TEAM declarations; WO section-2 'No TEAM rows expected at all' stands. The names gate therefore admits these five strings on Czech Relegation Playoffs rows only; every league row still uses the 17 pinned section-3 strings exclusively.
+NOTE|info|continuity|Continuity-clause accounting (league segment gap-free): all 30 regular matchdays of every season exist and are dated in this pack; no match was cancelled. Documented postponements (rows keep their original Round labels, file is date-sorted): 2021-22 - R3 Slavia-Olomouc (played 2021-10-27), R12 Karvina-Ostrava (2021-11-24), R13 Bohemians-Karvina (2021-12-01), R20 Zlin-Liberec + Pardubice-Slovacko (2022-02-15/22), R21 Liberec-Pardubice (2022-03-09), R22 Jablonec-Sparta (2022-03-09, COVID cluster coverage); 2022-23 - R4 Plzen-Brno (2022-11-09), R14 Sparta-Slovacko (2022-11-09), R23 Jablonec-Slovacko (2023-04-05); 2023-24 - R6 MlBoleslav-Plzen (2023-12-06), R17 six games (2023-12-06 x1, 2023-12-13 x3, 2024-02-13/14 x2), R18 two games (2024-02-14/21). Winter breaks and the 2022-23 World-Cup break (autumn half = 16 rounds ending 2022-11-13 per the infobox) are competition scheduling, not gaps. Season spans: 2021-07-24..2022-05-15 (final groups day), 2022-07-30..2023-05-28, 2023-07-22..2024-05-31 (the CLP Final). 2024-25 MD1 resumes 2024-07-19 client-side.
+NOTE|info|boundary_no_dupes|Hard-cutoff scan: max row date 2024-06-02 (the last pro/rel leg); zero rows >= 2024-06-30; zero dateless rows; zero duplicate (date, home, away) rows (two-legged Evropu and pro/rel ties are two rows by design). Nothing in the 2021-07..2024-06 league + pro/rel window omitted.
+NOTE|info|perclub_gate|Owner's per-club completeness technique implemented as a pivot gate: each season's pack rows are re-pivoted club-by-club - every one of the 16 clubs totals exactly 30 regular-stage games and its full campaign (regular + group/Evropu stage, 32-36 games per club, plus any pro/rel legs for Teplice, Bohemians 1905, Pardubice, Zlin, Karvina, Ceske Budejovice) is enumerated round-by-round with dates in audit/pack-validation-cz1.txt next to this file; the five FNL opponents get their own 2-leg pivot listing. All 48 club-season pivots green.
+NOTE|info|source_adaptation|WO section-4 design: RSSSF tsje pages = primary for dates AND scores (transcribed to audit/ledger/cz1-<season>.txt the day of fetch; the three queried fixtures were re-fetched and re-read 2026-08-03 for adjudication). Second index = the English Wikipedia season articles used at full depth: all 720 regular-stage scores diffed cell-for-cell against the FBR results matrices, all 90 group-stage scores against the Titul/Zachranu group matrices, all 19 playoff-stage legs against the printed brackets - plus the official venue tables (incl. the documented Hradec/Pardubice ground moves) and, for the pro/rel block, the play-offs sections' TwoLegResults (all 12 legs, re-fetched 2026-08-03) with the four 2023 match boxes (dates, grounds, attendances). Result: 838 of 841 pack rows match the wiki record score-for-score and 24 of 24 worldfootball spot-audit fixtures match date-for-date; the 2023-24 pro/rel played dates are additionally press-confirmed (isport / CT sport / sport.cz SOURCEs) and the FNL home grounds come from the worldfootball stadium indexes + the FC Silon Taborsko article. Every divergence is enumerated in the two source_conflict NOTEs (3 defective wiki matrix cells, 2 wiki infobox goal scalars that contradict their own article's tables, 1 worldfootball matchday listing date). Nothing in the pack comes from a second index where it conflicts with RSSSF.
+NOTE|warning|source_conflict|Three defective cells in the wiki FBR results matrices conflict with RSSSF-primary AND with the wiki articles' own official tables (each cell would break the table it sits under): 2022-23 Liberec-Zlin says 1-0 (RSSSF Round 26 [Apr 8]: Liberec 2-1 Zlin; the article's own table has Zlin GA 55 and Liberec GF 39, only consistent with 2-1); 2022-23 Plzen-Zlin says 3-0 (RSSSF Round 28 [Apr 23]: Plzen 4-0 Zlin; own table Zlin GA 55 / Plzen GF 55 only consistent with 4-0); 2023-24 Pardubice-Jablonec says 0-3 (RSSSF Round 2 [Jul 29]: Pardubice 0-0 Jablonec; own table Pardubice GA 42 / Jablonec GF 35 only consistent with 0-0). All three RSSSF readings were re-fetched and re-verified line-by-line 2026-08-03 before resolving per section-4(3).
+NOTE|warning|source_conflict|Two wiki INFOBOX goal scalars contradict the official tables and results matrices inside the very same articles: 2021-22 infobox says 763 goals but the article's tables/matrices recompute 770; 2023-24 infobox says 804 but the article recomputes 792 (2022-23's 276/819 is consistent). The pack carries the recomputed figures (276/770, 276/819, 277/792). Also: worldfootball's matchday-25 page lists Teplice-Slovacko (1-1, score identical) under 2024-03-16 18:00 while RSSSF dates Round 25's fixture [Mar 17] - RSSSF date kept. No other score or date divergence anywhere in the window.
+NOTE|info|spot_audit|2021-22 Round 10 re-listed for spot-audit (sources https://www.rsssf.org/tablest/tsje2022.html and the worldfootball matchday page wf-cz1-2122-r10): 2021-10-02 Bohemians 1905 2-0 Sigma Olomouc; 2021-10-02 Ceske Budejovice 3-1 Pardubice; 2021-10-02 Viktoria Plzen 2-1 Zlin; 2021-10-02 Slovacko 3-2 Teplice; 2021-10-03 Hradec Kralove 2-2 Jablonec; 2021-10-03 Karvina 0-1 Mlada Boleslav; 2021-10-03 Slovan Liberec 0-2 Banik Ostrava; 2021-10-03 Sparta Prague 1-0 Slavia Prague.
+NOTE|info|spot_audit|2022-23 Round 20 re-listed for spot-audit (sources https://www.rsssf.org/tablest/tsje2023.html and the worldfootball matchday page wf-cz1-2223-r20): 2023-02-18 Zbrojovka Brno 2-1 Banik Ostrava; 2023-02-18 Hradec Kralove 0-1 Mlada Boleslav; 2023-02-18 Slovan Liberec 2-2 Sigma Olomouc; 2023-02-18 Teplice 1-1 Slavia Prague; 2023-02-19 Ceske Budejovice 1-0 Bohemians 1905; 2023-02-19 Pardubice 2-1 Zlin; 2023-02-19 Slovacko 2-0 Viktoria Plzen; 2023-02-19 Sparta Prague 3-0 Jablonec.
+NOTE|info|spot_audit|2023-24 Round 25 re-listed for spot-audit (sources https://www.rsssf.org/tablest/tsje2024.html and the worldfootball matchday page wf-cz1-2324-r25): 2024-03-16 Karvina 2-1 Ceske Budejovice; 2024-03-16 Mlada Boleslav 2-1 Sigma Olomouc; 2024-03-16 Zlin 2-2 Bohemians 1905; 2024-03-17 Jablonec 1-2 Viktoria Plzen; 2024-03-17 Pardubice 0-1 Banik Ostrava; 2024-03-17 Slavia Prague 3-0 Slovan Liberec; 2024-03-17 Sparta Prague 2-1 Hradec Kralove; 2024-03-17 Teplice 1-1 Slovacko.
+MATCH|2021-07-24|Czech First League|domestic-league|Hradec Kralove|1|1|Bohemians 1905|Round 1|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-24|Czech First League|domestic-league|Jablonec|1|0|Banik Ostrava|Round 1|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-24|Czech First League|domestic-league|Pardubice|2|2|Karvina|Round 1|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-24|Czech First League|domestic-league|Sparta Prague|3|2|Sigma Olomouc|Round 1|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-25|Czech First League|domestic-league|Ceske Budejovice|1|0|Teplice|Round 1|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-25|Czech First League|domestic-league|Slovan Liberec|0|1|Slovacko|Round 1|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-25|Czech First League|domestic-league|Viktoria Plzen|2|1|Mlada Boleslav|Round 1|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-25|Czech First League|domestic-league|Zlin|0|1|Slavia Prague|Round 1|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-30|Czech First League|domestic-league|Teplice|1|3|Slavia Prague|Round 2|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-31|Czech First League|domestic-league|Karvina|1|1|Hradec Kralove|Round 2|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-31|Czech First League|domestic-league|Slovan Liberec|0|5|Sparta Prague|Round 2|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-31|Czech First League|domestic-league|Mlada Boleslav|3|0|Jablonec|Round 2|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-07-31|Czech First League|domestic-league|Sigma Olomouc|3|2|Pardubice|Round 2|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-01|Czech First League|domestic-league|Bohemians 1905|1|2|Viktoria Plzen|Round 2|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-01|Czech First League|domestic-league|Banik Ostrava|5|1|Zlin|Round 2|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-01|Czech First League|domestic-league|Slovacko|1|0|Ceske Budejovice|Round 2|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-07|Czech First League|domestic-league|Ceske Budejovice|1|3|Banik Ostrava|Round 3|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-07|Czech First League|domestic-league|Hradec Kralove|1|1|Slovan Liberec|Round 3|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-07|Czech First League|domestic-league|Sparta Prague|2|0|Karvina|Round 3|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-07|Czech First League|domestic-league|Zlin|3|0|Teplice|Round 3|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-08|Czech First League|domestic-league|Jablonec|2|2|Bohemians 1905|Round 3|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-08|Czech First League|domestic-league|Pardubice|1|1|Mlada Boleslav|Round 3|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-08|Czech First League|domestic-league|Viktoria Plzen|2|1|Slovacko|Round 3|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-14|Czech First League|domestic-league|Bohemians 1905|1|1|Sparta Prague|Round 4|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-14|Czech First League|domestic-league|Karvina|2|3|Zlin|Round 4|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-14|Czech First League|domestic-league|Mlada Boleslav|0|2|Slavia Prague|Round 4|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-14|Czech First League|domestic-league|Sigma Olomouc|3|3|Ceske Budejovice|Round 4|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-15|Czech First League|domestic-league|Slovan Liberec|0|1|Viktoria Plzen|Round 4|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-15|Czech First League|domestic-league|Banik Ostrava|3|1|Pardubice|Round 4|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-15|Czech First League|domestic-league|Slovacko|1|0|Hradec Kralove|Round 4|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-15|Czech First League|domestic-league|Teplice|1|0|Jablonec|Round 4|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-21|Czech First League|domestic-league|Mlada Boleslav|3|1|Teplice|Round 5|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-21|Czech First League|domestic-league|Pardubice|3|0|Bohemians 1905|Round 5|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-21|Czech First League|domestic-league|Sparta Prague|4|0|Hradec Kralove|Round 5|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-21|Czech First League|domestic-league|Zlin|1|4|Sigma Olomouc|Round 5|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-22|Czech First League|domestic-league|Ceske Budejovice|1|0|Slovan Liberec|Round 5|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-22|Czech First League|domestic-league|Jablonec|1|1|Slovacko|Round 5|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-22|Czech First League|domestic-league|Viktoria Plzen|2|0|Karvina|Round 5|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-22|Czech First League|domestic-league|Slavia Prague|4|0|Banik Ostrava|Round 5|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-28|Czech First League|domestic-league|Slovan Liberec|0|1|Zlin|Round 6|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-28|Czech First League|domestic-league|Banik Ostrava|1|0|Mlada Boleslav|Round 6|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-28|Czech First League|domestic-league|Slovacko|2|1|Pardubice|Round 6|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-28|Czech First League|domestic-league|Sparta Prague|1|0|Ceske Budejovice|Round 6|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-29|Czech First League|domestic-league|Bohemians 1905|4|2|Teplice|Round 6|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-29|Czech First League|domestic-league|Hradec Kralove|1|0|Viktoria Plzen|Round 6|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-29|Czech First League|domestic-league|Karvina|3|3|Slavia Prague|Round 6|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-08-29|Czech First League|domestic-league|Sigma Olomouc|4|0|Jablonec|Round 6|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-11|Czech First League|domestic-league|Pardubice|2|2|Slovan Liberec|Round 7|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-11|Czech First League|domestic-league|Viktoria Plzen|3|2|Sparta Prague|Round 7|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-11|Czech First League|domestic-league|Teplice|1|2|Banik Ostrava|Round 7|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-11|Czech First League|domestic-league|Zlin|1|3|Bohemians 1905|Round 7|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-12|Czech First League|domestic-league|Ceske Budejovice|0|1|Hradec Kralove|Round 7|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-12|Czech First League|domestic-league|Jablonec|1|0|Karvina|Round 7|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-12|Czech First League|domestic-league|Mlada Boleslav|3|3|Sigma Olomouc|Round 7|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-12|Czech First League|domestic-league|Slavia Prague|2|1|Slovacko|Round 7|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-17|Czech First League|domestic-league|Hradec Kralove|2|0|Pardubice|Round 8|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-17|Czech First League|domestic-league|Sigma Olomouc|1|1|Banik Ostrava|Round 8|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-18|Czech First League|domestic-league|Slovan Liberec|2|1|Mlada Boleslav|Round 8|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-18|Czech First League|domestic-league|Viktoria Plzen|2|1|Ceske Budejovice|Round 8|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-18|Czech First League|domestic-league|Slovacko|3|0|Zlin|Round 8|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-19|Czech First League|domestic-league|Bohemians 1905|1|5|Slavia Prague|Round 8|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-19|Czech First League|domestic-league|Karvina|1|1|Teplice|Round 8|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-19|Czech First League|domestic-league|Sparta Prague|1|1|Jablonec|Round 8|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-25|Czech First League|domestic-league|Ceske Budejovice|3|1|Karvina|Round 9|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-25|Czech First League|domestic-league|Banik Ostrava|4|1|Bohemians 1905|Round 9|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-25|Czech First League|domestic-league|Pardubice|0|1|Viktoria Plzen|Round 9|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-25|Czech First League|domestic-league|Zlin|2|5|Sparta Prague|Round 9|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-26|Czech First League|domestic-league|Jablonec|0|1|Slovan Liberec|Round 9|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-26|Czech First League|domestic-league|Mlada Boleslav|3|5|Slovacko|Round 9|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-26|Czech First League|domestic-league|Slavia Prague|4|1|Hradec Kralove|Round 9|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-09-26|Czech First League|domestic-league|Teplice|0|0|Sigma Olomouc|Round 9|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-02|Czech First League|domestic-league|Bohemians 1905|2|0|Sigma Olomouc|Round 10|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-02|Czech First League|domestic-league|Ceske Budejovice|3|1|Pardubice|Round 10|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-02|Czech First League|domestic-league|Viktoria Plzen|2|1|Zlin|Round 10|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-02|Czech First League|domestic-league|Slovacko|3|2|Teplice|Round 10|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-03|Czech First League|domestic-league|Hradec Kralove|2|2|Jablonec|Round 10|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-03|Czech First League|domestic-league|Karvina|0|1|Mlada Boleslav|Round 10|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-03|Czech First League|domestic-league|Slovan Liberec|0|2|Banik Ostrava|Round 10|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-03|Czech First League|domestic-league|Sparta Prague|1|0|Slavia Prague|Round 10|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-16|Czech First League|domestic-league|Jablonec|2|2|Ceske Budejovice|Round 11|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-16|Czech First League|domestic-league|Mlada Boleslav|4|1|Bohemians 1905|Round 11|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-16|Czech First League|domestic-league|Banik Ostrava|1|2|Slovacko|Round 11|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-16|Czech First League|domestic-league|Slavia Prague|3|1|Slovan Liberec|Round 11|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-17|Czech First League|domestic-league|Sigma Olomouc|2|0|Karvina|Round 11|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-17|Czech First League|domestic-league|Pardubice|2|4|Sparta Prague|Round 11|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-17|Czech First League|domestic-league|Teplice|0|1|Viktoria Plzen|Round 11|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-17|Czech First League|domestic-league|Zlin|2|3|Hradec Kralove|Round 11|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-23|Czech First League|domestic-league|Slovan Liberec|2|0|Sigma Olomouc|Round 12|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-23|Czech First League|domestic-league|Pardubice|0|0|Zlin|Round 12|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-23|Czech First League|domestic-league|Slovacko|1|0|Bohemians 1905|Round 12|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-24|Czech First League|domestic-league|Ceske Budejovice|2|2|Slavia Prague|Round 12|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-24|Czech First League|domestic-league|Hradec Kralove|3|0|Teplice|Round 12|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-24|Czech First League|domestic-league|Viktoria Plzen|5|0|Jablonec|Round 12|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-24|Czech First League|domestic-league|Sparta Prague|1|0|Mlada Boleslav|Round 12|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-27|Czech First League|domestic-league|Slavia Prague|1|0|Sigma Olomouc|Round 3|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-30|Czech First League|domestic-league|Sigma Olomouc|0|3|Slovacko|Round 13|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-30|Czech First League|domestic-league|Teplice|1|2|Slovan Liberec|Round 13|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-30|Czech First League|domestic-league|Zlin|2|0|Ceske Budejovice|Round 13|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-31|Czech First League|domestic-league|Jablonec|1|1|Pardubice|Round 13|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-31|Czech First League|domestic-league|Mlada Boleslav|3|2|Hradec Kralove|Round 13|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-31|Czech First League|domestic-league|Banik Ostrava|2|2|Sparta Prague|Round 13|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-10-31|Czech First League|domestic-league|Slavia Prague|2|0|Viktoria Plzen|Round 13|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-06|Czech First League|domestic-league|Ceske Budejovice|2|1|Mlada Boleslav|Round 14|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-06|Czech First League|domestic-league|Hradec Kralove|1|1|Banik Ostrava|Round 14|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-06|Czech First League|domestic-league|Slovan Liberec|2|1|Bohemians 1905|Round 14|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-06|Czech First League|domestic-league|Viktoria Plzen|0|0|Sigma Olomouc|Round 14|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-07|Czech First League|domestic-league|Karvina|2|2|Slovacko|Round 14|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-07|Czech First League|domestic-league|Pardubice|0|5|Slavia Prague|Round 14|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-07|Czech First League|domestic-league|Sparta Prague|4|2|Teplice|Round 14|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-07|Czech First League|domestic-league|Zlin|0|0|Jablonec|Round 14|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-20|Czech First League|domestic-league|Bohemians 1905|3|1|Ceske Budejovice|Round 15|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-20|Czech First League|domestic-league|Mlada Boleslav|1|0|Zlin|Round 15|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-20|Czech First League|domestic-league|Sigma Olomouc|2|2|Hradec Kralove|Round 15|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-20|Czech First League|domestic-league|Banik Ostrava|2|2|Viktoria Plzen|Round 15|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-21|Czech First League|domestic-league|Karvina|1|2|Slovan Liberec|Round 15|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-21|Czech First League|domestic-league|Slavia Prague|5|0|Jablonec|Round 15|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-21|Czech First League|domestic-league|Slovacko|4|0|Sparta Prague|Round 15|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-21|Czech First League|domestic-league|Teplice|1|2|Pardubice|Round 15|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-24|Czech First League|domestic-league|Karvina|1|2|Banik Ostrava|Round 12|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-27|Czech First League|domestic-league|Ceske Budejovice|3|2|Slovacko|Round 16|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-27|Czech First League|domestic-league|Pardubice|1|5|Sigma Olomouc|Round 16|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-27|Czech First League|domestic-league|Viktoria Plzen|6|0|Bohemians 1905|Round 16|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-27|Czech First League|domestic-league|Zlin|2|2|Banik Ostrava|Round 16|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-28|Czech First League|domestic-league|Hradec Kralove|1|0|Karvina|Round 16|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-28|Czech First League|domestic-league|Jablonec|0|1|Mlada Boleslav|Round 16|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-28|Czech First League|domestic-league|Slavia Prague|3|0|Teplice|Round 16|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-11-28|Czech First League|domestic-league|Sparta Prague|2|1|Slovan Liberec|Round 16|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-01|Czech First League|domestic-league|Bohemians 1905|3|0|Karvina|Round 13|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-04|Czech First League|domestic-league|Karvina|1|2|Sparta Prague|Round 17|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-04|Czech First League|domestic-league|Slovan Liberec|1|0|Hradec Kralove|Round 17|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-04|Czech First League|domestic-league|Sigma Olomouc|0|1|Slavia Prague|Round 17|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-04|Czech First League|domestic-league|Teplice|4|1|Zlin|Round 17|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-05|Czech First League|domestic-league|Bohemians 1905|1|2|Jablonec|Round 17|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-05|Czech First League|domestic-league|Mlada Boleslav|2|3|Pardubice|Round 17|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-05|Czech First League|domestic-league|Banik Ostrava|4|1|Ceske Budejovice|Round 17|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-05|Czech First League|domestic-league|Slovacko|1|2|Viktoria Plzen|Round 17|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-11|Czech First League|domestic-league|Hradec Kralove|2|2|Slovacko|Round 18|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-11|Czech First League|domestic-league|Pardubice|0|3|Banik Ostrava|Round 18|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-11|Czech First League|domestic-league|Viktoria Plzen|2|0|Slovan Liberec|Round 18|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-11|Czech First League|domestic-league|Zlin|2|1|Karvina|Round 18|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-12|Czech First League|domestic-league|Ceske Budejovice|2|1|Sigma Olomouc|Round 18|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-12|Czech First League|domestic-league|Jablonec|0|2|Teplice|Round 18|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-12|Czech First League|domestic-league|Slavia Prague|2|0|Mlada Boleslav|Round 18|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-12|Czech First League|domestic-league|Sparta Prague|5|1|Bohemians 1905|Round 18|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-18|Czech First League|domestic-league|Bohemians 1905|1|2|Pardubice|Round 19|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-18|Czech First League|domestic-league|Hradec Kralove|0|1|Sparta Prague|Round 19|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-18|Czech First League|domestic-league|Karvina|0|1|Viktoria Plzen|Round 19|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-18|Czech First League|domestic-league|Slovacko|2|1|Jablonec|Round 19|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-19|Czech First League|domestic-league|Slovan Liberec|0|0|Ceske Budejovice|Round 19|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-19|Czech First League|domestic-league|Sigma Olomouc|1|1|Zlin|Round 19|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-19|Czech First League|domestic-league|Banik Ostrava|3|3|Slavia Prague|Round 19|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2021-12-19|Czech First League|domestic-league|Teplice|0|1|Mlada Boleslav|Round 19|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-05|Czech First League|domestic-league|Ceske Budejovice|0|0|Sparta Prague|Round 20|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-05|Czech First League|domestic-league|Jablonec|1|0|Sigma Olomouc|Round 20|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-05|Czech First League|domestic-league|Slavia Prague|0|1|Karvina|Round 20|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-05|Czech First League|domestic-league|Teplice|1|0|Bohemians 1905|Round 20|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-06|Czech First League|domestic-league|Mlada Boleslav|2|3|Banik Ostrava|Round 20|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-06|Czech First League|domestic-league|Viktoria Plzen|1|0|Hradec Kralove|Round 20|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-12|Czech First League|domestic-league|Bohemians 1905|1|0|Zlin|Round 21|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-12|Czech First League|domestic-league|Hradec Kralove|2|2|Ceske Budejovice|Round 21|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-12|Czech First League|domestic-league|Banik Ostrava|2|4|Teplice|Round 21|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-13|Czech First League|domestic-league|Karvina|1|1|Jablonec|Round 21|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-13|Czech First League|domestic-league|Sigma Olomouc|2|1|Mlada Boleslav|Round 21|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-13|Czech First League|domestic-league|Slovacko|0|1|Slavia Prague|Round 21|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-13|Czech First League|domestic-league|Sparta Prague|2|2|Viktoria Plzen|Round 21|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-15|Czech First League|domestic-league|Zlin|2|0|Slovan Liberec|Round 20|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-19|Czech First League|domestic-league|Ceske Budejovice|0|1|Viktoria Plzen|Round 22|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-19|Czech First League|domestic-league|Banik Ostrava|1|0|Sigma Olomouc|Round 22|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-19|Czech First League|domestic-league|Pardubice|0|0|Hradec Kralove|Round 22|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-19|Czech First League|domestic-league|Zlin|1|0|Slovacko|Round 22|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-20|Czech First League|domestic-league|Mlada Boleslav|3|3|Slovan Liberec|Round 22|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-20|Czech First League|domestic-league|Slavia Prague|1|0|Bohemians 1905|Round 22|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-20|Czech First League|domestic-league|Teplice|1|0|Karvina|Round 22|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-22|Czech First League|domestic-league|Pardubice|0|0|Slovacko|Round 20|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-26|Czech First League|domestic-league|Bohemians 1905|0|2|Banik Ostrava|Round 23|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-26|Czech First League|domestic-league|Slovan Liberec|1|1|Jablonec|Round 23|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-26|Czech First League|domestic-league|Viktoria Plzen|4|0|Pardubice|Round 23|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-26|Czech First League|domestic-league|Slovacko|2|1|Mlada Boleslav|Round 23|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-27|Czech First League|domestic-league|Hradec Kralove|1|5|Slavia Prague|Round 23|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-27|Czech First League|domestic-league|Karvina|2|2|Ceske Budejovice|Round 23|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-27|Czech First League|domestic-league|Sigma Olomouc|0|0|Teplice|Round 23|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2022-02-27|Czech First League|domestic-league|Sparta Prague|2|0|Zlin|Round 23|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-05|Czech First League|domestic-league|Sigma Olomouc|0|0|Bohemians 1905|Round 24|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-05|Czech First League|domestic-league|Banik Ostrava|1|1|Slovan Liberec|Round 24|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-05|Czech First League|domestic-league|Pardubice|3|3|Ceske Budejovice|Round 24|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-05|Czech First League|domestic-league|Zlin|1|2|Viktoria Plzen|Round 24|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-06|Czech First League|domestic-league|Jablonec|1|1|Hradec Kralove|Round 24|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-06|Czech First League|domestic-league|Mlada Boleslav|1|0|Karvina|Round 24|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-06|Czech First League|domestic-league|Slavia Prague|2|0|Sparta Prague|Round 24|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-06|Czech First League|domestic-league|Teplice|0|1|Slovacko|Round 24|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-09|Czech First League|domestic-league|Jablonec|1|1|Sparta Prague|Round 22|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-09|Czech First League|domestic-league|Slovan Liberec|4|1|Pardubice|Round 21|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-12|Czech First League|domestic-league|Bohemians 1905|2|2|Mlada Boleslav|Round 25|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-12|Czech First League|domestic-league|Hradec Kralove|2|1|Zlin|Round 25|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-12|Czech First League|domestic-league|Viktoria Plzen|1|0|Teplice|Round 25|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-12|Czech First League|domestic-league|Slovacko|0|0|Banik Ostrava|Round 25|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-13|Czech First League|domestic-league|Ceske Budejovice|2|0|Jablonec|Round 25|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-13|Czech First League|domestic-league|Karvina|1|2|Sigma Olomouc|Round 25|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-13|Czech First League|domestic-league|Slovan Liberec|1|0|Slavia Prague|Round 25|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-13|Czech First League|domestic-league|Sparta Prague|3|1|Pardubice|Round 25|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-19|Czech First League|domestic-league|Bohemians 1905|1|2|Slovacko|Round 26|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-19|Czech First League|domestic-league|Jablonec|0|0|Viktoria Plzen|Round 26|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-19|Czech First League|domestic-league|Banik Ostrava|1|3|Karvina|Round 26|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-19|Czech First League|domestic-league|Zlin|4|1|Pardubice|Round 26|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-20|Czech First League|domestic-league|Mlada Boleslav|0|3|Sparta Prague|Round 26|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-20|Czech First League|domestic-league|Sigma Olomouc|1|0|Slovan Liberec|Round 26|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-20|Czech First League|domestic-league|Slavia Prague|1|0|Ceske Budejovice|Round 26|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-03-20|Czech First League|domestic-league|Teplice|1|2|Hradec Kralove|Round 26|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-02|Czech First League|domestic-league|Ceske Budejovice|2|2|Zlin|Round 27|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-02|Czech First League|domestic-league|Slovan Liberec|0|1|Teplice|Round 27|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-02|Czech First League|domestic-league|Slovacko|1|0|Sigma Olomouc|Round 27|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-02|Czech First League|domestic-league|Sparta Prague|2|1|Banik Ostrava|Round 27|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-03|Czech First League|domestic-league|Hradec Kralove|2|2|Mlada Boleslav|Round 27|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-03|Czech First League|domestic-league|Karvina|1|1|Bohemians 1905|Round 27|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-03|Czech First League|domestic-league|Pardubice|1|1|Jablonec|Round 27|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-03|Czech First League|domestic-league|Viktoria Plzen|1|1|Slavia Prague|Round 27|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-09|Czech First League|domestic-league|Bohemians 1905|0|0|Slovan Liberec|Round 28|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-09|Czech First League|domestic-league|Sigma Olomouc|1|1|Viktoria Plzen|Round 28|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-09|Czech First League|domestic-league|Slovacko|3|1|Karvina|Round 28|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-09|Czech First League|domestic-league|Teplice|0|3|Sparta Prague|Round 28|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-10|Czech First League|domestic-league|Jablonec|1|1|Zlin|Round 28|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-10|Czech First League|domestic-league|Mlada Boleslav|2|0|Ceske Budejovice|Round 28|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-10|Czech First League|domestic-league|Banik Ostrava|0|0|Hradec Kralove|Round 28|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-10|Czech First League|domestic-league|Slavia Prague|4|0|Pardubice|Round 28|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-17|Czech First League|domestic-league|Ceske Budejovice|2|1|Bohemians 1905|Round 29|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-17|Czech First League|domestic-league|Hradec Kralove|3|0|Sigma Olomouc|Round 29|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-17|Czech First League|domestic-league|Jablonec|1|2|Slavia Prague|Round 29|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-17|Czech First League|domestic-league|Slovan Liberec|2|1|Karvina|Round 29|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-17|Czech First League|domestic-league|Pardubice|2|0|Teplice|Round 29|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-17|Czech First League|domestic-league|Viktoria Plzen|2|1|Banik Ostrava|Round 29|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-17|Czech First League|domestic-league|Sparta Prague|3|1|Slovacko|Round 29|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-17|Czech First League|domestic-league|Zlin|1|2|Mlada Boleslav|Round 29|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-20|Czech First League|domestic-league|Bohemians 1905|1|1|Hradec Kralove|Round 30|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-20|Czech First League|domestic-league|Karvina|3|2|Pardubice|Round 30|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-20|Czech First League|domestic-league|Mlada Boleslav|0|2|Viktoria Plzen|Round 30|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-20|Czech First League|domestic-league|Sigma Olomouc|2|0|Sparta Prague|Round 30|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-20|Czech First League|domestic-league|Banik Ostrava|1|0|Jablonec|Round 30|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-20|Czech First League|domestic-league|Slavia Prague|3|0|Zlin|Round 30|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-20|Czech First League|domestic-league|Slovacko|2|0|Slovan Liberec|Round 30|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-20|Czech First League|domestic-league|Teplice|2|1|Ceske Budejovice|Round 30|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-23|Czech First League|domestic-league|Sparta Prague|3|1|Banik Ostrava|Titul R31|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-23|Czech First League|domestic-league|Jablonec|0|1|Pardubice|Zachranu R31|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-23|Czech First League|domestic-league|Karvina|1|1|Zlin|Zachranu R31|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-23|Czech First League|domestic-league|Teplice|2|2|Bohemians 1905|Zachranu R31|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-24|Czech First League|domestic-league|Hradec Kralove|4|3|Slavia Prague|Titul R31|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-24|Czech First League|domestic-league|Viktoria Plzen|3|1|Slovacko|Titul R31|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-24|Czech First League|domestic-league|Ceske Budejovice|2|3|Mlada Boleslav|Evropu-SF L1|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-24|Czech First League|domestic-league|Sigma Olomouc|1|0|Slovan Liberec|Evropu-SF L1|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-30|Czech First League|domestic-league|Slovacko|3|1|Banik Ostrava|Titul R32|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-30|Czech First League|domestic-league|Sparta Prague|1|1|Hradec Kralove|Titul R32|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-30|Czech First League|domestic-league|Slovan Liberec|0|2|Sigma Olomouc|Evropu-SF L2|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2022
+MATCH|2022-04-30|Czech First League|domestic-league|Mlada Boleslav|1|0|Ceske Budejovice|Evropu-SF L2|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-01|Czech First League|domestic-league|Slavia Prague|1|1|Viktoria Plzen|Titul R32|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-01|Czech First League|domestic-league|Bohemians 1905|0|1|Pardubice|Zachranu R32|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-01|Czech First League|domestic-league|Jablonec|2|0|Karvina|Zachranu R32|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-01|Czech First League|domestic-league|Zlin|3|0|Teplice|Zachranu R32|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-06|Czech First League|domestic-league|Sigma Olomouc|1|2|Mlada Boleslav|Evropu-F L1|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-07|Czech First League|domestic-league|Banik Ostrava|3|1|Hradec Kralove|Titul R33|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-07|Czech First League|domestic-league|Pardubice|2|0|Karvina|Zachranu R33|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-07|Czech First League|domestic-league|Teplice|0|1|Jablonec|Zachranu R33|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-07|Czech First League|domestic-league|Zlin|1|4|Bohemians 1905|Zachranu R33|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-08|Czech First League|domestic-league|Viktoria Plzen|3|0|Sparta Prague|Titul R33|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-08|Czech First League|domestic-league|Slavia Prague|3|0|Slovacko|Titul R33|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-10|Czech First League|domestic-league|Jablonec|1|1|Bohemians 1905|Zachranu R34|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-10|Czech First League|domestic-league|Karvina|2|2|Teplice|Zachranu R34|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-10|Czech First League|domestic-league|Pardubice|1|1|Zlin|Zachranu R34|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-11|Czech First League|domestic-league|Hradec Kralove|0|2|Viktoria Plzen|Titul R34|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-11|Czech First League|domestic-league|Banik Ostrava|1|1|Slavia Prague|Titul R34|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-11|Czech First League|domestic-league|Sparta Prague|1|2|Slovacko|Titul R34|Generali Ceska pojistovna Arena|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-13|Czech First League|domestic-league|Mlada Boleslav|2|2|Sigma Olomouc|Evropu-F L2|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-14|Czech First League|domestic-league|Bohemians 1905|4|0|Karvina|Zachranu R35|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-14|Czech First League|domestic-league|Teplice|0|2|Pardubice|Zachranu R35|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-14|Czech First League|domestic-league|Zlin|1|1|Jablonec|Zachranu R35|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-15|Czech First League|domestic-league|Viktoria Plzen|1|0|Banik Ostrava|Titul R35|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-15|Czech First League|domestic-league|Slavia Prague|1|2|Sparta Prague|Titul R35|Sinobo Stadium|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-15|Czech First League|domestic-league|Slovacko|3|0|Hradec Kralove|Titul R35|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-19|Czech Relegation Playoffs|other|Opava|0|1|Bohemians 1905|Playoff leg1|Stadion v Mestskych sadech|Opava|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-19|Czech Relegation Playoffs|other|Teplice|3|0|Vlasim|Playoff leg1|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-22|Czech Relegation Playoffs|other|Bohemians 1905|2|0|Opava|Playoff leg2|Dolicek|Prague|Czech Republic||rsssf-tsje2022
+MATCH|2022-05-22|Czech Relegation Playoffs|other|Vlasim|2|2|Teplice|Playoff leg2|Stadion Kollarova ulice|Vlasim|Czech Republic||rsssf-tsje2022
+MATCH|2022-07-30|Czech First League|domestic-league|Zbrojovka Brno|2|2|Slovacko|Round 1|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2022-07-30|Czech First League|domestic-league|Banik Ostrava|0|3|Sigma Olomouc|Round 1|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-07-30|Czech First League|domestic-league|Teplice|2|2|Viktoria Plzen|Round 1|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-07-30|Czech First League|domestic-league|Zlin|0|0|Mlada Boleslav|Round 1|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2022-07-31|Czech First League|domestic-league|Hradec Kralove|1|0|Slavia Prague|Round 1|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-07-31|Czech First League|domestic-league|Jablonec|0|3|Bohemians 1905|Round 1|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-07-31|Czech First League|domestic-league|Pardubice|0|2|Ceske Budejovice|Round 1|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-07-31|Czech First League|domestic-league|Sparta Prague|1|2|Slovan Liberec|Round 1|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-06|Czech First League|domestic-league|Bohemians 1905|3|3|Banik Ostrava|Round 2|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-06|Czech First League|domestic-league|Slovan Liberec|5|1|Teplice|Round 2|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-06|Czech First League|domestic-league|Sigma Olomouc|0|2|Zbrojovka Brno|Round 2|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-06|Czech First League|domestic-league|Viktoria Plzen|2|1|Pardubice|Round 2|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-07|Czech First League|domestic-league|Ceske Budejovice|0|2|Sparta Prague|Round 2|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-07|Czech First League|domestic-league|Mlada Boleslav|2|2|Jablonec|Round 2|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-07|Czech First League|domestic-league|Slavia Prague|4|1|Zlin|Round 2|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-07|Czech First League|domestic-league|Slovacko|1|0|Hradec Kralove|Round 2|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-13|Czech First League|domestic-league|Zbrojovka Brno|3|1|Mlada Boleslav|Round 3|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-13|Czech First League|domestic-league|Hradec Kralove|1|2|Viktoria Plzen|Round 3|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-13|Czech First League|domestic-league|Banik Ostrava|3|1|Zlin|Round 3|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-13|Czech First League|domestic-league|Teplice|0|1|Bohemians 1905|Round 3|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-14|Czech First League|domestic-league|Ceske Budejovice|2|2|Slovacko|Round 3|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-14|Czech First League|domestic-league|Jablonec|2|3|Slavia Prague|Round 3|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-14|Czech First League|domestic-league|Pardubice|2|1|Slovan Liberec|Round 3|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-14|Czech First League|domestic-league|Sparta Prague|2|0|Sigma Olomouc|Round 3|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-20|Czech First League|domestic-league|Mlada Boleslav|1|3|Sparta Prague|Round 4|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-20|Czech First League|domestic-league|Banik Ostrava|1|2|Teplice|Round 4|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-22|Czech First League|domestic-league|Bohemians 1905|1|2|Hradec Kralove|Round 4|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-22|Czech First League|domestic-league|Slovan Liberec|1|1|Ceske Budejovice|Round 4|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-22|Czech First League|domestic-league|Sigma Olomouc|1|2|Slovacko|Round 4|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-22|Czech First League|domestic-league|Slavia Prague|7|0|Pardubice|Round 4|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-22|Czech First League|domestic-league|Zlin|2|2|Jablonec|Round 4|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-27|Czech First League|domestic-league|Ceske Budejovice|0|1|Viktoria Plzen|Round 5|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-27|Czech First League|domestic-league|Jablonec|1|1|Banik Ostrava|Round 5|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-27|Czech First League|domestic-league|Pardubice|0|3|Mlada Boleslav|Round 5|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-27|Czech First League|domestic-league|Sparta Prague|1|1|Bohemians 1905|Round 5|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-27|Czech First League|domestic-league|Teplice|0|0|Zlin|Round 5|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-28|Czech First League|domestic-league|Zbrojovka Brno|0|4|Slavia Prague|Round 5|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-28|Czech First League|domestic-league|Hradec Kralove|1|0|Sigma Olomouc|Round 5|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-28|Czech First League|domestic-league|Slovacko|1|2|Slovan Liberec|Round 5|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-30|Czech First League|domestic-league|Bohemians 1905|1|2|Ceske Budejovice|Round 6|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-30|Czech First League|domestic-league|Jablonec|1|1|Sparta Prague|Round 6|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-30|Czech First League|domestic-league|Zlin|2|1|Pardubice|Round 6|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-31|Czech First League|domestic-league|Mlada Boleslav|1|2|Hradec Kralove|Round 6|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-31|Czech First League|domestic-league|Sigma Olomouc|1|1|Slovan Liberec|Round 6|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-31|Czech First League|domestic-league|Banik Ostrava|1|2|Zbrojovka Brno|Round 6|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-31|Czech First League|domestic-league|Viktoria Plzen|3|0|Slovacko|Round 6|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2022-08-31|Czech First League|domestic-league|Slavia Prague|6|0|Teplice|Round 6|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-03|Czech First League|domestic-league|Ceske Budejovice|0|2|Mlada Boleslav|Round 7|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-03|Czech First League|domestic-league|Slovan Liberec|0|1|Viktoria Plzen|Round 7|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-03|Czech First League|domestic-league|Sparta Prague|0|0|Zlin|Round 7|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-03|Czech First League|domestic-league|Teplice|3|2|Jablonec|Round 7|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-04|Czech First League|domestic-league|Zbrojovka Brno|1|2|Bohemians 1905|Round 7|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-04|Czech First League|domestic-league|Hradec Kralove|0|0|Banik Ostrava|Round 7|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-04|Czech First League|domestic-league|Pardubice|0|2|Sigma Olomouc|Round 7|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-04|Czech First League|domestic-league|Slovacko|1|1|Slavia Prague|Round 7|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-10|Czech First League|domestic-league|Sigma Olomouc|2|3|Viktoria Plzen|Round 8|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-10|Czech First League|domestic-league|Teplice|2|2|Sparta Prague|Round 8|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-10|Czech First League|domestic-league|Zlin|2|3|Zbrojovka Brno|Round 8|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-11|Czech First League|domestic-league|Bohemians 1905|0|2|Slovan Liberec|Round 8|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-11|Czech First League|domestic-league|Jablonec|3|0|Hradec Kralove|Round 8|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-11|Czech First League|domestic-league|Mlada Boleslav|1|1|Slovacko|Round 8|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-11|Czech First League|domestic-league|Banik Ostrava|3|0|Pardubice|Round 8|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-11|Czech First League|domestic-league|Slavia Prague|6|1|Ceske Budejovice|Round 8|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-17|Czech First League|domestic-league|Zbrojovka Brno|2|2|Teplice|Round 9|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-17|Czech First League|domestic-league|Ceske Budejovice|0|3|Sigma Olomouc|Round 9|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-17|Czech First League|domestic-league|Slovan Liberec|1|3|Mlada Boleslav|Round 9|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-17|Czech First League|domestic-league|Sparta Prague|1|1|Banik Ostrava|Round 9|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-18|Czech First League|domestic-league|Hradec Kralove|0|0|Zlin|Round 9|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-18|Czech First League|domestic-league|Pardubice|0|1|Bohemians 1905|Round 9|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-18|Czech First League|domestic-league|Viktoria Plzen|3|0|Slavia Prague|Round 9|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2022-09-18|Czech First League|domestic-league|Slovacko|0|2|Jablonec|Round 9|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-01|Czech First League|domestic-league|Bohemians 1905|1|1|Viktoria Plzen|Round 10|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-01|Czech First League|domestic-league|Mlada Boleslav|1|1|Sigma Olomouc|Round 10|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-01|Czech First League|domestic-league|Banik Ostrava|1|2|Ceske Budejovice|Round 10|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-01|Czech First League|domestic-league|Sparta Prague|2|1|Hradec Kralove|Round 10|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-02|Czech First League|domestic-league|Jablonec|3|1|Zbrojovka Brno|Round 10|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-02|Czech First League|domestic-league|Slavia Prague|3|0|Slovan Liberec|Round 10|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-02|Czech First League|domestic-league|Teplice|5|1|Pardubice|Round 10|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-02|Czech First League|domestic-league|Zlin|0|2|Slovacko|Round 10|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-08|Czech First League|domestic-league|Zbrojovka Brno|0|4|Sparta Prague|Round 11|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-08|Czech First League|domestic-league|Hradec Kralove|4|1|Teplice|Round 11|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-08|Czech First League|domestic-league|Pardubice|1|0|Jablonec|Round 11|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-08|Czech First League|domestic-league|Viktoria Plzen|2|0|Mlada Boleslav|Round 11|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-09|Czech First League|domestic-league|Ceske Budejovice|2|2|Zlin|Round 11|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-09|Czech First League|domestic-league|Slovan Liberec|0|0|Banik Ostrava|Round 11|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-09|Czech First League|domestic-league|Sigma Olomouc|2|0|Slavia Prague|Round 11|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-09|Czech First League|domestic-league|Slovacko|2|4|Bohemians 1905|Round 11|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-15|Czech First League|domestic-league|Bohemians 1905|1|1|Sigma Olomouc|Round 12|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-15|Czech First League|domestic-league|Hradec Kralove|2|1|Zbrojovka Brno|Round 12|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-15|Czech First League|domestic-league|Sparta Prague|5|2|Pardubice|Round 12|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-15|Czech First League|domestic-league|Teplice|0|2|Ceske Budejovice|Round 12|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-16|Czech First League|domestic-league|Jablonec|0|3|Viktoria Plzen|Round 12|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-16|Czech First League|domestic-league|Banik Ostrava|3|1|Slovacko|Round 12|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-16|Czech First League|domestic-league|Slavia Prague|2|1|Mlada Boleslav|Round 12|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-16|Czech First League|domestic-league|Zlin|2|1|Slovan Liberec|Round 12|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-22|Czech First League|domestic-league|Slovan Liberec|2|0|Jablonec|Round 13|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-22|Czech First League|domestic-league|Sigma Olomouc|2|1|Zlin|Round 13|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-22|Czech First League|domestic-league|Pardubice|1|3|Zbrojovka Brno|Round 13|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-22|Czech First League|domestic-league|Viktoria Plzen|3|1|Banik Ostrava|Round 13|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-23|Czech First League|domestic-league|Ceske Budejovice|0|3|Hradec Kralove|Round 13|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-23|Czech First League|domestic-league|Mlada Boleslav|4|3|Bohemians 1905|Round 13|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-23|Czech First League|domestic-league|Slavia Prague|4|0|Sparta Prague|Round 13|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-23|Czech First League|domestic-league|Slovacko|2|1|Teplice|Round 13|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-29|Czech First League|domestic-league|Hradec Kralove|1|3|Pardubice|Round 14|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-29|Czech First League|domestic-league|Jablonec|3|0|Ceske Budejovice|Round 14|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-29|Czech First League|domestic-league|Banik Ostrava|3|1|Mlada Boleslav|Round 14|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-29|Czech First League|domestic-league|Zlin|0|3|Viktoria Plzen|Round 14|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-30|Czech First League|domestic-league|Bohemians 1905|1|4|Slavia Prague|Round 14|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-30|Czech First League|domestic-league|Zbrojovka Brno|3|0|Slovan Liberec|Round 14|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2022-10-30|Czech First League|domestic-league|Teplice|2|1|Sigma Olomouc|Round 14|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-05|Czech First League|domestic-league|Bohemians 1905|3|2|Zlin|Round 15|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-05|Czech First League|domestic-league|Ceske Budejovice|3|2|Zbrojovka Brno|Round 15|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-05|Czech First League|domestic-league|Sigma Olomouc|3|0|Jablonec|Round 15|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-05|Czech First League|domestic-league|Viktoria Plzen|0|1|Sparta Prague|Round 15|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-06|Czech First League|domestic-league|Slovan Liberec|2|0|Hradec Kralove|Round 15|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-06|Czech First League|domestic-league|Mlada Boleslav|3|0|Teplice|Round 15|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-06|Czech First League|domestic-league|Slavia Prague|3|1|Banik Ostrava|Round 15|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-06|Czech First League|domestic-league|Slovacko|1|0|Pardubice|Round 15|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-09|Czech First League|domestic-league|Viktoria Plzen|4|0|Zbrojovka Brno|Round 4|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-09|Czech First League|domestic-league|Sparta Prague|4|0|Slovacko|Round 14|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-12|Czech First League|domestic-league|Jablonec|1|2|Mlada Boleslav|Round 16|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-12|Czech First League|domestic-league|Banik Ostrava|4|1|Bohemians 1905|Round 16|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-12|Czech First League|domestic-league|Sparta Prague|1|0|Ceske Budejovice|Round 16|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-12|Czech First League|domestic-league|Teplice|2|1|Slovan Liberec|Round 16|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-13|Czech First League|domestic-league|Zbrojovka Brno|2|3|Sigma Olomouc|Round 16|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-13|Czech First League|domestic-league|Hradec Kralove|1|2|Slovacko|Round 16|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-13|Czech First League|domestic-league|Pardubice|1|1|Viktoria Plzen|Round 16|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2022-11-13|Czech First League|domestic-league|Zlin|0|4|Slavia Prague|Round 16|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-01-28|Czech First League|domestic-league|Bohemians 1905|2|0|Teplice|Round 17|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-01-28|Czech First League|domestic-league|Sigma Olomouc|1|1|Sparta Prague|Round 17|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-01-28|Czech First League|domestic-league|Viktoria Plzen|1|2|Hradec Kralove|Round 17|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-01-28|Czech First League|domestic-league|Slovacko|1|0|Ceske Budejovice|Round 17|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-01-29|Czech First League|domestic-league|Slovan Liberec|1|1|Pardubice|Round 17|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-01-29|Czech First League|domestic-league|Mlada Boleslav|0|0|Zbrojovka Brno|Round 17|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-01-29|Czech First League|domestic-league|Slavia Prague|5|1|Jablonec|Round 17|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-01-29|Czech First League|domestic-league|Zlin|1|1|Banik Ostrava|Round 17|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-04|Czech First League|domestic-league|Jablonec|2|2|Zlin|Round 18|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-04|Czech First League|domestic-league|Pardubice|0|2|Slavia Prague|Round 18|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-04|Czech First League|domestic-league|Slovacko|0|0|Sigma Olomouc|Round 18|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-04|Czech First League|domestic-league|Teplice|0|5|Banik Ostrava|Round 18|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-05|Czech First League|domestic-league|Zbrojovka Brno|1|3|Viktoria Plzen|Round 18|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-05|Czech First League|domestic-league|Ceske Budejovice|0|2|Slovan Liberec|Round 18|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-05|Czech First League|domestic-league|Hradec Kralove|0|2|Bohemians 1905|Round 18|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-05|Czech First League|domestic-league|Sparta Prague|4|1|Mlada Boleslav|Round 18|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-11|Czech First League|domestic-league|Slovan Liberec|0|1|Slovacko|Round 19|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-11|Czech First League|domestic-league|Banik Ostrava|1|2|Jablonec|Round 19|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-11|Czech First League|domestic-league|Slavia Prague|2|0|Zbrojovka Brno|Round 19|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-11|Czech First League|domestic-league|Zlin|2|1|Teplice|Round 19|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-12|Czech First League|domestic-league|Bohemians 1905|2|6|Sparta Prague|Round 19|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-12|Czech First League|domestic-league|Mlada Boleslav|0|1|Pardubice|Round 19|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-12|Czech First League|domestic-league|Sigma Olomouc|2|2|Hradec Kralove|Round 19|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-12|Czech First League|domestic-league|Viktoria Plzen|2|1|Ceske Budejovice|Round 19|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-18|Czech First League|domestic-league|Zbrojovka Brno|2|1|Banik Ostrava|Round 20|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-18|Czech First League|domestic-league|Hradec Kralove|0|1|Mlada Boleslav|Round 20|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-18|Czech First League|domestic-league|Slovan Liberec|2|2|Sigma Olomouc|Round 20|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-18|Czech First League|domestic-league|Teplice|1|1|Slavia Prague|Round 20|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-19|Czech First League|domestic-league|Ceske Budejovice|1|0|Bohemians 1905|Round 20|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-19|Czech First League|domestic-league|Pardubice|2|1|Zlin|Round 20|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-19|Czech First League|domestic-league|Slovacko|2|0|Viktoria Plzen|Round 20|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-19|Czech First League|domestic-league|Sparta Prague|3|0|Jablonec|Round 20|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-25|Czech First League|domestic-league|Bohemians 1905|1|1|Zbrojovka Brno|Round 21|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-25|Czech First League|domestic-league|Mlada Boleslav|2|2|Ceske Budejovice|Round 21|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-25|Czech First League|domestic-league|Viktoria Plzen|2|1|Slovan Liberec|Round 21|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-25|Czech First League|domestic-league|Zlin|2|3|Sparta Prague|Round 21|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-26|Czech First League|domestic-league|Jablonec|4|1|Teplice|Round 21|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-26|Czech First League|domestic-league|Sigma Olomouc|2|2|Pardubice|Round 21|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-26|Czech First League|domestic-league|Banik Ostrava|0|2|Hradec Kralove|Round 21|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-02-26|Czech First League|domestic-league|Slavia Prague|2|0|Slovacko|Round 21|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-04|Czech First League|domestic-league|Zbrojovka Brno|1|1|Zlin|Round 22|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-04|Czech First League|domestic-league|Hradec Kralove|1|4|Jablonec|Round 22|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-04|Czech First League|domestic-league|Pardubice|1|1|Banik Ostrava|Round 22|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-04|Czech First League|domestic-league|Viktoria Plzen|1|1|Sigma Olomouc|Round 22|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-04|Czech First League|domestic-league|Sparta Prague|4|1|Teplice|Round 22|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-05|Czech First League|domestic-league|Ceske Budejovice|1|0|Slavia Prague|Round 22|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-05|Czech First League|domestic-league|Slovan Liberec|1|3|Bohemians 1905|Round 22|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-05|Czech First League|domestic-league|Slovacko|2|1|Mlada Boleslav|Round 22|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-11|Czech First League|domestic-league|Banik Ostrava|0|3|Sparta Prague|Round 23|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-12|Czech First League|domestic-league|Mlada Boleslav|4|0|Slovan Liberec|Round 23|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-12|Czech First League|domestic-league|Sigma Olomouc|3|0|Ceske Budejovice|Round 23|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-12|Czech First League|domestic-league|Slavia Prague|2|1|Viktoria Plzen|Round 23|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-12|Czech First League|domestic-league|Zlin|2|2|Hradec Kralove|Round 23|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-13|Czech First League|domestic-league|Bohemians 1905|2|0|Pardubice|Round 23|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-13|Czech First League|domestic-league|Teplice|1|1|Zbrojovka Brno|Round 23|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-18|Czech First League|domestic-league|Ceske Budejovice|2|1|Banik Ostrava|Round 24|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-18|Czech First League|domestic-league|Hradec Kralove|0|2|Sparta Prague|Round 24|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-18|Czech First League|domestic-league|Slovan Liberec|2|2|Slavia Prague|Round 24|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-18|Czech First League|domestic-league|Sigma Olomouc|2|0|Mlada Boleslav|Round 24|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-19|Czech First League|domestic-league|Zbrojovka Brno|1|2|Jablonec|Round 24|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-19|Czech First League|domestic-league|Pardubice|3|1|Teplice|Round 24|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-19|Czech First League|domestic-league|Viktoria Plzen|1|2|Bohemians 1905|Round 24|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-03-19|Czech First League|domestic-league|Slovacko|3|0|Zlin|Round 24|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-01|Czech First League|domestic-league|Mlada Boleslav|0|0|Viktoria Plzen|Round 25|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-01|Czech First League|domestic-league|Banik Ostrava|0|0|Slovan Liberec|Round 25|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-01|Czech First League|domestic-league|Slavia Prague|4|0|Sigma Olomouc|Round 25|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-01|Czech First League|domestic-league|Zlin|5|1|Ceske Budejovice|Round 25|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-02|Czech First League|domestic-league|Bohemians 1905|1|0|Slovacko|Round 25|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-02|Czech First League|domestic-league|Jablonec|1|0|Pardubice|Round 25|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-02|Czech First League|domestic-league|Sparta Prague|3|1|Zbrojovka Brno|Round 25|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-02|Czech First League|domestic-league|Teplice|1|0|Hradec Kralove|Round 25|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-05|Czech First League|domestic-league|Jablonec|1|1|Slovacko|Round 23|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-08|Czech First League|domestic-league|Zbrojovka Brno|1|2|Hradec Kralove|Round 26|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-08|Czech First League|domestic-league|Slovan Liberec|2|1|Zlin|Round 26|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-08|Czech First League|domestic-league|Viktoria Plzen|3|2|Jablonec|Round 26|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-08|Czech First League|domestic-league|Slovacko|0|1|Banik Ostrava|Round 26|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-09|Czech First League|domestic-league|Ceske Budejovice|0|3|Teplice|Round 26|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-09|Czech First League|domestic-league|Mlada Boleslav|1|1|Slavia Prague|Round 26|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-09|Czech First League|domestic-league|Sigma Olomouc|2|2|Bohemians 1905|Round 26|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-09|Czech First League|domestic-league|Pardubice|0|2|Sparta Prague|Round 26|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-15|Czech First League|domestic-league|Jablonec|1|1|Slovan Liberec|Round 27|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-15|Czech First League|domestic-league|Sparta Prague|3|3|Slavia Prague|Round 27|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-15|Czech First League|domestic-league|Teplice|1|3|Slovacko|Round 27|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-15|Czech First League|domestic-league|Zlin|0|1|Sigma Olomouc|Round 27|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-16|Czech First League|domestic-league|Bohemians 1905|4|0|Mlada Boleslav|Round 27|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-16|Czech First League|domestic-league|Zbrojovka Brno|2|1|Pardubice|Round 27|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-16|Czech First League|domestic-league|Hradec Kralove|2|1|Ceske Budejovice|Round 27|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-16|Czech First League|domestic-league|Banik Ostrava|2|1|Viktoria Plzen|Round 27|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-22|Czech First League|domestic-league|Mlada Boleslav|1|0|Banik Ostrava|Round 28|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-22|Czech First League|domestic-league|Sigma Olomouc|1|2|Teplice|Round 28|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-22|Czech First League|domestic-league|Pardubice|1|0|Hradec Kralove|Round 28|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-22|Czech First League|domestic-league|Slavia Prague|3|0|Bohemians 1905|Round 28|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-22|Czech First League|domestic-league|Slovacko|1|1|Sparta Prague|Round 28|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-23|Czech First League|domestic-league|Ceske Budejovice|5|1|Jablonec|Round 28|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-23|Czech First League|domestic-league|Slovan Liberec|3|1|Zbrojovka Brno|Round 28|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-23|Czech First League|domestic-league|Viktoria Plzen|4|0|Zlin|Round 28|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-25|Czech First League|domestic-league|Banik Ostrava|0|2|Slavia Prague|Round 29|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-25|Czech First League|domestic-league|Pardubice|3|1|Slovacko|Round 29|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-25|Czech First League|domestic-league|Teplice|1|1|Mlada Boleslav|Round 29|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-26|Czech First League|domestic-league|Zbrojovka Brno|1|1|Ceske Budejovice|Round 29|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-26|Czech First League|domestic-league|Hradec Kralove|1|2|Slovan Liberec|Round 29|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-26|Czech First League|domestic-league|Jablonec|2|2|Sigma Olomouc|Round 29|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-26|Czech First League|domestic-league|Sparta Prague|2|1|Viktoria Plzen|Round 29|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-26|Czech First League|domestic-league|Zlin|4|1|Bohemians 1905|Round 29|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-30|Czech First League|domestic-league|Bohemians 1905|4|1|Jablonec|Round 30|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-30|Czech First League|domestic-league|Ceske Budejovice|3|1|Pardubice|Round 30|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-30|Czech First League|domestic-league|Slovan Liberec|1|3|Sparta Prague|Round 30|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-30|Czech First League|domestic-league|Mlada Boleslav|1|1|Zlin|Round 30|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-30|Czech First League|domestic-league|Sigma Olomouc|1|4|Banik Ostrava|Round 30|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-30|Czech First League|domestic-league|Viktoria Plzen|1|1|Teplice|Round 30|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-30|Czech First League|domestic-league|Slavia Prague|1|1|Hradec Kralove|Round 30|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-04-30|Czech First League|domestic-league|Slovacko|1|0|Zbrojovka Brno|Round 30|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-06|Czech First League|domestic-league|Viktoria Plzen|2|2|Slovacko|Titul R31|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-06|Czech First League|domestic-league|Banik Ostrava|4|0|Zbrojovka Brno|Zachranu R31|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-06|Czech First League|domestic-league|Teplice|1|0|Pardubice|Zachranu R31|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-06|Czech First League|domestic-league|Zlin|1|1|Jablonec|Zachranu R31|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-07|Czech First League|domestic-league|Sigma Olomouc|0|1|Sparta Prague|Titul R31|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-07|Czech First League|domestic-league|Slavia Prague|6|0|Bohemians 1905|Titul R31|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-07|Czech First League|domestic-league|Ceske Budejovice|3|2|Slovan Liberec|Evropu-SF L1|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-07|Czech First League|domestic-league|Mlada Boleslav|0|0|Hradec Kralove|Evropu-SF L1|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-13|Czech First League|domestic-league|Viktoria Plzen|1|3|Sigma Olomouc|Titul R32|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-13|Czech First League|domestic-league|Sparta Prague|3|2|Slavia Prague|Titul R32|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-13|Czech First League|domestic-league|Hradec Kralove|2|0|Mlada Boleslav|Evropu-SF L2|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-13|Czech First League|domestic-league|Slovan Liberec|4|0|Ceske Budejovice|Evropu-SF L2|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-14|Czech First League|domestic-league|Bohemians 1905|0|0|Slovacko|Titul R32|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-14|Czech First League|domestic-league|Zbrojovka Brno|0|2|Pardubice|Zachranu R32|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-14|Czech First League|domestic-league|Jablonec|1|1|Banik Ostrava|Zachranu R32|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-14|Czech First League|domestic-league|Teplice|2|1|Zlin|Zachranu R32|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-20|Czech First League|domestic-league|Slavia Prague|2|1|Viktoria Plzen|Titul R33|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-20|Czech First League|domestic-league|Slovacko|2|2|Sigma Olomouc|Titul R33|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-20|Czech First League|domestic-league|Sparta Prague|2|1|Bohemians 1905|Titul R33|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-21|Czech First League|domestic-league|Jablonec|1|0|Zbrojovka Brno|Zachranu R33|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-21|Czech First League|domestic-league|Banik Ostrava|2|1|Teplice|Zachranu R33|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-21|Czech First League|domestic-league|Pardubice|1|2|Zlin|Zachranu R33|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-21|Czech First League|domestic-league|Hradec Kralove|0|4|Slovan Liberec|Evropu-F L1|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-23|Czech First League|domestic-league|Sigma Olomouc|2|3|Slavia Prague|Titul R34|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-23|Czech First League|domestic-league|Viktoria Plzen|0|2|Bohemians 1905|Titul R34|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-23|Czech First League|domestic-league|Slovacko|0|0|Sparta Prague|Titul R34|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-24|Czech First League|domestic-league|Pardubice|2|0|Jablonec|Zachranu R34|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-24|Czech First League|domestic-league|Teplice|1|1|Zbrojovka Brno|Zachranu R34|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-24|Czech First League|domestic-league|Zlin|2|1|Banik Ostrava|Zachranu R34|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-26|Czech First League|domestic-league|Slovan Liberec|2|3|Hradec Kralove|Evropu-F L2|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-27|Czech First League|domestic-league|Bohemians 1905|0|1|Sigma Olomouc|Titul R35|Dolicek|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-27|Czech First League|domestic-league|Slavia Prague|4|0|Slovacko|Titul R35|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-27|Czech First League|domestic-league|Sparta Prague|0|1|Viktoria Plzen|Titul R35|epet ARENA|Prague|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-28|Czech First League|domestic-league|Zbrojovka Brno|0|0|Zlin|Zachranu R35|Mestsky fotbalovy stadion Srbska|Brno|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-28|Czech First League|domestic-league|Jablonec|0|2|Teplice|Zachranu R35|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2023
+MATCH|2023-05-28|Czech First League|domestic-league|Banik Ostrava|2|4|Pardubice|Zachranu R35|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2023
+MATCH|2023-06-01|Czech Relegation Playoffs|other|Pribram|0|2|Pardubice|Playoff leg1|Na Litavce|Pribram|Czech Republic||rsssf-tsje2023
+MATCH|2023-06-01|Czech Relegation Playoffs|other|Zlin|1|0|Vyskov|Playoff leg1|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2023
+MATCH|2023-06-04|Czech Relegation Playoffs|other|Pardubice|0|0|Pribram|Playoff leg2|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2023
+MATCH|2023-06-04|Czech Relegation Playoffs|other|Vyskov|0|0|Zlin|Playoff leg2|Sportovni areal Drnovice|Vyskov|Czech Republic||rsssf-tsje2023
+MATCH|2023-07-22|Czech First League|domestic-league|Karvina|4|1|Zlin|Round 1|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-22|Czech First League|domestic-league|Pardubice|0|1|Bohemians 1905|Round 1|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-22|Czech First League|domestic-league|Slavia Prague|2|0|Hradec Kralove|Round 1|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-22|Czech First League|domestic-league|Teplice|1|0|Viktoria Plzen|Round 1|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-23|Czech First League|domestic-league|Slovan Liberec|3|1|Banik Ostrava|Round 1|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-23|Czech First League|domestic-league|Mlada Boleslav|3|1|Jablonec|Round 1|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-23|Czech First League|domestic-league|Slovacko|4|1|Ceske Budejovice|Round 1|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-23|Czech First League|domestic-league|Sparta Prague|2|0|Sigma Olomouc|Round 1|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-29|Czech First League|domestic-league|Sigma Olomouc|3|1|Karvina|Round 2|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-29|Czech First League|domestic-league|Banik Ostrava|0|0|Slovacko|Round 2|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-29|Czech First League|domestic-league|Pardubice|0|0|Jablonec|Round 2|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-29|Czech First League|domestic-league|Zlin|0|1|Sparta Prague|Round 2|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-30|Czech First League|domestic-league|Bohemians 1905|1|2|Teplice|Round 2|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-30|Czech First League|domestic-league|Ceske Budejovice|1|3|Slavia Prague|Round 2|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-30|Czech First League|domestic-league|Mlada Boleslav|2|2|Slovan Liberec|Round 2|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-07-30|Czech First League|domestic-league|Viktoria Plzen|1|1|Hradec Kralove|Round 2|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-05|Czech First League|domestic-league|Hradec Kralove|5|1|Ceske Budejovice|Round 3|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-05|Czech First League|domestic-league|Karvina|1|2|Mlada Boleslav|Round 3|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-05|Czech First League|domestic-league|Slovacko|0|2|Sigma Olomouc|Round 3|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-05|Czech First League|domestic-league|Sparta Prague|5|2|Pardubice|Round 3|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-06|Czech First League|domestic-league|Slovan Liberec|0|1|Bohemians 1905|Round 3|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-06|Czech First League|domestic-league|Viktoria Plzen|3|1|Banik Ostrava|Round 3|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-06|Czech First League|domestic-league|Slavia Prague|2|1|Zlin|Round 3|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-06|Czech First League|domestic-league|Teplice|0|0|Jablonec|Round 3|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-12|Czech First League|domestic-league|Jablonec|1|5|Sparta Prague|Round 4|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-12|Czech First League|domestic-league|Banik Ostrava|2|0|Hradec Kralove|Round 4|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-12|Czech First League|domestic-league|Zlin|1|1|Slovan Liberec|Round 4|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-13|Czech First League|domestic-league|Bohemians 1905|0|1|Slovacko|Round 4|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-13|Czech First League|domestic-league|Ceske Budejovice|2|5|Viktoria Plzen|Round 4|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-13|Czech First League|domestic-league|Mlada Boleslav|0|1|Slavia Prague|Round 4|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-13|Czech First League|domestic-league|Sigma Olomouc|2|1|Teplice|Round 4|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-13|Czech First League|domestic-league|Pardubice|2|1|Karvina|Round 4|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-19|Czech First League|domestic-league|Karvina|1|1|Jablonec|Round 5|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-19|Czech First League|domestic-league|Slovan Liberec|1|0|Pardubice|Round 5|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-19|Czech First League|domestic-league|Slovacko|2|2|Mlada Boleslav|Round 5|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-19|Czech First League|domestic-league|Teplice|1|1|Sparta Prague|Round 5|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-20|Czech First League|domestic-league|Ceske Budejovice|3|0|Bohemians 1905|Round 5|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-20|Czech First League|domestic-league|Hradec Kralove|2|0|Zlin|Round 5|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-20|Czech First League|domestic-league|Viktoria Plzen|2|1|Sigma Olomouc|Round 5|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-20|Czech First League|domestic-league|Slavia Prague|1|0|Banik Ostrava|Round 5|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-26|Czech First League|domestic-league|Banik Ostrava|2|0|Ceske Budejovice|Round 6|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-26|Czech First League|domestic-league|Pardubice|0|1|Slovacko|Round 6|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-26|Czech First League|domestic-league|Zlin|2|1|Teplice|Round 6|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-27|Czech First League|domestic-league|Bohemians 1905|2|1|Hradec Kralove|Round 6|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-27|Czech First League|domestic-league|Jablonec|1|1|Slavia Prague|Round 6|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-27|Czech First League|domestic-league|Sigma Olomouc|2|0|Slovan Liberec|Round 6|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-08-27|Czech First League|domestic-league|Sparta Prague|3|1|Karvina|Round 6|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-02|Czech First League|domestic-league|Ceske Budejovice|2|1|Jablonec|Round 7|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-02|Czech First League|domestic-league|Banik Ostrava|2|0|Mlada Boleslav|Round 7|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-02|Czech First League|domestic-league|Slovacko|1|0|Zlin|Round 7|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-02|Czech First League|domestic-league|Teplice|0|1|Pardubice|Round 7|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-03|Czech First League|domestic-league|Hradec Kralove|1|3|Sigma Olomouc|Round 7|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-03|Czech First League|domestic-league|Slovan Liberec|0|2|Sparta Prague|Round 7|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-03|Czech First League|domestic-league|Viktoria Plzen|2|0|Bohemians 1905|Round 7|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-03|Czech First League|domestic-league|Slavia Prague|5|1|Karvina|Round 7|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-16|Czech First League|domestic-league|Bohemians 1905|1|1|Banik Ostrava|Round 8|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-16|Czech First League|domestic-league|Karvina|0|1|Teplice|Round 8|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-16|Czech First League|domestic-league|Mlada Boleslav|5|1|Hradec Kralove|Round 8|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-16|Czech First League|domestic-league|Sigma Olomouc|2|1|Ceske Budejovice|Round 8|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-16|Czech First League|domestic-league|Pardubice|0|1|Slavia Prague|Round 8|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-17|Czech First League|domestic-league|Jablonec|1|1|Slovan Liberec|Round 8|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-17|Czech First League|domestic-league|Sparta Prague|5|0|Slovacko|Round 8|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-17|Czech First League|domestic-league|Zlin|1|7|Viktoria Plzen|Round 8|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-23|Czech First League|domestic-league|Bohemians 1905|3|2|Sigma Olomouc|Round 9|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-23|Czech First League|domestic-league|Ceske Budejovice|1|2|Mlada Boleslav|Round 9|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-23|Czech First League|domestic-league|Slovan Liberec|3|3|Teplice|Round 9|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-23|Czech First League|domestic-league|Banik Ostrava|5|1|Zlin|Round 9|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-23|Czech First League|domestic-league|Slovacko|2|0|Karvina|Round 9|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-24|Czech First League|domestic-league|Hradec Kralove|1|0|Jablonec|Round 9|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-24|Czech First League|domestic-league|Viktoria Plzen|6|2|Pardubice|Round 9|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-24|Czech First League|domestic-league|Slavia Prague|1|1|Sparta Prague|Round 9|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-30|Czech First League|domestic-league|Jablonec|2|0|Slovacko|Round 10|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-30|Czech First League|domestic-league|Karvina|5|2|Slovan Liberec|Round 10|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-30|Czech First League|domestic-league|Sigma Olomouc|0|3|Banik Ostrava|Round 10|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-30|Czech First League|domestic-league|Sparta Prague|2|1|Viktoria Plzen|Round 10|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-09-30|Czech First League|domestic-league|Zlin|1|1|Ceske Budejovice|Round 10|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-01|Czech First League|domestic-league|Mlada Boleslav|2|1|Bohemians 1905|Round 10|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-01|Czech First League|domestic-league|Pardubice|1|1|Hradec Kralove|Round 10|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-01|Czech First League|domestic-league|Teplice|0|0|Slavia Prague|Round 10|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-07|Czech First League|domestic-league|Bohemians 1905|0|0|Zlin|Round 11|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-07|Czech First League|domestic-league|Ceske Budejovice|1|0|Karvina|Round 11|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-07|Czech First League|domestic-league|Sigma Olomouc|4|0|Mlada Boleslav|Round 11|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-07|Czech First League|domestic-league|Banik Ostrava|1|1|Pardubice|Round 11|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-07|Czech First League|domestic-league|Slovacko|2|0|Teplice|Round 11|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-08|Czech First League|domestic-league|Hradec Kralove|1|3|Sparta Prague|Round 11|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-08|Czech First League|domestic-league|Slovan Liberec|2|3|Slavia Prague|Round 11|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-08|Czech First League|domestic-league|Viktoria Plzen|3|2|Jablonec|Round 11|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-21|Czech First League|domestic-league|Karvina|1|0|Hradec Kralove|Round 12|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-21|Czech First League|domestic-league|Slovan Liberec|3|0|Viktoria Plzen|Round 12|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-21|Czech First League|domestic-league|Pardubice|1|1|Sigma Olomouc|Round 12|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-21|Czech First League|domestic-league|Slavia Prague|2|0|Slovacko|Round 12|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-21|Czech First League|domestic-league|Zlin|5|9|Mlada Boleslav|Round 12|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-22|Czech First League|domestic-league|Jablonec|0|1|Bohemians 1905|Round 12|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-22|Czech First League|domestic-league|Sparta Prague|4|0|Ceske Budejovice|Round 12|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-22|Czech First League|domestic-league|Teplice|0|1|Banik Ostrava|Round 12|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-28|Czech First League|domestic-league|Ceske Budejovice|0|1|Pardubice|Round 13|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-28|Czech First League|domestic-league|Hradec Kralove|1|0|Teplice|Round 13|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-28|Czech First League|domestic-league|Sigma Olomouc|0|0|Zlin|Round 13|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-28|Czech First League|domestic-league|Banik Ostrava|0|1|Jablonec|Round 13|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-28|Czech First League|domestic-league|Slovacko|1|1|Slovan Liberec|Round 13|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-29|Czech First League|domestic-league|Bohemians 1905|0|2|Slavia Prague|Round 13|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-29|Czech First League|domestic-league|Mlada Boleslav|3|1|Sparta Prague|Round 13|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-10-29|Czech First League|domestic-league|Viktoria Plzen|0|1|Karvina|Round 13|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-04|Czech First League|domestic-league|Jablonec|1|1|Sigma Olomouc|Round 14|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-04|Czech First League|domestic-league|Pardubice|0|1|Zlin|Round 14|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-04|Czech First League|domestic-league|Slovacko|0|0|Hradec Kralove|Round 14|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-04|Czech First League|domestic-league|Teplice|1|0|Mlada Boleslav|Round 14|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-05|Czech First League|domestic-league|Karvina|1|3|Banik Ostrava|Round 14|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-05|Czech First League|domestic-league|Slovan Liberec|1|0|Ceske Budejovice|Round 14|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-05|Czech First League|domestic-league|Slavia Prague|1|2|Viktoria Plzen|Round 14|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-05|Czech First League|domestic-league|Sparta Prague|2|0|Bohemians 1905|Round 14|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-11|Czech First League|domestic-league|Bohemians 1905|1|0|Karvina|Round 15|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-11|Czech First League|domestic-league|Ceske Budejovice|0|1|Teplice|Round 15|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-11|Czech First League|domestic-league|Hradec Kralove|1|1|Slovan Liberec|Round 15|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-11|Czech First League|domestic-league|Mlada Boleslav|1|0|Pardubice|Round 15|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-11|Czech First League|domestic-league|Zlin|1|1|Jablonec|Round 15|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-12|Czech First League|domestic-league|Sigma Olomouc|1|3|Slavia Prague|Round 15|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-12|Czech First League|domestic-league|Banik Ostrava|0|1|Sparta Prague|Round 15|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-12|Czech First League|domestic-league|Viktoria Plzen|1|4|Slovacko|Round 15|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-25|Czech First League|domestic-league|Hradec Kralove|1|1|Viktoria Plzen|Round 16|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-25|Czech First League|domestic-league|Karvina|0|2|Sigma Olomouc|Round 16|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-25|Czech First League|domestic-league|Slovan Liberec|2|1|Mlada Boleslav|Round 16|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-25|Czech First League|domestic-league|Slavia Prague|2|1|Ceske Budejovice|Round 16|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-25|Czech First League|domestic-league|Teplice|1|1|Bohemians 1905|Round 16|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-26|Czech First League|domestic-league|Jablonec|2|1|Pardubice|Round 16|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-26|Czech First League|domestic-league|Slovacko|2|0|Banik Ostrava|Round 16|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-11-26|Czech First League|domestic-league|Sparta Prague|2|0|Zlin|Round 16|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-02|Czech First League|domestic-league|Sigma Olomouc|1|1|Slovacko|Round 17|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-03|Czech First League|domestic-league|Pardubice|1|2|Sparta Prague|Round 17|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-06|Czech First League|domestic-league|Jablonec|3|2|Teplice|Round 17|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-06|Czech First League|domestic-league|Mlada Boleslav|1|3|Viktoria Plzen|Round 6|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-09|Czech First League|domestic-league|Slovan Liberec|5|3|Zlin|Round 18|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-09|Czech First League|domestic-league|Slovacko|5|2|Bohemians 1905|Round 18|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-09|Czech First League|domestic-league|Sparta Prague|3|0|Jablonec|Round 18|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-10|Czech First League|domestic-league|Hradec Kralove|2|3|Banik Ostrava|Round 18|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-10|Czech First League|domestic-league|Viktoria Plzen|5|0|Ceske Budejovice|Round 18|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-10|Czech First League|domestic-league|Slavia Prague|2|0|Mlada Boleslav|Round 18|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-13|Czech First League|domestic-league|Bohemians 1905|0|0|Slovan Liberec|Round 17|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-13|Czech First League|domestic-league|Ceske Budejovice|0|2|Hradec Kralove|Round 17|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-13|Czech First League|domestic-league|Mlada Boleslav|2|2|Karvina|Round 17|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-16|Czech First League|domestic-league|Bohemians 1905|0|0|Ceske Budejovice|Round 19|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-16|Czech First League|domestic-league|Jablonec|0|0|Karvina|Round 19|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-16|Czech First League|domestic-league|Mlada Boleslav|0|1|Slovacko|Round 19|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-16|Czech First League|domestic-league|Pardubice|2|0|Slovan Liberec|Round 19|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-16|Czech First League|domestic-league|Zlin|4|0|Hradec Kralove|Round 19|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-17|Czech First League|domestic-league|Sigma Olomouc|1|3|Viktoria Plzen|Round 19|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-17|Czech First League|domestic-league|Banik Ostrava|2|3|Slavia Prague|Round 19|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2023-12-17|Czech First League|domestic-league|Sparta Prague|2|1|Teplice|Round 19|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-10|Czech First League|domestic-league|Ceske Budejovice|3|0|Banik Ostrava|Round 20|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-10|Czech First League|domestic-league|Karvina|0|3|Sparta Prague|Round 20|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-10|Czech First League|domestic-league|Slovan Liberec|2|0|Sigma Olomouc|Round 20|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-10|Czech First League|domestic-league|Viktoria Plzen|1|1|Mlada Boleslav|Round 20|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-10|Czech First League|domestic-league|Slovacko|1|2|Pardubice|Round 20|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-11|Czech First League|domestic-league|Hradec Kralove|2|2|Bohemians 1905|Round 20|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-11|Czech First League|domestic-league|Slavia Prague|4|3|Jablonec|Round 20|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-11|Czech First League|domestic-league|Teplice|2|1|Zlin|Round 20|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-13|Czech First League|domestic-league|Banik Ostrava|0|1|Viktoria Plzen|Round 17|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-14|Czech First League|domestic-league|Karvina|0|3|Pardubice|Round 18|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-14|Czech First League|domestic-league|Zlin|1|1|Slavia Prague|Round 17|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-17|Czech First League|domestic-league|Bohemians 1905|0|2|Viktoria Plzen|Round 21|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-17|Czech First League|domestic-league|Jablonec|5|2|Ceske Budejovice|Round 21|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-17|Czech First League|domestic-league|Mlada Boleslav|1|3|Banik Ostrava|Round 21|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-17|Czech First League|domestic-league|Sigma Olomouc|0|0|Hradec Kralove|Round 21|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-17|Czech First League|domestic-league|Pardubice|1|1|Teplice|Round 21|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-18|Czech First League|domestic-league|Karvina|0|3|Slavia Prague|Round 21|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-18|Czech First League|domestic-league|Sparta Prague|2|1|Slovan Liberec|Round 21|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-18|Czech First League|domestic-league|Zlin|2|1|Slovacko|Round 21|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-21|Czech First League|domestic-league|Teplice|2|0|Sigma Olomouc|Round 18|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-24|Czech First League|domestic-league|Hradec Kralove|0|0|Mlada Boleslav|Round 22|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-24|Czech First League|domestic-league|Slovan Liberec|3|3|Jablonec|Round 22|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-24|Czech First League|domestic-league|Banik Ostrava|1|1|Bohemians 1905|Round 22|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-24|Czech First League|domestic-league|Viktoria Plzen|3|0|Zlin|Round 22|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-24|Czech First League|domestic-league|Teplice|2|2|Karvina|Round 22|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-25|Czech First League|domestic-league|Ceske Budejovice|2|1|Sigma Olomouc|Round 22|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-25|Czech First League|domestic-league|Slavia Prague|3|0|Pardubice|Round 22|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-02-25|Czech First League|domestic-league|Slovacko|1|3|Sparta Prague|Round 22|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-02|Czech First League|domestic-league|Jablonec|1|1|Hradec Kralove|Round 23|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-02|Czech First League|domestic-league|Karvina|1|3|Slovacko|Round 23|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-02|Czech First League|domestic-league|Mlada Boleslav|3|1|Ceske Budejovice|Round 23|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-02|Czech First League|domestic-league|Sigma Olomouc|2|2|Bohemians 1905|Round 23|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-02|Czech First League|domestic-league|Pardubice|2|3|Viktoria Plzen|Round 23|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-03|Czech First League|domestic-league|Sparta Prague|0|0|Slavia Prague|Round 23|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-03|Czech First League|domestic-league|Teplice|2|0|Slovan Liberec|Round 23|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-03|Czech First League|domestic-league|Zlin|0|1|Banik Ostrava|Round 23|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-09|Czech First League|domestic-league|Bohemians 1905|0|0|Mlada Boleslav|Round 24|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-09|Czech First League|domestic-league|Hradec Kralove|2|0|Pardubice|Round 24|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-09|Czech First League|domestic-league|Slovan Liberec|1|0|Karvina|Round 24|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-09|Czech First League|domestic-league|Banik Ostrava|1|2|Sigma Olomouc|Round 24|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-09|Czech First League|domestic-league|Slovacko|0|1|Jablonec|Round 24|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-10|Czech First League|domestic-league|Ceske Budejovice|2|2|Zlin|Round 24|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-10|Czech First League|domestic-league|Viktoria Plzen|4|0|Sparta Prague|Round 24|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-10|Czech First League|domestic-league|Slavia Prague|4|0|Teplice|Round 24|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-16|Czech First League|domestic-league|Karvina|2|1|Ceske Budejovice|Round 25|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-16|Czech First League|domestic-league|Mlada Boleslav|2|1|Sigma Olomouc|Round 25|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-16|Czech First League|domestic-league|Zlin|2|2|Bohemians 1905|Round 25|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-17|Czech First League|domestic-league|Jablonec|1|2|Viktoria Plzen|Round 25|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-17|Czech First League|domestic-league|Pardubice|0|1|Banik Ostrava|Round 25|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-17|Czech First League|domestic-league|Slavia Prague|3|0|Slovan Liberec|Round 25|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-17|Czech First League|domestic-league|Sparta Prague|2|1|Hradec Kralove|Round 25|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-17|Czech First League|domestic-league|Teplice|1|1|Slovacko|Round 25|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-30|Czech First League|domestic-league|Bohemians 1905|2|0|Jablonec|Round 26|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-30|Czech First League|domestic-league|Sigma Olomouc|0|2|Pardubice|Round 26|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-30|Czech First League|domestic-league|Viktoria Plzen|1|3|Slovan Liberec|Round 26|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-30|Czech First League|domestic-league|Slovacko|1|3|Slavia Prague|Round 26|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-31|Czech First League|domestic-league|Ceske Budejovice|0|1|Sparta Prague|Round 26|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-31|Czech First League|domestic-league|Hradec Kralove|2|1|Karvina|Round 26|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-31|Czech First League|domestic-league|Mlada Boleslav|3|2|Zlin|Round 26|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2024-03-31|Czech First League|domestic-league|Banik Ostrava|4|1|Teplice|Round 26|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-06|Czech First League|domestic-league|Karvina|0|0|Viktoria Plzen|Round 27|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-06|Czech First League|domestic-league|Slovan Liberec|4|1|Slovacko|Round 27|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-06|Czech First League|domestic-league|Slavia Prague|2|1|Bohemians 1905|Round 27|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-06|Czech First League|domestic-league|Zlin|3|2|Sigma Olomouc|Round 27|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-07|Czech First League|domestic-league|Jablonec|2|3|Banik Ostrava|Round 27|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-07|Czech First League|domestic-league|Pardubice|1|1|Ceske Budejovice|Round 27|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-07|Czech First League|domestic-league|Sparta Prague|1|1|Mlada Boleslav|Round 27|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-07|Czech First League|domestic-league|Teplice|0|1|Hradec Kralove|Round 27|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-13|Czech First League|domestic-league|Bohemians 1905|1|3|Sparta Prague|Round 28|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-13|Czech First League|domestic-league|Ceske Budejovice|3|2|Slovan Liberec|Round 28|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-13|Czech First League|domestic-league|Hradec Kralove|1|0|Slovacko|Round 28|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-13|Czech First League|domestic-league|Mlada Boleslav|1|2|Teplice|Round 28|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-14|Czech First League|domestic-league|Sigma Olomouc|1|0|Jablonec|Round 28|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-14|Czech First League|domestic-league|Banik Ostrava|2|2|Karvina|Round 28|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-14|Czech First League|domestic-league|Viktoria Plzen|1|0|Slavia Prague|Round 28|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-14|Czech First League|domestic-league|Zlin|1|1|Pardubice|Round 28|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-20|Czech First League|domestic-league|Jablonec|0|0|Zlin|Round 29|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-20|Czech First League|domestic-league|Karvina|1|1|Bohemians 1905|Round 29|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-20|Czech First League|domestic-league|Sparta Prague|4|3|Banik Ostrava|Round 29|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-20|Czech First League|domestic-league|Teplice|2|2|Ceske Budejovice|Round 29|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-21|Czech First League|domestic-league|Slovan Liberec|0|0|Hradec Kralove|Round 29|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-21|Czech First League|domestic-league|Pardubice|1|2|Mlada Boleslav|Round 29|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-21|Czech First League|domestic-league|Slavia Prague|2|2|Sigma Olomouc|Round 29|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-21|Czech First League|domestic-league|Slovacko|1|1|Viktoria Plzen|Round 29|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-28|Czech First League|domestic-league|Bohemians 1905|2|1|Pardubice|Round 30|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-28|Czech First League|domestic-league|Ceske Budejovice|2|2|Slovacko|Round 30|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-28|Czech First League|domestic-league|Hradec Kralove|1|2|Slavia Prague|Round 30|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-28|Czech First League|domestic-league|Jablonec|1|1|Mlada Boleslav|Round 30|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-28|Czech First League|domestic-league|Sigma Olomouc|1|4|Sparta Prague|Round 30|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-28|Czech First League|domestic-league|Banik Ostrava|2|2|Slovan Liberec|Round 30|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-28|Czech First League|domestic-league|Viktoria Plzen|3|0|Teplice|Round 30|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-04-28|Czech First League|domestic-league|Zlin|0|1|Karvina|Round 30|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-04|Czech First League|domestic-league|Slavia Prague|5|0|Banik Ostrava|Titul R31|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-04|Czech First League|domestic-league|Ceske Budejovice|2|1|Bohemians 1905|Zachranu R31|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-04|Czech First League|domestic-league|Jablonec|3|2|Karvina|Zachranu R31|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-04|Czech First League|domestic-league|Pardubice|2|0|Zlin|Zachranu R31|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-05|Czech First League|domestic-league|Viktoria Plzen|3|0|Mlada Boleslav|Titul R31|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-05|Czech First League|domestic-league|Slovacko|2|4|Sparta Prague|Titul R31|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-05|Czech First League|domestic-league|Hradec Kralove|3|1|Sigma Olomouc|Evropu-SF L1|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-05|Czech First League|domestic-league|Teplice|2|0|Slovan Liberec|Evropu-SF L1|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-11|Czech First League|domestic-league|Banik Ostrava|0|1|Mlada Boleslav|Titul R32|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-11|Czech First League|domestic-league|Viktoria Plzen|4|2|Slovacko|Titul R32|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-11|Czech First League|domestic-league|Sparta Prague|0|0|Slavia Prague|Titul R32|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-12|Czech First League|domestic-league|Bohemians 1905|1|1|Jablonec|Zachranu R32|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-12|Czech First League|domestic-league|Karvina|2|2|Zlin|Zachranu R32|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-12|Czech First League|domestic-league|Pardubice|3|2|Ceske Budejovice|Zachranu R32|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-12|Czech First League|domestic-league|Slovan Liberec|1|2|Teplice|Evropu-SF L2|Stadion u Nisy|Liberec|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-12|Czech First League|domestic-league|Sigma Olomouc|1|3|Hradec Kralove|Evropu-SF L2|Andruv stadion|Olomouc|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-14|Czech First League|domestic-league|Mlada Boleslav|0|1|Slovacko|Titul R33|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-14|Czech First League|domestic-league|Sparta Prague|2|1|Banik Ostrava|Titul R33|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-15|Czech First League|domestic-league|Slavia Prague|3|0|Viktoria Plzen|Titul R33|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-16|Czech First League|domestic-league|Bohemians 1905|1|3|Karvina|Zachranu R33|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-16|Czech First League|domestic-league|Jablonec|3|0|Pardubice|Zachranu R33|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-16|Czech First League|domestic-league|Zlin|1|1|Ceske Budejovice|Zachranu R33|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-18|Czech First League|domestic-league|Mlada Boleslav|0|5|Sparta Prague|Titul R34|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-18|Czech First League|domestic-league|Viktoria Plzen|1|1|Banik Ostrava|Titul R34|Doosan Arena|Plzen|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-18|Czech First League|domestic-league|Slovacko|1|2|Slavia Prague|Titul R34|Mestsky fotbalovy stadion Miroslava Valenty|Uherske Hradiste|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-19|Czech First League|domestic-league|Ceske Budejovice|2|2|Jablonec|Zachranu R34|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-19|Czech First League|domestic-league|Pardubice|4|0|Karvina|Zachranu R34|CFIG Arena|Pardubice|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-19|Czech First League|domestic-league|Zlin|1|2|Bohemians 1905|Zachranu R34|Letna Stadion|Zlin|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-19|Czech First League|domestic-league|Teplice|0|1|Hradec Kralove|Evropu-F L1|Na Stinadlech|Teplice|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-25|Czech First League|domestic-league|Bohemians 1905|0|1|Pardubice|Zachranu R35|Dolicek|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-25|Czech First League|domestic-league|Jablonec|1|0|Zlin|Zachranu R35|Stadion Strelnice|Jablonec nad Nisou|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-25|Czech First League|domestic-league|Karvina|1|0|Ceske Budejovice|Zachranu R35|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-25|Czech First League|domestic-league|Hradec Kralove|2|0|Teplice|Evropu-F L2|Malsovicka Arena|Hradec Kralove|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-26|Czech First League|domestic-league|Banik Ostrava|6|0|Slovacko|Titul R35|Mestsky stadion (Ostrava)|Ostrava|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-26|Czech First League|domestic-league|Slavia Prague|4|0|Mlada Boleslav|Titul R35|Fortuna Arena|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-26|Czech First League|domestic-league|Sparta Prague|1|1|Viktoria Plzen|Titul R35|epet ARENA|Prague|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-30|Czech Relegation Playoffs|other|Ceske Budejovice|2|1|Taborsko|Playoff leg1|Stadion Strelecky ostrov|Ceske Budejovice|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-30|Czech Relegation Playoffs|other|Vyskov|0|1|Karvina|Playoff leg1|Sportovni areal Drnovice|Vyskov|Czech Republic||rsssf-tsje2024
+MATCH|2024-05-31|Czech First League|domestic-league|Mlada Boleslav|3|1|Hradec Kralove|Evropu-CLP|Lokotrans Arena|Mlada Boleslav|Czech Republic||rsssf-tsje2024
+MATCH|2024-06-02|Czech Relegation Playoffs|other|Karvina|1|0|Vyskov|Playoff leg2|Mestsky stadion (Karvina)|Karvina|Czech Republic||rsssf-tsje2024
+MATCH|2024-06-02|Czech Relegation Playoffs|other|Taborsko|1|1|Ceske Budejovice|Playoff leg2|Stadion v Kvapilove ulici|Tabor|Czech Republic||rsssf-tsje2024
+END

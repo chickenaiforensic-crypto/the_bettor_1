@@ -1,0 +1,39 @@
+BP-TEAM-PACK v2
+NOTE|info|research_ack|ACKNOWLEDGED — today is Friday, July 31, 2026; I verified time-sensitive facts against current sources, used plain URLs only, marked unverifiable items with NOTE instead of guessing, self-audited before delivery, and returned one parseable BP-TEAM-PACK v2 block only.
+NOTE|info|scope|LEVEL-3 CLOSURE PACK for the loaded Hibernian/Malisheva graph. Purpose: give Malisheva-side opponents onward dated cross-border rows so opponent-of-opponent chains can close without the 2026-07-23 leg. Chains created: Hibernian-Shamrock-Celje-Drita-Malisheva; Hibernian-Legia-Celje-Drita-Malisheva; Hibernian-Shamrock-Hamrun-Ballkani-Malisheva; Hibernian-Hearts-Omonoia-Drita-Malisheva; Hibernian-Hearts-Copenhagen-Drita-Malisheva; Hibernian-Legia-Djurgarden-Vikingur-Malisheva. All rows completed before 2026-07-30; the 2026-07-30 second leg remains omitted.
+NOTE|warning|correction|The first Malisheva pack stated all European matches of the previous 2 seasons were included; the 2025-26 UECL Q1 tie vs Vikingur Reykjavik (0-1, 0-8, agg 0-9) was NOT included. This pack corrects that gap. It materially changes the picture: an Icelandic side beat Malisheva 9-0 on aggregate, and the honest aggregate estimate moves toward Hibernian relative to the two-pack state.
+NOTE|warning|evidence_discord|Two retained chains point TOWARD Hibernian (Hearts 2-0 Omonoia + Legia 3-0 Omonoia vs Drita 1-1 Omonoia; Legia/Djurgarden/Vikingur route vs Malisheva's 0-9). They were not removed or softened; engine agreement absorbs them. Expect the evidence card to show effective independent paths 3 (up from 1), roughly 70% agreement, and the label still capped at Lean only by cross-border governance.
+NOTE|warning|venue_unknowns|Stadium fields marked unknown where the fetched sources did not confirm the ground: Víkingur home (Reykjavík), Djurgården home (Stockholm), Copenhagen home, Celje home, Ballkani home 2024, Hamrun home, and Malisheva's 2025 European home venueTreatment (stadium not confirmed; recorded unknown rather than guessed). Drita's European home legs were played at Fadil Vokrri Stadium, Pristina (see src-drita-venue).
+NOTE|warning|vllaznia_dead_end|Vllaznia (Malisheva's Q1 2026-27 opponent) won their 2025-26 UECL Q1 tie 4-3 on aggregate vs Daugavpils but no dated onward links connect them to any Hibernian opponent pool, so no Vllaznia chain can close with verifiable rows. Documented instead of invented.
+NOTE|warning|ninety_minute|All scores are 90-minute full-time results per rule 4. None of the included ties required extra time adjustment; the 2024 Hamrun v Ballkani tie was settled 2-0 on aggregate in normal time.
+TEAM|Copenhagen|Denmark|Danish Superliga|DEN|FC Copenhagen;FC København;FCK|unknown|Copenhagen|Denmark|unknown|unknown|unknown|https://www.fck.dk/
+TEAM|Celje|Slovenia|Slovenian PrvaLiga|SVN|NK Celje;Nogometni Klub Celje|unknown|Celje|Slovenia|unknown|unknown|unknown|https://www.nk-celje.si/
+TEAM|Omonoia|Cyprus|Cypriot First Division|CYP|AC Omonia;Omonia Nicosia;AC Omonia Nicosia|unknown|Nicosia|Cyprus|unknown|unknown|unknown|https://www.omonoiafc.com.cy/
+TEAM|Djurgården|Sweden|Swedish Allsvenskan|SWE|Djurgårdens IF;Djurgarden;Djurgardens IF|unknown|Stockholm|Sweden|unknown|unknown|unknown|https://dif.se/
+TEAM|Víkingur Reykjavík|Iceland|Besta deild karla|ISL|Víkingur;Vikingur Reykjavik;Vikingur FC|unknown|Reykjavík|Iceland|unknown|unknown|unknown|https://www.vikingur.is/
+TEAM|Hamrun Spartans|Malta|Maltese Premier League|MLT|Hamrun;Ħamrun Spartans;Hamrun S.|unknown|Hamrun|Malta|unknown|unknown|unknown|https://hamrunspartans.com/
+MATCH|2026-02-26|UECL KPO|uefa-conference-league|Celje|3|2|Drita|normal|unknown|Celje|Slovenia|CEL-DRI-2026-KPO|src-uefa2526
+MATCH|2026-02-19|UECL KPO|uefa-conference-league|Drita|2|3|Celje|relocated|Fadil Vokrri Stadium|Pristina|Kosovo|CEL-DRI-2026-KPO|src-uefa2526
+MATCH|2025-11-27|UECL LP|uefa-conference-league|Shamrock Rovers|3|1|Hamrun Spartans|normal|Tallaght Stadium|Dublin|Republic of Ireland||src-uefa2526
+MATCH|2025-11-06|UECL LP|uefa-conference-league|Celje|2|1|Legia Warsaw|normal|unknown|Celje|Slovenia||src-uefa2526
+MATCH|2025-10-23|UECL LP|uefa-conference-league|Shamrock Rovers|0|2|Celje|normal|Tallaght Stadium|Dublin|Republic of Ireland||src-uefa2526
+MATCH|2025-10-23|UECL LP|uefa-conference-league|Drita|1|1|Omonoia|relocated|Fadil Vokrri Stadium|Pristina|Kosovo||src-uefa2526
+MATCH|2025-07-29|UCL Q2|uefa-champions-league|Drita|0|1|Copenhagen|relocated|Fadil Vokrri Stadium|Pristina|Kosovo|DRI-CPH-2025-UCLQ2|src-skysports-cph
+MATCH|2025-07-22|UCL Q2|uefa-champions-league|Copenhagen|2|0|Drita|normal|unknown|Copenhagen|Denmark|DRI-CPH-2025-UCLQ2|src-skysports-cph
+MATCH|2025-07-17|UECL Q1|uefa-conference-league|Víkingur Reykjavík|8|0|Malisheva|normal|unknown|Reykjavík|Iceland|MAL-VIK-2025-Q1|src-uefaqual2526
+MATCH|2025-07-10|UECL Q1|uefa-conference-league|Malisheva|0|1|Víkingur Reykjavík|unknown|unknown|unknown|Kosovo|MAL-VIK-2025-Q1|src-uefaqual2526
+MATCH|2024-12-19|UECL LP|uefa-conference-league|Djurgården|3|1|Legia Warsaw|normal|unknown|Stockholm|Sweden||src-uefa2425
+MATCH|2024-12-12|UECL LP|uefa-conference-league|Víkingur Reykjavík|1|2|Djurgården|normal|unknown|Reykjavík|Iceland||src-uefa2425
+MATCH|2024-12-12|UECL LP|uefa-conference-league|Copenhagen|2|0|Hearts|normal|unknown|Copenhagen|Denmark||src-uefa2425
+MATCH|2024-11-28|UECL LP|uefa-conference-league|Omonoia|0|3|Legia Warsaw|normal|unknown|Nicosia|Cyprus||src-uefa2425
+MATCH|2024-10-24|UECL LP|uefa-conference-league|Hearts|2|0|Omonoia|normal|Tynecastle Park|Edinburgh|Scotland||src-uefa2425
+MATCH|2024-07-30|UECL Q2|uefa-conference-league|Hamrun Spartans|0|2|KF Ballkani|normal|unknown|Hamrun|Malta|BAL-HAM-2024-Q2|src-espn-bal-l2
+MATCH|2024-07-23|UECL Q2|uefa-conference-league|KF Ballkani|0|0|Hamrun Spartans|normal|unknown|unknown|Kosovo|BAL-HAM-2024-Q2|src-espn-bal-l1
+SOURCE|src-uefa2526|https://www.uefa.com/uefaconferenceleague/news/029c-1e9ad66c8169-aaecb38941a7-1000--2025-26-conference-league-all-the-league-phase-fixtures/|2026-07-31|results-database|2025-26 UECL: Celje 3-2 Drita (26 Feb, agg 6-4), Drita 2-3 Celje (19 Feb), Drita 1-1 Omonoia (23 Oct, MD2), Shamrock 0-2 Celje (23 Oct, MD2), Celje 2-1 Legia (6 Nov, MD3), Shamrock 3-1 Hamrun (27 Nov, MD4)
+SOURCE|src-uefaqual2526|https://www.uefa.com/uefaconferenceleague/news/029b-1e43ed1cf056-ea20f3f23ef3-1000--conference-league-qualifying-fixtures-dates-results-how-it-w/|2026-07-31|results-database|2025-26 UECL Q1: Malisheva 0-1 Víkingur Reykjavík (10 Jul); Víkingur Reykjavík 8-0 Malisheva (17 Jul, agg 9-0)
+SOURCE|src-uefa2425|https://www.uefa.com/uefaconferenceleague/news/0290-1bbee2bdd4c2-dac8802cf83b-1000--2024-25-conference-league-all-the-results/|2026-07-31|results-database|2024-25 UECL league phase: Hearts 2-0 Omonoia (24 Oct), Omonoia 0-3 Legia (28 Nov), Copenhagen 2-0 Hearts (12 Dec), Víkingur Reykjavík 1-2 Djurgården (12 Dec), Djurgården 3-1 Legia (19 Dec)
+SOURCE|src-skysports-cph|https://www.skysports.com/football/fc-copenhagen-vs-drita-gjilan/540662|2026-07-31|results-database|2025-26 UCL Q2: Copenhagen 2-0 Drita (22 Jul); Drita 0-1 Copenhagen (29 Jul; agg 0-3)
+SOURCE|src-espn-bal-l1|https://www.espn.com/soccer/match/_/gameId/716273/hamrun-spartans-ballkani|2026-07-31|results-database|2024-25 UECL Q2 first leg: Ballkani 0-0 Hamrun Spartans, 23 July 2024
+SOURCE|src-espn-bal-l2|https://www.espn.com/soccer/match/_/gameId/716274/ballkani-hamrun-spartans|2026-07-31|results-database|2024-25 UECL Q2 second leg: Hamrun Spartans 0-2 Ballkani, 30 July 2024 (agg 0-2); BBC Sport live page c51yz5zqg57t corroborates
+SOURCE|src-drita-venue|https://dxs.fandom.com/wiki/2025%E2%80%9326_UEFA_Champions_League_qualifying|2026-07-31|other|Drita home legs in 2025-26 UEFA ties played at Fadil Vokrri Stadium, Pristina (not the regular Gjilan ground); supports relocated venueTreatment for Drita home rows
+END

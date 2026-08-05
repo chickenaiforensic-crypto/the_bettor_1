@@ -1,0 +1,22 @@
+# OWNER-OUTBOX — pick-and-send index (contained numbered folders; LATEST = highest number)
+
+RULE (auditor, standing v1.2): every send = a NEW folder `DELIVER-nn/` containing that send's file(s).
+Folders and files both number upward; old delivers are NEVER edited in place — a correction = the next folder.
+If two look alike, the higher number wins and I will say so in chat. md5 tells you the copy you sent is the copy I wrote.
+
+| folder | file inside | to | status | md5 |
+|---|---|---|---|---|
+| `DELIVER-01/` | 01-WORKORDER-SCOPE-CLEAR-FOR-BUILDER-v2.md | BUILDER | DELIVERED 2026-08-04 — builder answered with v3.6.2 (audited + APPROVED); nothing owed | 4d52a59264155b5ccbe6c2cdd3447e7e |
+| `DELIVER-02/` | 02-SPEC-FOR-RESEARCHER-RUSSIA-COMPLETE-v1.md | RESEARCHER | STANDING FORMAT SPEC (rolling R3+ drops use it) — send if he doesn't hold it | 0613624f3a513f80a5c332ed24562b5f |
+| `DELIVER-03/` | 03-ADDENDUM-FOR-RESEARCHER-RUSSIA-GAPS-v1.md | RESEARCHER | DELIVERED + **ANSWERED 2026-08-04** — RUS-ADDENDUM-2026 (18 rows) received via branch, audited + ADOPTED (sha 30576ac4…); REQ-1 self-resolved earlier (MOLCUP pushed) | e3262ec1497ee8cfe835c8e6565ec5db |
+| `DELIVER-04/` | 04-WORKORDER-HOLD-APPROVE-FIX-FOR-BUILDER-v1.md | BUILDER | ANSWERED 2026-08-04 — builder shipped v3.6.3 (md5 17dd2b5b66ceb572a3fd946db9b56a92); auditor pins EXACT + diff-proven additive-only; ADOPTED; owner UAT (G13) next | 7374c0169f8cafd7817e88744cad6d88 |
+
+| `DELIVER-05/` | 05-WORKORDER-RATED-LAYER-AND-PLAIN-UI-FOR-BUILDER-v1.md | BUILDER | SUPERSEDED BY DELIVER-06 2026-08-04 (never sent; owner doctrine escalation: live-derive-or-silent instead of re-stamp; kept as history) | 93b32a983dffb9aacb50bd0ada13a8a5 |
+
+| `DELIVER-06/` | 06-WORKORDER-LIVE-DERIVE-DOCTRINE-FOR-BUILDER-v2.md | BUILDER | QUEUED — send when run closes: LIVE-DERIVE-01 doctrine (compute-or-silent; bootstrap demoted + provenance panel G15) + UI-PLAIN-01; requests v3.6.4; adds gates G14/G15/G16/G17 (v2 adds live form-stars + inert-blob retirement after auditor star-math trace) | 9941cf900cf3cc688084da455465023a |
+## Not here on purpose (yours, not outgoing):
+- `APP-V3.6.2/` (root) = the tested app for YOUR browser UAT. Supersedes APP-V3.6.1 — skip the 3.6.1 run.
+- `DATA-PACKS/IMPORT-READY-2026-08-03/` + `DATA-PACKS/IMPORT-READY-SUPERCUP-2026/` = FROZEN staged packs (do not import, do not send; audit cross-checks under D14).
+- `WORKORDERS/REPAIR-SPEC-R30-2026-08-03.md` = superseded by purge-and-replace; history only.
+
+Next number up: DELIVER-07.

@@ -1,0 +1,291 @@
+NOTE|info|pack_id|RUSCUP-2021-2026_BP-TEAM-PACK_v2 - return of WO-RUSCUP-BACKFILL-03 (issued 2026-08-02). Segment 2021-22/2022-23/2023-24 of the 5-year Russian Cup span; new rows stop at the 2024-06-30 hard cutoff (2024-25 + 2025-26 already held and auditor-verified client-side; current season fills centrally). 189 rows = 36+77+76 - every official Russian Cup match with at least one participant among that season's 16 Premier League clubs (auditor-proven slice, same rule as the 152 held 2024-26 rows). Compiled 2026-08-03.
+SOURCE|rsssf-rus2022-cup|https://www.rsssf.org/tablesr/rus2022.html|2026-08-03|primary-archive|2021-22 Russian Cup chapter (Kubok Rossii): every round's dates+scores, elite-group tables and bracket; D2/D3 group-draw tier slots
+SOURCE|rsssf-rus2023-cup|https://www.rsssf.org/tablesr/rus2023.html|2026-08-03|primary-archive|2022-23 Russian Cup chapters (compact + cupdet): dates, scores, venues, RPL-path group tables, full upper/lower bracket
+SOURCE|rsssf-rus2024-cup|https://www.rsssf.org/tablesr/rus2024.html|2026-08-03|primary-archive|2023-24 Russian Cup chapters (compact + cupdet): dates, scores, venues, RPL-path group tables, full Major/Minor bracket
+SOURCE|wiki-ruscup-2122|https://en.wikipedia.org/wiki/2021%E2%80%9322_Russian_Cup|2026-08-03|second-index|independent cross-index for 2021-22: match-for-match dates/scores confirmed; venues (incl. staged-away grounds); links RFS match sheets
+SOURCE|wiki-ruscup-2223|https://en.wikipedia.org/wiki/2022%E2%80%9323_Russian_Cup|2026-08-03|second-index|independent cross-index for 2022-23: match-for-match dates/scores/venues confirmed; RFS match sheets linked
+SOURCE|wiki-ruscup-2324|https://en.wikipedia.org/wiki/2023%E2%80%9324_Russian_Cup|2026-08-03|second-index|independent cross-index for 2023-24: match-for-match dates/scores/venues confirmed; RFS match sheets linked
+SOURCE|wiki-fc-volga-ulyanovsk|https://en.wikipedia.org/wiki/FC_Volga_Ulyanovsk|2026-08-03|web-index|Volga Ulyanovsk tier evidence: promoted 2022-06 to First League for 2022-23 (18th, relegated)
+SOURCE|wiki-fc-ufa|https://en.wikipedia.org/wiki/FC_Ufa|2026-08-03|web-index|FC Ufa context: 2021-22 RPL participant, May-2022 playoff relegation vs FC Orenburg, 2022 sponsor exit/near-collapse, Bashkortostan ministry step-in 2022-10-19, club continued
+SOURCE|wiki-fc-zvezda-spb|https://en.wikipedia.org/wiki/FC_Zvezda_Saint_Petersburg|2026-08-03|web-index|Zvezda SPb tier evidence: Second League (third tier) in 2022-23
+SOURCE|wiki-fnl-2324|https://en.wikipedia.org/wiki/2023%E2%80%9324_Russian_First_League|2026-08-03|web-index|SKA-Khabarovsk and Volgar Astrakhan listed as 2023-24 First League clubs
+TEAM|Leningradets St-Peterburg|Russia|Russian Second League|2D|Leningradets St Petersburg;Leningradets|Kirovets Stadium|St Petersburg|Russia||||
+TEAM|Dinamo Bryansk|Russia|Russian Second League|2D|Dynamo Bryansk|Dynamo Stadium|Bryansk|Russia||||
+TEAM|Dinamo Barnaul|Russia|Russian Second League|2D|Dynamo Barnaul|Dynamo Stadium|Barnaul|Russia||||
+TEAM|Chaika Peschanokopskoe|Russia|Russian Second League|2D|Chayka Peschanokopskoye;FC Chaika|Rostov Arena|Peschanokopskoe|Russia||||
+TEAM|Legion-Dinamo Makhachkala|Russia|Russian Second League|2D|Legion Dynamo Makhachkala|Dynamo Stadium|Makhachkala|Russia||||
+TEAM|Qayrat Moskva|Russia|Russian Second League|2D|FC Kairat Moscow;Kairat Moskva|Central Stadium (Odintsovo)|Moscow|Russia||||
+TEAM|FC Saransk|Russia|Russian Second League|2D|Saransk|Mordovia Arena|Saransk|Russia||||
+TEAM|Znamya Noginsk|Russia|Russian Second League|2D|Znamya|Istomkino Stadium|Noginsk|Russia||||
+TEAM|Dinamo Stavropol|Russia|Russian Second League|2D|Dynamo Stavropol|Dynamo Stadium|Stavropol|Russia||||
+TEAM|Torpedo Vladimir|Russia|Russian Second League|2D|Torpedo|Torpedo Stadium|Vladimir|Russia||||
+TEAM|Zenit Izhevsk|Russia|Russian Second League|2D|Zenit-Izhevsk|Central Republican Stadium|Izhevsk|Russia||||
+TEAM|Metallurg Lipetsk|Russia|Russian First League|FNL|Metallurg|Metallurg Stadium|Lipetsk|Russia||||
+TEAM|Kuban Krasnodar|Russia|Russian First League|FNL|Kuban|Kuban Stadium|Krasnodar|Russia||||
+TEAM|Veles Moskva|Russia|Russian First League|FNL|Veles Moscow|Avangard Stadium|Moscow|Russia||||
+TEAM|Rotor Volgograd|Russia|Russian First League|FNL|Rotor|Volgograd Arena|Volgograd|Russia||||
+TEAM|Alania Vladikavkaz|Russia|Russian First League|FNL|Alania;Spartak Vladikavkaz|Sultan Bilimkhanov Stadium (Grozny)|Vladikavkaz|Russia||||
+TEAM|Yenisey Krasnoyarsk|Russia|Russian First League|FNL|Yenisey|Central Stadium|Krasnoyarsk|Russia||||
+TEAM|Volga Ulyanovsk|Russia|Russian First League|FNL|Volga|Trud Stadium|Ulyanovsk|Russia||||
+TEAM|Zvezda Sankt-Peterburg|Russia|Russian Second League|2D|Zvezda St Petersburg;Zvezda SPb|Kirovets Stadium|St Petersburg|Russia||||
+TEAM|SKA Khabarovsk|Russia|Russian First League|FNL|SKA-Khabarovsk|Kirovets Stadium (St Petersburg)|Khabarovsk|Russia||||
+TEAM|Volgar Astrakhan|Russia|Russian First League|FNL|Volgar|Central Stadium|Astrakhan|Russia||||
+TEAM|FC Ufa|Russia|Russian Premier League|RPL|Ufa;Ufa FC;Bashinformsvyaz-Dinamo Ufa|BetBoom Arena|Ufa|Russia||13573||
+NOTE|info|identity|Top-flight clubs use the pinned WO-RPL 2021-2026 5YSPAN section-3 strings; era names only here. FC Nizhny Novgorod appeared 2021-22 under its era name before the 2022 sponsorship rename - all rows (2021-22: group R2/R3, R16) are recorded under the permanent roster string Pari Nizhny Novgorod; old name added to alias list by this NOTE. Source spelling Akron Togliatti (RSSSF/Wikipedia) maps to roster string Akron Tolyatti (2022-23 lower-bracket rows). Lower-league cup participants already on the client roster are used as-is, not re-declared (WO section-3 directive): Arsenal Tula, Ural Yekaterinburg, Torpedo Moscow, Baltika Kaliningrad, Fakel Voronezh, FC Orenburg, KAMAZ, Rodina Moscow, FC Khimki. FC Ufa moved OUT of the roster-as-is list into the declared TEAM rows per the auditor's standing cup-audit instruction (errata 2026-08-03 - see team_fields); KAMAZ is written exactly 'KAMAZ' on both in-scope rows per the auditor's 2026-08-03 return directive ('write exactly KAMAZ (2 rows)'), superseding the earlier exact-form interpretation - full club name KAMAZ Naberezhnye Chelny (the source listing string in the RSSSF Kubok Rossii chapter).
+NOTE|info|comp_class|compType assignments per auditor errata ERRATA-2026-08-03 (supersedes the cb6e workorder grammar drafts 'domestic-league' everywhere): CUP packs = domestic-cup (all 189 rows here); league packs keep domestic-league on league rows; promotion/relegation-playoff rows carry compType other (see the RPL return's 12 rows). The corrected workorder fingerprints were announced by the owner; the uploaded ERRATA file itself did not materialize in the repo working tree at rebuild time - applied verbatim from the owner's inline errata text and logged in docs/AUDIT.md.
+NOTE|info|club_context|FC Ufa (WO-RPL section-3 known addition): 2021-22 RPL club - played this cup's elite groups (Group-6, 2 rows + regions-path continuation). Relegated after the May-2022 playoff vs FC Orenburg; summer-2022 sponsor exit caused a near-collapse (layoff plans reported 2022-10; republic ministry step-in 2022-10-19) and the club played on - it appears in this pack in the 2022-23 Regions-path QF (2023-02-26 home vs Akhmat Grozny). The workorder's folded summer 2022 context = that 2022 financial crisis; per the cited public record the club did not fold (wiki-fc-ufa).
+NOTE|info|team_fields|22 TEAM rows declared for non-roster opponents: the 21 lower-league challengers listed below plus FC Ufa, added per the auditor's standing cup-audit instruction (errata 2026-08-03). FC Ufa is anchored to its 2021-22 RPL elite-slot identity (leagueCode RPL, BetBoom Arena Ufa, capacity 13,573 per the RSSSF rus2022.html #1l stadium table - the same page as this pack's cited 2021-22 cup chapter) for byte-level consistency with the RPL return's declaration; in this pack it appears via 2021-22 Group-6 and the 2022-23 Regions-path QF. Tier evidence: 2021-22 D2/D3 slot per club is structural from the RSSSF elite-group draw itself (each group = 1 RPL + 1 First League + 1 Second League club); Volga Ulyanovsk 2022-23 = First League (wiki-fc-volga-ulyanovsk), Zvezda Sankt-Peterburg 2022-23 = Second League (wiki-fc-zvezda-spb), SKA Khabarovsk + Volgar Astrakhan 2023-24 = First League (wiki-fnl-2324); Qayrat Moskva = amateur entrant occupying a Second League slot (aliased to FC Kairat Moscow). Stadium/city fields = the verified grounds where each club staged its in-scope home tie(s); surface/capacity/founded/website left blank rather than asserted without a captured source (no-fabrication policy).
+NOTE|info|format_reading|WO section-1 lists 2021-22 as old straight-knockout, no group stage - correction per sources: 2021-22 ran an Elite Group Stage (11 groups x 3 clubs = 1 RPL + 1 First League + 1 Second League, single round-robin over rounds 1-3). Group round 1 paired the non-RPL clubs (0 RPL on pitch = outside the slice); rounds 2-3 each carry exactly one RPL club per fixture = 22 in-scope rows. Group winners (11) + 5 European-exempt RPL clubs (Zenit St Petersburg, Spartak Moscow, Lokomotiv Moscow, Rubin Kazan, PFC Sochi) formed the Round of 16. Verified on RSSSF rus2022 and the wiki second index. 2022-23/2023-24 new format as WO states (RPL-path group stage 4x4, 6 rounds + double-elimination bracket).
+NOTE|info|round_counts|2021-22 = 36 rows: 22 elite-group (rounds 2-3; 11 groups, one RPL club per fixture) + 7 R16 + 4 QF + 2 SF + 1 Final. Group round 1 (11 fixtures, 2021-08-25/26) and qualifying rounds R1-R3 (Jul-Aug 2021): no RPL club on the pitch - outside the auditor-proven slice, not returned (gap-free span NOTE-explained). R16 tie Baltika Kaliningrad 3-0 Chaika Peschanokopskoe (2022-03-03) likewise excluded - neither club was then top-flight. Source: rsssf-rus2022-cup.
+NOTE|info|round_counts|2022-23 = 77 rows: 48 RPL-path group (4 groups x 4 clubs, 6 rounds) + 29 bracket (QF-up 8 = 4 ties x 2 legs; QF-low 8 = P1 4 + P2 4; SF-up 4; SF-low 4; Finals-up 2; Finals-low 2; Super Final 1). Regions-path rounds 1-6 structurally carried 0 RPL clubs (survivors Akron Tolyatti, FC Ufa, Volga Ulyanovsk, Zvezda Sankt-Peterburg entered at QF-low P1) - outside slice. Source: rsssf-rus2023-cup.
+NOTE|info|round_counts|2023-24 = 76 rows: 48 group + 28 bracket (QF-Major 8, QF-Minor 8, SF-Major 4, SF-Minor 4, Finals-Major 2, Finals-Minor 1, Super Final 1) - matches the WO section-1 proven 2024-25 calibration (76 = 48 + 28). Regions-path rounds structurally RPL-free (survivors Rodina Moscow, FC Khimki, SKA Khabarovsk, Volgar Astrakhan entered at QF-Minor P1). Source: rsssf-rus2024-cup.
+NOTE|info|stage_mapping|Venue-detail stage labels: Group-N Rn = 2021-22 elite groups 1-11, rounds 2-3; Group-A..D Rn = 2022-23/2023-24 RPL-path groups, rounds 1-6; R16 = Round of 16 (2021-22 single legs); QF-up/SF-up/Finals-up = 2022-23 upper (RPL-path) bracket, QF-low/SF-low/Finals-low = 2022-23 lower (Regions-path) bracket; QF-Major/SF-Major/Finals-Major and QF-Minor/SF-Minor/Finals-Minor = the same two tracks renamed by the federation for 2023-24; leg1/leg2 = two-legged ties (exactly 2 rows each); P1/P2 = single-match stages of the lower/Minor track; Final = season Super Final.
+NOTE|info|source_adaptation|WO section-4 cross-index: soccerway is match-level only and worldfootball's rus-cup season slugs 404 - the Wikipedia season pages (wiki-ruscup-2122/2223/2324, embedding RFS rfs.ru match-sheet links) were used as the required independent second index. Every round, every date and every scoreline cross-checked match-for-match (189/189); venues transcribed from RSSSF cupdet chapters with the second index confirming. Name-style equivalents kept as RSSSF-primary strings: Russian Railways Arena = RZD Arena; Fisht Stadium(s) = Fisht Olympic Stadium; RosTech Arena = Rostec Arena; Crystal Stadium = Kristall (Zhiguliovsk); FC Krasnodar Stadium = Krasnodar Stadium; Trud Stadium = RSSSF 'Labour Stadium'.
+NOTE|warning|source_conflict|3 date conflicts 2022-23, all resolved to RSSSF-primary detailed date (cupdet chapter) corroborated by the wiki/RFS second index - the RSSSF compact chapter's bracket headers run +1 day: Ural Yekaterinburg 2-1 Spartak Moscow (SF-up leg2) = 2023-04-04 not 04-05; CSKA Moscow 1-0 Krylia Sovetov Samara (SF-up leg2) = 2023-04-05 not 04-06; FC Krasnodar 0-0 Akron Tolyatti (Finals-low P1) = 2023-05-03 not 05-04. Rows carry the resolved dates.
+NOTE|info|venue_note|Staged/relocated home ties (rows carry the actual match venue, TEAM rows document it): Alania Vladikavkaz staged all three 2021-22 home ties in Grozny (Sultan Bilimkhanov Stadium - Republican Spartak rebuild). Chaika Peschanokopskoe staged its 2021-09-22 home tie at Rostov Arena, Rostov-on-Don. Qayrat Moskva staged its 2021-09-22 home tie at Central Stadium, Odintsovo. Torpedo Moscow home ties 2021-23 at the Luzhniki complex (Sportivnyy Gorodok Luzhniki / Luzhniki Stadium) during their ground rebuild. SKA Khabarovsk's designated-home QF-Minor tie 2024-04-02 was staged at Kirovets Stadium, St Petersburg (RSSSF cupdet: In Sankt-Peterburg). Rodina Moscow home 2024-03-13 = Sapsan Arena, Moscow (second index).
+NOTE|info|continuity|Continuity-clause accounting for the full span: every other official Russian Cup match 2021-07 onward falls outside the auditor-proven section-1 slice and is NOTE-explained here - 2021-22 qualifying rounds (Jul-Aug 2021, lower-league clubs only), 2021-22 elite-group round 1 (2021-08-25/26), 2021-22 R16 tie Baltika-Chaika, and the complete 2022-23/2023-24 Regions-path rounds 1-6 (0 RPL participants, verified structurally on RSSSF; consistent with the 152 held 2024-26 rows carrying 0 such rows). No postponed or cancelled ties occurred in-window. No date gaps remain unexplained.
+NOTE|info|perclub_gate|Owner's per-club completeness technique implemented as a pivot gate: for each season the full campaign of every one of the 16 RPL clubs is enumerated club-by-club (2021-22: 11 group entrants x 2 group dates + 5 European-exempt entering at R16; 2022-23 + 2023-24: each club exactly 6 group dates; then bracket rows until elimination or the title). RPL-club appearance totals: 40 (2021-22 - every group row carries exactly one RPL club by draw design; 14 later rounds bring both-RPL fixtures), 146 + 146 (2022-23/2023-24 - group rows are all-RPL x2, Regions-path survivors fill one slot in lower/Minor ties). Per-club ledgers and all gate recomputes ship in audit/pack-validation.txt.
+NOTE|info|boundary|First row 2021-09-22, last row 2024-06-02 (Super Final, Luzhniki Stadium). No row dated 2024-06-30 or later; no dateless rows; no duplicates; two-legged ties appear as exactly two rows. 2024-25 and 2025-26 intentionally absent (held client-side).
+NOTE|info|queue_override|WO-RUSCUP-BACKFILL-03 was staged queue position 3 behind RPL and CZ1; owner superseded live in-session and commissioned this cup segment first; league packs follow in queue order.
+NOTE|info|spot_audit|2021-22 R16 re-listed one round for spot-audit (source https://www.rsssf.org/tablesr/rus2022.html Kubok Rossii chapter): 2022-03-01 Dynamo Moscow 3-0 Pari Nizhny Novgorod; 2022-03-02 Spartak Moscow 6-1 Kuban Krasnodar; 2022-03-02 Alania Vladikavkaz 1-0 Arsenal Tula; 2022-03-02 PFC Sochi 1-2 CSKA Moscow; 2022-03-03 Lokomotiv Moscow 0-4 Yenisey Krasnoyarsk; 2022-03-03 Zenit St Petersburg 6-0 KAMAZ; 2022-03-03 Rubin Kazan 2-1 Rotor Volgograd. (8th tie Baltika Kaliningrad 3-0 Chaika Peschanokopskoe excluded - outside slice, see round_counts note.)
+NOTE|info|spot_audit|2022-23 QF-up leg1 re-listed (source https://www.rsssf.org/tablesr/rus2023.html): 2023-02-22 Lokomotiv Moscow 0-1 Spartak Moscow; 2023-02-22 FC Rostov 1-1 Ural Yekaterinburg; 2023-02-23 CSKA Moscow 3-0 FC Krasnodar; 2023-02-23 Krylia Sovetov Samara 2-1 Dynamo Moscow.
+NOTE|info|spot_audit|2023-24 SF-Major (both legs) re-listed (source https://www.rsssf.org/tablesr/rus2024.html): 2024-04-03 Baltika Kaliningrad 0-1 CSKA Moscow; 2024-04-03 Spartak Moscow 1-2 Zenit St Petersburg; 2024-04-16 CSKA Moscow 2-0 Baltika Kaliningrad; 2024-04-17 Zenit St Petersburg 0-0 Spartak Moscow (aggregates CSKA 3-0, Zenit 2-1).
+NOTE|info|group_pens|2021-22 Group-6 R2 2021-09-22: Legion-Dinamo Makhachkala 1-1 FC Ufa - bonus-point shootout won by FC Ufa 2-0; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2021-22 Group-8 R2 2021-09-22: FC Saransk 1-1 FC Khimki - bonus-point shootout won by FC Saransk 7-6; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2021-22 Group-3 R3 2021-10-27: Veles Moskva 1-1 Arsenal Tula - bonus-point shootout won by Arsenal Tula 4-3; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2021-22 Group-7 R3 2021-10-27: Rotor Volgograd 1-1 Akhmat Grozny - bonus-point shootout won by Rotor Volgograd 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2021-22 Group-8 R3 2021-10-27: Baltika Kaliningrad 0-0 FC Khimki - bonus-point shootout won by FC Khimki 5-4; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2022-23 Group-A R2 2022-09-13: Pari Nizhny Novgorod 1-1 FC Khimki - bonus-point shootout won by Pari Nizhny Novgorod 5-3; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2022-23 Group-A R2 2022-09-14: Lokomotiv Moscow 2-2 FC Krasnodar - bonus-point shootout won by Lokomotiv Moscow 3-1; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2022-23 Group-C R3 2022-09-28: FC Orenburg 2-2 Dynamo Moscow - bonus-point shootout won by FC Orenburg 4-3; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2022-23 Group-A R5 2022-11-22: FC Khimki 1-1 Pari Nizhny Novgorod - bonus-point shootout won by Pari Nizhny Novgorod 3-1; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2022-23 Group-D R5 2022-11-22: Torpedo Moscow 1-1 PFC Sochi - bonus-point shootout won by PFC Sochi 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2022-23 Group-D R5 2022-11-22: Ural Yekaterinburg 0-0 CSKA Moscow - bonus-point shootout won by Ural Yekaterinburg 5-4; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2022-23 Group-B R6 2022-11-27: Zenit St Petersburg 0-0 Spartak Moscow - bonus-point shootout won by Zenit St Petersburg 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-D R1 2023-07-25: Pari Nizhny Novgorod 1-1 Dynamo Moscow - bonus-point shootout won by Pari Nizhny Novgorod 4-3; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-A R3 2023-08-30: PFC Sochi 0-0 CSKA Moscow - bonus-point shootout won by CSKA Moscow 5-4; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-D R4 2023-09-19: FC Krasnodar 1-1 Dynamo Moscow - bonus-point shootout won by FC Krasnodar 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-A R4 2023-09-20: CSKA Moscow 1-1 PFC Sochi - bonus-point shootout won by CSKA Moscow 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-B R4 2023-09-20: Rubin Kazan 1-1 FC Rostov - bonus-point shootout won by FC Rostov 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-B R4 2023-09-20: Ural Yekaterinburg 0-0 Lokomotiv Moscow - bonus-point shootout won by Ural Yekaterinburg 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-C R4 2023-09-20: Akhmat Grozny 3-3 Zenit St Petersburg - bonus-point shootout won by Zenit St Petersburg 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-A R4 2023-09-21: FC Orenburg 0-0 Fakel Voronezh - bonus-point shootout won by FC Orenburg 4-2; the 90-minute draw stands as the row score
+NOTE|info|group_pens|2023-24 Group-A R5 2023-10-04: Fakel Voronezh 1-1 CSKA Moscow - bonus-point shootout won by Fakel Voronezh 4-2; the 90-minute draw stands as the row score
+NOTE|info|aggregate|2022-23 QF-up: Ural Yekaterinburg won the tie 3-2 (FC Rostov vs Ural Yekaterinburg, two legs)
+NOTE|info|aggregate|2022-23 QF-up: Spartak Moscow won the tie 5-2 (Lokomotiv Moscow vs Spartak Moscow, two legs)
+NOTE|info|aggregate|2022-23 QF-up: CSKA Moscow won the tie 3-1 (CSKA Moscow vs FC Krasnodar, two legs)
+NOTE|info|aggregate|2022-23 QF-up: Krylia Sovetov Samara won the tie 3-2 (Krylia Sovetov Samara vs Dynamo Moscow, two legs)
+NOTE|info|aggregate|2022-23 SF-up: Ural Yekaterinburg won the tie 3-2 (Spartak Moscow vs Ural Yekaterinburg, two legs)
+NOTE|info|aggregate|2022-23 SF-up: CSKA Moscow won the tie 3-2 (Krylia Sovetov Samara vs CSKA Moscow, two legs)
+NOTE|info|aggregate|2022-23 Finals-up: CSKA Moscow won the tie 3-2 (CSKA Moscow vs Ural Yekaterinburg, two legs)
+NOTE|info|aggregate|2023-24 QF-Major: Baltika Kaliningrad won the tie 3-3 (pens 7-6) (Baltika Kaliningrad vs Lokomotiv Moscow, two legs)
+NOTE|info|aggregate|2023-24 QF-Major: Zenit St Petersburg won the tie 2-1 (Dynamo Moscow vs Zenit St Petersburg, two legs)
+NOTE|info|aggregate|2023-24 QF-Major: Spartak Moscow won the tie 3-2 (FC Orenburg vs Spartak Moscow, two legs)
+NOTE|info|aggregate|2023-24 QF-Major: CSKA Moscow won the tie 3-1 (FC Rostov vs CSKA Moscow, two legs)
+NOTE|info|aggregate|2023-24 SF-Major: CSKA Moscow won the tie 3-0 (Baltika Kaliningrad vs CSKA Moscow, two legs)
+NOTE|info|aggregate|2023-24 SF-Major: Zenit St Petersburg won the tie 2-1 (Spartak Moscow vs Zenit St Petersburg, two legs)
+NOTE|info|aggregate|2023-24 Finals-Major: Zenit St Petersburg won the tie 1-1 (pens 5-4) (CSKA Moscow vs Zenit St Petersburg, two legs)
+NOTE|info|advancement|2021-22 2022-04-19 Baltika Kaliningrad vs Dynamo Moscow: Dynamo Moscow advanced (pens 5-4 after the recorded 90-minute draw)
+NOTE|info|advancement|2021-22 2022-04-20 Alania Vladikavkaz vs Zenit St Petersburg: Alania Vladikavkaz advanced (pens 6-5 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2023-03-14 Akron Tolyatti vs Lokomotiv Moscow: Akron Tolyatti advanced (pens 7-6 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2023-03-15 Zenit St Petersburg vs Dynamo Moscow: Dynamo Moscow advanced (pens 5-4 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2023-04-04 Dynamo Moscow vs Akron Tolyatti: Akron Tolyatti advanced (pens 4-1 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2023-04-06 FC Krasnodar vs FC Rostov: FC Krasnodar advanced (pens 5-3 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2023-04-19 FC Krasnodar vs Krylia Sovetov Samara: FC Krasnodar advanced (pens 3-0 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2023-05-03 FC Krasnodar vs Akron Tolyatti: FC Krasnodar advanced (pens 4-2 after the recorded 90-minute draw)
+NOTE|info|advancement|2022-23 2023-06-11 CSKA Moscow vs FC Krasnodar: CSKA Moscow advanced (pens 6-5 after the recorded 90-minute draw); CSKA Moscow are the 2022-23 cup champions
+NOTE|info|advancement|2023-24 2024-03-13 Rodina Moscow vs Ural Yekaterinburg: Ural Yekaterinburg advanced (pens 4-1 after the recorded 90-minute draw)
+NOTE|info|advancement|2023-24 2024-03-14 Lokomotiv Moscow vs Baltika Kaliningrad: Baltika Kaliningrad advanced (pens 7-6 after the recorded 90-minute draw); aggregate 3-3
+NOTE|info|advancement|2023-24 2024-03-14 PFC Sochi vs SKA Khabarovsk: SKA Khabarovsk advanced (pens 4-2 after the recorded 90-minute draw)
+NOTE|info|advancement|2023-24 2024-04-02 FC Khimki vs FC Rostov: FC Rostov advanced (pens 7-6 after the recorded 90-minute draw)
+NOTE|info|advancement|2023-24 2024-05-15 Zenit St Petersburg vs CSKA Moscow: Zenit St Petersburg advanced (pens 5-4 after the recorded 90-minute draw); aggregate 1-1
+MATCH|2021-09-22|Russian Cup|domestic-cup|Leningradets St-Peterburg|0|2|FC Krasnodar|Group-1 R2|Kirovets Stadium|St Petersburg|Russia||rsssf-rus2022-cup
+MATCH|2021-09-22|Russian Cup|domestic-cup|Dinamo Stavropol|0|6|Dynamo Moscow|Group-11 R2|Dynamo Stadium|Stavropol|Russia||rsssf-rus2022-cup
+MATCH|2021-09-22|Russian Cup|domestic-cup|Dinamo Bryansk|1|6|Arsenal Tula|Group-3 R2|Dynamo Stadium|Bryansk|Russia||rsssf-rus2022-cup
+MATCH|2021-09-22|Russian Cup|domestic-cup|Dinamo Barnaul|0|1|Pari Nizhny Novgorod|Group-4 R2|Dynamo Stadium|Barnaul|Russia||rsssf-rus2022-cup
+MATCH|2021-09-22|Russian Cup|domestic-cup|Chaika Peschanokopskoe|1|0|FC Rostov|Group-5 R2|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2022-cup
+MATCH|2021-09-22|Russian Cup|domestic-cup|Legion-Dinamo Makhachkala|1|1|FC Ufa|Group-6 R2|Dynamo Stadium|Makhachkala|Russia||rsssf-rus2022-cup
+MATCH|2021-09-22|Russian Cup|domestic-cup|Qayrat Moskva|0|3|Akhmat Grozny|Group-7 R2|Central Stadium|Odintsovo|Russia||rsssf-rus2022-cup
+MATCH|2021-09-22|Russian Cup|domestic-cup|FC Saransk|1|1|FC Khimki|Group-8 R2|Mordovia Arena|Saransk|Russia||rsssf-rus2022-cup
+MATCH|2021-09-22|Russian Cup|domestic-cup|Znamya Noginsk|0|10|Krylia Sovetov Samara|Group-9 R2|Istomkino Stadium|Noginsk|Russia||rsssf-rus2022-cup
+MATCH|2021-09-23|Russian Cup|domestic-cup|Zenit Izhevsk|0|4|CSKA Moscow|Group-10 R2|Central Republican Stadium|Izhevsk|Russia||rsssf-rus2022-cup
+MATCH|2021-09-23|Russian Cup|domestic-cup|Torpedo Vladimir|0|2|Ural Yekaterinburg|Group-2 R2|Torpedo Stadium|Vladimir|Russia||rsssf-rus2022-cup
+MATCH|2021-10-26|Russian Cup|domestic-cup|Metallurg Lipetsk|0|2|CSKA Moscow|Group-10 R3|Metallurg Stadium|Lipetsk|Russia||rsssf-rus2022-cup
+MATCH|2021-10-26|Russian Cup|domestic-cup|FC Orenburg|0|3|Dynamo Moscow|Group-11 R3|Gazovik Stadium|Orenburg|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|Kuban Krasnodar|3|0|FC Krasnodar|Group-1 R3|Kuban Stadium|Krasnodar|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|KAMAZ|1|0|Ural Yekaterinburg|Group-2 R3|KAMAZ Stadium|Naberezhnye Chelny|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|Veles Moskva|1|1|Arsenal Tula|Group-3 R3|Avangard Stadium|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|Fakel Voronezh|0|1|Pari Nizhny Novgorod|Group-4 R3|Tsentralnyi Profsoyuz Stadion|Voronezh|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|Torpedo Moscow|2|0|FC Rostov|Group-5 R3|Sportivnyy Gorodok Luzhniki|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|Alania Vladikavkaz|2|0|FC Ufa|Group-6 R3|Sultan Bilimkhanov Stadium|Grozny|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|Rotor Volgograd|1|1|Akhmat Grozny|Group-7 R3|Volgograd Arena|Volgograd|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|Baltika Kaliningrad|0|0|FC Khimki|Group-8 R3|Kaliningrad Stadium|Kaliningrad|Russia||rsssf-rus2022-cup
+MATCH|2021-10-27|Russian Cup|domestic-cup|Yenisey Krasnoyarsk|1|0|Krylia Sovetov Samara|Group-9 R3|Central Stadium|Krasnoyarsk|Russia||rsssf-rus2022-cup
+MATCH|2022-03-01|Russian Cup|domestic-cup|Dynamo Moscow|3|0|Pari Nizhny Novgorod|R16|VTB Arena|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2022-03-02|Russian Cup|domestic-cup|Alania Vladikavkaz|1|0|Arsenal Tula|R16|Sultan Bilimkhanov Stadium|Grozny|Russia||rsssf-rus2022-cup
+MATCH|2022-03-02|Russian Cup|domestic-cup|PFC Sochi|1|2|CSKA Moscow|R16|Fisht Olympic Stadium|Sochi|Russia||rsssf-rus2022-cup
+MATCH|2022-03-02|Russian Cup|domestic-cup|Spartak Moscow|6|1|Kuban Krasnodar|R16|Otkrytie Arena|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2022-03-03|Russian Cup|domestic-cup|Lokomotiv Moscow|0|4|Yenisey Krasnoyarsk|R16|Russian Railways Arena|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2022-03-03|Russian Cup|domestic-cup|Rubin Kazan|2|1|Rotor Volgograd|R16|Ak Bars Arena|Kazan|Russia||rsssf-rus2022-cup
+MATCH|2022-03-03|Russian Cup|domestic-cup|Zenit St Petersburg|6|0|KAMAZ|R16|Gazprom Arena|St Petersburg|Russia||rsssf-rus2022-cup
+MATCH|2022-04-19|Russian Cup|domestic-cup|Baltika Kaliningrad|1|1|Dynamo Moscow|QF|Kaliningrad Stadium|Kaliningrad|Russia||rsssf-rus2022-cup
+MATCH|2022-04-20|Russian Cup|domestic-cup|Alania Vladikavkaz|2|2|Zenit St Petersburg|QF|Sultan Bilimkhanov Stadium|Grozny|Russia||rsssf-rus2022-cup
+MATCH|2022-04-20|Russian Cup|domestic-cup|CSKA Moscow|0|1|Spartak Moscow|QF|VEB Arena|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2022-04-20|Russian Cup|domestic-cup|Yenisey Krasnoyarsk|3|1|Rubin Kazan|QF|Central Stadium|Krasnoyarsk|Russia||rsssf-rus2022-cup
+MATCH|2022-05-10|Russian Cup|domestic-cup|Dynamo Moscow|3|0|Alania Vladikavkaz|SF|VTB Arena|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2022-05-11|Russian Cup|domestic-cup|Spartak Moscow|3|0|Yenisey Krasnoyarsk|SF|Otkrytie Arena|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2022-05-29|Russian Cup|domestic-cup|Spartak Moscow|2|1|Dynamo Moscow|Final|Luzhniki Stadium|Moscow|Russia||rsssf-rus2022-cup
+MATCH|2022-08-30|Russian Cup|domestic-cup|Spartak Moscow|1|0|Krylia Sovetov Samara|Group-B R1|Otkrytie Bank Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-08-31|Russian Cup|domestic-cup|FC Khimki|0|2|FC Krasnodar|Group-A R1|Arena Khimki|Khimki|Russia||rsssf-rus2023-cup
+MATCH|2022-08-31|Russian Cup|domestic-cup|Pari Nizhny Novgorod|2|0|Lokomotiv Moscow|Group-A R1|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2023-cup
+MATCH|2022-08-31|Russian Cup|domestic-cup|Zenit St Petersburg|2|0|Fakel Voronezh|Group-B R1|Gazprom Arena|St Petersburg|Russia||rsssf-rus2023-cup
+MATCH|2022-08-31|Russian Cup|domestic-cup|Akhmat Grozny|3|1|FC Orenburg|Group-C R1|Akhmat Arena|Grozny|Russia||rsssf-rus2023-cup
+MATCH|2022-08-31|Russian Cup|domestic-cup|FC Rostov|2|0|Dynamo Moscow|Group-C R1|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2023-cup
+MATCH|2022-08-31|Russian Cup|domestic-cup|Torpedo Moscow|0|2|CSKA Moscow|Group-D R1|VTB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-08-31|Russian Cup|domestic-cup|Ural Yekaterinburg|2|0|PFC Sochi|Group-D R1|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2023-cup
+MATCH|2022-09-13|Russian Cup|domestic-cup|Pari Nizhny Novgorod|1|1|FC Khimki|Group-A R2|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2023-cup
+MATCH|2022-09-13|Russian Cup|domestic-cup|Dynamo Moscow|2|1|Akhmat Grozny|Group-C R2|VTB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-09-14|Russian Cup|domestic-cup|Lokomotiv Moscow|2|2|FC Krasnodar|Group-A R2|Russian Railways Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-09-14|Russian Cup|domestic-cup|Krylia Sovetov Samara|2|0|Zenit St Petersburg|Group-B R2|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2023-cup
+MATCH|2022-09-14|Russian Cup|domestic-cup|FC Rostov|3|1|FC Orenburg|Group-C R2|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2023-cup
+MATCH|2022-09-14|Russian Cup|domestic-cup|CSKA Moscow|2|1|Ural Yekaterinburg|Group-D R2|VEB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-09-14|Russian Cup|domestic-cup|PFC Sochi|1|3|Torpedo Moscow|Group-D R2|Fisht Stadium|Sochi|Russia||rsssf-rus2023-cup
+MATCH|2022-09-15|Russian Cup|domestic-cup|Spartak Moscow|3|0|Fakel Voronezh|Group-B R2|Otkrytie Bank Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-09-28|Russian Cup|domestic-cup|FC Khimki|0|5|Lokomotiv Moscow|Group-A R3|Arena Khimki|Khimki|Russia||rsssf-rus2023-cup
+MATCH|2022-09-28|Russian Cup|domestic-cup|FC Krasnodar|2|0|Pari Nizhny Novgorod|Group-A R3|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2023-cup
+MATCH|2022-09-28|Russian Cup|domestic-cup|FC Orenburg|2|2|Dynamo Moscow|Group-C R3|Gazovik Stadium|Orenburg|Russia||rsssf-rus2023-cup
+MATCH|2022-09-28|Russian Cup|domestic-cup|CSKA Moscow|2|1|PFC Sochi|Group-D R3|VEB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-09-28|Russian Cup|domestic-cup|Ural Yekaterinburg|1|0|Torpedo Moscow|Group-D R3|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2023-cup
+MATCH|2022-09-29|Russian Cup|domestic-cup|Fakel Voronezh|0|1|Krylia Sovetov Samara|Group-B R3|Central Trade Union Stadium|Voronezh|Russia||rsssf-rus2023-cup
+MATCH|2022-09-29|Russian Cup|domestic-cup|Spartak Moscow|3|0|Zenit St Petersburg|Group-B R3|Otkrytie Bank Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-09-29|Russian Cup|domestic-cup|Akhmat Grozny|3|1|FC Rostov|Group-C R3|Akhmat Arena|Grozny|Russia||rsssf-rus2023-cup
+MATCH|2022-10-18|Russian Cup|domestic-cup|Lokomotiv Moscow|1|0|FC Khimki|Group-A R4|Russian Railways Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-10-18|Russian Cup|domestic-cup|Dynamo Moscow|3|1|FC Rostov|Group-C R4|VTB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-10-19|Russian Cup|domestic-cup|Pari Nizhny Novgorod|1|0|FC Krasnodar|Group-A R4|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2023-cup
+MATCH|2022-10-19|Russian Cup|domestic-cup|Fakel Voronezh|1|2|Spartak Moscow|Group-B R4|Central Trade Union Stadium|Voronezh|Russia||rsssf-rus2023-cup
+MATCH|2022-10-19|Russian Cup|domestic-cup|FC Orenburg|4|2|Akhmat Grozny|Group-C R4|Gazovik Stadium|Orenburg|Russia||rsssf-rus2023-cup
+MATCH|2022-10-19|Russian Cup|domestic-cup|CSKA Moscow|0|1|Torpedo Moscow|Group-D R4|VEB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-10-20|Russian Cup|domestic-cup|Zenit St Petersburg|2|1|Krylia Sovetov Samara|Group-B R4|Gazprom Arena|St Petersburg|Russia||rsssf-rus2023-cup
+MATCH|2022-10-20|Russian Cup|domestic-cup|PFC Sochi|2|3|Ural Yekaterinburg|Group-D R4|Fisht Stadium|Sochi|Russia||rsssf-rus2023-cup
+MATCH|2022-11-16|Russian Cup|domestic-cup|Fakel Voronezh|0|2|Zenit St Petersburg|Group-B R5|Central Trade Union Stadium|Voronezh|Russia||rsssf-rus2023-cup
+MATCH|2022-11-22|Russian Cup|domestic-cup|FC Khimki|1|1|Pari Nizhny Novgorod|Group-A R5|Arena Khimki|Khimki|Russia||rsssf-rus2023-cup
+MATCH|2022-11-22|Russian Cup|domestic-cup|Torpedo Moscow|1|1|PFC Sochi|Group-D R5|Luzhniki Stadium|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-11-22|Russian Cup|domestic-cup|Ural Yekaterinburg|0|0|CSKA Moscow|Group-D R5|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2023-cup
+MATCH|2022-11-23|Russian Cup|domestic-cup|FC Krasnodar|1|0|Lokomotiv Moscow|Group-A R5|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2023-cup
+MATCH|2022-11-23|Russian Cup|domestic-cup|Krylia Sovetov Samara|2|1|Spartak Moscow|Group-B R5|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2023-cup
+MATCH|2022-11-23|Russian Cup|domestic-cup|Akhmat Grozny|2|1|Dynamo Moscow|Group-C R5|Akhmat Arena|Grozny|Russia||rsssf-rus2023-cup
+MATCH|2022-11-23|Russian Cup|domestic-cup|FC Orenburg|4|2|FC Rostov|Group-C R5|Gazovik Stadium|Orenburg|Russia||rsssf-rus2023-cup
+MATCH|2022-11-26|Russian Cup|domestic-cup|PFC Sochi|1|2|CSKA Moscow|Group-D R6|Fisht Stadium|Sochi|Russia||rsssf-rus2023-cup
+MATCH|2022-11-26|Russian Cup|domestic-cup|Torpedo Moscow|1|2|Ural Yekaterinburg|Group-D R6|Luzhniki Stadium|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-11-27|Russian Cup|domestic-cup|FC Krasnodar|4|1|FC Khimki|Group-A R6|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2023-cup
+MATCH|2022-11-27|Russian Cup|domestic-cup|Lokomotiv Moscow|3|1|Pari Nizhny Novgorod|Group-A R6|Russian Railways Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-11-27|Russian Cup|domestic-cup|Krylia Sovetov Samara|1|0|Fakel Voronezh|Group-B R6|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2023-cup
+MATCH|2022-11-27|Russian Cup|domestic-cup|Zenit St Petersburg|0|0|Spartak Moscow|Group-B R6|Gazprom Arena|St Petersburg|Russia||rsssf-rus2023-cup
+MATCH|2022-11-27|Russian Cup|domestic-cup|Dynamo Moscow|1|0|FC Orenburg|Group-C R6|VTB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2022-11-27|Russian Cup|domestic-cup|FC Rostov|3|0|Akhmat Grozny|Group-C R6|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2023-cup
+MATCH|2023-02-22|Russian Cup|domestic-cup|FC Rostov|1|1|Ural Yekaterinburg|QF-up leg1|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2023-cup
+MATCH|2023-02-22|Russian Cup|domestic-cup|Lokomotiv Moscow|0|1|Spartak Moscow|QF-up leg1|Russian Railways Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-02-23|Russian Cup|domestic-cup|CSKA Moscow|3|0|FC Krasnodar|QF-up leg1|VEB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-02-23|Russian Cup|domestic-cup|Krylia Sovetov Samara|2|1|Dynamo Moscow|QF-up leg1|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2023-cup
+MATCH|2023-02-25|Russian Cup|domestic-cup|Volga Ulyanovsk|0|3|Zenit St Petersburg|QF-low P1|Trud Stadium|Ulyanovsk|Russia||rsssf-rus2023-cup
+MATCH|2023-02-26|Russian Cup|domestic-cup|Akron Tolyatti|2|0|Torpedo Moscow|QF-low P1|Crystal Stadium|Zhiguliovsk|Russia||rsssf-rus2023-cup
+MATCH|2023-02-26|Russian Cup|domestic-cup|FC Ufa|1|2|Akhmat Grozny|QF-low P1|Neftianik Stadium|Ufa|Russia||rsssf-rus2023-cup
+MATCH|2023-02-27|Russian Cup|domestic-cup|Zvezda Sankt-Peterburg|0|2|Pari Nizhny Novgorod|QF-low P1|Kirovets Stadium|St Petersburg|Russia||rsssf-rus2023-cup
+MATCH|2023-02-27|Russian Cup|domestic-cup|Spartak Moscow|4|2|Lokomotiv Moscow|QF-up leg2|Otkrytie Bank Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-02-27|Russian Cup|domestic-cup|Ural Yekaterinburg|2|1|FC Rostov|QF-up leg2|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2023-cup
+MATCH|2023-02-28|Russian Cup|domestic-cup|FC Krasnodar|1|0|CSKA Moscow|QF-up leg2|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2023-cup
+MATCH|2023-03-01|Russian Cup|domestic-cup|Dynamo Moscow|1|1|Krylia Sovetov Samara|QF-up leg2|VTB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-03-14|Russian Cup|domestic-cup|Akron Tolyatti|1|1|Lokomotiv Moscow|QF-low P2|Crystal Stadium|Zhiguliovsk|Russia||rsssf-rus2023-cup
+MATCH|2023-03-14|Russian Cup|domestic-cup|Spartak Moscow|1|1|Ural Yekaterinburg|SF-up leg1|Otkrytie Bank Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-03-15|Russian Cup|domestic-cup|Akhmat Grozny|0|3|FC Krasnodar|QF-low P2|Akhmat Arena|Grozny|Russia||rsssf-rus2023-cup
+MATCH|2023-03-15|Russian Cup|domestic-cup|Zenit St Petersburg|1|1|Dynamo Moscow|QF-low P2|Gazprom Arena|St Petersburg|Russia||rsssf-rus2023-cup
+MATCH|2023-03-15|Russian Cup|domestic-cup|Krylia Sovetov Samara|2|2|CSKA Moscow|SF-up leg1|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2023-cup
+MATCH|2023-03-16|Russian Cup|domestic-cup|Pari Nizhny Novgorod|0|1|FC Rostov|QF-low P2|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2023-cup
+MATCH|2023-04-04|Russian Cup|domestic-cup|Dynamo Moscow|0|0|Akron Tolyatti|SF-low P1|VTB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-04-04|Russian Cup|domestic-cup|Ural Yekaterinburg|2|1|Spartak Moscow|SF-up leg2|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2023-cup
+MATCH|2023-04-05|Russian Cup|domestic-cup|CSKA Moscow|1|0|Krylia Sovetov Samara|SF-up leg2|VEB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-04-06|Russian Cup|domestic-cup|FC Krasnodar|1|1|FC Rostov|SF-low P1|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2023-cup
+MATCH|2023-04-19|Russian Cup|domestic-cup|CSKA Moscow|1|1|Ural Yekaterinburg|Finals-up leg1|VEB Arena|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-04-19|Russian Cup|domestic-cup|Akron Tolyatti|2|1|Spartak Moscow|SF-low P2|Crystal Stadium|Zhiguliovsk|Russia||rsssf-rus2023-cup
+MATCH|2023-04-19|Russian Cup|domestic-cup|FC Krasnodar|2|2|Krylia Sovetov Samara|SF-low P2|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2023-cup
+MATCH|2023-05-03|Russian Cup|domestic-cup|FC Krasnodar|0|0|Akron Tolyatti|Finals-low P1|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2023-cup
+MATCH|2023-05-03|Russian Cup|domestic-cup|Ural Yekaterinburg|1|2|CSKA Moscow|Finals-up leg2|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2023-cup
+MATCH|2023-05-17|Russian Cup|domestic-cup|FC Krasnodar|2|1|Ural Yekaterinburg|Finals-low P2|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2023-cup
+MATCH|2023-06-11|Russian Cup|domestic-cup|CSKA Moscow|1|1|FC Krasnodar|Final|Luzhniki Stadium|Moscow|Russia||rsssf-rus2023-cup
+MATCH|2023-07-25|Russian Cup|domestic-cup|Lokomotiv Moscow|2|1|Ural Yekaterinburg|Group-B R1|Russian Railways Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-07-25|Russian Cup|domestic-cup|Zenit St Petersburg|2|0|Akhmat Grozny|Group-C R1|Gazprom Arena|St Petersburg|Russia||rsssf-rus2024-cup
+MATCH|2023-07-25|Russian Cup|domestic-cup|Pari Nizhny Novgorod|1|1|Dynamo Moscow|Group-D R1|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2024-cup
+MATCH|2023-07-26|Russian Cup|domestic-cup|FC Orenburg|0|6|CSKA Moscow|Group-A R1|Gazovik Stadium|Orenburg|Russia||rsssf-rus2024-cup
+MATCH|2023-07-26|Russian Cup|domestic-cup|Fakel Voronezh|1|3|PFC Sochi|Group-A R1|Central Trade Union Stadium|Voronezh|Russia||rsssf-rus2024-cup
+MATCH|2023-07-26|Russian Cup|domestic-cup|FC Rostov|1|0|Rubin Kazan|Group-B R1|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2024-cup
+MATCH|2023-07-26|Russian Cup|domestic-cup|Krylia Sovetov Samara|2|3|Baltika Kaliningrad|Group-C R1|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2024-cup
+MATCH|2023-07-27|Russian Cup|domestic-cup|FC Krasnodar|1|2|Spartak Moscow|Group-D R1|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2024-cup
+MATCH|2023-08-08|Russian Cup|domestic-cup|Rubin Kazan|0|1|Lokomotiv Moscow|Group-B R2|Ak Bars Arena|Kazan|Russia||rsssf-rus2024-cup
+MATCH|2023-08-08|Russian Cup|domestic-cup|Ural Yekaterinburg|1|0|FC Rostov|Group-B R2|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2024-cup
+MATCH|2023-08-08|Russian Cup|domestic-cup|Spartak Moscow|5|4|Pari Nizhny Novgorod|Group-D R2|Otkrytie Bank Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-08-09|Russian Cup|domestic-cup|CSKA Moscow|0|2|Fakel Voronezh|Group-A R2|VEB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-08-09|Russian Cup|domestic-cup|FC Orenburg|2|0|PFC Sochi|Group-A R2|Gazovik Stadium|Orenburg|Russia||rsssf-rus2024-cup
+MATCH|2023-08-09|Russian Cup|domestic-cup|Krylia Sovetov Samara|0|1|Zenit St Petersburg|Group-C R2|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2024-cup
+MATCH|2023-08-09|Russian Cup|domestic-cup|Dynamo Moscow|4|3|FC Krasnodar|Group-D R2|VTB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-08-10|Russian Cup|domestic-cup|Akhmat Grozny|0|2|Baltika Kaliningrad|Group-C R2|Akhmat Arena|Grozny|Russia||rsssf-rus2024-cup
+MATCH|2023-08-29|Russian Cup|domestic-cup|Fakel Voronezh|0|1|FC Orenburg|Group-A R3|Central Trade Union Stadium|Voronezh|Russia||rsssf-rus2024-cup
+MATCH|2023-08-29|Russian Cup|domestic-cup|Rubin Kazan|2|1|Ural Yekaterinburg|Group-B R3|Ak Bars Arena|Kazan|Russia||rsssf-rus2024-cup
+MATCH|2023-08-29|Russian Cup|domestic-cup|Pari Nizhny Novgorod|0|1|FC Krasnodar|Group-D R3|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2024-cup
+MATCH|2023-08-29|Russian Cup|domestic-cup|Spartak Moscow|4|1|Dynamo Moscow|Group-D R3|Otkrytie Bank Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-08-30|Russian Cup|domestic-cup|PFC Sochi|0|0|CSKA Moscow|Group-A R3|Fisht Stadium|Sochi|Russia||rsssf-rus2024-cup
+MATCH|2023-08-30|Russian Cup|domestic-cup|FC Rostov|2|1|Lokomotiv Moscow|Group-B R3|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2024-cup
+MATCH|2023-08-30|Russian Cup|domestic-cup|Akhmat Grozny|3|1|Krylia Sovetov Samara|Group-C R3|Akhmat Arena|Grozny|Russia||rsssf-rus2024-cup
+MATCH|2023-08-30|Russian Cup|domestic-cup|Baltika Kaliningrad|1|0|Zenit St Petersburg|Group-C R3|RosTech Arena|Kaliningrad|Russia||rsssf-rus2024-cup
+MATCH|2023-09-19|Russian Cup|domestic-cup|Baltika Kaliningrad|1|2|Krylia Sovetov Samara|Group-C R4|RosTech Arena|Kaliningrad|Russia||rsssf-rus2024-cup
+MATCH|2023-09-19|Russian Cup|domestic-cup|FC Krasnodar|1|1|Dynamo Moscow|Group-D R4|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2024-cup
+MATCH|2023-09-19|Russian Cup|domestic-cup|Pari Nizhny Novgorod|0|3|Spartak Moscow|Group-D R4|Nizhny Novgorod Stadium|Nizhny Novgorod|Russia||rsssf-rus2024-cup
+MATCH|2023-09-20|Russian Cup|domestic-cup|CSKA Moscow|1|1|PFC Sochi|Group-A R4|VEB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-09-20|Russian Cup|domestic-cup|Rubin Kazan|1|1|FC Rostov|Group-B R4|Ak Bars Arena|Kazan|Russia||rsssf-rus2024-cup
+MATCH|2023-09-20|Russian Cup|domestic-cup|Ural Yekaterinburg|0|0|Lokomotiv Moscow|Group-B R4|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2024-cup
+MATCH|2023-09-20|Russian Cup|domestic-cup|Akhmat Grozny|3|3|Zenit St Petersburg|Group-C R4|Akhmat Arena|Grozny|Russia||rsssf-rus2024-cup
+MATCH|2023-09-21|Russian Cup|domestic-cup|FC Orenburg|0|0|Fakel Voronezh|Group-A R4|Gazovik Stadium|Orenburg|Russia||rsssf-rus2024-cup
+MATCH|2023-10-03|Russian Cup|domestic-cup|Lokomotiv Moscow|3|1|FC Rostov|Group-B R5|Russian Railways Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-10-03|Russian Cup|domestic-cup|Ural Yekaterinburg|2|0|Rubin Kazan|Group-B R5|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2024-cup
+MATCH|2023-10-03|Russian Cup|domestic-cup|Zenit St Petersburg|2|1|Baltika Kaliningrad|Group-C R5|Gazprom Arena|St Petersburg|Russia||rsssf-rus2024-cup
+MATCH|2023-10-04|Russian Cup|domestic-cup|Fakel Voronezh|1|1|CSKA Moscow|Group-A R5|Central Trade Union Stadium|Voronezh|Russia||rsssf-rus2024-cup
+MATCH|2023-10-04|Russian Cup|domestic-cup|PFC Sochi|1|2|FC Orenburg|Group-A R5|Fisht Stadium|Sochi|Russia||rsssf-rus2024-cup
+MATCH|2023-10-04|Russian Cup|domestic-cup|Krylia Sovetov Samara|0|3|Akhmat Grozny|Group-C R5|Solidarnost Samara Arena|Samara|Russia||rsssf-rus2024-cup
+MATCH|2023-10-04|Russian Cup|domestic-cup|Dynamo Moscow|3|0|Spartak Moscow|Group-D R5|VTB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-10-04|Russian Cup|domestic-cup|FC Krasnodar|3|0|Pari Nizhny Novgorod|Group-D R5|FC Krasnodar Stadium|Krasnodar|Russia||rsssf-rus2024-cup
+MATCH|2023-10-31|Russian Cup|domestic-cup|Baltika Kaliningrad|4|1|Akhmat Grozny|Group-C R6|RosTech Arena|Kaliningrad|Russia||rsssf-rus2024-cup
+MATCH|2023-10-31|Russian Cup|domestic-cup|Zenit St Petersburg|1|0|Krylia Sovetov Samara|Group-C R6|Gazprom Arena|St Petersburg|Russia||rsssf-rus2024-cup
+MATCH|2023-11-01|Russian Cup|domestic-cup|PFC Sochi|2|0|Fakel Voronezh|Group-A R6|Fisht Stadium|Sochi|Russia||rsssf-rus2024-cup
+MATCH|2023-11-01|Russian Cup|domestic-cup|Lokomotiv Moscow|3|0|Rubin Kazan|Group-B R6|Russian Railways Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-11-01|Russian Cup|domestic-cup|Spartak Moscow|2|3|FC Krasnodar|Group-D R6|Otkrytie Bank Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-11-02|Russian Cup|domestic-cup|CSKA Moscow|3|1|FC Orenburg|Group-A R6|VEB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-11-02|Russian Cup|domestic-cup|FC Rostov|2|1|Ural Yekaterinburg|Group-B R6|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2024-cup
+MATCH|2023-11-02|Russian Cup|domestic-cup|Dynamo Moscow|2|1|Pari Nizhny Novgorod|Group-D R6|VTB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-11-28|Russian Cup|domestic-cup|Baltika Kaliningrad|2|2|Lokomotiv Moscow|QF-Major leg1|RosTech Arena|Kaliningrad|Russia||rsssf-rus2024-cup
+MATCH|2023-11-29|Russian Cup|domestic-cup|Dynamo Moscow|1|0|Zenit St Petersburg|QF-Major leg1|VTB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2023-11-29|Russian Cup|domestic-cup|FC Orenburg|1|0|Spartak Moscow|QF-Major leg1|Gazovik Stadium|Orenburg|Russia||rsssf-rus2024-cup
+MATCH|2023-11-29|Russian Cup|domestic-cup|FC Rostov|1|1|CSKA Moscow|QF-Major leg1|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2024-cup
+MATCH|2024-03-12|Russian Cup|domestic-cup|CSKA Moscow|2|0|FC Rostov|QF-Major leg2|VEB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2024-03-12|Russian Cup|domestic-cup|FC Khimki|2|0|FC Krasnodar|QF-Minor P1|Arena Khimki|Khimki|Russia||rsssf-rus2024-cup
+MATCH|2024-03-13|Russian Cup|domestic-cup|Zenit St Petersburg|2|0|Dynamo Moscow|QF-Major leg2|Gazprom Arena|St Petersburg|Russia||rsssf-rus2024-cup
+MATCH|2024-03-13|Russian Cup|domestic-cup|Rodina Moscow|1|1|Ural Yekaterinburg|QF-Minor P1|Sapsan Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2024-03-13|Russian Cup|domestic-cup|Volgar Astrakhan|1|2|Akhmat Grozny|QF-Minor P1|Central Stadium|Astrakhan|Russia||rsssf-rus2024-cup
+MATCH|2024-03-14|Russian Cup|domestic-cup|Lokomotiv Moscow|1|1|Baltika Kaliningrad|QF-Major leg2|Russian Railways Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2024-03-14|Russian Cup|domestic-cup|Spartak Moscow|3|1|FC Orenburg|QF-Major leg2|Lukoil Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2024-03-14|Russian Cup|domestic-cup|PFC Sochi|1|1|SKA Khabarovsk|QF-Minor P1|Fisht Stadium|Sochi|Russia||rsssf-rus2024-cup
+MATCH|2024-04-02|Russian Cup|domestic-cup|FC Khimki|0|0|FC Rostov|QF-Minor P2|Arena Khimki|Khimki|Russia||rsssf-rus2024-cup
+MATCH|2024-04-02|Russian Cup|domestic-cup|SKA Khabarovsk|1|2|Dynamo Moscow|QF-Minor P2|Kirovets Stadium|St Petersburg|Russia||rsssf-rus2024-cup
+MATCH|2024-04-03|Russian Cup|domestic-cup|Ural Yekaterinburg|1|0|Lokomotiv Moscow|QF-Minor P2|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2024-cup
+MATCH|2024-04-03|Russian Cup|domestic-cup|Baltika Kaliningrad|0|1|CSKA Moscow|SF-Major leg1|RosTech Arena|Kaliningrad|Russia||rsssf-rus2024-cup
+MATCH|2024-04-03|Russian Cup|domestic-cup|Spartak Moscow|1|2|Zenit St Petersburg|SF-Major leg1|Lukoil Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2024-04-04|Russian Cup|domestic-cup|Akhmat Grozny|0|1|FC Orenburg|QF-Minor P2|Akhmat Arena|Grozny|Russia||rsssf-rus2024-cup
+MATCH|2024-04-16|Russian Cup|domestic-cup|CSKA Moscow|2|0|Baltika Kaliningrad|SF-Major leg2|VEB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2024-04-17|Russian Cup|domestic-cup|Zenit St Petersburg|0|0|Spartak Moscow|SF-Major leg2|Gazprom Arena|St Petersburg|Russia||rsssf-rus2024-cup
+MATCH|2024-04-17|Russian Cup|domestic-cup|FC Orenburg|2|4|Dynamo Moscow|SF-Minor P1|Gazovik Stadium|Orenburg|Russia||rsssf-rus2024-cup
+MATCH|2024-04-17|Russian Cup|domestic-cup|Ural Yekaterinburg|1|3|FC Rostov|SF-Minor P1|Yekaterinburg Arena|Yekaterinburg|Russia||rsssf-rus2024-cup
+MATCH|2024-05-01|Russian Cup|domestic-cup|Dynamo Moscow|0|2|Spartak Moscow|SF-Minor P2|VTB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2024-05-02|Russian Cup|domestic-cup|CSKA Moscow|1|1|Zenit St Petersburg|Finals-Major leg1|VEB Arena|Moscow|Russia||rsssf-rus2024-cup
+MATCH|2024-05-02|Russian Cup|domestic-cup|FC Rostov|0|1|Baltika Kaliningrad|SF-Minor P2|Rostov Arena|Rostov-on-Don|Russia||rsssf-rus2024-cup
+MATCH|2024-05-14|Russian Cup|domestic-cup|Baltika Kaliningrad|1|0|Spartak Moscow|Finals-Minor|RosTech Arena|Kaliningrad|Russia||rsssf-rus2024-cup
+MATCH|2024-05-15|Russian Cup|domestic-cup|Zenit St Petersburg|0|0|CSKA Moscow|Finals-Major leg2|Gazprom Arena|St Petersburg|Russia||rsssf-rus2024-cup
+MATCH|2024-06-02|Russian Cup|domestic-cup|Baltika Kaliningrad|1|2|Zenit St Petersburg|Final|Luzhniki Stadium|Moscow|Russia||rsssf-rus2024-cup
+END

@@ -1,0 +1,155 @@
+BP-TEAM-PACK v2
+NOTE|info|research_ack|WORKORDER-MLS round-1 return (2026-08-01): 2024 MLS decision day (11) + 2024 MLS Cup Playoffs (28) + 2024 US Open Cup from R32 (21) + 2026 MLS July rounds (25) = 85 rows. NOT a full-season universe: no 2024 MD1-33, no 2025 season, no 2026 Feb-Jul, no Leagues Cup. Evidence-carrier level only; replay/calibration gated on full bulk (round 2).
+NOTE|warning|coverage_gap|2024 season: only the Oct-19 decision-day round + playoffs; 2025 season: absent; 2026 season: Jul 22/25/31 rounds only. Do NOT draw zone/calibration conclusions from this slice.
+NOTE|warning|aet_corrections|5 returned rows carried AFTER-EXTRA-TIME scores mislabeled as 90-minute-compliant (union-omaha-SKC 2024-05-08, sacramento-san-jose 2024-05-21, SKC-fc-dallas 2024-07-10, LAFC-SKC 2024-09-25, LAFC-seattle 2024-11-23). All corrected to their 90-minute scorelines per doctrine; advancement facts kept as NOTE rows. See usa/usa_round1_notes.md.
+NOTE|info|alias_gaps|Returned master alias table missed fc-cincinnati (30th MLS club) and 5 lower-division slugs referenced by its own match rows (las-vegas-lights, charleston-battery, fc-tulsa, loudoun-united, indy-eleven). All 6 added here.
+NOTE|info|codes|League codes populated from day one (lesson from RPL CZ sweep): MLS = Major League Soccer, USL = USL Championship, USL1 = USL League One. Canadian clubs carry club-true country (Wales/England precedent).
+TEAM|Atlanta United FC|United States|Major League Soccer|MLS||unknown|Atlanta|United States|unknown|unknown|unknown|unknown
+TEAM|Austin FC|United States|Major League Soccer|MLS||unknown|Austin|United States|unknown|unknown|unknown|unknown
+TEAM|CF Montréal|Canada|Major League Soccer|MLS|CF Montreal|unknown|Montreal|Canada|unknown|unknown|unknown|unknown
+TEAM|Charlotte FC|United States|Major League Soccer|MLS||unknown|Charlotte|United States|unknown|unknown|unknown|unknown
+TEAM|Chicago Fire FC|United States|Major League Soccer|MLS||unknown|Chicago|United States|unknown|unknown|unknown|unknown
+TEAM|Colorado Rapids|United States|Major League Soccer|MLS||unknown|Commerce City|United States|unknown|unknown|unknown|unknown
+TEAM|Columbus Crew|United States|Major League Soccer|MLS||unknown|Columbus|United States|unknown|unknown|unknown|unknown
+TEAM|D.C. United|United States|Major League Soccer|MLS|DC United|unknown|Washington|United States|unknown|unknown|unknown|unknown
+TEAM|FC Cincinnati|United States|Major League Soccer|MLS||unknown|Cincinnati|United States|unknown|unknown|unknown|unknown
+TEAM|FC Dallas|United States|Major League Soccer|MLS||unknown|Frisco|United States|unknown|unknown|unknown|unknown
+TEAM|Houston Dynamo FC|United States|Major League Soccer|MLS||unknown|Houston|United States|unknown|unknown|unknown|unknown
+TEAM|Inter Miami CF|United States|Major League Soccer|MLS|Inter Miami|unknown|Fort Lauderdale|United States|unknown|unknown|unknown|unknown
+TEAM|LA Galaxy|United States|Major League Soccer|MLS|Los Angeles Galaxy|unknown|Carson|United States|unknown|unknown|unknown|unknown
+TEAM|Los Angeles FC|United States|Major League Soccer|MLS|LAFC|unknown|Los Angeles|United States|unknown|unknown|unknown|unknown
+TEAM|Minnesota United FC|United States|Major League Soccer|MLS||unknown|Saint Paul|United States|unknown|unknown|unknown|unknown
+TEAM|Nashville SC|United States|Major League Soccer|MLS||unknown|Nashville|United States|unknown|unknown|unknown|unknown
+TEAM|New England Revolution|United States|Major League Soccer|MLS|New England Revolution FC|unknown|Foxborough|United States|unknown|unknown|unknown|unknown
+TEAM|New York City FC|United States|Major League Soccer|MLS|NYCFC|unknown|New York|United States|unknown|unknown|unknown|unknown
+TEAM|New York Red Bulls|United States|Major League Soccer|MLS|NY Red Bulls;NYRB|unknown|Harrison|United States|unknown|unknown|unknown|unknown
+TEAM|Orlando City SC|United States|Major League Soccer|MLS||unknown|Orlando|United States|unknown|unknown|unknown|unknown
+TEAM|Philadelphia Union|United States|Major League Soccer|MLS||unknown|Chester|United States|unknown|unknown|unknown|unknown
+TEAM|Portland Timbers|United States|Major League Soccer|MLS||unknown|Portland|United States|unknown|unknown|unknown|unknown
+TEAM|Real Salt Lake|United States|Major League Soccer|MLS|RSL|unknown|Sandy|United States|unknown|unknown|unknown|unknown
+TEAM|San Diego FC|United States|Major League Soccer|MLS||unknown|San Diego|United States|unknown|unknown|unknown|unknown
+TEAM|San Jose Earthquakes|United States|Major League Soccer|MLS||unknown|San Jose|United States|unknown|unknown|unknown|unknown
+TEAM|Seattle Sounders FC|United States|Major League Soccer|MLS||unknown|Seattle|United States|unknown|unknown|unknown|unknown
+TEAM|Sporting Kansas City|United States|Major League Soccer|MLS|Sporting KC|unknown|Kansas City|United States|unknown|unknown|unknown|unknown
+TEAM|St. Louis City SC|United States|Major League Soccer|MLS|St Louis City SC;St. Louis CITY SC|unknown|St. Louis|United States|unknown|unknown|unknown|unknown
+TEAM|Toronto FC|Canada|Major League Soccer|MLS||unknown|Toronto|Canada|unknown|unknown|unknown|unknown
+TEAM|Vancouver Whitecaps FC|Canada|Major League Soccer|MLS||unknown|Vancouver|Canada|unknown|unknown|unknown|unknown
+TEAM|Charleston Battery|United States|USL Championship|USL||unknown|Charleston|United States|unknown|unknown|unknown|unknown
+TEAM|Detroit City FC|United States|USL Championship|USL||unknown|Detroit|United States|unknown|unknown|unknown|unknown
+TEAM|FC Tulsa|United States|USL Championship|USL||unknown|Tulsa|United States|unknown|unknown|unknown|unknown
+TEAM|Indy Eleven|United States|USL Championship|USL||unknown|Indianapolis|United States|unknown|unknown|unknown|unknown
+TEAM|Las Vegas Lights FC|United States|USL Championship|USL||unknown|Las Vegas|United States|unknown|unknown|unknown|unknown
+TEAM|Loudoun United FC|United States|USL Championship|USL||unknown|Leesburg|United States|unknown|unknown|unknown|unknown
+TEAM|Louisville City FC|United States|USL Championship|USL||unknown|Louisville|United States|unknown|unknown|unknown|unknown
+TEAM|Memphis 901 FC|United States|USL Championship|USL||unknown|Memphis|United States|unknown|unknown|unknown|unknown
+TEAM|New Mexico United|United States|USL Championship|USL||unknown|Albuquerque|United States|unknown|unknown|unknown|unknown
+TEAM|Oakland Roots SC|United States|USL Championship|USL||unknown|Oakland|United States|unknown|unknown|unknown|unknown
+TEAM|Phoenix Rising FC|United States|USL Championship|USL||unknown|Phoenix|United States|unknown|unknown|unknown|unknown
+TEAM|Sacramento Republic FC|United States|USL Championship|USL|Sacramento Republic|unknown|Sacramento|United States|unknown|unknown|unknown|unknown
+TEAM|Tampa Bay Rowdies|United States|USL Championship|USL||unknown|St. Petersburg|United States|unknown|unknown|unknown|unknown
+TEAM|Charlotte Independence|United States|USL League One|USL1||unknown|Charlotte|United States|unknown|unknown|unknown|unknown
+TEAM|Union Omaha|United States|USL League One|USL1||unknown|Omaha|United States|unknown|unknown|unknown|unknown
+MATCH|2024-10-19|Major League Soccer|domestic-league|Philadelphia Union|1|2|FC Cincinnati|normal|unknown|Chester|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|D.C. United|0|3|Charlotte FC|normal|unknown|Washington|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|Orlando City SC|1|2|Atlanta United FC|normal|unknown|Orlando|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|Inter Miami CF|6|2|New England Revolution|normal|unknown|Fort Lauderdale|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|Minnesota United FC|4|1|St. Louis City SC|normal|unknown|Saint Paul|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|Real Salt Lake|2|1|Vancouver Whitecaps FC|normal|unknown|Sandy|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|Seattle Sounders FC|1|1|Portland Timbers|normal|unknown|Seattle|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|Houston Dynamo FC|2|1|LA Galaxy|normal|unknown|Houston|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|Austin FC|3|2|Colorado Rapids|normal|unknown|Austin|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|FC Dallas|2|1|Sporting Kansas City|normal|unknown|Frisco|United States||src-user-mls-r1
+MATCH|2024-10-19|Major League Soccer|domestic-league|Los Angeles FC|3|1|San Jose Earthquakes|normal|unknown|Los Angeles|United States||src-user-mls-r1
+MATCH|2024-10-22|MLS Cup Playoffs|other|CF Montréal|2|2|Atlanta United FC|normal|unknown|Montreal|Canada||src-user-mls-r1
+NOTE|info|90min-pens|2024-10-22 CF Montréal 2-2 Atlanta United FC: Atlanta advanced 5-4 on penalties.
+MATCH|2024-10-24|MLS Cup Playoffs|other|Vancouver Whitecaps FC|5|0|Portland Timbers|normal|unknown|Vancouver|Canada||src-user-mls-r1
+MATCH|2024-10-25|MLS Cup Playoffs|other|Inter Miami CF|2|1|Atlanta United FC|normal|unknown|Fort Lauderdale|United States||src-user-mls-r1
+MATCH|2024-10-26|MLS Cup Playoffs|other|LA Galaxy|5|0|Colorado Rapids|normal|unknown|Carson|United States||src-user-mls-r1
+MATCH|2024-10-27|MLS Cup Playoffs|other|Orlando City SC|2|0|Charlotte FC|normal|unknown|Orlando|United States||src-user-mls-r1
+MATCH|2024-10-27|MLS Cup Playoffs|other|Los Angeles FC|2|1|Vancouver Whitecaps FC|normal|unknown|Los Angeles|United States||src-user-mls-r1
+MATCH|2024-10-28|MLS Cup Playoffs|other|FC Cincinnati|1|0|New York City FC|normal|unknown|Cincinnati|United States||src-user-mls-r1
+MATCH|2024-10-28|MLS Cup Playoffs|other|Seattle Sounders FC|0|0|Houston Dynamo FC|normal|unknown|Seattle|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-10-28 Seattle Sounders FC 0-0 Houston Dynamo FC: Seattle advanced 5-4 on penalties.
+MATCH|2024-10-29|MLS Cup Playoffs|other|Columbus Crew|0|1|New York Red Bulls|normal|unknown|Columbus|United States||src-user-mls-r1
+MATCH|2024-10-29|MLS Cup Playoffs|other|Real Salt Lake|0|0|Minnesota United FC|normal|unknown|Sandy|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-10-29 Real Salt Lake 0-0 Minnesota United FC: Minnesota advanced 5-4 on penalties.
+MATCH|2024-11-01|MLS Cup Playoffs|other|Charlotte FC|0|0|Orlando City SC|normal|unknown|Charlotte|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-11-01 Charlotte FC 0-0 Orlando City SC: Charlotte advanced 3-1 on penalties.
+MATCH|2024-11-01|MLS Cup Playoffs|other|Colorado Rapids|1|4|LA Galaxy|normal|unknown|Commerce City|United States||src-user-mls-r1
+MATCH|2024-11-02|MLS Cup Playoffs|other|New York City FC|3|1|FC Cincinnati|normal|unknown|New York|United States||src-user-mls-r1
+MATCH|2024-11-02|MLS Cup Playoffs|other|Atlanta United FC|2|1|Inter Miami CF|normal|unknown|Atlanta|United States||src-user-mls-r1
+MATCH|2024-11-02|MLS Cup Playoffs|other|Minnesota United FC|1|1|Real Salt Lake|normal|unknown|Saint Paul|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-11-02 Minnesota United FC 1-1 Real Salt Lake: Minnesota advanced 3-1 on penalties.
+MATCH|2024-11-03|MLS Cup Playoffs|other|New York Red Bulls|2|2|Columbus Crew|normal|unknown|Harrison|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-11-03 New York Red Bulls 2-2 Columbus Crew: New York Red Bulls advanced 5-4 on penalties.
+MATCH|2024-11-03|MLS Cup Playoffs|other|Houston Dynamo FC|1|1|Seattle Sounders FC|normal|unknown|Houston|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-11-03 Houston Dynamo FC 1-1 Seattle Sounders FC: Seattle advanced 7-6 on penalties.
+MATCH|2024-11-03|MLS Cup Playoffs|other|Vancouver Whitecaps FC|3|0|Los Angeles FC|normal|unknown|Vancouver|Canada||src-user-mls-r1
+MATCH|2024-11-08|MLS Cup Playoffs|other|Los Angeles FC|1|0|Vancouver Whitecaps FC|normal|unknown|Los Angeles|United States||src-user-mls-r1
+MATCH|2024-11-09|MLS Cup Playoffs|other|FC Cincinnati|0|0|New York City FC|normal|unknown|Cincinnati|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-11-09 FC Cincinnati 0-0 New York City FC: New York City FC advanced 6-5 on penalties.
+MATCH|2024-11-09|MLS Cup Playoffs|other|Orlando City SC|1|1|Charlotte FC|normal|unknown|Orlando|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-11-09 Orlando City SC 1-1 Charlotte FC: Orlando advanced 4-1 on penalties.
+MATCH|2024-11-09|MLS Cup Playoffs|other|Inter Miami CF|2|3|Atlanta United FC|normal|unknown|Fort Lauderdale|United States||src-user-mls-r1
+MATCH|2024-11-23|MLS Cup Playoffs|other|Los Angeles FC|1|1|Seattle Sounders FC|normal|unknown|Los Angeles|United States||src-user-mls-r1
+NOTE|info|90min-aet|2024-11-23 Los Angeles FC 1-1 Seattle Sounders FC: 90m 1-1; Seattle won 2-1 after extra time [AET-CORRECTED from returned 1-2].
+MATCH|2024-11-24|MLS Cup Playoffs|other|Orlando City SC|1|0|Atlanta United FC|normal|unknown|Orlando|United States||src-user-mls-r1
+MATCH|2024-11-24|MLS Cup Playoffs|other|LA Galaxy|6|2|Minnesota United FC|normal|unknown|Carson|United States||src-user-mls-r1
+MATCH|2024-11-30|MLS Cup Playoffs|other|Orlando City SC|0|1|New York Red Bulls|normal|unknown|Orlando|United States||src-user-mls-r1
+MATCH|2024-11-30|MLS Cup Playoffs|other|LA Galaxy|1|0|Seattle Sounders FC|normal|unknown|Carson|United States||src-user-mls-r1
+MATCH|2024-12-07|MLS Cup Playoffs|other|LA Galaxy|2|1|New York Red Bulls|normal|unknown|Carson|United States||src-user-mls-r1
+MATCH|2024-05-07|US Open Cup|domestic-cup|Atlanta United FC|3|0|Charlotte Independence|normal|unknown|Atlanta|United States||src-user-mls-r1
+MATCH|2024-05-07|US Open Cup|domestic-cup|Houston Dynamo FC|3|3|Detroit City FC|normal|unknown|Houston|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-05-07 Houston Dynamo FC 3-3 Detroit City FC: Detroit City advanced 10-9 on penalties.
+MATCH|2024-05-07|US Open Cup|domestic-cup|FC Dallas|1|0|Memphis 901 FC|normal|unknown|Frisco|United States||src-user-mls-r1
+MATCH|2024-05-07|US Open Cup|domestic-cup|San Jose Earthquakes|1|0|Oakland Roots SC|normal|unknown|San Jose|United States||src-user-mls-r1
+MATCH|2024-05-08|US Open Cup|domestic-cup|Union Omaha|1|1|Sporting Kansas City|normal|unknown|Omaha|United States||src-user-mls-r1
+NOTE|info|90min-aet|2024-05-08 Union Omaha 1-1 Sporting Kansas City: 90m 1-1; Sporting KC won 2-1 after extra time [AET-CORRECTED from returned 1-2].
+MATCH|2024-05-08|US Open Cup|domestic-cup|New Mexico United|4|2|Real Salt Lake|normal|unknown|Albuquerque|United States||src-user-mls-r1
+MATCH|2024-05-08|US Open Cup|domestic-cup|Seattle Sounders FC|2|2|Louisville City FC|normal|unknown|Seattle|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-05-08 Seattle Sounders FC 2-2 Louisville City FC: Seattle advanced 5-4 on penalties.
+MATCH|2024-05-08|US Open Cup|domestic-cup|Las Vegas Lights FC|1|3|Los Angeles FC|normal|unknown|Las Vegas|United States||src-user-mls-r1
+MATCH|2024-05-21|US Open Cup|domestic-cup|Charleston Battery|0|0|Atlanta United FC|normal|unknown|Charleston|United States||src-user-mls-r1
+NOTE|info|90min-pens|2024-05-21 Charleston Battery 0-0 Atlanta United FC: Atlanta advanced 5-4 on penalties.
+MATCH|2024-05-21|US Open Cup|domestic-cup|Sporting Kansas City|4|0|FC Tulsa|normal|unknown|Kansas City|United States||src-user-mls-r1
+MATCH|2024-05-21|US Open Cup|domestic-cup|Sacramento Republic FC|3|3|San Jose Earthquakes|normal|unknown|Sacramento|United States||src-user-mls-r1
+NOTE|info|90min-aet|2024-05-21 Sacramento Republic FC 3-3 San Jose Earthquakes: 90m 3-3; Sacramento won 4-3 after extra time [AET-CORRECTED from returned 4-3].
+MATCH|2024-05-21|US Open Cup|domestic-cup|Los Angeles FC|3|0|Loudoun United FC|normal|unknown|Los Angeles|United States||src-user-mls-r1
+MATCH|2024-05-22|US Open Cup|domestic-cup|Tampa Bay Rowdies|1|2|FC Dallas|normal|unknown|St. Petersburg|United States||src-user-mls-r1
+MATCH|2024-05-22|US Open Cup|domestic-cup|Seattle Sounders FC|2|1|Phoenix Rising FC|normal|unknown|Seattle|United States||src-user-mls-r1
+MATCH|2024-07-09|US Open Cup|domestic-cup|Atlanta United FC|1|2|Indy Eleven|normal|unknown|Atlanta|United States||src-user-mls-r1
+MATCH|2024-07-10|US Open Cup|domestic-cup|Sacramento Republic FC|1|2|Seattle Sounders FC|normal|unknown|Sacramento|United States||src-user-mls-r1
+MATCH|2024-07-10|US Open Cup|domestic-cup|Sporting Kansas City|1|1|FC Dallas|normal|unknown|Kansas City|United States||src-user-mls-r1
+NOTE|info|90min-aet|2024-07-10 Sporting Kansas City 1-1 FC Dallas: 90m 1-1; Sporting KC won 2-1 after extra time [AET-CORRECTED from returned 2-1].
+MATCH|2024-07-10|US Open Cup|domestic-cup|Los Angeles FC|3|1|New Mexico United|normal|unknown|Los Angeles|United States||src-user-mls-r1
+MATCH|2024-08-27|US Open Cup|domestic-cup|Sporting Kansas City|2|0|Indy Eleven|normal|unknown|Kansas City|United States||src-user-mls-r1
+MATCH|2024-08-28|US Open Cup|domestic-cup|Seattle Sounders FC|0|1|Los Angeles FC|normal|unknown|Seattle|United States||src-user-mls-r1
+MATCH|2024-09-25|US Open Cup|domestic-cup|Los Angeles FC|1|1|Sporting Kansas City|normal|unknown|Los Angeles|United States||src-user-mls-r1
+NOTE|info|90min-aet|2024-09-25 Los Angeles FC 1-1 Sporting Kansas City: 90m 1-1; LAFC won 3-1 after extra time [AET-CORRECTED from returned 3-1].
+MATCH|2026-07-22|Major League Soccer|domestic-league|Nashville SC|1|0|CF Montréal|normal|unknown|Nashville|United States||src-user-mls-r1
+MATCH|2026-07-22|Major League Soccer|domestic-league|Houston Dynamo FC|1|1|D.C. United|normal|unknown|Houston|United States||src-user-mls-r1
+MATCH|2026-07-22|Major League Soccer|domestic-league|Sporting Kansas City|2|1|Minnesota United FC|normal|unknown|Kansas City|United States||src-user-mls-r1
+MATCH|2026-07-22|Major League Soccer|domestic-league|Austin FC|3|1|Seattle Sounders FC|normal|unknown|Austin|United States||src-user-mls-r1
+MATCH|2026-07-22|Major League Soccer|domestic-league|Colorado Rapids|1|0|San Diego FC|normal|unknown|Commerce City|United States||src-user-mls-r1
+MATCH|2026-07-22|Major League Soccer|domestic-league|Los Angeles FC|3|1|Real Salt Lake|normal|unknown|Los Angeles|United States||src-user-mls-r1
+MATCH|2026-07-22|Major League Soccer|domestic-league|Portland Timbers|2|2|FC Dallas|normal|unknown|Portland|United States||src-user-mls-r1
+MATCH|2026-07-22|Major League Soccer|domestic-league|San Jose Earthquakes|0|4|Orlando City SC|normal|unknown|San Jose|United States||src-user-mls-r1
+MATCH|2026-07-22|Major League Soccer|domestic-league|LA Galaxy|1|3|St. Louis City SC|normal|unknown|Carson|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|New York Red Bulls|0|2|Charlotte FC|normal|unknown|Harrison|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|Columbus Crew|2|1|FC Cincinnati|normal|unknown|Columbus|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|Philadelphia Union|1|0|Seattle Sounders FC|normal|unknown|Chester|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|CF Montréal|0|1|Inter Miami CF|normal|unknown|Montreal|Canada||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|New York City FC|3|1|Chicago Fire FC|normal|unknown|New York|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|D.C. United|2|1|Toronto FC|normal|unknown|Washington|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|New England Revolution|4|1|Atlanta United FC|normal|unknown|Foxborough|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|Houston Dynamo FC|3|0|Austin FC|normal|unknown|Houston|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|Minnesota United FC|0|0|Vancouver Whitecaps FC|normal|unknown|Saint Paul|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|St. Louis City SC|1|0|Colorado Rapids|normal|unknown|St. Louis|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|Orlando City SC|1|0|Nashville SC|normal|unknown|Orlando|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|San Diego FC|1|0|FC Dallas|normal|unknown|San Diego|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|San Jose Earthquakes|1|1|LA Galaxy|normal|unknown|San Jose|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|Los Angeles FC|4|0|Sporting Kansas City|normal|unknown|Los Angeles|United States||src-user-mls-r1
+MATCH|2026-07-25|Major League Soccer|domestic-league|Portland Timbers|2|1|Real Salt Lake|normal|unknown|Portland|United States||src-user-mls-r1
+MATCH|2026-07-31|Major League Soccer|domestic-league|New York City FC|1|1|Toronto FC|normal|unknown|New York|United States||src-user-mls-r1
+SOURCE|src-user-mls-r1|https://www.ussoccer.com/|2026-08-01|results-database|WORKORDER-MLS round-1 return: user-supplied MLS bulk (85 matches, 90-minute doctrine applied incl. 5 AET corrections); USOC rows per supplier verification matrix (ussoccer.com + fallback logs)
+END

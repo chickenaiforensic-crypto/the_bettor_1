@@ -1,0 +1,693 @@
+BP-TEAM-PACK v2
+NOTE|info|research_ack|Russian Premier League 2024-25 + 2025-26 complete (488 league rows parsed from RSSSF round-by-round, incl. 2026-27 MD1 8 rows) + 2026-27 MD2 Akron-Rubin (1 row); Russian Cup RPL-path groups + full knockout brackets both seasons + Superfinals (152 rows, re-verified 100% vs RSSSF 2026-08-01); Super Cup 2025 (1); Promotion/Relegation Playoff 2025-26 (2). 644 rows total.
+NOTE|info|cutoff|All rows are completed matches on or before 2026-08-01.
+NOTE|warning|md2_verification|MD2 Akron Tolyatti 1-2 Rubin Kazan (2026-08-01): user live report (2-1 at 46min, FT 1-2); fixture slot confirmed on soccerstats round listing; score pending index re-verification vs RSSSF/ESPN once pages refresh.
+NOTE|info|league_codes|TEAM league-code field now populated (was NA): RPL = Russian Premier League, FNL = Russian First League. Display-only metadata; no evidence rows affected.
+NOTE|warning|aet_handling|90-minute scores per rule: cup group-stage games decided by penalty shootouts recorded as draws (e.g. Akron 1-1 Zenit 2024-08-27, Rubin 3-3 Akhmat 2025-10-22); knockout legs at 90 minutes; Superfinal Rostov 0-0 CSKA 2025-06-01 recorded draw (CSKA won pens); Superfinal Spartak 1-1 Krasnodar 2026-05-24 recorded draw (Spartak won pens).
+NOTE|warning|source_conflict|Cup completeness rebuild 2026-08-01 vs old store: 117 rows exact, 34 missing added, 3 date conflicts resolved to RSSSF (Lokomotiv-Akhmat and Spartak-Ural to 2025-04-15; Spartak-Rostov to 2025-05-15), 2 duplicates removed. User batch R-05 (22 rows): 16 fabricated fixtures excluded; only RSSSF-confirmed rows loaded, with Rubin-CSKA 0-0 dated correctly 2024-11-06 and Akhmat-Zenit dated 2024-11-27.
+NOTE|info|md1_verification|2026-27 MD1 (2026-07-24..26, 8 rows): original feed fetch (worldfootball.net) was Cloudflare-blocked; rows independently re-verified 2026-08-01 against ESPN, soccerstats.com and betexplorer.com - 8/8 exact score+date matches (incl. Akron 0-5 Zenit, Rubin 1-3 Krasnodar).
+NOTE|warning|scope_gap|Russian First League (second tier) league games are NOT included: cup-only participants Shinnik, Tyumen, Arsenal Tula, KAMAZ, Neftekhimik, Torpedo Moscow, Ural, plus Baltika/Sochi/Fakel/Rodina/Orenburg pre-promotion, carry cup-match history only. FC Khimki dissolved after 2024-25 relegation.
+NOTE|info|validation|Every CUP row matches the RSSSF cup sections bit-for-bit (152/152, checked 2026-08-01). League per-club season totals previously validated vs RSSSF tables. MD1 8/8 cross-verified (see md1_verification). MD2 1 row user-reported, fixture-slot cross-checked (see md2_verification).
+TEAM|Dynamo Moscow|Russia|Russian Premier League|RPL||unknown|Moscow|Russia|unknown|unknown|unknown|unknown
+TEAM|Fakel Voronezh|Russia|Russian Premier League|RPL||unknown|Voronezh|Russia|unknown|unknown|unknown|unknown
+TEAM|Krylia Sovetov Samara|Russia|Russian Premier League|RPL|Krylya Sovetov Samara;Krylya Sovetov|unknown|Samara|Russia|unknown|unknown|unknown|unknown
+TEAM|Zenit St Petersburg|Russia|Russian Premier League|RPL||unknown|St Petersburg|Russia|unknown|unknown|unknown|unknown
+TEAM|Lokomotiv Moscow|Russia|Russian Premier League|RPL||unknown|Moscow|Russia|unknown|unknown|unknown|unknown
+TEAM|Akron Tolyatti|Russia|Russian Premier League|RPL||unknown|Tolyatti|Russia|unknown|unknown|unknown|unknown
+TEAM|FC Rostov|Russia|Russian Premier League|RPL||unknown|Rostov-on-Don|Russia|unknown|unknown|unknown|unknown
+TEAM|CSKA Moscow|Russia|Russian Premier League|RPL||unknown|Moscow|Russia|unknown|unknown|unknown|unknown
+TEAM|Akhmat Grozny|Russia|Russian Premier League|RPL||unknown|Grozny|Russia|unknown|unknown|unknown|unknown
+TEAM|FC Krasnodar|Russia|Russian Premier League|RPL||unknown|Krasnodar|Russia|unknown|unknown|unknown|unknown
+TEAM|FC Khimki|Russia|Russian Premier League|RPL||unknown|Khimki|Russia|unknown|unknown|unknown|unknown
+TEAM|Dynamo Makhachkala|Russia|Russian Premier League|RPL||unknown|Makhachkala|Russia|unknown|unknown|unknown|unknown
+TEAM|FC Orenburg|Russia|Russian Premier League|RPL||unknown|Orenburg|Russia|unknown|unknown|unknown|unknown
+TEAM|Spartak Moscow|Russia|Russian Premier League|RPL||unknown|Moscow|Russia|unknown|unknown|unknown|unknown
+TEAM|Pari Nizhny Novgorod|Russia|Russian Premier League|RPL||unknown|Nizhny Novgorod|Russia|unknown|unknown|unknown|unknown
+TEAM|Rubin Kazan|Russia|Russian Premier League|RPL||unknown|Kazan|Russia|unknown|unknown|unknown|unknown
+TEAM|Shinnik Yaroslavl|Russia|Russian First League|FNL||unknown|Yaroslavl|Russia|unknown|unknown|unknown|unknown
+TEAM|Tyumen|Russia|Russian First League|FNL||unknown|Tyumen|Russia|unknown|unknown|unknown|unknown
+TEAM|PFC Sochi|Russia|Russian Premier League|RPL||unknown|Sochi|Russia|unknown|unknown|unknown|unknown
+TEAM|Ural Yekaterinburg|Russia|Russian First League|FNL||unknown|Yekaterinburg|Russia|unknown|unknown|unknown|unknown
+TEAM|Baltika Kaliningrad|Russia|Russian Premier League|RPL||unknown|Kaliningrad|Russia|unknown|unknown|unknown|unknown
+TEAM|Arsenal Tula|Russia|Russian First League|FNL||unknown|Tula|Russia|unknown|unknown|unknown|unknown
+TEAM|Torpedo Moscow|Russia|Russian First League|FNL||unknown|Moscow|Russia|unknown|unknown|unknown|unknown
+TEAM|Neftekhimik Nizhnekamsk|Russia|Russian First League|FNL||unknown|Nizhnekamsk|Russia|unknown|unknown|unknown|unknown
+TEAM|KAMAZ|Russia|Russian First League|FNL||unknown|Naberezhnye Chelny|Russia|unknown|unknown|unknown|unknown
+TEAM|Rodina Moscow|Russia|Russian Premier League|RPL||unknown|Moscow|Russia|unknown|unknown|unknown|unknown
+MATCH|2024-07-20|Russian Premier League|domestic-league|Dynamo Moscow|3|1|Fakel Voronezh|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-07-20|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|4|Zenit St Petersburg|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-07-20|Russian Premier League|domestic-league|Lokomotiv Moscow|3|2|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-07-20|Russian Premier League|domestic-league|FC Rostov|0|0|CSKA Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-07-21|Russian Premier League|domestic-league|Akhmat Grozny|1|1|FC Krasnodar|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-07-21|Russian Premier League|domestic-league|FC Khimki|1|1|Dynamo Makhachkala|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-07-21|Russian Premier League|domestic-league|FC Orenburg|2|0|Spartak Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-07-22|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|4|Rubin Kazan|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-07-26|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|3|FC Rostov|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-07-27|Russian Premier League|domestic-league|Dynamo Moscow|3|1|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-07-27|Russian Premier League|domestic-league|Fakel Voronezh|0|2|Akron Tolyatti|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-07-27|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|3|CSKA Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-07-27|Russian Premier League|domestic-league|Rubin Kazan|0|4|Zenit St Petersburg|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-07-28|Russian Premier League|domestic-league|FC Khimki|1|3|Spartak Moscow|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-07-28|Russian Premier League|domestic-league|FC Krasnodar|0|0|Dynamo Makhachkala|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-07-28|Russian Premier League|domestic-league|FC Orenburg|0|0|Akhmat Grozny|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-07-30|Russian Cup|domestic-cup|Lokomotiv Moscow|1|0|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-07-30|Russian Cup|domestic-cup|Rubin Kazan|4|0|Akron Tolyatti|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-07-30|Russian Cup|domestic-cup|Zenit St Petersburg|3|0|Fakel Voronezh|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-07-31|Russian Cup|domestic-cup|Akhmat Grozny|4|1|Pari Nizhny Novgorod|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-07-31|Russian Cup|domestic-cup|FC Khimki|1|0|FC Orenburg|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-07-31|Russian Cup|domestic-cup|FC Krasnodar|1|0|CSKA Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-07-31|Russian Cup|domestic-cup|Spartak Moscow|3|0|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-01|Russian Cup|domestic-cup|Dynamo Makhachkala|1|0|Krylia Sovetov Samara|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-08-03|Russian Premier League|domestic-league|Akron Tolyatti|0|2|Dynamo Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-08-03|Russian Premier League|domestic-league|Rubin Kazan|2|3|FC Khimki|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-08-03|Russian Premier League|domestic-league|Zenit St Petersburg|5|0|FC Rostov|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-08-04|Russian Premier League|domestic-league|Akhmat Grozny|0|5|Lokomotiv Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-08-04|Russian Premier League|domestic-league|CSKA Moscow|5|1|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-04|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Pari Nizhny Novgorod|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-08-04|Russian Premier League|domestic-league|Fakel Voronezh|0|0|FC Krasnodar|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-08-05|Russian Premier League|domestic-league|Spartak Moscow|3|0|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-09|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|0|FC Khimki|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-08-09|Russian Premier League|domestic-league|FC Rostov|1|1|Rubin Kazan|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-08-10|Russian Premier League|domestic-league|FC Krasnodar|2|1|CSKA Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-08-10|Russian Premier League|domestic-league|Lokomotiv Moscow|2|0|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-10|Russian Premier League|domestic-league|FC Orenburg|2|2|Akron Tolyatti|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-08-10|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|Dynamo Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-08-11|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|Fakel Voronezh|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-08-11|Russian Premier League|domestic-league|Spartak Moscow|0|0|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-13|Russian Cup|domestic-cup|FC Orenburg|2|3|Lokomotiv Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-08-13|Russian Cup|domestic-cup|FC Rostov|3|1|FC Khimki|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-08-14|Russian Cup|domestic-cup|CSKA Moscow|1|1|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-14|Russian Cup|domestic-cup|Dynamo Moscow|2|1|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-14|Russian Cup|domestic-cup|Krylia Sovetov Samara|0|3|Spartak Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-08-14|Russian Cup|domestic-cup|Rubin Kazan|0|1|Zenit St Petersburg|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-08-15|Russian Cup|domestic-cup|Fakel Voronezh|1|2|Akron Tolyatti|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-08-15|Russian Cup|domestic-cup|FC Krasnodar|1|0|Akhmat Grozny|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-08-17|Russian Premier League|domestic-league|Dynamo Moscow|1|0|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-17|Russian Premier League|domestic-league|FC Rostov|3|2|FC Orenburg|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-08-18|Russian Premier League|domestic-league|CSKA Moscow|0|1|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-18|Russian Premier League|domestic-league|FC Khimki|1|1|Zenit St Petersburg|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-08-18|Russian Premier League|domestic-league|FC Krasnodar|2|1|Pari Nizhny Novgorod|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-08-18|Russian Premier League|domestic-league|Spartak Moscow|3|0|Fakel Voronezh|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-19|Russian Premier League|domestic-league|Akron Tolyatti|1|2|Rubin Kazan|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-08-19|Russian Premier League|domestic-league|Dynamo Makhachkala|1|0|Akhmat Grozny|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-08-23|Russian Premier League|domestic-league|Rubin Kazan|2|0|Dynamo Makhachkala|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-08-24|Russian Premier League|domestic-league|Akhmat Grozny|3|3|FC Khimki|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-08-24|Russian Premier League|domestic-league|CSKA Moscow|4|0|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-24|Russian Premier League|domestic-league|Fakel Voronezh|1|0|FC Orenburg|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-08-24|Russian Premier League|domestic-league|Zenit St Petersburg|0|0|Spartak Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-08-25|Russian Premier League|domestic-league|Dynamo Moscow|0|1|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-25|Russian Premier League|domestic-league|Krylia Sovetov Samara|3|1|Pari Nizhny Novgorod|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-08-25|Russian Premier League|domestic-league|Lokomotiv Moscow|3|2|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-27|Russian Cup|domestic-cup|Akhmat Grozny|0|2|CSKA Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-08-27|Russian Cup|domestic-cup|Akron Tolyatti|1|1|Zenit St Petersburg|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-08-27|Russian Cup|domestic-cup|Fakel Voronezh|0|2|Rubin Kazan|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-08-27|Russian Cup|domestic-cup|Spartak Moscow|0|1|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-28|Russian Cup|domestic-cup|Dynamo Moscow|5|1|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-28|Russian Cup|domestic-cup|Lokomotiv Moscow|4|0|FC Khimki|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-08-28|Russian Cup|domestic-cup|FC Orenburg|0|1|FC Rostov|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-08-28|Russian Cup|domestic-cup|Pari Nizhny Novgorod|0|1|FC Krasnodar|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-08-31|Russian Premier League|domestic-league|Akhmat Grozny|0|0|Akron Tolyatti|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-08-31|Russian Premier League|domestic-league|FC Khimki|0|2|CSKA Moscow|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-08-31|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|3|Zenit St Petersburg|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-08-31|Russian Premier League|domestic-league|Spartak Moscow|1|0|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-01|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|1|Dynamo Makhachkala|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-09-01|Russian Premier League|domestic-league|Lokomotiv Moscow|0|3|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-01|Russian Premier League|domestic-league|FC Orenburg|2|2|Dynamo Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-09-01|Russian Premier League|domestic-league|FC Rostov|4|1|Fakel Voronezh|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-09-13|Russian Premier League|domestic-league|Rubin Kazan|0|2|Krylia Sovetov Samara|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-09-14|Russian Premier League|domestic-league|CSKA Moscow|0|1|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-14|Russian Premier League|domestic-league|Fakel Voronezh|0|0|Pari Nizhny Novgorod|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-09-14|Russian Premier League|domestic-league|FC Krasnodar|2|0|FC Rostov|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-09-14|Russian Premier League|domestic-league|FC Orenburg|2|4|Lokomotiv Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-09-15|Russian Premier League|domestic-league|Akron Tolyatti|3|0|FC Khimki|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-09-15|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Spartak Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-09-15|Russian Premier League|domestic-league|Dynamo Moscow|4|2|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-17|Russian Cup|domestic-cup|Zenit St Petersburg|2|0|Rubin Kazan|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-09-18|Russian Cup|domestic-cup|Akron Tolyatti|2|0|Fakel Voronezh|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-09-18|Russian Cup|domestic-cup|CSKA Moscow|2|0|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-18|Russian Cup|domestic-cup|Dynamo Makhachkala|2|2|Dynamo Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-09-18|Russian Cup|domestic-cup|FC Rostov|3|1|FC Orenburg|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-09-19|Russian Cup|domestic-cup|FC Khimki|1|5|Lokomotiv Moscow|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-09-19|Russian Cup|domestic-cup|Pari Nizhny Novgorod|1|2|Akhmat Grozny|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-09-19|Russian Cup|domestic-cup|Spartak Moscow|4|1|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-21|Russian Premier League|domestic-league|Akron Tolyatti|2|5|FC Krasnodar|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-09-21|Russian Premier League|domestic-league|Rubin Kazan|1|1|CSKA Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-09-21|Russian Premier League|domestic-league|Zenit St Petersburg|3|1|Fakel Voronezh|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-09-22|Russian Premier League|domestic-league|FC Khimki|0|0|FC Orenburg|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-09-22|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|3|Lokomotiv Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-09-22|Russian Premier League|domestic-league|FC Rostov|0|0|Dynamo Makhachkala|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-09-22|Russian Premier League|domestic-league|Spartak Moscow|2|2|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-23|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Krylia Sovetov Samara|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-09-27|Russian Premier League|domestic-league|Fakel Voronezh|0|0|Rubin Kazan|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-09-27|Russian Premier League|domestic-league|FC Orenburg|1|2|Pari Nizhny Novgorod|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-09-28|Russian Premier League|domestic-league|CSKA Moscow|3|0|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-28|Russian Premier League|domestic-league|FC Krasnodar|2|0|Zenit St Petersburg|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-09-28|Russian Premier League|domestic-league|Lokomotiv Moscow|3|1|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-09-28|Russian Premier League|domestic-league|FC Rostov|0|2|Akron Tolyatti|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-09-29|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Dynamo Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-09-29|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|0|FC Khimki|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-10-01|Russian Cup|domestic-cup|Lokomotiv Moscow|2|1|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-10-01|Russian Cup|domestic-cup|Pari Nizhny Novgorod|0|2|CSKA Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-10-01|Russian Cup|domestic-cup|Rubin Kazan|0|1|Fakel Voronezh|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-10-02|Russian Cup|domestic-cup|Akhmat Grozny|3|0|FC Krasnodar|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-10-02|Russian Cup|domestic-cup|Dynamo Moscow|2|3|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-10-02|Russian Cup|domestic-cup|FC Khimki|2|2|FC Rostov|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-10-02|Russian Cup|domestic-cup|Krylia Sovetov Samara|3|3|Dynamo Makhachkala|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-10-02|Russian Cup|domestic-cup|Zenit St Petersburg|5|1|Akron Tolyatti|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-10-05|Russian Premier League|domestic-league|Akron Tolyatti|2|2|Pari Nizhny Novgorod|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-10-05|Russian Premier League|domestic-league|Rubin Kazan|2|0|Akhmat Grozny|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-10-05|Russian Premier League|domestic-league|Spartak Moscow|3|0|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-10-05|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|FC Orenburg|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-10-06|Russian Premier League|domestic-league|Dynamo Moscow|1|2|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-10-06|Russian Premier League|domestic-league|Fakel Voronezh|1|1|Dynamo Makhachkala|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-10-06|Russian Premier League|domestic-league|FC Krasnodar|4|0|FC Khimki|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-10-06|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-10-18|Russian Premier League|domestic-league|Akhmat Grozny|2|3|Fakel Voronezh|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-10-18|Russian Premier League|domestic-league|Akron Tolyatti|0|5|Zenit St Petersburg|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-10-19|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|CSKA Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-10-19|Russian Premier League|domestic-league|FC Khimki|2|0|Lokomotiv Moscow|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-10-19|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|1|FC Rostov|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-10-19|Russian Premier League|domestic-league|Spartak Moscow|0|3|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-10-20|Russian Premier League|domestic-league|FC Orenburg|2|2|Krylia Sovetov Samara|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-10-20|Russian Premier League|domestic-league|Rubin Kazan|0|4|Dynamo Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-10-22|Russian Cup|domestic-cup|CSKA Moscow|1|0|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-10-22|Russian Cup|domestic-cup|Dynamo Makhachkala|0|1|Spartak Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-10-22|Russian Cup|domestic-cup|Fakel Voronezh|0|1|Zenit St Petersburg|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-10-23|Russian Cup|domestic-cup|Akron Tolyatti|0|1|Rubin Kazan|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-10-23|Russian Cup|domestic-cup|FC Krasnodar|1|2|Pari Nizhny Novgorod|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-10-23|Russian Cup|domestic-cup|FC Orenburg|2|0|FC Khimki|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-10-23|Russian Cup|domestic-cup|FC Rostov|2|2|Lokomotiv Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-10-24|Russian Cup|domestic-cup|Krylia Sovetov Samara|3|6|Dynamo Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-10-26|Russian Premier League|domestic-league|CSKA Moscow|0|0|Fakel Voronezh|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-10-26|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Akron Tolyatti|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-10-26|Russian Premier League|domestic-league|FC Rostov|2|3|Akhmat Grozny|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-10-27|Russian Premier League|domestic-league|FC Khimki|3|4|Dynamo Moscow|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-10-27|Russian Premier League|domestic-league|FC Orenburg|1|2|Rubin Kazan|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-10-27|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|2|Spartak Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-10-27|Russian Premier League|domestic-league|Zenit St Petersburg|1|1|Lokomotiv Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-10-28|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|2|FC Krasnodar|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-11-01|Russian Premier League|domestic-league|Dynamo Moscow|1|1|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-02|Russian Premier League|domestic-league|CSKA Moscow|0|2|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-02|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-02|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|Dynamo Makhachkala|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-11-03|Russian Premier League|domestic-league|Akhmat Grozny|0|2|Pari Nizhny Novgorod|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-11-03|Russian Premier League|domestic-league|Akron Tolyatti|2|0|Krylia Sovetov Samara|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-11-03|Russian Premier League|domestic-league|Fakel Voronezh|1|1|FC Khimki|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-11-03|Russian Premier League|domestic-league|FC Krasnodar|4|0|FC Orenburg|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-11-05|Russian Cup|domestic-cup|Dynamo Moscow|1|2|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-05|Russian Cup|domestic-cup|Spartak Moscow|0|1|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-06|Russian Cup|domestic-cup|Rubin Kazan|0|0|CSKA Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-11-06|Russian Cup|domestic-cup|Zenit St Petersburg|3|0|Akhmat Grozny|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-11-09|Russian Premier League|domestic-league|Dynamo Makhachkala|2|1|FC Orenburg|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-11-09|Russian Premier League|domestic-league|Dynamo Moscow|3|1|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-09|Russian Premier League|domestic-league|Lokomotiv Moscow|2|1|Fakel Voronezh|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-09|Russian Premier League|domestic-league|FC Rostov|3|1|FC Khimki|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-11-10|Russian Premier League|domestic-league|Akhmat Grozny|1|2|Zenit St Petersburg|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-11-10|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|2|CSKA Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-11-10|Russian Premier League|domestic-league|Rubin Kazan|1|1|FC Krasnodar|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-11-10|Russian Premier League|domestic-league|Spartak Moscow|4|0|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-22|Russian Premier League|domestic-league|Rubin Kazan|3|0|Akron Tolyatti|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2024-11-23|Russian Premier League|domestic-league|CSKA Moscow|1|2|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-23|Russian Premier League|domestic-league|FC Khimki|2|2|FC Krasnodar|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2024-11-23|Russian Premier League|domestic-league|FC Orenburg|0|1|Zenit St Petersburg|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2024-11-23|Russian Premier League|domestic-league|Spartak Moscow|5|2|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-24|Russian Premier League|domestic-league|Fakel Voronezh|1|1|Dynamo Moscow|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-11-24|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|1|Akhmat Grozny|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2024-11-24|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|0|Dynamo Makhachkala|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2024-11-26|Russian Cup|domestic-cup|CSKA Moscow|3|0|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-26|Russian Cup|domestic-cup|Shinnik Yaroslavl|0|1|Akron Tolyatti|normal|unknown|Yaroslavl|Russia||src-rsssf-rus2025
+MATCH|2024-11-26|Russian Cup|domestic-cup|Tyumen|3|3|FC Krasnodar|normal|unknown|Tyumen|Russia||src-rsssf-rus2025
+MATCH|2024-11-27|Russian Cup|domestic-cup|Akhmat Grozny|1|2|Zenit St Petersburg|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-11-27|Russian Cup|domestic-cup|FC Rostov|2|1|Spartak Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-11-27|Russian Cup|domestic-cup|PFC Sochi|1|1|Dynamo Makhachkala|normal|unknown|Sochi|Russia||src-rsssf-rus2025
+MATCH|2024-11-27|Russian Cup|domestic-cup|Ural Yekaterinburg|1|1|FC Khimki|normal|unknown|Yekaterinburg|Russia||src-rsssf-rus2025
+MATCH|2024-11-28|Russian Cup|domestic-cup|Lokomotiv Moscow|0|1|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-30|Russian Premier League|domestic-league|Akron Tolyatti|1|0|FC Orenburg|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2024-11-30|Russian Premier League|domestic-league|CSKA Moscow|2|2|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-11-30|Russian Premier League|domestic-league|FC Rostov|4|0|Pari Nizhny Novgorod|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-12-01|Russian Premier League|domestic-league|Dynamo Makhachkala|0|0|Fakel Voronezh|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-12-01|Russian Premier League|domestic-league|FC Krasnodar|0|3|Spartak Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2024-12-01|Russian Premier League|domestic-league|Lokomotiv Moscow|1|3|FC Khimki|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-12-01|Russian Premier League|domestic-league|Zenit St Petersburg|2|3|Krylia Sovetov Samara|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-12-02|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Dynamo Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-12-07|Russian Premier League|domestic-league|Dynamo Makhachkala|2|3|Rubin Kazan|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2024-12-07|Russian Premier League|domestic-league|FC Rostov|3|1|Krylia Sovetov Samara|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2024-12-07|Russian Premier League|domestic-league|Spartak Moscow|3|0|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-12-07|Russian Premier League|domestic-league|Zenit St Petersburg|1|2|Akron Tolyatti|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2024-12-08|Russian Premier League|domestic-league|Akhmat Grozny|1|0|FC Orenburg|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2024-12-08|Russian Premier League|domestic-league|Dynamo Moscow|4|1|FC Khimki|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2024-12-08|Russian Premier League|domestic-league|Fakel Voronezh|0|1|CSKA Moscow|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2024-12-08|Russian Premier League|domestic-league|FC Krasnodar|0|0|Lokomotiv Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2025-02-28|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Lokomotiv Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2025-03-01|Russian Premier League|domestic-league|Akhmat Grozny|2|1|Rubin Kazan|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2025-03-01|Russian Premier League|domestic-league|FC Krasnodar|1|1|Krylia Sovetov Samara|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2025-03-01|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|1|Akron Tolyatti|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2025-03-01|Russian Premier League|domestic-league|Zenit St Petersburg|0|0|CSKA Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2025-03-02|Russian Premier League|domestic-league|FC Khimki|1|0|Fakel Voronezh|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2025-03-02|Russian Premier League|domestic-league|FC Rostov|1|1|Dynamo Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2025-03-02|Russian Premier League|domestic-league|Spartak Moscow|2|0|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-07|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-07|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|3|FC Krasnodar|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2025-03-08|Russian Premier League|domestic-league|CSKA Moscow|1|0|FC Khimki|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-08|Russian Premier League|domestic-league|Dynamo Moscow|4|0|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-08|Russian Premier League|domestic-league|Fakel Voronezh|0|2|Zenit St Petersburg|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2025-03-08|Russian Premier League|domestic-league|FC Orenburg|1|2|FC Rostov|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2025-03-09|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|2|Akron Tolyatti|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2025-03-09|Russian Premier League|domestic-league|Rubin Kazan|2|1|Spartak Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2025-03-11|Russian Cup|domestic-cup|Dynamo Makhachkala|1|2|Lokomotiv Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2025-03-11|Russian Cup|domestic-cup|FC Krasnodar|1|2|Akhmat Grozny|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2025-03-12|Russian Cup|domestic-cup|Akron Tolyatti|2|3|Spartak Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2025-03-12|Russian Cup|domestic-cup|CSKA Moscow|2|1|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-12|Russian Cup|domestic-cup|FC Rostov|0|1|Zenit St Petersburg|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2025-03-12|Russian Cup|domestic-cup|Ural Yekaterinburg|1|0|Rubin Kazan|normal|unknown|Yekaterinburg|Russia||src-rsssf-rus2025
+MATCH|2025-03-15|Russian Premier League|domestic-league|Dynamo Makhachkala|4|0|Krylia Sovetov Samara|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2025-03-15|Russian Premier League|domestic-league|FC Khimki|1|1|Akhmat Grozny|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2025-03-15|Russian Premier League|domestic-league|Lokomotiv Moscow|2|1|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-15|Russian Premier League|domestic-league|FC Orenburg|1|0|Fakel Voronezh|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2025-03-16|Russian Premier League|domestic-league|Akron Tolyatti|1|2|CSKA Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2025-03-16|Russian Premier League|domestic-league|FC Rostov|0|1|FC Krasnodar|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2025-03-16|Russian Premier League|domestic-league|Rubin Kazan|1|0|Pari Nizhny Novgorod|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2025-03-16|Russian Premier League|domestic-league|Spartak Moscow|2|1|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-28|Russian Premier League|domestic-league|Krylia Sovetov Samara|5|1|Lokomotiv Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2025-03-29|Russian Premier League|domestic-league|CSKA Moscow|2|0|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-29|Russian Premier League|domestic-league|Dynamo Moscow|5|1|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-03-29|Russian Premier League|domestic-league|FC Khimki|2|0|Pari Nizhny Novgorod|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2025-03-30|Russian Premier League|domestic-league|Akhmat Grozny|0|0|Spartak Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2025-03-30|Russian Premier League|domestic-league|FC Krasnodar|5|0|Fakel Voronezh|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2025-03-30|Russian Premier League|domestic-league|Zenit St Petersburg|4|0|Rubin Kazan|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2025-03-31|Russian Premier League|domestic-league|Akron Tolyatti|2|3|FC Rostov|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2025-04-04|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|2|FC Orenburg|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2025-04-05|Russian Premier League|domestic-league|Fakel Voronezh|0|0|Akhmat Grozny|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2025-04-05|Russian Premier League|domestic-league|FC Krasnodar|1|0|Akron Tolyatti|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2025-04-05|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|Rubin Kazan|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2025-04-05|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-06|Russian Premier League|domestic-league|CSKA Moscow|3|1|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-06|Russian Premier League|domestic-league|Dynamo Makhachkala|4|1|FC Khimki|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2025-04-06|Russian Premier League|domestic-league|FC Rostov|0|3|Spartak Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2025-04-11|Russian Premier League|domestic-league|Spartak Moscow|1|2|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-12|Russian Premier League|domestic-league|Akhmat Grozny|2|1|FC Rostov|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2025-04-12|Russian Premier League|domestic-league|FC Orenburg|0|2|CSKA Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2025-04-12|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|1|Dynamo Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2025-04-12|Russian Premier League|domestic-league|Rubin Kazan|1|0|Lokomotiv Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2025-04-13|Russian Premier League|domestic-league|Akron Tolyatti|1|0|Fakel Voronezh|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2025-04-13|Russian Premier League|domestic-league|FC Khimki|1|3|Krylia Sovetov Samara|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2025-04-13|Russian Premier League|domestic-league|Zenit St Petersburg|4|1|FC Krasnodar|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2025-04-15|Russian Cup|domestic-cup|Lokomotiv Moscow|2|1|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-15|Russian Cup|domestic-cup|Spartak Moscow|3|0|Ural Yekaterinburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-16|Russian Cup|domestic-cup|Dynamo Moscow|0|0|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-16|Russian Cup|domestic-cup|Zenit St Petersburg|2|0|FC Rostov|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2025-04-19|Russian Premier League|domestic-league|Akron Tolyatti|2|3|Spartak Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2025-04-19|Russian Premier League|domestic-league|FC Krasnodar|3|1|Akhmat Grozny|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2025-04-19|Russian Premier League|domestic-league|Lokomotiv Moscow|3|0|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-19|Russian Premier League|domestic-league|FC Orenburg|2|1|Dynamo Makhachkala|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2025-04-20|Russian Premier League|domestic-league|CSKA Moscow|1|1|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-20|Russian Premier League|domestic-league|Dynamo Moscow|3|1|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-20|Russian Premier League|domestic-league|Fakel Voronezh|0|2|FC Rostov|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2025-04-20|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|FC Khimki|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2025-04-25|Russian Premier League|domestic-league|Dynamo Makhachkala|2|3|FC Krasnodar|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2025-04-26|Russian Premier League|domestic-league|Dynamo Moscow|1|1|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-26|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|0|Akhmat Grozny|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2025-04-26|Russian Premier League|domestic-league|FC Rostov|1|1|Lokomotiv Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2025-04-26|Russian Premier League|domestic-league|Spartak Moscow|1|2|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-27|Russian Premier League|domestic-league|FC Khimki|2|2|Akron Tolyatti|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2025-04-27|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|FC Orenburg|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2025-04-27|Russian Premier League|domestic-league|Rubin Kazan|2|1|Fakel Voronezh|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2025-04-29|Russian Cup|domestic-cup|Spartak Moscow|2|1|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-30|Russian Cup|domestic-cup|Lokomotiv Moscow|0|2|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-04-30|Russian Cup|domestic-cup|Zenit St Petersburg|2|0|CSKA Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2025-05-02|Russian Premier League|domestic-league|Akron Tolyatti|1|0|Dynamo Makhachkala|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2025-05-03|Russian Premier League|domestic-league|FC Krasnodar|2|1|Rubin Kazan|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2025-05-03|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-04|Russian Premier League|domestic-league|Akhmat Grozny|1|1|CSKA Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2025-05-04|Russian Premier League|domestic-league|Fakel Voronezh|0|0|Spartak Moscow|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2025-05-04|Russian Premier League|domestic-league|FC Khimki|1|1|FC Rostov|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2025-05-04|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|Pari Nizhny Novgorod|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2025-05-05|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|3|Dynamo Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2025-05-10|Russian Premier League|domestic-league|CSKA Moscow|1|0|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-10|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Zenit St Petersburg|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2025-05-10|Russian Premier League|domestic-league|FC Orenburg|1|1|FC Khimki|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2025-05-11|Russian Premier League|domestic-league|Akron Tolyatti|3|2|Akhmat Grozny|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2025-05-11|Russian Premier League|domestic-league|Dynamo Moscow|2|0|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-11|Russian Premier League|domestic-league|Fakel Voronezh|0|1|Lokomotiv Moscow|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2025-05-11|Russian Premier League|domestic-league|Rubin Kazan|1|0|FC Rostov|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2025-05-12|Russian Premier League|domestic-league|Pari Nizhny Novgorod|5|2|Krylia Sovetov Samara|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2025-05-14|Russian Cup|domestic-cup|CSKA Moscow|2|0|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-15|Russian Cup|domestic-cup|Spartak Moscow|1|2|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-17|Russian Premier League|domestic-league|FC Khimki|3|2|Rubin Kazan|normal|unknown|Khimki|Russia||src-rsssf-rus2025
+MATCH|2025-05-17|Russian Premier League|domestic-league|FC Orenburg|1|2|FC Krasnodar|normal|unknown|Orenburg|Russia||src-rsssf-rus2025
+MATCH|2025-05-17|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|1|Fakel Voronezh|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2025
+MATCH|2025-05-18|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Dynamo Makhachkala|normal|unknown|Grozny|Russia||src-rsssf-rus2025
+MATCH|2025-05-18|Russian Premier League|domestic-league|Dynamo Moscow|2|1|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-18|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|2|Spartak Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2025
+MATCH|2025-05-18|Russian Premier League|domestic-league|FC Rostov|0|1|Zenit St Petersburg|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|Akron Tolyatti|1|4|Lokomotiv Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|CSKA Moscow|2|0|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|FC Rostov|normal|unknown|Makhachkala|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|Fakel Voronezh|1|1|Krylia Sovetov Samara|normal|unknown|Voronezh|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|FC Krasnodar|3|0|Dynamo Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|Lokomotiv Moscow|2|2|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|Rubin Kazan|4|2|FC Orenburg|normal|unknown|Kazan|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|Spartak Moscow|5|0|FC Khimki|normal|unknown|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-05-19|Russian Premier League|domestic-league|Zenit St Petersburg|3|0|Akhmat Grozny|normal|unknown|St Petersburg|Russia||src-rsssf-rus2025
+MATCH|2025-06-01|Russian Cup|domestic-cup|FC Rostov|0|0|CSKA Moscow|neutral|Luzhniki|Moscow|Russia||src-rsssf-rus2025
+MATCH|2025-07-12|Russian Super Cup|other|FC Krasnodar|0|1|CSKA Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-07-18|Russian Premier League|domestic-league|Dynamo Moscow|1|1|Baltika Kaliningrad|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-07-19|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Krylia Sovetov Samara|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-07-19|Russian Premier League|domestic-league|Lokomotiv Moscow|3|0|PFC Sochi|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-07-19|Russian Premier League|domestic-league|Spartak Moscow|1|0|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-07-20|Russian Premier League|domestic-league|Akhmat Grozny|0|2|Rubin Kazan|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-07-20|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|3|FC Krasnodar|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-07-20|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|FC Rostov|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-07-21|Russian Premier League|domestic-league|FC Orenburg|0|0|CSKA Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-07-25|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|Pari Nizhny Novgorod|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-07-26|Russian Premier League|domestic-league|Dynamo Moscow|1|0|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-07-26|Russian Premier League|domestic-league|FC Krasnodar|1|2|Lokomotiv Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-07-26|Russian Premier League|domestic-league|PFC Sochi|0|4|Akron Tolyatti|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-07-26|Russian Premier League|domestic-league|Spartak Moscow|0|3|Baltika Kaliningrad|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-07-27|Russian Premier League|domestic-league|CSKA Moscow|2|1|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-07-27|Russian Premier League|domestic-league|FC Orenburg|1|1|Dynamo Makhachkala|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-07-27|Russian Premier League|domestic-league|Rubin Kazan|2|2|Zenit St Petersburg|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-07-29|Russian Cup|domestic-cup|Akron Tolyatti|2|1|Baltika Kaliningrad|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-07-29|Russian Cup|domestic-cup|Dynamo Moscow|3|2|PFC Sochi|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-07-29|Russian Cup|domestic-cup|FC Krasnodar|1|2|Krylia Sovetov Samara|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-07-30|Russian Cup|domestic-cup|Akhmat Grozny|1|2|Zenit St Petersburg|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-07-30|Russian Cup|domestic-cup|CSKA Moscow|2|1|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-07-30|Russian Cup|domestic-cup|Dynamo Makhachkala|1|0|Pari Nizhny Novgorod|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-07-30|Russian Cup|domestic-cup|FC Rostov|0|2|Spartak Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-07-31|Russian Cup|domestic-cup|Rubin Kazan|2|0|FC Orenburg|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-08-02|Russian Premier League|domestic-league|FC Krasnodar|1|0|Dynamo Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-08-02|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|3|Lokomotiv Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-08-02|Russian Premier League|domestic-league|FC Rostov|1|4|Krylia Sovetov Samara|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-08-03|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Spartak Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-08-03|Russian Premier League|domestic-league|Baltika Kaliningrad|3|2|FC Orenburg|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-08-03|Russian Premier League|domestic-league|Dynamo Makhachkala|1|0|Akhmat Grozny|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-08-03|Russian Premier League|domestic-league|Zenit St Petersburg|1|1|CSKA Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-04|Russian Premier League|domestic-league|Rubin Kazan|2|1|PFC Sochi|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-08-08|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Akron Tolyatti|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-08-09|Russian Premier League|domestic-league|Akhmat Grozny|1|0|Zenit St Petersburg|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-08-09|Russian Premier League|domestic-league|CSKA Moscow|5|1|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-09|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|Baltika Kaliningrad|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-08-09|Russian Premier League|domestic-league|Lokomotiv Moscow|4|2|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-10|Russian Premier League|domestic-league|FC Orenburg|0|1|FC Krasnodar|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-10|Russian Premier League|domestic-league|FC Rostov|1|0|Pari Nizhny Novgorod|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-08-10|Russian Premier League|domestic-league|PFC Sochi|1|1|Dynamo Moscow|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-08-12|Russian Cup|domestic-cup|Akron Tolyatti|1|1|CSKA Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-08-12|Russian Cup|domestic-cup|Spartak Moscow|1|1|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-12|Russian Cup|domestic-cup|Zenit St Petersburg|3|0|Rubin Kazan|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-13|Russian Cup|domestic-cup|Dynamo Moscow|0|4|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-13|Russian Cup|domestic-cup|Lokomotiv Moscow|2|0|Baltika Kaliningrad|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-13|Russian Cup|domestic-cup|FC Orenburg|2|1|Akhmat Grozny|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-13|Russian Cup|domestic-cup|PFC Sochi|1|1|Krylia Sovetov Samara|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-08-14|Russian Cup|domestic-cup|Pari Nizhny Novgorod|1|0|FC Rostov|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-08-16|Russian Premier League|domestic-league|Akhmat Grozny|3|1|Krylia Sovetov Samara|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-08-16|Russian Premier League|domestic-league|Baltika Kaliningrad|1|1|Lokomotiv Moscow|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-08-16|Russian Premier League|domestic-league|Spartak Moscow|2|2|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-17|Russian Premier League|domestic-league|Akron Tolyatti|1|2|FC Orenburg|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-08-17|Russian Premier League|domestic-league|Dynamo Moscow|1|3|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-17|Russian Premier League|domestic-league|FC Krasnodar|5|1|PFC Sochi|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-08-17|Russian Premier League|domestic-league|Rubin Kazan|1|0|FC Rostov|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-08-18|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|0|Dynamo Makhachkala|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-08-22|Russian Premier League|domestic-league|FC Orenburg|2|2|Akhmat Grozny|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-23|Russian Premier League|domestic-league|Dynamo Moscow|3|0|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-23|Russian Premier League|domestic-league|Lokomotiv Moscow|3|3|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-23|Russian Premier League|domestic-league|Rubin Kazan|0|2|Spartak Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-08-23|Russian Premier League|domestic-league|Zenit St Petersburg|4|0|Dynamo Makhachkala|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-24|Russian Premier League|domestic-league|CSKA Moscow|3|1|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-24|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|6|FC Krasnodar|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-08-24|Russian Premier League|domestic-league|PFC Sochi|0|2|Baltika Kaliningrad|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-08-26|Russian Cup|domestic-cup|Akhmat Grozny|2|0|Rubin Kazan|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-08-26|Russian Cup|domestic-cup|FC Orenburg|3|5|Zenit St Petersburg|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-26|Russian Cup|domestic-cup|Spartak Moscow|4|0|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-27|Russian Cup|domestic-cup|Baltika Kaliningrad|0|2|CSKA Moscow|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-08-27|Russian Cup|domestic-cup|Krylia Sovetov Samara|0|0|Dynamo Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-08-27|Russian Cup|domestic-cup|FC Rostov|1|3|Dynamo Makhachkala|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-08-27|Russian Cup|domestic-cup|PFC Sochi|2|4|FC Krasnodar|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-08-28|Russian Cup|domestic-cup|Lokomotiv Moscow|2|0|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-30|Russian Premier League|domestic-league|FC Orenburg|2|2|Rubin Kazan|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-30|Russian Premier League|domestic-league|FC Rostov|1|1|Akhmat Grozny|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-08-30|Russian Premier League|domestic-league|Spartak Moscow|2|1|PFC Sochi|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-30|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Pari Nizhny Novgorod|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-08-31|Russian Premier League|domestic-league|Akron Tolyatti|0|2|Baltika Kaliningrad|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-08-31|Russian Premier League|domestic-league|CSKA Moscow|1|1|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-08-31|Russian Premier League|domestic-league|Dynamo Makhachkala|1|0|Dynamo Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-08-31|Russian Premier League|domestic-league|Lokomotiv Moscow|2|2|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-09-12|Russian Premier League|domestic-league|Rubin Kazan|1|0|Dynamo Makhachkala|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-09-13|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Lokomotiv Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-09-13|Russian Premier League|domestic-league|Dynamo Moscow|2|2|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-09-13|Russian Premier League|domestic-league|FC Krasnodar|2|1|Akron Tolyatti|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-09-13|Russian Premier League|domestic-league|Pari Nizhny Novgorod|3|1|FC Orenburg|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-09-14|Russian Premier League|domestic-league|Baltika Kaliningrad|0|0|Zenit St Petersburg|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-09-14|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|PFC Sochi|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-09-14|Russian Premier League|domestic-league|FC Rostov|1|0|CSKA Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-09-16|Russian Cup|domestic-cup|Akron Tolyatti|1|3|Lokomotiv Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-09-16|Russian Cup|domestic-cup|FC Orenburg|0|0|Rubin Kazan|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-09-16|Russian Cup|domestic-cup|Pari Nizhny Novgorod|1|2|Dynamo Makhachkala|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-09-17|Russian Cup|domestic-cup|Krylia Sovetov Samara|1|2|FC Krasnodar|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-09-17|Russian Cup|domestic-cup|PFC Sochi|0|4|Dynamo Moscow|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-09-17|Russian Cup|domestic-cup|Zenit St Petersburg|2|1|Akhmat Grozny|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-09-18|Russian Cup|domestic-cup|CSKA Moscow|1|1|Baltika Kaliningrad|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-09-18|Russian Cup|domestic-cup|Spartak Moscow|1|2|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-09-20|Russian Premier League|domestic-league|Akron Tolyatti|2|2|Rubin Kazan|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-09-20|Russian Premier League|domestic-league|Dynamo Makhachkala|1|1|Lokomotiv Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-09-20|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|2|Akhmat Grozny|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-09-21|Russian Premier League|domestic-league|Baltika Kaliningrad|0|0|FC Rostov|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-09-21|Russian Premier League|domestic-league|FC Krasnodar|0|2|Zenit St Petersburg|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-09-21|Russian Premier League|domestic-league|FC Orenburg|1|3|Dynamo Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-09-21|Russian Premier League|domestic-league|Spartak Moscow|2|1|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-09-22|Russian Premier League|domestic-league|PFC Sochi|1|3|CSKA Moscow|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-09-26|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|3|Dynamo Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-09-27|Russian Premier League|domestic-league|Akhmat Grozny|3|0|Akron Tolyatti|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-09-27|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-09-27|Russian Premier League|domestic-league|FC Rostov|0|0|FC Krasnodar|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-09-27|Russian Premier League|domestic-league|Zenit St Petersburg|5|2|FC Orenburg|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-09-28|Russian Premier League|domestic-league|CSKA Moscow|1|0|Baltika Kaliningrad|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-09-28|Russian Premier League|domestic-league|Dynamo Makhachkala|0|0|PFC Sochi|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-09-28|Russian Premier League|domestic-league|Spartak Moscow|3|0|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-09-30|Russian Cup|domestic-cup|Akhmat Grozny|0|1|FC Orenburg|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-09-30|Russian Cup|domestic-cup|FC Krasnodar|0|0|Dynamo Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-09-30|Russian Cup|domestic-cup|Rubin Kazan|0|1|Zenit St Petersburg|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-10-01|Russian Cup|domestic-cup|Baltika Kaliningrad|3|0|Akron Tolyatti|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-10-01|Russian Cup|domestic-cup|Krylia Sovetov Samara|3|3|PFC Sochi|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-10-01|Russian Cup|domestic-cup|Lokomotiv Moscow|0|0|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-01|Russian Cup|domestic-cup|Pari Nizhny Novgorod|1|2|Spartak Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-10-02|Russian Cup|domestic-cup|Dynamo Makhachkala|1|1|FC Rostov|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-10-04|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Zenit St Petersburg|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-10-04|Russian Premier League|domestic-league|Dynamo Moscow|3|5|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-04|Russian Premier League|domestic-league|FC Krasnodar|2|0|Akhmat Grozny|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-10-04|Russian Premier League|domestic-league|Rubin Kazan|2|0|Krylia Sovetov Samara|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-10-05|Russian Premier League|domestic-league|Baltika Kaliningrad|2|0|Dynamo Makhachkala|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-10-05|Russian Premier League|domestic-league|CSKA Moscow|3|2|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-05|Russian Premier League|domestic-league|FC Orenburg|0|1|FC Rostov|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-10-05|Russian Premier League|domestic-league|PFC Sochi|2|1|Pari Nizhny Novgorod|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-10-18|Russian Premier League|domestic-league|Dynamo Makhachkala|0|2|FC Krasnodar|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-10-18|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|FC Orenburg|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-10-18|Russian Premier League|domestic-league|Lokomotiv Moscow|3|0|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-18|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|1|Akron Tolyatti|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-10-18|Russian Premier League|domestic-league|Spartak Moscow|1|1|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-19|Russian Premier League|domestic-league|Dynamo Moscow|2|2|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-19|Russian Premier League|domestic-league|Rubin Kazan|0|3|Baltika Kaliningrad|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-10-19|Russian Premier League|domestic-league|PFC Sochi|0|3|Zenit St Petersburg|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-10-21|Russian Cup|domestic-cup|CSKA Moscow|3|2|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-21|Russian Cup|domestic-cup|Dynamo Makhachkala|1|3|Spartak Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-10-22|Russian Cup|domestic-cup|Dynamo Moscow|4|0|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-22|Russian Cup|domestic-cup|FC Rostov|4|1|Pari Nizhny Novgorod|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-10-22|Russian Cup|domestic-cup|Rubin Kazan|3|3|Akhmat Grozny|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-10-22|Russian Cup|domestic-cup|Zenit St Petersburg|6|0|FC Orenburg|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-10-23|Russian Cup|domestic-cup|Baltika Kaliningrad|1|2|Lokomotiv Moscow|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-10-23|Russian Cup|domestic-cup|FC Krasnodar|3|0|PFC Sochi|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-10-25|Russian Premier League|domestic-league|CSKA Moscow|1|0|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-25|Russian Premier League|domestic-league|FC Rostov|1|1|Dynamo Makhachkala|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-10-25|Russian Premier League|domestic-league|Spartak Moscow|1|0|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-10-26|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Lokomotiv Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-10-26|Russian Premier League|domestic-league|FC Krasnodar|1|0|Rubin Kazan|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-10-26|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|0|Baltika Kaliningrad|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-10-26|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|Dynamo Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-10-27|Russian Premier League|domestic-league|Akhmat Grozny|2|4|PFC Sochi|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-10-31|Russian Premier League|domestic-league|CSKA Moscow|2|0|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-01|Russian Premier League|domestic-league|Dynamo Makhachkala|2|0|Krylia Sovetov Samara|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-11-01|Russian Premier League|domestic-league|FC Rostov|0|1|Akron Tolyatti|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-11-01|Russian Premier League|domestic-league|Rubin Kazan|0|0|Dynamo Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-11-01|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Lokomotiv Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-11-02|Russian Premier League|domestic-league|Baltika Kaliningrad|2|0|Akhmat Grozny|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-11-02|Russian Premier League|domestic-league|FC Krasnodar|2|1|Spartak Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-11-02|Russian Premier League|domestic-league|FC Orenburg|3|1|PFC Sochi|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-11-05|Russian Cup|domestic-cup|Dynamo Makhachkala|1|0|CSKA Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-11-05|Russian Cup|domestic-cup|FC Orenburg|1|3|FC Krasnodar|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-11-05|Russian Cup|domestic-cup|Zenit St Petersburg|1|3|Dynamo Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-11-06|Russian Cup|domestic-cup|Spartak Moscow|3|1|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-08|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|CSKA Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-11-08|Russian Premier League|domestic-league|Dynamo Moscow|1|2|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-08|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|0|Rubin Kazan|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-11-08|Russian Premier League|domestic-league|PFC Sochi|0|1|FC Rostov|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-11-09|Russian Premier League|domestic-league|Akhmat Grozny|1|2|Spartak Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-11-09|Russian Premier League|domestic-league|Baltika Kaliningrad|1|1|FC Krasnodar|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-11-09|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|Zenit St Petersburg|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-11-09|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-21|Russian Premier League|domestic-league|Akron Tolyatti|3|2|PFC Sochi|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-11-22|Russian Premier League|domestic-league|FC Orenburg|0|0|Baltika Kaliningrad|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2025-11-22|Russian Premier League|domestic-league|Rubin Kazan|1|0|Akhmat Grozny|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2025-11-22|Russian Premier League|domestic-league|Spartak Moscow|1|0|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-23|Russian Premier League|domestic-league|Dynamo Moscow|3|0|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-23|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|FC Rostov|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2025-11-23|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-23|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|2|Zenit St Petersburg|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2025-11-25|Russian Cup|domestic-cup|Arsenal Tula|0|0|Rubin Kazan|normal|unknown|Tula|Russia||src-rsssf-rus2026
+MATCH|2025-11-25|Russian Cup|domestic-cup|Torpedo Moscow|0|2|Baltika Kaliningrad|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-26|Russian Cup|domestic-cup|CSKA Moscow|2|1|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-26|Russian Cup|domestic-cup|FC Krasnodar|4|0|FC Orenburg|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-11-26|Russian Cup|domestic-cup|Lokomotiv Moscow|2|3|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-26|Russian Cup|domestic-cup|Neftekhimik Nizhnekamsk|1|3|FC Rostov|normal|unknown|Nizhnekamsk|Russia||src-rsssf-rus2026
+MATCH|2025-11-27|Russian Cup|domestic-cup|Dynamo Moscow|0|1|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-27|Russian Cup|domestic-cup|KAMAZ|1|1|Krylia Sovetov Samara|normal|unknown|Naberezhnye Chelny|Russia||src-rsssf-rus2026
+MATCH|2025-11-29|Russian Premier League|domestic-league|Akron Tolyatti|1|2|Pari Nizhny Novgorod|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2025-11-29|Russian Premier League|domestic-league|Baltika Kaliningrad|1|0|Spartak Moscow|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-11-29|Russian Premier League|domestic-league|CSKA Moscow|2|0|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-11-30|Russian Premier League|domestic-league|Akhmat Grozny|2|1|Dynamo Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-11-30|Russian Premier League|domestic-league|FC Krasnodar|5|0|Krylia Sovetov Samara|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-11-30|Russian Premier League|domestic-league|FC Rostov|1|3|Lokomotiv Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-11-30|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|Rubin Kazan|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-12-01|Russian Premier League|domestic-league|PFC Sochi|0|0|Dynamo Makhachkala|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2025-12-05|Russian Premier League|domestic-league|Akhmat Grozny|1|0|FC Orenburg|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2025-12-06|Russian Premier League|domestic-league|FC Rostov|2|0|Rubin Kazan|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2025-12-06|Russian Premier League|domestic-league|Spartak Moscow|1|1|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2025-12-06|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Akron Tolyatti|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2025-12-07|Russian Premier League|domestic-league|Baltika Kaliningrad|2|0|Krylia Sovetov Samara|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2025-12-07|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Pari Nizhny Novgorod|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2025-12-07|Russian Premier League|domestic-league|FC Krasnodar|3|2|CSKA Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2025-12-07|Russian Premier League|domestic-league|PFC Sochi|2|4|Lokomotiv Moscow|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2026-02-27|Russian Premier League|domestic-league|Zenit St Petersburg|1|0|Baltika Kaliningrad|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2026-02-28|Russian Premier League|domestic-league|Dynamo Makhachkala|2|1|Rubin Kazan|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2026-02-28|Russian Premier League|domestic-league|FC Krasnodar|2|1|FC Rostov|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2026-02-28|Russian Premier League|domestic-league|Lokomotiv Moscow|2|1|Pari Nizhny Novgorod|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-02-28|Russian Premier League|domestic-league|FC Orenburg|2|0|Akron Tolyatti|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2026-03-01|Russian Premier League|domestic-league|Akhmat Grozny|1|0|CSKA Moscow|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2026-03-01|Russian Premier League|domestic-league|Dynamo Moscow|4|0|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-02|Russian Premier League|domestic-league|PFC Sochi|2|3|Spartak Moscow|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2026-03-03|Russian Cup|domestic-cup|Baltika Kaliningrad|0|1|Zenit St Petersburg|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2026-03-04|Russian Cup|domestic-cup|CSKA Moscow|3|1|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-04|Russian Cup|domestic-cup|Krylia Sovetov Samara|2|0|FC Orenburg|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-03-04|Russian Cup|domestic-cup|FC Rostov|0|2|Dynamo Makhachkala|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2026-03-05|Russian Cup|domestic-cup|Arsenal Tula|1|2|Lokomotiv Moscow|normal|unknown|Tula|Russia||src-rsssf-rus2026
+MATCH|2026-03-05|Russian Cup|domestic-cup|Dynamo Moscow|5|2|Spartak Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-07|Russian Premier League|domestic-league|Pari Nizhny Novgorod|2|1|PFC Sochi|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2026-03-07|Russian Premier League|domestic-league|FC Rostov|1|1|Baltika Kaliningrad|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2026-03-08|Russian Premier League|domestic-league|CSKA Moscow|1|4|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-08|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|Dynamo Makhachkala|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-03-08|Russian Premier League|domestic-league|FC Orenburg|2|1|Zenit St Petersburg|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2026-03-08|Russian Premier League|domestic-league|Rubin Kazan|2|1|FC Krasnodar|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2026-03-09|Russian Premier League|domestic-league|Lokomotiv Moscow|2|2|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-09|Russian Premier League|domestic-league|Spartak Moscow|4|3|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-13|Russian Premier League|domestic-league|Dynamo Makhachkala|1|0|FC Orenburg|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2026-03-14|Russian Premier League|domestic-league|Baltika Kaliningrad|1|0|CSKA Moscow|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2026-03-14|Russian Premier League|domestic-league|FC Rostov|0|1|Dynamo Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2026-03-14|Russian Premier League|domestic-league|PFC Sochi|1|2|FC Krasnodar|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2026-03-14|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Spartak Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2026-03-15|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Akhmat Grozny|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2026-03-15|Russian Premier League|domestic-league|Pari Nizhny Novgorod|3|0|Krylia Sovetov Samara|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2026-03-15|Russian Premier League|domestic-league|Rubin Kazan|3|0|Lokomotiv Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2026-03-17|Russian Cup|domestic-cup|FC Krasnodar|4|0|CSKA Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2026-03-18|Russian Cup|domestic-cup|Spartak Moscow|1|0|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-18|Russian Cup|domestic-cup|Zenit St Petersburg|1|0|Dynamo Makhachkala|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2026-03-19|Russian Cup|domestic-cup|Krylia Sovetov Samara|2|2|Lokomotiv Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-03-21|Russian Premier League|domestic-league|Akhmat Grozny|1|0|FC Rostov|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2026-03-21|Russian Premier League|domestic-league|Baltika Kaliningrad|4|0|PFC Sochi|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2026-03-21|Russian Premier League|domestic-league|CSKA Moscow|3|1|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-21|Russian Premier League|domestic-league|FC Krasnodar|5|0|Pari Nizhny Novgorod|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2026-03-22|Russian Premier League|domestic-league|Dynamo Moscow|1|3|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-22|Russian Premier League|domestic-league|Krylia Sovetov Samara|0|0|Rubin Kazan|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-03-22|Russian Premier League|domestic-league|Lokomotiv Moscow|5|1|Akron Tolyatti|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-03-22|Russian Premier League|domestic-league|FC Orenburg|0|2|Spartak Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2026-04-04|Russian Premier League|domestic-league|Akhmat Grozny|0|1|FC Krasnodar|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2026-04-04|Russian Premier League|domestic-league|Akron Tolyatti|1|2|CSKA Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2026-04-04|Russian Premier League|domestic-league|Dynamo Moscow|3|3|FC Orenburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-04|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|Krylia Sovetov Samara|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2026-04-05|Russian Premier League|domestic-league|Dynamo Makhachkala|2|2|Baltika Kaliningrad|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2026-04-05|Russian Premier League|domestic-league|Pari Nizhny Novgorod|0|1|FC Rostov|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2026-04-05|Russian Premier League|domestic-league|Spartak Moscow|2|1|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-06|Russian Premier League|domestic-league|PFC Sochi|0|1|Rubin Kazan|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2026-04-07|Russian Cup|domestic-cup|Krylia Sovetov Samara|2|5|CSKA Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-04-08|Russian Cup|domestic-cup|Dynamo Moscow|0|0|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-08|Russian Cup|domestic-cup|Zenit St Petersburg|0|0|Spartak Moscow|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2026-04-11|Russian Premier League|domestic-league|Baltika Kaliningrad|2|2|Pari Nizhny Novgorod|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2026-04-11|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|2|Akhmat Grozny|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-04-11|Russian Premier League|domestic-league|Rubin Kazan|0|0|FC Orenburg|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2026-04-12|Russian Premier League|domestic-league|CSKA Moscow|0|1|PFC Sochi|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-12|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Dynamo Makhachkala|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-12|Russian Premier League|domestic-league|FC Rostov|1|1|Spartak Moscow|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2026-04-12|Russian Premier League|domestic-league|Zenit St Petersburg|1|1|FC Krasnodar|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2026-04-13|Russian Premier League|domestic-league|Akron Tolyatti|2|3|Dynamo Moscow|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2026-04-17|Russian Premier League|domestic-league|FC Rostov|0|1|PFC Sochi|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2026-04-18|Russian Premier League|domestic-league|Krylia Sovetov Samara|1|1|CSKA Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-04-18|Russian Premier League|domestic-league|FC Orenburg|0|1|Lokomotiv Moscow|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2026-04-18|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|1|Dynamo Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2026-04-18|Russian Premier League|domestic-league|Rubin Kazan|1|1|Akron Tolyatti|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2026-04-19|Russian Premier League|domestic-league|Dynamo Makhachkala|0|1|Zenit St Petersburg|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2026-04-19|Russian Premier League|domestic-league|FC Krasnodar|2|2|Baltika Kaliningrad|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2026-04-19|Russian Premier League|domestic-league|Spartak Moscow|3|1|Akhmat Grozny|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-21|Russian Premier League|domestic-league|CSKA Moscow|1|1|FC Rostov|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-21|Russian Premier League|domestic-league|PFC Sochi|2|1|Krylia Sovetov Samara|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2026-04-22|Russian Premier League|domestic-league|Dynamo Moscow|0|1|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-22|Russian Premier League|domestic-league|Lokomotiv Moscow|0|0|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-22|Russian Premier League|domestic-league|FC Orenburg|2|1|Pari Nizhny Novgorod|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2026-04-23|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Baltika Kaliningrad|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2026-04-23|Russian Premier League|domestic-league|Akron Tolyatti|1|1|Dynamo Makhachkala|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2026-04-23|Russian Premier League|domestic-league|Spartak Moscow|1|2|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-25|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|0|Lokomotiv Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-04-25|Russian Premier League|domestic-league|FC Rostov|0|1|FC Orenburg|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2026-04-25|Russian Premier League|domestic-league|Rubin Kazan|0|0|CSKA Moscow|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2026-04-26|Russian Premier League|domestic-league|Dynamo Moscow|2|0|PFC Sochi|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-04-26|Russian Premier League|domestic-league|FC Krasnodar|2|1|Dynamo Makhachkala|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2026-04-26|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|2|Spartak Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2026-04-26|Russian Premier League|domestic-league|Zenit St Petersburg|2|0|Akhmat Grozny|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2026-04-27|Russian Premier League|domestic-league|Baltika Kaliningrad|0|1|Akron Tolyatti|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2026-05-01|Russian Premier League|domestic-league|Krylia Sovetov Samara|2|1|Spartak Moscow|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-05-01|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Dynamo Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-05-02|Russian Premier League|domestic-league|Baltika Kaliningrad|0|1|Rubin Kazan|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2026-05-02|Russian Premier League|domestic-league|CSKA Moscow|1|3|Zenit St Petersburg|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-05-02|Russian Premier League|domestic-league|Dynamo Makhachkala|1|2|FC Rostov|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2026-05-03|Russian Premier League|domestic-league|Akhmat Grozny|2|0|Pari Nizhny Novgorod|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2026-05-03|Russian Premier League|domestic-league|Akron Tolyatti|0|1|FC Krasnodar|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2026-05-03|Russian Premier League|domestic-league|PFC Sochi|3|1|FC Orenburg|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2026-05-06|Russian Cup|domestic-cup|Spartak Moscow|1|0|CSKA Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-05-07|Russian Cup|domestic-cup|FC Krasnodar|0|0|Dynamo Moscow|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2026-05-10|Russian Premier League|domestic-league|Akhmat Grozny|1|1|Dynamo Makhachkala|normal|unknown|Grozny|Russia||src-rsssf-rus2026
+MATCH|2026-05-10|Russian Premier League|domestic-league|Lokomotiv Moscow|1|0|Baltika Kaliningrad|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-05-10|Russian Premier League|domestic-league|FC Orenburg|1|0|Krylia Sovetov Samara|normal|unknown|Orenburg|Russia||src-rsssf-rus2026
+MATCH|2026-05-10|Russian Premier League|domestic-league|Zenit St Petersburg|2|1|PFC Sochi|normal|unknown|St Petersburg|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|Akron Tolyatti|1|3|FC Rostov|normal|unknown|Tolyatti|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|Baltika Kaliningrad|1|2|Dynamo Moscow|normal|unknown|Kaliningrad|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|CSKA Moscow|3|1|Lokomotiv Moscow|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|Dynamo Makhachkala|0|0|Spartak Moscow|normal|unknown|Makhachkala|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|Dynamo Moscow|2|1|FC Krasnodar|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|FC Krasnodar|3|0|FC Orenburg|normal|unknown|Krasnodar|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|Krylia Sovetov Samara|4|1|Akron Tolyatti|normal|unknown|Samara|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|Pari Nizhny Novgorod|1|2|CSKA Moscow|normal|unknown|Nizhny Novgorod|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|FC Rostov|0|1|Zenit St Petersburg|normal|unknown|Rostov-on-Don|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|Rubin Kazan|2|2|Pari Nizhny Novgorod|normal|unknown|Kazan|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|PFC Sochi|1|1|Akhmat Grozny|normal|unknown|Sochi|Russia||src-rsssf-rus2026
+MATCH|2026-05-11|Russian Premier League|domestic-league|Spartak Moscow|2|1|Rubin Kazan|normal|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-05-24|Russian Cup|domestic-cup|Spartak Moscow|1|1|FC Krasnodar|neutral|unknown|Moscow|Russia||src-rsssf-rus2026
+MATCH|2026-05-27|Russian Relegation Playoffs|other|Shinnik Yaroslavl|1|2|Akron Tolyatti|normal|unknown|Yaroslavl|Russia||src-user-r04
+MATCH|2026-05-31|Russian Relegation Playoffs|other|Akron Tolyatti|1|0|Shinnik Yaroslavl|normal|unknown|Tolyatti|Russia||src-user-r04
+MATCH|2026-07-24|Russian Premier League|domestic-league|CSKA Moscow|2|1|Baltika Kaliningrad|normal|unknown|Moscow|Russia||src-md1-2627
+MATCH|2026-07-25|Russian Premier League|domestic-league|Akron Tolyatti|0|5|Zenit St Petersburg|normal|unknown|Tolyatti|Russia||src-md1-2627
+MATCH|2026-07-25|Russian Premier League|domestic-league|Dynamo Moscow|0|0|Krylia Sovetov Samara|normal|unknown|Moscow|Russia||src-md1-2627
+MATCH|2026-07-25|Russian Premier League|domestic-league|Fakel Voronezh|1|2|Dynamo Makhachkala|normal|unknown|Voronezh|Russia||src-md1-2627
+MATCH|2026-07-25|Russian Premier League|domestic-league|Spartak Moscow|3|0|Rodina Moscow|normal|unknown|Moscow|Russia||src-md1-2627
+MATCH|2026-07-26|Russian Premier League|domestic-league|Lokomotiv Moscow|1|1|Akhmat Grozny|normal|unknown|Moscow|Russia||src-md1-2627
+MATCH|2026-07-26|Russian Premier League|domestic-league|FC Orenburg|2|1|FC Rostov|normal|unknown|Orenburg|Russia||src-md1-2627
+MATCH|2026-07-26|Russian Premier League|domestic-league|Rubin Kazan|1|3|FC Krasnodar|normal|unknown|Kazan|Russia||src-md1-2627
+MATCH|2026-08-01|Russian Premier League|domestic-league|Akron Tolyatti|1|2|Rubin Kazan|normal|unknown|Tolyatti|Russia||src-md2-2627-user
+SOURCE|src-rsssf-rus2025|https://www.rsssf.org/tablesr/rus2025.html|2026-08-01|results-database|RSSSF Russia 2024-25: RPL rounds/tables, Russian Cup groups + full knockout, Super Cup 2025, relegation playoff list
+SOURCE|src-rsssf-rus2026|https://www.rsssf.org/tablesr/rus2026.html|2026-08-01|results-database|RSSSF Russia 2025-26: RPL rounds/tables, Russian Cup RPL-path groups + knockout + regions path + superfinal
+SOURCE|src-user-r04|https://www.rsssf.org/tablesr/rus2026.html|2026-08-01|other|Shinnik v Akron relegation playoff 2026-05-27/31: user-supplied batch R-04, cross-checked against this RSSSF 2025-26 playoff table
+SOURCE|src-md1-2627|https://www.soccerstats.com/latest.asp?league=russia|2026-08-01|results-database|RPL 2026-27 MD1 rows re-verified vs ESPN match centre, soccerstats.com round page, betexplorer.com round table (8/8 exact)
+SOURCE|src-md2-2627-user|https://www.soccerstats.com/latest.asp?league=russia|2026-08-01|other|RPL 2026-27 MD2 Akron 1-2 Rubin: user live report (watched; 2-1 at 46min, FT 1-2); fixture slot confirmed on soccerstats round page; score re-verification pending index refresh
+# INTEGRITY-AUDIT 2026-08-01 (market-evaluation screen, 464/480 RPL league games covered):
+# muted rows flagged LOSS-tier by market-implied strong-favorite collapse (Pinnacle close, margin-removed);
+# muted = non-trusted stat: row stays for audit, carries NO evidence.
+MUTE|2024-12-01|Zenit St Petersburg|Krylia Sovetov Samara|integrity: market-flagged favorite collapse (IA-02)|src-integrity-2026
+MUTE|2024-12-07|Zenit St Petersburg|Akron Tolyatti|integrity: market-flagged favorite collapse (IA-01)|src-integrity-2026
+MUTE|2025-04-11|Spartak Moscow|Dynamo Makhachkala|integrity: market-flagged favorite collapse (IA-03)|src-integrity-2026
+SOURCE|src-integrity-2026|https://www.football-data.co.uk/new/RUS.csv|2026-08-01|results-database|Pinnacle closing odds screen 2024-25 + 2025-26 RPL: 13 favorite >=65% failures of 79 expected 22.7 (z=-3.43); 3 LOSS-tier rows muted per owner decision
+END
