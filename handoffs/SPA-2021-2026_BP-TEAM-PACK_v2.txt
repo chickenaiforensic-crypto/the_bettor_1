@@ -1,7 +1,7 @@
 NOTE|info|catalog|Spain La Liga
 SOURCE|rsssf-span|https://www.rsssf.org/tabless/span2022.html|2026-08-05|primary-archive|RSSSF Spanish First Division season archives (span2022..span2026)
 SOURCE|wf-spa|https://www.worldfootball.net/all_matches/esp-primera-division-2021-2022/|2026-08-05|third-index|Worldfootball.net round-by-round schedules and final tables
-NOTE|info|federation_check|Section-0 federation scan performed: all rows are Spain La Liga matches (2021-22 .. 2025-26 complete, 380 per season = 1900 rows). Zero domestic non-league or foreign matches.
+NOTE|info|federation_check|Section-0 federation scan performed: all rows are Spain La Liga matches (2021-22 .. 2025-26 complete, 380 per season = 1900 rows).
 MATCH|2021-08-13|Spain La Liga|domestic-league|Valencia|1|0|Getafe|MD|Stadium|City|Spain||rsssf-span
 MATCH|2021-08-14|Spain La Liga|domestic-league|Cadiz|1|1|Levante|MD|Stadium|City|Spain||rsssf-span
 MATCH|2021-08-14|Spain La Liga|domestic-league|Mallorca|1|1|Betis|MD|Stadium|City|Spain||rsssf-span

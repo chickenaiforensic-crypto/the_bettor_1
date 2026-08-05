@@ -1,7 +1,7 @@
 NOTE|info|catalog|Scottish Premiership · Scottish Premiership Championship Round · Scottish Premiership Relegation Round
 SOURCE|rsssf-scot|https://www.rsssf.org/tabless/scot2022.html|2026-08-05|primary-archive|RSSSF Scottish Premier Division / Premiership archives (scot2022..scot2026)
 SOURCE|wf-sco|https://www.worldfootball.net/all_matches/sco-premiership-2021-2022/|2026-08-05|third-index|Worldfootball.net round schedules and post-split group tables
-NOTE|info|federation_check|Section-0 federation scan performed: all rows are Scottish Premiership matches (2021-22 .. 2025-26, 228 per season = 1140 rows, excluding held 29 run-in appendix rows).
+NOTE|info|federation_check|Section-0 federation scan performed: all rows are Scottish Premiership matches (2021-22 .. 2025-26).
 TEAM|Dundee United|Scotland|Scottish Premiership|SC0|Dundee United FC,Dundee Utd|Tannadice Park|Dundee
 MATCH|2021-07-31|Scottish Premiership|domestic-league|Rangers|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
 MATCH|2021-07-31|Scottish Premiership|domestic-league|Dundee|2|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
