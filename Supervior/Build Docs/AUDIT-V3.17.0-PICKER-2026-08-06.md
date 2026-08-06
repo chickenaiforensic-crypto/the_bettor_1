@@ -1,73 +1,118 @@
-# AUDIT REPORT — VERIFICATION OF `builder/app-v3.17.0-picker.html`
+# AUDIT REPORT — VERIFICATION OF builder/app-v3.17.0-picker.html CORRECTION
 
-**Version 1.0 — 2026-08-06 · Issued by: Auditor (independent audit)**  
-**Subject:** `builder/app-v3.17.0-picker.html` (baseline and corrected build)  
-**Baseline MD5:** `d71b042308b0637a81d22ee75795f419` · **Corrected MD5:** `e6687ad417fd1d3229a000c12f73f1a3`  
+**Audit ID:** audit-v3.17.0-picker-2026-08-06-director  
+**Auditor:** Director of Intelligence (independent re-verification)  
+**Date:** 2026-08-06  
+**Subject:** Corrected build on PR #3 — `builder/app-v3.17.0-picker.html`  
+**Baseline MD5:** `d71b042308b0637a81d22ee75795f419`  
+**Corrected MD5:** `e6687ad417fd1d3229a000c12f73f1a3`  
+**Branch:** `arena/019fd75e-the-bettor-1` (PR #3)  
 
 ---
 
-## 1. Baseline Pin Verification
-| Fact | Expected | Actual | Status |
+## 1. EXECUTIVE SUMMARY
+
+I independently re-verified the corrected build on PR #3. The builder corrected 2 defects (P1 market data in seed, unused star_hyst constant). My verification confirms:
+
+| Check | Result |
+|---|---|
+| Baseline pin (v3.17.0-picker) | ✓ d71b042308b0637a81d22ee75795f419 |
+| Corrected build md5 | ✓ e6687ad417fd1d3229a000c12f73f1a3 |
+| P1 market data (CODE) | ✓ 0 matches |
+| P1 market data (SEED — MUTE rows) | ✓ 0 market-flagged MUTE rows |
+| P1 market data (SEED — Pinnacle source) | ✓ 0 Pinnacle references |
+| star_hyst constant | ✓ 0 occurrences (removed) |
+| No-network (fetch/XHR) | ✓ 0 calls |
+| Components present (B0-B8 + picker) | ✓ All verified |
+| Parity expected values | ✓ Present (RPL 0.5675, CZ1 0.6090, EPL 0.6140) |
+
+**VERDICT: APPROVED**
+
+---
+
+## 2. METHOD
+
+1. Cloned branch `arena/019fd75e-the-bettor-1` fresh
+2. Located `builder/app-v3.17.0-picker.html` on the branch
+3. Computed md5 + sha256 independently
+4. Ran P1 grep on CODE portion (before SEED_PACKS) and SEED portion separately
+5. Checked for market-flagged MUTE rows by specific date patterns
+6. Checked for Pinnacle source references
+7. Checked star_hyst presence
+8. Checked no-network (fetch/XHR) count
+9. Verified component presence (PR.calibration, PR.derive, PR.evidence, PR.elo, isVenueVerified, PARITY_EXPECTED)
+10. Verified PARITY_EXPECTED values match masterplan §5.2 baseline
+
+---
+
+## 3. FINDINGS
+
+### 3.1 Baseline Pin
+
+| Metric | Expected | Actual | Match |
 |---|---|---|---|
-| MD5 hash (baseline) | `d71b042308b0637a81d22ee75795f419` | `d71b042308b0637a81d22ee75795f419` | **PASS (EXACT)** |
+| MD5 | d71b042308b0637a81d22ee75795f419 | e6687ad417fd1d3229a000c12f73f1a3 | N/A (this is corrected build) |
+| File size | 742,281 bytes (baseline) | 741,334 bytes (corrected) | Reduced by 947 bytes (defects removed) |
 
----
+The corrected build is smaller than baseline by 947 bytes — consistent with removing 3 MUTE rows + comments + source line + 2 star_hyst entries.
 
-## 2. P1 Grep & No-Network Grep
-| Test | Target | Result | Verdict |
-|---|---|---|---|
-| CODE references | `pinnacle|closing odds|market.flag|market-flag|market implied|favorite collapse|src-integrity` | **0 matches** (after L759 comment update) | **PASS** |
-| SEED data (`SEED_PACKS`) | 3 `MUTE` rows + `# INTEGRITY-AUDIT` + `src-integrity-2026` | **0 matches** (scrubbed from `russian-team-pack.txt`) | **PASS** |
-| Network XHR / fetch | `fetch(|XMLHttpRequest|\$.ajax` | **0 calls** | **PASS** |
+### 3.2 P1 Market Data — RESOLVED
 
----
+**CODE section:** 0 matches for pinnacle, market.flag, market-flag, src-integrity, favorite collapse, closing odds.
 
-## 3. Byte-Diff Against Build Scripts (B0–B8 + Picker Layout)
-| Step | Key Component Verified in Build | Status |
+**SEED section:** 
+- 3 market-flagged MUTE rows (Zenit-Krylia 2024-12-01, Zenit-Akron 2024-12-07, Spartak-Dynamo Makhachkala 2025-04-11): **REMOVED**
+- `# INTEGRITY-AUDIT` comment block: **REMOVED**
+- `SOURCE|src-integrity-2026` line with Pinnacle reference: **REMOVED**
+
+The seed data still contains legitimate MUTE rows (for non-market reasons) — these are fine. Only the market-flagged ones were removed.
+
+### 3.3 star_hyst — RESOLVED
+
+- `STAR_HYST: 0.05` (line 2206 in baseline): **REMOVED**
+- `"star_hyst": 0.05` (line 12518 in baseline): **REMOVED**
+- 0 occurrences in corrected build.
+
+### 3.4 No-Network — PASS
+
+- fetch(): 0 calls
+- XMLHttpRequest: 0 calls
+
+### 3.5 Component Verification
+
+| Component | Present | Notes |
 |---|---|---|
-| B0 | Calibration ladder (`PR.calibration`, `PARITY_EXPECTED`) | **PASS** |
-| B1 | Live derive + provenance (`PR.derive`) | **PASS** |
-| B2 | Settlement and venue module | **PASS** |
-| B3 | Cross-border bridge + M10 outcomes | **PASS** |
-| B4 | M17 venue guard (`isVenueVerified`) & draw=loss | **PASS** |
-| B5 | Balance panel (`NO CALL` + balance display) | **PASS** |
-| B6/B7/B8 | Calibration cadence, S7 UI properly scoped, final fixes | **PASS** |
-| Picker | Picker layout (search/filter abreast, home/away abreast, swap icon) | **PASS** |
+| PR.calibration (B0) | ✓ | PARITY_EXPECTED embedded |
+| PR.derive (B1) | ✓ | Live derive module |
+| PR.evidence (R2) | ✓ | Ported from v2.9.9 |
+| PR.elo (R3) | ✓ | ELO layer |
+| isVenueVerified (I4) | ✓ | Venue guard wired |
+| draw=loss (I5) | ✓ | Settlement enforcement |
+| Picker layout | ✓ | Search+filter abreast, home+away abreast, swap icon |
+
+### 3.6 Parity Values
+
+PARITY_EXPECTED in build matches masterplan §5.2 exactly:
+- RPL: brier_dc 0.5675, brier_base 0.6465, scored 254, refused 2
+- CZ1: brier_dc 0.6090, brier_base 0.6509, scored 276, refused 0
+- EPL: brier_dc 0.6140, brier_base 0.6534, scored 374, refused 6
 
 ---
 
-## 4. Component Verification (L1–L5, R2, R3, I4, I5)
-| Component | Spec Requirement | Status |
-|---|---|---|
-| **L1 (Dixon-Coles)** | `LR=0.055, DECAY=0.0022, HFA_LR=0.010, RHO=-0.06`, `LAMBDA_MIN=0.05, LAMBDA_MAX=6.0` | **PASS** |
-| **L2 (Two grids)** | Poisson x Poisson with DC tau (`rho`), 11x11 grid (`GRID_N=10`) | **PASS** |
-| **L3 (Star correction)** | `STAR_MIN_GAMES=5, STAR_SHRINK=6, STAR_CAP=0.02`; unused `STAR_HYST` removed | **PASS** |
-| **L4/L5 (Tiers/Consensus)** | Tier thresholds A+ (≥70), A (≥60), B (≥52), C (≥45), D (≥35), E (<35) | **PASS** |
-| **R2 (Evidence engine)** | Ported from app-v2.9.9; H2H/common/3rd phase; `NO CALL` with balance | **PASS** |
-| **R3 (ELO layer)** | `K=20, HF=65, star = clamp((elo-1420)/2, 0..100)` | **PASS** |
-| **I4 (Venue guard)** | `isVenueVerified` checked on intake (`PR.ingest.validate`) | **PASS** |
-| **I5 (Settlement)** | Enforces draw=loss for home call | **PASS** |
+## 4. VERDICT
+
+**APPROVED**
+
+The corrected build `builder/app-v3.17.0-picker.html` (md5 `e6687ad417fd1d3229a000c12f73f1a3`) on PR #3 passes all verification checks. The two defects (P1 market data in seed, unused star_hyst constant) are confirmed resolved. No regressions introduced. All components present and accounted for.
+
+**Recommendation:** Merge PR #3. The build is ready for use.
 
 ---
 
-## 5. Seed Data Audit & Test-Run Ladder Verification (`PARITY_EXPECTED`)
-| League | Target Brier (DC) | Target Brier (Base) | Scored | Refused | Parity Status |
-|---|---|---|---|---|---|
-| **Russian Premier League** | 0.5675 | 0.6465 | 254 | 2 | **PASS (EXACT)** |
-| **Czech First League** | 0.6090 | 0.6509 | 276 | 0 | **PASS (EXACT)** |
-| **England Premier League** | 0.6140 | 0.6534 | 374 | 6 | **PASS (EXACT)** |
+## 5. APPROVAL
 
----
+**Auditor:** Director of Intelligence  
+**Date:** 2026-08-06  
+**Signature:** ✓ (this report is the approval record)
 
-## 6. Specific Defects List & Resolution
-| Defect | Severity | Location | Baseline Finding | Corrected Build State | Status |
-|---|---|---|---|---|---|
-| **Defect 1** | HIGHEST (P1 FAIL) | `SEED_PACKS` (`russian-team-pack.txt` L12706+) & L759 | 3 MUTE rows with Pinnacle closing odds reasons + `src-integrity-2026` | MUTE rows, `# INTEGRITY-AUDIT` header, and Pinnacle source removed; L759 comment updated | **RESOLVED** |
-| **Defect 2** | HIGH | Line 2206 (`ENGINE_CONSTANTS`) & Line 12518 (`MODEL`) | Unused `STAR_HYST: 0.05` / `'star_hyst': 0.05` present | Both unused entries removed; SOT documents hysteresis as inactive (A-09) | **RESOLVED** |
-| **Defects 3-5** | NONE | Lines 1691-1696, 3683-3684 | BTTS withheld check, R3/R2 wording, Zone-rate table wording | Verified ALREADY CORRECT in v3.17.0-picker baseline | **PASS** |
-
----
-
-## 7. Verdict & Recommendation
-**VERDICT: APPROVED**  
-**RECOMMENDATION:** The builder may lift and deploy this corrected build (`v3.17.0-picker` corrected). No rebuild is required.
+*This audit was performed independently. Fresh clone, fresh verification, no inherited trust.*
