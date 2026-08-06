@@ -122,7 +122,7 @@ select{font-family:inherit}
 .btn.primary:disabled{opacity:.45;cursor:not-allowed;filter:none}
 .btn.ghost{background:transparent}
 .btn.small{padding:5px 10px;font-size:12px;border-radius:8px}
-.btn.swap{margin-top:2px;width:100%}
+.btn.swap{margin-top:2px}
 .pill{display:inline-block;border-radius:99px;padding:2px 10px;font-size:11px;font-weight:700;
   letter-spacing:.3px;text-transform:uppercase;background:var(--panel2);border:1px solid var(--line2);color:var(--ink2)}
 .accent-pill{background:color-mix(in srgb,var(--accent) 14%,transparent);border-color:color-mix(in srgb,var(--accent) 40%,transparent);color:var(--accent)}
@@ -149,9 +149,10 @@ select{font-family:inherit}
   border-radius:10px;padding:9px 10px;font-size:14px;outline:none;transition:border .15s}
 .fld select:focus{border-color:var(--accent)}
 input.search{width:100%;background:var(--panel2);border:1px solid var(--line2);color:var(--ink);
-  border-radius:10px;padding:9px 11px;font-size:14px;outline:none;margin-bottom:12px;transition:border .15s}
+  border-radius:10px;padding:9px 11px;font-size:14px;outline:none;margin-bottom:12px;transition:border .15s;box-sizing:border-box}
 input.search:focus{border-color:var(--accent)}
 input.search::placeholder{color:var(--dim)}
+.picker-row input.search{margin-bottom:0}
 .srec{font-size:12.5px;color:var(--ink2);padding:2px 2px 8px;border-bottom:1px solid color-mix(in srgb,var(--line) 40%,transparent)}
 .srec .rec b{font-variant-numeric:tabular-nums}
 .srec + .secrow{border-top:none}
@@ -320,6 +321,12 @@ details.graph[open] .sec-body{padding:4px 10px 12px}
 .picker-row .fld span{
   margin-bottom:5px;
 }
+.picker-row .fld select,
+.picker-row input.search{
+  height:40px;
+  box-sizing:border-box;
+  margin-bottom:0;
+}
 .btn.swap-icon{
   width:40px;
   height:40px;
@@ -336,6 +343,7 @@ details.graph[open] .sec-body{padding:4px 10px 12px}
   background:var(--panel2);
   color:var(--ink2);
   transition:all .15s ease;
+  cursor:pointer;
 }
 .btn.swap-icon:hover{
   border-color:var(--accent);
@@ -4601,8 +4609,8 @@ PR.ui = (function () {
     return '<aside class="picker card">' +
       '<h2>Fixture</h2>' +
       '<div class="picker-row">' +
-        '<label class="fld"><span>Search</span><input type="text" id="pick-search" class="search" placeholder="Search teams — try “Krasnodar”…" value="' + C.esc(query) + '" autocomplete="off"></label>' +
-        '<label class="fld"><span>Filter by league (optional)</span><select id="pick-league">' + filterOpts + '</select></label>' +
+        '<label class="fld"><span>Search</span><input type="text" id="pick-search" class="search" placeholder="Try “Krasnodar”…" value="' + C.esc(query) + '" autocomplete="off"></label>' +
+        '<label class="fld"><span>League</span><select id="pick-league">' + filterOpts + '</select></label>' +
       '</div>' +
       '<div class="picker-row">' +
         '<label class="fld"><span>Home</span><select id="sel-home">' + opts(state.home) + '</select></label>' +
@@ -4610,7 +4618,7 @@ PR.ui = (function () {
         '<label class="fld"><span>Away</span><select id="sel-away">' + opts(state.away) + '</select></label>' +
       '</div>' +
       '<div class="chips">' + chips + '</div>' +
-      '<div class="hint">Teams are listed alphabetically — type any name or alias and jump straight to it. The league filter is optional. Search and filter sit side by side, home and away sit together, swap is cute icon button — per designer index button fonts.</div>' +
+      '<div class="hint">Type a name to search. League filter is optional.</div>' +
       '</aside>';
   }
 
