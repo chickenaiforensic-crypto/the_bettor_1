@@ -1,0 +1,16 @@
+{
+  "version": "3.16.0-final-fix",
+  "base": "app-v3.12.0-b5.html",
+  "base_md5": "bb69a5c407a12877c84f72f01fb3979c",
+  "built_md5": "511f2154084eb3b49e28ac1099151b88",
+  "fixes": {
+    "s7": "Properly scoped \u2014 no designer body rule, tokens mapped into existing :root/light, components use app vars --bg --panel --ink, dark gradient via --bg, light surface via --bg, 1 body rule only",
+    "i4": "isVenueVerified wired into PR.ingest.validate \u2014 when pack row has venue home team never hosted at in that league, hard-block Z-003 hold with tick-box neutral_venue \u2014 filesView disabled Approve until confirmed, bind checks confirmation, logs durable rationale + venue lock, approveStaged double-check",
+    "b6": "autoReplay after data change + monthly sweep"
+  },
+  "body_rules": 1,
+  "zero_hard_coding": {
+    "fetch": 0,
+    "xhr": 0
+  }
+}
