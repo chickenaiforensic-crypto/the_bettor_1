@@ -4869,6 +4869,540 @@ MATCH|2025-10-19|Major League Soccer|domestic-league|St. Louis City SC|2|2|Real 
 NOTE|info|round|RS R34
 MATCH|2025-10-19|Major League Soccer|domestic-league|Vancouver Whitecaps FC|1|2|FC Dallas||||||rsssf-mls-2025
 NOTE|info|round|RS R34
+MATCH|2026-02-21|Major League Soccer|domestic-league|St. Louis City SC|1|1|Charlotte FC||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-21|Major League Soccer|domestic-league|FC Cincinnati|2|0|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|D.C. United|1|0|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|Orlando City SC|1|2|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|Vancouver Whitecaps FC|1|0|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|Austin FC|2|2|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|FC Dallas|3|2|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|Houston Dynamo FC|2|1|Chicago Fire FC||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|Nashville SC|4|1|New England Revolution||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|Los Angeles FC|3|0|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|Portland Timbers|3|2|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|San Diego FC|5|0|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-22|Major League Soccer|domestic-league|San Jose Earthquakes|3|0|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-23|Major League Soccer|domestic-league|LA Galaxy|1|1|New York City FC||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-23|Major League Soccer|domestic-league|Seattle Sounders FC|2|0|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R1
+MATCH|2026-02-28|Major League Soccer|domestic-league|Chicago Fire FC|3|0|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-02-28|Major League Soccer|domestic-league|New York Red Bulls|1|0|New England Revolution||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-02-28|Major League Soccer|domestic-league|Colorado Rapids|2|0|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-02-28|Major League Soccer|domestic-league|Minnesota United FC|1|0|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|Real Salt Lake|2|1|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|San Jose Earthquakes|2|0|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|FC Dallas|0|0|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|Houston Dynamo FC|0|2|Los Angeles FC||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|Sporting Kansas City|2|2|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|Vancouver Whitecaps FC|3|0|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|LA Galaxy|3|0|Charlotte FC||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|Austin FC|1|0|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-01|Major League Soccer|domestic-league|Philadelphia Union|1|2|New York City FC||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-02|Major League Soccer|domestic-league|Orlando City SC|2|4|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-02|Major League Soccer|domestic-league|San Diego FC|2|0|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R2
+MATCH|2026-03-07|Major League Soccer|domestic-league|New York City FC|5|0|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-07|Major League Soccer|domestic-league|D.C. United|1|2|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Atlanta United FC|2|3|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Charlotte FC|3|1|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Columbus Crew|0|0|Chicago Fire FC||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Philadelphia Union|0|1|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Nashville SC|3|1|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Sporting Kansas City|0|1|San Diego FC||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|St. Louis City SC|0|1|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Colorado Rapids|4|1|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Los Angeles FC|1|0|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|Portland Timbers|1|4|Vancouver Whitecaps FC||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-08|Major League Soccer|domestic-league|New York Red Bulls|0|3|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-09|Major League Soccer|domestic-league|FC Cincinnati|0|1|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R3
+MATCH|2026-03-14|Major League Soccer|domestic-league|Toronto FC|1|1|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-14|Major League Soccer|domestic-league|Atlanta United FC|3|1|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-14|Major League Soccer|domestic-league|Columbus Crew|0|1|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|Charlotte FC|0|0|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|New York City FC|3|1|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|Orlando City SC|2|1|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|Chicago Fire FC|1|2|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|FC Dallas|3|3|San Diego FC||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|Houston Dynamo FC|3|2|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|LA Galaxy|1|2|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|Real Salt Lake|2|1|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|Los Angeles FC|2|0|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|New England Revolution|6|1|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-15|Major League Soccer|domestic-league|Vancouver Whitecaps FC|6|0|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-16|Major League Soccer|domestic-league|San Jose Earthquakes|0|1|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R4
+MATCH|2026-03-21|Major League Soccer|domestic-league|Toronto FC|2|1|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-21|Major League Soccer|domestic-league|Philadelphia Union|1|2|Chicago Fire FC||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-21|Major League Soccer|domestic-league|Nashville SC|5|0|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|Atlanta United FC|0|0|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|Charlotte FC|6|1|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|FC Dallas|4|3|Houston Dynamo FC||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|Sporting Kansas City|1|4|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|St. Louis City SC|3|1|New England Revolution||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|Austin FC|0|0|Los Angeles FC||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|Vancouver Whitecaps FC|0|1|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|FC Cincinnati|4|3|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|New York City FC|2|3|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|Minnesota United FC|0|0|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-22|Major League Soccer|domestic-league|Portland Timbers|1|1|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-03-23|Major League Soccer|domestic-league|San Diego FC|2|2|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R5
+MATCH|2026-04-04|Major League Soccer|domestic-league|Toronto FC|3|2|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-04|Major League Soccer|domestic-league|New England Revolution|3|0|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-04|Major League Soccer|domestic-league|Real Salt Lake|3|1|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|Atlanta United FC|1|3|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|Charlotte FC|2|1|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|D.C. United|0|4|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|Inter Miami CF|2|2|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|New York City FC|1|1|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|New York Red Bulls|4|2|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|Chicago Fire FC|1|0|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|Houston Dynamo FC|0|1|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|Los Angeles FC|6|0|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|LA Galaxy|1|2|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|San Jose Earthquakes|3|0|San Diego FC||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-05|Major League Soccer|domestic-league|Vancouver Whitecaps FC|3|2|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R6
+MATCH|2026-04-11|Major League Soccer|domestic-league|Toronto FC|1|1|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-11|Major League Soccer|domestic-league|Austin FC|1|2|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-11|Major League Soccer|domestic-league|CF Montréal|1|2|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-11|Major League Soccer|domestic-league|Portland Timbers|2|1|Los Angeles FC||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|Charlotte FC|1|2|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|Inter Miami CF|2|2|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|New England Revolution|1|0|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|Vancouver Whitecaps FC|2|0|New York City FC||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|Chicago Fire FC|1|0|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|FC Dallas|1|1|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|Sporting Kansas City|1|3|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|Colorado Rapids|6|2|Houston Dynamo FC||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-12|Major League Soccer|domestic-league|San Diego FC|1|2|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-13|Major League Soccer|domestic-league|Columbus Crew|1|1|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R7
+MATCH|2026-04-18|Major League Soccer|domestic-league|Vancouver Whitecaps FC|3|0|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-18|Major League Soccer|domestic-league|Toronto FC|3|3|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-18|Major League Soccer|domestic-league|CF Montréal|4|1|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-18|Major League Soccer|domestic-league|Colorado Rapids|2|3|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|Atlanta United FC|0|2|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|FC Cincinnati|3|3|Chicago Fire FC||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|New England Revolution|2|1|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|New York City FC|1|2|Charlotte FC||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|Orlando City SC|0|1|Houston Dynamo FC||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|Philadelphia Union|0|0|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|FC Dallas|2|2|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|Minnesota United FC|2|0|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|Real Salt Lake|4|2|San Diego FC||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-19|Major League Soccer|domestic-league|Seattle Sounders FC|4|1|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-20|Major League Soccer|domestic-league|Los Angeles FC|1|4|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R8
+MATCH|2026-04-23|Major League Soccer|domestic-league|New York City FC|4|4|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|New York Red Bulls|4|4|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|Orlando City SC|4|1|Charlotte FC||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|Toronto FC|3|3|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|Atlanta United FC|1|2|New England Revolution||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|FC Dallas|0|1|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|Houston Dynamo FC|1|0|San Diego FC||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|Real Salt Lake|0|2|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|Columbus Crew|2|1|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|Los Angeles FC|0|0|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-23|Major League Soccer|domestic-league|San Jose Earthquakes|5|1|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-07-17|Major League Soccer|domestic-league|St. Louis City SC|3|2|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-07-17|Major League Soccer|domestic-league|Seattle Sounders FC|1|5|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-07-23|Major League Soccer|domestic-league|Nashville SC|1|0|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R9
+MATCH|2026-04-25|Major League Soccer|domestic-league|Toronto FC|1|2|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-25|Major League Soccer|domestic-league|CF Montréal|1|0|New York City FC||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-25|Major League Soccer|domestic-league|Minnesota United FC|0|1|Los Angeles FC||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|Columbus Crew|2|0|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|D.C. United|3|2|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|FC Cincinnati|2|0|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|Inter Miami CF|1|1|New England Revolution||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|Austin FC|2|0|Houston Dynamo FC||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|Chicago Fire FC|5|0|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|Nashville SC|4|2|Charlotte FC||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|St. Louis City SC|2|3|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|San Diego FC|1|2|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|Seattle Sounders FC|2|1|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-26|Major League Soccer|domestic-league|Vancouver Whitecaps FC|3|1|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-04-27|Major League Soccer|domestic-league|LA Galaxy|2|1|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R10
+MATCH|2026-05-02|Major League Soccer|domestic-league|Toronto FC|1|1|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-02|Major League Soccer|domestic-league|Sporting Kansas City|1|1|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-02|Major League Soccer|domestic-league|Real Salt Lake|2|0|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|Inter Miami CF|3|4|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|Atlanta United FC|3|1|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|Columbus Crew|2|3|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|New England Revolution|1|0|Charlotte FC||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|New York Red Bulls|0|2|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|Philadelphia Union|0|0|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|Chicago Fire FC|2|3|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|Houston Dynamo FC|1|0|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|San Diego FC|2|2|Los Angeles FC||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|LA Galaxy|1|1|Vancouver Whitecaps FC||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|New York City FC|0|2|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-03|Major League Soccer|domestic-league|Austin FC|2|0|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R11
+MATCH|2026-05-09|Major League Soccer|domestic-league|Toronto FC|2|4|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-09|Major League Soccer|domestic-league|Chicago Fire FC|1|3|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-09|Major League Soccer|domestic-league|CF Montréal|2|0|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|Atlanta United FC|1|2|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|Charlotte FC|2|2|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|New England Revolution|2|1|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|FC Dallas|3|1|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|Nashville SC|2|2|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|Colorado Rapids|0|1|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|Portland Timbers|6|0|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|San Jose Earthquakes|1|1|Vancouver Whitecaps FC||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|Seattle Sounders FC|1|1|San Diego FC||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-10|Major League Soccer|domestic-league|New York City FC|3|0|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-11|Major League Soccer|domestic-league|Minnesota United FC|2|2|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-11|Major League Soccer|domestic-league|Los Angeles FC|1|4|Houston Dynamo FC||||||wf-mls-2026
+NOTE|info|round|RS R12
+MATCH|2026-05-14|Major League Soccer|domestic-league|Charlotte FC|0|1|New York City FC||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|CF Montréal|2|2|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|D.C. United|1|3|Chicago Fire FC||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|FC Cincinnati|3|5|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|New York Red Bulls|3|2|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|Orlando City SC|4|3|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|FC Dallas|2|3|Vancouver Whitecaps FC||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|Minnesota United FC|0|1|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|Sporting Kansas City|3|1|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|St. Louis City SC|2|1|Los Angeles FC||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|Real Salt Lake|3|0|Houston Dynamo FC||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|San Diego FC|5|0|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-14|Major League Soccer|domestic-league|Seattle Sounders FC|3|2|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-07-18|Major League Soccer|domestic-league|Nashville SC|1|0|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-07-23|Major League Soccer|domestic-league|New England Revolution|0|0|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R13
+MATCH|2026-05-16|Major League Soccer|domestic-league|CF Montréal|0|2|Chicago Fire FC||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|Charlotte FC|3|1|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|D.C. United|1|1|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|New England Revolution|2|1|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|New York Red Bulls|1|1|New York City FC||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|Orlando City SC|1|1|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|Philadelphia Union|1|1|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|Austin FC|1|2|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|Houston Dynamo FC|1|0|Vancouver Whitecaps FC||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|Seattle Sounders FC|0|2|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|Real Salt Lake|2|1|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|San Diego FC|3|3|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-17|Major League Soccer|domestic-league|San Jose Earthquakes|2|3|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-18|Major League Soccer|domestic-league|Inter Miami CF|2|0|Portland Timbers||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-18|Major League Soccer|domestic-league|Nashville SC|3|2|Los Angeles FC||||||wf-mls-2026
+NOTE|info|round|RS R14
+MATCH|2026-05-23|Major League Soccer|domestic-league|St. Louis City SC|3|0|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-23|Major League Soccer|domestic-league|Minnesota United FC|1|1|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|Charlotte FC|1|0|New England Revolution||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|D.C. United|4|4|CF Montréal||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|FC Cincinnati|6|2|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|Chicago Fire FC|2|1|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|Nashville SC|2|1|New York City FC||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|Sporting Kansas City|1|2|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|Colorado Rapids|1|2|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|Portland Timbers|1|3|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|San Diego FC|2|4|Vancouver Whitecaps FC||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|LA Galaxy|1|1|Houston Dynamo FC||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-24|Major League Soccer|domestic-league|Columbus Crew|2|0|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-25|Major League Soccer|domestic-league|Inter Miami CF|6|4|Philadelphia Union||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-25|Major League Soccer|domestic-league|Los Angeles FC|1|0|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R15
+MATCH|2026-05-14|Major League Soccer|domestic-league|New England Revolution|0|3|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-17|Major League Soccer|domestic-league|CF Montréal|0|0|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Columbus Crew|1|2|New York City FC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|FC Cincinnati|4|3|Vancouver Whitecaps FC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Inter Miami CF|3|2|Chicago Fire FC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Philadelphia Union|3|1|New York Red Bulls||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Charlotte FC|2|2|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Houston Dynamo FC|1|1|D.C. United||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Sporting Kansas City|2|1|Minnesota United FC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Austin FC|3|1|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Colorado Rapids|1|0|San Diego FC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Los Angeles FC|3|1|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|LA Galaxy|1|3|St. Louis City SC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|Portland Timbers|2|2|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-23|Major League Soccer|domestic-league|San Jose Earthquakes|0|4|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R16
+MATCH|2026-07-26|Major League Soccer|domestic-league|New York Red Bulls|0|2|Charlotte FC||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|Columbus Crew|2|1|FC Cincinnati||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|CF Montréal|0|1|Inter Miami CF||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|D.C. United|2|1|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|New England Revolution|4|1|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|New York City FC|3|1|Chicago Fire FC||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|Philadelphia Union|1|0|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|Houston Dynamo FC|3|0|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|Minnesota United FC|0|0|Vancouver Whitecaps FC||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|St. Louis City SC|1|0|Colorado Rapids||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|Orlando City SC|1|0|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|San Diego FC|1|0|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|Los Angeles FC|4|0|Sporting Kansas City||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|Portland Timbers|2|1|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-07-26|Major League Soccer|domestic-league|San Jose Earthquakes|1|1|LA Galaxy||||||wf-mls-2026
+NOTE|info|round|RS R17
+MATCH|2026-08-01|Major League Soccer|domestic-league|New York City FC|1|1|Toronto FC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|CF Montréal|2|2|New England Revolution||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|D.C. United|2|2|Nashville SC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|New York Red Bulls|3|2|Orlando City SC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|Philadelphia Union|3|2|Atlanta United FC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|Vancouver Whitecaps FC|1|1|Los Angeles FC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|Inter Miami CF|2|2|Columbus Crew||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|Chicago Fire FC|2|1|Charlotte FC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|Minnesota United FC|1|1|San Diego FC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|Sporting Kansas City|0|2|Houston Dynamo FC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|St. Louis City SC|1|1|Real Salt Lake||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|Colorado Rapids|1|0|Austin FC||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|FC Cincinnati|4|2|San Jose Earthquakes||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|LA Galaxy|0|0|FC Dallas||||||wf-mls-2026
+NOTE|info|round|RS R18
+MATCH|2026-08-02|Major League Soccer|domestic-league|Portland Timbers|2|1|Seattle Sounders FC||||||wf-mls-2026
+NOTE|info|round|RS R18
 MATCH|2021-11-20|MLS Cup Playoffs|domestic-league|Philadelphia Union|1|0|New York Red Bulls||||||rsssf-mls-2021
 NOTE|info|round|Conference Quarterfinals
 MATCH|2021-11-20|MLS Cup Playoffs|domestic-league|Sporting Kansas City|3|1|Vancouver Whitecaps FC||||||rsssf-mls-2021
@@ -5063,6 +5597,7 @@ SOURCE|rsssf-mls-2023|https://www.rsssf.org/tablesu/usa2023.html|2026-08-06|prim
 SOURCE|rsssf-mls-2024|https://www.rsssf.org/tablesu/usa2024.html|2026-08-06|primary|MLS 2024 regular season + playoff, table reproduced club-for-club
 SOURCE|rsssf-mls-2025|https://www.rsssf.org/tablesu/usa2025.html|2026-08-06|primary|MLS 2025 playoff + final table
 SOURCE|wf-mls-2025|https://www.worldfootball.net/competition/co73/usa-major-league-soccer/se84074/2025/|2026-08-06|second-index|MLS 2025 regular-season match results per matchday (MD1-34); table reproduced club-for-club
+SOURCE|wf-mls-2026|https://www.worldfootball.net/competition/co73/usa-major-league-soccer/se112297/2026/|2026-08-06|second-index|MLS 2026 regular-season match results per matchday (MD1-18, to-date); table reproduced club-for-club
 NOTE|info|identity_mapping|Source names mapped to canonical 30-club roster per workorder section 3 (e.g. Montreal CF->CF Montréal, DC United->D.C. United, Chicago Fire->Chicago Fire FC, Houston Dynamo->Houston Dynamo FC, Inter Miami->Inter Miami CF, LA/Los Angeles Galaxy->LA Galaxy, New York City->New York City FC, Saint Louis City->St. Louis City SC).
 NOTE|info|90min_doctrine|All scorelines are the 90-minute score. Playoff games decided on penalties/extra time record the 90' result plus a NOTE|info|advancement.
 NOTE|info|playoff_format|2021-22 single-elimination bracket; 2023+ wild-card singles + best-of-3 first round (third legs as needed) + single elimination, recorded per RSSSF.
@@ -5070,7 +5605,7 @@ NOTE|info|2022_abandoned|2022-07-30 Charlotte FC vs Columbus Crew abandoned at 0
 NOTE|info|2023_abandoned|2023-05-06 FC Dallas vs Saint Louis City abandoned at 0-0 (50'); completed 2023-06-07 FC Dallas 2-0 Saint Louis City. 2023-07-04 Colorado Rapids vs Portland Timbers abandoned at half-time; completed 2023-07-12 Colorado Rapids 0-0 Portland Timbers. Only completed results returned as MATCH rows.
 NOTE|info|2024_abandoned|2024-03-09 Philadelphia Union vs Seattle Sounders abandoned (6'); completed 2024-04-30 Philadelphia Union 2-3 Seattle Sounders. Only completed result returned.
 NOTE|info|2025_regular_season|2025 MLS regular season (34 rounds, 510 rows) returned from worldfootball.net per matchday (MD1-34). Final table recomputed from these rows reproduces the official RSSSF 2025 table club-for-club (W-D-L, GF-GA, pts) - zero mismatches.
-NOTE|warning|blocker|2026 MLS regular season to-date NOT RETURNED: RSSSF has no usa2026.html page. 2026 held appendix rows (2026-07-22/25/31) are NOT duplicated here. Requires worldfootball.net 2026 capture; blocked pending that.
-NOTE|info|self_gate|Regular seasons 2021-2024 (RSSSF) and 2025 (worldfootball, MD1-34): final tables recomputed from these rows reproduce the official tables club-for-club (W-D-L, GF-GA, pts) - zero tolerance gate met. Row counts 2021=459, 2022=476, 2023=493, 2024=493 (minus 11 held 2024-10-19 rows), 2025=510.
+NOTE|info|2026_regular_season|2026 MLS regular season to-date (18 rounds, 267 rows) returned from worldfootball.net per matchday (MD1-18, through 2026-08-02). Final table recomputed from these rows reproduces the official worldfootball standings club-for-club (W-D-L, GF-GA, pts) - zero mismatches. Several early-season games were postponed and replayed in July; recorded under their played dates. 2026 held appendix rows (2026-07-22/25/31) are NOT duplicated here (auditor dedupes).
+NOTE|info|self_gate|Regular seasons 2021-2024 (RSSSF), 2025 (worldfootball MD1-34) and 2026 to-date (worldfootball MD1-18): final tables recomputed from these rows reproduce the official tables club-for-club (W-D-L, GF-GA, pts) - zero tolerance gate met. Row counts 2021=459, 2022=476, 2023=493, 2024=493 (minus 11 held 2024-10-19 rows), 2025=510, 2026=267.
 NOTE|info|held_exclusions|11 MLS regular-season rows dated 2024-10-19 and all 28 MLS Cup Playoffs 2024 rows are the workorder appendix held rows - excluded here (auditor dedupes).
 END

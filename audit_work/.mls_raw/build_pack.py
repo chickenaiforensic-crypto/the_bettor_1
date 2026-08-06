@@ -19,6 +19,7 @@ SOURCES = [
     "rsssf-mls-2024|https://www.rsssf.org/tablesu/usa2024.html|2026-08-06|primary|MLS 2024 regular season + playoff, table reproduced club-for-club",
     "rsssf-mls-2025|https://www.rsssf.org/tablesu/usa2025.html|2026-08-06|primary|MLS 2025 playoff + final table",
     "wf-mls-2025|https://www.worldfootball.net/competition/co73/usa-major-league-soccer/se84074/2025/|2026-08-06|second-index|MLS 2025 regular-season match results per matchday (MD1-34); table reproduced club-for-club",
+    "wf-mls-2026|https://www.worldfootball.net/competition/co73/usa-major-league-soccer/se112297/2026/|2026-08-06|second-index|MLS 2026 regular-season match results per matchday (MD1-18, to-date); table reproduced club-for-club",
 ]
 
 APPENDIX_2024_10_19 = {
@@ -92,9 +93,8 @@ def match14(comp, date, home, hg, ag, away, source):
     # 14 fields: MATCH|date|comp|compType|home|hg|ag|away|venue|stadium|city|country||source
     return "MATCH|%s|%s|domestic-league|%s|%s|%s|%s||||||%s" % (date, comp, home, hg, ag, away, source)
 
-def parse_2025_md(path):
-    """Parse a worldfootball 2025 matchday md*.txt file -> [(date,home,hg,ag,away)]."""
-    import glob as _glob
+def parse_md(path, year):
+    """Parse a worldfootball matchday md*.txt file for given calendar year -> [(date,home,hg,ag,away)]."""
     out=[]
     cur_date=None
     for line in open(path,encoding="utf-8"):
@@ -102,11 +102,17 @@ def parse_2025_md(path):
         m=re.match(r"\[([A-Za-z]{3}) (\d{1,2})\]",line)
         if m:
             mon={"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}[m.group(1)]
-            cur_date=f"2025-{mon:02d}-{int(m.group(2)):02d}"; continue
+            cur_date=f"{year}-{mon:02d}-{int(m.group(2)):02d}"; continue
         mm=re.match(r"^(.+?) (\d+)-(\d+) (.+)$",line)
         if mm and cur_date:
             out.append((cur_date, canon(mm.group(1)), int(mm.group(2)), int(mm.group(3)), canon(mm.group(4))))
     return out
+
+def parse_2025_md(path):
+    return parse_md(path, "2025")
+
+def parse_2026_md(path):
+    return parse_md(path, "2026")
 
 def main():
     lines = ["PITCH-RATING|MLS|BP-TEAM-PACK v2"]
@@ -138,6 +144,13 @@ def main():
             lines.append(match14(COMP_RS, date, home, hg, ag, away, "rsssf-mls-2025"))
             lines.append(f"NOTE|info|round|RS R{int(md)}")
             rs_count += 1
+    # 2026 regular season to-date from worldfootball md files (MD1-18)
+    for f in sorted(_glob.glob("audit_work/.mls_raw/2026/md*.txt")):
+        md=re.search(r"md(\d+)",f).group(1)
+        for date,home,hg,ag,away in parse_2026_md(f):
+            lines.append(match14(COMP_RS, date, home, hg, ag, away, "wf-mls-2026"))
+            lines.append(f"NOTE|info|round|RS R{int(md)}")
+            rs_count += 1
 
     po_files = {"2021":"playoffs2021.txt","2022":"playoffs2022.txt","2023":"playoffs2023.txt","2025":"playoffs2025.txt"}
     po_count = 0
@@ -163,8 +176,8 @@ def main():
     lines.append("NOTE|info|2023_abandoned|2023-05-06 FC Dallas vs Saint Louis City abandoned at 0-0 (50'); completed 2023-06-07 FC Dallas 2-0 Saint Louis City. 2023-07-04 Colorado Rapids vs Portland Timbers abandoned at half-time; completed 2023-07-12 Colorado Rapids 0-0 Portland Timbers. Only completed results returned as MATCH rows.")
     lines.append("NOTE|info|2024_abandoned|2024-03-09 Philadelphia Union vs Seattle Sounders abandoned (6'); completed 2024-04-30 Philadelphia Union 2-3 Seattle Sounders. Only completed result returned.")
     lines.append("NOTE|info|2025_regular_season|2025 MLS regular season (34 rounds, 510 rows) returned from worldfootball.net per matchday (MD1-34). Final table recomputed from these rows reproduces the official RSSSF 2025 table club-for-club (W-D-L, GF-GA, pts) - zero mismatches.")
-    lines.append("NOTE|warning|blocker|2026 MLS regular season to-date NOT RETURNED: RSSSF has no usa2026.html page. 2026 held appendix rows (2026-07-22/25/31) are NOT duplicated here. Requires worldfootball.net 2026 capture; blocked pending that.")
-    lines.append("NOTE|info|self_gate|Regular seasons 2021-2024 (RSSSF) and 2025 (worldfootball, MD1-34): final tables recomputed from these rows reproduce the official tables club-for-club (W-D-L, GF-GA, pts) - zero tolerance gate met. Row counts 2021=459, 2022=476, 2023=493, 2024=493 (minus 11 held 2024-10-19 rows), 2025=510.")
+    lines.append("NOTE|info|2026_regular_season|2026 MLS regular season to-date (18 rounds, 267 rows) returned from worldfootball.net per matchday (MD1-18, through 2026-08-02). Final table recomputed from these rows reproduces the official worldfootball standings club-for-club (W-D-L, GF-GA, pts) - zero mismatches. Several early-season games were postponed and replayed in July; recorded under their played dates. 2026 held appendix rows (2026-07-22/25/31) are NOT duplicated here (auditor dedupes).")
+    lines.append("NOTE|info|self_gate|Regular seasons 2021-2024 (RSSSF), 2025 (worldfootball MD1-34) and 2026 to-date (worldfootball MD1-18): final tables recomputed from these rows reproduce the official tables club-for-club (W-D-L, GF-GA, pts) - zero tolerance gate met. Row counts 2021=459, 2022=476, 2023=493, 2024=493 (minus 11 held 2024-10-19 rows), 2025=510, 2026=267.")
     lines.append("NOTE|info|held_exclusions|11 MLS regular-season rows dated 2024-10-19 and all 28 MLS Cup Playoffs 2024 rows are the workorder appendix held rows - excluded here (auditor dedupes).")
     lines.append("END")
     return "\n".join(lines) + "\n", rs_count, po_count, excl
