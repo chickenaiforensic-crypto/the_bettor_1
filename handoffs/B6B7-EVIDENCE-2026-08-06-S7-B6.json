@@ -1,0 +1,22 @@
+{
+  "version": "3.13.0",
+  "base": "app-v3.12.0-b5.html",
+  "base_md5": "bb69a5c407a12877c84f72f01fb3979c",
+  "built_md5": "9d6a0916a77751af8976b36577a28579",
+  "built_sha256": "570a753e39c7026e86b15a3eee4b5293bbe6d14ab5056ba1b8fac51954978d0a",
+  "s7": {
+    "designer_system": "designer/design-tokens.css + components.css + prototypes/index.html",
+    "description": "Bloomberg Terminal meets Athletic editorial \u2014 deep navy/charcoal emerald/gold, Tiempos Headline + Inter, max-width 840px, card-dark, badge emerald/gold, balance-bar, verdict 28px, icons Fortress \ud83d\udee1\ufe0f trend \ud83d\udcc8 pivot \ud83c\udf0d hot \u26a1 cold \u2744\ufe0f chain \ud83d\udd17 balance \u2696\ufe0f tip \ud83d\udca1 provenance \ud83d\udd0d with tooltip fixed meanings, progressive disclosure Verdict\u2192Why\u2192Technical, theme toggle",
+    "css_mapping": "old vars --bg --panel etc mapped to designer --ink-900, --paper, emerald, gold, etc. Body gradient #0e1526\u2192#131b33 dark, surface #f4f6fb light",
+    "icons": "Fixed emoji-to-meaning mapping preserved with title tooltips"
+  },
+  "b6": {
+    "one_click_masked_replay": "autoReplay() after any data change M1 \u2014 runs PR.replay.run, saves zone-table/confidence-table/goals-band, logs auto-replay",
+    "monthly_full_sweep": "checkMonthlySweep() checks last calibration-run/replay-validation/zone-table date >30 days, monthlyFullSweep() runs replay + ladder, saves artifacts, logs monthly-sweep",
+    "ui": "calibrationConsole now shows renderCalibrationStatus with last run days ago + button Run monthly full sweep (replay+ladder) + busy-icon, bind for btn-monthly-sweep"
+  },
+  "zero_hard_coding": {
+    "fetch": 0,
+    "xhr": 0
+  }
+}
