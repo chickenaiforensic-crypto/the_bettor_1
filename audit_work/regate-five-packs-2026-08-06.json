@@ -3,33 +3,33 @@
   "scope": "grammar, date/score shape, duplicate fingerprint, declared source reference and stated blockers; not a table/bracket reproduction approval",
   "packs": {
     "MLS-2021-2026_BP-TEAM-PACK_v2.txt": {
-      "match_rows": 1994,
-      "match_fields_14": 1994,
+      "match_rows": 2504,
+      "match_fields_14": 2504,
       "dates_by_calendar_year": {
         "2021": 472,
         "2022": 489,
         "2023": 521,
         "2024": 482,
-        "2025": 30
+        "2025": 540
       },
       "declared_sources": [
         "rsssf-mls-2021",
         "rsssf-mls-2022",
         "rsssf-mls-2023",
         "rsssf-mls-2024",
-        "rsssf-mls-2025"
+        "rsssf-mls-2025",
+        "wf-mls-2025"
       ],
       "source_refs": {
         "rsssf-mls-2021": 472,
         "rsssf-mls-2022": 489,
         "rsssf-mls-2023": 521,
         "rsssf-mls-2024": 482,
-        "rsssf-mls-2025": 30
+        "rsssf-mls-2025": 540
       },
       "unmatched_source_ids": [],
       "duplicate_fingerprints": 0,
       "warning_notes": [
-        "blocker|2025 MLS regular season (34 rounds) NOT RETURNED: RSSSF usa2025.html provides final tables + playoff only, no round-by-round regular-season match list. Requires a secondary source (worldfootball.net) capture; blocked pending that.",
         "blocker|2026 MLS regular season to-date NOT RETURNED: RSSSF has no usa2026.html page. 2026 held appendix rows (2026-07-22/25/31) are NOT duplicated here. Requires worldfootball.net 2026 capture; blocked pending that."
       ],
       "errors": [],
@@ -45,18 +45,16 @@
         "2025": 15
       },
       "declared_sources": [
-        "rsssf-mls"
+        "rsssf-mls-2022",
+        "rsssf-mls-2023",
+        "rsssf-mls-2025"
       ],
       "source_refs": {
         "rsssf-mls-2022": 15,
         "rsssf-mls-2023": 15,
         "rsssf-mls-2025": 15
       },
-      "unmatched_source_ids": [
-        "rsssf-mls-2022",
-        "rsssf-mls-2023",
-        "rsssf-mls-2025"
-      ],
+      "unmatched_source_ids": [],
       "duplicate_fingerprints": 0,
       "warning_notes": [
         "blocker|R32 round (where MLS clubs enter) NOT RETURNED for 2022/2023/2025: RSSSF cup chapters begin at the Round of 16 (1/8 Finals) and do not list the R32 ties. Slice from R16 to Final is complete; R32 requires a secondary source (worldfootball.net/soccerway) capture - blocked pending that.",
@@ -64,7 +62,7 @@
       ],
       "errors": [],
       "error_count": 0,
-      "decision": "FAIL"
+      "decision": "GRAMMAR_PROVENANCE_PASS"
     },
     "SCOCUP-2021-2026_BP-TEAM-PACK_v2.txt": {
       "match_rows": 68,
