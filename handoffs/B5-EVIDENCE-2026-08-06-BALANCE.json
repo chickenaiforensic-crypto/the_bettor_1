@@ -1,0 +1,15 @@
+{
+  "version": "3.12.0",
+  "base": "app-v3.11.0-b4.html",
+  "base_md5": "ce32dd04464f3b41fe355c36ead85684",
+  "built_md5": "bb69a5c407a12877c84f72f01fb3979c",
+  "built_sha256": "09fcb3d1e3e21279a0701f70d493114ed53fc1e9b49a3c7c6318aeb613746527",
+  "b5": {
+    "feature": "balance panel \u2014 NO CALL shows support shares",
+    "description": "When ev.nocall, result.ok=false, previously only form+honesty+venue shown, no balance bar. Now balance panel always visible with support shares from evidence or form. For fitted: H/D/A probabilities. For evidence: homeW/neuW/awayW normalized. For NO CALL: form W-D-L as support shares with message 'Support shares from standalone form'. Implementation: renderBalancePanel(res) + buildEvidenceSections retains _ev/_ag/_display/_raw even when nocall + adds balance section id + card() includes balance panel in NO CALL case + normal card injects balance if missing + section handler for balance id"
+  },
+  "zero_hard_coding": {
+    "fetch": 0,
+    "xhr": 0
+  }
+}
