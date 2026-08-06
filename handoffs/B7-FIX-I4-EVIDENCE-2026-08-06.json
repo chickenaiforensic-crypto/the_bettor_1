@@ -1,0 +1,21 @@
+{
+  "version": "3.14.0",
+  "base": "app-v3.13.0-b6b7.html",
+  "base_md5": "9d6a0916a77751af8976b36577a28579",
+  "built_md5": "6194fefa12c384cbcc5616e8a0d69245",
+  "built_sha256": "6692184eba3e2b057b894f7e1cfce5ee41820b8070acda19e709a2231b8bb5e0",
+  "fix": "I4 venue guard hard-block wiring \u2014 isVenueVerified connected to import validation + commit \u2014 when pack row has venue home team never hosted at in that league, hard-block during import Z-003 hold \u2014 tick-box official list save disabled until confirmed venue locked neutral/relocated adjudication",
+  "changes": [
+    "filesView now detects venue holds (Venue ghosting/mismatch/never hosted) and shows venue-guard-panel with tick-boxes data-venue-confirm and data-venue-neutral, Approve button disabled initially id approve-btn-i",
+    "bind() adds listeners for data-venue-confirm and data-venue-neutral to enable/disable Approve button, plus checks in data-approve click handler for confirmation before commit, logs venue-confirm with durable rationale",
+    "approveStaged now double-checks venue verification at commit time via getVerifiedVenueMap + isVenueVerified logic, checks tick-boxes again, logs venue-lock durable rationale + venue lock, preserves verbatim venue, neutral/relocated preserved not silent flip",
+    "validate patch already adds venue holds via getVerifiedVenueMap, now properly wired to filesView hard-block"
+  ],
+  "zero_hard_coding": {
+    "fetch": 0,
+    "xhr": 0
+  },
+  "acceptance_tests": {
+    "I4": "attempt to save/import row whose home team absent from verified-venue list \u2192 hard block (hold card with disabled Approve), then confirm via tick-box \u2192 durable rationale + venue lock + commit succeeds"
+  }
+}
