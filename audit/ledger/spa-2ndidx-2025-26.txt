@@ -1,0 +1,401 @@
+# SPA 2ND INDEX 2025-26 = openfootball/espana 2025-26/1-liga.txt (380 matches, short-name
+# inf format, '# Dates Fri Aug 15 2025 - Sun May 24 2026 (282d)', '# Matches 380'), fetched
+# 2026-08-05 as data/raw/ofb-es-2025-26.txt (1,162 lines; joins c0-c1..c5-c6 + repairs in
+# raw header). Parsed by tools/parse_ofb_es.py: 380/380 rows, 38x10 histogram, 20 clubs x
+# 38 apps, 0 unknown names, span 2025-08-15..2026-05-24. ROLE: CARRIER for the 2025-26
+# league MATCH rows - rsssf.org/tabless/span2026.html 404s on return date (boundary
+# evidence; source_adaptation per SPEC: independent structured dataset; scored-table
+# authority = wiki 2025-26 league table; MATRIX TRIANGULATION: 380/380 scores identical vs
+# wiki FBR matrix (audit/ledger/spa-2ndidx-2025-26-MX.txt; GF=1024 both sides);
+# table template reproduced 20/20 EXACT by strict class_rules recompute).
+# BANNERS: 'Regular Season - n' NON-MONOTONIC order ...1 2 6 3 4 5 [6] 7..14 19 15 16 17 18
+# [19] 20..24 [16] 25 26 [23] 27..31 33 32 34..38 (4 duplicate/makeup banners R6/R16/R19/
+# R23 + out-of-order RS-33-before-RS-32 blocks; every block ends at 10 fixtures after
+# summing under printed n). RESCHEDULED-ROUND CROSS-CHECK vs wiki article table:
+# R6 Celta-Betis 2025-08-27 AGREE (UEL clash, fwd-played); R19 Barca-AthMadrid 2025-12-02
+# + AthBilbao-RealMadrid 2025-12-03 AGREE (Supercopa, fwd-played); R23 Sevilla-Girona
+# 2026-02-08 (rain) + Vallecano-Oviedo 2026-03-04 (pitch) AGREE; R16 Levante-Villarreal
+# CONFLICT - wiki reschedule table prints 17 February 2026, this carrier prints Wed
+# 2026-02-18 -> wf adjudication (third independent) pends; NOTE|warning|source_conflict
+# will ship with the wf-corroborated date in the pack.
+
+MD1|2025-08-15|Girona|1|3|Vallecano
+MD1|2025-08-15|Villarreal|2|0|Oviedo
+MD1|2025-08-16|Mallorca|0|3|Barcelona
+MD1|2025-08-16|Alaves|2|1|Levante
+MD1|2025-08-16|Valencia|1|1|Sociedad
+MD1|2025-08-17|Celta|0|2|Getafe
+MD1|2025-08-17|Ath Bilbao|3|2|Sevilla
+MD1|2025-08-17|Espanol|2|1|Ath Madrid
+MD1|2025-08-18|Elche|1|1|Betis
+MD1|2025-08-19|Real Madrid|1|0|Osasuna
+MD2|2025-08-22|Betis|1|0|Alaves
+MD2|2025-08-23|Mallorca|1|1|Celta
+MD2|2025-08-23|Ath Madrid|1|1|Elche
+MD2|2025-08-23|Levante|2|3|Barcelona
+MD2|2025-08-24|Osasuna|1|0|Valencia
+MD2|2025-08-24|Villarreal|5|0|Girona
+MD2|2025-08-24|Sociedad|2|2|Espanol
+MD2|2025-08-24|Oviedo|0|3|Real Madrid
+MD2|2025-08-25|Ath Bilbao|1|0|Vallecano
+MD2|2025-08-25|Sevilla|1|2|Getafe
+MD6|2025-08-27|Celta|1|1|Betis
+MD3|2025-08-29|Elche|2|0|Levante
+MD3|2025-08-29|Valencia|3|0|Getafe
+MD3|2025-08-30|Alaves|1|1|Ath Madrid
+MD3|2025-08-30|Oviedo|1|0|Sociedad
+MD3|2025-08-30|Girona|0|2|Sevilla
+MD3|2025-08-30|Real Madrid|2|1|Mallorca
+MD3|2025-08-31|Celta|1|1|Villarreal
+MD3|2025-08-31|Betis|1|2|Ath Bilbao
+MD3|2025-08-31|Espanol|1|0|Osasuna
+MD3|2025-08-31|Vallecano|1|1|Barcelona
+MD4|2025-09-12|Sevilla|2|2|Elche
+MD4|2025-09-13|Getafe|2|0|Oviedo
+MD4|2025-09-13|Sociedad|1|2|Real Madrid
+MD4|2025-09-13|Ath Bilbao|0|1|Alaves
+MD4|2025-09-13|Ath Madrid|2|0|Villarreal
+MD4|2025-09-14|Celta|1|1|Girona
+MD4|2025-09-14|Levante|2|2|Betis
+MD4|2025-09-14|Osasuna|2|0|Vallecano
+MD4|2025-09-14|Barcelona|6|0|Valencia
+MD4|2025-09-15|Espanol|3|2|Mallorca
+MD5|2025-09-19|Betis|3|1|Sociedad
+MD5|2025-09-20|Girona|0|4|Levante
+MD5|2025-09-20|Real Madrid|2|0|Espanol
+MD5|2025-09-20|Villarreal|2|1|Osasuna
+MD5|2025-09-20|Alaves|1|2|Sevilla
+MD5|2025-09-20|Valencia|2|0|Ath Bilbao
+MD5|2025-09-21|Vallecano|1|1|Celta
+MD5|2025-09-21|Mallorca|1|1|Ath Madrid
+MD5|2025-09-21|Elche|1|0|Oviedo
+MD5|2025-09-21|Barcelona|3|0|Getafe
+MD6|2025-09-23|Espanol|2|2|Valencia
+MD6|2025-09-23|Ath Bilbao|1|1|Girona
+MD6|2025-09-23|Levante|1|4|Real Madrid
+MD6|2025-09-23|Sevilla|1|2|Villarreal
+MD6|2025-09-24|Getafe|1|1|Alaves
+MD6|2025-09-24|Ath Madrid|3|2|Vallecano
+MD6|2025-09-24|Sociedad|1|0|Mallorca
+MD6|2025-09-25|Osasuna|1|1|Elche
+MD6|2025-09-25|Oviedo|1|3|Barcelona
+MD7|2025-09-26|Girona|0|0|Espanol
+MD7|2025-09-27|Getafe|1|1|Levante
+MD7|2025-09-27|Ath Madrid|5|2|Real Madrid
+MD7|2025-09-27|Mallorca|1|0|Alaves
+MD7|2025-09-27|Villarreal|1|0|Ath Bilbao
+MD7|2025-09-28|Vallecano|0|1|Sevilla
+MD7|2025-09-28|Elche|2|1|Celta
+MD7|2025-09-28|Barcelona|2|1|Sociedad
+MD7|2025-09-28|Betis|2|0|Osasuna
+MD7|2025-09-30|Valencia|1|2|Oviedo
+MD8|2025-10-03|Osasuna|2|1|Getafe
+MD8|2025-10-04|Oviedo|0|2|Levante
+MD8|2025-10-04|Girona|2|1|Valencia
+MD8|2025-10-04|Ath Bilbao|2|1|Mallorca
+MD8|2025-10-04|Real Madrid|3|1|Villarreal
+MD8|2025-10-05|Alaves|3|1|Elche
+MD8|2025-10-05|Sevilla|4|1|Barcelona
+MD8|2025-10-05|Sociedad|0|1|Vallecano
+MD8|2025-10-05|Espanol|1|2|Betis
+MD8|2025-10-05|Celta|1|1|Ath Madrid
+MD9|2025-10-17|Oviedo|0|2|Espanol
+MD9|2025-10-18|Sevilla|1|3|Mallorca
+MD9|2025-10-18|Barcelona|2|1|Girona
+MD9|2025-10-18|Villarreal|2|2|Betis
+MD9|2025-10-18|Ath Madrid|1|0|Osasuna
+MD9|2025-10-19|Elche|0|0|Ath Bilbao
+MD9|2025-10-19|Celta|1|1|Sociedad
+MD9|2025-10-19|Levante|0|3|Vallecano
+MD9|2025-10-19|Getafe|0|1|Real Madrid
+MD9|2025-10-20|Alaves|0|0|Valencia
+MD10|2025-10-24|Sociedad|2|1|Sevilla
+MD10|2025-10-25|Girona|3|3|Oviedo
+MD10|2025-10-25|Espanol|1|0|Elche
+MD10|2025-10-25|Ath Bilbao|0|1|Getafe
+MD10|2025-10-25|Valencia|0|2|Villarreal
+MD10|2025-10-26|Mallorca|1|1|Levante
+MD10|2025-10-26|Real Madrid|2|1|Barcelona
+MD10|2025-10-26|Osasuna|2|3|Celta
+MD10|2025-10-26|Vallecano|1|0|Alaves
+MD10|2025-10-27|Betis|0|2|Ath Madrid
+MD11|2025-10-31|Getafe|2|1|Girona
+MD11|2025-11-01|Villarreal|4|0|Vallecano
+MD11|2025-11-01|Ath Madrid|3|0|Sevilla
+MD11|2025-11-01|Sociedad|3|2|Ath Bilbao
+MD11|2025-11-01|Real Madrid|4|0|Valencia
+MD11|2025-11-02|Levante|1|2|Celta
+MD11|2025-11-02|Alaves|2|1|Espanol
+MD11|2025-11-02|Barcelona|3|1|Elche
+MD11|2025-11-02|Betis|3|0|Mallorca
+MD11|2025-11-03|Oviedo|0|0|Osasuna
+MD12|2025-11-07|Elche|1|1|Sociedad
+MD12|2025-11-08|Girona|1|0|Alaves
+MD12|2025-11-08|Sevilla|1|0|Osasuna
+MD12|2025-11-08|Ath Madrid|3|1|Levante
+MD12|2025-11-08|Espanol|0|2|Villarreal
+MD12|2025-11-09|Ath Bilbao|1|0|Oviedo
+MD12|2025-11-09|Vallecano|0|0|Real Madrid
+MD12|2025-11-09|Valencia|1|1|Betis
+MD12|2025-11-09|Mallorca|1|0|Getafe
+MD12|2025-11-09|Celta|2|4|Barcelona
+MD13|2025-11-21|Valencia|1|0|Levante
+MD13|2025-11-22|Alaves|0|1|Celta
+MD13|2025-11-22|Barcelona|4|0|Ath Bilbao
+MD13|2025-11-22|Osasuna|1|3|Sociedad
+MD13|2025-11-22|Villarreal|2|1|Mallorca
+MD13|2025-11-23|Oviedo|0|0|Vallecano
+MD13|2025-11-23|Betis|1|1|Girona
+MD13|2025-11-23|Getafe|0|1|Ath Madrid
+MD13|2025-11-23|Elche|2|2|Real Madrid
+MD13|2025-11-24|Espanol|2|1|Sevilla
+MD14|2025-11-28|Getafe|1|0|Elche
+MD14|2025-11-29|Mallorca|2|2|Osasuna
+MD14|2025-11-29|Barcelona|3|1|Alaves
+MD14|2025-11-29|Levante|0|2|Ath Bilbao
+MD14|2025-11-29|Ath Madrid|2|0|Oviedo
+MD14|2025-11-30|Sociedad|2|3|Villarreal
+MD14|2025-11-30|Sevilla|0|2|Betis
+MD14|2025-11-30|Celta|0|1|Espanol
+MD14|2025-11-30|Girona|1|1|Real Madrid
+MD14|2025-12-01|Vallecano|1|1|Valencia
+MD19|2025-12-02|Barcelona|3|1|Ath Madrid
+MD19|2025-12-03|Ath Bilbao|0|3|Real Madrid
+MD15|2025-12-05|Oviedo|0|0|Mallorca
+MD15|2025-12-06|Villarreal|2|0|Getafe
+MD15|2025-12-06|Alaves|1|0|Sociedad
+MD15|2025-12-06|Betis|3|5|Barcelona
+MD15|2025-12-06|Ath Bilbao|1|0|Ath Madrid
+MD15|2025-12-07|Elche|3|0|Girona
+MD15|2025-12-07|Valencia|1|1|Sevilla
+MD15|2025-12-07|Espanol|1|0|Vallecano
+MD15|2025-12-07|Real Madrid|0|2|Celta
+MD15|2025-12-08|Osasuna|2|0|Levante
+MD16|2025-12-12|Sociedad|1|2|Girona
+MD16|2025-12-13|Ath Madrid|2|1|Valencia
+MD16|2025-12-13|Mallorca|3|1|Elche
+MD16|2025-12-13|Barcelona|2|0|Osasuna
+MD16|2025-12-13|Getafe|0|1|Espanol
+MD16|2025-12-14|Sevilla|4|0|Oviedo
+MD16|2025-12-14|Celta|2|0|Ath Bilbao
+MD16|2025-12-14|Alaves|1|2|Real Madrid
+MD16|2025-12-15|Vallecano|0|0|Betis
+MD17|2025-12-19|Valencia|1|1|Mallorca
+MD17|2025-12-20|Oviedo|0|0|Celta
+MD17|2025-12-20|Levante|1|1|Sociedad
+MD17|2025-12-20|Osasuna|3|0|Alaves
+MD17|2025-12-20|Real Madrid|2|0|Sevilla
+MD17|2025-12-21|Girona|0|3|Ath Madrid
+MD17|2025-12-21|Villarreal|0|2|Barcelona
+MD17|2025-12-21|Elche|4|0|Vallecano
+MD17|2025-12-21|Betis|4|0|Getafe
+MD17|2025-12-22|Ath Bilbao|1|2|Espanol
+MD18|2026-01-02|Vallecano|1|1|Getafe
+MD18|2026-01-03|Celta|4|1|Valencia
+MD18|2026-01-03|Osasuna|1|1|Ath Bilbao
+MD18|2026-01-03|Elche|1|3|Villarreal
+MD18|2026-01-03|Espanol|0|2|Barcelona
+MD18|2026-01-04|Sevilla|0|3|Levante
+MD18|2026-01-04|Real Madrid|5|1|Betis
+MD18|2026-01-04|Alaves|1|1|Oviedo
+MD18|2026-01-04|Mallorca|1|2|Girona
+MD18|2026-01-04|Sociedad|1|1|Ath Madrid
+MD19|2026-01-09|Getafe|1|2|Sociedad
+MD19|2026-01-10|Oviedo|1|1|Betis
+MD19|2026-01-10|Villarreal|3|1|Alaves
+MD19|2026-01-10|Girona|1|0|Osasuna
+MD19|2026-01-10|Valencia|1|1|Elche
+MD19|2026-01-11|Vallecano|2|1|Mallorca
+MD19|2026-01-11|Levante|1|1|Espanol
+MD19|2026-01-12|Sevilla|0|1|Celta
+MD20|2026-01-16|Espanol|0|2|Girona
+MD20|2026-01-17|Real Madrid|2|0|Levante
+MD20|2026-01-17|Mallorca|3|2|Ath Bilbao
+MD20|2026-01-17|Osasuna|3|2|Oviedo
+MD20|2026-01-17|Betis|2|0|Villarreal
+MD20|2026-01-18|Getafe|0|1|Valencia
+MD20|2026-01-18|Ath Madrid|1|0|Alaves
+MD20|2026-01-18|Celta|3|0|Vallecano
+MD20|2026-01-18|Sociedad|2|1|Barcelona
+MD20|2026-01-19|Elche|2|2|Sevilla
+MD21|2026-01-23|Levante|3|2|Elche
+MD21|2026-01-24|Vallecano|1|3|Osasuna
+MD21|2026-01-24|Valencia|3|2|Espanol
+MD21|2026-01-24|Sevilla|2|1|Ath Bilbao
+MD21|2026-01-24|Villarreal|0|2|Real Madrid
+MD21|2026-01-25|Ath Madrid|3|0|Mallorca
+MD21|2026-01-25|Barcelona|3|0|Oviedo
+MD21|2026-01-25|Sociedad|3|1|Celta
+MD21|2026-01-25|Alaves|2|1|Betis
+MD21|2026-01-26|Girona|1|1|Getafe
+MD22|2026-01-30|Espanol|1|2|Alaves
+MD22|2026-01-31|Oviedo|1|0|Girona
+MD22|2026-01-31|Osasuna|2|2|Villarreal
+MD22|2026-01-31|Levante|0|0|Ath Madrid
+MD22|2026-01-31|Elche|1|3|Barcelona
+MD22|2026-02-01|Real Madrid|2|1|Vallecano
+MD22|2026-02-01|Betis|2|1|Valencia
+MD22|2026-02-01|Getafe|0|0|Celta
+MD22|2026-02-01|Ath Bilbao|1|1|Sociedad
+MD22|2026-02-02|Mallorca|4|1|Sevilla
+MD23|2026-02-06|Celta|1|2|Osasuna
+MD23|2026-02-07|Barcelona|3|0|Mallorca
+MD23|2026-02-07|Sociedad|3|1|Elche
+MD23|2026-02-08|Alaves|0|2|Getafe
+MD23|2026-02-08|Sevilla|1|1|Girona
+MD23|2026-02-08|Ath Bilbao|4|2|Levante
+MD23|2026-02-08|Ath Madrid|0|1|Betis
+MD23|2026-02-08|Valencia|0|2|Real Madrid
+MD23|2026-02-09|Villarreal|4|1|Espanol
+MD24|2026-02-13|Elche|0|0|Osasuna
+MD24|2026-02-14|Espanol|2|2|Celta
+MD24|2026-02-14|Getafe|2|1|Villarreal
+MD24|2026-02-14|Sevilla|1|1|Alaves
+MD24|2026-02-14|Real Madrid|4|1|Sociedad
+MD24|2026-02-15|Oviedo|1|2|Ath Bilbao
+MD24|2026-02-15|Vallecano|3|0|Ath Madrid
+MD24|2026-02-15|Levante|0|2|Valencia
+MD24|2026-02-15|Mallorca|1|2|Betis
+MD24|2026-02-16|Girona|2|1|Barcelona
+MD16|2026-02-18|Levante|0|1|Villarreal
+MD25|2026-02-20|Ath Bilbao|2|1|Elche
+MD25|2026-02-21|Sociedad|3|3|Oviedo
+MD25|2026-02-21|Betis|1|1|Vallecano
+MD25|2026-02-21|Osasuna|2|1|Real Madrid
+MD25|2026-02-21|Ath Madrid|4|2|Espanol
+MD25|2026-02-22|Getafe|0|1|Sevilla
+MD25|2026-02-22|Barcelona|3|0|Levante
+MD25|2026-02-22|Celta|2|0|Mallorca
+MD25|2026-02-22|Villarreal|2|1|Valencia
+MD25|2026-02-23|Alaves|2|2|Girona
+MD26|2026-02-27|Levante|2|0|Alaves
+MD26|2026-02-28|Vallecano|1|1|Ath Bilbao
+MD26|2026-02-28|Barcelona|4|1|Villarreal
+MD26|2026-02-28|Mallorca|0|1|Sociedad
+MD26|2026-02-28|Oviedo|0|1|Ath Madrid
+MD26|2026-03-01|Elche|2|2|Espanol
+MD26|2026-03-01|Valencia|1|0|Osasuna
+MD26|2026-03-01|Betis|2|2|Sevilla
+MD26|2026-03-01|Girona|1|2|Celta
+MD26|2026-03-02|Real Madrid|0|1|Getafe
+MD23|2026-03-04|Vallecano|3|0|Oviedo
+MD27|2026-03-06|Celta|1|2|Real Madrid
+MD27|2026-03-07|Osasuna|2|2|Mallorca
+MD27|2026-03-07|Levante|1|1|Girona
+MD27|2026-03-07|Ath Madrid|3|2|Sociedad
+MD27|2026-03-07|Ath Bilbao|0|1|Barcelona
+MD27|2026-03-08|Villarreal|2|1|Elche
+MD27|2026-03-08|Getafe|2|0|Betis
+MD27|2026-03-08|Sevilla|1|1|Vallecano
+MD27|2026-03-08|Valencia|3|2|Alaves
+MD27|2026-03-09|Espanol|1|1|Oviedo
+MD28|2026-03-13|Alaves|1|1|Villarreal
+MD28|2026-03-14|Girona|3|0|Ath Bilbao
+MD28|2026-03-14|Ath Madrid|1|0|Getafe
+MD28|2026-03-14|Oviedo|1|0|Valencia
+MD28|2026-03-14|Real Madrid|4|1|Elche
+MD28|2026-03-15|Mallorca|2|1|Espanol
+MD28|2026-03-15|Barcelona|5|2|Sevilla
+MD28|2026-03-15|Betis|1|1|Celta
+MD28|2026-03-15|Sociedad|3|1|Osasuna
+MD28|2026-03-16|Vallecano|1|1|Levante
+MD29|2026-03-20|Villarreal|3|1|Sociedad
+MD29|2026-03-21|Elche|2|1|Mallorca
+MD29|2026-03-21|Espanol|1|2|Getafe
+MD29|2026-03-21|Levante|4|2|Oviedo
+MD29|2026-03-21|Osasuna|1|0|Girona
+MD29|2026-03-21|Sevilla|0|2|Valencia
+MD29|2026-03-22|Barcelona|1|0|Vallecano
+MD29|2026-03-22|Celta|3|4|Alaves
+MD29|2026-03-22|Ath Bilbao|2|1|Betis
+MD29|2026-03-22|Real Madrid|3|2|Ath Madrid
+MD30|2026-04-03|Vallecano|1|0|Elche
+MD30|2026-04-04|Sociedad|2|0|Levante
+MD30|2026-04-04|Mallorca|2|1|Real Madrid
+MD30|2026-04-04|Betis|0|0|Espanol
+MD30|2026-04-04|Ath Madrid|1|2|Barcelona
+MD30|2026-04-05|Getafe|2|0|Ath Bilbao
+MD30|2026-04-05|Valencia|2|3|Celta
+MD30|2026-04-05|Oviedo|1|0|Sevilla
+MD30|2026-04-05|Alaves|2|2|Osasuna
+MD30|2026-04-06|Girona|1|0|Villarreal
+MD31|2026-04-10|Real Madrid|1|1|Girona
+MD31|2026-04-11|Sociedad|3|3|Alaves
+MD31|2026-04-11|Elche|1|0|Valencia
+MD31|2026-04-11|Barcelona|4|1|Espanol
+MD31|2026-04-11|Sevilla|2|1|Ath Madrid
+MD31|2026-04-12|Osasuna|1|1|Betis
+MD31|2026-04-12|Mallorca|3|0|Vallecano
+MD31|2026-04-12|Celta|0|3|Oviedo
+MD31|2026-04-12|Ath Bilbao|1|2|Villarreal
+MD31|2026-04-13|Levante|1|0|Getafe
+MD33|2026-04-21|Ath Bilbao|1|0|Osasuna
+MD33|2026-04-21|Mallorca|1|1|Valencia
+MD33|2026-04-21|Girona|2|3|Betis
+MD33|2026-04-21|Real Madrid|2|1|Alaves
+MD33|2026-04-22|Elche|3|2|Ath Madrid
+MD33|2026-04-22|Sociedad|0|1|Getafe
+MD33|2026-04-22|Barcelona|1|0|Celta
+MD33|2026-04-23|Levante|2|0|Sevilla
+MD33|2026-04-23|Vallecano|1|0|Espanol
+MD33|2026-04-23|Oviedo|1|1|Villarreal
+MD32|2026-04-24|Betis|1|1|Real Madrid
+MD32|2026-04-25|Alaves|2|1|Mallorca
+MD32|2026-04-25|Getafe|0|2|Barcelona
+MD32|2026-04-25|Valencia|2|1|Girona
+MD32|2026-04-25|Ath Madrid|3|2|Ath Bilbao
+MD32|2026-04-26|Vallecano|3|3|Sociedad
+MD32|2026-04-26|Oviedo|1|2|Elche
+MD32|2026-04-26|Osasuna|2|1|Sevilla
+MD32|2026-04-26|Villarreal|2|1|Celta
+MD32|2026-04-27|Espanol|0|0|Levante
+MD34|2026-05-01|Girona|0|1|Mallorca
+MD34|2026-05-02|Villarreal|5|1|Levante
+MD34|2026-05-02|Valencia|0|2|Ath Madrid
+MD34|2026-05-02|Alaves|2|4|Ath Bilbao
+MD34|2026-05-02|Osasuna|1|2|Barcelona
+MD34|2026-05-03|Celta|3|1|Elche
+MD34|2026-05-03|Getafe|0|2|Vallecano
+MD34|2026-05-03|Betis|3|0|Oviedo
+MD34|2026-05-03|Espanol|0|2|Real Madrid
+MD34|2026-05-04|Sevilla|1|0|Sociedad
+MD35|2026-05-08|Levante|3|2|Osasuna
+MD35|2026-05-09|Elche|1|1|Alaves
+MD35|2026-05-09|Sevilla|2|1|Espanol
+MD35|2026-05-09|Ath Madrid|0|1|Celta
+MD35|2026-05-09|Sociedad|2|2|Betis
+MD35|2026-05-10|Mallorca|1|1|Villarreal
+MD35|2026-05-10|Ath Bilbao|0|1|Valencia
+MD35|2026-05-10|Oviedo|0|0|Getafe
+MD35|2026-05-10|Barcelona|2|0|Real Madrid
+MD35|2026-05-11|Vallecano|1|1|Girona
+MD36|2026-05-12|Celta|2|3|Levante
+MD36|2026-05-12|Betis|2|1|Elche
+MD36|2026-05-12|Osasuna|1|2|Ath Madrid
+MD36|2026-05-13|Espanol|2|0|Ath Bilbao
+MD36|2026-05-13|Villarreal|2|3|Sevilla
+MD36|2026-05-13|Getafe|3|1|Mallorca
+MD36|2026-05-13|Alaves|1|0|Barcelona
+MD36|2026-05-14|Valencia|1|1|Vallecano
+MD36|2026-05-14|Girona|1|1|Sociedad
+MD36|2026-05-14|Real Madrid|2|0|Oviedo
+MD37|2026-05-17|Levante|2|0|Mallorca
+MD37|2026-05-17|Vallecano|2|0|Villarreal
+MD37|2026-05-17|Elche|1|0|Getafe
+MD37|2026-05-17|Ath Bilbao|1|1|Celta
+MD37|2026-05-17|Osasuna|1|2|Espanol
+MD37|2026-05-17|Oviedo|0|1|Alaves
+MD37|2026-05-17|Sociedad|3|4|Valencia
+MD37|2026-05-17|Sevilla|0|1|Real Madrid
+MD37|2026-05-17|Ath Madrid|1|0|Girona
+MD37|2026-05-17|Barcelona|3|1|Betis
+MD38|2026-05-23|Girona|1|1|Elche
+MD38|2026-05-23|Getafe|1|0|Osasuna
+MD38|2026-05-23|Betis|2|1|Levante
+MD38|2026-05-23|Real Madrid|4|2|Ath Bilbao
+MD38|2026-05-23|Valencia|3|1|Barcelona
+MD38|2026-05-23|Espanol|1|1|Sociedad
+MD38|2026-05-23|Mallorca|3|0|Oviedo
+MD38|2026-05-23|Alaves|1|2|Vallecano
+MD38|2026-05-23|Celta|1|0|Sevilla
+MD38|2026-05-24|Villarreal|5|1|Ath Madrid

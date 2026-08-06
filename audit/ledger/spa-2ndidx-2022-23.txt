@@ -1,0 +1,386 @@
+# SPA 2ND INDEX 2022-23 = openfootball/espana 2022-23/1-liga.txt (380 matches, short-name
+# inf format), fetched 2026-08-05 as data/raw/ofb-es-2022-23.txt (665 lines; joins in raw
+# header). Parsed by tools/parse_ofb_es.py: 380/380 rows, 38x10 histogram, 20 clubs x 38
+# apps, 0 unknown names, span 2022-08-12..2023-06-04 = RSSSF span2023 anchors. BANNERS:
+# 39 vs 38 (R17 x2 - the World-Cup-adjacent makeup pair; Super Cup of Spain scheduling).
+
+MD1|2022-08-12|Osasuna|2|1|Sevilla
+MD1|2022-08-13|Celta|2|2|Espanol
+MD1|2022-08-13|Valladolid|0|3|Villarreal
+MD1|2022-08-13|Barcelona|0|0|Vallecano
+MD1|2022-08-14|Cadiz|0|1|Sociedad
+MD1|2022-08-14|Valencia|1|0|Girona
+MD1|2022-08-14|Almeria|1|2|Real Madrid
+MD1|2022-08-15|Ath Bilbao|0|0|Mallorca
+MD1|2022-08-15|Getafe|0|3|Ath Madrid
+MD1|2022-08-15|Betis|3|0|Elche
+MD2|2022-08-19|Espanol|0|2|Vallecano
+MD2|2022-08-19|Sevilla|1|1|Valladolid
+MD2|2022-08-20|Osasuna|2|0|Cadiz
+MD2|2022-08-20|Mallorca|1|2|Betis
+MD2|2022-08-20|Celta|1|4|Real Madrid
+MD2|2022-08-21|Ath Bilbao|1|0|Valencia
+MD2|2022-08-21|Ath Madrid|0|2|Villarreal
+MD2|2022-08-21|Sociedad|1|4|Barcelona
+MD2|2022-08-22|Elche|1|1|Almeria
+MD2|2022-08-22|Girona|3|1|Getafe
+MD3|2022-08-26|Girona|0|1|Celta
+MD3|2022-08-26|Betis|1|0|Osasuna
+MD3|2022-08-27|Elche|0|1|Sociedad
+MD3|2022-08-27|Vallecano|0|2|Mallorca
+MD3|2022-08-27|Almeria|2|1|Sevilla
+MD3|2022-08-28|Getafe|0|0|Villarreal
+MD3|2022-08-28|Barcelona|4|0|Valladolid
+MD3|2022-08-28|Espanol|1|3|Real Madrid
+MD3|2022-08-29|Cadiz|0|4|Ath Bilbao
+MD3|2022-08-29|Valencia|0|1|Ath Madrid
+MD4|2022-09-02|Celta|3|0|Cadiz
+MD4|2022-09-03|Mallorca|1|1|Girona
+MD4|2022-09-03|Real Madrid|2|1|Betis
+MD4|2022-09-03|Sociedad|1|1|Ath Madrid
+MD4|2022-09-03|Sevilla|0|3|Barcelona
+MD4|2022-09-04|Osasuna|2|1|Vallecano
+MD4|2022-09-04|Ath Bilbao|0|1|Espanol
+MD4|2022-09-04|Villarreal|4|0|Elche
+MD4|2022-09-04|Valencia|5|1|Getafe
+MD4|2022-09-05|Valladolid|1|0|Almeria
+MD5|2022-09-09|Girona|2|1|Valladolid
+MD5|2022-09-10|Vallecano|2|1|Valencia
+MD5|2022-09-10|Espanol|2|3|Sevilla
+MD5|2022-09-10|Cadiz|0|4|Barcelona
+MD5|2022-09-10|Ath Madrid|4|1|Celta
+MD5|2022-09-11|Real Madrid|4|1|Mallorca
+MD5|2022-09-11|Elche|1|4|Ath Bilbao
+MD5|2022-09-11|Getafe|2|1|Sociedad
+MD5|2022-09-11|Betis|1|0|Villarreal
+MD5|2022-09-12|Almeria|0|1|Osasuna
+MD6|2022-09-16|Valladolid|0|1|Cadiz
+MD6|2022-09-17|Mallorca|1|0|Almeria
+MD6|2022-09-17|Barcelona|3|0|Elche
+MD6|2022-09-17|Valencia|3|0|Celta
+MD6|2022-09-17|Ath Bilbao|3|2|Vallecano
+MD6|2022-09-18|Osasuna|0|2|Getafe
+MD6|2022-09-18|Villarreal|1|1|Sevilla
+MD6|2022-09-18|Sociedad|2|1|Espanol
+MD6|2022-09-18|Betis|2|1|Girona
+MD6|2022-09-18|Ath Madrid|1|2|Real Madrid
+MD7|2022-09-30|Ath Bilbao|4|0|Almeria
+MD7|2022-10-01|Cadiz|0|0|Villarreal
+MD7|2022-10-01|Getafe|2|3|Valladolid
+MD7|2022-10-01|Sevilla|0|2|Ath Madrid
+MD7|2022-10-01|Mallorca|0|1|Barcelona
+MD7|2022-10-02|Espanol|2|2|Valencia
+MD7|2022-10-02|Celta|1|0|Betis
+MD7|2022-10-02|Girona|3|5|Sociedad
+MD7|2022-10-02|Real Madrid|1|1|Osasuna
+MD7|2022-10-03|Vallecano|2|1|Elche
+MD8|2022-10-07|Osasuna|1|2|Valencia
+MD8|2022-10-08|Almeria|3|1|Vallecano
+MD8|2022-10-08|Ath Madrid|2|1|Girona
+MD8|2022-10-08|Sevilla|1|1|Ath Bilbao
+MD8|2022-10-08|Getafe|0|1|Real Madrid
+MD8|2022-10-09|Valladolid|0|0|Betis
+MD8|2022-10-09|Cadiz|2|2|Espanol
+MD8|2022-10-09|Sociedad|1|0|Villarreal
+MD8|2022-10-09|Barcelona|1|0|Celta
+MD8|2022-10-10|Elche|1|1|Mallorca
+MD9|2022-10-14|Vallecano|0|0|Getafe
+MD9|2022-10-15|Girona|1|1|Cadiz
+MD9|2022-10-15|Valencia|2|2|Elche
+MD9|2022-10-15|Mallorca|0|1|Sevilla
+MD9|2022-10-15|Ath Bilbao|0|1|Ath Madrid
+MD9|2022-10-16|Celta|1|2|Sociedad
+MD9|2022-10-16|Real Madrid|3|1|Barcelona
+MD9|2022-10-16|Espanol|1|0|Valladolid
+MD9|2022-10-16|Betis|3|1|Almeria
+MD9|2022-10-17|Villarreal|2|0|Osasuna
+MD10|2022-10-18|Sevilla|1|1|Valencia
+MD10|2022-10-18|Getafe|2|2|Ath Bilbao
+MD10|2022-10-18|Ath Madrid|1|1|Vallecano
+MD10|2022-10-19|Valladolid|4|1|Celta
+MD10|2022-10-19|Cadiz|0|0|Betis
+MD10|2022-10-19|Sociedad|1|0|Mallorca
+MD10|2022-10-19|Elche|0|3|Real Madrid
+MD10|2022-10-20|Almeria|3|2|Girona
+MD10|2022-10-20|Osasuna|1|0|Espanol
+MD10|2022-10-20|Barcelona|3|0|Villarreal
+MD11|2022-10-22|Vallecano|5|1|Cadiz
+MD11|2022-10-22|Valladolid|1|0|Sociedad
+MD11|2022-10-22|Valencia|1|2|Mallorca
+MD11|2022-10-22|Real Madrid|3|1|Sevilla
+MD11|2022-10-23|Espanol|2|2|Elche
+MD11|2022-10-23|Betis|1|2|Ath Madrid
+MD11|2022-10-23|Villarreal|2|1|Almeria
+MD11|2022-10-23|Girona|1|1|Osasuna
+MD11|2022-10-23|Barcelona|4|0|Ath Bilbao
+MD11|2022-10-24|Celta|1|1|Getafe
+MD12|2022-10-28|Mallorca|1|1|Espanol
+MD12|2022-10-29|Almeria|3|1|Celta
+MD12|2022-10-29|Cadiz|3|2|Ath Madrid
+MD12|2022-10-29|Sevilla|0|1|Vallecano
+MD12|2022-10-29|Valencia|0|1|Barcelona
+MD12|2022-10-30|Osasuna|2|0|Valladolid
+MD12|2022-10-30|Real Madrid|1|1|Girona
+MD12|2022-10-30|Ath Bilbao|1|0|Villarreal
+MD12|2022-10-30|Sociedad|0|2|Betis
+MD12|2022-10-31|Elche|0|1|Getafe
+MD13|2022-11-04|Girona|2|1|Ath Bilbao
+MD13|2022-11-05|Getafe|0|0|Cadiz
+MD13|2022-11-05|Valladolid|2|1|Elche
+MD13|2022-11-05|Celta|1|2|Osasuna
+MD13|2022-11-05|Barcelona|2|0|Almeria
+MD13|2022-11-06|Ath Madrid|1|1|Espanol
+MD13|2022-11-06|Sociedad|1|1|Valencia
+MD13|2022-11-06|Villarreal|0|2|Mallorca
+MD13|2022-11-06|Betis|1|1|Sevilla
+MD13|2022-11-07|Vallecano|3|2|Real Madrid
+MD14|2022-11-08|Elche|1|2|Girona
+MD14|2022-11-08|Ath Bilbao|3|0|Valladolid
+MD14|2022-11-08|Osasuna|1|2|Barcelona
+MD14|2022-11-09|Sevilla|1|2|Sociedad
+MD14|2022-11-09|Almeria|1|0|Getafe
+MD14|2022-11-09|Espanol|0|1|Villarreal
+MD14|2022-11-09|Mallorca|1|0|Ath Madrid
+MD14|2022-11-10|Vallecano|0|0|Celta
+MD14|2022-11-10|Valencia|3|0|Betis
+MD14|2022-11-10|Real Madrid|2|1|Cadiz
+MD15|2022-12-29|Girona|2|2|Vallecano
+MD15|2022-12-29|Betis|0|0|Ath Bilbao
+MD15|2022-12-29|Ath Madrid|2|0|Elche
+MD15|2022-12-30|Getafe|2|0|Mallorca
+MD15|2022-12-30|Cadiz|1|1|Almeria
+MD15|2022-12-30|Celta|1|1|Sevilla
+MD15|2022-12-30|Valladolid|0|2|Real Madrid
+MD15|2022-12-31|Barcelona|1|1|Espanol
+MD15|2022-12-31|Villarreal|2|1|Valencia
+MD15|2022-12-31|Sociedad|2|0|Osasuna
+MD16|2023-01-06|Elche|0|1|Celta
+MD16|2023-01-06|Valencia|0|1|Cadiz
+MD16|2023-01-07|Villarreal|2|1|Real Madrid
+MD16|2023-01-07|Mallorca|1|0|Valladolid
+MD16|2023-01-07|Espanol|2|2|Girona
+MD16|2023-01-08|Almeria|0|2|Sociedad
+MD16|2023-01-08|Vallecano|1|2|Betis
+MD16|2023-01-08|Sevilla|2|1|Getafe
+MD16|2023-01-08|Ath Madrid|0|1|Barcelona
+MD16|2023-01-09|Ath Bilbao|0|0|Osasuna
+MD17|2023-01-13|Celta|1|1|Villarreal
+MD17|2023-01-14|Valladolid|0|1|Vallecano
+MD17|2023-01-14|Girona|2|1|Sevilla
+MD17|2023-01-14|Osasuna|1|0|Mallorca
+MD17|2023-01-14|Sociedad|3|1|Ath Bilbao
+MD17|2023-01-15|Getafe|1|2|Espanol
+MD17|2023-01-15|Almeria|1|1|Ath Madrid
+MD17|2023-01-16|Cadiz|1|1|Elche
+MD18|2023-01-20|Mallorca|1|0|Celta
+MD18|2023-01-21|Vallecano|0|2|Sociedad
+MD18|2023-01-21|Espanol|1|0|Betis
+MD18|2023-01-21|Ath Madrid|3|0|Valladolid
+MD18|2023-01-21|Sevilla|1|0|Cadiz
+MD18|2023-01-22|Villarreal|1|0|Girona
+MD18|2023-01-22|Elche|1|1|Osasuna
+MD18|2023-01-22|Barcelona|1|0|Getafe
+MD18|2023-01-22|Ath Bilbao|0|2|Real Madrid
+MD18|2023-01-23|Valencia|2|2|Almeria
+MD19|2023-01-27|Almeria|3|1|Espanol
+MD19|2023-01-28|Cadiz|2|0|Mallorca
+MD19|2023-01-28|Girona|0|1|Barcelona
+MD19|2023-01-28|Sevilla|3|0|Elche
+MD19|2023-01-28|Getafe|0|1|Betis
+MD19|2023-01-29|Valladolid|1|0|Valencia
+MD19|2023-01-29|Osasuna|0|1|Ath Madrid
+MD19|2023-01-29|Celta|1|0|Ath Bilbao
+MD19|2023-01-29|Real Madrid|0|0|Sociedad
+MD19|2023-01-30|Villarreal|0|1|Vallecano
+MD17|2023-02-01|Betis|1|2|Barcelona
+MD17|2023-02-02|Real Madrid|2|0|Valencia
+MD20|2023-02-03|Ath Bilbao|4|1|Cadiz
+MD20|2023-02-04|Espanol|1|1|Osasuna
+MD20|2023-02-04|Elche|3|1|Villarreal
+MD20|2023-02-04|Ath Madrid|1|1|Getafe
+MD20|2023-02-04|Betis|3|4|Celta
+MD20|2023-02-05|Mallorca|1|0|Real Madrid
+MD20|2023-02-05|Girona|1|0|Valencia
+MD20|2023-02-05|Sociedad|0|1|Valladolid
+MD20|2023-02-05|Barcelona|3|0|Sevilla
+MD20|2023-02-06|Vallecano|2|0|Almeria
+MD21|2023-02-10|Cadiz|2|0|Girona
+MD21|2023-02-11|Almeria|2|3|Betis
+MD21|2023-02-11|Sevilla|2|0|Mallorca
+MD21|2023-02-11|Valencia|1|2|Ath Bilbao
+MD21|2023-02-12|Getafe|1|1|Vallecano
+MD21|2023-02-12|Celta|0|1|Ath Madrid
+MD21|2023-02-12|Valladolid|0|0|Osasuna
+MD21|2023-02-12|Villarreal|0|1|Barcelona
+MD21|2023-02-13|Espanol|2|3|Sociedad
+MD21|2023-02-15|Real Madrid|4|0|Elche
+MD22|2023-02-17|Girona|6|2|Almeria
+MD22|2023-02-18|Sociedad|1|1|Celta
+MD22|2023-02-18|Betis|2|1|Valladolid
+MD22|2023-02-18|Mallorca|4|2|Villarreal
+MD22|2023-02-18|Osasuna|0|2|Real Madrid
+MD22|2023-02-19|Elche|0|1|Espanol
+MD22|2023-02-19|Vallecano|1|1|Sevilla
+MD22|2023-02-19|Ath Madrid|1|0|Ath Bilbao
+MD22|2023-02-19|Barcelona|2|0|Cadiz
+MD22|2023-02-20|Getafe|1|0|Valencia
+MD23|2023-02-24|Elche|2|3|Betis
+MD23|2023-02-25|Espanol|2|1|Mallorca
+MD23|2023-02-25|Cadiz|1|0|Vallecano
+MD23|2023-02-25|Real Madrid|1|1|Ath Madrid
+MD23|2023-02-25|Valencia|1|0|Sociedad
+MD23|2023-02-26|Ath Bilbao|2|3|Girona
+MD23|2023-02-26|Celta|3|0|Valladolid
+MD23|2023-02-26|Almeria|1|0|Barcelona
+MD23|2023-02-26|Sevilla|2|3|Osasuna
+MD23|2023-02-27|Villarreal|2|1|Getafe
+MD24|2023-03-03|Sociedad|0|0|Cadiz
+MD24|2023-03-04|Getafe|3|2|Girona
+MD24|2023-03-04|Almeria|0|2|Villarreal
+MD24|2023-03-04|Mallorca|0|1|Elche
+MD24|2023-03-04|Ath Madrid|6|1|Sevilla
+MD24|2023-03-05|Valladolid|2|1|Espanol
+MD24|2023-03-05|Barcelona|1|0|Valencia
+MD24|2023-03-05|Vallecano|0|0|Ath Bilbao
+MD24|2023-03-05|Betis|0|0|Real Madrid
+MD24|2023-03-06|Osasuna|0|0|Celta
+MD25|2023-03-10|Cadiz|2|2|Getafe
+MD25|2023-03-11|Real Madrid|3|1|Espanol
+MD25|2023-03-11|Elche|1|1|Valladolid
+MD25|2023-03-11|Celta|3|0|Vallecano
+MD25|2023-03-11|Valencia|1|0|Osasuna
+MD25|2023-03-12|Mallorca|1|1|Sociedad
+MD25|2023-03-12|Sevilla|2|1|Almeria
+MD25|2023-03-12|Villarreal|1|1|Betis
+MD25|2023-03-12|Ath Bilbao|0|1|Barcelona
+MD25|2023-03-13|Girona|0|1|Ath Madrid
+MD26|2023-03-17|Valladolid|1|3|Ath Bilbao
+MD26|2023-03-18|Almeria|1|1|Cadiz
+MD26|2023-03-18|Vallecano|2|2|Girona
+MD26|2023-03-18|Espanol|1|3|Celta
+MD26|2023-03-18|Ath Madrid|3|0|Valencia
+MD26|2023-03-19|Betis|1|0|Mallorca
+MD26|2023-03-19|Sociedad|2|0|Elche
+MD26|2023-03-19|Osasuna|0|3|Villarreal
+MD26|2023-03-19|Getafe|2|0|Sevilla
+MD26|2023-03-19|Barcelona|2|1|Real Madrid
+MD27|2023-03-31|Mallorca|0|0|Osasuna
+MD27|2023-04-01|Girona|2|1|Espanol
+MD27|2023-04-01|Ath Bilbao|0|0|Getafe
+MD27|2023-04-01|Cadiz|0|2|Sevilla
+MD27|2023-04-01|Elche|0|4|Barcelona
+MD27|2023-04-02|Celta|2|2|Almeria
+MD27|2023-04-02|Real Madrid|6|0|Valladolid
+MD27|2023-04-02|Villarreal|2|0|Sociedad
+MD27|2023-04-02|Ath Madrid|1|0|Betis
+MD27|2023-04-03|Valencia|1|1|Vallecano
+MD28|2023-04-07|Sevilla|2|2|Celta
+MD28|2023-04-08|Osasuna|2|1|Elche
+MD28|2023-04-08|Espanol|1|2|Ath Bilbao
+MD28|2023-04-08|Sociedad|2|0|Getafe
+MD28|2023-04-08|Real Madrid|2|3|Villarreal
+MD28|2023-04-09|Valladolid|3|3|Mallorca
+MD28|2023-04-09|Betis|0|2|Cadiz
+MD28|2023-04-09|Almeria|2|1|Valencia
+MD28|2023-04-09|Vallecano|1|2|Ath Madrid
+MD28|2023-04-10|Barcelona|0|0|Girona
+MD29|2023-04-14|Vallecano|2|1|Osasuna
+MD29|2023-04-15|Villarreal|1|2|Valladolid
+MD29|2023-04-15|Ath Bilbao|2|0|Sociedad
+MD29|2023-04-15|Betis|3|1|Espanol
+MD29|2023-04-15|Cadiz|0|2|Real Madrid
+MD29|2023-04-16|Girona|2|0|Elche
+MD29|2023-04-16|Getafe|0|0|Barcelona
+MD29|2023-04-16|Ath Madrid|2|1|Almeria
+MD29|2023-04-16|Valencia|0|2|Sevilla
+MD29|2023-04-17|Celta|0|1|Mallorca
+MD30|2023-04-21|Espanol|0|0|Cadiz
+MD30|2023-04-22|Osasuna|3|2|Betis
+MD30|2023-04-22|Almeria|1|2|Ath Bilbao
+MD30|2023-04-22|Valladolid|1|0|Girona
+MD30|2023-04-22|Sociedad|2|1|Vallecano
+MD30|2023-04-22|Real Madrid|2|0|Celta
+MD30|2023-04-23|Elche|0|2|Valencia
+MD30|2023-04-23|Barcelona|1|0|Ath Madrid
+MD30|2023-04-23|Mallorca|3|1|Getafe
+MD30|2023-04-23|Sevilla|2|1|Villarreal
+MD31|2023-04-25|Girona|4|2|Real Madrid
+MD31|2023-04-25|Cadiz|0|1|Osasuna
+MD31|2023-04-25|Betis|0|0|Sociedad
+MD31|2023-04-26|Getafe|1|2|Almeria
+MD31|2023-04-26|Ath Madrid|3|1|Mallorca
+MD31|2023-04-26|Vallecano|2|1|Barcelona
+MD31|2023-04-26|Celta|1|0|Elche
+MD31|2023-04-27|Villarreal|4|2|Espanol
+MD31|2023-04-27|Valencia|2|1|Valladolid
+MD31|2023-04-27|Ath Bilbao|0|1|Sevilla
+MD32|2023-04-28|Osasuna|0|2|Sociedad
+MD32|2023-04-29|Elche|4|0|Vallecano
+MD32|2023-04-29|Real Madrid|4|2|Almeria
+MD32|2023-04-29|Barcelona|4|0|Betis
+MD32|2023-04-30|Cadiz|2|1|Valencia
+MD32|2023-04-30|Villarreal|3|1|Celta
+MD32|2023-04-30|Espanol|1|0|Getafe
+MD32|2023-04-30|Valladolid|2|5|Ath Madrid
+MD32|2023-05-01|Mallorca|1|1|Ath Bilbao
+MD32|2023-05-01|Sevilla|0|2|Girona
+MD33|2023-05-02|Almeria|2|1|Elche
+MD33|2023-05-02|Barcelona|1|0|Osasuna
+MD33|2023-05-02|Sociedad|2|0|Real Madrid
+MD33|2023-05-03|Valencia|1|1|Villarreal
+MD33|2023-05-03|Getafe|1|0|Celta
+MD33|2023-05-03|Ath Madrid|5|1|Cadiz
+MD33|2023-05-04|Sevilla|3|2|Espanol
+MD33|2023-05-04|Girona|2|1|Mallorca
+MD33|2023-05-04|Vallecano|2|1|Valladolid
+MD33|2023-05-04|Ath Bilbao|0|1|Betis
+MD34|2023-05-12|Mallorca|1|0|Cadiz
+MD34|2023-05-13|Sociedad|2|2|Girona
+MD34|2023-05-13|Osasuna|3|1|Almeria
+MD34|2023-05-13|Villarreal|5|1|Ath Bilbao
+MD34|2023-05-13|Real Madrid|1|0|Getafe
+MD34|2023-05-14|Celta|1|2|Valencia
+MD34|2023-05-14|Elche|1|0|Ath Madrid
+MD34|2023-05-14|Valladolid|0|3|Sevilla
+MD34|2023-05-14|Espanol|2|4|Barcelona
+MD34|2023-05-15|Betis|3|1|Vallecano
+MD35|2023-05-19|Cadiz|2|0|Valladolid
+MD35|2023-05-20|Girona|1|2|Villarreal
+MD35|2023-05-20|Ath Bilbao|2|1|Celta
+MD35|2023-05-20|Getafe|1|1|Elche
+MD35|2023-05-20|Almeria|3|0|Mallorca
+MD35|2023-05-20|Barcelona|1|2|Sociedad
+MD35|2023-05-21|Vallecano|1|2|Espanol
+MD35|2023-05-21|Ath Madrid|3|0|Osasuna
+MD35|2023-05-21|Valencia|1|0|Real Madrid
+MD35|2023-05-21|Sevilla|0|0|Betis
+MD36|2023-05-23|Sociedad|1|0|Almeria
+MD36|2023-05-23|Celta|1|1|Girona
+MD36|2023-05-23|Valladolid|3|1|Barcelona
+MD36|2023-05-24|Real Madrid|2|1|Vallecano
+MD36|2023-05-24|Villarreal|2|0|Cadiz
+MD36|2023-05-24|Elche|1|1|Sevilla
+MD36|2023-05-24|Espanol|3|3|Ath Madrid
+MD36|2023-05-24|Betis|0|1|Getafe
+MD36|2023-05-25|Mallorca|1|0|Valencia
+MD36|2023-05-25|Osasuna|2|0|Ath Bilbao
+MD37|2023-05-27|Sevilla|1|2|Real Madrid
+MD37|2023-05-28|Valencia|2|2|Espanol
+MD37|2023-05-28|Girona|1|2|Betis
+MD37|2023-05-28|Almeria|0|0|Valladolid
+MD37|2023-05-28|Vallecano|2|1|Villarreal
+MD37|2023-05-28|Cadiz|1|0|Celta
+MD37|2023-05-28|Getafe|2|1|Osasuna
+MD37|2023-05-28|Barcelona|3|0|Mallorca
+MD37|2023-05-28|Ath Madrid|2|1|Sociedad
+MD37|2023-05-28|Ath Bilbao|0|1|Elche
+MD38|2023-06-04|Osasuna|2|1|Girona
+MD38|2023-06-04|Villarreal|2|2|Ath Madrid
+MD38|2023-06-04|Real Madrid|1|1|Ath Bilbao
+MD38|2023-06-04|Sociedad|2|1|Sevilla
+MD38|2023-06-04|Mallorca|3|0|Vallecano
+MD38|2023-06-04|Espanol|3|3|Almeria
+MD38|2023-06-04|Elche|1|1|Cadiz
+MD38|2023-06-04|Valladolid|0|0|Getafe
+MD38|2023-06-04|Celta|2|1|Barcelona
+MD38|2023-06-04|Betis|1|1|Valencia

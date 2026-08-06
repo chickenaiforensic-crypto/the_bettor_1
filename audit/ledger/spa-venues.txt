@@ -1,0 +1,126 @@
+# SPA VENUES 2021-22..2025-26 (WO-SPA-SPAN-13) - transcribed 2026-08-05 from the Wikipedia
+# season articles' "Stadiums and locations" tables (action=raw wikitext, fetch_page;
+# 2021-22/2022-23/2023-24/2024-25 scoped venue archives + the full 2025-26 season
+# article archive). Independent of RSSSF fixtures = venue second index.
+# VENUE|<season>|<roster-string>|<stadium-print ASCII-folded>|<city ASCII-folded>|<cap folded>|<notes>
+# Roster pins: Atletico->Ath Madrid (never Atletico), Athletic->Ath Bilbao, Rayo->
+# Vallecano (never Rayo), Real Sociedad->Sociedad, Real Betis->Betis, Espanyol->Espanol,
+# Cadiz/Alaves/Almeria/Leganes ASCII-folded. City districts (San Blas-Canillejas,
+# Chamartin, Puente de Vallecas, Bellavista-La Palmera, Nervion) carried in notes only.
+# Epochs (era data): Atletico Wanda Metropolitano 21-22 -> Civitas Metropolitano 22-23/
+# 23-24 -> Metropolitano 24-25 -> Estadio Riyadh Air Metropolitano 25-26. Barcelona Camp
+# Nou/Spotify Camp Nou 21-23 -> Olimpic Lluis Companys (Montjuic) 23-25 -> THREE-GROUND
+# 25-26 split (Johan Cruyff 6,000 / Olimpic Lluis Companys 55,926 / Camp Nou 105,000;
+# rowspan=3 upstream). Betis Benito Villamarin 21-25 -> Estadio Olimpico de la Cartuja
+# 25-26. Sociedad Anoeta -> Reale Arena 22-24 -> Anoeta 24-25 -> Reale Arena 25-26 print
+# swings. Capacity re-count waves carried VERBATIM per season table.
+# 2025-26 VALLECANO TWO-GROUND SPLIT (rowspan=2 upstream): home El Campo de Futbol de
+# Vallecas 14,708 + Estadio Ontime Butarque (Leganes) 12,450 ONE-OFF - MD Vallecano
+# 3-0 Ath Madrid 2026-02-15 moved for poor Vallecas pitch (AS-cited efn, 5,335 att =
+# season lowest). 2026-27 boundary article lists Vallecano back at Vallecas.
+# Row count: 103 = 20 x 4 historical seasons + 23 for 2025-26 (18 single-ground teams
+# + Barcelona x3 + Vallecano x2 upstream capacity cells). NOTE: a pre-parse scratch count
+# of 22 cells was corrected to 23 on full parse same-day (18+3+2 arithmetic slip).
+VENUE|2021-22|Alaves|Mendizorroza|Vitoria-Gasteiz|19840|print 'Mendizorroza' 19,840
+VENUE|2021-22|Ath Bilbao|San Mames|Bilbao|53289|print 'San Mames' 53,289
+VENUE|2021-22|Ath Madrid|Wanda Metropolitano|Madrid|68456|print 'Wanda Metropolitano' 68,456 (epoch: Wanda -> Civitas 22-23 -> Riyadh Air 25-26)
+VENUE|2021-22|Barcelona|Camp Nou|Barcelona|99354|print 'Camp Nou' 99,354 (pre-renovation)
+VENUE|2021-22|Cadiz|Nuevo Mirandilla|Cadiz|20724|print 'Nuevo Mirandilla' 20,724
+VENUE|2021-22|Celta|Abanca-Balaidos|Vigo|29000|print 'Abanca-Balaidos' 29,000
+VENUE|2021-22|Elche|Martinez Valero|Elche|33732|print 'Martinez Valero' 33,732
+VENUE|2021-22|Espanol|RCDE Stadium|Barcelona|40000|city printed Barcelona (ground is in Cornella; re-printed 22-23)
+VENUE|2021-22|Getafe|Coliseum Alfonso Perez|Getafe|17393|print 'Coliseum Alfonso Perez' 17,393
+VENUE|2021-22|Granada|Nuevo Los Carmenes|Granada|19336|print 'Nuevo Los Carmenes' 19,336
+VENUE|2021-22|Levante|Ciutat de Valencia|Valencia|26354|print 'Ciutat de Valencia' 26,354
+VENUE|2021-22|Mallorca|Visit Mallorca Estadi|Palma|24262|print 'Visit Mallorca Estadi' 24,262
+VENUE|2021-22|Osasuna|El Sadar|Pamplona|23576|print 'El Sadar' 23,576
+VENUE|2021-22|Vallecano|Vallecas|Madrid|14708|print 'Vallecas' 14,708
+VENUE|2021-22|Betis|Benito Villamarin|Seville|60721|home Benito Villamarin 60,721 (Cartuja epoch starts 25-26)
+VENUE|2021-22|Real Madrid|Santiago Bernabeu|Madrid|81044|print 'Santiago Bernabeu' 81,044
+VENUE|2021-22|Sociedad|Anoeta|San Sebastian|39500|print 'Anoeta' 39,500
+VENUE|2021-22|Sevilla|Ramon Sanchez Pizjuan|Seville|43883|print 'Ramon Sanchez Pizjuan' 43,883
+VENUE|2021-22|Valencia|Mestalla|Valencia|55000|print 'Mestalla' 55,000
+VENUE|2021-22|Villarreal|Estadio de la Ceramica|Villarreal|24890|print 'Estadio de la Ceramica' 24,890
+VENUE|2022-23|Almeria|Power Horse Stadium|Almeria|15000|print 'Power Horse Stadium' 15,000
+VENUE|2022-23|Ath Bilbao|San Mames|Bilbao|53289|print 'San Mames' 53,289
+VENUE|2022-23|Ath Madrid|Civitas Metropolitano|Madrid|68456|renamed Civitas Metropolitano 68,456
+VENUE|2022-23|Barcelona|Spotify Camp Nou|Barcelona|99354|renamed Spotify Camp Nou 99,354
+VENUE|2022-23|Cadiz|Nuevo Mirandilla|Cadiz|20724|print 'Nuevo Mirandilla' 20,724
+VENUE|2022-23|Celta|Abanca-Balaidos|Vigo|29000|print 'Abanca-Balaidos' 29,000
+VENUE|2022-23|Elche|Martinez Valero|Elche|31388|31,388 re-count
+VENUE|2022-23|Espanol|RCDE Stadium|Cornella de Llobregat|40000|city now Cornella de Llobregat; 40,000
+VENUE|2022-23|Getafe|Coliseum Alfonso Perez|Getafe|16500|16,500 re-count
+VENUE|2022-23|Girona|Montilivi|Girona|13400|print 'Montilivi' 13,400
+VENUE|2022-23|Mallorca|Son Moix|Palma|23142|renamed Son Moix 23,142
+VENUE|2022-23|Osasuna|El Sadar|Pamplona|23576|print 'El Sadar' 23,576
+VENUE|2022-23|Vallecano|Vallecas|Madrid|14708|print 'Vallecas' 14,708
+VENUE|2022-23|Betis|Benito Villamarin|Seville|60721|print 'Benito Villamarin' 60,721
+VENUE|2022-23|Real Madrid|Santiago Bernabeu|Madrid|65000|capacity re-counted 65,000 (renovation)
+VENUE|2022-23|Sociedad|Reale Arena|San Sebastian|39500|renamed Reale Arena (link Anoeta Stadium) 39,500
+VENUE|2022-23|Sevilla|Ramon Sanchez Pizjuan|Seville|43883|print 'Ramon Sanchez Pizjuan' 43,883
+VENUE|2022-23|Valencia|Mestalla|Valencia|49430|49,430 re-count (was 55,000)
+VENUE|2022-23|Valladolid|Jose Zorrilla|Valladolid|28012|print 'Jose Zorrilla' 28,012
+VENUE|2022-23|Villarreal|Estadio de la Ceramica|Villarreal|23008|23,008 re-count
+VENUE|2023-24|Alaves|Mendizorroza|Vitoria-Gasteiz|19840|print 'Mendizorroza' 19,840
+VENUE|2023-24|Almeria|Power Horse Stadium|Almeria|18331|18,331 re-count
+VENUE|2023-24|Ath Bilbao|San Mames|Bilbao|53289|print 'San Mames' 53,289
+VENUE|2023-24|Ath Madrid|Civitas Metropolitano|Madrid|70460|re-counted 70,460; district San Blas-Canillejas
+VENUE|2023-24|Barcelona|Estadi Olimpic Lluis Companys|Barcelona|49472|MOVED to Montjuic (Estadi Olimpic Lluis Companys) 49,472 - Camp Nou renovation
+VENUE|2023-24|Cadiz|Nuevo Mirandilla|Cadiz|20724|print 'Nuevo Mirandilla' 20,724
+VENUE|2023-24|Celta|ABANCA Balaidos|Vigo|29000|label ABANCA Balaidos
+VENUE|2023-24|Getafe|Coliseum|Getafe|16500|label renamed Coliseum (link Estadio Coliseum)
+VENUE|2023-24|Girona|Montilivi|Girona|13400|print 'Montilivi' 13,400
+VENUE|2023-24|Granada|Nuevo Los Carmenes|Granada|19189|19,189 re-count
+VENUE|2023-24|Las Palmas|Gran Canaria|Las Palmas|31250|print 'Gran Canaria' 31,250
+VENUE|2023-24|Mallorca|Mallorca Son Moix|Palma|23142|print 'Mallorca Son Moix' 23,142
+VENUE|2023-24|Osasuna|El Sadar|Pamplona|23576|print 'El Sadar' 23,576
+VENUE|2023-24|Vallecano|Vallecas|Madrid|14708|district Puente de Vallecas
+VENUE|2023-24|Betis|Benito Villamarin|Seville|60721|print 'Benito Villamarin' 60,721
+VENUE|2023-24|Real Madrid|Santiago Bernabeu|Madrid|83186|re-counted 83,186; district Chamartin
+VENUE|2023-24|Sociedad|Reale Arena|San Sebastian|39500|print 'Reale Arena' 39,500
+VENUE|2023-24|Sevilla|Ramon Sanchez-Pizjuan|Seville|43883|label hyphenated Ramon Sanchez-Pizjuan
+VENUE|2023-24|Valencia|Mestalla|Valencia|49430|print 'Mestalla' 49,430
+VENUE|2023-24|Villarreal|Estadio de la Ceramica|Villarreal|23008|print 'Estadio de la Ceramica' 23,008
+VENUE|2024-25|Alaves|Mendizorrotza|Vitoria-Gasteiz|19840|label print 'Mendizorrotza' (stadium-article spelling)
+VENUE|2024-25|Ath Bilbao|San Mames|Bilbao|53289|print 'San Mames' 53,289
+VENUE|2024-25|Ath Madrid|Metropolitano|Madrid|70460|label plain Metropolitano 70,460
+VENUE|2024-25|Barcelona|Olimpic Lluis Companys|Barcelona|55926|Montjuic re-counted 55,926
+VENUE|2024-25|Celta|Balaidos|Vigo|24870|label plain Balaidos; 24,870 re-count
+VENUE|2024-25|Espanol|RCDE Stadium|Cornella de Llobregat|42260|42,260 re-count
+VENUE|2024-25|Getafe|Coliseum|Getafe|16500|print 'Coliseum' 16,500
+VENUE|2024-25|Girona|Montilivi|Girona|14624|14,624 re-count
+VENUE|2024-25|Las Palmas|Gran Canaria|Las Palmas|32392|32,392 re-count
+VENUE|2024-25|Leganes|Municipal de Butarque|Leganes|13089|print 'Municipal de Butarque' 13,089
+VENUE|2024-25|Mallorca|Mallorca Son Moix|Palma|23142|print 'Mallorca Son Moix' 23,142
+VENUE|2024-25|Osasuna|El Sadar|Pamplona|23576|print 'El Sadar' 23,576
+VENUE|2024-25|Vallecano|Vallecas|Madrid|14708|print 'Vallecas' 14,708
+VENUE|2024-25|Betis|Benito Villamarin|Sevilla|60721|district Bellavista-La Palmera; final season at Villamarin
+VENUE|2024-25|Real Madrid|Santiago Bernabeu|Madrid|78297|re-counted 78,297 (was 83,186)
+VENUE|2024-25|Sociedad|Anoeta|San Sebastian|39313|label restored Anoeta 39,313
+VENUE|2024-25|Sevilla|Ramon Sanchez-Pizjuan|Sevilla|43883|city print 'Sevilla' (was 'Seville'); district Nervion
+VENUE|2024-25|Valencia|Mestalla|Valencia|49430|print 'Mestalla' 49,430
+VENUE|2024-25|Valladolid|Jose Zorrilla|Valladolid|27618|27,618 re-count; SOURCE-TOKEN upstream style attr typo verbatim
+VENUE|2024-25|Villarreal|La Ceramica|Villarreal|23008|label 'La Ceramica'
+VENUE|2025-26|Alaves|Campo de Futbol de Mendizorrotza|Vitoria-Gasteiz|19840|label 'Campo de Futbol de Mendizorrotza'
+VENUE|2025-26|Ath Bilbao|Estadio San Mames|Bilbao|53289|print 'Estadio San Mames' 53,289
+VENUE|2025-26|Ath Madrid|Estadio Riyadh Air Metropolitano|Madrid|70692|renamed Estadio Riyadh Air Metropolitano 70,692
+VENUE|2025-26|Barcelona|Estadi Johan Cruyff|Sant Joan Despi|6000|three-ground 25-26 (rowspan=3): Sant Joan Despi block 6,000
+VENUE|2025-26|Barcelona|Olimpic Lluis Companys|Barcelona|55926|three-ground 25-26: Montjuic block 55,926
+VENUE|2025-26|Barcelona|Camp Nou|Barcelona|105000|three-ground 25-26: Camp Nou return, rebuilt print 105,000 (link Spotify Camp Nou)
+VENUE|2025-26|Celta|Estadio ABANCA Balaidos|Vigo|24870|label Estadio ABANCA Balaidos
+VENUE|2025-26|Elche|Estadio Martinez Valero|Elche|31388|print 'Estadio Martinez Valero' 31,388
+VENUE|2025-26|Espanol|RCDE Stadium|Cornella de Llobregat|37776|37,776 re-count (was 42,260)
+VENUE|2025-26|Getafe|Estadio Coliseum|Getafe|16500|print 'Estadio Coliseum' 16,500
+VENUE|2025-26|Girona|Estadio Municipal de Montilivi|Girona|14624|SOURCE-TOKEN quadruple-open-bracket upstream typo before stadium link - verbatim
+VENUE|2025-26|Levante|Estadio Ciutat de Valencia|Valencia|26354|promoted; Ciutat de Valencia 26,354
+VENUE|2025-26|Mallorca|Estadi Mallorca Son Moix|Palma|23142|print 'Estadi Mallorca Son Moix' 23,142
+VENUE|2025-26|Osasuna|Estadio El Sadar|Pamplona|23576|print 'Estadio El Sadar' 23,576
+VENUE|2025-26|Oviedo|Estadio Carlos Tartiere|Oviedo|30500|promoted; Carlos Tartiere 30,500
+VENUE|2025-26|Vallecano|El Campo de Futbol de Vallecas|Madrid|14708|home ground 14,708 (Butarque one-off = second row)
+VENUE|2025-26|Vallecano|Estadio Ontime Butarque|Leganes|12450|ONE-OFF: MD26 Vallecano 3-0 Ath Madrid 2026-02-15 at Butarque (Leganes) - poor Vallecas pitch; AS-cited; 5,335 att
+VENUE|2025-26|Betis|Estadio Olimpico de la Cartuja|Seville|70000|MOVED to Estadio Olimpico de la Cartuja 70,000 (Villamarin renovation)
+VENUE|2025-26|Real Madrid|Bernabeu|Madrid|83186|label plain Bernabeu 83,186
+VENUE|2025-26|Sociedad|Reale Arena|San Sebastian|39313|print 'Reale Arena' 39,313
+VENUE|2025-26|Sevilla|Estadio Ramon Sanchez-Pizjuan|Seville|43883|print 'Estadio Ramon Sanchez-Pizjuan' 43,883
+VENUE|2025-26|Valencia|Camp de Mestalla|Valencia|49430|print 'Camp de Mestalla' 49,430
+VENUE|2025-26|Villarreal|Estadio de la Ceramica|Villarreal|23008|print 'Estadio de la Ceramica' 23,008

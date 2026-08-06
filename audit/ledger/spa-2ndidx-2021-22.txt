@@ -1,0 +1,388 @@
+# SPA 2ND INDEX 2021-22 = openfootball/espana 2021-22/1-liga.txt (380 matches, short-name
+# inf format), fetched 2026-08-05 as data/raw/ofb-es-2021-22.txt (679 lines; joins/splices
+# documented in the raw header JOINS block). Parsed by tools/parse_ofb_es.py: 380/380 rows,
+# 38x10 histogram after banner-summing, 20 clubs x 38 apps, 0 unknown names, span
+# 2021-08-13..2022-05-22 = RSSSF span2022 anchors. BANNERS: 45 'Matchday n' banners vs 38
+# rounds (R4 x2, R9 x3, R21 x5 duplicate/makeup blocks summed under printed n - COVID-era
+# postponement stack; spectacle: five R21 blocks).
+
+MD1|2021-08-13|Valencia|1|0|Getafe
+MD1|2021-08-14|Cadiz|1|1|Levante
+MD1|2021-08-14|Mallorca|1|1|Betis
+MD1|2021-08-14|Osasuna|0|0|Espanol
+MD1|2021-08-14|Alaves|1|4|Real Madrid
+MD1|2021-08-15|Celta|1|2|Ath Madrid
+MD1|2021-08-15|Barcelona|4|2|Sociedad
+MD1|2021-08-15|Sevilla|3|0|Vallecano
+MD1|2021-08-16|Villarreal|0|0|Granada
+MD1|2021-08-16|Elche|0|0|Ath Bilbao
+MD2|2021-08-20|Betis|1|1|Cadiz
+MD2|2021-08-21|Alaves|0|1|Mallorca
+MD2|2021-08-21|Espanol|0|0|Villarreal
+MD2|2021-08-21|Granada|1|1|Valencia
+MD2|2021-08-21|Ath Bilbao|1|1|Barcelona
+MD2|2021-08-22|Sociedad|1|0|Vallecano
+MD2|2021-08-22|Ath Madrid|1|0|Elche
+MD2|2021-08-22|Levante|3|3|Real Madrid
+MD2|2021-08-23|Getafe|0|1|Sevilla
+MD2|2021-08-23|Osasuna|0|0|Celta
+MD3|2021-08-27|Mallorca|1|0|Espanol
+MD3|2021-08-27|Valencia|3|0|Alaves
+MD3|2021-08-28|Celta|0|1|Ath Bilbao
+MD3|2021-08-28|Elche|1|1|Sevilla
+MD3|2021-08-28|Sociedad|1|0|Levante
+MD3|2021-08-28|Betis|0|1|Real Madrid
+MD3|2021-08-29|Barcelona|2|1|Getafe
+MD3|2021-08-29|Vallecano|4|0|Granada
+MD3|2021-08-29|Cadiz|2|3|Osasuna
+MD3|2021-08-29|Ath Madrid|2|2|Villarreal
+MD4|2021-09-11|Levante|1|1|Vallecano
+MD4|2021-09-11|Ath Bilbao|2|0|Mallorca
+MD4|2021-09-12|Espanol|1|2|Ath Madrid
+MD4|2021-09-12|Osasuna|1|4|Valencia
+MD4|2021-09-12|Cadiz|0|2|Sociedad
+MD4|2021-09-12|Real Madrid|5|2|Celta
+MD4|2021-09-13|Getafe|0|1|Elche
+MD4|2021-09-13|Granada|1|2|Betis
+MD5|2021-09-17|Celta|1|2|Cadiz
+MD5|2021-09-18|Vallecano|3|0|Getafe
+MD5|2021-09-18|Ath Madrid|0|0|Ath Bilbao
+MD5|2021-09-18|Elche|1|1|Levante
+MD5|2021-09-18|Alaves|0|2|Osasuna
+MD5|2021-09-19|Mallorca|0|0|Villarreal
+MD5|2021-09-19|Sociedad|0|0|Sevilla
+MD5|2021-09-19|Betis|2|2|Espanol
+MD5|2021-09-19|Valencia|1|2|Real Madrid
+MD5|2021-09-20|Barcelona|1|1|Granada
+MD6|2021-09-21|Getafe|1|2|Ath Madrid
+MD6|2021-09-21|Levante|0|2|Celta
+MD6|2021-09-21|Ath Bilbao|1|2|Vallecano
+MD6|2021-09-22|Sevilla|3|1|Valencia
+MD6|2021-09-22|Espanol|1|0|Alaves
+MD6|2021-09-22|Villarreal|4|1|Elche
+MD6|2021-09-22|Real Madrid|6|1|Mallorca
+MD6|2021-09-23|Osasuna|1|3|Betis
+MD6|2021-09-23|Granada|2|3|Sociedad
+MD6|2021-09-23|Cadiz|0|0|Barcelona
+MD7|2021-09-25|Alaves|1|0|Ath Madrid
+MD7|2021-09-25|Valencia|1|1|Ath Bilbao
+MD7|2021-09-25|Sevilla|2|0|Espanol
+MD7|2021-09-25|Real Madrid|0|0|Villarreal
+MD7|2021-09-26|Mallorca|2|3|Osasuna
+MD7|2021-09-26|Barcelona|3|0|Levante
+MD7|2021-09-26|Vallecano|3|1|Cadiz
+MD7|2021-09-26|Sociedad|1|0|Elche
+MD7|2021-09-26|Betis|2|0|Getafe
+MD7|2021-09-27|Celta|1|0|Granada
+MD8|2021-10-01|Ath Bilbao|1|0|Alaves
+MD8|2021-10-02|Osasuna|1|0|Vallecano
+MD8|2021-10-02|Mallorca|1|0|Levante
+MD8|2021-10-02|Cadiz|0|0|Valencia
+MD8|2021-10-02|Ath Madrid|2|0|Barcelona
+MD8|2021-10-03|Elche|1|0|Celta
+MD8|2021-10-03|Espanol|2|1|Real Madrid
+MD8|2021-10-03|Villarreal|2|0|Betis
+MD8|2021-10-03|Getafe|1|1|Sociedad
+MD8|2021-10-03|Granada|1|0|Sevilla
+MD9|2021-10-16|Levante|0|0|Getafe
+MD9|2021-10-16|Sociedad|1|0|Mallorca
+MD9|2021-10-17|Vallecano|2|1|Elche
+MD9|2021-10-17|Celta|0|1|Sevilla
+MD9|2021-10-17|Villarreal|1|2|Osasuna
+MD9|2021-10-17|Barcelona|3|1|Valencia
+MD9|2021-10-18|Alaves|0|1|Betis
+MD9|2021-10-18|Espanol|2|0|Cadiz
+MD10|2021-10-22|Osasuna|1|1|Granada
+MD10|2021-10-23|Valencia|2|2|Mallorca
+MD10|2021-10-23|Cadiz|0|2|Alaves
+MD10|2021-10-23|Elche|2|2|Espanol
+MD10|2021-10-23|Ath Bilbao|2|1|Villarreal
+MD10|2021-10-24|Sevilla|5|3|Levante
+MD10|2021-10-24|Barcelona|1|2|Real Madrid
+MD10|2021-10-24|Betis|3|2|Vallecano
+MD10|2021-10-24|Ath Madrid|2|2|Sociedad
+MD10|2021-10-25|Getafe|0|3|Celta
+MD11|2021-10-26|Alaves|1|0|Elche
+MD11|2021-10-26|Espanol|1|1|Ath Bilbao
+MD11|2021-10-26|Villarreal|3|3|Cadiz
+MD11|2021-10-27|Vallecano|1|0|Barcelona
+MD11|2021-10-27|Mallorca|1|1|Sevilla
+MD11|2021-10-27|Betis|4|1|Valencia
+MD11|2021-10-27|Real Madrid|0|0|Osasuna
+MD11|2021-10-28|Celta|0|2|Sociedad
+MD11|2021-10-28|Granada|1|1|Getafe
+MD11|2021-10-28|Levante|2|2|Ath Madrid
+MD12|2021-10-30|Elche|1|2|Real Madrid
+MD12|2021-10-30|Sevilla|2|0|Osasuna
+MD12|2021-10-30|Valencia|2|0|Villarreal
+MD12|2021-10-30|Barcelona|1|1|Alaves
+MD12|2021-10-31|Cadiz|1|1|Mallorca
+MD12|2021-10-31|Ath Madrid|3|0|Betis
+MD12|2021-10-31|Getafe|2|1|Espanol
+MD12|2021-10-31|Sociedad|1|1|Ath Bilbao
+MD12|2021-11-01|Vallecano|0|0|Celta
+MD12|2021-11-01|Levante|0|3|Granada
+MD13|2021-11-05|Ath Bilbao|0|1|Cadiz
+MD13|2021-11-06|Espanol|2|0|Granada
+MD13|2021-11-06|Celta|3|3|Barcelona
+MD13|2021-11-06|Alaves|2|1|Levante
+MD13|2021-11-06|Real Madrid|2|1|Vallecano
+MD13|2021-11-07|Villarreal|1|0|Getafe
+MD13|2021-11-07|Valencia|3|3|Ath Madrid
+MD13|2021-11-07|Osasuna|0|2|Sociedad
+MD13|2021-11-07|Mallorca|2|2|Elche
+MD13|2021-11-07|Betis|0|2|Sevilla
+MD14|2021-11-19|Levante|0|0|Ath Bilbao
+MD14|2021-11-20|Celta|1|1|Villarreal
+MD14|2021-11-20|Sevilla|2|2|Alaves
+MD14|2021-11-20|Ath Madrid|1|0|Osasuna
+MD14|2021-11-20|Barcelona|1|0|Espanol
+MD14|2021-11-21|Getafe|4|0|Cadiz
+MD14|2021-11-21|Granada|1|4|Real Madrid
+MD14|2021-11-21|Elche|0|3|Betis
+MD14|2021-11-21|Sociedad|0|0|Valencia
+MD14|2021-11-22|Vallecano|3|1|Mallorca
+MD15|2021-11-26|Ath Bilbao|2|2|Granada
+MD15|2021-11-27|Alaves|1|2|Celta
+MD15|2021-11-27|Valencia|1|1|Vallecano
+MD15|2021-11-27|Mallorca|0|0|Getafe
+MD15|2021-11-27|Villarreal|1|3|Barcelona
+MD15|2021-11-28|Betis|3|1|Levante
+MD15|2021-11-28|Espanol|1|0|Sociedad
+MD15|2021-11-28|Cadiz|1|4|Ath Madrid
+MD15|2021-11-28|Real Madrid|2|1|Sevilla
+MD15|2021-11-29|Osasuna|1|1|Elche
+MD9|2021-12-01|Real Madrid|1|0|Ath Bilbao
+MD16|2021-12-03|Granada|2|1|Alaves
+MD16|2021-12-04|Sevilla|1|0|Villarreal
+MD16|2021-12-04|Barcelona|0|1|Betis
+MD16|2021-12-04|Ath Madrid|1|2|Mallorca
+MD16|2021-12-04|Sociedad|0|2|Real Madrid
+MD16|2021-12-05|Vallecano|1|0|Espanol
+MD16|2021-12-05|Elche|3|1|Cadiz
+MD16|2021-12-05|Levante|0|0|Osasuna
+MD16|2021-12-05|Celta|1|2|Valencia
+MD16|2021-12-06|Getafe|0|0|Ath Bilbao
+MD17|2021-12-10|Mallorca|0|0|Celta
+MD17|2021-12-11|Espanol|4|3|Levante
+MD17|2021-12-11|Alaves|1|1|Getafe
+MD17|2021-12-11|Valencia|2|1|Elche
+MD17|2021-12-11|Ath Bilbao|0|1|Sevilla
+MD17|2021-12-12|Villarreal|2|0|Vallecano
+MD17|2021-12-12|Osasuna|2|2|Barcelona
+MD17|2021-12-12|Betis|4|0|Sociedad
+MD17|2021-12-12|Real Madrid|2|0|Ath Madrid
+MD17|2021-12-13|Cadiz|1|1|Granada
+MD18|2021-12-17|Celta|3|1|Espanol
+MD18|2021-12-18|Vallecano|2|0|Alaves
+MD18|2021-12-18|Sociedad|1|3|Villarreal
+MD18|2021-12-18|Barcelona|3|2|Elche
+MD18|2021-12-18|Sevilla|2|1|Ath Madrid
+MD18|2021-12-19|Granada|4|1|Mallorca
+MD18|2021-12-19|Ath Bilbao|3|2|Betis
+MD18|2021-12-19|Getafe|1|0|Osasuna
+MD18|2021-12-19|Real Madrid|0|0|Cadiz
+MD18|2021-12-20|Levante|3|4|Valencia
+MD4|2021-12-21|Villarreal|5|2|Alaves
+MD4|2021-12-21|Sevilla|1|1|Barcelona
+MD9|2021-12-22|Granada|2|1|Ath Madrid
+MD21|2021-12-22|Ath Bilbao|1|2|Real Madrid
+MD19|2021-12-31|Valencia|1|2|Espanol
+MD19|2022-01-02|Getafe|1|0|Real Madrid
+MD19|2022-01-02|Elche|0|0|Granada
+MD19|2022-01-02|Ath Madrid|2|0|Vallecano
+MD19|2022-01-02|Betis|0|2|Celta
+MD19|2022-01-02|Alaves|1|1|Sociedad
+MD19|2022-01-02|Mallorca|0|1|Barcelona
+MD19|2022-01-03|Villarreal|5|0|Levante
+MD19|2022-01-03|Osasuna|1|3|Ath Bilbao
+MD19|2022-01-03|Cadiz|0|1|Sevilla
+MD20|2022-01-08|Levante|2|0|Mallorca
+MD20|2022-01-08|Sociedad|1|0|Celta
+MD20|2022-01-08|Granada|1|1|Barcelona
+MD20|2022-01-08|Real Madrid|4|1|Valencia
+MD20|2022-01-09|Vallecano|1|1|Betis
+MD20|2022-01-09|Sevilla|1|0|Getafe
+MD20|2022-01-09|Osasuna|2|0|Cadiz
+MD20|2022-01-09|Alaves|0|0|Ath Bilbao
+MD20|2022-01-09|Villarreal|2|2|Ath Madrid
+MD20|2022-01-10|Espanol|1|2|Elche
+MD21|2022-01-16|Elche|1|0|Villarreal
+MD21|2022-01-18|Betis|4|0|Alaves
+MD21|2022-01-18|Cadiz|2|2|Espanol
+MD21|2022-01-19|Celta|2|0|Osasuna
+MD21|2022-01-19|Valencia|1|1|Sevilla
+MD21|2022-01-20|Getafe|4|2|Granada
+MD22|2022-01-21|Espanol|1|4|Betis
+MD22|2022-01-22|Levante|0|2|Cadiz
+MD22|2022-01-22|Villarreal|3|0|Mallorca
+MD22|2022-01-22|Sevilla|2|2|Celta
+MD22|2022-01-22|Ath Madrid|3|2|Valencia
+MD22|2022-01-23|Granada|0|2|Osasuna
+MD22|2022-01-23|Real Madrid|2|2|Elche
+MD22|2022-01-23|Vallecano|0|1|Ath Bilbao
+MD22|2022-01-23|Sociedad|0|0|Getafe
+MD22|2022-01-23|Alaves|0|1|Barcelona
+MD23|2022-02-04|Getafe|3|0|Levante
+MD23|2022-02-05|Elche|3|1|Alaves
+MD23|2022-02-05|Mallorca|2|1|Cadiz
+MD23|2022-02-05|Celta|2|0|Vallecano
+MD23|2022-02-05|Osasuna|0|0|Sevilla
+MD23|2022-02-06|Valencia|0|0|Sociedad
+MD23|2022-02-06|Barcelona|4|2|Ath Madrid
+MD23|2022-02-06|Betis|0|2|Villarreal
+MD23|2022-02-06|Real Madrid|1|0|Granada
+MD23|2022-02-07|Ath Bilbao|2|1|Espanol
+MD24|2022-02-11|Sevilla|2|0|Elche
+MD24|2022-02-12|Cadiz|0|0|Celta
+MD24|2022-02-12|Villarreal|0|0|Real Madrid
+MD24|2022-02-12|Vallecano|0|3|Osasuna
+MD24|2022-02-12|Ath Madrid|4|3|Getafe
+MD24|2022-02-13|Alaves|2|1|Valencia
+MD24|2022-02-13|Levante|2|4|Betis
+MD24|2022-02-13|Sociedad|2|0|Granada
+MD24|2022-02-13|Espanol|2|2|Barcelona
+MD24|2022-02-14|Mallorca|3|2|Ath Bilbao
+MD21|2022-02-16|Ath Madrid|0|1|Levante
+MD25|2022-02-18|Elche|2|1|Vallecano
+MD25|2022-02-19|Granada|1|4|Villarreal
+MD25|2022-02-19|Osasuna|0|3|Ath Madrid
+MD25|2022-02-19|Cadiz|1|1|Getafe
+MD25|2022-02-19|Real Madrid|3|0|Alaves
+MD25|2022-02-20|Espanol|1|1|Sevilla
+MD25|2022-02-20|Valencia|1|4|Barcelona
+MD25|2022-02-20|Betis|2|1|Mallorca
+MD25|2022-02-20|Ath Bilbao|4|0|Sociedad
+MD25|2022-02-21|Celta|1|1|Levante
+MD26|2022-02-25|Levante|3|0|Elche
+MD26|2022-02-26|Mallorca|0|1|Valencia
+MD26|2022-02-26|Getafe|2|2|Alaves
+MD26|2022-02-26|Vallecano|0|1|Real Madrid
+MD26|2022-02-26|Ath Madrid|2|0|Celta
+MD26|2022-02-27|Villarreal|5|1|Espanol
+MD26|2022-02-27|Sevilla|2|1|Betis
+MD26|2022-02-27|Sociedad|1|0|Osasuna
+MD26|2022-02-27|Barcelona|4|0|Ath Bilbao
+MD26|2022-02-28|Granada|0|0|Cadiz
+MD21|2022-03-02|Mallorca|0|2|Sociedad
+MD27|2022-03-04|Alaves|0|0|Sevilla
+MD27|2022-03-05|Osasuna|1|0|Villarreal
+MD27|2022-03-05|Espanol|2|0|Getafe
+MD27|2022-03-05|Valencia|3|1|Granada
+MD27|2022-03-05|Real Madrid|4|1|Sociedad
+MD27|2022-03-06|Cadiz|2|0|Vallecano
+MD27|2022-03-06|Elche|1|2|Barcelona
+MD27|2022-03-06|Celta|4|3|Mallorca
+MD27|2022-03-06|Betis|1|3|Ath Madrid
+MD27|2022-03-07|Ath Bilbao|3|1|Levante
+MD28|2022-03-11|Ath Madrid|2|1|Cadiz
+MD28|2022-03-12|Levante|1|1|Espanol
+MD28|2022-03-12|Granada|0|1|Elche
+MD28|2022-03-12|Villarreal|1|0|Celta
+MD28|2022-03-12|Getafe|0|0|Valencia
+MD28|2022-03-13|Vallecano|1|1|Sevilla
+MD28|2022-03-13|Betis|1|0|Ath Bilbao
+MD28|2022-03-13|Sociedad|1|0|Alaves
+MD28|2022-03-13|Barcelona|4|0|Osasuna
+MD28|2022-03-14|Mallorca|0|3|Real Madrid
+MD29|2022-03-18|Ath Bilbao|1|1|Getafe
+MD29|2022-03-19|Alaves|2|3|Granada
+MD29|2022-03-19|Elche|0|1|Valencia
+MD29|2022-03-19|Osasuna|3|1|Levante
+MD29|2022-03-19|Vallecano|0|1|Ath Madrid
+MD29|2022-03-20|Espanol|1|0|Mallorca
+MD29|2022-03-20|Cadiz|1|0|Villarreal
+MD29|2022-03-20|Celta|0|0|Betis
+MD29|2022-03-20|Sevilla|0|0|Sociedad
+MD29|2022-03-20|Real Madrid|0|4|Barcelona
+MD30|2022-04-02|Getafe|1|0|Mallorca
+MD30|2022-04-02|Levante|2|0|Villarreal
+MD30|2022-04-02|Celta|1|2|Real Madrid
+MD30|2022-04-02|Ath Madrid|4|1|Alaves
+MD30|2022-04-03|Ath Bilbao|2|1|Elche
+MD30|2022-04-03|Betis|4|1|Osasuna
+MD30|2022-04-03|Valencia|0|0|Cadiz
+MD30|2022-04-03|Granada|2|2|Vallecano
+MD30|2022-04-03|Barcelona|1|0|Sevilla
+MD30|2022-04-04|Sociedad|1|0|Espanol
+MD31|2022-04-08|Sevilla|4|2|Granada
+MD31|2022-04-09|Cadiz|1|2|Betis
+MD31|2022-04-09|Mallorca|1|0|Ath Madrid
+MD31|2022-04-09|Villarreal|1|1|Ath Bilbao
+MD31|2022-04-09|Real Madrid|2|0|Getafe
+MD31|2022-04-10|Osasuna|1|0|Alaves
+MD31|2022-04-10|Espanol|1|0|Celta
+MD31|2022-04-10|Elche|1|2|Sociedad
+MD31|2022-04-10|Levante|2|3|Barcelona
+MD31|2022-04-11|Vallecano|1|1|Valencia
+MD32|2022-04-15|Sociedad|0|0|Betis
+MD32|2022-04-16|Elche|3|0|Mallorca
+MD32|2022-04-16|Alaves|1|0|Vallecano
+MD32|2022-04-16|Valencia|1|2|Osasuna
+MD32|2022-04-16|Getafe|1|2|Villarreal
+MD32|2022-04-17|Granada|1|4|Levante
+MD32|2022-04-17|Ath Madrid|2|1|Espanol
+MD32|2022-04-17|Ath Bilbao|0|2|Celta
+MD32|2022-04-17|Sevilla|2|3|Real Madrid
+MD32|2022-04-18|Barcelona|0|1|Cadiz
+MD33|2022-04-19|Mallorca|2|1|Alaves
+MD33|2022-04-19|Betis|0|1|Elche
+MD33|2022-04-19|Villarreal|2|0|Valencia
+MD33|2022-04-20|Ath Madrid|0|0|Granada
+MD33|2022-04-20|Celta|0|2|Getafe
+MD33|2022-04-20|Osasuna|1|3|Real Madrid
+MD33|2022-04-21|Levante|2|3|Sevilla
+MD33|2022-04-21|Espanol|0|1|Vallecano
+MD33|2022-04-21|Cadiz|2|3|Ath Bilbao
+MD33|2022-04-21|Sociedad|0|1|Barcelona
+MD21|2022-04-24|Barcelona|0|1|Vallecano
+MD34|2022-04-29|Sevilla|1|1|Cadiz
+MD34|2022-04-30|Alaves|2|1|Villarreal
+MD34|2022-04-30|Real Madrid|4|0|Espanol
+MD34|2022-04-30|Valencia|1|1|Levante
+MD34|2022-04-30|Ath Bilbao|2|0|Ath Madrid
+MD34|2022-05-01|Elche|1|1|Osasuna
+MD34|2022-05-01|Granada|1|1|Celta
+MD34|2022-05-01|Vallecano|1|1|Sociedad
+MD34|2022-05-01|Barcelona|2|1|Mallorca
+MD34|2022-05-02|Getafe|0|0|Betis
+MD35|2022-05-06|Levante|2|1|Sociedad
+MD35|2022-05-07|Mallorca|2|6|Granada
+MD35|2022-05-07|Ath Bilbao|0|0|Valencia
+MD35|2022-05-07|Cadiz|3|0|Elche
+MD35|2022-05-07|Celta|4|0|Alaves
+MD35|2022-05-07|Betis|1|2|Barcelona
+MD35|2022-05-08|Getafe|0|0|Vallecano
+MD35|2022-05-08|Villarreal|1|1|Sevilla
+MD35|2022-05-08|Espanol|1|1|Osasuna
+MD35|2022-05-08|Ath Madrid|1|0|Real Madrid
+MD36|2022-05-10|Valencia|0|3|Betis
+MD36|2022-05-10|Granada|1|0|Ath Bilbao
+MD36|2022-05-10|Barcelona|3|1|Celta
+MD36|2022-05-11|Osasuna|1|1|Getafe
+MD36|2022-05-11|Alaves|2|1|Espanol
+MD36|2022-05-11|Sevilla|0|0|Mallorca
+MD36|2022-05-11|Elche|0|2|Ath Madrid
+MD36|2022-05-12|Sociedad|3|0|Cadiz
+MD36|2022-05-12|Vallecano|1|5|Villarreal
+MD36|2022-05-12|Real Madrid|6|0|Levante
+MD37|2022-05-14|Espanol|1|1|Valencia
+MD37|2022-05-15|Villarreal|1|2|Sociedad
+MD37|2022-05-15|Levante|3|1|Alaves
+MD37|2022-05-15|Cadiz|1|1|Real Madrid
+MD37|2022-05-15|Getafe|0|0|Barcelona
+MD37|2022-05-15|Mallorca|2|1|Vallecano
+MD37|2022-05-15|Celta|1|0|Elche
+MD37|2022-05-15|Betis|2|0|Granada
+MD37|2022-05-15|Ath Madrid|1|1|Sevilla
+MD37|2022-05-15|Ath Bilbao|2|0|Osasuna
+MD38|2022-05-20|Vallecano|2|4|Levante
+MD38|2022-05-20|Real Madrid|0|0|Betis
+MD38|2022-05-21|Valencia|2|0|Celta
+MD38|2022-05-22|Elche|3|1|Getafe
+MD38|2022-05-22|Osasuna|0|2|Mallorca
+MD38|2022-05-22|Granada|0|0|Espanol
+MD38|2022-05-22|Alaves|0|1|Cadiz
+MD38|2022-05-22|Sevilla|1|0|Ath Bilbao
+MD38|2022-05-22|Sociedad|1|2|Ath Madrid
+MD38|2022-05-22|Barcelona|0|2|Villarreal
