@@ -1,0 +1,15 @@
+{
+  "version": "3.11.0",
+  "base": "app-v3.10.0-b3.html",
+  "base_md5": "2d28fc66e94bb511665bdcffb314ee21",
+  "built_md5": "ce32dd04464f3b41fe355c36ead85684",
+  "built_sha256": "5958902abf13cc448fe6b83d7d92199a7c77de7f28dd4cdccb804718ce9f20ad",
+  "m17": {
+    "I5": "draw=loss enforcement \u2014 settlementConsole now records actual home/away goals, classifies H/D/A, win if pred matches actual else loss, draw never push, immutable prediction/result evidence, acceptance test 3 rows home/away/draw draw=loss",
+    "I4": "verified-venue list per league, hard block if home team never hosted at venue, tick-box official list, save disabled until confirmed, venue locked, neutral/relocated adjudication, pack validation hold with Z-003 style verbatim keep"
+  },
+  "zero_hard_coding": {
+    "fetch": 0,
+    "xhr": 0
+  }
+}
