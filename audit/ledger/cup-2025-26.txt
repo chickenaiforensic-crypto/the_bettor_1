@@ -1,0 +1,138 @@
+# Russian Cup 2025/26 — RSSSF rus2026.html #kubok (compact, chunks 31-32) + #cupdet (venues, chunk 33), transcribed 2026-08-04 (DECREE-2026-08-04 full-span override)
+# ISO|stage|home|hg|ag|away|penH|penA|stadium|city
+# format 2025-26 (RSSSF): RPL-path 4 groups (top-2 -> RPL-path QF, two legs -> major SF -> major Final);
+#   group 3rds cross into the Regions path QF p1 at D2 hosts -> p2 vs RPL-QF losers -> minor SF p1 -> minor SF p2
+#   vs major-SF losers -> minor final -> SUPERFINAL (major winner vs minor winner) = cup champion.
+#   Champion: Spartak Moscow (Superfinal 1-1 Krasnodar, pens 4-3).
+# slice rule unchanged: every match with >=1 of the 16 RPL clubs = 48 group + 28 bracket = 76 rows.
+# venues: cupdet prints used where fetched (Ozon Arena / Lukoil Arena / VEB Arena / VTB Arena / Russian Railways
+#   Arena / Gazprom Arena / Anzhi Arena Kaspiysk all confirmed in-era by cupdet per-match prints); Pari NN cup homes
+#   tagged Saransk on R2/R4 (stadium renovation, same NB as league); Arsenal Tula home ties staged in Khimki
+#   (page tags 'Himki' on both legs of their run: QF p1 [Nov 26] and p2 [Mar 5]). stadium="" rows wiki-fill at build.
+# --- RPL PATH GROUPS, 2025 ---
+# --- WIKI+RFS SECOND-INDEX SWEEP 2026-08-04 (decode 2) ---
+# ADJUDICATION source_conflict row: QF-Reg p1 Arsenal Tula-Rubin Kazan. RSSSF cupdet printed it staged in Khimki on
+#   Nov 26; TWO independent indexes - RFS official match page rfs.ru/cup/tournament/match/56055 ('25 noyabrya 2025,
+#   stadion Arsenal (Tula), att 6,717') and the wiki match box (Arsenal Stadium, Tula, att 6,717) - agree against it:
+#   row moved to 2025-11-25, venue Arsenal Stadium|Tula (= Arsenal's own ground; nearby Torpedo-Baltika the same evening
+#   WAS at Arena Khimki per RFS 56056 + wiki - RSSSF apparently carried the Khimki tag onto the Arsenal line).
+#   NOTE: Arsenal-Lokomotiv QF-Reg p2 2026-03-05 DID take place at Arena Khimki (RFS 56059 + wiki, att 2,464) - staging
+#   real for that later tie only. Venue fills from RFS official pages: Torpedo QF-Reg p1 -> Arena Khimki|Khimki (att 852);
+#   Neftekhimik -> Neftekhimik Stadium|Nizhnekamsk (att 1,713, cap 3,046); KAMAZ -> KAMAZ Stadium|Naberezhnye Chelny
+#   (att 4,489, cap 6,200). All three dates match the ledger as transcribed.
+# PRINT-ERROR cells (group tables) now corroborated by wiki season tables (RFU-sourced): group-A Akhmat line correct =
+#   1-0-1-4 8-10 pts 4 (wiki exact; RSSSF printed 1-0-1-3 7-8 - W/WP/LP/L cells sum to 5 games, impossible in a 6-game
+#   group; earlier header claim 'W/L reproduce' corrected hereby); group-D Lokomotiv GA correct = 4 (wiki 10-4 exact;
+#   RSSSF printed GA 2). 2024-25-style balance proof stands; pack rows unaffected (results, not tables, are carried).
+# Match-for-match wiki/RFS sweep: ALL 76 rows identical (dates, 90-min scores, pens, venues, attendances sampled:
+#   QF att 31,019 Spartak-Loko / 20,170 Loko-Spartak / 27,186 Zenit-DMs; minor final 38,911; Superfinal Luzhniki
+#   72,978 ref Tanashev; group venue era prints Ozon Arena/Lukoil/RZD-to-Russian Railways/Anzhi/Akhmat/Fisht/Gazovik/
+#   Rostech/Solidarnost/Mordovia Saransk/Nizhny Novgorod all consistent). Pari NN Saransk NB confirmed by RFU decision
+#   notes in the same article (bureau paragraph 7.9).
+2025-07-29|Group-B R1|Dynamo Moscow|3|2|PFC Sochi|||VTB Arena|Moscow
+2025-07-29|Group-B R1|FC Krasnodar|1|2|Krylia Sovetov Samara|||Ozon Arena|Krasnodar
+2025-07-29|Group-D R1|Akron Tolyatti|2|1|Baltika Kaliningrad|||Solidarnost Samara Arena|Samara
+2025-07-30|Group-A R1|Akhmat Grozny|1|2|Zenit St Petersburg|||Akhmat Arena|Grozny
+2025-07-30|Group-C R1|Dynamo Makhachkala|1|0|Pari Nizhny Novgorod|||Anzhi Arena|Kaspiysk
+2025-07-30|Group-C R1|FC Rostov|0|2|Spartak Moscow|||Rostov Arena|Rostov-on-Don
+2025-07-30|Group-D R1|CSKA Moscow|2|1|Lokomotiv Moscow|||VEB Arena|Moscow
+2025-07-31|Group-A R1|Rubin Kazan|2|0|FC Orenburg|||Ak Bars Arena|Kazan
+2025-08-12|Group-A R2|Zenit St Petersburg|3|0|Rubin Kazan|||Gazprom Arena|St Petersburg
+2025-08-12|Group-C R2|Spartak Moscow|1|1|Dynamo Makhachkala|3|4|Lukoil Arena|Moscow
+2025-08-12|Group-D R2|Akron Tolyatti|1|1|CSKA Moscow|5|4|Solidarnost Samara Arena|Samara
+2025-08-13|Group-A R2|FC Orenburg|2|1|Akhmat Grozny|||Gazovik Stadium|Orenburg
+2025-08-13|Group-B R2|PFC Sochi|1|1|Krylia Sovetov Samara|5|3|Fisht Stadium|Sochi
+2025-08-13|Group-B R2|Dynamo Moscow|0|4|FC Krasnodar|||VTB Arena|Moscow
+2025-08-13|Group-D R2|Lokomotiv Moscow|2|0|Baltika Kaliningrad|||Russian Railways Arena|Moscow
+2025-08-14|Group-C R2|Pari Nizhny Novgorod|1|0|FC Rostov|||Mordovia Arena|Saransk
+2025-08-26|Group-A R3|FC Orenburg|3|5|Zenit St Petersburg|||Gazovik Stadium|Orenburg
+2025-08-26|Group-A R3|Akhmat Grozny|2|0|Rubin Kazan|||Akhmat Arena|Grozny
+2025-08-26|Group-C R3|Spartak Moscow|4|0|Pari Nizhny Novgorod|||Lukoil Arena|Moscow
+2025-08-27|Group-B R3|Krylia Sovetov Samara|0|0|Dynamo Moscow|5|4|Solidarnost Samara Arena|Samara
+2025-08-27|Group-B R3|PFC Sochi|2|4|FC Krasnodar|||Fisht Stadium|Sochi
+2025-08-27|Group-C R3|FC Rostov|1|3|Dynamo Makhachkala|||Rostov Arena|Rostov-on-Don
+2025-08-27|Group-D R3|Baltika Kaliningrad|0|2|CSKA Moscow|||Rostech Arena|Kaliningrad
+2025-08-28|Group-D R3|Lokomotiv Moscow|2|0|Akron Tolyatti|||Russian Railways Arena|Moscow
+2025-09-16|Group-A R4|FC Orenburg|0|0|Rubin Kazan|4|2|Gazovik Stadium|Orenburg
+2025-09-16|Group-C R4|Pari Nizhny Novgorod|1|2|Dynamo Makhachkala|||Mordovia Arena|Saransk
+2025-09-16|Group-D R4|Akron Tolyatti|1|3|Lokomotiv Moscow|||Solidarnost Samara Arena|Samara
+2025-09-17|Group-A R4|Zenit St Petersburg|2|1|Akhmat Grozny|||Gazprom Arena|St Petersburg
+2025-09-17|Group-B R4|PFC Sochi|0|4|Dynamo Moscow|||Fisht Stadium|Sochi
+2025-09-17|Group-B R4|Krylia Sovetov Samara|1|2|FC Krasnodar|||Solidarnost Samara Arena|Samara
+2025-09-18|Group-C R4|Spartak Moscow|1|2|FC Rostov|||Lukoil Arena|Moscow
+2025-09-18|Group-D R4|CSKA Moscow|1|1|Baltika Kaliningrad|9|10|VEB Arena|Moscow
+2025-09-30|Group-A R5|Rubin Kazan|0|1|Zenit St Petersburg|||Ak Bars Arena|Kazan
+2025-09-30|Group-A R5|Akhmat Grozny|0|1|FC Orenburg|||Akhmat Arena|Grozny
+2025-09-30|Group-B R5|FC Krasnodar|0|0|Dynamo Moscow|4|2|Ozon Arena|Krasnodar
+2025-10-01|Group-B R5|Krylia Sovetov Samara|3|3|PFC Sochi|5|4|Solidarnost Samara Arena|Samara
+2025-10-01|Group-C R5|Pari Nizhny Novgorod|1|2|Spartak Moscow|||Nizhny Novgorod Stadium|Nizhny Novgorod
+2025-10-01|Group-D R5|Baltika Kaliningrad|3|0|Akron Tolyatti|||Rostech Arena|Kaliningrad
+2025-10-01|Group-D R5|Lokomotiv Moscow|0|0|CSKA Moscow|2|4|Russian Railways Arena|Moscow
+2025-10-02|Group-C R5|Dynamo Makhachkala|1|1|FC Rostov|4|2|Anzhi Arena|Kaspiysk
+2025-10-21|Group-C R6|Dynamo Makhachkala|1|3|Spartak Moscow|||Anzhi Arena|Kaspiysk
+2025-10-21|Group-D R6|CSKA Moscow|3|2|Akron Tolyatti|||VEB Arena|Moscow
+2025-10-22|Group-A R6|Zenit St Petersburg|6|0|FC Orenburg|||Gazprom Arena|St Petersburg
+2025-10-22|Group-A R6|Rubin Kazan|3|3|Akhmat Grozny|4|3|Ak Bars Arena|Kazan
+2025-10-22|Group-B R6|Dynamo Moscow|4|0|Krylia Sovetov Samara|||VTB Arena|Moscow
+2025-10-22|Group-C R6|FC Rostov|4|1|Pari Nizhny Novgorod|||Rostov Arena|Rostov-on-Don
+2025-10-23|Group-B R6|FC Krasnodar|3|0|PFC Sochi|||Ozon Arena|Krasnodar
+2025-10-23|Group-D R6|Baltika Kaliningrad|1|2|Lokomotiv Moscow|||Rostech Arena|Kaliningrad
+# --- GROUP TABLES (RSSSF): pos club M W WP LP L GF-GA pts [H2H bracket] ---
+# A: 1 Zenit 6 6 0 0 0 19-5 18; 2 Orenburg 6 2 1 0 3 6-14 8; 3 Rubin 6 1 1 1 3 5-9 6; 4 Akhmat 6 1 0 1 3 7-8 4
+# B: 1 Krasnodar 6 4 1 0 1 14-5 14; 2 Dynamo Ms 6 3 0 2 1 11-6 11; 3 Krylja 6 1 2 1 2 7-11 8; 4 Sochi 6 0 1 1 4 8-18 3
+# C: 1 Spartak 6 4 0 1 1 13-5 13 [1 0 1 0 4-2 4]; 2 Dinamo Mh 6 3 2 0 1 9-7 13 [0 1 0 1 2-4 2]; 3 Rostov 6 2 0 1 3 8-9 7; 4 Pari NN 6 1 0 0 5 4-13 3
+# D: 1 CSKA 6 3 1 2 0 9-5 13 [1 1 0 0 2-1 5]; 2 Lokomotiv 6 4 0 1 1 10-2 13 [0 0 1 1 1-2 1]; 3 Baltika 6 1 1 0 4 6-9 5 [1 0 0 1 4-2 3]; 4 Akron 6 1 1 0 4 6-13 5 [1 0 0 1 2-4 3]
+# group pen ties (11): R2 Spartak-DMh 3-4, Akron-CSKA 5-4, Soci-Krylja 5-3; R3 Krylja-DMs 5-4; R4 Oren-Rubin 4-2,
+#   CSKA-Baltika 9-10; R5 Krasnodar-DMs 4-2, Krylja-Soci 5-4, Lokomotiv-CSKA 2-4, DMh-Rostov 4-2; R6 Rubin-Ahmat 4-3
+# SOURCE PRINT ERRORS found at recompute (rows unaffected, documented for the pack NOTE):
+#  1) Akhmat group-A line printed GF-GA 7-8; recompute from the round listings gives 8-10. Proof: with 8-10 group A
+#     balances 38-38 (official 37-36 does not), and all three groupmates' own lines reproduce exactly (Zenit 19-5,
+#     Orenburg 6-14, Rubin 5-9). W/L and pts (4) reproduce as printed -> only the GF/GA cells are wrong.
+#  2) Lokomotiv group-D line printed GA 2; recompute gives GA 4 (GF 10 OK). Proof: with GA 4 group D balances 31-31
+#     (official 31-29 does not); groupmates CSKA 9-5, Baltika 6-9, Akron 6-13 all reproduce exactly; W/WP/LP/L and
+#     pts (13, incl. the CSKA-Loko 13-13 H2H bracket) reproduce as printed.
+#  rows stand as played (RSSSF round listings); second index (wiki 2025-26 Russian Cup) to corroborate 8-10 / 10-4.
+# --- KNOCKOUT: RPL-path QF (two legs) ---
+2025-11-05|QF-RPL leg1|Dynamo Makhachkala|1|0|CSKA Moscow|||Anzhi Arena|Kaspiysk
+2025-11-05|QF-RPL leg1|FC Orenburg|1|3|FC Krasnodar|||Gazovik Stadium|Orenburg
+2025-11-05|QF-RPL leg1|Zenit St Petersburg|1|3|Dynamo Moscow|||Gazprom Arena|St Petersburg
+2025-11-06|QF-RPL leg1|Spartak Moscow|3|1|Lokomotiv Moscow|||Lukoil Arena|Moscow
+2025-11-26|QF-RPL leg2|CSKA Moscow|2|1|Dynamo Makhachkala|5|4|VEB Arena|Moscow
+2025-11-26|QF-RPL leg2|FC Krasnodar|4|0|FC Orenburg|||Ozon Arena|Krasnodar
+2025-11-26|QF-RPL leg2|Lokomotiv Moscow|2|3|Spartak Moscow|||Russian Railways Arena|Moscow
+2025-11-27|QF-RPL leg2|Dynamo Moscow|0|1|Zenit St Petersburg|||VTB Arena|Moscow
+# --- Regions-path QF p1 (group 3rds at D2 hosts) ---
+2025-11-25|QF-Reg p1|Torpedo Moscow|0|2|Baltika Kaliningrad|||Arena Khimki|Khimki
+2025-11-25|QF-Reg p1|Arsenal Tula|0|0|Rubin Kazan|3|2|Arsenal Stadium|Tula
+2025-11-26|QF-Reg p1|Neftekhimik Nizhnekamsk|1|3|FC Rostov|||Neftekhimik Stadium|Nizhnekamsk
+2025-11-27|QF-Reg p1|KAMAZ|1|1|Krylia Sovetov Samara|2|4|KAMAZ Stadium|Naberezhnye Chelny
+# --- Regions-path QF p2 (p1 winners vs RPL-QF losers) ---
+2026-03-03|QF-Reg p2|Baltika Kaliningrad|0|1|Zenit St Petersburg|||Rostech Arena|Kaliningrad
+2026-03-04|QF-Reg p2|Krylia Sovetov Samara|2|0|FC Orenburg|||Solidarnost Samara Arena|Samara
+2026-03-04|QF-Reg p2|FC Rostov|0|2|Dynamo Makhachkala|||Rostov Arena|Rostov-on-Don
+2026-03-05|QF-Reg p2|Arsenal Tula|1|2|Lokomotiv Moscow|||Arena Khimki|Khimki
+# --- minor SF p1 ---
+2026-03-18|SF-Reg p1|Zenit St Petersburg|1|0|Dynamo Makhachkala|||Gazprom Arena|St Petersburg
+2026-03-19|SF-Reg p1|Krylia Sovetov Samara|2|2|Lokomotiv Moscow|5|4|Solidarnost Samara Arena|Samara
+# --- minor SF p2 (p1 winners vs major-SF losers) ---
+2026-04-07|SF-Reg p2|Krylia Sovetov Samara|2|5|CSKA Moscow|||Solidarnost Samara Arena|Samara
+2026-04-08|SF-Reg p2|Zenit St Petersburg|0|0|Spartak Moscow|6|7|Gazprom Arena|St Petersburg
+# --- major SF (two legs) ---
+2026-03-04|SF-Major leg1|CSKA Moscow|3|1|FC Krasnodar|||VEB Arena|Moscow
+2026-03-05|SF-Major leg1|Dynamo Moscow|5|2|Spartak Moscow|||VTB Arena|Moscow
+2026-03-17|SF-Major leg2|FC Krasnodar|4|0|CSKA Moscow|||Ozon Arena|Krasnodar
+2026-03-18|SF-Major leg2|Spartak Moscow|1|0|Dynamo Moscow|||Lukoil Arena|Moscow
+# --- minor final ---
+2026-05-06|Final-Minor|Spartak Moscow|1|0|CSKA Moscow|||Lukoil Arena|Moscow
+# --- major final (two legs) ---
+2026-04-08|Final-Major leg1|Dynamo Moscow|0|0|FC Krasnodar|||VTB Arena|Moscow
+2026-05-07|Final-Major leg2|FC Krasnodar|0|0|Dynamo Moscow|6|5|Ozon Arena|Krasnodar
+# --- SUPERFINAL ---
+2026-05-24|Superfinal|Spartak Moscow|1|1|FC Krasnodar|4|3|Luzhniki Stadium|Moscow
+# --- BRACKET SUMMARY (RSSSF) ---
+# RPL QF: CSKA 2-2 DMh (pens 5-4); Krasnodar 7-1 Orenburg agg; Dynamo Ms 3-2 Zenit agg; Spartak 6-3 Lokomotiv agg
+# Reg QF p1: Baltika 2-0; Arsenal pens 3-2 vs Rubin (Rubin OUT); Rostov 3-1; Krylja pens 4-2 vs KAMAZ
+# Reg QF p2: Zenit 1-0; Krylja 2-0; Dinamo Mh 2-0; Lokomotiv 2-1
+# Minor SF: Zenit 1-0 DMh; Krylja pens 5-4 Lokomotiv; CSKA 5-2 Krylja; Spartak pens 7-6 Zenit
+# Major SF: Krasnodar 5-3 agg CSKA; Dynamo Ms 5-3 agg Spartak. Major Final: Krasnodar pens 6-5 Dynamo Ms (0-0/0-0).
+# Minor Final: Spartak 1-0 CSKA. SUPERFINAL: Spartak pens 4-3 Krasnodar (1-1, Solari 37 - Douglas Augusto 57, att 72,978; venue = Luzhniki by city+scale, consistent with the 2024-25 Superfinal print).

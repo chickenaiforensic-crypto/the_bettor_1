@@ -1,0 +1,396 @@
+# LEDGER fra-2025-26 — France 2025/26 (WO-FRA full-span per DECREE-2026-08-04; feed stock for the FRA pack build)
+# Captured 2026-08-04 (researcher session; fetched while working the Russia addendum - transcribed same day per the ledger rule).
+## PRIMARY TRANSCRIPTION — RSSSF fran2026.html (fetched 2026-08-04; page "Last updated: 18 Jun 2026", maintainer Karel Stokkermans)
+# Single-chunk page (complete). VERBATIM structure:
+
+### Ligue 1 final table (34 rounds each):
+ 1.Paris-Saint-Germain FC    34  24  4  6  74-29  76  [C]  Champions
+ 2.RC Lens                   34  22  4  8  66-35  70
+ 3.Lille OSC                 34  18  7  9  52-37  61
+ 4.Olympique Lyonnais        34  18  6 10  53-40  60
+ 5.Olympique de Marseille    34  18  5 11  63-45  59
+ 6.Stade Rennais FC          34  17  8  9  59-50  59
+ 7.AS Monaco                 34  16  6 12  60-54  54
+ 8.RC Strasbourg Alsace      34  15  8 11  58-47  53
+ 9.Toulouse FC               34  12  9 13  47-46  45
+10.FC Lorient                34  11 12 11  48-51  45  [P]
+11.Paris FC                  34  11 11 12  47-50  44  [P]
+12.Stade Brestois            34  10  9 15  43-55  39
+13.Angers SCO                34   9  9 16  29-48  36
+14.Le Havre AC               34   7 14 13  32-44  35
+15.AJ Auxerre                34   8 10 16  34-44  34
+16.OGC Nice                  34   7 11 16  37-60  32       Relegation Playoff
+17.FC Nantes                 34   5  9 20  29-52  24       Relegated
+18.FC Metz                   34   3  8 23  32-76  17  [P]  Relegated
+
+### Promotion/Relegation Playoff 1st/2nd Level:
+Round 1 [May 12] Red Star 2-3 Rodez
+Round 2 [May 15] Saint-Etienne 0-0 Rodez [aet, 7-6 pen]
+Final: First Leg [May 26] Saint-Etienne 0-0 Nice; Second Leg [May 29] Nice 4-1 Saint-Etienne. NB: all remain at former level.
+(WO note: pro/rel ties between L1 and L2 clubs = compType "other" per ERRATA; the L2-internal Red Star/Rodez/Saint-Etienne rounds are the 2nd-level promotion playoff, NOT commissioned - L1 slice discipline: only Nice-Saint-Etienne legs touch the top-flight slice. FLAG for the FRA build decision: mirror the RPL/CZ1 treatment - playoff legs involving the relegation-playoff L1 club ship as "other".)
+
+### Coupe de la France 2025/26 (1/16 forward; RSSSF prints R32=1/16 onward with dates):
+1/16 Finals [Jan 10] Angers 1-1 Toulouse [aet, 5-6 pen]; Montreuil 2-4 Amiens; Bastia 0-2 Troyes; Orleans 1-3 Monaco; Avranches 0-6 Strasbourg; Istres 0-2 Laval; Hauts Lyonnais 1-3 Lorient; Le Puy 0-0 Reims [aet, 0-3 pen]
+[Jan 11] Sochaux 0-3 Lens; Metz 0-4 Montpellier; Nantes 1-1 Nice [aet, 3-5 pen]; Le Mans 0-0 Nancy [aet, 4-1 pen]; Chantilly 1-3 Rennes; Lille 1-2 Lyon
+[Jan 12] Paris-Saint-Germain 0-1 Paris FC
+[Jan 13] Bayeux 0-9 Marseille
+1/8 Finals [Feb 3] Reims 3-0 Le Mans; Marseille 3-0 Rennes; [Feb 4] Lorient 2-0 Paris FC; Nice 3-2 Montpellier; Lyon 2-0 Laval; Toulouse 1-0 Amiens; Troyes 2-4 Lens; [Feb 5] Strasbourg 3-1 Monaco
+Quarterfinals [Mar 3] Strasbourg 2-1 Reims; [Mar 4] Lorient 0-0 Nice [aet, 5-6 pen]; Marseille 2-2 Toulouse [aet, 3-4 pen]; [Mar 5] Lyon 2-2 Lens [aet, 4-5 pen]
+Semifinals [Apr 21] Lens 4-1 Toulouse; [Apr 22] Strasbourg 0-2 Nice
+Final [May 22] Lens 3-1 Nice          (CHAMPIONS: RC Lens, first Coupe de France since 1999-class claim TBD at FRA build vs cup-hist)
+
+### Ligue 2 final table (34):
+ 1.ES Troyes AC 34 20 7 7 60-33 67 Promoted; 2.Le Mans FC 34 16 14 4 50-31 62 [P] Promoted;
+ 3.AS Saint-Etienne 34 18 6 10 59-38 60 [R] Promotion Playoff; 4.Red Star FC 93 34 16 10 8 45-37 58 Promotion Playoff; 5.Rodez 34 15 13 6 45-39 58 Promotion Playoff;
+ 6.Stade de Reims 34 14 14 6 53-45 56 [R]; 7.FC Annecy 52; 8.Montpellier-HSC 34 14 9 11 41-31 51 [R]; 9.Pau FC 45; 10.USL Dunkerque 43; 11.EA Guingamp 40; 12.Grenoble 39; 13.Clermont Foot 37; 14.AS Nancy Lorraine 37 [P]; 15.US Boulogne 36 [P];
+ 16.Stade Lavallois 34 6 14 14 30-48 32 Relegation Playoff; 17.SC Bastia 28 Relegated; 18.Amiens SC 24 Relegated.
+ Playoff 2nd/3rd level: First Leg [May 19] Rouen 1-1 Laval; Second Leg [May 24] Laval 1-0 Rouen. NB: both remain at former level.
+
+### National final table (32 rounds):
+ 1.Dijon FCO 65 Promoted; 2.FC Sochaux-Montbeliard 58 Promoted; 3.FC de Rouen 1899 55 Promotion Playoff; ... ; 16.LB Chateauroux 30 [-1] Relegated; 17.Stade Briochin 27 [P] Relegated; AC Ajaccio excluded.
+ Promoted (into National): VFC La Roche-sur-Yon, US Thionville Lusitanos, AS Cannes.
+ Point deductions noted: Valenciennes [-1], Chateauroux [-1].
+
+## DERIVED FACTS FOR THE FRA BUILD (register; verify again at pack time)
+# Champions 2025-26: PSG (76). 2026-27 Ligue 1 membership: the 16 non-relegated (PSG, Lens, Lille, Lyon, Marseille, Rennes, Monaco, Strasbourg, Toulouse, Lorient, Paris FC, Brest, Angers, Le Havre, Auxerre, Nice) + Troyes + Le Mans.
+# Cup 2025-26 winners: RC Lens (3-1 Nice in the May-22 final). PSG eliminated 0-1 by Paris FC in the 1/16 (Jan 12) - headline upset, will need match-level indexing at build.
+# RSSSF print discipline: cup rounds carry dates; league R-rows for 2025-26 were transcribed in the prior session (see fra-2025-26 R-rows annex at build - currently this ledger holds the season's tables/cup layer; R-row transcription blocks append here at FRA build time).
+
+## R-ROWS ANNEX (2026-08-04): carrier = openfootball/europe france/2025-26_fr1.txt under the
+#  documented source_adaptation (rsssf-fran2026 prints NO league round-by-round - final table only).
+#  Rows converted 1:1 from audit/ledger/fra-2ndidx-2025-26.txt (MDn -> Rn); label ofb-fra-2526.
+#  Strays mapped to their true rounds: MD5 Marseille 1-0 ParisSG (2025-09-22 Monday, storm
+#  postponement under RS-5 banner-appended block); MD26 ParisSG 3-0 Nantes (2026-04-22, dup
+#  RS-26 banner block); MD29 Brest 1-2 Strasbourg + Lens 0-2 ParisSG (2026-05-13, dup RS-29
+#  banner block). Champions-clincher Lens-ParisSG 2026-05-13 sits inside MD29 by date order.
+#  Nantes 0-0 Toulouse MD34 (2026-05-17) abandoned 22' - score UPHELD by LFP (row ships).
+R1|2025-08-15|Rennes|1|0|Marseille
+R1|2025-08-16|Lens|0|1|Lyon
+R1|2025-08-16|Monaco|3|1|LeHavre
+R1|2025-08-16|Nice|0|1|Toulouse
+R1|2025-08-17|Brest|3|3|Lille
+R1|2025-08-17|Metz|0|1|Strasbourg
+R1|2025-08-17|Angers|1|0|ParisFC
+R1|2025-08-17|Auxerre|1|0|Lorient
+R1|2025-08-17|Nantes|0|1|ParisSG
+R2|2025-08-22|ParisSG|1|0|Angers
+R2|2025-08-23|Marseille|5|2|ParisFC
+R2|2025-08-23|Nice|3|1|Auxerre
+R2|2025-08-23|Lyon|3|0|Metz
+R2|2025-08-24|Lorient|4|0|Rennes
+R2|2025-08-24|LeHavre|1|2|Lens
+R2|2025-08-24|Strasbourg|1|0|Nantes
+R2|2025-08-24|Toulouse|2|0|Brest
+R2|2025-08-24|Lille|1|0|Monaco
+R3|2025-08-29|Lens|3|1|Brest
+R3|2025-08-30|Lorient|1|7|Lille
+R3|2025-08-30|Nantes|1|0|Auxerre
+R3|2025-08-30|Toulouse|3|6|ParisSG
+R3|2025-08-31|Angers|1|1|Rennes
+R3|2025-08-31|LeHavre|3|1|Nice
+R3|2025-08-31|ParisFC|3|2|Metz
+R3|2025-08-31|Monaco|3|2|Strasbourg
+R3|2025-08-31|Lyon|1|0|Marseille
+R4|2025-09-12|Marseille|4|0|Lorient
+R4|2025-09-13|Nice|1|0|Nantes
+R4|2025-09-13|Auxerre|1|2|Monaco
+R4|2025-09-14|Lille|2|1|Toulouse
+R4|2025-09-14|ParisSG|2|0|Lens
+R4|2025-09-14|Strasbourg|1|0|LeHavre
+R4|2025-09-14|Metz|1|1|Angers
+R4|2025-09-14|Brest|1|2|ParisFC
+R4|2025-09-14|Rennes|3|1|Lyon
+R5|2025-09-19|Lyon|1|0|Angers
+R5|2025-09-20|Nantes|2|2|Rennes
+R5|2025-09-20|Brest|4|1|Nice
+R5|2025-09-20|Lens|3|0|Lille
+R5|2025-09-21|ParisFC|2|3|Strasbourg
+R5|2025-09-21|Monaco|5|2|Metz
+R5|2025-09-21|Auxerre|1|0|Toulouse
+R5|2025-09-21|LeHavre|1|1|Lorient
+R5|2025-09-22|Marseille|1|0|ParisSG
+R6|2025-09-26|Strasbourg|1|2|Marseille
+R6|2025-09-27|Lorient|3|1|Monaco
+R6|2025-09-27|Toulouse|2|2|Nantes
+R6|2025-09-27|ParisSG|2|0|Auxerre
+R6|2025-09-28|Nice|1|1|ParisFC
+R6|2025-09-28|Lille|0|1|Lyon
+R6|2025-09-28|Angers|0|2|Brest
+R6|2025-09-28|Metz|0|0|LeHavre
+R6|2025-09-28|Rennes|0|0|Lens
+R7|2025-10-03|ParisFC|2|0|Lorient
+R7|2025-10-04|Metz|0|3|Marseille
+R7|2025-10-04|Brest|0|0|Nantes
+R7|2025-10-04|Auxerre|1|2|Lens
+R7|2025-10-05|Lyon|1|2|Toulouse
+R7|2025-10-05|Monaco|2|2|Nice
+R7|2025-10-05|LeHavre|2|2|Rennes
+R7|2025-10-05|Strasbourg|5|0|Angers
+R7|2025-10-05|Lille|1|1|ParisSG
+R8|2025-10-17|ParisSG|3|3|Strasbourg
+R8|2025-10-18|Nice|3|2|Lyon
+R8|2025-10-18|Angers|1|1|Monaco
+R8|2025-10-18|Marseille|6|2|LeHavre
+R8|2025-10-19|Lens|2|1|ParisFC
+R8|2025-10-19|Toulouse|4|0|Metz
+R8|2025-10-19|Rennes|2|2|Auxerre
+R8|2025-10-19|Lorient|3|3|Brest
+R8|2025-10-19|Nantes|0|2|Lille
+R9|2025-10-24|ParisFC|1|2|Nantes
+R9|2025-10-25|Brest|0|3|ParisSG
+R9|2025-10-25|Monaco|1|0|Toulouse
+R9|2025-10-25|Lens|2|1|Marseille
+R9|2025-10-26|Lille|6|1|Metz
+R9|2025-10-26|Angers|2|0|Lorient
+R9|2025-10-26|Auxerre|0|1|LeHavre
+R9|2025-10-26|Rennes|1|2|Nice
+R9|2025-10-26|Lyon|2|1|Strasbourg
+R10|2025-10-29|Lorient|1|1|ParisSG
+R10|2025-10-29|Metz|2|0|Lens
+R10|2025-10-29|Nice|2|0|Lille
+R10|2025-10-29|LeHavre|1|0|Brest
+R10|2025-10-29|ParisFC|3|3|Lyon
+R10|2025-10-29|Marseille|2|2|Angers
+R10|2025-10-29|Strasbourg|3|0|Auxerre
+R10|2025-10-29|Toulouse|2|2|Rennes
+R10|2025-10-29|Nantes|3|5|Monaco
+R11|2025-11-01|ParisSG|1|0|Nice
+R11|2025-11-01|Monaco|0|1|ParisFC
+R11|2025-11-01|Auxerre|0|1|Marseille
+R11|2025-11-02|Rennes|4|1|Strasbourg
+R11|2025-11-02|Nantes|0|2|Metz
+R11|2025-11-02|Lens|3|0|Lorient
+R11|2025-11-02|Toulouse|0|0|LeHavre
+R11|2025-11-02|Lille|1|0|Angers
+R11|2025-11-02|Brest|0|0|Lyon
+R12|2025-11-07|ParisFC|0|1|Rennes
+R12|2025-11-08|Marseille|3|0|Brest
+R12|2025-11-08|LeHavre|1|1|Nantes
+R12|2025-11-08|Monaco|1|4|Lens
+R12|2025-11-09|Lorient|1|1|Toulouse
+R12|2025-11-09|Metz|2|1|Nice
+R12|2025-11-09|Strasbourg|2|0|Lille
+R12|2025-11-09|Angers|2|0|Auxerre
+R12|2025-11-09|Lyon|2|3|ParisSG
+R13|2025-11-21|Nice|1|5|Marseille
+R13|2025-11-22|Lens|1|0|Strasbourg
+R13|2025-11-22|Rennes|4|1|Monaco
+R13|2025-11-22|ParisSG|3|0|LeHavre
+R13|2025-11-23|Auxerre|0|0|Lyon
+R13|2025-11-23|Brest|3|2|Metz
+R13|2025-11-23|Toulouse|0|1|Angers
+R13|2025-11-23|Nantes|1|1|Lorient
+R13|2025-11-23|Lille|4|2|ParisFC
+R14|2025-11-28|Metz|0|1|Rennes
+R14|2025-11-29|Monaco|1|0|ParisSG
+R14|2025-11-29|ParisFC|1|1|Auxerre
+R14|2025-11-29|Marseille|2|2|Toulouse
+R14|2025-11-30|Strasbourg|1|2|Brest
+R14|2025-11-30|Angers|1|2|Lens
+R14|2025-11-30|Lorient|3|1|Nice
+R14|2025-11-30|LeHavre|0|1|Lille
+R14|2025-11-30|Lyon|3|0|Nantes
+R15|2025-12-05|Brest|1|0|Monaco
+R15|2025-12-05|Lille|1|0|Marseille
+R15|2025-12-06|Nantes|1|2|Lens
+R15|2025-12-06|Toulouse|1|0|Strasbourg
+R15|2025-12-06|ParisSG|5|0|Rennes
+R15|2025-12-07|Nice|0|1|Angers
+R15|2025-12-07|LeHavre|0|0|ParisFC
+R15|2025-12-07|Auxerre|3|1|Metz
+R15|2025-12-07|Lorient|1|0|Lyon
+R16|2025-12-12|Angers|4|1|Nantes
+R16|2025-12-13|Rennes|3|1|Brest
+R16|2025-12-13|Metz|2|3|ParisSG
+R16|2025-12-13|ParisFC|0|3|Toulouse
+R16|2025-12-14|Lyon|1|0|LeHavre
+R16|2025-12-14|Auxerre|3|4|Lille
+R16|2025-12-14|Strasbourg|0|0|Lorient
+R16|2025-12-14|Lens|2|0|Nice
+R16|2025-12-14|Marseille|1|0|Monaco
+R17|2026-01-02|Toulouse|0|3|Lens
+R17|2026-01-03|Monaco|1|3|Lyon
+R17|2026-01-03|Nice|1|1|Strasbourg
+R17|2026-01-03|Lille|0|2|Rennes
+R17|2026-01-04|Marseille|0|2|Nantes
+R17|2026-01-04|Brest|2|0|Auxerre
+R17|2026-01-04|Lorient|1|1|Metz
+R17|2026-01-04|LeHavre|2|1|Angers
+R17|2026-01-04|ParisSG|2|1|ParisFC
+R18|2026-01-16|Monaco|1|3|Lorient
+R18|2026-01-16|ParisSG|3|0|Lille
+R18|2026-01-17|Lens|1|0|Auxerre
+R18|2026-01-17|Toulouse|5|1|Nice
+R18|2026-01-17|Angers|2|5|Marseille
+R18|2026-01-18|Strasbourg|2|1|Metz
+R18|2026-01-18|Nantes|1|2|ParisFC
+R18|2026-01-18|Rennes|1|1|LeHavre
+R18|2026-01-18|Lyon|2|1|Brest
+R19|2026-01-23|Auxerre|0|1|ParisSG
+R19|2026-01-24|Rennes|0|2|Lorient
+R19|2026-01-24|LeHavre|0|0|Monaco
+R19|2026-01-24|Marseille|3|1|Lens
+R19|2026-01-25|Nantes|1|4|Nice
+R19|2026-01-25|Metz|2|5|Lyon
+R19|2026-01-25|ParisFC|0|0|Angers
+R19|2026-01-25|Brest|0|2|Toulouse
+R19|2026-01-25|Lille|1|4|Strasbourg
+R20|2026-01-30|Lens|1|0|LeHavre
+R20|2026-01-31|ParisFC|2|2|Marseille
+R20|2026-01-31|Lorient|2|1|Nantes
+R20|2026-01-31|Monaco|4|0|Rennes
+R20|2026-02-01|Lyon|1|0|Lille
+R20|2026-02-01|Angers|1|0|Metz
+R20|2026-02-01|Toulouse|0|0|Auxerre
+R20|2026-02-01|Nice|2|2|Brest
+R20|2026-02-01|Strasbourg|1|2|ParisSG
+R21|2026-02-06|Metz|0|0|Lille
+R21|2026-02-07|Lens|3|1|Rennes
+R21|2026-02-07|Brest|2|0|Lorient
+R21|2026-02-07|Nantes|0|1|Lyon
+R21|2026-02-08|Nice|0|0|Monaco
+R21|2026-02-08|Auxerre|0|0|ParisFC
+R21|2026-02-08|LeHavre|2|1|Strasbourg
+R21|2026-02-08|Angers|1|0|Toulouse
+R21|2026-02-08|ParisSG|5|0|Marseille
+R22|2026-02-13|Rennes|3|1|ParisSG
+R22|2026-02-13|Monaco|3|1|Nantes
+R22|2026-02-14|Marseille|2|2|Strasbourg
+R22|2026-02-14|Lille|1|1|Brest
+R22|2026-02-14|ParisFC|0|5|Lens
+R22|2026-02-15|LeHavre|2|1|Toulouse
+R22|2026-02-15|Lorient|2|0|Angers
+R22|2026-02-15|Metz|1|3|Auxerre
+R22|2026-02-15|Lyon|2|0|Nice
+R23|2026-02-20|Brest|2|0|Marseille
+R23|2026-02-21|Lens|2|3|Monaco
+R23|2026-02-21|Toulouse|1|1|ParisFC
+R23|2026-02-21|ParisSG|3|0|Metz
+R23|2026-02-22|Auxerre|0|3|Rennes
+R23|2026-02-22|Angers|0|1|Lille
+R23|2026-02-22|Nantes|2|0|LeHavre
+R23|2026-02-22|Nice|3|3|Lorient
+R23|2026-02-22|Strasbourg|3|1|Lyon
+R24|2026-02-27|Strasbourg|1|1|Lens
+R24|2026-02-28|Rennes|1|0|Toulouse
+R24|2026-02-28|Monaco|2|0|Angers
+R24|2026-02-28|LeHavre|0|1|ParisSG
+R24|2026-03-01|ParisFC|1|0|Nice
+R24|2026-03-01|Lorient|2|2|Auxerre
+R24|2026-03-01|Metz|0|1|Brest
+R24|2026-03-01|Lille|1|0|Nantes
+R24|2026-03-01|Marseille|3|2|Lyon
+R25|2026-03-06|ParisSG|1|3|Monaco
+R25|2026-03-07|Nantes|0|1|Angers
+R25|2026-03-07|Auxerre|0|0|Strasbourg
+R25|2026-03-07|Toulouse|0|1|Marseille
+R25|2026-03-08|Lens|3|0|Metz
+R25|2026-03-08|Nice|0|4|Rennes
+R25|2026-03-08|Brest|2|0|LeHavre
+R25|2026-03-08|Lille|1|1|Lorient
+R25|2026-03-08|Lyon|1|1|ParisFC
+R26|2026-03-13|Marseille|1|0|Auxerre
+R26|2026-03-14|Lorient|2|1|Lens
+R26|2026-03-14|Angers|0|2|Nice
+R26|2026-03-14|Monaco|2|0|Brest
+R26|2026-03-15|Strasbourg|0|0|ParisFC
+R26|2026-03-15|LeHavre|0|0|Lyon
+R26|2026-03-15|Metz|3|4|Toulouse
+R26|2026-03-15|Rennes|1|2|Lille
+R27|2026-03-20|Lens|5|1|Angers
+R27|2026-03-21|Toulouse|1|0|Lorient
+R27|2026-03-21|Auxerre|3|0|Brest
+R27|2026-03-21|Nice|0|4|ParisSG
+R27|2026-03-22|Lyon|1|2|Monaco
+R27|2026-03-22|Rennes|0|0|Metz
+R27|2026-03-22|Marseille|1|2|Lille
+R27|2026-03-22|ParisFC|3|2|LeHavre
+R27|2026-03-22|Nantes|2|3|Strasbourg
+R28|2026-04-03|ParisSG|3|1|Toulouse
+R28|2026-04-04|Strasbourg|3|1|Nice
+R28|2026-04-04|Brest|3|4|Rennes
+R28|2026-04-04|Lille|3|0|Lens
+R28|2026-04-05|Angers|0|0|Lyon
+R28|2026-04-05|Lorient|1|1|ParisFC
+R28|2026-04-05|Metz|0|0|Nantes
+R28|2026-04-05|LeHavre|1|1|Auxerre
+R28|2026-04-05|Monaco|2|1|Marseille
+R29|2026-04-10|ParisFC|4|1|Monaco
+R29|2026-04-10|Marseille|3|1|Metz
+R29|2026-04-11|Auxerre|0|0|Nantes
+R29|2026-04-11|Rennes|2|1|Angers
+R29|2026-04-12|Toulouse|0|4|Lille
+R29|2026-04-12|Nice|1|1|LeHavre
+R29|2026-04-12|Lyon|2|0|Lorient
+R30|2026-04-17|Lens|3|2|Toulouse
+R30|2026-04-18|Lorient|2|0|Marseille
+R30|2026-04-18|Angers|1|1|LeHavre
+R30|2026-04-18|Lille|0|0|Nice
+R30|2026-04-19|Monaco|2|2|Auxerre
+R30|2026-04-19|Metz|1|3|ParisFC
+R30|2026-04-19|Strasbourg|0|3|Rennes
+R30|2026-04-19|Nantes|1|1|Brest
+R30|2026-04-19|ParisSG|1|2|Lyon
+R26|2026-04-22|ParisSG|3|0|Nantes
+R31|2026-04-24|Brest|3|3|Lens
+R31|2026-04-25|Lyon|3|2|Auxerre
+R31|2026-04-25|Angers|0|3|ParisSG
+R31|2026-04-25|Toulouse|2|2|Monaco
+R31|2026-04-26|Lorient|2|3|Strasbourg
+R31|2026-04-26|ParisFC|0|1|Lille
+R31|2026-04-26|LeHavre|4|4|Metz
+R31|2026-04-26|Rennes|2|1|Nantes
+R31|2026-04-26|Marseille|1|1|Nice
+R32|2026-05-02|Nantes|3|0|Marseille
+R32|2026-05-02|ParisSG|2|2|Lorient
+R32|2026-05-02|Metz|1|2|Monaco
+R32|2026-05-02|Nice|1|1|Lens
+R32|2026-05-03|Lille|1|1|LeHavre
+R32|2026-05-03|Strasbourg|1|2|Toulouse
+R32|2026-05-03|ParisFC|4|0|Brest
+R32|2026-05-03|Auxerre|3|1|Angers
+R32|2026-05-03|Lyon|4|2|Rennes
+R33|2026-05-08|Lens|1|0|Nantes
+R33|2026-05-10|Angers|1|1|Strasbourg
+R33|2026-05-10|Rennes|2|1|ParisFC
+R33|2026-05-10|Auxerre|2|1|Nice
+R33|2026-05-10|LeHavre|0|1|Marseille
+R33|2026-05-10|ParisSG|1|0|Brest
+R33|2026-05-10|Toulouse|2|1|Lyon
+R33|2026-05-10|Monaco|0|1|Lille
+R33|2026-05-10|Metz|0|4|Lorient
+R29|2026-05-13|Brest|1|2|Strasbourg
+R29|2026-05-13|Lens|0|2|ParisSG
+R34|2026-05-17|Nice|0|0|Metz
+R34|2026-05-17|Lille|0|2|Auxerre
+R34|2026-05-17|Marseille|3|1|Rennes
+R34|2026-05-17|Strasbourg|5|4|Monaco
+R34|2026-05-17|Lyon|0|4|Lens
+R34|2026-05-17|ParisFC|2|1|ParisSG
+R34|2026-05-17|Brest|1|1|Angers
+R34|2026-05-17|Lorient|0|2|LeHavre
+R34|2026-05-17|Nantes|0|0|Toulouse
+## TABLE CONSTANTS (machine-readable form of the RSSSF fran2026 final table above)
+TABLE|2025-26|1|ParisSG|34|24|4|6|74|29|76|[C] Champions
+TABLE|2025-26|2|Lens|34|22|4|8|66|35|70|
+TABLE|2025-26|3|Lille|34|18|7|9|52|37|61|
+TABLE|2025-26|4|Lyon|34|18|6|10|53|40|60|
+TABLE|2025-26|5|Marseille|34|18|5|11|63|45|59|
+TABLE|2025-26|6|Rennes|34|17|8|9|59|50|59|
+TABLE|2025-26|7|Monaco|34|16|6|12|60|54|54|
+TABLE|2025-26|8|Strasbourg|34|15|8|11|58|47|53|
+TABLE|2025-26|9|Toulouse|34|12|9|13|47|46|45|
+TABLE|2025-26|10|Lorient|34|11|12|11|48|51|45|[P]
+TABLE|2025-26|11|ParisFC|34|11|11|12|47|50|44|[P]
+TABLE|2025-26|12|Brest|34|10|9|15|43|55|39|
+TABLE|2025-26|13|Angers|34|9|9|16|29|48|36|
+TABLE|2025-26|14|LeHavre|34|7|14|13|32|44|35|
+TABLE|2025-26|15|Auxerre|34|8|10|16|34|44|34|
+TABLE|2025-26|16|Nice|34|7|11|16|37|60|32|Relegation Playoff
+TABLE|2025-26|17|Nantes|34|5|9|20|29|52|24|Relegated
+TABLE|2025-26|18|Metz|34|3|8|23|32|76|17|[P] Relegated
+## PO_PLAYOFF (90-minute doctrine; sources rsssf-fran2026 + wiki 2025-26 playoff boxes; leg2 behind closed doors per wiki box)
+PO_PLAYOFF|2025-26|L2R1|2026-05-12|RedStar|2|3|Rodez||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2R2|2026-05-15|SaintEtienne|0|0|Rodez|aet 7-6 pen|NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|Final-1|2026-05-26|SaintEtienne|0|0|Nice||SHIP-as-other
+PO_PLAYOFF|2025-26|Final-2|2026-05-29|Nice|4|1|SaintEtienne||SHIP-as-other|NB Nice won 4-1 agg, both remain; played behind closed doors

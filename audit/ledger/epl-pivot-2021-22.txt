@@ -1,0 +1,807 @@
+# EPL 2021-22 — PER-CLUB FULL-CAMPAIGN PIVOT LEDGER (owner decree). Derivation: re-derived
+# from audit/ledger/epl-2021-22.txt (all 380 R-rows; each club = its 38 rows stock-name-
+# mapped to pack roster string). Columns: #|MD|<date>|<home-or-away>|<opponent(pack string)>|<GF>|<GA>|<venue>
+# TEAMPIVOT summary lines gated club-for-club against the ledger TABLE constants
+# (W-D-L GF GA PTS) at build time — all 20 PASS (deductions flagged inline). Map:
+# Aston Villa=Villa Crystal Palace=Palace Man City=City Man United=United Nott'm Forest=Nottingham
+# Sheffield United=SheffUtd West Ham=WestHam; all other roster strings identical to stock names.
+
+TEAMPIVOT|Arsenal|P38 W22 D3 L13 GF61 GA48 PTS69
+1|1|2021-08-13|A|Brentford|0|2|away
+2|2|2021-08-22|H|Chelsea|0|2|home
+3|3|2021-08-28|A|Man City|0|5|away
+4|4|2021-09-11|H|Norwich|1|0|home
+5|5|2021-09-18|A|Burnley|1|0|away
+6|6|2021-09-26|H|Tottenham|3|1|home
+7|7|2021-10-02|A|Brighton|0|0|away
+8|8|2021-10-18|H|Crystal Palace|2|2|home
+9|9|2021-10-22|H|Aston Villa|3|1|home
+10|10|2021-10-30|A|Leicester|2|0|away
+11|11|2021-11-07|H|Watford|1|0|home
+12|12|2021-11-20|A|Liverpool|0|4|away
+13|13|2021-11-27|H|Newcastle|2|0|home
+14|14|2021-12-02|A|Man United|2|3|away
+15|15|2021-12-06|A|Everton|1|2|away
+16|16|2021-12-11|H|Southampton|3|0|home
+17|17|2021-12-15|H|West Ham|2|0|home
+18|18|2021-12-18|A|Leeds|4|1|away
+19|19|2021-12-26|A|Norwich|5|0|away
+20|20|2022-02-24|H|Wolves|2|1|home
+21|21|2022-01-01|H|Man City|1|2|home
+22|22|2022-05-12|A|Tottenham|0|3|away
+23|23|2022-01-23|H|Burnley|0|0|home
+24|24|2022-02-10|A|Wolves|1|0|away
+25|25|2022-04-20|A|Chelsea|4|2|away
+26|26|2022-02-19|H|Brentford|2|1|home
+27|27|2022-03-16|H|Liverpool|0|2|home
+28|28|2022-03-06|A|Watford|3|2|away
+29|29|2022-03-13|H|Leicester|2|0|home
+30|30|2022-03-19|A|Aston Villa|1|0|away
+31|31|2022-04-04|A|Crystal Palace|0|3|away
+32|32|2022-04-09|H|Brighton|1|2|home
+33|33|2022-04-16|A|Southampton|0|1|away
+34|34|2022-04-23|H|Man United|3|1|home
+35|35|2022-05-01|A|West Ham|2|1|away
+36|36|2022-05-08|H|Leeds|2|1|home
+37|37|2022-05-16|A|Newcastle|0|2|away
+38|38|2022-05-22|H|Everton|5|1|home
+
+TEAMPIVOT|Brentford|P38 W13 D7 L18 GF48 GA56 PTS46
+1|1|2021-08-13|H|Arsenal|2|0|home
+2|2|2021-08-21|A|Crystal Palace|0|0|away
+3|3|2021-08-28|A|Aston Villa|1|1|away
+4|4|2021-09-11|H|Brighton|0|1|home
+5|5|2021-09-18|A|Wolves|2|0|away
+6|6|2021-09-25|H|Liverpool|3|3|home
+7|7|2021-10-03|A|West Ham|2|1|away
+8|8|2021-10-16|H|Chelsea|0|1|home
+9|9|2021-10-24|H|Leicester|1|2|home
+10|10|2021-10-30|A|Burnley|1|3|away
+11|11|2021-11-06|H|Norwich|1|2|home
+12|12|2021-11-20|A|Newcastle|3|3|away
+13|13|2021-11-28|H|Everton|1|0|home
+14|14|2021-12-02|A|Tottenham|0|2|away
+15|15|2021-12-05|A|Leeds|2|2|away
+16|16|2021-12-10|H|Watford|2|1|home
+17|17|2022-01-19|H|Man United|1|3|home
+18|18|2022-01-11|A|Southampton|1|4|away
+19|19|2021-12-26|A|Brighton|0|2|away
+20|20|2021-12-29|H|Man City|0|1|home
+21|21|2022-01-02|H|Aston Villa|2|1|home
+22|22|2022-01-16|A|Liverpool|0|3|away
+23|23|2022-01-22|H|Wolves|1|2|home
+24|24|2022-02-09|A|Man City|0|2|away
+25|25|2022-02-12|H|Crystal Palace|0|0|home
+26|26|2022-02-19|A|Arsenal|1|2|away
+27|27|2022-02-26|H|Newcastle|0|2|home
+28|28|2022-03-05|A|Norwich|3|1|away
+29|29|2022-03-12|H|Burnley|2|0|home
+30|30|2022-03-20|A|Leicester|1|2|away
+31|31|2022-04-02|A|Chelsea|4|1|away
+32|32|2022-04-10|H|West Ham|2|0|home
+33|33|2022-04-16|A|Watford|2|1|away
+34|34|2022-04-23|H|Tottenham|0|0|home
+35|35|2022-05-02|A|Man United|0|3|away
+36|36|2022-05-07|H|Southampton|3|0|home
+37|37|2022-05-15|A|Everton|3|2|away
+38|38|2022-05-22|H|Leeds|1|2|home
+
+TEAMPIVOT|Brighton|P38 W12 D15 L11 GF42 GA44 PTS51
+1|1|2021-08-14|A|Burnley|2|1|away
+2|2|2021-08-21|H|Watford|2|0|home
+3|3|2021-08-28|H|Everton|0|2|home
+4|4|2021-09-11|A|Brentford|1|0|away
+5|5|2021-09-19|H|Leicester|2|1|home
+6|6|2021-09-27|A|Crystal Palace|1|1|away
+7|7|2021-10-02|H|Arsenal|0|0|home
+8|8|2021-10-16|A|Norwich|0|0|away
+9|9|2021-10-23|H|Man City|1|4|home
+10|10|2021-10-30|A|Liverpool|2|2|away
+11|11|2021-11-06|H|Newcastle|1|1|home
+12|12|2021-11-20|A|Aston Villa|0|2|away
+13|13|2021-11-27|H|Leeds|0|0|home
+14|14|2021-12-01|A|West Ham|1|1|away
+15|15|2021-12-04|A|Southampton|1|1|away
+16|16|2022-03-16|H|Tottenham|0|2|home
+17|17|2021-12-15|H|Wolves|0|1|home
+18|18|2022-02-15|A|Man United|0|2|away
+19|19|2021-12-26|H|Brentford|2|0|home
+20|20|2021-12-29|A|Chelsea|1|1|away
+21|21|2022-01-02|A|Everton|3|2|away
+22|22|2022-01-14|H|Crystal Palace|1|1|home
+23|23|2022-01-23|A|Leicester|1|1|away
+24|24|2022-01-18|H|Chelsea|1|1|home
+25|25|2022-02-12|A|Watford|2|0|away
+26|26|2022-02-19|H|Burnley|0|3|home
+27|27|2022-02-26|H|Aston Villa|0|2|home
+28|28|2022-03-05|A|Newcastle|1|2|away
+29|29|2022-03-12|H|Liverpool|0|2|home
+30|30|2022-04-20|A|Man City|0|3|away
+31|31|2022-04-02|H|Norwich|0|0|home
+32|32|2022-04-09|A|Arsenal|2|1|away
+33|33|2022-04-16|A|Tottenham|1|0|away
+34|34|2022-04-24|H|Southampton|2|2|home
+35|35|2022-04-30|A|Wolves|3|0|away
+36|36|2022-05-07|H|Man United|4|0|home
+37|37|2022-05-15|A|Leeds|1|1|away
+38|38|2022-05-22|H|West Ham|3|1|home
+
+TEAMPIVOT|Burnley|P38 W7 D14 L17 GF34 GA53 PTS35
+1|1|2021-08-14|H|Brighton|1|2|home
+2|2|2021-08-21|A|Liverpool|0|2|away
+3|3|2021-08-29|H|Leeds|1|1|home
+4|4|2021-09-13|A|Everton|1|3|away
+5|5|2021-09-18|H|Arsenal|0|1|home
+6|6|2021-09-25|A|Leicester|2|2|away
+7|7|2021-10-02|H|Norwich|0|0|home
+8|8|2021-10-16|A|Man City|0|2|away
+9|9|2021-10-23|A|Southampton|2|2|away
+10|10|2021-10-30|H|Brentford|3|1|home
+11|11|2021-11-06|A|Chelsea|1|1|away
+12|12|2021-11-20|H|Crystal Palace|3|3|home
+13|13|2022-02-23|H|Tottenham|1|0|home
+14|14|2021-12-01|A|Wolves|0|0|away
+15|15|2021-12-04|A|Newcastle|0|1|away
+16|16|2021-12-12|H|West Ham|0|0|home
+17|17|2022-02-05|H|Watford|0|0|home
+18|18|2022-05-19|A|Aston Villa|1|1|away
+19|19|2022-04-06|H|Everton|3|2|home
+20|20|2021-12-30|A|Man United|1|3|away
+21|21|2022-01-02|A|Leeds|1|3|away
+22|22|2022-03-01|H|Leicester|0|2|home
+23|23|2022-01-23|A|Arsenal|0|0|away
+24|24|2022-02-08|H|Man United|1|1|home
+25|25|2022-02-13|H|Liverpool|0|1|home
+26|26|2022-02-19|A|Brighton|3|0|away
+27|27|2022-02-26|A|Crystal Palace|1|1|away
+28|28|2022-03-05|H|Chelsea|0|4|home
+29|29|2022-03-12|A|Brentford|0|2|away
+30|30|2022-04-21|H|Southampton|2|0|home
+31|31|2022-04-02|H|Man City|0|2|home
+32|32|2022-04-10|A|Norwich|0|2|away
+33|33|2022-04-17|A|West Ham|1|1|away
+34|34|2022-04-24|H|Wolves|1|0|home
+35|35|2022-04-30|A|Watford|2|1|away
+36|36|2022-05-07|H|Aston Villa|1|3|home
+37|37|2022-05-15|A|Tottenham|0|1|away
+38|38|2022-05-22|H|Newcastle|1|2|home
+
+TEAMPIVOT|Chelsea|P38 W21 D11 L6 GF76 GA33 PTS74
+1|1|2021-08-14|H|Crystal Palace|3|0|home
+2|2|2021-08-22|A|Arsenal|2|0|away
+3|3|2021-08-28|A|Liverpool|1|1|away
+4|4|2021-09-11|H|Aston Villa|3|0|home
+5|5|2021-09-19|A|Tottenham|3|0|away
+6|6|2021-09-25|H|Man City|0|1|home
+7|7|2021-10-02|H|Southampton|3|1|home
+8|8|2021-10-16|A|Brentford|1|0|away
+9|9|2021-10-23|H|Norwich|7|0|home
+10|10|2021-10-30|A|Newcastle|3|0|away
+11|11|2021-11-06|H|Burnley|1|1|home
+12|12|2021-11-20|A|Leicester|3|0|away
+13|13|2021-11-28|H|Man United|1|1|home
+14|14|2021-12-01|A|Watford|2|1|away
+15|15|2021-12-04|A|West Ham|2|3|away
+16|16|2021-12-11|H|Leeds|3|2|home
+17|17|2021-12-16|H|Everton|1|1|home
+18|18|2021-12-19|A|Wolves|0|0|away
+19|19|2021-12-26|A|Aston Villa|3|1|away
+20|20|2021-12-29|H|Brighton|1|1|home
+21|21|2022-01-02|H|Liverpool|2|2|home
+22|22|2022-01-15|A|Man City|0|1|away
+23|23|2022-01-23|H|Tottenham|2|0|home
+24|24|2022-01-18|A|Brighton|1|1|away
+25|25|2022-04-20|H|Arsenal|2|4|home
+26|26|2022-02-19|A|Crystal Palace|1|0|away
+27|27|2022-05-19|H|Leicester|1|1|home
+28|28|2022-03-05|A|Burnley|4|0|away
+29|29|2022-03-13|H|Newcastle|1|0|home
+30|30|2022-03-10|A|Norwich|3|1|away
+31|31|2022-04-02|H|Brentford|1|4|home
+32|32|2022-04-09|A|Southampton|6|0|away
+33|33|2022-05-11|A|Leeds|3|0|away
+34|34|2022-04-24|H|West Ham|1|0|home
+35|35|2022-05-01|A|Everton|0|1|away
+36|36|2022-05-07|H|Wolves|2|2|home
+37|37|2022-04-28|A|Man United|1|1|away
+38|38|2022-05-22|H|Watford|2|1|home
+
+TEAMPIVOT|Man City|P38 W29 D6 L3 GF99 GA26 PTS93
+1|1|2021-08-15|A|Tottenham|0|1|away
+2|2|2021-08-21|H|Norwich|5|0|home
+3|3|2021-08-28|H|Arsenal|5|0|home
+4|4|2021-09-11|A|Leicester|1|0|away
+5|5|2021-09-18|H|Southampton|0|0|home
+6|6|2021-09-25|A|Chelsea|1|0|away
+7|7|2021-10-03|A|Liverpool|2|2|away
+8|8|2021-10-16|H|Burnley|2|0|home
+9|9|2021-10-23|A|Brighton|4|1|away
+10|10|2021-10-30|H|Crystal Palace|0|2|home
+11|11|2021-11-06|A|Man United|2|0|away
+12|12|2021-11-21|H|Everton|3|0|home
+13|13|2021-11-28|H|West Ham|2|1|home
+14|14|2021-12-01|A|Aston Villa|2|1|away
+15|15|2021-12-04|A|Watford|3|1|away
+16|16|2021-12-11|H|Wolves|1|0|home
+17|17|2021-12-14|H|Leeds|7|0|home
+18|18|2021-12-19|A|Newcastle|4|0|away
+19|19|2021-12-26|H|Leicester|6|3|home
+20|20|2021-12-29|A|Brentford|1|0|away
+21|21|2022-01-01|A|Arsenal|2|1|away
+22|22|2022-01-15|H|Chelsea|1|0|home
+23|23|2022-01-22|A|Southampton|1|1|away
+24|24|2022-02-09|H|Brentford|2|0|home
+25|25|2022-02-12|A|Norwich|4|0|away
+26|26|2022-02-19|H|Tottenham|2|3|home
+27|27|2022-02-26|A|Everton|1|0|away
+28|28|2022-03-06|H|Man United|4|1|home
+29|29|2022-03-14|A|Crystal Palace|0|0|away
+30|30|2022-04-20|H|Brighton|3|0|home
+31|31|2022-04-02|A|Burnley|2|0|away
+32|32|2022-04-10|H|Liverpool|2|2|home
+33|33|2022-05-11|A|Wolves|5|1|away
+34|34|2022-04-23|H|Watford|5|1|home
+35|35|2022-04-30|A|Leeds|4|0|away
+36|36|2022-05-08|H|Newcastle|5|0|home
+37|37|2022-05-15|A|West Ham|2|2|away
+38|38|2022-05-22|H|Aston Villa|3|2|home
+
+TEAMPIVOT|Everton|P38 W11 D6 L21 GF43 GA66 PTS39
+1|1|2021-08-14|H|Southampton|3|1|home
+2|2|2021-08-21|A|Leeds|2|2|away
+3|3|2021-08-28|A|Brighton|2|0|away
+4|4|2021-09-13|H|Burnley|3|1|home
+5|5|2021-09-18|A|Aston Villa|0|3|away
+6|6|2021-09-25|H|Norwich|2|0|home
+7|7|2021-10-02|A|Man United|1|1|away
+8|8|2021-10-17|H|West Ham|0|1|home
+9|9|2021-10-23|H|Watford|2|5|home
+10|10|2021-11-01|A|Wolves|1|2|away
+11|11|2021-11-07|H|Tottenham|0|0|home
+12|12|2021-11-21|A|Man City|0|3|away
+13|13|2021-11-28|A|Brentford|0|1|away
+14|14|2021-12-01|H|Liverpool|1|4|home
+15|15|2021-12-06|H|Arsenal|2|1|home
+16|16|2021-12-12|A|Crystal Palace|1|3|away
+17|17|2021-12-16|A|Chelsea|1|1|away
+18|18|2022-04-20|H|Leicester|1|1|home
+19|19|2022-04-06|A|Burnley|2|3|away
+20|20|2022-03-17|H|Newcastle|1|0|home
+21|21|2022-01-02|H|Brighton|2|3|home
+22|22|2022-01-15|A|Norwich|1|2|away
+23|23|2022-01-22|H|Aston Villa|0|1|home
+24|24|2022-02-08|A|Newcastle|1|3|away
+25|25|2022-02-12|H|Leeds|3|0|home
+26|26|2022-02-19|A|Southampton|0|2|away
+27|27|2022-02-26|H|Man City|0|1|home
+28|28|2022-03-07|A|Tottenham|0|5|away
+29|29|2022-03-13|H|Wolves|0|1|home
+30|30|2022-05-11|A|Watford|0|0|away
+31|31|2022-04-03|A|West Ham|1|2|away
+32|32|2022-04-09|H|Man United|1|0|home
+33|33|2022-05-19|H|Crystal Palace|3|2|home
+34|34|2022-04-24|A|Liverpool|0|2|away
+35|35|2022-05-01|H|Chelsea|1|0|home
+36|36|2022-05-08|A|Leicester|2|1|away
+37|37|2022-05-15|H|Brentford|2|3|home
+38|38|2022-05-22|A|Arsenal|1|5|away
+
+TEAMPIVOT|Leeds|P38 W9 D11 L18 GF42 GA79 PTS38
+1|1|2021-08-14|A|Man United|1|5|away
+2|2|2021-08-21|H|Everton|2|2|home
+3|3|2021-08-29|A|Burnley|1|1|away
+4|4|2021-09-12|H|Liverpool|0|3|home
+5|5|2021-09-17|A|Newcastle|1|1|away
+6|6|2021-09-25|H|West Ham|1|2|home
+7|7|2021-10-02|H|Watford|1|0|home
+8|8|2021-10-16|A|Southampton|0|1|away
+9|9|2021-10-23|H|Wolves|1|1|home
+10|10|2021-10-31|A|Norwich|2|1|away
+11|11|2021-11-07|H|Leicester|1|1|home
+12|12|2021-11-21|A|Tottenham|1|2|away
+13|13|2021-11-27|A|Brighton|0|0|away
+14|14|2021-11-30|H|Crystal Palace|1|0|home
+15|15|2021-12-05|H|Brentford|2|2|home
+16|16|2021-12-11|A|Chelsea|2|3|away
+17|17|2021-12-14|A|Man City|0|7|away
+18|18|2021-12-18|H|Arsenal|1|4|home
+19|19|2022-02-23|A|Liverpool|0|6|away
+20|20|2022-03-10|H|Aston Villa|0|3|home
+21|21|2022-01-02|H|Burnley|3|1|home
+22|22|2022-01-16|A|West Ham|3|2|away
+23|23|2022-01-22|H|Newcastle|0|1|home
+24|24|2022-02-09|A|Aston Villa|3|3|away
+25|25|2022-02-12|A|Everton|0|3|away
+26|26|2022-02-20|H|Man United|2|4|home
+27|27|2022-02-26|H|Tottenham|0|4|home
+28|28|2022-03-05|A|Leicester|0|1|away
+29|29|2022-03-13|H|Norwich|2|1|home
+30|30|2022-03-18|A|Wolves|3|2|away
+31|31|2022-04-02|H|Southampton|1|1|home
+32|32|2022-04-09|A|Watford|3|0|away
+33|33|2022-05-11|H|Chelsea|0|3|home
+34|34|2022-04-25|A|Crystal Palace|0|0|away
+35|35|2022-04-30|H|Man City|0|4|home
+36|36|2022-05-08|A|Arsenal|1|2|away
+37|37|2022-05-15|H|Brighton|1|1|home
+38|38|2022-05-22|A|Brentford|2|1|away
+
+TEAMPIVOT|Leicester|P38 W14 D10 L14 GF62 GA59 PTS52
+1|1|2021-08-14|H|Wolves|1|0|home
+2|2|2021-08-23|A|West Ham|1|4|away
+3|3|2021-08-28|A|Norwich|2|1|away
+4|4|2021-09-11|H|Man City|0|1|home
+5|5|2021-09-19|A|Brighton|1|2|away
+6|6|2021-09-25|H|Burnley|2|2|home
+7|7|2021-10-03|A|Crystal Palace|2|2|away
+8|8|2021-10-16|H|Man United|4|2|home
+9|9|2021-10-24|A|Brentford|2|1|away
+10|10|2021-10-30|H|Arsenal|0|2|home
+11|11|2021-11-07|A|Leeds|1|1|away
+12|12|2021-11-20|H|Chelsea|0|3|home
+13|13|2021-11-28|H|Watford|4|2|home
+14|14|2021-12-01|A|Southampton|2|2|away
+15|15|2021-12-05|A|Aston Villa|1|2|away
+16|16|2021-12-12|H|Newcastle|4|0|home
+17|17|2022-01-19|H|Tottenham|2|3|home
+18|18|2022-04-20|A|Everton|1|1|away
+19|19|2021-12-26|A|Man City|3|6|away
+20|20|2021-12-28|H|Liverpool|1|0|home
+21|21|2022-05-11|H|Norwich|3|0|home
+22|22|2022-03-01|A|Burnley|2|0|away
+23|23|2022-01-23|H|Brighton|1|1|home
+24|24|2022-02-10|A|Liverpool|0|2|away
+25|25|2022-02-13|H|West Ham|2|2|home
+26|26|2022-02-20|A|Wolves|1|2|away
+27|27|2022-05-19|A|Chelsea|1|1|away
+28|28|2022-03-05|H|Leeds|1|0|home
+29|29|2022-03-13|A|Arsenal|0|2|away
+30|30|2022-03-20|H|Brentford|2|1|home
+31|31|2022-04-02|A|Man United|1|1|away
+32|32|2022-04-10|H|Crystal Palace|2|1|home
+33|33|2022-04-17|A|Newcastle|1|2|away
+34|34|2022-04-23|H|Aston Villa|0|0|home
+35|35|2022-05-01|A|Tottenham|1|3|away
+36|36|2022-05-08|H|Everton|1|2|home
+37|37|2022-05-15|A|Watford|5|1|away
+38|38|2022-05-22|H|Southampton|4|1|home
+
+TEAMPIVOT|Liverpool|P38 W28 D8 L2 GF94 GA26 PTS92
+1|1|2021-08-14|A|Norwich|3|0|away
+2|2|2021-08-21|H|Burnley|2|0|home
+3|3|2021-08-28|H|Chelsea|1|1|home
+4|4|2021-09-12|A|Leeds|3|0|away
+5|5|2021-09-18|H|Crystal Palace|3|0|home
+6|6|2021-09-25|A|Brentford|3|3|away
+7|7|2021-10-03|H|Man City|2|2|home
+8|8|2021-10-16|A|Watford|5|0|away
+9|9|2021-10-24|A|Man United|5|0|away
+10|10|2021-10-30|H|Brighton|2|2|home
+11|11|2021-11-07|A|West Ham|2|3|away
+12|12|2021-11-20|H|Arsenal|4|0|home
+13|13|2021-11-27|H|Southampton|4|0|home
+14|14|2021-12-01|A|Everton|4|1|away
+15|15|2021-12-04|A|Wolves|1|0|away
+16|16|2021-12-11|H|Aston Villa|1|0|home
+17|17|2021-12-16|H|Newcastle|3|1|home
+18|18|2021-12-19|A|Tottenham|2|2|away
+19|19|2022-02-23|H|Leeds|6|0|home
+20|20|2021-12-28|A|Leicester|0|1|away
+21|21|2022-01-02|A|Chelsea|2|2|away
+22|22|2022-01-16|H|Brentford|3|0|home
+23|23|2022-01-23|A|Crystal Palace|3|1|away
+24|24|2022-02-10|H|Leicester|2|0|home
+25|25|2022-02-13|A|Burnley|1|0|away
+26|26|2022-02-19|H|Norwich|3|1|home
+27|27|2022-03-16|A|Arsenal|2|0|away
+28|28|2022-03-05|H|West Ham|1|0|home
+29|29|2022-03-12|A|Brighton|2|0|away
+30|30|2022-04-19|H|Man United|4|0|home
+31|31|2022-04-02|H|Watford|2|0|home
+32|32|2022-04-10|A|Man City|2|2|away
+33|33|2022-05-10|A|Aston Villa|2|1|away
+34|34|2022-04-24|H|Everton|2|0|home
+35|35|2022-04-30|A|Newcastle|1|0|away
+36|36|2022-05-07|H|Tottenham|1|1|home
+37|37|2022-05-17|A|Southampton|2|1|away
+38|38|2022-05-22|H|Wolves|3|1|home
+
+TEAMPIVOT|Newcastle|P38 W13 D10 L15 GF44 GA62 PTS49
+1|1|2021-08-15|H|West Ham|2|4|home
+2|2|2021-08-21|A|Aston Villa|0|2|away
+3|3|2021-08-28|H|Southampton|2|2|home
+4|4|2021-09-11|A|Man United|1|4|away
+5|5|2021-09-17|H|Leeds|1|1|home
+6|6|2021-09-25|A|Watford|1|1|away
+7|7|2021-10-02|A|Wolves|1|2|away
+8|8|2021-10-17|H|Tottenham|2|3|home
+9|9|2021-10-23|A|Crystal Palace|1|1|away
+10|10|2021-10-30|H|Chelsea|0|3|home
+11|11|2021-11-06|A|Brighton|1|1|away
+12|12|2021-11-20|H|Brentford|3|3|home
+13|13|2021-11-27|A|Arsenal|0|2|away
+14|14|2021-11-30|H|Norwich|1|1|home
+15|15|2021-12-04|H|Burnley|1|0|home
+16|16|2021-12-12|A|Leicester|0|4|away
+17|17|2021-12-16|A|Liverpool|1|3|away
+18|18|2021-12-19|H|Man City|0|4|home
+19|19|2021-12-27|H|Man United|1|1|home
+20|20|2022-03-17|A|Everton|0|1|away
+21|21|2022-03-10|A|Southampton|2|1|away
+22|22|2022-01-15|H|Watford|1|1|home
+23|23|2022-01-22|A|Leeds|1|0|away
+24|24|2022-02-08|H|Everton|3|1|home
+25|25|2022-02-13|H|Aston Villa|1|0|home
+26|26|2022-02-19|A|West Ham|1|1|away
+27|27|2022-02-26|A|Brentford|2|0|away
+28|28|2022-03-05|H|Brighton|2|1|home
+29|29|2022-03-13|A|Chelsea|0|1|away
+30|30|2022-04-20|H|Crystal Palace|1|0|home
+31|31|2022-04-03|A|Tottenham|1|5|away
+32|32|2022-04-08|H|Wolves|1|0|home
+33|33|2022-04-17|H|Leicester|2|1|home
+34|34|2022-04-23|A|Norwich|3|0|away
+35|35|2022-04-30|H|Liverpool|0|1|home
+36|36|2022-05-08|A|Man City|0|5|away
+37|37|2022-05-16|H|Arsenal|2|0|home
+38|38|2022-05-22|A|Burnley|2|1|away
+
+TEAMPIVOT|Norwich|P38 W5 D7 L26 GF23 GA84 PTS22
+1|1|2021-08-14|H|Liverpool|0|3|home
+2|2|2021-08-21|A|Man City|0|5|away
+3|3|2021-08-28|H|Leicester|1|2|home
+4|4|2021-09-11|A|Arsenal|0|1|away
+5|5|2021-09-18|H|Watford|1|3|home
+6|6|2021-09-25|A|Everton|0|2|away
+7|7|2021-10-02|A|Burnley|0|0|away
+8|8|2021-10-16|H|Brighton|0|0|home
+9|9|2021-10-23|A|Chelsea|0|7|away
+10|10|2021-10-31|H|Leeds|1|2|home
+11|11|2021-11-06|A|Brentford|2|1|away
+12|12|2021-11-20|H|Southampton|2|1|home
+13|13|2021-11-27|H|Wolves|0|0|home
+14|14|2021-11-30|A|Newcastle|1|1|away
+15|15|2021-12-05|A|Tottenham|0|3|away
+16|16|2021-12-11|H|Man United|0|1|home
+17|17|2021-12-14|H|Aston Villa|0|2|home
+18|18|2022-01-12|A|West Ham|0|2|away
+19|19|2021-12-26|H|Arsenal|0|5|home
+20|20|2021-12-28|A|Crystal Palace|0|3|away
+21|21|2022-05-11|A|Leicester|0|3|away
+22|22|2022-01-15|H|Everton|2|1|home
+23|23|2022-01-21|A|Watford|3|0|away
+24|24|2022-02-09|H|Crystal Palace|1|1|home
+25|25|2022-02-12|H|Man City|0|4|home
+26|26|2022-02-19|A|Liverpool|1|3|away
+27|27|2022-02-25|A|Southampton|0|2|away
+28|28|2022-03-05|H|Brentford|1|3|home
+29|29|2022-03-13|A|Leeds|1|2|away
+30|30|2022-03-10|H|Chelsea|1|3|home
+31|31|2022-04-02|A|Brighton|0|0|away
+32|32|2022-04-10|H|Burnley|2|0|home
+33|33|2022-04-16|A|Man United|2|3|away
+34|34|2022-04-23|H|Newcastle|0|3|home
+35|35|2022-04-30|A|Aston Villa|0|2|away
+36|36|2022-05-08|H|West Ham|0|4|home
+37|37|2022-05-15|A|Wolves|1|1|away
+38|38|2022-05-22|H|Tottenham|0|5|home
+
+TEAMPIVOT|Crystal Palace|P38 W11 D15 L12 GF50 GA46 PTS48
+1|1|2021-08-14|A|Chelsea|0|3|away
+2|2|2021-08-21|H|Brentford|0|0|home
+3|3|2021-08-28|A|West Ham|2|2|away
+4|4|2021-09-11|H|Tottenham|3|0|home
+5|5|2021-09-18|A|Liverpool|0|3|away
+6|6|2021-09-27|H|Brighton|1|1|home
+7|7|2021-10-03|H|Leicester|2|2|home
+8|8|2021-10-18|A|Arsenal|2|2|away
+9|9|2021-10-23|H|Newcastle|1|1|home
+10|10|2021-10-30|A|Man City|2|0|away
+11|11|2021-11-06|H|Wolves|2|0|home
+12|12|2021-11-20|A|Burnley|3|3|away
+13|13|2021-11-27|H|Aston Villa|1|2|home
+14|14|2021-11-30|A|Leeds|0|1|away
+15|15|2021-12-05|A|Man United|0|1|away
+16|16|2021-12-12|H|Everton|3|1|home
+17|17|2021-12-15|H|Southampton|2|2|home
+18|18|2022-02-23|A|Watford|4|1|away
+19|19|2021-12-26|A|Tottenham|0|3|away
+20|20|2021-12-28|H|Norwich|3|0|home
+21|21|2022-01-01|H|West Ham|2|3|home
+22|22|2022-01-14|A|Brighton|1|1|away
+23|23|2022-01-23|H|Liverpool|1|3|home
+24|24|2022-02-09|A|Norwich|1|1|away
+25|25|2022-02-12|A|Brentford|0|0|away
+26|26|2022-02-19|H|Chelsea|0|1|home
+27|27|2022-02-26|H|Burnley|1|1|home
+28|28|2022-03-05|A|Wolves|2|0|away
+29|29|2022-03-14|H|Man City|0|0|home
+30|30|2022-04-20|A|Newcastle|0|1|away
+31|31|2022-04-04|H|Arsenal|3|0|home
+32|32|2022-04-10|A|Leicester|1|2|away
+33|33|2022-05-19|A|Everton|2|3|away
+34|34|2022-04-25|H|Leeds|0|0|home
+35|35|2022-04-30|A|Southampton|2|1|away
+36|36|2022-05-07|H|Watford|1|0|home
+37|37|2022-05-15|A|Aston Villa|1|1|away
+38|38|2022-05-22|H|Man United|1|0|home
+
+TEAMPIVOT|Southampton|P38 W9 D13 L16 GF43 GA67 PTS40
+1|1|2021-08-14|A|Everton|1|3|away
+2|2|2021-08-22|H|Man United|1|1|home
+3|3|2021-08-28|A|Newcastle|2|2|away
+4|4|2021-09-11|H|West Ham|0|0|home
+5|5|2021-09-18|A|Man City|0|0|away
+6|6|2021-09-26|H|Wolves|0|1|home
+7|7|2021-10-02|A|Chelsea|1|3|away
+8|8|2021-10-16|H|Leeds|1|0|home
+9|9|2021-10-23|H|Burnley|2|2|home
+10|10|2021-10-30|A|Watford|1|0|away
+11|11|2021-11-05|H|Aston Villa|1|0|home
+12|12|2021-11-20|A|Norwich|1|2|away
+13|13|2021-11-27|A|Liverpool|0|4|away
+14|14|2021-12-01|H|Leicester|2|2|home
+15|15|2021-12-04|H|Brighton|1|1|home
+16|16|2021-12-11|A|Arsenal|0|3|away
+17|17|2021-12-15|A|Crystal Palace|2|2|away
+18|18|2022-01-11|H|Brentford|4|1|home
+19|19|2021-12-26|A|West Ham|3|2|away
+20|20|2021-12-28|H|Tottenham|1|1|home
+21|21|2022-03-10|H|Newcastle|1|2|home
+22|22|2022-01-15|A|Wolves|1|3|away
+23|23|2022-01-22|H|Man City|1|1|home
+24|24|2022-02-09|A|Tottenham|3|2|away
+25|25|2022-02-12|A|Man United|1|1|away
+26|26|2022-02-19|H|Everton|2|0|home
+27|27|2022-02-25|H|Norwich|2|0|home
+28|28|2022-03-05|A|Aston Villa|0|4|away
+29|29|2022-03-13|H|Watford|1|2|home
+30|30|2022-04-21|A|Burnley|0|2|away
+31|31|2022-04-02|A|Leeds|1|1|away
+32|32|2022-04-09|H|Chelsea|0|6|home
+33|33|2022-04-16|H|Arsenal|1|0|home
+34|34|2022-04-24|A|Brighton|2|2|away
+35|35|2022-04-30|H|Crystal Palace|1|2|home
+36|36|2022-05-07|A|Brentford|0|3|away
+37|37|2022-05-17|H|Liverpool|1|2|home
+38|38|2022-05-22|A|Leicester|1|4|away
+
+TEAMPIVOT|Tottenham|P38 W22 D5 L11 GF69 GA40 PTS71
+1|1|2021-08-15|H|Man City|1|0|home
+2|2|2021-08-22|A|Wolves|1|0|away
+3|3|2021-08-29|H|Watford|1|0|home
+4|4|2021-09-11|A|Crystal Palace|0|3|away
+5|5|2021-09-19|H|Chelsea|0|3|home
+6|6|2021-09-26|A|Arsenal|1|3|away
+7|7|2021-10-03|H|Aston Villa|2|1|home
+8|8|2021-10-17|A|Newcastle|3|2|away
+9|9|2021-10-24|A|West Ham|0|1|away
+10|10|2021-10-30|H|Man United|0|3|home
+11|11|2021-11-07|A|Everton|0|0|away
+12|12|2021-11-21|H|Leeds|2|1|home
+13|13|2022-02-23|A|Burnley|0|1|away
+14|14|2021-12-02|H|Brentford|2|0|home
+15|15|2021-12-05|H|Norwich|3|0|home
+16|16|2022-03-16|A|Brighton|2|0|away
+17|17|2022-01-19|A|Leicester|3|2|away
+18|18|2021-12-19|H|Liverpool|2|2|home
+19|19|2021-12-26|H|Crystal Palace|3|0|home
+20|20|2021-12-28|A|Southampton|1|1|away
+21|21|2022-01-01|A|Watford|1|0|away
+22|22|2022-05-12|H|Arsenal|3|0|home
+23|23|2022-01-23|A|Chelsea|0|2|away
+24|24|2022-02-09|H|Southampton|2|3|home
+25|25|2022-02-13|H|Wolves|0|2|home
+26|26|2022-02-19|A|Man City|3|2|away
+27|27|2022-02-26|A|Leeds|4|0|away
+28|28|2022-03-07|H|Everton|5|0|home
+29|29|2022-03-12|A|Man United|2|3|away
+30|30|2022-03-20|H|West Ham|3|1|home
+31|31|2022-04-03|H|Newcastle|5|1|home
+32|32|2022-04-09|A|Aston Villa|4|0|away
+33|33|2022-04-16|H|Brighton|0|1|home
+34|34|2022-04-23|A|Brentford|0|0|away
+35|35|2022-05-01|H|Leicester|3|1|home
+36|36|2022-05-07|A|Liverpool|1|1|away
+37|37|2022-05-15|H|Burnley|1|0|home
+38|38|2022-05-22|A|Norwich|5|0|away
+
+TEAMPIVOT|Man United|P38 W16 D10 L12 GF57 GA57 PTS58
+1|1|2021-08-14|H|Leeds|5|1|home
+2|2|2021-08-22|A|Southampton|1|1|away
+3|3|2021-08-29|A|Wolves|1|0|away
+4|4|2021-09-11|H|Newcastle|4|1|home
+5|5|2021-09-19|A|West Ham|2|1|away
+6|6|2021-09-25|H|Aston Villa|0|1|home
+7|7|2021-10-02|H|Everton|1|1|home
+8|8|2021-10-16|A|Leicester|2|4|away
+9|9|2021-10-24|H|Liverpool|0|5|home
+10|10|2021-10-30|A|Tottenham|3|0|away
+11|11|2021-11-06|H|Man City|0|2|home
+12|12|2021-11-20|A|Watford|1|4|away
+13|13|2021-11-28|A|Chelsea|1|1|away
+14|14|2021-12-02|H|Arsenal|3|2|home
+15|15|2021-12-05|H|Crystal Palace|1|0|home
+16|16|2021-12-11|A|Norwich|1|0|away
+17|17|2022-01-19|A|Brentford|3|1|away
+18|18|2022-02-15|H|Brighton|2|0|home
+19|19|2021-12-27|A|Newcastle|1|1|away
+20|20|2021-12-30|H|Burnley|3|1|home
+21|21|2022-01-03|H|Wolves|0|1|home
+22|22|2022-01-15|A|Aston Villa|2|2|away
+23|23|2022-01-22|H|West Ham|1|0|home
+24|24|2022-02-08|A|Burnley|1|1|away
+25|25|2022-02-12|H|Southampton|1|1|home
+26|26|2022-02-20|A|Leeds|4|2|away
+27|27|2022-02-26|H|Watford|0|0|home
+28|28|2022-03-06|A|Man City|1|4|away
+29|29|2022-03-12|H|Tottenham|3|2|home
+30|30|2022-04-19|A|Liverpool|0|4|away
+31|31|2022-04-02|H|Leicester|1|1|home
+32|32|2022-04-09|A|Everton|0|1|away
+33|33|2022-04-16|H|Norwich|3|2|home
+34|34|2022-04-23|A|Arsenal|1|3|away
+35|35|2022-05-02|H|Brentford|3|0|home
+36|36|2022-05-07|A|Brighton|0|4|away
+37|37|2022-04-28|H|Chelsea|1|1|home
+38|38|2022-05-22|A|Crystal Palace|0|1|away
+
+TEAMPIVOT|Aston Villa|P38 W13 D6 L19 GF52 GA54 PTS45
+1|1|2021-08-14|A|Watford|2|3|away
+2|2|2021-08-21|H|Newcastle|2|0|home
+3|3|2021-08-28|H|Brentford|1|1|home
+4|4|2021-09-11|A|Chelsea|0|3|away
+5|5|2021-09-18|H|Everton|3|0|home
+6|6|2021-09-25|A|Man United|1|0|away
+7|7|2021-10-03|A|Tottenham|1|2|away
+8|8|2021-10-16|H|Wolves|2|3|home
+9|9|2021-10-22|A|Arsenal|1|3|away
+10|10|2021-10-31|H|West Ham|1|4|home
+11|11|2021-11-05|A|Southampton|0|1|away
+12|12|2021-11-20|H|Brighton|2|0|home
+13|13|2021-11-27|A|Crystal Palace|2|1|away
+14|14|2021-12-01|H|Man City|1|2|home
+15|15|2021-12-05|H|Leicester|2|1|home
+16|16|2021-12-11|A|Liverpool|0|1|away
+17|17|2021-12-14|A|Norwich|2|0|away
+18|18|2022-05-19|H|Burnley|1|1|home
+19|19|2021-12-26|H|Chelsea|1|3|home
+20|20|2022-03-10|A|Leeds|3|0|away
+21|21|2022-01-02|A|Brentford|1|2|away
+22|22|2022-01-15|H|Man United|2|2|home
+23|23|2022-01-22|A|Everton|1|0|away
+24|24|2022-02-09|H|Leeds|3|3|home
+25|25|2022-02-13|A|Newcastle|0|1|away
+26|26|2022-02-19|H|Watford|0|1|home
+27|27|2022-02-26|A|Brighton|2|0|away
+28|28|2022-03-05|H|Southampton|4|0|home
+29|29|2022-03-13|A|West Ham|1|2|away
+30|30|2022-03-19|H|Arsenal|0|1|home
+31|31|2022-04-02|A|Wolves|1|2|away
+32|32|2022-04-09|H|Tottenham|0|4|home
+33|33|2022-05-10|H|Liverpool|1|2|home
+34|34|2022-04-23|A|Leicester|0|0|away
+35|35|2022-04-30|H|Norwich|2|0|home
+36|36|2022-05-07|A|Burnley|3|1|away
+37|37|2022-05-15|H|Crystal Palace|1|1|home
+38|38|2022-05-22|A|Man City|2|3|away
+
+TEAMPIVOT|Watford|P38 W6 D5 L27 GF34 GA77 PTS23
+1|1|2021-08-14|H|Aston Villa|3|2|home
+2|2|2021-08-21|A|Brighton|0|2|away
+3|3|2021-08-29|A|Tottenham|0|1|away
+4|4|2021-09-11|H|Wolves|0|2|home
+5|5|2021-09-18|A|Norwich|3|1|away
+6|6|2021-09-25|H|Newcastle|1|1|home
+7|7|2021-10-02|A|Leeds|0|1|away
+8|8|2021-10-16|H|Liverpool|0|5|home
+9|9|2021-10-23|A|Everton|5|2|away
+10|10|2021-10-30|H|Southampton|0|1|home
+11|11|2021-11-07|A|Arsenal|0|1|away
+12|12|2021-11-20|H|Man United|4|1|home
+13|13|2021-11-28|A|Leicester|2|4|away
+14|14|2021-12-01|H|Chelsea|1|2|home
+15|15|2021-12-04|H|Man City|1|3|home
+16|16|2021-12-10|A|Brentford|1|2|away
+17|17|2022-02-05|A|Burnley|0|0|away
+18|18|2022-02-23|H|Crystal Palace|1|4|home
+19|19|2022-03-10|A|Wolves|0|4|away
+20|20|2021-12-28|H|West Ham|1|4|home
+21|21|2022-01-01|H|Tottenham|0|1|home
+22|22|2022-01-15|A|Newcastle|1|1|away
+23|23|2022-01-21|H|Norwich|0|3|home
+24|24|2022-02-08|A|West Ham|0|1|away
+25|25|2022-02-12|H|Brighton|0|2|home
+26|26|2022-02-19|A|Aston Villa|1|0|away
+27|27|2022-02-26|A|Man United|0|0|away
+28|28|2022-03-06|H|Arsenal|2|3|home
+29|29|2022-03-13|A|Southampton|2|1|away
+30|30|2022-05-11|H|Everton|0|0|home
+31|31|2022-04-02|A|Liverpool|0|2|away
+32|32|2022-04-09|H|Leeds|0|3|home
+33|33|2022-04-16|H|Brentford|1|2|home
+34|34|2022-04-23|A|Man City|1|5|away
+35|35|2022-04-30|H|Burnley|1|2|home
+36|36|2022-05-07|A|Crystal Palace|0|1|away
+37|37|2022-05-15|H|Leicester|1|5|home
+38|38|2022-05-22|A|Chelsea|1|2|away
+
+TEAMPIVOT|West Ham|P38 W16 D8 L14 GF60 GA51 PTS56
+1|1|2021-08-15|A|Newcastle|4|2|away
+2|2|2021-08-23|H|Leicester|4|1|home
+3|3|2021-08-28|H|Crystal Palace|2|2|home
+4|4|2021-09-11|A|Southampton|0|0|away
+5|5|2021-09-19|H|Man United|1|2|home
+6|6|2021-09-25|A|Leeds|2|1|away
+7|7|2021-10-03|H|Brentford|1|2|home
+8|8|2021-10-17|A|Everton|1|0|away
+9|9|2021-10-24|H|Tottenham|1|0|home
+10|10|2021-10-31|A|Aston Villa|4|1|away
+11|11|2021-11-07|H|Liverpool|3|2|home
+12|12|2021-11-20|A|Wolves|0|1|away
+13|13|2021-11-28|A|Man City|1|2|away
+14|14|2021-12-01|H|Brighton|1|1|home
+15|15|2021-12-04|H|Chelsea|3|2|home
+16|16|2021-12-12|A|Burnley|0|0|away
+17|17|2021-12-15|A|Arsenal|0|2|away
+18|18|2022-01-12|H|Norwich|2|0|home
+19|19|2021-12-26|H|Southampton|2|3|home
+20|20|2021-12-28|A|Watford|4|1|away
+21|21|2022-01-01|A|Crystal Palace|3|2|away
+22|22|2022-01-16|H|Leeds|2|3|home
+23|23|2022-01-22|A|Man United|0|1|away
+24|24|2022-02-08|H|Watford|1|0|home
+25|25|2022-02-13|A|Leicester|2|2|away
+26|26|2022-02-19|H|Newcastle|1|1|home
+27|27|2022-02-27|H|Wolves|1|0|home
+28|28|2022-03-05|A|Liverpool|0|1|away
+29|29|2022-03-13|H|Aston Villa|2|1|home
+30|30|2022-03-20|A|Tottenham|1|3|away
+31|31|2022-04-03|H|Everton|2|1|home
+32|32|2022-04-10|A|Brentford|0|2|away
+33|33|2022-04-17|H|Burnley|1|1|home
+34|34|2022-04-24|A|Chelsea|0|1|away
+35|35|2022-05-01|H|Arsenal|1|2|home
+36|36|2022-05-08|A|Norwich|4|0|away
+37|37|2022-05-15|H|Man City|2|2|home
+38|38|2022-05-22|A|Brighton|1|3|away
+
+TEAMPIVOT|Wolves|P38 W15 D6 L17 GF38 GA43 PTS51
+1|1|2021-08-14|A|Leicester|0|1|away
+2|2|2021-08-22|H|Tottenham|0|1|home
+3|3|2021-08-29|H|Man United|0|1|home
+4|4|2021-09-11|A|Watford|2|0|away
+5|5|2021-09-18|H|Brentford|0|2|home
+6|6|2021-09-26|A|Southampton|1|0|away
+7|7|2021-10-02|H|Newcastle|2|1|home
+8|8|2021-10-16|A|Aston Villa|3|2|away
+9|9|2021-10-23|A|Leeds|1|1|away
+10|10|2021-11-01|H|Everton|2|1|home
+11|11|2021-11-06|A|Crystal Palace|0|2|away
+12|12|2021-11-20|H|West Ham|1|0|home
+13|13|2021-11-27|A|Norwich|0|0|away
+14|14|2021-12-01|H|Burnley|0|0|home
+15|15|2021-12-04|H|Liverpool|0|1|home
+16|16|2021-12-11|A|Man City|0|1|away
+17|17|2021-12-15|A|Brighton|1|0|away
+18|18|2021-12-19|H|Chelsea|0|0|home
+19|19|2022-03-10|H|Watford|4|0|home
+20|20|2022-02-24|A|Arsenal|1|2|away
+21|21|2022-01-03|A|Man United|1|0|away
+22|22|2022-01-15|H|Southampton|3|1|home
+23|23|2022-01-22|A|Brentford|2|1|away
+24|24|2022-02-10|H|Arsenal|0|1|home
+25|25|2022-02-13|A|Tottenham|2|0|away
+26|26|2022-02-20|H|Leicester|2|1|home
+27|27|2022-02-27|A|West Ham|0|1|away
+28|28|2022-03-05|H|Crystal Palace|0|2|home
+29|29|2022-03-13|A|Everton|1|0|away
+30|30|2022-03-18|H|Leeds|2|3|home
+31|31|2022-04-02|H|Aston Villa|2|1|home
+32|32|2022-04-08|A|Newcastle|0|1|away
+33|33|2022-05-11|H|Man City|1|5|home
+34|34|2022-04-24|A|Burnley|0|1|away
+35|35|2022-04-30|H|Brighton|0|3|home
+36|36|2022-05-07|A|Chelsea|2|2|away
+37|37|2022-05-15|H|Norwich|1|1|home
+38|38|2022-05-22|A|Liverpool|1|3|away

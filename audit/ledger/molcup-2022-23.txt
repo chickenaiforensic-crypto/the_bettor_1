@@ -1,0 +1,45 @@
+# PRIMARY TRANSCRIPTION - MOL Cup (Pohar FACR) 2022-23, RSSSF tablest/tsje2023.html#cup
+# fetched 2026-08-03. Grammar: C16|CQF|CSF|CF |iso-date|home|hg|ag|away
+# NOTE: RSSSF carries this cup FROM THE ROUND OF 16 onward only (R2/R3 not on the page).
+#
+# --- 1/8 Finals ---
+# [Nov 17] Teplice 2-3 Zbrojovka Brno [aet] -> 90 min 2-2 per second index; BRNO advanced aet 3-2
+C16|2022-11-17|Teplice|2|3|Brno
+# ^ RESOLVED: 90-min 2-2 (wf timeline: Reznicek 90+4 equals, 106 winner; Endl red 84)
+# [Nov 17]
+C16|2022-11-17|Zlin|0|1|Vyskov
+# [Nov 18]; MFK Karvina was SECOND-TIER (FNL) in 2022-23 -> lower-league side here (identity reused)
+C16|2022-11-18|Karvina|0|2|Slavia
+# [Nov 18]
+C16|2022-11-18|Slovacko|1|0|MlBoleslav
+# [Nov 19]
+C16|2022-11-19|Ostrava|2|3|Sparta
+# [Nov 19]
+C16|2022-11-19|Bohemians|3|0|Hlucin
+# [Nov 26]
+C16|2022-11-26|Liberec|4|1|Olomouc
+# [Feb 1]
+C16|2023-02-01|CBudejovice|2|0|Hradec
+#
+# --- Quarterfinals [Mar 1] ---
+CQF|2023-03-01|Slovacko|1|2|Bohemians
+# Liberec 2-2 Sparta [aet, 3-5 pen] -> 90 min 2-2; SPARTA advanced on pens 5-3
+CQF|2023-03-01|Liberec|2|2|Sparta
+CQF|2023-03-01|CBudejovice|2|1|Brno
+CQF|2023-03-01|Slavia|4|0|Vyskov
+#
+# --- Semifinals [Apr 5] ---
+CSF|2023-04-05|Sparta|2|0|CBudejovice
+# Slavia 3-2 Bohemians [aet] -> 90 min 2-2 per second index; SLAVIA advanced aet 3-2
+CSF|2023-04-05|Slavia|3|2|Bohemians
+# ^ RESOLVED: 90-min 2-2 (wiki box: Doudera 23/90+7, Prekop 14, Hala 84; Jurecka 110)
+#
+# --- Final [May 3, Praha] ---
+CF|2023-05-03|Sparta|0|2|Slavia
+#
+# Champion 2022-23: Slavia (SK Slavia Praha). Final venue per RSSSF header: Praha.
+# Name forms: "FC Zbrojovka Brno" (= pinned `Zbrojovka Brno`, first-league club in 2022-23),
+# "FC Zlin" (= `Zlin`, FC Trinity Zlin era - still the FIRST-LEAGUE club that season),
+# "MFK Vyskov" (= client-roster CZ2 string `Vyskov`), "FC Hlucin" (= client-roster `Hlucin`,
+# MSFL/third-tier in 2022-23, promoted to FNL for 2023-24), "MFK Karvina" (relegated 2022 =
+# FNL opponent; identity `Karvina` reused per WO section-3 logic on league-code changes).

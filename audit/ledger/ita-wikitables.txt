@@ -1,0 +1,169 @@
+# ITA WIKIPEDIA LEAGUE-TABLE REPRODUCTION GATE 2021-22..2025-26 - run 2026-08-05
+# tool: tools/wiki_ita_tables.py | primary ledger: RSSSF TABLE rows | witness: wiki
+# table TEMPLATE raws (data/raw/wiki-ita-tables-raw.txt). Per-club W/D/L/GF/GA,
+# pts arithmetic 3W+D+adjust, team_order position, status loose-map, gf anchor.
+
+## 2021-22 (source wikitemplate-ita-2122)
+WTAB|2021-22|1|Milan|26|8|4|69|31|ptsT=86|ptsL=86|MATCH
+WTAB|2021-22|2|Inter|25|9|4|84|32|ptsT=84|ptsL=84|MATCH
+WTAB|2021-22|3|Napoli|24|7|7|74|31|ptsT=79|ptsL=79|MATCH
+WTAB|2021-22|4|Juventus|20|10|8|57|37|ptsT=70|ptsL=70|MATCH
+WTAB|2021-22|5|Lazio|18|10|10|77|58|ptsT=64|ptsL=64|MATCH
+WTAB|2021-22|6|Roma|18|9|11|59|43|ptsT=63|ptsL=63|MATCH
+WTAB|2021-22|7|Fiorentina|19|5|14|59|51|ptsT=62|ptsL=62|MATCH
+WTAB|2021-22|8|Atalanta|16|11|11|65|48|ptsT=59|ptsL=59|MATCH
+WTAB|2021-22|9|Verona|14|11|13|65|59|ptsT=53|ptsL=53|MATCH
+WTAB|2021-22|10|Torino|13|11|14|46|41|ptsT=50|ptsL=50|MATCH
+WTAB|2021-22|11|Sassuolo|13|11|14|64|66|ptsT=50|ptsL=50|MATCH
+WTAB|2021-22|12|Udinese|11|14|13|61|58|ptsT=47|ptsL=47|MATCH
+WTAB|2021-22|13|Bologna|12|10|16|44|55|ptsT=46|ptsL=46|MATCH
+WTAB|2021-22|14|Empoli|10|11|17|50|70|ptsT=41|ptsL=41|MATCH
+WTAB|2021-22|15|Sampdoria|10|6|22|46|63|ptsT=36|ptsL=36|MATCH
+WTAB|2021-22|16|Spezia|10|6|22|41|71|ptsT=36|ptsL=36|MATCH
+WTAB|2021-22|17|Salernitana|7|10|21|33|78|ptsT=31|ptsL=31|MATCH
+WTAB|2021-22|18|Cagliari|6|12|20|34|68|ptsT=30|ptsL=30|MATCH
+WTAB|2021-22|19|Genoa|4|16|18|27|60|ptsT=28|ptsL=28|MATCH
+WTAB|2021-22|20|Venezia|6|9|23|34|69|ptsT=27|ptsL=27|MATCH
+WTAB|2021-22|SUM|-|-|gf_sum=1089|anchor=1089|MATCH
+WTAB|2021-22|NOTE|hth_SAS: TOR
+WTAB|2021-22|NOTE|hth_TOR: Torino finished ahead of Sassuolo on head-to-head points: Sassuolo 0–1 Torino, Torino 1–1 Sassuolo.
+WTAB|2021-22|GATE|PASS
+
+## 2022-23 (source wikitemplate-ita-2223)
+WTAB|2022-23|1|Napoli|28|6|4|77|28|ptsT=90|ptsL=90|MATCH status=C
+WTAB|2022-23|2|Lazio|22|8|8|60|30|ptsT=74|ptsL=74|MATCH
+WTAB|2022-23|3|Inter|23|3|12|71|42|ptsT=72|ptsL=72|MATCH
+WTAB|2022-23|4|Milan|20|10|8|64|43|ptsT=70|ptsL=70|MATCH
+WTAB|2022-23|5|Atalanta|19|7|12|66|48|ptsT=64|ptsL=64|MATCH
+WTAB|2022-23|6|Roma|18|9|11|50|38|ptsT=63|ptsL=63|MATCH
+WTAB|2022-23|7|Juventus|22|6|10|56|33|ptsT=62|ptsL=62|MATCH adjust=-10
+WTAB|2022-23|8|Fiorentina|15|11|12|53|43|ptsT=56|ptsL=56|MATCH
+WTAB|2022-23|9|Bologna|14|12|12|53|49|ptsT=54|ptsL=54|MATCH
+WTAB|2022-23|10|Torino|14|11|13|42|41|ptsT=53|ptsL=53|MATCH
+WTAB|2022-23|11|Monza|14|10|14|48|52|ptsT=52|ptsL=52|MATCH
+WTAB|2022-23|12|Udinese|11|13|14|47|48|ptsT=46|ptsL=46|MATCH
+WTAB|2022-23|13|Sassuolo|12|9|17|47|61|ptsT=45|ptsL=45|MATCH
+WTAB|2022-23|14|Empoli|10|13|15|37|49|ptsT=43|ptsL=43|MATCH
+WTAB|2022-23|15|Salernitana|9|15|14|48|62|ptsT=42|ptsL=42|MATCH
+WTAB|2022-23|16|Lecce|8|12|18|33|46|ptsT=36|ptsL=36|MATCH
+WTAB|2022-23|17|Spezia|6|13|19|31|62|ptsT=31|ptsL=31|MATCH status=R
+WTAB|2022-23|18|Verona|7|10|21|31|59|ptsT=31|ptsL=31|MATCH status=O
+WTAB|2022-23|19|Cremonese|5|12|21|36|69|ptsT=27|ptsL=27|MATCH status=R
+WTAB|2022-23|20|Sampdoria|3|10|25|24|71|ptsT=19|ptsL=19|MATCH status=R
+WTAB|2022-23|SUM|-|-|gf_sum=974|anchor=974|MATCH
+WTAB|2022-23|NOTE|hth_JUV: Juventus were deducted 10 points as punishment for capital gain violations.{{cite news\|url=https://www.figc.it/it/federazione/news/caso-plusvalenze-d
+WTAB|2022-23|NOTE|hth_SPE: Head-to-head points: Spezia 4 Hellas Verona 1
+WTAB|2022-23|NOTE|hth_VER: SPE
+WTAB|2022-23|NOTE|note_JUV: Juventus were excluded from UEFA competitions due to violation of UEFA's financial regulations.{{cite news\|url=https://www.uefa.com/insideuefa/medias
+WTAB|2022-23|GATE|PASS
+
+## 2023-24 (source wikitemplate-ita-2324)
+WTAB|2023-24|1|Inter|29|7|2|89|22|ptsT=94|ptsL=94|MATCH status=C
+WTAB|2023-24|2|Milan|22|9|7|76|49|ptsT=75|ptsL=75|MATCH
+WTAB|2023-24|3|Juventus|19|14|5|54|31|ptsT=71|ptsL=71|MATCH
+WTAB|2023-24|4|Atalanta|21|6|11|72|42|ptsT=69|ptsL=69|MATCH
+WTAB|2023-24|5|Bologna|18|14|6|54|32|ptsT=68|ptsL=68|MATCH
+WTAB|2023-24|6|Roma|18|9|11|65|46|ptsT=63|ptsL=63|MATCH
+WTAB|2023-24|7|Lazio|18|7|13|49|39|ptsT=61|ptsL=61|MATCH
+WTAB|2023-24|8|Fiorentina|17|9|12|61|46|ptsT=60|ptsL=60|MATCH
+WTAB|2023-24|9|Torino|13|14|11|36|36|ptsT=53|ptsL=53|MATCH
+WTAB|2023-24|10|Napoli|13|14|11|55|48|ptsT=53|ptsL=53|MATCH
+WTAB|2023-24|11|Genoa|12|13|13|45|45|ptsT=49|ptsL=49|MATCH
+WTAB|2023-24|12|Monza|11|12|15|39|51|ptsT=45|ptsL=45|MATCH
+WTAB|2023-24|13|Verona|9|11|18|38|51|ptsT=38|ptsL=38|MATCH
+WTAB|2023-24|14|Lecce|8|14|16|32|54|ptsT=38|ptsL=38|MATCH
+WTAB|2023-24|15|Udinese|6|19|13|37|53|ptsT=37|ptsL=37|MATCH
+WTAB|2023-24|16|Cagliari|8|12|18|42|68|ptsT=36|ptsL=36|MATCH
+WTAB|2023-24|17|Empoli|9|9|20|29|54|ptsT=36|ptsL=36|MATCH
+WTAB|2023-24|18|Frosinone|8|11|19|44|69|ptsT=35|ptsL=35|MATCH status=R
+WTAB|2023-24|19|Sassuolo|7|9|22|43|75|ptsT=30|ptsL=30|MATCH status=R
+WTAB|2023-24|20|Salernitana|2|11|25|32|81|ptsT=17|ptsL=17|MATCH status=R
+WTAB|2023-24|SUM|-|-|gf_sum=992|anchor=992|MATCH
+WTAB|2023-24|NOTE|hth_CAG: Cagliari finished ahead of Empoli on head-to-head points: Cagliari 0–0 Empoli, Empoli 0–1 Cagliari.
+WTAB|2023-24|NOTE|hth_EMP: CAG
+WTAB|2023-24|NOTE|hth_LEC: VER
+WTAB|2023-24|NOTE|hth_NAP: TOR
+WTAB|2023-24|NOTE|hth_TOR: Torino finished ahead of Napoli on head-to-head points: Torino 3–0 Napoli, Napoli 1–1 Torino.
+WTAB|2023-24|NOTE|hth_VER: Hellas Verona finished ahead of Lecce on head-to-head points: Hellas Verona 2–2 Lecce, Lecce 0–1 Hellas Verona.
+WTAB|2023-24|GATE|PASS
+
+## 2024-25 (source wikitemplate-ita-2425)
+WTAB|2024-25|1|Napoli|24|10|4|59|27|ptsT=82|ptsL=82|MATCH status=C
+WTAB|2024-25|2|Inter|24|9|5|79|35|ptsT=81|ptsL=81|MATCH
+WTAB|2024-25|3|Atalanta|22|8|8|78|37|ptsT=74|ptsL=74|MATCH
+WTAB|2024-25|4|Juventus|18|16|4|58|35|ptsT=70|ptsL=70|MATCH
+WTAB|2024-25|5|Roma|20|9|9|56|35|ptsT=69|ptsL=69|MATCH
+WTAB|2024-25|6|Fiorentina|19|8|11|60|41|ptsT=65|ptsL=65|MATCH
+WTAB|2024-25|7|Lazio|18|11|9|61|49|ptsT=65|ptsL=65|MATCH
+WTAB|2024-25|8|Milan|18|9|11|61|43|ptsT=63|ptsL=63|MATCH
+WTAB|2024-25|9|Bologna|16|14|8|57|47|ptsT=62|ptsL=62|MATCH
+WTAB|2024-25|10|Como|13|10|15|49|52|ptsT=49|ptsL=49|MATCH
+WTAB|2024-25|11|Torino|10|14|14|39|45|ptsT=44|ptsL=44|MATCH
+WTAB|2024-25|12|Udinese|12|8|18|41|56|ptsT=44|ptsL=44|MATCH
+WTAB|2024-25|13|Genoa|10|13|15|37|49|ptsT=43|ptsL=43|MATCH
+WTAB|2024-25|14|Verona|10|7|21|34|66|ptsT=37|ptsL=37|MATCH
+WTAB|2024-25|15|Cagliari|9|9|20|40|56|ptsT=36|ptsL=36|MATCH
+WTAB|2024-25|16|Parma|7|15|16|44|58|ptsT=36|ptsL=36|MATCH
+WTAB|2024-25|17|Lecce|8|10|20|27|58|ptsT=34|ptsL=34|MATCH
+WTAB|2024-25|18|Empoli|6|13|19|33|59|ptsT=31|ptsL=31|MATCH status=R
+WTAB|2024-25|19|Venezia|5|14|19|32|56|ptsT=29|ptsL=29|MATCH status=R
+WTAB|2024-25|20|Monza|3|9|26|28|69|ptsT=18|ptsL=18|MATCH status=R
+WTAB|2024-25|SUM|-|-|gf_sum=973|anchor=973|MATCH
+WTAB|2024-25|NOTE|hth_CAG: Cagliari finished ahead of Parma on head-to-head points: Parma 2–3 Cagliari, Cagliari 2–1 Parma.
+WTAB|2024-25|NOTE|hth_FIO: Fiorentina finished ahead of Lazio on head-to-head points: Fiorentina 2–1 Lazio, Lazio 1–2 Fiorentina.
+WTAB|2024-25|NOTE|hth_LAZ: FIO
+WTAB|2024-25|NOTE|hth_PAR: CAG
+WTAB|2024-25|NOTE|hth_TOR: Torino finished ahead of Udinese on head-to-head points: Udinese 2–2 Torino, Torino 2–0 Udinese.
+WTAB|2024-25|NOTE|hth_UDI: TOR
+WTAB|2024-25|GATE|PASS
+
+## 2025-26 (source wikitemplate-ita-2526)
+WTAB|2025-26|1|Inter|27|6|5|89|35|ptsT=87|ptsL=87|MATCH status=C, W
+WTAB|2025-26|2|Napoli|23|7|8|58|36|ptsT=76|ptsL=76|MATCH
+WTAB|2025-26|3|Roma|23|4|11|59|31|ptsT=73|ptsL=73|MATCH
+WTAB|2025-26|4|Como|20|11|7|65|29|ptsT=71|ptsL=71|MATCH
+WTAB|2025-26|5|Milan|20|10|8|53|35|ptsT=70|ptsL=70|MATCH
+WTAB|2025-26|6|Juventus|19|12|7|61|34|ptsT=69|ptsL=69|MATCH
+WTAB|2025-26|7|Atalanta|15|14|9|51|36|ptsT=59|ptsL=59|MATCH
+WTAB|2025-26|8|Bologna|16|8|14|49|46|ptsT=56|ptsL=56|MATCH
+WTAB|2025-26|9|Lazio|14|12|12|41|40|ptsT=54|ptsL=54|MATCH
+WTAB|2025-26|10|Udinese|14|8|16|45|48|ptsT=50|ptsL=50|MATCH
+WTAB|2025-26|11|Sassuolo|14|7|17|46|50|ptsT=49|ptsL=49|MATCH
+WTAB|2025-26|12|Torino|12|9|17|44|63|ptsT=45|ptsL=45|MATCH
+WTAB|2025-26|13|Parma|11|12|15|28|46|ptsT=45|ptsL=45|MATCH
+WTAB|2025-26|14|Cagliari|11|10|17|40|53|ptsT=43|ptsL=43|MATCH
+WTAB|2025-26|15|Fiorentina|9|15|14|41|50|ptsT=42|ptsL=42|MATCH
+WTAB|2025-26|16|Genoa|10|11|17|41|51|ptsT=41|ptsL=41|MATCH
+WTAB|2025-26|17|Lecce|10|8|20|28|50|ptsT=38|ptsL=38|MATCH
+WTAB|2025-26|18|Cremonese|8|10|20|32|57|ptsT=34|ptsL=34|MATCH status=R
+WTAB|2025-26|19|Verona|3|12|23|25|61|ptsT=21|ptsL=21|MATCH status=R
+WTAB|2025-26|20|Pisa|2|12|24|26|71|ptsT=18|ptsL=18|MATCH status=R
+WTAB|2025-26|SUM|-|-|gf_sum=922|anchor=922|MATCH
+WTAB|2025-26|NOTE|hth_PAR: TOR
+WTAB|2025-26|NOTE|hth_TOR: Torino finished ahead of Parma on head-to-head goal difference: Parma 2–1 Torino, Torino 4–1 Parma.
+WTAB|2025-26|GATE|PASS
+
+## 2022-23 SECOND WITNESS (rendered Pos-table, wiki-ita-2022-23-sections-raw.txt)
+WIT|2022-23|1|Napoli|rendered_pts=90|computed=90|MATCH
+WIT|2022-23|2|Lazio|rendered_pts=74|computed=74|MATCH
+WIT|2022-23|3|Inter|rendered_pts=72|computed=72|MATCH
+WIT|2022-23|4|Milan|rendered_pts=70|computed=70|MATCH
+WIT|2022-23|5|Atalanta|rendered_pts=64|computed=64|MATCH
+WIT|2022-23|6|Roma|rendered_pts=63|computed=63|MATCH
+WIT|2022-23|7|Juventus|rendered_pts=62|computed=62|MATCH
+WIT|2022-23|8|Fiorentina|rendered_pts=56|computed=56|MATCH
+WIT|2022-23|9|Bologna|rendered_pts=54|computed=54|MATCH
+WIT|2022-23|10|Torino|rendered_pts=53|computed=53|MATCH
+WIT|2022-23|11|Monza|rendered_pts=52|computed=52|MATCH
+WIT|2022-23|12|Udinese|rendered_pts=46|computed=46|MATCH
+WIT|2022-23|13|Sassuolo|rendered_pts=45|computed=45|MATCH
+WIT|2022-23|14|Empoli|rendered_pts=43|computed=43|MATCH
+WIT|2022-23|15|Salernitana|rendered_pts=42|computed=42|MATCH
+WIT|2022-23|16|Lecce|rendered_pts=36|computed=36|MATCH
+WIT|2022-23|17|Spezia|rendered_pts=31|computed=31|MATCH
+WIT|2022-23|18|Verona|rendered_pts=31|computed=31|MATCH
+WIT|2022-23|19|Cremonese|rendered_pts=27|computed=27|MATCH
+WIT|2022-23|20|Sampdoria|rendered_pts=19|computed=19|MATCH
+WIT|2022-23|GATE|PASS
+
+## OVERALL: ALL GATES PASS

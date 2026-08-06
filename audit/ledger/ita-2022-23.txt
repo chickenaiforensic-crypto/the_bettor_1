@@ -1,0 +1,480 @@
+# ITA Serie A 2022-23 - PRIMARY TRANSCRIPTION (WO-ITA-SPAN-14 on DECREE-2026-08-04)
+# Source: https://www.rsssf.org/tablesi/ital2023.html - "Italy 2022/23" (Roberto Di Maggio /
+# Karel Stokkermans, footer "Last updated: 12 Jun 2023"; copyright line misprints
+# 'RSSSF 2022/24' [sic], kept verbatim in the raw). Raw data/raw/rsssf-ital2023-1sa.txt;
+# parser tools/parse_rsssf_it.py. Raw VERIFIED: TABLE 20 (Napoli 90 champions ... Spezia 31 /
+# Hellas Verona 31 at 17/18 with H2H brackets, dashed line, 'Relegation Playoff' both;
+# Sampdoria 19 bottom), R 380 = 38 x 10 clean, ABD 0, PO 11, TABLE2 20; table reproduced
+# EXACTLY from fixtures (Juventus' computed 72 becomes the printed 62 after the documented
+# deduction below), 974 = 974 goals.
+# ==== QUARANTINE HISTORY (sealed earlier today; now resolved):
+#  The first-pass raw deposition of this page (fetch day 2026-08-05) drifted across a
+#  fetch_page chunk-boundary overlap (duplicated/misplaced fixture lines incl. a mangled
+#  R2 line). Caught pre-ledger, quarantined, never parsed downstream; the page was then
+#  RE-CAPTURED cleanly in 3 chunks (joins: c0->c1 mid-word 'Cagliari|2-1 Bologna' R21;
+#  c1->c2 mid-word 'Ternan|a' Coppa R1; c2->c3 mid-word halfway table '10.Juven|tus FC'),
+#  re-verified byte-for-byte against the fetched chunk prints and parser-verified same day.
+#  This file replaces the RESERVED-SLOT seal (commit 861e10d) - incident closed.
+# ==== ANOMALIES (documented, 90-minute doctrine):
+#  (a) JUVENTUS POINT DEDUCTION: table prints '7.Juventus FC 38 22 6 10 56-33 62 [-10]' with
+#      'NB: Juventus 10 points deducted (reduced from 15)' - the [-10] is kept in flags and
+#      subtracted by the builder's reproduction gate (DEDUCT constant). Corroboration:
+#      worldfootball MD9 page footnote (German): '...zunaechst 15 Punkte abgezogen. Spaeter
+#      wurde das Urteil aufgehoben und am 22.05.2023 in eine 10-Punkte-Strafe umgewandelt.'
+#      The page's Halfway Table still shows [-15] - context block, parser skips it.
+#  (b) SPAREGGIO RETROCESSIONE (17-vs-18 points tie): single leg '[Jun 11, Reggio Emilia]
+#      Spezia 1-3 Hellas Verona', 'NB: Spezia relegated' => PO_PLAYOFF Retro-1 below is
+#      SHIPPED as compType other per ERRATA-2026-08-03 + DECREE-2026-08-04 (pro/rel decider
+#      touching the top flight), mirroring RPL/CZ1/FRA/GER precedent; 90 minutes (no ET).
+#  (c) RSSSF ROUND-9 DATE MISPRINT, adjudicated 2026-08-05: the round prints Oct 8/9 fixtures
+#      correctly but its last line '[Oct 1] Fiorentina 0-4 Lazio' carries an October-1st
+#      misprint. TWO independent indexes agree against it: openfootball MD9 (Mon Oct 10 /
+#      20:45 ACF Fiorentina 0-4 (0-2) SS Lazio) and worldfootball MD9 canonical page
+#      (https://www.worldfootball.net/competition/ro133686/md9/results-and-standings/ :
+#      10.10.2022 20:45 ACF Fiorentina 0:4 Lazio Roma). Per decree section-4 (two
+#      independents against the primary), the R9 row below ships 2022-10-10; the RSSSF print
+#      stays verbatim in the raw; score never in doubt. Pack carries NOTE|warning|
+#      source_conflict (mirrors the GER R23/R1 clusters).
+#  (d) Serie B context: Reggina prints '[-5] [!]' with NB 'financial irregularities ... would
+#      not be admitted for 2024/25' [sic - effectively 2023/24; club excluded post-season];
+#      relegation-playoff loser Brescia was reprieved, Vicenza 2021-22-style reinstatement
+#      pattern. L2-P1..P8 (Cagliari promoted over Bari), L2-R1/R2 = context, NOT shipped.
+# Boundary (gate EXP 22-23->23-24): out Spezia (spareggio), Cremonese, Sampdoria; in
+# Frosinone, Genoa, Cagliari (playoff).
+TABLE|2022-23|1|Napoli|38|28|6|4|77|28|90|Champions
+TABLE|2022-23|2|Lazio|38|22|8|8|60|30|74|
+TABLE|2022-23|3|Inter|38|23|3|12|71|42|72|
+TABLE|2022-23|4|Milan|38|20|10|8|64|43|70|[C]
+TABLE|2022-23|5|Atalanta|38|19|7|12|66|48|64|
+TABLE|2022-23|6|Roma|38|18|9|11|50|38|63|
+TABLE|2022-23|7|Juventus|38|22|6|10|56|33|62|[-10]
+TABLE|2022-23|8|Fiorentina|38|15|11|12|53|43|56|
+TABLE|2022-23|9|Bologna|38|14|12|12|53|49|54|
+TABLE|2022-23|10|Torino|38|14|11|13|42|41|53|
+TABLE|2022-23|11|Monza|38|14|10|14|48|52|52|[P]
+TABLE|2022-23|12|Udinese|38|11|13|14|47|48|46|
+TABLE|2022-23|13|Sassuolo|38|12|9|17|47|61|45|
+TABLE|2022-23|14|Empoli|38|10|13|15|37|49|43|
+TABLE|2022-23|15|Salernitana|38|9|15|14|48|62|42|
+TABLE|2022-23|16|Lecce|38|8|12|18|33|46|36|[P]
+TABLE|2022-23|17|Spezia|38|6|13|19|31|62|31|[2 1 1 0 2-1 4] Relegation Playoff
+TABLE|2022-23|18|Verona|38|7|10|21|31|59|31|[2 0 1 1 1-2 1] Relegation Playoff
+TABLE|2022-23|19|Cremonese|38|5|12|21|36|69|27|[P] Relegated
+TABLE|2022-23|20|Sampdoria|38|3|10|25|24|71|19|Relegated
+R1|2022-08-13|Milan|4|2|Udinese
+R1|2022-08-13|Sampdoria|0|2|Atalanta
+R1|2022-08-13|Lecce|1|2|Inter
+R1|2022-08-13|Monza|1|2|Torino
+R1|2022-08-14|Fiorentina|3|2|Cremonese
+R1|2022-08-14|Lazio|2|1|Bologna
+R1|2022-08-14|Salernitana|0|1|Roma
+R1|2022-08-14|Spezia|1|0|Empoli
+R1|2022-08-15|Verona|2|5|Napoli
+R1|2022-08-15|Juventus|3|0|Sassuolo
+R2|2022-08-20|Torino|0|0|Lazio
+R2|2022-08-20|Udinese|0|0|Salernitana
+R2|2022-08-20|Inter|3|0|Spezia
+R2|2022-08-20|Sassuolo|1|0|Lecce
+R2|2022-08-21|Empoli|0|0|Fiorentina
+R2|2022-08-21|Napoli|4|0|Monza
+R2|2022-08-21|Atalanta|1|1|Milan
+R2|2022-08-21|Bologna|1|1|Verona
+R2|2022-08-22|Roma|1|0|Cremonese
+R2|2022-08-22|Sampdoria|0|0|Juventus
+R3|2022-08-26|Monza|1|2|Udinese
+R3|2022-08-26|Lazio|3|1|Inter
+R3|2022-08-27|Cremonese|1|2|Torino
+R3|2022-08-27|Juventus|1|1|Roma
+R3|2022-08-27|Milan|2|0|Bologna
+R3|2022-08-27|Spezia|2|2|Sassuolo
+R3|2022-08-28|Verona|0|1|Atalanta
+R3|2022-08-28|Salernitana|4|0|Sampdoria
+R3|2022-08-28|Fiorentina|0|0|Napoli
+R3|2022-08-28|Lecce|1|1|Empoli
+R4|2022-08-30|Sassuolo|0|0|Milan
+R4|2022-08-30|Roma|3|0|Monza
+R4|2022-08-30|Inter|3|1|Cremonese
+R4|2022-08-31|Empoli|1|1|Verona
+R4|2022-08-31|Sampdoria|1|1|Lazio
+R4|2022-08-31|Udinese|1|0|Fiorentina
+R4|2022-08-31|Juventus|2|0|Spezia
+R4|2022-08-31|Napoli|1|1|Lecce
+R4|2022-09-01|Atalanta|3|1|Torino
+R4|2022-09-01|Bologna|1|1|Salernitana
+R5|2022-09-03|Fiorentina|1|1|Juventus
+R5|2022-09-03|Milan|3|2|Inter
+R5|2022-09-03|Lazio|1|2|Napoli
+R5|2022-09-04|Cremonese|0|0|Sassuolo
+R5|2022-09-04|Spezia|2|2|Bologna
+R5|2022-09-04|Verona|2|1|Sampdoria
+R5|2022-09-04|Udinese|4|0|Roma
+R5|2022-09-05|Monza|0|2|Atalanta
+R5|2022-09-05|Salernitana|2|2|Empoli
+R5|2022-09-05|Torino|1|0|Lecce
+R6|2022-09-10|Napoli|1|0|Spezia
+R6|2022-09-10|Inter|1|0|Torino
+R6|2022-09-10|Sampdoria|1|2|Milan
+R6|2022-09-11|Atalanta|1|1|Cremonese
+R6|2022-09-11|Bologna|2|1|Fiorentina
+R6|2022-09-11|Lecce|1|1|Monza
+R6|2022-09-11|Sassuolo|1|3|Udinese
+R6|2022-09-11|Lazio|2|0|Verona
+R6|2022-09-11|Juventus|2|2|Salernitana
+R6|2022-09-12|Empoli|1|2|Roma
+R7|2022-09-16|Salernitana|1|2|Lecce
+R7|2022-09-17|Bologna|0|1|Empoli
+R7|2022-09-17|Spezia|2|1|Sampdoria
+R7|2022-09-17|Torino|0|1|Sassuolo
+R7|2022-09-18|Udinese|3|1|Inter
+R7|2022-09-18|Cremonese|0|4|Lazio
+R7|2022-09-18|Fiorentina|2|0|Verona
+R7|2022-09-18|Monza|1|0|Juventus
+R7|2022-09-18|Roma|0|1|Atalanta
+R7|2022-09-18|Milan|1|2|Napoli
+R8|2022-10-01|Napoli|3|1|Torino
+R8|2022-10-01|Inter|1|2|Roma
+R8|2022-10-01|Empoli|1|3|Milan
+R8|2022-10-02|Lazio|4|0|Spezia
+R8|2022-10-02|Lecce|1|1|Cremonese
+R8|2022-10-02|Sampdoria|0|3|Monza
+R8|2022-10-02|Sassuolo|5|0|Salernitana
+R8|2022-10-02|Atalanta|1|0|Fiorentina
+R8|2022-10-02|Juventus|3|0|Bologna
+R8|2022-10-03|Verona|1|2|Udinese
+R9|2022-10-08|Sassuolo|1|2|Inter
+R9|2022-10-08|Milan|2|0|Juventus
+R9|2022-10-08|Bologna|1|1|Sampdoria
+R9|2022-10-09|Torino|1|1|Empoli
+R9|2022-10-09|Monza|2|0|Spezia
+R9|2022-10-09|Salernitana|2|1|Verona
+R9|2022-10-09|Udinese|2|2|Atalanta
+R9|2022-10-09|Cremonese|1|4|Napoli
+R9|2022-10-09|Roma|2|1|Lecce
+R9|2022-10-10|Fiorentina|0|4|Lazio
+R10|2022-10-15|Empoli|1|0|Monza
+R10|2022-10-15|Torino|0|1|Juventus
+R10|2022-10-15|Atalanta|2|1|Sassuolo
+R10|2022-10-16|Inter|2|0|Salernitana
+R10|2022-10-16|Spezia|2|2|Cremonese
+R10|2022-10-16|Lazio|0|0|Udinese
+R10|2022-10-16|Napoli|3|2|Bologna
+R10|2022-10-16|Verona|1|2|Milan
+R10|2022-10-17|Sampdoria|0|1|Roma
+R10|2022-10-17|Lecce|1|1|Fiorentina
+R11|2022-10-21|Juventus|4|0|Empoli
+R11|2022-10-22|Salernitana|1|0|Spezia
+R11|2022-10-22|Milan|4|1|Monza
+R11|2022-10-22|Fiorentina|3|4|Inter
+R11|2022-10-23|Udinese|1|2|Torino
+R11|2022-10-23|Bologna|2|0|Lecce
+R11|2022-10-23|Atalanta|0|2|Lazio
+R11|2022-10-23|Roma|0|1|Napoli
+R11|2022-10-24|Cremonese|0|1|Sampdoria
+R11|2022-10-24|Sassuolo|2|1|Verona
+R12|2022-10-29|Napoli|4|0|Sassuolo
+R12|2022-10-29|Lecce|0|1|Juventus
+R12|2022-10-29|Inter|3|0|Sampdoria
+R12|2022-10-30|Empoli|0|2|Atalanta
+R12|2022-10-30|Cremonese|0|0|Udinese
+R12|2022-10-30|Spezia|1|2|Fiorentina
+R12|2022-10-30|Lazio|1|3|Salernitana
+R12|2022-10-30|Torino|2|1|Milan
+R12|2022-10-31|Verona|1|3|Roma
+R12|2022-10-31|Monza|1|2|Bologna
+R13|2022-11-04|Udinese|1|1|Lecce
+R13|2022-11-05|Empoli|1|0|Sassuolo
+R13|2022-11-05|Salernitana|2|2|Cremonese
+R13|2022-11-05|Atalanta|1|2|Napoli
+R13|2022-11-05|Milan|2|1|Spezia
+R13|2022-11-06|Bologna|2|1|Torino
+R13|2022-11-06|Monza|2|0|Verona
+R13|2022-11-06|Sampdoria|0|2|Fiorentina
+R13|2022-11-06|Roma|0|1|Lazio
+R13|2022-11-06|Juventus|2|0|Inter
+R14|2022-11-08|Napoli|2|0|Empoli
+R14|2022-11-08|Spezia|1|1|Udinese
+R14|2022-11-08|Cremonese|0|0|Milan
+R14|2022-11-09|Lecce|2|1|Atalanta
+R14|2022-11-09|Sassuolo|1|1|Roma
+R14|2022-11-09|Fiorentina|2|1|Salernitana
+R14|2022-11-09|Inter|6|1|Bologna
+R14|2022-11-09|Torino|2|0|Sampdoria
+R14|2022-11-10|Verona|0|1|Juventus
+R14|2022-11-10|Lazio|1|0|Monza
+R15|2022-11-11|Empoli|2|0|Cremonese
+R15|2022-11-12|Napoli|3|2|Udinese
+R15|2022-11-12|Sampdoria|0|2|Lecce
+R15|2022-11-12|Bologna|3|0|Sassuolo
+R15|2022-11-13|Atalanta|2|3|Inter
+R15|2022-11-13|Roma|1|1|Torino
+R15|2022-11-13|Verona|1|2|Spezia
+R15|2022-11-13|Monza|3|0|Salernitana
+R15|2022-11-13|Milan|2|1|Fiorentina
+R15|2022-11-13|Juventus|3|0|Lazio
+R16|2023-01-04|Salernitana|1|2|Milan
+R16|2023-01-04|Sassuolo|1|2|Sampdoria
+R16|2023-01-04|Spezia|2|2|Atalanta
+R16|2023-01-04|Torino|1|1|Verona
+R16|2023-01-04|Roma|1|0|Bologna
+R16|2023-01-04|Lecce|2|1|Lazio
+R16|2023-01-04|Cremonese|0|1|Juventus
+R16|2023-01-04|Fiorentina|1|1|Monza
+R16|2023-01-04|Inter|1|0|Napoli
+R16|2023-01-04|Udinese|1|1|Empoli
+R17|2023-01-07|Fiorentina|2|1|Sassuolo
+R17|2023-01-07|Juventus|1|0|Udinese
+R17|2023-01-07|Monza|2|2|Inter
+R17|2023-01-08|Salernitana|1|1|Torino
+R17|2023-01-08|Spezia|0|0|Lecce
+R17|2023-01-08|Lazio|2|2|Empoli
+R17|2023-01-08|Sampdoria|0|2|Napoli
+R17|2023-01-08|Milan|2|2|Roma
+R17|2023-01-09|Verona|2|0|Cremonese
+R17|2023-01-09|Bologna|1|2|Atalanta
+R18|2023-01-13|Napoli|5|1|Juventus
+R18|2023-01-14|Cremonese|2|3|Monza
+R18|2023-01-14|Lecce|2|2|Milan
+R18|2023-01-14|Inter|1|0|Verona
+R18|2023-01-15|Sassuolo|0|2|Lazio
+R18|2023-01-15|Torino|0|1|Spezia
+R18|2023-01-15|Udinese|1|2|Bologna
+R18|2023-01-15|Atalanta|8|2|Salernitana
+R18|2023-01-15|Roma|2|0|Fiorentina
+R18|2023-01-16|Empoli|1|0|Sampdoria
+R19|2023-01-21|Verona|2|0|Lecce
+R19|2023-01-21|Salernitana|0|2|Napoli
+R19|2023-01-21|Fiorentina|0|1|Torino
+R19|2023-01-22|Sampdoria|0|1|Udinese
+R19|2023-01-22|Monza|1|1|Sassuolo
+R19|2023-01-22|Spezia|0|2|Roma
+R19|2023-01-22|Juventus|3|3|Atalanta
+R19|2023-01-23|Bologna|1|1|Cremonese
+R19|2023-01-23|Inter|0|1|Empoli
+R19|2023-01-24|Lazio|4|0|Milan
+R20|2023-01-27|Bologna|2|0|Spezia
+R20|2023-01-27|Lecce|1|2|Salernitana
+R20|2023-01-28|Empoli|2|2|Torino
+R20|2023-01-28|Cremonese|1|2|Inter
+R20|2023-01-28|Atalanta|2|0|Sampdoria
+R20|2023-01-29|Milan|2|5|Sassuolo
+R20|2023-01-29|Juventus|0|2|Monza
+R20|2023-01-29|Lazio|1|1|Fiorentina
+R20|2023-01-29|Napoli|2|1|Roma
+R20|2023-01-30|Udinese|1|1|Verona
+R21|2023-02-04|Cremonese|0|2|Lecce
+R21|2023-02-04|Roma|2|0|Empoli
+R21|2023-02-04|Sassuolo|1|0|Atalanta
+R21|2023-02-05|Spezia|0|3|Napoli
+R21|2023-02-05|Torino|1|0|Udinese
+R21|2023-02-05|Fiorentina|1|2|Bologna
+R21|2023-02-05|Inter|1|0|Milan
+R21|2023-02-06|Verona|1|1|Lazio
+R21|2023-02-06|Monza|2|2|Sampdoria
+R21|2023-02-07|Salernitana|0|3|Juventus
+R22|2023-02-10|Milan|1|0|Torino
+R22|2023-02-11|Empoli|2|2|Spezia
+R22|2023-02-11|Lecce|1|1|Roma
+R22|2023-02-11|Lazio|0|2|Atalanta
+R22|2023-02-12|Udinese|2|2|Sassuolo
+R22|2023-02-12|Bologna|0|1|Monza
+R22|2023-02-12|Juventus|1|0|Fiorentina
+R22|2023-02-12|Napoli|3|0|Cremonese
+R22|2023-02-13|Verona|1|0|Salernitana
+R22|2023-02-13|Sampdoria|0|0|Inter
+R23|2023-02-17|Sassuolo|0|2|Napoli
+R23|2023-02-18|Sampdoria|1|2|Bologna
+R23|2023-02-18|Monza|0|1|Milan
+R23|2023-02-18|Inter|3|1|Udinese
+R23|2023-02-19|Atalanta|1|2|Lecce
+R23|2023-02-19|Fiorentina|1|1|Empoli
+R23|2023-02-19|Salernitana|0|2|Lazio
+R23|2023-02-19|Spezia|0|2|Juventus
+R23|2023-02-19|Roma|1|0|Verona
+R23|2023-02-20|Torino|2|2|Cremonese
+R24|2023-02-25|Empoli|0|2|Napoli
+R24|2023-02-25|Lecce|0|1|Sassuolo
+R24|2023-02-26|Bologna|1|0|Inter
+R24|2023-02-26|Salernitana|3|0|Monza
+R24|2023-02-26|Udinese|2|2|Spezia
+R24|2023-02-26|Milan|2|0|Atalanta
+R24|2023-02-27|Verona|0|3|Fiorentina
+R24|2023-02-27|Lazio|1|0|Sampdoria
+R24|2023-02-28|Cremonese|2|1|Roma
+R24|2023-02-28|Juventus|4|2|Torino
+R25|2023-03-03|Napoli|0|1|Lazio
+R25|2023-03-04|Monza|2|1|Empoli
+R25|2023-03-04|Atalanta|0|0|Udinese
+R25|2023-03-04|Fiorentina|2|1|Milan
+R25|2023-03-05|Spezia|0|0|Verona
+R25|2023-03-05|Sampdoria|0|0|Salernitana
+R25|2023-03-05|Inter|2|0|Lecce
+R25|2023-03-05|Roma|1|0|Juventus
+R25|2023-03-06|Sassuolo|3|2|Cremonese
+R25|2023-03-06|Torino|1|0|Bologna
+R26|2023-03-10|Spezia|2|1|Inter
+R26|2023-03-11|Empoli|0|1|Udinese
+R26|2023-03-11|Napoli|2|0|Atalanta
+R26|2023-03-11|Bologna|0|0|Lazio
+R26|2023-03-12|Lecce|0|2|Torino
+R26|2023-03-12|Cremonese|0|2|Fiorentina
+R26|2023-03-12|Verona|1|1|Monza
+R26|2023-03-12|Roma|3|4|Sassuolo
+R26|2023-03-12|Juventus|4|2|Sampdoria
+R26|2023-03-13|Milan|1|1|Salernitana
+R27|2023-03-17|Sassuolo|1|0|Spezia
+R27|2023-03-17|Atalanta|2|1|Empoli
+R27|2023-03-18|Monza|1|1|Cremonese
+R27|2023-03-18|Salernitana|2|2|Bologna
+R27|2023-03-18|Udinese|3|1|Milan
+R27|2023-03-19|Sampdoria|3|1|Verona
+R27|2023-03-19|Fiorentina|1|0|Lecce
+R27|2023-03-19|Torino|0|4|Napoli
+R27|2023-03-19|Lazio|1|0|Roma
+R27|2023-03-19|Inter|0|1|Juventus
+R28|2023-04-01|Cremonese|1|3|Atalanta
+R28|2023-04-01|Inter|0|1|Fiorentina
+R28|2023-04-01|Juventus|1|0|Verona
+R28|2023-04-02|Bologna|3|0|Udinese
+R28|2023-04-02|Monza|0|2|Lazio
+R28|2023-04-02|Spezia|1|1|Salernitana
+R28|2023-04-02|Roma|3|0|Sampdoria
+R28|2023-04-02|Napoli|0|4|Milan
+R28|2023-04-03|Empoli|1|0|Lecce
+R28|2023-04-03|Sassuolo|1|1|Torino
+R29|2023-04-07|Salernitana|1|1|Inter
+R29|2023-04-07|Lecce|1|2|Napoli
+R29|2023-04-07|Milan|0|0|Empoli
+R29|2023-04-08|Udinese|2|2|Monza
+R29|2023-04-08|Fiorentina|1|1|Spezia
+R29|2023-04-08|Atalanta|0|2|Bologna
+R29|2023-04-08|Sampdoria|2|3|Cremonese
+R29|2023-04-08|Verona|2|1|Sassuolo
+R29|2023-04-08|Torino|0|1|Roma
+R29|2023-04-08|Lazio|2|1|Juventus
+R30|2023-04-14|Cremonese|1|0|Empoli
+R30|2023-04-14|Spezia|0|3|Lazio
+R30|2023-04-15|Bologna|1|1|Milan
+R30|2023-04-15|Napoli|0|0|Verona
+R30|2023-04-15|Inter|0|1|Monza
+R30|2023-04-16|Lecce|1|1|Sampdoria
+R30|2023-04-16|Torino|1|1|Salernitana
+R30|2023-04-16|Sassuolo|1|0|Juventus
+R30|2023-04-16|Roma|3|0|Udinese
+R30|2023-04-17|Fiorentina|1|1|Atalanta
+R31|2023-04-21|Verona|2|1|Bologna
+R31|2023-04-22|Salernitana|3|0|Sassuolo
+R31|2023-04-22|Lazio|0|1|Torino
+R31|2023-04-22|Sampdoria|1|1|Spezia
+R31|2023-04-23|Empoli|0|3|Inter
+R31|2023-04-23|Monza|3|2|Fiorentina
+R31|2023-04-23|Udinese|3|0|Cremonese
+R31|2023-04-23|Milan|2|0|Lecce
+R31|2023-04-23|Juventus|0|1|Napoli
+R31|2023-04-24|Atalanta|3|1|Roma
+R32|2023-04-28|Lecce|1|0|Udinese
+R32|2023-04-28|Spezia|0|2|Monza
+R32|2023-04-29|Roma|1|1|Milan
+R32|2023-04-29|Torino|1|2|Atalanta
+R32|2023-04-30|Inter|3|1|Lazio
+R32|2023-04-30|Cremonese|1|1|Verona
+R32|2023-04-30|Napoli|1|1|Salernitana
+R32|2023-04-30|Sassuolo|2|1|Empoli
+R32|2023-04-30|Fiorentina|5|0|Sampdoria
+R32|2023-04-30|Bologna|1|1|Juventus
+R33|2023-05-03|Atalanta|3|2|Spezia
+R33|2023-05-03|Juventus|2|1|Lecce
+R33|2023-05-03|Salernitana|3|3|Fiorentina
+R33|2023-05-03|Sampdoria|0|2|Torino
+R33|2023-05-03|Milan|1|1|Cremonese
+R33|2023-05-03|Verona|0|6|Inter
+R33|2023-05-03|Monza|1|1|Roma
+R33|2023-05-03|Lazio|2|0|Sassuolo
+R33|2023-05-04|Empoli|3|1|Bologna
+R33|2023-05-04|Udinese|1|1|Napoli
+R34|2023-05-06|Milan|2|0|Lazio
+R34|2023-05-06|Roma|0|2|Inter
+R34|2023-05-06|Cremonese|2|0|Spezia
+R34|2023-05-07|Atalanta|0|2|Juventus
+R34|2023-05-07|Torino|1|1|Monza
+R34|2023-05-07|Napoli|1|0|Fiorentina
+R34|2023-05-07|Lecce|0|1|Verona
+R34|2023-05-08|Empoli|2|1|Salernitana
+R34|2023-05-08|Udinese|2|0|Sampdoria
+R34|2023-05-08|Sassuolo|1|1|Bologna
+R35|2023-05-12|Lazio|2|2|Lecce
+R35|2023-05-13|Salernitana|1|0|Atalanta
+R35|2023-05-13|Spezia|2|0|Milan
+R35|2023-05-13|Inter|4|2|Sassuolo
+R35|2023-05-14|Verona|0|1|Torino
+R35|2023-05-14|Fiorentina|2|0|Udinese
+R35|2023-05-14|Monza|2|0|Napoli
+R35|2023-05-14|Bologna|0|0|Roma
+R35|2023-05-14|Juventus|2|0|Cremonese
+R35|2023-05-15|Sampdoria|1|1|Empoli
+R36|2023-05-19|Sassuolo|1|2|Monza
+R36|2023-05-20|Cremonese|1|5|Bologna
+R36|2023-05-20|Atalanta|3|1|Verona
+R36|2023-05-20|Milan|5|1|Sampdoria
+R36|2023-05-21|Lecce|0|0|Spezia
+R36|2023-05-21|Torino|1|1|Fiorentina
+R36|2023-05-21|Napoli|3|1|Inter
+R36|2023-05-21|Udinese|0|1|Lazio
+R36|2023-05-22|Roma|2|2|Salernitana
+R36|2023-05-22|Empoli|4|1|Juventus
+R37|2023-05-26|Sampdoria|2|2|Sassuolo
+R37|2023-05-27|Salernitana|3|2|Udinese
+R37|2023-05-27|Spezia|0|4|Torino
+R37|2023-05-27|Fiorentina|2|1|Roma
+R37|2023-05-27|Inter|3|2|Atalanta
+R37|2023-05-28|Verona|1|1|Empoli
+R37|2023-05-28|Bologna|2|2|Napoli
+R37|2023-05-28|Monza|0|1|Lecce
+R37|2023-05-28|Lazio|3|2|Cremonese
+R37|2023-05-28|Juventus|0|1|Milan
+R38|2023-06-02|Sassuolo|1|3|Fiorentina
+R38|2023-06-03|Torino|0|1|Inter
+R38|2023-06-03|Cremonese|2|0|Salernitana
+R38|2023-06-03|Empoli|0|2|Lazio
+R38|2023-06-04|Napoli|2|0|Sampdoria
+R38|2023-06-04|Milan|3|1|Verona
+R38|2023-06-04|Roma|2|1|Spezia
+R38|2023-06-04|Atalanta|5|2|Monza
+R38|2023-06-04|Lecce|2|3|Bologna
+R38|2023-06-04|Udinese|0|1|Juventus
+
+## PO_PLAYOFF (spareggio retrocessione SHIP as compType other per ERRATA-2026-08-03;
+#  Serie B promotion/relegation playoffs = tier-internal context, NOT commissioned)
+PO_PLAYOFF|2022-23|Retro-1(Reggio Emilia)|2023-06-11|Spezia|1|3|Hellas Verona||SHIP-as-other
+PO_PLAYOFF|2022-23|L2-P1|2023-05-26|Südtirol|1|0|Reggina||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-P2|2023-05-27|Cagliari|2|1|Venezia||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-P3|2023-05-29|Südtirol|1|0|Bari||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-P4|2023-05-30|Cagliari|3|2|Parma||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-P5|2023-06-02|Bari|1|0|Südtirol||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-P6|2023-06-03|Parma|0|0|Cagliari||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-P7|2023-06-08|Cagliari|1|1|Bari||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-P8|2023-06-11|Bari|0|1|Cagliari||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-R1|2023-05-25|Cosenza|1|0|Brescia||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2022-23|L2-R2|2023-06-01|Brescia|1|1|Cosenza||NOT-COMMISSIONED-L2-internal
+
+## TABLE2 (Serie B final table context; promotion/relegation boundary gate input)
+TABLE2|2022-23|1|Frosinone Calcio|38|24|8|6|63|26|80|Promoted
+TABLE2|2022-23|2|Genoa CFC|38|21|11|6|53|28|73|[-1] [R] Promoted
+TABLE2|2022-23|3|SSC Bari|38|17|14|7|58|37|65|[P] Promotion Playoff
+TABLE2|2022-23|4|Parma Calcio|38|17|10|11|48|39|60|[-1] Promotion Playoff
+TABLE2|2022-23|5|Cagliari Calcio|38|15|15|8|50|34|60|[R] Promotion Playoff
+TABLE2|2022-23|6|FC Südtirol|38|14|16|8|38|34|58|[P] Promotion Playoff
+TABLE2|2022-23|7|Reggina 1914|38|17|4|17|49|45|50|[-5] [!] Promotion Playoff
+TABLE2|2022-23|8|Venezia FC|38|13|10|15|51|50|49|[R] Promotion Playoff
+TABLE2|2022-23|9|Palermo FC|38|11|16|11|48|49|49|[P]
+TABLE2|2022-23|10|Modena FC 2018|38|13|9|16|47|53|48|[P]
+TABLE2|2022-23|11|AC Pisa|38|11|14|13|48|42|47|
+TABLE2|2022-23|12|Ascoli Picchio FC|38|12|11|15|40|47|47|
+TABLE2|2022-23|13|Como 1907|38|10|17|11|47|48|47|
+TABLE2|2022-23|14|Ternana Calcio|38|11|10|17|37|52|43|
+TABLE2|2022-23|15|AS Cittadella|38|9|16|13|34|45|43|
+TABLE2|2022-23|16|Brescia Calcio|38|9|13|16|36|57|40|Relegation Playoff
+TABLE2|2022-23|17|Cosenza Calcio|38|9|13|16|30|53|40|Relegation Playoff
+TABLE2|2022-23|18|AC Perugia Calcio|38|10|9|19|40|52|39|Relegated
+TABLE2|2022-23|19|SPAL (Ferrara)|38|8|14|16|41|51|38|Relegated
+TABLE2|2022-23|20|Benevento Calcio|38|7|14|17|33|49|35|Relegated
+

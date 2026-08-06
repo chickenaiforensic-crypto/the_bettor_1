@@ -1,0 +1,243 @@
+# RPL venue + official-table facts, transcribed from primary fetched pages 2026-08-03
+# Sources: RSSSF rus2022.html (club stadium table 2021/22), rus2023.html (final table + NB),
+#          rus2024.html (final table), en.wikipedia 2022-23 RPL & 2023-24 RPL "Venues" sections (wikitext).
+#
+# VENUE|season|club(stock)|stadium|capacity|source
+VENUE|2021-22|Ahmat|Ahmat Arena|30597|rsssf-rus2022-stadium-table
+VENUE|2021-22|Arsenal|Arsenal Stadium (Tula)|19241|rsssf-rus2022-stadium-table
+VENUE|2021-22|CSKA|VEB Arena (VEB CSKA Arena)|30457|rsssf-rus2022-stadium-table
+VENUE|2021-22|Dinamo|VTB Arena (VTB Dinamo Arena)|25716|rsssf-rus2022-stadium-table
+VENUE|2021-22|Khimki|Arena Khimki|18636|rsssf-rus2022-stadium-table
+VENUE|2021-22|Krasnodar|Krasnodar Stadium (FC Krasnodar Stadium)|35179|rsssf-rus2022-stadium-table
+VENUE|2021-22|KS Samara|Solidarnost Arena (Solidarnost Samara Arena)|41970|rsssf-rus2022-stadium-table
+VENUE|2021-22|Lokomotiv|RZD Arena (Russian Railways Arena)|27320|rsssf-rus2022-stadium-table
+VENUE|2021-22|NNovgorod|Nizhny Novgorod Stadium|44242|rsssf-rus2022-stadium-table
+VENUE|2021-22|Rostov|Rostov Arena|43472|rsssf-rus2022-stadium-table
+VENUE|2021-22|Rubin|Ak Bars Arena|45093|rsssf-rus2022-stadium-table
+VENUE|2021-22|Sochi|Fisht Olympic Stadium (Olympic Stadium Fisht)|44287|rsssf-rus2022-stadium-table
+VENUE|2021-22|Spartak|Otkritie Bank Arena|45360|rsssf-rus2022-stadium-table
+VENUE|2021-22|Ufa|BetBoom Arena (Neftyanik Stadium)|13573|rsssf-rus2022-stadium-table
+VENUE|2021-22|Ural|Ekaterinburg Arena (Yekaterinburg Arena)|35696|rsssf-rus2022-stadium-table
+VENUE|2021-22|Zenit|Gazprom Arena (Krestovsky)|67800|rsssf-rus2022-stadium-table
+VENUE|2022-23|Zenit|Krestovsky Stadium|67800|wiki-2022-23-rpl
+VENUE|2022-23|Ural|Central Stadium (Ekaterinburg Arena)|35696|wiki-2022-23-rpl
+VENUE|2022-23|Khimki|Arena Khimki|18636|wiki-2022-23-rpl
+VENUE|2022-23|Rostov|Rostov Arena|45000|wiki-2022-23-rpl
+VENUE|2022-23|Spartak|Otkritie Arena|44307|wiki-2022-23-rpl
+VENUE|2022-23|KS Samara|Solidarnost Arena|44918|wiki-2022-23-rpl
+VENUE|2022-23|Krasnodar|Krasnodar Stadium|34291|wiki-2022-23-rpl
+VENUE|2022-23|Akhmat|Akhmat-Arena|30597|wiki-2022-23-rpl
+VENUE|2022-23|CSKA|VEB Arena|30457|wiki-2022-23-rpl
+VENUE|2022-23|Lokomotiv|RZD Arena|27320|wiki-2022-23-rpl
+VENUE|2022-23|Sochi|Fisht Olympic Stadium|47659|wiki-2022-23-rpl
+VENUE|2022-23|Pari NN|Nizhny Novgorod Stadium|44899|wiki-2022-23-rpl
+VENUE|2022-23|Fakel|Tsentralnyi Profsoyuz Stadion (Voronezh)|31793|wiki-2022-23-rpl
+VENUE|2022-23|Dinamo|VTB Arena|26319|wiki-2022-23-rpl
+VENUE|2022-23|Orenburg|Gazovik Stadium|10046|wiki-2022-23-rpl
+VENUE|2022-23|Torpedo|Luzhniki Stadium|81000|wiki-2022-23-rpl (annotated "(set to change)")
+VENUE|2023-24|Zenit|Krestovsky Stadium|67800|wiki-2023-24-rpl
+VENUE|2023-24|Ural|Central Stadium (Ekaterinburg Arena)|35696|wiki-2023-24-rpl
+VENUE|2023-24|Rubin|Ak Bars Arena|45093|wiki-2023-24-rpl
+VENUE|2023-24|Rostov|Rostov Arena|45000|wiki-2023-24-rpl
+VENUE|2023-24|Spartak|Lukoil Arena (Otkritie renamed)|44307|wiki-2023-24-rpl
+VENUE|2023-24|KS Samara|Solidarnost Arena|44918|wiki-2023-24-rpl
+VENUE|2023-24|Krasnodar|Krasnodar Stadium|34291|wiki-2023-24-rpl
+VENUE|2023-24|Akhmat|Akhmat-Arena|30597|wiki-2023-24-rpl
+VENUE|2023-24|CSKA|VEB Arena|30457|wiki-2023-24-rpl
+VENUE|2023-24|Lokomotiv|RZD Arena|27320|wiki-2023-24-rpl
+VENUE|2023-24|Sochi|Fisht Olympic Stadium|47659|wiki-2023-24-rpl
+VENUE|2023-24|Pari NN|Nizhny Novgorod Stadium|44899|wiki-2023-24-rpl
+VENUE|2023-24|Fakel|Tsentralnyi Profsoyuz Stadion (Voronezh)|31793|wiki-2023-24-rpl
+VENUE|2023-24|Dinamo|VTB Arena|26319|wiki-2023-24-rpl
+VENUE|2023-24|Orenburg|Gazovik Stadium|10046|wiki-2023-24-rpl
+VENUE|2023-24|Baltika|Kaliningrad Stadium|35016|wiki-2023-24-rpl
+#
+# EXCEPTION|season|club|detail|source
+EXCEPTION|2022-23|Torpedo|RSSSF rus2023.html NB (printed twice): "Until Round 10, Torpedo played home matches in Khimki, at FC Khimki home stadium." -> Torpedo home rows rounds 1-10 played at Arena Khimki, city Khimki.|rsssf-rus2023-1l
+EXCEPTION|2022-23|Torpedo|RSSSF R19 (2023-03-11) Torpedo 0-1 Ural explicitly tagged "[In Khimki]"; wiki infobox lowest attendance 207 confirms that match. -> that one Torpedo home row also Arena Khimki.|rsssf-rus2023-1l
+#
+# TEAM-ROW candidates (clubs not on owner roster; playoff-only FNL participants)
+# Facts verified from fetched pages above; blanks stay blank per no-imputation rule.
+# Ufa: in RPL 2021-22 (VENUE row above); relegated via playoff; wiki 2022-23 RPL Teams section:
+#   "Arsenal Tula, Rubin Kazan and Ufa were all relegated to the 2022-23 Russian Football National League".
+# Yenisey Krasnoyarsk / SKA-Khabarovsk: FNL clubs appearing only in RPL relegation playoffs (ledger PRO-rel rows);
+#   their league = Russian First League (FNL). Stadium/founded not yet single-sourced from a fetched page -> keep
+#   stadium/capacity/founded BLANK in TEAM rows and disclose in NOTE (never-impute rule).
+#
+# OFFICIAL FINAL TABLES (RSSSF #1l chunk0, verbatim) — validator constants
+# TABLE|season|pos|club(stock)|P|W|D|L|GF|GA|Pts|note
+TABLE|2021-22|1|Zenit|30|19|8|3|66|28|65|CHAMPIONS (4th consecutive title)
+TABLE|2021-22|2|Sochi|30|17|5|8|54|30|56|
+TABLE|2021-22|3|Dinamo|30|16|5|9|53|41|53|
+TABLE|2021-22|4|Krasnodar|30|14|8|8|42|30|50|H2H bracket [1 1 0 1-0 4] ahead of CSKA
+TABLE|2021-22|5|CSKA|30|15|5|10|42|29|50|H2H bracket [0 1 1 0-1 1]
+TABLE|2021-22|6|Lokomotiv|30|13|9|8|43|39|48|
+TABLE|2021-22|7|Ahmat|30|13|3|14|36|38|42|
+TABLE|2021-22|8|KS Samara|30|12|5|13|39|36|41|[+]
+TABLE|2021-22|9|Rostov|30|10|8|12|47|51|38|H2H bracket [1 1 0 4-3 4] ahead of Spartak
+TABLE|2021-22|10|Spartak|30|10|8|12|37|41|38|H2H bracket [0 1 1 3-4 1]
+TABLE|2021-22|11|NNovgorod|30|8|9|13|26|39|33|H2H bracket [1 1 0 2-1 4] ahead of Ural
+TABLE|2021-22|12|Ural|30|8|9|13|27|35|33|H2H bracket [0 1 1 1-2 1]
+TABLE|2021-22|13|Khimki|30|7|11|12|34|47|32|Relegation Playoff (survived)
+TABLE|2021-22|14|Ufa|30|6|12|12|29|40|30|Relegation Playoff (relegated)
+TABLE|2021-22|15|Rubin|30|8|5|17|34|56|29|Relegated
+TABLE|2021-22|16|Arsenal|30|5|8|17|30|59|23|Relegated
+TABLE|2022-23|1|Zenit|30|21|7|2|74|20|70|CHAMPIONS (5th consecutive title) [C]
+TABLE|2022-23|2|CSKA|30|17|7|6|56|27|58|
+TABLE|2022-23|3|Spartak|30|15|9|6|60|38|54|
+TABLE|2022-23|4|Rostov|30|15|8|7|48|44|53|
+TABLE|2022-23|5|Akhmat|30|15|5|10|51|39|50|
+TABLE|2022-23|6|Krasnodar|30|13|9|8|62|46|48|
+TABLE|2022-23|7|Orenburg|30|14|4|12|58|55|46|[P]
+TABLE|2022-23|8|Lokomotiv|30|13|6|11|54|46|45|H2H bracket [1 0 1 5-5 3] ahead of Dinamo
+TABLE|2022-23|9|Dinamo|30|13|6|11|49|45|45|H2H bracket [1 0 1 5-5 3]
+TABLE|2022-23|10|Sochi|30|11|5|14|37|54|38|
+TABLE|2022-23|11|Ural|30|10|6|14|33|45|36|
+TABLE|2022-23|12|KS Samara|30|8|8|14|32|45|32|
+TABLE|2022-23|13|Pari NN|30|8|6|16|33|50|30|Relegation Playoff (survived); H2H bracket [1 0 1 3-2 3] ahead of Fakel
+TABLE|2022-23|14|Fakel|30|6|12|12|36|48|30|[P] Relegation Playoff (survived); H2H bracket [1 0 1 2-3 3]
+TABLE|2022-23|15|Khimki|30|4|6|20|25|67|18|Relegated
+TABLE|2022-23|16|Torpedo|30|3|4|23|22|61|13|[P] Relegated
+TABLE|2023-24|1|Zenit|30|17|6|7|52|27|57|CHAMPIONS (6th consecutive title) [C]
+TABLE|2023-24|2|Krasnodar|30|16|8|6|45|29|56|H2H bracket [2 0 0 4-1 6] ahead of Dinamo
+TABLE|2023-24|3|Dinamo|30|16|8|6|53|39|56|H2H bracket [0 0 2 1-4 0]
+TABLE|2023-24|4|Lokomotiv|30|14|11|5|52|38|53|
+TABLE|2023-24|5|Spartak|30|14|8|8|41|32|50|
+TABLE|2023-24|6|CSKA|30|12|12|6|56|40|48|
+TABLE|2023-24|7|Rostov|30|12|7|11|43|46|43|
+TABLE|2023-24|8|Rubin|30|11|9|10|31|38|42|[P]
+TABLE|2023-24|9|KS Samara|30|11|8|11|46|44|41|
+TABLE|2023-24|10|Akhmat|30|10|5|15|33|45|35|
+TABLE|2023-24|11|Fakel|30|7|11|12|22|31|32|
+TABLE|2023-24|12|Orenburg|30|7|10|13|34|41|31|
+TABLE|2023-24|13|Pari NN|30|8|6|16|29|51|30|Relegation Playoff (survived); H2H bracket [1 1 0 1-0 4] ahead of Ural
+TABLE|2023-24|14|Ural|30|7|9|14|30|46|30|Relegation Playoff (relegated); H2H bracket [0 1 1 0-1 1]
+TABLE|2023-24|15|Baltika|30|7|5|18|33|42|26|[P] Relegated
+TABLE|2023-24|16|Sochi|30|5|9|16|37|48|24|Relegated
+#
+# Season totals cross-anchors: 2021-22 RSSSF "Total games played: 240; Total goals: 639"
+#   2022-23 RSSSF "Total goals: 727 (+3 awarded)" (=730 scored incl award row); wiki infobox 240 matches / 730 goals
+#   2023-24 RSSSF "Total goals: 637 (including 14 own goals)"; wiki infobox 240 matches / 637 goals
+#
+# PLAYOFF VENUES (en.wikipedia season-article match boxes, wikitext fetched 2026-08-03; corroborating pages noted)
+# POV|season|date|home|stadium|city|extra
+POV|2021-22|2022-05-25|Orenburg|Gazovik Stadium|Orenburg|ref Vladislav Bezborodov; soccerway report linked in box
+POV|2021-22|2022-05-25|SKA Khabarovsk|Lenin Stadium|Khabarovsk|ref Vladimir Moskalyov; corroborated by FotMob matchfacts (Stadion imeni V.I. Lenina, Khabarovsk)
+POV|2021-22|2022-05-28|Ufa|BetBoom Arena|Ufa|ref Pavel Kukuyan
+POV|2021-22|2022-05-28|Khimki|Arena Khimki|Khimki|ref Sergey Ivanov
+POV|2022-23|2023-06-07|Yenisey|Futbol-Arena Yenisey|Krasnoyarsk|ref Sergei Karasev; box efn: Alania denied RPL license, Yenisey seeded as 3rd-place team
+POV|2022-23|2023-06-07|Rodina|Spartakovets Stadium|Moscow|ref Kirill Levnikov; Rodina seeded as 4th-place team after Alania exclusion
+POV|2022-23|2023-06-10|Pari NN|Nizhny Novgorod Stadium|Nizhny Novgorod|corroborated by sofascore event page (location Nizhny Novgorod Stadium)
+POV|2022-23|2023-06-10|Fakel|Tsentralnyi Profsoyuz Stadion|Voronezh|wiki season-article second-leg box (fandom mirror text confirmed)
+POV|2023-24|2024-05-29|Ural|Yekaterinburg Arena (Central Stadium)|Yekaterinburg|att 13,511; ref Vasily Kazartsev
+POV|2023-24|2024-05-29|Pari NN|Nizhny Novgorod Stadium|Nizhny Novgorod|att 14,339; ref Kirill Levnikov
+POV|2023-24|2024-06-01|Akron|Kristall Stadium|Zhigulevsk|att 2,827; ref Vladislav Bezborodov; corroborated by ESPN gamecast
+POV|2023-24|2024-06-01|Arsenal|Arsenal Stadium|Tula|att 4,997; ref Pavel Kukuyan
+#
+# ================= 2024-25 + 2025-26 EXTENSION (owner override DECREE-2026-08-04, full span) =================
+# Added 2026-08-04. Sources: RSSSF rus2025.html / rus2026.html (#1l final tables + #1ldet venue prints +
+#   #prorel), en.wikipedia 2024-25 RPL & 2025-26 RPL (s1 Teams narrative, s2 Venues wikitext, s12/s13
+#   playoff boxes, Results FBR matrices - fetched 2026-08-04 via MediaWiki API), wiki Copa box refs rfs.ru.
+#
+# --- VENUE tables (en.wikipedia season-article "Venues" section, wikitext fetched 2026-08-04) ---
+VENUE|2024-25|Zenit|Krestovsky Stadium|60228|wiki-2024-25-rpl s2
+VENUE|2024-25|Spartak|Lukoil Arena|44929|wiki-2024-25-rpl s2
+VENUE|2024-25|Rubin|Ak Bars Arena|42398|wiki-2024-25-rpl s2
+VENUE|2024-25|Rostov|Rostov Arena|43472|wiki-2024-25-rpl s2
+VENUE|2024-25|Dinamo Mh|Anzhi Arena|24859|wiki-2024-25-rpl s2 (club Makhachkala; ground in Kaspiysk)
+VENUE|2024-25|KS Samara|Solidarnost Arena|42347|wiki-2024-25-rpl s2 (shared with Akron)
+VENUE|2024-25|Akron|Solidarnost Arena|42347|wiki-2024-25-rpl s2 (Krylia Sovetov's ground)
+VENUE|2024-25|Krasnodar|Krasnodar Stadium|35179|wiki-2024-25-rpl s2 (renamed Ozon Arena from R27 - see EXCEPTION)
+VENUE|2024-25|Ahmat|Akhmat-Arena|30597|wiki-2024-25-rpl s2
+VENUE|2024-25|CSKA|VEB Arena|30114|wiki-2024-25-rpl s2
+VENUE|2024-25|Lokomotiv|RZD Arena|27032|wiki-2024-25-rpl s2
+VENUE|2024-25|Himki|Arena Khimki|18636|wiki-2024-25-rpl s2
+VENUE|2024-25|Pari NN|Nizhny Novgorod Stadium|44242|wiki-2024-25-rpl s2
+VENUE|2024-25|Fakel|Fakel Stadium|10052|wiki-2024-25-rpl s2 (new ground, replaces Tsentralnyi Profsoyuz Stadion)
+VENUE|2024-25|Dinamo Ms|VTB Arena|25716|wiki-2024-25-rpl s2
+VENUE|2024-25|Orenburg|Gazovik Stadium|10046|wiki-2024-25-rpl s2
+VENUE|2025-26|Zenit|Gazprom Arena (Krestovsky)|60177|wiki-2025-26-rpl s2 (cap cites premierliga.ru club page)
+VENUE|2025-26|Spartak|Lukoil Arena|44897|wiki-2025-26-rpl s2
+VENUE|2025-26|Rubin|Ak Bars Arena (Kazan Arena)|43284|wiki-2025-26-rpl s2
+VENUE|2025-26|Rostov|Rostov Arena|45415|wiki-2025-26-rpl s2
+VENUE|2025-26|Dinamo Mh|Anzhi Arena|26364|wiki-2025-26-rpl s2
+VENUE|2025-26|Krylja S.|Solidarity Samara Arena (Solidarnost)|42389|wiki-2025-26-rpl s2 (shared with Akron)
+VENUE|2025-26|Akron|Solidarity Samara Arena (Solidarnost)|42389|wiki-2025-26-rpl s2
+VENUE|2025-26|Krasnodar|Ozon Arena (Krasnodar Stadium)|33395|wiki-2025-26-rpl s2
+VENUE|2025-26|Ahmat|Akhmat Arena (Akhmat-Arena)|30000|wiki-2025-26-rpl s2
+VENUE|2025-26|CSKA|VEB Arena|29071|wiki-2025-26-rpl s2
+VENUE|2025-26|Lokomotiv|RZD Arena|27084|wiki-2025-26-rpl s2
+VENUE|2025-26|Soci|Fisht (Fisht Olympic Stadium)|45994|wiki-2025-26-rpl s2
+VENUE|2025-26|Pari NN|Sovcombank Arena (Nizhny Novgorod Stadium)|42532|wiki-2025-26-rpl s2 (returned R12 - see EXCEPTION)
+VENUE|2025-26|Baltika|Rostec Arena (Kaliningrad Stadium)|33399|wiki-2025-26-rpl s2
+VENUE|2025-26|Dinamo Ms|VTB Arena|25716|wiki-2025-26-rpl s2
+VENUE|2025-26|Orenburg|Gazovik Stadium|10046|wiki-2025-26-rpl s2
+#
+# --- EXCEPTION lines (staged/renamed grounds; RSSSF #1ldet prints + wiki corroboration, fetched 2026-08-04) ---
+EXCEPTION|2024-25|Krasnodar|RSSSF #1ldet: home prints "FC Krasnodar Stadium" through R25 (19.04.25 vs Ahmat, att 26,999), then "Ozon Arena, Krasnodar" R27 (03.05.25 vs Rubin, att 34,037) and R30 (24.05.25 vs Dinamo Ms, att 36,664) -> sponsor rename to Ozon Arena took effect late April 2025; rows R1-R25 carry FC Krasnodar Stadium, R27/R30 Ozon Arena.|rsssf-rus2025-1ldet
+EXCEPTION|2024-25|Rubin|R12 (20.10.24) Rubin 0-4 Dinamo Ms staged in Nizhny Novgorod: #1ldet prints "Stadium Niznij Novgorod, N.Novgorod. Att: 2,447" -> that one Rubin home row = Nizhny Novgorod Stadium, Nizhny Novgorod; all other Rubin homes Ak Bars Arena prints (R2 att 14,575; R24 15,005; R30 10,743).|rsssf-rus2025-1ldet
+EXCEPTION|2024-25|Fakel|New Fakel Stadium in use from season start (R2 27.07.24 att 9,619; R6 24.08.24 8,125; R11 8,501; R23 0 behind closed doors; R30 7,873 - prints verified), EXCEPT R27 (04.05.25 vs Spartak) staged back at the old ground: #1ldet prints "Central Trade Union Stadium, Voronez. Att: 9,745" -> R27 row carries Tsentralnyi Profsoyuz Stadion.|rsssf-rus2025-1ldet
+EXCEPTION|2025-26|Pari NN|RSSSF NB: due to home-stadium renovation Pari NN played home games at various locations until Round 12. #1ldet prints: R1 vs Krasnodar "Ak Bars Arena, Kazan" att 2,142; R3 vs Lokomotiv "Ahmat Arena, Groznyj" att 232 (wiki lowest-attendance note corroborates Grozny/232); R5 vs Dinamo Mh "Mordovia Arena, Saransk" att 4,243; R8 vs Orenburg "Mordovia Arena, Saransk" att 2,667; R9 vs Ahmat "Mordovia Arena, Saransk" att 3,053; from R12 home again: R12 vs Akron "SovComBank Arena, Niznij Novgorod" att 4,099; R13 vs Baltika SovComBank 3,997; R15 vs Rubin 4,995; R16 vs Zenit 7,869; R25 vs Dinamo Ms 6,425 - SovComBank Arena = sponsored era name of Nizhny Novgorod Stadium (wiki venue table). Rows carry the actual staged grounds.|rsssf-rus2026-1ldet + wiki-2025-26-rpl
+EXCEPTION|2025-26|Akron|R13 (26.10.25) Akron 1-1 Lokomotiv staged in Saransk: #1ldet prints "Mordovia Arena, Saransk. Att: 8,531"; all other Akron homes Solidarnost Samara Arena prints.|rsssf-rus2026-1ldet
+#
+# --- OFFICIAL FINAL TABLES (RSSSF #1l, verbatim; identical to wiki league tables + matrix recompute) ---
+TABLE|2024-25|1|Krasnodar|30|20|7|3|59|23|67|CHAMPIONS (1st title)
+TABLE|2024-25|2|Zenit|30|20|6|4|58|18|66|[C]
+TABLE|2024-25|3|CSKA|30|17|8|5|47|21|59|
+TABLE|2024-25|4|Spartak|30|17|6|7|56|25|57|
+TABLE|2024-25|5|Dinamo Ms|30|16|8|6|61|35|56|
+TABLE|2024-25|6|Lokomotiv|30|15|8|7|51|41|53|
+TABLE|2024-25|7|Rubin|30|13|6|11|42|45|45|
+TABLE|2024-25|8|Rostov|30|10|9|11|41|43|39|
+TABLE|2024-25|9|Akron|30|10|5|15|39|55|35|[P]
+TABLE|2024-25|10|KS Samara|30|8|7|15|36|51|31|
+TABLE|2024-25|11|Dinamo Mh|30|6|11|13|27|35|29|[P] H2H bracket [2 1 1 0 5-2 4] ahead of Himki
+TABLE|2024-25|12|Himki|30|6|11|13|35|56|29|H2H bracket [2 0 1 1 2-5 1]
+TABLE|2024-25|13|Pari NN|30|7|6|17|27|54|27|Relegation Playoff (lost to Sochi; stayed as Khimki replacement)
+TABLE|2024-25|14|Ahmat|30|4|13|13|27|48|25|Relegation Playoff (survived)
+TABLE|2024-25|15|Orenburg|30|4|7|19|28|56|19|Relegated
+TABLE|2024-25|16|Fakel|30|2|12|16|14|42|18|Relegated
+TABLE|2025-26|1|Zenit|30|20|8|2|53|19|68|CHAMPIONS (11th title)
+TABLE|2025-26|2|Krasnodar|30|20|6|4|60|23|66|[C]
+TABLE|2025-26|3|Lokomotiv|30|14|11|5|54|39|53|
+TABLE|2025-26|4|Spartak|30|15|7|8|47|39|52|
+TABLE|2025-26|5|CSKA|30|15|6|9|44|33|51|
+TABLE|2025-26|6|Baltika|30|11|13|6|38|21|46|[P]
+TABLE|2025-26|7|Dinamo Ms|30|12|9|9|51|40|45|
+TABLE|2025-26|8|Rubin|30|11|10|9|29|30|43|
+TABLE|2025-26|9|Ahmat|30|9|10|11|35|39|37|
+TABLE|2025-26|10|Rostov|30|8|9|13|25|32|33|
+TABLE|2025-26|11|Krylja S.|30|8|8|14|35|50|32|
+TABLE|2025-26|12|Orenburg|30|7|8|15|29|44|29|
+TABLE|2025-26|13|Akron|30|6|9|15|35|53|27|Relegation Playoff (survived)
+TABLE|2025-26|14|Dinamo Mh|30|5|11|14|19|37|26|Relegation Playoff (survived)
+TABLE|2025-26|15|Pari NN|30|6|5|19|26|50|23|Relegated
+TABLE|2025-26|16|Soci|30|6|4|20|29|60|22|[P] Relegated
+#
+# Season totals cross-anchors: 2024-25 RSSSF "Total games played: 240; Total goals: 648 (18 OG)" avg 2.70,
+#   attendance 239/240 games (R23 Fakel-Ahmat played behind closed doors, att 0); wiki infobox 240 matches /
+#   648 goals. 2025-26 RSSSF "Total games played: 240; Total goals: 609 (18 OG)" avg 2.54, total attendance
+#   3,282,488 (avg 13,677); wiki infobox 240 matches / 609 goals. Wiki FBR matrices transcribed to
+#   audit/ledger/rpl-2ndidx-<season>.txt (240/240 score-identical vs RSSSF both seasons - tools/diff_rpl_matrix.py).
+#
+# --- PLAYOFF VENUES 2024-25 + 2025-26 (wiki boxes fetched 2026-08-04 s12/s13; RSSSF prints agree) ---
+POV|2024-25|2025-05-28|Ural|Yekaterinburg Arena|Yekaterinburg|att 19,679; ref Kirill Levnikov; box report rfs.ru/match/55738
+POV|2024-25|2025-05-28|Sochi|Fisht Olympic Stadium|Sochi|att 4,508; ref Sergei Karasev; box report rfs.ru/match/55740
+POV|2024-25|2025-05-31|Ahmat|Akhmat Arena|Grozny|wiki box att 4,600; ref Sergey Ivanov; box report rfs.ru/match/55739 (RSSSF prints "Att: ?" for this leg - attendance taken from wiki box)
+POV|2024-25|2025-05-31|Pari NN|Nizhny Novgorod Stadium|Nizhny Novgorod|att 13,680; ref Artyom Chistyakov; box report rfs.ru/match/55741
+POV|2025-26|2026-05-20|Ural|Yekaterinburg Arena|Yekaterinburg|att 19,474; ref Anton Frolov; box report rfs.ru/match/56913
+POV|2025-26|2026-05-20|Rotor Volgograd|Volgograd Arena|Volgograd|att 34,098; ref Igor Kaplenkov; box report rfs.ru/match/56915
+POV|2025-26|2026-05-23|Dinamo Mh|Anzhi Arena|Kaspiysk|att 11,124; ref Nikita Novikov; box report rfs.ru/match/56914
+POV|2025-26|2026-05-23|Akron|Solidarnost Samara Arena|Samara|att 9,077; ref Andrey Prokopov; box report rfs.ru/match/56916
+# Playoff outcome lines (wiki box summaries verbatim): 2024-25 - "Sochi won 4-3 on aggregate and was promoted
+#   to the Russian Premier League, Pari Nizhny Novgorod remained in the league as replacement for FC Khimki";
+#   "Akhmat won 3-2 on aggregate and remained in the Russian Premier League, Ural remained in the Russian First
+#   League". 2025-26 - "Dynamo won 3-0 on aggregate and remained in the Russian Premier League, Ural remained
+#   in the Russian First League"; "Akron won 2-1 on aggregate and remained in the Russian Premier League,
+#   Rotor remained in the Russian First League". No shootouts in any of the four ties (all decided in 180 min).
+# Membership context (wiki s1 + RFU refs): Khimki + Chernomorets denied 2025-26 RPL licenses 2025-05-24
+#   (rfs.ru/news/222413); Pari NN officially reinstated as Khimki's replacement 2025-06-16 (rfs.ru/news/222586);
+#   Torpedo Moscow EXCLUDED from RPL 2025-07-10 over match-fixing bribery case (premierliga.ru news_32356;
+#   officials Sobolev 10-yr / Skorodumov 5-yr bans, 5M RUB fine); Orenburg reinstated in Torpedo's place
+#   2025-07-11 (rfs.ru/news/222692). Rotor Volgograd TEAM-row facts: Russian First League club, Volgograd Arena,
+#   Volgograd (cross-pack identity identical to the RUSCUP pack TEAM row; cup ledger 2021-22 Group-7 era).
