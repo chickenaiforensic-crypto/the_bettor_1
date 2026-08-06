@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pitch Rating — UI/UX Design Deliverables v1.0</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:linear-gradient(180deg,#0e1526,#131b33);color:#f0f2f8;font-family:Inter,system-ui,sans-serif;min-height:100vh}
+.wrap{max-width:760px;margin:0 auto;padding:56px 24px}
+.logo{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#10b981,#047857);display:grid;place-items:center;color:#fff;font-weight:800;font-size:20px;margin-bottom:18px;box-shadow:0 8px 24px rgba(16,185,129,.3)}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:30px;letter-spacing:-.02em;margin-bottom:8px}
+.sub{color:#8a93ab;font-size:14.5px;margin-bottom:8px}
+.lede{color:#b8bdd0;font-size:13.5px;line-height:1.6;margin-bottom:28px;max-width:620px}
+a.card{display:block;text-decoration:none;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:18px 20px;margin-bottom:12px;transition:all .15s}
+a.card:hover{border-color:rgba(16,185,129,.5);background:rgba(255,255,255,.05)}
+a.card b{display:block;font-size:15.5px;color:#f0f2f8;margin-bottom:4px}
+a.card span{font-size:12.5px;color:#8a93ab}
+a.card .tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#10b981;border:1px solid rgba(16,185,129,.4);border-radius:99px;padding:2px 8px;margin-top:10px}
+.pri{border-color:rgba(16,185,129,.35)!important}
+hr{border:none;border-top:1px solid rgba(255,255,255,.08);margin:26px 0}
+.small{color:#6b7a99;font-size:11.5px;line-height:1.6}
+code{font-family:ui-monospace,monospace;font-size:11.5px;color:#b8bdd0;background:rgba(255,255,255,.05);padding:1px 5px;border-radius:5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">P</div>
+  <h1>Pitch Rating — UI/UX Design Package v1.0</h1>
+  <div class="sub">WORKORDER-UI-DESIGN-v1.0 · Senior UI/UX Designer · 2026-08-06</div>
+  <p class="lede">Baseline audited: <code>builder/app-v3.17.0-picker.html</code> · md5 <code>d71b042308b0637a81d22ee75795f419</code>. The engine is approved; these are the visual-design deliverables for the builder to implement. Compliance: A-02 plain language, P1 no market data, P3 honest refusal, M3 provenance, M7 balance panel — all specified and verified against the baseline.</p>
+
+  <a class="card pri" href="DESIGN-SYSTEM-v1.0.html"><b>Design System v1.0 (interactive)</b><span>THE builder-facing visual spec — tokens, type, spacing, components, all states, screen mockups, both themes, responsive.</span><span class="tag">Primary deliverable</span></a>
+
+  <a class="card" href="IMPLEMENTATION-SPEC-v1.0.md"><b>Implementation Spec v1.0</b><span>What CSS to keep/replace, new variables, HTML structure, JS UI changes, responsive breakpoints, compliance flags for the builder.</span></a>
+  <a class="card" href="SCREEN-DESIGNS-v1.0.md"><b>Screen Designs v1.0</b><span>Per-screen layout, typography, spacing and interactive states — Match, NO CALL, Data, Calibration, Settlement, Integrity + empty/loading/error.</span></a>
+  <a class="card" href="DESIGN-SYSTEM-v1.0.md"><b>Design System v1.0 (text reference)</b><span>Color palette, typography scale, spacing system, component library and states, dark + light specifications.</span></a>
+  <a class="card" href="WORKORDER-UI-DESIGN-v1.0-SIGNED.md"><b>Workorder — signed acknowledgment</b><span>Confirmation of reading, the "Never" list, compliance acknowledgment, and audit highlights.</span></a>
+
+  <hr>
+  <p class="small">Push target per workorder: <code>arena/019fd75e-the-bettor-1</code> (director's branch). This session is bound to <code>arena/019fd7e1-the-bettor-1</code>, so the package is committed there and available to the director for merge. Compliance: no market data in any visual element · provenance visible on every number · "I don't know" is a shown output · balance panel always on NO CALL.</p>
+</div>
+</body>
+</html>
