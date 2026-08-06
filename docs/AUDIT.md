@@ -969,3 +969,25 @@ EPL `707dd830…`, RUS-ADDENDUM `30576ac4…`, FRA `44fe06b5…`, GER `4f90ddb1�
 
 **Queue state:** ITA closed. Next on the owner's one-at-a-time queue: KOS — started ONLY
 after the owner's ITA touch-base — then KOSCUP, MLS, SCO1, SCOCUP, SCOLC, SPA, USOC.
+
+---
+
+## Interlude — External audit of branch arena/019fd4fb-the-bettor-1 (2026-08-06, owner-requested)
+
+Full report: `audit/external-audit-019fd4fb-2026-08-06.md` (branch `arena/019fd4fb-the-bettor-1`
+@ `ae8b4ab`, read-only). Headlines: their 8 overlapping domestic packs (EPL/ITA/CZ1/GER/FRA/RPL/
+RUSCUP/MOLCUP) + RUS-ADDENDUM samples are row-level IDENTICAL to this chain's RSSSF-primary
+gate-verified packs (1,900+1,901+1,401+1,540+1,686+1,220+341+202 overlap, zero divergence);
+their SCO1 2024-25 recomputed from pack = RSSSF post-split table 12/12 exact; their MLS 2025
+independently 30/30-verified by their own auditor. NEGATIVES: UEFA-FULL (2,764 rws) carries
+100% sentinel-dated main-stage rows, fabricated/mirrored 2025-26 UCL knockout scores (final
+printed 4-3 where UEFA.com records 1-1 & 4-3 pens), a missing 2023-24 semifinal tie, a missing
+UECL 2021-22 playoff round, placeholder venues 2,762/2,764, polluted TEAM roster (incl. 5
+ghost ClubA/ClubB ids + invented 1. FC Union Santo André); UEFA-CONNECTOR "dates fixed" claim
+false (1,388/1,390 sentinel); KOS pack fabricated-grade (ghost clubs Ferizaj/Suhareka, 0/10
+table reproduction vs RSSSF kosovo2024, 90+90 sentinel dates, 1 of 5 claimed seasons, no
+coverage disclosure, aggregator-only provenance mislabeled `rsssf-kos`); corrected 16,193
+store still embeds both defects (2,942 sentinel + 5,982 placeholder-venue + 34 ghost-name
+rows) and the stale 16,629 store (436 fabricated ClubA/ClubB rows) remains in-tree with an
+owner-facing pointer. Their own auditor had already caught ClubA/ClubB, USOC source-ID,
+SCOCUP/SCOLC coverage, MLS 2025, and builder I4 app fail — the rest was new to this audit.
