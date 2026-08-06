@@ -1,7 +1,7 @@
 # PHASE TASKLIST — Zero-Harcode Football Prediction Engine
 
 **Project:** the_bettor_1  
-**Branch:** arena/019fd71e-the-bettor-1  
+**Branch:** arena/019fd75e-the-bettor-1 (PR #3)  
 **Director:** Intelligence Coordination  
 **Date:** 2026-08-06  
 **Status:** PLANNING PHASE  
