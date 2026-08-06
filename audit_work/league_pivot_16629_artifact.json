@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-06",
+  "store": "audit_work/pitch-rating-full-16629-europe-complete-2026-08-05.json",
+  "method": "frozen domestic online ratings through cutoff; full Poisson lambdas; per-league domestic HFA; Poisson H/D/A grid Brier; outcome-only",
+  "cutoff": "2024-07-01",
+  "iterations": 100,
+  "step": 0.05,
+  "domestic_fit_rows": 7817,
+  "uefa_invalid_dates_excluded": 343,
+  "uefa_valid_rows": 2857,
+  "in_scope_rows": 189,
+  "train_rows": 2243,
+  "test_rows": 614,
+  "test_requirement": ">=100",
+  "test_requirement_pass": true,
+  "league_coverage": {
+    "Italy Serie A": 66,
+    "Spain La Liga": 25,
+    "Russian Premier League": 8,
+    "Germany Bundesliga": 36,
+    "Kosovo Superliga": 40,
+    "England Premier League": 14,
+    "Scottish Premiership": 6,
+    "Czech First League": 2
+  },
+  "pivots_log_goals": {
+    "RUS": 0.173852,
+    "CZE": 0.0,
+    "ENG": 0.213137,
+    "ITA": 0.022449,
+    "GER": -0.169053,
+    "SPA": 0.025487,
+    "SCO": 0.0,
+    "KOS": -0.265873
+  },
+  "brier_frozen": 0.629892,
+  "brier_weighted": 0.628809,
+  "brier_improvement_pct": 0.1719,
+  "iteration_checkpoints": [
+    {
+      "iteration": 1,
+      "max_step": 0.06028822341381157,
+      "pivots": {
+        "RUS": 0.023117,
+        "ENG": 0.036463,
+        "ITA": 0.00234,
+        "GER": -0.029667,
+        "SPA": 0.005294,
+        "KOS": -0.037548
+      }
+    },
+    {
+      "iteration": 10,
+      "max_step": 0.033247360224324916,
+      "pivots": {
+        "RUS": 0.132356,
+        "ENG": 0.181053,
+        "ITA": 0.015493,
+        "GER": -0.144466,
+        "SPA": 0.022862,
+        "KOS": -0.207299
+      }
+    },
+    {
+      "iteration": 25,
+      "max_step": 0.0249750884162453,
+      "pivots": {
+        "RUS": 0.169181,
+        "ENG": 0.211329,
+        "ITA": 0.021518,
+        "GER": -0.167734,
+        "SPA": 0.025348,
+        "KOS": -0.259643
+      }
+    },
+    {
+      "iteration": 50,
+      "max_step": 0.02401572445726082,
+      "pivots": {
+        "RUS": 0.173735,
+        "ENG": 0.213123,
+        "ITA": 0.022423,
+        "GER": -0.169046,
+        "SPA": 0.025482,
+        "KOS": -0.265717
+      }
+    },
+    {
+      "iteration": 75,
+      "max_step": 0.02399179693993395,
+      "pivots": {
+        "RUS": 0.173849,
+        "ENG": 0.213137,
+        "ITA": 0.022449,
+        "GER": -0.169053,
+        "SPA": 0.025487,
+        "KOS": -0.265869
+      }
+    },
+    {
+      "iteration": 100,
+      "max_step": 0.023991185951029056,
+      "pivots": {
+        "RUS": 0.173852,
+        "ENG": 0.213137,
+        "ITA": 0.022449,
+        "GER": -0.169053,
+        "SPA": 0.025487,
+        "KOS": -0.265873
+      }
+    }
+  ],
+  "p1_market_data_used": false
+}
