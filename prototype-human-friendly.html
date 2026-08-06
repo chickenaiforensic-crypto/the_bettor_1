@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pitch Rating — Human-Friendly Prototype v3.7.0 → v3.8.0 S7</title>
+<style>
+:root{--bg:#fff;--ink:#111;--ink2:#666;--line:#ddd;--accent:#2a7;--card:#fafafa}
+[data-theme="dark"]{--bg:#111;--ink:#eee;--ink2:#aaa;--line:#333;--accent:#5d9;--card:#1a1a1a}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+header{padding:12px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.badge{font-variant-numeric:tabular-nums;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:12px}
+button{font:inherit;padding:8px 14px;border:1px solid var(--line);border-radius:8px;background:var(--bg);cursor:pointer}
+button.primary{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:600}
+main{max-width:720px;margin:0 auto;padding:16px}
+.card{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--card);margin:12px 0}
+.card.main{font-size:18px;background:var(--bg);border-width:2px}
+.small{font-size:12px;color:var(--ink2)}
+.icon{display:inline-block;background:#f0f0f0;border-radius:4px;padding:2px 6px;margin:0 4px;font-size:14px;border:1px solid var(--line)}
+[data-theme="dark"] .icon{background:#222}
+details{margin:8px 0;border:1px solid var(--line);border-radius:8px;padding:8px 12px;background:var(--bg)}
+details summary{cursor:pointer;font-weight:600}
+.bar{display:flex;height:14px;border-radius:7px;overflow:hidden;border:1px solid var(--line);margin:6px 0}
+.bar div{height:100%}
+.bar .h{background:#2a7}
+.bar .d{background:#aaa}
+.bar .a{background:#c55}
+.pill{display:inline-block;padding:2px 8px;border-radius:12px;font-size:12px;border:1px solid var(--line);margin:2px}
+.pill.ok{background:#e6f5eb}
+.pill.warn{background:#fff3cd}
+.pill.no{background:#f8d7da}
+select,input{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div>⚽ Pitch Rating — Human-Friendly Prototype <span class="badge">v3.7.0 → v3.8.0 S7</span> <span class="badge">5,082 matches · 609 teams</span> <span class="badge">📅 last replay 2026-08-05 ✅</span></div>
+  <div><button onclick="toggleTheme()">◐ Theme</button> <button>💾 Backup</button></div>
+</header>
+
+<main>
+  <div class="card">
+    <div><b>Team Picker</b> — searchable, grouped by league flag, tolerant spelling, shows 6-game form</div>
+    <div style="margin:8px 0" class="grid">
+      <div><label>Home</label><br><select style="width:100%"><option>Arsenal 🛡️ Fortress  W4 D1 L1 last 6</option><option>Man City</option><option>Sparta Prague 📈 ↑ W5 D0 L1 ⚡ Hot</option></select></div>
+      <div><label>Away</label><br><select style="width:100%"><option>Sparta Prague 📈 ↑ W5 D0 L1 ⚡ Hot</option><option>Slavia Prague</option><option>Arsenal</option></select></div>
+    </div>
+    <button class="primary">Predict</button> <button>⇅ Swap</button>
+    <div class="small">Knows alias: Nott'm Forest apostrophe, Slovacko accent, Paris SG / St Etienne traps. One identity per club.</div>
+  </div>
+
+  <div class="card main">
+    <div style="font-size:22px;font-weight:700">Arsenal 62% to win at home</div>
+    <div class="small">
+      <span class="icon" title="Based on 960 games from 2021-22 to 2024-25">📅 Based on 960 games (2021-22..2024-25)</span>
+      <span class="icon" title="Live model beat base rate 12.2% on last hidden season (254 games) — real, not vs bookmaker">✅ Calibrated: beat base 12.2% on last hidden season</span>
+    </div>
+    <div style="margin:8px 0">
+      <span class="icon" title="Wins 78.5% at home when we rate Fortress (7,718 past games like this)">🛡️ Fortress — wins 78.5% when Fortress (7,718 games)</span>
+      <span class="icon" title="Live rating up after beating expectation last 3 games">📈 ↑ Rating up</span>
+      <span class="icon" title="Premier League pivots +0.20 above Czech (42 Euro head-to-heads, bias 0.01) — used in this tip">🌍 Pivot +0.20 above Czech (42 Euro meetings, bias 0.01)</span>
+    </div>
+    <div>Confidence: <b>STRONG</b> — won 78% of similar past tips (59 like this) — <span class="icon" title="Trend stable">📈 trend stable</span></div>
+    <div>Current form: <span class="icon" title="Last 6: W5 L1 GD +8 vs base +2.3 — tracked, not weighted yet because test showed +0.009 Brier worse, so base only for now. Playoff-only α0.15 test safe 0% usage.">⚡ Sparta hot — last 6 much better than base (+8 vs +2.3) — tracked, not weighted yet</span></div>
+    <div><span class="icon" title="Draw risk — same-tier gap, draw rate 24% (capped ±2% correction)">💡 Why not higher? Draw risk — same-tier gap, draw rate 24% (capped ±2%)</span></div>
+
+    <div style="margin:12px 0"><button class="primary">💾 Save this tip</button></div>
+
+    <details><summary>Why this tip? (plain English)</summary>
+      <div class="small">
+        We trained on 960 games before this season, hid last season, predicted hidden, beat base 12.2% — so we trust our live rating. Arsenal attack +0.32 defence -0.11, Premier League home advantage 0.28. We gave 0% extra for current form because our test showed giving 35% extra made predictions slightly worse (+0.009 Brier), so we keep base only for now. Playoff-only test safe 0% usage. League pivot +0.20 used because English teams beat Czech teams by 0.4 more than expected in 42 Euro meetings.
+      </div>
+    </details>
+
+    <details><summary>Technical details (small-print)</summary>
+      <div class="small">
+        λ_home 1.84 λ_away 0.92 scoreGrid Poisson×Poisson DC τ ρ-0.06 normalised H/D/A raw max cell ~13%, goalsGrid shrunk k=0.5 GMU2.6186 → O/U, draw correction draw_table[A|gap1] +0.015 proportional M4 cap ±0.02 never moves favourite, att Arsenal +0.32 def -0.11 hfa Premier 0.28 home_extra +0.02, ELO 1567 ★★★★☆ (not prediction), points round(100×H_cal)=62 tier A+≥70 consensus STRONG 1.6 both ≥4H≥4A 78.6% vs 73% top10%, Brier DC 0.5675 vs base 0.6465 -12.2% n254 dir55.9% logloss0.957 window 2021-22..2024-25 replay 2026-08-05, provenance dc-fitted-model n=960 window 2021-22..2024-25 Brier 0.5675 vs base 0.6465 -12.2% date 2026-08-05, league-pivot s[ENG]=+0.12 s[CZE]=-0.08 n=42 bias0.01 date 2026-08-05, current-form blend α capped 0.15-0.35 gated ≥6 recent or ≥3 playoff GD diff>0.5 — v1 degrades -0.00963 v2 safe 0% usage.
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <div><b>We can't rate this yet — honest.</b></div>
+    <div class="small">Reason: Sparta has only 4 home games (needs 6) — need more results.</div>
+    <div>What we can show: <span class="icon" title="Shared opponents: both played Shakhtar — 2 paths, spread 1.2 — usable">🔗 Chain evidence (2 paths)</span></div>
+    <div>Via Slavia: Arsenal +0.6, Via Banik: +0.3 — mean +0.45 SD0.21 spread 0.3 — USABLE</div>
+    <div>
+      <span class="icon" title="Home 48% / Draw 22% / Away 30% — evidence split, we say NO CALL rather than guess">⚖️ Balance: 58% Arsenal / 18% Draw / 24% Sparta — we say NO CALL</span>
+      <div class="bar"><div class="h" style="width:58%"></div><div class="d" style="width:18%"></div><div class="a" style="width:24%"></div></div>
+    </div>
+    <div><span class="icon" title="No calibrated bridge yet — need 20+ Euro ties, we have 12 (UEFA connector #17 in progress). We'd rather say NO CALL than guess.">🌍 No calibrated bridge yet — need 20+ Euro ties, have 12 (UEFA connector in progress)</span></div>
+  </div>
+
+  <div class="card">
+    <div><b>Data — Files</b> — Drop result file here (.txt)</div>
+    <div class="small">We check every file for format, dates, scores, duplicates. Rejected files never saved — you'll see reason in plain English.</div>
+    <div style="border:2px dashed var(--line);border-radius:8px;padding:16px;text-align:center;margin:8px 0">Drop zone — click or drop</div>
+    <div>Staged: CZ1-2021-2026.txt 1,401 matches <span class="pill ok">✅ Ready to Approve</span> <button>Approve</button> <button>View holds 20</button> <button>Discard</button></div>
+    <div class="small">Holds: 20 cup ties have different tieIds — we keep rows verbatim, you approve keep verbatim (Z-003) — safe.</div>
+  </div>
+
+  <div class="card">
+    <div><b>Coverage — What we hold — honest</b></div>
+    <div>England: 1,900 games 2021-22 to 2025-26 <span class="pill ok">✅ Complete</span> 📅 5 seasons</div>
+    <div>Czech: 1,603 (1,381 +20 playoffs +202 cup) <span class="pill ok">✅ Complete (11 date fixes D-1 applied)</span></div>
+    <div>Russia: 1,579 <span class="pill ok">✅ Complete</span></div>
+    <div>Italy: 1,901 (1900+1 playoff) <span class="pill warn">⏳ Full audit pending</span> — fresh parse PASS 0 dup</div>
+    <div>Germany: 1,540 (1530+10 playoffs) <span class="pill warn">⏳ Full audit pending</span></div>
+    <div>France: 1,686 (1678+8 playoffs) <span class="pill warn">⏳ Full audit pending</span></div>
+    <div>UEFA Connector: 1,390 (689 UCL 437 UEL 264 UECL) <span class="pill no">❌ 1 dup defect — Real Madrid vs Chelsea 2022-04-12 duplicate</span> — needs fix</div>
+    <div class="small">Missing: Spain 0, Scotland cups 0, MLS 0 — see Request tab. Small-country 156 purged by owner decision — backup kept. Leftover Germany 2 Wales 2 purged — final 5,082 currently, ~11,589 after new packs.</div>
+  </div>
+
+  <div class="card">
+    <div><b>Calibration — Our model proves itself by hiding last season, retraining on earlier, predicting hidden.</b></div>
+    <button class="primary">Run masked replay</button> <button>Run test-run ladder</button> <button>Download artifact</button>
+    <div>Last replay: 2026-08-05 ✅<br>RPL: trained 960, tested 254 hidden → beat base 12.2% (0.5675 vs 0.6465) — strong<br>CZ1: 1105→276 → beat 6.4%<br>ENG: 1520→374 → beat 6.0%</div>
+    <div class="small">Ladder: Last 1 game 100% direction (noise, not proof) Last 10 66.7% → Last FULL season 55.9% stable real. Artifacts: dc-fitted-model, draw_table 27 cells, tiers, league-pivot ENG+0.12 CZE-0.08 n42 bias0.01 date2026-08-05. Next monthly sweep due 2026-09-05.</div>
+  </div>
+
+  <div class="card">
+    <div><b>Log & Settlement — Settled tips (20 newest)</b></div>
+    <div>Arsenal vs Sparta — saved 62% Home — result 2-0 — WIN — draw would be LOSS (never push I5 rule)</div>
+    <div class="small">Every tip frozen at save — live ratings may move later, frozen never changes. Audit trail 55 events travels every backup append-only provable.</div>
+  </div>
+
+  <div class="card">
+    <div><b>Integrity & Snapshots + Country Packs</b></div>
+    <div>Muted rows: flagged with reason, kept visible, excluded every calc — never deleted. Restore reverses.</div>
+    <div>Snapshots: before every commit + purge hash snapshots.</div>
+    <div>Integrity screen: outcomes-only (no market P1) — future M10 own-model collapse detection.</div>
+    <div style="margin-top:8px">Scope: pick country (+ competition) → Preview 1,401 matches 25 clubs → Mute soft (excluded not deleted) vs Purge hard backup-gated "Download backup, then purge" → auto-download named pre-purge → unlock "backup ready" → purge logs backup filename. Text: "No undo inside app. Undo = load backup you just downloaded."</div>
+  </div>
+
+</main>
+
+<script>
+function toggleTheme(){var h=document.documentElement;h.setAttribute('data-theme',h.getAttribute('data-theme')==='dark'?'light':'dark')}
+</script>
+</body>
+</html>
