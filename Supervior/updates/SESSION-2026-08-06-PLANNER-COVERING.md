@@ -45,4 +45,11 @@ All 6 scripts in `audit_work/` present and functional.
 | Builder | Start B0 (harness) | `WORKORDER-BUILDER-B0-HARNESS.md` |
 | Auditor | M10 outcomes-only screen spec | Draft P1-compliant spec → owner approval |
 
+## Turn 2 — owner approvals received
+
+1. **M10 integrity screen: APPROVED.** Outcomes-only, P1-compliant. Builder can implement after auditor P1 sign-off.
+2. **Designer direction noted:** old `prototype-human-friendly.html` was the basic wireframe that prompted designer request. The APPROVED direction is the designer's index build in `designer/` — Bloomberg Terminal meets Athletic editorial (tokens + components + high-fidelity prototype). Builder instructed to use designer's system.
+3. **Cross-league pivot sample size: flagged by owner.** 35 test matches too low. Owner wants ≥100 minimum. 614 UEFA rows available after 2024-07-01. Auditor + builder assigned to re-run with full λ model, per-league HFA, ≥100 test samples, Brier metric.
+4. **All relay messages updated** with owner's decisions. Forwarding ready.
+
 *Trail rule: every number above produced by scripts run in this session. Nothing asserted from memory.*
