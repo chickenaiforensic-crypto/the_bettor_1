@@ -96,7 +96,8 @@ def main():
             if note:
                 lines.append(f"NOTE|info|advancement|{COMP} {y}: {note}")
 
-    lines.append("SOURCE|rsssf-mls|https://www.rsssf.org/tablesu/usa2022.html|2026-08-06|primary|US Open Cup 2022-25 chapters (R16 onward), verified against official bracket (semifinalists/finalists/champion)")
+    for y in ["2022","2023","2025"]:
+        lines.append(f"SOURCE|rsssf-mls-{y}|https://www.rsssf.org/tablesu/usa{y}.html|2026-08-06|primary|US Open Cup {y} (R16 onward), verified against official bracket (semifinalists/finalists/champion)")
     lines.append("NOTE|info|catalog|Competition string 'US Open Cup' (Lamar Hunt U.S. Open Cup, USSF national cup).")
     lines.append("NOTE|info|2021_cancelled|2021 US Open Cup was CANCELLED (as was 2020) due to COVID-19. Zero ties exist; no rows returned. This NOTE is mandatory to prove the year was not silently skipped.")
     lines.append("NOTE|warning|blocker|R32 round (where MLS clubs enter) NOT RETURNED for 2022/2023/2025: RSSSF cup chapters begin at the Round of 16 (1/8 Finals) and do not list the R32 ties. Slice from R16 to Final is complete; R32 requires a secondary source (worldfootball.net/soccerway) capture - blocked pending that.")

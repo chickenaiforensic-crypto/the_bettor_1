@@ -136,7 +136,9 @@ MATCH|2025-09-17|US Open Cup|domestic-league|Minnesota United FC|1|2|Austin FC||
 NOTE|info|round|SF
 MATCH|2025-10-01|US Open Cup|domestic-league|Austin FC|1|2|Nashville SC||||||rsssf-mls-2025
 NOTE|info|round|Final
-SOURCE|rsssf-mls|https://www.rsssf.org/tablesu/usa2022.html|2026-08-06|primary|US Open Cup 2022-25 chapters (R16 onward), verified against official bracket (semifinalists/finalists/champion)
+SOURCE|rsssf-mls-2022|https://www.rsssf.org/tablesu/usa2022.html|2026-08-06|primary|US Open Cup 2022 (R16 onward), verified against official bracket (semifinalists/finalists/champion)
+SOURCE|rsssf-mls-2023|https://www.rsssf.org/tablesu/usa2023.html|2026-08-06|primary|US Open Cup 2023 (R16 onward), verified against official bracket (semifinalists/finalists/champion)
+SOURCE|rsssf-mls-2025|https://www.rsssf.org/tablesu/usa2025.html|2026-08-06|primary|US Open Cup 2025 (R16 onward), verified against official bracket (semifinalists/finalists/champion)
 NOTE|info|catalog|Competition string 'US Open Cup' (Lamar Hunt U.S. Open Cup, USSF national cup).
 NOTE|info|2021_cancelled|2021 US Open Cup was CANCELLED (as was 2020) due to COVID-19. Zero ties exist; no rows returned. This NOTE is mandatory to prove the year was not silently skipped.
 NOTE|warning|blocker|R32 round (where MLS clubs enter) NOT RETURNED for 2022/2023/2025: RSSSF cup chapters begin at the Round of 16 (1/8 Finals) and do not list the R32 ties. Slice from R16 to Final is complete; R32 requires a secondary source (worldfootball.net/soccerway) capture - blocked pending that.
