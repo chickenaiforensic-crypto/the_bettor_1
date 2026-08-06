@@ -105,3 +105,30 @@ What they did NOT catch is the bulk of §3 and all of §4 below.
 on branch arena/019fc462; the 8-pack identity finding (§1) means the two chains corroborate each
 other — all eight were independently RSSSF-primary + second-index gated on my side before this
 comparison ran.*
+
+---
+
+## 8. APPENDIX (2026-08-06, second pass per owner re-request): `builder/` section + join topology
+
+Branch tip re-verified unchanged: `ae8b4ab` (fetch 2026-08-06) — §1–§7 verdicts stand as-is.
+
+**Join topology.** The branch is two arena sections merged bidirectionally: `arena/019fd4fb` ↔
+`arena/019fd4e0` (merge commits `f849101`, `455eb00`, `b84e392`, `3e7edcd`, `5c811cb`, plus
+auditor/CLEANUP relay merges `78334c9`/`7e4fbff`). 118 commits total. Nine arena branches exist
+on the remote; only 019fd4e0 merges into 019fd4fb — so "joined sections" = builder/auditor side
+(019fd4fb) + researcher/builder side (019fd4e0). No merge conflicts of consequence visible in
+the data dirs: packs arrive once, cleanly.
+
+**builder/ contents (26 files):**
+- 10 app builds `app-v3.7.0-b0.html` … `app-v3.15.0-fixed.html` (737 KB latest) + build scripts + `b0_selfcheck.js/json` + `b0_byte_diff.txt` + `calibration_module.js` + `make_evidence.py` + `README-BUILDER.md`.
+- handoffs/ `B0..B8-*.b64.txt` are **delivery envelopes, not data payloads**: B8 b64 decodes byte-identical to `builder/app-v3.15.0-fixed.html` (sha256 `1ed10c3e…` both sides). No hidden match data inside blobs.
+- Evidence JSONs (`B0`..`B8-FIXED-S7`) are coherent with their commits (md5s match version lineage; B8 evidence records the s7/b6/i4 fix set).
+
+**Data-authenticity findings inside the app itself (v3.15.0-fixed):**
+1. **Baked default pivot fitted on the contaminated store.** `LEAGUE_PIVOT_DEFAULT` (line 2229) embeds `"store": "audit_work/pitch-rating-full-16629-europe-complete-2026-08-05.json"` — i.e. the shipped app's fallback cross-border constants were fitted on the store that contained the 436 fabricated UCL rows + KOS ghost rows + 2,942 sentinel dates. The embedded `s_pivot` includes `Kosovo Superliga: -0.4444…` — a coefficient trained on the fabricated Kosovo season (§4). B1/B2 live re-derive mitigates at runtime, but the default render state carries tainted constants. **Action: re-fit pivot defaults on a cleaned store and re-ship, or strip the default.**
+2. **Frozen rated-team table (≥197 entries) incl. an out-of-queue league.** The app embeds static team rating constants covering the **Belgian Pro League** roster (Anderlecht, Antwerp, Club Brugge, Genk, Gent, … 18 clubs) — a competition with **no workorder and no pack anywhere in the branch**. Provenance of these constants is the legacy engine lineage (`previous_work_files`), not any audited pack; sits awkwardly next to the B2 "zero hard-coding" banner (defaults are initial-state, live re-derive overrides).
+3. **I4 venue-guard: REMEDIATED.** Auditor's FAIL was against v3.11; B7 (`6d96cd2`) wires `isVenueVerified` into import validation + commit (v3.15 source verified: definition :2729, invocation :2427, "venue lock durable rationale" evidence in B8 JSON). This materially reduces — but with §3.5/§4 venue placeholders still in packs/stores, the guard has nothing true to check UEFA rows against. Fix data first, then the guard works.
+4. App's `matchFingerprint` uses date+home+away+comp — consistent with the store's 0-dup result; sentinel dates (many matches sharing `20YY-06-30` + same pairing across seasons) would only collide if the same pairing repeated on the sentinel date — checked: UEFA main-stage sentinel clusters hold distinct pairings per season, so no false-dup risk, but date-keyed features (form windows) are poisoned by sentinel dating.
+
+**Updated action list (appends §7):**
+6. Builder: re-fit/replace `LEAGUE_PIVOT_DEFAULT` from a cleaned store; document or strip the frozen Belgian rating constants.
