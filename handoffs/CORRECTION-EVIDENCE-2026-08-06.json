@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-06",
+  "step": "CORRECTION",
+  "subject": "Correct v3.17.0-picker Defects (NOT v3.6.3)",
+  "baseline": {
+    "file": "builder/app-v3.17.0-picker.html",
+    "md5": "d71b042308b0637a81d22ee75795f419"
+  },
+  "corrected_build": {
+    "file": "handoffs/CORRECTION-v3.17.0-e6687ad4.b64.txt",
+    "version": "3.17.0-picker (corrected)",
+    "md5": "e6687ad417fd1d3229a000c12f73f1a3",
+    "md5_prefix": "e6687ad4",
+    "sha256": "51e275da4d2bbb3a0b198fa7f07d66ec9fd07bb965293b4c63ab8d9ea1e210d7",
+    "bytes": 741334
+  },
+  "compliance_checks": {
+    "p1_grep_code": 0,
+    "p1_grep_seed": 0,
+    "no_network_grep": 0,
+    "one_gate": "PR.ingest maintained",
+    "version": "3.17.0-picker maintained"
+  },
+  "corrections_made": [
+    {
+      "defect_id": "Defect 1",
+      "title": "Market Data in Seed (HIGHEST PRIORITY - P1 FAIL)",
+      "action": "Removed 3 MUTE rows, # INTEGRITY-AUDIT comment block, and SOURCE|src-integrity-2026 line from russian-team-pack.txt in SEED_PACKS (L12706+). Updated R6(a) comment at L759 to remove market-flagged favorite collapse text."
+    },
+    {
+      "defect_id": "Defect 2",
+      "title": "star_hyst Unused Constant (TWO locations)",
+      "action": "Removed STAR_HYST: 0.05 from L2206 (ENGINE_CONSTANTS) and 'star_hyst': 0.05 from L12518 (MODEL data blob)."
+    },
+    {
+      "defect_id": "Defects 3-5",
+      "title": "Verified Already Correct in v3.17.0-picker",
+      "action": "Verified BTTS withheld (L3683-3684), R3/R2 wording, and Zone-rate table wording are already correctly present."
+    }
+  ],
+  "test_run_ladder_parity": {
+    "store": "5,082-row store",
+    "results_by_league": {
+      "Russian Premier League": {
+        "brier_dc": 0.5675,
+        "brier_base": 0.6465,
+        "scored": 254,
+        "refused": 2,
+        "logloss": 0.9572,
+        "dir_acc": 55.9
+      },
+      "Czech First League": {
+        "brier_dc": 0.609,
+        "brier_base": 0.6509,
+        "scored": 276,
+        "refused": 0,
+        "logloss": 1.0146,
+        "dir_acc": 49.3
+      },
+      "England Premier League": {
+        "brier_dc": 0.614,
+        "brier_base": 0.6534,
+        "scored": 374,
+        "refused": 6,
+        "logloss": 1.0226,
+        "dir_acc": 49.2
+      }
+    },
+    "parity_status": "EXACT MATCH against PARITY_EXPECTED"
+  }
+}
