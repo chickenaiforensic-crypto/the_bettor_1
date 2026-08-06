@@ -1,0 +1,93 @@
+# Russian Cup 2023/24 — RSSSF rus2024.html #kubok (compact, chunks 29-32) + #cupdet (venues)
+# ISO|stage|home|hg|ag|away|penH|penA|stadium|city
+# --- RPL PATH GROUPS, 2023 ---
+2023-07-25|Group-B R1|Lokomotiv Moscow|2|1|Ural Yekaterinburg|||Russian Railways Arena|Moscow
+2023-07-25|Group-C R1|Zenit St Petersburg|2|0|Akhmat Grozny|||Gazprom Arena|St Petersburg
+2023-07-25|Group-D R1|Pari Nizhny Novgorod|1|1|Dynamo Moscow|4|3|Nizhny Novgorod Stadium|Nizhny Novgorod
+2023-07-26|Group-A R1|FC Orenburg|0|6|CSKA Moscow|||Gazovik Stadium|Orenburg
+2023-07-26|Group-A R1|Fakel Voronezh|1|3|PFC Sochi|||Central Trade Union Stadium|Voronezh
+2023-07-26|Group-B R1|FC Rostov|1|0|Rubin Kazan|||Rostov Arena|Rostov-on-Don
+2023-07-26|Group-C R1|Krylia Sovetov Samara|2|3|Baltika Kaliningrad|||Solidarnost Samara Arena|Samara
+2023-07-27|Group-D R1|FC Krasnodar|1|2|Spartak Moscow|||FC Krasnodar Stadium|Krasnodar
+2023-08-08|Group-B R2|Rubin Kazan|0|1|Lokomotiv Moscow|||Ak Bars Arena|Kazan
+2023-08-08|Group-B R2|Ural Yekaterinburg|1|0|FC Rostov|||Yekaterinburg Arena|Yekaterinburg
+2023-08-08|Group-D R2|Spartak Moscow|5|4|Pari Nizhny Novgorod|||Otkrytie Bank Arena|Moscow
+2023-08-09|Group-A R2|CSKA Moscow|0|2|Fakel Voronezh|||VEB Arena|Moscow
+2023-08-09|Group-A R2|FC Orenburg|2|0|PFC Sochi|||Gazovik Stadium|Orenburg
+2023-08-09|Group-C R2|Krylia Sovetov Samara|0|1|Zenit St Petersburg|||Solidarnost Samara Arena|Samara
+2023-08-09|Group-D R2|Dynamo Moscow|4|3|FC Krasnodar|||VTB Arena|Moscow
+2023-08-10|Group-C R2|Akhmat Grozny|0|2|Baltika Kaliningrad|||Akhmat Arena|Grozny
+2023-08-29|Group-A R3|Fakel Voronezh|0|1|FC Orenburg|||Central Trade Union Stadium|Voronezh
+2023-08-29|Group-B R3|Rubin Kazan|2|1|Ural Yekaterinburg|||Ak Bars Arena|Kazan
+2023-08-29|Group-D R3|Spartak Moscow|4|1|Dynamo Moscow|||Otkrytie Bank Arena|Moscow
+2023-08-29|Group-D R3|Pari Nizhny Novgorod|0|1|FC Krasnodar|||Nizhny Novgorod Stadium|Nizhny Novgorod
+2023-08-30|Group-A R3|PFC Sochi|0|0|CSKA Moscow|4|5|Fisht Stadium|Sochi
+2023-08-30|Group-B R3|FC Rostov|2|1|Lokomotiv Moscow|||Rostov Arena|Rostov-on-Don
+2023-08-30|Group-C R3|Baltika Kaliningrad|1|0|Zenit St Petersburg|||RosTech Arena|Kaliningrad
+2023-08-30|Group-C R3|Akhmat Grozny|3|1|Krylia Sovetov Samara|||Akhmat Arena|Grozny
+2023-09-19|Group-C R4|Baltika Kaliningrad|1|2|Krylia Sovetov Samara|||RosTech Arena|Kaliningrad
+2023-09-19|Group-D R4|Pari Nizhny Novgorod|0|3|Spartak Moscow|||Nizhny Novgorod Stadium|Nizhny Novgorod
+2023-09-19|Group-D R4|FC Krasnodar|1|1|Dynamo Moscow|4|2|FC Krasnodar Stadium|Krasnodar
+2023-09-20|Group-A R4|CSKA Moscow|1|1|PFC Sochi|4|2|VEB Arena|Moscow
+2023-09-20|Group-B R4|Rubin Kazan|1|1|FC Rostov|2|4|Ak Bars Arena|Kazan
+2023-09-20|Group-B R4|Ural Yekaterinburg|0|0|Lokomotiv Moscow|4|2|Yekaterinburg Arena|Yekaterinburg
+2023-09-20|Group-C R4|Akhmat Grozny|3|3|Zenit St Petersburg|2|4|Akhmat Arena|Grozny
+2023-09-21|Group-A R4|FC Orenburg|0|0|Fakel Voronezh|4|2|Gazovik Stadium|Orenburg
+2023-10-03|Group-B R5|Lokomotiv Moscow|3|1|FC Rostov|||Russian Railways Arena|Moscow
+2023-10-03|Group-B R5|Ural Yekaterinburg|2|0|Rubin Kazan|||Yekaterinburg Arena|Yekaterinburg
+2023-10-03|Group-C R5|Zenit St Petersburg|2|1|Baltika Kaliningrad|||Gazprom Arena|St Petersburg
+2023-10-04|Group-A R5|PFC Sochi|1|2|FC Orenburg|||Fisht Stadium|Sochi
+2023-10-04|Group-A R5|Fakel Voronezh|1|1|CSKA Moscow|4|2|Central Trade Union Stadium|Voronezh
+2023-10-04|Group-C R5|Krylia Sovetov Samara|0|3|Akhmat Grozny|||Solidarnost Samara Arena|Samara
+2023-10-04|Group-D R5|Dynamo Moscow|3|0|Spartak Moscow|||VTB Arena|Moscow
+2023-10-04|Group-D R5|FC Krasnodar|3|0|Pari Nizhny Novgorod|||FC Krasnodar Stadium|Krasnodar
+2023-10-31|Group-C R6|Zenit St Petersburg|1|0|Krylia Sovetov Samara|||Gazprom Arena|St Petersburg
+2023-10-31|Group-C R6|Baltika Kaliningrad|4|1|Akhmat Grozny|||RosTech Arena|Kaliningrad
+2023-11-01|Group-A R6|PFC Sochi|2|0|Fakel Voronezh|||Fisht Stadium|Sochi
+2023-11-01|Group-B R6|Lokomotiv Moscow|3|0|Rubin Kazan|||Russian Railways Arena|Moscow
+2023-11-01|Group-D R6|Spartak Moscow|2|3|FC Krasnodar|||Otkrytie Bank Arena|Moscow
+2023-11-02|Group-A R6|CSKA Moscow|3|1|FC Orenburg|||VEB Arena|Moscow
+2023-11-02|Group-B R6|FC Rostov|2|1|Ural Yekaterinburg|||Rostov Arena|Rostov-on-Don
+2023-11-02|Group-D R6|Dynamo Moscow|2|1|Pari Nizhny Novgorod|||VTB Arena|Moscow
+# --- GROUP TABLES (RSSSF): W WP LP L / GF-GA pts ---
+# A: CSKA 2 2 1 1 11-5 11 | Orenburg 3 1 0 2 6-10 11 | Sochi 2 0 2 2 7-6 8 (Minor) | Fakel 1 1 1 3 4-7 6
+# B: Lokomotiv 4 0 1 1 10-4 13 | Rostov 3 1 0 2 7-7 11 | Ural 2 1 0 3 6-6 8 (Minor) | Rubin 1 0 1 4 3-9 4
+# C: Zenit 4 1 0 1 9-5 14 | Baltika 4 0 0 2 12-7 12 | Akhmat 2 0 1 3 10-12 7 (Minor) | Krylya 1 0 0 5 5-12 3
+# D: Spartak 4 0 0 2 16-12 12 | Dinamo 3 0 2 1 12-10 11 | Krasnodar 3 1 0 2 12-9 11 (Minor) | PariNN 0 1 0 5 6-15 2
+# --- KNOCKOUT (2023-11 .. 2024-06) ---
+2023-11-28|QF-Major leg1|Baltika Kaliningrad|2|2|Lokomotiv Moscow|||RosTech Arena|Kaliningrad
+2023-11-29|QF-Major leg1|FC Rostov|1|1|CSKA Moscow|||Rostov Arena|Rostov-on-Don
+2023-11-29|QF-Major leg1|Dynamo Moscow|1|0|Zenit St Petersburg|||VTB Arena|Moscow
+2023-11-29|QF-Major leg1|FC Orenburg|1|0|Spartak Moscow|||Gazovik Stadium|Orenburg
+2024-03-14|QF-Major leg2|Lokomotiv Moscow|1|1|Baltika Kaliningrad|6|7|Russian Railways Arena|Moscow
+2024-03-12|QF-Major leg2|CSKA Moscow|2|0|FC Rostov|||VEB Arena|Moscow
+2024-03-13|QF-Major leg2|Zenit St Petersburg|2|0|Dynamo Moscow|||Gazprom Arena|St Petersburg
+2024-03-14|QF-Major leg2|Spartak Moscow|3|1|FC Orenburg|||Lukoil Arena|Moscow
+2024-03-12|QF-Minor P1|FC Khimki|2|0|FC Krasnodar|||Arena Khimki|Khimki
+2024-03-13|QF-Minor P1|Rodina Moscow|1|1|Ural Yekaterinburg|1|4|Sapsan Arena|Moscow
+2024-03-13|QF-Minor P1|Volgar Astrakhan|1|2|Akhmat Grozny|||Central Stadium|Astrakhan
+2024-03-14|QF-Minor P1|PFC Sochi|1|1|SKA Khabarovsk|2|4|Fisht Stadium|Sochi
+2024-04-02|QF-Minor P2|SKA Khabarovsk|1|2|Dynamo Moscow|||Kirovets Stadium|St Petersburg
+2024-04-02|QF-Minor P2|FC Khimki|0|0|FC Rostov|6|7|Arena Khimki|Khimki
+2024-04-03|QF-Minor P2|Ural Yekaterinburg|1|0|Lokomotiv Moscow|||Yekaterinburg Arena|Yekaterinburg
+2024-04-04|QF-Minor P2|Akhmat Grozny|0|1|FC Orenburg|||Akhmat Arena|Grozny
+2024-04-03|SF-Major leg1|Baltika Kaliningrad|0|1|CSKA Moscow|||RosTech Arena|Kaliningrad
+2024-04-03|SF-Major leg1|Spartak Moscow|1|2|Zenit St Petersburg|||Lukoil Arena|Moscow
+2024-04-16|SF-Major leg2|CSKA Moscow|2|0|Baltika Kaliningrad|||VEB Arena|Moscow
+2024-04-17|SF-Major leg2|Zenit St Petersburg|0|0|Spartak Moscow|||Gazprom Arena|St Petersburg
+2024-04-17|SF-Minor P1|FC Orenburg|2|4|Dynamo Moscow|||Gazovik Stadium|Orenburg
+2024-04-17|SF-Minor P1|Ural Yekaterinburg|1|3|FC Rostov|||Yekaterinburg Arena|Yekaterinburg
+2024-05-01|SF-Minor P2|Dynamo Moscow|0|2|Spartak Moscow|||VTB Arena|Moscow
+2024-05-02|SF-Minor P2|FC Rostov|0|1|Baltika Kaliningrad|||Rostov Arena|Rostov-on-Don
+2024-05-02|Finals-Major leg1|CSKA Moscow|1|1|Zenit St Petersburg|||VEB Arena|Moscow
+2024-05-15|Finals-Major leg2|Zenit St Petersburg|0|0|CSKA Moscow|5|4|Gazprom Arena|St Petersburg
+2024-05-14|Finals-Minor|Baltika Kaliningrad|1|0|Spartak Moscow|||RosTech Arena|Kaliningrad
+2024-06-02|Final|Baltika Kaliningrad|1|2|Zenit St Petersburg|||Luzhniki Stadium|Moscow
+# ADVANCEMENT: Lokomotiv-Baltika leg2 pens: Baltika won shootout 7-6 after agg 3-3 -> Baltika advanced;
+# Rodina-Ural: Ural 4-1; Sochi-SKA: SKA 4-2; Khimki-Rostov: Rostov 7-6; Finals-Major: Zenit 5-4 (agg 1-1)
+# aggregates: CSKA 3-1 Rostov; Zenit 2-1 Dinamo; Spartak 3-2 Orenburg; CSKA 3-0 Baltika; Zenit 2-1 Spartak
+# CHAMPION: Zenit. Boundary OK: super final 2024-06-02 < 2024-06-30.
+# SKA Khabarovsk home tie vs Dinamo played in St Petersburg (Kirovets) - neutral-venue NOTE (RSSSF "In Sankt-Peterburg").
+# Rodina stadium for QF-Minor P1 = Sapsan Arena, Moscow (confirmed via wiki/RFS cross-check).
+# REGIONS PATH (out of scope, 0 RPL clubs): R3 Sep4-14; R4 Sep26-28 (First League enters incl Khimki/Arsenal/Torpedo now D2);
+# R5 Oct17-19; R6 Nov1-2 -> survivors: Rodina, Khimki, SKA Khabarovsk, Volgar (all non-RPL).

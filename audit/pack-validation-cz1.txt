@@ -1,0 +1,3258 @@
+PACK VALIDATION - CZ1-2021-2026_BP-TEAM-PACK_v2.txt  (FULL SPAN 2021-22..2025-26 per DECREE-2026-08-04)
+built 2026-08-04 by tools/build_cz1_pack.py from audit/ledger/cz1-<season>.txt (RSSSF tsje2022..2026 primary, transcribed 2026-08-03/2026-08-04; 2025-26 rows assembled from the BBC dated lattice + wiki matrices under tools/build_cz1_2526_ledger.py V1..V6, recompute == RSSSF table constants EXACT); second index = Wikipedia season articles (FBR matrices, group matrices, official table + group-table constants, venue tables, brackets + CLP box, TwoLeg boxes) + worldfootball matchday spot-audits R10/R20/R25 for 2021-24 (wf dropped Czech coverage 2024-25 on; n/a documented). Constants in audit/ledger/cz1-venues.txt and cz1-2ndidx-<season>.txt.
+====================================================================================================
+GATES: 175 PASS, 0 FAIL
+[PASS] file ends with END
+[PASS] MATCH grammar: 14 fields, competition 'Czech First League'/domestic-league on league rows + 'Czech Relegation Playoffs'/other (ERRATA) on pro/rel rows + country + blank-13 verbatim
+[PASS] no dateless / non-ISO rows
+[PASS] boundary (DECREE-2026-08-04): full span through 2025-26 (max row date 2026-05-31 = last pro/rel leg), zero 2026-27 rows (R1 scheduled 2026-08-07..09, after the 2026-08-04 return date; tsje2027 404)
+[PASS] no duplicate rows (date/home/away)
+[PASS] venue-detail (stage label), stadium and city populated on every row
+[PASS] every MATCH sourceLabel resolves to a SOURCE row
+[PASS] zero TEAM rows (WO section-2: every participant already on the client roster)
+[PASS] names gate: league rows only the 17 pinned section-3 strings + Dukla Prague (override seasons); pro/rel rows additionally the 7 owner-sanctioned FNL strings
+[PASS] FNL strings confined to Czech Relegation Playoffs rows (never a league row)
+[PASS] Artis Brno confined to pro/rel rows (its First-League promotion takes effect 2026-27, past the boundary)
+[PASS] Dukla Prague confined to its two top-flight seasons 2024-25/2025-26 (league rows + the 2024-25 pro/rel tie)
+[PASS] era fragments empty in row fields (Fastav / Trinity / Baumit / OKD / MFK / 1. FC)
+[PASS] total rows = 1401 (276 + 276 + 277 + 276 + 276 league + 20 pro/rel); got 1401
+[PASS] 2021-22 rows = 276 league + 4 pro/rel = 280
+[PASS] 2021-22 stage split 240 regular + 15 Titul + 15 Zachranu + 6 Evropu
+[PASS] 2021-22 all 30 regular matchdays present x 8 dated fixtures
+[PASS] 2021-22 Titul+Zachranu rounds 31-35 x 3 fixtures each
+[PASS] 2021-22 pivot: 16 clubs x exactly 30 regular played
+[PASS] 2021-22 club composition = WO-pinned 16
+[PASS] 2021-22 per-club game-count shape == {35: 12, 34: 2, 32: 2}; got {35: 12, 34: 2, 32: 2}
+[PASS] 2021-22 rows date-sorted inside the season block
+[PASS] 2022-23 rows = 276 league + 4 pro/rel = 280
+[PASS] 2022-23 stage split 240 regular + 15 Titul + 15 Zachranu + 6 Evropu
+[PASS] 2022-23 all 30 regular matchdays present x 8 dated fixtures
+[PASS] 2022-23 Titul+Zachranu rounds 31-35 x 3 fixtures each
+[PASS] 2022-23 pivot: 16 clubs x exactly 30 regular played
+[PASS] 2022-23 club composition = WO-pinned 16
+[PASS] 2022-23 per-club game-count shape == {35: 12, 34: 2, 32: 2}; got {35: 12, 32: 2, 34: 2}
+[PASS] 2022-23 rows date-sorted inside the season block
+[PASS] 2023-24 rows = 277 league + 4 pro/rel = 281
+[PASS] 2023-24 stage split 240 regular + 15 Titul + 15 Zachranu + 7 (6 Evropu + CLP)
+[PASS] 2023-24 all 30 regular matchdays present x 8 dated fixtures
+[PASS] 2023-24 Titul+Zachranu rounds 31-35 x 3 fixtures each
+[PASS] 2023-24 pivot: 16 clubs x exactly 30 regular played
+[PASS] 2023-24 club composition = WO-pinned 16
+[PASS] 2023-24 per-club game-count shape == {36: 1, 35: 12, 34: 1, 32: 2}; got {35: 12, 34: 1, 32: 2, 36: 1}
+[PASS] 2023-24 rows date-sorted inside the season block
+[PASS] 2024-25 rows = 276 league + 4 pro/rel = 280
+[PASS] 2024-25 stage split 240 regular + 15 Titul + 15 Zachranu + 6 Evropu
+[PASS] 2024-25 all 30 regular matchdays present x 8 dated fixtures
+[PASS] 2024-25 Titul+Zachranu rounds 31-35 x 3 fixtures each
+[PASS] 2024-25 pivot: 16 clubs x exactly 30 regular played
+[PASS] 2024-25 club composition = WO-pinned 16
+[PASS] 2024-25 per-club game-count shape == {35: 12, 34: 2, 32: 2}; got {35: 12, 34: 2, 32: 2}
+[PASS] 2024-25 rows date-sorted inside the season block
+[PASS] 2025-26 rows = 276 league + 4 pro/rel = 280
+[PASS] 2025-26 stage split 240 regular + 15 Titul + 15 Zachranu + 6 Evropu
+[PASS] 2025-26 all 30 regular matchdays present x 8 dated fixtures
+[PASS] 2025-26 Titul+Zachranu rounds 31-35 x 3 fixtures each
+[PASS] 2025-26 pivot: 16 clubs x exactly 30 regular played
+[PASS] 2025-26 club composition = WO-pinned 16
+[PASS] 2025-26 per-club game-count shape == {35: 12, 34: 2, 32: 2}; got {32: 2, 35: 12, 34: 2}
+[PASS] 2025-26 rows date-sorted inside the season block
+[PASS] 2021-22 regular-table reproduction 16/16 (position-order constants vs independent wiki tables; W-D-L, GF-GA, Pts)
+[PASS] 2021-22 regular tie at 37 pts: official order Liberec > Olomouc reproduced from mutual results
+[PASS] 2021-22 regular tie at 26 pts: official order Jablonec > Bohemians reproduced from mutual results
+[PASS] 2022-23 regular-table reproduction 16/16 (position-order constants vs independent wiki tables; W-D-L, GF-GA, Pts)
+[PASS] 2022-23 regular tie at 38 pts: official order Liberec > Hradec reproduced from mutual results
+[PASS] 2022-23 regular tie at 35 pts: official order CBudejovice > Jablonec > Ostrava reproduced from mutual results
+[PASS] 2023-24 regular-table reproduction 16/16 (position-order constants vs independent wiki tables; W-D-L, GF-GA, Pts)
+[PASS] 2023-24 regular tie at 37 pts: official order Olomouc > Hradec reproduced from mutual results
+[PASS] 2023-24 regular tie at 25 pts: official order Karvina > Zlin reproduced from mutual results
+[PASS] 2024-25 regular-table reproduction 16/16 (position-order constants vs independent wiki tables; W-D-L, GF-GA, Pts)
+[PASS] 2024-25 regular tie at 34 pts: official order Bohemians > MlBoleslav > Teplice reproduced from mutual results
+[PASS] 2025-26 regular-table reproduction 16/16 (position-order constants vs independent wiki tables; W-D-L, GF-GA, Pts)
+[PASS] 2025-26 regular tie at 23 pts: official order Dukla > Slovacko reproduced from mutual results
+[PASS] 2021-22 Titul group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2021-22 Zachranu group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2022-23 Titul group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2022-23 Zachranu group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2023-24 Titul group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2023-24 Zachranu group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2024-25 Titul group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2024-25 Zachranu group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2025-26 Titul group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2025-26 Zachranu group-table reproduction 6/6 (combined 35-game table, independent wiki constants)
+[PASS] 2021-22 Zachranu 34-pt decision Jablonec over Bohemians documented: regular pts 26 vs 26 (equal -> regular-season H2H chain, verified in tie audit detail)
+[PASS] 2022-23 Titul 78-pt decision Sparta over Slavia documented: regular pts 68 vs 66
+[PASS] 2022-23 Zachranu 42-pt decision Ostrava over Teplice documented: regular pts 35 vs 32
+[PASS] 2022-23 title decision: Sparta over Slavia at 78-78 by regular-season points 68>66 (class rule 2; RSSSF NB)
+[PASS] 2021-22 Evropu rows = 6 (2 SF x2 + F x2)
+[PASS] 2021-22 Evropu semifinal aggregates reproduced (CBudejovice-MlBoleslav 4:2; Olomouc-Liberec 3:0)
+[PASS] 2021-22 Evropu final aggregate reproduced: Mlada Boleslav 4-3 -> Mlada Boleslav wins
+[PASS] 2022-23 Evropu rows = 6 (2 SF x2 + F x2)
+[PASS] 2022-23 Evropu semifinal aggregates reproduced (MlBoleslav-Hradec 2:0; CBudejovice-Liberec 6:3)
+[PASS] 2022-23 Evropu final aggregate reproduced: Slovan Liberec 6-3 -> Slovan Liberec wins
+[PASS] 2023-24 Evropu rows = 7 (6 legs + CLP Final)
+[PASS] 2023-24 Evropu semifinal aggregates reproduced (Teplice-Liberec 4:1; Hradec-Olomouc 6:2)
+[PASS] 2023-24 Evropu final aggregate reproduced: Hradec Kralove 3-0 -> Hradec Kralove wins
+[PASS] 2023-24 CLP Final single row reproduced: Mlada Boleslav 3-1 Hradec Kralove
+[PASS] 2024-25 Evropu rows = 6 (2 SF x2 + F x2)
+[PASS] 2024-25 Evropu semifinal aggregates reproduced (Hradec-Karvina 5:0; Bohemians-Liberec 4:2)
+[PASS] 2024-25 Evropu final aggregate reproduced: Hradec Kralove 2-1 -> Hradec Kralove wins
+[PASS] 2025-26 Evropu rows = 6 (2 SF x2 + F x2)
+[PASS] 2025-26 Evropu semifinal aggregates reproduced (Karvina-Pardubice 4:3; Olomouc-Bohemians 4:3)
+[PASS] 2025-26 Evropu final aggregate reproduced: Sigma Olomouc 7-1 -> Sigma Olomouc wins
+[PASS] 2021-22 2nd-idx regular FBR matrix diff 240/240: 240 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2021-22 2nd-idx Titul group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2021-22 2nd-idx Zachranu group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2021-22 2nd-idx Evropu bracket diff (legs incl. CLP): 6 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2021-22 worldfootball matchday spot-audit: all 8 fixtures identical on date AND score
+[PASS] 2021-22 infobox anchors reproduced: 276 matches / 770 goals (got 276/770)
+[PASS] 2022-23 2nd-idx regular FBR matrix diff 240/240: 240 cells vs pack, 1:1 identical (score + orientation); 2 documented wiki slip(s) whitelisted
+[PASS] 2022-23 2nd-idx Titul group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2022-23 2nd-idx Zachranu group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2022-23 2nd-idx Evropu bracket diff (legs incl. CLP): 6 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2022-23 worldfootball matchday spot-audit: all 8 fixtures identical on date AND score
+[PASS] 2022-23 infobox anchors reproduced: 276 matches / 819 goals (got 276/819)
+[PASS] 2023-24 2nd-idx regular FBR matrix diff 240/240: 240 cells vs pack, 1:1 identical (score + orientation); 1 documented wiki slip(s) whitelisted
+[PASS] 2023-24 2nd-idx Titul group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2023-24 2nd-idx Zachranu group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2023-24 2nd-idx Evropu bracket diff (legs incl. CLP): 7 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2023-24 worldfootball matchday spot-audit: all 8 fixtures identical on date AND score (1 documented listing-date nuance whitelisted)
+[PASS] 2023-24 infobox anchors reproduced: 277 matches / 792 goals (got 277/792)
+[PASS] 2024-25 2nd-idx regular FBR matrix diff 240/240: 240 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2024-25 2nd-idx Titul group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2024-25 2nd-idx Zachranu group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2024-25 2nd-idx Evropu bracket diff (legs incl. CLP): 6 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2024-25 fixed-matchday spot-audit n/a (worldfootball dropped Czech coverage; documented) - replaced by the two full-depth indexes
+[PASS] 2024-25 infobox anchors reproduced: 276 matches / 734 goals (got 276/734)
+[PASS] 2025-26 2nd-idx regular FBR matrix diff 240/240: 240 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2025-26 2nd-idx Titul group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2025-26 2nd-idx Zachranu group matrix diff 15/15: 15 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2025-26 2nd-idx Evropu bracket diff (legs incl. CLP): 6 cells vs pack, 1:1 identical (score + orientation)
+[PASS] 2025-26 fixed-matchday spot-audit n/a (worldfootball dropped Czech coverage; documented) - replaced by the two full-depth indexes + BBC dated lattice bijection 270/270
+[PASS] 2025-26 infobox anchors reproduced: 276 matches / 724 goals (got 276/724)
+[PASS] venue consistency: every league row's stadium/city = the home club's documented season ground (incl. 2022-23 Pardubice winter-break split)
+[PASS] 2023-24 Hradec home dates all >= Malsovicka Arena opening (earliest 2023-08-05)
+[PASS] pro/rel block: 20 rows (2 ties x 2 legs x 5 seasons); got 20
+[PASS] pro/rel rows: compType 'other' + RSSSF season source labels
+[PASS] 2021-22 pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels
+[PASS] 2021-22 pro/rel aggregates reproduced (league side stays up every tie): Teplice 5-2; Bohemians 1905 3-0
+[PASS] 2021-22 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)
+[PASS] 2021-22 pro/rel venues: every leg at the home club's documented ground
+[PASS] 2022-23 pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels
+[PASS] 2022-23 pro/rel aggregates reproduced (league side stays up every tie): Pardubice 2-0; Zlin 1-0
+[PASS] 2022-23 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)
+[PASS] 2022-23 pro/rel venues: every leg at the home club's documented ground
+[PASS] 2023-24 pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels
+[PASS] 2023-24 pro/rel aggregates reproduced (league side stays up every tie): Karvina 2-0; Ceske Budejovice 3-2
+[PASS] 2023-24 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)
+[PASS] 2023-24 pro/rel venues: every leg at the home club's documented ground
+[PASS] 2024-25 pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels
+[PASS] 2024-25 pro/rel aggregates reproduced (league side stays up every tie - 2024-25 shootout decider annotated): Dukla Prague 1-1 (pens 4-2); Pardubice 2-1
+[PASS] 2024-25 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)
+[PASS] 2024-25 pro/rel venues: every leg at the home club's documented ground
+[PASS] 2025-26 pro/rel structure: 2 ties x 2 chronological legs with Playoff leg1/leg2 labels
+[PASS] 2025-26 pro/rel aggregates reproduced (league side stays up every tie): Banik Ostrava 8-0; Slovacko 7-1
+[PASS] 2025-26 2nd-idx pro/rel diff 4/4 legs 1:1 identical (wiki play-offs sections)
+[PASS] 2025-26 pro/rel venues: every leg at the home club's documented ground
+[PASS] NOTE present: pack_id
+[PASS] NOTE present: federation_check
+[PASS] NOTE present: comp_class
+[PASS] NOTE present: identity
+[PASS] NOTE present: venue_policy
+[PASS] NOTE present: stage_mapping
+[PASS] NOTE present: round_counts
+[PASS] NOTE present: shape_deviation
+[PASS] NOTE present: tiebreak
+[PASS] NOTE present: playoff_outcomes
+[PASS] NOTE present: playoff_count
+[PASS] NOTE present: roster_scope
+[PASS] NOTE present: continuity
+[PASS] NOTE present: boundary_no_dupes
+[PASS] NOTE present: perclub_gate
+[PASS] NOTE present: source_adaptation
+[PASS] five spot-audit NOTE rows (three fixed matchdays 2021-24 + two documented n/a lines where worldfootball dropped Czech coverage)
+[PASS] three source_conflict NOTEs (wiki matrix cells; infobox scalars + wf date; 2025-26 corrupted Z cells)
+[PASS] one print_error NOTE (RSSSF 2025-26 Zachranu position misprint)
+[PASS] one match_awarded NOTE (2026-05-09 derby abandoned 3-2, LFA award 0-3)
+[PASS] one karvina_incident NOTE (match-fixing demotion + Artis Brno repromotion)
+[PASS] six warning NOTEs (source_conflict x3, print_error, match_awarded, karvina_incident - all disclosed, nothing silently fixed)
+[PASS] pack is ASCII-only
+[PASS] no standings tables in the pack (rows only)
+
+REGULAR-TABLE REPRODUCTION DETAIL (official constants = wiki 'League table' sections, position order)
+--- 2021-22 (pos | club | recomputed P W-D-L GF-GA Pts | match)
+   1. Slavia         30 23- 4- 3 71-19 73  OK
+   2. Plzen          30 22- 6- 2 53-19 72  OK
+   3. Sparta         30 20- 6- 4 65-32 66  OK
+   4. Slovacko       30 18- 5- 7 50-30 59  OK
+   5. Ostrava        30 14- 9- 7 54-39 51  OK
+   6. Hradec         30  9-13- 8 38-40 40  OK
+   7. MlBoleslav     30 11- 5-14 45-48 38  OK
+   8. Liberec        30 10- 7-13 29-38 37  OK
+   9. Olomouc        30  9-10-11 39-37 37  OK
+  10. CBudejovice    30  9- 9-12 40-46 36  OK
+  11. Zlin           30  8- 6-16 36-53 30  OK
+  12. Teplice        30  8- 3-19 29-49 27  OK
+  13. Jablonec       30  4-14-12 22-45 26  OK
+  14. Bohemians      30  6- 8-16 34-56 26  OK
+  15. Pardubice      30  5- 9-16 35-67 24  OK
+  16. Karvina        30  3- 8-19 30-52 17  OK
+--- 2022-23 (pos | club | recomputed P W-D-L GF-GA Pts | match)
+   1. Sparta         30 20- 8- 2 70-29 68  OK
+   2. Slavia         30 20- 6- 4 81-25 66  OK
+   3. Plzen          30 17- 6- 7 55-29 57  OK
+   4. Bohemians      30 14- 6-10 53-49 48  OK
+   5. Slovacko       30 13- 7-10 36-38 46  OK
+   6. Olomouc        30 10-11- 9 45-40 41  OK
+   7. Liberec        30 10- 8-12 39-43 38  OK
+   8. Hradec         30 11- 5-14 34-40 38  OK
+   9. MlBoleslav     30  9-10-11 39-42 37  OK
+  10. CBudejovice    30 10- 5-15 35-54 35  OK
+  11. Jablonec       30  9- 8-13 46-57 35  OK
+  12. Ostrava        30  9- 8-13 43-42 35  OK
+  13. Teplice        30  8- 8-14 38-63 32  OK
+  14. Brno           30  8- 7-15 40-56 31  OK
+  15. Pardubice      30  8- 4-18 29-58 28  OK
+  16. Zlin           30  5-11-14 37-55 26  OK
+--- 2023-24 (pos | club | recomputed P W-D-L GF-GA Pts | match)
+   1. Sparta         30 24- 4- 2 70-26 76  OK
+   2. Slavia         30 22- 6- 2 62-23 72  OK
+   3. Plzen          30 19- 5- 6 67-33 62  OK
+   4. Ostrava        30 13- 6-11 48-39 45  OK
+   5. MlBoleslav     30 12- 8-10 50-46 44  OK
+   6. Slovacko       30 11- 8-11 39-40 41  OK
+   7. Liberec        30 10-10-10 46-46 40  OK
+   8. Olomouc        30 10- 7-13 40-45 37  OK
+   9. Hradec         30  9-10-11 32-38 37  OK
+  10. Teplice        30  9- 9-12 31-40 36  OK
+  11. Bohemians      30  8-11-11 29-40 35  OK
+  12. Jablonec       30  6-12-12 35-45 30  OK
+  13. Pardubice      30  7- 7-16 29-42 28  OK
+  14. Karvina        30  6- 7-17 30-52 25  OK
+  15. Zlin           30  5-10-15 36-61 25  OK
+  16. CBudejovice    30  6- 6-18 34-62 24  OK
+--- 2024-25 (pos | club | recomputed P W-D-L GF-GA Pts | match)
+   1. Slavia         30 25- 3- 2 61-11 78  OK
+   2. Plzen          30 20- 5- 5 59-28 65  OK
+   3. Ostrava        30 20- 4- 6 52-26 64  OK
+   4. Sparta         30 19- 5- 6 56-33 62  OK
+   5. Jablonec       30 15- 6- 9 47-25 51  OK
+   6. Olomouc        30 12- 7-11 46-41 43  OK
+   7. Liberec        30 11- 9-10 45-31 42  OK
+   8. Karvina        30 11- 8-11 40-52 41  OK
+   9. Hradec         30 11- 7-12 33-31 40  OK
+  10. Bohemians      30  8-10-12 32-42 34  OK
+  11. MlBoleslav     30  9- 7-14 40-40 34  OK
+  12. Teplice        30  9- 7-14 32-42 34  OK
+  13. Slovacko       30  7- 9-14 25-51 30  OK
+  14. Dukla          30  5- 9-16 23-47 24  OK
+  15. Pardubice      30  4- 7-19 22-49 19  OK
+  16. CBudejovice    30  0- 5-25 14-78  5  OK
+--- 2025-26 (pos | club | recomputed P W-D-L GF-GA Pts | match)
+   1. Slavia         30 21- 8- 1 63-23 71  OK
+   2. Sparta         30 19- 6- 5 60-33 63  OK
+   3. Plzen          30 15- 8- 7 50-34 53  OK
+   4. Jablonec       30 15- 6- 9 41-33 51  OK
+   5. Hradec         30 14- 7- 9 43-34 49  OK
+   6. Liberec        30 12-10- 8 43-30 46  OK
+   7. Olomouc        30 12- 7-11 34-34 43  OK
+   8. Pardubice      30 11- 8-11 39-46 41  OK
+   9. Karvina        30 12- 3-15 43-51 39  OK
+  10. Bohemians      30 10- 6-14 26-35 36  OK
+  11. MlBoleslav     30  8-11-11 44-52 35  OK
+  12. Zlin           30  9- 7-14 37-48 34  OK
+  13. Teplice        30  6-11-13 29-38 29  OK
+  14. Dukla          30  4-11-15 20-42 23  OK
+  15. Slovacko       30  5- 8-17 26-45 23  OK
+  16. Ostrava        30  5- 7-18 25-45 22  OK
+
+HEAD-TO-HEAD TIE DETAIL (mutual regular-season records recomputed from pack rows)
+--- 2021-22 tie at 37 pts, official order: Liberec > Olomouc | mutual records: Liberec: 1-0-1 2:1 (away 0); Olomouc: 1-0-1 1:2 (away 0) | chain reproduces official: YES
+--- 2021-22 tie at 26 pts, official order: Jablonec > Bohemians | mutual records: Jablonec: 1-1-0 4:3 (away 2); Bohemians: 0-1-1 3:4 (away 2) | chain reproduces official: YES
+--- 2022-23 tie at 38 pts, official order: Liberec > Hradec | mutual records: Liberec: 2-0-0 4:1 (away 2); Hradec: 0-0-2 1:4 (away 0) | chain reproduces official: YES
+--- 2022-23 tie at 35 pts, official order: CBudejovice > Jablonec > Ostrava | mutual records: CBudejovice: 3-0-1 9:6 (away 2); Jablonec: 2-1-1 7:7 (away 3); Ostrava: 0-1-3 4:7 (away 2) | chain reproduces official: YES
+--- 2023-24 tie at 37 pts, official order: Olomouc > Hradec | mutual records: Olomouc: 1-1-0 3:1 (away 3); Hradec: 0-1-1 1:3 (away 0) | chain reproduces official: YES
+--- 2023-24 tie at 25 pts, official order: Karvina > Zlin | mutual records: Karvina: 2-0-0 5:1 (away 1); Zlin: 0-0-2 1:5 (away 1) | chain reproduces official: YES
+--- 2024-25 tie at 34 pts, official order: Bohemians > MlBoleslav > Teplice | mutual records: Bohemians: 2-2-0 7:5 (away 4); MlBoleslav: 2-1-1 7:6 (away 4); Teplice: 0-1-3 4:7 (away 2) | chain reproduces official: YES
+--- 2025-26 tie at 23 pts, official order: Dukla > Slovacko | mutual records: Dukla: 2-0-0 3:1 (away 2); Slovacko: 0-0-2 1:3 (away 0) | chain reproduces official: YES
+
+GROUP-STAGE REPRODUCTION DETAIL (combined 35-game tables vs wiki Championship/Relegation group sections)
+--- 2021-22 TITUL final group table
+  1. Plzen          35 26- 7- 2 63-21 85  OK
+  2. Slavia         35 24- 6- 5 80-27 78  OK
+  3. Sparta         35 22- 7- 6 72-40 73  OK
+  4. Slovacko       35 21- 5- 9 59-38 68  OK
+  5. Ostrava        35 15-10-10 60-48 55  OK
+  6. Hradec         35 10-14-11 44-52 44  OK
+--- 2021-22 ZACHRANU final group table
+  1. Pardubice      35  9-10-16 42-68 37  OK
+  2. Zlin           35  9- 9-17 43-60 36  OK
+  3. Jablonec       35  6-16-13 27-48 34  OK
+  4. Bohemians      35  8-10-17 45-61 34  OK
+  5. Teplice        35  8- 5-22 33-59 29  OK
+  6. Karvina        35  3-10-22 33-63 19  OK
+--- 2022-23 TITUL final group table
+  1. Sparta         35 23- 9- 3 76-33 78  OK
+  2. Slavia         35 24- 6- 5 98-31 78  OK
+  3. Plzen          35 18- 7-10 60-38 61  OK
+  4. Bohemians      35 15- 7-13 56-58 52  OK
+  5. Slovacko       35 13-11-11 40-46 50  OK
+  6. Olomouc        35 12-12-11 53-47 48  OK
+--- 2022-23 ZACHRANU final group table
+  1. Ostrava        35 11- 9-15 53-50 42  OK
+  2. Teplice        35 11- 9-15 45-67 42  OK
+  3. Jablonec       35 10-10-15 49-63 40  OK
+  4. Pardubice      35 11- 4-20 38-63 37  OK
+  5. Zlin           35  7-13-15 43-60 34  OK
+  6. Brno           35  8- 9-18 41-64 33  OK
+--- 2023-24 TITUL final group table
+  1. Sparta         35 27- 6- 2 82-30 87  OK
+  2. Slavia         35 26- 7- 2 76-24 85  OK
+  3. Plzen          35 21- 7- 7 76-40 70  OK
+  4. Ostrava        35 14- 7-14 56-48 49  OK
+  5. MlBoleslav     35 13- 8-14 51-59 47  OK
+  6. Slovacko       35 12- 8-15 45-56 44  OK
+--- 2023-24 ZACHRANU final group table
+  1. Jablonec       35  9-14-12 45-50 41  OK
+  2. Pardubice      35 11- 7-17 39-47 40  OK
+  3. Bohemians      35  9-12-14 34-48 39  OK
+  4. Karvina        35  8- 8-19 38-62 32  OK
+  5. CBudejovice    35  7- 8-20 41-70 29  OK
+  6. Zlin           35  5-12-18 40-69 27  OK
+--- 2024-25 TITUL final group table
+  1. Slavia         35 29- 3- 3 77-18 90  OK
+  2. Plzen          35 23- 5- 7 71-36 74  OK
+  3. Ostrava        35 22- 5- 8 58-34 71  OK
+  4. Sparta         35 19- 6-10 61-44 63  OK
+  5. Jablonec       35 19- 6-10 60-33 63  OK
+  6. Olomouc        35 12- 9-14 48-53 45  OK
+--- 2024-25 ZACHRANU final group table
+  1. Teplice        35 12- 8-15 41-45 44  OK
+  2. MlBoleslav     35 11- 8-16 48-48 41  OK
+  3. Slovacko       35  9-11-15 31-56 38  OK
+  4. Dukla          35  8-10-17 34-55 34  OK
+  5. Pardubice      35  6- 7-22 25-56 25  OK
+  6. CBudejovice    35  0- 6-29 16-86  6  OK
+--- 2025-26 TITUL final group table
+  1. Slavia         35 24- 8- 3 74-31 80  OK
+  2. Sparta         35 23- 7- 5 69-34 76  OK
+  3. Plzen          35 18- 9- 8 60-38 63  OK
+  4. Hradec         35 16- 8-11 50-41 56  OK
+  5. Jablonec       35 16- 7-12 45-47 55  OK
+  6. Liberec        35 12-10-13 45-39 46  OK
+--- 2025-26 ZACHRANU final group table
+  1. Teplice        35 10-12-13 40-42 42  OK
+  2. Zlin           35 11- 8-16 43-56 41  OK
+  3. MlBoleslav     35  9-13-13 49-57 40  OK
+  4. Slovacko       35  7- 9-19 30-51 30  OK
+  5. Ostrava        35  7- 8-20 32-49 29  OK
+  6. Dukla          35  5-11-19 23-51 26  OK
+
+SECOND-INDEX DIFF SUMMARY
+--- 2021-22: regular matrix 0/240 diffs | Titul matrix 0/15 | Zachranu matrix 0/15 | Evropu bracket 0/6 (0 diffs = gates green)
+--- 2022-23: regular matrix 0/240 diffs | Titul matrix 0/15 | Zachranu matrix 0/15 | Evropu bracket 0/6 (0 diffs = gates green)
+--- 2023-24: regular matrix 0/240 diffs | Titul matrix 0/15 | Zachranu matrix 0/15 | Evropu bracket 0/7 (0 diffs = gates green)
+--- 2024-25: regular matrix 0/240 diffs | Titul matrix 0/15 | Zachranu matrix 0/15 | Evropu bracket 0/6 (0 diffs = gates green)
+--- 2025-26: regular matrix 0/240 diffs | Titul matrix 0/15 | Zachranu matrix 0/15 | Evropu bracket 0/6 (0 diffs = gates green)
+
+PER-CLUB PIVOT LEDGERS (owner technique: every club's full in-window campaign, round by round)
+
+### 2021-22
+  Bohemians 1905   [Zachranu] 37 games  W10 D10 L17 GF 48 GA 61
+    Round 1       2021-07-24 A D 1-1 v Hradec Kralove
+    Round 2       2021-08-01 H L 1-2 v Viktoria Plzen
+    Round 3       2021-08-08 A D 2-2 v Jablonec
+    Round 4       2021-08-14 H D 1-1 v Sparta Prague
+    Round 5       2021-08-21 A L 0-3 v Pardubice
+    Round 6       2021-08-29 H W 4-2 v Teplice
+    Round 7       2021-09-11 A W 3-1 v Zlin
+    Round 8       2021-09-19 H L 1-5 v Slavia Prague
+    Round 9       2021-09-25 A L 1-4 v Banik Ostrava
+    Round 10      2021-10-02 H W 2-0 v Sigma Olomouc
+    Round 11      2021-10-16 A L 1-4 v Mlada Boleslav
+    Round 12      2021-10-23 A L 0-1 v Slovacko
+    Round 14      2021-11-06 A L 1-2 v Slovan Liberec
+    Round 15      2021-11-20 H W 3-1 v Ceske Budejovice
+    Round 16      2021-11-27 A L 0-6 v Viktoria Plzen
+    Round 13      2021-12-01 H W 3-0 v Karvina
+    Round 17      2021-12-05 H L 1-2 v Jablonec
+    Round 18      2021-12-12 A L 1-5 v Sparta Prague
+    Round 19      2021-12-18 H L 1-2 v Pardubice
+    Round 20      2022-02-05 A L 0-1 v Teplice
+    Round 21      2022-02-12 H W 1-0 v Zlin
+    Round 22      2022-02-20 A L 0-1 v Slavia Prague
+    Round 23      2022-02-26 H L 0-2 v Banik Ostrava
+    Round 24      2022-03-05 A D 0-0 v Sigma Olomouc
+    Round 25      2022-03-12 H D 2-2 v Mlada Boleslav
+    Round 26      2022-03-19 H L 1-2 v Slovacko
+    Round 27      2022-04-03 A D 1-1 v Karvina
+    Round 28      2022-04-09 H D 0-0 v Slovan Liberec
+    Round 29      2022-04-17 A L 1-2 v Ceske Budejovice
+    Round 30      2022-04-20 H D 1-1 v Hradec Kralove
+    Zachranu R31  2022-04-23 A D 2-2 v Teplice
+    Zachranu R32  2022-05-01 H L 0-1 v Pardubice
+    Zachranu R33  2022-05-07 A W 4-1 v Zlin
+    Zachranu R34  2022-05-10 A D 1-1 v Jablonec
+    Zachranu R35  2022-05-14 H W 4-0 v Karvina
+    Playoff leg1  2022-05-19 A W 1-0 v Opava
+    Playoff leg2  2022-05-22 H W 2-0 v Opava
+  Ceske Budejovice [Evropu] 32 games  W 9 D 9 L14 GF 42 GA 50
+    Round 1       2021-07-25 H W 1-0 v Teplice
+    Round 2       2021-08-01 A L 0-1 v Slovacko
+    Round 3       2021-08-07 H L 1-3 v Banik Ostrava
+    Round 4       2021-08-14 A D 3-3 v Sigma Olomouc
+    Round 5       2021-08-22 H W 1-0 v Slovan Liberec
+    Round 6       2021-08-28 A L 0-1 v Sparta Prague
+    Round 7       2021-09-12 H L 0-1 v Hradec Kralove
+    Round 8       2021-09-18 A L 1-2 v Viktoria Plzen
+    Round 9       2021-09-25 H W 3-1 v Karvina
+    Round 10      2021-10-02 H W 3-1 v Pardubice
+    Round 11      2021-10-16 A D 2-2 v Jablonec
+    Round 12      2021-10-24 H D 2-2 v Slavia Prague
+    Round 13      2021-10-30 A L 0-2 v Zlin
+    Round 14      2021-11-06 H W 2-1 v Mlada Boleslav
+    Round 15      2021-11-20 A L 1-3 v Bohemians 1905
+    Round 16      2021-11-27 H W 3-2 v Slovacko
+    Round 17      2021-12-05 A L 1-4 v Banik Ostrava
+    Round 18      2021-12-12 H W 2-1 v Sigma Olomouc
+    Round 19      2021-12-19 A D 0-0 v Slovan Liberec
+    Round 20      2022-02-05 H D 0-0 v Sparta Prague
+    Round 21      2022-02-12 A D 2-2 v Hradec Kralove
+    Round 22      2022-02-19 H L 0-1 v Viktoria Plzen
+    Round 23      2022-02-27 A D 2-2 v Karvina
+    Round 24      2022-03-05 A D 3-3 v Pardubice
+    Round 25      2022-03-13 H W 2-0 v Jablonec
+    Round 26      2022-03-20 A L 0-1 v Slavia Prague
+    Round 27      2022-04-02 H D 2-2 v Zlin
+    Round 28      2022-04-10 A L 0-2 v Mlada Boleslav
+    Round 29      2022-04-17 H W 2-1 v Bohemians 1905
+    Round 30      2022-04-20 A L 1-2 v Teplice
+    Evropu-SF L1  2022-04-24 H L 2-3 v Mlada Boleslav
+    Evropu-SF L2  2022-04-30 A L 0-1 v Mlada Boleslav
+  Hradec Kralove   [Titul] 35 games  W10 D14 L11 GF 44 GA 52
+    Round 1       2021-07-24 H D 1-1 v Bohemians 1905
+    Round 2       2021-07-31 A D 1-1 v Karvina
+    Round 3       2021-08-07 H D 1-1 v Slovan Liberec
+    Round 4       2021-08-15 A L 0-1 v Slovacko
+    Round 5       2021-08-21 A L 0-4 v Sparta Prague
+    Round 6       2021-08-29 H W 1-0 v Viktoria Plzen
+    Round 7       2021-09-12 A W 1-0 v Ceske Budejovice
+    Round 8       2021-09-17 H W 2-0 v Pardubice
+    Round 9       2021-09-26 A L 1-4 v Slavia Prague
+    Round 10      2021-10-03 H D 2-2 v Jablonec
+    Round 11      2021-10-17 A W 3-2 v Zlin
+    Round 12      2021-10-24 H W 3-0 v Teplice
+    Round 13      2021-10-31 A L 2-3 v Mlada Boleslav
+    Round 14      2021-11-06 H D 1-1 v Banik Ostrava
+    Round 15      2021-11-20 A D 2-2 v Sigma Olomouc
+    Round 16      2021-11-28 H W 1-0 v Karvina
+    Round 17      2021-12-04 A L 0-1 v Slovan Liberec
+    Round 18      2021-12-11 H D 2-2 v Slovacko
+    Round 19      2021-12-18 H L 0-1 v Sparta Prague
+    Round 20      2022-02-06 A L 0-1 v Viktoria Plzen
+    Round 21      2022-02-12 H D 2-2 v Ceske Budejovice
+    Round 22      2022-02-19 A D 0-0 v Pardubice
+    Round 23      2022-02-27 H L 1-5 v Slavia Prague
+    Round 24      2022-03-06 A D 1-1 v Jablonec
+    Round 25      2022-03-12 H W 2-1 v Zlin
+    Round 26      2022-03-20 A W 2-1 v Teplice
+    Round 27      2022-04-03 H D 2-2 v Mlada Boleslav
+    Round 28      2022-04-10 A D 0-0 v Banik Ostrava
+    Round 29      2022-04-17 H W 3-0 v Sigma Olomouc
+    Round 30      2022-04-20 A D 1-1 v Bohemians 1905
+    Titul R31     2022-04-24 H W 4-3 v Slavia Prague
+    Titul R32     2022-04-30 A D 1-1 v Sparta Prague
+    Titul R33     2022-05-07 A L 1-3 v Banik Ostrava
+    Titul R34     2022-05-11 H L 0-2 v Viktoria Plzen
+    Titul R35     2022-05-15 A L 0-3 v Slovacko
+  Jablonec         [Zachranu] 35 games  W 6 D16 L13 GF 27 GA 48
+    Round 1       2021-07-24 H W 1-0 v Banik Ostrava
+    Round 2       2021-07-31 A L 0-3 v Mlada Boleslav
+    Round 3       2021-08-08 H D 2-2 v Bohemians 1905
+    Round 4       2021-08-15 A L 0-1 v Teplice
+    Round 5       2021-08-22 H D 1-1 v Slovacko
+    Round 6       2021-08-29 A L 0-4 v Sigma Olomouc
+    Round 7       2021-09-12 H W 1-0 v Karvina
+    Round 8       2021-09-19 A D 1-1 v Sparta Prague
+    Round 9       2021-09-26 H L 0-1 v Slovan Liberec
+    Round 10      2021-10-03 A D 2-2 v Hradec Kralove
+    Round 11      2021-10-16 H D 2-2 v Ceske Budejovice
+    Round 12      2021-10-24 A L 0-5 v Viktoria Plzen
+    Round 13      2021-10-31 H D 1-1 v Pardubice
+    Round 14      2021-11-07 A D 0-0 v Zlin
+    Round 15      2021-11-21 A L 0-5 v Slavia Prague
+    Round 16      2021-11-28 H L 0-1 v Mlada Boleslav
+    Round 17      2021-12-05 A W 2-1 v Bohemians 1905
+    Round 18      2021-12-12 H L 0-2 v Teplice
+    Round 19      2021-12-18 A L 1-2 v Slovacko
+    Round 20      2022-02-05 H W 1-0 v Sigma Olomouc
+    Round 21      2022-02-13 A D 1-1 v Karvina
+    Round 23      2022-02-26 A D 1-1 v Slovan Liberec
+    Round 24      2022-03-06 H D 1-1 v Hradec Kralove
+    Round 22      2022-03-09 H D 1-1 v Sparta Prague
+    Round 25      2022-03-13 A L 0-2 v Ceske Budejovice
+    Round 26      2022-03-19 H D 0-0 v Viktoria Plzen
+    Round 27      2022-04-03 A D 1-1 v Pardubice
+    Round 28      2022-04-10 H D 1-1 v Zlin
+    Round 29      2022-04-17 H L 1-2 v Slavia Prague
+    Round 30      2022-04-20 A L 0-1 v Banik Ostrava
+    Zachranu R31  2022-04-23 H L 0-1 v Pardubice
+    Zachranu R32  2022-05-01 H W 2-0 v Karvina
+    Zachranu R33  2022-05-07 A W 1-0 v Teplice
+    Zachranu R34  2022-05-10 H D 1-1 v Bohemians 1905
+    Zachranu R35  2022-05-14 A D 1-1 v Zlin
+  Karvina          [Zachranu] 35 games  W 3 D10 L22 GF 33 GA 63
+    Round 1       2021-07-24 A D 2-2 v Pardubice
+    Round 2       2021-07-31 H D 1-1 v Hradec Kralove
+    Round 3       2021-08-07 A L 0-2 v Sparta Prague
+    Round 4       2021-08-14 H L 2-3 v Zlin
+    Round 5       2021-08-22 A L 0-2 v Viktoria Plzen
+    Round 6       2021-08-29 H D 3-3 v Slavia Prague
+    Round 7       2021-09-12 A L 0-1 v Jablonec
+    Round 8       2021-09-19 H D 1-1 v Teplice
+    Round 9       2021-09-25 A L 1-3 v Ceske Budejovice
+    Round 10      2021-10-03 H L 0-1 v Mlada Boleslav
+    Round 11      2021-10-17 A L 0-2 v Sigma Olomouc
+    Round 14      2021-11-07 H D 2-2 v Slovacko
+    Round 15      2021-11-21 H L 1-2 v Slovan Liberec
+    Round 12      2021-11-24 H L 1-2 v Banik Ostrava
+    Round 16      2021-11-28 A L 0-1 v Hradec Kralove
+    Round 13      2021-12-01 A L 0-3 v Bohemians 1905
+    Round 17      2021-12-04 H L 1-2 v Sparta Prague
+    Round 18      2021-12-11 A L 1-2 v Zlin
+    Round 19      2021-12-18 H L 0-1 v Viktoria Plzen
+    Round 20      2022-02-05 A W 1-0 v Slavia Prague
+    Round 21      2022-02-13 H D 1-1 v Jablonec
+    Round 22      2022-02-20 A L 0-1 v Teplice
+    Round 23      2022-02-27 H D 2-2 v Ceske Budejovice
+    Round 24      2022-03-06 A L 0-1 v Mlada Boleslav
+    Round 25      2022-03-13 H L 1-2 v Sigma Olomouc
+    Round 26      2022-03-19 A W 3-1 v Banik Ostrava
+    Round 27      2022-04-03 H D 1-1 v Bohemians 1905
+    Round 28      2022-04-09 A L 1-3 v Slovacko
+    Round 29      2022-04-17 A L 1-2 v Slovan Liberec
+    Round 30      2022-04-20 H W 3-2 v Pardubice
+    Zachranu R31  2022-04-23 H D 1-1 v Zlin
+    Zachranu R32  2022-05-01 A L 0-2 v Jablonec
+    Zachranu R33  2022-05-07 A L 0-2 v Pardubice
+    Zachranu R34  2022-05-10 H D 2-2 v Teplice
+    Zachranu R35  2022-05-14 A L 0-4 v Bohemians 1905
+  Slovan Liberec   [Evropu] 32 games  W10 D 7 L15 GF 29 GA 41
+    Round 1       2021-07-25 H L 0-1 v Slovacko
+    Round 2       2021-07-31 H L 0-5 v Sparta Prague
+    Round 3       2021-08-07 A D 1-1 v Hradec Kralove
+    Round 4       2021-08-15 H L 0-1 v Viktoria Plzen
+    Round 5       2021-08-22 A L 0-1 v Ceske Budejovice
+    Round 6       2021-08-28 H L 0-1 v Zlin
+    Round 7       2021-09-11 A D 2-2 v Pardubice
+    Round 8       2021-09-18 H W 2-1 v Mlada Boleslav
+    Round 9       2021-09-26 A W 1-0 v Jablonec
+    Round 10      2021-10-03 H L 0-2 v Banik Ostrava
+    Round 11      2021-10-16 A L 1-3 v Slavia Prague
+    Round 12      2021-10-23 H W 2-0 v Sigma Olomouc
+    Round 13      2021-10-30 A W 2-1 v Teplice
+    Round 14      2021-11-06 H W 2-1 v Bohemians 1905
+    Round 15      2021-11-21 A W 2-1 v Karvina
+    Round 16      2021-11-28 A L 1-2 v Sparta Prague
+    Round 17      2021-12-04 H W 1-0 v Hradec Kralove
+    Round 18      2021-12-11 A L 0-2 v Viktoria Plzen
+    Round 19      2021-12-19 H D 0-0 v Ceske Budejovice
+    Round 20      2022-02-15 A L 0-2 v Zlin
+    Round 22      2022-02-20 A D 3-3 v Mlada Boleslav
+    Round 23      2022-02-26 H D 1-1 v Jablonec
+    Round 24      2022-03-05 A D 1-1 v Banik Ostrava
+    Round 21      2022-03-09 H W 4-1 v Pardubice
+    Round 25      2022-03-13 H W 1-0 v Slavia Prague
+    Round 26      2022-03-20 A L 0-1 v Sigma Olomouc
+    Round 27      2022-04-02 H L 0-1 v Teplice
+    Round 28      2022-04-09 A D 0-0 v Bohemians 1905
+    Round 29      2022-04-17 H W 2-1 v Karvina
+    Round 30      2022-04-20 A L 0-2 v Slovacko
+    Evropu-SF L1  2022-04-24 A L 0-1 v Sigma Olomouc
+    Evropu-SF L2  2022-04-30 H L 0-2 v Sigma Olomouc
+  Mlada Boleslav   [Evropu] 34 games  W14 D 6 L14 GF 53 GA 53
+    Round 1       2021-07-25 A L 1-2 v Viktoria Plzen
+    Round 2       2021-07-31 H W 3-0 v Jablonec
+    Round 3       2021-08-08 A D 1-1 v Pardubice
+    Round 4       2021-08-14 H L 0-2 v Slavia Prague
+    Round 5       2021-08-21 H W 3-1 v Teplice
+    Round 6       2021-08-28 A L 0-1 v Banik Ostrava
+    Round 7       2021-09-12 H D 3-3 v Sigma Olomouc
+    Round 8       2021-09-18 A L 1-2 v Slovan Liberec
+    Round 9       2021-09-26 H L 3-5 v Slovacko
+    Round 10      2021-10-03 A W 1-0 v Karvina
+    Round 11      2021-10-16 H W 4-1 v Bohemians 1905
+    Round 12      2021-10-24 A L 0-1 v Sparta Prague
+    Round 13      2021-10-31 H W 3-2 v Hradec Kralove
+    Round 14      2021-11-06 A L 1-2 v Ceske Budejovice
+    Round 15      2021-11-20 H W 1-0 v Zlin
+    Round 16      2021-11-28 A W 1-0 v Jablonec
+    Round 17      2021-12-05 H L 2-3 v Pardubice
+    Round 18      2021-12-12 A L 0-2 v Slavia Prague
+    Round 19      2021-12-19 A W 1-0 v Teplice
+    Round 20      2022-02-06 H L 2-3 v Banik Ostrava
+    Round 21      2022-02-13 A L 1-2 v Sigma Olomouc
+    Round 22      2022-02-20 H D 3-3 v Slovan Liberec
+    Round 23      2022-02-26 A L 1-2 v Slovacko
+    Round 24      2022-03-06 H W 1-0 v Karvina
+    Round 25      2022-03-12 A D 2-2 v Bohemians 1905
+    Round 26      2022-03-20 H L 0-3 v Sparta Prague
+    Round 27      2022-04-03 A D 2-2 v Hradec Kralove
+    Round 28      2022-04-10 H W 2-0 v Ceske Budejovice
+    Round 29      2022-04-17 A W 2-1 v Zlin
+    Round 30      2022-04-20 H L 0-2 v Viktoria Plzen
+    Evropu-SF L1  2022-04-24 A W 3-2 v Ceske Budejovice
+    Evropu-SF L2  2022-04-30 H W 1-0 v Ceske Budejovice
+    Evropu-F L1   2022-05-06 A W 2-1 v Sigma Olomouc
+    Evropu-F L2   2022-05-13 H D 2-2 v Sigma Olomouc
+  Sigma Olomouc    [Evropu] 34 games  W11 D11 L12 GF 45 GA 41
+    Round 1       2021-07-24 A L 2-3 v Sparta Prague
+    Round 2       2021-07-31 H W 3-2 v Pardubice
+    Round 4       2021-08-14 H D 3-3 v Ceske Budejovice
+    Round 5       2021-08-21 A W 4-1 v Zlin
+    Round 6       2021-08-29 H W 4-0 v Jablonec
+    Round 7       2021-09-12 A D 3-3 v Mlada Boleslav
+    Round 8       2021-09-17 H D 1-1 v Banik Ostrava
+    Round 9       2021-09-26 A D 0-0 v Teplice
+    Round 10      2021-10-02 A L 0-2 v Bohemians 1905
+    Round 11      2021-10-17 H W 2-0 v Karvina
+    Round 12      2021-10-23 A L 0-2 v Slovan Liberec
+    Round 3       2021-10-27 A L 0-1 v Slavia Prague
+    Round 13      2021-10-30 H L 0-3 v Slovacko
+    Round 14      2021-11-06 A D 0-0 v Viktoria Plzen
+    Round 15      2021-11-20 H D 2-2 v Hradec Kralove
+    Round 16      2021-11-27 A W 5-1 v Pardubice
+    Round 17      2021-12-04 H L 0-1 v Slavia Prague
+    Round 18      2021-12-12 A L 1-2 v Ceske Budejovice
+    Round 19      2021-12-19 H D 1-1 v Zlin
+    Round 20      2022-02-05 A L 0-1 v Jablonec
+    Round 21      2022-02-13 H W 2-1 v Mlada Boleslav
+    Round 22      2022-02-19 A L 0-1 v Banik Ostrava
+    Round 23      2022-02-27 H D 0-0 v Teplice
+    Round 24      2022-03-05 H D 0-0 v Bohemians 1905
+    Round 25      2022-03-13 A W 2-1 v Karvina
+    Round 26      2022-03-20 H W 1-0 v Slovan Liberec
+    Round 27      2022-04-02 A L 0-1 v Slovacko
+    Round 28      2022-04-09 H D 1-1 v Viktoria Plzen
+    Round 29      2022-04-17 A L 0-3 v Hradec Kralove
+    Round 30      2022-04-20 H W 2-0 v Sparta Prague
+    Evropu-SF L1  2022-04-24 H W 1-0 v Slovan Liberec
+    Evropu-SF L2  2022-04-30 A W 2-0 v Slovan Liberec
+    Evropu-F L1   2022-05-06 H L 1-2 v Mlada Boleslav
+    Evropu-F L2   2022-05-13 A D 2-2 v Mlada Boleslav
+  Banik Ostrava    [Titul] 35 games  W15 D10 L10 GF 60 GA 48
+    Round 1       2021-07-24 A L 0-1 v Jablonec
+    Round 2       2021-08-01 H W 5-1 v Zlin
+    Round 3       2021-08-07 A W 3-1 v Ceske Budejovice
+    Round 4       2021-08-15 H W 3-1 v Pardubice
+    Round 5       2021-08-22 A L 0-4 v Slavia Prague
+    Round 6       2021-08-28 H W 1-0 v Mlada Boleslav
+    Round 7       2021-09-11 A W 2-1 v Teplice
+    Round 8       2021-09-17 A D 1-1 v Sigma Olomouc
+    Round 9       2021-09-25 H W 4-1 v Bohemians 1905
+    Round 10      2021-10-03 A W 2-0 v Slovan Liberec
+    Round 11      2021-10-16 H L 1-2 v Slovacko
+    Round 13      2021-10-31 H D 2-2 v Sparta Prague
+    Round 14      2021-11-06 A D 1-1 v Hradec Kralove
+    Round 15      2021-11-20 H D 2-2 v Viktoria Plzen
+    Round 12      2021-11-24 A W 2-1 v Karvina
+    Round 16      2021-11-27 A D 2-2 v Zlin
+    Round 17      2021-12-05 H W 4-1 v Ceske Budejovice
+    Round 18      2021-12-11 A W 3-0 v Pardubice
+    Round 19      2021-12-19 H D 3-3 v Slavia Prague
+    Round 20      2022-02-06 A W 3-2 v Mlada Boleslav
+    Round 21      2022-02-12 H L 2-4 v Teplice
+    Round 22      2022-02-19 H W 1-0 v Sigma Olomouc
+    Round 23      2022-02-26 A W 2-0 v Bohemians 1905
+    Round 24      2022-03-05 H D 1-1 v Slovan Liberec
+    Round 25      2022-03-12 A D 0-0 v Slovacko
+    Round 26      2022-03-19 H L 1-3 v Karvina
+    Round 27      2022-04-02 A L 1-2 v Sparta Prague
+    Round 28      2022-04-10 H D 0-0 v Hradec Kralove
+    Round 29      2022-04-17 A L 1-2 v Viktoria Plzen
+    Round 30      2022-04-20 H W 1-0 v Jablonec
+    Titul R31     2022-04-23 A L 1-3 v Sparta Prague
+    Titul R32     2022-04-30 A L 1-3 v Slovacko
+    Titul R33     2022-05-07 H W 3-1 v Hradec Kralove
+    Titul R34     2022-05-11 H D 1-1 v Slavia Prague
+    Titul R35     2022-05-15 A L 0-1 v Viktoria Plzen
+  Pardubice        [Zachranu] 35 games  W 9 D10 L16 GF 42 GA 68
+    Round 1       2021-07-24 H D 2-2 v Karvina
+    Round 2       2021-07-31 A L 2-3 v Sigma Olomouc
+    Round 3       2021-08-08 H D 1-1 v Mlada Boleslav
+    Round 4       2021-08-15 A L 1-3 v Banik Ostrava
+    Round 5       2021-08-21 H W 3-0 v Bohemians 1905
+    Round 6       2021-08-28 A L 1-2 v Slovacko
+    Round 7       2021-09-11 H D 2-2 v Slovan Liberec
+    Round 8       2021-09-17 A L 0-2 v Hradec Kralove
+    Round 9       2021-09-25 H L 0-1 v Viktoria Plzen
+    Round 10      2021-10-02 A L 1-3 v Ceske Budejovice
+    Round 11      2021-10-17 H L 2-4 v Sparta Prague
+    Round 12      2021-10-23 H D 0-0 v Zlin
+    Round 13      2021-10-31 A D 1-1 v Jablonec
+    Round 14      2021-11-07 H L 0-5 v Slavia Prague
+    Round 15      2021-11-21 A W 2-1 v Teplice
+    Round 16      2021-11-27 H L 1-5 v Sigma Olomouc
+    Round 17      2021-12-05 A W 3-2 v Mlada Boleslav
+    Round 18      2021-12-11 H L 0-3 v Banik Ostrava
+    Round 19      2021-12-18 A W 2-1 v Bohemians 1905
+    Round 22      2022-02-19 H D 0-0 v Hradec Kralove
+    Round 20      2022-02-22 H D 0-0 v Slovacko
+    Round 23      2022-02-26 A L 0-4 v Viktoria Plzen
+    Round 24      2022-03-05 H D 3-3 v Ceske Budejovice
+    Round 21      2022-03-09 A L 1-4 v Slovan Liberec
+    Round 25      2022-03-13 A L 1-3 v Sparta Prague
+    Round 26      2022-03-19 A L 1-4 v Zlin
+    Round 27      2022-04-03 H D 1-1 v Jablonec
+    Round 28      2022-04-10 A L 0-4 v Slavia Prague
+    Round 29      2022-04-17 H W 2-0 v Teplice
+    Round 30      2022-04-20 A L 2-3 v Karvina
+    Zachranu R31  2022-04-23 A W 1-0 v Jablonec
+    Zachranu R32  2022-05-01 A W 1-0 v Bohemians 1905
+    Zachranu R33  2022-05-07 H W 2-0 v Karvina
+    Zachranu R34  2022-05-10 H D 1-1 v Zlin
+    Zachranu R35  2022-05-14 A W 2-0 v Teplice
+  Viktoria Plzen   [Titul] 35 games  W26 D 7 L 2 GF 63 GA 21
+    Round 1       2021-07-25 H W 2-1 v Mlada Boleslav
+    Round 2       2021-08-01 A W 2-1 v Bohemians 1905
+    Round 3       2021-08-08 H W 2-1 v Slovacko
+    Round 4       2021-08-15 A W 1-0 v Slovan Liberec
+    Round 5       2021-08-22 H W 2-0 v Karvina
+    Round 6       2021-08-29 A L 0-1 v Hradec Kralove
+    Round 7       2021-09-11 H W 3-2 v Sparta Prague
+    Round 8       2021-09-18 H W 2-1 v Ceske Budejovice
+    Round 9       2021-09-25 A W 1-0 v Pardubice
+    Round 10      2021-10-02 H W 2-1 v Zlin
+    Round 11      2021-10-17 A W 1-0 v Teplice
+    Round 12      2021-10-24 H W 5-0 v Jablonec
+    Round 13      2021-10-31 A L 0-2 v Slavia Prague
+    Round 14      2021-11-06 H D 0-0 v Sigma Olomouc
+    Round 15      2021-11-20 A D 2-2 v Banik Ostrava
+    Round 16      2021-11-27 H W 6-0 v Bohemians 1905
+    Round 17      2021-12-05 A W 2-1 v Slovacko
+    Round 18      2021-12-11 H W 2-0 v Slovan Liberec
+    Round 19      2021-12-18 A W 1-0 v Karvina
+    Round 20      2022-02-06 H W 1-0 v Hradec Kralove
+    Round 21      2022-02-13 A D 2-2 v Sparta Prague
+    Round 22      2022-02-19 A W 1-0 v Ceske Budejovice
+    Round 23      2022-02-26 H W 4-0 v Pardubice
+    Round 24      2022-03-05 A W 2-1 v Zlin
+    Round 25      2022-03-12 H W 1-0 v Teplice
+    Round 26      2022-03-19 A D 0-0 v Jablonec
+    Round 27      2022-04-03 H D 1-1 v Slavia Prague
+    Round 28      2022-04-09 A D 1-1 v Sigma Olomouc
+    Round 29      2022-04-17 H W 2-1 v Banik Ostrava
+    Round 30      2022-04-20 A W 2-0 v Mlada Boleslav
+    Titul R31     2022-04-24 H W 3-1 v Slovacko
+    Titul R32     2022-05-01 A D 1-1 v Slavia Prague
+    Titul R33     2022-05-08 H W 3-0 v Sparta Prague
+    Titul R34     2022-05-11 A W 2-0 v Hradec Kralove
+    Titul R35     2022-05-15 H W 1-0 v Banik Ostrava
+  Slavia Prague    [Titul] 35 games  W24 D 6 L 5 GF 80 GA 27
+    Round 1       2021-07-25 A W 1-0 v Zlin
+    Round 2       2021-07-30 A W 3-1 v Teplice
+    Round 4       2021-08-14 A W 2-0 v Mlada Boleslav
+    Round 5       2021-08-22 H W 4-0 v Banik Ostrava
+    Round 6       2021-08-29 A D 3-3 v Karvina
+    Round 7       2021-09-12 H W 2-1 v Slovacko
+    Round 8       2021-09-19 A W 5-1 v Bohemians 1905
+    Round 9       2021-09-26 H W 4-1 v Hradec Kralove
+    Round 10      2021-10-03 A L 0-1 v Sparta Prague
+    Round 11      2021-10-16 H W 3-1 v Slovan Liberec
+    Round 12      2021-10-24 A D 2-2 v Ceske Budejovice
+    Round 3       2021-10-27 H W 1-0 v Sigma Olomouc
+    Round 13      2021-10-31 H W 2-0 v Viktoria Plzen
+    Round 14      2021-11-07 A W 5-0 v Pardubice
+    Round 15      2021-11-21 H W 5-0 v Jablonec
+    Round 16      2021-11-28 H W 3-0 v Teplice
+    Round 17      2021-12-04 A W 1-0 v Sigma Olomouc
+    Round 18      2021-12-12 H W 2-0 v Mlada Boleslav
+    Round 19      2021-12-19 A D 3-3 v Banik Ostrava
+    Round 20      2022-02-05 H L 0-1 v Karvina
+    Round 21      2022-02-13 A W 1-0 v Slovacko
+    Round 22      2022-02-20 H W 1-0 v Bohemians 1905
+    Round 23      2022-02-27 A W 5-1 v Hradec Kralove
+    Round 24      2022-03-06 H W 2-0 v Sparta Prague
+    Round 25      2022-03-13 A L 0-1 v Slovan Liberec
+    Round 26      2022-03-20 H W 1-0 v Ceske Budejovice
+    Round 27      2022-04-03 A D 1-1 v Viktoria Plzen
+    Round 28      2022-04-10 H W 4-0 v Pardubice
+    Round 29      2022-04-17 A W 2-1 v Jablonec
+    Round 30      2022-04-20 H W 3-0 v Zlin
+    Titul R31     2022-04-24 A L 3-4 v Hradec Kralove
+    Titul R32     2022-05-01 H D 1-1 v Viktoria Plzen
+    Titul R33     2022-05-08 H W 3-0 v Slovacko
+    Titul R34     2022-05-11 A D 1-1 v Banik Ostrava
+    Titul R35     2022-05-15 H L 1-2 v Sparta Prague
+  Slovacko         [Titul] 35 games  W21 D 5 L 9 GF 59 GA 38
+    Round 1       2021-07-25 A W 1-0 v Slovan Liberec
+    Round 2       2021-08-01 H W 1-0 v Ceske Budejovice
+    Round 3       2021-08-08 A L 1-2 v Viktoria Plzen
+    Round 4       2021-08-15 H W 1-0 v Hradec Kralove
+    Round 5       2021-08-22 A D 1-1 v Jablonec
+    Round 6       2021-08-28 H W 2-1 v Pardubice
+    Round 7       2021-09-12 A L 1-2 v Slavia Prague
+    Round 8       2021-09-18 H W 3-0 v Zlin
+    Round 9       2021-09-26 A W 5-3 v Mlada Boleslav
+    Round 10      2021-10-02 H W 3-2 v Teplice
+    Round 11      2021-10-16 A W 2-1 v Banik Ostrava
+    Round 12      2021-10-23 H W 1-0 v Bohemians 1905
+    Round 13      2021-10-30 A W 3-0 v Sigma Olomouc
+    Round 14      2021-11-07 A D 2-2 v Karvina
+    Round 15      2021-11-21 H W 4-0 v Sparta Prague
+    Round 16      2021-11-27 A L 2-3 v Ceske Budejovice
+    Round 17      2021-12-05 H L 1-2 v Viktoria Plzen
+    Round 18      2021-12-11 A D 2-2 v Hradec Kralove
+    Round 19      2021-12-18 H W 2-1 v Jablonec
+    Round 21      2022-02-13 H L 0-1 v Slavia Prague
+    Round 22      2022-02-19 A L 0-1 v Zlin
+    Round 20      2022-02-22 A D 0-0 v Pardubice
+    Round 23      2022-02-26 H W 2-1 v Mlada Boleslav
+    Round 24      2022-03-06 A W 1-0 v Teplice
+    Round 25      2022-03-12 H D 0-0 v Banik Ostrava
+    Round 26      2022-03-19 A W 2-1 v Bohemians 1905
+    Round 27      2022-04-02 H W 1-0 v Sigma Olomouc
+    Round 28      2022-04-09 H W 3-1 v Karvina
+    Round 29      2022-04-17 A L 1-3 v Sparta Prague
+    Round 30      2022-04-20 H W 2-0 v Slovan Liberec
+    Titul R31     2022-04-24 A L 1-3 v Viktoria Plzen
+    Titul R32     2022-04-30 H W 3-1 v Banik Ostrava
+    Titul R33     2022-05-08 A L 0-3 v Slavia Prague
+    Titul R34     2022-05-11 A W 2-1 v Sparta Prague
+    Titul R35     2022-05-15 H W 3-0 v Hradec Kralove
+  Sparta Prague    [Titul] 35 games  W22 D 7 L 6 GF 72 GA 40
+    Round 1       2021-07-24 H W 3-2 v Sigma Olomouc
+    Round 2       2021-07-31 A W 5-0 v Slovan Liberec
+    Round 3       2021-08-07 H W 2-0 v Karvina
+    Round 4       2021-08-14 A D 1-1 v Bohemians 1905
+    Round 5       2021-08-21 H W 4-0 v Hradec Kralove
+    Round 6       2021-08-28 H W 1-0 v Ceske Budejovice
+    Round 7       2021-09-11 A L 2-3 v Viktoria Plzen
+    Round 8       2021-09-19 H D 1-1 v Jablonec
+    Round 9       2021-09-25 A W 5-2 v Zlin
+    Round 10      2021-10-03 H W 1-0 v Slavia Prague
+    Round 11      2021-10-17 A W 4-2 v Pardubice
+    Round 12      2021-10-24 H W 1-0 v Mlada Boleslav
+    Round 13      2021-10-31 A D 2-2 v Banik Ostrava
+    Round 14      2021-11-07 H W 4-2 v Teplice
+    Round 15      2021-11-21 A L 0-4 v Slovacko
+    Round 16      2021-11-28 H W 2-1 v Slovan Liberec
+    Round 17      2021-12-04 A W 2-1 v Karvina
+    Round 18      2021-12-12 H W 5-1 v Bohemians 1905
+    Round 19      2021-12-18 A W 1-0 v Hradec Kralove
+    Round 20      2022-02-05 A D 0-0 v Ceske Budejovice
+    Round 21      2022-02-13 H D 2-2 v Viktoria Plzen
+    Round 23      2022-02-27 H W 2-0 v Zlin
+    Round 24      2022-03-06 A L 0-2 v Slavia Prague
+    Round 22      2022-03-09 A D 1-1 v Jablonec
+    Round 25      2022-03-13 H W 3-1 v Pardubice
+    Round 26      2022-03-20 A W 3-0 v Mlada Boleslav
+    Round 27      2022-04-02 H W 2-1 v Banik Ostrava
+    Round 28      2022-04-09 A W 3-0 v Teplice
+    Round 29      2022-04-17 H W 3-1 v Slovacko
+    Round 30      2022-04-20 A L 0-2 v Sigma Olomouc
+    Titul R31     2022-04-23 H W 3-1 v Banik Ostrava
+    Titul R32     2022-04-30 H D 1-1 v Hradec Kralove
+    Titul R33     2022-05-08 A L 0-3 v Viktoria Plzen
+    Titul R34     2022-05-11 H L 1-2 v Slovacko
+    Titul R35     2022-05-15 A W 2-1 v Slavia Prague
+  Teplice          [Zachranu] 37 games  W 9 D 6 L22 GF 38 GA 61
+    Round 1       2021-07-25 A L 0-1 v Ceske Budejovice
+    Round 2       2021-07-30 H L 1-3 v Slavia Prague
+    Round 3       2021-08-07 A L 0-3 v Zlin
+    Round 4       2021-08-15 H W 1-0 v Jablonec
+    Round 5       2021-08-21 A L 1-3 v Mlada Boleslav
+    Round 6       2021-08-29 A L 2-4 v Bohemians 1905
+    Round 7       2021-09-11 H L 1-2 v Banik Ostrava
+    Round 8       2021-09-19 A D 1-1 v Karvina
+    Round 9       2021-09-26 H D 0-0 v Sigma Olomouc
+    Round 10      2021-10-02 A L 2-3 v Slovacko
+    Round 11      2021-10-17 H L 0-1 v Viktoria Plzen
+    Round 12      2021-10-24 A L 0-3 v Hradec Kralove
+    Round 13      2021-10-30 H L 1-2 v Slovan Liberec
+    Round 14      2021-11-07 A L 2-4 v Sparta Prague
+    Round 15      2021-11-21 H L 1-2 v Pardubice
+    Round 16      2021-11-28 A L 0-3 v Slavia Prague
+    Round 17      2021-12-04 H W 4-1 v Zlin
+    Round 18      2021-12-12 A W 2-0 v Jablonec
+    Round 19      2021-12-19 H L 0-1 v Mlada Boleslav
+    Round 20      2022-02-05 H W 1-0 v Bohemians 1905
+    Round 21      2022-02-12 A W 4-2 v Banik Ostrava
+    Round 22      2022-02-20 H W 1-0 v Karvina
+    Round 23      2022-02-27 A D 0-0 v Sigma Olomouc
+    Round 24      2022-03-06 H L 0-1 v Slovacko
+    Round 25      2022-03-12 A L 0-1 v Viktoria Plzen
+    Round 26      2022-03-20 H L 1-2 v Hradec Kralove
+    Round 27      2022-04-02 A W 1-0 v Slovan Liberec
+    Round 28      2022-04-09 H L 0-3 v Sparta Prague
+    Round 29      2022-04-17 A L 0-2 v Pardubice
+    Round 30      2022-04-20 H W 2-1 v Ceske Budejovice
+    Zachranu R31  2022-04-23 H D 2-2 v Bohemians 1905
+    Zachranu R32  2022-05-01 A L 0-3 v Zlin
+    Zachranu R33  2022-05-07 H L 0-1 v Jablonec
+    Zachranu R34  2022-05-10 A D 2-2 v Karvina
+    Zachranu R35  2022-05-14 H L 0-2 v Pardubice
+    Playoff leg1  2022-05-19 H W 3-0 v Vlasim
+    Playoff leg2  2022-05-22 A D 2-2 v Vlasim
+  Zlin             [Zachranu] 35 games  W 9 D 9 L17 GF 43 GA 60
+    Round 1       2021-07-25 H L 0-1 v Slavia Prague
+    Round 2       2021-08-01 A L 1-5 v Banik Ostrava
+    Round 3       2021-08-07 H W 3-0 v Teplice
+    Round 4       2021-08-14 A W 3-2 v Karvina
+    Round 5       2021-08-21 H L 1-4 v Sigma Olomouc
+    Round 6       2021-08-28 A W 1-0 v Slovan Liberec
+    Round 7       2021-09-11 H L 1-3 v Bohemians 1905
+    Round 8       2021-09-18 A L 0-3 v Slovacko
+    Round 9       2021-09-25 H L 2-5 v Sparta Prague
+    Round 10      2021-10-02 A L 1-2 v Viktoria Plzen
+    Round 11      2021-10-17 H L 2-3 v Hradec Kralove
+    Round 12      2021-10-23 A D 0-0 v Pardubice
+    Round 13      2021-10-30 H W 2-0 v Ceske Budejovice
+    Round 14      2021-11-07 H D 0-0 v Jablonec
+    Round 15      2021-11-20 A L 0-1 v Mlada Boleslav
+    Round 16      2021-11-27 H D 2-2 v Banik Ostrava
+    Round 17      2021-12-04 A L 1-4 v Teplice
+    Round 18      2021-12-11 H W 2-1 v Karvina
+    Round 19      2021-12-19 A D 1-1 v Sigma Olomouc
+    Round 21      2022-02-12 A L 0-1 v Bohemians 1905
+    Round 20      2022-02-15 H W 2-0 v Slovan Liberec
+    Round 22      2022-02-19 H W 1-0 v Slovacko
+    Round 23      2022-02-27 A L 0-2 v Sparta Prague
+    Round 24      2022-03-05 H L 1-2 v Viktoria Plzen
+    Round 25      2022-03-12 A L 1-2 v Hradec Kralove
+    Round 26      2022-03-19 H W 4-1 v Pardubice
+    Round 27      2022-04-02 A D 2-2 v Ceske Budejovice
+    Round 28      2022-04-10 A D 1-1 v Jablonec
+    Round 29      2022-04-17 H L 1-2 v Mlada Boleslav
+    Round 30      2022-04-20 A L 0-3 v Slavia Prague
+    Zachranu R31  2022-04-23 A D 1-1 v Karvina
+    Zachranu R32  2022-05-01 H W 3-0 v Teplice
+    Zachranu R33  2022-05-07 H L 1-4 v Bohemians 1905
+    Zachranu R34  2022-05-10 A D 1-1 v Pardubice
+    Zachranu R35  2022-05-14 H D 1-1 v Jablonec
+
+### 2022-23
+  Bohemians 1905   [Titul] 35 games  W15 D 7 L13 GF 56 GA 58
+    Round 1       2022-07-31 A W 3-0 v Jablonec
+    Round 2       2022-08-06 H D 3-3 v Banik Ostrava
+    Round 3       2022-08-13 A W 1-0 v Teplice
+    Round 4       2022-08-22 H L 1-2 v Hradec Kralove
+    Round 5       2022-08-27 A D 1-1 v Sparta Prague
+    Round 6       2022-08-30 H L 1-2 v Ceske Budejovice
+    Round 7       2022-09-04 A W 2-1 v Zbrojovka Brno
+    Round 8       2022-09-11 H L 0-2 v Slovan Liberec
+    Round 9       2022-09-18 A W 1-0 v Pardubice
+    Round 10      2022-10-01 H D 1-1 v Viktoria Plzen
+    Round 11      2022-10-09 A W 4-2 v Slovacko
+    Round 12      2022-10-15 H D 1-1 v Sigma Olomouc
+    Round 13      2022-10-23 A L 3-4 v Mlada Boleslav
+    Round 14      2022-10-30 H L 1-4 v Slavia Prague
+    Round 15      2022-11-05 H W 3-2 v Zlin
+    Round 16      2022-11-12 A L 1-4 v Banik Ostrava
+    Round 17      2023-01-28 H W 2-0 v Teplice
+    Round 18      2023-02-05 A W 2-0 v Hradec Kralove
+    Round 19      2023-02-12 H L 2-6 v Sparta Prague
+    Round 20      2023-02-19 A L 0-1 v Ceske Budejovice
+    Round 21      2023-02-25 H D 1-1 v Zbrojovka Brno
+    Round 22      2023-03-05 A W 3-1 v Slovan Liberec
+    Round 23      2023-03-13 H W 2-0 v Pardubice
+    Round 24      2023-03-19 A W 2-1 v Viktoria Plzen
+    Round 25      2023-04-02 H W 1-0 v Slovacko
+    Round 26      2023-04-09 A D 2-2 v Sigma Olomouc
+    Round 27      2023-04-16 H W 4-0 v Mlada Boleslav
+    Round 28      2023-04-22 A L 0-3 v Slavia Prague
+    Round 29      2023-04-26 A L 1-4 v Zlin
+    Round 30      2023-04-30 H W 4-1 v Jablonec
+    Titul R31     2023-05-07 A L 0-6 v Slavia Prague
+    Titul R32     2023-05-14 H D 0-0 v Slovacko
+    Titul R33     2023-05-20 A L 1-2 v Sparta Prague
+    Titul R34     2023-05-23 A W 2-0 v Viktoria Plzen
+    Titul R35     2023-05-27 H L 0-1 v Sigma Olomouc
+  Zbrojovka Brno   [Zachranu] 35 games  W 8 D 9 L18 GF 41 GA 64
+    Round 1       2022-07-30 H D 2-2 v Slovacko
+    Round 2       2022-08-06 A W 2-0 v Sigma Olomouc
+    Round 3       2022-08-13 H W 3-1 v Mlada Boleslav
+    Round 5       2022-08-28 H L 0-4 v Slavia Prague
+    Round 6       2022-08-31 A W 2-1 v Banik Ostrava
+    Round 7       2022-09-04 H L 1-2 v Bohemians 1905
+    Round 8       2022-09-10 A W 3-2 v Zlin
+    Round 9       2022-09-17 H D 2-2 v Teplice
+    Round 10      2022-10-02 A L 1-3 v Jablonec
+    Round 11      2022-10-08 H L 0-4 v Sparta Prague
+    Round 12      2022-10-15 A L 1-2 v Hradec Kralove
+    Round 13      2022-10-22 A W 3-1 v Pardubice
+    Round 14      2022-10-30 H W 3-0 v Slovan Liberec
+    Round 15      2022-11-05 A L 2-3 v Ceske Budejovice
+    Round 4       2022-11-09 A L 0-4 v Viktoria Plzen
+    Round 16      2022-11-13 H L 2-3 v Sigma Olomouc
+    Round 17      2023-01-29 A D 0-0 v Mlada Boleslav
+    Round 18      2023-02-05 H L 1-3 v Viktoria Plzen
+    Round 19      2023-02-11 A L 0-2 v Slavia Prague
+    Round 20      2023-02-18 H W 2-1 v Banik Ostrava
+    Round 21      2023-02-25 A D 1-1 v Bohemians 1905
+    Round 22      2023-03-04 H D 1-1 v Zlin
+    Round 23      2023-03-13 A D 1-1 v Teplice
+    Round 24      2023-03-19 H L 1-2 v Jablonec
+    Round 25      2023-04-02 A L 1-3 v Sparta Prague
+    Round 26      2023-04-08 H L 1-2 v Hradec Kralove
+    Round 27      2023-04-16 H W 2-1 v Pardubice
+    Round 28      2023-04-23 A L 1-3 v Slovan Liberec
+    Round 29      2023-04-26 H D 1-1 v Ceske Budejovice
+    Round 30      2023-04-30 A L 0-1 v Slovacko
+    Zachranu R31  2023-05-06 A L 0-4 v Banik Ostrava
+    Zachranu R32  2023-05-14 H L 0-2 v Pardubice
+    Zachranu R33  2023-05-21 A L 0-1 v Jablonec
+    Zachranu R34  2023-05-24 A D 1-1 v Teplice
+    Zachranu R35  2023-05-28 H D 0-0 v Zlin
+  Ceske Budejovice [Evropu] 32 games  W11 D 5 L16 GF 38 GA 60
+    Round 1       2022-07-31 A W 2-0 v Pardubice
+    Round 2       2022-08-07 H L 0-2 v Sparta Prague
+    Round 3       2022-08-14 H D 2-2 v Slovacko
+    Round 4       2022-08-22 A D 1-1 v Slovan Liberec
+    Round 5       2022-08-27 H L 0-1 v Viktoria Plzen
+    Round 6       2022-08-30 A W 2-1 v Bohemians 1905
+    Round 7       2022-09-03 H L 0-2 v Mlada Boleslav
+    Round 8       2022-09-11 A L 1-6 v Slavia Prague
+    Round 9       2022-09-17 H L 0-3 v Sigma Olomouc
+    Round 10      2022-10-01 A W 2-1 v Banik Ostrava
+    Round 11      2022-10-09 H D 2-2 v Zlin
+    Round 12      2022-10-15 A W 2-0 v Teplice
+    Round 13      2022-10-23 H L 0-3 v Hradec Kralove
+    Round 14      2022-10-29 A L 0-3 v Jablonec
+    Round 15      2022-11-05 H W 3-2 v Zbrojovka Brno
+    Round 16      2022-11-12 A L 0-1 v Sparta Prague
+    Round 17      2023-01-28 A L 0-1 v Slovacko
+    Round 18      2023-02-05 H L 0-2 v Slovan Liberec
+    Round 19      2023-02-12 A L 1-2 v Viktoria Plzen
+    Round 20      2023-02-19 H W 1-0 v Bohemians 1905
+    Round 21      2023-02-25 A D 2-2 v Mlada Boleslav
+    Round 22      2023-03-05 H W 1-0 v Slavia Prague
+    Round 23      2023-03-12 A L 0-3 v Sigma Olomouc
+    Round 24      2023-03-18 H W 2-1 v Banik Ostrava
+    Round 25      2023-04-01 A L 1-5 v Zlin
+    Round 26      2023-04-09 H L 0-3 v Teplice
+    Round 27      2023-04-16 A L 1-2 v Hradec Kralove
+    Round 28      2023-04-23 H W 5-1 v Jablonec
+    Round 29      2023-04-26 A D 1-1 v Zbrojovka Brno
+    Round 30      2023-04-30 H W 3-1 v Pardubice
+    Evropu-SF L1  2023-05-07 H W 3-2 v Slovan Liberec
+    Evropu-SF L2  2023-05-13 A L 0-4 v Slovan Liberec
+  Hradec Kralove   [Evropu] 34 games  W13 D 6 L15 GF 39 GA 46
+    Round 1       2022-07-31 H W 1-0 v Slavia Prague
+    Round 2       2022-08-07 A L 0-1 v Slovacko
+    Round 3       2022-08-13 H L 1-2 v Viktoria Plzen
+    Round 4       2022-08-22 A W 2-1 v Bohemians 1905
+    Round 5       2022-08-28 H W 1-0 v Sigma Olomouc
+    Round 6       2022-08-31 A W 2-1 v Mlada Boleslav
+    Round 7       2022-09-04 H D 0-0 v Banik Ostrava
+    Round 8       2022-09-11 A L 0-3 v Jablonec
+    Round 9       2022-09-18 H D 0-0 v Zlin
+    Round 10      2022-10-01 A L 1-2 v Sparta Prague
+    Round 11      2022-10-08 H W 4-1 v Teplice
+    Round 12      2022-10-15 H W 2-1 v Zbrojovka Brno
+    Round 13      2022-10-23 A W 3-0 v Ceske Budejovice
+    Round 14      2022-10-29 H L 1-3 v Pardubice
+    Round 15      2022-11-06 A L 0-2 v Slovan Liberec
+    Round 16      2022-11-13 H L 1-2 v Slovacko
+    Round 17      2023-01-28 A W 2-1 v Viktoria Plzen
+    Round 18      2023-02-05 H L 0-2 v Bohemians 1905
+    Round 19      2023-02-12 A D 2-2 v Sigma Olomouc
+    Round 20      2023-02-18 H L 0-1 v Mlada Boleslav
+    Round 21      2023-02-26 A W 2-0 v Banik Ostrava
+    Round 22      2023-03-04 H L 1-4 v Jablonec
+    Round 23      2023-03-12 A D 2-2 v Zlin
+    Round 24      2023-03-18 H L 0-2 v Sparta Prague
+    Round 25      2023-04-02 A L 0-1 v Teplice
+    Round 26      2023-04-08 A W 2-1 v Zbrojovka Brno
+    Round 27      2023-04-16 H W 2-1 v Ceske Budejovice
+    Round 28      2023-04-22 A L 0-1 v Pardubice
+    Round 29      2023-04-26 H L 1-2 v Slovan Liberec
+    Round 30      2023-04-30 A D 1-1 v Slavia Prague
+    Evropu-SF L1  2023-05-07 A D 0-0 v Mlada Boleslav
+    Evropu-SF L2  2023-05-13 H W 2-0 v Mlada Boleslav
+    Evropu-F L1   2023-05-21 H L 0-4 v Slovan Liberec
+    Evropu-F L2   2023-05-26 A W 3-2 v Slovan Liberec
+  Jablonec         [Zachranu] 35 games  W10 D10 L15 GF 49 GA 63
+    Round 1       2022-07-31 H L 0-3 v Bohemians 1905
+    Round 2       2022-08-07 A D 2-2 v Mlada Boleslav
+    Round 3       2022-08-14 H L 2-3 v Slavia Prague
+    Round 4       2022-08-22 A D 2-2 v Zlin
+    Round 5       2022-08-27 H D 1-1 v Banik Ostrava
+    Round 6       2022-08-30 H D 1-1 v Sparta Prague
+    Round 7       2022-09-03 A L 2-3 v Teplice
+    Round 8       2022-09-11 H W 3-0 v Hradec Kralove
+    Round 9       2022-09-18 A W 2-0 v Slovacko
+    Round 10      2022-10-02 H W 3-1 v Zbrojovka Brno
+    Round 11      2022-10-08 A L 0-1 v Pardubice
+    Round 12      2022-10-16 H L 0-3 v Viktoria Plzen
+    Round 13      2022-10-22 A L 0-2 v Slovan Liberec
+    Round 14      2022-10-29 H W 3-0 v Ceske Budejovice
+    Round 15      2022-11-05 A L 0-3 v Sigma Olomouc
+    Round 16      2022-11-12 H L 1-2 v Mlada Boleslav
+    Round 17      2023-01-29 A L 1-5 v Slavia Prague
+    Round 18      2023-02-04 H D 2-2 v Zlin
+    Round 19      2023-02-11 A W 2-1 v Banik Ostrava
+    Round 20      2023-02-19 A L 0-3 v Sparta Prague
+    Round 21      2023-02-26 H W 4-1 v Teplice
+    Round 22      2023-03-04 A W 4-1 v Hradec Kralove
+    Round 24      2023-03-19 A W 2-1 v Zbrojovka Brno
+    Round 25      2023-04-02 H W 1-0 v Pardubice
+    Round 23      2023-04-05 H D 1-1 v Slovacko
+    Round 26      2023-04-08 A L 2-3 v Viktoria Plzen
+    Round 27      2023-04-15 H D 1-1 v Slovan Liberec
+    Round 28      2023-04-23 A L 1-5 v Ceske Budejovice
+    Round 29      2023-04-26 H D 2-2 v Sigma Olomouc
+    Round 30      2023-04-30 A L 1-4 v Bohemians 1905
+    Zachranu R31  2023-05-06 A D 1-1 v Zlin
+    Zachranu R32  2023-05-14 H D 1-1 v Banik Ostrava
+    Zachranu R33  2023-05-21 H W 1-0 v Zbrojovka Brno
+    Zachranu R34  2023-05-24 A L 0-2 v Pardubice
+    Zachranu R35  2023-05-28 H L 0-2 v Teplice
+  Slovan Liberec   [Evropu] 34 games  W12 D 8 L14 GF 51 GA 49
+    Round 1       2022-07-31 A W 2-1 v Sparta Prague
+    Round 2       2022-08-06 H W 5-1 v Teplice
+    Round 3       2022-08-14 A L 1-2 v Pardubice
+    Round 4       2022-08-22 H D 1-1 v Ceske Budejovice
+    Round 5       2022-08-28 A W 2-1 v Slovacko
+    Round 6       2022-08-31 A D 1-1 v Sigma Olomouc
+    Round 7       2022-09-03 H L 0-1 v Viktoria Plzen
+    Round 8       2022-09-11 A W 2-0 v Bohemians 1905
+    Round 9       2022-09-17 H L 1-3 v Mlada Boleslav
+    Round 10      2022-10-02 A L 0-3 v Slavia Prague
+    Round 11      2022-10-09 H D 0-0 v Banik Ostrava
+    Round 12      2022-10-16 A L 1-2 v Zlin
+    Round 13      2022-10-22 H W 2-0 v Jablonec
+    Round 14      2022-10-30 A L 0-3 v Zbrojovka Brno
+    Round 15      2022-11-06 H W 2-0 v Hradec Kralove
+    Round 16      2022-11-12 A L 1-2 v Teplice
+    Round 17      2023-01-29 H D 1-1 v Pardubice
+    Round 18      2023-02-05 A W 2-0 v Ceske Budejovice
+    Round 19      2023-02-11 H L 0-1 v Slovacko
+    Round 20      2023-02-18 H D 2-2 v Sigma Olomouc
+    Round 21      2023-02-25 A L 1-2 v Viktoria Plzen
+    Round 22      2023-03-05 H L 1-3 v Bohemians 1905
+    Round 23      2023-03-12 A L 0-4 v Mlada Boleslav
+    Round 24      2023-03-18 H D 2-2 v Slavia Prague
+    Round 25      2023-04-01 A D 0-0 v Banik Ostrava
+    Round 26      2023-04-08 H W 2-1 v Zlin
+    Round 27      2023-04-15 A D 1-1 v Jablonec
+    Round 28      2023-04-23 H W 3-1 v Zbrojovka Brno
+    Round 29      2023-04-26 A W 2-1 v Hradec Kralove
+    Round 30      2023-04-30 H L 1-3 v Sparta Prague
+    Evropu-SF L1  2023-05-07 A L 2-3 v Ceske Budejovice
+    Evropu-SF L2  2023-05-13 H W 4-0 v Ceske Budejovice
+    Evropu-F L1   2023-05-21 A W 4-0 v Hradec Kralove
+    Evropu-F L2   2023-05-26 H L 2-3 v Hradec Kralove
+  Mlada Boleslav   [Evropu] 32 games  W 9 D11 L12 GF 39 GA 44
+    Round 1       2022-07-30 A D 0-0 v Zlin
+    Round 2       2022-08-07 H D 2-2 v Jablonec
+    Round 3       2022-08-13 A L 1-3 v Zbrojovka Brno
+    Round 4       2022-08-20 H L 1-3 v Sparta Prague
+    Round 5       2022-08-27 A W 3-0 v Pardubice
+    Round 6       2022-08-31 H L 1-2 v Hradec Kralove
+    Round 7       2022-09-03 A W 2-0 v Ceske Budejovice
+    Round 8       2022-09-11 H D 1-1 v Slovacko
+    Round 9       2022-09-17 A W 3-1 v Slovan Liberec
+    Round 10      2022-10-01 H D 1-1 v Sigma Olomouc
+    Round 11      2022-10-08 A L 0-2 v Viktoria Plzen
+    Round 12      2022-10-16 A L 1-2 v Slavia Prague
+    Round 13      2022-10-23 H W 4-3 v Bohemians 1905
+    Round 14      2022-10-29 A L 1-3 v Banik Ostrava
+    Round 15      2022-11-06 H W 3-0 v Teplice
+    Round 16      2022-11-12 A W 2-1 v Jablonec
+    Round 17      2023-01-29 H D 0-0 v Zbrojovka Brno
+    Round 18      2023-02-05 A L 1-4 v Sparta Prague
+    Round 19      2023-02-12 H L 0-1 v Pardubice
+    Round 20      2023-02-18 A W 1-0 v Hradec Kralove
+    Round 21      2023-02-25 H D 2-2 v Ceske Budejovice
+    Round 22      2023-03-05 A L 1-2 v Slovacko
+    Round 23      2023-03-12 H W 4-0 v Slovan Liberec
+    Round 24      2023-03-18 A L 0-2 v Sigma Olomouc
+    Round 25      2023-04-01 H D 0-0 v Viktoria Plzen
+    Round 26      2023-04-09 H D 1-1 v Slavia Prague
+    Round 27      2023-04-16 A L 0-4 v Bohemians 1905
+    Round 28      2023-04-22 H W 1-0 v Banik Ostrava
+    Round 29      2023-04-25 A D 1-1 v Teplice
+    Round 30      2023-04-30 H D 1-1 v Zlin
+    Evropu-SF L1  2023-05-07 H D 0-0 v Hradec Kralove
+    Evropu-SF L2  2023-05-13 A L 0-2 v Hradec Kralove
+  Sigma Olomouc    [Titul] 35 games  W12 D12 L11 GF 53 GA 47
+    Round 1       2022-07-30 A W 3-0 v Banik Ostrava
+    Round 2       2022-08-06 H L 0-2 v Zbrojovka Brno
+    Round 3       2022-08-14 A L 0-2 v Sparta Prague
+    Round 4       2022-08-22 H L 1-2 v Slovacko
+    Round 5       2022-08-28 A L 0-1 v Hradec Kralove
+    Round 6       2022-08-31 H D 1-1 v Slovan Liberec
+    Round 7       2022-09-04 A W 2-0 v Pardubice
+    Round 8       2022-09-10 H L 2-3 v Viktoria Plzen
+    Round 9       2022-09-17 A W 3-0 v Ceske Budejovice
+    Round 10      2022-10-01 A D 1-1 v Mlada Boleslav
+    Round 11      2022-10-09 H W 2-0 v Slavia Prague
+    Round 12      2022-10-15 A D 1-1 v Bohemians 1905
+    Round 13      2022-10-22 H W 2-1 v Zlin
+    Round 14      2022-10-30 A L 1-2 v Teplice
+    Round 15      2022-11-05 H W 3-0 v Jablonec
+    Round 16      2022-11-13 A W 3-2 v Zbrojovka Brno
+    Round 17      2023-01-28 H D 1-1 v Sparta Prague
+    Round 18      2023-02-04 A D 0-0 v Slovacko
+    Round 19      2023-02-12 H D 2-2 v Hradec Kralove
+    Round 20      2023-02-18 A D 2-2 v Slovan Liberec
+    Round 21      2023-02-26 H D 2-2 v Pardubice
+    Round 22      2023-03-04 A D 1-1 v Viktoria Plzen
+    Round 23      2023-03-12 H W 3-0 v Ceske Budejovice
+    Round 24      2023-03-18 H W 2-0 v Mlada Boleslav
+    Round 25      2023-04-01 A L 0-4 v Slavia Prague
+    Round 26      2023-04-09 H D 2-2 v Bohemians 1905
+    Round 27      2023-04-15 A W 1-0 v Zlin
+    Round 28      2023-04-22 H L 1-2 v Teplice
+    Round 29      2023-04-26 A D 2-2 v Jablonec
+    Round 30      2023-04-30 H L 1-4 v Banik Ostrava
+    Titul R31     2023-05-07 H L 0-1 v Sparta Prague
+    Titul R32     2023-05-13 A W 3-1 v Viktoria Plzen
+    Titul R33     2023-05-20 A D 2-2 v Slovacko
+    Titul R34     2023-05-23 H L 2-3 v Slavia Prague
+    Titul R35     2023-05-27 A W 1-0 v Bohemians 1905
+  Banik Ostrava    [Zachranu] 35 games  W11 D 9 L15 GF 53 GA 50
+    Round 1       2022-07-30 H L 0-3 v Sigma Olomouc
+    Round 2       2022-08-06 A D 3-3 v Bohemians 1905
+    Round 3       2022-08-13 H W 3-1 v Zlin
+    Round 4       2022-08-20 H L 1-2 v Teplice
+    Round 5       2022-08-27 A D 1-1 v Jablonec
+    Round 6       2022-08-31 H L 1-2 v Zbrojovka Brno
+    Round 7       2022-09-04 A D 0-0 v Hradec Kralove
+    Round 8       2022-09-11 H W 3-0 v Pardubice
+    Round 9       2022-09-17 A D 1-1 v Sparta Prague
+    Round 10      2022-10-01 H L 1-2 v Ceske Budejovice
+    Round 11      2022-10-09 A D 0-0 v Slovan Liberec
+    Round 12      2022-10-16 H W 3-1 v Slovacko
+    Round 13      2022-10-22 A L 1-3 v Viktoria Plzen
+    Round 14      2022-10-29 H W 3-1 v Mlada Boleslav
+    Round 15      2022-11-06 A L 1-3 v Slavia Prague
+    Round 16      2022-11-12 H W 4-1 v Bohemians 1905
+    Round 17      2023-01-29 A D 1-1 v Zlin
+    Round 18      2023-02-04 A W 5-0 v Teplice
+    Round 19      2023-02-11 H L 1-2 v Jablonec
+    Round 20      2023-02-18 A L 1-2 v Zbrojovka Brno
+    Round 21      2023-02-26 H L 0-2 v Hradec Kralove
+    Round 22      2023-03-04 A D 1-1 v Pardubice
+    Round 23      2023-03-11 H L 0-3 v Sparta Prague
+    Round 24      2023-03-18 A L 1-2 v Ceske Budejovice
+    Round 25      2023-04-01 H D 0-0 v Slovan Liberec
+    Round 26      2023-04-08 A W 1-0 v Slovacko
+    Round 27      2023-04-16 H W 2-1 v Viktoria Plzen
+    Round 28      2023-04-22 A L 0-1 v Mlada Boleslav
+    Round 29      2023-04-25 H L 0-2 v Slavia Prague
+    Round 30      2023-04-30 A W 4-1 v Sigma Olomouc
+    Zachranu R31  2023-05-06 H W 4-0 v Zbrojovka Brno
+    Zachranu R32  2023-05-14 A D 1-1 v Jablonec
+    Zachranu R33  2023-05-21 H W 2-1 v Teplice
+    Zachranu R34  2023-05-24 A L 1-2 v Zlin
+    Zachranu R35  2023-05-28 H L 2-4 v Pardubice
+  Pardubice        [Zachranu] 37 games  W12 D 5 L20 GF 40 GA 63
+    Round 1       2022-07-31 H L 0-2 v Ceske Budejovice
+    Round 2       2022-08-06 A L 1-2 v Viktoria Plzen
+    Round 3       2022-08-14 H W 2-1 v Slovan Liberec
+    Round 4       2022-08-22 A L 0-7 v Slavia Prague
+    Round 5       2022-08-27 H L 0-3 v Mlada Boleslav
+    Round 6       2022-08-30 A L 1-2 v Zlin
+    Round 7       2022-09-04 H L 0-2 v Sigma Olomouc
+    Round 8       2022-09-11 A L 0-3 v Banik Ostrava
+    Round 9       2022-09-18 H L 0-1 v Bohemians 1905
+    Round 10      2022-10-02 A L 1-5 v Teplice
+    Round 11      2022-10-08 H W 1-0 v Jablonec
+    Round 12      2022-10-15 A L 2-5 v Sparta Prague
+    Round 13      2022-10-22 H L 1-3 v Zbrojovka Brno
+    Round 14      2022-10-29 A W 3-1 v Hradec Kralove
+    Round 15      2022-11-06 A L 0-1 v Slovacko
+    Round 16      2022-11-13 H D 1-1 v Viktoria Plzen
+    Round 17      2023-01-29 A D 1-1 v Slovan Liberec
+    Round 18      2023-02-04 H L 0-2 v Slavia Prague
+    Round 19      2023-02-12 A W 1-0 v Mlada Boleslav
+    Round 20      2023-02-19 H W 2-1 v Zlin
+    Round 21      2023-02-26 A D 2-2 v Sigma Olomouc
+    Round 22      2023-03-04 H D 1-1 v Banik Ostrava
+    Round 23      2023-03-13 A L 0-2 v Bohemians 1905
+    Round 24      2023-03-19 H W 3-1 v Teplice
+    Round 25      2023-04-02 A L 0-1 v Jablonec
+    Round 26      2023-04-09 H L 0-2 v Sparta Prague
+    Round 27      2023-04-16 A L 1-2 v Zbrojovka Brno
+    Round 28      2023-04-22 H W 1-0 v Hradec Kralove
+    Round 29      2023-04-25 H W 3-1 v Slovacko
+    Round 30      2023-04-30 A L 1-3 v Ceske Budejovice
+    Zachranu R31  2023-05-06 A L 0-1 v Teplice
+    Zachranu R32  2023-05-14 A W 2-0 v Zbrojovka Brno
+    Zachranu R33  2023-05-21 H L 1-2 v Zlin
+    Zachranu R34  2023-05-24 H W 2-0 v Jablonec
+    Zachranu R35  2023-05-28 A W 4-2 v Banik Ostrava
+    Playoff leg1  2023-06-01 A W 2-0 v Pribram
+    Playoff leg2  2023-06-04 H D 0-0 v Pribram
+  Viktoria Plzen   [Titul] 35 games  W18 D 7 L10 GF 60 GA 38
+    Round 1       2022-07-30 A D 2-2 v Teplice
+    Round 2       2022-08-06 H W 2-1 v Pardubice
+    Round 3       2022-08-13 A W 2-1 v Hradec Kralove
+    Round 5       2022-08-27 A W 1-0 v Ceske Budejovice
+    Round 6       2022-08-31 H W 3-0 v Slovacko
+    Round 7       2022-09-03 A W 1-0 v Slovan Liberec
+    Round 8       2022-09-10 A W 3-2 v Sigma Olomouc
+    Round 9       2022-09-18 H W 3-0 v Slavia Prague
+    Round 10      2022-10-01 A D 1-1 v Bohemians 1905
+    Round 11      2022-10-08 H W 2-0 v Mlada Boleslav
+    Round 12      2022-10-16 A W 3-0 v Jablonec
+    Round 13      2022-10-22 H W 3-1 v Banik Ostrava
+    Round 14      2022-10-29 A W 3-0 v Zlin
+    Round 15      2022-11-05 H L 0-1 v Sparta Prague
+    Round 4       2022-11-09 H W 4-0 v Zbrojovka Brno
+    Round 16      2022-11-13 A D 1-1 v Pardubice
+    Round 17      2023-01-28 H L 1-2 v Hradec Kralove
+    Round 18      2023-02-05 A W 3-1 v Zbrojovka Brno
+    Round 19      2023-02-12 H W 2-1 v Ceske Budejovice
+    Round 20      2023-02-19 A L 0-2 v Slovacko
+    Round 21      2023-02-25 H W 2-1 v Slovan Liberec
+    Round 22      2023-03-04 H D 1-1 v Sigma Olomouc
+    Round 23      2023-03-12 A L 1-2 v Slavia Prague
+    Round 24      2023-03-19 H L 1-2 v Bohemians 1905
+    Round 25      2023-04-01 A D 0-0 v Mlada Boleslav
+    Round 26      2023-04-08 H W 3-2 v Jablonec
+    Round 27      2023-04-16 A L 1-2 v Banik Ostrava
+    Round 28      2023-04-23 H W 4-0 v Zlin
+    Round 29      2023-04-26 A L 1-2 v Sparta Prague
+    Round 30      2023-04-30 H D 1-1 v Teplice
+    Titul R31     2023-05-06 H D 2-2 v Slovacko
+    Titul R32     2023-05-13 H L 1-3 v Sigma Olomouc
+    Titul R33     2023-05-20 A L 1-2 v Slavia Prague
+    Titul R34     2023-05-23 H L 0-2 v Bohemians 1905
+    Titul R35     2023-05-27 A W 1-0 v Sparta Prague
+  Slavia Prague    [Titul] 35 games  W24 D 6 L 5 GF 98 GA 31
+    Round 1       2022-07-31 A L 0-1 v Hradec Kralove
+    Round 2       2022-08-07 H W 4-1 v Zlin
+    Round 3       2022-08-14 A W 3-2 v Jablonec
+    Round 4       2022-08-22 H W 7-0 v Pardubice
+    Round 5       2022-08-28 A W 4-0 v Zbrojovka Brno
+    Round 6       2022-08-31 H W 6-0 v Teplice
+    Round 7       2022-09-04 A D 1-1 v Slovacko
+    Round 8       2022-09-11 H W 6-1 v Ceske Budejovice
+    Round 9       2022-09-18 A L 0-3 v Viktoria Plzen
+    Round 10      2022-10-02 H W 3-0 v Slovan Liberec
+    Round 11      2022-10-09 A L 0-2 v Sigma Olomouc
+    Round 12      2022-10-16 H W 2-1 v Mlada Boleslav
+    Round 13      2022-10-23 H W 4-0 v Sparta Prague
+    Round 14      2022-10-30 A W 4-1 v Bohemians 1905
+    Round 15      2022-11-06 H W 3-1 v Banik Ostrava
+    Round 16      2022-11-13 A W 4-0 v Zlin
+    Round 17      2023-01-29 H W 5-1 v Jablonec
+    Round 18      2023-02-04 A W 2-0 v Pardubice
+    Round 19      2023-02-11 H W 2-0 v Zbrojovka Brno
+    Round 20      2023-02-18 A D 1-1 v Teplice
+    Round 21      2023-02-26 H W 2-0 v Slovacko
+    Round 22      2023-03-05 A L 0-1 v Ceske Budejovice
+    Round 23      2023-03-12 H W 2-1 v Viktoria Plzen
+    Round 24      2023-03-18 A D 2-2 v Slovan Liberec
+    Round 25      2023-04-01 H W 4-0 v Sigma Olomouc
+    Round 26      2023-04-09 A D 1-1 v Mlada Boleslav
+    Round 27      2023-04-15 A D 3-3 v Sparta Prague
+    Round 28      2023-04-22 H W 3-0 v Bohemians 1905
+    Round 29      2023-04-25 A W 2-0 v Banik Ostrava
+    Round 30      2023-04-30 H D 1-1 v Hradec Kralove
+    Titul R31     2023-05-07 H W 6-0 v Bohemians 1905
+    Titul R32     2023-05-13 A L 2-3 v Sparta Prague
+    Titul R33     2023-05-20 H W 2-1 v Viktoria Plzen
+    Titul R34     2023-05-23 A W 3-2 v Sigma Olomouc
+    Titul R35     2023-05-27 H W 4-0 v Slovacko
+  Slovacko         [Titul] 35 games  W13 D11 L11 GF 40 GA 46
+    Round 1       2022-07-30 A D 2-2 v Zbrojovka Brno
+    Round 2       2022-08-07 H W 1-0 v Hradec Kralove
+    Round 3       2022-08-14 A D 2-2 v Ceske Budejovice
+    Round 4       2022-08-22 A W 2-1 v Sigma Olomouc
+    Round 5       2022-08-28 H L 1-2 v Slovan Liberec
+    Round 6       2022-08-31 A L 0-3 v Viktoria Plzen
+    Round 7       2022-09-04 H D 1-1 v Slavia Prague
+    Round 8       2022-09-11 A D 1-1 v Mlada Boleslav
+    Round 9       2022-09-18 H L 0-2 v Jablonec
+    Round 10      2022-10-02 A W 2-0 v Zlin
+    Round 11      2022-10-09 H L 2-4 v Bohemians 1905
+    Round 12      2022-10-16 A L 1-3 v Banik Ostrava
+    Round 13      2022-10-23 H W 2-1 v Teplice
+    Round 15      2022-11-06 H W 1-0 v Pardubice
+    Round 14      2022-11-09 A L 0-4 v Sparta Prague
+    Round 16      2022-11-13 A W 2-1 v Hradec Kralove
+    Round 17      2023-01-28 H W 1-0 v Ceske Budejovice
+    Round 18      2023-02-04 H D 0-0 v Sigma Olomouc
+    Round 19      2023-02-11 A W 1-0 v Slovan Liberec
+    Round 20      2023-02-19 H W 2-0 v Viktoria Plzen
+    Round 21      2023-02-26 A L 0-2 v Slavia Prague
+    Round 22      2023-03-05 H W 2-1 v Mlada Boleslav
+    Round 24      2023-03-19 H W 3-0 v Zlin
+    Round 25      2023-04-02 A L 0-1 v Bohemians 1905
+    Round 23      2023-04-05 A D 1-1 v Jablonec
+    Round 26      2023-04-08 H L 0-1 v Banik Ostrava
+    Round 27      2023-04-15 A W 3-1 v Teplice
+    Round 28      2023-04-22 H D 1-1 v Sparta Prague
+    Round 29      2023-04-25 A L 1-3 v Pardubice
+    Round 30      2023-04-30 H W 1-0 v Zbrojovka Brno
+    Titul R31     2023-05-06 A D 2-2 v Viktoria Plzen
+    Titul R32     2023-05-14 A D 0-0 v Bohemians 1905
+    Titul R33     2023-05-20 H D 2-2 v Sigma Olomouc
+    Titul R34     2023-05-23 H D 0-0 v Sparta Prague
+    Titul R35     2023-05-27 A L 0-4 v Slavia Prague
+  Sparta Prague    [Titul] 35 games  W23 D 9 L 3 GF 76 GA 33
+    Round 1       2022-07-31 H L 1-2 v Slovan Liberec
+    Round 2       2022-08-07 A W 2-0 v Ceske Budejovice
+    Round 3       2022-08-14 H W 2-0 v Sigma Olomouc
+    Round 4       2022-08-20 A W 3-1 v Mlada Boleslav
+    Round 5       2022-08-27 H D 1-1 v Bohemians 1905
+    Round 6       2022-08-30 A D 1-1 v Jablonec
+    Round 7       2022-09-03 H D 0-0 v Zlin
+    Round 8       2022-09-10 A D 2-2 v Teplice
+    Round 9       2022-09-17 H D 1-1 v Banik Ostrava
+    Round 10      2022-10-01 H W 2-1 v Hradec Kralove
+    Round 11      2022-10-08 A W 4-0 v Zbrojovka Brno
+    Round 12      2022-10-15 H W 5-2 v Pardubice
+    Round 13      2022-10-23 A L 0-4 v Slavia Prague
+    Round 15      2022-11-05 A W 1-0 v Viktoria Plzen
+    Round 14      2022-11-09 H W 4-0 v Slovacko
+    Round 16      2022-11-12 H W 1-0 v Ceske Budejovice
+    Round 17      2023-01-28 A D 1-1 v Sigma Olomouc
+    Round 18      2023-02-05 H W 4-1 v Mlada Boleslav
+    Round 19      2023-02-12 A W 6-2 v Bohemians 1905
+    Round 20      2023-02-19 H W 3-0 v Jablonec
+    Round 21      2023-02-25 A W 3-2 v Zlin
+    Round 22      2023-03-04 H W 4-1 v Teplice
+    Round 23      2023-03-11 A W 3-0 v Banik Ostrava
+    Round 24      2023-03-18 A W 2-0 v Hradec Kralove
+    Round 25      2023-04-02 H W 3-1 v Zbrojovka Brno
+    Round 26      2023-04-09 A W 2-0 v Pardubice
+    Round 27      2023-04-15 H D 3-3 v Slavia Prague
+    Round 28      2023-04-22 A D 1-1 v Slovacko
+    Round 29      2023-04-26 H W 2-1 v Viktoria Plzen
+    Round 30      2023-04-30 A W 3-1 v Slovan Liberec
+    Titul R31     2023-05-07 A W 1-0 v Sigma Olomouc
+    Titul R32     2023-05-13 H W 3-2 v Slavia Prague
+    Titul R33     2023-05-20 H W 2-1 v Bohemians 1905
+    Titul R34     2023-05-23 A D 0-0 v Slovacko
+    Titul R35     2023-05-27 H L 0-1 v Viktoria Plzen
+  Teplice          [Zachranu] 35 games  W11 D 9 L15 GF 45 GA 67
+    Round 1       2022-07-30 H D 2-2 v Viktoria Plzen
+    Round 2       2022-08-06 A L 1-5 v Slovan Liberec
+    Round 3       2022-08-13 H L 0-1 v Bohemians 1905
+    Round 4       2022-08-20 A W 2-1 v Banik Ostrava
+    Round 5       2022-08-27 H D 0-0 v Zlin
+    Round 6       2022-08-31 A L 0-6 v Slavia Prague
+    Round 7       2022-09-03 H W 3-2 v Jablonec
+    Round 8       2022-09-10 H D 2-2 v Sparta Prague
+    Round 9       2022-09-17 A D 2-2 v Zbrojovka Brno
+    Round 10      2022-10-02 H W 5-1 v Pardubice
+    Round 11      2022-10-08 A L 1-4 v Hradec Kralove
+    Round 12      2022-10-15 H L 0-2 v Ceske Budejovice
+    Round 13      2022-10-23 A L 1-2 v Slovacko
+    Round 14      2022-10-30 H W 2-1 v Sigma Olomouc
+    Round 15      2022-11-06 A L 0-3 v Mlada Boleslav
+    Round 16      2022-11-12 H W 2-1 v Slovan Liberec
+    Round 17      2023-01-28 A L 0-2 v Bohemians 1905
+    Round 18      2023-02-04 H L 0-5 v Banik Ostrava
+    Round 19      2023-02-11 A L 1-2 v Zlin
+    Round 20      2023-02-18 H D 1-1 v Slavia Prague
+    Round 21      2023-02-26 A L 1-4 v Jablonec
+    Round 22      2023-03-04 A L 1-4 v Sparta Prague
+    Round 23      2023-03-13 H D 1-1 v Zbrojovka Brno
+    Round 24      2023-03-19 A L 1-3 v Pardubice
+    Round 25      2023-04-02 H W 1-0 v Hradec Kralove
+    Round 26      2023-04-09 A W 3-0 v Ceske Budejovice
+    Round 27      2023-04-15 H L 1-3 v Slovacko
+    Round 28      2023-04-22 A W 2-1 v Sigma Olomouc
+    Round 29      2023-04-25 H D 1-1 v Mlada Boleslav
+    Round 30      2023-04-30 A D 1-1 v Viktoria Plzen
+    Zachranu R31  2023-05-06 H W 1-0 v Pardubice
+    Zachranu R32  2023-05-14 H W 2-1 v Zlin
+    Zachranu R33  2023-05-21 A L 1-2 v Banik Ostrava
+    Zachranu R34  2023-05-24 H D 1-1 v Zbrojovka Brno
+    Zachranu R35  2023-05-28 A W 2-0 v Jablonec
+  Zlin             [Zachranu] 37 games  W 8 D14 L15 GF 44 GA 60
+    Round 1       2022-07-30 H D 0-0 v Mlada Boleslav
+    Round 2       2022-08-07 A L 1-4 v Slavia Prague
+    Round 3       2022-08-13 A L 1-3 v Banik Ostrava
+    Round 4       2022-08-22 H D 2-2 v Jablonec
+    Round 5       2022-08-27 A D 0-0 v Teplice
+    Round 6       2022-08-30 H W 2-1 v Pardubice
+    Round 7       2022-09-03 A D 0-0 v Sparta Prague
+    Round 8       2022-09-10 H L 2-3 v Zbrojovka Brno
+    Round 9       2022-09-18 A D 0-0 v Hradec Kralove
+    Round 10      2022-10-02 H L 0-2 v Slovacko
+    Round 11      2022-10-09 A D 2-2 v Ceske Budejovice
+    Round 12      2022-10-16 H W 2-1 v Slovan Liberec
+    Round 13      2022-10-22 A L 1-2 v Sigma Olomouc
+    Round 14      2022-10-29 H L 0-3 v Viktoria Plzen
+    Round 15      2022-11-05 A L 2-3 v Bohemians 1905
+    Round 16      2022-11-13 H L 0-4 v Slavia Prague
+    Round 17      2023-01-29 H D 1-1 v Banik Ostrava
+    Round 18      2023-02-04 A D 2-2 v Jablonec
+    Round 19      2023-02-11 H W 2-1 v Teplice
+    Round 20      2023-02-19 A L 1-2 v Pardubice
+    Round 21      2023-02-25 H L 2-3 v Sparta Prague
+    Round 22      2023-03-04 A D 1-1 v Zbrojovka Brno
+    Round 23      2023-03-12 H D 2-2 v Hradec Kralove
+    Round 24      2023-03-19 A L 0-3 v Slovacko
+    Round 25      2023-04-01 H W 5-1 v Ceske Budejovice
+    Round 26      2023-04-08 A L 1-2 v Slovan Liberec
+    Round 27      2023-04-15 H L 0-1 v Sigma Olomouc
+    Round 28      2023-04-23 A L 0-4 v Viktoria Plzen
+    Round 29      2023-04-26 H W 4-1 v Bohemians 1905
+    Round 30      2023-04-30 A D 1-1 v Mlada Boleslav
+    Zachranu R31  2023-05-06 H D 1-1 v Jablonec
+    Zachranu R32  2023-05-14 A L 1-2 v Teplice
+    Zachranu R33  2023-05-21 A W 2-1 v Pardubice
+    Zachranu R34  2023-05-24 H W 2-1 v Banik Ostrava
+    Zachranu R35  2023-05-28 A D 0-0 v Zbrojovka Brno
+    Playoff leg1  2023-06-01 H W 1-0 v Vyskov
+    Playoff leg2  2023-06-04 A D 0-0 v Vyskov
+
+### 2023-24
+  Bohemians 1905   [Zachranu] 35 games  W 9 D12 L14 GF 34 GA 48
+    Round 1       2023-07-22 A W 1-0 v Pardubice
+    Round 2       2023-07-30 H L 1-2 v Teplice
+    Round 3       2023-08-06 A W 1-0 v Slovan Liberec
+    Round 4       2023-08-13 H L 0-1 v Slovacko
+    Round 5       2023-08-20 A L 0-3 v Ceske Budejovice
+    Round 6       2023-08-27 H W 2-1 v Hradec Kralove
+    Round 7       2023-09-03 A L 0-2 v Viktoria Plzen
+    Round 8       2023-09-16 H D 1-1 v Banik Ostrava
+    Round 9       2023-09-23 H W 3-2 v Sigma Olomouc
+    Round 10      2023-10-01 A L 1-2 v Mlada Boleslav
+    Round 11      2023-10-07 H D 0-0 v Zlin
+    Round 12      2023-10-22 A W 1-0 v Jablonec
+    Round 13      2023-10-29 H L 0-2 v Slavia Prague
+    Round 14      2023-11-05 A L 0-2 v Sparta Prague
+    Round 15      2023-11-11 H W 1-0 v Karvina
+    Round 16      2023-11-25 A D 1-1 v Teplice
+    Round 18      2023-12-09 A L 2-5 v Slovacko
+    Round 17      2023-12-13 H D 0-0 v Slovan Liberec
+    Round 19      2023-12-16 H D 0-0 v Ceske Budejovice
+    Round 20      2024-02-11 A D 2-2 v Hradec Kralove
+    Round 21      2024-02-17 H L 0-2 v Viktoria Plzen
+    Round 22      2024-02-24 A D 1-1 v Banik Ostrava
+    Round 23      2024-03-02 A D 2-2 v Sigma Olomouc
+    Round 24      2024-03-09 H D 0-0 v Mlada Boleslav
+    Round 25      2024-03-16 A D 2-2 v Zlin
+    Round 26      2024-03-30 H W 2-0 v Jablonec
+    Round 27      2024-04-06 A L 1-2 v Slavia Prague
+    Round 28      2024-04-13 H L 1-3 v Sparta Prague
+    Round 29      2024-04-20 A D 1-1 v Karvina
+    Round 30      2024-04-28 H W 2-1 v Pardubice
+    Zachranu R31  2024-05-04 A L 1-2 v Ceske Budejovice
+    Zachranu R32  2024-05-12 H D 1-1 v Jablonec
+    Zachranu R33  2024-05-16 H L 1-3 v Karvina
+    Zachranu R34  2024-05-19 A W 2-1 v Zlin
+    Zachranu R35  2024-05-25 H L 0-1 v Pardubice
+  Ceske Budejovice [Zachranu] 37 games  W 8 D 9 L20 GF 44 GA 72
+    Round 1       2023-07-23 A L 1-4 v Slovacko
+    Round 2       2023-07-30 H L 1-3 v Slavia Prague
+    Round 3       2023-08-05 A L 1-5 v Hradec Kralove
+    Round 4       2023-08-13 H L 2-5 v Viktoria Plzen
+    Round 5       2023-08-20 H W 3-0 v Bohemians 1905
+    Round 6       2023-08-26 A L 0-2 v Banik Ostrava
+    Round 7       2023-09-02 H W 2-1 v Jablonec
+    Round 8       2023-09-16 A L 1-2 v Sigma Olomouc
+    Round 9       2023-09-23 H L 1-2 v Mlada Boleslav
+    Round 10      2023-09-30 A D 1-1 v Zlin
+    Round 11      2023-10-07 H W 1-0 v Karvina
+    Round 12      2023-10-22 A L 0-4 v Sparta Prague
+    Round 13      2023-10-28 H L 0-1 v Pardubice
+    Round 14      2023-11-05 A L 0-1 v Slovan Liberec
+    Round 15      2023-11-11 H L 0-1 v Teplice
+    Round 16      2023-11-25 A L 1-2 v Slavia Prague
+    Round 18      2023-12-10 A L 0-5 v Viktoria Plzen
+    Round 17      2023-12-13 H L 0-2 v Hradec Kralove
+    Round 19      2023-12-16 A D 0-0 v Bohemians 1905
+    Round 20      2024-02-10 H W 3-0 v Banik Ostrava
+    Round 21      2024-02-17 A L 2-5 v Jablonec
+    Round 22      2024-02-25 H W 2-1 v Sigma Olomouc
+    Round 23      2024-03-02 A L 1-3 v Mlada Boleslav
+    Round 24      2024-03-10 H D 2-2 v Zlin
+    Round 25      2024-03-16 A L 1-2 v Karvina
+    Round 26      2024-03-31 H L 0-1 v Sparta Prague
+    Round 27      2024-04-07 A D 1-1 v Pardubice
+    Round 28      2024-04-13 H W 3-2 v Slovan Liberec
+    Round 29      2024-04-20 A D 2-2 v Teplice
+    Round 30      2024-04-28 H D 2-2 v Slovacko
+    Zachranu R31  2024-05-04 H W 2-1 v Bohemians 1905
+    Zachranu R32  2024-05-12 A L 2-3 v Pardubice
+    Zachranu R33  2024-05-16 A D 1-1 v Zlin
+    Zachranu R34  2024-05-19 H D 2-2 v Jablonec
+    Zachranu R35  2024-05-25 A L 0-1 v Karvina
+    Playoff leg1  2024-05-30 H W 2-1 v Taborsko
+    Playoff leg2  2024-06-02 A D 1-1 v Taborsko
+  Hradec Kralove   [Evropu] 35 games  W13 D10 L12 GF 42 GA 43
+    Round 1       2023-07-22 A L 0-2 v Slavia Prague
+    Round 2       2023-07-30 A D 1-1 v Viktoria Plzen
+    Round 3       2023-08-05 H W 5-1 v Ceske Budejovice
+    Round 4       2023-08-12 A L 0-2 v Banik Ostrava
+    Round 5       2023-08-20 H W 2-0 v Zlin
+    Round 6       2023-08-27 A L 1-2 v Bohemians 1905
+    Round 7       2023-09-03 H L 1-3 v Sigma Olomouc
+    Round 8       2023-09-16 A L 1-5 v Mlada Boleslav
+    Round 9       2023-09-24 H W 1-0 v Jablonec
+    Round 10      2023-10-01 A D 1-1 v Pardubice
+    Round 11      2023-10-08 H L 1-3 v Sparta Prague
+    Round 12      2023-10-21 A L 0-1 v Karvina
+    Round 13      2023-10-28 H W 1-0 v Teplice
+    Round 14      2023-11-04 A D 0-0 v Slovacko
+    Round 15      2023-11-11 H D 1-1 v Slovan Liberec
+    Round 16      2023-11-25 H D 1-1 v Viktoria Plzen
+    Round 18      2023-12-10 H L 2-3 v Banik Ostrava
+    Round 17      2023-12-13 A W 2-0 v Ceske Budejovice
+    Round 19      2023-12-16 A L 0-4 v Zlin
+    Round 20      2024-02-11 H D 2-2 v Bohemians 1905
+    Round 21      2024-02-17 A D 0-0 v Sigma Olomouc
+    Round 22      2024-02-24 H D 0-0 v Mlada Boleslav
+    Round 23      2024-03-02 A D 1-1 v Jablonec
+    Round 24      2024-03-09 H W 2-0 v Pardubice
+    Round 25      2024-03-17 A L 1-2 v Sparta Prague
+    Round 26      2024-03-31 H W 2-1 v Karvina
+    Round 27      2024-04-07 A W 1-0 v Teplice
+    Round 28      2024-04-13 H W 1-0 v Slovacko
+    Round 29      2024-04-21 A D 0-0 v Slovan Liberec
+    Round 30      2024-04-28 H L 1-2 v Slavia Prague
+    Evropu-SF L1  2024-05-05 H W 3-1 v Sigma Olomouc
+    Evropu-SF L2  2024-05-12 A W 3-1 v Sigma Olomouc
+    Evropu-F L1   2024-05-19 A W 1-0 v Teplice
+    Evropu-F L2   2024-05-25 H W 2-0 v Teplice
+    Evropu-CLP    2024-05-31 A L 1-3 v Mlada Boleslav
+  Jablonec         [Zachranu] 35 games  W 9 D14 L12 GF 45 GA 50
+    Round 1       2023-07-23 A L 1-3 v Mlada Boleslav
+    Round 2       2023-07-29 A D 0-0 v Pardubice
+    Round 3       2023-08-06 A D 0-0 v Teplice
+    Round 4       2023-08-12 H L 1-5 v Sparta Prague
+    Round 5       2023-08-19 A D 1-1 v Karvina
+    Round 6       2023-08-27 H D 1-1 v Slavia Prague
+    Round 7       2023-09-02 A L 1-2 v Ceske Budejovice
+    Round 8       2023-09-17 H D 1-1 v Slovan Liberec
+    Round 9       2023-09-24 A L 0-1 v Hradec Kralove
+    Round 10      2023-09-30 H W 2-0 v Slovacko
+    Round 11      2023-10-08 A L 2-3 v Viktoria Plzen
+    Round 12      2023-10-22 H L 0-1 v Bohemians 1905
+    Round 13      2023-10-28 A W 1-0 v Banik Ostrava
+    Round 14      2023-11-04 H D 1-1 v Sigma Olomouc
+    Round 15      2023-11-11 A D 1-1 v Zlin
+    Round 16      2023-11-26 H W 2-1 v Pardubice
+    Round 17      2023-12-06 H W 3-2 v Teplice
+    Round 18      2023-12-09 A L 0-3 v Sparta Prague
+    Round 19      2023-12-16 H D 0-0 v Karvina
+    Round 20      2024-02-11 A L 3-4 v Slavia Prague
+    Round 21      2024-02-17 H W 5-2 v Ceske Budejovice
+    Round 22      2024-02-24 A D 3-3 v Slovan Liberec
+    Round 23      2024-03-02 H D 1-1 v Hradec Kralove
+    Round 24      2024-03-09 A W 1-0 v Slovacko
+    Round 25      2024-03-17 H L 1-2 v Viktoria Plzen
+    Round 26      2024-03-30 A L 0-2 v Bohemians 1905
+    Round 27      2024-04-07 H L 2-3 v Banik Ostrava
+    Round 28      2024-04-14 A L 0-1 v Sigma Olomouc
+    Round 29      2024-04-20 H D 0-0 v Zlin
+    Round 30      2024-04-28 H D 1-1 v Mlada Boleslav
+    Zachranu R31  2024-05-04 H W 3-2 v Karvina
+    Zachranu R32  2024-05-12 A D 1-1 v Bohemians 1905
+    Zachranu R33  2024-05-16 H W 3-0 v Pardubice
+    Zachranu R34  2024-05-19 A D 2-2 v Ceske Budejovice
+    Zachranu R35  2024-05-25 H W 1-0 v Zlin
+  Karvina          [Zachranu] 37 games  W10 D 8 L19 GF 40 GA 62
+    Round 1       2023-07-22 H W 4-1 v Zlin
+    Round 2       2023-07-29 A L 1-3 v Sigma Olomouc
+    Round 3       2023-08-05 H L 1-2 v Mlada Boleslav
+    Round 4       2023-08-13 A L 1-2 v Pardubice
+    Round 5       2023-08-19 H D 1-1 v Jablonec
+    Round 6       2023-08-27 A L 1-3 v Sparta Prague
+    Round 7       2023-09-03 A L 1-5 v Slavia Prague
+    Round 8       2023-09-16 H L 0-1 v Teplice
+    Round 9       2023-09-23 A L 0-2 v Slovacko
+    Round 10      2023-09-30 H W 5-2 v Slovan Liberec
+    Round 11      2023-10-07 A L 0-1 v Ceske Budejovice
+    Round 12      2023-10-21 H W 1-0 v Hradec Kralove
+    Round 13      2023-10-29 A W 1-0 v Viktoria Plzen
+    Round 14      2023-11-05 H L 1-3 v Banik Ostrava
+    Round 15      2023-11-11 A L 0-1 v Bohemians 1905
+    Round 16      2023-11-25 H L 0-2 v Sigma Olomouc
+    Round 17      2023-12-13 A D 2-2 v Mlada Boleslav
+    Round 19      2023-12-16 A D 0-0 v Jablonec
+    Round 20      2024-02-10 H L 0-3 v Sparta Prague
+    Round 18      2024-02-14 H L 0-3 v Pardubice
+    Round 21      2024-02-18 H L 0-3 v Slavia Prague
+    Round 22      2024-02-24 A D 2-2 v Teplice
+    Round 23      2024-03-02 H L 1-3 v Slovacko
+    Round 24      2024-03-09 A L 0-1 v Slovan Liberec
+    Round 25      2024-03-16 H W 2-1 v Ceske Budejovice
+    Round 26      2024-03-31 A L 1-2 v Hradec Kralove
+    Round 27      2024-04-06 H D 0-0 v Viktoria Plzen
+    Round 28      2024-04-14 A D 2-2 v Banik Ostrava
+    Round 29      2024-04-20 H D 1-1 v Bohemians 1905
+    Round 30      2024-04-28 A W 1-0 v Zlin
+    Zachranu R31  2024-05-04 A L 2-3 v Jablonec
+    Zachranu R32  2024-05-12 H D 2-2 v Zlin
+    Zachranu R33  2024-05-16 A W 3-1 v Bohemians 1905
+    Zachranu R34  2024-05-19 A L 0-4 v Pardubice
+    Zachranu R35  2024-05-25 H W 1-0 v Ceske Budejovice
+    Playoff leg1  2024-05-30 A W 1-0 v Vyskov
+    Playoff leg2  2024-06-02 H W 1-0 v Vyskov
+  Slovan Liberec   [Evropu] 32 games  W10 D10 L12 GF 47 GA 50
+    Round 1       2023-07-23 H W 3-1 v Banik Ostrava
+    Round 2       2023-07-30 A D 2-2 v Mlada Boleslav
+    Round 3       2023-08-06 H L 0-1 v Bohemians 1905
+    Round 4       2023-08-12 A D 1-1 v Zlin
+    Round 5       2023-08-19 H W 1-0 v Pardubice
+    Round 6       2023-08-27 A L 0-2 v Sigma Olomouc
+    Round 7       2023-09-03 H L 0-2 v Sparta Prague
+    Round 8       2023-09-17 A D 1-1 v Jablonec
+    Round 9       2023-09-23 H D 3-3 v Teplice
+    Round 10      2023-09-30 A L 2-5 v Karvina
+    Round 11      2023-10-08 H L 2-3 v Slavia Prague
+    Round 12      2023-10-21 H W 3-0 v Viktoria Plzen
+    Round 13      2023-10-28 A D 1-1 v Slovacko
+    Round 14      2023-11-05 H W 1-0 v Ceske Budejovice
+    Round 15      2023-11-11 A D 1-1 v Hradec Kralove
+    Round 16      2023-11-25 H W 2-1 v Mlada Boleslav
+    Round 18      2023-12-09 H W 5-3 v Zlin
+    Round 17      2023-12-13 A D 0-0 v Bohemians 1905
+    Round 19      2023-12-16 A L 0-2 v Pardubice
+    Round 20      2024-02-10 H W 2-0 v Sigma Olomouc
+    Round 21      2024-02-18 A L 1-2 v Sparta Prague
+    Round 22      2024-02-24 H D 3-3 v Jablonec
+    Round 23      2024-03-03 A L 0-2 v Teplice
+    Round 24      2024-03-09 H W 1-0 v Karvina
+    Round 25      2024-03-17 A L 0-3 v Slavia Prague
+    Round 26      2024-03-30 A W 3-1 v Viktoria Plzen
+    Round 27      2024-04-06 H W 4-1 v Slovacko
+    Round 28      2024-04-13 A L 2-3 v Ceske Budejovice
+    Round 29      2024-04-21 H D 0-0 v Hradec Kralove
+    Round 30      2024-04-28 A D 2-2 v Banik Ostrava
+    Evropu-SF L1  2024-05-05 A L 0-2 v Teplice
+    Evropu-SF L2  2024-05-12 H L 1-2 v Teplice
+  Mlada Boleslav   [Titul] 36 games  W14 D 8 L14 GF 54 GA 60
+    Round 1       2023-07-23 H W 3-1 v Jablonec
+    Round 2       2023-07-30 H D 2-2 v Slovan Liberec
+    Round 3       2023-08-05 A W 2-1 v Karvina
+    Round 4       2023-08-13 H L 0-1 v Slavia Prague
+    Round 5       2023-08-19 A D 2-2 v Slovacko
+    Round 7       2023-09-02 A L 0-2 v Banik Ostrava
+    Round 8       2023-09-16 H W 5-1 v Hradec Kralove
+    Round 9       2023-09-23 A W 2-1 v Ceske Budejovice
+    Round 10      2023-10-01 H W 2-1 v Bohemians 1905
+    Round 11      2023-10-07 A L 0-4 v Sigma Olomouc
+    Round 12      2023-10-21 A W 9-5 v Zlin
+    Round 13      2023-10-29 H W 3-1 v Sparta Prague
+    Round 14      2023-11-04 A L 0-1 v Teplice
+    Round 15      2023-11-11 H W 1-0 v Pardubice
+    Round 16      2023-11-25 A L 1-2 v Slovan Liberec
+    Round 6       2023-12-06 H L 1-3 v Viktoria Plzen
+    Round 18      2023-12-10 A L 0-2 v Slavia Prague
+    Round 17      2023-12-13 H D 2-2 v Karvina
+    Round 19      2023-12-16 H L 0-1 v Slovacko
+    Round 20      2024-02-10 A D 1-1 v Viktoria Plzen
+    Round 21      2024-02-17 H L 1-3 v Banik Ostrava
+    Round 22      2024-02-24 A D 0-0 v Hradec Kralove
+    Round 23      2024-03-02 H W 3-1 v Ceske Budejovice
+    Round 24      2024-03-09 A D 0-0 v Bohemians 1905
+    Round 25      2024-03-16 H W 2-1 v Sigma Olomouc
+    Round 26      2024-03-31 H W 3-2 v Zlin
+    Round 27      2024-04-07 A D 1-1 v Sparta Prague
+    Round 28      2024-04-13 H L 1-2 v Teplice
+    Round 29      2024-04-21 A W 2-1 v Pardubice
+    Round 30      2024-04-28 A D 1-1 v Jablonec
+    Titul R31     2024-05-05 A L 0-3 v Viktoria Plzen
+    Titul R32     2024-05-11 A W 1-0 v Banik Ostrava
+    Titul R33     2024-05-14 H L 0-1 v Slovacko
+    Titul R34     2024-05-18 H L 0-5 v Sparta Prague
+    Titul R35     2024-05-26 A L 0-4 v Slavia Prague
+    Evropu-CLP    2024-05-31 H W 3-1 v Hradec Kralove
+  Sigma Olomouc    [Evropu] 32 games  W10 D 7 L15 GF 42 GA 51
+    Round 1       2023-07-23 A L 0-2 v Sparta Prague
+    Round 2       2023-07-29 H W 3-1 v Karvina
+    Round 3       2023-08-05 A W 2-0 v Slovacko
+    Round 4       2023-08-13 H W 2-1 v Teplice
+    Round 5       2023-08-20 A L 1-2 v Viktoria Plzen
+    Round 6       2023-08-27 H W 2-0 v Slovan Liberec
+    Round 7       2023-09-03 A W 3-1 v Hradec Kralove
+    Round 8       2023-09-16 H W 2-1 v Ceske Budejovice
+    Round 9       2023-09-23 A L 2-3 v Bohemians 1905
+    Round 10      2023-09-30 H L 0-3 v Banik Ostrava
+    Round 11      2023-10-07 H W 4-0 v Mlada Boleslav
+    Round 12      2023-10-21 A D 1-1 v Pardubice
+    Round 13      2023-10-28 H D 0-0 v Zlin
+    Round 14      2023-11-04 A D 1-1 v Jablonec
+    Round 15      2023-11-12 H L 1-3 v Slavia Prague
+    Round 16      2023-11-25 A W 2-0 v Karvina
+    Round 17      2023-12-02 H D 1-1 v Slovacko
+    Round 19      2023-12-17 H L 1-3 v Viktoria Plzen
+    Round 20      2024-02-10 A L 0-2 v Slovan Liberec
+    Round 21      2024-02-17 H D 0-0 v Hradec Kralove
+    Round 18      2024-02-21 A L 0-2 v Teplice
+    Round 22      2024-02-25 A L 1-2 v Ceske Budejovice
+    Round 23      2024-03-02 H D 2-2 v Bohemians 1905
+    Round 24      2024-03-09 A W 2-1 v Banik Ostrava
+    Round 25      2024-03-16 A L 1-2 v Mlada Boleslav
+    Round 26      2024-03-30 H L 0-2 v Pardubice
+    Round 27      2024-04-06 A L 2-3 v Zlin
+    Round 28      2024-04-14 H W 1-0 v Jablonec
+    Round 29      2024-04-21 A D 2-2 v Slavia Prague
+    Round 30      2024-04-28 H L 1-4 v Sparta Prague
+    Evropu-SF L1  2024-05-05 A L 1-3 v Hradec Kralove
+    Evropu-SF L2  2024-05-12 H L 1-3 v Hradec Kralove
+  Banik Ostrava    [Titul] 35 games  W14 D 7 L14 GF 56 GA 48
+    Round 1       2023-07-23 A L 1-3 v Slovan Liberec
+    Round 2       2023-07-29 H D 0-0 v Slovacko
+    Round 3       2023-08-06 A L 1-3 v Viktoria Plzen
+    Round 4       2023-08-12 H W 2-0 v Hradec Kralove
+    Round 5       2023-08-20 A L 0-1 v Slavia Prague
+    Round 6       2023-08-26 H W 2-0 v Ceske Budejovice
+    Round 7       2023-09-02 H W 2-0 v Mlada Boleslav
+    Round 8       2023-09-16 A D 1-1 v Bohemians 1905
+    Round 9       2023-09-23 H W 5-1 v Zlin
+    Round 10      2023-09-30 A W 3-0 v Sigma Olomouc
+    Round 11      2023-10-07 H D 1-1 v Pardubice
+    Round 12      2023-10-22 A W 1-0 v Teplice
+    Round 13      2023-10-28 H L 0-1 v Jablonec
+    Round 14      2023-11-05 A W 3-1 v Karvina
+    Round 15      2023-11-12 H L 0-1 v Sparta Prague
+    Round 16      2023-11-26 A L 0-2 v Slovacko
+    Round 18      2023-12-10 A W 3-2 v Hradec Kralove
+    Round 19      2023-12-17 H L 2-3 v Slavia Prague
+    Round 20      2024-02-10 A L 0-3 v Ceske Budejovice
+    Round 17      2024-02-13 H L 0-1 v Viktoria Plzen
+    Round 21      2024-02-17 A W 3-1 v Mlada Boleslav
+    Round 22      2024-02-24 H D 1-1 v Bohemians 1905
+    Round 23      2024-03-03 A W 1-0 v Zlin
+    Round 24      2024-03-09 H L 1-2 v Sigma Olomouc
+    Round 25      2024-03-17 A W 1-0 v Pardubice
+    Round 26      2024-03-31 H W 4-1 v Teplice
+    Round 27      2024-04-07 A W 3-2 v Jablonec
+    Round 28      2024-04-14 H D 2-2 v Karvina
+    Round 29      2024-04-20 A L 3-4 v Sparta Prague
+    Round 30      2024-04-28 H D 2-2 v Slovan Liberec
+    Titul R31     2024-05-04 A L 0-5 v Slavia Prague
+    Titul R32     2024-05-11 H L 0-1 v Mlada Boleslav
+    Titul R33     2024-05-14 A L 1-2 v Sparta Prague
+    Titul R34     2024-05-18 A D 1-1 v Viktoria Plzen
+    Titul R35     2024-05-26 H W 6-0 v Slovacko
+  Pardubice        [Zachranu] 35 games  W11 D 7 L17 GF 39 GA 47
+    Round 1       2023-07-22 H L 0-1 v Bohemians 1905
+    Round 2       2023-07-29 H D 0-0 v Jablonec
+    Round 3       2023-08-05 A L 2-5 v Sparta Prague
+    Round 4       2023-08-13 H W 2-1 v Karvina
+    Round 5       2023-08-19 A L 0-1 v Slovan Liberec
+    Round 6       2023-08-26 H L 0-1 v Slovacko
+    Round 7       2023-09-02 A W 1-0 v Teplice
+    Round 8       2023-09-16 H L 0-1 v Slavia Prague
+    Round 9       2023-09-24 A L 2-6 v Viktoria Plzen
+    Round 10      2023-10-01 H D 1-1 v Hradec Kralove
+    Round 11      2023-10-07 A D 1-1 v Banik Ostrava
+    Round 12      2023-10-21 H D 1-1 v Sigma Olomouc
+    Round 13      2023-10-28 A W 1-0 v Ceske Budejovice
+    Round 14      2023-11-04 H L 0-1 v Zlin
+    Round 15      2023-11-11 A L 0-1 v Mlada Boleslav
+    Round 16      2023-11-26 A L 1-2 v Jablonec
+    Round 17      2023-12-03 H L 1-2 v Sparta Prague
+    Round 19      2023-12-16 H W 2-0 v Slovan Liberec
+    Round 20      2024-02-10 A W 2-1 v Slovacko
+    Round 18      2024-02-14 A W 3-0 v Karvina
+    Round 21      2024-02-17 H D 1-1 v Teplice
+    Round 22      2024-02-25 A L 0-3 v Slavia Prague
+    Round 23      2024-03-02 H L 2-3 v Viktoria Plzen
+    Round 24      2024-03-09 A L 0-2 v Hradec Kralove
+    Round 25      2024-03-17 H L 0-1 v Banik Ostrava
+    Round 26      2024-03-30 A W 2-0 v Sigma Olomouc
+    Round 27      2024-04-07 H D 1-1 v Ceske Budejovice
+    Round 28      2024-04-14 A D 1-1 v Zlin
+    Round 29      2024-04-21 H L 1-2 v Mlada Boleslav
+    Round 30      2024-04-28 A L 1-2 v Bohemians 1905
+    Zachranu R31  2024-05-04 H W 2-0 v Zlin
+    Zachranu R32  2024-05-12 H W 3-2 v Ceske Budejovice
+    Zachranu R33  2024-05-16 A L 0-3 v Jablonec
+    Zachranu R34  2024-05-19 H W 4-0 v Karvina
+    Zachranu R35  2024-05-25 A W 1-0 v Bohemians 1905
+  Viktoria Plzen   [Titul] 35 games  W21 D 7 L 7 GF 76 GA 40
+    Round 1       2023-07-22 A L 0-1 v Teplice
+    Round 2       2023-07-30 H D 1-1 v Hradec Kralove
+    Round 3       2023-08-06 H W 3-1 v Banik Ostrava
+    Round 4       2023-08-13 A W 5-2 v Ceske Budejovice
+    Round 5       2023-08-20 H W 2-1 v Sigma Olomouc
+    Round 7       2023-09-03 H W 2-0 v Bohemians 1905
+    Round 8       2023-09-17 A W 7-1 v Zlin
+    Round 9       2023-09-24 H W 6-2 v Pardubice
+    Round 10      2023-09-30 A L 1-2 v Sparta Prague
+    Round 11      2023-10-08 H W 3-2 v Jablonec
+    Round 12      2023-10-21 A L 0-3 v Slovan Liberec
+    Round 13      2023-10-29 H L 0-1 v Karvina
+    Round 14      2023-11-05 A W 2-1 v Slavia Prague
+    Round 15      2023-11-12 H L 1-4 v Slovacko
+    Round 16      2023-11-25 A D 1-1 v Hradec Kralove
+    Round 6       2023-12-06 A W 3-1 v Mlada Boleslav
+    Round 18      2023-12-10 H W 5-0 v Ceske Budejovice
+    Round 19      2023-12-17 A W 3-1 v Sigma Olomouc
+    Round 20      2024-02-10 H D 1-1 v Mlada Boleslav
+    Round 17      2024-02-13 A W 1-0 v Banik Ostrava
+    Round 21      2024-02-17 A W 2-0 v Bohemians 1905
+    Round 22      2024-02-24 H W 3-0 v Zlin
+    Round 23      2024-03-02 A W 3-2 v Pardubice
+    Round 24      2024-03-10 H W 4-0 v Sparta Prague
+    Round 25      2024-03-17 A W 2-1 v Jablonec
+    Round 26      2024-03-30 H L 1-3 v Slovan Liberec
+    Round 27      2024-04-06 A D 0-0 v Karvina
+    Round 28      2024-04-14 H W 1-0 v Slavia Prague
+    Round 29      2024-04-21 A D 1-1 v Slovacko
+    Round 30      2024-04-28 H W 3-0 v Teplice
+    Titul R31     2024-05-05 H W 3-0 v Mlada Boleslav
+    Titul R32     2024-05-11 H W 4-2 v Slovacko
+    Titul R33     2024-05-15 A L 0-3 v Slavia Prague
+    Titul R34     2024-05-18 H D 1-1 v Banik Ostrava
+    Titul R35     2024-05-26 A D 1-1 v Sparta Prague
+  Slavia Prague    [Titul] 35 games  W26 D 7 L 2 GF 76 GA 24
+    Round 1       2023-07-22 H W 2-0 v Hradec Kralove
+    Round 2       2023-07-30 A W 3-1 v Ceske Budejovice
+    Round 3       2023-08-06 H W 2-1 v Zlin
+    Round 4       2023-08-13 A W 1-0 v Mlada Boleslav
+    Round 5       2023-08-20 H W 1-0 v Banik Ostrava
+    Round 6       2023-08-27 A D 1-1 v Jablonec
+    Round 7       2023-09-03 H W 5-1 v Karvina
+    Round 8       2023-09-16 A W 1-0 v Pardubice
+    Round 9       2023-09-24 H D 1-1 v Sparta Prague
+    Round 10      2023-10-01 A D 0-0 v Teplice
+    Round 11      2023-10-08 A W 3-2 v Slovan Liberec
+    Round 12      2023-10-21 H W 2-0 v Slovacko
+    Round 13      2023-10-29 A W 2-0 v Bohemians 1905
+    Round 14      2023-11-05 H L 1-2 v Viktoria Plzen
+    Round 15      2023-11-12 A W 3-1 v Sigma Olomouc
+    Round 16      2023-11-25 H W 2-1 v Ceske Budejovice
+    Round 18      2023-12-10 H W 2-0 v Mlada Boleslav
+    Round 19      2023-12-17 A W 3-2 v Banik Ostrava
+    Round 20      2024-02-11 H W 4-3 v Jablonec
+    Round 17      2024-02-14 A D 1-1 v Zlin
+    Round 21      2024-02-18 A W 3-0 v Karvina
+    Round 22      2024-02-25 H W 3-0 v Pardubice
+    Round 23      2024-03-03 A D 0-0 v Sparta Prague
+    Round 24      2024-03-10 H W 4-0 v Teplice
+    Round 25      2024-03-17 H W 3-0 v Slovan Liberec
+    Round 26      2024-03-30 A W 3-1 v Slovacko
+    Round 27      2024-04-06 H W 2-1 v Bohemians 1905
+    Round 28      2024-04-14 A L 0-1 v Viktoria Plzen
+    Round 29      2024-04-21 H D 2-2 v Sigma Olomouc
+    Round 30      2024-04-28 A W 2-1 v Hradec Kralove
+    Titul R31     2024-05-04 H W 5-0 v Banik Ostrava
+    Titul R32     2024-05-11 A D 0-0 v Sparta Prague
+    Titul R33     2024-05-15 H W 3-0 v Viktoria Plzen
+    Titul R34     2024-05-18 A W 2-1 v Slovacko
+    Titul R35     2024-05-26 H W 4-0 v Mlada Boleslav
+  Slovacko         [Titul] 35 games  W12 D 8 L15 GF 45 GA 56
+    Round 1       2023-07-23 H W 4-1 v Ceske Budejovice
+    Round 2       2023-07-29 A D 0-0 v Banik Ostrava
+    Round 3       2023-08-05 H L 0-2 v Sigma Olomouc
+    Round 4       2023-08-13 A W 1-0 v Bohemians 1905
+    Round 5       2023-08-19 H D 2-2 v Mlada Boleslav
+    Round 6       2023-08-26 A W 1-0 v Pardubice
+    Round 7       2023-09-02 H W 1-0 v Zlin
+    Round 8       2023-09-17 A L 0-5 v Sparta Prague
+    Round 9       2023-09-23 H W 2-0 v Karvina
+    Round 10      2023-09-30 A L 0-2 v Jablonec
+    Round 11      2023-10-07 H W 2-0 v Teplice
+    Round 12      2023-10-21 A L 0-2 v Slavia Prague
+    Round 13      2023-10-28 H D 1-1 v Slovan Liberec
+    Round 14      2023-11-04 H D 0-0 v Hradec Kralove
+    Round 15      2023-11-12 A W 4-1 v Viktoria Plzen
+    Round 16      2023-11-26 H W 2-0 v Banik Ostrava
+    Round 17      2023-12-02 A D 1-1 v Sigma Olomouc
+    Round 18      2023-12-09 H W 5-2 v Bohemians 1905
+    Round 19      2023-12-16 A W 1-0 v Mlada Boleslav
+    Round 20      2024-02-10 H L 1-2 v Pardubice
+    Round 21      2024-02-18 A L 1-2 v Zlin
+    Round 22      2024-02-25 H L 1-3 v Sparta Prague
+    Round 23      2024-03-02 A W 3-1 v Karvina
+    Round 24      2024-03-09 H L 0-1 v Jablonec
+    Round 25      2024-03-17 A D 1-1 v Teplice
+    Round 26      2024-03-30 H L 1-3 v Slavia Prague
+    Round 27      2024-04-06 A L 1-4 v Slovan Liberec
+    Round 28      2024-04-13 A L 0-1 v Hradec Kralove
+    Round 29      2024-04-21 H D 1-1 v Viktoria Plzen
+    Round 30      2024-04-28 A D 2-2 v Ceske Budejovice
+    Titul R31     2024-05-05 H L 2-4 v Sparta Prague
+    Titul R32     2024-05-11 A L 2-4 v Viktoria Plzen
+    Titul R33     2024-05-14 A W 1-0 v Mlada Boleslav
+    Titul R34     2024-05-18 H L 1-2 v Slavia Prague
+    Titul R35     2024-05-26 A L 0-6 v Banik Ostrava
+  Sparta Prague    [Titul] 35 games  W27 D 6 L 2 GF 82 GA 30
+    Round 1       2023-07-23 H W 2-0 v Sigma Olomouc
+    Round 2       2023-07-29 A W 1-0 v Zlin
+    Round 3       2023-08-05 H W 5-2 v Pardubice
+    Round 4       2023-08-12 A W 5-1 v Jablonec
+    Round 5       2023-08-19 A D 1-1 v Teplice
+    Round 6       2023-08-27 H W 3-1 v Karvina
+    Round 7       2023-09-03 A W 2-0 v Slovan Liberec
+    Round 8       2023-09-17 H W 5-0 v Slovacko
+    Round 9       2023-09-24 A D 1-1 v Slavia Prague
+    Round 10      2023-09-30 H W 2-1 v Viktoria Plzen
+    Round 11      2023-10-08 A W 3-1 v Hradec Kralove
+    Round 12      2023-10-22 H W 4-0 v Ceske Budejovice
+    Round 13      2023-10-29 A L 1-3 v Mlada Boleslav
+    Round 14      2023-11-05 H W 2-0 v Bohemians 1905
+    Round 15      2023-11-12 A W 1-0 v Banik Ostrava
+    Round 16      2023-11-26 H W 2-0 v Zlin
+    Round 17      2023-12-03 A W 2-1 v Pardubice
+    Round 18      2023-12-09 H W 3-0 v Jablonec
+    Round 19      2023-12-17 H W 2-1 v Teplice
+    Round 20      2024-02-10 A W 3-0 v Karvina
+    Round 21      2024-02-18 H W 2-1 v Slovan Liberec
+    Round 22      2024-02-25 A W 3-1 v Slovacko
+    Round 23      2024-03-03 H D 0-0 v Slavia Prague
+    Round 24      2024-03-10 A L 0-4 v Viktoria Plzen
+    Round 25      2024-03-17 H W 2-1 v Hradec Kralove
+    Round 26      2024-03-31 A W 1-0 v Ceske Budejovice
+    Round 27      2024-04-07 H D 1-1 v Mlada Boleslav
+    Round 28      2024-04-13 A W 3-1 v Bohemians 1905
+    Round 29      2024-04-20 H W 4-3 v Banik Ostrava
+    Round 30      2024-04-28 A W 4-1 v Sigma Olomouc
+    Titul R31     2024-05-05 A W 4-2 v Slovacko
+    Titul R32     2024-05-11 H D 0-0 v Slavia Prague
+    Titul R33     2024-05-14 H W 2-1 v Banik Ostrava
+    Titul R34     2024-05-18 A W 5-0 v Mlada Boleslav
+    Titul R35     2024-05-26 H D 1-1 v Viktoria Plzen
+  Teplice          [Evropu] 34 games  W11 D 9 L14 GF 35 GA 44
+    Round 1       2023-07-22 H W 1-0 v Viktoria Plzen
+    Round 2       2023-07-30 A W 2-1 v Bohemians 1905
+    Round 3       2023-08-06 H D 0-0 v Jablonec
+    Round 4       2023-08-13 A L 1-2 v Sigma Olomouc
+    Round 5       2023-08-19 H D 1-1 v Sparta Prague
+    Round 6       2023-08-26 A L 1-2 v Zlin
+    Round 7       2023-09-02 H L 0-1 v Pardubice
+    Round 8       2023-09-16 A W 1-0 v Karvina
+    Round 9       2023-09-23 A D 3-3 v Slovan Liberec
+    Round 10      2023-10-01 H D 0-0 v Slavia Prague
+    Round 11      2023-10-07 A L 0-2 v Slovacko
+    Round 12      2023-10-22 H L 0-1 v Banik Ostrava
+    Round 13      2023-10-28 A L 0-1 v Hradec Kralove
+    Round 14      2023-11-04 H W 1-0 v Mlada Boleslav
+    Round 15      2023-11-11 A W 1-0 v Ceske Budejovice
+    Round 16      2023-11-25 H D 1-1 v Bohemians 1905
+    Round 17      2023-12-06 A L 2-3 v Jablonec
+    Round 19      2023-12-17 A L 1-2 v Sparta Prague
+    Round 20      2024-02-11 H W 2-1 v Zlin
+    Round 21      2024-02-17 A D 1-1 v Pardubice
+    Round 18      2024-02-21 H W 2-0 v Sigma Olomouc
+    Round 22      2024-02-24 H D 2-2 v Karvina
+    Round 23      2024-03-03 H W 2-0 v Slovan Liberec
+    Round 24      2024-03-10 A L 0-4 v Slavia Prague
+    Round 25      2024-03-17 H D 1-1 v Slovacko
+    Round 26      2024-03-31 A L 1-4 v Banik Ostrava
+    Round 27      2024-04-07 H L 0-1 v Hradec Kralove
+    Round 28      2024-04-13 A W 2-1 v Mlada Boleslav
+    Round 29      2024-04-20 H D 2-2 v Ceske Budejovice
+    Round 30      2024-04-28 A L 0-3 v Viktoria Plzen
+    Evropu-SF L1  2024-05-05 H W 2-0 v Slovan Liberec
+    Evropu-SF L2  2024-05-12 A W 2-1 v Slovan Liberec
+    Evropu-F L1   2024-05-19 H L 0-1 v Hradec Kralove
+    Evropu-F L2   2024-05-25 A L 0-2 v Hradec Kralove
+  Zlin             [Zachranu] 35 games  W 5 D12 L18 GF 40 GA 69
+    Round 1       2023-07-22 A L 1-4 v Karvina
+    Round 2       2023-07-29 H L 0-1 v Sparta Prague
+    Round 3       2023-08-06 A L 1-2 v Slavia Prague
+    Round 4       2023-08-12 H D 1-1 v Slovan Liberec
+    Round 5       2023-08-20 A L 0-2 v Hradec Kralove
+    Round 6       2023-08-26 H W 2-1 v Teplice
+    Round 7       2023-09-02 A L 0-1 v Slovacko
+    Round 8       2023-09-17 H L 1-7 v Viktoria Plzen
+    Round 9       2023-09-23 A L 1-5 v Banik Ostrava
+    Round 10      2023-09-30 H D 1-1 v Ceske Budejovice
+    Round 11      2023-10-07 A D 0-0 v Bohemians 1905
+    Round 12      2023-10-21 H L 5-9 v Mlada Boleslav
+    Round 13      2023-10-28 A D 0-0 v Sigma Olomouc
+    Round 14      2023-11-04 A W 1-0 v Pardubice
+    Round 15      2023-11-11 H D 1-1 v Jablonec
+    Round 16      2023-11-26 A L 0-2 v Sparta Prague
+    Round 18      2023-12-09 A L 3-5 v Slovan Liberec
+    Round 19      2023-12-16 H W 4-0 v Hradec Kralove
+    Round 20      2024-02-11 A L 1-2 v Teplice
+    Round 17      2024-02-14 H D 1-1 v Slavia Prague
+    Round 21      2024-02-18 H W 2-1 v Slovacko
+    Round 22      2024-02-24 A L 0-3 v Viktoria Plzen
+    Round 23      2024-03-03 H L 0-1 v Banik Ostrava
+    Round 24      2024-03-10 A D 2-2 v Ceske Budejovice
+    Round 25      2024-03-16 H D 2-2 v Bohemians 1905
+    Round 26      2024-03-31 A L 2-3 v Mlada Boleslav
+    Round 27      2024-04-06 H W 3-2 v Sigma Olomouc
+    Round 28      2024-04-14 H D 1-1 v Pardubice
+    Round 29      2024-04-20 A D 0-0 v Jablonec
+    Round 30      2024-04-28 H L 0-1 v Karvina
+    Zachranu R31  2024-05-04 A L 0-2 v Pardubice
+    Zachranu R32  2024-05-12 A D 2-2 v Karvina
+    Zachranu R33  2024-05-16 H D 1-1 v Ceske Budejovice
+    Zachranu R34  2024-05-19 H L 1-2 v Bohemians 1905
+    Zachranu R35  2024-05-25 A L 0-1 v Jablonec
+
+### 2024-25
+  Bohemians 1905   [Evropu] 34 games  W10 D10 L14 GF 37 GA 46
+    Round 1       2024-07-20 H W 2-1 v Banik Ostrava
+    Round 2       2024-07-27 A L 0-1 v Dukla Prague
+    Round 3       2024-08-03 A D 0-0 v Slovacko
+    Round 4       2024-08-10 H L 1-2 v Sparta Prague
+    Round 5       2024-08-17 A W 2-1 v Karvina
+    Round 6       2024-08-24 H L 1-2 v Jablonec
+    Round 7       2024-08-31 A D 0-0 v Ceske Budejovice
+    Round 8       2024-09-22 A D 2-2 v Slovan Liberec
+    Round 9       2024-09-29 H L 0-4 v Slavia Prague
+    Round 10      2024-10-06 A W 3-1 v Sigma Olomouc
+    Round 11      2024-10-20 H D 2-2 v Mlada Boleslav
+    Round 12      2024-10-27 A W 2-1 v Teplice
+    Round 13      2024-11-03 H D 0-0 v Pardubice
+    Round 14      2024-11-10 A L 0-2 v Viktoria Plzen
+    Round 15      2024-11-24 H W 3-1 v Dukla Prague
+    Round 16      2024-11-30 H D 3-3 v Slovacko
+    Round 17      2024-12-04 H L 0-3 v Hradec Kralove
+    Round 18      2024-12-07 A L 0-1 v Sparta Prague
+    Round 19      2024-12-14 H D 3-3 v Karvina
+    Round 20      2025-02-02 A W 1-0 v Jablonec
+    Round 21      2025-02-09 H W 1-0 v Ceske Budejovice
+    Round 22      2025-02-16 A D 2-2 v Hradec Kralove
+    Round 23      2025-02-23 H D 0-0 v Slovan Liberec
+    Round 24      2025-03-02 A L 0-2 v Slavia Prague
+    Round 25      2025-03-09 H L 0-1 v Sigma Olomouc
+    Round 26      2025-03-15 A W 2-1 v Mlada Boleslav
+    Round 27      2025-03-29 H D 1-1 v Teplice
+    Round 28      2025-04-05 A L 0-2 v Pardubice
+    Round 29      2025-04-13 H L 1-2 v Viktoria Plzen
+    Round 30      2025-04-19 A L 0-1 v Banik Ostrava
+    Evropu-SF L1  2025-05-04 H W 4-1 v Slovan Liberec
+    Evropu-SF L2  2025-05-11 A L 0-1 v Slovan Liberec
+    Evropu-F L1   2025-05-18 H W 1-0 v Hradec Kralove
+    Evropu-F L2   2025-05-25 A L 0-2 v Hradec Kralove
+  Ceske Budejovice [Zachranu] 35 games  W 0 D 6 L29 GF 16 GA 86
+    Round 1       2024-07-20 H L 0-2 v Sigma Olomouc
+    Round 2       2024-07-27 A L 0-4 v Slavia Prague
+    Round 3       2024-08-04 H L 1-3 v Pardubice
+    Round 4       2024-08-11 A L 0-4 v Mlada Boleslav
+    Round 5       2024-08-18 H L 0-3 v Viktoria Plzen
+    Round 6       2024-08-25 A L 0-3 v Dukla Prague
+    Round 7       2024-08-31 H D 0-0 v Bohemians 1905
+    Round 8       2024-09-22 H L 0-2 v Sparta Prague
+    Round 9       2024-09-29 A L 1-2 v Banik Ostrava
+    Round 10      2024-10-05 H L 0-2 v Slovacko
+    Round 11      2024-10-20 A L 1-4 v Karvina
+    Round 12      2024-10-26 H L 0-2 v Hradec Kralove
+    Round 13      2024-11-03 H D 0-0 v Slovan Liberec
+    Round 14      2024-11-10 A L 2-5 v Teplice
+    Round 15      2024-11-24 H L 0-4 v Slavia Prague
+    Round 16      2024-12-01 A D 0-0 v Pardubice
+    Round 17      2024-12-04 A L 0-5 v Jablonec
+    Round 18      2024-12-08 H L 0-4 v Mlada Boleslav
+    Round 19      2024-12-15 A L 2-7 v Viktoria Plzen
+    Round 20      2025-02-01 H D 0-0 v Dukla Prague
+    Round 21      2025-02-09 A L 0-1 v Bohemians 1905
+    Round 22      2025-02-15 H L 2-3 v Jablonec
+    Round 23      2025-02-22 A L 1-2 v Sparta Prague
+    Round 24      2025-03-01 H L 0-4 v Banik Ostrava
+    Round 25      2025-03-08 A L 1-2 v Slovacko
+    Round 26      2025-03-16 H L 2-3 v Karvina
+    Round 27      2025-03-30 A L 0-1 v Hradec Kralove
+    Round 28      2025-04-05 A L 0-2 v Slovan Liberec
+    Round 29      2025-04-13 H D 1-1 v Teplice
+    Round 30      2025-04-19 A L 0-3 v Sigma Olomouc
+    Zachranu R31  2025-04-26 H L 1-2 v Mlada Boleslav
+    Zachranu R32  2025-05-04 A D 0-0 v Slovacko
+    Zachranu R33  2025-05-10 A L 0-1 v Pardubice
+    Zachranu R34  2025-05-17 H L 0-3 v Teplice
+    Zachranu R35  2025-05-25 A L 1-2 v Dukla Prague
+  Dukla Prague     [Zachranu] 37 games  W 8 D12 L17 GF 35 GA 56
+    Round 1       2024-07-20 H L 1-3 v Viktoria Plzen
+    Round 2       2024-07-27 H W 1-0 v Bohemians 1905
+    Round 3       2024-08-02 A L 0-2 v Sparta Prague
+    Round 4       2024-08-10 H L 0-2 v Jablonec
+    Round 5       2024-08-17 A L 0-1 v Hradec Kralove
+    Round 6       2024-08-25 H W 3-0 v Ceske Budejovice
+    Round 7       2024-09-01 A D 0-0 v Karvina
+    Round 8       2024-09-22 A L 1-2 v Sigma Olomouc
+    Round 9       2024-09-28 H L 1-4 v Slovan Liberec
+    Round 10      2024-10-05 A D 1-1 v Teplice
+    Round 11      2024-10-19 H W 2-1 v Pardubice
+    Round 12      2024-10-27 A L 0-3 v Slavia Prague
+    Round 13      2024-11-02 H L 0-1 v Mlada Boleslav
+    Round 14      2024-11-09 A L 0-6 v Banik Ostrava
+    Round 15      2024-11-24 A L 1-3 v Bohemians 1905
+    Round 16      2024-11-30 H D 1-1 v Sparta Prague
+    Round 17      2024-12-04 H L 1-2 v Slovacko
+    Round 18      2024-12-07 A L 1-2 v Jablonec
+    Round 19      2024-12-14 H L 1-2 v Hradec Kralove
+    Round 20      2025-02-01 A D 0-0 v Ceske Budejovice
+    Round 22      2025-02-15 A D 0-0 v Slovacko
+    Round 23      2025-02-22 H L 1-3 v Sigma Olomouc
+    Round 24      2025-03-02 A D 1-1 v Slovan Liberec
+    Round 25      2025-03-08 H D 1-1 v Teplice
+    Round 21      2025-03-12 H D 0-0 v Karvina
+    Round 26      2025-03-15 A W 1-0 v Pardubice
+    Round 27      2025-03-29 H D 0-0 v Slavia Prague
+    Round 28      2025-04-06 A W 1-0 v Mlada Boleslav
+    Round 29      2025-04-12 H L 1-2 v Banik Ostrava
+    Round 30      2025-04-19 A L 2-4 v Viktoria Plzen
+    Zachranu R31  2025-04-27 A D 2-2 v Teplice
+    Zachranu R32  2025-05-03 H W 2-0 v Pardubice
+    Zachranu R33  2025-05-11 A W 3-2 v Mlada Boleslav
+    Zachranu R34  2025-05-17 A L 2-3 v Slovacko
+    Zachranu R35  2025-05-25 H W 2-1 v Ceske Budejovice
+    Playoff leg1  2025-05-28 A D 0-0 v Vyskov
+    Playoff leg2  2025-06-01 H D 1-1 v Vyskov
+  Hradec Kralove   [Evropu] 34 games  W14 D 7 L13 GF 40 GA 32
+    Round 1       2024-07-21 H W 1-0 v Teplice
+    Round 2       2024-07-28 A L 0-1 v Viktoria Plzen
+    Round 3       2024-08-04 H W 2-1 v Mlada Boleslav
+    Round 4       2024-08-11 A L 0-1 v Banik Ostrava
+    Round 5       2024-08-17 H W 1-0 v Dukla Prague
+    Round 6       2024-08-24 A L 1-2 v Pardubice
+    Round 7       2024-08-31 H L 0-2 v Sparta Prague
+    Round 8       2024-09-21 H W 3-0 v Slovacko
+    Round 9       2024-09-28 A L 0-2 v Jablonec
+    Round 10      2024-10-05 A D 0-0 v Karvina
+    Round 11      2024-10-19 H D 1-1 v Sigma Olomouc
+    Round 12      2024-10-26 A W 2-0 v Ceske Budejovice
+    Round 13      2024-11-03 H D 1-1 v Slavia Prague
+    Round 14      2024-11-09 A D 0-0 v Slovan Liberec
+    Round 15      2024-11-23 H L 0-1 v Viktoria Plzen
+    Round 16      2024-12-01 A L 0-3 v Mlada Boleslav
+    Round 17      2024-12-04 A W 3-0 v Bohemians 1905
+    Round 18      2024-12-08 H L 0-1 v Banik Ostrava
+    Round 19      2024-12-14 A W 2-1 v Dukla Prague
+    Round 20      2025-02-01 H W 3-0 v Pardubice
+    Round 21      2025-02-09 A L 0-3 v Sparta Prague
+    Round 22      2025-02-16 H D 2-2 v Bohemians 1905
+    Round 24      2025-03-01 H D 1-1 v Jablonec
+    Round 25      2025-03-09 H D 1-1 v Karvina
+    Round 26      2025-03-16 A W 2-1 v Sigma Olomouc
+    Round 27      2025-03-30 H W 1-0 v Ceske Budejovice
+    Round 28      2025-04-05 A L 1-2 v Slavia Prague
+    Round 23      2025-04-09 A W 5-1 v Slovacko
+    Round 29      2025-04-13 H L 0-2 v Slovan Liberec
+    Round 30      2025-04-19 A L 0-1 v Teplice
+    Evropu-SF L1  2025-05-03 H W 1-0 v Karvina
+    Evropu-SF L2  2025-05-10 A W 4-0 v Karvina
+    Evropu-F L1   2025-05-18 A L 0-1 v Bohemians 1905
+    Evropu-F L2   2025-05-25 H W 2-0 v Bohemians 1905
+  Jablonec         [Titul] 35 games  W19 D 6 L10 GF 60 GA 33
+    Round 1       2024-07-20 H W 2-0 v Mlada Boleslav
+    Round 2       2024-07-28 A L 0-1 v Banik Ostrava
+    Round 3       2024-08-03 H D 0-0 v Viktoria Plzen
+    Round 4       2024-08-10 A W 2-0 v Dukla Prague
+    Round 5       2024-08-17 H L 1-2 v Sparta Prague
+    Round 6       2024-08-24 A W 2-1 v Bohemians 1905
+    Round 7       2024-08-31 A D 0-0 v Slovacko
+    Round 8       2024-09-21 A L 0-1 v Karvina
+    Round 9       2024-09-28 H W 2-0 v Hradec Kralove
+    Round 10      2024-10-05 A W 5-0 v Slovan Liberec
+    Round 11      2024-10-20 H L 1-2 v Slavia Prague
+    Round 12      2024-10-26 A D 0-0 v Sigma Olomouc
+    Round 13      2024-11-02 H W 3-0 v Teplice
+    Round 14      2024-11-09 A L 0-2 v Pardubice
+    Round 15      2024-11-23 H W 3-1 v Banik Ostrava
+    Round 16      2024-12-01 A L 2-3 v Viktoria Plzen
+    Round 17      2024-12-04 H W 5-0 v Ceske Budejovice
+    Round 18      2024-12-07 H W 2-1 v Dukla Prague
+    Round 19      2024-12-15 A L 1-2 v Sparta Prague
+    Round 20      2025-02-02 H L 0-1 v Bohemians 1905
+    Round 21      2025-02-09 H W 4-2 v Slovacko
+    Round 22      2025-02-15 A W 3-2 v Ceske Budejovice
+    Round 23      2025-02-23 H W 5-0 v Karvina
+    Round 24      2025-03-01 A D 1-1 v Hradec Kralove
+    Round 25      2025-03-08 H D 0-0 v Slovan Liberec
+    Round 26      2025-03-16 A L 0-3 v Slavia Prague
+    Round 27      2025-03-29 H D 0-0 v Sigma Olomouc
+    Round 28      2025-04-06 A W 1-0 v Teplice
+    Round 29      2025-04-13 H W 1-0 v Pardubice
+    Round 30      2025-04-19 A W 1-0 v Mlada Boleslav
+    Titul R31     2025-04-27 A W 2-1 v Banik Ostrava
+    Titul R32     2025-05-03 A W 3-1 v Sparta Prague
+    Titul R33     2025-05-10 H W 4-0 v Sigma Olomouc
+    Titul R34     2025-05-18 H W 3-2 v Slavia Prague
+    Titul R35     2025-05-24 A L 1-4 v Viktoria Plzen
+  Karvina          [Evropu] 32 games  W11 D 8 L13 GF 40 GA 57
+    Round 1       2024-07-21 H L 1-3 v Slovan Liberec
+    Round 2       2024-07-27 A W 1-0 v Pardubice
+    Round 4       2024-08-11 A L 0-5 v Viktoria Plzen
+    Round 5       2024-08-17 H L 1-2 v Bohemians 1905
+    Round 6       2024-08-24 A W 3-1 v Teplice
+    Round 3       2024-08-28 H D 0-0 v Banik Ostrava
+    Round 7       2024-09-01 H D 0-0 v Dukla Prague
+    Round 8       2024-09-21 H W 1-0 v Jablonec
+    Round 9       2024-09-28 A L 1-2 v Slovacko
+    Round 10      2024-10-05 H D 0-0 v Hradec Kralove
+    Round 11      2024-10-20 H W 4-1 v Ceske Budejovice
+    Round 12      2024-10-27 A D 1-1 v Mlada Boleslav
+    Round 13      2024-11-02 H W 2-1 v Sigma Olomouc
+    Round 14      2024-11-10 A L 1-5 v Slavia Prague
+    Round 15      2024-11-24 H W 1-0 v Pardubice
+    Round 16      2024-11-30 A L 1-2 v Banik Ostrava
+    Round 17      2024-12-03 A L 1-4 v Sparta Prague
+    Round 18      2024-12-08 H L 1-2 v Viktoria Plzen
+    Round 19      2024-12-14 A D 3-3 v Bohemians 1905
+    Round 20      2025-02-01 H D 1-1 v Teplice
+    Round 22      2025-02-15 H L 2-3 v Sparta Prague
+    Round 23      2025-02-23 A L 0-5 v Jablonec
+    Round 24      2025-03-02 H W 2-0 v Slovacko
+    Round 25      2025-03-09 A D 1-1 v Hradec Kralove
+    Round 21      2025-03-12 A D 0-0 v Dukla Prague
+    Round 26      2025-03-16 A W 3-2 v Ceske Budejovice
+    Round 27      2025-03-30 H W 3-1 v Mlada Boleslav
+    Round 28      2025-04-05 A W 2-1 v Sigma Olomouc
+    Round 29      2025-04-12 H L 0-4 v Slavia Prague
+    Round 30      2025-04-19 A W 3-2 v Slovan Liberec
+    Evropu-SF L1  2025-05-03 A L 0-1 v Hradec Kralove
+    Evropu-SF L2  2025-05-10 H L 0-4 v Hradec Kralove
+  Slovan Liberec   [Evropu] 32 games  W12 D 9 L11 GF 47 GA 35
+    Round 1       2024-07-21 A W 3-1 v Karvina
+    Round 2       2024-07-28 H D 1-1 v Sigma Olomouc
+    Round 3       2024-08-02 H L 0-1 v Slavia Prague
+    Round 4       2024-08-10 A L 1-2 v Teplice
+    Round 5       2024-08-18 H W 3-0 v Pardubice
+    Round 6       2024-08-25 A L 0-2 v Banik Ostrava
+    Round 7       2024-09-01 H D 1-1 v Viktoria Plzen
+    Round 8       2024-09-22 H D 2-2 v Bohemians 1905
+    Round 9       2024-09-28 A W 4-1 v Dukla Prague
+    Round 10      2024-10-05 H L 0-5 v Jablonec
+    Round 11      2024-10-19 A L 1-2 v Sparta Prague
+    Round 12      2024-10-26 H W 4-0 v Slovacko
+    Round 13      2024-11-03 A D 0-0 v Ceske Budejovice
+    Round 14      2024-11-09 H D 0-0 v Hradec Kralove
+    Round 15      2024-11-24 A W 4-1 v Sigma Olomouc
+    Round 16      2024-12-01 A L 0-1 v Slavia Prague
+    Round 17      2024-12-05 A L 0-1 v Mlada Boleslav
+    Round 18      2024-12-08 H W 3-0 v Teplice
+    Round 19      2024-12-14 A D 1-1 v Pardubice
+    Round 20      2025-02-01 H L 0-1 v Banik Ostrava
+    Round 21      2025-02-08 A L 2-3 v Viktoria Plzen
+    Round 22      2025-02-16 H W 3-1 v Mlada Boleslav
+    Round 23      2025-02-23 A D 0-0 v Bohemians 1905
+    Round 24      2025-03-02 H D 1-1 v Dukla Prague
+    Round 25      2025-03-08 A D 0-0 v Jablonec
+    Round 26      2025-03-15 H W 1-0 v Sparta Prague
+    Round 27      2025-03-30 A W 4-0 v Slovacko
+    Round 28      2025-04-05 H W 2-0 v Ceske Budejovice
+    Round 29      2025-04-13 A W 2-0 v Hradec Kralove
+    Round 30      2025-04-19 H L 2-3 v Karvina
+    Evropu-SF L1  2025-05-04 A L 1-4 v Bohemians 1905
+    Evropu-SF L2  2025-05-11 H W 1-0 v Bohemians 1905
+  Mlada Boleslav   [Zachranu] 35 games  W11 D 8 L16 GF 48 GA 48
+    Round 1       2024-07-20 A L 0-2 v Jablonec
+    Round 2       2024-07-28 H W 3-0 v Slovacko
+    Round 3       2024-08-04 A L 1-2 v Hradec Kralove
+    Round 4       2024-08-11 H W 4-0 v Ceske Budejovice
+    Round 5       2024-08-18 A L 2-3 v Sigma Olomouc
+    Round 7       2024-09-01 A W 2-1 v Teplice
+    Round 6       2024-09-17 H L 0-2 v Slavia Prague
+    Round 8       2024-09-22 H D 2-2 v Pardubice
+    Round 9       2024-09-29 A D 1-1 v Viktoria Plzen
+    Round 10      2024-10-06 H D 0-0 v Banik Ostrava
+    Round 11      2024-10-20 A D 2-2 v Bohemians 1905
+    Round 12      2024-10-27 H D 1-1 v Karvina
+    Round 13      2024-11-02 A W 1-0 v Dukla Prague
+    Round 14      2024-11-10 H D 2-2 v Sparta Prague
+    Round 15      2024-11-23 A D 1-1 v Slovacko
+    Round 16      2024-12-01 H W 3-0 v Hradec Kralove
+    Round 17      2024-12-05 H W 1-0 v Slovan Liberec
+    Round 18      2024-12-08 A W 4-0 v Ceske Budejovice
+    Round 19      2024-12-15 H L 1-3 v Sigma Olomouc
+    Round 20      2025-02-02 A L 0-1 v Slavia Prague
+    Round 21      2025-02-08 H W 2-1 v Teplice
+    Round 22      2025-02-16 A L 1-3 v Slovan Liberec
+    Round 23      2025-02-22 A W 3-0 v Pardubice
+    Round 24      2025-03-02 H L 0-2 v Viktoria Plzen
+    Round 25      2025-03-09 A L 1-2 v Banik Ostrava
+    Round 26      2025-03-15 H L 1-2 v Bohemians 1905
+    Round 27      2025-03-30 A L 1-3 v Karvina
+    Round 28      2025-04-06 H L 0-1 v Dukla Prague
+    Round 29      2025-04-13 A L 0-2 v Sparta Prague
+    Round 30      2025-04-19 H L 0-1 v Jablonec
+    Zachranu R31  2025-04-26 A W 2-1 v Ceske Budejovice
+    Zachranu R32  2025-05-04 H W 1-0 v Teplice
+    Zachranu R33  2025-05-11 H L 2-3 v Dukla Prague
+    Zachranu R34  2025-05-17 A L 1-2 v Pardubice
+    Zachranu R35  2025-05-25 H D 2-2 v Slovacko
+  Sigma Olomouc    [Titul] 35 games  W12 D 9 L14 GF 48 GA 53
+    Round 1       2024-07-20 A W 2-0 v Ceske Budejovice
+    Round 2       2024-07-28 A D 1-1 v Slovan Liberec
+    Round 3       2024-08-03 H W 2-1 v Teplice
+    Round 4       2024-08-10 A L 0-2 v Slavia Prague
+    Round 5       2024-08-18 H W 3-2 v Mlada Boleslav
+    Round 7       2024-09-01 H D 2-2 v Banik Ostrava
+    Round 6       2024-09-17 A L 1-2 v Viktoria Plzen
+    Round 8       2024-09-22 H W 2-1 v Dukla Prague
+    Round 9       2024-09-27 A W 3-2 v Sparta Prague
+    Round 10      2024-10-06 H L 1-3 v Bohemians 1905
+    Round 11      2024-10-19 A D 1-1 v Hradec Kralove
+    Round 12      2024-10-26 H D 0-0 v Jablonec
+    Round 13      2024-11-02 A L 1-2 v Karvina
+    Round 15      2024-11-24 H L 1-4 v Slovan Liberec
+    Round 14      2024-11-27 H W 2-1 v Slovacko
+    Round 16      2024-11-30 A L 0-1 v Teplice
+    Round 17      2024-12-04 A D 2-2 v Pardubice
+    Round 18      2024-12-08 H L 1-2 v Slavia Prague
+    Round 19      2024-12-15 A W 3-1 v Mlada Boleslav
+    Round 20      2025-02-03 H W 2-1 v Viktoria Plzen
+    Round 21      2025-02-09 A L 0-1 v Banik Ostrava
+    Round 22      2025-02-15 H W 4-0 v Pardubice
+    Round 23      2025-02-22 A W 3-1 v Dukla Prague
+    Round 24      2025-03-01 H L 1-2 v Sparta Prague
+    Round 25      2025-03-09 A W 1-0 v Bohemians 1905
+    Round 26      2025-03-16 H L 1-2 v Hradec Kralove
+    Round 27      2025-03-29 A D 0-0 v Jablonec
+    Round 28      2025-04-05 H L 1-2 v Karvina
+    Round 29      2025-04-13 A D 2-2 v Slovacko
+    Round 30      2025-04-19 H W 3-0 v Ceske Budejovice
+    Titul R31     2025-04-26 H L 0-5 v Slavia Prague
+    Titul R32     2025-05-03 A D 0-0 v Banik Ostrava
+    Titul R33     2025-05-10 A L 0-4 v Jablonec
+    Titul R34     2025-05-18 H L 1-2 v Viktoria Plzen
+    Titul R35     2025-05-24 A D 1-1 v Sparta Prague
+  Banik Ostrava    [Titul] 35 games  W22 D 5 L 8 GF 58 GA 34
+    Round 1       2024-07-20 A L 1-2 v Bohemians 1905
+    Round 2       2024-07-28 H W 1-0 v Jablonec
+    Round 4       2024-08-11 H W 1-0 v Hradec Kralove
+    Round 5       2024-08-18 A L 0-1 v Slovacko
+    Round 6       2024-08-25 H W 2-0 v Slovan Liberec
+    Round 3       2024-08-28 A D 0-0 v Karvina
+    Round 7       2024-09-01 A D 2-2 v Sigma Olomouc
+    Round 8       2024-09-21 A W 3-2 v Teplice
+    Round 9       2024-09-29 H W 2-1 v Ceske Budejovice
+    Round 10      2024-10-06 A D 0-0 v Mlada Boleslav
+    Round 11      2024-10-19 H L 1-3 v Viktoria Plzen
+    Round 12      2024-10-26 A W 3-2 v Pardubice
+    Round 13      2024-11-02 A W 3-1 v Sparta Prague
+    Round 14      2024-11-09 H W 6-0 v Dukla Prague
+    Round 15      2024-11-23 A L 1-3 v Jablonec
+    Round 16      2024-11-30 H W 2-1 v Karvina
+    Round 17      2024-12-05 H L 0-1 v Slavia Prague
+    Round 18      2024-12-08 A W 1-0 v Hradec Kralove
+    Round 19      2024-12-14 H W 3-1 v Slovacko
+    Round 20      2025-02-01 A W 1-0 v Slovan Liberec
+    Round 21      2025-02-09 H W 1-0 v Sigma Olomouc
+    Round 22      2025-02-16 A L 0-1 v Slavia Prague
+    Round 23      2025-02-22 H W 2-0 v Teplice
+    Round 24      2025-03-01 A W 4-0 v Ceske Budejovice
+    Round 25      2025-03-09 H W 2-1 v Mlada Boleslav
+    Round 26      2025-03-16 A W 1-0 v Viktoria Plzen
+    Round 27      2025-03-29 H W 5-2 v Pardubice
+    Round 28      2025-04-05 H D 1-1 v Sparta Prague
+    Round 29      2025-04-12 A W 2-1 v Dukla Prague
+    Round 30      2025-04-19 H W 1-0 v Bohemians 1905
+    Titul R31     2025-04-27 H L 1-2 v Jablonec
+    Titul R32     2025-05-03 H D 0-0 v Sigma Olomouc
+    Titul R33     2025-05-10 A W 2-1 v Viktoria Plzen
+    Titul R34     2025-05-18 H W 3-2 v Sparta Prague
+    Titul R35     2025-05-24 A L 0-3 v Slavia Prague
+  Pardubice        [Zachranu] 37 games  W 7 D 7 L23 GF 27 GA 57
+    Round 1       2024-07-19 A L 1-2 v Sparta Prague
+    Round 2       2024-07-27 H L 0-1 v Karvina
+    Round 3       2024-08-04 A W 3-1 v Ceske Budejovice
+    Round 4       2024-08-11 H L 0-1 v Slovacko
+    Round 5       2024-08-18 A L 0-3 v Slovan Liberec
+    Round 6       2024-08-24 H W 2-1 v Hradec Kralove
+    Round 7       2024-09-01 A L 0-2 v Slavia Prague
+    Round 8       2024-09-22 A D 2-2 v Mlada Boleslav
+    Round 9       2024-09-28 H L 0-1 v Teplice
+    Round 10      2024-10-06 A L 0-2 v Viktoria Plzen
+    Round 11      2024-10-19 A L 1-2 v Dukla Prague
+    Round 12      2024-10-26 H L 2-3 v Banik Ostrava
+    Round 13      2024-11-03 A D 0-0 v Bohemians 1905
+    Round 14      2024-11-09 H W 2-0 v Jablonec
+    Round 15      2024-11-24 A L 0-1 v Karvina
+    Round 16      2024-12-01 H D 0-0 v Ceske Budejovice
+    Round 17      2024-12-04 H D 2-2 v Sigma Olomouc
+    Round 18      2024-12-07 A D 1-1 v Slovacko
+    Round 19      2024-12-14 H D 1-1 v Slovan Liberec
+    Round 20      2025-02-01 A L 0-3 v Hradec Kralove
+    Round 21      2025-02-08 H L 0-2 v Slavia Prague
+    Round 22      2025-02-15 A L 0-4 v Sigma Olomouc
+    Round 23      2025-02-22 H L 0-3 v Mlada Boleslav
+    Round 24      2025-03-01 A L 0-2 v Teplice
+    Round 25      2025-03-09 H D 0-0 v Viktoria Plzen
+    Round 26      2025-03-15 H L 0-1 v Dukla Prague
+    Round 27      2025-03-29 A L 2-5 v Banik Ostrava
+    Round 28      2025-04-05 H W 2-0 v Bohemians 1905
+    Round 29      2025-04-13 A L 0-1 v Jablonec
+    Round 30      2025-04-19 H L 1-2 v Sparta Prague
+    Zachranu R31  2025-04-26 A L 0-1 v Slovacko
+    Zachranu R32  2025-05-03 A L 0-2 v Dukla Prague
+    Zachranu R33  2025-05-10 H W 1-0 v Ceske Budejovice
+    Zachranu R34  2025-05-17 H W 2-1 v Mlada Boleslav
+    Zachranu R35  2025-05-25 A L 0-3 v Teplice
+    Playoff leg1  2025-05-28 H W 2-0 v Chrudim
+    Playoff leg2  2025-06-01 A L 0-1 v Chrudim
+  Viktoria Plzen   [Titul] 35 games  W23 D 5 L 7 GF 71 GA 36
+    Round 1       2024-07-20 A W 3-1 v Dukla Prague
+    Round 2       2024-07-28 H W 1-0 v Hradec Kralove
+    Round 3       2024-08-03 A D 0-0 v Jablonec
+    Round 4       2024-08-11 H W 5-0 v Karvina
+    Round 5       2024-08-18 A W 3-0 v Ceske Budejovice
+    Round 7       2024-09-01 A D 1-1 v Slovan Liberec
+    Round 6       2024-09-17 H W 2-1 v Sigma Olomouc
+    Round 8       2024-09-21 A L 0-3 v Slavia Prague
+    Round 9       2024-09-29 H D 1-1 v Mlada Boleslav
+    Round 10      2024-10-06 H W 2-0 v Pardubice
+    Round 11      2024-10-19 A W 3-1 v Banik Ostrava
+    Round 12      2024-10-27 H W 1-0 v Sparta Prague
+    Round 13      2024-11-03 A L 0-1 v Slovacko
+    Round 14      2024-11-10 H W 2-0 v Bohemians 1905
+    Round 15      2024-11-23 A W 1-0 v Hradec Kralove
+    Round 16      2024-12-01 H W 3-2 v Jablonec
+    Round 17      2024-12-05 H D 1-1 v Teplice
+    Round 18      2024-12-08 A W 2-1 v Karvina
+    Round 19      2024-12-15 H W 7-2 v Ceske Budejovice
+    Round 20      2025-02-03 A L 1-2 v Sigma Olomouc
+    Round 21      2025-02-08 H W 3-2 v Slovan Liberec
+    Round 22      2025-02-16 A W 2-0 v Teplice
+    Round 23      2025-02-23 H L 1-3 v Slavia Prague
+    Round 24      2025-03-02 A W 2-0 v Mlada Boleslav
+    Round 25      2025-03-09 A D 0-0 v Pardubice
+    Round 26      2025-03-16 H L 0-1 v Banik Ostrava
+    Round 27      2025-03-30 A W 4-2 v Sparta Prague
+    Round 28      2025-04-06 H W 2-0 v Slovacko
+    Round 29      2025-04-13 A W 2-1 v Bohemians 1905
+    Round 30      2025-04-19 H W 4-2 v Dukla Prague
+    Titul R31     2025-04-27 H W 2-0 v Sparta Prague
+    Titul R32     2025-05-03 A L 3-4 v Slavia Prague
+    Titul R33     2025-05-10 H L 1-2 v Banik Ostrava
+    Titul R34     2025-05-18 A W 2-1 v Sigma Olomouc
+    Titul R35     2025-05-24 H W 4-1 v Jablonec
+  Slavia Prague    [Titul] 35 games  W29 D 3 L 3 GF 77 GA 18
+    Round 1       2024-07-21 A D 0-0 v Slovacko
+    Round 2       2024-07-27 H W 4-0 v Ceske Budejovice
+    Round 3       2024-08-02 A W 1-0 v Slovan Liberec
+    Round 4       2024-08-10 H W 2-0 v Sigma Olomouc
+    Round 5       2024-08-17 H W 2-1 v Teplice
+    Round 7       2024-09-01 H W 2-0 v Pardubice
+    Round 6       2024-09-17 A W 2-0 v Mlada Boleslav
+    Round 8       2024-09-21 H W 3-0 v Viktoria Plzen
+    Round 9       2024-09-29 A W 4-0 v Bohemians 1905
+    Round 10      2024-10-06 H W 2-1 v Sparta Prague
+    Round 11      2024-10-20 A W 2-1 v Jablonec
+    Round 12      2024-10-27 H W 3-0 v Dukla Prague
+    Round 13      2024-11-03 A D 1-1 v Hradec Kralove
+    Round 14      2024-11-10 H W 5-1 v Karvina
+    Round 15      2024-11-24 A W 4-0 v Ceske Budejovice
+    Round 16      2024-12-01 H W 1-0 v Slovan Liberec
+    Round 17      2024-12-05 A W 1-0 v Banik Ostrava
+    Round 18      2024-12-08 A W 2-1 v Sigma Olomouc
+    Round 19      2024-12-15 A L 0-1 v Teplice
+    Round 20      2025-02-02 H W 1-0 v Mlada Boleslav
+    Round 21      2025-02-08 A W 2-0 v Pardubice
+    Round 22      2025-02-16 H W 1-0 v Banik Ostrava
+    Round 23      2025-02-23 A W 3-1 v Viktoria Plzen
+    Round 24      2025-03-02 H W 2-0 v Bohemians 1905
+    Round 25      2025-03-08 A L 0-2 v Sparta Prague
+    Round 26      2025-03-16 H W 3-0 v Jablonec
+    Round 27      2025-03-29 A D 0-0 v Dukla Prague
+    Round 28      2025-04-05 H W 2-1 v Hradec Kralove
+    Round 29      2025-04-12 A W 4-0 v Karvina
+    Round 30      2025-04-19 H W 2-0 v Slovacko
+    Titul R31     2025-04-26 A W 5-0 v Sigma Olomouc
+    Titul R32     2025-05-03 H W 4-3 v Viktoria Plzen
+    Titul R33     2025-05-10 H W 2-1 v Sparta Prague
+    Titul R34     2025-05-18 A L 2-3 v Jablonec
+    Titul R35     2025-05-24 H W 3-0 v Banik Ostrava
+  Slovacko         [Zachranu] 35 games  W 9 D11 L15 GF 31 GA 56
+    Round 1       2024-07-21 H D 0-0 v Slavia Prague
+    Round 2       2024-07-28 A L 0-3 v Mlada Boleslav
+    Round 3       2024-08-03 H D 0-0 v Bohemians 1905
+    Round 4       2024-08-11 A W 1-0 v Pardubice
+    Round 5       2024-08-18 H W 1-0 v Banik Ostrava
+    Round 6       2024-08-24 A D 2-2 v Sparta Prague
+    Round 7       2024-08-31 H D 0-0 v Jablonec
+    Round 8       2024-09-21 A L 0-3 v Hradec Kralove
+    Round 9       2024-09-28 H W 2-1 v Karvina
+    Round 10      2024-10-05 A W 2-0 v Ceske Budejovice
+    Round 11      2024-10-20 H L 0-2 v Teplice
+    Round 12      2024-10-26 A L 0-4 v Slovan Liberec
+    Round 13      2024-11-03 H W 1-0 v Viktoria Plzen
+    Round 15      2024-11-23 H D 1-1 v Mlada Boleslav
+    Round 14      2024-11-27 A L 1-2 v Sigma Olomouc
+    Round 16      2024-11-30 A D 3-3 v Bohemians 1905
+    Round 17      2024-12-04 A W 2-1 v Dukla Prague
+    Round 18      2024-12-07 H D 1-1 v Pardubice
+    Round 19      2024-12-14 A L 1-3 v Banik Ostrava
+    Round 20      2025-02-02 H L 0-2 v Sparta Prague
+    Round 21      2025-02-09 A L 2-4 v Jablonec
+    Round 22      2025-02-15 H D 0-0 v Dukla Prague
+    Round 24      2025-03-02 A L 0-2 v Karvina
+    Round 25      2025-03-08 H W 2-1 v Ceske Budejovice
+    Round 26      2025-03-15 A L 0-1 v Teplice
+    Round 27      2025-03-30 H L 0-4 v Slovan Liberec
+    Round 28      2025-04-06 A L 0-2 v Viktoria Plzen
+    Round 23      2025-04-09 H L 1-5 v Hradec Kralove
+    Round 29      2025-04-13 H D 2-2 v Sigma Olomouc
+    Round 30      2025-04-19 A L 0-2 v Slavia Prague
+    Zachranu R31  2025-04-26 H W 1-0 v Pardubice
+    Zachranu R32  2025-05-04 H D 0-0 v Ceske Budejovice
+    Zachranu R33  2025-05-11 A L 0-1 v Teplice
+    Zachranu R34  2025-05-17 H W 3-2 v Dukla Prague
+    Zachranu R35  2025-05-25 A D 2-2 v Mlada Boleslav
+  Sparta Prague    [Titul] 35 games  W19 D 6 L10 GF 61 GA 44
+    Round 1       2024-07-19 H W 2-1 v Pardubice
+    Round 2       2024-07-27 A W 4-1 v Teplice
+    Round 3       2024-08-02 H W 2-0 v Dukla Prague
+    Round 4       2024-08-10 A W 2-1 v Bohemians 1905
+    Round 5       2024-08-17 A W 2-1 v Jablonec
+    Round 6       2024-08-24 H D 2-2 v Slovacko
+    Round 7       2024-08-31 A W 2-0 v Hradec Kralove
+    Round 8       2024-09-22 A W 2-0 v Ceske Budejovice
+    Round 9       2024-09-27 H L 2-3 v Sigma Olomouc
+    Round 10      2024-10-06 A L 1-2 v Slavia Prague
+    Round 11      2024-10-19 H W 2-1 v Slovan Liberec
+    Round 12      2024-10-27 A L 0-1 v Viktoria Plzen
+    Round 13      2024-11-02 H L 1-3 v Banik Ostrava
+    Round 14      2024-11-10 A D 2-2 v Mlada Boleslav
+    Round 15      2024-11-23 H D 1-1 v Teplice
+    Round 16      2024-11-30 A D 1-1 v Dukla Prague
+    Round 17      2024-12-03 H W 4-1 v Karvina
+    Round 18      2024-12-07 H W 1-0 v Bohemians 1905
+    Round 19      2024-12-15 H W 2-1 v Jablonec
+    Round 20      2025-02-02 A W 2-0 v Slovacko
+    Round 21      2025-02-09 H W 3-0 v Hradec Kralove
+    Round 22      2025-02-15 A W 3-2 v Karvina
+    Round 23      2025-02-22 H W 2-1 v Ceske Budejovice
+    Round 24      2025-03-01 A W 2-1 v Sigma Olomouc
+    Round 25      2025-03-08 H W 2-0 v Slavia Prague
+    Round 26      2025-03-15 A L 0-1 v Slovan Liberec
+    Round 27      2025-03-30 H L 2-4 v Viktoria Plzen
+    Round 28      2025-04-05 A D 1-1 v Banik Ostrava
+    Round 29      2025-04-13 H W 2-0 v Mlada Boleslav
+    Round 30      2025-04-19 A W 2-1 v Pardubice
+    Titul R31     2025-04-27 A L 0-2 v Viktoria Plzen
+    Titul R32     2025-05-03 H L 1-3 v Jablonec
+    Titul R33     2025-05-10 A L 1-2 v Slavia Prague
+    Titul R34     2025-05-18 A L 2-3 v Banik Ostrava
+    Titul R35     2025-05-24 H D 1-1 v Sigma Olomouc
+  Teplice          [Zachranu] 35 games  W12 D 8 L15 GF 41 GA 45
+    Round 1       2024-07-21 A L 0-1 v Hradec Kralove
+    Round 2       2024-07-27 H L 1-4 v Sparta Prague
+    Round 3       2024-08-03 A L 1-2 v Sigma Olomouc
+    Round 4       2024-08-10 H W 2-1 v Slovan Liberec
+    Round 5       2024-08-17 A L 1-2 v Slavia Prague
+    Round 6       2024-08-24 H L 1-3 v Karvina
+    Round 7       2024-09-01 H L 1-2 v Mlada Boleslav
+    Round 8       2024-09-21 H L 2-3 v Banik Ostrava
+    Round 9       2024-09-28 A W 1-0 v Pardubice
+    Round 10      2024-10-05 H D 1-1 v Dukla Prague
+    Round 11      2024-10-20 A W 2-0 v Slovacko
+    Round 12      2024-10-27 H L 1-2 v Bohemians 1905
+    Round 13      2024-11-02 A L 0-3 v Jablonec
+    Round 14      2024-11-10 H W 5-2 v Ceske Budejovice
+    Round 15      2024-11-23 A D 1-1 v Sparta Prague
+    Round 16      2024-11-30 H W 1-0 v Sigma Olomouc
+    Round 17      2024-12-05 A D 1-1 v Viktoria Plzen
+    Round 18      2024-12-08 A L 0-3 v Slovan Liberec
+    Round 19      2024-12-15 H W 1-0 v Slavia Prague
+    Round 20      2025-02-01 A D 1-1 v Karvina
+    Round 21      2025-02-08 A L 1-2 v Mlada Boleslav
+    Round 22      2025-02-16 H L 0-2 v Viktoria Plzen
+    Round 23      2025-02-22 A L 0-2 v Banik Ostrava
+    Round 24      2025-03-01 H W 2-0 v Pardubice
+    Round 25      2025-03-08 A D 1-1 v Dukla Prague
+    Round 26      2025-03-15 H W 1-0 v Slovacko
+    Round 27      2025-03-29 A D 1-1 v Bohemians 1905
+    Round 28      2025-04-06 H L 0-1 v Jablonec
+    Round 29      2025-04-13 A D 1-1 v Ceske Budejovice
+    Round 30      2025-04-19 H W 1-0 v Hradec Kralove
+    Zachranu R31  2025-04-27 H D 2-2 v Dukla Prague
+    Zachranu R32  2025-05-04 A L 0-1 v Mlada Boleslav
+    Zachranu R33  2025-05-11 H W 1-0 v Slovacko
+    Zachranu R34  2025-05-17 A W 3-0 v Ceske Budejovice
+    Zachranu R35  2025-05-25 H W 3-0 v Pardubice
+
+### 2025-26
+  Bohemians 1905   [Evropu] 32 games  W11 D 6 L15 GF 29 GA 39
+    Round 1       2025-07-19 H W 1-0 v Banik Ostrava
+    Round 2       2025-07-26 H L 0-2 v Slavia Prague
+    Round 3       2025-08-02 A L 0-3 v Teplice
+    Round 4       2025-08-10 H L 0-1 v Jablonec
+    Round 5       2025-08-17 A W 2-1 v Karvina
+    Round 7       2025-08-30 A D 1-1 v Pardubice
+    Round 8       2025-09-14 H W 1-0 v Slovacko
+    Round 9       2025-09-21 A W 2-0 v Dukla Prague
+    Round 10      2025-09-27 H D 2-2 v Sigma Olomouc
+    Round 11      2025-10-04 A D 0-0 v Slovan Liberec
+    Round 12      2025-10-18 H L 0-1 v Viktoria Plzen
+    Round 6       2025-10-22 H D 1-1 v Mlada Boleslav
+    Round 13      2025-10-28 A L 1-2 v Sparta Prague
+    Round 14      2025-11-02 H L 1-2 v Hradec Kralove
+    Round 15      2025-11-08 A W 1-0 v Zlin
+    Round 16      2025-11-22 A L 1-3 v Slavia Prague
+    Round 17      2025-11-30 H L 0-1 v Teplice
+    Round 18      2025-12-07 A L 0-1 v Jablonec
+    Round 19      2025-12-14 H L 0-3 v Karvina
+    Round 20      2026-01-31 A D 2-2 v Mlada Boleslav
+    Round 21      2026-02-08 H L 1-2 v Pardubice
+    Round 22      2026-02-14 A W 2-1 v Slovacko
+    Round 23      2026-02-22 H W 1-0 v Dukla Prague
+    Round 24      2026-03-01 A L 0-1 v Sigma Olomouc
+    Round 25      2026-03-07 H D 0-0 v Slovan Liberec
+    Round 26      2026-03-15 A L 0-2 v Viktoria Plzen
+    Round 27      2026-04-05 A L 0-2 v Hradec Kralove
+    Round 28      2026-04-11 H W 2-1 v Zlin
+    Round 29      2026-04-18 A W 2-0 v Banik Ostrava
+    Round 30      2026-04-25 H W 2-0 v Sparta Prague
+    Evropu-SF L1  2026-05-02 H L 1-3 v Sigma Olomouc
+    Evropu-SF L2  2026-05-10 A W 2-1 v Sigma Olomouc
+  Dukla Prague     [Zachranu] 35 games  W 5 D11 L19 GF 23 GA 51
+    Round 1       2025-07-19 A L 0-2 v Karvina
+    Round 2       2025-07-26 A D 0-0 v Sigma Olomouc
+    Round 3       2025-08-03 H D 1-1 v Banik Ostrava
+    Round 4       2025-08-09 A L 0-2 v Slovan Liberec
+    Round 5       2025-08-16 H W 2-0 v Viktoria Plzen
+    Round 6       2025-08-24 A L 2-3 v Sparta Prague
+    Round 7       2025-08-30 H D 1-1 v Hradec Kralove
+    Round 8       2025-09-13 A D 1-1 v Zlin
+    Round 9       2025-09-21 H L 0-2 v Bohemians 1905
+    Round 10      2025-09-26 A L 0-2 v Slavia Prague
+    Round 11      2025-10-04 H L 1-3 v Teplice
+    Round 12      2025-10-19 A D 0-0 v Jablonec
+    Round 13      2025-10-25 H W 1-0 v Slovacko
+    Round 14      2025-11-01 A D 1-1 v Pardubice
+    Round 15      2025-11-08 H L 0-1 v Mlada Boleslav
+    Round 16      2025-11-22 H D 2-2 v Sigma Olomouc
+    Round 17      2025-11-29 A L 1-3 v Banik Ostrava
+    Round 18      2025-12-06 H D 1-1 v Slovan Liberec
+    Round 19      2025-12-14 A L 0-2 v Viktoria Plzen
+    Round 20      2026-01-31 H L 0-3 v Sparta Prague
+    Round 21      2026-02-08 A L 0-3 v Hradec Kralove
+    Round 22      2026-02-14 H D 0-0 v Zlin
+    Round 23      2026-02-22 A L 0-1 v Bohemians 1905
+    Round 24      2026-02-27 H L 0-2 v Slavia Prague
+    Round 25      2026-03-07 A D 0-0 v Teplice
+    Round 26      2026-03-14 H W 2-0 v Jablonec
+    Round 27      2026-04-04 H L 0-2 v Pardubice
+    Round 28      2026-04-12 A D 1-1 v Mlada Boleslav
+    Round 29      2026-04-18 H L 1-2 v Karvina
+    Round 30      2026-04-25 A W 2-1 v Slovacko
+    Zachranu R31  2026-05-02 A L 1-2 v Zlin
+    Zachranu R32  2026-05-09 H L 0-1 v Slovacko
+    Zachranu R33  2026-05-12 A W 2-1 v Mlada Boleslav
+    Zachranu R34  2026-05-16 A L 0-2 v Teplice
+    Zachranu R35  2026-05-23 H L 0-3 v Banik Ostrava
+  Hradec Kralove   [Titul] 35 games  W16 D 8 L11 GF 50 GA 41
+    Round 1       2025-07-20 A D 2-2 v Slavia Prague
+    Round 2       2025-07-26 H L 1-2 v Karvina
+    Round 3       2025-08-02 A L 0-2 v Jablonec
+    Round 4       2025-08-10 H D 1-1 v Pardubice
+    Round 5       2025-08-16 A L 2-3 v Mlada Boleslav
+    Round 6       2025-08-24 H W 1-0 v Sigma Olomouc
+    Round 7       2025-08-30 A D 1-1 v Dukla Prague
+    Round 8       2025-09-14 H W 2-1 v Sparta Prague
+    Round 9       2025-09-20 A W 2-1 v Zlin
+    Round 10      2025-09-27 H L 2-3 v Slovan Liberec
+    Round 11      2025-10-05 A D 3-3 v Viktoria Plzen
+    Round 12      2025-10-19 A W 1-0 v Banik Ostrava
+    Round 13      2025-10-25 H D 0-0 v Teplice
+    Round 14      2025-11-02 A W 2-1 v Bohemians 1905
+    Round 15      2025-11-08 H W 4-0 v Slovacko
+    Round 16      2025-11-23 A L 3-4 v Karvina
+    Round 17      2025-11-29 H W 2-0 v Jablonec
+    Round 18      2025-12-07 A L 0-1 v Pardubice
+    Round 19      2025-12-13 H D 1-1 v Mlada Boleslav
+    Round 20      2026-01-31 A L 0-1 v Sigma Olomouc
+    Round 21      2026-02-08 H W 3-0 v Dukla Prague
+    Round 22      2026-02-15 A L 0-2 v Sparta Prague
+    Round 23      2026-02-21 H D 0-0 v Zlin
+    Round 24      2026-02-28 A W 1-0 v Slovan Liberec
+    Round 25      2026-03-08 H L 0-3 v Viktoria Plzen
+    Round 26      2026-03-14 H W 1-0 v Banik Ostrava
+    Round 27      2026-04-05 H W 2-0 v Bohemians 1905
+    Round 28      2026-04-11 A W 3-1 v Slovacko
+    Round 29      2026-04-19 H W 2-1 v Slavia Prague
+    Round 30      2026-04-25 A W 1-0 v Teplice
+    Titul R31     2026-05-03 A L 1-3 v Viktoria Plzen
+    Titul R32     2026-05-10 A D 1-1 v Jablonec
+    Titul R33     2026-05-13 H W 1-0 v Slovan Liberec
+    Titul R34     2026-05-17 H W 3-1 v Slavia Prague
+    Titul R35     2026-05-24 A L 1-2 v Sparta Prague
+  Jablonec         [Titul] 35 games  W16 D 7 L12 GF 45 GA 47
+    Round 1       2025-07-19 H D 1-1 v Sparta Prague
+    Round 2       2025-07-26 A D 1-1 v Viktoria Plzen
+    Round 3       2025-08-02 H W 2-0 v Hradec Kralove
+    Round 4       2025-08-10 A W 1-0 v Bohemians 1905
+    Round 5       2025-08-16 H D 1-1 v Slavia Prague
+    Round 6       2025-08-23 A W 1-0 v Teplice
+    Round 7       2025-08-30 A W 2-0 v Slovacko
+    Round 8       2025-09-14 H W 3-2 v Pardubice
+    Round 9       2025-09-20 A W 2-1 v Karvina
+    Round 10      2025-09-28 H W 2-0 v Mlada Boleslav
+    Round 11      2025-10-05 A L 0-2 v Sigma Olomouc
+    Round 12      2025-10-19 H D 0-0 v Dukla Prague
+    Round 13      2025-10-25 A W 2-0 v Slovan Liberec
+    Round 14      2025-11-01 H L 1-3 v Zlin
+    Round 15      2025-11-08 A W 1-0 v Banik Ostrava
+    Round 16      2025-11-23 H D 3-3 v Viktoria Plzen
+    Round 17      2025-11-29 A L 0-2 v Hradec Kralove
+    Round 18      2025-12-07 H W 1-0 v Bohemians 1905
+    Round 19      2025-12-13 A L 3-4 v Slavia Prague
+    Round 20      2026-01-31 H W 1-0 v Teplice
+    Round 21      2026-02-07 H D 0-0 v Slovacko
+    Round 22      2026-02-15 A W 2-0 v Pardubice
+    Round 23      2026-02-21 H W 1-0 v Karvina
+    Round 24      2026-02-28 A L 0-3 v Mlada Boleslav
+    Round 25      2026-03-07 H L 1-2 v Sigma Olomouc
+    Round 26      2026-03-14 A L 0-2 v Dukla Prague
+    Round 27      2026-04-04 A W 3-0 v Zlin
+    Round 28      2026-04-11 H W 4-1 v Banik Ostrava
+    Round 29      2026-04-18 A L 1-3 v Sparta Prague
+    Round 30      2026-04-25 H L 1-2 v Slovan Liberec
+    Titul R31     2026-05-03 A L 0-2 v Sparta Prague
+    Titul R32     2026-05-10 H D 1-1 v Hradec Kralove
+    Titul R33     2026-05-13 A L 1-5 v Slavia Prague
+    Titul R34     2026-05-17 A L 0-5 v Viktoria Plzen
+    Titul R35     2026-05-24 H W 2-1 v Slovan Liberec
+  Karvina          [Evropu] 34 games  W13 D 3 L18 GF 48 GA 61
+    Round 1       2025-07-19 H W 2-0 v Dukla Prague
+    Round 2       2025-07-26 A W 2-1 v Hradec Kralove
+    Round 3       2025-08-02 H L 0-1 v Zlin
+    Round 4       2025-08-10 A W 2-1 v Banik Ostrava
+    Round 5       2025-08-17 H L 1-2 v Bohemians 1905
+    Round 6       2025-08-23 A L 1-2 v Viktoria Plzen
+    Round 7       2025-08-30 H W 4-1 v Teplice
+    Round 8       2025-09-13 A L 1-3 v Slavia Prague
+    Round 9       2025-09-20 H L 1-2 v Jablonec
+    Round 10      2025-09-27 A W 2-1 v Slovacko
+    Round 11      2025-10-04 A L 1-2 v Pardubice
+    Round 12      2025-10-18 H D 1-1 v Sigma Olomouc
+    Round 13      2025-10-25 A W 4-2 v Mlada Boleslav
+    Round 14      2025-11-02 H W 2-1 v Sparta Prague
+    Round 15      2025-11-09 A L 0-6 v Slovan Liberec
+    Round 16      2025-11-23 H W 4-3 v Hradec Kralove
+    Round 17      2025-11-29 A W 3-1 v Zlin
+    Round 18      2025-12-07 H D 0-0 v Banik Ostrava
+    Round 19      2025-12-14 A W 3-0 v Bohemians 1905
+    Round 20      2026-02-01 H L 0-2 v Viktoria Plzen
+    Round 21      2026-02-07 A L 0-2 v Teplice
+    Round 22      2026-02-14 H L 1-3 v Slavia Prague
+    Round 23      2026-02-21 A L 0-1 v Jablonec
+    Round 24      2026-03-01 H L 0-2 v Slovacko
+    Round 25      2026-03-08 H L 1-2 v Pardubice
+    Round 26      2026-03-15 A D 2-2 v Sigma Olomouc
+    Round 27      2026-04-05 A L 0-2 v Sparta Prague
+    Round 28      2026-04-12 H W 3-1 v Slovan Liberec
+    Round 29      2026-04-18 A W 2-1 v Dukla Prague
+    Round 30      2026-04-25 H L 0-3 v Mlada Boleslav
+    Evropu-SF L1  2026-05-02 H L 1-2 v Pardubice
+    Evropu-SF L2  2026-05-10 A W 3-1 v Pardubice
+    Evropu-F L1   2026-05-16 H L 1-3 v Sigma Olomouc
+    Evropu-F L2   2026-05-23 A L 0-4 v Sigma Olomouc
+  Slovan Liberec   [Titul] 35 games  W12 D10 L13 GF 45 GA 39
+    Round 1       2025-07-20 A D 3-3 v Mlada Boleslav
+    Round 2       2025-07-27 H W 2-1 v Pardubice
+    Round 3       2025-08-02 A L 1-2 v Sigma Olomouc
+    Round 4       2025-08-09 H W 2-0 v Dukla Prague
+    Round 5       2025-08-17 H L 0-2 v Sparta Prague
+    Round 6       2025-08-23 A L 0-1 v Zlin
+    Round 7       2025-08-31 H D 1-1 v Viktoria Plzen
+    Round 8       2025-09-13 A W 2-0 v Banik Ostrava
+    Round 9       2025-09-21 H D 1-1 v Slavia Prague
+    Round 10      2025-09-27 A W 3-2 v Hradec Kralove
+    Round 11      2025-10-04 H D 0-0 v Bohemians 1905
+    Round 12      2025-10-18 A D 1-1 v Teplice
+    Round 13      2025-10-25 H L 0-2 v Jablonec
+    Round 14      2025-11-01 A W 3-0 v Slovacko
+    Round 15      2025-11-09 H W 6-0 v Karvina
+    Round 16      2025-11-22 A W 4-0 v Pardubice
+    Round 17      2025-11-30 H W 1-0 v Sigma Olomouc
+    Round 18      2025-12-06 A D 1-1 v Dukla Prague
+    Round 19      2025-12-14 A D 2-2 v Sparta Prague
+    Round 20      2026-02-01 H W 2-0 v Zlin
+    Round 21      2026-02-08 A L 1-3 v Viktoria Plzen
+    Round 22      2026-02-15 H W 1-0 v Banik Ostrava
+    Round 23      2026-02-21 A L 0-1 v Slavia Prague
+    Round 24      2026-02-28 H L 0-1 v Hradec Kralove
+    Round 25      2026-03-07 A D 0-0 v Bohemians 1905
+    Round 26      2026-03-15 H D 1-1 v Teplice
+    Round 27      2026-04-04 H W 2-1 v Slovacko
+    Round 28      2026-04-12 A L 1-3 v Karvina
+    Round 29      2026-04-18 H D 0-0 v Mlada Boleslav
+    Round 30      2026-04-25 A W 2-1 v Jablonec
+    Titul R31     2026-05-02 H L 1-2 v Slavia Prague
+    Titul R32     2026-05-09 A L 0-2 v Viktoria Plzen
+    Titul R33     2026-05-13 A L 0-1 v Hradec Kralove
+    Titul R34     2026-05-17 H L 0-2 v Sparta Prague
+    Titul R35     2026-05-24 A L 1-2 v Jablonec
+  Mlada Boleslav   [Zachranu] 35 games  W 9 D13 L13 GF 49 GA 57
+    Round 1       2025-07-20 H D 3-3 v Slovan Liberec
+    Round 2       2025-07-27 A L 2-3 v Sparta Prague
+    Round 4       2025-08-09 A L 2-3 v Zlin
+    Round 5       2025-08-16 H W 3-2 v Hradec Kralove
+    Round 3       2025-08-19 H L 0-5 v Viktoria Plzen
+    Round 7       2025-08-30 H L 1-3 v Slavia Prague
+    Round 8       2025-09-13 A W 3-2 v Teplice
+    Round 9       2025-09-21 H D 1-1 v Banik Ostrava
+    Round 10      2025-09-28 A L 0-2 v Jablonec
+    Round 11      2025-10-04 H D 0-0 v Slovacko
+    Round 12      2025-10-18 A L 1-2 v Pardubice
+    Round 6       2025-10-22 A D 1-1 v Bohemians 1905
+    Round 13      2025-10-25 H L 2-4 v Karvina
+    Round 14      2025-11-02 H L 1-4 v Sigma Olomouc
+    Round 15      2025-11-08 A W 1-0 v Dukla Prague
+    Round 16      2025-11-22 H L 1-2 v Sparta Prague
+    Round 17      2025-11-30 A L 1-2 v Viktoria Plzen
+    Round 18      2025-12-06 H W 3-1 v Zlin
+    Round 19      2025-12-13 A D 1-1 v Hradec Kralove
+    Round 20      2026-01-31 H D 2-2 v Bohemians 1905
+    Round 21      2026-02-07 A L 0-4 v Slavia Prague
+    Round 22      2026-02-15 H D 0-0 v Teplice
+    Round 23      2026-02-22 A D 0-0 v Banik Ostrava
+    Round 24      2026-02-28 H W 3-0 v Jablonec
+    Round 25      2026-03-07 A D 2-2 v Slovacko
+    Round 26      2026-03-14 H W 2-0 v Pardubice
+    Round 27      2026-04-04 A W 4-2 v Sigma Olomouc
+    Round 28      2026-04-12 H D 1-1 v Dukla Prague
+    Round 29      2026-04-18 A D 0-0 v Slovan Liberec
+    Round 30      2026-04-25 A W 3-0 v Karvina
+    Zachranu R31  2026-05-02 A D 0-0 v Banik Ostrava
+    Zachranu R32  2026-05-09 H D 1-1 v Zlin
+    Zachranu R33  2026-05-12 H L 1-2 v Dukla Prague
+    Zachranu R34  2026-05-16 A W 3-0 v Slovacko
+    Zachranu R35  2026-05-23 H L 0-2 v Teplice
+  Sigma Olomouc    [Evropu] 34 games  W15 D 7 L12 GF 45 GA 38
+    Round 1       2025-07-20 A W 1-0 v Slovacko
+    Round 2       2025-07-26 H D 0-0 v Dukla Prague
+    Round 3       2025-08-02 H W 2-1 v Slovan Liberec
+    Round 4       2025-08-10 A L 0-1 v Sparta Prague
+    Round 5       2025-08-16 H W 1-0 v Zlin
+    Round 6       2025-08-24 A L 0-1 v Hradec Kralove
+    Round 7       2025-08-31 H W 1-0 v Banik Ostrava
+    Round 8       2025-09-13 A L 0-1 v Viktoria Plzen
+    Round 9       2025-09-20 H D 0-0 v Teplice
+    Round 10      2025-09-27 A D 2-2 v Bohemians 1905
+    Round 11      2025-10-05 H W 2-0 v Jablonec
+    Round 12      2025-10-18 A D 1-1 v Karvina
+    Round 13      2025-10-26 H D 0-0 v Slavia Prague
+    Round 14      2025-11-02 A W 4-1 v Mlada Boleslav
+    Round 15      2025-11-09 H W 2-0 v Pardubice
+    Round 16      2025-11-22 A D 2-2 v Dukla Prague
+    Round 17      2025-11-30 A L 0-1 v Slovan Liberec
+    Round 18      2025-12-06 H L 0-1 v Sparta Prague
+    Round 19      2025-12-14 A L 0-5 v Zlin
+    Round 20      2026-01-31 H W 1-0 v Hradec Kralove
+    Round 21      2026-02-07 A L 0-2 v Banik Ostrava
+    Round 22      2026-02-14 H L 1-2 v Viktoria Plzen
+    Round 23      2026-02-22 A W 3-1 v Teplice
+    Round 24      2026-03-01 H W 1-0 v Bohemians 1905
+    Round 25      2026-03-07 A W 2-1 v Jablonec
+    Round 26      2026-03-15 H D 2-2 v Karvina
+    Round 27      2026-04-04 H L 2-4 v Mlada Boleslav
+    Round 28      2026-04-12 A L 1-2 v Pardubice
+    Round 29      2026-04-19 H W 2-1 v Slovacko
+    Round 30      2026-04-25 A L 1-2 v Slavia Prague
+    Evropu-SF L1  2026-05-02 A W 3-1 v Bohemians 1905
+    Evropu-SF L2  2026-05-10 H L 1-2 v Bohemians 1905
+    Evropu-F L1   2026-05-16 A W 3-1 v Karvina
+    Evropu-F L2   2026-05-23 H W 4-0 v Karvina
+  Banik Ostrava    [Zachranu] 37 games  W 9 D 8 L20 GF 40 GA 49
+    Round 1       2025-07-19 A L 0-1 v Bohemians 1905
+    Round 3       2025-08-03 A D 1-1 v Dukla Prague
+    Round 4       2025-08-10 H L 1-2 v Karvina
+    Round 6       2025-08-24 H W 2-0 v Slovacko
+    Round 7       2025-08-31 A L 0-1 v Sigma Olomouc
+    Round 8       2025-09-13 H L 0-2 v Slovan Liberec
+    Round 2       2025-09-17 H D 1-1 v Teplice
+    Round 9       2025-09-21 A D 1-1 v Mlada Boleslav
+    Round 10      2025-09-27 H L 0-3 v Sparta Prague
+    Round 5       2025-10-01 A W 1-0 v Pardubice
+    Round 11      2025-10-05 A D 1-1 v Zlin
+    Round 12      2025-10-19 H L 0-1 v Hradec Kralove
+    Round 13      2025-10-26 A L 0-2 v Viktoria Plzen
+    Round 14      2025-11-01 A L 0-2 v Slavia Prague
+    Round 15      2025-11-08 H L 0-1 v Jablonec
+    Round 16      2025-11-22 A L 0-1 v Teplice
+    Round 17      2025-11-29 H W 3-1 v Dukla Prague
+    Round 18      2025-12-07 A D 0-0 v Karvina
+    Round 19      2025-12-13 H L 1-4 v Pardubice
+    Round 20      2026-02-01 A D 2-2 v Slovacko
+    Round 21      2026-02-07 H W 2-0 v Sigma Olomouc
+    Round 22      2026-02-15 A L 0-1 v Slovan Liberec
+    Round 23      2026-02-22 H D 0-0 v Mlada Boleslav
+    Round 24      2026-02-28 A L 2-5 v Sparta Prague
+    Round 25      2026-03-08 H W 6-2 v Zlin
+    Round 26      2026-03-14 A L 0-1 v Hradec Kralove
+    Round 27      2026-04-05 H L 0-2 v Slavia Prague
+    Round 28      2026-04-11 A L 1-4 v Jablonec
+    Round 29      2026-04-18 H L 0-2 v Bohemians 1905
+    Round 30      2026-04-25 H L 0-1 v Viktoria Plzen
+    Zachranu R31  2026-05-02 H D 0-0 v Mlada Boleslav
+    Zachranu R32  2026-05-09 A L 1-2 v Teplice
+    Zachranu R33  2026-05-12 A L 1-2 v Slovacko
+    Zachranu R34  2026-05-16 H W 2-0 v Zlin
+    Zachranu R35  2026-05-23 A W 3-0 v Dukla Prague
+    Playoff leg1  2026-05-26 H W 3-0 v Taborsko
+    Playoff leg2  2026-05-30 A W 5-0 v Taborsko
+  Pardubice        [Evropu] 32 games  W12 D 8 L12 GF 42 GA 50
+    Round 1       2025-07-18 H L 1-5 v Viktoria Plzen
+    Round 2       2025-07-27 A L 1-2 v Slovan Liberec
+    Round 3       2025-08-03 H L 1-3 v Sparta Prague
+    Round 4       2025-08-10 A D 1-1 v Hradec Kralove
+    Round 6       2025-08-23 A L 1-3 v Slavia Prague
+    Round 7       2025-08-30 H D 1-1 v Bohemians 1905
+    Round 8       2025-09-14 A L 2-3 v Jablonec
+    Round 9       2025-09-20 H D 1-1 v Slovacko
+    Round 10      2025-09-28 A D 0-0 v Teplice
+    Round 5       2025-10-01 H L 0-1 v Banik Ostrava
+    Round 11      2025-10-04 H W 2-1 v Karvina
+    Round 12      2025-10-18 H W 2-1 v Mlada Boleslav
+    Round 13      2025-10-25 A D 2-2 v Zlin
+    Round 14      2025-11-01 H D 1-1 v Dukla Prague
+    Round 15      2025-11-09 A L 0-2 v Sigma Olomouc
+    Round 16      2025-11-22 H L 0-4 v Slovan Liberec
+    Round 17      2025-11-30 A W 4-2 v Sparta Prague
+    Round 18      2025-12-07 H W 1-0 v Hradec Kralove
+    Round 19      2025-12-13 A W 4-1 v Banik Ostrava
+    Round 20      2026-02-01 H D 1-1 v Slavia Prague
+    Round 21      2026-02-08 A W 2-1 v Bohemians 1905
+    Round 22      2026-02-15 H L 0-2 v Jablonec
+    Round 23      2026-02-21 A L 0-2 v Slovacko
+    Round 24      2026-02-28 H D 1-1 v Teplice
+    Round 25      2026-03-08 A W 2-1 v Karvina
+    Round 26      2026-03-14 A L 0-2 v Mlada Boleslav
+    Round 27      2026-04-04 A W 2-0 v Dukla Prague
+    Round 28      2026-04-12 H W 2-1 v Sigma Olomouc
+    Round 29      2026-04-19 A W 1-0 v Viktoria Plzen
+    Round 30      2026-04-25 H W 3-1 v Zlin
+    Evropu-SF L1  2026-05-02 A W 2-1 v Karvina
+    Evropu-SF L2  2026-05-10 H L 1-3 v Karvina
+  Viktoria Plzen   [Titul] 35 games  W18 D 9 L 8 GF 60 GA 38
+    Round 1       2025-07-18 A W 5-1 v Pardubice
+    Round 2       2025-07-26 H D 1-1 v Jablonec
+    Round 4       2025-08-09 H D 1-1 v Slovacko
+    Round 5       2025-08-16 A L 0-2 v Dukla Prague
+    Round 3       2025-08-19 A W 5-0 v Mlada Boleslav
+    Round 6       2025-08-23 H W 2-1 v Karvina
+    Round 7       2025-08-31 A D 1-1 v Slovan Liberec
+    Round 8       2025-09-13 H W 1-0 v Sigma Olomouc
+    Round 9       2025-09-20 A L 1-2 v Sparta Prague
+    Round 10      2025-09-28 H L 0-1 v Zlin
+    Round 11      2025-10-05 H D 3-3 v Hradec Kralove
+    Round 12      2025-10-18 A W 1-0 v Bohemians 1905
+    Round 13      2025-10-26 H W 2-0 v Banik Ostrava
+    Round 14      2025-11-02 A W 2-1 v Teplice
+    Round 15      2025-11-09 H L 3-5 v Slavia Prague
+    Round 16      2025-11-23 A D 3-3 v Jablonec
+    Round 17      2025-11-30 H W 2-1 v Mlada Boleslav
+    Round 18      2025-12-06 A L 0-3 v Slovacko
+    Round 19      2025-12-14 H W 2-0 v Dukla Prague
+    Round 20      2026-02-01 A W 2-0 v Karvina
+    Round 21      2026-02-08 H W 3-1 v Slovan Liberec
+    Round 22      2026-02-14 A W 2-1 v Sigma Olomouc
+    Round 23      2026-02-22 H D 0-0 v Sparta Prague
+    Round 24      2026-03-01 A L 0-3 v Zlin
+    Round 25      2026-03-08 A W 3-0 v Hradec Kralove
+    Round 26      2026-03-15 H W 2-0 v Bohemians 1905
+    Round 27      2026-04-04 H D 2-2 v Teplice
+    Round 28      2026-04-12 A D 0-0 v Slavia Prague
+    Round 29      2026-04-19 H L 0-1 v Pardubice
+    Round 30      2026-04-25 A W 1-0 v Banik Ostrava
+    Titul R31     2026-05-03 H W 3-1 v Hradec Kralove
+    Titul R32     2026-05-09 H W 2-0 v Slovan Liberec
+    Titul R33     2026-05-12 A D 0-0 v Sparta Prague
+    Titul R34     2026-05-17 H W 5-0 v Jablonec
+    Titul R35     2026-05-24 A L 0-3 v Slavia Prague
+  Slavia Prague    [Titul] 35 games  W24 D 8 L 3 GF 74 GA 31
+    Round 1       2025-07-20 H D 2-2 v Hradec Kralove
+    Round 2       2025-07-26 A W 2-0 v Bohemians 1905
+    Round 3       2025-08-03 A W 1-0 v Slovacko
+    Round 4       2025-08-09 H W 3-0 v Teplice
+    Round 5       2025-08-16 A D 1-1 v Jablonec
+    Round 6       2025-08-23 H W 3-1 v Pardubice
+    Round 7       2025-08-30 A W 3-1 v Mlada Boleslav
+    Round 8       2025-09-13 H W 3-1 v Karvina
+    Round 9       2025-09-21 A D 1-1 v Slovan Liberec
+    Round 10      2025-09-26 H W 2-0 v Dukla Prague
+    Round 11      2025-10-05 A D 1-1 v Sparta Prague
+    Round 12      2025-10-18 H D 0-0 v Zlin
+    Round 13      2025-10-26 A D 0-0 v Sigma Olomouc
+    Round 14      2025-11-01 H W 2-0 v Banik Ostrava
+    Round 15      2025-11-09 A W 5-3 v Viktoria Plzen
+    Round 16      2025-11-22 H W 3-1 v Bohemians 1905
+    Round 17      2025-11-29 H W 3-0 v Slovacko
+    Round 18      2025-12-05 A W 2-1 v Teplice
+    Round 19      2025-12-13 H W 4-3 v Jablonec
+    Round 20      2026-02-01 A D 1-1 v Pardubice
+    Round 21      2026-02-07 H W 4-0 v Mlada Boleslav
+    Round 22      2026-02-14 A W 3-1 v Karvina
+    Round 23      2026-02-21 H W 1-0 v Slovan Liberec
+    Round 24      2026-02-27 A W 2-0 v Dukla Prague
+    Round 25      2026-03-08 H W 3-1 v Sparta Prague
+    Round 26      2026-03-14 A W 3-1 v Zlin
+    Round 27      2026-04-05 A W 2-0 v Banik Ostrava
+    Round 28      2026-04-12 H D 0-0 v Viktoria Plzen
+    Round 29      2026-04-19 A L 1-2 v Hradec Kralove
+    Round 30      2026-04-25 H W 2-1 v Sigma Olomouc
+    Titul R31     2026-05-02 A W 2-1 v Slovan Liberec
+    Titul R32     2026-05-09 H L 0-3 v Sparta Prague
+    Titul R33     2026-05-13 H W 5-1 v Jablonec
+    Titul R34     2026-05-17 A L 1-3 v Hradec Kralove
+    Titul R35     2026-05-24 H W 3-0 v Viktoria Plzen
+  Slovacko         [Zachranu] 37 games  W 9 D 9 L19 GF 37 GA 52
+    Round 1       2025-07-20 H L 0-1 v Sigma Olomouc
+    Round 2       2025-07-26 A D 1-1 v Zlin
+    Round 3       2025-08-03 H L 0-1 v Slavia Prague
+    Round 4       2025-08-09 A D 1-1 v Viktoria Plzen
+    Round 5       2025-08-16 H W 2-1 v Teplice
+    Round 6       2025-08-24 A L 0-2 v Banik Ostrava
+    Round 7       2025-08-30 H L 0-2 v Jablonec
+    Round 8       2025-09-14 A L 0-1 v Bohemians 1905
+    Round 9       2025-09-20 A D 1-1 v Pardubice
+    Round 10      2025-09-27 H L 1-2 v Karvina
+    Round 11      2025-10-04 A D 0-0 v Mlada Boleslav
+    Round 12      2025-10-19 H D 0-0 v Sparta Prague
+    Round 13      2025-10-25 A L 0-1 v Dukla Prague
+    Round 14      2025-11-01 H L 0-3 v Slovan Liberec
+    Round 15      2025-11-08 A L 0-4 v Hradec Kralove
+    Round 16      2025-11-23 H W 2-0 v Zlin
+    Round 17      2025-11-29 A L 0-3 v Slavia Prague
+    Round 18      2025-12-06 H W 3-0 v Viktoria Plzen
+    Round 19      2025-12-13 A L 0-1 v Teplice
+    Round 20      2026-02-01 H D 2-2 v Banik Ostrava
+    Round 21      2026-02-07 A D 0-0 v Jablonec
+    Round 22      2026-02-14 H L 1-2 v Bohemians 1905
+    Round 23      2026-02-21 H W 2-0 v Pardubice
+    Round 24      2026-03-01 A W 2-0 v Karvina
+    Round 25      2026-03-07 H D 2-2 v Mlada Boleslav
+    Round 26      2026-03-15 A L 2-5 v Sparta Prague
+    Round 27      2026-04-04 A L 1-2 v Slovan Liberec
+    Round 28      2026-04-11 H L 1-3 v Hradec Kralove
+    Round 29      2026-04-19 A L 1-2 v Sigma Olomouc
+    Round 30      2026-04-25 H L 1-2 v Dukla Prague
+    Zachranu R31  2026-05-03 A D 1-1 v Teplice
+    Zachranu R32  2026-05-09 A W 1-0 v Dukla Prague
+    Zachranu R33  2026-05-12 H W 2-1 v Banik Ostrava
+    Zachranu R34  2026-05-16 H L 0-3 v Mlada Boleslav
+    Zachranu R35  2026-05-23 A L 0-1 v Zlin
+    Playoff leg1  2026-05-27 A W 4-1 v Artis Brno
+    Playoff leg2  2026-05-31 H W 3-0 v Artis Brno
+  Sparta Prague    [Titul] 35 games  W23 D 7 L 5 GF 69 GA 34
+    Round 1       2025-07-19 A D 1-1 v Jablonec
+    Round 2       2025-07-27 H W 3-2 v Mlada Boleslav
+    Round 3       2025-08-03 A W 3-1 v Pardubice
+    Round 4       2025-08-10 H W 1-0 v Sigma Olomouc
+    Round 5       2025-08-17 A W 2-0 v Slovan Liberec
+    Round 6       2025-08-24 H W 3-2 v Dukla Prague
+    Round 7       2025-08-31 H W 3-1 v Zlin
+    Round 8       2025-09-14 A L 1-2 v Hradec Kralove
+    Round 9       2025-09-20 H W 2-1 v Viktoria Plzen
+    Round 10      2025-09-27 A W 3-0 v Banik Ostrava
+    Round 11      2025-10-05 H D 1-1 v Slavia Prague
+    Round 12      2025-10-19 A D 0-0 v Slovacko
+    Round 13      2025-10-28 H W 2-1 v Bohemians 1905
+    Round 14      2025-11-02 A L 1-2 v Karvina
+    Round 15      2025-11-09 H D 2-2 v Teplice
+    Round 16      2025-11-22 A W 2-1 v Mlada Boleslav
+    Round 17      2025-11-30 H L 2-4 v Pardubice
+    Round 18      2025-12-06 A W 1-0 v Sigma Olomouc
+    Round 19      2025-12-14 H D 2-2 v Slovan Liberec
+    Round 20      2026-01-31 A W 3-0 v Dukla Prague
+    Round 21      2026-02-08 A W 3-0 v Zlin
+    Round 22      2026-02-15 H W 2-0 v Hradec Kralove
+    Round 23      2026-02-22 A D 0-0 v Viktoria Plzen
+    Round 24      2026-02-28 H W 5-2 v Banik Ostrava
+    Round 25      2026-03-08 A L 1-3 v Slavia Prague
+    Round 26      2026-03-15 H W 5-2 v Slovacko
+    Round 27      2026-04-05 H W 2-0 v Karvina
+    Round 28      2026-04-12 A W 1-0 v Teplice
+    Round 29      2026-04-18 H W 3-1 v Jablonec
+    Round 30      2026-04-25 A L 0-2 v Bohemians 1905
+    Titul R31     2026-05-03 H W 2-0 v Jablonec
+    Titul R32     2026-05-09 A W 3-0 v Slavia Prague
+    Titul R33     2026-05-12 H D 0-0 v Viktoria Plzen
+    Titul R34     2026-05-17 A W 2-0 v Slovan Liberec
+    Titul R35     2026-05-24 H W 2-1 v Hradec Kralove
+  Teplice          [Zachranu] 35 games  W10 D12 L13 GF 40 GA 42
+    Round 1       2025-07-19 H L 1-3 v Zlin
+    Round 3       2025-08-02 H W 3-0 v Bohemians 1905
+    Round 4       2025-08-09 A L 0-3 v Slavia Prague
+    Round 5       2025-08-16 A L 1-2 v Slovacko
+    Round 6       2025-08-23 H L 0-1 v Jablonec
+    Round 7       2025-08-30 A L 1-4 v Karvina
+    Round 8       2025-09-13 H L 2-3 v Mlada Boleslav
+    Round 2       2025-09-17 A D 1-1 v Banik Ostrava
+    Round 9       2025-09-20 A D 0-0 v Sigma Olomouc
+    Round 10      2025-09-28 H D 0-0 v Pardubice
+    Round 11      2025-10-04 A W 3-1 v Dukla Prague
+    Round 12      2025-10-18 H D 1-1 v Slovan Liberec
+    Round 13      2025-10-25 A D 0-0 v Hradec Kralove
+    Round 14      2025-11-02 H L 1-2 v Viktoria Plzen
+    Round 15      2025-11-09 A D 2-2 v Sparta Prague
+    Round 16      2025-11-22 H W 1-0 v Banik Ostrava
+    Round 17      2025-11-30 A W 1-0 v Bohemians 1905
+    Round 18      2025-12-05 H L 1-2 v Slavia Prague
+    Round 19      2025-12-13 H W 1-0 v Slovacko
+    Round 20      2026-01-31 A L 0-1 v Jablonec
+    Round 21      2026-02-07 H W 2-0 v Karvina
+    Round 22      2026-02-15 A D 0-0 v Mlada Boleslav
+    Round 23      2026-02-22 H L 1-3 v Sigma Olomouc
+    Round 24      2026-02-28 A D 1-1 v Pardubice
+    Round 25      2026-03-07 H D 0-0 v Dukla Prague
+    Round 26      2026-03-15 A D 1-1 v Slovan Liberec
+    Round 27      2026-04-04 A D 2-2 v Viktoria Plzen
+    Round 28      2026-04-12 H L 0-1 v Sparta Prague
+    Round 29      2026-04-18 A L 2-3 v Zlin
+    Round 30      2026-04-25 H L 0-1 v Hradec Kralove
+    Zachranu R31  2026-05-03 H D 1-1 v Slovacko
+    Zachranu R32  2026-05-09 H W 2-1 v Banik Ostrava
+    Zachranu R33  2026-05-12 A W 4-2 v Zlin
+    Zachranu R34  2026-05-16 H W 2-0 v Dukla Prague
+    Zachranu R35  2026-05-23 A W 2-0 v Mlada Boleslav
+  Zlin             [Zachranu] 35 games  W11 D 8 L16 GF 43 GA 56
+    Round 1       2025-07-19 A W 3-1 v Teplice
+    Round 2       2025-07-26 H D 1-1 v Slovacko
+    Round 3       2025-08-02 A W 1-0 v Karvina
+    Round 4       2025-08-09 H W 3-2 v Mlada Boleslav
+    Round 5       2025-08-16 A L 0-1 v Sigma Olomouc
+    Round 6       2025-08-23 H W 1-0 v Slovan Liberec
+    Round 7       2025-08-31 A L 1-3 v Sparta Prague
+    Round 8       2025-09-13 H D 1-1 v Dukla Prague
+    Round 9       2025-09-20 H L 1-2 v Hradec Kralove
+    Round 10      2025-09-28 A W 1-0 v Viktoria Plzen
+    Round 11      2025-10-05 H D 1-1 v Banik Ostrava
+    Round 12      2025-10-18 A D 0-0 v Slavia Prague
+    Round 13      2025-10-25 H D 2-2 v Pardubice
+    Round 14      2025-11-01 A W 3-1 v Jablonec
+    Round 15      2025-11-08 H L 0-1 v Bohemians 1905
+    Round 16      2025-11-23 A L 0-2 v Slovacko
+    Round 17      2025-11-29 H L 1-3 v Karvina
+    Round 18      2025-12-06 A L 1-3 v Mlada Boleslav
+    Round 19      2025-12-14 H W 5-0 v Sigma Olomouc
+    Round 20      2026-02-01 A L 0-2 v Slovan Liberec
+    Round 21      2026-02-08 H L 0-3 v Sparta Prague
+    Round 22      2026-02-14 A D 0-0 v Dukla Prague
+    Round 23      2026-02-21 A D 0-0 v Hradec Kralove
+    Round 24      2026-03-01 H W 3-0 v Viktoria Plzen
+    Round 25      2026-03-08 A L 2-6 v Banik Ostrava
+    Round 26      2026-03-14 H L 1-3 v Slavia Prague
+    Round 27      2026-04-04 H L 0-3 v Jablonec
+    Round 28      2026-04-11 A L 1-2 v Bohemians 1905
+    Round 29      2026-04-18 H W 3-2 v Teplice
+    Round 30      2026-04-25 A L 1-3 v Pardubice
+    Zachranu R31  2026-05-02 H W 2-1 v Dukla Prague
+    Zachranu R32  2026-05-09 A D 1-1 v Mlada Boleslav
+    Zachranu R33  2026-05-12 H L 2-4 v Teplice
+    Zachranu R34  2026-05-16 A L 0-2 v Banik Ostrava
+    Zachranu R35  2026-05-23 H W 1-0 v Slovacko
+
+### FNL PRO/REL OPPONENTS (owner-sanctioned Czech Relegation Playoffs block; 2 legs each; CZ2/FNL tier in-window)
+  Artis Brno 2 games
+    Playoff leg1  2026-05-27 H L 1-4 v Slovacko
+    Playoff leg2  2026-05-31 A L 0-3 v Slovacko
+  Chrudim    2 games
+    Playoff leg1  2025-05-28 A L 0-2 v Pardubice
+    Playoff leg2  2025-06-01 H W 1-0 v Pardubice
+  Opava      2 games
+    Playoff leg1  2022-05-19 H L 0-1 v Bohemians 1905
+    Playoff leg2  2022-05-22 A L 0-2 v Bohemians 1905
+  Pribram    2 games
+    Playoff leg1  2023-06-01 H L 0-2 v Pardubice
+    Playoff leg2  2023-06-04 A D 0-0 v Pardubice
+  Taborsko   4 games
+    Playoff leg1  2024-05-30 A L 1-2 v Ceske Budejovice
+    Playoff leg2  2024-06-02 H D 1-1 v Ceske Budejovice
+    Playoff leg1  2026-05-26 A L 0-3 v Banik Ostrava
+    Playoff leg2  2026-05-30 H L 0-5 v Banik Ostrava
+  Vlasim     2 games
+    Playoff leg1  2022-05-19 A L 0-3 v Teplice
+    Playoff leg2  2022-05-22 H D 2-2 v Teplice
+  Vyskov     6 games
+    Playoff leg1  2023-06-01 A L 0-1 v Zlin
+    Playoff leg2  2023-06-04 H D 0-0 v Zlin
+    Playoff leg1  2024-05-30 H L 0-1 v Karvina
+    Playoff leg2  2024-06-02 A L 0-1 v Karvina
+    Playoff leg1  2025-05-28 H D 0-0 v Dukla Prague
+    Playoff leg2  2025-06-01 A D 1-1 v Dukla Prague

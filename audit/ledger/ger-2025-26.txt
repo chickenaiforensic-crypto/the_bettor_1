@@ -1,0 +1,72 @@
+# GER Bundesliga 2025-26 - PRIMARY TRANSCRIPTION, SOURCE_ADAPTATION SEASON
+# (WO-GER-SPAN-15 on DECREE-2026-08-04)
+# Source: https://www.rsssf.org/tablesd/duit2026.html - "Germany 2025/26" (Karel Stokkermans,
+# footer "Last updated: 18 Jun 2026"). Fetched 2026-08-05 (2 chunks = full page; CORRECTED
+# revision); raw transcription data/raw/rsssf-duit2026-1bl.txt.
+# SOURCE_ADAPTATION: this RSSSF page prints NO 1.Bundesliga round-by-round section (table +
+# playoffs + cups only) => the 306 league rows are carried by openfootball/deutschland
+# 2025-26/1-bundesliga.txt (format B), and the TABLE constants below gate that carrier
+# club-for-club exactly like the FRA 2025-26 adaptation. The Wikipedia 2025-26 FBR results
+# matrix (306 cells) is the independent second index (audit/ledger/ger-2ndidx-2025-26-MX.txt).
+# ==== ANOMALIES (documented):
+#  (a) QUARANTINE: an interim garbled revision of the duit2026 1.BL table was briefly served
+#      on first fetch (stale playoff placement); on re-fetch the corrected revision printed
+#      below was served and is the gated truth. NO pack row was ever taken from the garbled
+#      interim print - disclosed here as an anomaly; NOT a source_conflict (self-healed
+#      revision, agrees 18/18 with the wiki 2025-26 league table).
+#  (b) Pro/rel playoff (1./2. tiers): Wolfsburg 0-0 Paderborn [May 21], Paderborn 2-1
+#      Wolfsburg [May 25, aet] => PADERBORN PROMOTED, Wolfsburg relegated (first promotion
+#      via playoff in the window). 90-minute doctrine VERIFIED against the wiki match
+#      detail (2026-08-05): leg-2 regulation goals Pejcinovic 3' (WOB) and Bilbija 38'
+#      (PAD), ET winner Curda 100' => the 90-minute row is 1-1 (row below corrected from
+#      the RSSSF aet print), advancement NOTE carries the 2-1 aet outcome. The 2./3.
+#      playoff (RW Essen-Greuther Fürth) stays NOT-COMMISSIONED context.
+#  (c) Bayern champions [C] with a league-record 122 goals (34th title, clinched 2026-04-19
+#      per the wiki season article; season anchors 306 matches / 990 goals /
+#      2025-08-22..2026-05-16).
+# ===== RSSSF FINAL TABLE (verbatim constants; parser-emitted machine rows)
+TABLE|2025-26|1|Bayern|34|28|5|1|122|36|89|[C] Champions
+TABLE|2025-26|2|Dortmund|34|22|7|5|70|34|73|
+TABLE|2025-26|3|RBLeipzig|34|20|5|9|66|47|65|
+TABLE|2025-26|4|Stuttgart|34|18|8|8|71|49|62|
+TABLE|2025-26|5|Hoffenheim|34|18|7|9|65|52|61|
+TABLE|2025-26|6|Leverkusen|34|17|8|9|68|47|59|
+TABLE|2025-26|7|Freiburg|34|13|8|13|51|57|47|
+TABLE|2025-26|8|Frankfurt|34|11|11|12|61|65|44|
+TABLE|2025-26|9|Augsburg|34|12|7|15|45|61|43|
+TABLE|2025-26|10|Mainz|34|10|10|14|44|53|40|
+TABLE|2025-26|11|UnionBerlin|34|10|9|15|44|58|39|
+TABLE|2025-26|12|Mgladbach|34|9|11|14|42|53|38|
+TABLE|2025-26|13|Hamburg|34|9|11|14|40|54|38|[P]
+TABLE|2025-26|14|FCKoln|34|7|11|16|49|63|32|[P]
+TABLE|2025-26|15|WerderBremen|34|8|8|18|37|60|32|
+TABLE|2025-26|16|Wolfsburg|34|7|8|19|45|69|29|Relegation Playoff
+TABLE|2025-26|17|Heidenheim|34|6|8|20|41|72|26|Relegated
+TABLE|2025-26|18|StPauli|34|6|8|20|29|60|26|Relegated
+
+## PO_PLAYOFF (90-minute doctrine; 1./2. legs SHIP as compType other per ERRATA-2026-08-03;
+#  2./3. legs = 2nd/3rd tier internal context only, NOT commissioned)
+PO_PLAYOFF|2025-26|Final-1|2026-05-21|Wolfsburg|0|0|SCPaderborn||SHIP-as-other
+PO_PLAYOFF|2025-26|Final-2|2026-05-25|SCPaderborn|1|1|Wolfsburg|aet; FT final 2-1 after ET (Curda 100)|SHIP-as-other|NB SC Paderborn promoted, VfL Wolfsburg relegated
+PO_PLAYOFF|2025-26|L2-1|2026-05-22|RWEssen|1|0|GreutherFurth||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-2|2026-05-26|GreutherFurth|2|0|RWEssen||NOT-COMMISSIONED-L2-internal
+
+## TABLE2 (2. Bundesliga final table context; promotion/relegation boundary gate input)
+TABLE2|2025-26|1|FC Schalke 04 Gelsenkirchen|34|21|7|6|50|31|70|Promoted
+TABLE2|2025-26|2|SV 07 Elversberg|34|18|8|8|64|39|62|Promoted
+TABLE2|2025-26|3|SC Paderborn 07|34|18|8|8|59|45|62|Promotion Playoff
+TABLE2|2025-26|4|Hannover 96|34|16|12|6|60|44|60|
+TABLE2|2025-26|5|SV Darmstadt 98|34|13|13|8|57|45|52|
+TABLE2|2025-26|6|1.FC Kaiserslautern|34|16|4|14|52|47|52|
+TABLE2|2025-26|7|Hertha BSC Berlin|34|14|9|11|47|44|51|
+TABLE2|2025-26|8|1.FC Nürnberg|34|12|10|12|47|45|46|
+TABLE2|2025-26|9|VfL Bochum|34|11|11|12|49|47|44|[R]
+TABLE2|2025-26|10|Karlsruher SC|34|12|8|14|53|64|44|
+TABLE2|2025-26|11|Dynamo Dresden|34|11|8|15|54|53|41|[P]
+TABLE2|2025-26|12|Holstein Kiel|34|11|8|15|44|48|41|[R]
+TABLE2|2025-26|13|DSC Arminia Bielefeld|34|10|9|15|53|51|39|[P]
+TABLE2|2025-26|14|1.FC Magdeburg|34|12|3|19|52|58|39|
+TABLE2|2025-26|15|Eintracht Braunschweig|34|10|7|17|36|54|37|
+TABLE2|2025-26|16|SpVgg Greuther Fürth|34|10|7|17|49|68|37|Relegation Playoff
+TABLE2|2025-26|17|Fortuna Düsseldorf|34|11|4|19|33|53|37|Relegated
+TABLE2|2025-26|18|Preußen Münster|34|6|12|16|38|61|30|Relegated

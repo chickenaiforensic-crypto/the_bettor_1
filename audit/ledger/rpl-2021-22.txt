@@ -1,0 +1,248 @@
+# RPL 2021/22 league — RSSSF rus2022.html #1l (rounds 1-30) + #prorel, transcribed 2026-08-03
+# MD|date|home|hg|ag|away   (RSSSF compact club strings; builder maps to roster strings)
+# notable: R19 games Rostov-KS Samara (played Apr 6) and Krasnodar-Lokomotiv (played May 4) were postponed
+R1|2021-07-23|Rostov|0|2|Dinamo
+R1|2021-07-24|Khimki|1|3|Zenit
+R1|2021-07-24|Rubin|1|0|Spartak
+R1|2021-07-24|Lokomotiv|3|1|Arsenal
+R1|2021-07-25|CSKA|1|0|Ufa
+R1|2021-07-25|Ural|0|3|Krasnodar
+R1|2021-07-25|KS Samara|1|2|Ahmat
+R1|2021-07-26|NNovgorod|1|0|Sochi
+R2|2021-07-30|Arsenal|0|3|Rubin
+R2|2021-07-30|KS Samara|0|1|Spartak
+R2|2021-07-31|CSKA|1|2|Lokomotiv
+R2|2021-07-31|Ufa|2|3|Dinamo
+R2|2021-08-01|Krasnodar|0|1|Khimki
+R2|2021-08-01|Rostov|2|4|Zenit
+R2|2021-08-01|Ural|1|1|NNovgorod
+R2|2021-08-02|Ahmat|1|2|Sochi
+R3|2021-08-06|Ufa|1|1|Lokomotiv
+R3|2021-08-07|Zenit|3|2|Krasnodar
+R3|2021-08-07|Spartak|1|2|NNovgorod
+R3|2021-08-07|Arsenal|2|1|KS Samara
+R3|2021-08-08|Rubin|2|1|Ahmat
+R3|2021-08-08|Dinamo|2|1|CSKA
+R3|2021-08-08|Khimki|1|1|Rostov
+R3|2021-08-09|Sochi|2|0|Ural
+R4|2021-08-14|Ahmat|2|1|Dinamo
+R4|2021-08-14|NNovgorod|1|2|Ufa
+R4|2021-08-14|Rostov|1|3|CSKA
+R4|2021-08-14|Spartak|1|0|Ural
+R4|2021-08-15|Lokomotiv|1|1|Zenit
+R4|2021-08-15|Rubin|1|1|KS Samara
+R4|2021-08-15|Krasnodar|3|2|Arsenal
+R4|2021-08-16|Sochi|3|0|Khimki
+R5|2021-08-21|Ufa|1|1|Zenit
+R5|2021-08-21|KS Samara|1|0|Sochi
+R5|2021-08-21|Ural|0|1|Dinamo
+R5|2021-08-21|CSKA|2|0|Ahmat
+R5|2021-08-21|Arsenal|1|1|Spartak
+R5|2021-08-22|Khimki|1|1|Rubin
+R5|2021-08-22|Lokomotiv|2|1|Krasnodar
+R5|2021-08-22|NNovgorod|1|2|Rostov
+R6|2021-08-26|Zenit|1|0|CSKA
+R6|2021-08-26|Spartak|1|2|Sochi
+R6|2021-08-26|Ahmat|2|1|Arsenal
+R6|2021-08-26|Ufa|1|2|KS Samara
+R6|2021-08-27|Dinamo|1|1|Lokomotiv
+R6|2021-08-27|Krasnodar|2|0|Rubin
+R6|2021-08-27|Khimki|1|1|NNovgorod
+R6|2021-08-27|Ural|1|1|Rostov
+R7|2021-09-11|Zenit|3|1|Ahmat
+R7|2021-09-11|Lokomotiv|2|0|KS Samara
+R7|2021-09-11|Spartak|3|1|Khimki
+R7|2021-09-12|Dinamo|1|2|NNovgorod
+R7|2021-09-12|Sochi|3|1|Ufa
+R7|2021-09-12|Arsenal|2|2|CSKA
+R7|2021-09-13|Rubin|4|0|Ural
+R7|2021-09-13|Rostov|1|1|Krasnodar
+R8|2021-09-18|Ahmat|0|2|Krasnodar
+R8|2021-09-18|KS Samara|4|2|Rostov
+R8|2021-09-18|Ufa|3|2|Khimki
+R8|2021-09-19|Sochi|0|1|Dinamo
+R8|2021-09-19|NNovgorod|2|3|Arsenal
+R8|2021-09-20|Rubin|1|3|Zenit
+R8|2021-09-20|Ural|0|0|Lokomotiv
+R8|2021-09-20|CSKA|1|0|Spartak
+R9|2021-09-25|Zenit|2|1|KS Samara
+R9|2021-09-25|Khimki|0|0|Lokomotiv
+R9|2021-09-25|Spartak|2|0|Ufa
+R9|2021-09-26|Dinamo|2|0|Rubin
+R9|2021-09-26|Krasnodar|3|0|Sochi
+R9|2021-09-26|Rostov|1|2|Ahmat
+R9|2021-09-27|NNovgorod|0|2|CSKA
+R9|2021-09-27|Ural|2|0|Arsenal
+R10|2021-10-02|Dinamo|0|1|KS Samara
+R10|2021-10-02|CSKA|0|0|Krasnodar
+R10|2021-10-02|Rubin|0|1|NNovgorod
+R10|2021-10-02|Arsenal|0|0|Khimki
+R10|2021-10-03|Zenit|1|2|Sochi
+R10|2021-10-03|Lokomotiv|1|2|Rostov
+R10|2021-10-03|Ahmat|0|1|Spartak
+R10|2021-10-03|Ufa|0|1|Ural
+R11|2021-10-16|Arsenal|2|1|Zenit
+R11|2021-10-16|Spartak|2|2|Dinamo
+R11|2021-10-16|Sochi|3|2|Rostov
+R11|2021-10-16|Rubin|2|2|Lokomotiv
+R11|2021-10-17|Krasnodar|1|1|Ufa
+R11|2021-10-17|Ural|0|1|CSKA
+R11|2021-10-17|KS Samara|2|0|NNovgorod
+R11|2021-10-17|Khimki|2|0|Ahmat
+R12|2021-10-22|Dinamo|4|1|Khimki
+R12|2021-10-23|CSKA|3|1|KS Samara
+R12|2021-10-23|NNovgorod|1|4|Krasnodar
+R12|2021-10-23|Rostov|4|0|Arsenal
+R12|2021-10-24|Zenit|7|1|Spartak
+R12|2021-10-24|Ufa|1|1|Rubin
+R12|2021-10-24|Ahmat|1|0|Ural
+R12|2021-10-25|Lokomotiv|2|1|Sochi
+R13|2021-10-29|Zenit|4|1|Dinamo
+R13|2021-10-30|Rubin|1|0|CSKA
+R13|2021-10-30|Krasnodar|0|1|KS Samara
+R13|2021-10-30|NNovgorod|1|2|Lokomotiv
+R13|2021-10-30|Spartak|1|1|Rostov
+R13|2021-10-31|Arsenal|1|2|Sochi
+R13|2021-10-31|Ufa|1|0|Ahmat
+R13|2021-10-31|Khimki|0|0|Ural
+R14|2021-11-06|Sochi|4|1|CSKA
+R14|2021-11-06|Dinamo|1|0|Krasnodar
+R14|2021-11-06|KS Samara|3|0|Khimki
+R14|2021-11-06|Arsenal|0|0|Ufa
+R14|2021-11-07|Ural|0|0|Zenit
+R14|2021-11-07|Spartak|1|1|Lokomotiv
+R14|2021-11-07|Rostov|5|1|Rubin
+R14|2021-11-07|Ahmat|3|1|NNovgorod
+R15|2021-11-19|Zenit|5|1|NNovgorod
+R15|2021-11-20|Lokomotiv|1|2|Ahmat
+R15|2021-11-20|KS Samara|1|1|Ural
+R15|2021-11-20|Krasnodar|2|1|Spartak
+R15|2021-11-21|Sochi|1|2|Rubin
+R15|2021-11-21|Dinamo|5|1|Arsenal
+R15|2021-11-21|CSKA|0|0|Khimki
+R15|2021-11-21|Rostov|2|2|Ufa
+R16|2021-11-27|Ural|1|1|Sochi
+R16|2021-11-27|Khimki|3|3|Krasnodar
+R16|2021-11-27|Ahmat|2|0|Rostov
+R16|2021-11-28|CSKA|0|2|Zenit
+R16|2021-11-28|Rubin|2|3|Dinamo
+R16|2021-11-28|NNovgorod|0|0|KS Samara
+R16|2021-11-29|Arsenal|3|1|Lokomotiv
+R16|2021-11-29|Ufa|1|1|Spartak
+R17|2021-12-03|Zenit|2|2|Rostov
+R17|2021-12-04|Lokomotiv|0|1|Ural
+R17|2021-12-04|KS Samara|0|1|CSKA
+R17|2021-12-04|Spartak|2|1|Ahmat
+R17|2021-12-05|Dinamo|2|0|Ufa
+R17|2021-12-05|Sochi|1|2|Krasnodar
+R17|2021-12-05|NNovgorod|2|1|Rubin
+R17|2021-12-05|Khimki|1|2|Arsenal
+R18|2021-12-11|CSKA|2|0|Arsenal
+R18|2021-12-11|KS Samara|2|0|Rubin
+R18|2021-12-11|Rostov|1|4|Ural
+R18|2021-12-12|Dinamo|1|1|Zenit
+R18|2021-12-12|Krasnodar|0|0|NNovgorod
+R18|2021-12-12|Lokomotiv|2|0|Ufa
+R18|2021-12-12|Ahmat|4|1|Khimki
+R18|2021-12-13|Sochi|3|0|Spartak
+R19|2022-02-26|Khimki|0|3|Dinamo
+R19|2022-02-26|Sochi|2|0|Arsenal
+R19|2022-02-26|Spartak|0|2|CSKA
+R19|2022-02-26|NNovgorod|1|0|Ural
+R19|2022-02-27|Ahmat|2|1|Ufa
+R19|2022-02-28|Zenit|3|2|Rubin
+R19|2022-04-06|Rostov|1|0|KS Samara
+R19|2022-05-04|Krasnodar|1|0|Lokomotiv
+R20|2022-03-05|CSKA|1|0|NNovgorod
+R20|2022-03-06|Dinamo|0|2|Spartak
+R20|2022-03-06|Lokomotiv|3|2|Khimki
+R20|2022-03-06|KS Samara|2|2|Arsenal
+R20|2022-03-07|Zenit|2|0|Ufa
+R20|2022-03-07|Rostov|0|1|Sochi
+R20|2022-03-07|Ahmat|1|2|Rubin
+R20|2022-03-07|Krasnodar|2|1|Ural
+R21|2022-03-12|Arsenal|1|4|Dinamo
+R21|2022-03-12|Lokomotiv|1|2|CSKA
+R21|2022-03-12|Ufa|0|0|NNovgorod
+R21|2022-03-13|KS Samara|1|1|Zenit
+R21|2022-03-13|Khimki|0|0|Sochi
+R21|2022-03-13|Spartak|1|2|Krasnodar
+R21|2022-03-13|Ural|0|0|Ahmat
+R21|2022-03-14|Rubin|1|2|Rostov
+R22|2022-03-19|Zenit|3|0|Arsenal
+R22|2022-03-19|Ahmat|2|3|Lokomotiv
+R22|2022-03-19|NNovgorod|1|1|Spartak
+R22|2022-03-19|Ural|0|1|Khimki
+R22|2022-03-20|Dinamo|1|1|Rostov
+R22|2022-03-20|CSKA|6|1|Rubin
+R22|2022-03-20|Sochi|2|3|KS Samara
+R22|2022-03-20|Ufa|1|1|Krasnodar
+R23|2022-04-01|Rubin|2|3|Khimki
+R23|2022-04-02|Lokomotiv|1|0|Spartak
+R23|2022-04-02|KS Samara|1|2|Ufa
+R23|2022-04-02|Arsenal|0|0|Ahmat
+R23|2022-04-02|Rostov|1|2|NNovgorod
+R23|2022-04-03|Sochi|0|0|Zenit
+R23|2022-04-03|Krasnodar|0|1|Dinamo
+R23|2022-04-03|CSKA|2|2|Ural
+R24|2022-04-09|Ahmat|0|2|Zenit
+R24|2022-04-09|NNovgorod|0|1|Dinamo
+R24|2022-04-09|Khimki|4|2|CSKA
+R24|2022-04-09|Rubin|0|1|Krasnodar
+R24|2022-04-10|Ufa|1|2|Sochi
+R24|2022-04-10|Rostov|4|1|Lokomotiv
+R24|2022-04-10|Ural|0|1|KS Samara
+R24|2022-04-10|Spartak|3|0|Arsenal
+R25|2022-04-15|Dinamo|2|0|Ahmat
+R25|2022-04-16|Zenit|3|1|Ural
+R25|2022-04-16|Ufa|1|1|CSKA
+R25|2022-04-16|Spartak|1|1|Rubin
+R25|2022-04-17|Sochi|2|2|Lokomotiv
+R25|2022-04-17|KS Samara|2|0|Krasnodar
+R25|2022-04-17|Arsenal|1|2|Rostov
+R25|2022-04-17|NNovgorod|0|0|Khimki
+R26|2022-04-23|Sochi|3|2|Ahmat
+R26|2022-04-23|Lokomotiv|2|1|NNovgorod
+R26|2022-04-23|Ural|2|1|Ufa
+R26|2022-04-24|CSKA|1|0|Dinamo
+R26|2022-04-24|Khimki|4|1|KS Samara
+R26|2022-04-24|Rostov|3|2|Spartak
+R26|2022-04-24|Rubin|1|0|Arsenal
+R26|2022-04-25|Krasnodar|1|3|Zenit
+R27|2022-04-30|Zenit|3|1|Lokomotiv
+R27|2022-04-30|Dinamo|2|3|Ural
+R27|2022-04-30|Rubin|0|6|Sochi
+R27|2022-04-30|Krasnodar|2|1|Rostov
+R27|2022-05-01|Ahmat|2|0|CSKA
+R27|2022-05-01|Spartak|2|1|KS Samara
+R27|2022-05-01|Khimki|1|1|Ufa
+R27|2022-05-02|Arsenal|2|2|NNovgorod
+R28|2022-05-06|KS Samara|5|2|Dinamo
+R28|2022-05-07|Zenit|1|0|Khimki
+R28|2022-05-07|CSKA|0|1|Sochi
+R28|2022-05-07|NNovgorod|0|1|Ahmat
+R28|2022-05-07|Ural|1|3|Spartak
+R28|2022-05-08|Arsenal|1|1|Krasnodar
+R28|2022-05-08|Lokomotiv|1|0|Rubin
+R28|2022-05-08|Ufa|0|0|Rostov
+R29|2022-05-13|Sochi|0|0|NNovgorod
+R29|2022-05-14|Lokomotiv|3|3|Dinamo
+R29|2022-05-14|Ahmat|1|0|KS Samara
+R29|2022-05-14|Rostov|2|1|Khimki
+R29|2022-05-14|Ufa|2|1|Arsenal
+R29|2022-05-15|Spartak|1|1|Zenit
+R29|2022-05-15|Krasnodar|1|0|CSKA
+R29|2022-05-15|Ural|3|0|Rubin
+R30|2022-05-21|NNovgorod|1|0|Zenit
+R30|2022-05-21|Dinamo|1|5|Sochi
+R30|2022-05-21|Krasnodar|1|1|Ahmat
+R30|2022-05-21|CSKA|4|0|Rostov
+R30|2022-05-21|KS Samara|0|1|Lokomotiv
+R30|2022-05-21|Khimki|2|1|Spartak
+R30|2022-05-21|Arsenal|1|2|Ural
+R30|2022-05-21|Rubin|1|2|Ufa
+# PLAYOFFS (promotion/relegation, RSSSF #prorel). NB from source: FC Orenburg promoted, FC Ufa relegated; Khimki and SKA stay at former level. Aggregates: Khimki 3-1 SKA; Orenburg 4-3 Ufa. No shootouts.
+PRO-rel leg1|2022-05-25|SKA Khabarovsk|1|0|Khimki
+PRO-rel leg1|2022-05-25|Orenburg|2|2|Ufa
+PRO-rel leg2|2022-05-28|Khimki|3|0|SKA Khabarovsk
+PRO-rel leg2|2022-05-28|Ufa|1|2|Orenburg

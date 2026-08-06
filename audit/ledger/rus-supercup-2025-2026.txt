@@ -1,0 +1,44 @@
+# LEDGER rus-supercup-2025-2026 — Russian Super Cup 2025 + 2026 (ADDENDUM-2026-08-04 REQ-3 + SPEC-2026-08-04 item 3)
+# Captured 2026-08-04 (researcher session). 90-minute CUP doctrine: rows carry the 90-min score; pens outcome in advancement NOTE.
+# Ships in handoffs/RUS-ADDENDUM-2026_BP-TEAM-PACK_v2.txt. compType = domestic-cup (ERRATA-2026-08-03 cup class; choice flagged per the 02-SPEC hard rule "super cups pending builder confirm").
+
+## SPEC PRINTS (commissioning side)
+# 02-SPEC item 3: "Russian Super Cup: 2025 (2025-07-12 Krasnodar 0-1 CSKA) + 2026 (2026-07-18 Zenit 1-1 Spartak, pens 4-2 Zenit) = 2 rows + mandatory advancement NOTE on the 2026 row."
+# 03-ADDENDUM REQ-3: "rus2026.txt #sup confirms 2026: Zenit 1-1 Spartak [pen 4-2], 2026-07-18, Nizhny Novgorod (90-min row = 1-1 + advancement NOTE per doctrine); 2025 game = Zenit vs Krasnodar-class summer 2025 final (verify vs rus2026/rus2027 + report). compType = domestic-cup class per errata; competition string 'Russian Super Cup' to match the store's scope naming."
+# => REQ-3's hedge for 2025 is WRONG: verified pairing is Krasnodar vs CSKA (02-SPEC correct). Reported in the delivery summary.
+
+## PRIMARY VERBATIM 2025 — RSSSF rus2025.html #sup "Russian Super Cup 2025" (fetched 2026-08-04; section sighted at file-chunk 35)
+# FC Krasnodar 0-1 CSKA (Moskva) [Igor Divejev 48]
+#   Red card: M. D. Cobnan (KRA) 89 (slap in the face). Yellow: J. Cordoba-Cop. 90, Diego Costa 90 - I. Divejev 18.
+#   Referee: Artjom Cistjakov (Azov).
+#   12.07.25. Kazan Arena, Kazan [era print]. Att: 34,677. +25°C.
+#   (full lineups transcribed in-session; KRA: Agkacev - Olaza, Diego Costa, Tormena, Giov.Gonzalez - Krivcov, Chernikov - Victor Sa, Spercyan (C), Joao Batxi - Cordoba-Cop. | coach Murad Musajev; CSK: Akinfejev (C) - Gajic, Divejev, Willyan Rocha, Moises - Zumanski - Obljakov, Krugovoj, Kisljak - Glebov, Musajev | coach Fabio Celestini.)
+## PRIMARY VERBATIM 2026 — RSSSF rus2026.html #sup "Russian Super Cup 2026" (fetched 2026-08-04; sighted at file-chunk 36)
+# OLIMPBET RUSSIAN SUPER CUP 2026
+# Zenit (Sankt-Peterburg) 1-1 Spartak (Moskva) [pen 4-2]
+#   [Aleksandr Sobolev 90+8 pen - Christopher Martins 25]
+#   Shoot-out: 1-0 I.Divejev, 1-1 P.Solari, 2-1 Felipe Augusto, 2-1x N.Umyarov/held, x2-1 A.Mostovoy/wide, 2-1x I.Dmitrijev/held, 3-1 Jhon Jhon, 3-2 C.Wooh, 4-2 A.Sobolev
+#   Yellow: Nino 53, Pedro 58, D.Adamov 90+4 - Ged.Fernandes 38. Referee: Jevgenij Bulanov (Saransk).
+#   18.07.26. Niznij Novgorod Stadium, Niznij Novgorod. Att: 42,139. +17°C.
+#   (Full lineups transcribed in-session; Zenit formation confirms I. DIVEJEV as a Zenit player.)
+
+## SECOND INDEX — wiki match boxes (fetched 2026-08-04)
+# 2025 (en.wiki 2025_Russian_Super_Cup): 23rd edition, Olimpbet sponsor. Krasnodar (2024-25 RPL champions) 0-1 CSKA (2024-25 cup winners), 2025-07-12 18:00 MSK, Ak Bars Arena, Kazan; Attendance 34,677; Referee Artyom Chistyakov (Azov); Diveyev 48', named Man of the Match; report link rfs.ru/match/55756. CSKA's 8th Super Cup.
+# 2026 (en.wiki 2026_Russian_Super_Cup): 24th edition. Zenit (2025-26 champions) 1-1 Spartak (2025-26 cup winners), 2026-07-18 19:30 MSK, Nizhny Novgorod Stadium; Attendance 42,139; Referee Evgeniy Bulanov; Martins 25' / Sobolev 90+8' (pen); Zenit won 4-2 on penalties ("after the game ended in a 1-1 tie") for its 10th title; report link rfs.ru/match/57020. Penalty taker list printed by wiki agrees with RSSSF shoot-out lines (Diveyev first for ZENIT - see resolution below).
+
+## RESOLUTION REGISTERED — Igor Diveyev is now ZENIT's player
+# The 2026 shoot-out/lineup prints show Igor Diveyev in ZENIT colours. He was CSKA's 2025 Super Cup match-winner/MOTM.
+# Both the RSSSF primary lineup block (ZEN: ... I.Divejev ...; sub I.Divejev 66 vs Baltika in the cup detail pages) and the wiki box agree ->
+# Diveyev moved CSKA -> Zenit in summer 2026. NOT a data error. An earlier provisional session read had flagged the wiki shoot-out list as a possible lineup-table anomaly; withdrawn here explicitly.
+
+## VENUE ERA EQUIVALENCES (venue-consistency decree: rows carry pack-pinned strings; prints documented)
+# "Kazan Arena" (rsssf-rus2025-sup print) = Ak Bars Arena, Kazan (sponsor era; RPL-pack pinned string).
+# "Nizhny Novgorod Stadium" printed by BOTH sources for 2026 (neutral RFU showpiece) - not the SovComBank Arena sponsor era used for Pari NN home league games.
+# Neutral-site discipline: neither game at a participant ground (Ak Bars = Rubin's; Nizhny Novgorod = Pari NN's).
+
+## SCOPE NOTE
+# SPEC item 3 commissions ONLY 2025 + 2026 (2 rows). Editions 2021, 2022, 2023, 2024 exist (winners: Zenit 2021/2022/2024; CSKA 2023 per the list-of-finals) - zero rows shipped, flagged in pack supercup_scope NOTE (registered for a possible future scope, not an oversight).
+
+## ROW LINES (build input; iso|home|hg|ag|away|detail|stadium|city|sourcelabel)
+S|2025-07-12|FC Krasnodar|0|1|CSKA Moscow|Final|Ak Bars Arena|Kazan|rsssf-rus2025-sup
+S|2026-07-18|Zenit St Petersburg|1|1|Spartak Moscow|Final|Nizhny Novgorod Stadium|Nizhny Novgorod|rsssf-rus2026-sup

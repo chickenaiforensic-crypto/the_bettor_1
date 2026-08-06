@@ -1,0 +1,252 @@
+# RPL 2024-25 - SECOND-INDEX LEDGER (score-level; Wikipedia FBR results matrix)
+# Source: https://en.wikipedia.org/wiki/2024%E2%80%9325_Russian_Premier_League - section "Results" (full-season 16x16 FBR matrix). Fetched
+# 2026-08-04 via MediaWiki API (action=parse, section 14, prop=wikitext). Matrix carries
+# SCORES ONLY (no dates/rounds); date-level second-index coverage for these seasons: the
+# football-data R1.csv feed is discontinued (mmz4281/2425 + /2526 404, verified 2026-08-04);
+# openfootball/russia absent (404). worldfootball.net per-round pages confirmed as the
+# spot-audit third anchor (MD30 2024-25 = 8/8 exact). League-table rows printed adjacent
+# to the matrix agree with the RSSSF final-table constants club-for-club (both seasons);
+# infobox anchors: 2024-25 240 matches / 648 goals; 2025-26 240 / 609.
+# Row format: MX|<HomeStock>|<AwayStock>|<hg>|<ag>; stock strings = the RSSSF compact
+# strings of the primary ledger so the diff is literal. Wiki code -> stock map in COLS.
+COLS|AKH|AKR|CSK|DMH|DMO|FAK|KHI|KRA|KRY|LOK|ORE|PNN|ROS|RUB|SPA|ZEN
+MX|Ahmat|Akron|0|0
+MX|Ahmat|CSKA|1|1
+MX|Ahmat|Dinamo Mh|1|1
+MX|Ahmat|Dinamo Ms|1|1
+MX|Ahmat|Fakel|2|3
+MX|Ahmat|Himki|3|3
+MX|Ahmat|Krasnodar|1|1
+MX|Ahmat|KS Samara|1|1
+MX|Ahmat|Lokomotiv|0|5
+MX|Ahmat|Orenburg|1|0
+MX|Ahmat|Pari NN|0|2
+MX|Ahmat|Rostov|2|1
+MX|Ahmat|Rubin|2|1
+MX|Ahmat|Spartak|0|0
+MX|Ahmat|Zenit|1|2
+MX|Akron|Ahmat|3|2
+MX|Akron|CSKA|1|2
+MX|Akron|Dinamo Mh|1|0
+MX|Akron|Dinamo Ms|0|2
+MX|Akron|Fakel|1|0
+MX|Akron|Himki|3|0
+MX|Akron|Krasnodar|2|5
+MX|Akron|KS Samara|2|0
+MX|Akron|Lokomotiv|1|4
+MX|Akron|Orenburg|1|0
+MX|Akron|Pari NN|2|2
+MX|Akron|Rostov|2|3
+MX|Akron|Rubin|1|2
+MX|Akron|Spartak|2|3
+MX|Akron|Zenit|0|5
+MX|CSKA|Ahmat|3|0
+MX|CSKA|Akron|4|0
+MX|CSKA|Dinamo Mh|2|0
+MX|CSKA|Dinamo Ms|3|1
+MX|CSKA|Fakel|0|0
+MX|CSKA|Himki|1|0
+MX|CSKA|Krasnodar|1|0
+MX|CSKA|KS Samara|1|1
+MX|CSKA|Lokomotiv|0|1
+MX|CSKA|Orenburg|5|1
+MX|CSKA|Pari NN|2|0
+MX|CSKA|Rostov|1|2
+MX|CSKA|Rubin|2|2
+MX|CSKA|Spartak|0|2
+MX|CSKA|Zenit|0|1
+MX|Dinamo Mh|Ahmat|1|0
+MX|Dinamo Mh|Akron|1|1
+MX|Dinamo Mh|CSKA|0|1
+MX|Dinamo Mh|Dinamo Ms|0|1
+MX|Dinamo Mh|Fakel|0|0
+MX|Dinamo Mh|Himki|4|1
+MX|Dinamo Mh|Krasnodar|2|3
+MX|Dinamo Mh|KS Samara|4|0
+MX|Dinamo Mh|Lokomotiv|1|1
+MX|Dinamo Mh|Orenburg|2|1
+MX|Dinamo Mh|Pari NN|0|1
+MX|Dinamo Mh|Rostov|1|1
+MX|Dinamo Mh|Rubin|2|3
+MX|Dinamo Mh|Spartak|1|1
+MX|Dinamo Mh|Zenit|0|1
+MX|Dinamo Ms|Ahmat|4|2
+MX|Dinamo Ms|Akron|2|1
+MX|Dinamo Ms|CSKA|1|2
+MX|Dinamo Ms|Dinamo Mh|4|0
+MX|Dinamo Ms|Fakel|3|1
+MX|Dinamo Ms|Himki|4|1
+MX|Dinamo Ms|Krasnodar|0|1
+MX|Dinamo Ms|KS Samara|1|0
+MX|Dinamo Ms|Lokomotiv|3|1
+MX|Dinamo Ms|Orenburg|5|1
+MX|Dinamo Ms|Pari NN|3|1
+MX|Dinamo Ms|Rostov|1|1
+MX|Dinamo Ms|Rubin|3|1
+MX|Dinamo Ms|Spartak|2|0
+MX|Dinamo Ms|Zenit|1|1
+MX|Fakel|Ahmat|0|0
+MX|Fakel|Akron|0|2
+MX|Fakel|CSKA|0|1
+MX|Fakel|Dinamo Mh|1|1
+MX|Fakel|Dinamo Ms|1|1
+MX|Fakel|Himki|1|1
+MX|Fakel|Krasnodar|0|0
+MX|Fakel|KS Samara|1|1
+MX|Fakel|Lokomotiv|0|1
+MX|Fakel|Orenburg|1|0
+MX|Fakel|Pari NN|0|0
+MX|Fakel|Rostov|0|2
+MX|Fakel|Rubin|0|0
+MX|Fakel|Spartak|0|0
+MX|Fakel|Zenit|0|2
+MX|Himki|Ahmat|1|1
+MX|Himki|Akron|2|2
+MX|Himki|CSKA|0|2
+MX|Himki|Dinamo Mh|1|1
+MX|Himki|Dinamo Ms|3|4
+MX|Himki|Fakel|1|0
+MX|Himki|Krasnodar|2|2
+MX|Himki|KS Samara|1|3
+MX|Himki|Lokomotiv|2|0
+MX|Himki|Orenburg|0|0
+MX|Himki|Pari NN|2|0
+MX|Himki|Rostov|1|1
+MX|Himki|Rubin|3|2
+MX|Himki|Spartak|1|3
+MX|Himki|Zenit|1|1
+MX|Krasnodar|Ahmat|3|1
+MX|Krasnodar|Akron|1|0
+MX|Krasnodar|CSKA|2|1
+MX|Krasnodar|Dinamo Mh|0|0
+MX|Krasnodar|Dinamo Ms|3|0
+MX|Krasnodar|Fakel|5|0
+MX|Krasnodar|Himki|4|0
+MX|Krasnodar|KS Samara|1|1
+MX|Krasnodar|Lokomotiv|0|0
+MX|Krasnodar|Orenburg|4|0
+MX|Krasnodar|Pari NN|2|1
+MX|Krasnodar|Rostov|2|0
+MX|Krasnodar|Rubin|2|1
+MX|Krasnodar|Spartak|0|3
+MX|Krasnodar|Zenit|2|0
+MX|KS Samara|Ahmat|2|1
+MX|KS Samara|Akron|0|2
+MX|KS Samara|CSKA|1|2
+MX|KS Samara|Dinamo Mh|0|1
+MX|KS Samara|Dinamo Ms|1|3
+MX|KS Samara|Fakel|2|0
+MX|KS Samara|Himki|0|0
+MX|KS Samara|Krasnodar|1|2
+MX|KS Samara|Lokomotiv|5|1
+MX|KS Samara|Orenburg|2|0
+MX|KS Samara|Pari NN|3|1
+MX|KS Samara|Rostov|1|3
+MX|KS Samara|Rubin|1|1
+MX|KS Samara|Spartak|0|2
+MX|KS Samara|Zenit|0|4
+MX|Lokomotiv|Ahmat|1|1
+MX|Lokomotiv|Akron|3|2
+MX|Lokomotiv|CSKA|2|2
+MX|Lokomotiv|Dinamo Mh|2|0
+MX|Lokomotiv|Dinamo Ms|2|1
+MX|Lokomotiv|Fakel|2|1
+MX|Lokomotiv|Himki|1|3
+MX|Lokomotiv|Krasnodar|0|3
+MX|Lokomotiv|KS Samara|1|0
+MX|Lokomotiv|Orenburg|1|1
+MX|Lokomotiv|Pari NN|3|0
+MX|Lokomotiv|Rostov|3|2
+MX|Lokomotiv|Rubin|1|0
+MX|Lokomotiv|Spartak|3|1
+MX|Lokomotiv|Zenit|1|1
+MX|Orenburg|Ahmat|0|0
+MX|Orenburg|Akron|2|2
+MX|Orenburg|CSKA|0|2
+MX|Orenburg|Dinamo Mh|2|1
+MX|Orenburg|Dinamo Ms|2|2
+MX|Orenburg|Fakel|1|0
+MX|Orenburg|Himki|1|1
+MX|Orenburg|Krasnodar|1|2
+MX|Orenburg|KS Samara|2|2
+MX|Orenburg|Lokomotiv|2|4
+MX|Orenburg|Pari NN|1|2
+MX|Orenburg|Rostov|1|2
+MX|Orenburg|Rubin|1|2
+MX|Orenburg|Spartak|2|0
+MX|Orenburg|Zenit|0|1
+MX|Pari NN|Ahmat|1|0
+MX|Pari NN|Akron|2|1
+MX|Pari NN|CSKA|0|3
+MX|Pari NN|Dinamo Mh|0|0
+MX|Pari NN|Dinamo Ms|1|1
+MX|Pari NN|Fakel|1|1
+MX|Pari NN|Himki|1|0
+MX|Pari NN|Krasnodar|0|3
+MX|Pari NN|KS Samara|5|2
+MX|Pari NN|Lokomotiv|1|3
+MX|Pari NN|Orenburg|1|2
+MX|Pari NN|Rostov|1|1
+MX|Pari NN|Rubin|2|4
+MX|Pari NN|Spartak|0|2
+MX|Pari NN|Zenit|0|3
+MX|Rostov|Ahmat|2|3
+MX|Rostov|Akron|0|2
+MX|Rostov|CSKA|0|0
+MX|Rostov|Dinamo Mh|0|0
+MX|Rostov|Dinamo Ms|1|1
+MX|Rostov|Fakel|4|1
+MX|Rostov|Himki|3|1
+MX|Rostov|Krasnodar|0|1
+MX|Rostov|KS Samara|3|1
+MX|Rostov|Lokomotiv|1|1
+MX|Rostov|Orenburg|3|2
+MX|Rostov|Pari NN|4|0
+MX|Rostov|Rubin|1|1
+MX|Rostov|Spartak|0|3
+MX|Rostov|Zenit|0|1
+MX|Rubin|Ahmat|2|0
+MX|Rubin|Akron|3|0
+MX|Rubin|CSKA|1|1
+MX|Rubin|Dinamo Mh|2|0
+MX|Rubin|Dinamo Ms|0|4
+MX|Rubin|Fakel|2|1
+MX|Rubin|Himki|2|3
+MX|Rubin|Krasnodar|1|1
+MX|Rubin|KS Samara|0|2
+MX|Rubin|Lokomotiv|1|0
+MX|Rubin|Orenburg|4|2
+MX|Rubin|Pari NN|1|0
+MX|Rubin|Rostov|1|0
+MX|Rubin|Spartak|2|1
+MX|Rubin|Zenit|0|4
+MX|Spartak|Ahmat|0|0
+MX|Spartak|Akron|4|0
+MX|Spartak|CSKA|1|2
+MX|Spartak|Dinamo Mh|1|2
+MX|Spartak|Dinamo Ms|2|2
+MX|Spartak|Fakel|3|0
+MX|Spartak|Himki|5|0
+MX|Spartak|Krasnodar|0|3
+MX|Spartak|KS Samara|3|0
+MX|Spartak|Lokomotiv|5|2
+MX|Spartak|Orenburg|2|0
+MX|Spartak|Pari NN|3|0
+MX|Spartak|Rostov|3|0
+MX|Spartak|Rubin|1|0
+MX|Spartak|Zenit|2|1
+MX|Zenit|Ahmat|3|0
+MX|Zenit|Akron|1|2
+MX|Zenit|CSKA|0|0
+MX|Zenit|Dinamo Mh|2|1
+MX|Zenit|Dinamo Ms|1|0
+MX|Zenit|Fakel|3|1
+MX|Zenit|Himki|1|0
+MX|Zenit|Krasnodar|4|1
+MX|Zenit|KS Samara|2|3
+MX|Zenit|Lokomotiv|1|1
+MX|Zenit|Orenburg|1|0
+MX|Zenit|Pari NN|2|1
+MX|Zenit|Rostov|5|0
+MX|Zenit|Rubin|4|0
+MX|Zenit|Spartak|0|0

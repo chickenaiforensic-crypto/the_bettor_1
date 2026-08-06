@@ -1,0 +1,807 @@
+# EPL 2025-26 — PER-CLUB FULL-CAMPAIGN PIVOT LEDGER (owner decree). Derivation: re-derived
+# from audit/ledger/epl-2025-26.txt (all 380 R-rows; each club = its 38 rows stock-name-
+# mapped to pack roster string). Columns: #|MD|<date>|<home-or-away>|<opponent(pack string)>|<GF>|<GA>|<venue>
+# TEAMPIVOT summary lines gated club-for-club against the ledger TABLE constants
+# (W-D-L GF GA PTS) at build time — all 20 PASS (deductions flagged inline). Map:
+# Aston Villa=Villa Crystal Palace=Palace Man City=City Man United=United Nott'm Forest=Nottingham
+# Sheffield United=SheffUtd West Ham=WestHam; all other roster strings identical to stock names.
+
+TEAMPIVOT|Arsenal|P38 W26 D7 L5 GF71 GA27 PTS85
+1|1|2025-08-17|A|Man United|1|0|away
+2|2|2025-08-23|H|Leeds|5|0|home
+3|3|2025-08-31|A|Liverpool|0|1|away
+4|4|2025-09-13|H|Nott'm Forest|3|0|home
+5|5|2025-09-21|H|Man City|1|1|home
+6|6|2025-09-28|A|Newcastle|2|1|away
+7|7|2025-10-04|H|West Ham|2|0|home
+8|8|2025-10-18|A|Fulham|1|0|away
+9|9|2025-10-26|H|Crystal Palace|1|0|home
+10|10|2025-11-01|A|Burnley|2|0|away
+11|11|2025-11-08|A|Sunderland|2|2|away
+12|12|2025-11-23|H|Tottenham|4|1|home
+13|13|2025-11-30|A|Chelsea|1|1|away
+14|14|2025-12-03|H|Brentford|2|0|home
+15|15|2025-12-06|A|Aston Villa|1|2|away
+16|16|2025-12-13|H|Wolves|2|1|home
+17|17|2025-12-20|A|Everton|1|0|away
+18|18|2025-12-27|H|Brighton|2|1|home
+19|19|2025-12-30|H|Aston Villa|4|1|home
+20|20|2026-01-03|A|Bournemouth|3|2|away
+21|21|2026-01-08|H|Liverpool|0|0|home
+22|22|2026-01-17|A|Nott'm Forest|0|0|away
+23|23|2026-01-25|H|Man United|2|3|home
+24|24|2026-01-31|A|Leeds|4|0|away
+25|25|2026-02-07|H|Sunderland|3|0|home
+26|26|2026-02-12|A|Brentford|1|1|away
+27|27|2026-02-22|A|Tottenham|4|1|away
+28|28|2026-03-01|H|Chelsea|2|1|home
+29|29|2026-03-04|A|Brighton|1|0|away
+30|30|2026-03-14|H|Everton|2|0|home
+31|31|2026-02-18|A|Wolves|2|2|away
+32|32|2026-04-11|H|Bournemouth|1|2|home
+33|33|2026-04-19|A|Man City|1|2|away
+34|34|2026-04-25|H|Newcastle|1|0|home
+35|35|2026-05-02|H|Fulham|3|0|home
+36|36|2026-05-10|A|West Ham|1|0|away
+37|37|2026-05-18|H|Burnley|1|0|home
+38|38|2026-05-24|A|Crystal Palace|2|1|away
+
+TEAMPIVOT|Bournemouth|P38 W13 D18 L7 GF58 GA54 PTS57
+1|1|2025-08-15|A|Liverpool|2|4|away
+2|2|2025-08-23|H|Wolves|1|0|home
+3|3|2025-08-30|A|Tottenham|1|0|away
+4|4|2025-09-13|H|Brighton|2|1|home
+5|5|2025-09-21|H|Newcastle|0|0|home
+6|6|2025-09-27|A|Leeds|2|2|away
+7|7|2025-10-03|H|Fulham|3|1|home
+8|8|2025-10-18|A|Crystal Palace|3|3|away
+9|9|2025-10-26|H|Nott'm Forest|2|0|home
+10|10|2025-11-02|A|Man City|1|3|away
+11|11|2025-11-09|A|Aston Villa|0|4|away
+12|12|2025-11-22|H|West Ham|2|2|home
+13|13|2025-11-29|A|Sunderland|2|3|away
+14|14|2025-12-02|H|Everton|0|1|home
+15|15|2025-12-06|H|Chelsea|0|0|home
+16|16|2025-12-15|A|Man United|4|4|away
+17|17|2025-12-20|H|Burnley|1|1|home
+18|18|2025-12-27|A|Brentford|1|4|away
+19|19|2025-12-30|A|Chelsea|2|2|away
+20|20|2026-01-03|H|Arsenal|2|3|home
+21|21|2026-01-07|H|Tottenham|3|2|home
+22|22|2026-01-19|A|Brighton|1|1|away
+23|23|2026-01-24|H|Liverpool|3|2|home
+24|24|2026-01-31|A|Wolves|2|0|away
+25|25|2026-02-07|H|Aston Villa|1|1|home
+26|26|2026-02-10|A|Everton|2|1|away
+27|27|2026-02-21|A|West Ham|0|0|away
+28|28|2026-02-28|H|Sunderland|1|1|home
+29|29|2026-03-03|H|Brentford|0|0|home
+30|30|2026-03-14|A|Burnley|0|0|away
+31|31|2026-03-20|H|Man United|2|2|home
+32|32|2026-04-11|A|Arsenal|2|1|away
+33|33|2026-04-18|A|Newcastle|2|1|away
+34|34|2026-04-22|H|Leeds|2|2|home
+35|35|2026-05-03|H|Crystal Palace|3|0|home
+36|36|2026-05-09|A|Fulham|1|0|away
+37|37|2026-05-19|H|Man City|1|1|home
+38|38|2026-05-24|A|Nott'm Forest|1|1|away
+
+TEAMPIVOT|Brentford|P38 W14 D11 L13 GF55 GA52 PTS53
+1|1|2025-08-17|A|Nott'm Forest|1|3|away
+2|2|2025-08-23|H|Aston Villa|1|0|home
+3|3|2025-08-30|A|Sunderland|1|2|away
+4|4|2025-09-13|H|Chelsea|2|2|home
+5|5|2025-09-20|A|Fulham|1|3|away
+6|6|2025-09-27|H|Man United|3|1|home
+7|7|2025-10-05|H|Man City|0|1|home
+8|8|2025-10-20|A|West Ham|2|0|away
+9|9|2025-10-25|H|Liverpool|3|2|home
+10|10|2025-11-01|A|Crystal Palace|0|2|away
+11|11|2025-11-09|H|Newcastle|3|1|home
+12|12|2025-11-22|A|Brighton|1|2|away
+13|13|2025-11-29|H|Burnley|3|1|home
+14|14|2025-12-03|A|Arsenal|0|2|away
+15|15|2025-12-06|A|Tottenham|0|2|away
+16|16|2025-12-14|H|Leeds|1|1|home
+17|17|2025-12-20|A|Wolves|2|0|away
+18|18|2025-12-27|H|Bournemouth|4|1|home
+19|19|2026-01-01|H|Tottenham|0|0|home
+20|20|2026-01-04|A|Everton|4|2|away
+21|21|2026-01-07|H|Sunderland|3|0|home
+22|22|2026-01-17|A|Chelsea|0|2|away
+23|23|2026-01-25|H|Nott'm Forest|0|2|home
+24|24|2026-02-01|A|Aston Villa|1|0|away
+25|25|2026-02-07|A|Newcastle|3|2|away
+26|26|2026-02-12|H|Arsenal|1|1|home
+27|27|2026-02-21|H|Brighton|0|2|home
+28|28|2026-02-28|A|Burnley|4|3|away
+29|29|2026-03-03|A|Bournemouth|0|0|away
+30|30|2026-03-16|H|Wolves|2|2|home
+31|31|2026-03-21|A|Leeds|0|0|away
+32|32|2026-04-11|H|Everton|2|2|home
+33|33|2026-04-18|H|Fulham|0|0|home
+34|34|2026-04-27|A|Man United|1|2|away
+35|35|2026-05-02|H|West Ham|3|0|home
+36|36|2026-05-09|A|Man City|0|3|away
+37|37|2026-05-17|H|Crystal Palace|2|2|home
+38|38|2026-05-24|A|Liverpool|1|1|away
+
+TEAMPIVOT|Brighton|P38 W14 D11 L13 GF52 GA46 PTS53
+1|1|2025-08-16|H|Fulham|1|1|home
+2|2|2025-08-24|A|Everton|0|2|away
+3|3|2025-08-31|H|Man City|2|1|home
+4|4|2025-09-13|A|Bournemouth|1|2|away
+5|5|2025-09-20|H|Tottenham|2|2|home
+6|6|2025-09-27|A|Chelsea|3|1|away
+7|7|2025-10-05|A|Wolves|1|1|away
+8|8|2025-10-18|H|Newcastle|2|1|home
+9|9|2025-10-25|A|Man United|2|4|away
+10|10|2025-11-01|H|Leeds|3|0|home
+11|11|2025-11-09|A|Crystal Palace|0|0|away
+12|12|2025-11-22|H|Brentford|2|1|home
+13|13|2025-11-30|A|Nott'm Forest|2|0|away
+14|14|2025-12-03|H|Aston Villa|3|4|home
+15|15|2025-12-07|H|West Ham|1|1|home
+16|16|2025-12-13|A|Liverpool|0|2|away
+17|17|2025-12-20|H|Sunderland|0|0|home
+18|18|2025-12-27|A|Arsenal|1|2|away
+19|19|2025-12-30|A|West Ham|2|2|away
+20|20|2026-01-03|H|Burnley|2|0|home
+21|21|2026-01-07|A|Man City|1|1|away
+22|22|2026-01-19|H|Bournemouth|1|1|home
+23|23|2026-01-24|A|Fulham|1|2|away
+24|24|2026-01-31|H|Everton|1|1|home
+25|25|2026-02-08|H|Crystal Palace|0|1|home
+26|26|2026-02-11|A|Aston Villa|0|1|away
+27|27|2026-02-21|A|Brentford|2|0|away
+28|28|2026-03-01|H|Nott'm Forest|2|1|home
+29|29|2026-03-04|H|Arsenal|0|1|home
+30|30|2026-03-14|A|Sunderland|1|0|away
+31|31|2026-03-21|H|Liverpool|2|1|home
+32|32|2026-04-11|A|Burnley|2|0|away
+33|33|2026-04-18|A|Tottenham|2|2|away
+34|34|2026-04-21|H|Chelsea|3|0|home
+35|35|2026-05-02|A|Newcastle|1|3|away
+36|36|2026-05-09|H|Wolves|3|0|home
+37|37|2026-05-17|A|Leeds|0|1|away
+38|38|2026-05-24|H|Man United|0|3|home
+
+TEAMPIVOT|Burnley|P38 W4 D10 L24 GF38 GA75 PTS22
+1|1|2025-08-16|A|Tottenham|0|3|away
+2|2|2025-08-23|H|Sunderland|2|0|home
+3|3|2025-08-30|A|Man United|2|3|away
+4|4|2025-09-14|H|Liverpool|0|1|home
+5|5|2025-09-20|H|Nott'm Forest|1|1|home
+6|6|2025-09-27|A|Man City|1|5|away
+7|7|2025-10-05|A|Aston Villa|1|2|away
+8|8|2025-10-18|H|Leeds|2|0|home
+9|9|2025-10-26|A|Wolves|3|2|away
+10|10|2025-11-01|H|Arsenal|0|2|home
+11|11|2025-11-08|A|West Ham|2|3|away
+12|12|2025-11-22|H|Chelsea|0|2|home
+13|13|2025-11-29|A|Brentford|1|3|away
+14|14|2025-12-03|H|Crystal Palace|0|1|home
+15|15|2025-12-06|A|Newcastle|1|2|away
+16|16|2025-12-13|H|Fulham|2|3|home
+17|17|2025-12-20|A|Bournemouth|1|1|away
+18|18|2025-12-27|H|Everton|0|0|home
+19|19|2025-12-30|H|Newcastle|1|3|home
+20|20|2026-01-03|A|Brighton|0|2|away
+21|21|2026-01-07|H|Man United|2|2|home
+22|22|2026-01-17|A|Liverpool|1|1|away
+23|23|2026-01-24|H|Tottenham|2|2|home
+24|24|2026-02-02|A|Sunderland|0|3|away
+25|25|2026-02-07|H|West Ham|0|2|home
+26|26|2026-02-11|A|Crystal Palace|3|2|away
+27|27|2026-02-21|A|Chelsea|1|1|away
+28|28|2026-02-28|H|Brentford|3|4|home
+29|29|2026-03-03|A|Everton|0|2|away
+30|30|2026-03-14|H|Bournemouth|0|0|home
+31|31|2026-03-21|A|Fulham|1|3|away
+32|32|2026-04-11|H|Brighton|0|2|home
+33|33|2026-04-19|A|Nott'm Forest|1|4|away
+34|34|2026-04-22|H|Man City|0|1|home
+35|35|2026-05-01|A|Leeds|1|3|away
+36|36|2026-05-10|H|Aston Villa|2|2|home
+37|37|2026-05-18|A|Arsenal|0|1|away
+38|38|2026-05-24|H|Wolves|1|1|home
+
+TEAMPIVOT|Chelsea|P38 W14 D10 L14 GF58 GA52 PTS52
+1|1|2025-08-17|H|Crystal Palace|0|0|home
+2|2|2025-08-22|A|West Ham|5|1|away
+3|3|2025-08-30|H|Fulham|2|0|home
+4|4|2025-09-13|A|Brentford|2|2|away
+5|5|2025-09-20|A|Man United|1|2|away
+6|6|2025-09-27|H|Brighton|1|3|home
+7|7|2025-10-04|H|Liverpool|2|1|home
+8|8|2025-10-18|A|Nott'm Forest|3|0|away
+9|9|2025-10-25|H|Sunderland|1|2|home
+10|10|2025-11-01|A|Tottenham|1|0|away
+11|11|2025-11-08|H|Wolves|3|0|home
+12|12|2025-11-22|A|Burnley|2|0|away
+13|13|2025-11-30|H|Arsenal|1|1|home
+14|14|2025-12-03|A|Leeds|1|3|away
+15|15|2025-12-06|A|Bournemouth|0|0|away
+16|16|2025-12-13|H|Everton|2|0|home
+17|17|2025-12-20|A|Newcastle|2|2|away
+18|18|2025-12-27|H|Aston Villa|1|2|home
+19|19|2025-12-30|H|Bournemouth|2|2|home
+20|20|2026-01-04|A|Man City|1|1|away
+21|21|2026-01-07|A|Fulham|1|2|away
+22|22|2026-01-17|H|Brentford|2|0|home
+23|23|2026-01-25|A|Crystal Palace|3|1|away
+24|24|2026-01-31|H|West Ham|3|2|home
+25|25|2026-02-07|A|Wolves|3|1|away
+26|26|2026-02-10|H|Leeds|2|2|home
+27|27|2026-02-21|H|Burnley|1|1|home
+28|28|2026-03-01|A|Arsenal|1|2|away
+29|29|2026-03-04|A|Aston Villa|4|1|away
+30|30|2026-03-14|H|Newcastle|0|1|home
+31|31|2026-03-21|A|Everton|0|3|away
+32|32|2026-04-12|H|Man City|0|3|home
+33|33|2026-04-18|H|Man United|0|1|home
+34|34|2026-04-21|A|Brighton|0|3|away
+35|35|2026-05-04|H|Nott'm Forest|1|3|home
+36|36|2026-05-09|A|Liverpool|1|1|away
+37|37|2026-05-19|H|Tottenham|2|1|home
+38|38|2026-05-24|A|Sunderland|1|2|away
+
+TEAMPIVOT|Man City|P38 W23 D9 L6 GF77 GA35 PTS78
+1|1|2025-08-16|A|Wolves|4|0|away
+2|2|2025-08-23|H|Tottenham|0|2|home
+3|3|2025-08-31|A|Brighton|1|2|away
+4|4|2025-09-14|H|Man United|3|0|home
+5|5|2025-09-21|A|Arsenal|1|1|away
+6|6|2025-09-27|H|Burnley|5|1|home
+7|7|2025-10-05|A|Brentford|1|0|away
+8|8|2025-10-18|H|Everton|2|0|home
+9|9|2025-10-26|A|Aston Villa|0|1|away
+10|10|2025-11-02|H|Bournemouth|3|1|home
+11|11|2025-11-09|H|Liverpool|3|0|home
+12|12|2025-11-22|A|Newcastle|1|2|away
+13|13|2025-11-29|H|Leeds|3|2|home
+14|14|2025-12-02|A|Fulham|5|4|away
+15|15|2025-12-06|H|Sunderland|3|0|home
+16|16|2025-12-14|A|Crystal Palace|3|0|away
+17|17|2025-12-20|H|West Ham|3|0|home
+18|18|2025-12-27|A|Nott'm Forest|2|1|away
+19|19|2026-01-01|A|Sunderland|0|0|away
+20|20|2026-01-04|H|Chelsea|1|1|home
+21|21|2026-01-07|H|Brighton|1|1|home
+22|22|2026-01-17|A|Man United|0|2|away
+23|23|2026-01-24|H|Wolves|2|0|home
+24|24|2026-02-01|A|Tottenham|2|2|away
+25|25|2026-02-08|A|Liverpool|2|1|away
+26|26|2026-02-11|H|Fulham|3|0|home
+27|27|2026-02-21|H|Newcastle|2|1|home
+28|28|2026-02-28|A|Leeds|1|0|away
+29|29|2026-03-04|H|Nott'm Forest|2|2|home
+30|30|2026-03-14|A|West Ham|1|1|away
+31|31|2026-05-13|H|Crystal Palace|3|0|home
+32|32|2026-04-12|A|Chelsea|3|0|away
+33|33|2026-04-19|H|Arsenal|2|1|home
+34|34|2026-04-22|A|Burnley|1|0|away
+35|35|2026-05-04|A|Everton|3|3|away
+36|36|2026-05-09|H|Brentford|3|0|home
+37|37|2026-05-19|A|Bournemouth|1|1|away
+38|38|2026-05-24|H|Aston Villa|1|2|home
+
+TEAMPIVOT|Everton|P38 W13 D10 L15 GF47 GA50 PTS49
+1|1|2025-08-18|A|Leeds|0|1|away
+2|2|2025-08-24|H|Brighton|2|0|home
+3|3|2025-08-30|A|Wolves|3|2|away
+4|4|2025-09-13|H|Aston Villa|0|0|home
+5|5|2025-09-20|A|Liverpool|1|2|away
+6|6|2025-09-29|H|West Ham|1|1|home
+7|7|2025-10-05|H|Crystal Palace|2|1|home
+8|8|2025-10-18|A|Man City|0|2|away
+9|9|2025-10-26|H|Tottenham|0|3|home
+10|10|2025-11-03|A|Sunderland|1|1|away
+11|11|2025-11-08|H|Fulham|2|0|home
+12|12|2025-11-24|A|Man United|1|0|away
+13|13|2025-11-29|H|Newcastle|1|4|home
+14|14|2025-12-02|A|Bournemouth|1|0|away
+15|15|2025-12-06|H|Nott'm Forest|3|0|home
+16|16|2025-12-13|A|Chelsea|0|2|away
+17|17|2025-12-20|H|Arsenal|0|1|home
+18|18|2025-12-27|A|Burnley|0|0|away
+19|19|2025-12-30|A|Nott'm Forest|2|0|away
+20|20|2026-01-04|H|Brentford|2|4|home
+21|21|2026-01-07|H|Wolves|1|1|home
+22|22|2026-01-18|A|Aston Villa|1|0|away
+23|23|2026-01-26|H|Leeds|1|1|home
+24|24|2026-01-31|A|Brighton|1|1|away
+25|25|2026-02-07|A|Fulham|2|1|away
+26|26|2026-02-10|H|Bournemouth|1|2|home
+27|27|2026-02-23|H|Man United|0|1|home
+28|28|2026-02-28|A|Newcastle|3|2|away
+29|29|2026-03-03|H|Burnley|2|0|home
+30|30|2026-03-14|A|Arsenal|0|2|away
+31|31|2026-03-21|H|Chelsea|3|0|home
+32|32|2026-04-11|A|Brentford|2|2|away
+33|33|2026-04-19|H|Liverpool|1|2|home
+34|34|2026-04-25|A|West Ham|1|2|away
+35|35|2026-05-04|H|Man City|3|3|home
+36|36|2026-05-10|A|Crystal Palace|2|2|away
+37|37|2026-05-17|H|Sunderland|1|3|home
+38|38|2026-05-24|A|Tottenham|0|1|away
+
+TEAMPIVOT|Fulham|P38 W15 D7 L16 GF47 GA51 PTS52
+1|1|2025-08-16|A|Brighton|1|1|away
+2|2|2025-08-24|H|Man United|1|1|home
+3|3|2025-08-30|A|Chelsea|0|2|away
+4|4|2025-09-13|H|Leeds|1|0|home
+5|5|2025-09-20|H|Brentford|3|1|home
+6|6|2025-09-28|A|Aston Villa|1|3|away
+7|7|2025-10-03|A|Bournemouth|1|3|away
+8|8|2025-10-18|H|Arsenal|0|1|home
+9|9|2025-10-25|A|Newcastle|1|2|away
+10|10|2025-11-01|H|Wolves|3|0|home
+11|11|2025-11-08|A|Everton|0|2|away
+12|12|2025-11-22|H|Sunderland|1|0|home
+13|13|2025-11-29|A|Tottenham|2|1|away
+14|14|2025-12-02|H|Man City|4|5|home
+15|15|2025-12-07|H|Crystal Palace|1|2|home
+16|16|2025-12-13|A|Burnley|3|2|away
+17|17|2025-12-22|H|Nott'm Forest|1|0|home
+18|18|2025-12-27|A|West Ham|1|0|away
+19|19|2026-01-01|A|Crystal Palace|1|1|away
+20|20|2026-01-04|H|Liverpool|2|2|home
+21|21|2026-01-07|H|Chelsea|2|1|home
+22|22|2026-01-17|A|Leeds|0|1|away
+23|23|2026-01-24|H|Brighton|2|1|home
+24|24|2026-02-01|A|Man United|2|3|away
+25|25|2026-02-07|H|Everton|1|2|home
+26|26|2026-02-11|A|Man City|0|3|away
+27|27|2026-02-22|A|Sunderland|3|1|away
+28|28|2026-03-01|H|Tottenham|2|1|home
+29|29|2026-03-04|H|West Ham|0|1|home
+30|30|2026-03-15|A|Nott'm Forest|0|0|away
+31|31|2026-03-21|H|Burnley|3|1|home
+32|32|2026-04-11|A|Liverpool|0|2|away
+33|33|2026-04-18|A|Brentford|0|0|away
+34|34|2026-04-25|H|Aston Villa|1|0|home
+35|35|2026-05-02|A|Arsenal|0|3|away
+36|36|2026-05-09|H|Bournemouth|0|1|home
+37|37|2026-05-17|A|Wolves|1|1|away
+38|38|2026-05-24|H|Newcastle|2|0|home
+
+TEAMPIVOT|Leeds|P38 W11 D14 L13 GF49 GA56 PTS47
+1|1|2025-08-18|H|Everton|1|0|home
+2|2|2025-08-23|A|Arsenal|0|5|away
+3|3|2025-08-30|H|Newcastle|0|0|home
+4|4|2025-09-13|A|Fulham|0|1|away
+5|5|2025-09-20|A|Wolves|3|1|away
+6|6|2025-09-27|H|Bournemouth|2|2|home
+7|7|2025-10-04|H|Tottenham|1|2|home
+8|8|2025-10-18|A|Burnley|0|2|away
+9|9|2025-10-24|H|West Ham|2|1|home
+10|10|2025-11-01|A|Brighton|0|3|away
+11|11|2025-11-09|A|Nott'm Forest|1|3|away
+12|12|2025-11-23|H|Aston Villa|1|2|home
+13|13|2025-11-29|A|Man City|2|3|away
+14|14|2025-12-03|H|Chelsea|3|1|home
+15|15|2025-12-06|H|Liverpool|3|3|home
+16|16|2025-12-14|A|Brentford|1|1|away
+17|17|2025-12-20|H|Crystal Palace|4|1|home
+18|18|2025-12-28|A|Sunderland|1|1|away
+19|19|2026-01-01|A|Liverpool|0|0|away
+20|20|2026-01-04|H|Man United|1|1|home
+21|21|2026-01-07|A|Newcastle|3|4|away
+22|22|2026-01-17|H|Fulham|1|0|home
+23|23|2026-01-26|A|Everton|1|1|away
+24|24|2026-01-31|H|Arsenal|0|4|home
+25|25|2026-02-06|H|Nott'm Forest|3|1|home
+26|26|2026-02-10|A|Chelsea|2|2|away
+27|27|2026-02-21|A|Aston Villa|1|1|away
+28|28|2026-02-28|H|Man City|0|1|home
+29|29|2026-03-03|H|Sunderland|0|1|home
+30|30|2026-03-15|A|Crystal Palace|0|0|away
+31|31|2026-03-21|H|Brentford|0|0|home
+32|32|2026-04-13|A|Man United|2|1|away
+33|33|2026-04-18|H|Wolves|3|0|home
+34|34|2026-04-22|A|Bournemouth|2|2|away
+35|35|2026-05-01|H|Burnley|3|1|home
+36|36|2026-05-11|A|Tottenham|1|1|away
+37|37|2026-05-17|H|Brighton|1|0|home
+38|38|2026-05-24|A|West Ham|0|3|away
+
+TEAMPIVOT|Liverpool|P38 W17 D9 L12 GF63 GA53 PTS60
+1|1|2025-08-15|H|Bournemouth|4|2|home
+2|2|2025-08-25|A|Newcastle|3|2|away
+3|3|2025-08-31|H|Arsenal|1|0|home
+4|4|2025-09-14|A|Burnley|1|0|away
+5|5|2025-09-20|H|Everton|2|1|home
+6|6|2025-09-27|A|Crystal Palace|1|2|away
+7|7|2025-10-04|A|Chelsea|1|2|away
+8|8|2025-10-19|H|Man United|1|2|home
+9|9|2025-10-25|A|Brentford|2|3|away
+10|10|2025-11-01|H|Aston Villa|2|0|home
+11|11|2025-11-09|A|Man City|0|3|away
+12|12|2025-11-22|H|Nott'm Forest|0|3|home
+13|13|2025-11-30|A|West Ham|2|0|away
+14|14|2025-12-03|H|Sunderland|1|1|home
+15|15|2025-12-06|A|Leeds|3|3|away
+16|16|2025-12-13|H|Brighton|2|0|home
+17|17|2025-12-20|A|Tottenham|2|1|away
+18|18|2025-12-27|H|Wolves|2|1|home
+19|19|2026-01-01|H|Leeds|0|0|home
+20|20|2026-01-04|A|Fulham|2|2|away
+21|21|2026-01-08|A|Arsenal|0|0|away
+22|22|2026-01-17|H|Burnley|1|1|home
+23|23|2026-01-24|A|Bournemouth|2|3|away
+24|24|2026-01-31|H|Newcastle|4|1|home
+25|25|2026-02-08|H|Man City|1|2|home
+26|26|2026-02-11|A|Sunderland|1|0|away
+27|27|2026-02-22|A|Nott'm Forest|1|0|away
+28|28|2026-02-28|H|West Ham|5|2|home
+29|29|2026-03-03|A|Wolves|1|2|away
+30|30|2026-03-15|H|Tottenham|1|1|home
+31|31|2026-03-21|A|Brighton|1|2|away
+32|32|2026-04-11|H|Fulham|2|0|home
+33|33|2026-04-19|A|Everton|2|1|away
+34|34|2026-04-25|H|Crystal Palace|3|1|home
+35|35|2026-05-03|A|Man United|2|3|away
+36|36|2026-05-09|H|Chelsea|1|1|home
+37|37|2026-05-15|A|Aston Villa|2|4|away
+38|38|2026-05-24|H|Brentford|1|1|home
+
+TEAMPIVOT|Newcastle|P38 W14 D7 L17 GF53 GA55 PTS49
+1|1|2025-08-16|A|Aston Villa|0|0|away
+2|2|2025-08-25|H|Liverpool|2|3|home
+3|3|2025-08-30|A|Leeds|0|0|away
+4|4|2025-09-13|H|Wolves|1|0|home
+5|5|2025-09-21|A|Bournemouth|0|0|away
+6|6|2025-09-28|H|Arsenal|1|2|home
+7|7|2025-10-05|H|Nott'm Forest|2|0|home
+8|8|2025-10-18|A|Brighton|1|2|away
+9|9|2025-10-25|H|Fulham|2|1|home
+10|10|2025-11-02|A|West Ham|1|3|away
+11|11|2025-11-09|A|Brentford|1|3|away
+12|12|2025-11-22|H|Man City|2|1|home
+13|13|2025-11-29|A|Everton|4|1|away
+14|14|2025-12-02|H|Tottenham|2|2|home
+15|15|2025-12-06|H|Burnley|2|1|home
+16|16|2025-12-14|A|Sunderland|0|1|away
+17|17|2025-12-20|H|Chelsea|2|2|home
+18|18|2025-12-26|A|Man United|0|1|away
+19|19|2025-12-30|A|Burnley|3|1|away
+20|20|2026-01-04|H|Crystal Palace|2|0|home
+21|21|2026-01-07|H|Leeds|4|3|home
+22|22|2026-01-18|A|Wolves|0|0|away
+23|23|2026-01-25|H|Aston Villa|0|2|home
+24|24|2026-01-31|A|Liverpool|1|4|away
+25|25|2026-02-07|H|Brentford|2|3|home
+26|26|2026-02-10|A|Tottenham|2|1|away
+27|27|2026-02-21|A|Man City|1|2|away
+28|28|2026-02-28|H|Everton|2|3|home
+29|29|2026-03-04|H|Man United|2|1|home
+30|30|2026-03-14|A|Chelsea|1|0|away
+31|31|2026-03-22|H|Sunderland|1|2|home
+32|32|2026-04-12|A|Crystal Palace|1|2|away
+33|33|2026-04-18|H|Bournemouth|1|2|home
+34|34|2026-04-25|A|Arsenal|0|1|away
+35|35|2026-05-02|H|Brighton|3|1|home
+36|36|2026-05-10|A|Nott'm Forest|1|1|away
+37|37|2026-05-17|H|West Ham|3|1|home
+38|38|2026-05-24|A|Fulham|0|2|away
+
+TEAMPIVOT|Nott'm Forest|P38 W11 D11 L16 GF48 GA51 PTS44
+1|1|2025-08-17|H|Brentford|3|1|home
+2|2|2025-08-24|A|Crystal Palace|1|1|away
+3|3|2025-08-31|H|West Ham|0|3|home
+4|4|2025-09-13|A|Arsenal|0|3|away
+5|5|2025-09-20|A|Burnley|1|1|away
+6|6|2025-09-27|H|Sunderland|0|1|home
+7|7|2025-10-05|A|Newcastle|0|2|away
+8|8|2025-10-18|H|Chelsea|0|3|home
+9|9|2025-10-26|A|Bournemouth|0|2|away
+10|10|2025-11-01|H|Man United|2|2|home
+11|11|2025-11-09|H|Leeds|3|1|home
+12|12|2025-11-22|A|Liverpool|3|0|away
+13|13|2025-11-30|H|Brighton|0|2|home
+14|14|2025-12-03|A|Wolves|1|0|away
+15|15|2025-12-06|A|Everton|0|3|away
+16|16|2025-12-14|H|Tottenham|3|0|home
+17|17|2025-12-22|A|Fulham|0|1|away
+18|18|2025-12-27|H|Man City|1|2|home
+19|19|2025-12-30|H|Everton|0|2|home
+20|20|2026-01-03|A|Aston Villa|1|3|away
+21|21|2026-01-06|A|West Ham|2|1|away
+22|22|2026-01-17|H|Arsenal|0|0|home
+23|23|2026-01-25|A|Brentford|2|0|away
+24|24|2026-02-01|H|Crystal Palace|1|1|home
+25|25|2026-02-06|A|Leeds|1|3|away
+26|26|2026-02-11|H|Wolves|0|0|home
+27|27|2026-02-22|H|Liverpool|0|1|home
+28|28|2026-03-01|A|Brighton|1|2|away
+29|29|2026-03-04|A|Man City|2|2|away
+30|30|2026-03-15|H|Fulham|0|0|home
+31|31|2026-03-22|A|Tottenham|3|0|away
+32|32|2026-04-12|H|Aston Villa|1|1|home
+33|33|2026-04-19|H|Burnley|4|1|home
+34|34|2026-04-24|A|Sunderland|5|0|away
+35|35|2026-05-04|A|Chelsea|3|1|away
+36|36|2026-05-10|H|Newcastle|1|1|home
+37|37|2026-05-17|A|Man United|2|3|away
+38|38|2026-05-24|H|Bournemouth|1|1|home
+
+TEAMPIVOT|Crystal Palace|P38 W11 D12 L15 GF41 GA51 PTS45
+1|1|2025-08-17|A|Chelsea|0|0|away
+2|2|2025-08-24|H|Nott'm Forest|1|1|home
+3|3|2025-08-31|A|Aston Villa|3|0|away
+4|4|2025-09-13|H|Sunderland|0|0|home
+5|5|2025-09-20|A|West Ham|2|1|away
+6|6|2025-09-27|H|Liverpool|2|1|home
+7|7|2025-10-05|A|Everton|1|2|away
+8|8|2025-10-18|H|Bournemouth|3|3|home
+9|9|2025-10-26|A|Arsenal|0|1|away
+10|10|2025-11-01|H|Brentford|2|0|home
+11|11|2025-11-09|H|Brighton|0|0|home
+12|12|2025-11-22|A|Wolves|2|0|away
+13|13|2025-11-30|H|Man United|1|2|home
+14|14|2025-12-03|A|Burnley|1|0|away
+15|15|2025-12-07|A|Fulham|2|1|away
+16|16|2025-12-14|H|Man City|0|3|home
+17|17|2025-12-20|A|Leeds|1|4|away
+18|18|2025-12-28|H|Tottenham|0|1|home
+19|19|2026-01-01|H|Fulham|1|1|home
+20|20|2026-01-04|A|Newcastle|0|2|away
+21|21|2026-01-07|H|Aston Villa|0|0|home
+22|22|2026-01-17|A|Sunderland|1|2|away
+23|23|2026-01-25|H|Chelsea|1|3|home
+24|24|2026-02-01|A|Nott'm Forest|1|1|away
+25|25|2026-02-08|A|Brighton|1|0|away
+26|26|2026-02-11|H|Burnley|2|3|home
+27|27|2026-02-22|H|Wolves|1|0|home
+28|28|2026-03-01|A|Man United|1|2|away
+29|29|2026-03-05|A|Tottenham|3|1|away
+30|30|2026-03-15|H|Leeds|0|0|home
+31|31|2026-05-13|A|Man City|0|3|away
+32|32|2026-04-12|H|Newcastle|2|1|home
+33|33|2026-04-20|H|West Ham|0|0|home
+34|34|2026-04-25|A|Liverpool|1|3|away
+35|35|2026-05-03|A|Bournemouth|0|3|away
+36|36|2026-05-10|H|Everton|2|2|home
+37|37|2026-05-17|A|Brentford|2|2|away
+38|38|2026-05-24|H|Arsenal|1|2|home
+
+TEAMPIVOT|Sunderland|P38 W14 D12 L12 GF42 GA48 PTS54
+1|1|2025-08-16|H|West Ham|3|0|home
+2|2|2025-08-23|A|Burnley|0|2|away
+3|3|2025-08-30|H|Brentford|2|1|home
+4|4|2025-09-13|A|Crystal Palace|0|0|away
+5|5|2025-09-21|H|Aston Villa|1|1|home
+6|6|2025-09-27|A|Nott'm Forest|1|0|away
+7|7|2025-10-04|A|Man United|0|2|away
+8|8|2025-10-18|H|Wolves|2|0|home
+9|9|2025-10-25|A|Chelsea|2|1|away
+10|10|2025-11-03|H|Everton|1|1|home
+11|11|2025-11-08|H|Arsenal|2|2|home
+12|12|2025-11-22|A|Fulham|0|1|away
+13|13|2025-11-29|H|Bournemouth|3|2|home
+14|14|2025-12-03|A|Liverpool|1|1|away
+15|15|2025-12-06|A|Man City|0|3|away
+16|16|2025-12-14|H|Newcastle|1|0|home
+17|17|2025-12-20|A|Brighton|0|0|away
+18|18|2025-12-28|H|Leeds|1|1|home
+19|19|2026-01-01|H|Man City|0|0|home
+20|20|2026-01-04|A|Tottenham|1|1|away
+21|21|2026-01-07|A|Brentford|0|3|away
+22|22|2026-01-17|H|Crystal Palace|2|1|home
+23|23|2026-01-24|A|West Ham|1|3|away
+24|24|2026-02-02|H|Burnley|3|0|home
+25|25|2026-02-07|A|Arsenal|0|3|away
+26|26|2026-02-11|H|Liverpool|0|1|home
+27|27|2026-02-22|H|Fulham|1|3|home
+28|28|2026-02-28|A|Bournemouth|1|1|away
+29|29|2026-03-03|A|Leeds|1|0|away
+30|30|2026-03-14|H|Brighton|0|1|home
+31|31|2026-03-22|A|Newcastle|2|1|away
+32|32|2026-04-12|H|Tottenham|1|0|home
+33|33|2026-04-19|A|Aston Villa|3|4|away
+34|34|2026-04-24|H|Nott'm Forest|0|5|home
+35|35|2026-05-02|A|Wolves|1|1|away
+36|36|2026-05-09|H|Man United|0|0|home
+37|37|2026-05-17|A|Everton|3|1|away
+38|38|2026-05-24|H|Chelsea|2|1|home
+
+TEAMPIVOT|Tottenham|P38 W10 D11 L17 GF48 GA57 PTS41
+1|1|2025-08-16|H|Burnley|3|0|home
+2|2|2025-08-23|A|Man City|2|0|away
+3|3|2025-08-30|H|Bournemouth|0|1|home
+4|4|2025-09-13|A|West Ham|3|0|away
+5|5|2025-09-20|A|Brighton|2|2|away
+6|6|2025-09-27|H|Wolves|1|1|home
+7|7|2025-10-04|A|Leeds|2|1|away
+8|8|2025-10-19|H|Aston Villa|1|2|home
+9|9|2025-10-26|A|Everton|3|0|away
+10|10|2025-11-01|H|Chelsea|0|1|home
+11|11|2025-11-08|H|Man United|2|2|home
+12|12|2025-11-23|A|Arsenal|1|4|away
+13|13|2025-11-29|H|Fulham|1|2|home
+14|14|2025-12-02|A|Newcastle|2|2|away
+15|15|2025-12-06|H|Brentford|2|0|home
+16|16|2025-12-14|A|Nott'm Forest|0|3|away
+17|17|2025-12-20|H|Liverpool|1|2|home
+18|18|2025-12-28|A|Crystal Palace|1|0|away
+19|19|2026-01-01|A|Brentford|0|0|away
+20|20|2026-01-04|H|Sunderland|1|1|home
+21|21|2026-01-07|A|Bournemouth|2|3|away
+22|22|2026-01-17|H|West Ham|1|2|home
+23|23|2026-01-24|A|Burnley|2|2|away
+24|24|2026-02-01|H|Man City|2|2|home
+25|25|2026-02-07|A|Man United|0|2|away
+26|26|2026-02-10|H|Newcastle|1|2|home
+27|27|2026-02-22|H|Arsenal|1|4|home
+28|28|2026-03-01|A|Fulham|1|2|away
+29|29|2026-03-05|H|Crystal Palace|1|3|home
+30|30|2026-03-15|A|Liverpool|1|1|away
+31|31|2026-03-22|H|Nott'm Forest|0|3|home
+32|32|2026-04-12|A|Sunderland|0|1|away
+33|33|2026-04-18|H|Brighton|2|2|home
+34|34|2026-04-25|A|Wolves|1|0|away
+35|35|2026-05-03|A|Aston Villa|2|1|away
+36|36|2026-05-11|H|Leeds|1|1|home
+37|37|2026-05-19|A|Chelsea|1|2|away
+38|38|2026-05-24|H|Everton|1|0|home
+
+TEAMPIVOT|Man United|P38 W20 D11 L7 GF69 GA50 PTS71
+1|1|2025-08-17|H|Arsenal|0|1|home
+2|2|2025-08-24|A|Fulham|1|1|away
+3|3|2025-08-30|H|Burnley|3|2|home
+4|4|2025-09-14|A|Man City|0|3|away
+5|5|2025-09-20|H|Chelsea|2|1|home
+6|6|2025-09-27|A|Brentford|1|3|away
+7|7|2025-10-04|H|Sunderland|2|0|home
+8|8|2025-10-19|A|Liverpool|2|1|away
+9|9|2025-10-25|H|Brighton|4|2|home
+10|10|2025-11-01|A|Nott'm Forest|2|2|away
+11|11|2025-11-08|A|Tottenham|2|2|away
+12|12|2025-11-24|H|Everton|0|1|home
+13|13|2025-11-30|A|Crystal Palace|2|1|away
+14|14|2025-12-04|H|West Ham|1|1|home
+15|15|2025-12-08|A|Wolves|4|1|away
+16|16|2025-12-15|H|Bournemouth|4|4|home
+17|17|2025-12-21|A|Aston Villa|1|2|away
+18|18|2025-12-26|H|Newcastle|1|0|home
+19|19|2025-12-30|H|Wolves|1|1|home
+20|20|2026-01-04|A|Leeds|1|1|away
+21|21|2026-01-07|A|Burnley|2|2|away
+22|22|2026-01-17|H|Man City|2|0|home
+23|23|2026-01-25|A|Arsenal|3|2|away
+24|24|2026-02-01|H|Fulham|3|2|home
+25|25|2026-02-07|H|Tottenham|2|0|home
+26|26|2026-02-10|A|West Ham|1|1|away
+27|27|2026-02-23|A|Everton|1|0|away
+28|28|2026-03-01|H|Crystal Palace|2|1|home
+29|29|2026-03-04|A|Newcastle|1|2|away
+30|30|2026-03-15|H|Aston Villa|3|1|home
+31|31|2026-03-20|A|Bournemouth|2|2|away
+32|32|2026-04-13|H|Leeds|1|2|home
+33|33|2026-04-18|A|Chelsea|1|0|away
+34|34|2026-04-27|H|Brentford|2|1|home
+35|35|2026-05-03|H|Liverpool|3|2|home
+36|36|2026-05-09|A|Sunderland|0|0|away
+37|37|2026-05-17|H|Nott'm Forest|3|2|home
+38|38|2026-05-24|A|Brighton|3|0|away
+
+TEAMPIVOT|Aston Villa|P38 W19 D8 L11 GF56 GA49 PTS65
+1|1|2025-08-16|H|Newcastle|0|0|home
+2|2|2025-08-23|A|Brentford|0|1|away
+3|3|2025-08-31|H|Crystal Palace|0|3|home
+4|4|2025-09-13|A|Everton|0|0|away
+5|5|2025-09-21|A|Sunderland|1|1|away
+6|6|2025-09-28|H|Fulham|3|1|home
+7|7|2025-10-05|H|Burnley|2|1|home
+8|8|2025-10-19|A|Tottenham|2|1|away
+9|9|2025-10-26|H|Man City|1|0|home
+10|10|2025-11-01|A|Liverpool|0|2|away
+11|11|2025-11-09|H|Bournemouth|4|0|home
+12|12|2025-11-23|A|Leeds|2|1|away
+13|13|2025-11-30|H|Wolves|1|0|home
+14|14|2025-12-03|A|Brighton|4|3|away
+15|15|2025-12-06|H|Arsenal|2|1|home
+16|16|2025-12-14|A|West Ham|3|2|away
+17|17|2025-12-21|H|Man United|2|1|home
+18|18|2025-12-27|A|Chelsea|2|1|away
+19|19|2025-12-30|A|Arsenal|1|4|away
+20|20|2026-01-03|H|Nott'm Forest|3|1|home
+21|21|2026-01-07|A|Crystal Palace|0|0|away
+22|22|2026-01-18|H|Everton|0|1|home
+23|23|2026-01-25|A|Newcastle|2|0|away
+24|24|2026-02-01|H|Brentford|0|1|home
+25|25|2026-02-07|A|Bournemouth|1|1|away
+26|26|2026-02-11|H|Brighton|1|0|home
+27|27|2026-02-21|H|Leeds|1|1|home
+28|28|2026-02-27|A|Wolves|0|2|away
+29|29|2026-03-04|H|Chelsea|1|4|home
+30|30|2026-03-15|A|Man United|1|3|away
+31|31|2026-03-22|H|West Ham|2|0|home
+32|32|2026-04-12|A|Nott'm Forest|1|1|away
+33|33|2026-04-19|H|Sunderland|4|3|home
+34|34|2026-04-25|A|Fulham|0|1|away
+35|35|2026-05-03|H|Tottenham|1|2|home
+36|36|2026-05-10|A|Burnley|2|2|away
+37|37|2026-05-15|H|Liverpool|4|2|home
+38|38|2026-05-24|A|Man City|2|1|away
+
+TEAMPIVOT|West Ham|P38 W10 D9 L19 GF46 GA65 PTS39
+1|1|2025-08-16|A|Sunderland|0|3|away
+2|2|2025-08-22|H|Chelsea|1|5|home
+3|3|2025-08-31|A|Nott'm Forest|3|0|away
+4|4|2025-09-13|H|Tottenham|0|3|home
+5|5|2025-09-20|H|Crystal Palace|1|2|home
+6|6|2025-09-29|A|Everton|1|1|away
+7|7|2025-10-04|A|Arsenal|0|2|away
+8|8|2025-10-20|H|Brentford|0|2|home
+9|9|2025-10-24|A|Leeds|1|2|away
+10|10|2025-11-02|H|Newcastle|3|1|home
+11|11|2025-11-08|H|Burnley|3|2|home
+12|12|2025-11-22|A|Bournemouth|2|2|away
+13|13|2025-11-30|H|Liverpool|0|2|home
+14|14|2025-12-04|A|Man United|1|1|away
+15|15|2025-12-07|A|Brighton|1|1|away
+16|16|2025-12-14|H|Aston Villa|2|3|home
+17|17|2025-12-20|A|Man City|0|3|away
+18|18|2025-12-27|H|Fulham|0|1|home
+19|19|2025-12-30|H|Brighton|2|2|home
+20|20|2026-01-03|A|Wolves|0|3|away
+21|21|2026-01-06|H|Nott'm Forest|1|2|home
+22|22|2026-01-17|A|Tottenham|2|1|away
+23|23|2026-01-24|H|Sunderland|3|1|home
+24|24|2026-01-31|A|Chelsea|2|3|away
+25|25|2026-02-07|A|Burnley|2|0|away
+26|26|2026-02-10|H|Man United|1|1|home
+27|27|2026-02-21|H|Bournemouth|0|0|home
+28|28|2026-02-28|A|Liverpool|2|5|away
+29|29|2026-03-04|A|Fulham|1|0|away
+30|30|2026-03-14|H|Man City|1|1|home
+31|31|2026-03-22|A|Aston Villa|0|2|away
+32|32|2026-04-10|H|Wolves|4|0|home
+33|33|2026-04-20|A|Crystal Palace|0|0|away
+34|34|2026-04-25|H|Everton|2|1|home
+35|35|2026-05-02|A|Brentford|0|3|away
+36|36|2026-05-10|H|Arsenal|0|1|home
+37|37|2026-05-17|A|Newcastle|1|3|away
+38|38|2026-05-24|H|Leeds|3|0|home
+
+TEAMPIVOT|Wolves|P38 W3 D11 L24 GF27 GA68 PTS20
+1|1|2025-08-16|H|Man City|0|4|home
+2|2|2025-08-23|A|Bournemouth|0|1|away
+3|3|2025-08-30|H|Everton|2|3|home
+4|4|2025-09-13|A|Newcastle|0|1|away
+5|5|2025-09-20|H|Leeds|1|3|home
+6|6|2025-09-27|A|Tottenham|1|1|away
+7|7|2025-10-05|H|Brighton|1|1|home
+8|8|2025-10-18|A|Sunderland|0|2|away
+9|9|2025-10-26|H|Burnley|2|3|home
+10|10|2025-11-01|A|Fulham|0|3|away
+11|11|2025-11-08|A|Chelsea|0|3|away
+12|12|2025-11-22|H|Crystal Palace|0|2|home
+13|13|2025-11-30|A|Aston Villa|0|1|away
+14|14|2025-12-03|H|Nott'm Forest|0|1|home
+15|15|2025-12-08|H|Man United|1|4|home
+16|16|2025-12-13|A|Arsenal|1|2|away
+17|17|2025-12-20|H|Brentford|0|2|home
+18|18|2025-12-27|A|Liverpool|1|2|away
+19|19|2025-12-30|A|Man United|1|1|away
+20|20|2026-01-03|H|West Ham|3|0|home
+21|21|2026-01-07|A|Everton|1|1|away
+22|22|2026-01-18|H|Newcastle|0|0|home
+23|23|2026-01-24|A|Man City|0|2|away
+24|24|2026-01-31|H|Bournemouth|0|2|home
+25|25|2026-02-07|H|Chelsea|1|3|home
+26|26|2026-02-11|A|Nott'm Forest|0|0|away
+27|27|2026-02-22|A|Crystal Palace|0|1|away
+28|28|2026-02-27|H|Aston Villa|2|0|home
+29|29|2026-03-03|H|Liverpool|2|1|home
+30|30|2026-03-16|A|Brentford|2|2|away
+31|31|2026-02-18|H|Arsenal|2|2|home
+32|32|2026-04-10|A|West Ham|0|4|away
+33|33|2026-04-18|A|Leeds|0|3|away
+34|34|2026-04-25|H|Tottenham|0|1|home
+35|35|2026-05-02|H|Sunderland|1|1|home
+36|36|2026-05-09|A|Brighton|0|3|away
+37|37|2026-05-17|H|Fulham|1|1|home
+38|38|2026-05-24|A|Burnley|1|1|away

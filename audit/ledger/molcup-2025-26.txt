@@ -1,0 +1,75 @@
+# PRIMARY/SECOND TRANSCRIPTION - MOL Cup (Pohar FACR) 2025-26
+# Sources fetched 2026-08-04 (Europe/Paris):
+#   RSSSF https://www.rsssf.org/tablest/tsje2026.html#cup  (primary; carries R3 onward, 31 ties)
+#   en.wiki 2025-26_Czech_Cup action=raw sections 4(R2),5(R3),7(QF),8(SF),9(F) (second)
+#   worldfootball all_matches page (se98033, chunks 0-9) + 12 per-tie match reports (ids cited)
+# Grammar: R2|R3|C16|CQF|CSF|CF |iso-date|home|hg|ag|away
+# FL 2025-26 = 2024-25 side minus Ceske Budejovice (relegated to FNL) plus Zlin (promoted).
+# Slice = every tie from R2 onward with >=1 of those 16 FL clubs.
+# wiki R2 == wf R2: 26 ties (Aug 26 x6, Aug 27 x19, Aug 28 x1); EXCEPTION see source_conflict.
+# ================= SECOND ROUND (26 ties) =================
+# ---- 10 in-slice ties:
+R2|2025-08-26|Velvary|0|2|Teplice
+R2|2025-08-26|Admira Praha|0|3|Jablonec        # wf ma11538506
+R2|2025-08-26|Ceska Lipa|1|2|Pardubice         # wf ma11538494 att 1493; played at TJ STADION NOVY BOR
+R2|2025-08-27|Hodonin|0|2|Slovacko             # wf ma11538545
+R2|2025-08-27|Bohumin|1|6|Karvina              # wf ma11538542 att 1402
+R2|2025-08-27|Velke Hamry|0|2|Dukla Prague     # wf ma11538518
+R2|2025-08-27|Rokycany|0|6|Mlada Boleslav      # wf ma11538503 att 1150 - SCORE CONFLICT (see tail)
+R2|2025-08-27|Hostoun|1|2|Bohemians 1905       # wf ma11538491
+R2|2025-08-27|Brandys nad Labem|0|6|Slovan Liberec  # wf ma11538488 att 1885
+R2|2025-08-27|Hranice|0|5|Zlin                 # wf ma11538557
+# ---- 16 out-of-slice ties (no FL club):
+# OUT: Aug 26 Trinec 2-2 (pso 4-3) Prostejov; Horni Redice 1-0 Aritma; Kladno 2-3 Ceske Budejovice
+#      (CBU is FNL this season -> whole tie out); Aug 27 Lanzhot 3-1 Kromeriz; Trebic 1-2 Nove Sady;
+#      Vratimov 1-4 Frydek-Mistek; Unicov 2-2 (pso 3-4) Artis Brno; Bohunice 0-4 Zbrojovka Brno;
+#      Petrin Plzen 1-0 Motorlet; Brozany 2-2 (pso 8-7) Kolin; Hlinsko 2-1 Trutnov;
+#      Kraluv Dvur 4-5 Usti n/L; Hluboka n/V 0-4 Taborsko; Vysoko Myto 0-1 Jihlava;
+#      Karlovy Vary 3-0 Most-Sous; Aug 28 Domazlice 1-0 Pisek
+# ================= THIRD ROUND (16 ties; all in-slice) =================
+R3|2025-09-16|Lanznot|1|6|Viktoria Plzen       # wf ma11584715
+R3|2025-09-23|Horni Redice|1|2|Slovacko        # wf ma11584724 att 1150
+R3|2025-09-23|Brozany|0|2|Slavia Prague        # wf ma11584727
+R3|2025-09-23|Taborsko|1|6|Karvina             # wf ma11584745
+R3|2025-09-24|Domazlice|1|4|Bohemians 1905     # wf ma11584706
+R3|2025-09-24|Ceske Budejovice|2|3|Banik Ostrava   # (FNL host) wf ma11584751
+R3|2025-09-24|Nove Sady|3|2|Sigma Olomouc      # D4 UPSET - Olomouc out; wf ma11584730
+R3|2025-09-24|Karlovy Vary|0|5|Sparta Prague   # wf ma11584721
+R3|2025-09-24|Frydek-Mistek|1|1|Pardubice      # 90-min 1-1; PARDUBICE advanced aet 1-2
+# ^ wf ma11584718: Heller 7', 1-1 Krobot 71pen, 1-2 Sancl 105+1; stadium Stovky att 1066
+R3|2025-09-24|Hlinsko|0|2|Jablonec             # wf ma11584712
+R3|2025-09-24|Petrin Plzen|1|4|Mlada Boleslav  # wf ma11584709
+R3|2025-09-24|Usti nad Labem|0|2|Zlin          # wf ma11584748
+R3|2025-09-24|Zbrojovka Brno|2|1|Teplice       # FL AWAY LOST (Teplice out); wf ma11584739
+R3|2025-09-30|Artis Brno|1|1|Slovan Liberec    # 90-min 1-1 (aet 1-1); ARTIS advanced pens 6-5
+# ^ wf ma11584736: Afolabi 17', Lutonsky 29'; stadium ShipEx Arena att 1455; wf prints '6:5 pso'
+R3|2025-09-30|Jihlava|0|1|Dukla Prague         # wf ma11584742
+R3|2025-10-01|Trinec|3|3|Hradec Kralove        # 90-min 3-3; HRADEC advanced aet 3-4
+# ^ wf ma11584733: sequence to 3-3 (Slamena 90+3), Darida 120+1pen; stadium Rudolfa Labaje att 840
+# ================= ROUND OF 16 (8 ties) =================
+C16|2025-10-28|Karvina|1|0|Slovacko            # wf ma11651273
+C16|2025-10-28|Jablonec|2|1|Dukla Prague       # wf ma11651267
+C16|2025-10-29|Nove Sady|0|2|Viktoria Plzen    # wf ma11651276
+C16|2025-10-29|Zlin|0|4|Slavia Prague          # wf ma11651282
+C16|2025-11-05|Pardubice|3|3|Banik Ostrava     # 90-min 3-3; OSTRAVA advanced aet 3-4
+# ^ wf ma11651270: Smekal 90+1 equalizer, Buchta 111' decider; stadium Stadion Arnosta Kostala att 2160
+C16|2025-11-05|Bohemians 1905|0|0|Mlada Boleslav   # 90-min 0-0; MLADA BOLESLAV advanced pens 4-5
+# ^ wf ma11651264 prints '4:5 pso' (fold quirk)
+C16|2025-11-12|Zbrojovka Brno|0|3|Hradec Kralove   # wf ma11651258
+C16|2025-12-03|Artis Brno|1|2|Sparta Prague    # wf ma11651261 att 5716; stadium ShipEx Arena
+# ================= QUARTERFINALS (wiki boxes; dates Mar 3-5, 2026) =================
+CQF|2026-03-03|Jablonec|2|2|Slavia Prague      # 90-min 2-2; JABLONEC advanced pens 3-2
+CQF|2026-03-03|Mlada Boleslav|0|0|Sparta Prague    # 90-min 0-0; MLADA BOLESLAV advanced pens 4-2
+CQF|2026-03-04|Hradec Kralove|0|0|Banik Ostrava    # 90-min 0-0; OSTRAVA advanced pens 5-6
+CQF|2026-03-05|Karvina|3|0|Viktoria Plzen
+# ================= SEMIFINALS (Apr 21, 2026) =================
+CSF|2026-04-21|Jablonec|1|0|Mlada Boleslav     # Jawo 34'
+CSF|2026-04-21|Karvina|2|1|Banik Ostrava       # Kacor 67, Vinicius 82 / Kricfalusi 90
+# ================= FINAL (Malsovicka Arena, Hradec Kralove, att 7352) =================
+CF|2026-05-20|Jablonec|1|3|Karvina             # Jawo 16pen / Conde 44, Vinicius 48, 90+1
+#
+# Champion 2025-26: MFK KARVINA. Runner-up: Jablonec. Semifinal exits: Mlada Boleslav, Ostrava.
+# wf pso-fold display quirk again documented ('4:5 pso', '6:5 pso').
+# source_conflict: wiki R2 print 'Rokycany 0-1 Mlada Boleslav' vs wf bracket+match-report 0:6
+#   (six-goal timeline Sevcik 10, Langhamer 21, Zika 32/69, Kostka 39, Klima 44; HT 0-5,
+#   ma11538503) -> wf double print wins, wiki typo documented; row carries 0-6.

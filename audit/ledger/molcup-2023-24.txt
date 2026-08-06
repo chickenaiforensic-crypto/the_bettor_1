@@ -1,0 +1,48 @@
+# PRIMARY TRANSCRIPTION - MOL Cup (Pohar FACR) 2023-24, RSSSF tablest/tsje2024.html#cup
+# fetched 2026-08-03. Grammar: C16|CQF|CSF|CF |iso-date|home|hg|ag|away
+# NOTE: RSSSF carries this cup FROM THE ROUND OF 16 onward only (R2/R3 not on the page).
+#
+# --- 1/8 Finals ---
+# [Nov 1]
+C16|2023-11-01|Liberec|1|0|MlBoleslav
+# [Nov 1] FK Dukla Praha = CZ2 club; `Dukla Prague` reuse per WO section-3 correction
+C16|2023-11-01|DuklaP|3|1|Vyskov
+# [Nov 1]
+C16|2023-11-01|Ostrava|0|1|Zlin
+# [Nov 1]
+C16|2023-11-01|Bohemians|1|2|Sparta
+# [Nov 16]
+C16|2023-11-16|CBudejovice|1|2|Jablonec
+# [Nov 16]
+C16|2023-11-16|Olomouc|1|3|Plzen
+# [Nov 17] NO FIRST-LEAGUE CLUB IN THIS TIE -> OUT OF THE WO section-1 SLICE (recorded as comment)
+# OUT-OF-SLICE: C16|2023-11-17|Velvary|1|2|Opava (TJ Slovan Velvary CFL vs SFC Opava CZ2)
+# [Dec 6] Hradec 0-2 Slavia [aet] -> 90 min 0-0 per second index; SLAVIA advanced aet 0-2
+C16|2023-12-06|Hradec|0|2|Slavia
+# ^ RESOLVED: 90-min 0-0 (wf ma9970847 goal timeline: Wallem 109', van Buren 120+1)
+#
+# --- Quarterfinals ---
+# [Feb 25]
+CQF|2024-02-25|Opava|2|0|DuklaP
+# [Feb 28] Zlin 2-1 Liberec [aet] -> 90 min 1-1 per second index; ZLIN advanced aet 2-1
+CQF|2024-02-28|Zlin|2|1|Liberec
+# ^ RESOLVED: 90-min 1-1 (wiki box goal minutes: Schanelec 11, Pourzitidis 83; Janetzky 91)
+# [Feb 28] Slavia 2-3 Sparta [aet] -> 90 min 2-2 per second index; SPARTA advanced aet 2-3
+CQF|2024-02-28|Slavia|2|3|Sparta
+# ^ RESOLVED: 90-min 2-2 (wiki box goal minutes; Karabec 113 pen)
+# [Apr 2]
+CQF|2024-04-02|Jablonec|0|3|Plzen
+#
+# --- Semifinals ---
+# [Apr 3]
+CSF|2024-04-03|Opava|0|2|Sparta
+# [Apr 4] (header splits across page chunks: "F" + "C Viktoria Plzen 3-0 FC Zlin")
+CSF|2024-04-04|Plzen|3|0|Zlin
+#
+# --- Final [May 22, Plzen] ---
+CF|2024-05-22|Plzen|1|2|Sparta
+#
+# Champion 2023-24: Sparta (AC Sparta Praha). Final venue per RSSSF header: Plzen.
+# Name forms: "FC Zlin" (= pinned `Zlin` - Trinity era but the FIRST-LEAGUE club that season),
+# "SFC Opava" (= client-roster CZ2 string `Opava`), "MFK Vyskov" (= `Vyskov`),
+# "TJ Slovan Velvary" (CFL club; appears ONLY vs Opava here = out of slice for this pack).
