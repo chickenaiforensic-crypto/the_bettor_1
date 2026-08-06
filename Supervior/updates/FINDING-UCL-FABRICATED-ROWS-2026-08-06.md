@@ -49,3 +49,11 @@ is **removal**, not editing dates on invented matches.
 
 The separate `build_uefa_pack.py` (connector) uses `Stadium`/`City` defaults for some
 rows but with **real team names** — those are NOT in the fabricated set and were retained.
+
+## UEFA-FULL pack (handoffs) — flagged, NOT regenerated
+
+The handoffs file `handoffs/UEFA-FULL-2021-2026_BP-TEAM-PACK_v2.txt` also contains
+the 436 fabricated rows (3,200 total MATCH lines = 2,764 real + 436 synthetic).
+Per planner instruction: **flag only, do not regenerate** — the auditor will handle it.
+Flagged here for the record. The corrected store (16,193) is unaffected (it already
+excludes the fabricated rows).
