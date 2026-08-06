@@ -1,0 +1,175 @@
+PITCH-RATING|Scottish Cup|BP-TEAM-PACK v2
+TEAM|Aberdeen|Scotland|Scottish Premiership|SC0
+TEAM|Celtic|Scotland|Scottish Premiership|SC0
+TEAM|Dundee|Scotland|Scottish Premiership|SC0
+TEAM|Dundee United|Scotland|Scottish Premiership|SC0
+TEAM|Falkirk|Scotland|Scottish Premiership|SC0
+TEAM|Hearts|Scotland|Scottish Premiership|SC0
+TEAM|Hibernian|Scotland|Scottish Premiership|SC0
+TEAM|Kilmarnock|Scotland|Scottish Premiership|SC0
+TEAM|Livingston|Scotland|Scottish Premiership|SC0
+TEAM|Motherwell|Scotland|Scottish Premiership|SC0
+TEAM|Rangers|Scotland|Scottish Premiership|SC0
+TEAM|Ross County|Scotland|Scottish Premiership|SC0
+TEAM|St Johnstone|Scotland|Scottish Premiership|SC0
+TEAM|St Mirren|Scotland|Scottish Premiership|SC0
+MATCH|2022-02-12|Scottish Cup|domestic-league|Hearts|0|0|Livingston||||||rsssf-scot-2022
+NOTE|info|round|R16
+NOTE|info|advancement|Scottish Cup 2022: 4-3 pen
+MATCH|2022-02-12|Scottish Cup|domestic-league|Motherwell|2|1|Aberdeen||||||rsssf-scot-2022
+NOTE|info|round|R16
+MATCH|2022-02-12|Scottish Cup|domestic-league|Partick Thistle|0|1|Dundee United||||||rsssf-scot-2022
+NOTE|info|round|R16
+MATCH|2022-02-12|Scottish Cup|domestic-league|St Mirren|4|0|Kelty Hearts||||||rsssf-scot-2022
+NOTE|info|round|R16
+MATCH|2022-02-12|Scottish Cup|domestic-league|Annan Athletic|0|3|Rangers||||||rsssf-scot-2022
+NOTE|info|round|R16
+MATCH|2022-02-13|Scottish Cup|domestic-league|Arbroath|1|3|Hibernian||||||rsssf-scot-2022
+NOTE|info|round|R16
+MATCH|2022-02-13|Scottish Cup|domestic-league|Celtic|4|0|Raith Rovers||||||rsssf-scot-2022
+NOTE|info|round|R16
+MATCH|2022-02-14|Scottish Cup|domestic-league|Peterhead|0|3|Dundee||||||rsssf-scot-2022
+NOTE|info|round|R16
+MATCH|2022-03-12|Scottish Cup|domestic-league|Hearts|4|2|St Mirren||||||rsssf-scot-2022
+NOTE|info|round|QF
+MATCH|2022-03-13|Scottish Cup|domestic-league|Motherwell|1|2|Hibernian||||||rsssf-scot-2022
+NOTE|info|round|QF
+MATCH|2022-03-13|Scottish Cup|domestic-league|Dundee|0|3|Rangers||||||rsssf-scot-2022
+NOTE|info|round|QF
+MATCH|2022-03-14|Scottish Cup|domestic-league|Dundee United|0|3|Celtic||||||rsssf-scot-2022
+NOTE|info|round|QF
+MATCH|2022-04-16|Scottish Cup|domestic-league|Hearts|2|1|Hibernian||||||rsssf-scot-2022
+NOTE|info|round|SF
+MATCH|2022-04-17|Scottish Cup|domestic-league|Celtic|1|2|Rangers||||||rsssf-scot-2022
+NOTE|info|round|SF
+NOTE|info|advancement|Scottish Cup 2022: aet
+MATCH|2022-05-21|Scottish Cup|domestic-league|Rangers|2|0|Hearts||||||rsssf-scot-2022
+NOTE|info|round|Final
+NOTE|info|advancement|Scottish Cup 2022: aet
+SOURCE|rsssf-scot-2022|https://www.rsssf.org/tabless/scot2022.html|2026-08-06|primary|Scottish Cup 2022 (1/8 Finals to Final), bracket verified
+MATCH|2023-02-10|Scottish Cup|domestic-league|Hamilton Academical|0|2|Hearts||||||rsssf-scot-2023
+NOTE|info|round|R16
+MATCH|2023-02-11|Scottish Cup|domestic-league|Dundee United|0|1|Kilmarnock||||||rsssf-scot-2023
+NOTE|info|round|R16
+MATCH|2023-02-11|Scottish Cup|domestic-league|Livingston|0|3|Inverness CT||||||rsssf-scot-2023
+NOTE|info|round|R16
+MATCH|2023-02-11|Scottish Cup|domestic-league|Raith Rovers|3|1|Motherwell||||||rsssf-scot-2023
+NOTE|info|round|R16
+MATCH|2023-02-11|Scottish Cup|domestic-league|Celtic|5|1|St Mirren||||||rsssf-scot-2023
+NOTE|info|round|R16
+MATCH|2023-02-12|Scottish Cup|domestic-league|Rangers|3|2|Partick Thistle||||||rsssf-scot-2023
+NOTE|info|round|R16
+MATCH|2023-03-10|Scottish Cup|domestic-league|Inverness CT|2|1|Kilmarnock||||||rsssf-scot-2023
+NOTE|info|round|QF
+MATCH|2023-03-11|Scottish Cup|domestic-league|Hearts|0|3|Celtic||||||rsssf-scot-2023
+NOTE|info|round|QF
+MATCH|2023-03-12|Scottish Cup|domestic-league|Rangers|3|0|Raith Rovers||||||rsssf-scot-2023
+NOTE|info|round|QF
+MATCH|2023-04-30|Scottish Cup|domestic-league|Rangers|0|1|Celtic||||||rsssf-scot-2023
+NOTE|info|round|SF
+MATCH|2023-06-03|Scottish Cup|domestic-league|Celtic|3|1|Inverness CT||||||rsssf-scot-2023
+NOTE|info|round|Final
+SOURCE|rsssf-scot-2023|https://www.rsssf.org/tabless/scot2023.html|2026-08-06|primary|Scottish Cup 2023 (1/8 Finals to Final), bracket verified
+MATCH|2024-02-09|Scottish Cup|domestic-league|Greenock Morton|2|1|Motherwell||||||rsssf-scot-2024
+NOTE|info|round|R16
+MATCH|2024-02-10|Scottish Cup|domestic-league|Aberdeen|2|0|Bonnyrigg Rose Ath.||||||rsssf-scot-2024
+NOTE|info|round|R16
+MATCH|2024-02-10|Scottish Cup|domestic-league|Inverness CT|1|3|Hibernian||||||rsssf-scot-2024
+NOTE|info|round|R16
+MATCH|2024-02-10|Scottish Cup|domestic-league|Kilmarnock|2|0|Cove Rangers||||||rsssf-scot-2024
+NOTE|info|round|R16
+MATCH|2024-02-10|Scottish Cup|domestic-league|Partick Thistle|2|3|Livingston||||||rsssf-scot-2024
+NOTE|info|round|R16
+NOTE|info|advancement|Scottish Cup 2024: aet
+MATCH|2024-02-10|Scottish Cup|domestic-league|Rangers|2|0|Ayr United||||||rsssf-scot-2024
+NOTE|info|round|R16
+MATCH|2024-02-11|Scottish Cup|domestic-league|St Mirren|0|2|Celtic||||||rsssf-scot-2024
+NOTE|info|round|R16
+MATCH|2024-02-11|Scottish Cup|domestic-league|Airdrieonians|1|4|Hearts||||||rsssf-scot-2024
+NOTE|info|round|R16
+MATCH|2024-03-09|Scottish Cup|domestic-league|Aberdeen|3|1|Kilmarnock||||||rsssf-scot-2024
+NOTE|info|round|QF
+MATCH|2024-03-10|Scottish Cup|domestic-league|Celtic|4|2|Livingston||||||rsssf-scot-2024
+NOTE|info|round|QF
+MATCH|2024-03-10|Scottish Cup|domestic-league|Hibernian|0|2|Rangers||||||rsssf-scot-2024
+NOTE|info|round|QF
+MATCH|2024-03-11|Scottish Cup|domestic-league|Greenock Morton|0|1|Hearts||||||rsssf-scot-2024
+NOTE|info|round|QF
+MATCH|2024-04-20|Scottish Cup|domestic-league|Aberdeen|3|3|Celtic||||||rsssf-scot-2024
+NOTE|info|round|SF
+NOTE|info|advancement|Scottish Cup 2024: 5-6 pen
+MATCH|2024-04-21|Scottish Cup|domestic-league|Rangers|2|0|Hearts||||||rsssf-scot-2024
+NOTE|info|round|SF
+MATCH|2024-05-25|Scottish Cup|domestic-league|Celtic|1|0|Rangers||||||rsssf-scot-2024
+NOTE|info|round|Final
+SOURCE|rsssf-scot-2024|https://www.rsssf.org/tabless/scot2024.html|2026-08-06|primary|Scottish Cup 2024 (1/8 Finals to Final), bracket verified
+MATCH|2025-02-07|Scottish Cup|domestic-league|Ayr United|0|1|Hibernian||||||rsssf-scot-2025
+NOTE|info|round|R16
+MATCH|2025-02-07|Scottish Cup|domestic-league|Dundee|4|0|Airdrieonians||||||rsssf-scot-2025
+NOTE|info|round|R16
+MATCH|2025-02-07|Scottish Cup|domestic-league|St Johnstone|1|0|Hamilton Academical||||||rsssf-scot-2025
+NOTE|info|round|R16
+MATCH|2025-02-07|Scottish Cup|domestic-league|Celtic|5|0|Raith Rovers||||||rsssf-scot-2025
+NOTE|info|round|R16
+MATCH|2025-02-09|Scottish Cup|domestic-league|Aberdeen|3|0|Dunfermline Athletic||||||rsssf-scot-2025
+NOTE|info|round|R16
+MATCH|2025-02-09|Scottish Cup|domestic-league|Rangers|0|1|Queen's Park||||||rsssf-scot-2025
+NOTE|info|round|R16
+MATCH|2025-02-10|Scottish Cup|domestic-league|St Mirren|1|1|Hearts||||||rsssf-scot-2025
+NOTE|info|round|R16
+NOTE|info|advancement|Scottish Cup 2025: 2-4 pen
+MATCH|2025-03-07|Scottish Cup|domestic-league|Hearts|3|1|Dundee||||||rsssf-scot-2025
+NOTE|info|round|QF
+MATCH|2025-03-08|Scottish Cup|domestic-league|Aberdeen|4|1|Queen's Park||||||rsssf-scot-2025
+NOTE|info|round|QF
+MATCH|2025-03-09|Scottish Cup|domestic-league|Celtic|2|0|Hibernian||||||rsssf-scot-2025
+NOTE|info|round|QF
+MATCH|2025-03-10|Scottish Cup|domestic-league|Livingston|0|1|St Johnstone||||||rsssf-scot-2025
+NOTE|info|round|QF
+MATCH|2025-04-19|Scottish Cup|domestic-league|Hearts|1|2|Aberdeen||||||rsssf-scot-2025
+NOTE|info|round|SF
+NOTE|info|advancement|Scottish Cup 2025: aet
+MATCH|2025-04-20|Scottish Cup|domestic-league|St Johnstone|0|5|Celtic||||||rsssf-scot-2025
+NOTE|info|round|SF
+MATCH|2025-05-24|Scottish Cup|domestic-league|Aberdeen|1|1|Celtic||||||rsssf-scot-2025
+NOTE|info|round|Final
+NOTE|info|advancement|Scottish Cup 2025: 4-3 pen
+SOURCE|rsssf-scot-2025|https://www.rsssf.org/tabless/scot2025.html|2026-08-06|primary|Scottish Cup 2025 (1/8 Finals to Final), bracket verified
+MATCH|2026-02-06|Scottish Cup|domestic-league|Airdrieonians|1|2|St Mirren||||||rsssf-scot-2026
+NOTE|info|round|R16
+NOTE|info|advancement|Scottish Cup 2026: aet
+MATCH|2026-02-07|Scottish Cup|domestic-league|Celtic|2|1|Dundee||||||rsssf-scot-2026
+NOTE|info|round|R16
+NOTE|info|advancement|Scottish Cup 2026: aet
+MATCH|2026-02-08|Scottish Cup|domestic-league|Rangers|8|0|Queen's Park||||||rsssf-scot-2026
+NOTE|info|round|R16
+MATCH|2026-02-08|Scottish Cup|domestic-league|Stenhousemuir|0|2|Falkirk||||||rsssf-scot-2026
+NOTE|info|round|R16
+NOTE|info|advancement|Scottish Cup 2026: aet
+MATCH|2026-02-17|Scottish Cup|domestic-league|Dundee United|2|1|The Spartans||||||rsssf-scot-2026
+NOTE|info|round|R16
+MATCH|2026-02-18|Scottish Cup|domestic-league|Aberdeen|2|0|Motherwell||||||rsssf-scot-2026
+NOTE|info|round|R16
+MATCH|2026-03-06|Scottish Cup|domestic-league|Falkirk|2|1|Dundee United||||||rsssf-scot-2026
+NOTE|info|round|QF
+MATCH|2026-03-07|Scottish Cup|domestic-league|Dunfermline Athl.|3|0|Aberdeen||||||rsssf-scot-2026
+NOTE|info|round|QF
+MATCH|2026-03-08|Scottish Cup|domestic-league|Rangers|0|0|Celtic||||||rsssf-scot-2026
+NOTE|info|round|QF
+NOTE|info|advancement|Scottish Cup 2026: 2-4 pen
+MATCH|2026-03-08|Scottish Cup|domestic-league|St Mirren|2|1|Partick Thistle||||||rsssf-scot-2026
+NOTE|info|round|QF
+MATCH|2026-04-18|Scottish Cup|domestic-league|Dunfermline Athl.|0|0|Falkirk||||||rsssf-scot-2026
+NOTE|info|round|SF
+NOTE|info|advancement|Scottish Cup 2026: 4-2 pen
+MATCH|2026-04-19|Scottish Cup|domestic-league|Celtic|6|2|St Mirren||||||rsssf-scot-2026
+NOTE|info|round|SF
+NOTE|info|advancement|Scottish Cup 2026: aet
+MATCH|2026-05-23|Scottish Cup|domestic-league|Celtic|3|1|Dunfermline Athletic||||||rsssf-scot-2026
+NOTE|info|round|Final
+SOURCE|rsssf-scot-2026|https://www.rsssf.org/tabless/scot2026.html|2026-08-06|primary|Scottish Cup 2026 (1/8 Finals to Final), bracket verified
+NOTE|info|catalog|Competition string 'Scottish Cup' (Scottish FA Cup - national cup of Scotland).
+NOTE|info|slice_rule|Slice = every tie with at least one Premiership club of that season (per-season membership per SCO1 workorder section 3), from the entry round to the Final. All-lower ties OUT.
+NOTE|warning|blocker|Earlier entry-round ties (Scottish Cup Rounds 1-4 where Premiership clubs enter at the fourth round; League Cup July group stage) NOT RETURNED: RSSSF scot chapters begin at the 1/8 Finals (R16). Slice from R16 to Final is complete; earlier rounds require a secondary source (BBC Sport/worldfootball) capture - blocked pending that.
+NOTE|info|self_gate|Champions per edition verified from RSSSF: see FINAL rows. Bracket (semifinalists/finalists/champion) matches official record. 14-field grammar, round in NOTE|info|round, season-specific source IDs.
+END

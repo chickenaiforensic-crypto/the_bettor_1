@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Build MLS BP-TEAM-PACK v2.
 Regular seasons 2021-2024 from RSSSF (verified vs official tables).
-Playoffs 2021,2022,2023,2025 from RSSSF (2024 playoffs are HELD/appendix - excluded).
+Playoffs 2021,2022,2023,2025 from RSSSF (2024 playoffs HELD/appendix - excluded).
 Appendix regular-season rows (2024-10-19 etc) excluded.
 2025 regular season + 2026 -> blocker (no RSSSF source page).
+MATCH rows: 14 fields exactly, venue/stadium/city/country empty (no stadium data in RSSSF),
+round in NOTE|info|round, source id season-specific (rsssf-mls-YYYY).
 """
 import re, sys, collections
 from parse_mls import parse_rounds, canon
@@ -18,9 +20,6 @@ SOURCES = [
     "rsssf-mls-2025|https://www.rsssf.org/tablesu/usa2025.html|2026-08-06|primary|MLS 2025 playoff (regular-season match list absent on page)",
 ]
 
-# Appendix: held rows that must NOT be returned
-# (a) MLS regular season 2024-10-19 (11 rows) + 2026 rows (not in our data anyway)
-# (b) 2024 playoffs (28 rows)
 APPENDIX_2024_10_19 = {
     ("2024-10-19","Philadelphia Union","FC Cincinnati"),
     ("2024-10-19","D.C. United","Charlotte FC"),
@@ -47,13 +46,15 @@ def parse_playoff(text, year, stages):
             if s.lower().startswith(stage.lower()):
                 cur_stage = stage
                 break
-        if s.startswith("[") or (cur_stage and "[" in s and not re.match(r"^.+?\s+\d+-\d+\s+.+$", s)):
+        # date line, or date embedded in a stage header like "Conference Quarterfinals [Oct 15]"
+        if "[" in s and not re.match(r"^.+?\s+\d+-\d+\s+.+$", s):
             md = re.search(r"\[([A-Za-z]{3}) (\d{1,2})\]", s)
             if md:
                 mon = {"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}[md.group(1)]
                 cur_date = f"{year}-{mon:02d}-{int(md.group(2)):02d}"
-            if s.startswith("["):
-                continue
+            continue
+        if s.startswith("["):
+            continue
         if "bye" in s.lower() or "n/p" in s.lower():
             continue
         m = re.match(r"^(.+?)\s+(\d+)-(\d+)\s+(.+)$", s)
@@ -79,13 +80,16 @@ def adv_note(comp, note):
     n = note.strip()
     if not n:
         return None
-    # penalty shootouts: "4-2 pen", "aet, 3-5 pen", "5-6 pen"
     pm = re.search(r"(\d+)-(\d+)\s*pen", n)
     if pm:
         return f"NOTE|info|advancement|{comp} pens {n}"
     if "aet" in n.lower():
         return f"NOTE|info|advancement|{comp} decided after extra time; {n}"
     return f"NOTE|info|advancement|{comp} {n}"
+
+def match14(comp, date, home, hg, ag, away, source):
+    # 14 fields: MATCH|date|comp|compType|home|hg|ag|away|venue|stadium|city|country||source
+    return "MATCH|%s|%s|domestic-league|%s|%s|%s|%s||||||%s" % (date, comp, home, hg, ag, away, source)
 
 def main():
     lines = ["PITCH-RATING|MLS|BP-TEAM-PACK v2"]
@@ -99,27 +103,27 @@ def main():
     for t in teams:
         lines.append(f"TEAM|{t}|USA|Major League Soccer|MLS")
 
-    rs_count = 0
-    excl = 0
+    rs_count = 0; excl = 0
     for y in ["2021","2022","2023","2024"]:
         rows = parse_rounds(open(f"audit_work/.mls_raw/usa{y}.txt",encoding="utf-8").read(), y)
+        src = f"rsssf-mls-{y}"
         for round_lab, date, home, hg, ag, away in rows:
             if y == "2024" and (date, home, away) in APPENDIX_2024_10_19:
-                excl += 1
-                continue
-            lines.append(f"MATCH|{date}|{COMP_RS}|domestic-league|{home}|{hg}|{ag}|{away}|{round_lab}||||rsssf-mls")
+                excl += 1; continue
+            lines.append(match14(COMP_RS, date, home, hg, ag, away, src))
+            lines.append(f"NOTE|info|round|{round_lab}")
             rs_count += 1
 
-    # Playoffs: 2021,2022,2023,2025 (2024 held -> excluded)
-    po_files = {
-        "2021":"playoffs2021.txt","2022":"playoffs2022.txt","2023":"playoffs2023.txt","2025":"playoffs2025.txt"}
+    po_files = {"2021":"playoffs2021.txt","2022":"playoffs2022.txt","2023":"playoffs2023.txt","2025":"playoffs2025.txt"}
     po_count = 0
     for y, fn in po_files.items():
         stages = {"2021":STAGE_KEYS_2021,"2022":STAGE_KEYS_2022,"2023":STAGE_KEYS_2023,"2025":STAGE_KEYS_2025}[y]
+        src = f"rsssf-mls-{y}"
         rows = parse_playoff(open(f"audit_work/.mls_raw/{fn}",encoding="utf-8").read(), y, stages)
         for stage, date, home, hg, ag, away, note in rows:
             st = stage or "Playoff"
-            lines.append(f"MATCH|{date}|{COMP_PO}|domestic-league|{home}|{hg}|{ag}|{away}|{st}||||rsssf-mls")
+            lines.append(match14(COMP_PO, date, home, hg, ag, away, src))
+            lines.append(f"NOTE|info|round|{st}")
             po_count += 1
             nn = adv_note(COMP_PO, note)
             if nn: lines.append(nn)
@@ -127,7 +131,6 @@ def main():
     for s in SOURCES:
         lines.append("SOURCE|" + s)
 
-    # Notes: identity mapping + 90-min doctrine + blockers
     lines.append("NOTE|info|identity_mapping|Source names mapped to canonical 30-club roster per workorder section 3 (e.g. Montreal CF->CF Montréal, DC United->D.C. United, Chicago Fire->Chicago Fire FC, Houston Dynamo->Houston Dynamo FC, Inter Miami->Inter Miami CF, LA/Los Angeles Galaxy->LA Galaxy, New York City->New York City FC, Saint Louis City->St. Louis City SC).")
     lines.append("NOTE|info|90min_doctrine|All scorelines are the 90-minute score. Playoff games decided on penalties/extra time record the 90' result plus a NOTE|info|advancement.")
     lines.append("NOTE|info|playoff_format|2021-22 single-elimination bracket; 2023+ wild-card singles + best-of-3 first round (third legs as needed) + single elimination, recorded per RSSSF.")
@@ -143,5 +146,6 @@ def main():
 
 if __name__ == "__main__":
     out, rs, po, excl = main()
-    print("RS rows returned:", rs, "| playoff rows returned:", po, "| appendix excluded:", excl)
-    sys.stdout.write("TOTAL returned rows = %d\n" % (rs+po))
+    open("handoffs/MLS-2021-2026_BP-TEAM-PACK_v2.txt","w",encoding="utf-8").write(out)
+    print("RS returned:", rs, "| PO returned:", po, "| appendix excluded:", excl)
+    print("TOTAL MATCH rows:", rs+po)
