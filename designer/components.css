@@ -1,0 +1,20 @@
+/* Component Library — Buttons, Cards, Badges, Pills, Bars, Tables */
+
+/* Primary CTA */
+.btn-primary { display:inline-flex; align-items:center; gap:8px; padding:14px 28px; border-radius:10px; background:var(--ink-900); color:var(--paper); font:600 15px/1.2 var(--font-body); border:none; box-shadow:0 8px 24px rgba(10,15,26,0.25); transition:transform .15s ease, box-shadow .2s ease; }
+.btn-primary:hover { transform:translateY(-2px); box-shadow:0 14px 32px rgba(10,15,26,0.35); }
+
+/* Badge */
+.badge { display:inline-flex; align-items:center; gap:6px; padding:4px 10px; border-radius:999px; font:700 11px/1 var(--font-body); letter-spacing:.03em; text-transform:uppercase; }
+.badge-emerald { background:rgba(16,185,129,0.12); color:var(--emerald-deep); border:1px solid rgba(16,185,129,0.18); }
+.badge-gold { background:rgba(200,168,77,0.12); color:#8a6e28; border:1px solid rgba(200,168,77,0.18); }
+
+/* Card */
+.card { background:var(--paper); border-radius:var(--radius); box-shadow:var(--shadow-card); padding:28px 28px 32px; border:1px solid rgba(10,15,26,0.06); }
+
+/* Progress / balance bar */
+.balance-bar { height:10px; border-radius:6px; overflow:hidden; background:var(--mist); display:flex; }
+.balance-bar > span { height:100%; display:block; }
+
+/* Verdict card */
+.verdict { font-family:var(--font-display); font-size:28px; line-height:1.15; letter-spacing:-0.02em; color:var(--ink-950); }

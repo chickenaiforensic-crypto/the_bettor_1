@@ -1,0 +1,16 @@
+{
+  "store": "audit_work/pitch-rating-full-10199-new-leagues-2026-08-05.json",
+  "uefa_full": "handoffs/UEFA-FULL-2021-2026_BP-TEAM-PACK_v2.txt",
+  "train": 112,
+  "test": 4,
+  "s_pivot": {
+    "Germany Bundesliga": -0.31788109093357214,
+    "Italy Serie A": 0.498317442712727,
+    "England Premier League": 0.4792978365845361
+  },
+  "mse_frozen": 3.5329051212297102,
+  "mse_weighted": 3.338958321493309,
+  "improvement_pct": 5.48972568130823,
+  "method": "full 3200 entire UCL/UEL/UECL + qualifiers, bias loop s[L]\u2190s[L]-step*bias step 0.08 tol 0.02 max_iter 100, pred GD = (att-def + sLA) - (att-def + sLB) + hfa 0.25",
+  "note": "Entire UEFA data for real-world cross-league accuracy per owner directive gather entire UFA champions league data europa etc"
+}
