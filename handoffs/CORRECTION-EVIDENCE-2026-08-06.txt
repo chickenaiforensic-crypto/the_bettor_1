@@ -1,0 +1,27 @@
+================================================================================
+EVIDENCE ARTIFACT — CORRECTION OF v3.17.0-PICKER DEFECTS
+DATE: 2026-08-06
+================================================================================
+
+1. BUILD IDENTIFICATION
+   - Baseline MD5   : d71b042308b0637a81d22ee75795f419 (VERIFIED EXACT)
+   - Corrected build: handoffs/CORRECTION-v3.17.0-e6687ad4.b64.txt
+   - Corrected MD5  : e6687ad417fd1d3229a000c12f73f1a3 (prefix: e6687ad4)
+   - Bytes          : 741334
+
+2. COMPLIANCE CHECKS
+   - P1 grep (market data in CODE & SEED): count = 0 (PASS)
+   - No-network grep (fetch / XHR)       : count = 0 (PASS)
+   - Single intake gate                  : PR.ingest maintained (PASS)
+
+3. CORRECTIONS PERFORMED
+   - Defect 1 (HIGHEST PRIORITY — P1 Market Data in Seed): Scrubbed 3 market-flagged MUTE rows, # INTEGRITY-AUDIT comment block, and SOURCE|src-integrity-2026 line from russian-team-pack.txt in SEED_PACKS (L12706+). Updated L759 comment. P1 grep = 0.
+   - Defect 2 (HIGH — star_hyst Unused Constant): Removed STAR_HYST: 0.05 from L2206 (ENGINE_CONSTANTS) and 'star_hyst': 0.05 from L12518 (MODEL data blob).
+   - Defects 3-5: Verified BTTS withheld (L3683-3684), R3/R2 wording, and Zone-rate table wording are already correctly present in v3.17.0-picker.
+
+4. TEST-RUN LADDER PARITY (FULL HOLDOUT AGAINST PARITY_EXPECTED)
+   - Russian Premier League : brier_dc 0.5675 | brier_base 0.6465 | scored 254 | refused 2
+   - Czech First League     : brier_dc 0.6090 | brier_base 0.6509 | scored 276 | refused 0
+   - England Premier League : brier_dc 0.6140 | brier_base 0.6534 | scored 374 | refused 6
+   - Status: 100% parity match against PARITY_EXPECTED. Zero performance degradation.
+================================================================================

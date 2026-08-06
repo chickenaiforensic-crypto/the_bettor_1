@@ -95,7 +95,7 @@ Online fit (`fit()` L2056+; `CONF` L~1796) — constants all verified: `LR 0.055
 **The team-categorisation system (owner's example), exactly as specified:**
 ```
 metric=(3W+D)/P · qualify P≥5 (star_min_games=5 ✓) · shrink weight 6 toward league mean ✓
-stars = 1..5 rank WITHIN league (quintile) · hysteresis 0.05 ✓ (churn 21.0%→8.7%)
+stars = 1..5 rank WITHIN league (quintile) · hysteresis inactive (removed from data blob; churn 21.0%)
 ```
 Correction: target `draw_table[tier|starGap]` (27 cells ✓) else `draw_base[tier]`; weights 0.2/0.5/0.5 ✓; **cap ±0.02** ✓; **proportional split** (M4 rule) ✓; renormalise ✓. Evidence: +0.047% full-1X2 Brier (p 0.0000, n 59,615; tier-2/3 ≈ +0.09%).
 
@@ -236,6 +236,7 @@ Unchanged from v1.0 (all LIVE and current): ingest one-gate (grammar · complete
 - **A-03** ELO layer adopt/retire — **APPROVED-FOR-DOCUMENTATION 2026-08-05** (owner ruling: approved as written plan only, not a build order) — plan: adopt display-only · **A-04** blob gate flags consume-or-drop — **APPROVED-FOR-DOCUMENTATION 2026-08-05** — plan: drop + provenance note · **A-05** integrity screen method — **RESOLVED 2026-08-04 (P1 doctrine; outcomes-only spec owed)** · **A-06** goal-range timing — **APPROVED-FOR-DOCUMENTATION 2026-08-05** — plan: after M7
 - **A-07** (document): METHODOLOGY integrated; cold-start kit defined; protocols onboarded; ledger M10 resolved, M13 closed, M17/M18 added → SOT v1.0 (`5898cccd…`) → v1.1 (this file).
 - **A-08** cross-league WEIGHTED bridge (league-strength scale, so teams from different leagues rate on a weighted common scale, then the standard computation applies) — PROPOSED 2026-08-05 on owner doctrine statement. Design constraints: weights must be live-derived from UEFA connector matches 2021-26 (new researcher pack; D14 domestic-scope expansion needs owner approval); adopted only if it beats the frozen 1.00 unweighted baseline (LIVE-BLUEPRINT §: European-edge scale >1.00 degraded held-out RMSE) on the app's own masked replay per LIVE-DERIVE-01; otherwise stays silent with a plain label. **APPROVED-FOR-DOCUMENTATION 2026-08-05** (owner ruling: approved as written plan only, not a build order). Frozen plan: ADOPT as doctrine; UEFA 2021-26 connector pack after domestic close; engineering after the v3.6.4 live-derive harness lands; adopted in app only if it beats the frozen 1.00 baseline on the app's own masked replay.
+- **A-09** (Builder correction 2026-08-06): Defect 3 correction — removed unused `star_hyst` (0.05) from MODEL data blob in app file; documented hysteresis as inactive.
 
 # 13. REFERENCE PINS *(historical snapshot — wherever a pin here disagrees with §14, §14 wins)*
 
