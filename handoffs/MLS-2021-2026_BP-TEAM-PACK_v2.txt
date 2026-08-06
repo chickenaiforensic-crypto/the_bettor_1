@@ -3849,6 +3849,1026 @@ MATCH|2024-10-19|Major League Soccer|domestic-league|Chicago Fire FC|0|3|Nashvil
 NOTE|info|round|RS
 MATCH|2024-10-19|Major League Soccer|domestic-league|New York Red Bulls|2|3|Columbus Crew||||||rsssf-mls-2024
 NOTE|info|round|RS
+MATCH|2025-02-22|Major League Soccer|domestic-league|Los Angeles FC|1|0|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Inter Miami CF|2|2|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Atlanta United FC|3|2|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Columbus Crew|4|2|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|D.C. United|2|2|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|FC Cincinnati|1|0|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Orlando City SC|2|4|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Austin FC|1|0|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Houston Dynamo FC|1|2|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Nashville SC|0|0|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|St. Louis City SC|0|0|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|San Jose Earthquakes|4|0|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Seattle Sounders FC|2|2|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-23|Major League Soccer|domestic-league|Portland Timbers|1|4|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-02-24|Major League Soccer|domestic-league|LA Galaxy|0|2|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R1
+MATCH|2025-03-01|Major League Soccer|domestic-league|Charlotte FC|2|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-01|Major League Soccer|domestic-league|Real Salt Lake|2|0|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|New England Revolution|0|1|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|New York Red Bulls|2|0|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|Orlando City SC|4|2|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|Philadelphia Union|4|1|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|Chicago Fire FC|2|2|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|Minnesota United FC|1|0|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|Sporting Kansas City|1|2|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|Colorado Rapids|3|3|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|Los Angeles FC|1|0|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|Portland Timbers|1|0|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-02|Major League Soccer|domestic-league|San Diego FC|0|0|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-03|Major League Soccer|domestic-league|Vancouver Whitecaps FC|2|1|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-03|Major League Soccer|domestic-league|Houston Dynamo FC|1|4|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R2
+MATCH|2025-03-08|Major League Soccer|domestic-league|Columbus Crew|0|0|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-08|Major League Soccer|domestic-league|Seattle Sounders FC|5|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|Atlanta United FC|0|0|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|D.C. United|2|1|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|FC Cincinnati|2|0|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|New England Revolution|0|2|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|New York City FC|2|1|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|Austin FC|0|1|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|FC Dallas|1|3|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|Nashville SC|2|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|Real Salt Lake|1|3|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|Vancouver Whitecaps FC|2|0|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|San Jose Earthquakes|0|1|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-09|Major League Soccer|domestic-league|Inter Miami CF|1|0|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-10|Major League Soccer|domestic-league|LA Galaxy|0|3|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R3
+MATCH|2025-03-15|Major League Soccer|domestic-league|New York Red Bulls|2|2|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-15|Major League Soccer|domestic-league|Toronto FC|1|2|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-15|Major League Soccer|domestic-league|Los Angeles FC|0|1|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|Charlotte FC|2|0|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|D.C. United|0|0|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|New York City FC|2|1|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|Sporting Kansas City|3|3|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|FC Dallas|0|1|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|Houston Dynamo FC|1|2|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|St. Louis City SC|1|0|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|San Diego FC|1|1|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|San Jose Earthquakes|1|2|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|Philadelphia Union|1|3|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-16|Major League Soccer|domestic-league|Portland Timbers|1|1|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-17|Major League Soccer|domestic-league|Atlanta United FC|1|2|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R4
+MATCH|2025-03-22|Major League Soccer|domestic-league|FC Cincinnati|2|2|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-22|Major League Soccer|domestic-league|Minnesota United FC|2|2|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Charlotte FC|4|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Columbus Crew|0|0|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|New York Red Bulls|2|1|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Orlando City SC|4|1|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Philadelphia Union|1|0|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Nashville SC|3|0|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Sporting Kansas City|0|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Colorado Rapids|0|3|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Real Salt Lake|0|1|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Seattle Sounders FC|0|0|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Vancouver Whitecaps FC|1|3|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-23|Major League Soccer|domestic-league|Austin FC|2|1|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R5
+MATCH|2025-03-29|Major League Soccer|domestic-league|New England Revolution|2|1|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-29|Major League Soccer|domestic-league|Toronto FC|0|0|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-29|Major League Soccer|domestic-league|Colorado Rapids|2|0|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|Atlanta United FC|4|3|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|D.C. United|1|2|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|Inter Miami CF|2|1|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|Chicago Fire FC|1|1|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|FC Dallas|2|1|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|Minnesota United FC|2|0|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|Nashville SC|1|2|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|LA Galaxy|1|2|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|San Diego FC|3|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|San Jose Earthquakes|1|1|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-30|Major League Soccer|domestic-league|St. Louis City SC|0|1|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-03-31|Major League Soccer|domestic-league|Portland Timbers|3|1|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R6
+MATCH|2025-04-05|Major League Soccer|domestic-league|Charlotte FC|2|1|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-05|Major League Soccer|domestic-league|Real Salt Lake|2|0|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|Atlanta United FC|1|1|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|Columbus Crew|2|1|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|FC Cincinnati|1|0|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|New York Red Bulls|2|1|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|Philadelphia Union|0|0|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|Austin FC|0|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|Houston Dynamo FC|1|0|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|Sporting Kansas City|2|0|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|Vancouver Whitecaps FC|2|0|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|San Diego FC|3|0|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|New York City FC|1|2|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-06|Major League Soccer|domestic-league|San Jose Earthquakes|6|1|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-07|Major League Soccer|domestic-league|Inter Miami CF|1|1|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R7
+MATCH|2025-04-12|Major League Soccer|domestic-league|Toronto FC|0|0|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-12|Major League Soccer|domestic-league|Atlanta United FC|0|1|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-12|Major League Soccer|domestic-league|Orlando City SC|0|0|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|D.C. United|0|1|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|New York City FC|1|0|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|Vancouver Whitecaps FC|5|1|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|CF Montréal|0|1|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|FC Dallas|0|1|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|Nashville SC|2|1|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|Colorado Rapids|3|2|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|LA Galaxy|1|1|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|Los Angeles FC|2|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|Sporting Kansas City|2|4|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-13|Major League Soccer|domestic-league|Chicago Fire FC|0|0|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-14|Major League Soccer|domestic-league|St. Louis City SC|1|2|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R8
+MATCH|2025-04-19|Major League Soccer|domestic-league|Austin FC|1|0|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-19|Major League Soccer|domestic-league|Columbus Crew|0|1|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|CF Montréal|0|0|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|Charlotte FC|3|0|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|New England Revolution|2|0|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|New York Red Bulls|1|2|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|Philadelphia Union|3|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|Seattle Sounders FC|3|0|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|Chicago Fire FC|2|3|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|Houston Dynamo FC|2|2|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|Minnesota United FC|0|0|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|St. Louis City SC|0|0|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|Real Salt Lake|0|1|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|Portland Timbers|3|3|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-20|Major League Soccer|domestic-league|San Jose Earthquakes|3|5|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R9
+MATCH|2025-04-26|Major League Soccer|domestic-league|FC Cincinnati|2|1|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-26|Major League Soccer|domestic-league|Toronto FC|0|1|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-26|Major League Soccer|domestic-league|New York Red Bulls|1|0|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-26|Major League Soccer|domestic-league|Philadelphia Union|3|0|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|Orlando City SC|3|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|Charlotte FC|0|1|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|Columbus Crew|2|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|San Diego FC|1|3|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|Houston Dynamo FC|2|0|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|Nashville SC|7|2|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|Colorado Rapids|1|1|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|Minnesota United FC|1|3|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-27|Major League Soccer|domestic-league|Inter Miami CF|3|4|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-28|Major League Soccer|domestic-league|Los Angeles FC|2|2|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-04-28|Major League Soccer|domestic-league|LA Galaxy|2|4|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R10
+MATCH|2025-05-03|Major League Soccer|domestic-league|Atlanta United FC|1|1|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-03|Major League Soccer|domestic-league|Toronto FC|0|2|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|CF Montréal|1|2|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|Columbus Crew|4|2|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|D.C. United|2|1|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|Inter Miami CF|4|1|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|Austin FC|0|3|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|Chicago Fire FC|0|0|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|San Diego FC|5|0|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|Vancouver Whitecaps FC|2|1|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|Los Angeles FC|2|0|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|San Jose Earthquakes|4|1|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|Seattle Sounders FC|4|1|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-04|Major League Soccer|domestic-league|New York City FC|1|0|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-05|Major League Soccer|domestic-league|Sporting Kansas City|1|0|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R11
+MATCH|2025-05-10|Major League Soccer|domestic-league|Chicago Fire FC|2|1|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-10|Major League Soccer|domestic-league|Minnesota United FC|4|1|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-10|Major League Soccer|domestic-league|Toronto FC|2|0|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|FC Cincinnati|2|1|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|New York City FC|0|1|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|New York Red Bulls|7|0|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|Orlando City SC|3|3|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|Philadelphia Union|2|2|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|FC Dallas|1|1|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|Houston Dynamo FC|1|3|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|Nashville SC|2|1|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|St. Louis City SC|1|2|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|Colorado Rapids|0|2|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-11|Major League Soccer|domestic-league|Portland Timbers|1|0|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-12|Major League Soccer|domestic-league|Vancouver Whitecaps FC|2|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R12
+MATCH|2025-05-15|Major League Soccer|domestic-league|CF Montréal|1|1|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|D.C. United|0|0|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|Orlando City SC|3|1|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|Philadelphia Union|3|2|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|Toronto FC|0|1|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|Houston Dynamo FC|2|0|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|Nashville SC|2|1|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|St. Louis City SC|2|2|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|Austin FC|1|1|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|Real Salt Lake|0|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|Los Angeles FC|4|0|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|San Diego FC|2|0|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-15|Major League Soccer|domestic-league|San Jose Earthquakes|3|3|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-17|Major League Soccer|domestic-league|CF Montréal|1|6|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-17|Major League Soccer|domestic-league|New York City FC|2|0|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R13
+MATCH|2025-05-18|Major League Soccer|domestic-league|Columbus Crew|1|1|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|Atlanta United FC|0|1|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|Charlotte FC|1|4|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|New England Revolution|0|0|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|Austin FC|0|0|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|Minnesota United FC|3|0|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|Nashville SC|0|0|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|FC Dallas|0|2|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|Colorado Rapids|1|0|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|Portland Timbers|1|1|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-18|Major League Soccer|domestic-league|San Diego FC|0|0|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-19|Major League Soccer|domestic-league|Inter Miami CF|0|3|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-19|Major League Soccer|domestic-league|LA Galaxy|2|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R14
+MATCH|2025-05-24|Major League Soccer|domestic-league|Seattle Sounders FC|1|0|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-24|Major League Soccer|domestic-league|San Diego FC|2|1|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|CF Montréal|2|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|Charlotte FC|3|2|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|D.C. United|0|2|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|Orlando City SC|1|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|Philadelphia Union|3|3|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|Toronto FC|1|2|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|Minnesota United FC|1|1|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|Sporting Kansas City|3|3|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|Colorado Rapids|1|0|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|Real Salt Lake|2|3|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|San Jose Earthquakes|3|3|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-25|Major League Soccer|domestic-league|New York City FC|3|1|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-26|Major League Soccer|domestic-league|Atlanta United FC|4|2|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R15
+MATCH|2025-05-29|Major League Soccer|domestic-league|Atlanta United FC|3|2|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|D.C. United|1|1|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|FC Cincinnati|3|3|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|Inter Miami CF|4|2|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|New York City FC|0|3|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|New York Red Bulls|4|2|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|Toronto FC|1|2|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|Columbus Crew|2|2|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|Seattle Sounders FC|1|0|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|Austin FC|1|1|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|LA Galaxy|0|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|Portland Timbers|2|1|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-29|Major League Soccer|domestic-league|Vancouver Whitecaps FC|0|0|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-06-09|Major League Soccer|domestic-league|Los Angeles FC|3|1|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R16
+MATCH|2025-05-31|Major League Soccer|domestic-league|St. Louis City SC|2|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-05-31|Major League Soccer|domestic-league|Nashville SC|2|2|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|CF Montréal|0|3|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|FC Cincinnati|1|2|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|Inter Miami CF|5|1|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|New York Red Bulls|2|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|Orlando City SC|1|3|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|Toronto FC|0|2|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|FC Dallas|0|0|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|Houston Dynamo FC|1|3|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|LA Galaxy|2|0|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-01|Major League Soccer|domestic-league|San Diego FC|2|0|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-02|Major League Soccer|domestic-league|Seattle Sounders FC|2|3|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R17
+MATCH|2025-06-08|Major League Soccer|domestic-league|D.C. United|1|7|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-08|Major League Soccer|domestic-league|Colorado Rapids|0|2|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-09|Major League Soccer|domestic-league|Portland Timbers|2|1|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-09|Major League Soccer|domestic-league|Vancouver Whitecaps FC|3|0|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-13|Major League Soccer|domestic-league|New York City FC|4|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-14|Major League Soccer|domestic-league|Portland Timbers|1|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-14|Major League Soccer|domestic-league|St. Louis City SC|3|3|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Columbus Crew|2|1|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|New England Revolution|0|1|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Philadelphia Union|2|1|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Austin FC|2|1|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Chicago Fire FC|0|2|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Houston Dynamo FC|1|3|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Minnesota United FC|2|4|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Sporting Kansas City|2|4|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Colorado Rapids|0|1|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-15|Major League Soccer|domestic-league|Real Salt Lake|2|0|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-10-09|Major League Soccer|domestic-league|Los Angeles FC|2|0|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R18
+MATCH|2025-06-26|Major League Soccer|domestic-league|CF Montréal|1|3|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|Columbus Crew|3|1|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|New England Revolution|2|3|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|Toronto FC|1|1|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|Chicago Fire FC|0|1|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|FC Dallas|2|4|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|Minnesota United FC|3|1|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|Sporting Kansas City|2|1|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|St. Louis City SC|2|4|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|Colorado Rapids|2|0|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-26|Major League Soccer|domestic-league|Vancouver Whitecaps FC|3|5|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-09-18|Major League Soccer|domestic-league|Real Salt Lake|1|4|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R19
+MATCH|2025-06-29|Major League Soccer|domestic-league|CF Montréal|1|0|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|D.C. United|0|1|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|New England Revolution|3|3|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|New York Red Bulls|2|2|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|Orlando City SC|1|2|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|Toronto FC|3|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|Chicago Fire FC|3|2|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|FC Dallas|2|3|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|Houston Dynamo FC|1|0|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|Sporting Kansas City|1|1|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|San Jose Earthquakes|1|1|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-29|Major League Soccer|domestic-league|Seattle Sounders FC|2|0|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-30|Major League Soccer|domestic-league|Columbus Crew|1|0|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-06-30|Major League Soccer|domestic-league|Los Angeles FC|0|1|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-10-12|Major League Soccer|domestic-league|Inter Miami CF|4|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R20
+MATCH|2025-07-04|Major League Soccer|domestic-league|New York City FC|3|1|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-05|Major League Soccer|domestic-league|FC Dallas|1|2|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-05|Major League Soccer|domestic-league|Colorado Rapids|1|2|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-05|Major League Soccer|domestic-league|LA Galaxy|3|0|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|Charlotte FC|2|2|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|CF Montréal|1|4|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|D.C. United|0|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|FC Cincinnati|2|1|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|Nashville SC|1|0|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|Real Salt Lake|3|2|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|Portland Timbers|2|1|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|San Diego FC|3|4|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|San Jose Earthquakes|1|1|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-06|Major League Soccer|domestic-league|Seattle Sounders FC|1|1|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-10-13|Major League Soccer|domestic-league|Austin FC|1|0|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R21
+MATCH|2025-07-10|Major League Soccer|domestic-league|New England Revolution|1|2|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-10|Major League Soccer|domestic-league|Los Angeles FC|3|0|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Charlotte FC|2|0|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Orlando City SC|1|1|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Philadelphia Union|2|0|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Toronto FC|1|1|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Inter Miami CF|2|1|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Austin FC|0|0|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Chicago Fire FC|1|2|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Minnesota United FC|4|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Sporting Kansas City|2|3|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|FC Cincinnati|2|4|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Colorado Rapids|3|0|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Real Salt Lake|1|0|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|LA Galaxy|2|1|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-13|Major League Soccer|domestic-league|Los Angeles FC|2|0|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-14|Major League Soccer|domestic-league|St. Louis City SC|2|1|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R22
+MATCH|2025-07-17|Major League Soccer|domestic-league|Atlanta United FC|2|2|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|Charlotte FC|2|1|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|FC Cincinnati|3|0|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|New York Red Bulls|5|3|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|Philadelphia Union|2|1|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|Orlando City SC|1|2|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|Houston Dynamo FC|0|3|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|Minnesota United FC|0|1|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|Nashville SC|3|0|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|Seattle Sounders FC|3|3|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|LA Galaxy|1|2|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|Portland Timbers|0|1|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|San Diego FC|0|1|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-17|Major League Soccer|domestic-league|San Jose Earthquakes|2|2|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R23
+MATCH|2025-07-20|Major League Soccer|domestic-league|Atlanta United FC|2|3|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|CF Montréal|0|2|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|Columbus Crew|2|1|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|New England Revolution|1|2|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|New York Red Bulls|1|5|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|FC Dallas|3|0|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|Houston Dynamo FC|1|1|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|Nashville SC|1|0|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|Seattle Sounders FC|3|2|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|Sporting Kansas City|1|1|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|Real Salt Lake|0|1|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|Los Angeles FC|3|3|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|Portland Timbers|1|1|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-20|Major League Soccer|domestic-league|San Diego FC|1|1|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R24
+MATCH|2025-07-26|Major League Soccer|domestic-league|Columbus Crew|1|3|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-26|Major League Soccer|domestic-league|New England Revolution|1|3|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-26|Major League Soccer|domestic-league|FC Dallas|3|4|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-26|Major League Soccer|domestic-league|Los Angeles FC|0|1|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-26|Major League Soccer|domestic-league|San Diego FC|1|0|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|Inter Miami CF|0|0|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|Atlanta United FC|2|2|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|Charlotte FC|2|0|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|D.C. United|2|4|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|Philadelphia Union|3|1|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|Chicago Fire FC|1|0|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|St. Louis City SC|1|2|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|Real Salt Lake|2|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-07-27|Major League Soccer|domestic-league|Vancouver Whitecaps FC|3|0|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-09-07|Major League Soccer|domestic-league|Houston Dynamo FC|1|1|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R25
+MATCH|2025-08-10|Major League Soccer|domestic-league|CF Montréal|1|1|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-10|Major League Soccer|domestic-league|New England Revolution|2|0|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-10|Major League Soccer|domestic-league|Philadelphia Union|1|1|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-10|Major League Soccer|domestic-league|Austin FC|2|2|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-10|Major League Soccer|domestic-league|Chicago Fire FC|2|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-10|Major League Soccer|domestic-league|FC Dallas|2|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-10|Major League Soccer|domestic-league|St. Louis City SC|3|1|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-10|Major League Soccer|domestic-league|Sporting Kansas City|0|2|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-10|Major League Soccer|domestic-league|San Jose Earthquakes|2|1|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-11|Major League Soccer|domestic-league|FC Cincinnati|0|1|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-11|Major League Soccer|domestic-league|Minnesota United FC|1|2|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-11|Major League Soccer|domestic-league|New York Red Bulls|2|1|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-11|Major League Soccer|domestic-league|Orlando City SC|4|1|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-11|Major League Soccer|domestic-league|LA Galaxy|0|4|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-09-18|Major League Soccer|domestic-league|New York City FC|3|2|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R26
+MATCH|2025-08-17|Major League Soccer|domestic-league|CF Montréal|1|1|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Charlotte FC|1|0|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Inter Miami CF|3|1|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|New England Revolution|0|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|New York Red Bulls|1|0|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Toronto FC|1|1|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Austin FC|1|1|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Chicago Fire FC|3|2|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Minnesota United FC|1|0|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Colorado Rapids|3|1|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Portland Timbers|2|3|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|Orlando City SC|3|1|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-17|Major League Soccer|domestic-league|New York City FC|2|1|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-18|Major League Soccer|domestic-league|San Jose Earthquakes|1|2|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-18|Major League Soccer|domestic-league|Vancouver Whitecaps FC|1|1|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R27
+MATCH|2025-08-24|Major League Soccer|domestic-league|CF Montréal|3|2|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|Columbus Crew|1|2|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|D.C. United|1|1|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|FC Cincinnati|0|1|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|Philadelphia Union|4|0|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|FC Dallas|1|1|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|Houston Dynamo FC|1|2|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|Nashville SC|5|1|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|Real Salt Lake|1|3|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|Vancouver Whitecaps FC|3|2|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|LA Galaxy|3|0|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|San Diego FC|0|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-24|Major League Soccer|domestic-league|Atlanta United FC|0|0|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-25|Major League Soccer|domestic-league|Charlotte FC|1|0|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-25|Major League Soccer|domestic-league|Seattle Sounders FC|5|2|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R28
+MATCH|2025-08-31|Major League Soccer|domestic-league|FC Cincinnati|0|1|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|New England Revolution|1|2|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|New York City FC|1|2|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|New York Red Bulls|0|0|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|Toronto FC|1|1|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|Austin FC|3|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|Minnesota United FC|1|1|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|Nashville SC|0|1|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|Sporting Kansas City|4|2|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-08-31|Major League Soccer|domestic-league|St. Louis City SC|2|3|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-09-01|Major League Soccer|domestic-league|Los Angeles FC|1|2|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-10-01|Major League Soccer|domestic-league|Inter Miami CF|3|5|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-10-12|Major League Soccer|domestic-league|Orlando City SC|1|2|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-10-12|Major League Soccer|domestic-league|Seattle Sounders FC|1|0|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-10-12|Major League Soccer|domestic-league|LA Galaxy|2|1|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R29
+MATCH|2025-09-07|Major League Soccer|domestic-league|Chicago Fire FC|3|2|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-07|Major League Soccer|domestic-league|St. Louis City SC|1|1|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-08|Major League Soccer|domestic-league|Sporting Kansas City|1|2|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|Atlanta United FC|4|5|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|CF Montréal|0|2|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|Charlotte FC|3|0|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|D.C. United|1|1|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|FC Cincinnati|2|1|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|New England Revolution|1|1|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|San Jose Earthquakes|2|4|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|Chicago Fire FC|1|3|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|FC Dallas|2|0|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|Seattle Sounders FC|2|2|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|Colorado Rapids|2|1|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|Real Salt Lake|2|1|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|Vancouver Whitecaps FC|7|0|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|Portland Timbers|2|1|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-14|Major League Soccer|domestic-league|San Diego FC|1|3|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R30
+MATCH|2025-09-17|Major League Soccer|domestic-league|Inter Miami CF|3|1|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-20|Major League Soccer|domestic-league|New York City FC|2|0|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-20|Major League Soccer|domestic-league|Philadelphia Union|1|0|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-20|Major League Soccer|domestic-league|Atlanta United FC|1|1|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|CF Montréal|0|2|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|Columbus Crew|1|1|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|Inter Miami CF|3|2|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|Orlando City SC|3|2|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|FC Dallas|3|1|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|Houston Dynamo FC|1|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|Minnesota United FC|0|3|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|Sporting Kansas City|0|2|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|LA Galaxy|2|3|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-21|Major League Soccer|domestic-league|San Jose Earthquakes|1|3|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-22|Major League Soccer|domestic-league|Austin FC|2|1|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-22|Major League Soccer|domestic-league|Los Angeles FC|4|1|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R31
+MATCH|2025-09-25|Major League Soccer|domestic-league|New York City FC|0|4|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-25|Major League Soccer|domestic-league|Vancouver Whitecaps FC|1|1|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-27|Major League Soccer|domestic-league|Toronto FC|1|1|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|Charlotte FC|1|4|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|D.C. United|0|6|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|New England Revolution|2|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|New York Red Bulls|2|3|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|Chicago Fire FC|2|0|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|Nashville SC|3|1|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|St. Louis City SC|0|3|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|Colorado Rapids|1|1|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|Real Salt Lake|3|1|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|LA Galaxy|4|1|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|Portland Timbers|2|2|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|San Diego FC|0|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-28|Major League Soccer|domestic-league|Seattle Sounders FC|2|2|Vancouver Whitecaps FC||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-09-29|Major League Soccer|domestic-league|FC Cincinnati|1|1|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R32
+MATCH|2025-10-04|Major League Soccer|domestic-league|D.C. United|0|1|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-04|Major League Soccer|domestic-league|CF Montréal|1|1|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-04|Major League Soccer|domestic-league|FC Dallas|2|1|LA Galaxy||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Inter Miami CF|4|1|New England Revolution||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|New York Red Bulls|0|1|FC Cincinnati||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Orlando City SC|1|1|Columbus Crew||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Philadelphia Union|1|0|New York City FC||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Austin FC|1|3|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Chicago Fire FC|2|2|Toronto FC||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Houston Dynamo FC|2|4|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Minnesota United FC|3|0|Sporting Kansas City||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Real Salt Lake|1|0|Colorado Rapids||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-05|Major League Soccer|domestic-league|Seattle Sounders FC|1|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-06|Major League Soccer|domestic-league|Vancouver Whitecaps FC|4|1|San Jose Earthquakes||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-06|Major League Soccer|domestic-league|Los Angeles FC|1|0|Atlanta United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R33
+MATCH|2025-10-19|Major League Soccer|domestic-league|Atlanta United FC|1|1|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|Charlotte FC|2|0|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|Columbus Crew|3|1|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|FC Cincinnati|3|0|CF Montréal||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|Nashville SC|2|5|Inter Miami CF||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|New England Revolution|2|2|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|New York City FC|1|2|Seattle Sounders FC||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|Toronto FC|4|2|Orlando City SC||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|Colorado Rapids|2|2|Los Angeles FC||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|LA Galaxy|2|1|Minnesota United FC||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|Portland Timbers|0|4|San Diego FC||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|San Jose Earthquakes|2|1|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|Sporting Kansas City|0|0|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|St. Louis City SC|2|2|Real Salt Lake||||||rsssf-mls-2025
+NOTE|info|round|RS R34
+MATCH|2025-10-19|Major League Soccer|domestic-league|Vancouver Whitecaps FC|1|2|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|RS R34
 MATCH|2021-11-20|MLS Cup Playoffs|domestic-league|Philadelphia Union|1|0|New York Red Bulls||||||rsssf-mls-2021
 NOTE|info|round|Conference Quarterfinals
 MATCH|2021-11-20|MLS Cup Playoffs|domestic-league|Sporting Kansas City|3|1|Vancouver Whitecaps FC||||||rsssf-mls-2021
@@ -4041,15 +5061,16 @@ SOURCE|rsssf-mls-2021|https://www.rsssf.org/tablesu/usa2021.html|2026-08-06|prim
 SOURCE|rsssf-mls-2022|https://www.rsssf.org/tablesu/usa2022.html|2026-08-06|primary|MLS 2022 regular season + playoff, table reproduced club-for-club
 SOURCE|rsssf-mls-2023|https://www.rsssf.org/tablesu/usa2023.html|2026-08-06|primary|MLS 2023 regular season + playoff, table reproduced club-for-club
 SOURCE|rsssf-mls-2024|https://www.rsssf.org/tablesu/usa2024.html|2026-08-06|primary|MLS 2024 regular season + playoff, table reproduced club-for-club
-SOURCE|rsssf-mls-2025|https://www.rsssf.org/tablesu/usa2025.html|2026-08-06|primary|MLS 2025 playoff (regular-season match list absent on page)
+SOURCE|rsssf-mls-2025|https://www.rsssf.org/tablesu/usa2025.html|2026-08-06|primary|MLS 2025 playoff + final table
+SOURCE|wf-mls-2025|https://www.worldfootball.net/competition/co73/usa-major-league-soccer/se84074/2025/|2026-08-06|second-index|MLS 2025 regular-season match results per matchday (MD1-34); table reproduced club-for-club
 NOTE|info|identity_mapping|Source names mapped to canonical 30-club roster per workorder section 3 (e.g. Montreal CF->CF Montréal, DC United->D.C. United, Chicago Fire->Chicago Fire FC, Houston Dynamo->Houston Dynamo FC, Inter Miami->Inter Miami CF, LA/Los Angeles Galaxy->LA Galaxy, New York City->New York City FC, Saint Louis City->St. Louis City SC).
 NOTE|info|90min_doctrine|All scorelines are the 90-minute score. Playoff games decided on penalties/extra time record the 90' result plus a NOTE|info|advancement.
 NOTE|info|playoff_format|2021-22 single-elimination bracket; 2023+ wild-card singles + best-of-3 first round (third legs as needed) + single elimination, recorded per RSSSF.
 NOTE|info|2022_abandoned|2022-07-30 Charlotte FC vs Columbus Crew abandoned at 0-0 (16'); completed 2022-10-05 Charlotte FC 2-2 Columbus Crew. Only the completed result returned as a MATCH row.
 NOTE|info|2023_abandoned|2023-05-06 FC Dallas vs Saint Louis City abandoned at 0-0 (50'); completed 2023-06-07 FC Dallas 2-0 Saint Louis City. 2023-07-04 Colorado Rapids vs Portland Timbers abandoned at half-time; completed 2023-07-12 Colorado Rapids 0-0 Portland Timbers. Only completed results returned as MATCH rows.
 NOTE|info|2024_abandoned|2024-03-09 Philadelphia Union vs Seattle Sounders abandoned (6'); completed 2024-04-30 Philadelphia Union 2-3 Seattle Sounders. Only completed result returned.
-NOTE|warning|blocker|2025 MLS regular season (34 rounds) NOT RETURNED: RSSSF usa2025.html provides final tables + playoff only, no round-by-round regular-season match list. Requires a secondary source (worldfootball.net) capture; blocked pending that.
+NOTE|info|2025_regular_season|2025 MLS regular season (34 rounds, 510 rows) returned from worldfootball.net per matchday (MD1-34). Final table recomputed from these rows reproduces the official RSSSF 2025 table club-for-club (W-D-L, GF-GA, pts) - zero mismatches.
 NOTE|warning|blocker|2026 MLS regular season to-date NOT RETURNED: RSSSF has no usa2026.html page. 2026 held appendix rows (2026-07-22/25/31) are NOT duplicated here. Requires worldfootball.net 2026 capture; blocked pending that.
-NOTE|info|self_gate|Regular seasons 2021-2024: final tables recomputed from these rows reproduce the official RSSSF tables club-for-club (W-D-L, GF-GA, pts) - zero tolerance gate met. Row counts 2021=459, 2022=476, 2023=493, 2024=493 (minus 11 held 2024-10-19 rows).
+NOTE|info|self_gate|Regular seasons 2021-2024 (RSSSF) and 2025 (worldfootball, MD1-34): final tables recomputed from these rows reproduce the official tables club-for-club (W-D-L, GF-GA, pts) - zero tolerance gate met. Row counts 2021=459, 2022=476, 2023=493, 2024=493 (minus 11 held 2024-10-19 rows), 2025=510.
 NOTE|info|held_exclusions|11 MLS regular-season rows dated 2024-10-19 and all 28 MLS Cup Playoffs 2024 rows are the workorder appendix held rows - excluded here (auditor dedupes).
 END

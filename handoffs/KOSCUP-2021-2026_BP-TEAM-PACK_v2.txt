@@ -9,27 +9,27 @@ TEAM|Llapi|Kosovo|Superliga|KOS
 TEAM|Malisheva|Kosovo|Superliga|KOS
 TEAM|Prishtina|Kosovo|Superliga|KOS
 TEAM|Prishtina E Re|Kosovo|Superliga|KOS
-MATCH|2022-12-01|Kosovo Cup|domestic-league|Feronikeli|0|0|Fushë Kosova||||||rsssf-kos-2022
+MATCH|2021-12-01|Kosovo Cup|domestic-league|Feronikeli|0|0|Fushë Kosova||||||rsssf-kos-2022
 NOTE|info|round|R1
 NOTE|info|advancement|Kosovo Cup 2022: 1-4 pen
-MATCH|2022-12-01|Kosovo Cup|domestic-league|A&N Prizren|0|1|Gjilani||||||rsssf-kos-2022
+MATCH|2021-12-01|Kosovo Cup|domestic-league|A&N Prizren|0|1|Gjilani||||||rsssf-kos-2022
 NOTE|info|round|R1
-MATCH|2022-12-01|Kosovo Cup|domestic-league|Drenica Skenderaj|3|1|Vllaznia||||||rsssf-kos-2022
+MATCH|2021-12-01|Kosovo Cup|domestic-league|Drenica Skenderaj|3|1|Vllaznia||||||rsssf-kos-2022
 NOTE|info|round|R1
-MATCH|2022-12-01|Kosovo Cup|domestic-league|Besa|0|4|Prishtina||||||rsssf-kos-2022
+MATCH|2021-12-01|Kosovo Cup|domestic-league|Besa|0|4|Prishtina||||||rsssf-kos-2022
 NOTE|info|round|R1
-MATCH|2022-12-01|Kosovo Cup|domestic-league|Malisheva|1|0|Istogu||||||rsssf-kos-2022
+MATCH|2021-12-01|Kosovo Cup|domestic-league|Malisheva|1|0|Istogu||||||rsssf-kos-2022
 NOTE|info|round|R1
-MATCH|2022-12-01|Kosovo Cup|domestic-league|Ulpiana|3|0|Vëllaznimi||||||rsssf-kos-2022
+MATCH|2021-12-01|Kosovo Cup|domestic-league|Ulpiana|3|0|Vëllaznimi||||||rsssf-kos-2022
 NOTE|info|round|R1
-MATCH|2022-12-01|Kosovo Cup|domestic-league|Rahoveci|1|3|KF Ballkani||||||rsssf-kos-2022
+MATCH|2021-12-01|Kosovo Cup|domestic-league|Rahoveci|1|3|KF Ballkani||||||rsssf-kos-2022
 NOTE|info|round|R1
-MATCH|2022-12-01|Kosovo Cup|domestic-league|Llapi|2|1|Kika||||||rsssf-kos-2022
+MATCH|2021-12-01|Kosovo Cup|domestic-league|Llapi|2|1|Kika||||||rsssf-kos-2022
 NOTE|info|round|R1
-MATCH|2022-12-02|Kosovo Cup|domestic-league|Drita|1|0|Drenasi||||||rsssf-kos-2022
+MATCH|2021-12-02|Kosovo Cup|domestic-league|Drita|1|0|Drenasi||||||rsssf-kos-2022
 NOTE|info|round|R1
 NOTE|info|advancement|Kosovo Cup 2022: aet
-MATCH|2022-12-02|Kosovo Cup|domestic-league|Liria|2|4|Dukagjini||||||rsssf-kos-2022
+MATCH|2021-12-02|Kosovo Cup|domestic-league|Liria|2|4|Dukagjini||||||rsssf-kos-2022
 NOTE|info|round|R1
 MATCH|2022-02-05|Kosovo Cup|domestic-league|Gjilani|2|1|Dukagjini||||||rsssf-kos-2022
 NOTE|info|round|R16
@@ -63,22 +63,22 @@ NOTE|info|round|SF
 MATCH|2022-05-26|Kosovo Cup|domestic-league|Llapi|2|1|Drita||||||rsssf-kos-2022
 NOTE|info|round|Final
 SOURCE|rsssf-kos-2022|https://www.rsssf.org/tablesk/kosovo2022.html|2026-08-06|primary|Kosovo Cup 2022 (R1/R32 to Final), bracket verified
-MATCH|2023-11-17|Kosovo Cup|domestic-league|Llapi|6|2|Vllaznia||||||rsssf-kos-2023
+MATCH|2022-11-17|Kosovo Cup|domestic-league|Llapi|6|2|Vllaznia||||||rsssf-kos-2023
 NOTE|info|round|R1
-MATCH|2023-11-17|Kosovo Cup|domestic-league|Dukagjini|2|0|Rilindja 74||||||rsssf-kos-2023
+MATCH|2022-11-17|Kosovo Cup|domestic-league|Dukagjini|2|0|Rilindja 74||||||rsssf-kos-2023
 NOTE|info|round|R1
-MATCH|2023-11-17|Kosovo Cup|domestic-league|Drenica Skenderaj|2|2|Flamurtari||||||rsssf-kos-2023
+MATCH|2022-11-17|Kosovo Cup|domestic-league|Drenica Skenderaj|2|2|Flamurtari||||||rsssf-kos-2023
 NOTE|info|round|R1
 NOTE|info|advancement|Kosovo Cup 2023: 7-8 pen
-MATCH|2023-11-17|Kosovo Cup|domestic-league|Trepça'89|3|0|Kika||||||rsssf-kos-2023
+MATCH|2022-11-17|Kosovo Cup|domestic-league|Trepça'89|3|0|Kika||||||rsssf-kos-2023
 NOTE|info|round|R1
-MATCH|2023-11-17|Kosovo Cup|domestic-league|Trepça|0|5|Gjilani||||||rsssf-kos-2023
+MATCH|2022-11-17|Kosovo Cup|domestic-league|Trepça|0|5|Gjilani||||||rsssf-kos-2023
 NOTE|info|round|R1
-MATCH|2023-11-17|Kosovo Cup|domestic-league|Ramiz Sadiku|0|4|Malisheva||||||rsssf-kos-2023
+MATCH|2022-11-17|Kosovo Cup|domestic-league|Ramiz Sadiku|0|4|Malisheva||||||rsssf-kos-2023
 NOTE|info|round|R1
-MATCH|2023-11-23|Kosovo Cup|domestic-league|Drita|1|2|Liria||||||rsssf-kos-2023
+MATCH|2022-11-23|Kosovo Cup|domestic-league|Drita|1|2|Liria||||||rsssf-kos-2023
 NOTE|info|round|R1
-MATCH|2023-11-24|Kosovo Cup|domestic-league|Ph'nix-Banjë|1|3|KF Ballkani||||||rsssf-kos-2023
+MATCH|2022-11-24|Kosovo Cup|domestic-league|Ph'nix-Banjë|1|3|KF Ballkani||||||rsssf-kos-2023
 NOTE|info|round|R1
 MATCH|2023-02-04|Kosovo Cup|domestic-league|Liria|2|3|Llapi||||||rsssf-kos-2023
 NOTE|info|round|R16
@@ -108,26 +108,26 @@ NOTE|info|round|SF
 MATCH|2023-06-05|Kosovo Cup|domestic-league|Prishtina|2|0|Gjilani||||||rsssf-kos-2023
 NOTE|info|round|Final
 SOURCE|rsssf-kos-2023|https://www.rsssf.org/tablesk/kosovo2023.html|2026-08-06|primary|Kosovo Cup 2023 (R1/R32 to Final), bracket verified
-MATCH|2024-12-05|Kosovo Cup|domestic-league|Llapi|4|1|Phoenix-Banjë||||||rsssf-kos-2024
+MATCH|2023-12-05|Kosovo Cup|domestic-league|Llapi|4|1|Phoenix-Banjë||||||rsssf-kos-2024
 NOTE|info|round|R1
-MATCH|2024-12-05|Kosovo Cup|domestic-league|Malisheva|3|2|Kika||||||rsssf-kos-2024
+MATCH|2023-12-05|Kosovo Cup|domestic-league|Malisheva|3|2|Kika||||||rsssf-kos-2024
 NOTE|info|round|R1
-MATCH|2024-12-06|Kosovo Cup|domestic-league|Flamurtari|0|3|Dukagjini||||||rsssf-kos-2024
+MATCH|2023-12-06|Kosovo Cup|domestic-league|Flamurtari|0|3|Dukagjini||||||rsssf-kos-2024
 NOTE|info|round|R1
-MATCH|2024-12-06|Kosovo Cup|domestic-league|Rahoveci|0|2|Prishtina||||||rsssf-kos-2024
+MATCH|2023-12-06|Kosovo Cup|domestic-league|Rahoveci|0|2|Prishtina||||||rsssf-kos-2024
 NOTE|info|round|R1
-MATCH|2024-12-06|Kosovo Cup|domestic-league|Fushë Kosova|1|3|2 Korriku||||||rsssf-kos-2024
+MATCH|2023-12-06|Kosovo Cup|domestic-league|Fushë Kosova|1|3|2 Korriku||||||rsssf-kos-2024
 NOTE|info|round|R1
-MATCH|2024-12-06|Kosovo Cup|domestic-league|Ramiz Sadiku|1|3|Gjilani||||||rsssf-kos-2024
+MATCH|2023-12-06|Kosovo Cup|domestic-league|Ramiz Sadiku|1|3|Gjilani||||||rsssf-kos-2024
 NOTE|info|round|R1
-MATCH|2024-12-06|Kosovo Cup|domestic-league|Feronikeli|2|0|Istogu||||||rsssf-kos-2024
+MATCH|2023-12-06|Kosovo Cup|domestic-league|Feronikeli|2|0|Istogu||||||rsssf-kos-2024
 NOTE|info|round|R1
-MATCH|2024-12-06|Kosovo Cup|domestic-league|Dardania|0|9|Drita||||||rsssf-kos-2024
+MATCH|2023-12-06|Kosovo Cup|domestic-league|Dardania|0|9|Drita||||||rsssf-kos-2024
 NOTE|info|round|R1
-MATCH|2024-12-06|Kosovo Cup|domestic-league|Liria|2|2|Rilindja 74||||||rsssf-kos-2024
+MATCH|2023-12-06|Kosovo Cup|domestic-league|Liria|2|2|Rilindja 74||||||rsssf-kos-2024
 NOTE|info|round|R1
 NOTE|info|advancement|Kosovo Cup 2024: 4-5 pen
-MATCH|2024-12-06|Kosovo Cup|domestic-league|Drenica Skenderaj|0|2|KF Ballkani||||||rsssf-kos-2024
+MATCH|2023-12-06|Kosovo Cup|domestic-league|Drenica Skenderaj|0|2|KF Ballkani||||||rsssf-kos-2024
 NOTE|info|round|R1
 MATCH|2024-02-03|Kosovo Cup|domestic-league|Gjilani|0|0|Prishtina||||||rsssf-kos-2024
 NOTE|info|round|R16
@@ -163,27 +163,27 @@ MATCH|2024-05-22|Kosovo Cup|domestic-league|KF Ballkani|2|2|Prishtina||||||rsssf
 NOTE|info|round|Final
 NOTE|info|advancement|Kosovo Cup 2024: 4-2 pen
 SOURCE|rsssf-kos-2024|https://www.rsssf.org/tablesk/kosovo2024.html|2026-08-06|primary|Kosovo Cup 2024 (R1/R32 to Final), bracket verified
-MATCH|2025-12-03|Kosovo Cup|domestic-league|Rahoveci|0|3|Drita||||||rsssf-kos-2025
+MATCH|2024-12-03|Kosovo Cup|domestic-league|Rahoveci|0|3|Drita||||||rsssf-kos-2025
 NOTE|info|round|R32
-MATCH|2025-12-04|Kosovo Cup|domestic-league|Flamurtari|0|5|Llapi||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|Flamurtari|0|5|Llapi||||||rsssf-kos-2025
 NOTE|info|round|R32
-MATCH|2025-12-04|Kosovo Cup|domestic-league|Ferizaj|4|0|Ramiz Sadiku||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|Ferizaj|4|0|Ramiz Sadiku||||||rsssf-kos-2025
 NOTE|info|round|R32
-MATCH|2025-12-04|Kosovo Cup|domestic-league|Gjilani|4|1|Liria||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|Gjilani|4|1|Liria||||||rsssf-kos-2025
 NOTE|info|round|R32
-MATCH|2025-12-04|Kosovo Cup|domestic-league|TOP Football|1|5|Prishtina||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|TOP Football|1|5|Prishtina||||||rsssf-kos-2025
 NOTE|info|round|R32
-MATCH|2025-12-04|Kosovo Cup|domestic-league|Dukagjini|6|2|Dardania||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|Dukagjini|6|2|Dardania||||||rsssf-kos-2025
 NOTE|info|round|R32
-MATCH|2025-12-04|Kosovo Cup|domestic-league|Rilindja 74|1|1|KF Ballkani||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|Rilindja 74|1|1|KF Ballkani||||||rsssf-kos-2025
 NOTE|info|round|R32
 NOTE|info|advancement|Kosovo Cup 2025: 10-9 pen
-MATCH|2025-12-04|Kosovo Cup|domestic-league|Istogu|1|2|Feronikeli||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|Istogu|1|2|Feronikeli||||||rsssf-kos-2025
 NOTE|info|round|R32
-MATCH|2025-12-04|Kosovo Cup|domestic-league|Trepça'89|1|3|Suhareka||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|Trepça'89|1|3|Suhareka||||||rsssf-kos-2025
 NOTE|info|round|R32
 NOTE|info|advancement|Kosovo Cup 2025: aet
-MATCH|2025-12-04|Kosovo Cup|domestic-league|Fushë Kosova|0|5|Malisheva||||||rsssf-kos-2025
+MATCH|2024-12-04|Kosovo Cup|domestic-league|Fushë Kosova|0|5|Malisheva||||||rsssf-kos-2025
 NOTE|info|round|R32
 MATCH|2025-02-12|Kosovo Cup|domestic-league|Vëllaznimi|2|1|Gjilani||||||rsssf-kos-2025
 NOTE|info|round|R16
@@ -219,25 +219,25 @@ NOTE|info|round|SF
 MATCH|2025-05-22|Kosovo Cup|domestic-league|Prishtina|1|0|Llapi||||||rsssf-kos-2025
 NOTE|info|round|Final
 SOURCE|rsssf-kos-2025|https://www.rsssf.org/tablesk/kosovo2025.html|2026-08-06|primary|Kosovo Cup 2025 (R1/R32 to Final), bracket verified
-MATCH|2026-12-03|Kosovo Cup|domestic-league|Dukagjini|3|1|Ramiz Sadiku||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|Dukagjini|3|1|Ramiz Sadiku||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-03|Kosovo Cup|domestic-league|KF Ballkani|1|0|Rilindja 74||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|KF Ballkani|1|0|Rilindja 74||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-03|Kosovo Cup|domestic-league|Drenica Skenderaj|1|0|Prizreni||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|Drenica Skenderaj|1|0|Prizreni||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-03|Kosovo Cup|domestic-league|Prishtina E Re|4|1|Lepenci||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|Prishtina E Re|4|1|Lepenci||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-03|Kosovo Cup|domestic-league|Gjilani|2|1|Istogu||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|Gjilani|2|1|Istogu||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-03|Kosovo Cup|domestic-league|Besa|0|3|Drita||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|Besa|0|3|Drita||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-03|Kosovo Cup|domestic-league|Llapi|4|1|Vjosa||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|Llapi|4|1|Vjosa||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-03|Kosovo Cup|domestic-league|Trepça|1|2|Malisheva||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|Trepça|1|2|Malisheva||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-03|Kosovo Cup|domestic-league|Ferizaj|2|0|Tefik Çanga||||||rsssf-kos-2026
+MATCH|2025-12-03|Kosovo Cup|domestic-league|Ferizaj|2|0|Tefik Çanga||||||rsssf-kos-2026
 NOTE|info|round|R32
-MATCH|2026-12-04|Kosovo Cup|domestic-league|TOP Football|0|2|Prishtina||||||rsssf-kos-2026
+MATCH|2025-12-04|Kosovo Cup|domestic-league|TOP Football|0|2|Prishtina||||||rsssf-kos-2026
 NOTE|info|round|R32
 MATCH|2026-02-10|Kosovo Cup|domestic-league|Drenica Skenderaj|0|0|Ferizaj||||||rsssf-kos-2026
 NOTE|info|round|R16

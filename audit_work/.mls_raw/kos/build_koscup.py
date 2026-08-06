@@ -34,7 +34,10 @@ SEASON_POOL = {
 ROUND_KEYS = {"1/16 finals":"R32","round of 16":"R16","1/8 finals":"R16","quarterfinals":"QF","semifinals":"SF","final":"Final","round 1":"R1"}
 MONTHS={"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
 
-def parse_chapter(text, year):
+def parse_chapter(text, season_year):
+    """season_year = season-END year (e.g. 2022 for 2021/22 season).
+    Matches in months Jul-Dec belong to the PRIOR calendar year (season_year-1);
+    matches in months Jan-Jun belong to season_year."""
     rows=[]; cur_date=None; cur_round=""
     for raw in text.splitlines():
         s=raw.rstrip().strip()
@@ -47,7 +50,9 @@ def parse_chapter(text, year):
         if "[" in s and not re.match(r"^.+?\s+\d+-\d+\s+.+$",s):
             md=re.search(r"\[([A-Za-z]{3}) (\d{1,2})\]",s)
             if md:
-                cur_date=f"{year}-{MONTHS[md.group(1)]:02d}-{int(md.group(2)):02d}"
+                month=MONTHS[md.group(1)]
+                cyear = season_year - 1 if month >= 7 else season_year
+                cur_date=f"{cyear}-{month:02d}-{int(md.group(2)):02d}"
             continue
         if s.startswith("["): continue
         # skip awarded/byes
@@ -76,7 +81,7 @@ def main():
     for year in sorted(files):
         src=f"rsssf-kos-{year}"
         pool=SEASON_POOL[year]
-        rows=parse_chapter(open(f"audit_work/.mls_raw/kos/{files[year]}",encoding="utf-8").read(),year)
+        rows=parse_chapter(open(f"audit_work/.mls_raw/kos/{files[year]}",encoding="utf-8").read(),int(year))
         for lab,dt,h,hg,ag,a,note in rows:
             if h not in pool and a not in pool:
                 continue
