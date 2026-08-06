@@ -1,16 +1,21 @@
 {
-  "store": "audit_work/pitch-rating-full-10199-new-leagues-2026-08-05.json",
-  "uefa_full": "handoffs/UEFA-FULL-2021-2026_BP-TEAM-PACK_v2.txt",
-  "train": 112,
-  "test": 4,
+  "store": "audit_work/pitch-rating-full-16629-europe-complete-2026-08-05.json",
+  "train": 2586,
+  "test": 614,
   "s_pivot": {
-    "Germany Bundesliga": -0.31788109093357214,
-    "Italy Serie A": 0.498317442712727,
-    "England Premier League": 0.4792978365845361
+    "Germany Bundesliga": -0.3409338743252392,
+    "Italy Serie A": -0.15029579349094196,
+    "Spain La Liga": -0.1367803507874853,
+    "Russian Premier League": -0.39025339498085565,
+    "Kosovo Superliga": -0.4444613596298882,
+    "England Premier League": 0.08091556568694441
   },
-  "mse_frozen": 3.5329051212297102,
-  "mse_weighted": 3.338958321493309,
-  "improvement_pct": 5.48972568130823,
-  "method": "full 3200 entire UCL/UEL/UECL + qualifiers, bias loop s[L]\u2190s[L]-step*bias step 0.08 tol 0.02 max_iter 100, pred GD = (att-def + sLA) - (att-def + sLB) + hfa 0.25",
-  "note": "Entire UEFA data for real-world cross-league accuracy per owner directive gather entire UFA champions league data europa etc"
+  "mse_frozen": 4.368584551497842,
+  "mse_weighted": 4.322193794544141,
+  "improvement_pct": 1.0619173420323376,
+  "brier_frozen": 0.6306833580561151,
+  "brier_weighted": 0.6299627069521562,
+  "improvement_pct_brier": 0.11426512127735479,
+  "method": "v2 canon matching, full \u03bb model \u03bb_home=exp(\u03bc+att-def+hfa+hextra+sLA-sLB), per-league HFA, bias loop step 0.05 tol 0.02 iter 100, Poisson RHO -0.06 Brier, cutoff 2024-07-01, filtered in-scope canon \u22651 programme club, meets \u2265100 req with 614 test",
+  "note": "Refined pivot v2 with canon matching, \u2265100 samples, full \u03bb, per-league HFA, Brier"
 }

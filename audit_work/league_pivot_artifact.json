@@ -1,20 +1,21 @@
 {
-  "store": "audit_work/pitch-rating-full-10199-new-leagues-2026-08-05.json",
-  "uefa": "handoffs/UEFA-CONNECTOR-2021-2026_BP-TEAM-PACK_v2.txt",
-  "train_uefa": 1205,
-  "test_uefa": 35,
+  "store": "audit_work/pitch-rating-full-16629-europe-complete-2026-08-05.json",
+  "train": 2586,
+  "test": 614,
   "s_pivot": {
-    "Czech First League": 0.00751519376871943,
-    "France Ligue 1": 0.5770049533167279,
-    "Germany Bundesliga": 0.4003767537001493,
-    "Italy Serie A": 0.7731289379382182,
-    "England Premier League": 1.1051712017411237,
-    "Russian Premier League": 0.20596693920785938
+    "Germany Bundesliga": -0.3409338743252392,
+    "Italy Serie A": -0.15029579349094196,
+    "Spain La Liga": -0.1367803507874853,
+    "Russian Premier League": -0.39025339498085565,
+    "Kosovo Superliga": -0.4444613596298882,
+    "England Premier League": 0.08091556568694441
   },
-  "final_max_bias": 0.049623312310770426,
-  "mse_frozen": 4.943790621354474,
-  "mse_weighted": 4.611349627690106,
-  "improvement_pct": 6.72441491005716,
-  "method": "bias loop s[L]\u2190s[L]-step*bias(L) bias(L)=mean(predicted GD - actual GD) over ties involving L, step 0.08 tol 0.02 max_iter 50, predicted GD = (att_home-def_home + sLA) - (att_away-def_away + sLB) + hfa 0.25",
-  "note": "Per owner clarification: standard evaluation per team-league then bump/calibrate to per-league rating that pivots one league X points above another so live computations always accurate real world"
+  "mse_frozen": 4.368584551497842,
+  "mse_weighted": 4.322193794544141,
+  "improvement_pct": 1.0619173420323376,
+  "brier_frozen": 0.6306833580561151,
+  "brier_weighted": 0.6299627069521562,
+  "improvement_pct_brier": 0.11426512127735479,
+  "method": "v2 canon matching, full \u03bb model \u03bb_home=exp(\u03bc+att-def+hfa+hextra+sLA-sLB), per-league HFA, bias loop step 0.05 tol 0.02 iter 100, Poisson RHO -0.06 Brier, cutoff 2024-07-01, filtered in-scope canon \u22651 programme club, meets \u2265100 req with 614 test",
+  "note": "Refined pivot v2 with canon matching, \u2265100 samples, full \u03bb, per-league HFA, Brier"
 }
