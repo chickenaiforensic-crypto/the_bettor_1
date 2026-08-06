@@ -1,0 +1,16 @@
+{
+  "version": "3.15.0-fixed",
+  "base": "app-v3.12.0-b5.html",
+  "base_md5": "bb69a5c407a12877c84f72f01fb3979c",
+  "built_md5": "d7a3553481e8f10b12c1e26c0fa0fbbf",
+  "fixes": {
+    "s7": "Removed designer body rule, mapped designer tokens into existing :root and light blocks, no second :root, component classes use app vars --bg --panel --ink, dark gradient via --bg, light surface via --bg \u2014 test dark mode dark body visible text, light mode light body dark text",
+    "b6": "one-click masked replay after data change M1 monthly full sweep \u2014 autoReplay + monthlyFullSweep + renderCalibrationStatus + btn-monthly-sweep",
+    "i4": "isVenueVerified wired to import validation + commit \u2014 filesView hard-block with tick-box, approve disabled until confirmed, venue lock durable rationale"
+  },
+  "zero_hard_coding": {
+    "fetch": 0,
+    "xhr": 0
+  },
+  "body_rules": 5
+}
