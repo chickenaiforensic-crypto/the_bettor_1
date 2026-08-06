@@ -18,12 +18,21 @@
 
 ### 1. Full ladder on 16,629 store (highest priority)
 
-The existing ladder baseline runs on 5,082 / 11,599 stores. Need a **full ladder run on the 16,629 store** covering ALL 6 core leagues + the new SPA/SCO1/KOS. This is the production baseline going forward.
+The existing ladder baseline runs on 5,082 / 11,599 stores. Need a **full ladder run on the 16,629 store** covering ALL 9 domestic leagues (RPL, CZ1, EPL, ITA, GER, FRA, SPA, SCO1, KOS) + UEFA. This is the production baseline going forward.
 
 - Store: `audit_work/pitch-rating-full-16629-europe-complete-2026-08-05.json`
 - Harness: adapt `audit_work/ladder_run.py` or `score_audit_full.py` to 16,629 store
 - Output: `audit_work/ladder_baseline_2026-08-06_16629.json`
 - Gate: Δ0.0000 parity on existing 6 leagues + new baseline for SPA/SCO1/KOS
+
+### 1b. Re-run league pivot with ≥100 test samples (owner requirement)
+
+Current pivot test used only 35 matches (cutoff 2024-07-01). Owner wants ≥100 minimum. 614 UEFA rows available after 2024-07-01 — expand the test window. Also re-run with:
+- Full λ model (not simplified att-def diff)
+- Per-league HFA from domestic fit
+- Brier metric (convert GD to H/D/A via Poisson grid)
+- More iterations (100) and smoother step (0.05)
+- Now that SPA/SCO1/KOS are in store, the in-scope filter will match more ties — re-filter
 
 ### 2. M17 settlement/venue audit
 
@@ -32,9 +41,9 @@ Still owed. Check on v3.9.0-b2:
 - I4 entry-side flip guard (never-hosted hard error)
 - Log findings in `Supervior/updates/`
 
-### 3. M10 spec approval (owner action, but you prepare)
+### 3. M10 spec — OWNER APPROVED 2026-08-06
 
-The spec in `lead_engine/25-M10-OUTCOMES-ONLY-INTEGRITY-SCREEN-SPEC.md` is ready. Owner needs to approve per P5. Review it and confirm it's P1-compliant before forwarding.
+The spec in `lead_engine/25-M10-OUTCOMES-ONLY-INTEGRITY-SCREEN-SPEC.md` is approved. Confirm it's P1-compliant before forwarding to builder. Builder can implement once you sign off.
 
 ## Key files
 

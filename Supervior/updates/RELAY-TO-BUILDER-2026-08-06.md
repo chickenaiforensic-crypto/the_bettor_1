@@ -22,8 +22,23 @@
 
 ### After auditor delivers:
 1. **Integrate league pivot into the app** — the `league_pivot_artifact.json` has per-league s[L] values. These need to go into the engine as a `dc-fitted-league-pivot` artifact, auto re-validated on connector data change M1. Currently stored in `audit_work/` only — not in the app.
-2. **Refine pivot with full λ model** — current pivot uses simplified att-def diff. Should use full Dixon-Coles λ with per-league HFA for more realistic values.
-3. **M10 integrity screen** — spec drafted in `lead_engine/25-M10-OUTCOMES-ONLY-INTEGRITY-SCREEN-SPEC.md`. Needs owner approval first. Then build as Integrity & Snapshots tab enhancement.
+2. **Refine pivot with full λ model + ≥100 test samples** — current pivot uses simplified att-def diff with only 35 test matches (cutoff 2024-07-01). Need to:
+   - Use full Dixon-Coles λ model (λ_home = exp(μ + att_home - def_away + hfa + hextra + s[LA]-s[LB]))
+   - Use per-league HFA from domestic fit, not fixed 0.25
+   - Expand test window — 614 UEFA rows available after 2024-07-01, plus SPA/SCO1/KOS now in store increases in-scope ties. Target ≥100 test matches minimum.
+   - Validate with Brier (not just MSE) — convert GD predictions to H/D/A probabilities via Poisson grid
+   - Increase max_iter to 100, step 0.05 for convergence to tol 0.02
+3. **M10 integrity screen** — spec drafted in `lead_engine/25-M10-OUTCOMES-ONLY-INTEGRITY-SCREEN-SPEC.md`. **OWNER APPROVED 2026-08-06.** Build as Integrity & Snapshots tab enhancement.
+
+### S7 UI direction — USE THE DESIGNER'S SYSTEM, NOT THE OLD PROTOTYPE
+
+The old `prototype-human-friendly.html` was a basic wireframe that made the owner request a designer. **The approved direction is the designer's index build:**
+- `designer/design-tokens.css` — deep navy/charcoal + emerald/gold palette, Tiempos Headline + Inter typography
+- `designer/components.css` — buttons, badges, cards, balance bar, verdict typography
+- `designer/prototypes/index.html` — high-fidelity mockup (Bloomberg Terminal meets The Athletic editorial)
+- `designer/README-DESIGNER.md` — design system, interaction notes, icon dictionary with fixed meanings
+
+When building S7, import and use the designer's tokens + components. Do NOT start from the old prototype.
 
 ### Do NOT touch:
 - Engine constants beyond bounded steps/caps (the live-configurable system in B2 is the path)

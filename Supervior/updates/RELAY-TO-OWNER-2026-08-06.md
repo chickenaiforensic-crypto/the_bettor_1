@@ -11,24 +11,23 @@
 | App v3.9.0-b2 (zero hard-coding, live engine constants, busy icon) | ✅ Built, verified |
 | Store 16,629 rows (9 domestic + 3 UEFA) | ✅ Verified clean |
 | Harness +8.70% average gain across 6 leagues | ✅ Measured, all p<0.01 |
-| League pivot (cross-league bridge) +6.72% vs frozen | ✅ Measured |
+| League pivot (cross-league bridge) +6.72% vs frozen | ⚠️ Measured but only 35 test samples — re-running with ≥100 |
 | 14 researcher packs returned and adopted | ✅ All in store |
-| Designer mockup for S7 UI | ✅ In `designer/` + `prototype-human-friendly.html` |
+| Designer index build for S7 UI | ✅ In `designer/` — tokens, components, high-fidelity prototype |
 
-## What needs your decision
+## What's approved and proceeding
 
-### 1. M10 integrity screen spec — approve or reject
-`lead_engine/25-M10-OUTCOMES-ONLY-INTEGRITY-SCREEN-SPEC.md`
-- Outcomes-only (P1-compliant, zero market)
-- Three automated checks: Brier shock, rating jumps, venue ghosting
-- All flags are manual-review, not auto-mute
-- **Your approval per P5 before builder can implement**
+### 1. M10 integrity screen — ✅ APPROVED
+Outcomes-only (P1-compliant). Three checks: Brier shock, rating jumps, venue ghosting. All manual-review, not auto-mute. Builder can implement after auditor confirms P1-compliance.
 
-### 2. S7 UI/architectural build — your domain
-Designer mockup is in `designer/` and `prototype-human-friendly.html`. You said you'll help with UI when there's more flesh — the flesh is there now (16,629 rows, live engine, live constants, provenance panel). Review when ready.
+### 2. S7 UI — Designer's index build is the approved direction
+The old `prototype-human-friendly.html` was a basic wireframe that prompted you to request a designer. **The approved direction is the designer's deliverables in `designer/`** — Bloomberg Terminal meets The Athletic editorial. Builder instructed to use designer's tokens + components, not the old prototype. You'll help with UI when ready.
 
-### 3. Remaining researcher packs (lower priority)
-Scottish Cup, Scottish League Cup, Kosovo Cup, MLS, US Open Cup — still queued. Not blocking anything.
+### 3. Cross-league pivot — re-running with ≥100 test samples
+You flagged the 35-sample test as too low — correct. 614 UEFA rows available after 2024-07-01. Auditor and builder instructed to re-run with full λ model, per-league HFA, ≥100 test matches, Brier metric.
+
+### 4. Remaining researcher packs (lower priority)
+Scottish Cup, Scottish League Cup, Kosovo Cup, MLS, US Open Cup — still queued. Not blocking.
 
 ## What the team needs from you
 
