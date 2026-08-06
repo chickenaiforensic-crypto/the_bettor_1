@@ -1,0 +1,55 @@
+Conference Wild Card Round [Oct 22]
+Montreal CF 2-2 Atlanta United
+[Oct 23]
+Vancouver Whitecaps 5-0 Portland Timbers
+Eastern Conference Quarterfinals First Legs
+[Oct 25]
+Inter Miami 2-1 Atlanta United
+[Oct 27]
+Orlando City 2-0 Charlotte FC
+[Oct 28]
+FC Cincinnati 1-0 New York City
+[Oct 29]
+Columbus Crew 0-1 New York Red Bulls
+Eastern Conference Quarterfinals Second Legs
+[Nov 1]
+Charlotte FC 0-0 Orlando City
+[Nov 2]
+New York City 3-1 FC Cincinnati
+Atlanta United 2-1 Inter Miami
+[Nov 3]
+New York Red Bulls 2-2 Columbus Crew
+Eastern Conference Quarterfinals Third Legs [Nov 9]
+FC Cincinnati 0-0 New York City
+Orlando City 1-1 Charlotte FC
+Inter Miami 2-3 Atlanta United
+Western Conference Quarterfinals First Legs
+[Oct 26]
+Los Angeles Galaxy 5-0 Colorado Rapids
+[Oct 27]
+Los Angeles FC 2-1 Vancouver Whitecaps
+[Oct 28]
+Seattle Sounders 0-0 Houston Dynamo
+[Oct 29]
+Real Salt Lake 0-0 Minnesota United
+Western Conference Quarterfinals Second Legs
+[Nov 1]
+Colorado Rapids 1-4 Los Angeles Galaxy
+[Nov 2]
+Minnesota United 1-1 Real Salt Lake
+[Nov 3]
+Houston Dynamo 1-1 Seattle Sounders
+Vancouver Whitecaps 3-0 Los Angeles FC
+Western Conference Quarterfinals Third Leg [Nov 8]
+Los Angeles FC 1-0 Vancouver Whitecaps
+Conference Semifinals [Nov 23]
+New York City 0-2 New York Red Bulls
+Los Angeles FC 1-2 Seattle Sounders
+[Nov 24]
+Orlando City 1-0 Atlanta United
+Los Angeles Galaxy 6-2 Minnesota United
+Conference Finals [Nov 30]
+Orlando City 0-1 New York Red Bulls
+Los Angeles Galaxy 1-0 Seattle Sounders
+MLS Cup [Dec 7]
+Los Angeles Galaxy 2-1 New York Red Bulls

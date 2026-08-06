@@ -1,0 +1,58 @@
+Conference Wild Card Round [Oct 22]
+Chicago Fire 3-1 Orlando City
+Portland Timbers 3-1 Real Salt Lake
+Eastern Conference Quarterfinals First Legs
+[Oct 24]
+Inter Miami 3-1 Nashville SC
+[Oct 26]
+Philadelphia Union 2-2 Chicago Fire
+[Oct 27]
+FC Cincinnati 1-0 Columbus Crew
+[Oct 28]
+Charlotte FC 0-1 New York City
+Eastern Conference Quarterfinals Second Legs
+[Nov 1]
+New York City 0-0 Charlotte FC
+Chicago Fire 0-3 Philadelphia Union
+Nashville SC 2-1 Inter Miami
+[Nov 2]
+Columbus Crew 4-0 FC Cincinnati
+Eastern Conference Quarterfinals Third Legs
+[Nov 7]
+Charlotte FC 1-3 New York City
+[Nov 8]
+Inter Miami 4-0 Nashville SC
+FC Cincinnati 2-1 Columbus Crew
+Western Conference Quarterfinals First Legs
+[Oct 26]
+Vancouver Whitecaps 3-0 FC Dallas
+San Diego FC 2-1 Portland Timbers
+[Oct 27]
+Minnesota United 0-0 Seattle Sounders
+[Oct 29]
+Los Angeles FC 2-1 Austin FC
+Western Conference Quarterfinals Second Legs
+[Nov 1]
+FC Dallas 1-1 Vancouver Whitecaps
+Portland Timbers 2-2 San Diego FC
+[Nov 2]
+Austin FC 1-4 Los Angeles FC
+[Nov 3]
+Seattle Sounders 4-2 Minnesota United
+Western Conference Quarterfinals Third Legs
+[Nov 8]
+Minnesota United 3-3 Seattle Sounders
+[Nov 9]
+San Diego FC 4-0 Portland Timbers
+Conference Semifinals [Nov 23]
+FC Cincinnati 0-4 Inter Miami
+Philadelphia Union 0-1 New York City
+[Nov 22]
+Vancouver Whitecaps 2-2 Los Angeles FC
+[Nov 24]
+San Diego FC 1-0 Minnesota United
+Conference Finals [Nov 29]
+Inter Miami 5-1 New York City
+San Diego FC 1-3 Vancouver Whitecaps
+MLS Cup [Dec 6]
+Inter Miami 3-1 Vancouver Whitecaps
