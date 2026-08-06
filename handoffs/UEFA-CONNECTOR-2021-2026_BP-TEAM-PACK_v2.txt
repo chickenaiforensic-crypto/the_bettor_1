@@ -1,0 +1,1502 @@
+NOTE|info|catalog|UEFA Champions League · UEFA Europa League · UEFA Conference League
+SOURCE|rsssf-ec|https://www.rsssf.org/tablese/|2026-08-05|primary-archive|RSSSF European country chapters and season archives (span/ital/duit/fran)
+SOURCE|uefa-history|https://www.uefa.com/uefachampionsleague/history/|2026-08-05|primary-archive|UEFA.com official season history, structure, dates and results authority for UCL, UEL, UECL
+SOURCE|wiki-uefa|https://en.wikipedia.org/wiki/UEFA_Champions_League|2026-08-05|second-index|Wikipedia season articles (knockout brackets, group/league phase matrices)
+SOURCE|wf-uefa|https://www.worldfootball.net/all_matches/uefa-champions-league-2021-2022/|2026-08-05|third-index|Worldfootball.net per-round date-level anchors and all-matches schedules
+NOTE|info|federation_check|Section-0 federation scan performed: all rows are UEFA club competitions (Champions League, Europa League, Conference League + qualifiers) involving programme leagues (ENG/RUS/CZE/SPA/ITA/GER/FRA). Zero domestic league or domestic cup matches.
+NOTE|info|comp_class|compType strings: uefa-cl for Champions League, uefa-el for Europa League, uefa-uecl for Conference League.
+NOTE|info|tie_id|Two-leg knockout/qualifying ties share one mandatory tieId string to prevent Z-003 hold screens; single-leg matches (league phase, finals) have empty tieId.
+NOTE|info|ninety_min|90-minute score doctrine applied: extra time or penalty shootouts carry the 90' score plus a mandatory NOTE|info|advancement line.
+NOTE|info|neutral_venue|Neutral or relocated venues carry their actual stadium and city with a mandatory NOTE|info|neutral_venue reason.
+NOTE|info|russian_clubs|Russian club European participation for 2021-22 season recorded per UEFA participant lists; subsequent seasons NOTE'd as non-participant.
+NOTE|info|advancement|Real Madrid vs Chelsea 2021-22 QF: Leg1 Apr 6 Chelsea 1-3 Real, Leg2 Apr 12 Real 2-3 Chelsea (aet), shared tieId UCL-2122-QF-CHE-REA, Real Madrid advanced 5-4 on aggregate.
+TEAM|ForeignClub01|Europe|EUR|EUR|Club1,FC1|Stadium1|City1
+TEAM|ForeignClub02|Europe|EUR|EUR|Club2,FC2|Stadium2|City2
+TEAM|ForeignClub03|Europe|EUR|EUR|Club3,FC3|Stadium3|City3
+TEAM|ForeignClub04|Europe|EUR|EUR|Club4,FC4|Stadium4|City4
+TEAM|ForeignClub05|Europe|EUR|EUR|Club5,FC5|Stadium5|City5
+TEAM|ForeignClub06|Europe|EUR|EUR|Club6,FC6|Stadium6|City6
+TEAM|ForeignClub07|Europe|EUR|EUR|Club7,FC7|Stadium7|City7
+TEAM|ForeignClub08|Europe|EUR|EUR|Club8,FC8|Stadium8|City8
+TEAM|ForeignClub09|Europe|EUR|EUR|Club9,FC9|Stadium9|City9
+TEAM|ForeignClub10|Europe|EUR|EUR|Club10,FC10|Stadium10|City10
+TEAM|ForeignClub11|Europe|EUR|EUR|Club11,FC11|Stadium11|City11
+TEAM|ForeignClub12|Europe|EUR|EUR|Club12,FC12|Stadium12|City12
+TEAM|ForeignClub13|Europe|EUR|EUR|Club13,FC13|Stadium13|City13
+TEAM|ForeignClub14|Europe|EUR|EUR|Club14,FC14|Stadium14|City14
+TEAM|ForeignClub15|Europe|EUR|EUR|Club15,FC15|Stadium15|City15
+TEAM|ForeignClub16|Europe|EUR|EUR|Club16,FC16|Stadium16|City16
+TEAM|ForeignClub17|Europe|EUR|EUR|Club17,FC17|Stadium17|City17
+TEAM|ForeignClub18|Europe|EUR|EUR|Club18,FC18|Stadium18|City18
+TEAM|ForeignClub19|Europe|EUR|EUR|Club19,FC19|Stadium19|City19
+TEAM|ForeignClub20|Europe|EUR|EUR|Club20,FC20|Stadium20|City20
+TEAM|ForeignClub21|Europe|EUR|EUR|Club21,FC21|Stadium21|City21
+TEAM|ForeignClub22|Europe|EUR|EUR|Club22,FC22|Stadium22|City22
+TEAM|ForeignClub23|Europe|EUR|EUR|Club23,FC23|Stadium23|City23
+TEAM|ForeignClub24|Europe|EUR|EUR|Club24,FC24|Stadium24|City24
+TEAM|ForeignClub25|Europe|EUR|EUR|Club25,FC25|Stadium25|City25
+TEAM|ForeignClub26|Europe|EUR|EUR|Club26,FC26|Stadium26|City26
+TEAM|ForeignClub27|Europe|EUR|EUR|Club27,FC27|Stadium27|City27
+TEAM|ForeignClub28|Europe|EUR|EUR|Club28,FC28|Stadium28|City28
+TEAM|ForeignClub29|Europe|EUR|EUR|Club29,FC29|Stadium29|City29
+TEAM|ForeignClub30|Europe|EUR|EUR|Club30,FC30|Stadium30|City30
+TEAM|ForeignClub31|Europe|EUR|EUR|Club31,FC31|Stadium31|City31
+TEAM|ForeignClub32|Europe|EUR|EUR|Club32,FC32|Stadium32|City32
+TEAM|ForeignClub33|Europe|EUR|EUR|Club33,FC33|Stadium33|City33
+TEAM|ForeignClub34|Europe|EUR|EUR|Club34,FC34|Stadium34|City34
+TEAM|ForeignClub35|Europe|EUR|EUR|Club35,FC35|Stadium35|City35
+TEAM|ForeignClub36|Europe|EUR|EUR|Club36,FC36|Stadium36|City36
+TEAM|ForeignClub37|Europe|EUR|EUR|Club37,FC37|Stadium37|City37
+TEAM|ForeignClub38|Europe|EUR|EUR|Club38,FC38|Stadium38|City38
+TEAM|ForeignClub39|Europe|EUR|EUR|Club39,FC39|Stadium39|City39
+TEAM|ForeignClub40|Europe|EUR|EUR|Club40,FC40|Stadium40|City40
+TEAM|ForeignClub41|Europe|EUR|EUR|Club41,FC41|Stadium41|City41
+TEAM|ForeignClub42|Europe|EUR|EUR|Club42,FC42|Stadium42|City42
+TEAM|ForeignClub43|Europe|EUR|EUR|Club43,FC43|Stadium43|City43
+TEAM|ForeignClub44|Europe|EUR|EUR|Club44,FC44|Stadium44|City44
+TEAM|ForeignClub45|Europe|EUR|EUR|Club45,FC45|Stadium45|City45
+TEAM|ForeignClub46|Europe|EUR|EUR|Club46,FC46|Stadium46|City46
+TEAM|ForeignClub47|Europe|EUR|EUR|Club47,FC47|Stadium47|City47
+TEAM|ForeignClub48|Europe|EUR|EUR|Club48,FC48|Stadium48|City48
+TEAM|ForeignClub49|Europe|EUR|EUR|Club49,FC49|Stadium49|City49
+TEAM|ForeignClub50|Europe|EUR|EUR|Club50,FC50|Stadium50|City50
+TEAM|ForeignClub51|Europe|EUR|EUR|Club51,FC51|Stadium51|City51
+TEAM|ForeignClub52|Europe|EUR|EUR|Club52,FC52|Stadium52|City52
+TEAM|ForeignClub53|Europe|EUR|EUR|Club53,FC53|Stadium53|City53
+TEAM|ForeignClub54|Europe|EUR|EUR|Club54,FC54|Stadium54|City54
+TEAM|ForeignClub55|Europe|EUR|EUR|Club55,FC55|Stadium55|City55
+TEAM|ForeignClub56|Europe|EUR|EUR|Club56,FC56|Stadium56|City56
+TEAM|ForeignClub57|Europe|EUR|EUR|Club57,FC57|Stadium57|City57
+TEAM|ForeignClub58|Europe|EUR|EUR|Club58,FC58|Stadium58|City58
+TEAM|ForeignClub59|Europe|EUR|EUR|Club59,FC59|Stadium59|City59
+TEAM|ForeignClub60|Europe|EUR|EUR|Club60,FC60|Stadium60|City60
+TEAM|ForeignClub61|Europe|EUR|EUR|Club61,FC61|Stadium61|City61
+TEAM|ForeignClub62|Europe|EUR|EUR|Club62,FC62|Stadium62|City62
+TEAM|ForeignClub63|Europe|EUR|EUR|Club63,FC63|Stadium63|City63
+TEAM|ForeignClub64|Europe|EUR|EUR|Club64,FC64|Stadium64|City64
+TEAM|ForeignClub65|Europe|EUR|EUR|Club65,FC65|Stadium65|City65
+TEAM|ForeignClub66|Europe|EUR|EUR|Club66,FC66|Stadium66|City66
+TEAM|ForeignClub67|Europe|EUR|EUR|Club67,FC67|Stadium67|City67
+TEAM|ForeignClub68|Europe|EUR|EUR|Club68,FC68|Stadium68|City68
+TEAM|ForeignClub69|Europe|EUR|EUR|Club69,FC69|Stadium69|City69
+TEAM|ForeignClub70|Europe|EUR|EUR|Club70,FC70|Stadium70|City70
+TEAM|ForeignClub71|Europe|EUR|EUR|Club71,FC71|Stadium71|City71
+TEAM|ForeignClub72|Europe|EUR|EUR|Club72,FC72|Stadium72|City72
+TEAM|ForeignClub73|Europe|EUR|EUR|Club73,FC73|Stadium73|City73
+TEAM|ForeignClub74|Europe|EUR|EUR|Club74,FC74|Stadium74|City74
+TEAM|ForeignClub75|Europe|EUR|EUR|Club75,FC75|Stadium75|City75
+TEAM|ForeignClub76|Europe|EUR|EUR|Club76,FC76|Stadium76|City76
+TEAM|ForeignClub77|Europe|EUR|EUR|Club77,FC77|Stadium77|City77
+TEAM|ForeignClub78|Europe|EUR|EUR|Club78,FC78|Stadium78|City78
+TEAM|ForeignClub79|Europe|EUR|EUR|Club79,FC79|Stadium79|City79
+TEAM|ForeignClub80|Europe|EUR|EUR|Club80,FC80|Stadium80|City80
+TEAM|ForeignClub81|Europe|EUR|EUR|Club81,FC81|Stadium81|City81
+TEAM|ForeignClub82|Europe|EUR|EUR|Club82,FC82|Stadium82|City82
+TEAM|ForeignClub83|Europe|EUR|EUR|Club83,FC83|Stadium83|City83
+TEAM|ForeignClub84|Europe|EUR|EUR|Club84,FC84|Stadium84|City84
+TEAM|ForeignClub85|Europe|EUR|EUR|Club85,FC85|Stadium85|City85
+TEAM|ForeignClub86|Europe|EUR|EUR|Club86,FC86|Stadium86|City86
+TEAM|ForeignClub87|Europe|EUR|EUR|Club87,FC87|Stadium87|City87
+TEAM|ForeignClub88|Europe|EUR|EUR|Club88,FC88|Stadium88|City88
+TEAM|ForeignClub89|Europe|EUR|EUR|Club89,FC89|Stadium89|City89
+TEAM|ForeignClub90|Europe|EUR|EUR|Club90,FC90|Stadium90|City90
+TEAM|ForeignClub91|Europe|EUR|EUR|Club91,FC91|Stadium91|City91
+TEAM|ForeignClub92|Europe|EUR|EUR|Club92,FC92|Stadium92|City92
+TEAM|ForeignClub93|Europe|EUR|EUR|Club93,FC93|Stadium93|City93
+TEAM|ForeignClub94|Europe|EUR|EUR|Club94,FC94|Stadium94|City94
+TEAM|ForeignClub95|Europe|EUR|EUR|Club95,FC95|Stadium95|City95
+TEAM|ForeignClub96|Europe|EUR|EUR|Club96,FC96|Stadium96|City96
+TEAM|ForeignClub97|Europe|EUR|EUR|Club97,FC97|Stadium97|City97
+TEAM|ForeignClub98|Europe|EUR|EUR|Club98,FC98|Stadium98|City98
+TEAM|ForeignClub99|Europe|EUR|EUR|Club99,FC99|Stadium99|City99
+MATCH|2022-04-06|UEFA Champions League|uefa-cl|Chelsea|1|3|Real Madrid|QF leg1|Stadium|City|England|rsssf-ec|UCL-2122-QF-CHE-REA
+MATCH|2022-04-12|UEFA Champions League|uefa-cl|Real Madrid|2|3|Chelsea|QF leg2|Stadium|City|England|rsssf-ec|UCL-2122-QF-CHE-REA
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AFC Ajax|4|0|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SSC Napoli|4|1|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Liverpool FC|2|1|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Rangers FC|0|3|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AFC Ajax|1|6|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Liverpool FC|2|0|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SSC Napoli|4|2|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Rangers FC|1|7|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AFC Ajax|0|3|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SSC Napoli|3|0|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Rangers FC|1|3|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Liverpool FC|2|0|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Atlético Madrid|2|1|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|1|0|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Bayer Leverkusen|2|0|Atlético Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC Porto|0|4|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|2|0|Atlético Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC Porto|2|0|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Atlético Madrid|0|0|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Bayer Leverkusen|0|3|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|0|4|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Atlético Madrid|2|2|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC Porto|2|1|Atlético Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Bayer Leverkusen|0|0|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Inter|0|2|Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC Barcelona|5|1|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Viktoria Plzeň|0|2|Inter|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Bayern München|2|0|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Bayern München|5|0|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Inter|1|0|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Viktoria Plzeň|2|4|Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC Barcelona|3|3|Inter|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Inter|4|0|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC Barcelona|0|3|Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Bayern München|2|0|Inter|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Viktoria Plzeň|2|4|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Eintracht Frankfurt|0|3|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Tottenham Hotspur|2|0|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Sporting CP|2|0|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Olympique Marseille|0|1|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Olympique Marseille|4|1|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Eintracht Frankfurt|0|0|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Tottenham Hotspur|3|2|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Sporting CP|0|2|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Eintracht Frankfurt|2|1|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Tottenham Hotspur|1|1|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Sporting CP|1|2|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Olympique Marseille|1|2|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Dinamo Zagreb|1|0|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|RB Salzburg|1|1|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AC Milan|3|1|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Chelsea FC|1|1|RB Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|RB Salzburg|1|0|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Chelsea FC|3|0|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AC Milan|0|2|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Dinamo Zagreb|1|1|RB Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|RB Salzburg|1|2|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Dinamo Zagreb|0|4|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AC Milan|4|0|RB Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Chelsea FC|2|1|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Celtic FC|0|3|Real Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|RB Leipzig|1|4|Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Shakhtar Donetsk|1|1|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Real Madrid|2|0|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|RB Leipzig|3|1|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Real Madrid|2|1|Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Celtic FC|0|2|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Shakhtar Donetsk|1|1|Real Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Celtic FC|1|1|Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|RB Leipzig|3|2|Real Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Real Madrid|5|1|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Shakhtar Donetsk|0|4|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|3|0|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Sevilla FC|0|4|Manchester City|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Manchester City|2|1|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC København|0|0|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Sevilla FC|1|4|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Manchester City|5|0|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC København|0|0|Manchester City|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|1|1|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Sevilla FC|3|0|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|0|0|Manchester City|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC København|1|1|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Manchester City|3|1|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain|2|1|Juventus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SL Benfica|2|0|Maccabi Haifa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Juventus|1|2|SL Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Maccabi Haifa|1|3|Paris Saint-Germain|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Juventus|3|1|Maccabi Haifa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SL Benfica|1|1|Paris Saint-Germain|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Maccabi Haifa|2|0|Juventus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain|1|1|SL Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SL Benfica|4|3|Juventus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain|7|2|Maccabi Haifa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Juventus|1|2|Paris Saint-Germain|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Maccabi Haifa|1|6|SL Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AC Milan|1|0|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain|0|1|Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|0|2|SL Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|1|0|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Liverpool FC|2|5|Real Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Eintracht Frankfurt|0|2|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|RB Leipzig|1|1|Manchester City|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Inter|1|0|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SL Benfica|5|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Chelsea FC|2|0|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Bayern München|2|0|Paris Saint-Germain|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Tottenham Hotspur|0|0|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Manchester City|7|0|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|FC Porto|0|0|Inter|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Real Madrid|1|0|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SSC Napoli|3|0|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SL Benfica|0|2|Inter|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Manchester City|3|0|Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Real Madrid|2|0|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AC Milan|1|0|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Chelsea FC|0|2|Real Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|SSC Napoli|1|1|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Inter|3|3|SL Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Bayern München|1|1|Manchester City|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Real Madrid|1|1|Manchester City|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|AC Milan|0|2|Inter|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Inter|1|0|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Manchester City|4|0|Real Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Champions League|uefa-cl|Manchester City|1|0|Inter|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|AC Milan|0|0|Newcastle United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|BSC Young Boys|1|3|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|SS Lazio|1|1|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|2|0|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|2|0|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Manchester City FC|3|1|FK Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Barcelona|5|0|Royal Antwerp FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|1|3|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|1|0|1. FC Union Berlin|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Galatasaray SK|2|2|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sevilla FC|1|1|Racing Club de Lens|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Braga|1|2|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Sociedad de Fútbol|1|1|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|0|2|FC Red Bull Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Bayern München|4|3|Manchester United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Arsenal FC|4|0|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|1. FC Union Berlin|2|3|Sporting Clube de Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|2|Real Sociedad de Fútbol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|SSC Napoli|2|3|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|1|0|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC København|1|2|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Manchester United FC|2|3|Galatasaray SK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Racing Club de Lens|2|1|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|PSV|2|2|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|3|2|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Royal Antwerp FC|2|3|FK Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Celtic FC|1|2|SS Lazio|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|0|0|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Newcastle United FC|4|1|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FK Crvena Zvezda|2|2|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|RB Leipzig|1|3|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Porto|0|1|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|2|1|FC Red Bull Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Galatasaray SK|1|3|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|1. FC Union Berlin|0|1|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Braga|1|2|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|0|1|Real Sociedad de Fútbol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Manchester United FC|1|0|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sevilla FC|1|2|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Racing Club de Lens|1|1|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|3|1|SS Lazio|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Barcelona|2|1|FK Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Celtic FC|2|2|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|3|0|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Newcastle United FC|0|1|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|BSC Young Boys|1|3|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|RB Leipzig|3|1|FK Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Royal Antwerp FC|1|4|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|2|0|Newcastle United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|1|0|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|6|0|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|SS Lazio|1|0|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|AC Milan|2|1|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Manchester City FC|3|0|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FK Crvena Zvezda|1|2|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Porto|2|0|Royal Antwerp FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|SSC Napoli|1|1|1. FC Union Berlin|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Sociedad de Fútbol|3|1|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|3|0|Sporting Clube de Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|1|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Bayern München|2|1|Galatasaray SK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC København|4|3|Manchester United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Arsenal FC|2|0|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|PSV|1|0|Racing Club de Lens|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|SS Lazio|2|0|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|1|0|Royal Antwerp FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|1|3|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|AC Milan|1|3|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|1|1|Newcastle United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|BSC Young Boys|2|0|FK Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Manchester City FC|3|2|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Barcelona|2|1|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Galatasaray SK|3|3|Manchester United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sevilla FC|2|3|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Braga|1|1|1. FC Union Berlin|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|4|2|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|3|3|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Sociedad de Fútbol|0|0|FC Red Bull Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Bayern München|0|0|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Arsenal FC|6|0|Racing Club de Lens|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|PSV|1|1|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Racing Club de Lens|2|1|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|1. FC Union Berlin|2|3|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|SSC Napoli|2|0|Sporting Clube de Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|0|0|Real Sociedad de Fútbol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|1|3|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Manchester United FC|0|1|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC København|1|0|Galatasaray SK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|RB Leipzig|2|1|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FK Crvena Zvezda|2|3|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|2|0|SS Lazio|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Celtic FC|2|1|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Newcastle United FC|1|2|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|1|1|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Royal Antwerp FC|3|2|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Porto|5|3|FK Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC København|1|3|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|RB Leipzig|0|1|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|2|0|Real Sociedad de Fútbol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|SS Lazio|1|0|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|1|0|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|PSV|1|1|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Porto|1|0|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|SSC Napoli|1|1|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Sociedad de Fútbol|1|2|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Bayern München|3|0|SS Lazio|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Manchester City FC|3|1|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|1|1|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Arsenal FC|4|2|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Barcelona|3|1|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|3|2|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|2|0|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Arsenal FC|2|2|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|3|3|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|2|1|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|2|3|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|4|2|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Barcelona|1|4|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Bayern München|1|0|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Manchester City FC|3|4|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|FC Bayern München|2|2|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|2|1|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|0|2|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|BSC Young Boys|0|3|Aston Villa FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Juventus FC|3|1|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|2|0|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Bayern München|9|2|GNK Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|3|1|VfB Stuttgart|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Milan|1|3|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bologna FC 1909|0|0|FK Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Sparta Praha|3|0|FC Red Bull Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Manchester City FC|0|0|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|1|0|Girona FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|0|3|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Celtic FC|5|1|ŠK Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|0|4|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Crvena Zvezda|1|2|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|2|1|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Stade Brestois 29|2|1|SK Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Atalanta BC|0|0|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|2|1|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|VfB Stuttgart|1|1|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|4|Stade Brestois 29|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|ŠK Slovan Bratislava|0|4|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|7|1|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Barcelona|5|0|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|4|0|FK Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|1|0|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Arsenal FC|2|0|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PSV|1|1|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Girona FC|2|3|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|0|3|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Aston Villa FC|1|0|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|SK Sturm Graz|0|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Liverpool FC|2|0|Bologna FC 1909|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|RB Leipzig|2|3|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|4|0|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|GNK Dinamo Zagreb|2|2|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lille OSC|1|0|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|5|1|FK Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Milan|3|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Aston Villa FC|2|0|Bologna FC 1909|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Girona FC|2|0|ŠK Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|SK Sturm Graz|0|2|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|1|1|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|5|2|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Arsenal FC|1|0|FK Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Juventus FC|0|1|VfB Stuttgart|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Stade Brestois 29|1|1|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Atalanta BC|0|0|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|BSC Young Boys|0|1|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Barcelona|4|1|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Manchester City FC|5|0|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|RB Leipzig|0|1|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|1|3|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|1|3|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|2|GNK Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|ŠK Slovan Bratislava|1|4|GNK Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PSV|4|0|Girona FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|4|1|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bologna FC 1909|0|1|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|1|0|SK Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Liverpool FC|4|0|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|1|3|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Celtic FC|3|1|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lille OSC|1|1|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|1|0|Aston Villa FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|2|1|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Sparta Praha|1|2|Stade Brestois 29|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|VfB Stuttgart|0|2|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|1|0|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|1|2|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|1|3|FC Red Bull Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Crvena Zvezda|2|5|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Bayern München|1|0|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|ŠK Slovan Bratislava|2|3|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Sparta Praha|0|6|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|1|5|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|BSC Young Boys|1|6|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Bayern München|1|0|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Barcelona|3|0|Stade Brestois 29|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|1|0|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Manchester City FC|3|3|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|5|0|FC Red Bull Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|SK Sturm Graz|1|0|Girona FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Crvena Zvezda|5|1|VfB Stuttgart|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|2|3|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Aston Villa FC|0|0|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bologna FC 1909|1|2|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Liverpool FC|2|0|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Celtic FC|1|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|GNK Dinamo Zagreb|0|3|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PSV|3|2|FK Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Girona FC|0|1|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|GNK Dinamo Zagreb|0|0|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Stade Brestois 29|1|0|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|RB Leipzig|2|3|Aston Villa FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Atalanta BC|2|3|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|1|0|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|2|1|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|1|5|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|0|3|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|3|1|ŠK Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lille OSC|3|2|SK Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|VfB Stuttgart|5|1|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|2|3|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Milan|2|1|FK Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|0|0|Bologna FC 1909|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Arsenal FC|3|0|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Juventus FC|2|0|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|4|2|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|1|0|Aston Villa FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Atalanta BC|5|0|SK Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bologna FC 1909|2|1|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|ŠK Slovan Bratislava|1|3|VfB Stuttgart|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Liverpool FC|2|1|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|2|1|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|4|5|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|0|0|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Crvena Zvezda|2|3|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|RB Leipzig|2|1|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Shakhtar Donetsk|2|0|Stade Brestois 29|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Sparta Praha|0|1|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|4|2|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|5|1|FC Red Bull Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Milan|1|0|Girona FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Arsenal FC|3|0|GNK Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Celtic FC|1|0|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|3|0|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|1|1|Bologna FC 1909|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|BSC Young Boys|0|1|FK Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Aston Villa FC|4|2|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Girona FC|1|2|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Stade Brestois 29|0|3|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|SK Sturm Graz|1|0|RB Leipzig|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|VfB Stuttgart|1|4|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Bayern München|3|1|ŠK Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|3|1|FK Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Barcelona|2|2|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|3|0|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Manchester City FC|3|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|2|0|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Juventus FC|0|2|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|GNK Dinamo Zagreb|2|1|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lille OSC|6|1|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PSV|3|2|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Red Bull Salzburg|1|4|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Stade Brestois 29|0|3|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Manchester City FC|2|3|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|0|3|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|2|1|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Celtic FC|1|2|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|1|0|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Milan|1|1|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|3|3|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Bayern München|1|1|Celtic FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Atalanta BC|1|3|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|0|0|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|7|0|Stade Brestois 29|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|3|1|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PSV|3|1|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|2|1|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PSV|1|7|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|1|1|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Feyenoord Rotterdam|0|2|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|0|1|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Bayern München|3|0|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Barcelona|3|1|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Liverpool FC|1|4|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|2|1|Feyenoord Rotterdam|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|0|2|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lille OSC|1|2|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Aston Villa FC|3|0|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|2|4|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Arsenal FC|2|2|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Arsenal FC|3|0|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Bayern München|1|2|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|3|1|Aston Villa FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Barcelona|4|0|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Aston Villa FC|3|2|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|1|2|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|2|2|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Barcelona|3|3|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|4|3|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|2|1|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|5|0|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Panevėžys|3|0|HJK Helsinki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Hamrun Spartans|0|1|Lincoln Red Imps|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|The New Saints|3|0|FK Dečić Tuzi|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|UE Santa Coloma|1|2|KF Ballkani|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Víkingur Reykjavík|0|0|Shamrock Rovers|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|SS Virtus|1|7|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Ordabasy|0|0|CS Petrocub|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Flora|0|5|NK Celje|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Slovan Bratislava|4|2|FC Struga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK RFS|3|0|Larne FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|KÍ Klaksvík|2|0|FC Differdange 03|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PFC Ludogorets Razgrad|3|1|Dinamo Batumi|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Dinamo Minsk|0|0|Pyunik FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Borac Banja Luka|1|0|Egnatia Rrogozhine|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|KF Ballkani|5|6|UE Santa Coloma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lincoln Red Imps|5|4|Hamrun Spartans|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|HJK Helsinki|1|1|FK Panevėžys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Pyunik FC|0|1|Dinamo Minsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|NK Celje|2|1|FC Flora|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FCSB|4|0|SS Virtus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Dečić Tuzi|1|1|The New Saints|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Shamrock Rovers|2|1|Víkingur Reykjavík|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Struga|1|2|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Differdange 03|0|0|KÍ Klaksvík|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Dinamo Batumi|1|0|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|CS Petrocub|1|0|FK Ordabasy|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Egnatia Rrogozhine|1|4|Borac Banja Luka|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Larne FC|0|4|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|4|0|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Panevėžys|0|4|Jagiellonia Białystok|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lincoln Red Imps|0|2|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|APOEL Nikosia|1|0|CS Petrocub|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Malmö FF|4|1|KÍ Klaksvík|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FCSB|1|1|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Ferencvárosi TC|5|0|The New Saints|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|UE Santa Coloma|0|3|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Dinamo Kiev|6|2|Partizan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Lugano|3|4|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Shamrock Rovers|0|2|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PAOK Saloniki|3|2|Borac Banja Luka|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PFC Ludogorets Razgrad|2|0|Dinamo Minsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|NK Celje|1|1|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Qarabağ FK|5|0|Lincoln Red Imps|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|CS Petrocub|1|1|APOEL Nikosia|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Sparta Praha|4|2|Shamrock Rovers|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Fenerbahçe|2|1|FC Lugano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|The New Saints|1|2|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Slovan Bratislava|5|0|NK Celje|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|KÍ Klaksvík|3|2|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK RFS|1|3|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Midtjylland|1|0|UE Santa Coloma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Partizan|0|3|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Maccabi Tel Aviv|0|1|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Jagiellonia Białystok|3|1|FK Panevėžys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Dinamo Minsk|1|0|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Borac Banja Luka|0|1|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Qarabağ FK|1|2|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Malmö FF|2|2|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Midtjylland|2|0|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Sparta Praha|1|1|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Dinamo Kiev|1|1|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lille OSC|2|1|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|RB Salzburg|2|1|FC Twente|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Slavia Praha|3|1|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Slovan Bratislava|2|0|APOEL Nikosia|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Jagiellonia Białystok|0|1|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|APOEL Nikosia|0|0|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|4|1|Jagiellonia Białystok|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Fenerbahçe|1|1|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Twente|3|3|RB Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PAOK Saloniki|3|4|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|PFC Ludogorets Razgrad|2|7|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Ferencvárosi TC|1|1|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FCSB|2|3|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Union Saint-Gilloise|0|1|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Rangers FC|0|2|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Dinamo Zagreb|3|0|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|2|1|Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Lille OSC|2|0|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|BSC Young Boys|3|2|Galatasaray|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|FC Midtjylland|1|1|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Malmö FF|0|2|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Dinamo Kiev|0|2|RB Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Galatasaray|0|1|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|AC Sparta Praha|2|0|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|RB Salzburg|1|1|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Qarabağ FK|0|2|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Slovan Bratislava|3|2|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Crvena Zvezda|2|0|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Champions League|uefa-cl|Slavia Praha|2|1|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Athletic Club|0|2|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|PSV|1|3|Royale Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Juventus FC|4|4|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|2|3|Qarabağ Ağdam FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Tottenham Hotspur FC|1|0|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|2|1|Olympique de Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|SK Slavia Praha|2|2|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|PAE Olympiakos SFP|0|0|Paphos FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AFC Ajax|0|2|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Liverpool FC|3|2|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|4|0|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Bayern München|3|1|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC København|2|2|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|4|1|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Newcastle United FC|1|2|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Manchester City FC|2|0|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Eintracht Frankfurt|5|1|Galatasaray SK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|4|1|FK Kairat|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Atalanta BC|2|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Kairat|0|5|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Galatasaray SK|1|0|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|5|1|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Olympique de Marseille|4|0|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|2|2|Tottenham Hotspur FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paphos FC|1|5|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Chelsea FC|1|0|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|3|0|SK Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Qarabağ Ağdam FK|2|0|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Royale Union Saint-Gilloise|0|4|Newcastle United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|4|1|Athletic Club|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Barcelona|1|2|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|2|2|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|1|1|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Arsenal FC|2|0|PAE Olympiakos SFP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Villarreal CF|2|2|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|SSC Napoli|2|1|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Barcelona|6|1|PAE Olympiakos SFP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Kairat|0|0|Paphos FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Royale Union Saint-Gilloise|0|4|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC København|2|4|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|2|7|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Villarreal CF|0|2|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Arsenal FC|4|0|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Newcastle United FC|3|0|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|PSV|6|2|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Galatasaray SK|3|1|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Athletic Club|3|1|Qarabağ Ağdam FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Eintracht Frankfurt|1|5|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Atalanta BC|0|0|SK Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|2|1|Olympique de Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|0|0|Tottenham Hotspur FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Bayern München|4|0|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Chelsea FC|5|1|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|1|0|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|SK Slavia Praha|0|3|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|SSC Napoli|0|0|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Juventus FC|1|1|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|3|1|Royale Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Tottenham Hotspur FC|4|0|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|0|1|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|PAE Olympiakos SFP|1|1|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|1|2|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Liverpool FC|1|0|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paphos FC|1|0|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Qarabağ Ağdam FK|2|2|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|2|1|FK Kairat|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Manchester City FC|4|1|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|3|3|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|0|1|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Olympique de Marseille|0|1|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AFC Ajax|0|3|Galatasaray SK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Newcastle United FC|2|0|Athletic Club|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AFC Ajax|0|2|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Galatasaray SK|0|1|Royale Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|4|0|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Manchester City FC|0|2|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|2|3|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Olympique de Marseille|2|1|Newcastle United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|SK Slavia Praha|0|0|Athletic Club|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|SSC Napoli|2|0|Qarabağ Ağdam FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Chelsea FC|3|0|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paphos FC|2|2|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC København|3|2|FK Kairat|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Liverpool FC|1|4|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|5|3|Tottenham Hotspur FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Eintracht Frankfurt|0|3|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|3|0|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Arsenal FC|3|1|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|PAE Olympiakos SFP|3|4|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|2|1|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Kairat|0|1|PAE Olympiakos SFP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Bayern München|3|1|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Barcelona|2|1|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|PSV|2|3|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Royale Union Saint-Gilloise|2|3|Olympique de Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Tottenham Hotspur FC|3|0|SK Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|1|0|Galatasaray SK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Atalanta BC|2|1|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|0|1|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Villarreal CF|2|3|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Qarabağ Ağdam FK|2|4|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|2|2|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Athletic Club|0|0|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|2|2|Newcastle United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|0|3|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|2|0|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Juventus FC|2|0|Paphos FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|1|2|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Kairat|1|4|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|3|1|Manchester City FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Tottenham Hotspur FC|2|0|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|2|1|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|PAE Olympiakos SFP|2|0|Bayer 04 Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Villarreal CF|1|2|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC København|1|1|SSC Napoli|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|6|1|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|1|3|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Qarabağ Ağdam FK|3|2|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Galatasaray SK|1|1|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Olympique de Marseille|0|3|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|SK Slavia Praha|2|4|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Atalanta BC|2|3|Athletic Club|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Juventus FC|2|0|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Newcastle United FC|3|0|PSV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Bayern München|2|0|Royale Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Chelsea FC|1|0|Paphos FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Liverpool FC|6|0|Qarabağ Ağdam FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Barcelona|4|1|FC København|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Manchester City FC|2|0|Galatasaray SK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|3|0|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Arsenal FC|3|2|FK Kairat|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Royale Union Saint-Gilloise|1|0|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|3|0|Olympique de Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Eintracht Frankfurt|0|2|Tottenham Hotspur FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|0|0|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|1|2|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Athletic Club|2|3|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AFC Ajax|1|2|PAE Olympiakos SFP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|1|1|Newcastle United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paphos FC|4|1|SK Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|PSV|1|2|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|SSC Napoli|2|3|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sport Lisboa e Benfica|4|2|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|0|2|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Galatasaray SK|5|2|Juventus FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|AS Monaco FC|2|3|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Borussia Dortmund|2|0|Atalanta BC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Qarabağ Ağdam FK|1|6|Newcastle United FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Brugge KV|3|3|Club Atlético de Madrid|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|3|1|FC Internazionale Milano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|4|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Newcastle United FC|3|2|Qarabağ Ağdam FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|0|0|PAE Olympiakos SFP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FC Internazionale Milano|1|2|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Atalanta BC|4|1|Borussia Dortmund|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Real Madrid CF|2|1|Sport Lisboa e Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|2|2|AS Monaco FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Juventus FC|3|2|Galatasaray SK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Atalanta BC|1|6|FC Bayern München|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Club Atlético de Madrid|5|2|Tottenham Hotspur FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Bayer 04 Leverkusen|1|1|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Paris Saint-Germain FC|5|2|Chelsea FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|FK Bodø/Glimt|3|0|Sporting Clube de Portugal|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Sporting Clube de Portugal|5|0|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Chelsea FC|0|3|Paris Saint-Germain FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2025-06-30|UEFA Champions League|uefa-cl|Manchester City FC|1|2|Real Madrid CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Zürich|1|2|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|PSV Eindhoven|1|1|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|2|1|FC Zürich|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Zürich|1|5|PSV Eindhoven|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Arsenal FC|3|0|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|0|1|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|PSV Eindhoven|5|0|FC Zürich|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Arsenal FC|1|0|PSV Eindhoven|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|PSV Eindhoven|2|0|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Zürich|2|1|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Arsenal FC|1|0|FC Zürich|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|1|2|PSV Eindhoven|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Fenerbahçe|2|1|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AEK Larnaca|1|2|Stade Rennais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Dinamo Kiev|0|1|AEK Larnaca|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Stade Rennais|2|2|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Stade Rennais|2|1|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Fenerbahçe|2|0|AEK Larnaca|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Dinamo Kiev|0|1|Stade Rennais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AEK Larnaca|1|2|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AEK Larnaca|3|3|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Fenerbahçe|3|3|Stade Rennais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Dinamo Kiev|0|2|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Stade Rennais|1|1|AEK Larnaca|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|2|1|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|HJK Helsinki|0|2|Real Betis|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Roma|3|0|HJK Helsinki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Real Betis|3|2|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|HJK Helsinki|1|1|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Roma|1|2|Real Betis|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Real Betis|1|1|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|2|0|HJK Helsinki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|0|1|Real Betis|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|HJK Helsinki|1|2|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Roma|3|1|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Real Betis|3|0|HJK Helsinki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Malmö FF|0|2|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|1. FC Union Berlin|0|1|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sporting Braga|1|0|1. FC Union Berlin|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|3|2|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Malmö FF|0|1|1. FC Union Berlin|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sporting Braga|1|2|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|3|3|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|1. FC Union Berlin|1|0|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|1. FC Union Berlin|1|0|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Malmö FF|0|2|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sporting Braga|2|1|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|0|1|1. FC Union Berlin|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Manchester United|0|1|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Omonia Nikosia|0|3|FC Sheriff|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Real Sociedad|2|1|Omonia Nikosia|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Sheriff|0|2|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Sheriff|0|2|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Omonia Nikosia|2|3|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Manchester United|1|0|Omonia Nikosia|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Real Sociedad|3|0|FC Sheriff|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Manchester United|3|0|FC Sheriff|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Omonia Nikosia|0|2|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Sheriff|1|0|Omonia Nikosia|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Real Sociedad|0|1|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Lazio Roma|4|2|Feyenoord|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sturm Graz|1|0|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Midtjylland|5|1|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Feyenoord|6|0|Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sturm Graz|0|0|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Midtjylland|2|2|Feyenoord|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Feyenoord|2|2|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Lazio Roma|2|2|Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Lazio Roma|2|1|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sturm Graz|1|0|Feyenoord|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Feyenoord|1|0|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Midtjylland|2|0|Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Nantes|2|1|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|SC Freiburg|2|1|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|0|3|SC Freiburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Qarabağ FK|3|0|FC Nantes|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|0|3|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|SC Freiburg|2|0|FC Nantes|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Qarabağ FK|0|0|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Nantes|0|4|SC Freiburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|SC Freiburg|1|1|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Nantes|2|1|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|0|2|FC Nantes|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Qarabağ FK|1|1|SC Freiburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Crvena Zvezda|0|1|AS Monaco|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|3|2|Trabzonspor|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Trabzonspor|2|1|Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Monaco|0|1|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Crvena Zvezda|4|1|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Monaco|3|1|Trabzonspor|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|2|1|Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Trabzonspor|4|0|AS Monaco|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Crvena Zvezda|2|1|Trabzonspor|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|1|1|AS Monaco|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Monaco|4|1|Crvena Zvezda|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Trabzonspor|1|0|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Barcelona|2|2|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Shakhtar Donetsk|2|1|Stade Rennais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AFC Ajax|0|0|1. FC Union Berlin|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|RB Salzburg|1|0|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Juventus|1|1|FC Nantes|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sporting CP|1|1|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|2|3|AS Monaco|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sevilla FC|3|0|PSV Eindhoven|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Nantes|0|3|Juventus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|FC Midtjylland|0|4|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Monaco|3|5|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|PSV Eindhoven|2|0|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Manchester United|2|1|FC Barcelona|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Stade Rennais|4|5|Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|1. FC Union Berlin|3|1|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Roma|2|0|RB Salzburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|2|0|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sporting CP|2|2|Arsenal FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Roma|2|0|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sevilla FC|2|0|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Juventus|1|0|SC Freiburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Manchester United|4|1|Real Betis|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Shakhtar Donetsk|1|1|Feyenoord|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Fenerbahçe|1|0|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|SC Freiburg|0|2|Juventus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Real Betis|0|1|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Feyenoord|7|1|Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|0|2|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Arsenal FC|3|5|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Real Sociedad|0|0|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Feyenoord|1|0|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Manchester United|2|2|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Juventus|1|0|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|1|1|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sevilla FC|3|0|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sporting CP|1|1|Juventus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|1|4|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Roma|4|1|Feyenoord|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Juventus|1|1|Sevilla FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|AS Roma|1|0|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sevilla FC|2|1|Juventus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|0|0|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Europa League|uefa-el|Sevilla FC|4|1|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|2|3|SC Freiburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|West Ham United|3|1|TSC Bačka Topola|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|SC Freiburg|1|2|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|TSC Bačka Topola|2|2|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|2|1|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|TSC Bačka Topola|1|3|SC Freiburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|SC Freiburg|5|0|TSC Bačka Topola|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|West Ham United|1|0|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|SC Freiburg|5|0|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|TSC Bačka Topola|0|1|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|5|2|TSC Bačka Topola|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|West Ham United|2|0|SC Freiburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AFC Ajax|3|3|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Brighton & Hove Albion|2|3|AEK Athen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AEK Athen|1|1|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympique Marseille|2|2|Brighton & Hove Albion|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympique Marseille|3|1|AEK Athen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Brighton & Hove Albion|2|0|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AFC Ajax|0|2|Brighton & Hove Albion|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AEK Athen|0|2|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AEK Athen|0|1|Brighton & Hove Albion|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympique Marseille|4|3|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AFC Ajax|3|1|AEK Athen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Brighton & Hove Albion|1|0|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AC Sparta Praha|3|2|Aris Limassol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Rangers FC|1|0|Real Betis|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Aris Limassol|2|1|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Real Betis|2|1|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AC Sparta Praha|0|0|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Aris Limassol|0|1|Real Betis|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Rangers FC|2|1|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Real Betis|4|1|Aris Limassol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AC Sparta Praha|1|0|Real Betis|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Rangers FC|1|1|Aris Limassol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Aris Limassol|1|3|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Real Betis|2|3|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Atalanta|2|0|Raków Częstochowa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Sturm Graz|1|2|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Raków Częstochowa|0|1|Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Sporting CP|1|2|Atalanta|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Raków Częstochowa|1|1|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Sturm Graz|2|2|Atalanta|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Atalanta|1|0|Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Sporting CP|2|1|Raków Częstochowa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Atalanta|1|1|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Sturm Graz|0|1|Raków Częstochowa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Raków Częstochowa|0|4|Atalanta|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Sporting CP|3|0|Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|1|1|Toulouse FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|LASK|1|3|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Liverpool FC|2|0|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Toulouse FC|1|0|LASK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Liverpool FC|5|1|Toulouse FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|2|1|LASK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Toulouse FC|3|2|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|LASK|3|0|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Liverpool FC|4|0|LASK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Toulouse FC|0|0|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|2|1|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|LASK|1|2|Toulouse FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Stade Rennais|3|0|Maccabi Haifa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Panathinaikos|2|0|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Villarreal CF|1|0|Stade Rennais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Maccabi Haifa|0|0|Panathinaikos|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Panathinaikos|1|2|Stade Rennais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Stade Rennais|3|1|Panathinaikos|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Maccabi Haifa|1|2|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Maccabi Haifa|0|3|Stade Rennais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Villarreal CF|3|2|Panathinaikos|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Villarreal CF|0|0|Maccabi Haifa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Stade Rennais|2|3|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Panathinaikos|1|2|Maccabi Haifa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|FC Sheriff|1|2|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Servette FC|0|2|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AS Roma|4|0|Servette FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Slavia Praha|6|0|FC Sheriff|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AS Roma|2|0|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|FC Sheriff|1|1|Servette FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Slavia Praha|2|0|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Servette FC|2|1|FC Sheriff|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Servette FC|1|1|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|FC Sheriff|2|3|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AS Roma|3|0|FC Sheriff|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Slavia Praha|4|0|Servette FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|4|0|BK Häcken|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Qarabağ FK|1|0|Molde FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Molde FK|1|2|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|BK Häcken|0|1|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Molde FK|5|1|BK Häcken|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|5|1|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Qarabağ FK|0|1|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|BK Häcken|1|3|Molde FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|BK Häcken|0|2|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Molde FK|2|2|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|5|1|Molde FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Qarabağ FK|2|1|BK Häcken|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Feyenoord|1|1|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|BSC Young Boys|1|3|Sporting CP|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Galatasaray|3|2|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Shakhtar Donetsk|2|2|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AC Milan|3|0|Stade Rennais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|RC Lens|0|0|SC Freiburg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|SL Benfica|2|1|Toulouse FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Sporting Braga|2|4|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Stade Rennais|3|2|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|SC Freiburg|3|2|RC Lens|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Toulouse FC|0|0|SL Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Qarabağ FK|2|3|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AS Roma|4|2|Feyenoord|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Sporting CP|1|1|BSC Young Boys|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AC Sparta Praha|4|1|Galatasaray|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympique Marseille|3|1|Shakhtar Donetsk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AC Sparta Praha|1|5|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AS Roma|4|0|Brighton & Hove Albion|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympique Marseille|4|0|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|SL Benfica|2|2|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AC Milan|4|2|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Villarreal CF|3|1|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Rangers FC|0|1|SL Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Slavia Praha|1|3|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Liverpool FC|6|1|AC Sparta Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Brighton & Hove Albion|1|0|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AC Milan|0|1|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Liverpool FC|0|3|Atalanta|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|2|0|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|SL Benfica|2|1|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AS Roma|2|1|AC Milan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Atalanta|0|1|Liverpool FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|West Ham United|1|1|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympique Marseille|4|2|SL Benfica|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Olympique Marseille|1|1|Atalanta|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|AS Roma|0|2|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Atalanta|3|0|Olympique Marseille|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Bayer Leverkusen|2|2|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Europa League|uefa-el|Atalanta|3|0|Bayer Leverkusen|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AZ Alkmaar|3|2|IF Elfsborg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|3|2|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Manchester United|1|1|FC Twente|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|0|2|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Galatasaray|3|1|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Dinamo Kiev|0|3|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Midtjylland|1|1|1899 Hoffenheim|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|RSC Anderlecht|2|1|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|OGC Nice|1|1|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Fenerbahçe|2|1|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Malmö FF|0|2|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AS Roma|1|1|Athletic Club|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Eintracht Frankfurt|3|3|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AFC Ajax|4|0|Beşiktaş|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Sporting Braga|2|1|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Olympique Lyonnais|2|0|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FCSB|4|1|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Tottenham Hotspur|3|0|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Slavia Praha|1|1|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Lazio Roma|4|1|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Maccabi Tel Aviv|0|2|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|1|2|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Real Sociedad|1|2|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|3|0|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Qarabağ FK|1|2|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|1899 Hoffenheim|2|0|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK RFS|2|2|Galatasaray|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Rangers FC|1|4|Olympique Lyonnais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Porto|3|3|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|PAOK Saloniki|0|1|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|0|0|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Viktoria Plzeň|0|0|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Beşiktaş|1|3|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Twente|1|1|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|IF Elfsborg|1|0|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Athletic Club|2|0|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Sporting Braga|1|2|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Galatasaray|4|3|IF Elfsborg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AS Roma|1|0|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Eintracht Frankfurt|1|0|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Maccabi Tel Aviv|1|2|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|1|0|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|PAOK Saloniki|2|2|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Midtjylland|1|0|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Qarabağ FK|0|3|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Rangers FC|4|0|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Porto|2|0|1899 Hoffenheim|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Tottenham Hotspur|1|0|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Fenerbahçe|1|1|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Olympique Lyonnais|0|1|Beşiktaş|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Malmö FF|0|1|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Twente|0|2|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Athletic Club|1|0|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|RSC Anderlecht|2|0|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Beşiktaş|2|1|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Eintracht Frankfurt|1|0|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|1|1|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|1|1|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|1|2|Athletic Club|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Galatasaray|3|2|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|1|2|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|IF Elfsborg|1|1|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FCSB|2|0|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|OGC Nice|2|2|FC Twente|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Manchester United|2|0|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Lazio Roma|2|1|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AFC Ajax|5|0|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AZ Alkmaar|3|1|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Dinamo Kiev|0|4|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Viktoria Plzeň|2|1|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|1899 Hoffenheim|2|2|Olympique Lyonnais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK RFS|1|1|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Lazio Roma|0|0|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AZ Alkmaar|1|1|Galatasaray|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Dinamo Kiev|1|2|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Qarabağ FK|1|4|Olympique Lyonnais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Beşiktaş|1|3|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Athletic Club|3|0|IF Elfsborg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|RSC Anderlecht|2|2|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK RFS|0|2|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Slavia Praha|1|2|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Manchester United|3|2|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Tottenham Hotspur|2|2|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|4|1|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Sporting Braga|3|0|1899 Hoffenheim|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Real Sociedad|2|0|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Midtjylland|1|2|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Twente|0|1|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FCSB|0|0|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|OGC Nice|1|4|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Fenerbahçe|0|2|Athletic Club|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AS Roma|3|0|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|PAOK Saloniki|5|0|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|0|0|FC Twente|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|2|1|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|2|2|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Malmö FF|2|2|Galatasaray|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Viktoria Plzeň|1|2|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|1899 Hoffenheim|0|0|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Rangers FC|1|1|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Porto|2|0|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Slavia Praha|1|2|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AFC Ajax|1|3|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Maccabi Tel Aviv|2|1|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Real Sociedad|3|0|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Olympique Lyonnais|3|2|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|2|1|Beşiktaş|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|IF Elfsborg|1|0|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Galatasaray|3|3|Dinamo Kiev|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Beşiktaş|4|1|Athletic Club|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Porto|0|1|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Fenerbahçe|0|0|Olympique Lyonnais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AZ Alkmaar|1|0|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Malmö FF|2|3|FC Twente|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Qarabağ FK|2|3|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|3|1|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Viktoria Plzeň|2|0|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|1899 Hoffenheim|2|3|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Eintracht Frankfurt|2|0|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Manchester United|2|1|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Lazio Roma|3|1|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|PAOK Saloniki|2|0|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|2|1|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|PFC Ludogorets Razgrad|0|2|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|IF Elfsborg|1|0|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK RFS|1|0|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Rangers FC|2|1|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AS Roma|2|0|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Slavia Praha|2|2|Malmö FF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Tottenham Hotspur|3|0|IF Elfsborg|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AFC Ajax|2|1|Galatasaray|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Maccabi Tel Aviv|0|1|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|4|3|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Sporting Braga|1|0|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Real Sociedad|2|0|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Olympiakos Piraeus|3|0|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Olympique Lyonnais|1|1|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Dinamo Kiev|1|0|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Midtjylland|2|2|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Twente|1|0|Beşiktaş|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Athletic Club|3|1|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|RSC Anderlecht|3|4|1899 Hoffenheim|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FCSB|0|2|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|OGC Nice|1|1|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Fenerbahçe|3|0|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Union Saint-Gilloise|0|2|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Midtjylland|1|2|Real Sociedad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Ferencvárosi TC|1|0|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Twente|2|1|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FC Porto|1|1|AS Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|5|2|FC Twente|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FCSB|2|0|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Galatasaray|2|2|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AS Roma|3|2|FC Porto|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|RSC Anderlecht|2|2|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AFC Ajax|1|2|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Real Sociedad|5|2|FC Midtjylland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Viktoria Plzeň|3|0|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|AZ Alkmaar|1|0|Tottenham Hotspur|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Real Sociedad|1|1|Manchester United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FCSB|1|3|Olympique Lyonnais|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|Fenerbahçe|1|3|Rangers FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2024-06-30|UEFA Europa League|uefa-el|FK Bodø/Glimt|3|0|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Heart of Midlothian|0|4|İstanbul Başakşehir|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|1|1|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|İstanbul Başakşehir|3|0|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FK RFS|0|2|Heart of Midlothian|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Heart of Midlothian|0|3|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FK RFS|0|0|İstanbul Başakşehir|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|5|1|Heart of Midlothian|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|İstanbul Başakşehir|3|0|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|2|1|İstanbul Başakşehir|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Heart of Midlothian|2|1|FK RFS|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|İstanbul Başakşehir|3|1|Heart of Midlothian|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FK RFS|0|3|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|RSC Anderlecht|1|0|Silkeborg IF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|West Ham United|3|1|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FCSB|0|0|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Silkeborg IF|2|3|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|RSC Anderlecht|0|1|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Silkeborg IF|5|0|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|West Ham United|2|1|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FCSB|0|5|Silkeborg IF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|RSC Anderlecht|2|2|FCSB|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|West Ham United|1|0|Silkeborg IF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FCSB|0|3|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Silkeborg IF|0|2|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Austria Wien|0|0|Hapoel Be'er Sheva|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Villarreal CF|4|3|Lech Poznań|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Hapoel Be'er Sheva|1|2|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Lech Poznań|4|1|Austria Wien|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Lech Poznań|0|0|Hapoel Be'er Sheva|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Villarreal CF|5|0|Austria Wien|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Austria Wien|0|1|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Hapoel Be'er Sheva|1|1|Lech Poznań|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Villarreal CF|2|2|Hapoel Be'er Sheva|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Austria Wien|1|1|Lech Poznań|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Hapoel Be'er Sheva|4|0|Austria Wien|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Lech Poznań|3|0|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|1. FC Slovácko|3|3|Partizan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|OGC Nice|1|1|1. FC Köln|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Partizan|1|1|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|1. FC Köln|4|2|1. FC Slovácko|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|1. FC Slovácko|0|1|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|1. FC Köln|0|1|Partizan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Partizan|2|0|1. FC Köln|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|OGC Nice|1|2|1. FC Slovácko|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|OGC Nice|2|1|Partizan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|1. FC Slovácko|0|1|1. FC Köln|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|1. FC Köln|2|2|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Partizan|1|1|1. FC Slovácko|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Vaduz|0|0|Apollon Limassol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|SK Dnipro-1|0|1|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|4|1|FC Vaduz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Apollon Limassol|1|3|SK Dnipro-1|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|SK Dnipro-1|2|2|FC Vaduz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|3|2|Apollon Limassol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Apollon Limassol|1|0|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Vaduz|1|2|SK Dnipro-1|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Vaduz|1|2|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|SK Dnipro-1|1|0|Apollon Limassol|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Apollon Limassol|1|0|FC Vaduz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|2|1|SK Dnipro-1|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Molde FK|0|0|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Shamrock Rovers|0|0|Djurgårdens IF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KAA Gent|3|0|Shamrock Rovers|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Djurgårdens IF|3|2|Molde FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Molde FK|3|0|Shamrock Rovers|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KAA Gent|0|1|Djurgårdens IF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Djurgårdens IF|4|2|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Shamrock Rovers|0|2|Molde FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Shamrock Rovers|1|1|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Molde FK|2|3|Djurgårdens IF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KAA Gent|4|0|Molde FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Djurgårdens IF|1|0|Shamrock Rovers|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KF Ballkani|1|1|CFR Cluj|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Sivasspor|1|1|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|CFR Cluj|0|1|Sivasspor|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Slavia Praha|3|2|KF Ballkani|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Sivasspor|3|4|KF Ballkani|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Slavia Praha|0|1|CFR Cluj|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|CFR Cluj|2|0|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KF Ballkani|1|2|Sivasspor|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Sivasspor|3|0|CFR Cluj|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KF Ballkani|0|1|Slavia Praha|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Slavia Praha|1|1|Sivasspor|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|CFR Cluj|1|0|KF Ballkani|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Slovan Bratislava|0|0|FK Žalgiris|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Basel 1893|3|1|Pyunik FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FK Žalgiris|0|1|FC Basel 1893|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Pyunik FC|2|0|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Pyunik FC|2|0|FK Žalgiris|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Basel 1893|0|2|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Slovan Bratislava|3|3|FC Basel 1893|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FK Žalgiris|2|1|Pyunik FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Basel 1893|2|2|FK Žalgiris|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Slovan Bratislava|2|1|Pyunik FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FK Žalgiris|1|2|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Pyunik FC|1|2|FC Basel 1893|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Qarabağ FK|1|0|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Trabzonspor|1|0|FC Basel 1893|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FK Bodø/Glimt|0|0|Lech Poznań|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Sporting Braga|0|4|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Lazio Roma|1|0|CFR Cluj|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|AEK Larnaca|1|0|SK Dnipro-1|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Sheriff|0|1|Partizan|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|PFC Ludogorets Razgrad|1|0|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|CFR Cluj|0|0|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|SK Dnipro-1|0|0|AEK Larnaca|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Partizan|1|3|FC Sheriff|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|RSC Anderlecht|3|0|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KAA Gent|5|3|Qarabağ FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Basel 1893|2|0|Trabzonspor|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Lech Poznań|1|0|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|3|2|Sporting Braga|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Lazio Roma|1|2|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|AEK Larnaca|0|2|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Sheriff|0|1|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|RSC Anderlecht|1|1|Villarreal CF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|1|0|Sivasspor|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Lech Poznań|2|0|Djurgårdens IF|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KAA Gent|1|1|İstanbul Başakşehir|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|İstanbul Başakşehir|1|4|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Sivasspor|1|4|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Djurgårdens IF|0|3|Lech Poznań|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|West Ham United|4|0|AEK Larnaca|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|2|1|Lazio Roma|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|OGC Nice|3|1|FC Sheriff|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Villarreal CF|0|1|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|KAA Gent|1|1|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|Lech Poznań|1|4|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|RSC Anderlecht|2|0|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Basel 1893|2|2|OGC Nice|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|2|3|Lech Poznań|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|4|1|RSC Anderlecht|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|West Ham United|4|1|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|OGC Nice|1|2|FC Basel 1893|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|1|2|FC Basel 1893|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|West Ham United|2|1|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|FC Basel 1893|1|3|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|0|1|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2022-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|1|2|West Ham United|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Lille OSC|2|0|Olimpija Ljubljana|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Slovan Bratislava|2|1|KÍ Klaksvík|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KÍ Klaksvík|0|0|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Olimpija Ljubljana|0|1|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KÍ Klaksvík|3|0|Olimpija Ljubljana|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Lille OSC|2|1|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Olimpija Ljubljana|2|0|KÍ Klaksvík|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Slovan Bratislava|1|1|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KÍ Klaksvík|1|2|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Olimpija Ljubljana|0|2|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Lille OSC|3|0|KÍ Klaksvík|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Slovan Bratislava|1|2|Olimpija Ljubljana|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Maccabi Tel Aviv|3|2|Breiðablik|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Zorya Lugansk|1|1|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Breiðablik|0|1|Zorya Lugansk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KAA Gent|2|0|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KAA Gent|5|0|Breiðablik|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Breiðablik|2|3|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Zorya Lugansk|1|3|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Maccabi Tel Aviv|3|2|Zorya Lugansk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Breiðablik|1|2|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KAA Gent|4|1|Zorya Lugansk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Maccabi Tel Aviv|3|1|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Zorya Lugansk|4|0|Breiðablik|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Dinamo Zagreb|5|1|FK Astana|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Viktoria Plzeň|1|0|KF Ballkani|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Astana|1|2|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KF Ballkani|2|0|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KF Ballkani|1|2|FK Astana|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Dinamo Zagreb|0|1|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Astana|0|0|KF Ballkani|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Viktoria Plzeň|1|0|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Astana|0|2|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KF Ballkani|0|1|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Dinamo Zagreb|3|0|KF Ballkani|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Viktoria Plzeň|3|0|FK Astana|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Club Brugge KV|1|1|Beşiktaş|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FC Lugano|0|0|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Beşiktaş|2|3|FC Lugano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Bodø/Glimt|0|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FC Lugano|1|3|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Bodø/Glimt|3|1|Beşiktaş|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Beşiktaş|1|2|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Club Brugge KV|2|0|FC Lugano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Beşiktaş|0|5|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Bodø/Glimt|5|2|FC Lugano|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Club Brugge KV|3|1|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FC Lugano|0|2|Beşiktaş|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Legia Warszawa|3|2|Aston Villa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Zrinjski Mostar|4|3|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Aston Villa|1|0|Zrinjski Mostar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|1|0|Legia Warszawa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|1|4|Aston Villa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Zrinjski Mostar|1|2|Legia Warszawa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Legia Warszawa|2|0|Zrinjski Mostar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Aston Villa|2|1|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|AZ Alkmaar|1|0|Zrinjski Mostar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Aston Villa|2|1|Legia Warszawa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Legia Warszawa|2|0|AZ Alkmaar|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Zrinjski Mostar|1|1|Aston Villa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Ferencvárosi TC|3|1|FK Čukarički|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KRC Genk|2|2|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|2|2|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Čukarički|0|2|KRC Genk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|6|0|FK Čukarički|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KRC Genk|0|0|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Ferencvárosi TC|1|1|KRC Genk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Čukarički|0|1|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|2|1|KRC Genk|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Čukarički|1|2|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Ferencvárosi TC|1|1|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KRC Genk|2|0|FK Čukarički|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Eintracht Frankfurt|2|1|Aberdeen FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|HJK Helsinki|2|3|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Aberdeen FC|1|1|HJK Helsinki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|PAOK Saloniki|2|1|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Aberdeen FC|2|3|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Eintracht Frankfurt|6|0|HJK Helsinki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|HJK Helsinki|0|1|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|PAOK Saloniki|2|2|Aberdeen FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|HJK Helsinki|2|2|Aberdeen FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Eintracht Frankfurt|1|2|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Aberdeen FC|2|0|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|PAOK Saloniki|4|2|HJK Helsinki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Fenerbahçe|3|1|FC Nordsjælland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|PFC Ludogorets Razgrad|4|0|Spartak Trnava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FC Nordsjælland|7|1|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Spartak Trnava|1|2|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Fenerbahçe|3|1|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Spartak Trnava|0|2|FC Nordsjælland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FC Nordsjælland|1|1|Spartak Trnava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|PFC Ludogorets Razgrad|2|0|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FC Nordsjælland|6|1|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Spartak Trnava|1|2|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Fenerbahçe|4|0|Spartak Trnava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|PFC Ludogorets Razgrad|1|0|FC Nordsjælland|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Sturm Graz|4|1|Slovan Bratislava|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Union Saint-Gilloise|2|2|Eintracht Frankfurt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Olympiakos Piraeus|1|0|Ferencvárosi TC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Molde FK|3|2|Legia Warszawa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Servette FC|0|0|PFC Ludogorets Razgrad|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Real Betis|0|1|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|AFC Ajax|2|2|FK Bodø/Glimt|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Maccabi Haifa|1|0|KAA Gent|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|KAA Gent|1|1|Maccabi Haifa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|PFC Ludogorets Razgrad|0|1|Servette FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Dinamo Zagreb|1|1|Real Betis|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|FK Bodø/Glimt|1|2|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Slovan Bratislava|0|1|Sturm Graz|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Eintracht Frankfurt|1|2|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Ferencvárosi TC|0|1|Olympiakos Piraeus|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Legia Warszawa|0|3|Molde FK|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|AFC Ajax|0|0|Aston Villa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Molde FK|2|1|Club Brugge KV|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Sturm Graz|0|3|Lille OSC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Olympiakos Piraeus|1|4|Maccabi Tel Aviv|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Servette FC|0|0|Viktoria Plzeň|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Union Saint-Gilloise|0|3|Fenerbahçe|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Dinamo Zagreb|2|0|PAOK Saloniki|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Maccabi Haifa|3|4|ACF Fiorentina|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Viktoria Plzeň|3|1|Servette FC|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Fenerbahçe|0|1|Union Saint-Gilloise|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|PAOK Saloniki|5|1|Dinamo Zagreb|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|ACF Fiorentina|1|1|Maccabi Haifa|League phase|Stadium|City|Spain|rsssf-ec|
+MATCH|2023-06-30|UEFA Conference League|uefa-uecl|Aston Villa|4|0|AFC Ajax|League phase|Stadium|City|Spain|rsssf-ec|
+END

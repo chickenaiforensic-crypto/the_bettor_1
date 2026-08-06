@@ -1,0 +1,149 @@
+PITCH-RATING|USOC|BP-TEAM-PACK v2
+TEAM|Atlanta United FC|United States|MLS|MLS
+TEAM|Austin FC|United States|MLS|MLS
+TEAM|CF Montréal|United States|MLS|MLS
+TEAM|Charlotte FC|United States|MLS|MLS
+TEAM|Chicago Fire FC|United States|MLS|MLS
+TEAM|Colorado Rapids|United States|MLS|MLS
+TEAM|Columbus Crew|United States|MLS|MLS
+TEAM|D.C. United|United States|MLS|MLS
+TEAM|FC Cincinnati|United States|MLS|MLS
+TEAM|FC Dallas|United States|MLS|MLS
+TEAM|Houston Dynamo FC|United States|MLS|MLS
+TEAM|Inter Miami CF|United States|MLS|MLS
+TEAM|LA Galaxy|United States|MLS|MLS
+TEAM|Los Angeles FC|United States|MLS|MLS
+TEAM|Minnesota United FC|United States|MLS|MLS
+TEAM|Nashville SC|United States|MLS|MLS
+TEAM|New England Revolution|United States|MLS|MLS
+TEAM|New York City FC|United States|MLS|MLS
+TEAM|New York Red Bulls|United States|MLS|MLS
+TEAM|Orlando City SC|United States|MLS|MLS
+TEAM|Philadelphia Union|United States|MLS|MLS
+TEAM|Portland Timbers|United States|MLS|MLS
+TEAM|Real Salt Lake|United States|MLS|MLS
+TEAM|San Diego FC|United States|MLS|MLS
+TEAM|San Jose Earthquakes|United States|MLS|MLS
+TEAM|Seattle Sounders FC|United States|MLS|MLS
+TEAM|Sporting Kansas City|United States|MLS|MLS
+TEAM|St. Louis City SC|United States|MLS|MLS
+TEAM|Toronto FC|United States|MLS|MLS
+TEAM|Vancouver Whitecaps FC|United States|MLS|MLS
+TEAM|Union Omaha|United States|USL|USL
+TEAM|Louisville City FC|United States|USL|USL
+TEAM|Sacramento Republic FC|United States|USL|USL
+TEAM|Detroit City FC|United States|USL|USL
+TEAM|Memphis 901 FC|United States|USL|USL
+TEAM|Oakland Roots SC|United States|USL|USL
+TEAM|New Mexico United|United States|USL|USL
+TEAM|Las Vegas Lights FC|United States|USL|USL
+TEAM|Charleston Battery|United States|USL|USL
+TEAM|FC Tulsa|United States|USL|USL
+TEAM|Loudoun United FC|United States|USL|USL
+TEAM|Indy Eleven|United States|USL|USL
+TEAM|Tampa Bay Rowdies|United States|USL|USL
+TEAM|Phoenix Rising FC|United States|USL|USL
+TEAM|Charlotte Independence|United States|USL|USL
+TEAM|Pittsburgh Riverhounds|United States|USL|USL
+TEAM|Birmingham Legion|United States|USL|USL
+MATCH|2022-05-25|US Open Cup|domestic-league|Orlando City SC|1|1|Inter Miami CF||||||rsssf-mls-2022
+NOTE|info|round|R16
+MATCH|2022-05-25|US Open Cup|domestic-league|Louisville City FC|1|2|Nashville SC||||||rsssf-mls-2022
+NOTE|info|round|R16
+MATCH|2022-05-25|US Open Cup|domestic-league|New York City FC|1|0|New England Revolution||||||rsssf-mls-2022
+NOTE|info|round|R16
+MATCH|2022-05-25|US Open Cup|domestic-league|New York Red Bulls|3|1|Charlotte FC||||||rsssf-mls-2022
+NOTE|info|round|R16
+MATCH|2022-05-25|US Open Cup|domestic-league|Minnesota United FC|1|2|Union Omaha||||||rsssf-mls-2022
+NOTE|info|round|R16
+MATCH|2022-05-25|US Open Cup|domestic-league|Sporting Kansas City|2|1|Houston Dynamo FC||||||rsssf-mls-2022
+NOTE|info|round|R16
+MATCH|2022-05-25|US Open Cup|domestic-league|LA Galaxy|3|1|Los Angeles FC||||||rsssf-mls-2022
+NOTE|info|round|R16
+MATCH|2022-05-25|US Open Cup|domestic-league|Sacramento Republic FC|2|0|San Jose Earthquakes||||||rsssf-mls-2022
+NOTE|info|round|R16
+MATCH|2022-06-21|US Open Cup|domestic-league|LA Galaxy|1|2|Sacramento Republic FC||||||rsssf-mls-2022
+NOTE|info|round|QF
+MATCH|2022-06-22|US Open Cup|domestic-league|New York Red Bulls|3|0|New York City FC||||||rsssf-mls-2022
+NOTE|info|round|QF
+MATCH|2022-06-22|US Open Cup|domestic-league|Sporting Kansas City|6|0|Union Omaha||||||rsssf-mls-2022
+NOTE|info|round|QF
+MATCH|2022-06-29|US Open Cup|domestic-league|Orlando City SC|1|1|Nashville SC||||||rsssf-mls-2022
+NOTE|info|round|QF
+MATCH|2022-07-27|US Open Cup|domestic-league|Orlando City SC|5|1|New York Red Bulls||||||rsssf-mls-2022
+NOTE|info|round|SF
+MATCH|2022-07-27|US Open Cup|domestic-league|Sacramento Republic FC|0|0|Sporting Kansas City||||||rsssf-mls-2022
+NOTE|info|round|SF
+MATCH|2022-09-07|US Open Cup|domestic-league|Orlando City SC|3|0|Sacramento Republic FC||||||rsssf-mls-2022
+NOTE|info|round|Final
+MATCH|2023-05-23|US Open Cup|domestic-league|Inter Miami CF|2|1|Nashville SC||||||rsssf-mls-2023
+NOTE|info|round|R16
+MATCH|2023-05-23|US Open Cup|domestic-league|New York Red Bulls|1|1|FC Cincinnati||||||rsssf-mls-2023
+NOTE|info|round|R16
+MATCH|2023-05-23|US Open Cup|domestic-league|Houston Dynamo FC|4|0|Minnesota United FC||||||rsssf-mls-2023
+NOTE|info|round|R16
+MATCH|2023-05-23|US Open Cup|domestic-league|Los Angeles FC|0|2|LA Galaxy||||||rsssf-mls-2023
+NOTE|info|round|R16
+MATCH|2023-05-24|US Open Cup|domestic-league|Pittsburgh Riverhounds|1|0|Columbus Crew||||||rsssf-mls-2023
+NOTE|info|round|R16
+MATCH|2023-05-24|US Open Cup|domestic-league|Birmingham Legion|1|0|Charlotte FC||||||rsssf-mls-2023
+NOTE|info|round|R16
+MATCH|2023-05-24|US Open Cup|domestic-league|Austin FC|0|2|Chicago Fire FC||||||rsssf-mls-2023
+NOTE|info|round|R16
+MATCH|2023-05-24|US Open Cup|domestic-league|Colorado Rapids|0|1|Real Salt Lake||||||rsssf-mls-2023
+NOTE|info|round|R16
+MATCH|2023-06-06|US Open Cup|domestic-league|FC Cincinnati|3|1|Pittsburgh Riverhounds||||||rsssf-mls-2023
+NOTE|info|round|QF
+MATCH|2023-06-06|US Open Cup|domestic-league|Chicago Fire FC|1|4|Houston Dynamo FC||||||rsssf-mls-2023
+NOTE|info|round|QF
+MATCH|2023-06-07|US Open Cup|domestic-league|Birmingham Legion|0|1|Inter Miami CF||||||rsssf-mls-2023
+NOTE|info|round|QF
+MATCH|2023-06-07|US Open Cup|domestic-league|Real Salt Lake|3|2|LA Galaxy||||||rsssf-mls-2023
+NOTE|info|round|QF
+MATCH|2023-08-23|US Open Cup|domestic-league|FC Cincinnati|3|3|Inter Miami CF||||||rsssf-mls-2023
+NOTE|info|round|SF
+MATCH|2023-08-23|US Open Cup|domestic-league|Houston Dynamo FC|3|1|Real Salt Lake||||||rsssf-mls-2023
+NOTE|info|round|SF
+MATCH|2023-09-27|US Open Cup|domestic-league|Inter Miami CF|1|2|Houston Dynamo FC||||||rsssf-mls-2023
+NOTE|info|round|Final
+MATCH|2025-05-20|US Open Cup|domestic-league|New England Revolution|1|3|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|R16
+MATCH|2025-05-20|US Open Cup|domestic-league|San Jose Earthquakes|1|0|Portland Timbers||||||rsssf-mls-2025
+NOTE|info|round|R16
+MATCH|2025-05-21|US Open Cup|domestic-league|Philadelphia Union|4|1|Pittsburgh Riverhounds||||||rsssf-mls-2025
+NOTE|info|round|R16
+MATCH|2025-05-21|US Open Cup|domestic-league|Orlando City SC|2|3|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|R16
+MATCH|2025-05-21|US Open Cup|domestic-league|New York Red Bulls|2|2|FC Dallas||||||rsssf-mls-2025
+NOTE|info|round|R16
+MATCH|2025-05-21|US Open Cup|domestic-league|Minnesota United FC|3|2|St. Louis City SC||||||rsssf-mls-2025
+NOTE|info|round|R16
+MATCH|2025-05-21|US Open Cup|domestic-league|D.C. United|3|3|Charlotte FC||||||rsssf-mls-2025
+NOTE|info|round|R16
+MATCH|2025-05-21|US Open Cup|domestic-league|Austin FC|3|1|Houston Dynamo FC||||||rsssf-mls-2025
+NOTE|info|round|R16
+MATCH|2025-07-08|US Open Cup|domestic-league|Minnesota United FC|3|1|Chicago Fire FC||||||rsssf-mls-2025
+NOTE|info|round|QF
+MATCH|2025-07-08|US Open Cup|domestic-league|San Jose Earthquakes|2|2|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|QF
+MATCH|2025-07-09|US Open Cup|domestic-league|Nashville SC|5|2|D.C. United||||||rsssf-mls-2025
+NOTE|info|round|QF
+MATCH|2025-08-13|US Open Cup|domestic-league|Philadelphia Union|3|2|New York Red Bulls||||||rsssf-mls-2025
+NOTE|info|round|QF
+MATCH|2025-09-16|US Open Cup|domestic-league|Nashville SC|3|1|Philadelphia Union||||||rsssf-mls-2025
+NOTE|info|round|SF
+MATCH|2025-09-17|US Open Cup|domestic-league|Minnesota United FC|1|2|Austin FC||||||rsssf-mls-2025
+NOTE|info|round|SF
+MATCH|2025-10-01|US Open Cup|domestic-league|Austin FC|1|2|Nashville SC||||||rsssf-mls-2025
+NOTE|info|round|Final
+SOURCE|rsssf-mls-2022|https://www.rsssf.org/tablesu/usa2022.html|2026-08-06|primary|US Open Cup 2022 (R16 onward), verified against official bracket (semifinalists/finalists/champion)
+SOURCE|rsssf-mls-2023|https://www.rsssf.org/tablesu/usa2023.html|2026-08-06|primary|US Open Cup 2023 (R16 onward), verified against official bracket (semifinalists/finalists/champion)
+SOURCE|rsssf-mls-2025|https://www.rsssf.org/tablesu/usa2025.html|2026-08-06|primary|US Open Cup 2025 (R16 onward), verified against official bracket (semifinalists/finalists/champion)
+NOTE|info|catalog|Competition string 'US Open Cup' (Lamar Hunt U.S. Open Cup, USSF national cup).
+NOTE|info|2021_cancelled|2021 US Open Cup was CANCELLED (as was 2020) due to COVID-19. Zero ties exist; no rows returned. This NOTE is mandatory to prove the year was not silently skipped.
+NOTE|warning|blocker|R32 round (where MLS clubs enter) NOT RETURNED for 2022/2023/2025: RSSSF cup chapters begin at the Round of 16 (1/8 Finals) and do not list the R32 ties. Slice from R16 to Final is complete; R32 requires a secondary source (worldfootball.net/soccerway) capture - blocked pending that.
+NOTE|warning|blocker|2026 US Open Cup to-date NOT RETURNED: RSSSF has no usa2026.html page. Requires worldfootball.net 2026 capture - blocked.
+NOTE|info|2024_quirk|2024 edition: multiple MLS clubs fielded no senior team (Next Pro sides entered). Slice = ties of senior MLS participants + any tie involving an MLS first team. All 21 USOC 2024 slice ties (R32->Final) are the workorder appendix held rows - excluded, zero 2024 rows returned. The 2 RSSSF R16 ties not in the appendix (New York City FC II v New Mexico United; Indy Eleven v Detroit City FC) involve NO MLS first team (Next Pro/USL) and are outside the slice - not returned.
+NOTE|info|2024_held|21 US Open Cup 2024 rows (all rounds) are appendix-held - excluded (auditor dedupes).
+NOTE|info|self_gate|Champions per edition verified: 2022 Orlando City SC, 2023 Houston Dynamo, 2024 Los Angeles FC, 2025 Nashville SC. Bracket (semifinalists/finalists) matches official record from RSSSF chapters.
+END

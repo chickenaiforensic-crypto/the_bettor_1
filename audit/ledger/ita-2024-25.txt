@@ -1,0 +1,463 @@
+# ITA Serie A 2024-25 - PRIMARY TRANSCRIPTION (WO-ITA-SPAN-14 on DECREE-2026-08-04)
+# Source: https://www.rsssf.org/tablesi/ital2025.html - "Italy 2024/25" (Roberto Di Maggio /
+# Karel Stokkermans, footer "Last updated: 21 Jun 2026"). Raw data/raw/rsssf-ital2025-1sa.txt;
+# parser tools/parse_rsssf_it.py. Raw VERIFIED: TABLE 20 (Napoli 82 champions, Inter 81),
+# R 380 = 38 x 10 clean, ABD 1, PO 10, TABLE2 20; table reproduced EXACTLY from fixtures,
+# 973 = 973 goals.
+# ==== ANOMALIES (documented, 90-minute doctrine):
+#  (a) ABANDONED-AND-RESUMED (medical): R14 'Fiorentina abd Inter [abandoned at 0-0 in 16' due
+#      to medical emergency Fiorentina player Edoardo Bove]' [Dec 1] resumed Feb 6 from minute
+#      16 - the completion row R14|2025-02-06|Fiorentina|3|0|Inter ships inside the round;
+#      the original 'abd' line is context only. The RSSSF print wraps the annotation over the
+#      NEXT FIXTURE's line (backslash continuation): 'Lecce 1-1 Juventus' rides the tail of
+#      the wrapped 'abd' line; the parser recovers it as a normal 2024-12-01 round row.
+#  (b) Supercoppa-week makeups ship inside their banner rounds: R9 '[Feb 27] Bologna 2-1 Milan'
+#      and R19 '[Jan 14] Como 1-2 Milan / Atalanta 1-1 Juventus', '[Jan 15] Inter 2-2
+#      Bologna'. Source-verbatim dates.
+#  (c) RAW PATCH (2026-08-05, same-day re-verification): the originally captured Serie B
+#      playoff block was a compressed paraphrase - replaced with the verbatim expanded block
+#      re-fetched from source (disclosed in the raw header). L2 final Cremonese over Spezia
+#      (0-0, 2-3); L2-R second leg 'Salernitana awd Sampdoria [awarded 0-3; abandoned at 0-2
+#      in 74']' - the award token ships as 'awd' in the score slot of the context row;
+#      Sampdoria survives. Context only, NOT shipped.
+# Boundary (gate EXP 24-25->25-26): out Empoli, Venezia, Monza; in Sassuolo, Cremonese, Pisa.
+TABLE|2024-25|1|Napoli|38|24|10|4|59|27|82|Champions
+TABLE|2024-25|2|Inter|38|24|9|5|79|35|81|[C]
+TABLE|2024-25|3|Atalanta|38|22|8|8|78|37|74|
+TABLE|2024-25|4|Juventus|38|18|16|4|58|35|70|
+TABLE|2024-25|5|Roma|38|20|9|9|56|35|69|
+TABLE|2024-25|6|Fiorentina|38|19|8|11|60|41|65|[2 2 0 0 4-2 6]
+TABLE|2024-25|7|Lazio|38|18|11|9|61|49|65|[2 0 0 2 2-4 0]
+TABLE|2024-25|8|Milan|38|18|9|11|61|43|63|
+TABLE|2024-25|9|Bologna|38|16|14|8|57|47|62|
+TABLE|2024-25|10|Como|38|13|10|15|49|52|49|[P]
+TABLE|2024-25|11|Torino|38|10|14|14|39|45|44|[2 1 1 0 4-2 4]
+TABLE|2024-25|12|Udinese|38|12|8|18|41|56|44|[2 0 1 1 2-4 1]
+TABLE|2024-25|13|Genoa|38|10|13|15|37|49|43|
+TABLE|2024-25|14|Verona|38|10|7|21|34|66|37|
+TABLE|2024-25|15|Cagliari|38|9|9|20|40|56|36|[2 2 0 0 5-3 6]
+TABLE|2024-25|16|Parma|38|7|15|16|44|58|36|[P] [2 0 0 2 3-5 0]
+TABLE|2024-25|17|Lecce|38|8|10|20|27|58|34|
+TABLE|2024-25|18|Empoli|38|6|13|19|33|59|31|Relegated
+TABLE|2024-25|19|Venezia|38|5|14|19|32|56|29|[P] Relegated
+TABLE|2024-25|20|Monza|38|3|9|26|28|69|18|Relegated
+R1|2024-08-17|Genoa|2|2|Inter
+R1|2024-08-17|Parma|1|1|Fiorentina
+R1|2024-08-17|Milan|2|2|Torino
+R1|2024-08-17|Empoli|0|0|Monza
+R1|2024-08-18|Bologna|1|1|Udinese
+R1|2024-08-18|Verona|3|0|Napoli
+R1|2024-08-18|Cagliari|0|0|Roma
+R1|2024-08-18|Lazio|3|1|Venezia
+R1|2024-08-19|Lecce|0|4|Atalanta
+R1|2024-08-19|Juventus|3|0|Como
+R2|2024-08-24|Parma|2|1|Milan
+R2|2024-08-24|Udinese|2|1|Lazio
+R2|2024-08-24|Inter|2|0|Lecce
+R2|2024-08-24|Monza|0|1|Genoa
+R2|2024-08-25|Fiorentina|0|0|Venezia
+R2|2024-08-25|Torino|2|1|Atalanta
+R2|2024-08-25|Roma|1|2|Empoli
+R2|2024-08-25|Napoli|3|0|Bologna
+R2|2024-08-26|Cagliari|1|1|Como
+R2|2024-08-26|Verona|0|3|Juventus
+R3|2024-08-30|Venezia|0|1|Torino
+R3|2024-08-30|Inter|4|0|Atalanta
+R3|2024-08-31|Bologna|1|1|Empoli
+R3|2024-08-31|Lecce|1|0|Cagliari
+R3|2024-08-31|Napoli|2|1|Parma
+R3|2024-08-31|Lazio|2|2|Milan
+R3|2024-09-01|Fiorentina|2|2|Monza
+R3|2024-09-01|Genoa|0|2|Verona
+R3|2024-09-01|Juventus|0|0|Roma
+R3|2024-09-01|Udinese|1|0|Como
+R4|2024-09-14|Como|2|2|Bologna
+R4|2024-09-14|Empoli|0|0|Juventus
+R4|2024-09-14|Milan|4|0|Venezia
+R4|2024-09-15|Genoa|1|1|Roma
+R4|2024-09-15|Atalanta|3|2|Fiorentina
+R4|2024-09-15|Torino|0|0|Lecce
+R4|2024-09-15|Cagliari|0|4|Napoli
+R4|2024-09-15|Monza|1|1|Inter
+R4|2024-09-16|Parma|2|3|Udinese
+R4|2024-09-16|Lazio|2|1|Verona
+R5|2024-09-20|Cagliari|0|2|Empoli
+R5|2024-09-20|Verona|2|3|Torino
+R5|2024-09-21|Venezia|2|0|Genoa
+R5|2024-09-21|Juventus|0|0|Napoli
+R5|2024-09-21|Lecce|2|2|Parma
+R5|2024-09-22|Fiorentina|2|1|Lazio
+R5|2024-09-22|Monza|1|2|Bologna
+R5|2024-09-22|Roma|3|0|Udinese
+R5|2024-09-22|Inter|1|2|Milan
+R5|2024-09-24|Atalanta|2|3|Como
+R6|2024-09-27|Milan|3|0|Lecce
+R6|2024-09-28|Udinese|2|3|Inter
+R6|2024-09-28|Genoa|0|3|Juventus
+R6|2024-09-28|Bologna|1|1|Atalanta
+R6|2024-09-29|Torino|2|3|Lazio
+R6|2024-09-29|Roma|2|1|Venezia
+R6|2024-09-29|Como|3|2|Verona
+R6|2024-09-29|Empoli|0|0|Fiorentina
+R6|2024-09-29|Napoli|2|0|Monza
+R6|2024-09-30|Parma|2|3|Cagliari
+R7|2024-10-04|Napoli|3|1|Como
+R7|2024-10-04|Verona|2|1|Venezia
+R7|2024-10-05|Udinese|1|0|Lecce
+R7|2024-10-05|Atalanta|5|1|Genoa
+R7|2024-10-05|Inter|3|2|Torino
+R7|2024-10-06|Juventus|1|1|Cagliari
+R7|2024-10-06|Bologna|0|0|Parma
+R7|2024-10-06|Lazio|2|1|Empoli
+R7|2024-10-06|Monza|1|1|Roma
+R7|2024-10-06|Fiorentina|2|1|Milan
+R8|2024-10-19|Como|1|1|Parma
+R8|2024-10-19|Genoa|2|2|Bologna
+R8|2024-10-19|Milan|1|0|Udinese
+R8|2024-10-19|Juventus|1|0|Lazio
+R8|2024-10-20|Empoli|0|1|Napoli
+R8|2024-10-20|Lecce|0|6|Fiorentina
+R8|2024-10-20|Venezia|0|2|Atalanta
+R8|2024-10-20|Cagliari|3|2|Torino
+R8|2024-10-20|Roma|0|1|Inter
+R8|2024-10-21|Verona|0|3|Monza
+R9|2024-10-25|Udinese|2|0|Cagliari
+R9|2024-10-25|Torino|1|0|Como
+R9|2024-10-26|Napoli|1|0|Lecce
+R9|2024-10-26|Atalanta|6|1|Verona
+R9|2024-10-27|Parma|1|1|Empoli
+R9|2024-10-27|Monza|2|2|Venezia
+R9|2024-10-27|Lazio|3|0|Genoa
+R9|2024-10-27|Inter|4|4|Juventus
+R9|2024-10-27|Fiorentina|5|1|Roma
+R9|2025-02-27|Bologna|2|1|Milan
+R10|2024-10-29|Cagliari|0|2|Bologna
+R10|2024-10-29|Lecce|1|0|Verona
+R10|2024-10-29|Milan|0|2|Napoli
+R10|2024-10-30|Empoli|0|3|Inter
+R10|2024-10-30|Venezia|3|2|Udinese
+R10|2024-10-30|Atalanta|2|0|Monza
+R10|2024-10-30|Juventus|2|2|Parma
+R10|2024-10-31|Genoa|0|1|Fiorentina
+R10|2024-10-31|Roma|1|0|Torino
+R10|2024-10-31|Como|1|5|Lazio
+R11|2024-11-02|Bologna|1|0|Lecce
+R11|2024-11-02|Udinese|0|2|Juventus
+R11|2024-11-02|Monza|0|1|Milan
+R11|2024-11-03|Napoli|0|3|Atalanta
+R11|2024-11-03|Torino|0|1|Fiorentina
+R11|2024-11-03|Verona|3|2|Roma
+R11|2024-11-03|Inter|1|0|Venezia
+R11|2024-11-04|Empoli|1|0|Como
+R11|2024-11-04|Parma|0|1|Genoa
+R11|2024-11-04|Lazio|2|1|Cagliari
+R12|2024-11-07|Genoa|1|1|Como
+R12|2024-11-08|Lecce|1|1|Empoli
+R12|2024-11-09|Venezia|1|2|Parma
+R12|2024-11-09|Cagliari|3|3|Milan
+R12|2024-11-09|Juventus|2|0|Torino
+R12|2024-11-10|Atalanta|2|1|Udinese
+R12|2024-11-10|Roma|2|3|Bologna
+R12|2024-11-10|Fiorentina|3|1|Verona
+R12|2024-11-10|Monza|0|1|Lazio
+R12|2024-11-10|Inter|1|1|Napoli
+R13|2024-11-23|Verona|0|5|Inter
+R13|2024-11-23|Milan|0|0|Juventus
+R13|2024-11-23|Parma|1|3|Atalanta
+R13|2024-11-24|Genoa|2|2|Cagliari
+R13|2024-11-24|Como|0|2|Fiorentina
+R13|2024-11-24|Torino|1|1|Monza
+R13|2024-11-24|Napoli|1|0|Roma
+R13|2024-11-24|Lazio|3|0|Bologna
+R13|2024-11-25|Empoli|1|1|Udinese
+R13|2024-11-25|Venezia|0|1|Lecce
+R14|2024-11-29|Cagliari|1|0|Verona
+R14|2024-11-30|Como|1|1|Monza
+R14|2024-11-30|Milan|3|0|Empoli
+R14|2024-11-30|Bologna|3|0|Venezia
+R14|2024-12-01|Udinese|0|2|Genoa
+R14|2024-12-01|Parma|3|1|Lazio
+R14|2024-12-01|Torino|0|1|Napoli
+R14|2024-12-01|Lecce|1|1|Juventus
+R14|2024-12-02|Roma|0|2|Atalanta
+R14|2025-02-06|Fiorentina|3|0|Inter
+R15|2024-12-06|Inter|3|1|Parma
+R15|2024-12-06|Atalanta|2|1|Milan
+R15|2024-12-07|Genoa|0|0|Torino
+R15|2024-12-07|Juventus|2|2|Bologna
+R15|2024-12-07|Roma|4|1|Lecce
+R15|2024-12-08|Fiorentina|1|0|Cagliari
+R15|2024-12-08|Verona|1|4|Empoli
+R15|2024-12-08|Venezia|2|2|Como
+R15|2024-12-08|Napoli|0|1|Lazio
+R15|2024-12-09|Monza|1|2|Udinese
+R16|2024-12-13|Empoli|0|1|Torino
+R16|2024-12-14|Cagliari|0|1|Atalanta
+R16|2024-12-14|Udinese|1|3|Napoli
+R16|2024-12-14|Juventus|2|2|Venezia
+R16|2024-12-15|Lecce|2|1|Monza
+R16|2024-12-15|Bologna|1|0|Fiorentina
+R16|2024-12-15|Parma|2|3|Verona
+R16|2024-12-15|Como|2|0|Roma
+R16|2024-12-15|Milan|0|0|Genoa
+R16|2024-12-16|Lazio|0|6|Inter
+R17|2024-12-20|Verona|0|1|Milan
+R17|2024-12-21|Torino|0|2|Bologna
+R17|2024-12-21|Genoa|1|2|Napoli
+R17|2024-12-21|Lecce|1|2|Lazio
+R17|2024-12-22|Roma|5|0|Parma
+R17|2024-12-22|Venezia|2|1|Cagliari
+R17|2024-12-22|Atalanta|3|2|Empoli
+R17|2024-12-22|Monza|1|2|Juventus
+R17|2024-12-23|Fiorentina|1|2|Udinese
+R17|2024-12-23|Inter|2|0|Como
+R18|2024-12-28|Empoli|1|2|Genoa
+R18|2024-12-28|Parma|2|1|Monza
+R18|2024-12-28|Cagliari|0|3|Inter
+R18|2024-12-28|Lazio|1|1|Atalanta
+R18|2024-12-29|Udinese|2|2|Torino
+R18|2024-12-29|Napoli|1|0|Venezia
+R18|2024-12-29|Juventus|2|2|Fiorentina
+R18|2024-12-29|Milan|1|1|Roma
+R18|2024-12-30|Como|2|0|Lecce
+R18|2024-12-30|Bologna|2|3|Verona
+R19|2025-01-04|Venezia|1|1|Empoli
+R19|2025-01-04|Fiorentina|0|3|Napoli
+R19|2025-01-04|Verona|0|0|Udinese
+R19|2025-01-05|Monza|1|2|Cagliari
+R19|2025-01-05|Lecce|0|0|Genoa
+R19|2025-01-05|Torino|0|0|Parma
+R19|2025-01-05|Roma|2|0|Lazio
+R19|2025-01-14|Como|1|2|Milan
+R19|2025-01-14|Atalanta|1|1|Juventus
+R19|2025-01-15|Inter|2|2|Bologna
+R20|2025-01-10|Lazio|1|1|Como
+R20|2025-01-11|Empoli|1|3|Lecce
+R20|2025-01-11|Udinese|0|0|Atalanta
+R20|2025-01-11|Torino|1|1|Juventus
+R20|2025-01-11|Milan|1|1|Cagliari
+R20|2025-01-12|Genoa|1|0|Parma
+R20|2025-01-12|Venezia|0|1|Inter
+R20|2025-01-12|Bologna|2|2|Roma
+R20|2025-01-12|Napoli|2|0|Verona
+R20|2025-01-13|Monza|2|1|Fiorentina
+R21|2025-01-17|Roma|3|1|Genoa
+R21|2025-01-18|Bologna|3|1|Monza
+R21|2025-01-18|Juventus|2|0|Milan
+R21|2025-01-18|Atalanta|2|3|Napoli
+R21|2025-01-19|Fiorentina|1|1|Torino
+R21|2025-01-19|Cagliari|4|1|Lecce
+R21|2025-01-19|Parma|1|1|Venezia
+R21|2025-01-19|Verona|0|3|Lazio
+R21|2025-01-19|Inter|3|1|Empoli
+R21|2025-01-20|Como|4|1|Udinese
+R22|2025-01-24|Torino|2|0|Cagliari
+R22|2025-01-25|Como|1|2|Atalanta
+R22|2025-01-25|Napoli|2|1|Juventus
+R22|2025-01-25|Empoli|1|1|Bologna
+R22|2025-01-26|Milan|3|2|Parma
+R22|2025-01-26|Udinese|1|2|Roma
+R22|2025-01-26|Lecce|0|4|Inter
+R22|2025-01-26|Lazio|1|2|Fiorentina
+R22|2025-01-27|Venezia|1|1|Verona
+R22|2025-01-27|Genoa|2|0|Monza
+R23|2025-01-31|Parma|1|3|Lecce
+R23|2025-02-01|Monza|0|1|Verona
+R23|2025-02-01|Udinese|3|2|Venezia
+R23|2025-02-01|Atalanta|1|1|Torino
+R23|2025-02-01|Bologna|2|0|Como
+R23|2025-02-02|Juventus|4|1|Empoli
+R23|2025-02-02|Fiorentina|2|1|Genoa
+R23|2025-02-02|Milan|1|1|Inter
+R23|2025-02-02|Roma|1|1|Napoli
+R23|2025-02-03|Cagliari|1|2|Lazio
+R24|2025-02-07|Como|1|2|Juventus
+R24|2025-02-08|Verona|0|5|Atalanta
+R24|2025-02-08|Empoli|0|2|Milan
+R24|2025-02-08|Torino|1|1|Genoa
+R24|2025-02-09|Venezia|0|1|Roma
+R24|2025-02-09|Cagliari|2|1|Parma
+R24|2025-02-09|Lazio|5|1|Monza
+R24|2025-02-09|Lecce|0|0|Bologna
+R24|2025-02-09|Napoli|1|1|Udinese
+R24|2025-02-10|Inter|2|1|Fiorentina
+R25|2025-02-14|Bologna|3|2|Torino
+R25|2025-02-15|Atalanta|0|0|Cagliari
+R25|2025-02-15|Lazio|2|2|Napoli
+R25|2025-02-15|Milan|1|0|Verona
+R25|2025-02-16|Fiorentina|0|2|Como
+R25|2025-02-16|Monza|0|0|Lecce
+R25|2025-02-16|Udinese|3|0|Empoli
+R25|2025-02-16|Parma|0|1|Roma
+R25|2025-02-16|Juventus|1|0|Inter
+R25|2025-02-17|Genoa|2|0|Venezia
+R26|2025-02-21|Lecce|0|1|Udinese
+R26|2025-02-22|Parma|2|0|Bologna
+R26|2025-02-22|Venezia|0|0|Lazio
+R26|2025-02-22|Torino|2|1|Milan
+R26|2025-02-22|Inter|1|0|Genoa
+R26|2025-02-23|Como|2|1|Napoli
+R26|2025-02-23|Verona|1|0|Fiorentina
+R26|2025-02-23|Empoli|0|5|Atalanta
+R26|2025-02-23|Cagliari|0|1|Juventus
+R26|2025-02-24|Roma|4|0|Monza
+R27|2025-02-28|Fiorentina|1|0|Lecce
+R27|2025-03-01|Atalanta|0|0|Venezia
+R27|2025-03-01|Napoli|1|1|Inter
+R27|2025-03-01|Udinese|1|0|Parma
+R27|2025-03-02|Monza|0|2|Torino
+R27|2025-03-02|Bologna|2|1|Cagliari
+R27|2025-03-02|Genoa|1|1|Empoli
+R27|2025-03-02|Roma|2|1|Como
+R27|2025-03-02|Milan|1|2|Lazio
+R27|2025-03-03|Juventus|2|0|Verona
+R28|2025-03-07|Cagliari|1|1|Genoa
+R28|2025-03-08|Como|1|1|Venezia
+R28|2025-03-08|Parma|2|2|Torino
+R28|2025-03-08|Lecce|2|3|Milan
+R28|2025-03-08|Inter|3|2|Monza
+R28|2025-03-09|Verona|1|2|Bologna
+R28|2025-03-09|Napoli|2|1|Fiorentina
+R28|2025-03-09|Empoli|0|1|Roma
+R28|2025-03-09|Juventus|0|4|Atalanta
+R28|2025-03-10|Lazio|1|1|Udinese
+R29|2025-03-14|Genoa|2|1|Lecce
+R29|2025-03-15|Monza|1|1|Parma
+R29|2025-03-15|Udinese|0|1|Verona
+R29|2025-03-15|Milan|2|1|Como
+R29|2025-03-15|Torino|1|0|Empoli
+R29|2025-03-16|Venezia|0|0|Napoli
+R29|2025-03-16|Bologna|5|0|Lazio
+R29|2025-03-16|Roma|1|0|Cagliari
+R29|2025-03-16|Fiorentina|3|0|Juventus
+R29|2025-03-16|Atalanta|0|2|Inter
+R30|2025-03-29|Como|1|1|Empoli
+R30|2025-03-29|Venezia|0|1|Bologna
+R30|2025-03-29|Juventus|1|0|Genoa
+R30|2025-03-29|Lecce|0|1|Roma
+R30|2025-03-30|Cagliari|3|0|Monza
+R30|2025-03-30|Fiorentina|1|0|Atalanta
+R30|2025-03-30|Inter|2|1|Udinese
+R30|2025-03-30|Napoli|2|1|Milan
+R30|2025-03-31|Verona|0|0|Parma
+R30|2025-03-31|Lazio|1|1|Torino
+R31|2025-04-04|Genoa|1|0|Udinese
+R31|2025-04-05|Monza|1|3|Como
+R31|2025-04-05|Parma|2|2|Inter
+R31|2025-04-05|Milan|2|2|Fiorentina
+R31|2025-04-06|Lecce|1|1|Venezia
+R31|2025-04-06|Empoli|0|0|Cagliari
+R31|2025-04-06|Torino|1|1|Verona
+R31|2025-04-06|Atalanta|0|1|Lazio
+R31|2025-04-06|Roma|1|1|Juventus
+R31|2025-04-07|Bologna|1|1|Napoli
+R32|2025-04-11|Udinese|0|4|Milan
+R32|2025-04-12|Venezia|1|0|Monza
+R32|2025-04-12|Inter|3|1|Cagliari
+R32|2025-04-12|Juventus|2|1|Lecce
+R32|2025-04-13|Atalanta|2|0|Bologna
+R32|2025-04-13|Fiorentina|0|0|Parma
+R32|2025-04-13|Verona|0|0|Genoa
+R32|2025-04-13|Como|1|0|Torino
+R32|2025-04-13|Lazio|1|1|Roma
+R32|2025-04-14|Napoli|3|0|Empoli
+R33|2025-04-19|Lecce|0|3|Como
+R33|2025-04-19|Monza|0|1|Napoli
+R33|2025-04-19|Roma|1|0|Verona
+R33|2025-04-20|Empoli|2|2|Venezia
+R33|2025-04-20|Bologna|1|0|Inter
+R33|2025-04-20|Milan|0|1|Atalanta
+R33|2025-04-23|Cagliari|1|2|Fiorentina
+R33|2025-04-23|Genoa|0|2|Lazio
+R33|2025-04-23|Parma|1|0|Juventus
+R33|2025-04-23|Torino|2|0|Udinese
+R34|2025-04-27|Como|1|0|Genoa
+R34|2025-04-27|Venezia|0|2|Milan
+R34|2025-04-27|Fiorentina|2|1|Empoli
+R34|2025-04-27|Inter|0|1|Roma
+R34|2025-04-27|Juventus|2|0|Monza
+R34|2025-04-27|Atalanta|1|1|Lecce
+R34|2025-04-27|Napoli|2|0|Torino
+R34|2025-04-28|Udinese|0|0|Bologna
+R34|2025-04-28|Verona|0|2|Cagliari
+R34|2025-04-28|Lazio|2|2|Parma
+R35|2025-05-02|Torino|1|1|Venezia
+R35|2025-05-03|Cagliari|1|2|Udinese
+R35|2025-05-03|Parma|0|1|Como
+R35|2025-05-03|Lecce|0|1|Napoli
+R35|2025-05-03|Inter|1|0|Verona
+R35|2025-05-04|Empoli|0|1|Lazio
+R35|2025-05-04|Monza|0|4|Atalanta
+R35|2025-05-04|Roma|1|0|Fiorentina
+R35|2025-05-04|Bologna|1|1|Juventus
+R35|2025-05-05|Genoa|1|2|Milan
+R36|2025-05-09|Milan|3|1|Bologna
+R36|2025-05-10|Como|3|1|Cagliari
+R36|2025-05-10|Lazio|1|1|Juventus
+R36|2025-05-10|Empoli|2|1|Parma
+R36|2025-05-11|Udinese|1|2|Monza
+R36|2025-05-11|Verona|1|1|Lecce
+R36|2025-05-11|Torino|0|2|Inter
+R36|2025-05-11|Napoli|2|2|Genoa
+R36|2025-05-12|Venezia|2|1|Fiorentina
+R36|2025-05-12|Atalanta|2|1|Roma
+R37|2025-05-17|Genoa|2|3|Atalanta
+R37|2025-05-18|Roma|3|1|Milan
+R37|2025-05-18|Cagliari|3|0|Venezia
+R37|2025-05-18|Fiorentina|3|2|Bologna
+R37|2025-05-18|Verona|1|1|Como
+R37|2025-05-18|Inter|2|2|Lazio
+R37|2025-05-18|Juventus|2|0|Udinese
+R37|2025-05-18|Lecce|1|0|Torino
+R37|2025-05-18|Monza|1|3|Empoli
+R37|2025-05-18|Parma|0|0|Napoli
+R38|2025-05-23|Como|0|2|Inter
+R38|2025-05-23|Napoli|2|0|Cagliari
+R38|2025-05-24|Bologna|1|3|Genoa
+R38|2025-05-24|Milan|2|0|Monza
+R38|2025-05-25|Atalanta|2|3|Parma
+R38|2025-05-25|Empoli|1|2|Verona
+R38|2025-05-25|Lazio|0|1|Lecce
+R38|2025-05-25|Torino|0|2|Roma
+R38|2025-05-25|Udinese|2|3|Fiorentina
+R38|2025-05-25|Venezia|2|3|Juventus
+
+## ABD (abandoned-then-RESUMED fixtures; the completion rows ship inside the round,
+#  the original-date lines are context only; 90-minute/standing doctrine)
+ABD|2024-25|R14|2024-12-01|Fiorentina|Inter|abandoned at 0-0 in 16' due to medical emergency Fiorentina player Edoardo Bove
+
+## PO_PLAYOFF (spareggio retrocessione SHIP as compType other per ERRATA-2026-08-03;
+#  Serie B promotion/relegation playoffs = tier-internal context, NOT commissioned)
+PO_PLAYOFF|2024-25|L2-P1|2025-05-17|Catanzaro|1|0|Cesena||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-P2|2025-05-17|Juve Stabia|1|0|Palermo||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-P3|2025-05-21|Catanzaro|0|2|Spezia||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-P4|2025-05-21|Juve Stabia|2|1|Cremonese||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-P5|2025-05-25|Cremonese|3|0|Juve Stabia||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-P6|2025-05-25|Spezia|2|1|Catanzaro||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-P7|2025-05-29|Cremonese|0|0|Spezia||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-P8|2025-06-01|Spezia|2|3|Cremonese||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-R1|2025-06-15|Sampdoria|2|0|Salernitana||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2024-25|L2-R2|2025-06-22|Salernitana|awd||Sampdoria|awarded 0-3; abandoned at 0-2 in 74'|NOT-COMMISSIONED-L2-internal
+
+## TABLE2 (Serie B final table context; promotion/relegation boundary gate input)
+TABLE2|2024-25|1|US Sassuolo|38|25|7|6|78|38|82|[R] Promoted
+TABLE2|2024-25|2|AC Pisa|38|23|7|8|64|36|76|Promoted
+TABLE2|2024-25|3|Spezia Calcio|38|17|15|6|59|33|66|Promotion Playoff
+TABLE2|2024-25|4|US Cremonese|38|16|13|9|62|44|61|Promotion Playoff
+TABLE2|2024-25|5|SS Juve Stabia|38|14|13|11|42|41|55|[P] Promotion Playoff
+TABLE2|2024-25|6|US Catanzaro 1929|38|11|20|7|51|45|53|Promotion Playoff
+TABLE2|2024-25|7|Cesena FC|38|14|11|13|46|47|53|[P] Promotion Playoff
+TABLE2|2024-25|8|Palermo FC|38|14|10|14|52|43|52|Promotion Playoff
+TABLE2|2024-25|9|SSC Bari|38|10|18|10|41|40|48|
+TABLE2|2024-25|10|FC Südtirol|38|12|10|16|50|57|46|
+TABLE2|2024-25|11|Modena FC 2018|38|10|15|13|48|50|45|
+TABLE2|2024-25|12|Carrarese Calcio|38|11|12|15|39|49|45|[P]
+TABLE2|2024-25|13|AC Reggiana 1919|38|11|11|16|42|52|44|
+TABLE2|2024-25|14|Mantova 1911|38|10|14|14|47|56|44|[P]
+TABLE2|2024-25|15|Frosinone Calcio|38|9|16|13|37|50|43|[R]
+TABLE2|2024-25|16|US Salernitana|38|11|9|18|37|47|42|[R] Relegation Playoff
+TABLE2|2024-25|17|UC Sampdoria|38|8|17|13|38|49|41|Relegation Playoff
+TABLE2|2024-25|18|Brescia Calcio|38|9|16|13|42|48|39|[-4] Relegated
+TABLE2|2024-25|19|AS Cittadella|38|10|9|19|30|56|39|Relegated
+TABLE2|2024-25|20|Cosenza Calcio|38|7|13|18|32|56|30|[-4] Relegated
+

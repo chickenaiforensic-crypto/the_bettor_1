@@ -1,0 +1,82 @@
+# LEDGER rpl-2026-27 — RPL 2026-27 played rounds (DECREE-2026-08-04 full-span override + supervisor/ADDENDUM-2026-08-04-RUSSIA-GAPS REQ-2)
+# Captured 2026-08-04 (researcher session). Return date 2026-08-04.
+# NOT a full season: played rows ONLY, rolling-append per REQ-2 ("Rolling-append as rounds complete is fine; say so in NOTE").
+# Ships in handoffs/RUS-ADDENDUM-2026_BP-TEAM-PACK_v2.txt (the pinned RPL pack sha256 d71ed24f... stays byte-untouched).
+
+## MEMBERSHIP 2026-27 (16) — per rsssf-rus2027 table header + wiki-rpl-2627 newcomer block + premierliga news 33493 (2026-05-27)
+in = the 2025-26 top flight minus PFC Sochi (16th) minus Pari Nizhny Novgorod (15th), plus Fakel Voronezh [P] (First League 2nd, 68 pts) and Rodina Moscow [P] (First League champions, 68 pts - top-flight debut).
+NBs printed: "Akron play home games at Krylja Sovetov's home stadium in Samara (100 km south-east of Togliatti)."; "Dinamo (Makhachkala) play home games in Kaspiysk (the satellite city south-east of Makhachkala)."
+
+## PRIMARY TRANSCRIPTION — RSSSF rus2027.html #1l (fetched 2026-08-04)
+# VERBATIM block, Round 1 (Total Att: 102,232; Average: 12,779):
+[R1|2026-07-24|CSKA 2-1 Baltika | Eduardo Anderson (Bal) 33 og; Kirill Glebov 36 - Chinonso Offor 1 | Att: 15,196 | +20°C]
+[R1|2026-07-25|Akron 0-5 Zenit | Aleksandr Sobolev 7, 18; Gustavo Mantuan 34; Jhon Jhon 78; Felipe Augusto 84 | Att: 5,091 | +34°C]
+[R1|2026-07-25|Spartak 3-0 Rodina | Marcos "Marquinhos" Martins 24; Christopher Martins 79; Danil Prucev 86 | Att: 23,601 | +18°C]
+[R1|2026-07-25|Dinamo Ms 0-0 Krylja S. | Att: 15,335 | +23°C]
+[R1|2026-07-25|Fakel 1-2 Dinamo Mh | Vjaceslav Jakimov 21 - Jurij Zuravljov (Fak) 30 og; Aleksandr Sandracuk 79 | Att: 9,289 | +21°C]
+[R1|2026-07-26|Rubin 1-3 Krasnodar | Mirlind Daku 12 - Juan M. Boselli 45+6; Nikita Krivcov 53; Christian Cardoso 90+4 | Att: 18,866 | +28°C]
+[R1|2026-07-26|Lokomotiv 1-1 Ahmat | Zelimhan Bakajev 8 - Erald Maksuti 83 | Att: 10,051 | +16°C, light rain]
+[R1|2026-07-26|Orenburg 2-1 Rostov | Ruslan Kul 84; Andrej Kasalov 90+4 - Viktor Meljohin 47 | Att: 4,803 | +28°C]
+# Round 2 as printed at fetch: FIXTURES ONLY (no results), header "[Jul 31 - Aug 3]":
+[R2 fx|Dinamo Mh - Lokomotiv]
+[R2 fx|Baltika - Dinamo Ms]
+[R2 fx|Orenburg - Zenit]
+[R2 fx|Krasnodar - Fakel]
+[R2 fx|Ahmat - Spartak]
+[R2 fx|CSKA - Krylja S.]
+[R2 fx|Rodina - Rostov]
+[R2 fx|Akron - Rubin]
+# Round 3 as printed: "[Aug 7-10]" fixtures (8) — beyond edge. Full R1-R30 calendar printed through May (winter break Dec 7 - Feb 26 per wiki-rpl-2627).
+# NOTE: RSSSF prints the in-progress table after R1 only (each club Pld 1).
+
+## SECOND TRANSCRIPTION — RPL official heritage match centre, heritage.premierliga.ru/tournaments/championship/ (fetched 2026-08-04)
+# VERBATIM lines (day-of-week dd.mm, kickoff MSK, score, match id):
+1 тур: [Пт 24.07 20:00 ЦСКА-Балтика 2-1 match_16245] [Сб 25.07 14:00 Динамо-Москва-Крылья Советов 0-0 match_16241] [Сб 25.07 16:15 Акрон-Зенит 0-5 match_16247] [Сб 25.07 18:30 Факел-Динамо Махачкала 1-2 match_16248] [Сб 25.07 20:45 Спартак-Родина 3-0 match_16242] [Вс 26.07 17:00 Локомотив-Ахмат 1-1 match_16244] [Вс 26.07 19:30 Оренбург-Ростов 2-1 match_16243] [Вс 26.07 19:30 Рубин-Краснодар 1-3 match_16246]
+2 тур: [Пт 31.07 20:00 Родина-Ростов 2-4 match_16255] [Сб 01.08 14:00 Акрон-Рубин 1-2 match_16256] [Сб 01.08 16:15 ЦСКА-Крылья Советов 1-1 match_16254] [Сб 01.08 18:30 Динамо Махачкала-Локомотив 2-1 match_16249] [Сб 01.08 20:45 Балтика-Динамо-Москва 2-1 match_16250] [Вс 02.08 16:00 Оренбург-Зенит 0-3 match_16251] [Вс 02.08 18:15 Краснодар-Факел 3-2 match_16252] [Вс 02.08 20:30 Ахмат-Спартак 1-2 match_16253]
+3 тур (fixtures only, forward edge): Сб 08.08 Крылья Советов-Балтика; Сб 08.08 Локомотив-Акрон; Сб 08.08 ЦСКА-Ростов; Вс 09.08 Динамо-Москва-Динамо Махачкала; Вс 09.08 Зенит-Родина; Вс 09.08 Спартак-Краснодар; Вс 09.08 Рубин-Оренбург; Пн 10.08 Факел-Ахмат.
+# => R2 window completed 2026-07-31..2026-08-02 (NO Aug-3 game, despite the RSSSF bracket header).
+
+## THIRD — en.wiki 2026-27 RPL (fetched 2026-08-04); ru.wiki mirror also sighted (16 matches, "updated 2026-08-02")
+# Infobox anchors: Matches 16; Goals 51 (3.19/game); Total attendance 193,274; Average 12,080;
+# highest att 30,953 Krasnodar 3-2 Fakel 2026-08-02; lowest att 3,324 Rodina 2-4 Rostov 2026-07-31;
+# biggest home win Spartak 3-0 Rodina; biggest away win Akron 0-5 Zenit; "All statistics correct as of 2 August 2026".
+# League table printed through matches played 2 August 2026 (Pld 2 each) — full 16 lines W-D-L-GF-GA-Pts:
+[1 Zenit 2 0 0 8-0 6] [2 Spartak 2 0 0 5-1 6] [3 Krasnodar 2 0 0 6-3 6] [4 Dynamo Makhachkala 2 0 0 4-2 6]
+[5 CSKA 2 1 0 3-2 4] [6 Rostov 1 0 1 5-4 3] [7 Baltika 1 0 1 3-3 3] [8 Rubin 1 0 1 3-4 3] [9 Orenburg 1 0 1 2-4 3]
+[10 Krylia Sovetov 0 2 0 1-1 2] [11 Akhmat 0 1 1 2-3 1] [12 Lokomotiv 0 1 1 2-3 1] [13 Dynamo Moscow 0 1 1 1-2 1]
+[14 Fakel 0 0 2 3-5 0] [15 Rodina 0 0 2 2-7 0] [16 Akron 0 0 2 1-7 0]
+(checksum: wins 13 = decisive games 13; points sum 45 = 13*3+3*2/2... computed as 13 wins + 3 drawn games => 39+6 = 45 OK; GF sum = GA sum = 51)
+# FBR matrix cells sighted for all 16 played fixtures (home rows): CSKA-BAL 2-1, CSKA-KRY 1-1; AKR-RUB 1-2, AKR-ZEN 0-5; BAL-DMO 2-1; DMA-LOK 2-1; DMO-KRY 0-0; FAK-DMA 1-2; KRA-FAK 3-2; LOK-akh 1-1; ORE-ROS 2-1, ORE-ZEN 0-3; ROD-ROS 2-4; RUB-KRA 1-3; SPA-ROD 3-0.
+# Venues table (16): Zenit Gazprom Arena 60,177; Spartak Lukoil Arena 44,897; Rubin Ak Bars Arena 43,284; Rostov Rostov Arena 45,415; Dynamo Makhachkala Anzhi Arena 26,364; Krylia Sovetov / Akron Solidarity Samara Arena 42,389 (shared, both listed); Krasnodar Ozon Arena 33,395; Akhmat Akhmat Arena 30,000; CSKA VEB Arena 29,071; Lokomotiv RZD Arena 27,084; RODINA = ARENA KHIMKI 14,950; Fakel = Fakel Stadium 10,052; Baltika Rostec Arena 33,399 (pack string Rostech Arena - spelling era, same ground); Dynamo Moscow VTB Arena 25,716; Orenburg Gazovik Stadium 10,046.
+# EDITORIAL ERROR CAUGHT (wiki): hat-trick table dates Maksim Glushenkov's treble (Orenburg 0-3 Zenit) "2 August 2025"; impossible (season began 2026-07-24). True date 2026-08-02 proven by premierliga match_16251 + both indexes' table-update stamps. -> pack source_conflict NOTE.
+# Clean-sheet table corroborates Orenburg 0-3 Zenit date via Glushenkov (3) tie atop scorers. Managerial-change table: Dynamo Moscow Sandro Schwarz from 2026-05-22 (Rolan Gusev contract expiry); Akron Srdan Blagojevic from 2026-06-08.
+# ru.wiki mirror infobox: 16 matches, 48 goals (3.00/game) as of its snapshot - CONFLICT vs en.wiki 51: ru mirror lags the two Aug-2 evening games' scorers refresh (48 = 51 - 3: before Krasnodar 2 goals + Akhmat-Spartak updates... arithmetic consistent with a mid-day Aug-2 state diff). EN index governs (its stamps are self-consistent: 16 matches, table, matrix all through 2026-08-02). Disclosed; no pack row affected (scores identical everywhere).
+
+## THIRD-INDEX GAP (documented): worldfootball carries no 2026-27 RPL season page at fetch day
+# 404 at https://www.worldfootball.net/all_matches/rus-premier-league-2026-2027/ AND .../schedule/rus-premier-league-2026-2027-spieltag/2/ (both slug shapes). Same adaptation precedent as the RPL pack's fdata/openfootball absence: two stronger indexes held (RSSSF + RPL official heritage), plus wiki second index.
+
+## ROW LINES (build input; iso|home|hg|ag|away|round|stadium|city|sourcelabel)
+L|2026-07-24|CSKA Moscow|2|1|Baltika Kaliningrad|Round 1|VEB Arena|Moscow|rsssf-rus2027-1l
+L|2026-07-25|Dynamo Moscow|0|0|Krylia Sovetov Samara|Round 1|VTB Arena|Moscow|rsssf-rus2027-1l
+L|2026-07-25|Akron Tolyatti|0|5|Zenit St Petersburg|Round 1|Solidarnost Samara Arena|Samara|rsssf-rus2027-1l
+L|2026-07-25|Fakel Voronezh|1|2|Dynamo Makhachkala|Round 1|Fakel Stadium|Voronezh|rsssf-rus2027-1l
+L|2026-07-25|Spartak Moscow|3|0|Rodina Moscow|Round 1|Lukoil Arena|Moscow|rsssf-rus2027-1l
+L|2026-07-26|Lokomotiv Moscow|1|1|Akhmat Grozny|Round 1|RZD Arena|Moscow|rsssf-rus2027-1l
+L|2026-07-26|FC Orenburg|2|1|FC Rostov|Round 1|Gazovik Stadium|Orenburg|rsssf-rus2027-1l
+L|2026-07-26|Rubin Kazan|1|3|FC Krasnodar|Round 1|Ak Bars Arena|Kazan|rsssf-rus2027-1l
+L|2026-07-31|Rodina Moscow|2|4|FC Rostov|Round 2|Arena Khimki|Khimki|premierliga-heritage-2627
+L|2026-08-01|Akron Tolyatti|1|2|Rubin Kazan|Round 2|Solidarnost Samara Arena|Samara|premierliga-heritage-2627
+L|2026-08-01|CSKA Moscow|1|1|Krylia Sovetov Samara|Round 2|VEB Arena|Moscow|premierliga-heritage-2627
+L|2026-08-01|Dynamo Makhachkala|2|1|Lokomotiv Moscow|Round 2|Anzhi Arena|Kaspiysk|premierliga-heritage-2627
+L|2026-08-01|Baltika Kaliningrad|2|1|Dynamo Moscow|Round 2|Rostech Arena|Kaliningrad|premierliga-heritage-2627
+L|2026-08-02|FC Orenburg|0|3|Zenit St Petersburg|Round 2|Gazovik Stadium|Orenburg|premierliga-heritage-2627
+L|2026-08-02|FC Krasnodar|3|2|Fakel Voronezh|Round 2|Ozon Arena|Krasnodar|premierliga-heritage-2627
+L|2026-08-02|Akhmat Grozny|1|2|Spartak Moscow|Round 2|Akhmat Arena|Grozny|premierliga-heritage-2627
+
+## CROSS-INDEX VERIFICATION (pre-build)
+# R1: 8/8 rows identical (date+home+score+away) between rsssf-rus2027 and premierliga-heritage-2627; wiki FBR agrees 8/8.
+# R2: premierliga 8/8 vs wiki FBR 8/8; RSSSF fixture-only (adaptation NOTE). Orenburg 0-3 Zenit moreover double-derived from the wiki table deltas before matrix sighting (both check).
+# TABLE-GATE: W-D-L-GF-GA recomputed from the 16 L-lines == the wiki table 16/16 club-for-club (validator G09 embeds both).
+# GOALS: R1 23 + R2 28 = 51 == wiki infobox. POINTS: 45 total (13 wins + 3 draws) == table sum.
+# R1 ATTENDANCE: 15,196+5,091+23,601+15,335+9,289+18,866+10,051+4,803 = 102,232 == RSSSF printed total (Average 12,779 == 102232/8).
+# R2 aggregate: 193,274 - 102,232 = 91,042 (per-game prints incomplete in sources: 30,953 + 3,324 known).

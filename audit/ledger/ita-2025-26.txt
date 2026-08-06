@@ -1,0 +1,80 @@
+# ITA Serie A 2025-26 - CONTEXT LEDGER, SOURCE_ADAPTATION SEASON
+# (WO-ITA-SPAN-14 on DECREE-2026-08-04)
+# Source: https://www.rsssf.org/tablesi/ital2026.html - "Italy 2025/26" (Roberto Di Maggio /
+# Karel Stokkermans, footer "Last updated: 21 Jun 2026"). Raw data/raw/rsssf-ital2026-1sa.txt.
+# SOURCE_ADAPTATION: this RSSSF page prints NO Serie A round-by-round section (final table +
+# Coppa Italia + Serie B only, verified full page 2026-08-05) => the 380 league rows are
+# carried by openfootball/italy 2025-26/1-seriea.txt (format B: 'Regular Season - n' banners,
+# header '# Dates Sat Aug 23 2025 - Sun May 24 2026'), parsed to
+# audit/ledger/ita-2ndidx-2025-26.txt and gated EXACT against the TABLE constants below by
+# full recompute - documented source_adaptation, same class as FRA 2025-26 / GER 2025-26.
+# ==== ANOMALIES (documented):
+#  (a) TABLE constants (gate inputs): Inter 87 champions, Napoli 76, Roma 73, Como 71 (4th,
+#      first Europe-spot era), ... Lecce 38 safe at 17; relegated Cremonese 34, Verona 21,
+#      Pisa 18. Sassuolo/Cremonese/Pisa carry the [P] flags (promoted INTO 2025-26).
+#  (b) Serie B final: 'First Leg [May 20] Catanzaro 0-2 Monza' prints on the SAME date as the
+#      semifinal leg-2 'Palermo 2-0 Catanzaro' - source-internal date inconsistency, context
+#      zone only, zero shipped rows affected; documented, not adjudicated (nothing imputed).
+#      'NB: Monza promoted on better record regular season' after aggregate 2-2 (0-2 away,
+#      2-0 home) - first such playoff-final tiebreak in the window; L2-P1..P8 + L2-R1/R2
+#      = context rows below.
+# Boundary FORWARD (2026-27, NOTE-only, zero rows): relegated Cremonese, Verona, Pisa;
+# promoted Venezia (1st, 82) and Frosinone (2nd, 81) direct + Monza (playoff, better-record
+# tiebreak); 2026-27 membership independently cross-checked against the Wikipedia 2026-27
+# Serie A article; rsssf ital2027.html = 404 (verified 2026-08-05).
+TABLE|2025-26|1|Inter|38|27|6|5|89|35|87|Champions
+TABLE|2025-26|2|Napoli|38|23|7|8|58|36|76|[C]
+TABLE|2025-26|3|Roma|38|23|4|11|59|31|73|
+TABLE|2025-26|4|Como|38|20|11|7|65|29|71|
+TABLE|2025-26|5|Milan|38|20|10|8|53|35|70|
+TABLE|2025-26|6|Juventus|38|19|12|7|61|34|69|
+TABLE|2025-26|7|Atalanta|38|15|14|9|51|36|59|
+TABLE|2025-26|8|Bologna|38|16|8|14|49|46|56|
+TABLE|2025-26|9|Lazio|38|14|12|12|41|40|54|
+TABLE|2025-26|10|Udinese|38|14|8|16|45|48|50|
+TABLE|2025-26|11|Sassuolo|38|14|7|17|46|50|49|[P]
+TABLE|2025-26|12|Torino|38|12|9|17|44|63|45|
+TABLE|2025-26|13|Parma|38|11|12|15|28|46|45|
+TABLE|2025-26|14|Cagliari|38|11|10|17|40|53|43|
+TABLE|2025-26|15|Fiorentina|38|9|15|14|41|50|42|
+TABLE|2025-26|16|Genoa|38|10|11|17|41|51|41|
+TABLE|2025-26|17|Lecce|38|10|8|20|28|50|38|
+TABLE|2025-26|18|Cremonese|38|8|10|20|32|57|34|[P] Relegated
+TABLE|2025-26|19|Verona|38|3|12|23|25|61|21|Relegated
+TABLE|2025-26|20|Pisa|38|2|12|24|26|71|18|[P] Relegated
+
+## PO_PLAYOFF (spareggio retrocessione SHIP as compType other per ERRATA-2026-08-03;
+#  Serie B promotion/relegation playoffs = tier-internal context, NOT commissioned)
+PO_PLAYOFF|2025-26|L2-P1|2026-05-12|Modena|0|1|Juve Stabia||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-P2|2026-05-12|Catanzaro|3|0|Avellino||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-P3|2026-05-16|Juve Stabia|2|2|Monza||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-P4|2026-05-17|Catanzaro|3|0|Palermo||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-P5|2026-05-19|Monza|2|1|Juve Stabia||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-P6|2026-05-20|Palermo|2|0|Catanzaro||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-P7|2026-05-20|Catanzaro|0|2|Monza||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-P8|2026-05-29|Monza|0|2|Catanzaro||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-R1|2026-05-15|Bari|0|0|Südtirol||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2025-26|L2-R2|2026-05-22|Südtirol|0|0|Bari||NOT-COMMISSIONED-L2-internal
+
+## TABLE2 (Serie B final table context; promotion/relegation boundary gate input)
+TABLE2|2025-26|1|Venezia FC|38|24|10|4|77|31|82|[R] Promoted
+TABLE2|2025-26|2|Frosinone Calcio|38|23|12|3|76|34|81|Promoted
+TABLE2|2025-26|3|AC Monza|38|22|10|6|61|32|76|[R] Promotion Playoff
+TABLE2|2025-26|4|Palermo FC|38|20|12|6|61|33|72|Promotion Playoff
+TABLE2|2025-26|5|US Catanzaro 1929|38|15|14|9|62|51|59|Promotion Playoff
+TABLE2|2025-26|6|Modena FC 2018|38|15|10|13|49|36|55|Promotion Playoff
+TABLE2|2025-26|7|SS Juve Stabia|38|11|18|9|44|45|51|Promotion Playoff
+TABLE2|2025-26|8|US Avellino 1912|38|13|10|15|43|55|49|[P] Promotion Playoff
+TABLE2|2025-26|9|Mantova 1911|38|13|7|18|45|57|46|
+TABLE2|2025-26|10|Calcio Padova|38|12|10|16|39|49|46|[P]
+TABLE2|2025-26|11|Cesena FC|38|12|10|16|45|56|46|
+TABLE2|2025-26|12|Carrarese Calcio|38|10|14|14|47|52|44|
+TABLE2|2025-26|13|UC Sampdoria|38|11|11|16|35|48|44|
+TABLE2|2025-26|14|Virtus Entella|38|10|12|16|36|51|42|[P]
+TABLE2|2025-26|15|Empoli FC|38|9|14|15|47|54|41|[R]
+TABLE2|2025-26|16|FC Südtirol|38|8|17|13|38|48|41|Relegation Playoff
+TABLE2|2025-26|17|SSC Bari|38|10|10|18|38|60|40|Relegation Playoff
+TABLE2|2025-26|18|AC Reggiana 1919|38|9|10|19|36|56|37|Relegated
+TABLE2|2025-26|19|Spezia Calcio|38|8|11|19|43|59|35|Relegated
+TABLE2|2025-26|20|Delfino Pescara|38|7|14|17|51|66|35|[P] Relegated
+

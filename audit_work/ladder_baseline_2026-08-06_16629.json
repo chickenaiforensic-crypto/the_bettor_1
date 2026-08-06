@@ -1,0 +1,1171 @@
+{
+  "date": "2026-08-06",
+  "store": "audit_work/pitch-rating-full-16629-europe-complete-2026-08-05.json",
+  "store_match_count": 16629,
+  "engine": "frozen online DC-style harness constants (LR=.055, decay=.0022, HFA LR=.010, rho=-.06)",
+  "cutoffs": {
+    "Russian Premier League": "2025-07-01",
+    "Czech First League": "2025-07-01",
+    "England Premier League": "2025-07-01",
+    "Italy Serie A": "2025-07-01",
+    "Germany Bundesliga": "2025-07-01",
+    "France Ligue 1": "2025-07-01",
+    "Spain La Liga": "2025-07-01",
+    "Scottish Premiership": "2025-07-01",
+    "Kosovo Superliga": "2025-07-01",
+    "UEFA": "2024-07-01"
+  },
+  "holdouts": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    10,
+    15,
+    20,
+    25,
+    30,
+    "FULL"
+  ],
+  "results": {
+    "Russian Premier League": {
+      "dated_rows": 1216,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "PASS",
+      "train_rows": 960,
+      "test_rows": 256,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 1,
+          "scored": 1,
+          "brier": 0.2057,
+          "brier_base": 0.0,
+          "logloss": 0.4529,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "2": {
+          "holdout": 2,
+          "n": 2,
+          "scored": 2,
+          "brier": 0.1388,
+          "brier_base": 0.5,
+          "logloss": 0.344,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "3": {
+          "holdout": 3,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.249,
+          "brier_base": 0.4444,
+          "logloss": 0.5025,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "5": {
+          "holdout": 5,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.4965,
+          "brier_base": 0.64,
+          "logloss": 0.8384,
+          "dir_acc": 60.0,
+          "note": null
+        },
+        "8": {
+          "holdout": 8,
+          "n": 7,
+          "scored": 7,
+          "brier": 0.5072,
+          "brier_base": 0.5938,
+          "logloss": 0.8582,
+          "dir_acc": 71.4,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 9,
+          "scored": 9,
+          "brier": 0.5373,
+          "brier_base": 0.62,
+          "logloss": 0.8989,
+          "dir_acc": 66.7,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 13,
+          "scored": 13,
+          "brier": 0.5803,
+          "brier_base": 0.6311,
+          "logloss": 0.9596,
+          "dir_acc": 53.8,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 18,
+          "scored": 18,
+          "brier": 0.5821,
+          "brier_base": 0.655,
+          "logloss": 0.9619,
+          "dir_acc": 55.6,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 23,
+          "scored": 23,
+          "brier": 0.5626,
+          "brier_base": 0.6528,
+          "logloss": 0.9362,
+          "dir_acc": 56.5,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 28,
+          "scored": 28,
+          "brier": 0.5507,
+          "brier_base": 0.6378,
+          "logloss": 0.9209,
+          "dir_acc": 57.1,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 256,
+          "n": 254,
+          "scored": 254,
+          "brier": 0.5675,
+          "brier_base": 0.6465,
+          "logloss": 0.9572,
+          "dir_acc": 55.9,
+          "note": null
+        }
+      }
+    },
+    "Czech First League": {
+      "dated_rows": 1381,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "PASS",
+      "train_rows": 1105,
+      "test_rows": 276,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 1,
+          "scored": 1,
+          "brier": 0.2826,
+          "brier_base": 0.0,
+          "logloss": 0.5673,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "2": {
+          "holdout": 2,
+          "n": 2,
+          "scored": 2,
+          "brier": 0.3002,
+          "brier_base": 0.0,
+          "logloss": 0.5917,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "3": {
+          "holdout": 3,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.3892,
+          "brier_base": 0.0,
+          "logloss": 0.7121,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "5": {
+          "holdout": 5,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.3781,
+          "brier_base": 0.0,
+          "logloss": 0.6972,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "8": {
+          "holdout": 8,
+          "n": 8,
+          "scored": 8,
+          "brier": 0.4497,
+          "brier_base": 0.375,
+          "logloss": 0.7971,
+          "dir_acc": 87.5,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 10,
+          "scored": 10,
+          "brier": 0.5014,
+          "brier_base": 0.42,
+          "logloss": 0.8718,
+          "dir_acc": 80.0,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 15,
+          "scored": 15,
+          "brier": 0.4772,
+          "brier_base": 0.4444,
+          "logloss": 0.8347,
+          "dir_acc": 80.0,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 20,
+          "scored": 20,
+          "brier": 0.5458,
+          "brier_base": 0.515,
+          "logloss": 0.9338,
+          "dir_acc": 70.0,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 25,
+          "scored": 25,
+          "brier": 0.5732,
+          "brier_base": 0.5504,
+          "logloss": 0.9722,
+          "dir_acc": 64.0,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 30,
+          "scored": 30,
+          "brier": 0.6129,
+          "brier_base": 0.5978,
+          "logloss": 1.0261,
+          "dir_acc": 56.7,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 276,
+          "n": 276,
+          "scored": 276,
+          "brier": 0.6089,
+          "brier_base": 0.6509,
+          "logloss": 1.0145,
+          "dir_acc": 49.3,
+          "note": null
+        }
+      }
+    },
+    "England Premier League": {
+      "dated_rows": 1900,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "PASS",
+      "train_rows": 1520,
+      "test_rows": 380,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 1,
+          "scored": 1,
+          "brier": 0.6224,
+          "brier_base": 0.0,
+          "logloss": 1.0271,
+          "dir_acc": 0.0,
+          "note": null
+        },
+        "2": {
+          "holdout": 2,
+          "n": 2,
+          "scored": 2,
+          "brier": 0.6283,
+          "brier_base": 0.0,
+          "logloss": 1.0351,
+          "dir_acc": 0.0,
+          "note": null
+        },
+        "3": {
+          "holdout": 3,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.62,
+          "brier_base": 0.0,
+          "logloss": 1.0242,
+          "dir_acc": 33.3,
+          "note": null
+        },
+        "5": {
+          "holdout": 5,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.7784,
+          "brier_base": 0.56,
+          "logloss": 1.2758,
+          "dir_acc": 20.0,
+          "note": null
+        },
+        "8": {
+          "holdout": 8,
+          "n": 8,
+          "scored": 8,
+          "brier": 0.7158,
+          "brier_base": 0.625,
+          "logloss": 1.1807,
+          "dir_acc": 25.0,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 10,
+          "scored": 10,
+          "brier": 0.7227,
+          "brier_base": 0.66,
+          "logloss": 1.1873,
+          "dir_acc": 20.0,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 15,
+          "scored": 15,
+          "brier": 0.6347,
+          "brier_base": 0.6311,
+          "logloss": 1.0578,
+          "dir_acc": 33.3,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 20,
+          "scored": 20,
+          "brier": 0.6517,
+          "brier_base": 0.62,
+          "logloss": 1.0795,
+          "dir_acc": 30.0,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 25,
+          "scored": 25,
+          "brier": 0.6321,
+          "brier_base": 0.6368,
+          "logloss": 1.0536,
+          "dir_acc": 32.0,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 30,
+          "scored": 30,
+          "brier": 0.6435,
+          "brier_base": 0.64,
+          "logloss": 1.068,
+          "dir_acc": 33.3,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 380,
+          "n": 374,
+          "scored": 374,
+          "brier": 0.614,
+          "brier_base": 0.6534,
+          "logloss": 1.0225,
+          "dir_acc": 49.2,
+          "note": null
+        }
+      }
+    },
+    "Italy Serie A": {
+      "dated_rows": 1900,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "PASS",
+      "train_rows": 1520,
+      "test_rows": 380,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 1,
+          "scored": 1,
+          "brier": 0.2121,
+          "brier_base": 0.0,
+          "logloss": 0.462,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "2": {
+          "holdout": 2,
+          "n": 2,
+          "scored": 2,
+          "brier": 0.5368,
+          "brier_base": 0.5,
+          "logloss": 0.8934,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "3": {
+          "holdout": 3,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.5647,
+          "brier_base": 0.6667,
+          "logloss": 0.9389,
+          "dir_acc": 66.7,
+          "note": null
+        },
+        "5": {
+          "holdout": 5,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.6226,
+          "brier_base": 0.64,
+          "logloss": 1.0467,
+          "dir_acc": 60.0,
+          "note": null
+        },
+        "8": {
+          "holdout": 8,
+          "n": 8,
+          "scored": 8,
+          "brier": 0.5325,
+          "brier_base": 0.5938,
+          "logloss": 0.9188,
+          "dir_acc": 62.5,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 10,
+          "scored": 10,
+          "brier": 0.5975,
+          "brier_base": 0.66,
+          "logloss": 1.0023,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 15,
+          "scored": 15,
+          "brier": 0.6502,
+          "brier_base": 0.6311,
+          "logloss": 1.0986,
+          "dir_acc": 46.7,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 20,
+          "scored": 20,
+          "brier": 0.6836,
+          "brier_base": 0.635,
+          "logloss": 1.1413,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 25,
+          "scored": 25,
+          "brier": 0.6697,
+          "brier_base": 0.6112,
+          "logloss": 1.1217,
+          "dir_acc": 48.0,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 30,
+          "scored": 30,
+          "brier": 0.6343,
+          "brier_base": 0.5978,
+          "logloss": 1.0687,
+          "dir_acc": 53.3,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 380,
+          "n": 374,
+          "scored": 374,
+          "brier": 0.5989,
+          "brier_base": 0.6579,
+          "logloss": 1.0035,
+          "dir_acc": 52.7,
+          "note": null
+        }
+      }
+    },
+    "Germany Bundesliga": {
+      "dated_rows": 1530,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "PASS",
+      "train_rows": 1224,
+      "test_rows": 306,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 1,
+          "scored": 1,
+          "brier": 0.2803,
+          "brier_base": 0.0,
+          "logloss": 0.5654,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "2": {
+          "holdout": 2,
+          "n": 2,
+          "scored": 2,
+          "brier": 0.4552,
+          "brier_base": 0.5,
+          "logloss": 0.8015,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "3": {
+          "holdout": 3,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.5212,
+          "brier_base": 0.4444,
+          "logloss": 0.8926,
+          "dir_acc": 33.3,
+          "note": null
+        },
+        "5": {
+          "holdout": 5,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.6762,
+          "brier_base": 0.64,
+          "logloss": 1.09,
+          "dir_acc": 20.0,
+          "note": null
+        },
+        "8": {
+          "holdout": 8,
+          "n": 8,
+          "scored": 8,
+          "brier": 0.7139,
+          "brier_base": 0.6562,
+          "logloss": 1.1538,
+          "dir_acc": 25.0,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 10,
+          "scored": 10,
+          "brier": 0.6829,
+          "brier_base": 0.64,
+          "logloss": 1.1112,
+          "dir_acc": 30.0,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 15,
+          "scored": 15,
+          "brier": 0.5889,
+          "brier_base": 0.6044,
+          "logloss": 0.9776,
+          "dir_acc": 46.7,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 20,
+          "scored": 20,
+          "brier": 0.5602,
+          "brier_base": 0.565,
+          "logloss": 0.9416,
+          "dir_acc": 55.0,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 25,
+          "scored": 25,
+          "brier": 0.6037,
+          "brier_base": 0.6272,
+          "logloss": 1.007,
+          "dir_acc": 48.0,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 30,
+          "scored": 30,
+          "brier": 0.6722,
+          "brier_base": 0.6511,
+          "logloss": 1.1262,
+          "dir_acc": 43.3,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 306,
+          "n": 300,
+          "scored": 300,
+          "brier": 0.5721,
+          "brier_base": 0.6477,
+          "logloss": 0.9721,
+          "dir_acc": 54.7,
+          "note": null
+        }
+      }
+    },
+    "France Ligue 1": {
+      "dated_rows": 1678,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "PASS",
+      "train_rows": 1372,
+      "test_rows": 306,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 1,
+          "scored": 1,
+          "brier": 0.4844,
+          "brier_base": 0.0,
+          "logloss": 0.8371,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "2": {
+          "holdout": 2,
+          "n": 2,
+          "scored": 2,
+          "brier": 0.7278,
+          "brier_base": 0.0,
+          "logloss": 1.1878,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "3": {
+          "holdout": 3,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.8382,
+          "brier_base": 0.4444,
+          "logloss": 1.3194,
+          "dir_acc": 33.3,
+          "note": null
+        },
+        "5": {
+          "holdout": 5,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.7524,
+          "brier_base": 0.48,
+          "logloss": 1.2055,
+          "dir_acc": 40.0,
+          "note": null
+        },
+        "8": {
+          "holdout": 8,
+          "n": 8,
+          "scored": 8,
+          "brier": 0.8186,
+          "brier_base": 0.6562,
+          "logloss": 1.3194,
+          "dir_acc": 25.0,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 10,
+          "scored": 10,
+          "brier": 0.7943,
+          "brier_base": 0.66,
+          "logloss": 1.2787,
+          "dir_acc": 30.0,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 15,
+          "scored": 15,
+          "brier": 0.6865,
+          "brier_base": 0.64,
+          "logloss": 1.1237,
+          "dir_acc": 40.0,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 20,
+          "scored": 20,
+          "brier": 0.6293,
+          "brier_base": 0.64,
+          "logloss": 1.0426,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 25,
+          "scored": 25,
+          "brier": 0.6311,
+          "brier_base": 0.6368,
+          "logloss": 1.041,
+          "dir_acc": 52.0,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 30,
+          "scored": 30,
+          "brier": 0.6429,
+          "brier_base": 0.6467,
+          "logloss": 1.0557,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 306,
+          "n": 300,
+          "scored": 300,
+          "brier": 0.5971,
+          "brier_base": 0.6411,
+          "logloss": 0.9984,
+          "dir_acc": 53.3,
+          "note": null
+        }
+      }
+    },
+    "Spain La Liga": {
+      "dated_rows": 1900,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "PASS",
+      "train_rows": 1520,
+      "test_rows": 380,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 1,
+          "scored": 1,
+          "brier": 0.505,
+          "brier_base": 0.0,
+          "logloss": 0.8646,
+          "dir_acc": 100.0,
+          "note": null
+        },
+        "2": {
+          "holdout": 2,
+          "n": 2,
+          "scored": 2,
+          "brier": 0.8069,
+          "brier_base": 0.0,
+          "logloss": 1.316,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "3": {
+          "holdout": 3,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.5937,
+          "brier_base": 0.0,
+          "logloss": 1.0109,
+          "dir_acc": 66.7,
+          "note": null
+        },
+        "5": {
+          "holdout": 5,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.5948,
+          "brier_base": 0.32,
+          "logloss": 1.0053,
+          "dir_acc": 60.0,
+          "note": null
+        },
+        "8": {
+          "holdout": 8,
+          "n": 8,
+          "scored": 8,
+          "brier": 0.5822,
+          "brier_base": 0.375,
+          "logloss": 0.989,
+          "dir_acc": 62.5,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 10,
+          "scored": 10,
+          "brier": 0.5655,
+          "brier_base": 0.46,
+          "logloss": 0.9652,
+          "dir_acc": 60.0,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 15,
+          "scored": 15,
+          "brier": 0.6059,
+          "brier_base": 0.5867,
+          "logloss": 1.0202,
+          "dir_acc": 46.7,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 20,
+          "scored": 20,
+          "brier": 0.5659,
+          "brier_base": 0.555,
+          "logloss": 0.9636,
+          "dir_acc": 55.0,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 25,
+          "scored": 25,
+          "brier": 0.593,
+          "brier_base": 0.5888,
+          "logloss": 1.0054,
+          "dir_acc": 52.0,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 30,
+          "scored": 30,
+          "brier": 0.6183,
+          "brier_base": 0.58,
+          "logloss": 1.0438,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 380,
+          "n": 374,
+          "scored": 374,
+          "brier": 0.5862,
+          "brier_base": 0.6299,
+          "logloss": 0.9866,
+          "dir_acc": 50.5,
+          "note": null
+        }
+      }
+    },
+    "Scottish Premiership": {
+      "dated_rows": 1140,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "PASS",
+      "train_rows": 912,
+      "test_rows": 228,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 1,
+          "scored": 1,
+          "brier": 0.7583,
+          "brier_base": 0.0,
+          "logloss": 1.2357,
+          "dir_acc": 0.0,
+          "note": null
+        },
+        "2": {
+          "holdout": 2,
+          "n": 2,
+          "scored": 2,
+          "brier": 0.6611,
+          "brier_base": 0.5,
+          "logloss": 1.0889,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "3": {
+          "holdout": 3,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.5934,
+          "brier_base": 0.6667,
+          "logloss": 0.994,
+          "dir_acc": 66.7,
+          "note": null
+        },
+        "5": {
+          "holdout": 5,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.5775,
+          "brier_base": 0.56,
+          "logloss": 0.9736,
+          "dir_acc": 60.0,
+          "note": null
+        },
+        "8": {
+          "holdout": 8,
+          "n": 8,
+          "scored": 8,
+          "brier": 0.6101,
+          "brier_base": 0.5312,
+          "logloss": 1.0199,
+          "dir_acc": 62.5,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 10,
+          "scored": 10,
+          "brier": 0.5559,
+          "brier_base": 0.58,
+          "logloss": 0.944,
+          "dir_acc": 70.0,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 15,
+          "scored": 15,
+          "brier": 0.6308,
+          "brier_base": 0.6311,
+          "logloss": 1.0492,
+          "dir_acc": 53.3,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 20,
+          "scored": 20,
+          "brier": 0.6032,
+          "brier_base": 0.615,
+          "logloss": 1.0086,
+          "dir_acc": 55.0,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 25,
+          "scored": 25,
+          "brier": 0.6328,
+          "brier_base": 0.6208,
+          "logloss": 1.0518,
+          "dir_acc": 48.0,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 30,
+          "scored": 30,
+          "brier": 0.614,
+          "brier_base": 0.6044,
+          "logloss": 1.0268,
+          "dir_acc": 50.0,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 228,
+          "n": 222,
+          "scored": 222,
+          "brier": 0.5828,
+          "brier_base": 0.647,
+          "logloss": 0.9774,
+          "dir_acc": 52.3,
+          "note": null
+        }
+      }
+    },
+    "Kosovo Superliga": {
+      "dated_rows": 180,
+      "rejected_invalid_dates": 0,
+      "invalid_date_examples": [],
+      "status": "INSUFFICIENT_DATA",
+      "train_rows": 180,
+      "test_rows": 0,
+      "reason": "requires at least 50 dated pre-cutoff rows and 30 dated test rows"
+    },
+    "UEFA": {
+      "dated_rows": 2857,
+      "rejected_invalid_dates": 343,
+      "invalid_date_examples": [
+        {
+          "dateISO": "2023-07-32",
+          "home": "ClubA94",
+          "away": "ClubB94"
+        },
+        {
+          "dateISO": "2023-07-33",
+          "home": "ClubA95",
+          "away": "ClubB95"
+        },
+        {
+          "dateISO": "2023-07-34",
+          "home": "ClubA96",
+          "away": "ClubB96"
+        }
+      ],
+      "status": "PASS",
+      "train_rows": 2243,
+      "test_rows": 614,
+      "results": {
+        "1": {
+          "holdout": 1,
+          "n": 0,
+          "scored": 0,
+          "brier": null,
+          "brier_base": 0.0,
+          "logloss": null,
+          "dir_acc": null,
+          "note": "no fixture passed the six-prior-games rule"
+        },
+        "2": {
+          "holdout": 2,
+          "n": 0,
+          "scored": 0,
+          "brier": null,
+          "brier_base": 0.0,
+          "logloss": null,
+          "dir_acc": null,
+          "note": "no fixture passed the six-prior-games rule"
+        },
+        "3": {
+          "holdout": 3,
+          "n": 0,
+          "scored": 0,
+          "brier": null,
+          "brier_base": 0.4444,
+          "logloss": null,
+          "dir_acc": null,
+          "note": "no fixture passed the six-prior-games rule"
+        },
+        "5": {
+          "holdout": 5,
+          "n": 0,
+          "scored": 0,
+          "brier": null,
+          "brier_base": 0.48,
+          "logloss": null,
+          "dir_acc": null,
+          "note": "no fixture passed the six-prior-games rule"
+        },
+        "8": {
+          "holdout": 8,
+          "n": 3,
+          "scored": 3,
+          "brier": 0.7081,
+          "brier_base": 0.5938,
+          "logloss": 1.166,
+          "dir_acc": 33.3,
+          "note": null
+        },
+        "10": {
+          "holdout": 10,
+          "n": 4,
+          "scored": 4,
+          "brier": 0.769,
+          "brier_base": 0.64,
+          "logloss": 1.2475,
+          "dir_acc": 25.0,
+          "note": null
+        },
+        "15": {
+          "holdout": 15,
+          "n": 5,
+          "scored": 5,
+          "brier": 0.7841,
+          "brier_base": 0.6311,
+          "logloss": 1.2718,
+          "dir_acc": 20.0,
+          "note": null
+        },
+        "20": {
+          "holdout": 20,
+          "n": 10,
+          "scored": 10,
+          "brier": 0.7435,
+          "brier_base": 0.645,
+          "logloss": 1.2128,
+          "dir_acc": 40.0,
+          "note": null
+        },
+        "25": {
+          "holdout": 25,
+          "n": 14,
+          "scored": 14,
+          "brier": 0.7494,
+          "brier_base": 0.6528,
+          "logloss": 1.2216,
+          "dir_acc": 35.7,
+          "note": null
+        },
+        "30": {
+          "holdout": 30,
+          "n": 15,
+          "scored": 15,
+          "brier": 0.7188,
+          "brier_base": 0.6311,
+          "logloss": 1.1787,
+          "dir_acc": 40.0,
+          "note": null
+        },
+        "FULL": {
+          "holdout": 614,
+          "n": 337,
+          "scored": 337,
+          "brier": 0.613,
+          "brier_base": 0.6237,
+          "logloss": 1.0248,
+          "dir_acc": 52.8,
+          "note": null
+        }
+      }
+    }
+  },
+  "existing_six_parity": {
+    "Russian Premier League": {
+      "shared_row_fingerprint_parity": true,
+      "ladder_metric_delta": "0.0000",
+      "pass": true
+    },
+    "Czech First League": {
+      "shared_row_fingerprint_parity": true,
+      "ladder_metric_delta": "0.0000",
+      "pass": true
+    },
+    "England Premier League": {
+      "shared_row_fingerprint_parity": true,
+      "ladder_metric_delta": "0.0000",
+      "pass": true
+    },
+    "Italy Serie A": {
+      "shared_row_fingerprint_parity": true,
+      "ladder_metric_delta": "0.0000",
+      "pass": true
+    },
+    "Germany Bundesliga": {
+      "shared_row_fingerprint_parity": true,
+      "ladder_metric_delta": "0.0000",
+      "pass": true
+    },
+    "France Ligue 1": {
+      "shared_row_fingerprint_parity": true,
+      "ladder_metric_delta": "0.0000",
+      "pass": true
+    }
+  },
+  "verdict": "CONDITIONAL: six shared leagues preserve exactly; KOS lacks a usable pre-cutoff history; UEFA has 343 malformed dates excluded from scoring."
+}

@@ -1,0 +1,49 @@
+# PRIMARY TRANSCRIPTION - MOL Cup (Pohar FACR) 2021-22, RSSSF tablest/tsje2022.html#cup
+# fetched 2026-08-03 (three-chunk page read, same day as the CZ1 league transcription).
+# Verbatim rows below; comments marked #. Grammar: C16|CQF|CSF|CF |iso-date|home|hg|ag|away
+# NOTE: RSSSF carries this cup FROM THE ROUND OF 16 ("1/8 Finals") onward only - earlier
+# rounds (R2/R3 where 1.liga clubs enter) are not on the page (documented in source_adaptation).
+#
+# --- 1/8 Finals ---
+# [Oct 26]
+C16|2021-10-26|Bohemians|1|0|Jihlava
+# [Oct 27]
+C16|2021-10-27|Ostrava|1|2|Hradec
+C16|2021-10-27|Teplice|0|2|Sparta
+C16|2021-10-27|MlBoleslav|2|0|Plzen
+# [Nov 11]
+C16|2021-11-11|Jablonec|4|0|Varnsdorf
+# [Nov 12]
+C16|2021-11-12|Slovacko|3|1|Karvina
+# [Nov 23]  CBudejovice 1-1 Olomouc [aet, 4-5 pen]   -> 90 min 1-1; OLOMOUC advanced on pens 5-4
+C16|2021-11-23|CBudejovice|1|1|Olomouc
+# [Dec 15]
+C16|2021-12-15|Slavia|3|1|Zlin
+#
+# --- Quarterfinals ---
+# [Feb 9]  Olomouc 0-0 Slovacko [aet, 2-4 pen]  -> 90 min 0-0; SLOVACKO advanced on pens 4-2
+CQF|2022-02-09|Olomouc|0|0|Slovacko
+# [Feb 9] (same date bucket; RSSSF header line spans both)
+CQF|2022-02-09|Slavia|0|2|Sparta
+# [Feb 15] Hradec 2-1 Bohemians [aet] -> 90 min 1-1 per second index; HRADEC advanced aet 2-1
+CQF|2022-02-15|Hradec|2|1|Bohemians
+# ^ RESOLVED: 90-min 1-1 (wiki box goal minutes 90+5/106; register molcup-venues-teams.txt B)
+# [Feb 16]
+CQF|2022-02-16|Jablonec|4|0|MlBoleslav
+#
+# --- Semifinals ---
+# [Mar 2]
+CSF|2022-03-02|Sparta|4|3|Jablonec
+# [Mar 25]
+CSF|2022-03-25|Hradec|0|1|Slovacko
+#
+# --- Final [May 18, Uherske Hradiste] ---
+CF|2022-05-18|Slovacko|3|1|Sparta
+#
+# Champion 2021-22: Slovacko (1. FC Slovacko). Final venue per RSSSF header: Uherske Hradiste.
+# Name forms on the page: "FK Vysocina Jihlava", "FK Varnsdorf", "FC Zlin" (= pinned `Zlin`,
+# Fastav era), "MFK Karvina" (= pinned `Karvina`; 2021-22 Karvina was a FIRST-LEAGUE club),
+# "FK Jablonec" (= `Jablonec`), "1.FC Slovacko", "SK Dynamo Ceske Budejovice",
+# "Bohemians 1905 Praha" (= `Bohemians 1905`), "SK Sigma Olomouc", "AC Sparta Praha",
+# "SK Slavia Praha", "FK Mlada Boleslav", "FC Viktoria Plzen", "FC Hradec Kralove",
+# "FK Teplice", "FC Banik Ostrava" -> all map to the 17 pinned WO-02 section-3 strings.

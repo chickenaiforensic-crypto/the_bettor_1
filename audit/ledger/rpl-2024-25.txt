@@ -1,0 +1,258 @@
+# RPL 2024/25 league — RSSSF rus2025.html #1l (rounds 1-30) + #prorel, transcription started 2026-08-04 (decree DECREE-2026-08-04 full-span override)
+# MD|date|home|hg|ag|away   (RSSSF compact club strings on this page; builder maps to roster strings:
+#   Himki=>FC Khimki (this page's spelling), KS Samara=>Krylia Sovetov Samara, Ahmat=>Akhmat Grozny,
+#   Dinamo Ms=>Dynamo Moscow, Dinamo Mh=>Dynamo Makhachkala, Akron=>Akron Tolyatti, Fakel=>Fakel Voronezh,
+#   Pari NN=>Pari Nizhny Novgorod, Orenburg=>FC Orenburg, Rostov=>FC Rostov, Rubin=>Rubin Kazan,
+#   Krasnodar=>FC Krasnodar, Zenit=>Zenit St Petersburg, CSKA=>CSKA Moscow, Spartak=>Spartak Moscow, Lokomotiv=>Lokomotiv Moscow)
+# notables documented on-page so far:
+#  - season NB: Akron play home games at Krylja Sovetov's stadium in Samara; Dinamo Mh home games in Kaspiysk.
+#  - R12 [Oct 20] Rubin 0-4 Dinamo Ms staged in Nizhny Novgorod (city tag on the match line).
+#  - R23 [Apr 5] Fakel 0-0 Ahmat printed Att: 0 (behind closed doors) - match valid, row kept.
+#  - final table NB: 11/12 H2H bracket Dinamo Mh over Himki [2 1 1 0 5-2 4 / 2 0 1 1 2-5 1]; 13/14 Pari NN/Akhmat -> relegation playoff; 15/16 Orenburg/Fakel relegated.
+#  - half-way table cross-check anchor printed after R15 (Krasnodar 37, Zenit 36, ...).
+R1|2024-07-20|KS Samara|0|4|Zenit
+R1|2024-07-20|Dinamo Ms|3|1|Fakel
+R1|2024-07-20|Lokomotiv|3|2|Akron
+R1|2024-07-20|Rostov|0|0|CSKA
+R1|2024-07-21|Ahmat|1|1|Krasnodar
+R1|2024-07-21|Orenburg|2|0|Spartak
+R1|2024-07-21|Himki|1|1|Dinamo Mh
+R1|2024-07-22|Pari NN|2|4|Rubin
+R2|2024-07-26|KS Samara|1|3|Rostov
+R2|2024-07-27|Rubin|0|4|Zenit
+R2|2024-07-27|Dinamo Ms|3|1|Lokomotiv
+R2|2024-07-27|Pari NN|0|3|CSKA
+R2|2024-07-27|Fakel|0|2|Akron
+R2|2024-07-28|Orenburg|0|0|Ahmat
+R2|2024-07-28|Krasnodar|0|0|Dinamo Mh
+R2|2024-07-28|Himki|1|3|Spartak
+R3|2024-08-03|Zenit|5|0|Rostov
+R3|2024-08-03|Akron|0|2|Dinamo Ms
+R3|2024-08-03|Rubin|2|3|Himki
+R3|2024-08-04|CSKA|5|1|Orenburg
+R3|2024-08-04|Ahmat|0|5|Lokomotiv
+R3|2024-08-04|Fakel|0|0|Krasnodar
+R3|2024-08-04|Dinamo Mh|0|1|Pari NN
+R3|2024-08-05|Spartak|3|0|KS Samara
+R4|2024-08-09|Pari NN|1|0|Himki
+R4|2024-08-09|Rostov|1|1|Rubin
+R4|2024-08-10|Zenit|1|0|Dinamo Ms
+R4|2024-08-10|Krasnodar|2|1|CSKA
+R4|2024-08-10|Lokomotiv|2|0|Dinamo Mh
+R4|2024-08-10|Orenburg|2|2|Akron
+R4|2024-08-11|Spartak|0|0|Ahmat
+R4|2024-08-11|KS Samara|2|0|Fakel
+R5|2024-08-17|Dinamo Ms|1|0|KS Samara
+R5|2024-08-17|Rostov|3|2|Orenburg
+R5|2024-08-18|Himki|1|1|Zenit
+R5|2024-08-18|CSKA|0|1|Lokomotiv
+R5|2024-08-18|Spartak|3|0|Fakel
+R5|2024-08-18|Krasnodar|2|1|Pari NN
+R5|2024-08-19|Akron|1|2|Rubin
+R5|2024-08-19|Dinamo Mh|1|0|Ahmat
+R6|2024-08-23|Rubin|2|0|Dinamo Mh
+R6|2024-08-24|Zenit|0|0|Spartak
+R6|2024-08-24|CSKA|4|0|Akron
+R6|2024-08-24|Ahmat|3|3|Himki
+R6|2024-08-24|Fakel|1|0|Orenburg
+R6|2024-08-25|Dinamo Ms|0|1|Krasnodar
+R6|2024-08-25|Lokomotiv|3|2|Rostov
+R6|2024-08-25|KS Samara|3|1|Pari NN
+R7|2024-08-31|Pari NN|0|3|Zenit
+R7|2024-08-31|Spartak|1|0|Rubin
+R7|2024-08-31|Himki|0|2|CSKA
+R7|2024-08-31|Ahmat|0|0|Akron
+R7|2024-09-01|Lokomotiv|0|3|Krasnodar
+R7|2024-09-01|Orenburg|2|2|Dinamo Ms
+R7|2024-09-01|Rostov|4|1|Fakel
+R7|2024-09-01|KS Samara|0|1|Dinamo Mh
+R8|2024-09-13|Rubin|0|2|KS Samara
+R8|2024-09-14|CSKA|0|1|Zenit
+R8|2024-09-14|Krasnodar|2|0|Rostov
+R8|2024-09-14|Orenburg|2|4|Lokomotiv
+R8|2024-09-14|Fakel|0|0|Pari NN
+R8|2024-09-15|Dinamo Mh|1|1|Spartak
+R8|2024-09-15|Dinamo Ms|4|2|Ahmat
+R8|2024-09-15|Akron|3|0|Himki
+R9|2024-09-21|Zenit|3|1|Fakel
+R9|2024-09-21|Akron|2|5|Krasnodar
+R9|2024-09-21|Rubin|1|1|CSKA
+R9|2024-09-22|Pari NN|1|3|Lokomotiv
+R9|2024-09-22|Spartak|2|2|Dinamo Ms
+R9|2024-09-22|Rostov|0|0|Dinamo Mh
+R9|2024-09-22|Himki|0|0|Orenburg
+R9|2024-09-23|Ahmat|1|1|KS Samara
+R10|2024-09-27|Fakel|0|0|Rubin
+R10|2024-09-27|Orenburg|1|2|Pari NN
+R10|2024-09-28|Krasnodar|2|0|Zenit
+R10|2024-09-28|Lokomotiv|3|1|Spartak
+R10|2024-09-28|CSKA|3|0|Ahmat
+R10|2024-09-28|Rostov|0|2|Akron
+R10|2024-09-29|Dinamo Mh|0|1|Dinamo Ms
+R10|2024-09-29|KS Samara|0|0|Himki
+R11|2024-10-05|Zenit|1|0|Orenburg
+R11|2024-10-05|Spartak|3|0|Rostov
+R11|2024-10-05|Rubin|2|0|Ahmat
+R11|2024-10-05|Akron|2|2|Pari NN
+R11|2024-10-06|Krasnodar|4|0|Himki
+R11|2024-10-06|Lokomotiv|1|0|KS Samara
+R11|2024-10-06|Dinamo Ms|1|2|CSKA
+R11|2024-10-06|Fakel|1|1|Dinamo Mh
+R12|2024-10-18|Akron|0|5|Zenit
+R12|2024-10-18|Ahmat|2|3|Fakel
+R12|2024-10-19|Spartak|0|3|Krasnodar
+R12|2024-10-19|Himki|2|0|Lokomotiv
+R12|2024-10-19|Dinamo Mh|0|1|CSKA
+R12|2024-10-19|Pari NN|1|1|Rostov
+R12|2024-10-20|Rubin|0|4|Dinamo Ms
+R12|2024-10-20|Orenburg|2|2|KS Samara
+R13|2024-10-26|CSKA|0|0|Fakel
+R13|2024-10-26|Rostov|2|3|Ahmat
+R13|2024-10-26|Dinamo Mh|1|1|Akron
+R13|2024-10-27|Zenit|1|1|Lokomotiv
+R13|2024-10-27|Himki|3|4|Dinamo Ms
+R13|2024-10-27|Pari NN|0|2|Spartak
+R13|2024-10-27|Orenburg|1|2|Rubin
+R13|2024-10-28|KS Samara|1|2|Krasnodar
+R14|2024-11-01|Dinamo Ms|1|1|Rostov
+R14|2024-11-02|Zenit|2|1|Dinamo Mh
+R14|2024-11-02|Lokomotiv|1|0|Rubin
+R14|2024-11-02|CSKA|0|2|Spartak
+R14|2024-11-03|Krasnodar|4|0|Orenburg
+R14|2024-11-03|Akron|2|0|KS Samara
+R14|2024-11-03|Ahmat|0|2|Pari NN
+R14|2024-11-03|Fakel|1|1|Himki
+R15|2024-11-09|Lokomotiv|2|1|Fakel
+R15|2024-11-09|Dinamo Ms|3|1|Pari NN
+R15|2024-11-09|Rostov|3|1|Himki
+R15|2024-11-09|Dinamo Mh|2|1|Orenburg
+R15|2024-11-10|Rubin|1|1|Krasnodar
+R15|2024-11-10|Ahmat|1|2|Zenit
+R15|2024-11-10|Spartak|4|0|Akron
+R15|2024-11-10|KS Samara|1|2|CSKA
+R16|2024-11-22|Rubin|3|0|Akron
+R16|2024-11-23|Himki|2|2|Krasnodar
+R16|2024-11-23|Orenburg|0|1|Zenit
+R16|2024-11-23|Spartak|5|2|Lokomotiv
+R16|2024-11-23|CSKA|1|2|Rostov
+R16|2024-11-24|Fakel|1|1|Dinamo Ms
+R16|2024-11-24|Pari NN|0|0|Dinamo Mh
+R16|2024-11-24|KS Samara|2|1|Ahmat
+R17|2024-11-30|CSKA|2|2|Rubin
+R17|2024-11-30|Rostov|4|0|Pari NN
+R17|2024-11-30|Akron|1|0|Orenburg
+R17|2024-12-01|Zenit|2|3|KS Samara
+R17|2024-12-01|Krasnodar|0|3|Spartak
+R17|2024-12-01|Lokomotiv|1|3|Himki
+R17|2024-12-01|Dinamo Mh|0|0|Fakel
+R17|2024-12-02|Ahmat|1|1|Dinamo Ms
+R18|2024-12-07|Zenit|1|2|Akron
+R18|2024-12-07|Spartak|3|0|Pari NN
+R18|2024-12-07|Rostov|3|1|KS Samara
+R18|2024-12-07|Dinamo Mh|2|3|Rubin
+R18|2024-12-08|Krasnodar|0|0|Lokomotiv
+R18|2024-12-08|Dinamo Ms|4|1|Himki
+R18|2024-12-08|Fakel|0|1|CSKA
+R18|2024-12-08|Ahmat|1|0|Orenburg
+R19|2025-02-28|Dinamo Mh|1|1|Lokomotiv
+R19|2025-03-01|Krasnodar|1|1|KS Samara
+R19|2025-03-01|Zenit|0|0|CSKA
+R19|2025-03-01|Ahmat|2|1|Rubin
+R19|2025-03-01|Pari NN|2|1|Akron
+R19|2025-03-02|Spartak|2|0|Orenburg
+R19|2025-03-02|Rostov|1|1|Dinamo Ms
+R19|2025-03-02|Himki|1|0|Fakel
+R20|2025-03-07|Pari NN|0|3|Krasnodar
+R20|2025-03-07|Lokomotiv|1|1|Ahmat
+R20|2025-03-08|Fakel|0|2|Zenit
+R20|2025-03-08|Dinamo Ms|4|0|Dinamo Mh
+R20|2025-03-08|CSKA|1|0|Himki
+R20|2025-03-08|Orenburg|1|2|Rostov
+R20|2025-03-09|Rubin|2|1|Spartak
+R20|2025-03-09|KS Samara|0|2|Akron
+R21|2025-03-15|Lokomotiv|2|1|Dinamo Ms
+R21|2025-03-15|Dinamo Mh|4|0|KS Samara
+R21|2025-03-15|Himki|1|1|Ahmat
+R21|2025-03-15|Orenburg|1|0|Fakel
+R21|2025-03-16|Rostov|0|1|Krasnodar
+R21|2025-03-16|Spartak|2|1|Zenit
+R21|2025-03-16|Akron|1|2|CSKA
+R21|2025-03-16|Rubin|1|0|Pari NN
+R22|2025-03-28|KS Samara|5|1|Lokomotiv
+R22|2025-03-29|Dinamo Ms|5|1|Orenburg
+R22|2025-03-29|CSKA|2|0|Dinamo Mh
+R22|2025-03-29|Himki|2|0|Pari NN
+R22|2025-03-30|Krasnodar|5|0|Fakel
+R22|2025-03-30|Ahmat|0|0|Spartak
+R22|2025-03-30|Zenit|4|0|Rubin
+R22|2025-03-31|Akron|2|3|Rostov
+R23|2025-04-04|Pari NN|1|2|Orenburg
+R23|2025-04-05|Krasnodar|1|0|Akron
+R23|2025-04-05|Lokomotiv|1|1|Zenit
+R23|2025-04-05|KS Samara|1|1|Rubin
+R23|2025-04-05|Fakel|0|0|Ahmat
+R23|2025-04-06|Rostov|0|3|Spartak
+R23|2025-04-06|CSKA|3|1|Dinamo Ms
+R23|2025-04-06|Dinamo Mh|4|1|Himki
+R24|2025-04-11|Spartak|1|2|Dinamo Mh
+R24|2025-04-12|Orenburg|0|2|CSKA
+R24|2025-04-12|Pari NN|1|1|Dinamo Ms
+R24|2025-04-12|Rubin|1|0|Lokomotiv
+R24|2025-04-12|Ahmat|2|1|Rostov
+R24|2025-04-13|Zenit|4|1|Krasnodar
+R24|2025-04-13|Akron|1|0|Fakel
+R24|2025-04-13|Himki|1|3|KS Samara
+R25|2025-04-19|Krasnodar|3|1|Ahmat
+R25|2025-04-19|Akron|2|3|Spartak
+R25|2025-04-19|Lokomotiv|3|0|Pari NN
+R25|2025-04-19|Orenburg|2|1|Dinamo Mh
+R25|2025-04-20|Zenit|1|0|Himki
+R25|2025-04-20|CSKA|1|1|KS Samara
+R25|2025-04-20|Dinamo Ms|3|1|Rubin
+R25|2025-04-20|Fakel|0|2|Rostov
+R26|2025-04-25|Dinamo Mh|2|3|Krasnodar
+R26|2025-04-26|Dinamo Ms|1|1|Zenit
+R26|2025-04-26|Spartak|1|2|CSKA
+R26|2025-04-26|Rostov|1|1|Lokomotiv
+R26|2025-04-26|Pari NN|1|0|Ahmat
+R26|2025-04-27|Rubin|2|1|Fakel
+R26|2025-04-27|Himki|2|2|Akron
+R26|2025-04-27|KS Samara|2|0|Orenburg
+R27|2025-05-02|Akron|1|0|Dinamo Mh
+R27|2025-05-03|Krasnodar|2|1|Rubin
+R27|2025-05-03|Lokomotiv|1|1|Orenburg
+R27|2025-05-04|Zenit|2|1|Pari NN
+R27|2025-05-04|Ahmat|1|1|CSKA
+R27|2025-05-04|Fakel|0|0|Spartak
+R27|2025-05-04|Himki|1|1|Rostov
+R27|2025-05-05|KS Samara|1|3|Dinamo Ms
+R28|2025-05-10|CSKA|1|0|Krasnodar
+R28|2025-05-10|Dinamo Mh|0|1|Zenit
+R28|2025-05-10|Orenburg|1|1|Himki
+R28|2025-05-11|Dinamo Ms|2|0|Spartak
+R28|2025-05-11|Fakel|0|1|Lokomotiv
+R28|2025-05-11|Rubin|1|0|Rostov
+R28|2025-05-11|Akron|3|2|Ahmat
+R28|2025-05-12|Pari NN|5|2|KS Samara
+R29|2025-05-17|Orenburg|1|2|Krasnodar
+R29|2025-05-17|Himki|3|2|Rubin
+R29|2025-05-17|Pari NN|1|1|Fakel
+R29|2025-05-18|Rostov|0|1|Zenit
+R29|2025-05-18|Dinamo Ms|2|1|Akron
+R29|2025-05-18|KS Samara|0|2|Spartak
+R29|2025-05-18|Ahmat|1|1|Dinamo Mh
+R29|2025-05-19|Lokomotiv|2|2|CSKA
+R30|2025-05-24|Krasnodar|3|0|Dinamo Ms
+R30|2025-05-24|Zenit|3|0|Ahmat
+R30|2025-05-24|CSKA|2|0|Pari NN
+R30|2025-05-24|Spartak|5|0|Himki
+R30|2025-05-24|Akron|1|4|Lokomotiv
+R30|2025-05-24|Rubin|4|2|Orenburg
+R30|2025-05-24|Dinamo Mh|1|1|Rostov
+R30|2025-05-24|Fakel|1|1|KS Samara
+# TABLE-CONSTANTS (RSSSF final table, order incl. H2H bracket 11/12): 1 Krasnodar 30 20-7-3 59-23 67; 2 Zenit 30 20-6-4 58-18 66 [C]; 3 CSKA 30 17-8-5 47-21 59; 4 Spartak 30 17-6-7 56-25 57; 5 Dinamo Ms 30 16-8-6 61-35 56; 6 Lokomotiv 30 15-8-7 51-41 53; 7 Rubin 30 13-6-11 42-45 45; 8 Rostov 30 10-9-11 41-43 39; 9 Akron 30 10-5-15 39-55 35 [P]; 10 KS Samara 30 8-7-15 36-51 31; 11 Dinamo Mh 30 6-11-13 27-35 29 [P][H2H 2 1 1 0 5-2 4]; 12 Himki 30 6-11-13 35-56 29 [P][2 0 1 1 2-5 1]; 13 Pari NN 30 7-6-17 27-54 27 playoff; 14 Ahmat 30 4-13-13 27-48 25 playoff; 15 Orenburg 30 4-7-19 28-56 19 relegated; 16 Fakel 30 2-12-16 14-42 18 relegated. Source totals: 240 games, 648 goals (18 OG), avg 2.7; attendance chapter: 239 games attended (one behind closed doors = R23 Fakel-Ahmat).
+# PLAYOFFS (promotion/relegation, RSSSF #prorel). NB from source: FC Sochi promoted; Pari NN NOT relegated (take FC Khimki's place, Khimki denied the RPL license); Akhmat and Ural remain at their level. Aggregates: Akhmat 3-2 Ural; Sochi 4-3 Pari NN. All decided in 180 minutes - no shootouts. Roster strings: Ural Yekaterinburg / PFC Sochi / Pari Nizhny Novgorod / Akhmat Grozny.
+PRO-rel leg1|2025-05-28|Ural|2|1|Ahmat
+PRO-rel leg1|2025-05-28|Sochi|1|2|Pari NN
+PRO-rel leg2|2025-05-31|Ahmat|2|0|Ural
+PRO-rel leg2|2025-05-31|Pari NN|1|3|Sochi

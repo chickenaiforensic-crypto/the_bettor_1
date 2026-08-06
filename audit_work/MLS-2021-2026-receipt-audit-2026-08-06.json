@@ -1,0 +1,54 @@
+{
+  "pack": "handoffs/MLS-2021-2026_BP-TEAM-PACK_v2.txt",
+  "matches": 1994,
+  "team_declarations": 30,
+  "structural_error_count": 1994,
+  "structural_error_categories": {
+    "MATCH has 13 fields (<14)": 1994
+  },
+  "structural_error_examples": [
+    "L32: MATCH has 13 fields (<14)",
+    "L33: MATCH has 13 fields (<14)",
+    "L34: MATCH has 13 fields (<14)"
+  ],
+  "source_reference_integrity": {
+    "declared_source_ids": [
+      "rsssf-mls-2021",
+      "rsssf-mls-2022",
+      "rsssf-mls-2023",
+      "rsssf-mls-2024",
+      "rsssf-mls-2025"
+    ],
+    "match_sourceId_present": 0,
+    "misplaced_final_tokens": {
+      "rsssf-mls": 1994
+    },
+    "misplaced_tokens_matching_declared_source": 0
+  },
+  "duplicate_fingerprints": 0,
+  "regular_season_rows": {
+    "2021": 459,
+    "2022": 476,
+    "2023": 493,
+    "2024": 482,
+    "2025": 0,
+    "2026": 0
+  },
+  "playoff_rows": {
+    "2021": 13,
+    "2022": 13,
+    "2023": 28,
+    "2024": 0,
+    "2025": 30,
+    "2026": 0
+  },
+  "researcher_blockers": [
+    "2025 MLS regular season (34 rounds) NOT RETURNED: RSSSF usa2025.html provides final tables + playoff only, no round-by-round regular-season match list. Requires a secondary source (worldfootball.net) capture; blocked pending that.",
+    "2026 MLS regular season to-date NOT RETURNED: RSSSF has no usa2026.html page. 2026 held appendix rows (2026-07-22/25/31) are NOT duplicated here. Requires worldfootball.net 2026 capture; blocked pending that."
+  ],
+  "scope_missing": [
+    "2025 regular season has 0/510 required rows",
+    "2026 regular season has 0 rows; workorder requires to-date coverage"
+  ],
+  "decision": "RETURN_INCOMPLETE"
+}

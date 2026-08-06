@@ -1,0 +1,42 @@
+{
+  "kind": "dc-fitted-league-pivot",
+  "version": "v3.10.0-league-pivot-16629-v2",
+  "generatedAt": "2026-08-06T00:00:00Z",
+  "data": {
+    "store": "audit_work/pitch-rating-full-16629-europe-complete-2026-08-05.json",
+    "cutoff": "2024-07-01",
+    "train_filtered": 2586,
+    "test_filtered": 614,
+    "s_pivot": {
+      "Germany Bundesliga": -0.3409338743252392,
+      "Italy Serie A": -0.15029579349094196,
+      "Spain La Liga": -0.1367803507874853,
+      "Russian Premier League": -0.39025339498085565,
+      "Kosovo Superliga": -0.4444613596298882,
+      "England Premier League": 0.08091556568694441
+    },
+    "hfa_per_league": {
+      "Czech First League": 0.2535930788740538,
+      "England Premier League": 0.23899273567487764,
+      "France Ligue 1": 0.22934350123456326,
+      "Italy Serie A": 0.2263799623183721,
+      "Kosovo Superliga": 0.2511115561734553,
+      "Russian Premier League": 0.25008549075352515,
+      "Germany Bundesliga": 0.25926013265596287,
+      "Scottish Premiership": 0.25284324526520324,
+      "Spain La Liga": 0.2559400719271127
+    },
+    "mu": 0.2647083871535274,
+    "mse_frozen": 4.368584551497842,
+    "mse_weighted": 4.322193794544141,
+    "improvement_pct_mse": 1.0619173420323376,
+    "brier_frozen": 0.6306833580561151,
+    "brier_weighted": 0.6299627069521562,
+    "brier_base": 0.6236670946110829,
+    "improvement_pct_brier_vs_frozen": 0.11426512127735479,
+    "gain_vs_base_pct": -1.0094507783834832,
+    "method": "v2 canon matching, full \u03bb model \u03bb_home=exp(\u03bc+att-def+hfa+hextra+sLA-sLB), per-league HFA, bias loop step 0.05 tol 0.02 iter 100, Poisson RHO -0.06 Brier, cutoff 2024-07-01, filtered in-scope canon \u22651 programme club, meets \u2265100 req with 614 test",
+    "note": "Refined pivot v2 with canon matching, \u2265100 samples, full \u03bb, per-league HFA, Brier"
+  },
+  "note": "Refined v2 canon"
+}

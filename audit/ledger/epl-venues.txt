@@ -1,0 +1,118 @@
+# EPL VENUES 2021-22..2025-26 + TABLE-CORROBORATION NOTES — transcribed 2026-08-03 from the
+# Wikipedia season articles' "Stadiums and locations" tables (fetched 2026-08-03 via fetch_page;
+# section chunks listed per season below). Independent of RSSSF fixtures = venue second index.
+# VENUE|<season>|<stock>|<stadium>|<city-canonical>|<capacity as printed>|<location cell verbatim>
+# City canonicalization decree (EPL): metalocality used by source in most seasons; verbatim cell
+# kept in last field. Man United: 2021-22 article prints "Trafford"; 2022-23..2024-25 print
+# "Manchester (Old Trafford)"; 2025-26 prints "Trafford, Manchester" — one stadium throughout,
+# canonical city = Manchester (documented; both source spellings refer to Old Trafford, Trafford,
+# Greater Manchester). All other clubs' canonical = printed locality unchanged across seasons.
+# London clubs print "London (<district>)" — canonical London. Country = England (all rows).
+# No groundshares/neutral-venue league fixtures in the window. Everton moved from Goodison Park
+# (through 2024-25) to Hill Dickinson Stadium (from 2025-26) — epoch boundary documented in pack.
+#
+# == 2021-22 (chunks 3-4 of 33)
+VENUE|2021-22|Arsenal|Emirates Stadium|London|60704|London (Holloway)
+VENUE|2021-22|Villa|Villa Park|Birmingham|42682|Birmingham
+VENUE|2021-22|Brentford|Brentford Community Stadium|London|17250|London (Brentford)
+VENUE|2021-22|Brighton|Falmer Stadium|Falmer|31800|Falmer
+VENUE|2021-22|Burnley|Turf Moor|Burnley|21944|Burnley
+VENUE|2021-22|Chelsea|Stamford Bridge|London|40834|London (Fulham)
+VENUE|2021-22|Palace|Selhurst Park|London|25486|London (Selhurst)
+VENUE|2021-22|Everton|Goodison Park|Liverpool|39414|Liverpool (Walton)
+VENUE|2021-22|Leeds|Elland Road|Leeds|37792|Leeds
+VENUE|2021-22|Leicester|King Power Stadium|Leicester|32312|Leicester
+VENUE|2021-22|Liverpool|Anfield|Liverpool|53394|Liverpool (Anfield)
+VENUE|2021-22|City|City of Manchester Stadium|Manchester|53400|Manchester (Bradford)
+VENUE|2021-22|United|Old Trafford|Manchester|74140|Trafford
+VENUE|2021-22|Newcastle|St James' Park|Newcastle upon Tyne|52305|Newcastle upon Tyne
+VENUE|2021-22|Norwich|Carrow Road|Norwich|27244|Norwich
+VENUE|2021-22|Southampton|St Mary's Stadium|Southampton|32384|Southampton
+VENUE|2021-22|Tottenham|Tottenham Hotspur Stadium|London|62850|London (Tottenham)
+VENUE|2021-22|Watford|Vicarage Road|Watford|22200|Watford
+VENUE|2021-22|WestHam|London Stadium|London|60000|London (Stratford)
+VENUE|2021-22|Wolves|Molineux Stadium|Wolverhampton|32050|Wolverhampton
+# == 2022-23 (chunks 3-4 of 35)
+VENUE|2022-23|Arsenal|Emirates Stadium|London|60704|London (Holloway)
+VENUE|2022-23|Villa|Villa Park|Birmingham|42657|Birmingham
+VENUE|2022-23|Bournemouth|Dean Court|Bournemouth|11307|Bournemouth
+VENUE|2022-23|Brentford|Brentford Community Stadium|London|17250|London (Brentford)
+VENUE|2022-23|Brighton|Falmer Stadium|Falmer|31780|Falmer
+VENUE|2022-23|Chelsea|Stamford Bridge|London|40343|London (Fulham)
+VENUE|2022-23|Palace|Selhurst Park|London|25486|London (Selhurst)
+VENUE|2022-23|Everton|Goodison Park|Liverpool|39414|Liverpool (Walton)
+VENUE|2022-23|Fulham|Craven Cottage|London|22384|London (Fulham)
+VENUE|2022-23|Leeds|Elland Road|Leeds|37608|Leeds
+VENUE|2022-23|Leicester|King Power Stadium|Leicester|32262|Leicester
+VENUE|2022-23|Liverpool|Anfield|Liverpool|53394|Liverpool (Anfield)
+VENUE|2022-23|City|City of Manchester Stadium|Manchester|53400|Manchester (Eastlands)
+VENUE|2022-23|United|Old Trafford|Manchester|74310|Manchester (Old Trafford)
+VENUE|2022-23|Newcastle|St James' Park|Newcastle upon Tyne|52305|Newcastle upon Tyne
+VENUE|2022-23|Nottingham|City Ground|West Bridgford|30332|West Bridgford
+VENUE|2022-23|Southampton|St Mary's Stadium|Southampton|32384|Southampton
+VENUE|2022-23|Tottenham|Tottenham Hotspur Stadium|London|62850|London (Tottenham)
+VENUE|2022-23|WestHam|London Stadium|London|62500|London (Stratford)
+VENUE|2022-23|Wolves|Molineux Stadium|Wolverhampton|31750|Wolverhampton
+# == 2023-24 (chunk 4 of 35)
+VENUE|2023-24|Arsenal|Emirates Stadium|London|60704|London (Holloway)
+VENUE|2023-24|Villa|Villa Park|Birmingham|42657|Birmingham
+VENUE|2023-24|Bournemouth|Dean Court|Bournemouth|11307|Bournemouth
+VENUE|2023-24|Brentford|Brentford Community Stadium|London|17250|London (Brentford)
+VENUE|2023-24|Brighton|Falmer Stadium|Falmer|31876|Falmer
+VENUE|2023-24|Burnley|Turf Moor|Burnley|21944|Burnley
+VENUE|2023-24|Chelsea|Stamford Bridge|London|40173|London (Fulham)
+VENUE|2023-24|Palace|Selhurst Park|London|25486|London (Selhurst)
+VENUE|2023-24|Everton|Goodison Park|Liverpool|39414|Liverpool (Walton)
+VENUE|2023-24|Fulham|Craven Cottage|London|24500|London (Fulham)
+VENUE|2023-24|Liverpool|Anfield|Liverpool|61276|Liverpool (Anfield)
+VENUE|2023-24|Luton|Kenilworth Road|Luton|12000|Luton
+VENUE|2023-24|City|City of Manchester Stadium|Manchester|53400|Manchester (Bradford)
+VENUE|2023-24|United|Old Trafford|Manchester|74031|Manchester (Old Trafford)
+VENUE|2023-24|Newcastle|St James' Park|Newcastle upon Tyne|52257|Newcastle upon Tyne
+VENUE|2023-24|Nottingham|City Ground|West Bridgford|30404|West Bridgford
+VENUE|2023-24|SheffUtd|Bramall Lane|Sheffield|32050|Sheffield
+VENUE|2023-24|Tottenham|Tottenham Hotspur Stadium|London|62850|London (Tottenham)
+VENUE|2023-24|WestHam|London Stadium|London|62500|London (Stratford)
+VENUE|2023-24|Wolves|Molineux Stadium|Wolverhampton|31750|Wolverhampton
+# == 2024-25 (chunk 3 of 37)
+VENUE|2024-25|Arsenal|Emirates Stadium|London|60704|London (Holloway)
+VENUE|2024-25|Villa|Villa Park|Birmingham|42918|Birmingham
+VENUE|2024-25|Bournemouth|Dean Court|Bournemouth|11307|Bournemouth
+VENUE|2024-25|Brentford|Brentford Community Stadium|London|17250|London (Brentford)
+VENUE|2024-25|Brighton|Falmer Stadium|Falmer|31876|Falmer
+VENUE|2024-25|Chelsea|Stamford Bridge|London|40173|London (Fulham)
+VENUE|2024-25|Palace|Selhurst Park|London|25194|London (Selhurst)
+VENUE|2024-25|Everton|Goodison Park|Liverpool|39414|Liverpool (Walton)
+VENUE|2024-25|Fulham|Craven Cottage|London|24500|London (Fulham)
+VENUE|2024-25|Ipswich|Portman Road|Ipswich|30056|Ipswich
+VENUE|2024-25|Leicester|King Power Stadium|Leicester|32259|Leicester
+VENUE|2024-25|Liverpool|Anfield|Liverpool|61276|Liverpool (Anfield)
+VENUE|2024-25|City|City of Manchester Stadium|Manchester|52900|Manchester (Bradford)
+VENUE|2024-25|United|Old Trafford|Manchester|74197|Manchester (Old Trafford)
+VENUE|2024-25|Newcastle|St James' Park|Newcastle upon Tyne|52258|Newcastle upon Tyne
+VENUE|2024-25|Nottingham|City Ground|West Bridgford|31042|West Bridgford
+VENUE|2024-25|Southampton|St Mary's Stadium|Southampton|32384|Southampton
+VENUE|2024-25|Tottenham|Tottenham Hotspur Stadium|London|62850|London (Tottenham)
+VENUE|2024-25|WestHam|London Stadium|London|62500|London (Stratford)
+VENUE|2024-25|Wolves|Molineux Stadium|Wolverhampton|31750|Wolverhampton
+# == 2025-26 (chunk 3 of 35; Everton first season at Hill Dickinson Stadium, Vauxhall, Liverpool)
+VENUE|2025-26|Arsenal|Emirates Stadium|London|60704|London (Holloway)
+VENUE|2025-26|Villa|Villa Park|Birmingham|43205|Birmingham
+VENUE|2025-26|Bournemouth|Dean Court|Bournemouth|11307|Bournemouth
+VENUE|2025-26|Brentford|Brentford Community Stadium|London|17250|London (Brentford)
+VENUE|2025-26|Brighton|Falmer Stadium|Falmer|31876|Falmer
+VENUE|2025-26|Burnley|Turf Moor|Burnley|21990|Burnley
+VENUE|2025-26|Chelsea|Stamford Bridge|London|40044|London (Fulham)
+VENUE|2025-26|Palace|Selhurst Park|London|25194|London (Selhurst)
+VENUE|2025-26|Everton|Hill Dickinson Stadium|Liverpool|52769|Liverpool (Vauxhall)
+VENUE|2025-26|Fulham|Craven Cottage|London|28800|London (Fulham)
+VENUE|2025-26|Leeds|Elland Road|Leeds|37645|Leeds
+VENUE|2025-26|Liverpool|Anfield|Liverpool|61276|Liverpool (Anfield)
+VENUE|2025-26|City|City of Manchester Stadium|Manchester|52900|Manchester (Bradford)
+VENUE|2025-26|United|Old Trafford|Manchester|74244|Trafford, Manchester
+VENUE|2025-26|Newcastle|St James' Park|Newcastle upon Tyne|52264|Newcastle upon Tyne
+VENUE|2025-26|Nottingham|City Ground|West Bridgford|31042|West Bridgford
+VENUE|2025-26|Sunderland|Stadium of Light|Sunderland|48707|Sunderland
+VENUE|2025-26|Tottenham|Tottenham Hotspur Stadium|London|62850|London (Tottenham)
+VENUE|2025-26|WestHam|London Stadium|London|62500|London (Stratford)
+VENUE|2025-26|Wolves|Molineux Stadium|Wolverhampton|31750|Wolverhampton

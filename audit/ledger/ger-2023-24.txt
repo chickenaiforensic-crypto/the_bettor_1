@@ -1,0 +1,377 @@
+# GER Bundesliga 2023-24 - PRIMARY TRANSCRIPTION (WO-GER-SPAN-15 on DECREE-2026-08-04)
+# Source: https://www.rsssf.org/tablesd/duit2024.html - "Germany 2023/24" (Karel Stokkermans,
+# footer "Last updated: 18 Jun 2026"). Fetched 2026-08-05 (3 chunks = full page); raw
+# transcription data/raw/rsssf-duit2024-1bl.txt. 306 R rows = 34 rounds x 9 (18-club league).
+# Bayer 04 Leverkusen champions unbeaten (28-6-0, 90 pts) - first title; Bayern [C] third.
+# ==== ANOMALIES (documented, 90-minute doctrine):
+#  (a) Two postponed makeups print INLINE under their nominal rounds: R13 Bayern 1-0
+#      Union played [Jan 24], R18 Mainz 1-1 Union played [Feb 7]; they carry their
+#      nominal round labels exactly as printed (RSSSF placement = openfootball
+#      duplicate-banner blocks MD13/MD18).
+#  (b) Pro/rel playoff (1./2. tiers): Bochum 0-3 Düsseldorf [May 23], Düsseldorf 0-3
+#      Bochum [May 27, aet 5-6 pen], both remain (aggregate 3-3). 90-minute doctrine
+#      VERIFIED against the wiki match detail (2026-08-05): all three leg-2 Bochum
+#      goals inside regulation (P. Hofmann 18', 66'; Stöger 70' pen) and ET goalless
+#      => the 90-minute row is the printed 0-3. SHIP as compType other; pens carry the
+#      advancement NOTE. The 2./3. playoff (Regensburg-Wehen Wiesbaden) stays
+#      NOT-COMMISSIONED context.
+#  (d) RSSSF ROUND-1 DATE MISPRINT CLUSTER, adjudicated 2026-08-05: the source prints the
+#      two Sunday fixtures under '[Aug 21]' (a Monday), while TWO independent indexes agree on
+#      Sunday 2023-08-20: openfootball/deutschland 2023-24 file (Union-Mainz, Frankfurt-
+#      Darmstadt on Sun Aug 20) and the worldfootball MD1 page
+#      (https://www.worldfootball.net/schedule/bundesliga-2023-2024-spieltag/1/: 20.08.2023
+#      15:30 4:1, 20.08.2023 17:30 1:0). Per decree section-4, the R rows below carry
+#      2023-08-20; the RSSSF print stays verbatim in data/raw/rsssf-duit2024-1bl.txt; scores
+#      never in doubt.
+# ===== RSSSF FINAL TABLE (verbatim constants; parser-emitted machine rows)
+TABLE|2023-24|1|Leverkusen|34|28|6|0|89|24|90|Champions
+TABLE|2023-24|2|Stuttgart|34|23|4|7|78|39|73|
+TABLE|2023-24|3|Bayern|34|23|3|8|94|45|72|[C]
+TABLE|2023-24|4|RBLeipzig|34|19|8|7|77|39|65|
+TABLE|2023-24|5|Dortmund|34|18|9|7|68|43|63|
+TABLE|2023-24|6|Frankfurt|34|11|14|9|51|50|47|
+TABLE|2023-24|7|Hoffenheim|34|13|7|14|66|66|46|
+TABLE|2023-24|8|Heidenheim|34|10|12|12|50|55|42|[P]
+TABLE|2023-24|9|WerderBremen|34|11|9|14|48|54|42|
+TABLE|2023-24|10|Freiburg|34|11|9|14|45|58|42|
+TABLE|2023-24|11|Augsburg|34|10|9|15|50|60|39|
+TABLE|2023-24|12|Wolfsburg|34|10|7|17|41|56|37|
+TABLE|2023-24|13|Mainz|34|7|14|13|39|51|35|
+TABLE|2023-24|14|Mgladbach|34|7|13|14|56|67|34|
+TABLE|2023-24|15|UnionBerlin|34|9|6|19|33|58|33|
+TABLE|2023-24|16|Bochum|34|7|12|15|42|74|33|Relegation Playoff
+TABLE|2023-24|17|FCKoln|34|5|12|17|28|60|27|Relegated
+TABLE|2023-24|18|Darmstadt|34|3|8|23|30|86|17|[P] Relegated
+R1|2023-08-18|WerderBremen|0|4|Bayern
+R1|2023-08-19|Leverkusen|3|2|RBLeipzig
+R1|2023-08-19|Augsburg|4|4|Mgladbach
+R1|2023-08-19|Hoffenheim|1|2|Freiburg
+R1|2023-08-19|Stuttgart|5|0|Bochum
+R1|2023-08-19|Wolfsburg|2|0|Heidenheim
+R1|2023-08-19|Dortmund|1|0|FCKoln
+R1|2023-08-20|UnionBerlin|4|1|Mainz
+R1|2023-08-20|Frankfurt|1|0|Darmstadt
+R2|2023-08-25|RBLeipzig|5|1|Stuttgart
+R2|2023-08-26|Heidenheim|2|3|Hoffenheim
+R2|2023-08-26|FCKoln|1|2|Wolfsburg
+R2|2023-08-26|Freiburg|1|0|WerderBremen
+R2|2023-08-26|Darmstadt|1|4|UnionBerlin
+R2|2023-08-26|Bochum|1|1|Dortmund
+R2|2023-08-26|Mgladbach|0|3|Leverkusen
+R2|2023-08-27|Mainz|1|1|Frankfurt
+R2|2023-08-27|Bayern|3|1|Augsburg
+R3|2023-09-01|Dortmund|2|2|Heidenheim
+R3|2023-09-02|Leverkusen|5|1|Darmstadt
+R3|2023-09-02|Augsburg|2|2|Bochum
+R3|2023-09-02|Hoffenheim|3|1|Wolfsburg
+R3|2023-09-02|Stuttgart|5|0|Freiburg
+R3|2023-09-02|WerderBremen|4|0|Mainz
+R3|2023-09-02|Mgladbach|1|2|Bayern
+R3|2023-09-03|Frankfurt|1|1|FCKoln
+R3|2023-09-03|UnionBerlin|0|3|RBLeipzig
+R4|2023-09-15|Bayern|2|2|Leverkusen
+R4|2023-09-16|FCKoln|1|3|Hoffenheim
+R4|2023-09-16|Mainz|1|3|Stuttgart
+R4|2023-09-16|RBLeipzig|3|0|Augsburg
+R4|2023-09-16|Freiburg|2|4|Dortmund
+R4|2023-09-16|Wolfsburg|2|1|UnionBerlin
+R4|2023-09-16|Bochum|1|1|Frankfurt
+R4|2023-09-17|Heidenheim|4|2|WerderBremen
+R4|2023-09-17|Darmstadt|3|3|Mgladbach
+R5|2023-09-22|Stuttgart|3|1|Darmstadt
+R5|2023-09-23|UnionBerlin|0|2|Hoffenheim
+R5|2023-09-23|Dortmund|1|0|Wolfsburg
+R5|2023-09-23|Mgladbach|0|1|RBLeipzig
+R5|2023-09-23|Augsburg|2|1|Mainz
+R5|2023-09-23|Bayern|7|0|Bochum
+R5|2023-09-23|WerderBremen|2|1|FCKoln
+R5|2023-09-24|Leverkusen|4|1|Heidenheim
+R5|2023-09-24|Frankfurt|0|0|Freiburg
+R6|2023-09-29|Hoffenheim|1|3|Dortmund
+R6|2023-09-30|Heidenheim|1|0|UnionBerlin
+R6|2023-09-30|FCKoln|0|2|Stuttgart
+R6|2023-09-30|Mainz|0|3|Leverkusen
+R6|2023-09-30|Bochum|1|3|Mgladbach
+R6|2023-09-30|Wolfsburg|2|0|Frankfurt
+R6|2023-09-30|RBLeipzig|2|2|Bayern
+R6|2023-10-01|Darmstadt|4|2|WerderBremen
+R6|2023-10-01|Freiburg|2|0|Augsburg
+R7|2023-10-06|Mgladbach|2|2|Mainz
+R7|2023-10-07|Dortmund|4|2|UnionBerlin
+R7|2023-10-07|Augsburg|1|2|Darmstadt
+R7|2023-10-07|RBLeipzig|0|0|Bochum
+R7|2023-10-07|Stuttgart|3|1|Wolfsburg
+R7|2023-10-07|WerderBremen|2|3|Hoffenheim
+R7|2023-10-08|Leverkusen|3|0|FCKoln
+R7|2023-10-08|Bayern|3|0|Freiburg
+R7|2023-10-08|Frankfurt|2|0|Heidenheim
+R8|2023-10-20|Dortmund|1|0|WerderBremen
+R8|2023-10-21|UnionBerlin|0|3|Stuttgart
+R8|2023-10-21|Freiburg|2|1|Bochum
+R8|2023-10-21|Darmstadt|1|3|RBLeipzig
+R8|2023-10-21|Hoffenheim|1|3|Frankfurt
+R8|2023-10-21|Wolfsburg|1|2|Leverkusen
+R8|2023-10-21|Mainz|1|3|Bayern
+R8|2023-10-22|FCKoln|3|1|Mgladbach
+R8|2023-10-22|Heidenheim|2|5|Augsburg
+R9|2023-10-27|Bochum|2|2|Mainz
+R9|2023-10-28|Mgladbach|2|1|Heidenheim
+R9|2023-10-28|Augsburg|3|2|Wolfsburg
+R9|2023-10-28|Bayern|8|0|Darmstadt
+R9|2023-10-28|Stuttgart|2|3|Hoffenheim
+R9|2023-10-28|WerderBremen|2|0|UnionBerlin
+R9|2023-10-28|RBLeipzig|6|0|FCKoln
+R9|2023-10-29|Frankfurt|3|3|Dortmund
+R9|2023-10-29|Leverkusen|2|1|Freiburg
+R10|2023-11-03|Darmstadt|1|2|Bochum
+R10|2023-11-04|FCKoln|1|1|Augsburg
+R10|2023-11-04|UnionBerlin|0|3|Frankfurt
+R10|2023-11-04|Mainz|2|0|RBLeipzig
+R10|2023-11-04|Freiburg|3|3|Mgladbach
+R10|2023-11-04|Hoffenheim|2|3|Leverkusen
+R10|2023-11-04|Dortmund|0|4|Bayern
+R10|2023-11-05|Wolfsburg|2|2|WerderBremen
+R10|2023-11-05|Heidenheim|2|0|Stuttgart
+R11|2023-11-10|Mgladbach|4|0|Wolfsburg
+R11|2023-11-11|Augsburg|1|1|Hoffenheim
+R11|2023-11-11|Bayern|4|2|Heidenheim
+R11|2023-11-11|Darmstadt|0|0|Mainz
+R11|2023-11-11|Stuttgart|2|1|Dortmund
+R11|2023-11-11|Bochum|1|1|FCKoln
+R11|2023-11-12|Leverkusen|4|0|UnionBerlin
+R11|2023-11-12|WerderBremen|2|2|Frankfurt
+R11|2023-11-12|RBLeipzig|3|1|Freiburg
+R12|2023-11-24|FCKoln|0|1|Bayern
+R12|2023-11-25|UnionBerlin|1|1|Augsburg
+R12|2023-11-25|Dortmund|4|2|Mgladbach
+R12|2023-11-25|Freiburg|1|1|Darmstadt
+R12|2023-11-25|Wolfsburg|2|1|RBLeipzig
+R12|2023-11-25|WerderBremen|0|3|Leverkusen
+R12|2023-11-25|Frankfurt|1|2|Stuttgart
+R12|2023-11-26|Heidenheim|0|0|Bochum
+R12|2023-11-26|Hoffenheim|1|1|Mainz
+R13|2023-12-01|Darmstadt|0|1|FCKoln
+R13|2023-12-02|Mgladbach|2|1|Hoffenheim
+R13|2023-12-02|RBLeipzig|2|1|Heidenheim
+R13|2023-12-02|Bochum|3|1|Wolfsburg
+R13|2023-12-02|Stuttgart|2|0|WerderBremen
+R13|2023-12-03|Mainz|0|1|Freiburg
+R13|2023-12-03|Leverkusen|1|1|Dortmund
+R13|2023-12-03|Augsburg|2|1|Frankfurt
+R13|2024-01-24|Bayern|1|0|UnionBerlin
+R14|2023-12-08|Hoffenheim|3|1|Bochum
+R14|2023-12-09|Heidenheim|3|2|Darmstadt
+R14|2023-12-09|UnionBerlin|3|1|Mgladbach
+R14|2023-12-09|Frankfurt|5|1|Bayern
+R14|2023-12-09|Wolfsburg|0|1|Freiburg
+R14|2023-12-09|WerderBremen|2|0|Augsburg
+R14|2023-12-09|Dortmund|2|3|RBLeipzig
+R14|2023-12-10|Stuttgart|1|1|Leverkusen
+R14|2023-12-10|FCKoln|0|0|Mainz
+R15|2023-12-15|Mgladbach|2|2|WerderBremen
+R15|2023-12-16|Mainz|0|1|Heidenheim
+R15|2023-12-16|Augsburg|1|1|Dortmund
+R15|2023-12-16|Darmstadt|0|1|Wolfsburg
+R15|2023-12-16|Bochum|3|0|UnionBerlin
+R15|2023-12-16|RBLeipzig|3|1|Hoffenheim
+R15|2023-12-17|Freiburg|2|0|FCKoln
+R15|2023-12-17|Leverkusen|3|0|Frankfurt
+R15|2023-12-17|Bayern|3|0|Stuttgart
+R16|2023-12-19|WerderBremen|1|1|RBLeipzig
+R16|2023-12-19|Dortmund|1|1|Mainz
+R16|2023-12-19|Hoffenheim|3|3|Darmstadt
+R16|2023-12-20|UnionBerlin|2|0|FCKoln
+R16|2023-12-20|Heidenheim|3|2|Freiburg
+R16|2023-12-20|Leverkusen|4|0|Bochum
+R16|2023-12-20|Frankfurt|2|1|Mgladbach
+R16|2023-12-20|Stuttgart|3|0|Augsburg
+R16|2023-12-20|Wolfsburg|1|2|Bayern
+R17|2024-01-12|Bayern|3|0|Hoffenheim
+R17|2024-01-13|FCKoln|1|1|Heidenheim
+R17|2024-01-13|Mainz|1|1|Wolfsburg
+R17|2024-01-13|Augsburg|0|1|Leverkusen
+R17|2024-01-13|RBLeipzig|0|1|Frankfurt
+R17|2024-01-13|Freiburg|0|0|UnionBerlin
+R17|2024-01-13|Darmstadt|0|3|Dortmund
+R17|2024-01-14|Bochum|1|1|WerderBremen
+R17|2024-01-14|Mgladbach|3|1|Stuttgart
+R18|2024-01-20|Heidenheim|1|1|Wolfsburg
+R18|2024-01-20|FCKoln|0|4|Dortmund
+R18|2024-01-20|Freiburg|3|2|Hoffenheim
+R18|2024-01-20|Darmstadt|2|2|Frankfurt
+R18|2024-01-20|Bochum|1|0|Stuttgart
+R18|2024-01-20|RBLeipzig|2|3|Leverkusen
+R18|2024-01-21|Bayern|0|1|WerderBremen
+R18|2024-01-21|Mgladbach|1|2|Augsburg
+R18|2024-02-07|Mainz|1|1|UnionBerlin
+R19|2024-01-26|Frankfurt|1|0|Mainz
+R19|2024-01-27|Augsburg|2|3|Bayern
+R19|2024-01-27|Hoffenheim|1|1|Heidenheim
+R19|2024-01-27|Stuttgart|5|2|RBLeipzig
+R19|2024-01-27|Wolfsburg|1|1|FCKoln
+R19|2024-01-27|WerderBremen|3|1|Freiburg
+R19|2024-01-27|Leverkusen|0|0|Mgladbach
+R19|2024-01-28|UnionBerlin|1|0|Darmstadt
+R19|2024-01-28|Dortmund|3|1|Bochum
+R20|2024-02-02|Heidenheim|0|0|Dortmund
+R20|2024-02-03|Mainz|0|1|WerderBremen
+R20|2024-02-03|Bayern|3|1|Mgladbach
+R20|2024-02-03|Freiburg|1|3|Stuttgart
+R20|2024-02-03|Darmstadt|0|2|Leverkusen
+R20|2024-02-03|Bochum|1|1|Augsburg
+R20|2024-02-03|FCKoln|2|0|Frankfurt
+R20|2024-02-04|Wolfsburg|2|2|Hoffenheim
+R20|2024-02-04|RBLeipzig|2|0|UnionBerlin
+R21|2024-02-09|Dortmund|3|0|Freiburg
+R21|2024-02-10|UnionBerlin|1|0|Wolfsburg
+R21|2024-02-10|Mgladbach|0|0|Darmstadt
+R21|2024-02-10|Frankfurt|1|1|Bochum
+R21|2024-02-10|Augsburg|2|2|RBLeipzig
+R21|2024-02-10|WerderBremen|1|2|Heidenheim
+R21|2024-02-10|Leverkusen|3|0|Bayern
+R21|2024-02-11|Stuttgart|3|1|Mainz
+R21|2024-02-11|Hoffenheim|1|1|FCKoln
+R22|2024-02-16|FCKoln|0|1|WerderBremen
+R22|2024-02-17|Heidenheim|1|2|Leverkusen
+R22|2024-02-17|Mainz|1|0|Augsburg
+R22|2024-02-17|Darmstadt|1|2|Stuttgart
+R22|2024-02-17|Hoffenheim|0|1|UnionBerlin
+R22|2024-02-17|Wolfsburg|1|1|Dortmund
+R22|2024-02-17|RBLeipzig|2|0|Mgladbach
+R22|2024-02-18|Freiburg|3|3|Frankfurt
+R22|2024-02-18|Bochum|3|2|Bayern
+R23|2024-02-23|Leverkusen|2|1|Mainz
+R23|2024-02-24|UnionBerlin|2|2|Heidenheim
+R23|2024-02-24|Stuttgart|1|1|FCKoln
+R23|2024-02-24|WerderBremen|1|1|Darmstadt
+R23|2024-02-24|Mgladbach|5|2|Bochum
+R23|2024-02-24|Bayern|2|1|RBLeipzig
+R23|2024-02-25|Frankfurt|2|2|Wolfsburg
+R23|2024-02-25|Dortmund|2|3|Hoffenheim
+R23|2024-02-25|Augsburg|2|1|Freiburg
+R24|2024-03-01|Freiburg|2|2|Bayern
+R24|2024-03-02|Heidenheim|1|2|Frankfurt
+R24|2024-03-02|UnionBerlin|0|2|Dortmund
+R24|2024-03-02|Mainz|1|1|Mgladbach
+R24|2024-03-02|Darmstadt|0|6|Augsburg
+R24|2024-03-02|Bochum|1|4|RBLeipzig
+R24|2024-03-02|Wolfsburg|2|3|Stuttgart
+R24|2024-03-03|FCKoln|0|2|Leverkusen
+R24|2024-03-03|Hoffenheim|2|1|WerderBremen
+R25|2024-03-08|Stuttgart|2|0|UnionBerlin
+R25|2024-03-09|Mgladbach|3|3|FCKoln
+R25|2024-03-09|Augsburg|1|0|Heidenheim
+R25|2024-03-09|Bayern|8|1|Mainz
+R25|2024-03-09|RBLeipzig|2|0|Darmstadt
+R25|2024-03-09|WerderBremen|1|2|Dortmund
+R25|2024-03-10|Bochum|1|2|Freiburg
+R25|2024-03-10|Frankfurt|3|1|Hoffenheim
+R25|2024-03-10|Leverkusen|2|0|Wolfsburg
+R26|2024-03-15|FCKoln|1|5|RBLeipzig
+R26|2024-03-16|Heidenheim|1|1|Mgladbach
+R26|2024-03-16|UnionBerlin|2|1|WerderBremen
+R26|2024-03-16|Mainz|2|0|Bochum
+R26|2024-03-16|Darmstadt|2|5|Bayern
+R26|2024-03-16|Wolfsburg|1|3|Augsburg
+R26|2024-03-16|Hoffenheim|0|3|Stuttgart
+R26|2024-03-17|Freiburg|2|3|Leverkusen
+R26|2024-03-17|Dortmund|3|1|Frankfurt
+R27|2024-03-30|Leverkusen|2|1|Hoffenheim
+R27|2024-03-30|Mgladbach|0|3|Freiburg
+R27|2024-03-30|Frankfurt|0|0|UnionBerlin
+R27|2024-03-30|RBLeipzig|0|0|Mainz
+R27|2024-03-30|WerderBremen|0|2|Wolfsburg
+R27|2024-03-30|Bayern|0|2|Dortmund
+R27|2024-03-31|Augsburg|1|1|FCKoln
+R27|2024-03-31|Stuttgart|3|3|Heidenheim
+R27|2024-03-31|Bochum|2|2|Darmstadt
+R28|2024-04-05|Frankfurt|1|1|WerderBremen
+R28|2024-04-06|Heidenheim|3|2|Bayern
+R28|2024-04-06|FCKoln|2|1|Bochum
+R28|2024-04-06|UnionBerlin|0|1|Leverkusen
+R28|2024-04-06|Mainz|4|0|Darmstadt
+R28|2024-04-06|Freiburg|1|4|RBLeipzig
+R28|2024-04-06|Dortmund|0|1|Stuttgart
+R28|2024-04-07|Hoffenheim|3|1|Augsburg
+R28|2024-04-07|Wolfsburg|1|3|Mgladbach
+R29|2024-04-12|Augsburg|2|0|UnionBerlin
+R29|2024-04-13|Mainz|4|1|Hoffenheim
+R29|2024-04-13|Mgladbach|1|2|Dortmund
+R29|2024-04-13|Bayern|2|0|FCKoln
+R29|2024-04-13|RBLeipzig|3|0|Wolfsburg
+R29|2024-04-13|Bochum|1|1|Heidenheim
+R29|2024-04-13|Stuttgart|3|0|Frankfurt
+R29|2024-04-14|Darmstadt|0|1|Freiburg
+R29|2024-04-14|Leverkusen|5|0|WerderBremen
+R30|2024-04-19|Frankfurt|3|1|Augsburg
+R30|2024-04-20|Heidenheim|1|2|RBLeipzig
+R30|2024-04-20|FCKoln|0|2|Darmstadt
+R30|2024-04-20|Hoffenheim|4|3|Mgladbach
+R30|2024-04-20|Wolfsburg|1|0|Bochum
+R30|2024-04-20|UnionBerlin|1|5|Bayern
+R30|2024-04-21|WerderBremen|2|1|Stuttgart
+R30|2024-04-21|Dortmund|1|1|Leverkusen
+R30|2024-04-21|Freiburg|1|1|Mainz
+R31|2024-04-26|Bochum|3|2|Hoffenheim
+R31|2024-04-27|Augsburg|0|3|WerderBremen
+R31|2024-04-27|Bayern|2|1|Frankfurt
+R31|2024-04-27|RBLeipzig|4|1|Dortmund
+R31|2024-04-27|Freiburg|1|2|Wolfsburg
+R31|2024-04-27|Leverkusen|2|2|Stuttgart
+R31|2024-04-28|Mgladbach|0|0|UnionBerlin
+R31|2024-04-28|Mainz|1|1|FCKoln
+R31|2024-04-28|Darmstadt|0|1|Heidenheim
+R32|2024-05-03|Hoffenheim|1|1|RBLeipzig
+R32|2024-05-04|Dortmund|5|1|Augsburg
+R32|2024-05-04|Stuttgart|3|1|Bayern
+R32|2024-05-04|Wolfsburg|3|0|Darmstadt
+R32|2024-05-04|WerderBremen|2|2|Mgladbach
+R32|2024-05-04|FCKoln|0|0|Freiburg
+R32|2024-05-05|UnionBerlin|3|4|Bochum
+R32|2024-05-05|Frankfurt|1|5|Leverkusen
+R32|2024-05-05|Heidenheim|1|1|Mainz
+R33|2024-05-10|Augsburg|0|1|Stuttgart
+R33|2024-05-11|FCKoln|3|2|UnionBerlin
+R33|2024-05-11|Mgladbach|1|1|Frankfurt
+R33|2024-05-11|RBLeipzig|1|1|WerderBremen
+R33|2024-05-11|Freiburg|1|1|Heidenheim
+R33|2024-05-11|Mainz|3|0|Dortmund
+R33|2024-05-12|Darmstadt|0|6|Hoffenheim
+R33|2024-05-12|Bayern|2|0|Wolfsburg
+R33|2024-05-12|Bochum|0|5|Leverkusen
+R34|2024-05-18|Heidenheim|4|1|FCKoln
+R34|2024-05-18|UnionBerlin|2|1|Freiburg
+R34|2024-05-18|Leverkusen|2|1|Augsburg
+R34|2024-05-18|Dortmund|4|0|Darmstadt
+R34|2024-05-18|Frankfurt|2|2|RBLeipzig
+R34|2024-05-18|Hoffenheim|4|2|Bayern
+R34|2024-05-18|Stuttgart|4|0|Mgladbach
+R34|2024-05-18|Wolfsburg|1|3|Mainz
+R34|2024-05-18|WerderBremen|4|1|Bochum
+
+## PO_PLAYOFF (90-minute doctrine; 1./2. legs SHIP as compType other per ERRATA-2026-08-03;
+#  2./3. legs = 2nd/3rd tier internal context only, NOT commissioned)
+PO_PLAYOFF|2023-24|Final-1|2024-05-23|Bochum|0|3|FortunaDusseldorf||SHIP-as-other
+PO_PLAYOFF|2023-24|Final-2|2024-05-27|FortunaDusseldorf|0|3|Bochum|aet, 5-6 pen|SHIP-as-other|NB both remain at former level
+PO_PLAYOFF|2023-24|L2-1|2024-05-24|JahnRegensburg|2|2|WehenWiesbaden||NOT-COMMISSIONED-L2-internal
+PO_PLAYOFF|2023-24|L2-2|2024-05-28|WehenWiesbaden|1|2|JahnRegensburg||NOT-COMMISSIONED-L2-internal
+
+## TABLE2 (2. Bundesliga final table context; promotion/relegation boundary gate input)
+TABLE2|2023-24|1|FC Sankt Pauli|34|20|9|5|62|36|69|Promoted
+TABLE2|2023-24|2|Holstein Kiel|34|21|5|8|65|39|68|Promoted
+TABLE2|2023-24|3|Fortuna Düsseldorf|34|18|9|7|72|40|63|Promotion Playoff
+TABLE2|2023-24|4|Hamburger SV|34|17|7|10|64|44|58|
+TABLE2|2023-24|5|Karlsruher SC|34|15|10|9|68|48|55|
+TABLE2|2023-24|6|Hannover 96|34|13|13|8|59|44|52|
+TABLE2|2023-24|7|SC Paderborn 07|34|15|7|12|54|54|52|
+TABLE2|2023-24|8|SpVgg Greuther Fürth|34|14|8|12|50|49|50|
+TABLE2|2023-24|9|Hertha BSC Berlin|34|13|9|12|69|59|48|[R]
+TABLE2|2023-24|10|FC Schalke 04 Gelsenkirchen|34|12|7|15|53|60|43|[R]
+TABLE2|2023-24|11|SV 07 Elversberg|34|12|7|15|49|63|43|[P]
+TABLE2|2023-24|12|1.FC Nürnberg|34|11|7|16|43|64|40|
+TABLE2|2023-24|13|1.FC Kaiserslautern|34|11|6|17|59|64|39|
+TABLE2|2023-24|14|1.FC Magdeburg|34|9|11|14|46|54|38|
+TABLE2|2023-24|15|Eintracht Braunschweig|34|11|5|18|37|53|38|
+TABLE2|2023-24|16|SV Wehen Wiesbaden|34|8|8|18|36|50|32|[P] Relegation Playoff
+TABLE2|2023-24|17|FC Hansa Rostock|34|9|4|21|30|57|31|Relegated
+TABLE2|2023-24|18|VfL Osnabrück|34|6|10|18|31|69|28|[P] Relegated

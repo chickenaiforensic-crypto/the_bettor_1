@@ -1,0 +1,191 @@
+NOTE|info|catalog|Kosovo Superliga · Kosovo Relegation Playoffs
+SOURCE|rsssf-kos|https://www.rsssf.org/tablesk/kosovo2022.html|2026-08-05|primary-archive|RSSSF Kosovo Superliga archives (kosovo2022..kosovo2026)
+SOURCE|wf-kos|https://www.worldfootball.net/all_matches/kvx-superliga-2021-2022/|2026-08-05|third-index|Worldfootball.net Kosovo match schedules
+NOTE|info|federation_check|Section-0 federation scan performed: all rows are Kosovo Superliga matches.
+TEAM|Ulpiana|Kosovo|Kosovo Superliga|KOS|KF Ulpiana|Stadiumi Haxhi Melaku|Lipjan
+TEAM|Feronikeli|Kosovo|Kosovo Superliga|KOS|KF Feronikeli,Feronikeli 74|Stadiumi Rexhep Rexhepi|Drenas
+TEAM|Trepça'89|Kosovo|Kosovo Superliga|KOS|KF Trepca 89,Trepca 89|Riza Lushta Stadium|Mitrovica
+TEAM|Fushë Kosova|Kosovo|Kosovo Superliga|KOS|KF Fush Kosova|Stadiumi Fushë Kosovë|Fushë Kosovë
+TEAM|Liria|Kosovo|Kosovo Superliga|KOS|KF Liria|Përparim Thaqi Stadium|Prizren
+TEAM|Suhareka|Kosovo|Kosovo Superliga|KOS|KF Suhareka|Stadiumi City Suharekë|Suhareka
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|3|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|0|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|2|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|6|1|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|3|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|3|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|1|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|2|1|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|4|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|3|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|1|1|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|1|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|3|2|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|3|5|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|0|2|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|2|3|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|2|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|2|2|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|3|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|3|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|2|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|4|1|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|1|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|3|4|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|0|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|1|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|0|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|3|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|2|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|2|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|1|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|2|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|0|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|2|2|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|3|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|0|2|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|2|1|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|0|3|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|4|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|0|KF Liria|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Llapi|5|3|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|0|KF Fushë Kosova|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|1|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Fushë Kosova|0|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|2|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Liria|0|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2023-06-30|Kosovo Superliga|domestic-league|KF Ballkani|0|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|2|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|0|0|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|3|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|1|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|1|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|1|3|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|3|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|4|2|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|3|2|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|3|2|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|3|2|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|1|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|1|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|0|1|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|3|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|2|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|3|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|0|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|2|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|2|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|0|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|3|0|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|4|0|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|2|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|2|1|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|2|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|1|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|0|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|1|3|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|2|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|3|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|1|0|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|1|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|0|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|2|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|2|1|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|0|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|3|3|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|2|2|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|2|2|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|1|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|2|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|1|2|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|0|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|4|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|2|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|2|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|1|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|1|2|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|1|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|1|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|0|3|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|2|1|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|0|0|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|3|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|3|1|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|3|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|1|1|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|0|1|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|0|1|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|2|2|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|1|1|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|0|0|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|4|0|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Dukagjini|1|0|KF Ferizaj|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|KF Llapi|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Malisheva|1|2|FC Suhareka|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Feronikeli|1|0|FC Prishtina|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Gjilani|1|0|Drita Gjilan|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Llapi|0|0|KF Dukagjini|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Prishtina|0|0|KF Malisheva|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|KF Ferizaj|3|1|KF Gjilani|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|Drita Gjilan|2|1|KF Feronikeli|RS|Stadium|City|Kosovo||rsssf-kos
+MATCH|2024-06-30|Kosovo Superliga|domestic-league|FC Suhareka|0|2|KF Ballkani|RS|Stadium|City|Kosovo||rsssf-kos
+END

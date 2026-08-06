@@ -1,0 +1,28 @@
+{
+  "workorder": "S1-S2 LIVE-DERIVE + LIVE CONSTANTS + BUSY ICON",
+  "version": "3.9.0",
+  "base": "app-v3.8.0-b1.html md5 d1a742602b1c3cc025312154eff60389",
+  "built": {
+    "file": "builder/app-v3.9.0-b2.html",
+    "md5": "d46a18eaa89ef5f96184f3f07ea46afa",
+    "bytes": 679507
+  },
+  "b64": {
+    "file": "/home/user/the_bettor_1/handoffs/B2-v3.9.0-d46a18ea.b64.txt",
+    "md5": "6e2bc2d61ef7883a90b9ef1a76c9ca42"
+  },
+  "features": [
+    "Live engine constants artifact dc-fitted-constants \u2014 zero hard coding allowed \u2014 formula live-configurable so can be modified/altered/updated",
+    "Busy icon animated busy icon in result window then pops up \u2014 short animated busy icon while live computation",
+    "All teams have 5 seasons available so sufficient data exists per D3 \u22652 full seasons \u2014 live computes what data it has and also opponents of opponents against engine",
+    "Live team record and live stars from store \u2014 starsHome null fixed",
+    "Provenance panel M3 every precomputed input origin+last-derived date",
+    "Auto re-validation on data change M1 G14",
+    "Retire __DC_GATE__ legacy blob to provenance text G14/G16 M4",
+    "TeamStats cache fix M6",
+    "Compliance lineage M18",
+    "EPL live revalidation G16"
+  ],
+  "zero_hard_coding": "All team ratings att/def/hfa/home_extra computed live from store online gradient, no hard-coded ratings for new leagues. Legacy __FITTED_MODEL__ and __DC_GATE__ demoted to provenance text only, not load-bearing once sufficient data exists per A-01. Seed packs only first boot. Engine constants default hard-coded only as fallback, live artifact is truth, editable via UI bounded steps/caps versioned provenance auto re-validation \u2014 common sense planning",
+  "sufficient_data": "All teams have 5 seasons available per workorders 2021-22..2025-26 complete + 2026-27 played \u2014 D3 gate \u22652 full seasons \u2014 sufficient for all major European championships 13,429 domestic + 3200 FULL UEFA = 16629 rows \u2014 so live computes for all, even if no H2H and no common opponents, it live computes what data it has and also opponents of opponents against engine"
+}
