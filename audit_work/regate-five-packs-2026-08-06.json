@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-06",
+  "scope": "grammar, date/score shape, duplicate fingerprint, declared source reference and stated blockers; not a table/bracket reproduction approval",
+  "packs": {
+    "MLS-2021-2026_BP-TEAM-PACK_v2.txt": {
+      "match_rows": 1994,
+      "match_fields_14": 1994,
+      "dates_by_calendar_year": {
+        "2021": 472,
+        "2022": 489,
+        "2023": 521,
+        "2024": 482,
+        "2025": 30
+      },
+      "declared_sources": [
+        "rsssf-mls-2021",
+        "rsssf-mls-2022",
+        "rsssf-mls-2023",
+        "rsssf-mls-2024",
+        "rsssf-mls-2025"
+      ],
+      "source_refs": {
+        "rsssf-mls-2021": 472,
+        "rsssf-mls-2022": 489,
+        "rsssf-mls-2023": 521,
+        "rsssf-mls-2024": 482,
+        "rsssf-mls-2025": 30
+      },
+      "unmatched_source_ids": [],
+      "duplicate_fingerprints": 0,
+      "warning_notes": [
+        "blocker|2025 MLS regular season (34 rounds) NOT RETURNED: RSSSF usa2025.html provides final tables + playoff only, no round-by-round regular-season match list. Requires a secondary source (worldfootball.net) capture; blocked pending that.",
+        "blocker|2026 MLS regular season to-date NOT RETURNED: RSSSF has no usa2026.html page. 2026 held appendix rows (2026-07-22/25/31) are NOT duplicated here. Requires worldfootball.net 2026 capture; blocked pending that."
+      ],
+      "errors": [],
+      "error_count": 0,
+      "decision": "GRAMMAR_PROVENANCE_PASS"
+    },
+    "USOC-2021-2026_BP-TEAM-PACK_v2.txt": {
+      "match_rows": 45,
+      "match_fields_14": 45,
+      "dates_by_calendar_year": {
+        "2022": 15,
+        "2023": 15,
+        "2025": 15
+      },
+      "declared_sources": [
+        "rsssf-mls"
+      ],
+      "source_refs": {
+        "rsssf-mls-2022": 15,
+        "rsssf-mls-2023": 15,
+        "rsssf-mls-2025": 15
+      },
+      "unmatched_source_ids": [
+        "rsssf-mls-2022",
+        "rsssf-mls-2023",
+        "rsssf-mls-2025"
+      ],
+      "duplicate_fingerprints": 0,
+      "warning_notes": [
+        "blocker|R32 round (where MLS clubs enter) NOT RETURNED for 2022/2023/2025: RSSSF cup chapters begin at the Round of 16 (1/8 Finals) and do not list the R32 ties. Slice from R16 to Final is complete; R32 requires a secondary source (worldfootball.net/soccerway) capture - blocked pending that.",
+        "blocker|2026 US Open Cup to-date NOT RETURNED: RSSSF has no usa2026.html page. Requires worldfootball.net 2026 capture - blocked."
+      ],
+      "errors": [],
+      "error_count": 0,
+      "decision": "FAIL"
+    },
+    "SCOCUP-2021-2026_BP-TEAM-PACK_v2.txt": {
+      "match_rows": 68,
+      "match_fields_14": 68,
+      "dates_by_calendar_year": {
+        "2022": 15,
+        "2023": 11,
+        "2024": 15,
+        "2025": 14,
+        "2026": 13
+      },
+      "declared_sources": [
+        "rsssf-scot-2022",
+        "rsssf-scot-2023",
+        "rsssf-scot-2024",
+        "rsssf-scot-2025",
+        "rsssf-scot-2026"
+      ],
+      "source_refs": {
+        "rsssf-scot-2022": 15,
+        "rsssf-scot-2023": 11,
+        "rsssf-scot-2024": 15,
+        "rsssf-scot-2025": 14,
+        "rsssf-scot-2026": 13
+      },
+      "unmatched_source_ids": [],
+      "duplicate_fingerprints": 0,
+      "warning_notes": [
+        "blocker|Earlier entry-round ties (Scottish Cup Rounds 1-4 where Premiership clubs enter at the fourth round; League Cup July group stage) NOT RETURNED: RSSSF scot chapters begin at the 1/8 Finals (R16). Slice from R16 to Final is complete; earlier rounds require a secondary source (BBC Sport/worldfootball) capture - blocked pending that."
+      ],
+      "errors": [],
+      "error_count": 0,
+      "decision": "GRAMMAR_PROVENANCE_PASS"
+    },
+    "SCOLC-2021-2026_BP-TEAM-PACK_v2.txt": {
+      "match_rows": 72,
+      "match_fields_14": 72,
+      "dates_by_calendar_year": {
+        "2021": 15,
+        "2022": 10,
+        "2023": 18,
+        "2024": 15,
+        "2025": 14
+      },
+      "declared_sources": [
+        "rsssf-scot-2022",
+        "rsssf-scot-2023",
+        "rsssf-scot-2024",
+        "rsssf-scot-2025",
+        "rsssf-scot-2026"
+      ],
+      "source_refs": {
+        "rsssf-scot-2022": 15,
+        "rsssf-scot-2023": 13,
+        "rsssf-scot-2024": 15,
+        "rsssf-scot-2025": 15,
+        "rsssf-scot-2026": 14
+      },
+      "unmatched_source_ids": [],
+      "duplicate_fingerprints": 0,
+      "warning_notes": [
+        "blocker|Earlier entry-round ties (Scottish Cup Rounds 1-4 where Premiership clubs enter at the fourth round; League Cup July group stage) NOT RETURNED: RSSSF scot chapters begin at the 1/8 Finals (R16). Slice from R16 to Final is complete; earlier rounds require a secondary source (BBC Sport/worldfootball) capture - blocked pending that."
+      ],
+      "errors": [],
+      "error_count": 0,
+      "decision": "GRAMMAR_PROVENANCE_PASS"
+    },
+    "KOSCUP-2021-2026_BP-TEAM-PACK_v2.txt": {
+      "match_rows": 120,
+      "match_fields_14": 120,
+      "dates_by_calendar_year": {
+        "2021": 10,
+        "2022": 22,
+        "2023": 23,
+        "2024": 24,
+        "2025": 26,
+        "2026": 15
+      },
+      "declared_sources": [
+        "rsssf-kos-2022",
+        "rsssf-kos-2023",
+        "rsssf-kos-2024",
+        "rsssf-kos-2025",
+        "rsssf-kos-2026"
+      ],
+      "source_refs": {
+        "rsssf-kos-2022": 24,
+        "rsssf-kos-2023": 21,
+        "rsssf-kos-2024": 24,
+        "rsssf-kos-2025": 26,
+        "rsssf-kos-2026": 25
+      },
+      "unmatched_source_ids": [],
+      "duplicate_fingerprints": 0,
+      "warning_notes": [],
+      "errors": [],
+      "error_count": 0,
+      "decision": "GRAMMAR_PROVENANCE_PASS"
+    }
+  }
+}
