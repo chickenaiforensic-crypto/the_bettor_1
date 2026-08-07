@@ -1,0 +1,957 @@
+NOTE|info|pack_id|KOS-2021-2026_BP-TEAM-PACK_v2.1 - complete standalone return of commission WO-KOS-SPAN-06 (per Director correction order 2026-08-07): 900 Kosovo Superliga rows (180 x 5) PLUS 10 Kosovo Relegation Playoffs rows = 910 MATCH rows. The 12 2025-26 Malisheva rows previously excluded as 'already held' are INCLUDED (the verified 5,082-row store holds zero Kosovo rows; appendix_inclusion NOTE). Venue placeholders replaced with documented home grounds (venue NOTE). 2026-27 not started on the return date - boundary NOTE. Compiled 2026-08-07 (v2.1).
+SOURCE|rsssf-kosovo2022|https://www.rsssf.org/tablesk/kosovo2022.html|2026-08-07|primary-archive|2021-22: all 36 rounds dates+scores (incl. two awarded ties), official final table, Promotion/Relegation Playoff (Vushtrria-Liria semi, Vushtrria-Malisheva final); anchors 180 rows / 463 goals / 2021-08-21..2022-05-22
+SOURCE|rsssf-kosovo2023|https://www.rsssf.org/tablesk/kosovo2023.html|2026-08-07|primary-archive|2022-23: all 36 rounds dates+scores (postponed matches carried by played date), official final table, playoff (Liria-Ulpiana semi, Ferizaj-Liria final); anchors 180 / 446 / 2022-08-13..2023-05-28
+SOURCE|rsssf-kosovo2024|https://www.rsssf.org/tablesk/kosovo2024.html|2026-08-07|primary-archive|2023-24: all 36 rounds dates+scores, official final table, playoff (Prishtina e Re-Dinamo Ferizaj semi, Prishtina e Re-Feronikeli final); anchors 180 / 432 / 2023-08-12..2024-05-25
+SOURCE|rsssf-kosovo2025|https://www.rsssf.org/tablesk/kosovo2025.html|2026-08-07|primary-archive|2024-25: all 36 rounds dates+scores (incl. one awarded tie and one revoked-award note), official final table, playoff (Liria-Vushtrria semi, Vushtrria-Llapi final); anchors 180 / 446 / 2024-08-10..2025-05-25
+SOURCE|rsssf-kosovo2026|https://www.rsssf.org/tablesk/kosovo2026.html|2026-08-07|primary-archive|2025-26: OFFICIAL FINAL TABLE + playoff (Dinamo Ferizaj-Liria semi 2026-05-29, Dinamo Ferizaj-Llapi final 2026-06-06). The page carries NO round-by-round league grid for 2025-26 (verified over the full page) - the season rows were sourced from the dated carrier below; the RSSSF final table is the table authority and the recompute of the 180 rows reproduces it club-for-club EXACT (gate).
+SOURCE|wf-kos-2526|https://www.worldfootball.net/competition/co835/kosovo-superliga/se102170/2025-2026/|2026-08-07|match-carrier|2025-26 match rows: all 36 matchday pages (md1..md36) fetched 2026-08-07; played dates + scores; label carried on all 2025-26 MATCH rows. The matchday-36 page final table equals the RSSSF table club-for-club.
+SOURCE|wiki-kos-2526|https://en.wikipedia.org/wiki/2025%E2%80%9326_Football_Superleague_of_Kosovo|2026-08-07|second-index|results FBR matrix (legs=2, source ffk-kosova.com official standings) diffed against the 2025-26 carrier rows: 179/180 identical; the single divergence is MD12 Prishtina e Re-Drenica (matrix prints the on-pitch 0-0; the governing awarded 3-0 is required by the official table and shown by the worldfootball carrier with a dec. marker) - see awarded NOTE. Also: official league table (source FFK) matches RSSSF club-for-club; relegation play-off dates/venues (18 June Stadium Kline; Rexhep Rexhepi Stadium Drenas); stadium/location table for the 2025-26 venue constants.
+SOURCE|wiki-kos-2125|https://en.wikipedia.org/wiki/2021%E2%80%9322_Football_Superleague_of_Kosovo|2026-08-07|second-index|results FBR matrices (first/second half, source Soccerway) for 2021-22 .. 2024-25 (sibling season articles ...%E2%80%9322 through ...%E2%80%9325): sampled diffs 30 fixtures per season vs the RSSSF rows - all identical (see spot_audit NOTES); stadium/location tables used for the venue constants; promoted/relegated prose matches the membership gates
+NOTE|info|federation_check|Section-0 scan on the finished pack: all 888 league rows are Kosovo Superliga rows populated exclusively by the 16 pinned section-3 strings (10 on-roster + 6 declared TEAM rows); the 10 playoff rows pair the 8th-placed Superliga club with the two declared lower-division playoff opponents (Vushtrria, Dinamo Fzaj.). Not Albania (Kategoria Superiore), not Serbia (SuperLiga). Per-season composition matches the workorder pins exactly: 2021-22 Ballkani, Drita, Gjilani, Llapi, Prishtina, Drenica, Dukagjini, Malisheva, Ulpiana, Feronikeli; 2022-23 minus Ulpiana/Feronikeli plus Ferizaj/Trepca'89; 2023-24 minus Drenica/Trepca'89/Ferizaj plus Feronikeli/Fushe Kosova/Liria; 2024-25 minus Fushe Kosova/Liria plus Ferizaj/Suhareka; 2025-26 minus Feronikeli/Suhareka plus Drenica Skenderaj/Prishtina E Re. No standings tables carried - rows only.
+NOTE|info|catalog|Competition string on every league row: "Kosovo Superliga" (900 rows); "Kosovo Relegation Playoffs" on the 10 playoff rows; compType "domestic-league" on league rows and "other" on playoff rows per ERRATA-2026-08-03 Family B; venue-detail carries "RS R1".."RS R36" and "Playoff-SF"/"Playoff-Final"; 90-minute doctrine; awarded matches carry the governing score + awarded NOTE.
+NOTE|info|errata_comptype|ERRATA-2026-08-03 (auditor-issued, supersedes workorder text): the workorder file in this repo still prints "domestic-league (all rows, playoffs too)" and its md5 (9892817e2414fc86084f6ba3e12abca2) differs from the errata pin (30c6141f7fe2e49c5f28bb1e2b53c139), so the corrected values are applied per the errata instruction: Kosovo Superliga rows = domestic-league; Kosovo Relegation Playoffs rows = other. Cited as required by the errata.
+NOTE|info|appendix_inclusion|The 12 2025-26 Malisheva run-in rows previously documented as 'already held' are INCLUDED in v2.1 per the Director's correction order (2026-08-07): the current verified 5,082-row store contains ZERO Kosovo rows, so the pack is complete and standalone. Rows verified against the worldfootball carrier + Wikipedia matrix + RSSSF kosovo2026 final table: 2026-03-09 Malisheva 3-0 Prishtina; 2026-03-22 Malisheva 2-0 Llapi; 2026-04-05 Drita 2-0 Malisheva; 2026-04-11 Prishtina E Re 2-1 Malisheva; 2026-04-19 Malisheva 4-2 KF Ballkani; 2026-04-26 Dukagjini 0-1 Malisheva; 2026-04-29 Malisheva 3-1 Gjilani; 2026-05-02 Prishtina 0-1 Malisheva; 2026-05-10 Ferizaj 1-1 Malisheva; 2026-05-17 Malisheva 4-1 Drenica Skenderaj; 2026-05-24 Llapi 3-2 Malisheva; 2026-05-31 Malisheva 3-2 Drita.
+TEAM|Ulpiana|Kosovo|Kosovo Superliga|KOS|||unknown|Qatiq Bytyqi Stadium|2000|2021-22 member (RSSSF kosovo2022 final table pos 9; relegated 2021-22)
+TEAM|Feronikeli|Kosovo|Kosovo Superliga|KOS|||unknown|Rexhep Rexhepi Stadium|2000|2021-22, 2023-24, 2024-25 member (RSSSF tables)
+TEAM|Trepça'89|Kosovo|Kosovo Superliga|KOS|||unknown|Riza Lushta Stadium|12000|2022-23 member (RSSSF kosovo2023 final table pos 9)
+TEAM|Fushë Kosova|Kosovo|Kosovo Superliga|KOS|||unknown|Ekrem Grajqevci Stadium|5000|2023-24 member (RSSSF kosovo2024 final table pos 9)
+TEAM|Liria|Kosovo|Kosovo Superliga|KOS|||unknown|Perparim Thaci Stadium|15000|2023-24 member (RSSSF kosovo2024 final table pos 10)
+TEAM|Suhareka|Kosovo|Kosovo Superliga|KOS|||unknown|Suhareka City Stadium|1500|2024-25 member (RSSSF kosovo2025 final table pos 9)
+TEAM|Vushtrria|Kosovo|Kosovo First League|KFL1|||unknown|unknown|unknown|playoff opponent 2021-22 and 2024-25 (RSSSF Liga e Pare tables)
+TEAM|Dinamo Fzaj.|Kosovo|Kosovo First League|KFL1|||unknown|unknown|unknown|playoff opponent 2023-24 and 2025-26 (RSSSF Liga e Pare tables; page print of Dinamo Ferizaj)
+NOTE|info|identity|The 16 pinned section-3 strings used verbatim. Source-name mapping (RSSSF short forms -> canonical, mapped silently, noted once): Ballkani -> KF Ballkani; Drita/Gjilani/Llapi/Prishtina/Malisheva/Ferizaj/Ulpiana/Feronikeli/Liria/Suhareka unchanged; Drenica KF -> Drenica Skenderaj; Dukagjini unchanged; Prisht. e Re -> Prishtina E Re; Trepca'89 (page print) -> Trepça'89; Fushe Kosova (page print) -> Fushe Kosova. Diacritics never enter club strings except the two prescribed canonical forms (Trepça'89, Fushe Kosova). No club changed identity in-window.
+NOTE|info|round_counts|Anchors recomputed from the pack rows, matching the official record: 2021-22 180/463/2021-08-21..2022-05-22; 2022-23 180/446/2022-08-13..2023-05-28; 2023-24 180/432/2023-08-12..2024-05-25; 2024-25 180/446/2024-08-10..2025-05-25; 2025-26 180/481/2025-08-17..2026-05-31. 36 matchdays x 5 every season; the span 2021-08-21..2026-05-31 is complete; 900 league + 10 playoff rows.
+NOTE|info|continuity|Continuity-clause accounting (gap-free league span): all 36 rounds of all five seasons exist and are dated; no league fixture was cancelled in the window. Documented disruptions, rows keep their original round labels while the file stays date-sorted: 2021-22 MD3 and MD4 partially postponed (games moved to Sep/Dec); 2022-23 MD1 Malisheva-Ballkani played 2022-09-28, MD3 Prishtina-Drita 2022-09-28 and Trepca'89-Ballkani 2022-11-30, MD7 Llapi-Ballkani 2022-12-04, MD14 Ballkani-Prishtina 2022-12-11; 2023-24 MD1 Fushe Kosova-Gjilani played 2023-10-11, MD3 Drita-Ballkani 2023-12-20, MD13 Gjilani-Ballkani 2023-12-24; 2024-25 MD1 Drita-Malisheva played 2024-09-18, MD2 Prishtina-Drita 2024-11-06, MD3 Drita-Suhareka 2024-11-20 (with the revoked-award note - see awarded NOTE); 2025-26 MD2 Drita-Drenica played 2025-09-17, MD13 Drita-Prishtina 2025-12-24. Winter breaks are scheduling, not gaps.
+NOTE|info|boundary|Span-end state: the last completed round is 2025-26 MD36, all five fixtures played 2026-05-31 (Drita champions 66 pts; relegated Ferizaj and Prishtina E Re). The 2026-27 season had NOT started on the return date 2026-08-07: Kosovo Superleague seasons begin mid-August (2025-26 began 2025-08-17), and the worldfootball 2026-27 season page carries only unplayed future fixtures. Zero 2026-27 rows are emitted - boundary statement, not a blocker. No dateless rows, no duplicate (date,home,away) rows anywhere in the pack (gate-verified).
+NOTE|info|spot_audit|2021-22 matchday 1 (source https://www.rsssf.org/tablesk/kosovo2022.html): 2021-08-21 Drita 2-1 Feronikeli; Drenica 1-1 Gjilani; Llapi 1-1 Ulpiana; 2021-08-22 Ballkani 2-2 Dukagjini; Malisheva 1-1 Prishtina. Wikipedia first-half matrix cells DRI_FER 2-1, DRE_GJI 1-1, LLA_ULP 1-1, BAL_DUK 2-2, MAL_PRI 1-1 identical.
+NOTE|info|spot_audit|2022-23 matchday 1 (source https://www.rsssf.org/tablesk/kosovo2023.html): 2022-08-13 Dukagjini 1-2 Prishtina; Gjilani 3-2 Ferizaj; Trepça'89 2-2 Drita; 2022-08-14 Drenica 0-1 Llapi; 2022-09-28 Malisheva 2-3 Ballkani. Wikipedia first-half matrix cells identical.
+NOTE|info|spot_audit|2023-24 matchday 1 (source https://www.rsssf.org/tablesk/kosovo2024.html): 2023-08-12 Dukagjini 0-1 Malisheva; Prishtina 3-1 Feronikeli; 2023-08-13 Drita 2-0 Llapi; Liria 0-1 Ballkani; 2023-10-11 Fushe Kosova 2-0 Gjilani. Wikipedia first-half matrix cells identical.
+NOTE|info|spot_audit|2024-25 matchday 1 (source https://www.rsssf.org/tablesk/kosovo2025.html): 2024-08-10 Ferizaj 2-1 Feronikeli; Llapi 1-1 Gjilani; 2024-08-11 Ballkani 2-0 Dukagjini; Prishtina 0-0 Suhareka; 2024-09-18 Drita 2-1 Malisheva. Wikipedia first-half matrix cells identical.
+NOTE|info|spot_audit|2025-26 matchday 1 (sources worldfootball md1 page and the Wikipedia matrix, source FFK): 2025-08-17 Dukagjini 2-3 Prishtina; Drenica 0-0 Llapi; Ferizaj 1-0 Drita; Malisheva 0-4 Prishtina E Re; 2025-08-18 Gjilani 1-1 Ballkani. All five identical in both sources.
+NOTE|info|perclub_gate|Per-club pivot: all 50 club-seasons show exactly 36 matches (18 home + 18 away) and reproduce the official final-table line. 50/50 green; Malisheva 2025-26 now pivots 36/36 (the 12 rows are in-pack).
+NOTE|warning|awarded|2021-22 MD27 Gjilani 0-3 Ballkani (played 2022-04-03): awarded 0-3 per RSSSF after abandonment at 1-1 in the 94th minute due to crowd trouble; the on-pitch 1-1 carries no row. Governing score reproduced in the official table.
+NOTE|warning|awarded|2021-22 MD30 Ulpiana 0-3 Ballkani (played 2022-04-23): awarded 0-3 per RSSSF after originally 1-1; Ulpiana used an ineligible player. Governing score reproduced in the official table.
+NOTE|warning|awarded|2024-25 MD21 Ballkani 3-0 Feronikeli (played 2025-02-21): awarded 3-0 per RSSSF, originally 1-1. Governing score reproduced in the official table.
+NOTE|info|revoked_award|2024-25 MD3 Drita 4-2 Suhareka (played 2024-11-20): RSSSF prints "award of 2-0 later revoked" - the award was revoked so the played 4-2 score governs the row and the table; no separate row for any interim award.
+NOTE|warning|source_conflict|2025-26 MD12 Prishtina E Re vs Drenica (2025-11-02): the Wikipedia results matrix (source FFK) prints the on-pitch 0-0, but the worldfootball carrier prints 3-0 with a "dec." marker AND the RSSSF official final table (source authority) requires the 3-0 award (Drenica 46-55 15-5-16 and Prishtina E Re 39-60 8-7-21 reproduce exactly only with Prishtina E Re awarded a 3-0 win; with 0-0 the table fails). The pack row carries the governing awarded score 3-0; reason for the award not published in either index - disclosed here per the two-indexes-and-table doctrine.
+NOTE|info|playoff_counts|Promotion/Relegation Playoffs used in all five seasons (2 ties each): 2021-22 semifinal Vushtrria 1-1 Liria (aet, 5-3 pen, 2022-05-21) + final Vushtrria 1-3 Malisheva (2022-05-28); 2022-23 semifinal Liria 3-1 Ulpiana (2023-05-27) + final Ferizaj 0-0 Liria (aet, 0-3 pen, 2023-06-04, Liria promoted); 2023-24 semifinal Prishtina E Re 3-3 Dinamo Ferizaj (aet, 4-3 pen, 2024-05-26) + final Prishtina E Re 0-1 Feronikeli (2024-06-01); 2024-25 semifinal Liria 1-3 Vushtrria (2025-05-25) + final Vushtrria 0-0 Llapi (aet, 1-4 pen, 2025-05-31); 2025-26 semifinal Dinamo Ferizaj 2-0 Liria (2026-05-29, 18 June Stadium Kline per Wikipedia) + final Dinamo Ferizaj 0-2 Llapi (2026-06-06, Rexhep Rexhepi Stadium Drenas per Wikipedia). Pen-decided ties carry the 90-minute draw + NOTE|info|advancement lines below.
+MATCH|2021-08-21|Kosovo Superliga|domestic-league|Drita|2|1|Feronikeli|RS R1|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-21|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|1|Gjilani|RS R1|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-21|Kosovo Superliga|domestic-league|Llapi|1|1|Ulpiana|RS R1|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-22|Kosovo Superliga|domestic-league|KF Ballkani|2|2|Dukagjini|RS R1|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-22|Kosovo Superliga|domestic-league|Malisheva|1|1|Prishtina|RS R1|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-28|Kosovo Superliga|domestic-league|Ulpiana|1|3|Malisheva|RS R2|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-28|Kosovo Superliga|domestic-league|Drita|0|0|Llapi|RS R2|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-29|Kosovo Superliga|domestic-league|Feronikeli|0|1|Gjilani|RS R2|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-29|Kosovo Superliga|domestic-league|Prishtina|0|1|KF Ballkani|RS R2|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-08-30|Kosovo Superliga|domestic-league|Dukagjini|1|2|Drenica Skenderaj|RS R2|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-11|Kosovo Superliga|domestic-league|Malisheva|0|1|Drita|RS R3|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-11|Kosovo Superliga|domestic-league|KF Ballkani|3|2|Ulpiana|RS R3|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-11|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|1|Prishtina|RS R3|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-12|Kosovo Superliga|domestic-league|Gjilani|0|0|Dukagjini|RS R3|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-12|Kosovo Superliga|domestic-league|Llapi|0|2|Feronikeli|RS R3|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-15|Kosovo Superliga|domestic-league|Drita|0|0|KF Ballkani|RS R4|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-15|Kosovo Superliga|domestic-league|Feronikeli|1|0|Dukagjini|RS R4|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-15|Kosovo Superliga|domestic-league|Llapi|0|3|Malisheva|RS R4|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-16|Kosovo Superliga|domestic-league|Ulpiana|0|1|Drenica Skenderaj|RS R4|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-16|Kosovo Superliga|domestic-league|Prishtina|1|1|Gjilani|RS R4|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-18|Kosovo Superliga|domestic-league|Malisheva|1|0|Feronikeli|RS R5|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-18|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Llapi|RS R5|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-19|Kosovo Superliga|domestic-league|Dukagjini|1|2|Prishtina|RS R5|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-19|Kosovo Superliga|domestic-league|Gjilani|2|3|Ulpiana|RS R5|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-19|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|2|Drita|RS R5|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-25|Kosovo Superliga|domestic-league|Llapi|1|1|Drenica Skenderaj|RS R6|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-25|Kosovo Superliga|domestic-league|Ulpiana|0|0|Dukagjini|RS R6|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-26|Kosovo Superliga|domestic-league|Drita|0|2|Gjilani|RS R6|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-26|Kosovo Superliga|domestic-league|Feronikeli|0|4|Prishtina|RS R6|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-26|Kosovo Superliga|domestic-league|Malisheva|0|0|KF Ballkani|RS R6|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-29|Kosovo Superliga|domestic-league|KF Ballkani|0|0|Feronikeli|RS R7|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-29|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|0|Malisheva|RS R7|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-29|Kosovo Superliga|domestic-league|Gjilani|2|1|Llapi|RS R7|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-30|Kosovo Superliga|domestic-league|Dukagjini|2|1|Drita|RS R7|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-09-30|Kosovo Superliga|domestic-league|Prishtina|1|1|Ulpiana|RS R7|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-02|Kosovo Superliga|domestic-league|KF Ballkani|3|2|Drenica Skenderaj|RS R8|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-02|Kosovo Superliga|domestic-league|Malisheva|1|1|Gjilani|RS R8|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-03|Kosovo Superliga|domestic-league|Drita|0|0|Prishtina|RS R8|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-03|Kosovo Superliga|domestic-league|Feronikeli|1|0|Ulpiana|RS R8|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-03|Kosovo Superliga|domestic-league|Llapi|1|0|Dukagjini|RS R8|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-15|Kosovo Superliga|domestic-league|Drenica Skenderaj|4|0|Feronikeli|RS R9|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-15|Kosovo Superliga|domestic-league|Ulpiana|1|1|Drita|RS R9|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-16|Kosovo Superliga|domestic-league|Dukagjini|2|0|Malisheva|RS R9|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-16|Kosovo Superliga|domestic-league|Gjilani|1|1|KF Ballkani|RS R9|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-16|Kosovo Superliga|domestic-league|Prishtina|1|2|Llapi|RS R9|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-19|Kosovo Superliga|domestic-league|Feronikeli|0|2|Drita|RS R10|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-19|Kosovo Superliga|domestic-league|Prishtina|2|1|Malisheva|RS R10|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-19|Kosovo Superliga|domestic-league|Ulpiana|0|6|Llapi|RS R10|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-20|Kosovo Superliga|domestic-league|Dukagjini|0|0|KF Ballkani|RS R10|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-20|Kosovo Superliga|domestic-league|Gjilani|2|1|Drenica Skenderaj|RS R10|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-23|Kosovo Superliga|domestic-league|Gjilani|1|0|Feronikeli|RS R11|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-23|Kosovo Superliga|domestic-league|Llapi|1|3|Drita|RS R11|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-23|Kosovo Superliga|domestic-league|Malisheva|1|2|Ulpiana|RS R11|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-24|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|0|Dukagjini|RS R11|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-24|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Prishtina|RS R11|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-30|Kosovo Superliga|domestic-league|Drita|1|0|Malisheva|RS R12|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-30|Kosovo Superliga|domestic-league|Dukagjini|1|1|Gjilani|RS R12|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-30|Kosovo Superliga|domestic-league|Feronikeli|0|2|Llapi|RS R12|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-31|Kosovo Superliga|domestic-league|Ulpiana|2|1|KF Ballkani|RS R12|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-10-31|Kosovo Superliga|domestic-league|Prishtina|1|0|Drenica Skenderaj|RS R12|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-06|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Drita|RS R13|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-06|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|Ulpiana|RS R13|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-06|Kosovo Superliga|domestic-league|Malisheva|0|1|Llapi|RS R13|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-07|Kosovo Superliga|domestic-league|Dukagjini|1|0|Feronikeli|RS R13|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-07|Kosovo Superliga|domestic-league|Gjilani|1|1|Prishtina|RS R13|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-19|Kosovo Superliga|domestic-league|Prishtina|0|0|Dukagjini|RS R14|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-20|Kosovo Superliga|domestic-league|Drita|1|0|Drenica Skenderaj|RS R14|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-20|Kosovo Superliga|domestic-league|Feronikeli|0|1|Malisheva|RS R14|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-20|Kosovo Superliga|domestic-league|Ulpiana|1|2|Gjilani|RS R14|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-21|Kosovo Superliga|domestic-league|Llapi|4|1|KF Ballkani|RS R14|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-23|Kosovo Superliga|domestic-league|Prishtina|2|0|Feronikeli|RS R15|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-23|Kosovo Superliga|domestic-league|Dukagjini|1|1|Ulpiana|RS R15|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-25|Kosovo Superliga|domestic-league|Gjilani|1|0|Drita|RS R15|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-25|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Malisheva|RS R15|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-25|Kosovo Superliga|domestic-league|Drenica Skenderaj|3|5|Llapi|RS R15|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-27|Kosovo Superliga|domestic-league|Ulpiana|0|3|Prishtina|RS R16|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-28|Kosovo Superliga|domestic-league|Malisheva|2|0|Drenica Skenderaj|RS R16|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-28|Kosovo Superliga|domestic-league|Feronikeli|0|1|KF Ballkani|RS R16|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-28|Kosovo Superliga|domestic-league|Llapi|0|0|Gjilani|RS R16|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-11-29|Kosovo Superliga|domestic-league|Drita|4|0|Dukagjini|RS R16|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-04|Kosovo Superliga|domestic-league|Gjilani|3|1|Malisheva|RS R17|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-04|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|KF Ballkani|RS R17|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-05|Kosovo Superliga|domestic-league|Ulpiana|0|0|Feronikeli|RS R17|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-05|Kosovo Superliga|domestic-league|Dukagjini|0|0|Llapi|RS R17|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-05|Kosovo Superliga|domestic-league|Prishtina|0|1|Drita|RS R17|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-11|Kosovo Superliga|domestic-league|Drita|3|1|Ulpiana|RS R18|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-11|Kosovo Superliga|domestic-league|Llapi|3|2|Prishtina|RS R18|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-11|Kosovo Superliga|domestic-league|Feronikeli|0|2|Drenica Skenderaj|RS R18|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-12|Kosovo Superliga|domestic-league|Malisheva|2|2|Dukagjini|RS R18|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2021-12-12|Kosovo Superliga|domestic-league|KF Ballkani|0|1|Gjilani|RS R18|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-12|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|1|Gjilani|RS R19|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-12|Kosovo Superliga|domestic-league|KF Ballkani|4|1|Dukagjini|RS R19|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-12|Kosovo Superliga|domestic-league|Drita|7|0|Feronikeli|RS R19|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-13|Kosovo Superliga|domestic-league|Malisheva|2|1|Prishtina|RS R19|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-13|Kosovo Superliga|domestic-league|Llapi|2|0|Ulpiana|RS R19|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-19|Kosovo Superliga|domestic-league|Drita|1|1|Llapi|RS R20|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-19|Kosovo Superliga|domestic-league|Ulpiana|1|1|Malisheva|RS R20|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-20|Kosovo Superliga|domestic-league|Dukagjini|1|2|Drenica Skenderaj|RS R20|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-20|Kosovo Superliga|domestic-league|Feronikeli|1|3|Gjilani|RS R20|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-20|Kosovo Superliga|domestic-league|Prishtina|0|2|KF Ballkani|RS R20|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-23|Kosovo Superliga|domestic-league|KF Ballkani|3|0|Ulpiana|RS R21|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-23|Kosovo Superliga|domestic-league|Llapi|4|2|Feronikeli|RS R21|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-23|Kosovo Superliga|domestic-league|Malisheva|1|2|Drita|RS R21|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-24|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|0|Prishtina|RS R21|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-24|Kosovo Superliga|domestic-league|Gjilani|2|1|Dukagjini|RS R21|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-26|Kosovo Superliga|domestic-league|Drita|0|1|KF Ballkani|RS R22|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-26|Kosovo Superliga|domestic-league|Llapi|3|0|Malisheva|RS R22|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-27|Kosovo Superliga|domestic-league|Feronikeli|0|3|Dukagjini|RS R22|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-27|Kosovo Superliga|domestic-league|Ulpiana|3|1|Drenica Skenderaj|RS R22|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-02-27|Kosovo Superliga|domestic-league|Prishtina|2|2|Gjilani|RS R22|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-05|Kosovo Superliga|domestic-league|Dukagjini|2|1|Prishtina|RS R23|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-05|Kosovo Superliga|domestic-league|Malisheva|6|1|Feronikeli|RS R23|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-06|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|1|Drita|RS R23|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-06|Kosovo Superliga|domestic-league|Gjilani|2|0|Ulpiana|RS R23|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-06|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Llapi|RS R23|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-09|Kosovo Superliga|domestic-league|Feronikeli|0|3|Prishtina|RS R24|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-09|Kosovo Superliga|domestic-league|Malisheva|2|0|KF Ballkani|RS R24|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-09|Kosovo Superliga|domestic-league|Ulpiana|1|1|Dukagjini|RS R24|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-10|Kosovo Superliga|domestic-league|Drita|1|1|Gjilani|RS R24|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-10|Kosovo Superliga|domestic-league|Llapi|3|3|Drenica Skenderaj|RS R24|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-12|Kosovo Superliga|domestic-league|KF Ballkani|6|0|Feronikeli|RS R25|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-12|Kosovo Superliga|domestic-league|Prishtina|2|0|Ulpiana|RS R25|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-13|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|3|Malisheva|RS R25|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-13|Kosovo Superliga|domestic-league|Dukagjini|0|0|Drita|RS R25|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-13|Kosovo Superliga|domestic-league|Gjilani|1|1|Llapi|RS R25|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-19|Kosovo Superliga|domestic-league|Feronikeli|2|2|Ulpiana|RS R26|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-19|Kosovo Superliga|domestic-league|Llapi|1|2|Dukagjini|RS R26|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-19|Kosovo Superliga|domestic-league|Malisheva|0|0|Gjilani|RS R26|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-20|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Drenica Skenderaj|RS R26|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-03-20|Kosovo Superliga|domestic-league|Drita|2|0|Prishtina|RS R26|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-01|Kosovo Superliga|domestic-league|Dukagjini|0|0|Malisheva|RS R27|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-02|Kosovo Superliga|domestic-league|Prishtina|2|1|Llapi|RS R27|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-02|Kosovo Superliga|domestic-league|Ulpiana|2|3|Drita|RS R27|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-03|Kosovo Superliga|domestic-league|Gjilani|0|3|KF Ballkani|RS R27|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-03|Kosovo Superliga|domestic-league|Drenica Skenderaj|6|0|Feronikeli|RS R27|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-09|Kosovo Superliga|domestic-league|Dukagjini|0|1|KF Ballkani|RS R28|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-09|Kosovo Superliga|domestic-league|Gjilani|5|0|Drenica Skenderaj|RS R28|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-10|Kosovo Superliga|domestic-league|Prishtina|3|2|Malisheva|RS R28|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-10|Kosovo Superliga|domestic-league|Feronikeli|0|5|Drita|RS R28|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-10|Kosovo Superliga|domestic-league|Ulpiana|0|2|Llapi|RS R28|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-16|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|Dukagjini|RS R29|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-16|Kosovo Superliga|domestic-league|Gjilani|5|1|Feronikeli|RS R29|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-16|Kosovo Superliga|domestic-league|Malisheva|1|0|Ulpiana|RS R29|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-17|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Prishtina|RS R29|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-17|Kosovo Superliga|domestic-league|Llapi|1|0|Drita|RS R29|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-23|Kosovo Superliga|domestic-league|Drita|3|1|Malisheva|RS R30|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-23|Kosovo Superliga|domestic-league|Feronikeli|0|2|Llapi|RS R30|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-23|Kosovo Superliga|domestic-league|Ulpiana|0|3|KF Ballkani|RS R30|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-24|Kosovo Superliga|domestic-league|Dukagjini|2|0|Gjilani|RS R30|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-24|Kosovo Superliga|domestic-league|Prishtina|1|1|Drenica Skenderaj|RS R30|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-27|Kosovo Superliga|domestic-league|Drenica Skenderaj|3|1|Ulpiana|RS R31|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-27|Kosovo Superliga|domestic-league|Dukagjini|4|0|Feronikeli|RS R31|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-27|Kosovo Superliga|domestic-league|Gjilani|1|2|Prishtina|RS R31|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-28|Kosovo Superliga|domestic-league|KF Ballkani|3|2|Drita|RS R31|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-28|Kosovo Superliga|domestic-league|Malisheva|0|2|Llapi|RS R31|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-30|Kosovo Superliga|domestic-league|Prishtina|0|1|Dukagjini|RS R32|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-04-30|Kosovo Superliga|domestic-league|Ulpiana|0|4|Gjilani|RS R32|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-01|Kosovo Superliga|domestic-league|Drita|1|1|Drenica Skenderaj|RS R32|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-01|Kosovo Superliga|domestic-league|Feronikeli|0|2|Malisheva|RS R32|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-01|Kosovo Superliga|domestic-league|Llapi|1|1|KF Ballkani|RS R32|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-04|Kosovo Superliga|domestic-league|Dukagjini|2|1|Ulpiana|RS R33|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-04|Kosovo Superliga|domestic-league|Gjilani|0|0|Drita|RS R33|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-04|Kosovo Superliga|domestic-league|Prishtina|5|0|Feronikeli|RS R33|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-05|Kosovo Superliga|domestic-league|KF Ballkani|2|3|Malisheva|RS R33|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-05|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|0|Llapi|RS R33|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-08|Kosovo Superliga|domestic-league|Drita|0|0|Dukagjini|RS R34|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-08|Kosovo Superliga|domestic-league|Feronikeli|0|2|KF Ballkani|RS R34|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-08|Kosovo Superliga|domestic-league|Llapi|2|4|Gjilani|RS R34|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-08|Kosovo Superliga|domestic-league|Malisheva|0|0|Drenica Skenderaj|RS R34|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-08|Kosovo Superliga|domestic-league|Ulpiana|0|3|Prishtina|RS R34|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-15|Kosovo Superliga|domestic-league|Drenica Skenderaj|3|1|KF Ballkani|RS R35|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-15|Kosovo Superliga|domestic-league|Dukagjini|3|2|Llapi|RS R35|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-15|Kosovo Superliga|domestic-league|Gjilani|3|4|Malisheva|RS R35|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-15|Kosovo Superliga|domestic-league|Prishtina|0|1|Drita|RS R35|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-15|Kosovo Superliga|domestic-league|Ulpiana|6|2|Feronikeli|RS R35|Qatiq Bytyqi Stadium|Lipljan|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-21|Kosovo Relegation Playoffs|other|Vushtrria|1|1|Liria|Playoff-SF|18 June Stadium|Kline|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-22|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Gjilani|RS R36|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-22|Kosovo Superliga|domestic-league|Drita|5|0|Ulpiana|RS R36|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-22|Kosovo Superliga|domestic-league|Feronikeli|2|3|Drenica Skenderaj|RS R36|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-22|Kosovo Superliga|domestic-league|Llapi|1|2|Prishtina|RS R36|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-22|Kosovo Superliga|domestic-league|Malisheva|0|0|Dukagjini|RS R36|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2022
+MATCH|2022-05-28|Kosovo Relegation Playoffs|other|Vushtrria|1|3|Malisheva|Playoff-Final|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2022
+MATCH|2022-08-13|Kosovo Superliga|domestic-league|Dukagjini|1|2|Prishtina|RS R1|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-13|Kosovo Superliga|domestic-league|Gjilani|3|2|Ferizaj|RS R1|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-13|Kosovo Superliga|domestic-league|Trepça'89|2|2|Drita|RS R1|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-14|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|Llapi|RS R1|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-20|Kosovo Superliga|domestic-league|Drita|1|0|Dukagjini|RS R2|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-20|Kosovo Superliga|domestic-league|Llapi|2|2|Trepça'89|RS R2|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-21|Kosovo Superliga|domestic-league|Ferizaj|0|0|Prishtina|RS R2|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-21|Kosovo Superliga|domestic-league|Gjilani|1|0|Malisheva|RS R2|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-21|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Drenica Skenderaj|RS R2|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-24|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|0|Gjilani|RS R3|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-24|Kosovo Superliga|domestic-league|Malisheva|3|1|Ferizaj|RS R3|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-24|Kosovo Superliga|domestic-league|Dukagjini|1|1|Llapi|RS R3|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-27|Kosovo Superliga|domestic-league|Gjilani|3|1|Trepça'89|RS R4|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-27|Kosovo Superliga|domestic-league|Malisheva|1|2|Drenica Skenderaj|RS R4|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-28|Kosovo Superliga|domestic-league|Ferizaj|1|1|Drita|RS R4|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-28|Kosovo Superliga|domestic-league|Llapi|1|2|Prishtina|RS R4|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-08-28|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Dukagjini|RS R4|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-03|Kosovo Superliga|domestic-league|Drita|4|0|Llapi|RS R5|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-03|Kosovo Superliga|domestic-league|Trepça'89|2|3|Malisheva|RS R5|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-04|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|0|Ferizaj|RS R5|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-04|Kosovo Superliga|domestic-league|Dukagjini|0|1|Gjilani|RS R5|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-04|Kosovo Superliga|domestic-league|Prishtina|0|1|KF Ballkani|RS R5|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-10|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|5|Trepça'89|RS R6|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-10|Kosovo Superliga|domestic-league|Malisheva|1|1|Dukagjini|RS R6|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-11|Kosovo Superliga|domestic-league|KF Ballkani|0|2|Drita|RS R6|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-11|Kosovo Superliga|domestic-league|Ferizaj|2|1|Llapi|RS R6|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-11|Kosovo Superliga|domestic-league|Gjilani|1|1|Prishtina|RS R6|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-14|Kosovo Superliga|domestic-league|Drita|4|1|Gjilani|RS R7|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-14|Kosovo Superliga|domestic-league|Prishtina|4|2|Malisheva|RS R7|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-15|Kosovo Superliga|domestic-league|Dukagjini|1|2|Drenica Skenderaj|RS R7|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-15|Kosovo Superliga|domestic-league|Trepça'89|1|1|Ferizaj|RS R7|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-17|Kosovo Superliga|domestic-league|Gjilani|0|1|Llapi|RS R8|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-17|Kosovo Superliga|domestic-league|Malisheva|2|4|Drita|RS R8|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-18|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|1|Prishtina|RS R8|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-18|Kosovo Superliga|domestic-league|Trepça'89|3|0|Dukagjini|RS R8|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-19|Kosovo Superliga|domestic-league|Ferizaj|0|3|KF Ballkani|RS R8|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-28|Kosovo Superliga|domestic-league|Malisheva|2|3|KF Ballkani|RS R1|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-09-28|Kosovo Superliga|domestic-league|Prishtina|0|0|Drita|RS R3|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-01|Kosovo Superliga|domestic-league|Dukagjini|4|1|Ferizaj|RS R9|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-01|Kosovo Superliga|domestic-league|Drita|2|1|Drenica Skenderaj|RS R9|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-01|Kosovo Superliga|domestic-league|Llapi|1|1|Malisheva|RS R9|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-02|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Gjilani|RS R9|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-02|Kosovo Superliga|domestic-league|Prishtina|2|2|Trepça'89|RS R9|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-08|Kosovo Superliga|domestic-league|Drita|3|1|Trepça'89|RS R10|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-08|Kosovo Superliga|domestic-league|Prishtina|0|1|Dukagjini|RS R10|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-09|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Malisheva|RS R10|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-09|Kosovo Superliga|domestic-league|Ferizaj|1|1|Gjilani|RS R10|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-09|Kosovo Superliga|domestic-league|Llapi|3|2|Drenica Skenderaj|RS R10|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-15|Kosovo Superliga|domestic-league|Dukagjini|0|1|Drita|RS R11|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-15|Kosovo Superliga|domestic-league|Prishtina|2|1|Ferizaj|RS R11|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-16|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|1|KF Ballkani|RS R11|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-16|Kosovo Superliga|domestic-league|Malisheva|0|1|Gjilani|RS R11|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-16|Kosovo Superliga|domestic-league|Trepça'89|3|3|Llapi|RS R11|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-19|Kosovo Superliga|domestic-league|Drita|1|2|Prishtina|RS R12|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-19|Kosovo Superliga|domestic-league|Ferizaj|0|6|Malisheva|RS R12|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-20|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Trepça'89|RS R12|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-20|Kosovo Superliga|domestic-league|Gjilani|0|2|Drenica Skenderaj|RS R12|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-20|Kosovo Superliga|domestic-league|Llapi|0|1|Dukagjini|RS R12|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-22|Kosovo Superliga|domestic-league|Drita|1|0|Ferizaj|RS R13|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-22|Kosovo Superliga|domestic-league|Prishtina|2|0|Llapi|RS R13|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-23|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|0|Malisheva|RS R13|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-23|Kosovo Superliga|domestic-league|Dukagjini|1|1|KF Ballkani|RS R13|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-23|Kosovo Superliga|domestic-league|Trepça'89|1|1|Gjilani|RS R13|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-29|Kosovo Superliga|domestic-league|Ferizaj|1|1|Drenica Skenderaj|RS R14|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-29|Kosovo Superliga|domestic-league|Malisheva|4|0|Trepça'89|RS R14|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-30|Kosovo Superliga|domestic-league|Gjilani|1|0|Dukagjini|RS R14|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-10-30|Kosovo Superliga|domestic-league|Llapi|4|1|Drita|RS R14|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-05|Kosovo Superliga|domestic-league|Dukagjini|4|0|Malisheva|RS R15|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-05|Kosovo Superliga|domestic-league|Trepça'89|1|0|Drenica Skenderaj|RS R15|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-05|Kosovo Superliga|domestic-league|Prishtina|2|2|Gjilani|RS R15|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-06|Kosovo Superliga|domestic-league|Drita|2|2|KF Ballkani|RS R15|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-06|Kosovo Superliga|domestic-league|Llapi|1|2|Ferizaj|RS R15|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-09|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|Dukagjini|RS R16|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-09|Kosovo Superliga|domestic-league|Ferizaj|2|3|Trepça'89|RS R16|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-09|Kosovo Superliga|domestic-league|Malisheva|2|1|Prishtina|RS R16|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-10|Kosovo Superliga|domestic-league|KF Ballkani|1|4|Llapi|RS R16|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-10|Kosovo Superliga|domestic-league|Gjilani|1|1|Drita|RS R16|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-12|Kosovo Superliga|domestic-league|Dukagjini|1|0|Trepça'89|RS R17|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-12|Kosovo Superliga|domestic-league|Prishtina|0|1|Drenica Skenderaj|RS R17|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-13|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Ferizaj|RS R17|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-13|Kosovo Superliga|domestic-league|Drita|3|1|Malisheva|RS R17|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-13|Kosovo Superliga|domestic-league|Llapi|0|1|Gjilani|RS R17|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-26|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|3|Drita|RS R18|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-26|Kosovo Superliga|domestic-league|Ferizaj|0|0|Dukagjini|RS R18|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-27|Kosovo Superliga|domestic-league|Gjilani|0|3|KF Ballkani|RS R18|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-27|Kosovo Superliga|domestic-league|Malisheva|0|0|Llapi|RS R18|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-27|Kosovo Superliga|domestic-league|Trepça'89|0|3|Prishtina|RS R18|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-11-30|Kosovo Superliga|domestic-league|Trepça'89|1|1|KF Ballkani|RS R3|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2022-12-04|Kosovo Superliga|domestic-league|Llapi|0|3|KF Ballkani|RS R7|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2022-12-11|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Prishtina|RS R14|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-11|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|Llapi|RS R19|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-11|Kosovo Superliga|domestic-league|Gjilani|0|0|Ferizaj|RS R19|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-11|Kosovo Superliga|domestic-league|Malisheva|2|4|KF Ballkani|RS R19|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-12|Kosovo Superliga|domestic-league|Dukagjini|1|0|Prishtina|RS R19|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-12|Kosovo Superliga|domestic-league|Trepça'89|1|0|Drita|RS R19|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-18|Kosovo Superliga|domestic-league|Drita|5|1|Dukagjini|RS R20|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-18|Kosovo Superliga|domestic-league|Ferizaj|1|0|Prishtina|RS R20|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-18|Kosovo Superliga|domestic-league|Llapi|2|1|Trepça'89|RS R20|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-19|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Drenica Skenderaj|RS R20|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-19|Kosovo Superliga|domestic-league|Gjilani|2|2|Malisheva|RS R20|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-22|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|2|Gjilani|RS R21|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-22|Kosovo Superliga|domestic-league|Malisheva|1|1|Ferizaj|RS R21|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-22|Kosovo Superliga|domestic-league|Prishtina|1|2|Drita|RS R21|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-23|Kosovo Superliga|domestic-league|Dukagjini|0|1|Llapi|RS R21|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-23|Kosovo Superliga|domestic-league|Trepça'89|0|1|KF Ballkani|RS R21|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-25|Kosovo Superliga|domestic-league|Ferizaj|2|1|Drita|RS R22|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-25|Kosovo Superliga|domestic-league|Malisheva|3|1|Drenica Skenderaj|RS R22|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-26|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Dukagjini|RS R22|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-26|Kosovo Superliga|domestic-league|Gjilani|1|0|Trepça'89|RS R22|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-02-26|Kosovo Superliga|domestic-league|Llapi|0|2|Prishtina|RS R22|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-04|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|0|Ferizaj|RS R23|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-04|Kosovo Superliga|domestic-league|Drita|2|0|Llapi|RS R23|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-04|Kosovo Superliga|domestic-league|Dukagjini|0|1|Gjilani|RS R23|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-05|Kosovo Superliga|domestic-league|Prishtina|2|2|KF Ballkani|RS R23|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-05|Kosovo Superliga|domestic-league|Trepça'89|0|0|Malisheva|RS R23|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-08|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|2|Trepça'89|RS R24|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-08|Kosovo Superliga|domestic-league|Ferizaj|2|1|Llapi|RS R24|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-08|Kosovo Superliga|domestic-league|Malisheva|1|2|Dukagjini|RS R24|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-09|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Drita|RS R24|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-09|Kosovo Superliga|domestic-league|Gjilani|0|0|Prishtina|RS R24|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-11|Kosovo Superliga|domestic-league|Dukagjini|2|0|Drenica Skenderaj|RS R25|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-11|Kosovo Superliga|domestic-league|Trepça'89|0|1|Ferizaj|RS R25|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-12|Kosovo Superliga|domestic-league|Drita|1|0|Gjilani|RS R25|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-12|Kosovo Superliga|domestic-league|Llapi|3|2|KF Ballkani|RS R25|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-12|Kosovo Superliga|domestic-league|Prishtina|1|2|Malisheva|RS R25|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-18|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|Prishtina|RS R26|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-18|Kosovo Superliga|domestic-league|Malisheva|0|0|Drita|RS R26|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-19|Kosovo Superliga|domestic-league|Ferizaj|0|0|KF Ballkani|RS R26|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-19|Kosovo Superliga|domestic-league|Gjilani|2|2|Llapi|RS R26|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-03-19|Kosovo Superliga|domestic-league|Trepça'89|2|1|Dukagjini|RS R26|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-01|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Gjilani|RS R27|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-01|Kosovo Superliga|domestic-league|Llapi|1|0|Malisheva|RS R27|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-01|Kosovo Superliga|domestic-league|Prishtina|4|1|Trepça'89|RS R27|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-02|Kosovo Superliga|domestic-league|Drita|3|0|Drenica Skenderaj|RS R27|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-02|Kosovo Superliga|domestic-league|Dukagjini|3|1|Ferizaj|RS R27|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-08|Kosovo Superliga|domestic-league|KF Ballkani|2|2|Malisheva|RS R28|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-08|Kosovo Superliga|domestic-league|Drita|1|1|Trepça'89|RS R28|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-09|Kosovo Superliga|domestic-league|Ferizaj|2|0|Gjilani|RS R28|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-09|Kosovo Superliga|domestic-league|Llapi|4|0|Drenica Skenderaj|RS R28|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-09|Kosovo Superliga|domestic-league|Prishtina|1|2|Dukagjini|RS R28|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-15|Kosovo Superliga|domestic-league|Malisheva|0|2|Gjilani|RS R29|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-15|Kosovo Superliga|domestic-league|Prishtina|2|0|Ferizaj|RS R29|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-15|Kosovo Superliga|domestic-league|Trepça'89|2|1|Llapi|RS R29|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-16|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|KF Ballkani|RS R29|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-16|Kosovo Superliga|domestic-league|Dukagjini|0|0|Drita|RS R29|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-22|Kosovo Superliga|domestic-league|Drita|1|0|Prishtina|RS R30|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-22|Kosovo Superliga|domestic-league|Ferizaj|1|2|Malisheva|RS R30|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-23|Kosovo Superliga|domestic-league|KF Ballkani|7|2|Trepça'89|RS R30|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-23|Kosovo Superliga|domestic-league|Gjilani|1|0|Drenica Skenderaj|RS R30|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-23|Kosovo Superliga|domestic-league|Llapi|1|1|Dukagjini|RS R30|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-29|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|2|Malisheva|RS R31|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-29|Kosovo Superliga|domestic-league|Drita|3|0|Ferizaj|RS R31|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-30|Kosovo Superliga|domestic-league|Dukagjini|1|1|KF Ballkani|RS R31|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-30|Kosovo Superliga|domestic-league|Prishtina|0|0|Llapi|RS R31|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-04-30|Kosovo Superliga|domestic-league|Trepça'89|0|0|Gjilani|RS R31|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-03|Kosovo Superliga|domestic-league|Ferizaj|2|0|Drenica Skenderaj|RS R32|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-03|Kosovo Superliga|domestic-league|Gjilani|2|0|Dukagjini|RS R32|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-03|Kosovo Superliga|domestic-league|Malisheva|1|0|Trepça'89|RS R32|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-04|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Prishtina|RS R32|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-04|Kosovo Superliga|domestic-league|Llapi|0|2|Drita|RS R32|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-06|Kosovo Superliga|domestic-league|Dukagjini|1|0|Malisheva|RS R33|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-06|Kosovo Superliga|domestic-league|Trepça'89|3|1|Drenica Skenderaj|RS R33|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-07|Kosovo Superliga|domestic-league|Drita|1|2|KF Ballkani|RS R33|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-07|Kosovo Superliga|domestic-league|Llapi|0|0|Ferizaj|RS R33|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-07|Kosovo Superliga|domestic-league|Prishtina|0|0|Gjilani|RS R33|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-14|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Llapi|RS R34|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-14|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|4|Dukagjini|RS R34|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-14|Kosovo Superliga|domestic-league|Ferizaj|1|0|Trepça'89|RS R34|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-14|Kosovo Superliga|domestic-league|Gjilani|1|1|Drita|RS R34|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-14|Kosovo Superliga|domestic-league|Malisheva|1|1|Prishtina|RS R34|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-20|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Ferizaj|RS R35|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-20|Kosovo Superliga|domestic-league|Drita|0|1|Malisheva|RS R35|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-20|Kosovo Superliga|domestic-league|Dukagjini|3|1|Trepça'89|RS R35|18 June Stadium|Kline|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-20|Kosovo Superliga|domestic-league|Llapi|2|2|Gjilani|RS R35|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-20|Kosovo Superliga|domestic-league|Prishtina|4|1|Drenica Skenderaj|RS R35|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-27|Kosovo Relegation Playoffs|other|Liria|3|1|Ulpiana|Playoff-SF|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-28|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|3|Drita|RS R36|Bajram Aliu Stadium|Skenderaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-28|Kosovo Superliga|domestic-league|Ferizaj|2|1|Dukagjini|RS R36|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-28|Kosovo Superliga|domestic-league|Gjilani|0|0|KF Ballkani|RS R36|Gjilan City Stadium|Gjilan|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-28|Kosovo Superliga|domestic-league|Malisheva|3|2|Llapi|RS R36|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2023
+MATCH|2023-05-28|Kosovo Superliga|domestic-league|Trepça'89|2|1|Prishtina|RS R36|Riza Lushta Stadium|Mitrovica|Kosovo||rsssf-kosovo2023
+MATCH|2023-06-04|Kosovo Relegation Playoffs|other|Ferizaj|0|0|Liria|Playoff-Final|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2023
+MATCH|2023-08-12|Kosovo Superliga|domestic-league|Dukagjini|0|1|Malisheva|RS R1|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-12|Kosovo Superliga|domestic-league|Prishtina|3|1|Feronikeli|RS R1|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-13|Kosovo Superliga|domestic-league|Drita|2|0|Llapi|RS R1|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-13|Kosovo Superliga|domestic-league|Liria|0|1|KF Ballkani|RS R1|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-19|Kosovo Superliga|domestic-league|Liria|0|0|Drita|RS R2|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-19|Kosovo Superliga|domestic-league|Malisheva|6|1|Fushë Kosova|RS R2|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-20|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Feronikeli|RS R2|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-20|Kosovo Superliga|domestic-league|Llapi|3|0|Dukagjini|RS R2|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-21|Kosovo Superliga|domestic-league|Gjilani|0|0|Prishtina|RS R2|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-26|Kosovo Superliga|domestic-league|Feronikeli|1|0|Gjilani|RS R3|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-26|Kosovo Superliga|domestic-league|Prishtina|3|1|Malisheva|RS R3|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-27|Kosovo Superliga|domestic-league|Dukagjini|0|0|Liria|RS R3|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-08-27|Kosovo Superliga|domestic-league|Fushë Kosova|1|2|Llapi|RS R3|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-02|Kosovo Superliga|domestic-league|Liria|2|1|Fushë Kosova|RS R4|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-02|Kosovo Superliga|domestic-league|Malisheva|4|1|Feronikeli|RS R4|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-03|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Gjilani|RS R4|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-03|Kosovo Superliga|domestic-league|Drita|2|2|Dukagjini|RS R4|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-03|Kosovo Superliga|domestic-league|Llapi|0|0|Prishtina|RS R4|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-16|Kosovo Superliga|domestic-league|Feronikeli|0|3|Llapi|RS R5|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-16|Kosovo Superliga|domestic-league|Gjilani|1|0|Malisheva|RS R5|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-16|Kosovo Superliga|domestic-league|Fushë Kosova|1|1|Drita|RS R5|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-17|Kosovo Superliga|domestic-league|Dukagjini|1|1|KF Ballkani|RS R5|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-17|Kosovo Superliga|domestic-league|Prishtina|1|1|Liria|RS R5|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-23|Kosovo Superliga|domestic-league|Dukagjini|1|0|Fushë Kosova|RS R6|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-24|Kosovo Superliga|domestic-league|KF Ballkani|3|2|Malisheva|RS R6|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-24|Kosovo Superliga|domestic-league|Drita|3|0|Prishtina|RS R6|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-24|Kosovo Superliga|domestic-league|Liria|3|5|Feronikeli|RS R6|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-24|Kosovo Superliga|domestic-league|Llapi|2|1|Gjilani|RS R6|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-27|Kosovo Superliga|domestic-league|Gjilani|1|0|Liria|RS R7|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-27|Kosovo Superliga|domestic-league|Fushë Kosova|0|2|KF Ballkani|RS R7|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-27|Kosovo Superliga|domestic-league|Malisheva|2|3|Llapi|RS R7|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-28|Kosovo Superliga|domestic-league|Feronikeli|0|2|Drita|RS R7|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-28|Kosovo Superliga|domestic-league|Prishtina|2|2|Dukagjini|RS R7|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-30|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Llapi|RS R8|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-09-30|Kosovo Superliga|domestic-league|Liria|0|1|Malisheva|RS R8|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-01|Kosovo Superliga|domestic-league|Drita|2|0|Gjilani|RS R8|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-01|Kosovo Superliga|domestic-league|Dukagjini|1|1|Feronikeli|RS R8|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-02|Kosovo Superliga|domestic-league|Fushë Kosova|2|2|Prishtina|RS R8|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-07|Kosovo Superliga|domestic-league|Feronikeli|3|0|Fushë Kosova|RS R9|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-07|Kosovo Superliga|domestic-league|Gjilani|1|1|Dukagjini|RS R9|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-07|Kosovo Superliga|domestic-league|Malisheva|1|3|Drita|RS R9|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-08|Kosovo Superliga|domestic-league|Llapi|2|0|Liria|RS R9|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-08|Kosovo Superliga|domestic-league|Prishtina|1|1|KF Ballkani|RS R9|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-11|Kosovo Superliga|domestic-league|Fushë Kosova|2|0|Gjilani|RS R1|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-20|Kosovo Superliga|domestic-league|KF Ballkani|4|1|Liria|RS R10|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-21|Kosovo Superliga|domestic-league|Feronikeli|0|0|Prishtina|RS R10|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-21|Kosovo Superliga|domestic-league|Gjilani|1|0|Fushë Kosova|RS R10|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-22|Kosovo Superliga|domestic-league|Llapi|0|1|Drita|RS R10|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-22|Kosovo Superliga|domestic-league|Malisheva|3|4|Dukagjini|RS R10|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-28|Kosovo Superliga|domestic-league|Fushë Kosova|0|0|Malisheva|RS R11|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-28|Kosovo Superliga|domestic-league|Prishtina|2|1|Gjilani|RS R11|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-29|Kosovo Superliga|domestic-league|Drita|1|1|Liria|RS R11|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-29|Kosovo Superliga|domestic-league|Dukagjini|0|0|Llapi|RS R11|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-10-29|Kosovo Superliga|domestic-league|Feronikeli|0|3|KF Ballkani|RS R11|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-01|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Drita|RS R12|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-01|Kosovo Superliga|domestic-league|Gjilani|2|1|Feronikeli|RS R12|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-01|Kosovo Superliga|domestic-league|Malisheva|1|0|Prishtina|RS R12|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-02|Kosovo Superliga|domestic-league|Liria|2|2|Dukagjini|RS R12|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-02|Kosovo Superliga|domestic-league|Llapi|1|1|Fushë Kosova|RS R12|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-04|Kosovo Superliga|domestic-league|Feronikeli|0|0|Malisheva|RS R13|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-05|Kosovo Superliga|domestic-league|Dukagjini|1|0|Drita|RS R13|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-05|Kosovo Superliga|domestic-league|Fushë Kosova|2|0|Liria|RS R13|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-05|Kosovo Superliga|domestic-league|Prishtina|2|2|Llapi|RS R13|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-10|Kosovo Superliga|domestic-league|Malisheva|1|0|Gjilani|RS R14|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-11|Kosovo Superliga|domestic-league|Drita|1|0|Fushë Kosova|RS R14|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-11|Kosovo Superliga|domestic-league|Liria|2|2|Prishtina|RS R14|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-11|Kosovo Superliga|domestic-league|Llapi|1|0|Feronikeli|RS R14|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-13|Kosovo Superliga|domestic-league|KF Ballkani|3|1|Dukagjini|RS R14|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-24|Kosovo Superliga|domestic-league|Malisheva|0|2|KF Ballkani|RS R15|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-26|Kosovo Superliga|domestic-league|Gjilani|0|2|Llapi|RS R15|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-27|Kosovo Superliga|domestic-league|Feronikeli|2|1|Liria|RS R15|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-27|Kosovo Superliga|domestic-league|Prishtina|1|0|Drita|RS R15|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-11-28|Kosovo Superliga|domestic-league|Fushë Kosova|0|3|Dukagjini|RS R15|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-02|Kosovo Superliga|domestic-league|Liria|0|4|Gjilani|RS R16|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-02|Kosovo Superliga|domestic-league|Llapi|0|1|Malisheva|RS R16|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-03|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Fushë Kosova|RS R16|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-03|Kosovo Superliga|domestic-league|Drita|3|1|Feronikeli|RS R16|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-03|Kosovo Superliga|domestic-league|Dukagjini|0|0|Prishtina|RS R16|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-09|Kosovo Superliga|domestic-league|Llapi|5|3|KF Ballkani|RS R17|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-09|Kosovo Superliga|domestic-league|Malisheva|1|0|Liria|RS R17|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-09|Kosovo Superliga|domestic-league|Prishtina|1|0|Fushë Kosova|RS R17|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-10|Kosovo Superliga|domestic-league|Feronikeli|1|0|Dukagjini|RS R17|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-10|Kosovo Superliga|domestic-league|Gjilani|0|1|Drita|RS R17|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-16|Kosovo Superliga|domestic-league|Drita|1|2|Malisheva|RS R18|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-16|Kosovo Superliga|domestic-league|Dukagjini|1|0|Gjilani|RS R18|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-16|Kosovo Superliga|domestic-league|Fushë Kosova|0|1|Feronikeli|RS R18|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-17|Kosovo Superliga|domestic-league|KF Ballkani|0|0|Prishtina|RS R18|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-17|Kosovo Superliga|domestic-league|Liria|0|2|Llapi|RS R18|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-20|Kosovo Superliga|domestic-league|Drita|2|1|KF Ballkani|RS R3|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2023-12-24|Kosovo Superliga|domestic-league|Gjilani|0|0|KF Ballkani|RS R13|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-10|Kosovo Superliga|domestic-league|Drita|0|1|Llapi|RS R19|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-10|Kosovo Superliga|domestic-league|Fushë Kosova|1|1|Gjilani|RS R19|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-11|Kosovo Superliga|domestic-league|Dukagjini|2|1|Malisheva|RS R19|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-11|Kosovo Superliga|domestic-league|Liria|0|3|KF Ballkani|RS R19|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-11|Kosovo Superliga|domestic-league|Prishtina|2|0|Feronikeli|RS R19|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-16|Kosovo Superliga|domestic-league|KF Ballkani|2|2|Feronikeli|RS R20|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-16|Kosovo Superliga|domestic-league|Gjilani|1|1|Prishtina|RS R20|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-16|Kosovo Superliga|domestic-league|Liria|0|1|Drita|RS R20|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-18|Kosovo Superliga|domestic-league|Llapi|2|1|Dukagjini|RS R20|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-18|Kosovo Superliga|domestic-league|Malisheva|4|1|Fushë Kosova|RS R20|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-21|Kosovo Superliga|domestic-league|Drita|1|0|KF Ballkani|RS R21|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-21|Kosovo Superliga|domestic-league|Feronikeli|0|0|Gjilani|RS R21|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-21|Kosovo Superliga|domestic-league|Prishtina|0|2|Malisheva|RS R21|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-22|Kosovo Superliga|domestic-league|Dukagjini|2|1|Liria|RS R21|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-22|Kosovo Superliga|domestic-league|Fushë Kosova|0|3|Llapi|RS R21|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-24|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Gjilani|RS R22|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-24|Kosovo Superliga|domestic-league|Malisheva|2|1|Feronikeli|RS R22|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-25|Kosovo Superliga|domestic-league|Drita|2|0|Dukagjini|RS R22|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-25|Kosovo Superliga|domestic-league|Liria|0|0|Fushë Kosova|RS R22|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-02-25|Kosovo Superliga|domestic-league|Llapi|0|0|Prishtina|RS R22|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-02|Kosovo Superliga|domestic-league|Dukagjini|1|2|KF Ballkani|RS R23|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-02|Kosovo Superliga|domestic-league|Feronikeli|0|1|Llapi|RS R23|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-02|Kosovo Superliga|domestic-league|Fushë Kosova|1|0|Drita|RS R23|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-03|Kosovo Superliga|domestic-league|Gjilani|2|3|Malisheva|RS R23|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-03|Kosovo Superliga|domestic-league|Prishtina|3|1|Liria|RS R23|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-09|Kosovo Superliga|domestic-league|Drita|1|0|Prishtina|RS R24|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-09|Kosovo Superliga|domestic-league|Dukagjini|0|0|Fushë Kosova|RS R24|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-09|Kosovo Superliga|domestic-league|Llapi|2|1|Gjilani|RS R24|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-10|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Malisheva|RS R24|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-10|Kosovo Superliga|domestic-league|Liria|0|2|Feronikeli|RS R24|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-13|Kosovo Superliga|domestic-league|Gjilani|3|0|Liria|RS R25|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-13|Kosovo Superliga|domestic-league|Fushë Kosova|2|0|KF Ballkani|RS R25|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-13|Kosovo Superliga|domestic-league|Malisheva|2|1|Llapi|RS R25|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-14|Kosovo Superliga|domestic-league|Feronikeli|0|1|Drita|RS R25|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-14|Kosovo Superliga|domestic-league|Prishtina|5|0|Dukagjini|RS R25|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-16|Kosovo Superliga|domestic-league|KF Ballkani|0|0|Llapi|RS R26|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-16|Kosovo Superliga|domestic-league|Liria|0|3|Malisheva|RS R26|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-17|Kosovo Superliga|domestic-league|Drita|2|2|Gjilani|RS R26|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-17|Kosovo Superliga|domestic-league|Dukagjini|1|0|Feronikeli|RS R26|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-17|Kosovo Superliga|domestic-league|Fushë Kosova|0|0|Prishtina|RS R26|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-30|Kosovo Superliga|domestic-league|Malisheva|1|1|Drita|RS R27|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-30|Kosovo Superliga|domestic-league|Prishtina|0|0|KF Ballkani|RS R27|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-31|Kosovo Superliga|domestic-league|Feronikeli|1|0|Fushë Kosova|RS R27|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-31|Kosovo Superliga|domestic-league|Gjilani|1|1|Dukagjini|RS R27|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-03-31|Kosovo Superliga|domestic-league|Llapi|3|0|Liria|RS R27|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-06|Kosovo Superliga|domestic-league|Gjilani|4|0|Fushë Kosova|RS R28|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-06|Kosovo Superliga|domestic-league|Malisheva|1|1|Dukagjini|RS R28|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-07|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Liria|RS R28|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-07|Kosovo Superliga|domestic-league|Feronikeli|0|0|Prishtina|RS R28|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-07|Kosovo Superliga|domestic-league|Llapi|0|1|Drita|RS R28|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-13|Kosovo Superliga|domestic-league|Drita|4|2|Liria|RS R29|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-13|Kosovo Superliga|domestic-league|Feronikeli|0|2|KF Ballkani|RS R29|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-13|Kosovo Superliga|domestic-league|Prishtina|1|3|Gjilani|RS R29|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-14|Kosovo Superliga|domestic-league|Dukagjini|1|1|Llapi|RS R29|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-14|Kosovo Superliga|domestic-league|Fushë Kosova|1|3|Malisheva|RS R29|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-20|Kosovo Superliga|domestic-league|Liria|0|0|Dukagjini|RS R30|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-20|Kosovo Superliga|domestic-league|Gjilani|1|1|Feronikeli|RS R30|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-20|Kosovo Superliga|domestic-league|KF Ballkani|2|2|Drita|RS R30|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-21|Kosovo Superliga|domestic-league|Llapi|1|0|Fushë Kosova|RS R30|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-21|Kosovo Superliga|domestic-league|Malisheva|0|1|Prishtina|RS R30|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-27|Kosovo Superliga|domestic-league|Feronikeli|2|1|Malisheva|RS R31|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-27|Kosovo Superliga|domestic-league|Fushë Kosova|0|2|Liria|RS R31|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-28|Kosovo Superliga|domestic-league|Dukagjini|1|1|Drita|RS R31|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-28|Kosovo Superliga|domestic-league|Gjilani|0|2|KF Ballkani|RS R31|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-04-28|Kosovo Superliga|domestic-league|Prishtina|0|2|Llapi|RS R31|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-05|Kosovo Superliga|domestic-league|KF Ballkani|3|0|Dukagjini|RS R32|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-05|Kosovo Superliga|domestic-league|Drita|3|1|Fushë Kosova|RS R32|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-05|Kosovo Superliga|domestic-league|Liria|0|1|Prishtina|RS R32|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-05|Kosovo Superliga|domestic-league|Llapi|3|2|Feronikeli|RS R32|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-05|Kosovo Superliga|domestic-league|Malisheva|0|0|Gjilani|RS R32|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-09|Kosovo Superliga|domestic-league|Feronikeli|4|1|Liria|RS R33|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-09|Kosovo Superliga|domestic-league|Malisheva|0|2|KF Ballkani|RS R33|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-09|Kosovo Superliga|domestic-league|Gjilani|1|1|Llapi|RS R33|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-09|Kosovo Superliga|domestic-league|Prishtina|1|2|Drita|RS R33|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-09|Kosovo Superliga|domestic-league|Fushë Kosova|1|2|Dukagjini|RS R33|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-12|Kosovo Superliga|domestic-league|Liria|1|3|Gjilani|RS R34|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-12|Kosovo Superliga|domestic-league|Llapi|1|0|Malisheva|RS R34|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-12|Kosovo Superliga|domestic-league|KF Ballkani|3|0|Fushë Kosova|RS R34|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-12|Kosovo Superliga|domestic-league|Drita|0|0|Feronikeli|RS R34|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-12|Kosovo Superliga|domestic-league|Dukagjini|1|0|Prishtina|RS R34|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-18|Kosovo Superliga|domestic-league|Llapi|0|1|KF Ballkani|RS R35|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-18|Kosovo Superliga|domestic-league|Malisheva|7|4|Liria|RS R35|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-18|Kosovo Superliga|domestic-league|Prishtina|5|0|Fushë Kosova|RS R35|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-18|Kosovo Superliga|domestic-league|Feronikeli|3|2|Dukagjini|RS R35|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-18|Kosovo Superliga|domestic-league|Gjilani|2|1|Drita|RS R35|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-25|Kosovo Superliga|domestic-league|Drita|1|1|Malisheva|RS R36|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-25|Kosovo Superliga|domestic-league|Dukagjini|2|4|Gjilani|RS R36|18 June Stadium|Kline|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-25|Kosovo Superliga|domestic-league|Fushë Kosova|0|3|Feronikeli|RS R36|Ekrem Grajqevci Stadium|Fushe Kosove|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-25|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Prishtina|RS R36|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-25|Kosovo Superliga|domestic-league|Liria|1|5|Llapi|RS R36|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2024
+MATCH|2024-05-26|Kosovo Relegation Playoffs|other|Prishtina E Re|3|3|Dinamo Fzaj.|Playoff-SF|Sami Kelmendi Stadium|Hajvali|Kosovo||rsssf-kosovo2024
+MATCH|2024-06-01|Kosovo Relegation Playoffs|other|Prishtina E Re|0|1|Feronikeli|Playoff-Final|Sami Kelmendi Stadium|Hajvali|Kosovo||rsssf-kosovo2024
+MATCH|2024-08-10|Kosovo Superliga|domestic-league|Ferizaj|2|1|Feronikeli|RS R1|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-10|Kosovo Superliga|domestic-league|Llapi|1|1|Gjilani|RS R1|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-11|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Dukagjini|RS R1|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-11|Kosovo Superliga|domestic-league|Prishtina|0|0|Suhareka|RS R1|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-17|Kosovo Superliga|domestic-league|Suhareka|3|1|Dukagjini|RS R2|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-18|Kosovo Superliga|domestic-league|Feronikeli|0|2|Llapi|RS R2|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-18|Kosovo Superliga|domestic-league|Malisheva|1|1|Ferizaj|RS R2|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-19|Kosovo Superliga|domestic-league|Gjilani|1|1|KF Ballkani|RS R2|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-24|Kosovo Superliga|domestic-league|Ferizaj|1|3|Prishtina|RS R3|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-24|Kosovo Superliga|domestic-league|Llapi|0|1|Malisheva|RS R3|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-25|Kosovo Superliga|domestic-league|KF Ballkani|3|1|Feronikeli|RS R3|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-25|Kosovo Superliga|domestic-league|Dukagjini|2|1|Gjilani|RS R3|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-31|Kosovo Superliga|domestic-league|Feronikeli|0|2|Dukagjini|RS R4|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-08-31|Kosovo Superliga|domestic-league|Prishtina|3|2|Llapi|RS R4|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-01|Kosovo Superliga|domestic-league|Suhareka|3|2|Gjilani|RS R4|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-01|Kosovo Superliga|domestic-league|Malisheva|3|2|KF Ballkani|RS R4|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-02|Kosovo Superliga|domestic-league|Drita|3|1|Ferizaj|RS R4|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-14|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Prishtina|RS R5|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-14|Kosovo Superliga|domestic-league|Ferizaj|0|1|Suhareka|RS R5|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-15|Kosovo Superliga|domestic-league|Dukagjini|1|3|Malisheva|RS R5|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-15|Kosovo Superliga|domestic-league|Llapi|1|0|Drita|RS R5|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-16|Kosovo Superliga|domestic-league|Gjilani|2|0|Feronikeli|RS R5|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-18|Kosovo Superliga|domestic-league|Drita|2|1|Malisheva|RS R1|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-20|Kosovo Superliga|domestic-league|Prishtina|3|0|Dukagjini|RS R6|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-21|Kosovo Superliga|domestic-league|Suhareka|2|0|Feronikeli|RS R6|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-21|Kosovo Superliga|domestic-league|Ferizaj|0|1|Llapi|RS R6|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-22|Kosovo Superliga|domestic-league|Drita|1|0|KF Ballkani|RS R6|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-22|Kosovo Superliga|domestic-league|Malisheva|2|1|Gjilani|RS R6|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-27|Kosovo Superliga|domestic-league|Llapi|3|0|Suhareka|RS R7|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-28|Kosovo Superliga|domestic-league|KF Ballkani|4|0|Ferizaj|RS R7|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-28|Kosovo Superliga|domestic-league|Dukagjini|0|2|Drita|RS R7|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-29|Kosovo Superliga|domestic-league|Feronikeli|1|1|Malisheva|RS R7|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-09-29|Kosovo Superliga|domestic-league|Gjilani|2|1|Prishtina|RS R7|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-04|Kosovo Superliga|domestic-league|Ferizaj|2|1|Dukagjini|RS R8|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-05|Kosovo Superliga|domestic-league|Drita|1|1|Gjilani|RS R8|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-05|Kosovo Superliga|domestic-league|Prishtina|2|0|Feronikeli|RS R8|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-06|Kosovo Superliga|domestic-league|Suhareka|1|3|Malisheva|RS R8|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-06|Kosovo Superliga|domestic-league|Llapi|0|0|KF Ballkani|RS R8|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-18|Kosovo Superliga|domestic-league|Gjilani|1|2|Ferizaj|RS R9|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-19|Kosovo Superliga|domestic-league|Feronikeli|0|0|Drita|RS R9|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-19|Kosovo Superliga|domestic-league|Malisheva|1|3|Prishtina|RS R9|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-20|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Suhareka|RS R9|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-20|Kosovo Superliga|domestic-league|Dukagjini|1|0|Llapi|RS R9|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-25|Kosovo Superliga|domestic-league|Feronikeli|0|1|Ferizaj|RS R10|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-26|Kosovo Superliga|domestic-league|Dukagjini|0|0|KF Ballkani|RS R10|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-26|Kosovo Superliga|domestic-league|Gjilani|2|1|Llapi|RS R10|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-27|Kosovo Superliga|domestic-league|Suhareka|2|1|Prishtina|RS R10|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-27|Kosovo Superliga|domestic-league|Malisheva|0|0|Drita|RS R10|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-29|Kosovo Superliga|domestic-league|KF Ballkani|3|3|Gjilani|RS R11|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-30|Kosovo Superliga|domestic-league|Dukagjini|2|2|Suhareka|RS R11|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-30|Kosovo Superliga|domestic-league|Llapi|2|2|Feronikeli|RS R11|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-31|Kosovo Superliga|domestic-league|Drita|3|0|Prishtina|RS R11|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-10-31|Kosovo Superliga|domestic-league|Ferizaj|1|1|Malisheva|RS R11|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-02|Kosovo Superliga|domestic-league|Gjilani|1|2|Dukagjini|RS R12|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-03|Kosovo Superliga|domestic-league|Suhareka|1|2|Drita|RS R12|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-03|Kosovo Superliga|domestic-league|Prishtina|1|0|Ferizaj|RS R12|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-04|Kosovo Superliga|domestic-league|Feronikeli|1|4|KF Ballkani|RS R12|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-04|Kosovo Superliga|domestic-league|Malisheva|2|1|Llapi|RS R12|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-06|Kosovo Superliga|domestic-league|Prishtina|1|1|Drita|RS R2|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-09|Kosovo Superliga|domestic-league|Dukagjini|2|1|Feronikeli|RS R13|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-09|Kosovo Superliga|domestic-league|Gjilani|1|1|Suhareka|RS R13|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-10|Kosovo Superliga|domestic-league|Ferizaj|1|2|Drita|RS R13|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-10|Kosovo Superliga|domestic-league|Llapi|1|1|Prishtina|RS R13|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-11|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Malisheva|RS R13|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-20|Kosovo Superliga|domestic-league|Drita|4|2|Suhareka|RS R3|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-23|Kosovo Superliga|domestic-league|Feronikeli|0|3|Gjilani|RS R14|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-23|Kosovo Superliga|domestic-league|Malisheva|2|1|Dukagjini|RS R14|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-24|Kosovo Superliga|domestic-league|Suhareka|0|0|Ferizaj|RS R14|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-24|Kosovo Superliga|domestic-league|Prishtina|1|1|KF Ballkani|RS R14|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-25|Kosovo Superliga|domestic-league|Drita|3|1|Llapi|RS R14|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-29|Kosovo Superliga|domestic-league|Feronikeli|3|1|Suhareka|RS R15|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-30|Kosovo Superliga|domestic-league|KF Ballkani|2|3|Drita|RS R15|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-11-30|Kosovo Superliga|domestic-league|Llapi|1|1|Ferizaj|RS R15|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-01|Kosovo Superliga|domestic-league|Dukagjini|0|1|Prishtina|RS R15|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-01|Kosovo Superliga|domestic-league|Gjilani|0|1|Malisheva|RS R15|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-07|Kosovo Superliga|domestic-league|Drita|2|0|Dukagjini|RS R16|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-07|Kosovo Superliga|domestic-league|Prishtina|2|2|Gjilani|RS R16|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-08|Kosovo Superliga|domestic-league|Ferizaj|1|1|KF Ballkani|RS R16|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-08|Kosovo Superliga|domestic-league|Feronikeli|0|0|Malisheva|RS R16|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-10|Kosovo Superliga|domestic-league|Suhareka|4|0|Llapi|RS R16|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-13|Kosovo Superliga|domestic-league|Dukagjini|1|0|Ferizaj|RS R17|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-14|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Llapi|RS R17|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-14|Kosovo Superliga|domestic-league|Malisheva|1|2|Suhareka|RS R17|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-15|Kosovo Superliga|domestic-league|Feronikeli|1|0|Prishtina|RS R17|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-15|Kosovo Superliga|domestic-league|Gjilani|1|0|Drita|RS R17|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-20|Kosovo Superliga|domestic-league|Llapi|0|0|Dukagjini|RS R18|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-21|Kosovo Superliga|domestic-league|Ferizaj|3|1|Gjilani|RS R18|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-21|Kosovo Superliga|domestic-league|Prishtina|0|0|Malisheva|RS R18|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-22|Kosovo Superliga|domestic-league|Drita|2|1|Feronikeli|RS R18|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2024-12-22|Kosovo Superliga|domestic-league|Suhareka|0|2|KF Ballkani|RS R18|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-07|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Dukagjini|RS R19|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-07|Kosovo Superliga|domestic-league|Drita|2|0|Malisheva|RS R19|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-08|Kosovo Superliga|domestic-league|Llapi|0|1|Gjilani|RS R19|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-08|Kosovo Superliga|domestic-league|Prishtina|2|2|Suhareka|RS R19|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-10|Kosovo Superliga|domestic-league|Ferizaj|2|1|Feronikeli|RS R19|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-15|Kosovo Superliga|domestic-league|Suhareka|1|2|Dukagjini|RS R20|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-15|Kosovo Superliga|domestic-league|Prishtina|3|3|Drita|RS R20|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-16|Kosovo Superliga|domestic-league|Feronikeli|0|3|Llapi|RS R20|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-16|Kosovo Superliga|domestic-league|Gjilani|2|1|KF Ballkani|RS R20|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-18|Kosovo Superliga|domestic-league|Malisheva|3|2|Ferizaj|RS R20|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-21|Kosovo Superliga|domestic-league|KF Ballkani|3|0|Feronikeli|RS R21|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-22|Kosovo Superliga|domestic-league|Drita|2|0|Suhareka|RS R21|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-22|Kosovo Superliga|domestic-league|Llapi|0|0|Malisheva|RS R21|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-23|Kosovo Superliga|domestic-league|Dukagjini|0|0|Gjilani|RS R21|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-02-23|Kosovo Superliga|domestic-league|Ferizaj|1|0|Prishtina|RS R21|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-01|Kosovo Superliga|domestic-league|Suhareka|1|2|Gjilani|RS R22|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-01|Kosovo Superliga|domestic-league|Feronikeli|1|0|Dukagjini|RS R22|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-02|Kosovo Superliga|domestic-league|Drita|2|0|Ferizaj|RS R22|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-02|Kosovo Superliga|domestic-league|Malisheva|3|1|KF Ballkani|RS R22|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-03|Kosovo Superliga|domestic-league|Prishtina|0|0|Llapi|RS R22|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-07|Kosovo Superliga|domestic-league|Ferizaj|3|1|Suhareka|RS R23|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-08|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Prishtina|RS R23|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-08|Kosovo Superliga|domestic-league|Llapi|1|0|Drita|RS R23|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-09|Kosovo Superliga|domestic-league|Dukagjini|1|0|Malisheva|RS R23|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-09|Kosovo Superliga|domestic-league|Gjilani|1|0|Feronikeli|RS R23|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-11|Kosovo Superliga|domestic-league|Drita|2|0|KF Ballkani|RS R24|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-11|Kosovo Superliga|domestic-league|Ferizaj|2|1|Llapi|RS R24|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-12|Kosovo Superliga|domestic-league|Prishtina|0|1|Dukagjini|RS R24|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-12|Kosovo Superliga|domestic-league|Malisheva|4|1|Gjilani|RS R24|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-13|Kosovo Superliga|domestic-league|Suhareka|2|1|Feronikeli|RS R24|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-14|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Ferizaj|RS R25|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-15|Kosovo Superliga|domestic-league|Dukagjini|1|1|Drita|RS R25|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-15|Kosovo Superliga|domestic-league|Gjilani|1|1|Prishtina|RS R25|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-16|Kosovo Superliga|domestic-league|Feronikeli|0|0|Malisheva|RS R25|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-16|Kosovo Superliga|domestic-league|Llapi|2|0|Suhareka|RS R25|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-27|Kosovo Superliga|domestic-league|Drita|4|0|Gjilani|RS R26|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-28|Kosovo Superliga|domestic-league|Suhareka|2|1|Malisheva|RS R26|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-28|Kosovo Superliga|domestic-league|Prishtina|2|1|Feronikeli|RS R26|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-29|Kosovo Superliga|domestic-league|Ferizaj|2|1|Dukagjini|RS R26|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-03-29|Kosovo Superliga|domestic-league|Llapi|1|1|KF Ballkani|RS R26|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-04|Kosovo Superliga|domestic-league|Feronikeli|0|1|Drita|RS R27|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-04|Kosovo Superliga|domestic-league|Malisheva|1|0|Prishtina|RS R27|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-05|Kosovo Superliga|domestic-league|KF Ballkani|3|1|Suhareka|RS R27|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-05|Kosovo Superliga|domestic-league|Gjilani|1|0|Ferizaj|RS R27|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-05|Kosovo Superliga|domestic-league|Dukagjini|3|1|Llapi|RS R27|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-11|Kosovo Superliga|domestic-league|Dukagjini|0|5|KF Ballkani|RS R28|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-11|Kosovo Superliga|domestic-league|Feronikeli|0|1|Ferizaj|RS R28|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-12|Kosovo Superliga|domestic-league|Suhareka|0|4|Prishtina|RS R28|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-13|Kosovo Superliga|domestic-league|Gjilani|2|3|Llapi|RS R28|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-13|Kosovo Superliga|domestic-league|Malisheva|1|0|Drita|RS R28|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-15|Kosovo Superliga|domestic-league|Dukagjini|1|1|Suhareka|RS R29|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-16|Kosovo Superliga|domestic-league|Ferizaj|1|0|Malisheva|RS R29|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-16|Kosovo Superliga|domestic-league|Llapi|1|0|Feronikeli|RS R29|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-17|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Gjilani|RS R29|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-17|Kosovo Superliga|domestic-league|Drita|2|0|Prishtina|RS R29|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-19|Kosovo Superliga|domestic-league|Malisheva|1|3|Llapi|RS R30|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-20|Kosovo Superliga|domestic-league|Suhareka|1|2|Drita|RS R30|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-20|Kosovo Superliga|domestic-league|Prishtina|0|0|Ferizaj|RS R30|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-21|Kosovo Superliga|domestic-league|Feronikeli|3|3|KF Ballkani|RS R30|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-21|Kosovo Superliga|domestic-league|Gjilani|1|1|Dukagjini|RS R30|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-26|Kosovo Superliga|domestic-league|KF Ballkani|3|2|Malisheva|RS R31|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-26|Kosovo Superliga|domestic-league|Gjilani|3|0|Suhareka|RS R31|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-27|Kosovo Superliga|domestic-league|Dukagjini|2|1|Feronikeli|RS R31|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-28|Kosovo Superliga|domestic-league|Ferizaj|2|1|Drita|RS R31|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-04-28|Kosovo Superliga|domestic-league|Llapi|1|1|Prishtina|RS R31|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-02|Kosovo Superliga|domestic-league|Feronikeli|2|3|Gjilani|RS R32|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-03|Kosovo Superliga|domestic-league|Malisheva|1|1|Dukagjini|RS R32|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-03|Kosovo Superliga|domestic-league|Prishtina|1|0|KF Ballkani|RS R32|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-04|Kosovo Superliga|domestic-league|Drita|1|0|Llapi|RS R32|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-04|Kosovo Superliga|domestic-league|Suhareka|1|2|Ferizaj|RS R32|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-06|Kosovo Superliga|domestic-league|Gjilani|0|0|Malisheva|RS R33|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-07|Kosovo Superliga|domestic-league|Dukagjini|0|0|Prishtina|RS R33|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-07|Kosovo Superliga|domestic-league|Feronikeli|1|3|Suhareka|RS R33|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-08|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Drita|RS R33|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-08|Kosovo Superliga|domestic-league|Llapi|1|1|Ferizaj|RS R33|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-11|Kosovo Superliga|domestic-league|Drita|0|1|Dukagjini|RS R34|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-11|Kosovo Superliga|domestic-league|Suhareka|4|2|Llapi|RS R34|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-11|Kosovo Superliga|domestic-league|Ferizaj|2|3|KF Ballkani|RS R34|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-11|Kosovo Superliga|domestic-league|Malisheva|1|0|Feronikeli|RS R34|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-11|Kosovo Superliga|domestic-league|Prishtina|1|2|Gjilani|RS R34|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-17|Kosovo Superliga|domestic-league|KF Ballkani|0|1|Llapi|RS R35|Suva Reka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-17|Kosovo Superliga|domestic-league|Dukagjini|3|1|Ferizaj|RS R35|18 June Stadium|Kline|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-17|Kosovo Superliga|domestic-league|Feronikeli|0|1|Prishtina|RS R35|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-17|Kosovo Superliga|domestic-league|Gjilani|0|0|Drita|RS R35|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-17|Kosovo Superliga|domestic-league|Malisheva|1|2|Suhareka|RS R35|Liman Gegaj Stadium|Malisheve|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-25|Kosovo Superliga|domestic-league|Drita|4|1|Feronikeli|RS R36|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-25|Kosovo Superliga|domestic-league|Suhareka|2|2|KF Ballkani|RS R36|Suhareka City Stadium|Suhareke|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-25|Kosovo Superliga|domestic-league|Ferizaj|2|2|Gjilani|RS R36|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-25|Kosovo Superliga|domestic-league|Llapi|3|1|Dukagjini|RS R36|Zahir Pajaziti Stadium|Podujeve|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-25|Kosovo Superliga|domestic-league|Prishtina|2|2|Malisheva|RS R36|Fadil Vokrri Stadium|Prishtine|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-25|Kosovo Relegation Playoffs|other|Liria|1|3|Vushtrria|Playoff-SF|Perparim Thaci Stadium|Prizren|Kosovo||rsssf-kosovo2025
+MATCH|2025-05-31|Kosovo Relegation Playoffs|other|Vushtrria|0|0|Llapi|Playoff-Final|Ferki Aliu Stadium|Vushtrri|Kosovo||rsssf-kosovo2025
+MATCH|2025-08-17|Kosovo Superliga|domestic-league|Dukagjini|2|3|Prishtina|RS R1|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-08-17|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|0|Llapi|RS R1|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-08-17|Kosovo Superliga|domestic-league|Ferizaj|1|0|Drita|RS R1|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-08-17|Kosovo Superliga|domestic-league|Malisheva|0|4|Prishtina E Re|RS R1|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-08-18|Kosovo Superliga|domestic-league|Gjilani|1|1|KF Ballkani|RS R1|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-08-24|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Malisheva|RS R2|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-08-24|Kosovo Superliga|domestic-league|Dukagjini|2|0|Gjilani|RS R2|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-08-24|Kosovo Superliga|domestic-league|Prishtina E Re|0|1|Ferizaj|RS R2|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-08-24|Kosovo Superliga|domestic-league|Prishtina|3|0|Llapi|RS R2|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-08-31|Kosovo Superliga|domestic-league|Gjilani|3|1|Prishtina|RS R3|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-08-31|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|0|Prishtina E Re|RS R3|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-08-31|Kosovo Superliga|domestic-league|Ferizaj|1|3|KF Ballkani|RS R3|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-08-31|Kosovo Superliga|domestic-league|Malisheva|0|1|Dukagjini|RS R3|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-09-01|Kosovo Superliga|domestic-league|Llapi|1|1|Drita|RS R3|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-09-14|Kosovo Superliga|domestic-league|KF Ballkani|3|0|Drenica Skenderaj|RS R4|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-09-14|Kosovo Superliga|domestic-league|Dukagjini|2|0|Ferizaj|RS R4|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-09-14|Kosovo Superliga|domestic-league|Gjilani|1|3|Malisheva|RS R4|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-09-14|Kosovo Superliga|domestic-league|Prishtina E Re|1|0|Llapi|RS R4|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-09-14|Kosovo Superliga|domestic-league|Prishtina|2|2|Drita|RS R4|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-09-17|Kosovo Superliga|domestic-league|Drita|0|1|Drenica Skenderaj|RS R2|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-09-21|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|1|Dukagjini|RS R5|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-09-21|Kosovo Superliga|domestic-league|Ferizaj|0|1|Gjilani|RS R5|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-09-21|Kosovo Superliga|domestic-league|Drita|2|1|Prishtina E Re|RS R5|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-09-21|Kosovo Superliga|domestic-league|Llapi|2|2|KF Ballkani|RS R5|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-09-21|Kosovo Superliga|domestic-league|Malisheva|1|3|Prishtina|RS R5|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-09-25|Kosovo Superliga|domestic-league|Dukagjini|3|1|Llapi|RS R6|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-09-25|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Drita|RS R6|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-09-25|Kosovo Superliga|domestic-league|Gjilani|0|1|Drenica Skenderaj|RS R6|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-09-25|Kosovo Superliga|domestic-league|Malisheva|3|1|Ferizaj|RS R6|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-09-25|Kosovo Superliga|domestic-league|Prishtina|2|0|Prishtina E Re|RS R6|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-09-28|Kosovo Superliga|domestic-league|Drita|3|1|Dukagjini|RS R7|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-09-28|Kosovo Superliga|domestic-league|Drenica Skenderaj|3|4|Malisheva|RS R7|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-09-28|Kosovo Superliga|domestic-league|Ferizaj|0|5|Prishtina|RS R7|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-09-28|Kosovo Superliga|domestic-league|Llapi|4|1|Gjilani|RS R7|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-09-28|Kosovo Superliga|domestic-league|Prishtina E Re|0|3|KF Ballkani|RS R7|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-10-04|Kosovo Superliga|domestic-league|Prishtina|1|0|KF Ballkani|RS R8|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-10-04|Kosovo Superliga|domestic-league|Malisheva|1|2|Llapi|RS R8|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-10-05|Kosovo Superliga|domestic-league|Dukagjini|1|1|Prishtina E Re|RS R8|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-10-05|Kosovo Superliga|domestic-league|Ferizaj|2|0|Drenica Skenderaj|RS R8|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-10-06|Kosovo Superliga|domestic-league|Gjilani|1|2|Drita|RS R8|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-10-18|Kosovo Superliga|domestic-league|Drita|2|1|Malisheva|RS R9|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-10-18|Kosovo Superliga|domestic-league|Prishtina E Re|0|1|Gjilani|RS R9|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-10-19|Kosovo Superliga|domestic-league|KF Ballkani|2|0|Dukagjini|RS R9|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-10-19|Kosovo Superliga|domestic-league|Drenica Skenderaj|3|4|Prishtina|RS R9|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-10-19|Kosovo Superliga|domestic-league|Llapi|1|1|Ferizaj|RS R9|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-10-25|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Gjilani|RS R10|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-10-25|Kosovo Superliga|domestic-league|Prishtina E Re|0|2|Malisheva|RS R10|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-10-25|Kosovo Superliga|domestic-league|Prishtina|2|0|Dukagjini|RS R10|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-10-26|Kosovo Superliga|domestic-league|Drita|3|1|Ferizaj|RS R10|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-10-26|Kosovo Superliga|domestic-league|Llapi|4|3|Drenica Skenderaj|RS R10|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-10-28|Kosovo Superliga|domestic-league|Gjilani|0|2|Dukagjini|RS R11|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-10-28|Kosovo Superliga|domestic-league|Malisheva|0|5|KF Ballkani|RS R11|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-10-29|Kosovo Superliga|domestic-league|Drenica Skenderaj|3|1|Drita|RS R11|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-10-29|Kosovo Superliga|domestic-league|Ferizaj|3|0|Prishtina E Re|RS R11|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-10-29|Kosovo Superliga|domestic-league|Llapi|2|1|Prishtina|RS R11|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-11-01|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Ferizaj|RS R12|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-11-01|Kosovo Superliga|domestic-league|Prishtina|0|0|Gjilani|RS R12|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-11-02|Kosovo Superliga|domestic-league|Drita|1|0|Llapi|RS R12|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-11-02|Kosovo Superliga|domestic-league|Dukagjini|1|2|Malisheva|RS R12|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-11-02|Kosovo Superliga|domestic-league|Prishtina E Re|3|0|Drenica Skenderaj|RS R12|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-11-08|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|0|KF Ballkani|RS R13|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-11-08|Kosovo Superliga|domestic-league|Llapi|1|1|Prishtina E Re|RS R13|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-11-09|Kosovo Superliga|domestic-league|Ferizaj|0|1|Dukagjini|RS R13|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-11-09|Kosovo Superliga|domestic-league|Malisheva|1|2|Gjilani|RS R13|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-11-22|Kosovo Superliga|domestic-league|Prishtina E Re|0|2|Drita|RS R14|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-11-22|Kosovo Superliga|domestic-league|Prishtina|0|2|Malisheva|RS R14|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-11-23|Kosovo Superliga|domestic-league|KF Ballkani|2|4|Llapi|RS R14|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-11-23|Kosovo Superliga|domestic-league|Dukagjini|3|0|Drenica Skenderaj|RS R14|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-11-23|Kosovo Superliga|domestic-league|Gjilani|2|2|Ferizaj|RS R14|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-11-29|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|1|Gjilani|RS R15|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-11-29|Kosovo Superliga|domestic-league|Prishtina E Re|4|1|Prishtina|RS R15|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-11-30|Kosovo Superliga|domestic-league|Drita|2|3|KF Ballkani|RS R15|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-11-30|Kosovo Superliga|domestic-league|Ferizaj|0|2|Malisheva|RS R15|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-11-30|Kosovo Superliga|domestic-league|Llapi|0|1|Dukagjini|RS R15|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-12-06|Kosovo Superliga|domestic-league|KF Ballkani|6|1|Prishtina E Re|RS R16|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-12-06|Kosovo Superliga|domestic-league|Dukagjini|1|1|Drita|RS R16|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-12-06|Kosovo Superliga|domestic-league|Malisheva|2|0|Drenica Skenderaj|RS R16|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-12-07|Kosovo Superliga|domestic-league|Gjilani|3|0|Llapi|RS R16|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-12-07|Kosovo Superliga|domestic-league|Prishtina|1|1|Ferizaj|RS R16|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-12-13|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|1|Ferizaj|RS R17|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2025-12-13|Kosovo Superliga|domestic-league|Prishtina E Re|0|0|Dukagjini|RS R17|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2025-12-14|Kosovo Superliga|domestic-league|KF Ballkani|3|1|Prishtina|RS R17|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2025-12-14|Kosovo Superliga|domestic-league|Drita|1|1|Gjilani|RS R17|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-12-14|Kosovo Superliga|domestic-league|Llapi|0|0|Malisheva|RS R17|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2025-12-20|Kosovo Superliga|domestic-league|Ferizaj|2|1|Llapi|RS R18|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2025-12-20|Kosovo Superliga|domestic-league|Prishtina|2|1|Drenica Skenderaj|RS R18|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2025-12-21|Kosovo Superliga|domestic-league|Dukagjini|0|0|KF Ballkani|RS R18|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2025-12-21|Kosovo Superliga|domestic-league|Gjilani|3|2|Prishtina E Re|RS R18|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2025-12-21|Kosovo Superliga|domestic-league|Malisheva|1|1|Drita|RS R18|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2025-12-24|Kosovo Superliga|domestic-league|Drita|2|0|Prishtina|RS R13|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-02-07|Kosovo Superliga|domestic-league|Dukagjini|0|1|Prishtina|RS R19|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-02-07|Kosovo Superliga|domestic-league|Ferizaj|0|1|Drita|RS R19|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-02-07|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|1|Llapi|RS R19|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-02-08|Kosovo Superliga|domestic-league|Gjilani|1|2|KF Ballkani|RS R19|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-02-08|Kosovo Superliga|domestic-league|Malisheva|1|0|Prishtina E Re|RS R19|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-02-14|Kosovo Superliga|domestic-league|Drita|1|0|Drenica Skenderaj|RS R20|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-02-15|Kosovo Superliga|domestic-league|Dukagjini|1|1|Gjilani|RS R20|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-02-15|Kosovo Superliga|domestic-league|Prishtina E Re|1|0|Ferizaj|RS R20|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-02-15|Kosovo Superliga|domestic-league|Prishtina|4|1|Llapi|RS R20|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-02-16|Kosovo Superliga|domestic-league|KF Ballkani|1|2|Malisheva|RS R20|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-02-21|Kosovo Superliga|domestic-league|Malisheva|0|0|Dukagjini|RS R21|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-02-22|Kosovo Superliga|domestic-league|Ferizaj|2|1|KF Ballkani|RS R21|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-02-22|Kosovo Superliga|domestic-league|Gjilani|1|0|Prishtina|RS R21|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-02-22|Kosovo Superliga|domestic-league|Llapi|0|2|Drita|RS R21|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-02-23|Kosovo Superliga|domestic-league|Drenica Skenderaj|0|2|Prishtina E Re|RS R21|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-02-28|Kosovo Superliga|domestic-league|Prishtina E Re|1|1|Llapi|RS R22|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-02-28|Kosovo Superliga|domestic-league|Dukagjini|1|1|Ferizaj|RS R22|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-02-28|Kosovo Superliga|domestic-league|Gjilani|2|1|Malisheva|RS R22|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-03-01|Kosovo Superliga|domestic-league|KF Ballkani|1|0|Drenica Skenderaj|RS R22|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-03-01|Kosovo Superliga|domestic-league|Prishtina|1|1|Drita|RS R22|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-03-07|Kosovo Superliga|domestic-league|Drita|3|0|Prishtina E Re|RS R23|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-03-08|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|2|Dukagjini|RS R23|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-03-09|Kosovo Superliga|domestic-league|Llapi|2|0|KF Ballkani|RS R23|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-03-09|Kosovo Superliga|domestic-league|Ferizaj|1|2|Gjilani|RS R23|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-03-09|Kosovo Superliga|domestic-league|Malisheva|3|0|Prishtina|RS R23|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-03-14|Kosovo Superliga|domestic-league|Gjilani|0|1|Drenica Skenderaj|RS R24|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-03-14|Kosovo Superliga|domestic-league|Prishtina|1|1|Prishtina E Re|RS R24|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-03-14|Kosovo Superliga|domestic-league|Malisheva|1|2|Ferizaj|RS R24|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-03-15|Kosovo Superliga|domestic-league|KF Ballkani|3|0|Drita|RS R24|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-03-15|Kosovo Superliga|domestic-league|Dukagjini|1|2|Llapi|RS R24|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-03-17|Kosovo Superliga|domestic-league|Drenica Skenderaj|4|2|Malisheva|RS R25|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-03-17|Kosovo Superliga|domestic-league|Ferizaj|3|0|Prishtina|RS R25|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-03-18|Kosovo Superliga|domestic-league|Prishtina E Re|0|1|KF Ballkani|RS R25|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-03-18|Kosovo Superliga|domestic-league|Drita|2|1|Dukagjini|RS R25|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-03-18|Kosovo Superliga|domestic-league|Llapi|2|3|Gjilani|RS R25|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-03-21|Kosovo Superliga|domestic-league|Ferizaj|1|0|Drenica Skenderaj|RS R26|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-03-21|Kosovo Superliga|domestic-league|Prishtina|1|0|KF Ballkani|RS R26|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-03-22|Kosovo Superliga|domestic-league|Dukagjini|1|1|Prishtina E Re|RS R26|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-03-22|Kosovo Superliga|domestic-league|Gjilani|0|1|Drita|RS R26|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-03-22|Kosovo Superliga|domestic-league|Malisheva|2|0|Llapi|RS R26|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-04-04|Kosovo Superliga|domestic-league|KF Ballkani|2|1|Dukagjini|RS R27|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-04-04|Kosovo Superliga|domestic-league|Llapi|1|0|Ferizaj|RS R27|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-04-04|Kosovo Superliga|domestic-league|Prishtina E Re|1|2|Gjilani|RS R27|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-04-05|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|2|Prishtina|RS R27|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-04-05|Kosovo Superliga|domestic-league|Drita|2|0|Malisheva|RS R27|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-04-11|Kosovo Superliga|domestic-league|Prishtina E Re|2|1|Malisheva|RS R28|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-04-12|Kosovo Superliga|domestic-league|KF Ballkani|1|1|Gjilani|RS R28|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-04-12|Kosovo Superliga|domestic-league|Drita|2|1|Ferizaj|RS R28|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-04-12|Kosovo Superliga|domestic-league|Llapi|0|1|Drenica Skenderaj|RS R28|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-04-13|Kosovo Superliga|domestic-league|Prishtina|1|1|Dukagjini|RS R28|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-04-18|Kosovo Superliga|domestic-league|Ferizaj|1|1|Prishtina E Re|RS R29|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-04-18|Kosovo Superliga|domestic-league|Llapi|0|0|Prishtina|RS R29|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-04-19|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|0|Drita|RS R29|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-04-19|Kosovo Superliga|domestic-league|Gjilani|2|3|Dukagjini|RS R29|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-04-19|Kosovo Superliga|domestic-league|Malisheva|4|2|KF Ballkani|RS R29|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-04-25|Kosovo Superliga|domestic-league|Prishtina E Re|2|3|Drenica Skenderaj|RS R30|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-04-25|Kosovo Superliga|domestic-league|Prishtina|1|1|Gjilani|RS R30|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-04-26|Kosovo Superliga|domestic-league|KF Ballkani|3|0|Ferizaj|RS R30|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-04-26|Kosovo Superliga|domestic-league|Drita|3|0|Llapi|RS R30|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-04-26|Kosovo Superliga|domestic-league|Dukagjini|0|1|Malisheva|RS R30|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-04-29|Kosovo Superliga|domestic-league|Drita|1|0|Prishtina|RS R31|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-04-29|Kosovo Superliga|domestic-league|Llapi|4|0|Prishtina E Re|RS R31|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-04-29|Kosovo Superliga|domestic-league|Malisheva|3|1|Gjilani|RS R31|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-04-30|Kosovo Superliga|domestic-league|Drenica Skenderaj|1|2|KF Ballkani|RS R31|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-04-30|Kosovo Superliga|domestic-league|Ferizaj|1|2|Dukagjini|RS R31|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-05-02|Kosovo Superliga|domestic-league|Prishtina E Re|0|1|Drita|RS R32|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-05-02|Kosovo Superliga|domestic-league|Prishtina|0|1|Malisheva|RS R32|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-05-03|Kosovo Superliga|domestic-league|KF Ballkani|0|1|Llapi|RS R32|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-05-03|Kosovo Superliga|domestic-league|Dukagjini|0|1|Drenica Skenderaj|RS R32|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-05-03|Kosovo Superliga|domestic-league|Gjilani|1|1|Ferizaj|RS R32|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-05-06|Kosovo Superliga|domestic-league|Prishtina E Re|3|2|Prishtina|RS R33|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-05-09|Kosovo Superliga|domestic-league|Drita|2|0|KF Ballkani|RS R33|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-05-09|Kosovo Superliga|domestic-league|Drenica Skenderaj|2|1|Gjilani|RS R33|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-05-10|Kosovo Superliga|domestic-league|Llapi|0|0|Dukagjini|RS R33|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-05-10|Kosovo Superliga|domestic-league|Ferizaj|1|1|Malisheva|RS R33|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-05-17|Kosovo Superliga|domestic-league|KF Ballkani|3|2|Prishtina E Re|RS R34|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-05-17|Kosovo Superliga|domestic-league|Dukagjini|2|0|Drita|RS R34|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-05-17|Kosovo Superliga|domestic-league|Gjilani|1|2|Llapi|RS R34|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-05-17|Kosovo Superliga|domestic-league|Prishtina|3|3|Ferizaj|RS R34|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-05-17|Kosovo Superliga|domestic-league|Malisheva|4|1|Drenica Skenderaj|RS R34|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-05-24|Kosovo Superliga|domestic-league|KF Ballkani|1|2|Prishtina|RS R35|Suva Reka City Stadium|Suhareke|Kosovo||wf-kos-2526
+MATCH|2026-05-24|Kosovo Superliga|domestic-league|Drita|0|2|Gjilani|RS R35|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-05-24|Kosovo Superliga|domestic-league|Drenica Skenderaj|3|2|Ferizaj|RS R35|Bajram Aliu Stadium|Skenderaj|Kosovo||wf-kos-2526
+MATCH|2026-05-24|Kosovo Superliga|domestic-league|Prishtina E Re|2|3|Dukagjini|RS R35|Sami Kelmendi Stadium|Hajvali|Kosovo||wf-kos-2526
+MATCH|2026-05-24|Kosovo Superliga|domestic-league|Llapi|3|2|Malisheva|RS R35|Zahir Pajaziti Stadium|Podujeve|Kosovo||wf-kos-2526
+MATCH|2026-05-29|Kosovo Relegation Playoffs|other|Dinamo Fzaj.|2|0|Liria|Playoff-SF|18 June Stadium|Kline|Kosovo||rsssf-kosovo2026
+MATCH|2026-05-31|Kosovo Superliga|domestic-league|Dukagjini|1|0|KF Ballkani|RS R36|18 June Stadium|Kline|Kosovo||wf-kos-2526
+MATCH|2026-05-31|Kosovo Superliga|domestic-league|Gjilani|3|2|Prishtina E Re|RS R36|Gjilan Synthetic Grass Stadium|Gjilan|Kosovo||wf-kos-2526
+MATCH|2026-05-31|Kosovo Superliga|domestic-league|Ferizaj|2|3|Llapi|RS R36|Ferizaj Synthetic Grass Stadium|Ferizaj|Kosovo||wf-kos-2526
+MATCH|2026-05-31|Kosovo Superliga|domestic-league|Prishtina|1|2|Drenica Skenderaj|RS R36|Fadil Vokrri Stadium|Prishtine|Kosovo||wf-kos-2526
+MATCH|2026-05-31|Kosovo Superliga|domestic-league|Malisheva|3|2|Drita|RS R36|Liman Gegaj Stadium|Malisheve|Kosovo||wf-kos-2526
+MATCH|2026-06-06|Kosovo Relegation Playoffs|other|Dinamo Fzaj.|0|2|Llapi|Playoff-Final|Rexhep Rexhepi Stadium|Drenas|Kosovo||rsssf-kosovo2026
+NOTE|info|advancement|2022-05-21 Vushtrria 1-1 Liria (Playoff-SF): Vushtrria advanced on penalties after extra time
+NOTE|info|advancement|2023-06-04 Ferizaj 0-0 Liria (Playoff-Final): Liria advanced on penalties after extra time
+NOTE|info|advancement|2024-05-26 Prishtina E Re 3-3 Dinamo Fzaj. (Playoff-SF): Prishtina E Re advanced on penalties after extra time
+NOTE|info|advancement|2025-05-31 Vushtrria 0-0 Llapi (Playoff-Final): Llapi advanced on penalties after extra time
+NOTE|warning|awarded|2022-04-03 Gjilani 0-3 KF Ballkani (RS R27): governing awarded score; awarded 0-3; [awarded 0-3; abandoned at 1-1 in 94' due to crowd trouble]
+NOTE|warning|awarded|2022-04-23 Ulpiana 0-3 KF Ballkani (RS R30): governing awarded score; awarded 0-3; [awarded 0-3; originally 1-1; Ulpiana used ineligible player]
+NOTE|warning|awarded|2025-02-21 KF Ballkani 3-0 Feronikeli (RS R21): governing awarded score; awarded 3-0; [awarded 3-0, originally 1-1]
+
+NOTE|info|venue|v2.1 venue resolutions: the six playoff rows that carried unknown/unknown now carry the home club's documented ground - 2023-05-27 Liria 3-1 Ulpiana (Playoff-SF) Perparim Thaci Stadium, Prizren (Liria home); 2023-06-04 Ferizaj 0-0 Liria (Playoff-Final) Ferizaj Synthetic Grass Stadium, Ferizaj (Ferizaj home); 2024-05-26 Prishtina E Re 3-3 Dinamo Fzaj. (Playoff-SF) Sami Kelmendi Stadium, Hajvali (Prishtina E Re home); 2024-06-01 Prishtina E Re 0-1 Feronikeli (Playoff-Final) Sami Kelmendi Stadium, Hajvali; 2025-05-25 Liria 1-3 Vushtrria (Playoff-SF) Perparim Thaci Stadium, Prizren; 2025-05-31 Vushtrria 0-0 Llapi (Playoff-Final) Ferki Aliu Stadium, Vushtrri (Vushtrria home). RSSSF/Wikipedia print no venues for these legs; the home-ground convention applies. The 12 included 2025-26 rows carry the same per-club venue constants as the rest of the season (Malisheva = Liman Gegaj Stadium, Prishtina = Fadil Vokrri Stadium, Drita = Gjilan Synthetic Grass Stadium, Prishtina E Re = Sami Kelmendi Stadium, Dukagjini = 18 June Stadium, Ferizaj = Ferizaj Synthetic Grass Stadium, Llapi = Zahir Pajaziti Stadium, Drenica Skenderaj = Bajram Aliu Stadium, KF Ballkani = Suva Reka City Stadium).
+END
