@@ -86,3 +86,28 @@ The auditor's fresh verification **APPROVED the KOS league pack (11/11 gates)** 
 - KOS league pack: no lowercase `Prishtina e Re` rows (0); labels `wf-kos-2526` x168 confirmed.
 
 **Re-returned file:** `handoffs/KOSCUP-2021-2026_BP-TEAM-PACK_v2.txt` (123 slice ties, 24 TEAM rows, 200 lines) — ready for the auditor's re-audit.
+
+---
+
+## RE-RETURN ADDENDUM — v2.1 (2026-08-07, per Director instruction; supersedes the v2.0 packs above)
+
+The Director blocked both v2.0 packs from import for three reasons and mandated corrections. Corrected packs:
+
+- `handoffs/KOS-2021-2026_BP-TEAM-PACK_v2.1.txt` — **910 MATCH rows** = 900 Kosovo Superliga (5 seasons × 180, INCLUDING the 12 former appendix rows — the current 5,082-row store holds zero Kosovo rows, so the pack must be complete standalone) + 10 Kosovo Relegation Playoffs rows. 8 TEAM rows.
+- `handoffs/KOSCUP-2021-2026_BP-TEAM-PACK_v2.1.txt` — **123 MATCH rows** (slice ties with ≥1 Superliga club: 24/24/24/26/25), 24 TEAM rows.
+
+**Corrections made (v2.0 → v2.1):**
+1. **Completeness:** the 12 formerly-excluded appendix rows (2025-26 Malisheva run-in) are included, verified against the worldfootball carrier and the Wikipedia FBR matrix; `NOTE|info|appendix_included` documents the change.
+2. **Venues:** every placeholder stadium/city replaced (KOS 6 playoff rows; KOSCUP 39 stadium rows + 1 city row) — 0 placeholders in any MATCH row of either pack (fresh gate: 0). All venues are researched, named stadium+city with `venue_source` NOTES; two items disclosed for the auditor (2023-24 playoff SF venue inference; TOP Football venue unpublished anywhere).
+3. **Artifacts on branch:** audit report, session log, fresh gate scripts (see below).
+4. D1–D4 identity fixes retained; TEAM rows aligned to the 13-field adopted reference layout.
+
+**Hashes (fresh, after final rebuild):**
+- KOS v2.1 — MD5 `cde3688fd0da79b0f233c6d82cb50572`, SHA-256 `531bc96c9bce742e97efc72fae92076a78c3e01bec7804ae0ab042b40c2bb966`
+- KOSCUP v2.1 — MD5 `cca71b174a7af989b43ed4cf285ca6b9`, SHA-256 `acf40a85d04da7e8d490e67130046fb3bfa79f64d1b640fb8f2b97df7b0afd97`
+
+**Fresh gates:** `audit_work/kos_koscup_reaudit_2026-08-07-v1.0/gates_v21.py` (parses only the shipped packs) — **ALL GATES PASSED**: 910 rows / 900+10, table reproduction 50/50 club-seasons, per-club 36, appendix 12/12, 0 placeholder venues, slice 123, identity invariant clean, finals Llapi/Prishtina/Ballkani/Prishtina/Dukagjini, 5 venue spot-checks.
+
+**Audit artifacts:** `Supervior/Build Docs/AUDIT-KOS-KOSCUP-REAUDIT-2026-08-07-v1.0.md`, `Supervior/updates/SESSION-2026-08-07-KOS-KOSCUP-REAUDIT-v1.0.md`, `audit_work/kos_koscup_reaudit_2026-08-07-v1.0/` (gates_v21.py + audit_fresh.py + final_gates_kos.py).
+
+**Import status:** NEITHER pack imported — the Director's instruction requires the independent auditor's fresh verification first.
