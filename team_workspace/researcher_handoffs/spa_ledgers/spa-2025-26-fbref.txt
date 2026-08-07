@@ -1,0 +1,383 @@
+# SPA 2025-26 carrier rows — transcribed from fbref.com 2025-2026 La Liga Scores & Fixtures
+# (fetched 2026-08-06, 25 chunks). Format: MD|YYYY-MM-DD|Home|HG|AG|Away|Venue
+# Names already mapped to workorder roster strings.
+MD1|2025-08-15|Girona|1|3|Vallecano|Estadi Municipal de Montilivi
+MD1|2025-08-15|Villarreal|2|0|Oviedo|Estadio de la Cerámica
+MD1|2025-08-16|Mallorca|0|3|Barcelona|Estadi Mallorca Son Moix
+MD1|2025-08-16|Valencia|1|1|Sociedad|Estadio de Mestalla
+MD1|2025-08-16|Alaves|2|1|Levante|Estadio de Mendizorroza
+MD1|2025-08-17|Celta|0|2|Getafe|Estadio Abanca Balaídos
+MD1|2025-08-17|Ath Bilbao|3|2|Sevilla|San Mamés
+MD1|2025-08-17|Espanol|2|1|Ath Madrid|RCDE Stadium
+MD1|2025-08-18|Elche|1|1|Betis|Estadio Manuel Martínez Valero
+MD1|2025-08-19|Real Madrid|1|0|Osasuna|Estadio Santiago Bernabéu
+MD2|2025-08-22|Betis|1|0|Alaves|Estadio La Cartuja de Sevilla
+MD2|2025-08-23|Mallorca|1|1|Celta|Estadi Mallorca Son Moix
+MD2|2025-08-23|Ath Madrid|1|1|Elche|Riyadh Air Metropolitano
+MD2|2025-08-23|Levante|2|3|Barcelona|Estadio Ciudad de Valencia
+MD2|2025-08-24|Osasuna|1|0|Valencia|Estadio El Sadar
+MD2|2025-08-24|Sociedad|2|2|Espanol|Reale Arena
+MD2|2025-08-24|Villarreal|5|0|Girona|Estadio de la Cerámica
+MD2|2025-08-24|Oviedo|0|3|Real Madrid|Estadio Nuevo Carlos Tartiere
+MD2|2025-08-25|Ath Bilbao|1|0|Vallecano|San Mamés
+MD2|2025-08-25|Sevilla|1|2|Getafe|Estadio Ramón Sánchez Pizjuán
+MD6|2025-08-27|Celta|1|1|Betis|Estadio Abanca Balaídos
+MD3|2025-08-29|Elche|2|0|Levante|Estadio Manuel Martínez Valero
+MD3|2025-08-29|Valencia|3|0|Getafe|Estadio de Mestalla
+MD3|2025-08-30|Alaves|1|1|Ath Madrid|Estadio de Mendizorroza
+MD3|2025-08-30|Oviedo|1|0|Sociedad|Estadio Nuevo Carlos Tartiere
+MD3|2025-08-30|Girona|0|2|Sevilla|Estadi Municipal de Montilivi
+MD3|2025-08-30|Real Madrid|2|1|Mallorca|Estadio Santiago Bernabéu
+MD3|2025-08-31|Celta|1|1|Villarreal|Estadio Abanca Balaídos
+MD3|2025-08-31|Betis|1|2|Ath Bilbao|Estadio La Cartuja de Sevilla
+MD3|2025-08-31|Espanol|1|0|Osasuna|RCDE Stadium
+MD3|2025-08-31|Vallecano|1|1|Barcelona|Campo de Fútbol de Vallecas
+MD4|2025-09-12|Sevilla|2|2|Elche|Estadio Ramón Sánchez Pizjuán
+MD4|2025-09-13|Getafe|2|0|Oviedo|Coliseum Alfonso Pérez
+MD4|2025-09-13|Sociedad|1|2|Real Madrid|Reale Arena
+MD4|2025-09-13|Ath Bilbao|0|1|Alaves|San Mamés
+MD4|2025-09-13|Ath Madrid|2|0|Villarreal|Riyadh Air Metropolitano
+MD4|2025-09-14|Celta|1|1|Girona|Estadio Abanca Balaídos
+MD4|2025-09-14|Levante|2|2|Betis|Estadio Ciudad de Valencia
+MD4|2025-09-14|Osasuna|2|0|Vallecano|Estadio El Sadar
+MD4|2025-09-14|Barcelona|6|0|Valencia|Estadi Johan Cruyff
+MD4|2025-09-15|Espanol|3|2|Mallorca|RCDE Stadium
+MD5|2025-09-19|Betis|3|1|Sociedad|Estadio La Cartuja de Sevilla
+MD5|2025-09-20|Girona|0|4|Levante|Estadi Municipal de Montilivi
+MD5|2025-09-20|Real Madrid|2|0|Espanol|Estadio Santiago Bernabéu
+MD5|2025-09-20|Alaves|1|2|Sevilla|Estadio de Mendizorroza
+MD5|2025-09-20|Villarreal|2|1|Osasuna|Estadio de la Cerámica
+MD5|2025-09-20|Valencia|2|0|Ath Bilbao|Estadio de Mestalla
+MD5|2025-09-21|Vallecano|1|1|Celta|Campo de Fútbol de Vallecas
+MD5|2025-09-21|Mallorca|1|1|Ath Madrid|Estadi Mallorca Son Moix
+MD5|2025-09-21|Elche|1|0|Oviedo|Estadio Manuel Martínez Valero
+MD5|2025-09-21|Barcelona|3|0|Getafe|Estadi Johan Cruyff
+MD6|2025-09-23|Espanol|2|2|Valencia|RCDE Stadium
+MD6|2025-09-23|Ath Bilbao|1|1|Girona|San Mamés
+MD6|2025-09-23|Levante|1|4|Real Madrid|Estadio Ciudad de Valencia
+MD6|2025-09-23|Sevilla|1|2|Villarreal|Estadio Ramón Sánchez Pizjuán
+MD6|2025-09-24|Getafe|1|1|Alaves|Coliseum Alfonso Pérez
+MD6|2025-09-24|Ath Madrid|3|2|Vallecano|Riyadh Air Metropolitano
+MD6|2025-09-24|Sociedad|1|0|Mallorca|Reale Arena
+MD6|2025-09-25|Osasuna|1|1|Elche|Estadio El Sadar
+MD6|2025-09-25|Oviedo|1|3|Barcelona|Estadio Nuevo Carlos Tartiere
+MD7|2025-09-26|Girona|0|0|Espanol|Estadi Municipal de Montilivi
+MD7|2025-09-27|Getafe|1|1|Levante|Coliseum Alfonso Pérez
+MD7|2025-09-27|Ath Madrid|5|2|Real Madrid|Riyadh Air Metropolitano
+MD7|2025-09-27|Mallorca|1|0|Alaves|Estadi Mallorca Son Moix
+MD7|2025-09-27|Villarreal|1|0|Ath Bilbao|Estadio de la Cerámica
+MD7|2025-09-28|Vallecano|0|1|Sevilla|Campo de Fútbol de Vallecas
+MD7|2025-09-28|Elche|2|1|Celta|Estadio Manuel Martínez Valero
+MD7|2025-09-28|Barcelona|2|1|Sociedad|Estadi Olímpic Lluís Companys
+MD7|2025-09-28|Betis|2|0|Osasuna|Estadio La Cartuja de Sevilla
+MD7|2025-09-30|Valencia|1|2|Oviedo|Estadio de Mestalla
+MD8|2025-10-03|Osasuna|2|1|Getafe|Estadio El Sadar
+MD8|2025-10-04|Oviedo|0|2|Levante|Estadio Nuevo Carlos Tartiere
+MD8|2025-10-04|Girona|2|1|Valencia|Estadi Municipal de Montilivi
+MD8|2025-10-04|Ath Bilbao|2|1|Mallorca|San Mamés
+MD8|2025-10-04|Real Madrid|3|1|Villarreal|Estadio Santiago Bernabéu
+MD8|2025-10-05|Alaves|3|1|Elche|Estadio de Mendizorroza
+MD8|2025-10-05|Sevilla|4|1|Barcelona|Estadio Ramón Sánchez Pizjuán
+MD8|2025-10-05|Sociedad|0|1|Vallecano|Reale Arena
+MD8|2025-10-05|Espanol|1|2|Betis|RCDE Stadium
+MD8|2025-10-05|Celta|1|1|Ath Madrid|Estadio Abanca Balaídos
+MD9|2025-10-17|Oviedo|0|2|Espanol|Estadio Nuevo Carlos Tartiere
+MD9|2025-10-18|Sevilla|1|3|Mallorca|Estadio Ramón Sánchez Pizjuán
+MD9|2025-10-18|Barcelona|2|1|Girona|Estadi Olímpic Lluís Companys
+MD9|2025-10-18|Villarreal|2|2|Betis|Estadio de la Cerámica
+MD9|2025-10-18|Ath Madrid|1|0|Osasuna|Riyadh Air Metropolitano
+MD9|2025-10-19|Elche|0|0|Ath Bilbao|Estadio Manuel Martínez Valero
+MD9|2025-10-19|Celta|1|1|Sociedad|Estadio Abanca Balaídos
+MD9|2025-10-19|Levante|0|3|Vallecano|Estadio Ciudad de Valencia
+MD9|2025-10-19|Getafe|0|1|Real Madrid|Coliseum Alfonso Pérez
+MD9|2025-10-20|Alaves|0|0|Valencia|Estadio de Mendizorroza
+MD10|2025-10-24|Sociedad|2|1|Sevilla|Reale Arena
+MD10|2025-10-25|Girona|3|3|Oviedo|Estadi Municipal de Montilivi
+MD10|2025-10-25|Espanol|1|0|Elche|RCDE Stadium
+MD10|2025-10-25|Ath Bilbao|0|1|Getafe|San Mamés
+MD10|2025-10-25|Valencia|0|2|Villarreal|Estadio de Mestalla
+MD10|2025-10-26|Mallorca|1|1|Levante|Estadi Mallorca Son Moix
+MD10|2025-10-26|Real Madrid|2|1|Barcelona|Estadio Santiago Bernabéu
+MD10|2025-10-26|Osasuna|2|3|Celta|Estadio El Sadar
+MD10|2025-10-26|Vallecano|1|0|Alaves|Campo de Fútbol de Vallecas
+MD10|2025-10-27|Betis|0|2|Ath Madrid|Estadio La Cartuja de Sevilla
+MD11|2025-10-31|Getafe|2|1|Girona|Coliseum Alfonso Pérez
+MD11|2025-11-01|Villarreal|4|0|Vallecano|Estadio de la Cerámica
+MD11|2025-11-01|Ath Madrid|3|0|Sevilla|Riyadh Air Metropolitano
+MD11|2025-11-01|Sociedad|3|2|Ath Bilbao|Reale Arena
+MD11|2025-11-01|Real Madrid|4|0|Valencia|Estadio Santiago Bernabéu
+MD11|2025-11-02|Levante|1|2|Celta|Estadio Ciudad de Valencia
+MD11|2025-11-02|Alaves|2|1|Espanol|Estadio de Mendizorroza
+MD11|2025-11-02|Barcelona|3|1|Elche|Estadi Olímpic Lluís Companys
+MD11|2025-11-02|Betis|3|0|Mallorca|Estadio La Cartuja de Sevilla
+MD11|2025-11-03|Oviedo|0|0|Osasuna|Estadio Nuevo Carlos Tartiere
+MD12|2025-11-07|Elche|1|1|Sociedad|Estadio Manuel Martínez Valero
+MD12|2025-11-08|Girona|1|0|Alaves|Estadi Municipal de Montilivi
+MD12|2025-11-08|Sevilla|1|0|Osasuna|Estadio Ramón Sánchez Pizjuán
+MD12|2025-11-08|Ath Madrid|3|1|Levante|Riyadh Air Metropolitano
+MD12|2025-11-08|Espanol|0|2|Villarreal|RCDE Stadium
+MD12|2025-11-09|Ath Bilbao|1|0|Oviedo|San Mamés
+MD12|2025-11-09|Vallecano|0|0|Real Madrid|Campo de Fútbol de Vallecas
+MD12|2025-11-09|Mallorca|1|0|Getafe|Estadi Mallorca Son Moix
+MD12|2025-11-09|Valencia|1|1|Betis|Estadio de Mestalla
+MD12|2025-11-09|Celta|2|4|Barcelona|Estadio Abanca Balaídos
+MD13|2025-11-21|Valencia|1|0|Levante|Estadio de Mestalla
+MD13|2025-11-22|Alaves|0|1|Celta|Estadio de Mendizorroza
+MD13|2025-11-22|Barcelona|4|0|Ath Bilbao|Spotify Camp Nou
+MD13|2025-11-22|Osasuna|1|3|Sociedad|Estadio El Sadar
+MD13|2025-11-22|Villarreal|2|1|Mallorca|Estadio de la Cerámica
+MD13|2025-11-23|Oviedo|0|0|Vallecano|Estadio Nuevo Carlos Tartiere
+MD13|2025-11-23|Betis|1|1|Girona|Estadio La Cartuja de Sevilla
+MD13|2025-11-23|Getafe|0|1|Ath Madrid|Coliseum Alfonso Pérez
+MD13|2025-11-23|Elche|2|2|Real Madrid|Estadio Manuel Martínez Valero
+MD13|2025-11-24|Espanol|2|1|Sevilla|RCDE Stadium
+MD14|2025-11-28|Getafe|1|0|Elche|Coliseum Alfonso Pérez
+MD14|2025-11-29|Mallorca|2|2|Osasuna|Estadi Mallorca Son Moix
+MD14|2025-11-29|Barcelona|3|1|Alaves|Spotify Camp Nou
+MD14|2025-11-29|Levante|0|2|Ath Bilbao|Estadio Ciudad de Valencia
+MD14|2025-11-29|Ath Madrid|2|0|Oviedo|Riyadh Air Metropolitano
+MD14|2025-11-30|Sociedad|2|3|Villarreal|Reale Arena
+MD14|2025-11-30|Sevilla|0|2|Betis|Estadio Ramón Sánchez Pizjuán
+MD14|2025-11-30|Celta|0|1|Espanol|Estadio Abanca Balaídos
+MD14|2025-11-30|Girona|1|1|Real Madrid|Estadi Municipal de Montilivi
+MD14|2025-12-01|Vallecano|1|1|Valencia|Campo de Fútbol de Vallecas
+MD19|2025-12-02|Barcelona|3|1|Ath Madrid|Spotify Camp Nou
+MD19|2025-12-03|Ath Bilbao|0|3|Real Madrid|San Mamés
+MD15|2025-12-05|Oviedo|0|0|Mallorca|Estadio Nuevo Carlos Tartiere
+MD15|2025-12-06|Villarreal|2|0|Getafe|Estadio de la Cerámica
+MD15|2025-12-06|Alaves|1|0|Sociedad|Estadio de Mendizorroza
+MD15|2025-12-06|Betis|3|5|Barcelona|Estadio La Cartuja de Sevilla
+MD15|2025-12-06|Ath Bilbao|1|0|Ath Madrid|San Mamés
+MD15|2025-12-07|Elche|3|0|Girona|Estadio Manuel Martínez Valero
+MD15|2025-12-07|Valencia|1|1|Sevilla|Estadio de Mestalla
+MD15|2025-12-07|Espanol|1|0|Vallecano|RCDE Stadium
+MD15|2025-12-07|Real Madrid|0|2|Celta|Estadio Santiago Bernabéu
+MD15|2025-12-08|Osasuna|2|0|Levante|Estadio El Sadar
+MD16|2025-12-12|Sociedad|1|2|Girona|Reale Arena
+MD16|2025-12-13|Ath Madrid|2|1|Valencia|Riyadh Air Metropolitano
+MD16|2025-12-13|Mallorca|3|1|Elche|Estadi Mallorca Son Moix
+MD16|2025-12-13|Barcelona|2|0|Osasuna|Spotify Camp Nou
+MD16|2025-12-13|Getafe|0|1|Espanol|Coliseum Alfonso Pérez
+MD16|2025-12-14|Sevilla|4|0|Oviedo|Estadio Ramón Sánchez Pizjuán
+MD16|2025-12-14|Celta|2|0|Ath Bilbao|Estadio Abanca Balaídos
+MD16|2025-12-14|Alaves|1|2|Real Madrid|Estadio de Mendizorroza
+MD16|2025-12-15|Vallecano|0|0|Betis|Campo de Fútbol de Vallecas
+MD17|2025-12-19|Valencia|1|1|Mallorca|Estadio de Mestalla
+MD17|2025-12-20|Oviedo|0|0|Celta|Estadio Nuevo Carlos Tartiere
+MD17|2025-12-20|Levante|1|1|Sociedad|Estadio Ciudad de Valencia
+MD17|2025-12-20|Osasuna|3|0|Alaves|Estadio El Sadar
+MD17|2025-12-20|Real Madrid|2|0|Sevilla|Estadio Santiago Bernabéu
+MD17|2025-12-21|Girona|0|3|Ath Madrid|Estadi Municipal de Montilivi
+MD17|2025-12-21|Villarreal|0|2|Barcelona|Estadio de la Cerámica
+MD17|2025-12-21|Elche|4|0|Vallecano|Estadio Manuel Martínez Valero
+MD17|2025-12-21|Betis|4|0|Getafe|Estadio La Cartuja de Sevilla
+MD17|2025-12-22|Ath Bilbao|1|2|Espanol|San Mamés
+MD18|2026-01-02|Vallecano|1|1|Getafe|Campo de Fútbol de Vallecas
+MD18|2026-01-03|Celta|4|1|Valencia|Estadio Abanca Balaídos
+MD18|2026-01-03|Osasuna|1|1|Ath Bilbao|Estadio El Sadar
+MD18|2026-01-03|Elche|1|3|Villarreal|Estadio Manuel Martínez Valero
+MD18|2026-01-03|Espanol|0|2|Barcelona|RCDE Stadium
+MD18|2026-01-04|Sevilla|0|3|Levante|Estadio Ramón Sánchez Pizjuán
+MD18|2026-01-04|Real Madrid|5|1|Betis|Estadio Santiago Bernabéu
+MD18|2026-01-04|Mallorca|1|2|Girona|Estadi Mallorca Son Moix
+MD18|2026-01-04|Alaves|1|1|Oviedo|Estadio de Mendizorroza
+MD18|2026-01-04|Sociedad|1|1|Ath Madrid|Reale Arena
+MD19|2026-01-09|Getafe|1|2|Sociedad|Coliseum Alfonso Pérez
+MD19|2026-01-10|Oviedo|1|1|Betis|Estadio Nuevo Carlos Tartiere
+MD19|2026-01-10|Villarreal|3|1|Alaves|Estadio de la Cerámica
+MD19|2026-01-10|Girona|1|0|Osasuna|Estadi Municipal de Montilivi
+MD19|2026-01-10|Valencia|1|1|Elche|Estadio de Mestalla
+MD19|2026-01-11|Vallecano|2|1|Mallorca|Campo de Fútbol de Vallecas
+MD19|2026-01-11|Levante|1|1|Espanol|Estadio Ciudad de Valencia
+MD19|2026-01-12|Sevilla|0|1|Celta|Estadio Ramón Sánchez Pizjuán
+MD20|2026-01-16|Espanol|0|2|Girona|RCDE Stadium
+MD20|2026-01-17|Real Madrid|2|0|Levante|Estadio Santiago Bernabéu
+MD20|2026-01-17|Mallorca|3|2|Ath Bilbao|Estadi Mallorca Son Moix
+MD20|2026-01-17|Osasuna|3|2|Oviedo|Estadio El Sadar
+MD20|2026-01-17|Betis|2|0|Villarreal|Estadio La Cartuja de Sevilla
+MD20|2026-01-18|Getafe|0|1|Valencia|Coliseum Alfonso Pérez
+MD20|2026-01-18|Ath Madrid|1|0|Alaves|Riyadh Air Metropolitano
+MD20|2026-01-18|Celta|3|0|Vallecano|Estadio Abanca Balaídos
+MD20|2026-01-18|Sociedad|2|1|Barcelona|Reale Arena
+MD20|2026-01-19|Elche|2|2|Sevilla|Estadio Manuel Martínez Valero
+MD21|2026-01-23|Levante|3|2|Elche|Estadio Ciudad de Valencia
+MD21|2026-01-24|Vallecano|1|3|Osasuna|Campo de Fútbol de Vallecas
+MD21|2026-01-24|Valencia|3|2|Espanol|Estadio de Mestalla
+MD21|2026-01-24|Sevilla|2|1|Ath Bilbao|Estadio Ramón Sánchez Pizjuán
+MD21|2026-01-24|Villarreal|0|2|Real Madrid|Estadio de la Cerámica
+MD21|2026-01-25|Ath Madrid|3|0|Mallorca|Riyadh Air Metropolitano
+MD21|2026-01-25|Barcelona|3|0|Oviedo|Spotify Camp Nou
+MD21|2026-01-25|Sociedad|3|1|Celta|Reale Arena
+MD21|2026-01-25|Alaves|2|1|Betis|Estadio de Mendizorroza
+MD21|2026-01-26|Girona|1|1|Getafe|Estadi Municipal de Montilivi
+MD22|2026-01-30|Espanol|1|2|Alaves|RCDE Stadium
+MD22|2026-01-31|Oviedo|1|0|Girona|Estadio Nuevo Carlos Tartiere
+MD22|2026-01-31|Osasuna|2|2|Villarreal|Estadio El Sadar
+MD22|2026-01-31|Levante|0|0|Ath Madrid|Estadio Ciudad de Valencia
+MD22|2026-01-31|Elche|1|3|Barcelona|Estadio Manuel Martínez Valero
+MD22|2026-02-01|Real Madrid|2|1|Vallecano|Estadio Santiago Bernabéu
+MD22|2026-02-01|Betis|2|1|Valencia|Estadio La Cartuja de Sevilla
+MD22|2026-02-01|Getafe|0|0|Celta|Coliseum Alfonso Pérez
+MD22|2026-02-01|Ath Bilbao|1|1|Sociedad|San Mamés
+MD22|2026-02-02|Mallorca|4|1|Sevilla|Estadi Mallorca Son Moix
+MD23|2026-02-06|Celta|1|2|Osasuna|Estadio Abanca Balaídos
+MD23|2026-02-07|Barcelona|3|0|Mallorca|Spotify Camp Nou
+MD23|2026-02-07|Sociedad|3|1|Elche|Reale Arena
+MD23|2026-02-08|Alaves|0|2|Getafe|Estadio de Mendizorroza
+MD23|2026-02-08|Ath Bilbao|4|2|Levante|San Mamés
+MD23|2026-02-08|Sevilla|1|1|Girona|Estadio Ramón Sánchez Pizjuán
+MD23|2026-02-08|Ath Madrid|0|1|Betis|Riyadh Air Metropolitano
+MD23|2026-02-08|Valencia|0|2|Real Madrid|Estadio de Mestalla
+MD23|2026-02-09|Villarreal|4|1|Espanol|Estadio de la Cerámica
+MD24|2026-02-13|Elche|0|0|Osasuna|Estadio Manuel Martínez Valero
+MD24|2026-02-14|Espanol|2|2|Celta|RCDE Stadium
+MD24|2026-02-14|Getafe|2|1|Villarreal|Coliseum Alfonso Pérez
+MD24|2026-02-14|Sevilla|1|1|Alaves|Estadio Ramón Sánchez Pizjuán
+MD24|2026-02-14|Real Madrid|4|1|Sociedad|Estadio Santiago Bernabéu
+MD24|2026-02-15|Oviedo|1|2|Ath Bilbao|Estadio Nuevo Carlos Tartiere
+MD24|2026-02-15|Vallecano|3|0|Ath Madrid|Estadio Municipal de Butarque
+MD24|2026-02-15|Levante|0|2|Valencia|Estadio Ciudad de Valencia
+MD24|2026-02-15|Mallorca|1|2|Betis|Estadi Mallorca Son Moix
+MD24|2026-02-16|Girona|2|1|Barcelona|Estadi Municipal de Montilivi
+MD16|2026-02-18|Levante|0|1|Villarreal|Estadio Ciudad de Valencia
+MD25|2026-02-20|Ath Bilbao|2|1|Elche|San Mamés
+MD25|2026-02-21|Sociedad|3|3|Oviedo|Reale Arena
+MD25|2026-02-21|Betis|1|1|Vallecano|Estadio La Cartuja de Sevilla
+MD25|2026-02-21|Osasuna|2|1|Real Madrid|Estadio El Sadar
+MD25|2026-02-21|Ath Madrid|4|2|Espanol|Riyadh Air Metropolitano
+MD25|2026-02-22|Getafe|0|1|Sevilla|Coliseum Alfonso Pérez
+MD25|2026-02-22|Barcelona|3|0|Levante|Spotify Camp Nou
+MD25|2026-02-22|Celta|2|0|Mallorca|Estadio Abanca Balaídos
+MD25|2026-02-22|Villarreal|2|1|Valencia|Estadio de la Cerámica
+MD25|2026-02-23|Alaves|2|2|Girona|Estadio de Mendizorroza
+MD26|2026-02-27|Levante|2|0|Alaves|Estadio Ciudad de Valencia
+MD26|2026-02-28|Vallecano|1|1|Ath Bilbao|Campo de Fútbol de Vallecas
+MD26|2026-02-28|Barcelona|4|1|Villarreal|Spotify Camp Nou
+MD26|2026-02-28|Mallorca|0|1|Sociedad|Estadi Mallorca Son Moix
+MD26|2026-02-28|Oviedo|0|1|Ath Madrid|Estadio Nuevo Carlos Tartiere
+MD26|2026-03-01|Elche|2|2|Espanol|Estadio Manuel Martínez Valero
+MD26|2026-03-01|Valencia|1|0|Osasuna|Estadio de Mestalla
+MD26|2026-03-01|Betis|2|2|Sevilla|Estadio La Cartuja de Sevilla
+MD26|2026-03-01|Girona|1|2|Celta|Estadi Municipal de Montilivi
+MD26|2026-03-02|Real Madrid|0|1|Getafe|Estadio Santiago Bernabéu
+MD23|2026-03-04|Vallecano|3|0|Oviedo|Campo de Fútbol de Vallecas
+MD27|2026-03-06|Celta|1|2|Real Madrid|Estadio Abanca Balaídos
+MD27|2026-03-07|Osasuna|2|2|Mallorca|Estadio El Sadar
+MD27|2026-03-07|Levante|1|1|Girona|Estadio Ciudad de Valencia
+MD27|2026-03-07|Ath Madrid|3|2|Sociedad|Riyadh Air Metropolitano
+MD27|2026-03-07|Ath Bilbao|0|1|Barcelona|San Mamés
+MD27|2026-03-08|Villarreal|2|1|Elche|Estadio de la Cerámica
+MD27|2026-03-08|Getafe|2|0|Betis|Coliseum Alfonso Pérez
+MD27|2026-03-08|Sevilla|1|1|Vallecano|Estadio Ramón Sánchez Pizjuán
+MD27|2026-03-08|Valencia|3|2|Alaves|Estadio de Mestalla
+MD27|2026-03-09|Espanol|1|1|Oviedo|RCDE Stadium
+MD28|2026-03-13|Alaves|1|1|Villarreal|Estadio de Mendizorroza
+MD28|2026-03-14|Girona|3|0|Ath Bilbao|Estadi Municipal de Montilivi
+MD28|2026-03-14|Ath Madrid|1|0|Getafe|Riyadh Air Metropolitano
+MD28|2026-03-14|Oviedo|1|0|Valencia|Estadio Nuevo Carlos Tartiere
+MD28|2026-03-14|Real Madrid|4|1|Elche|Estadio Santiago Bernabéu
+MD28|2026-03-15|Mallorca|2|1|Espanol|Estadi Mallorca Son Moix
+MD28|2026-03-15|Barcelona|5|2|Sevilla|Spotify Camp Nou
+MD28|2026-03-15|Betis|1|1|Celta|Estadio La Cartuja de Sevilla
+MD28|2026-03-15|Sociedad|3|1|Osasuna|Reale Arena
+MD28|2026-03-16|Vallecano|1|1|Levante|Campo de Fútbol de Vallecas
+MD29|2026-03-20|Villarreal|3|1|Sociedad|Estadio de la Cerámica
+MD29|2026-03-21|Elche|2|1|Mallorca|Estadio Manuel Martínez Valero
+MD29|2026-03-21|Espanol|1|2|Getafe|RCDE Stadium
+MD29|2026-03-21|Levante|4|2|Oviedo|Estadio Ciudad de Valencia
+MD29|2026-03-21|Osasuna|1|0|Girona|Estadio El Sadar
+MD29|2026-03-21|Sevilla|0|2|Valencia|Estadio Ramón Sánchez Pizjuán
+MD29|2026-03-22|Barcelona|1|0|Vallecano|Spotify Camp Nou
+MD29|2026-03-22|Celta|3|4|Alaves|Estadio Abanca Balaídos
+MD29|2026-03-22|Ath Bilbao|2|1|Betis|San Mamés
+MD29|2026-03-22|Real Madrid|3|2|Ath Madrid|Estadio Santiago Bernabéu
+MD30|2026-04-03|Vallecano|1|0|Elche|Campo de Fútbol de Vallecas
+MD30|2026-04-04|Sociedad|2|0|Levante|Reale Arena
+MD30|2026-04-04|Mallorca|2|1|Real Madrid|Estadi Mallorca Son Moix
+MD30|2026-04-04|Betis|0|0|Espanol|Estadio La Cartuja de Sevilla
+MD30|2026-04-04|Ath Madrid|1|2|Barcelona|Riyadh Air Metropolitano
+MD30|2026-04-05|Getafe|2|0|Ath Bilbao|Coliseum Alfonso Pérez
+MD30|2026-04-05|Valencia|2|3|Celta|Estadio de Mestalla
+MD30|2026-04-05|Oviedo|1|0|Sevilla|Estadio Nuevo Carlos Tartiere
+MD30|2026-04-05|Alaves|2|2|Osasuna|Estadio de Mendizorroza
+MD30|2026-04-06|Girona|1|0|Villarreal|Estadi Municipal de Montilivi
+MD31|2026-04-10|Real Madrid|1|1|Girona|Estadio Santiago Bernabéu
+MD31|2026-04-11|Sociedad|3|3|Alaves|Reale Arena
+MD31|2026-04-11|Elche|1|0|Valencia|Estadio Manuel Martínez Valero
+MD31|2026-04-11|Barcelona|4|1|Espanol|Spotify Camp Nou
+MD31|2026-04-11|Sevilla|2|1|Ath Madrid|Estadio Ramón Sánchez Pizjuán
+MD31|2026-04-12|Osasuna|1|1|Betis|Estadio El Sadar
+MD31|2026-04-12|Mallorca|3|0|Vallecano|Estadi Mallorca Son Moix
+MD31|2026-04-12|Celta|0|3|Oviedo|Estadio Abanca Balaídos
+MD31|2026-04-12|Ath Bilbao|1|2|Villarreal|San Mamés
+MD31|2026-04-13|Levante|1|0|Getafe|Estadio Ciudad de Valencia
+MD33|2026-04-21|Ath Bilbao|1|0|Osasuna|San Mamés
+MD33|2026-04-21|Mallorca|1|1|Valencia|Estadi Mallorca Son Moix
+MD33|2026-04-21|Real Madrid|2|1|Alaves|Estadio Santiago Bernabéu
+MD33|2026-04-21|Girona|2|3|Betis|Estadi Municipal de Montilivi
+MD33|2026-04-22|Elche|3|2|Ath Madrid|Estadio Manuel Martínez Valero
+MD33|2026-04-22|Sociedad|0|1|Getafe|Reale Arena
+MD33|2026-04-22|Barcelona|1|0|Celta|Spotify Camp Nou
+MD33|2026-04-23|Levante|2|0|Sevilla|Estadio Ciudad de Valencia
+MD33|2026-04-23|Vallecano|1|0|Espanol|Campo de Fútbol de Vallecas
+MD33|2026-04-23|Oviedo|1|1|Villarreal|Estadio Nuevo Carlos Tartiere
+MD32|2026-04-24|Betis|1|1|Real Madrid|Estadio La Cartuja de Sevilla
+MD32|2026-04-25|Alaves|2|1|Mallorca|Estadio de Mendizorroza
+MD32|2026-04-25|Getafe|0|2|Barcelona|Coliseum Alfonso Pérez
+MD32|2026-04-25|Valencia|2|1|Girona|Estadio de Mestalla
+MD32|2026-04-25|Ath Madrid|3|2|Ath Bilbao|Riyadh Air Metropolitano
+MD32|2026-04-26|Vallecano|3|3|Sociedad|Campo de Fútbol de Vallecas
+MD32|2026-04-26|Oviedo|1|2|Elche|Estadio Nuevo Carlos Tartiere
+MD32|2026-04-26|Osasuna|2|1|Sevilla|Estadio El Sadar
+MD32|2026-04-26|Villarreal|2|1|Celta|Estadio de la Cerámica
+MD32|2026-04-27|Espanol|0|0|Levante|RCDE Stadium
+MD34|2026-05-01|Girona|0|1|Mallorca|Estadi Municipal de Montilivi
+MD34|2026-05-02|Villarreal|5|1|Levante|Estadio de la Cerámica
+MD34|2026-05-02|Valencia|0|2|Ath Madrid|Estadio de Mestalla
+MD34|2026-05-02|Alaves|2|4|Ath Bilbao|Estadio de Mendizorroza
+MD34|2026-05-02|Osasuna|1|2|Barcelona|Estadio El Sadar
+MD34|2026-05-03|Celta|3|1|Elche|Estadio Abanca Balaídos
+MD34|2026-05-03|Getafe|0|2|Vallecano|Coliseum Alfonso Pérez
+MD34|2026-05-03|Betis|3|0|Oviedo|Estadio La Cartuja de Sevilla
+MD34|2026-05-03|Espanol|0|2|Real Madrid|RCDE Stadium
+MD34|2026-05-04|Sevilla|1|0|Sociedad|Estadio Ramón Sánchez Pizjuán
+MD35|2026-05-08|Levante|3|2|Osasuna|Estadio Ciudad de Valencia
+MD35|2026-05-09|Elche|1|1|Alaves|Estadio Manuel Martínez Valero
+MD35|2026-05-09|Sevilla|2|1|Espanol|Estadio Ramón Sánchez Pizjuán
+MD35|2026-05-09|Ath Madrid|0|1|Celta|Riyadh Air Metropolitano
+MD35|2026-05-09|Sociedad|2|2|Betis|Reale Arena
+MD35|2026-05-10|Mallorca|1|1|Villarreal|Estadi Mallorca Son Moix
+MD35|2026-05-10|Ath Bilbao|0|1|Valencia|San Mamés
+MD35|2026-05-10|Oviedo|0|0|Getafe|Estadio Nuevo Carlos Tartiere
+MD35|2026-05-10|Barcelona|2|0|Real Madrid|Spotify Camp Nou
+MD35|2026-05-11|Vallecano|1|1|Girona|Campo de Fútbol de Vallecas
+MD36|2026-05-12|Celta|2|3|Levante|Estadio Abanca Balaídos
+MD36|2026-05-12|Betis|2|1|Elche|Estadio La Cartuja de Sevilla
+MD36|2026-05-12|Osasuna|1|2|Ath Madrid|Estadio El Sadar
+MD36|2026-05-13|Villarreal|2|3|Sevilla|Estadio de la Cerámica
+MD36|2026-05-13|Espanol|2|0|Ath Bilbao|RCDE Stadium
+MD36|2026-05-13|Alaves|1|0|Barcelona|Estadio de Mendizorroza
+MD36|2026-05-13|Getafe|3|1|Mallorca|Coliseum Alfonso Pérez
+MD36|2026-05-14|Valencia|1|1|Vallecano|Estadio de Mestalla
+MD36|2026-05-14|Girona|1|1|Sociedad|Estadi Municipal de Montilivi
+MD36|2026-05-14|Real Madrid|2|0|Oviedo|Estadio Santiago Bernabéu
+MD37|2026-05-17|Elche|1|0|Getafe|Estadio Manuel Martínez Valero
+MD37|2026-05-17|Sevilla|0|1|Real Madrid|Estadio Ramón Sánchez Pizjuán
+MD37|2026-05-17|Sociedad|3|4|Valencia|Reale Arena
+MD37|2026-05-17|Ath Bilbao|1|1|Celta|San Mamés
+MD37|2026-05-17|Oviedo|0|1|Alaves|Estadio Nuevo Carlos Tartiere
+MD37|2026-05-17|Vallecano|2|0|Villarreal|Campo de Fútbol de Vallecas
+MD37|2026-05-17|Osasuna|1|2|Espanol|Estadio El Sadar
+MD37|2026-05-17|Ath Madrid|1|0|Girona|Riyadh Air Metropolitano
+MD37|2026-05-17|Levante|2|0|Mallorca|Estadio Ciudad de Valencia
+MD37|2026-05-17|Barcelona|3|1|Betis|Spotify Camp Nou
+MD38|2026-05-23|Espanol|1|1|Sociedad|RCDE Stadium
+MD38|2026-05-23|Mallorca|3|0|Oviedo|Estadi Mallorca Son Moix
+MD38|2026-05-23|Girona|1|1|Elche|Estadi Municipal de Montilivi
+MD38|2026-05-23|Betis|2|1|Levante|Estadio La Cartuja de Sevilla
+MD38|2026-05-23|Celta|1|0|Sevilla|Estadio Abanca Balaídos
+MD38|2026-05-23|Getafe|1|0|Osasuna|Coliseum Alfonso Pérez
+MD38|2026-05-23|Real Madrid|4|2|Ath Bilbao|Estadio Santiago Bernabéu
+MD38|2026-05-23|Valencia|3|1|Barcelona|Estadio de Mestalla
+MD38|2026-05-23|Alaves|1|2|Vallecano|Estadio de Mendizorroza
+MD38|2026-05-24|Villarreal|5|1|Ath Madrid|Estadio de la Cerámica

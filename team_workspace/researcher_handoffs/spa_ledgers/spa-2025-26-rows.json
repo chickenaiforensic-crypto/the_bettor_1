@@ -1,0 +1,3422 @@
+[
+ {
+  "round": 1,
+  "date": "2025-08-15",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 3,
+  "away": "Vallecano",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-15",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-16",
+  "home": "Mallorca",
+  "hg": 0,
+  "ag": 3,
+  "away": "Barcelona",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-16",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-16",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 1,
+  "away": "Levante",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-17",
+  "home": "Celta",
+  "hg": 0,
+  "ag": 2,
+  "away": "Getafe",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-17",
+  "home": "Ath Bilbao",
+  "hg": 3,
+  "ag": 2,
+  "away": "Sevilla",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-17",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-18",
+  "home": "Elche",
+  "hg": 1,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 1,
+  "date": "2025-08-19",
+  "home": "Real Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-22",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 0,
+  "away": "Alaves",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-23",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-23",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-23",
+  "home": "Levante",
+  "hg": 2,
+  "ag": 3,
+  "away": "Barcelona",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-24",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 0,
+  "away": "Valencia",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-24",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 2,
+  "away": "Espanol",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-24",
+  "home": "Villarreal",
+  "hg": 5,
+  "ag": 0,
+  "away": "Girona",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-24",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 3,
+  "away": "Real Madrid",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-25",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 2,
+  "date": "2025-08-25",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 2,
+  "away": "Getafe",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 6,
+  "date": "2025-08-27",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-29",
+  "home": "Elche",
+  "hg": 2,
+  "ag": 0,
+  "away": "Levante",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-29",
+  "home": "Valencia",
+  "hg": 3,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-30",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-30",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sociedad",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-30",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 2,
+  "away": "Sevilla",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-30",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-31",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 1,
+  "away": "Villarreal",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-31",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 2,
+  "away": "Ath Bilbao",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-31",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 3,
+  "date": "2025-08-31",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Barcelona",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-12",
+  "home": "Sevilla",
+  "hg": 2,
+  "ag": 2,
+  "away": "Elche",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-13",
+  "home": "Getafe",
+  "hg": 2,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-13",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 2,
+  "away": "Real Madrid",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-13",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 1,
+  "away": "Alaves",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-13",
+  "home": "Ath Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Villarreal",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-14",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-14",
+  "home": "Levante",
+  "hg": 2,
+  "ag": 2,
+  "away": "Betis",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-14",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-14",
+  "home": "Barcelona",
+  "hg": 6,
+  "ag": 0,
+  "away": "Valencia",
+  "venue": "Estadi Johan Cruyff"
+ },
+ {
+  "round": 4,
+  "date": "2025-09-15",
+  "home": "Espanol",
+  "hg": 3,
+  "ag": 2,
+  "away": "Mallorca",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-19",
+  "home": "Betis",
+  "hg": 3,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-20",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 4,
+  "away": "Levante",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-20",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Espanol",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-20",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 2,
+  "away": "Sevilla",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-20",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 1,
+  "away": "Osasuna",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-20",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 0,
+  "away": "Ath Bilbao",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-21",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-21",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-21",
+  "home": "Elche",
+  "hg": 1,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 5,
+  "date": "2025-09-21",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Estadi Johan Cruyff"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-23",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 2,
+  "away": "Valencia",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-23",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-23",
+  "home": "Levante",
+  "hg": 1,
+  "ag": 4,
+  "away": "Real Madrid",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-23",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-24",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 1,
+  "away": "Alaves",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-24",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 2,
+  "away": "Vallecano",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-24",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 0,
+  "away": "Mallorca",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-25",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 6,
+  "date": "2025-09-25",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 3,
+  "away": "Barcelona",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-26",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 0,
+  "away": "Espanol",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-27",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 1,
+  "away": "Levante",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-27",
+  "home": "Ath Madrid",
+  "hg": 5,
+  "ag": 2,
+  "away": "Real Madrid",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-27",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 0,
+  "away": "Alaves",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-27",
+  "home": "Villarreal",
+  "hg": 1,
+  "ag": 0,
+  "away": "Ath Bilbao",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-28",
+  "home": "Vallecano",
+  "hg": 0,
+  "ag": 1,
+  "away": "Sevilla",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-28",
+  "home": "Elche",
+  "hg": 2,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-28",
+  "home": "Barcelona",
+  "hg": 2,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadi Ol\u00edmpic Llu\u00eds Companys"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-28",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 7,
+  "date": "2025-09-30",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 2,
+  "away": "Oviedo",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-03",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 1,
+  "away": "Getafe",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-04",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 2,
+  "away": "Levante",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-04",
+  "home": "Girona",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-04",
+  "home": "Ath Bilbao",
+  "hg": 2,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-04",
+  "home": "Real Madrid",
+  "hg": 3,
+  "ag": 1,
+  "away": "Villarreal",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-05",
+  "home": "Alaves",
+  "hg": 3,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-05",
+  "home": "Sevilla",
+  "hg": 4,
+  "ag": 1,
+  "away": "Barcelona",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-05",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 1,
+  "away": "Vallecano",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-05",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 2,
+  "away": "Betis",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 8,
+  "date": "2025-10-05",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-17",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 2,
+  "away": "Espanol",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-18",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 3,
+  "away": "Mallorca",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-18",
+  "home": "Barcelona",
+  "hg": 2,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Estadi Ol\u00edmpic Llu\u00eds Companys"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-18",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 2,
+  "away": "Betis",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-18",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-19",
+  "home": "Elche",
+  "hg": 0,
+  "ag": 0,
+  "away": "Ath Bilbao",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-19",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-19",
+  "home": "Levante",
+  "hg": 0,
+  "ag": 3,
+  "away": "Vallecano",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-19",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 1,
+  "away": "Real Madrid",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 9,
+  "date": "2025-10-20",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 0,
+  "away": "Valencia",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-24",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 1,
+  "away": "Sevilla",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-25",
+  "home": "Girona",
+  "hg": 3,
+  "ag": 3,
+  "away": "Oviedo",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-25",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 0,
+  "away": "Elche",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-25",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 1,
+  "away": "Getafe",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-25",
+  "home": "Valencia",
+  "hg": 0,
+  "ag": 2,
+  "away": "Villarreal",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-26",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 1,
+  "away": "Levante",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-26",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 1,
+  "away": "Barcelona",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-26",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 3,
+  "away": "Celta",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-26",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 0,
+  "away": "Alaves",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 10,
+  "date": "2025-10-27",
+  "home": "Betis",
+  "hg": 0,
+  "ag": 2,
+  "away": "Ath Madrid",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 11,
+  "date": "2025-10-31",
+  "home": "Getafe",
+  "hg": 2,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-01",
+  "home": "Villarreal",
+  "hg": 4,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-01",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 0,
+  "away": "Sevilla",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-01",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 2,
+  "away": "Ath Bilbao",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-01",
+  "home": "Real Madrid",
+  "hg": 4,
+  "ag": 0,
+  "away": "Valencia",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-02",
+  "home": "Levante",
+  "hg": 1,
+  "ag": 2,
+  "away": "Celta",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-02",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 1,
+  "away": "Espanol",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-02",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadi Ol\u00edmpic Llu\u00eds Companys"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-02",
+  "home": "Betis",
+  "hg": 3,
+  "ag": 0,
+  "away": "Mallorca",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 11,
+  "date": "2025-11-03",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-07",
+  "home": "Elche",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-08",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Alaves",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-08",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-08",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 1,
+  "away": "Levante",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-08",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 2,
+  "away": "Villarreal",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-09",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-09",
+  "home": "Vallecano",
+  "hg": 0,
+  "ag": 0,
+  "away": "Real Madrid",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-09",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-09",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 12,
+  "date": "2025-11-09",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 4,
+  "away": "Barcelona",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-21",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 0,
+  "away": "Levante",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-22",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-22",
+  "home": "Barcelona",
+  "hg": 4,
+  "ag": 0,
+  "away": "Ath Bilbao",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-22",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 3,
+  "away": "Sociedad",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-22",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-23",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-23",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-23",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-23",
+  "home": "Elche",
+  "hg": 2,
+  "ag": 2,
+  "away": "Real Madrid",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 13,
+  "date": "2025-11-24",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 1,
+  "away": "Sevilla",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-28",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 0,
+  "away": "Elche",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-29",
+  "home": "Mallorca",
+  "hg": 2,
+  "ag": 2,
+  "away": "Osasuna",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-29",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 1,
+  "away": "Alaves",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-29",
+  "home": "Levante",
+  "hg": 0,
+  "ag": 2,
+  "away": "Ath Bilbao",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-29",
+  "home": "Ath Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-30",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 3,
+  "away": "Villarreal",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-30",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 2,
+  "away": "Betis",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-30",
+  "home": "Celta",
+  "hg": 0,
+  "ag": 1,
+  "away": "Espanol",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 14,
+  "date": "2025-11-30",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 1,
+  "away": "Real Madrid",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 14,
+  "date": "2025-12-01",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 19,
+  "date": "2025-12-02",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 19,
+  "date": "2025-12-03",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 3,
+  "away": "Real Madrid",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-05",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 0,
+  "away": "Mallorca",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-06",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-06",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sociedad",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-06",
+  "home": "Betis",
+  "hg": 3,
+  "ag": 5,
+  "away": "Barcelona",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-06",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 0,
+  "away": "Ath Madrid",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-07",
+  "home": "Elche",
+  "hg": 3,
+  "ag": 0,
+  "away": "Girona",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-07",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sevilla",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-07",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-07",
+  "home": "Real Madrid",
+  "hg": 0,
+  "ag": 2,
+  "away": "Celta",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 15,
+  "date": "2025-12-08",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 0,
+  "away": "Levante",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-12",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 2,
+  "away": "Girona",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-13",
+  "home": "Ath Madrid",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-13",
+  "home": "Mallorca",
+  "hg": 3,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-13",
+  "home": "Barcelona",
+  "hg": 2,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-13",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 1,
+  "away": "Espanol",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-14",
+  "home": "Sevilla",
+  "hg": 4,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-14",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 0,
+  "away": "Ath Bilbao",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-14",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 2,
+  "away": "Real Madrid",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 16,
+  "date": "2025-12-15",
+  "home": "Vallecano",
+  "hg": 0,
+  "ag": 0,
+  "away": "Betis",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-19",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-20",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 0,
+  "away": "Celta",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-20",
+  "home": "Levante",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-20",
+  "home": "Osasuna",
+  "hg": 3,
+  "ag": 0,
+  "away": "Alaves",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-20",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Sevilla",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-21",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 3,
+  "away": "Ath Madrid",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-21",
+  "home": "Villarreal",
+  "hg": 0,
+  "ag": 2,
+  "away": "Barcelona",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-21",
+  "home": "Elche",
+  "hg": 4,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-21",
+  "home": "Betis",
+  "hg": 4,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 17,
+  "date": "2025-12-22",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 2,
+  "away": "Espanol",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-02",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Getafe",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-03",
+  "home": "Celta",
+  "hg": 4,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-03",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Bilbao",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-03",
+  "home": "Elche",
+  "hg": 1,
+  "ag": 3,
+  "away": "Villarreal",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-03",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 2,
+  "away": "Barcelona",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-04",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 3,
+  "away": "Levante",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-04",
+  "home": "Real Madrid",
+  "hg": 5,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-04",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 2,
+  "away": "Girona",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-04",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 1,
+  "away": "Oviedo",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 18,
+  "date": "2026-01-04",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 19,
+  "date": "2026-01-09",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 2,
+  "away": "Sociedad",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 19,
+  "date": "2026-01-10",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 19,
+  "date": "2026-01-10",
+  "home": "Villarreal",
+  "hg": 3,
+  "ag": 1,
+  "away": "Alaves",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 19,
+  "date": "2026-01-10",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 19,
+  "date": "2026-01-10",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 19,
+  "date": "2026-01-11",
+  "home": "Vallecano",
+  "hg": 2,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 19,
+  "date": "2026-01-11",
+  "home": "Levante",
+  "hg": 1,
+  "ag": 1,
+  "away": "Espanol",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 19,
+  "date": "2026-01-12",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-16",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 2,
+  "away": "Girona",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-17",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Levante",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-17",
+  "home": "Mallorca",
+  "hg": 3,
+  "ag": 2,
+  "away": "Ath Bilbao",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-17",
+  "home": "Osasuna",
+  "hg": 3,
+  "ag": 2,
+  "away": "Oviedo",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-17",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 0,
+  "away": "Villarreal",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-18",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-18",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Alaves",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-18",
+  "home": "Celta",
+  "hg": 3,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-18",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 1,
+  "away": "Barcelona",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 20,
+  "date": "2026-01-19",
+  "home": "Elche",
+  "hg": 2,
+  "ag": 2,
+  "away": "Sevilla",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-23",
+  "home": "Levante",
+  "hg": 3,
+  "ag": 2,
+  "away": "Elche",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-24",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 3,
+  "away": "Osasuna",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-24",
+  "home": "Valencia",
+  "hg": 3,
+  "ag": 2,
+  "away": "Espanol",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-24",
+  "home": "Sevilla",
+  "hg": 2,
+  "ag": 1,
+  "away": "Ath Bilbao",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-24",
+  "home": "Villarreal",
+  "hg": 0,
+  "ag": 2,
+  "away": "Real Madrid",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-25",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 0,
+  "away": "Mallorca",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-25",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-25",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-25",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 21,
+  "date": "2026-01-26",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 1,
+  "away": "Getafe",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 22,
+  "date": "2026-01-30",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 2,
+  "away": "Alaves",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 22,
+  "date": "2026-01-31",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 0,
+  "away": "Girona",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 22,
+  "date": "2026-01-31",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 2,
+  "away": "Villarreal",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 22,
+  "date": "2026-01-31",
+  "home": "Levante",
+  "hg": 0,
+  "ag": 0,
+  "away": "Ath Madrid",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 22,
+  "date": "2026-01-31",
+  "home": "Elche",
+  "hg": 1,
+  "ag": 3,
+  "away": "Barcelona",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 22,
+  "date": "2026-02-01",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 1,
+  "away": "Vallecano",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 22,
+  "date": "2026-02-01",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 22,
+  "date": "2026-02-01",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 0,
+  "away": "Celta",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 22,
+  "date": "2026-02-01",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 22,
+  "date": "2026-02-02",
+  "home": "Mallorca",
+  "hg": 4,
+  "ag": 1,
+  "away": "Sevilla",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-06",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 2,
+  "away": "Osasuna",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-07",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 0,
+  "away": "Mallorca",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-07",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-08",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 2,
+  "away": "Getafe",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-08",
+  "home": "Ath Bilbao",
+  "hg": 4,
+  "ag": 2,
+  "away": "Levante",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-08",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-08",
+  "home": "Ath Madrid",
+  "hg": 0,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-08",
+  "home": "Valencia",
+  "hg": 0,
+  "ag": 2,
+  "away": "Real Madrid",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 23,
+  "date": "2026-02-09",
+  "home": "Villarreal",
+  "hg": 4,
+  "ag": 1,
+  "away": "Espanol",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-13",
+  "home": "Elche",
+  "hg": 0,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-14",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 2,
+  "away": "Celta",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-14",
+  "home": "Getafe",
+  "hg": 2,
+  "ag": 1,
+  "away": "Villarreal",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-14",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 1,
+  "away": "Alaves",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-14",
+  "home": "Real Madrid",
+  "hg": 4,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-15",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 2,
+  "away": "Ath Bilbao",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-15",
+  "home": "Vallecano",
+  "hg": 3,
+  "ag": 0,
+  "away": "Ath Madrid",
+  "venue": "Estadio Municipal de Butarque"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-15",
+  "home": "Levante",
+  "hg": 0,
+  "ag": 2,
+  "away": "Valencia",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-15",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 2,
+  "away": "Betis",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 24,
+  "date": "2026-02-16",
+  "home": "Girona",
+  "hg": 2,
+  "ag": 1,
+  "away": "Barcelona",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 16,
+  "date": "2026-02-18",
+  "home": "Levante",
+  "hg": 0,
+  "ag": 1,
+  "away": "Villarreal",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-20",
+  "home": "Ath Bilbao",
+  "hg": 2,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-21",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 3,
+  "away": "Oviedo",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-21",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 1,
+  "away": "Vallecano",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-21",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 1,
+  "away": "Real Madrid",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-21",
+  "home": "Ath Madrid",
+  "hg": 4,
+  "ag": 2,
+  "away": "Espanol",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-22",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 1,
+  "away": "Sevilla",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-22",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 0,
+  "away": "Levante",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-22",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 0,
+  "away": "Mallorca",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-22",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 25,
+  "date": "2026-02-23",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 2,
+  "away": "Girona",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 26,
+  "date": "2026-02-27",
+  "home": "Levante",
+  "hg": 2,
+  "ag": 0,
+  "away": "Alaves",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 26,
+  "date": "2026-02-28",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Bilbao",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 26,
+  "date": "2026-02-28",
+  "home": "Barcelona",
+  "hg": 4,
+  "ag": 1,
+  "away": "Villarreal",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 26,
+  "date": "2026-02-28",
+  "home": "Mallorca",
+  "hg": 0,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 26,
+  "date": "2026-02-28",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 26,
+  "date": "2026-03-01",
+  "home": "Elche",
+  "hg": 2,
+  "ag": 2,
+  "away": "Espanol",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 26,
+  "date": "2026-03-01",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 26,
+  "date": "2026-03-01",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 2,
+  "away": "Sevilla",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 26,
+  "date": "2026-03-01",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 2,
+  "away": "Celta",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 26,
+  "date": "2026-03-02",
+  "home": "Real Madrid",
+  "hg": 0,
+  "ag": 1,
+  "away": "Getafe",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 23,
+  "date": "2026-03-04",
+  "home": "Vallecano",
+  "hg": 3,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-06",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 2,
+  "away": "Real Madrid",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-07",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 2,
+  "away": "Mallorca",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-07",
+  "home": "Levante",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-07",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 2,
+  "away": "Sociedad",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-07",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 1,
+  "away": "Barcelona",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-08",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-08",
+  "home": "Getafe",
+  "hg": 2,
+  "ag": 0,
+  "away": "Betis",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-08",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 1,
+  "away": "Vallecano",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-08",
+  "home": "Valencia",
+  "hg": 3,
+  "ag": 2,
+  "away": "Alaves",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 27,
+  "date": "2026-03-09",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 1,
+  "away": "Oviedo",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-13",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 1,
+  "away": "Villarreal",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-14",
+  "home": "Girona",
+  "hg": 3,
+  "ag": 0,
+  "away": "Ath Bilbao",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-14",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-14",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 0,
+  "away": "Valencia",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-14",
+  "home": "Real Madrid",
+  "hg": 4,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-15",
+  "home": "Mallorca",
+  "hg": 2,
+  "ag": 1,
+  "away": "Espanol",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-15",
+  "home": "Barcelona",
+  "hg": 5,
+  "ag": 2,
+  "away": "Sevilla",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-15",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-15",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 1,
+  "away": "Osasuna",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 28,
+  "date": "2026-03-16",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Levante",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-20",
+  "home": "Villarreal",
+  "hg": 3,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-21",
+  "home": "Elche",
+  "hg": 2,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-21",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 2,
+  "away": "Getafe",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-21",
+  "home": "Levante",
+  "hg": 4,
+  "ag": 2,
+  "away": "Oviedo",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-21",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 0,
+  "away": "Girona",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-21",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 2,
+  "away": "Valencia",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-22",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-22",
+  "home": "Celta",
+  "hg": 3,
+  "ag": 4,
+  "away": "Alaves",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-22",
+  "home": "Ath Bilbao",
+  "hg": 2,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 29,
+  "date": "2026-03-22",
+  "home": "Real Madrid",
+  "hg": 3,
+  "ag": 2,
+  "away": "Ath Madrid",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-03",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 0,
+  "away": "Elche",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-04",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 0,
+  "away": "Levante",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-04",
+  "home": "Mallorca",
+  "hg": 2,
+  "ag": 1,
+  "away": "Real Madrid",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-04",
+  "home": "Betis",
+  "hg": 0,
+  "ag": 0,
+  "away": "Espanol",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-04",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 2,
+  "away": "Barcelona",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-05",
+  "home": "Getafe",
+  "hg": 2,
+  "ag": 0,
+  "away": "Ath Bilbao",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-05",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 3,
+  "away": "Celta",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-05",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sevilla",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-05",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 2,
+  "away": "Osasuna",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 30,
+  "date": "2026-04-06",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Villarreal",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-10",
+  "home": "Real Madrid",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-11",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 3,
+  "away": "Alaves",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-11",
+  "home": "Elche",
+  "hg": 1,
+  "ag": 0,
+  "away": "Valencia",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-11",
+  "home": "Barcelona",
+  "hg": 4,
+  "ag": 1,
+  "away": "Espanol",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-11",
+  "home": "Sevilla",
+  "hg": 2,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-12",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-12",
+  "home": "Mallorca",
+  "hg": 3,
+  "ag": 0,
+  "away": "Vallecano",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-12",
+  "home": "Celta",
+  "hg": 0,
+  "ag": 3,
+  "away": "Oviedo",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-12",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 31,
+  "date": "2026-04-13",
+  "home": "Levante",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-21",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-21",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-21",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 1,
+  "away": "Alaves",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-21",
+  "home": "Girona",
+  "hg": 2,
+  "ag": 3,
+  "away": "Betis",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-22",
+  "home": "Elche",
+  "hg": 3,
+  "ag": 2,
+  "away": "Ath Madrid",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-22",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 1,
+  "away": "Getafe",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-22",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Celta",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-23",
+  "home": "Levante",
+  "hg": 2,
+  "ag": 0,
+  "away": "Sevilla",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-23",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 0,
+  "away": "Espanol",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 33,
+  "date": "2026-04-23",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 1,
+  "away": "Villarreal",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-24",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 1,
+  "away": "Real Madrid",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-25",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-25",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 2,
+  "away": "Barcelona",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-25",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-25",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 2,
+  "away": "Ath Bilbao",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-26",
+  "home": "Vallecano",
+  "hg": 3,
+  "ag": 3,
+  "away": "Sociedad",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-26",
+  "home": "Oviedo",
+  "hg": 1,
+  "ag": 2,
+  "away": "Elche",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-26",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 1,
+  "away": "Sevilla",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-26",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 32,
+  "date": "2026-04-27",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 0,
+  "away": "Levante",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-01",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-02",
+  "home": "Villarreal",
+  "hg": 5,
+  "ag": 1,
+  "away": "Levante",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-02",
+  "home": "Valencia",
+  "hg": 0,
+  "ag": 2,
+  "away": "Ath Madrid",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-02",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 4,
+  "away": "Ath Bilbao",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-02",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 2,
+  "away": "Barcelona",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-03",
+  "home": "Celta",
+  "hg": 3,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-03",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 2,
+  "away": "Vallecano",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-03",
+  "home": "Betis",
+  "hg": 3,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-03",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 2,
+  "away": "Real Madrid",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 34,
+  "date": "2026-05-04",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sociedad",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-08",
+  "home": "Levante",
+  "hg": 3,
+  "ag": 2,
+  "away": "Osasuna",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-09",
+  "home": "Elche",
+  "hg": 1,
+  "ag": 1,
+  "away": "Alaves",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-09",
+  "home": "Sevilla",
+  "hg": 2,
+  "ag": 1,
+  "away": "Espanol",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-09",
+  "home": "Ath Madrid",
+  "hg": 0,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-09",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 2,
+  "away": "Betis",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-10",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 1,
+  "away": "Villarreal",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-10",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 1,
+  "away": "Valencia",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-10",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-10",
+  "home": "Barcelona",
+  "hg": 2,
+  "ag": 0,
+  "away": "Real Madrid",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 35,
+  "date": "2026-05-11",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-12",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 3,
+  "away": "Levante",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-12",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-12",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 2,
+  "away": "Ath Madrid",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-13",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 3,
+  "away": "Sevilla",
+  "venue": "Estadio de la Cer\u00e1mica"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-13",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 0,
+  "away": "Ath Bilbao",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-13",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 0,
+  "away": "Barcelona",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-13",
+  "home": "Getafe",
+  "hg": 3,
+  "ag": 1,
+  "away": "Mallorca",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-14",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 1,
+  "away": "Vallecano",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-14",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 36,
+  "date": "2026-05-14",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Elche",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe",
+  "venue": "Estadio Manuel Mart\u00ednez Valero"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 1,
+  "away": "Real Madrid",
+  "venue": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 4,
+  "away": "Valencia",
+  "venue": "Reale Arena"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 1,
+  "away": "Celta",
+  "venue": "San Mam\u00e9s"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Oviedo",
+  "hg": 0,
+  "ag": 1,
+  "away": "Alaves",
+  "venue": "Estadio Nuevo Carlos Tartiere"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Vallecano",
+  "hg": 2,
+  "ag": 0,
+  "away": "Villarreal",
+  "venue": "Campo de F\u00fatbol de Vallecas"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 2,
+  "away": "Espanol",
+  "venue": "Estadio El Sadar"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Girona",
+  "venue": "Riyadh Air Metropolitano"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Levante",
+  "hg": 2,
+  "ag": 0,
+  "away": "Mallorca",
+  "venue": "Estadio Ciudad de Valencia"
+ },
+ {
+  "round": 37,
+  "date": "2026-05-17",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 1,
+  "away": "Betis",
+  "venue": "Spotify Camp Nou"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sociedad",
+  "venue": "RCDE Stadium"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Mallorca",
+  "hg": 3,
+  "ag": 0,
+  "away": "Oviedo",
+  "venue": "Estadi Mallorca Son Moix"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 1,
+  "away": "Elche",
+  "venue": "Estadi Municipal de Montilivi"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 1,
+  "away": "Levante",
+  "venue": "Estadio La Cartuja de Sevilla"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sevilla",
+  "venue": "Estadio Abanca Bala\u00eddos"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna",
+  "venue": "Coliseum Alfonso P\u00e9rez"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Real Madrid",
+  "hg": 4,
+  "ag": 2,
+  "away": "Ath Bilbao",
+  "venue": "Estadio Santiago Bernab\u00e9u"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Valencia",
+  "hg": 3,
+  "ag": 1,
+  "away": "Barcelona",
+  "venue": "Estadio de Mestalla"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-23",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 2,
+  "away": "Vallecano",
+  "venue": "Estadio de Mendizorroza"
+ },
+ {
+  "round": 38,
+  "date": "2026-05-24",
+  "home": "Villarreal",
+  "hg": 5,
+  "ag": 1,
+  "away": "Ath Madrid",
+  "venue": "Estadio de la Cer\u00e1mica"
+ }
+]

@@ -1,0 +1,3422 @@
+[
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-15",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 1,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-15",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-16",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 1,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-16",
+  "home": "Las Palmas",
+  "hg": 2,
+  "ag": 2,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-17",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-17",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 2,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-18",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 2,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-18",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 1,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-19",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 1,
+  "date": "2024-08-19",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 2,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-23",
+  "home": "Celta",
+  "hg": 3,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-23",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-24",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-24",
+  "home": "Barcelona",
+  "hg": 2,
+  "ag": 1,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-24",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 0,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-24",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 1,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-25",
+  "home": "Real Madrid",
+  "hg": 3,
+  "ag": 0,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-25",
+  "home": "Leganes",
+  "hg": 2,
+  "ag": 1,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-25",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 0,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 2,
+  "date": "2024-08-25",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 0,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-26",
+  "home": "Villarreal",
+  "hg": 4,
+  "ag": 3,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-27",
+  "home": "Mallorca",
+  "hg": 0,
+  "ag": 0,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-27",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 2,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-28",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 0,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-28",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 0,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-28",
+  "home": "Ath Madrid",
+  "hg": 0,
+  "ag": 0,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-28",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 2,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-29",
+  "home": "Girona",
+  "hg": 4,
+  "ag": 0,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-08-29",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 1,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 3,
+  "date": "2024-09-18",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 1,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-08-31",
+  "home": "Barcelona",
+  "hg": 7,
+  "ag": 0,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-08-31",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 1,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-08-31",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-08-31",
+  "home": "Leganes",
+  "hg": 0,
+  "ag": 1,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-08-31",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 1,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-09-01",
+  "home": "Osasuna",
+  "hg": 3,
+  "ag": 2,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-09-01",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 0,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-09-01",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 2,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-09-01",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 4,
+  "date": "2024-09-01",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-13",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 0,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-14",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-14",
+  "home": "Espanol",
+  "hg": 3,
+  "ag": 2,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-14",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-14",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 2,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-15",
+  "home": "Celta",
+  "hg": 3,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-15",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 4,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-15",
+  "home": "Las Palmas",
+  "hg": 2,
+  "ag": 3,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-15",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 0,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 5,
+  "date": "2024-09-16",
+  "home": "Vallecano",
+  "hg": 3,
+  "ag": 1,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-20",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 1,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-21",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-21",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 1,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-21",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 0,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-21",
+  "home": "Real Madrid",
+  "hg": 4,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-22",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-22",
+  "home": "Ath Bilbao",
+  "hg": 3,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-22",
+  "home": "Villarreal",
+  "hg": 1,
+  "ag": 5,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-22",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 6,
+  "date": "2024-09-23",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 2,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-17",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-19",
+  "home": "Leganes",
+  "hg": 0,
+  "ag": 2,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-24",
+  "home": "Sevilla",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-24",
+  "home": "Valencia",
+  "hg": 0,
+  "ag": 0,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-24",
+  "home": "Real Madrid",
+  "hg": 3,
+  "ag": 2,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-25",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 0,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-25",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-26",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-26",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 1,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 7,
+  "date": "2024-09-26",
+  "home": "Celta",
+  "hg": 0,
+  "ag": 1,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-27",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 2,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-28",
+  "home": "Getafe",
+  "hg": 2,
+  "ag": 0,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-28",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-28",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 0,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-28",
+  "home": "Osasuna",
+  "hg": 4,
+  "ag": 2,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-29",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-29",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-29",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 0,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-29",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 1,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 8,
+  "date": "2024-09-30",
+  "home": "Villarreal",
+  "hg": 3,
+  "ag": 1,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-04",
+  "home": "Leganes",
+  "hg": 0,
+  "ag": 0,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-05",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 1,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-05",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 1,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-05",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 2,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-05",
+  "home": "Las Palmas",
+  "hg": 0,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-05",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-06",
+  "home": "Girona",
+  "hg": 2,
+  "ag": 1,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-06",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 3,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-06",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 0,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 9,
+  "date": "2024-10-06",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-18",
+  "home": "Alaves",
+  "hg": 2,
+  "ag": 3,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-19",
+  "home": "Ath Bilbao",
+  "hg": 4,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-19",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 2,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-19",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 1,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-19",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 2,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-20",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 0,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-20",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-20",
+  "home": "Villarreal",
+  "hg": 1,
+  "ag": 1,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-20",
+  "home": "Barcelona",
+  "hg": 5,
+  "ag": 1,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 10,
+  "date": "2024-10-21",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 3,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-25",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 2,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-26",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-26",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 0,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-26",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 0,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-26",
+  "home": "Real Madrid",
+  "hg": 0,
+  "ag": 4,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-27",
+  "home": "Leganes",
+  "hg": 3,
+  "ag": 0,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-27",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-27",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 0,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-27",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 2,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 11,
+  "date": "2024-10-28",
+  "home": "Mallorca",
+  "hg": 0,
+  "ag": 0,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-11-01",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-11-02",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 0,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-11-02",
+  "home": "Girona",
+  "hg": 4,
+  "ag": 3,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-11-03",
+  "home": "Ath Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-11-03",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-11-03",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 2,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-11-03",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 1,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-11-04",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2024-12-18",
+  "home": "Villarreal",
+  "hg": 1,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 12,
+  "date": "2025-01-03",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 2,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-08",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 3,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-09",
+  "home": "Real Madrid",
+  "hg": 4,
+  "ag": 0,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-09",
+  "home": "Villarreal",
+  "hg": 3,
+  "ag": 0,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-09",
+  "home": "Leganes",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-10",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 2,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-10",
+  "home": "Mallorca",
+  "hg": 0,
+  "ag": 1,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-10",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-10",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-11-10",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 0,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 13,
+  "date": "2024-12-18",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-22",
+  "home": "Getafe",
+  "hg": 2,
+  "ag": 0,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-23",
+  "home": "Valencia",
+  "hg": 4,
+  "ag": 2,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-23",
+  "home": "Ath Madrid",
+  "hg": 2,
+  "ag": 1,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-23",
+  "home": "Girona",
+  "hg": 4,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-23",
+  "home": "Las Palmas",
+  "hg": 2,
+  "ag": 3,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-23",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 2,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-24",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 2,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-24",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 0,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-24",
+  "home": "Leganes",
+  "hg": 0,
+  "ag": 3,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 14,
+  "date": "2024-11-24",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-11-09",
+  "home": "Mallorca",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-11-30",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 2,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-11-30",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-11-30",
+  "home": "Espanol",
+  "hg": 3,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-11-30",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 5,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-12-01",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 2,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-12-01",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-12-01",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 2,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-12-01",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 0,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 15,
+  "date": "2024-12-02",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 1,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-06",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-07",
+  "home": "Las Palmas",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-07",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 2,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-07",
+  "home": "Valencia",
+  "hg": 0,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-07",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 3,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-08",
+  "home": "Leganes",
+  "hg": 0,
+  "ag": 3,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-08",
+  "home": "Ath Bilbao",
+  "hg": 2,
+  "ag": 0,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-08",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 2,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-08",
+  "home": "Ath Madrid",
+  "hg": 4,
+  "ag": 3,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 16,
+  "date": "2024-12-09",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 0,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-13",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-14",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 0,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-14",
+  "home": "Mallorca",
+  "hg": 2,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-14",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 0,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-14",
+  "home": "Vallecano",
+  "hg": 3,
+  "ag": 3,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-15",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-15",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-15",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 0,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-15",
+  "home": "Villarreal",
+  "hg": 1,
+  "ag": 2,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 17,
+  "date": "2024-12-15",
+  "home": "Barcelona",
+  "hg": 0,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-20",
+  "home": "Girona",
+  "hg": 3,
+  "ag": 0,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-21",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 1,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-21",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-21",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 2,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-21",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 2,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-22",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 2,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-22",
+  "home": "Real Madrid",
+  "hg": 4,
+  "ag": 2,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-22",
+  "home": "Leganes",
+  "hg": 2,
+  "ag": 5,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-22",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 0,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 18,
+  "date": "2024-12-22",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2024-12-03",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 5,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2024-12-04",
+  "home": "Ath Bilbao",
+  "hg": 2,
+  "ag": 1,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2025-01-10",
+  "home": "Vallecano",
+  "hg": 2,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2025-01-11",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2025-01-11",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2025-01-11",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2025-01-11",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2025-01-12",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 2,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2025-01-12",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 19,
+  "date": "2025-01-13",
+  "home": "Sociedad",
+  "hg": 1,
+  "ag": 0,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-17",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-18",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 2,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-18",
+  "home": "Leganes",
+  "hg": 1,
+  "ag": 0,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-18",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 3,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-18",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 1,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-19",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 2,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-19",
+  "home": "Real Madrid",
+  "hg": 4,
+  "ag": 1,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-19",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-19",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 20,
+  "date": "2025-01-20",
+  "home": "Villarreal",
+  "hg": 4,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-24",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 1,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-25",
+  "home": "Mallorca",
+  "hg": 0,
+  "ag": 1,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-25",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 1,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-25",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-25",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 3,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-26",
+  "home": "Vallecano",
+  "hg": 2,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-26",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 3,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-26",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 0,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-26",
+  "home": "Barcelona",
+  "hg": 7,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 21,
+  "date": "2025-01-27",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-01-31",
+  "home": "Leganes",
+  "hg": 0,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-01",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 0,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-01",
+  "home": "Villarreal",
+  "hg": 5,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-01",
+  "home": "Ath Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-01",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 0,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-02",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-02",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-02",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 1,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-02",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 2,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 22,
+  "date": "2025-02-03",
+  "home": "Girona",
+  "hg": 2,
+  "ag": 1,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-07",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 0,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-08",
+  "home": "Celta",
+  "hg": 3,
+  "ag": 2,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-08",
+  "home": "Ath Bilbao",
+  "hg": 3,
+  "ag": 0,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-08",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-08",
+  "home": "Real Madrid",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-09",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 1,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-09",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 0,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-09",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-09",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 4,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 23,
+  "date": "2025-02-10",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 1,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-14",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 2,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-15",
+  "home": "Leganes",
+  "hg": 3,
+  "ag": 3,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-15",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 1,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-15",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-15",
+  "home": "Villarreal",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-16",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-16",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 4,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-16",
+  "home": "Mallorca",
+  "hg": 3,
+  "ag": 1,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-16",
+  "home": "Betis",
+  "hg": 3,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 24,
+  "date": "2025-02-17",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-21",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 0,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-22",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-22",
+  "home": "Vallecano",
+  "hg": 0,
+  "ag": 1,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-22",
+  "home": "Valencia",
+  "hg": 0,
+  "ag": 3,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-22",
+  "home": "Las Palmas",
+  "hg": 0,
+  "ag": 2,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-23",
+  "home": "Ath Bilbao",
+  "hg": 7,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-23",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-23",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 2,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-23",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 0,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 25,
+  "date": "2025-02-24",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 1,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-02-28",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 1,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-03-01",
+  "home": "Girona",
+  "hg": 2,
+  "ag": 2,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-03-01",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-03-01",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 1,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-03-01",
+  "home": "Ath Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-03-02",
+  "home": "Leganes",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-03-02",
+  "home": "Barcelona",
+  "hg": 4,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-03-02",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 1,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-03-02",
+  "home": "Osasuna",
+  "hg": 3,
+  "ag": 3,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 26,
+  "date": "2025-04-27",
+  "home": "Villarreal",
+  "hg": 1,
+  "ag": 0,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-08",
+  "home": "Celta",
+  "hg": 2,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-08",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 0,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-08",
+  "home": "Valencia",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-09",
+  "home": "Getafe",
+  "hg": 2,
+  "ag": 1,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-09",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-09",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 1,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-09",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 0,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-09",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 1,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-10",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 27,
+  "date": "2025-03-27",
+  "home": "Barcelona",
+  "hg": 3,
+  "ag": 0,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-14",
+  "home": "Las Palmas",
+  "hg": 2,
+  "ag": 2,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-16",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-16",
+  "home": "Mallorca",
+  "hg": 2,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-16",
+  "home": "Villarreal",
+  "hg": 1,
+  "ag": 2,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-16",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-17",
+  "home": "Leganes",
+  "hg": 2,
+  "ag": 3,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-17",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 1,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-17",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 2,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-17",
+  "home": "Vallecano",
+  "hg": 2,
+  "ag": 2,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 28,
+  "date": "2025-03-17",
+  "home": "Ath Madrid",
+  "hg": 2,
+  "ag": 4,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-29",
+  "home": "Sociedad",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-29",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 1,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-29",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 2,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-29",
+  "home": "Real Madrid",
+  "hg": 3,
+  "ag": 2,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-30",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-30",
+  "home": "Barcelona",
+  "hg": 4,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-30",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 0,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-30",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-30",
+  "home": "Betis",
+  "hg": 2,
+  "ag": 1,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 29,
+  "date": "2025-03-31",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 1,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-04",
+  "home": "Vallecano",
+  "hg": 0,
+  "ag": 4,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-05",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 1,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-05",
+  "home": "Real Madrid",
+  "hg": 1,
+  "ag": 2,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-05",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 2,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-05",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 1,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-06",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 3,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-06",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 2,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-06",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 4,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-06",
+  "home": "Villarreal",
+  "hg": 0,
+  "ag": 0,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 30,
+  "date": "2025-04-07",
+  "home": "Leganes",
+  "hg": 1,
+  "ag": 1,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-11",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-12",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 2,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-12",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 3,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-12",
+  "home": "Celta",
+  "hg": 0,
+  "ag": 2,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-12",
+  "home": "Leganes",
+  "hg": 0,
+  "ag": 1,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-13",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-13",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 1,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-13",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 2,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-13",
+  "home": "Ath Bilbao",
+  "hg": 3,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 31,
+  "date": "2025-04-14",
+  "home": "Ath Madrid",
+  "hg": 4,
+  "ag": 2,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-18",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-19",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-19",
+  "home": "Barcelona",
+  "hg": 4,
+  "ag": 3,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-19",
+  "home": "Mallorca",
+  "hg": 0,
+  "ag": 0,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-19",
+  "home": "Las Palmas",
+  "hg": 1,
+  "ag": 0,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-20",
+  "home": "Valladolid",
+  "hg": 2,
+  "ag": 3,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-20",
+  "home": "Villarreal",
+  "hg": 2,
+  "ag": 2,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-20",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 1,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-20",
+  "home": "Real Madrid",
+  "hg": 1,
+  "ag": 0,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 32,
+  "date": "2025-04-21",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 3,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-22",
+  "home": "Valencia",
+  "hg": 1,
+  "ag": 1,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-22",
+  "home": "Barcelona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-23",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 0,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-23",
+  "home": "Celta",
+  "hg": 3,
+  "ag": 0,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-23",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-23",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 1,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-24",
+  "home": "Osasuna",
+  "hg": 1,
+  "ag": 0,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-24",
+  "home": "Leganes",
+  "hg": 1,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-24",
+  "home": "Ath Madrid",
+  "hg": 3,
+  "ag": 0,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 33,
+  "date": "2025-04-24",
+  "home": "Betis",
+  "hg": 5,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-02",
+  "home": "Vallecano",
+  "hg": 1,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-03",
+  "home": "Alaves",
+  "hg": 0,
+  "ag": 0,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-03",
+  "home": "Villarreal",
+  "hg": 4,
+  "ag": 2,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-03",
+  "home": "Las Palmas",
+  "hg": 2,
+  "ag": 3,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-03",
+  "home": "Valladolid",
+  "hg": 1,
+  "ag": 2,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-04",
+  "home": "Real Madrid",
+  "hg": 3,
+  "ag": 2,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-04",
+  "home": "Sevilla",
+  "hg": 2,
+  "ag": 2,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-04",
+  "home": "Espanol",
+  "hg": 1,
+  "ag": 2,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-04",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 0,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 34,
+  "date": "2025-05-05",
+  "home": "Girona",
+  "hg": 1,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-09",
+  "home": "Las Palmas",
+  "hg": 0,
+  "ag": 1,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-10",
+  "home": "Valencia",
+  "hg": 3,
+  "ag": 0,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-10",
+  "home": "Celta",
+  "hg": 3,
+  "ag": 2,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-10",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 1,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-10",
+  "home": "Mallorca",
+  "hg": 2,
+  "ag": 1,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-10",
+  "home": "Ath Madrid",
+  "hg": 4,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-11",
+  "home": "Leganes",
+  "hg": 3,
+  "ag": 2,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-11",
+  "home": "Barcelona",
+  "hg": 4,
+  "ag": 3,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-11",
+  "home": "Ath Bilbao",
+  "hg": 1,
+  "ag": 0,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 35,
+  "date": "2025-05-11",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 1,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-13",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 1,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-13",
+  "home": "Sociedad",
+  "hg": 0,
+  "ag": 1,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-13",
+  "home": "Sevilla",
+  "hg": 1,
+  "ag": 0,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-14",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 0,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-14",
+  "home": "Villarreal",
+  "hg": 3,
+  "ag": 0,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-14",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 1,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-15",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 0,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-15",
+  "home": "Vallecano",
+  "hg": 2,
+  "ag": 2,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-15",
+  "home": "Getafe",
+  "hg": 0,
+  "ag": 2,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 36,
+  "date": "2025-05-15",
+  "home": "Espanol",
+  "hg": 0,
+  "ag": 2,
+  "away": "Barcelona"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Ath Madrid",
+  "hg": 4,
+  "ag": 1,
+  "away": "Betis"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Osasuna",
+  "hg": 2,
+  "ag": 0,
+  "away": "Espanol"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Barcelona",
+  "hg": 2,
+  "ag": 3,
+  "away": "Villarreal"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Celta",
+  "hg": 1,
+  "ag": 2,
+  "away": "Vallecano"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Mallorca",
+  "hg": 1,
+  "ag": 2,
+  "away": "Getafe"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Sociedad",
+  "hg": 3,
+  "ag": 2,
+  "away": "Girona"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Valladolid",
+  "hg": 0,
+  "ag": 1,
+  "away": "Alaves"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Sevilla",
+  "hg": 0,
+  "ag": 2,
+  "away": "Real Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Las Palmas",
+  "hg": 0,
+  "ag": 1,
+  "away": "Leganes"
+ },
+ {
+  "season": "2024-25",
+  "round": 37,
+  "date": "2025-05-18",
+  "home": "Valencia",
+  "hg": 0,
+  "ag": 1,
+  "away": "Ath Bilbao"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-23",
+  "home": "Betis",
+  "hg": 1,
+  "ag": 1,
+  "away": "Valencia"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-24",
+  "home": "Real Madrid",
+  "hg": 2,
+  "ag": 0,
+  "away": "Sociedad"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-24",
+  "home": "Leganes",
+  "hg": 3,
+  "ag": 0,
+  "away": "Valladolid"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-24",
+  "home": "Espanol",
+  "hg": 2,
+  "ag": 0,
+  "away": "Las Palmas"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-24",
+  "home": "Alaves",
+  "hg": 1,
+  "ag": 1,
+  "away": "Osasuna"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-24",
+  "home": "Getafe",
+  "hg": 1,
+  "ag": 2,
+  "away": "Celta"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-24",
+  "home": "Vallecano",
+  "hg": 0,
+  "ag": 0,
+  "away": "Mallorca"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-25",
+  "home": "Girona",
+  "hg": 0,
+  "ag": 4,
+  "away": "Ath Madrid"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-25",
+  "home": "Villarreal",
+  "hg": 4,
+  "ag": 2,
+  "away": "Sevilla"
+ },
+ {
+  "season": "2024-25",
+  "round": 38,
+  "date": "2025-05-25",
+  "home": "Ath Bilbao",
+  "hg": 0,
+  "ag": 3,
+  "away": "Barcelona"
+ }
+]
