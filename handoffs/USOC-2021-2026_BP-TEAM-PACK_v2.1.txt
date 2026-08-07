@@ -53,6 +53,15 @@ TEAM|Loudoun United FC|United States|USL Championship|USL|||||||||
 TEAM|North Carolina FC|United States|USL Championship|USL|||||||||
 TEAM|Chattanooga Red Wolves SC|United States|USL League One|USL1|||||||||
 TEAM|Tacoma Defiance|United States|MLS Next Pro|MLSNP|||||||||
+TEAM|Charlotte Independence|United States|USL League One|USL1|American Legion Memorial Stadium|Charlotte|||||||||
+TEAM|Detroit City FC|United States|USL Championship|USL|Keyworth Stadium|Hamtramck|||||||||
+TEAM|Memphis 901 FC|United States|USL Championship|USL|AutoZone Park|Memphis|||||||||
+TEAM|Oakland Roots SC|United States|USL Championship|USL|Cal State East Bay Pioneer Stadium|Hayward|||||||||
+TEAM|FC Tulsa|United States|USL Championship|USL|Oneok Field|Tulsa|||||||||
+TEAM|Indy Eleven|United States|USL Championship|USL|Carroll Stadium|Indianapolis|||||||||
+TEAM|Las Vegas Lights FC|United States|USL Championship|USL|Cashman Field|Las Vegas|||||||||
+TEAM|Louisville City FC|United States|USL Championship|USL|Lynn Family Stadium|Louisville|||||||||
+TEAM|Phoenix Rising FC|United States|USL Championship|USL|Phoenix Rising Soccer Stadium|Phoenix|||||||||
 TEAM|AV Alta FC|United States|USL League One|USL1|||||||||
 
 REM 2022 EDITION -- US Open Cup (MLS clubs entered at Round of 32)
