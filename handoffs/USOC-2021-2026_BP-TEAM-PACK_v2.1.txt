@@ -62,6 +62,10 @@ TEAM|Indy Eleven|United States|USL Championship|USL|Carroll Stadium|Indianapolis
 TEAM|Las Vegas Lights FC|United States|USL Championship|USL|Cashman Field|Las Vegas|||||||||
 TEAM|Louisville City FC|United States|USL Championship|USL|Lynn Family Stadium|Louisville|||||||||
 TEAM|Phoenix Rising FC|United States|USL Championship|USL|Phoenix Rising Soccer Stadium|Phoenix|||||||||
+TEAM|New Mexico United|United States|USL Championship|USL|Rio Grande Credit Union Field|Albuquerque|||||||||
+TEAM|Sacramento Republic FC|United States|USL Championship|USL|Heart Health Park|Sacramento|||||||||
+TEAM|Tampa Bay Rowdies|United States|USL Championship|USL|Al Lang Stadium|St. Petersburg|||||||||
+TEAM|Union Omaha|United States|USL League One|USL1|Al F. Caniglia Field|Omaha|||||||||
 TEAM|AV Alta FC|United States|USL League One|USL1|||||||||
 
 REM 2022 EDITION -- US Open Cup (MLS clubs entered at Round of 32)
