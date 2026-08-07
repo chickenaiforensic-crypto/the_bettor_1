@@ -12,6 +12,7 @@ CANON = {
     'Malisheva': 'Malisheva', 'Ferizaj': 'Ferizaj', 'Ulpiana': 'Ulpiana',
     'Feronikeli': 'Feronikeli', "Trepca'89": "Trepça'89", 'Fushe Kosova': 'Fushë Kosova',
     'Liria': 'Liria', 'Suhareka': 'Suhareka', 'Prisht. e Re': 'Prishtina E Re',
+    'Prishtina e Re': 'Prishtina E Re', "Ph'nix-Banje": 'Phoenix-Banje',
     'Prishtina KF': 'Prishtina', 'Drenica KF': 'Drenica Skenderaj',
 }
 
@@ -57,14 +58,14 @@ def parse_rsssf_league(path, season):
         if m:
             rounds[cur].append(('date', m.group(1), int(m.group(2))))
             continue
-        m = re.match(r'^([A-Za-z0-9\.\' \&\-]+?)\s+awd\s+([A-Za-z0-9\.\' \-]+)\s*(.*)$', t)
+        m = re.match(r'^([\w\.\' \&\-]+?)\s+awd\s+([\w\.\' \&\-]+)\s*(.*)$', t)
         if m:
             home, away, note = m.group(1).strip(), m.group(2).strip(), m.group(3).strip()
             am = re.search(r'awarded\s+(\d+)-(\d+)', note)
             hg, ag = (am.group(1), am.group(2)) if am else ('3', '0')
             rounds[cur].append(('match', home, hg, ag, away, t, f'awarded {hg}-{ag}; {note}'))
             continue
-        m = re.match(r'^([A-Za-z0-9\.\' \&\-]+?)\s+(\d+)-(\d+)\s+([A-Za-z0-9\.\' \-]+)\s*(.*)$', t)
+        m = re.match(r'^([\w\.\' \&\-]+?)\s+(\d+)-(\d+)\s+([\w\.\' \&\-]+)\s*(.*)$', t)
         if m:
             home, hg, ag, away, note = (m.group(i).strip() for i in (1, 2, 3, 4, 5))
             rounds[cur].append(('match', home, hg, ag, away, t, note))
@@ -119,7 +120,7 @@ def parse_playoff(path, season):
                     out[-1]['date_raw'] = (m.group(3), int(m.group(4)))
                     out[-1]['venue_raw'] = m.group(5)
                 continue
-            m = re.match(r'^([A-Za-z0-9\.\' \&\-]+?)\s+(\d+)-(\d+)\s+([A-Za-z0-9\.\' \-]+)\s*(.*)$', t)
+            m = re.match(r'^([\w\.\' \&\-]+?)\s+(\d+)-(\d+)\s+([\w\.\' \&\-]+)\s*(.*)$', t)
             if m and out and 'home' not in out[-1]:
                 out[-1]['home'] = norm(m.group(1).strip())
                 out[-1]['hg'] = m.group(2)
@@ -169,7 +170,7 @@ def parse_cup(path, season):
             if m.group(3):
                 items.append(('date', m.group(3), int(m.group(4))))
             continue
-        m = re.match(r'^([A-Za-z0-9\.\' \&\-]+?)\s+awd\s+([A-Za-z0-9\.\' \-]+)\s*(.*)$', t)
+        m = re.match(r'^([\w\.\' \&\-]+?)\s+awd\s+([\w\.\' \&\-]+)\s*(.*)$', t)
         if m and stage:
             home, away, note = m.group(1).strip(), m.group(2).strip(), m.group(3).strip()
             am = re.search(r'awarded\s+(\d+)-(\d+)', note)
@@ -177,13 +178,13 @@ def parse_cup(path, season):
             items.append({'stage': stage, 'leg': leg, 'home': norm(home), 'hg': hg, 'ag': ag,
                           'away': norm(away), 'note': f'awarded {hg}-{ag}; {note}', 'raw': t})
             continue
-        m = re.match(r'^([A-Za-z0-9\.\' \&\-]+?)\s+(\d+)-(\d+)\s+([A-Za-z0-9\.\' \-]+)\s*(.*)$', t)
+        m = re.match(r'^([\w\.\' \&\-]+?)\s+(\d+)-(\d+)\s+([\w\.\' \&\-]+)\s*(.*)$', t)
         if m and stage:
             home, hg, ag, away, note = (m.group(i).strip() for i in (1, 2, 3, 4, 5))
             items.append({'stage': stage, 'leg': leg, 'home': norm(home), 'hg': hg, 'ag': ag,
                           'away': norm(away), 'note': note, 'raw': t})
             continue
-        m = re.match(r'^([A-Za-z0-9\.\' \&\-]+?)\s+o/w\s+([A-Za-z0-9\.\' \-]+)\s*$', t)
+        m = re.match(r'^([\w\.\' \&\-]+?)\s+o/w\s+([\w\.\' \&\-]+)\s*$', t)
         if m and stage:
             home, away = m.group(1).strip(), m.group(2).strip()
             items.append({'stage': stage, 'leg': leg, 'home': norm(home), 'hg': '0', 'ag': '3',

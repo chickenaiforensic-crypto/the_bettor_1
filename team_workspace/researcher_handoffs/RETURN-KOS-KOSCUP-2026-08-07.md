@@ -65,3 +65,24 @@ A fresh audit was run against the three packs (`kos_ledgers/audit_fresh.py`, 68 
 - KOS 2025-26: 179/180 identical to the re-fetched Wikipedia matrix; the single divergence is the documented MD12 award (Prishtina E Re 3-0 Drenica — required by the official table; Wikipedia prints the on-pitch 0-0).
 - KOS 2021-22..2024-25: RSSSF kosovo2022/kosovo2026 re-fetched and match the transcriptions; table reproduction PASS (50/50 club-seasons incl. appendix for 2025-26).
 - KOSCUP: slice membership 0 violations, per-edition stage counts exact, finals/semifinalists match RSSSF, advancement/aet/awarded/walkover notes verified, TEAM rows cover all 27 lower-division clubs.
+
+---
+
+## RE-RETURN ADDENDUM — KOSCUP (2026-08-07, after auditor rejection)
+
+The auditor's fresh verification **APPROVED the KOS league pack (11/11 gates)** and **RETURNED the KOSCUP pack** with four identity defects (D1-D4). All four are fixed; only the KOSCUP pack was re-issued. The league pack is untouched except a pack_id note clarification (labels were already corrected in the prior self-audit).
+
+**Defects and fixes:**
+
+- **D1 (data defect):** `2023-02-04 KF Ballkani 2-0 A` — away team was `A`; RSSSF prints `A&N Prizren`. Root cause: the parser's *away* name groups lacked `&` in the character class (only the home groups had been widened). Fixed in `parse_kosovo.py`: all name classes unified to `[\w\.' \&\-]` (also future-proofs diacritics). Row now reads `KF Ballkani 2-0 A&N Prizren`; bogus `TEAM|A` row removed.
+- **D2:** `Ph'nix-Banje` vs `Phoenix-Banje` (one club, RSSSF prints both). Canonicalised to `Phoenix-Banje` (single TEAM row, both MATCH rows use it); the mapping is documented in the identity NOTE and the source prints remain quoted in the spot-audit/SOURCE notes.
+- **D3:** `Prishtina e Re` (lowercase) vs pool string `Prishtina E Re`. Canonicalised via CANON (`Prishtina e Re` and `Prisht. e Re` → `Prishtina E Re`); zero lowercase variants in MATCH rows; no TEAM row for it (pool club).
+- **D4:** 11 TEAM rows re-declared 16-pool identities as "Kosovo First League" (e.g. Feronikeli, Ferizaj, Liria, Ulpiana, Drenica Skenderaj, Suhareka, Prishtina E Re, Trepça'89, Fushë Kosova). Builder now emits TEAM rows **only** for lower-division opponents absent from the 16-club roster that appear in the returned slice (24 TEAM rows; 0 pool-club rows).
+
+**Post-fix verification (fresh, re-run):**
+- `audit_fresh.py`: **ALL CHECKS PASSED** (68 checks; includes the KOSCUP slice counts 24/24/24/26/25, finals/brackets vs RSSSF, advancement/aet/awarded/walkover notes, TEAM-row coverage).
+- `final_gates_kos.py`: league table reproduction PASS 50/50 club-seasons (incl. 2025-26 pack+appendix), appendix 0 leaks, cup 123 ties, 0 duplicates, 0 future-dated.
+- Identity invariant: every MATCH participant is either a 16-pool string or a distinct lower-division string with exactly one TEAM row; no degenerate names; `A` absent.
+- KOS league pack: no lowercase `Prishtina e Re` rows (0); labels `wf-kos-2526` x168 confirmed.
+
+**Re-returned file:** `handoffs/KOSCUP-2021-2026_BP-TEAM-PACK_v2.txt` (123 slice ties, 24 TEAM rows, 200 lines) — ready for the auditor's re-audit.

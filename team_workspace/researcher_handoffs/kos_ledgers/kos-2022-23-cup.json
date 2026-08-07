@@ -255,7 +255,7 @@
  {
   "stage": "Round 1",
   "leg": null,
-  "home": "Ph'nix-Banje",
+  "home": "Phoenix-Banje",
   "hg": "1",
   "ag": "3",
   "away": "KF Ballkani",
@@ -291,8 +291,8 @@
   "home": "KF Ballkani",
   "hg": "2",
   "ag": "0",
-  "away": "A",
-  "note": "&N Prizren",
+  "away": "A&N Prizren",
+  "note": "",
   "raw": "Ballkani     2-0 A&N Prizren",
   "date": "2023-02-04"
  },

@@ -84,7 +84,7 @@ def adv_winner(home, hg, ag, away, note):
 
 # ---------------- KOS pack ----------------
 kos = []
-kos.append('NOTE|info|pack_id|KOS-2021-2026_BP-TEAM-PACK_v2 - return of commission WO-KOS-SPAN-06 (WORKORDER-KOS-2021-2026-5YSPAN.md, issued 2026-08-02; queue position 13 per WORKORDER-INDEX 2026-08-05). The complete Kosovo Superliga 5-year span running into today: 888 MATCH rows = 5 full seasons x 180 (2021-22 .. 2025-26, 10 clubs x 36 rounds, every club exactly 36 matches) minus the 12 already-held appendix rows (2025-26 Malisheva run-in; see appendix_exclusion NOTE), plus 10 Kosovo Relegation Playoffs rows (semifinal + final per season, 2 x 5). 2026-27 not started on the return date 2026-08-07 (season starts mid-August) - boundary NOTE below. Compiled 2026-08-07.')
+kos.append('NOTE|info|pack_id|KOS-2021-2026_BP-TEAM-PACK_v2 - return of commission WO-KOS-SPAN-06 (WORKORDER-KOS-2021-2026-5YSPAN.md, issued 2026-08-02; queue position 13 per WORKORDER-INDEX 2026-08-05). The complete Kosovo Superliga 5-year span running into today: 888 MATCH rows = 5 full seasons x 180 (2021-22 .. 2025-26, 10 clubs x 36 rounds, every club exactly 36 matches) minus the 12 already-held appendix rows (2025-26 Malisheva run-in; see appendix_exclusion NOTE), plus 10 Kosovo Relegation Playoffs rows (semifinal + final per season, 2 x 5). Source labels: 2021-22..2024-25 rows carry the RSSSF page label; 2025-26 league rows carry the worldfootball carrier label wf-kos-2526 (the RSSSF page has no round grid that season - see source_adaptation notes); 2025-26 playoff rows carry rsssf-kosovo2026 (RSSSF prints them). 2026-27 not started on the return date 2026-08-07 (season starts mid-August) - boundary NOTE below. Compiled 2026-08-07.')
 kos.append('SOURCE|rsssf-kosovo2022|https://www.rsssf.org/tablesk/kosovo2022.html|2026-08-07|primary-archive|2021-22: all 36 rounds dates+scores (incl. two awarded ties), official final table, Promotion/Relegation Playoff (Vushtrria-Liria semi, Vushtrria-Malisheva final); anchors 180 rows / 463 goals / 2021-08-21..2022-05-22')
 kos.append('SOURCE|rsssf-kosovo2023|https://www.rsssf.org/tablesk/kosovo2023.html|2026-08-07|primary-archive|2022-23: all 36 rounds dates+scores (postponed matches carried by played date), official final table, playoff (Liria-Ulpiana semi, Ferizaj-Liria final); anchors 180 / 446 / 2022-08-13..2023-05-28')
 kos.append('SOURCE|rsssf-kosovo2024|https://www.rsssf.org/tablesk/kosovo2024.html|2026-08-07|primary-archive|2023-24: all 36 rounds dates+scores, official final table, playoff (Prishtina e Re-Dinamo Ferizaj semi, Prishtina e Re-Feronikeli final); anchors 180 / 432 / 2023-08-12..2024-05-25')
@@ -137,7 +137,7 @@ for tag in SEASONS:
             continue
         stad = STADIUM[tag].get(r['home'], 'unknown')
         city = CITY.get(r['home'], ascii_(r['home']))
-        src = 'rsssf-kosovo2026' if tag == '2025-26' else f'rsssf-kosovo{int(tag[:4])+1}'
+        src = 'wf-kos-2526' if tag == '2025-26' else f'rsssf-kosovo{int(tag[:4])+1}'
         kos.append(f'MATCH|{r["date"]}|Kosovo Superliga|domestic-league|{r["home"]}|{r["hg"]}|{r["ag"]}|{r["away"]}|RS R{r["round"]}|{stad}|{city}|Kosovo||{src}')
         note = r.get('note', '')
         if 'awarded' in note:
@@ -176,16 +176,25 @@ kosc.append('SOURCE|wiki-kos-cup|https://en.wikipedia.org/wiki/Kosovo_Cup|2026-0
 kosc.append('NOTE|info|catalog|Competition string on every row: "Kosovo Cup" (new catalog string prescribed by the order; source name "Kupa e Kosoves"/"Kupa e Kosovës" maps to it). compType "domestic-cup" per ERRATA-2026-08-03 Family A (see errata_comptype NOTE). Venue-detail field carries the round label: R1 (round 1 for 2021-22..2023-24 editions, where Superliga clubs entered at R1), R16 (1/16 finals for 2024-25 and 2025-26 editions), R8 (1/8 finals), QF, SF leg1, SF leg2, Final. Preliminary-round ties have no Superliga club and are OUT of the slice.')
 kosc.append('NOTE|info|errata_comptype|ERRATA-2026-08-03 (auditor-issued, supersedes workorder text): KOSCUP compType corrected from "domestic-league" to "domestic-cup"; the workorder file in this repo still prints "domestic-league" and its md5 (b3c3b7a91c154b3ebbc725938f768cbd) differs from the errata pin (3e973b3e15127fe146a620963f2e5072), so the corrected value is applied per the errata instruction. Cited as required by the errata.')
 kosc.append('NOTE|info|federation_check|Section-0 scan on the finished pack: every row is a Kosovo Cup tie with at least one participant from the WO-06 16-club Superliga pool (per-season membership exactly as pinned there); all other participants are Kosovo lower-division clubs (declared TEAM rows below). No Albanian-cup (Kupa e Shqiperise) clubs anywhere. No standings tables - rows only.')
-kosc.append('NOTE|info|identity|Superliga strings from the WO-06 pool verbatim. Lower-division opponents carried under their RSSSF page names with diacritics normalised to the page prints (Vellaznimi, Arberia, Vushtrria, Dinamo Fzaj., Prisht. e Re, Trepca, Kika, Besa, Istogu, Flamurtari, Vjosa, Ramiz Sadiku, Rahoveci, Rilindja 74, Behari, Prizreni, Mitrovica, TOP Football, Dardania, Suhareka, Ferizaj, Feronikeli, Liria, Ulpiana, Fushe Kosova, 2 Korriku, Vllaznia, Drenasi, Vitia, KEK-u, Trepca\'89, Phoenix-Banje, A&N Prizren, Lepenci, Tefik Canga, Istogu 03, Shkendija H., Kosova VR, Arbana, Opoja, Sharri, Fortuna 2020, Mati) - one TEAM row each below with the division of that season per the RSSSF page tables.')
+kosc.append('NOTE|info|identity|Superliga strings from the WO-06 16-club pool used verbatim in every row where the participant is a pool club (including pool clubs appearing as lower-division cup opponents outside their Superliga membership seasons - they keep the pool string and carry NO TEAM row). Name canonicalisations applied silently, noted once: Ph\'nix-Banje -> Phoenix-Banje (same club, RSSSF page prints both); Prisht. e Re / Prishtina e Re -> Prishtina E Re (pool string); Drenica -> Drenica Skenderaj (pool string); Trepca\'89 -> Trepça\'89 (pool string); Fushe Kosova -> Fushë Kosova (pool string). TEAM rows are emitted ONLY for lower-division opponents absent from the roster that appear in the returned slice: one TEAM row per club below with the division of that season per the RSSSF page tables.')
 kosc.append('NOTE|info|advancement_policy|Every tie settled in extra time or on penalties carries the RSSSF-printed scoreline PLUS a NOTE|info|advancement line naming the club that advanced. 90-minute doctrine: for penalty-decided ties the printed score is a draw and is carried as the draw (e.g. Drita 0-0 Dukagjini, 5-4 pen, Drita advanced); for ties won in extra time the printed scoreline includes extra-time goals (the 90-minute split is not published by the primary source) - disclosed per tie in NOTE|info|aet lines. Awarded/walkover ties carry NOTE|warning|awarded lines.')
 
-LOWER_TEAMS = sorted({
-    t['home'] for tag in SEASONS for t in json.load(open(f'{LEDGER}/kos-{tag}-cup.json'))
-    if t['home'] not in MEMBERSHIP[tag]
-} | {
-    t['away'] for tag in SEASONS for t in json.load(open(f'{LEDGER}/kos-{tag}-cup.json'))
-    if t['away'] not in MEMBERSHIP[tag]
-})
+ROSTER = {'KF Ballkani','Drita','Gjilani','Llapi','Prishtina','Drenica Skenderaj','Dukagjini',
+          'Malisheva','Ferizaj','Prishtina E Re','Ulpiana','Feronikeli',"Trepça'89",
+          'Fushë Kosova','Liria','Suhareka'}
+
+def slice_participants():
+    parts = set()
+    for tag in SEASONS:
+        mem = MEMBERSHIP[tag]
+        for t in json.load(open(f'{LEDGER}/kos-{tag}-cup.json')):
+            if t.get('date') and (t['home'] in mem or t['away'] in mem):
+                parts.add(t['home']); parts.add(t['away'])
+    return parts
+
+# D4 fix (auditor 2026-08-07): TEAM rows ONLY for lower-division opponents absent
+# from the 16-club roster that appear in the returned slice.
+LOWER_TEAMS = sorted(slice_participants() - ROSTER)
 DIV = {'A&N Prizren':'Kosovo First League','2 Korriku':'Kosovo First League','Arberia':'Kosovo First League',
  'Behari':'Kosovo Second League','Besa':'Kosovo First League','Dardania':'Kosovo Second League',
  'Dinamo Fzaj.':'Kosovo First League','Drenasi':'Kosovo First League','Flamurtari':'Kosovo First League',
