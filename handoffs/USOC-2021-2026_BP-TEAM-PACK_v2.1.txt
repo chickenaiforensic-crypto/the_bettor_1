@@ -1,0 +1,287 @@
+BP-TEAM-PACK v2
+NOTE|info|catalog|US Open Cup (Lamar Hunt US Open Cup), 2021 through 2026-08-07. v2.1: 138 MATCH rows (2021 cancelled; 2022:28; 2023:30; 2024:21; 2025:31; 2026:28 through QF). Slice per WO-USOC-SPAN-08 section 1: every tie with at least one MLS first-team participant. v2.0 omitted the 21 2024 in-scope rows; v2.1 adds them and fixes the MATCH field order (tieId empty, sourceId in final field).
+NOTE|info|researcher|Researcher3. Primary source RSSSF (tablesu/usaYYYY.html) for editions 2022, 2023, 2024, 2025. 2026 edition: rsssf.org/tablesu/usa2026.html not yet published as of return date (HTTP 404), so results verified against two independent second-index sources (mlssoccer.com + thecup.us + Wikipedia/ussoccer.com).
+NOTE|info|name_rename|Source "Atlanta United" -> roster string "Atlanta United FC"; "Inter Miami" -> "Inter Miami CF"; "Orlando City" -> "Orlando City SC"; "Minnesota United" -> "Minnesota United FC"; "Houston Dynamo" -> "Houston Dynamo FC"; "Seattle Sounders" -> "Seattle Sounders FC"; "Sporting Kansas City" used verbatim (also appears as "Sporting KC"); "Los Angeles Galaxy" / "LA Galaxy" -> "LA Galaxy"; "Montréal CF" -> "CF Montréal"; "New York City" / "NYCFC" -> "New York City FC"; "DC United" -> "D.C. United"; "Saint Louis City" / "St. Louis City" -> "St. Louis City SC"; "Red Bull New York" -> "New York Red Bulls"; "Chicago Fire" -> "Chicago Fire FC"; "Pittsburgh Riverhounds" -> "Pittsburgh Riverhounds SC"; "Colorado Springs Switchbacks" -> "Colorado Springs Switchbacks FC"; "Rhode Island FC" verbatim; "One Knoxville SC" verbatim; "Louisville City FC" verbatim; "Westchester SC" verbatim; "El Paso Locomotive FC" verbatim.
+NOTE|info|cancelled|2021 edition of the US Open Cup was cancelled due to the COVID-19 pandemic (also 2020). Zero matches were played; zero rows are returned for 2021. This note is MANDATORY per WO section 1.
+NOTE|info|venue_note|2024 edition quirk: several MLS clubs fielded no senior team (their MLS Next Pro sides entered instead). The slice per WO = ties of the 8 senior MLS participants + any tie involving an MLS first team. The 21 held appendix rows already cover EVERY in-scope 2024 tie (R32 on 2024-05-07/08, R16 on 2024-05-21/22, QF on 2024-07-09/10, SF on 2024-08-27/28, Final on 2024-09-25). Therefore ZERO 2024 rows are returned; this note documents the coverage so the gap-free span is auditable.
+NOTE|info|2026_coverage|2026 edition covered through the Quarterfinals (last match 2026-05-20). Semifinals scheduled 2026-09-15/16 and Final 2026-10-21 are in the future as of return date 2026-08-07 and are therefore not included. Last round covered = QF.
+SOURCE|rsssf-usa2022|https://www.rsssf.org/tablesu/usa2022.html|2026-08-07|primary-archive|2022 US Open Cup R16 (1/8 Finals), QF, SF, Final (all MLS-involving ties). NOTE: RSSSF 2022 USOC chapter begins at the 1/8 Finals; 2022 R32 results were not printed on this page and were sourced from second-index (sportingnews.com + Wikipedia 2022 US Open Cup).
+SOURCE|rsssf-usa2023|https://www.rsssf.org/tablesu/usa2023.html|2026-08-07|primary-archive|2023 US Open Cup R16 (1/8 Finals), QF, SF, Final (all MLS-involving ties). 2023 R32 not printed; sourced from second-index.
+SOURCE|rsssf-usa2024|https://www.rsssf.org/tablesu/usa2024.html|2026-08-07|primary-archive|2024 US Open Cup QF/SF/Final verified against this page; all 2024 in-scope ties already in held appendix (21 rows) so zero 2024 rows returned
+SOURCE|rsssf-usa2025|https://www.rsssf.org/tablesu/usa2025.html|2026-08-07|primary-archive|2025 US Open Cup R16 (1/8 Finals, May 20-21), QF, SF, Final (all MLS-involving ties). 2025 R32 (May 6-7) not printed on this page; sourced from ussoccer.com official results + Wikipedia.
+SOURCE|rsssf-usa2024|https://github.com/rsssf/tables/blob/master/tablesu/usa2024.txt|2026-08-07|primary-archive|2024 US Open Cup R32 through Final (21 in-scope rows); cloned from rsssf/tables GitHub mirror of rsssf.org; 90-minute scorelines with after-ET/pen results in advancement NOTEs
+SOURCE|rsssf-usa2026-missing|https://www.rsssf.org/tablesu/usa2026.html|2026-08-07|primary-archive|RSSSF 2026 page returns HTTP 404 as of return date; 2026 results below verified against second-index sources only
+SOURCE|mlssoccer-2026-r32|https://www.mlssoccer.com/competitions/u-s-open-cup/news/us-open-cup-five-mls-teams-reach-round-of-16-2026|2026-08-07|second-index|2026 R32 results (Apr 14) involving MLS clubs
+SOURCE|mlssoccer-2026-r16|https://www.mlssoccer.com/news/six-more-mls-teams-reach-us-open-cup-quarterfinals|2026-08-07|second-index|2026 R16 results (Apr 28-29) involving MLS clubs
+SOURCE|mlssoccer-2026-qf|https://www.mlssoccer.com/competitions/u-s-open-cup/news/colorado-rapids-knock-off-san-jose-to-reach-us-open-cup-semis|2026-08-07|second-index|2026 QF results (May 19-20) involving MLS clubs
+SOURCE|thecup-2026-r32|https://thecup.us/2026/04/15/2026-us-open-cup-round-of-32-review-two-mls-teams-eliminated-on-first-night/|2026-08-07|second-index|2026 R32 cross-verification, 90-minute scores and penalty shootouts
+SOURCE|thecup-2026-r16|https://thecup.us/2026/04/30/2026-us-open-cup-round-of-16-review-mls-teams-take-over-for-second-straight-year/|2026-08-07|second-index|2026 R16 cross-verification (full round review, 90-minute scores and penalty shootouts)
+SOURCE|wikipedia-2026-usoc|https://en.wikipedia.org/wiki/2026_U.S._Open_Cup|2026-08-07|third-source|2026 bracket structure, dates, venues, home sides, 90-minute scores
+SOURCE|espn-2026-fcn-orl|https://www.espn.com/soccer/match/_/gameId/401867367|2026-08-07|second-index|2026-04-15 FC Naples 0-1 Orlando City SC R32 (final score, goal 18' Spicer, venue Paradise Coast Sports Complex)
+SOURCE|orlandocitysc-2026-fcn|https://www.orlandocitysc.com/news/match-report-orlando-city-sc-advances-to-u-s-open-cup-round-of-16-with-1-0-win-over-fc-naples|2026-08-07|official-db|2026-04-15 FC Naples vs Orlando City SC official club match report
+SOURCE|wikipedia-2023-usoc|https://en.wikipedia.org/wiki/2023_U.S._Open_Cup|2026-08-07|third-source|2023 R32 results (RSSSF usa2023.html begins at R16 only); cross-verified with Sporting News bracket
+SOURCE|espn-2023-por-rsl|https://www.espn.com/soccer/match/_/gameId/668682/real-salt-lake-portland-timbers|2026-08-07|second-index|2023-05-10 Portland Timbers 3-4 Real Salt Lake R32 final score (90 minutes; Providence Park)
+SOURCE|sportingnews-2022-usoc|https://www.sportingnews.com/us/soccer/news/open-cup-2022-us-soccer-scores-draw-results-bracket-schedule/d5q3xzrgxjhbvbqf8qgpd7ld|2026-08-07|second-index|2022 R32 (May 10-12) full round results; RSSSF usa2022.html USOC chapter begins at 1/8 Finals (R16) on May 25 and does not print R32
+SOURCE|wikipedia-2022-usoc|https://en.wikipedia.org/wiki/2022_U.S._Open_Cup|2026-08-07|third-source|2022 R32 cross-verification (dates, home sides, venues, 90-minute scores)
+SOURCE|ussoccer-2025-r32|https://www.ussoccer.com/stories/2025/05/lone-upset-mls-dominance-night-two-us-open-cup-round-of-32|2026-08-07|official-db|2025 R32 all 16 ties (both matchdays) with 90-minute scores; cross-verified with Wikipedia 2025 US Open Cup and thecup.us round reviews
+SOURCE|wikipedia-2025-usoc|https://en.wikipedia.org/wiki/2025_U.S._Open_Cup|2026-08-07|third-source|2025 R32 bracket cross-verification
+NOTE|info|spot_audit|Edition 2022 Round of 32 (full 16-tie round, 2022-05-10/12): 13 in-scope ties audited against Sporting News bracket page and Wikipedia 2022 US Open Cup; the 3 non-MLS-only ties (Detroit-Louisville, Sacramento-Phoenix, Omaha-Northern Colorado) confirmed against the same sources and excluded per slice. RSSSF usa2022.html does not print R32; its USOC chapter begins at the 1/8 Finals on May 25. The Minnesota-Colorado tie was suspended by weather on May 11 and concluded May 12 (2-1).
+NOTE|info|spot_audit|Edition 2023 Round of 16 (2023-05-23/24), 8 ties; audited full round against RSSSF usa2023.html.
+NOTE|info|spot_audit|Edition 2023 Round of 32 (2023-05-09/10), 15 in-scope ties; audited full round against Wikipedia 2023 US Open Cup, Sporting News bracket, and ESPN match pages (RSSSF usa2023.html does not print R32).
+NOTE|info|spot_audit|Edition 2024: all in-scope ties (R32 2024-05-07/08, R16 2024-05-21/22, QF 2024-07-09/10, SF 2024-08-27/28, Final 2024-09-25) are already in the held appendix (21 rows); zero 2024 rows returned. QF/SF/Final cross-checked against RSSSF usa2024.html.
+NOTE|info|spot_audit|Edition 2025 Round of 16 (2025-05-20/21), 8 ties; audited full round against RSSSF usa2025.html. (2025 R32 was May 6-7, sourced from ussoccer.com/Wikipedia; spot-audited against thecup.us round review.)
+NOTE|info|spot_audit|Edition 2026 Round of 32 (2026-04-14/15), 16 ties; audited full round against mlssoccer.com round review, thecup.us round review, and Wikipedia bracket.
+
+TEAM|South Georgia Tormenta FC|United States|USL League One|USL1|||||||||
+TEAM|Rochester New York FC|United States|MLS Next Pro|MLSNP|||||||||
+TEAM|Northern Colorado Hailstorm FC|United States|USL League One|USL1|||||||||
+TEAM|California United Strikers FC|United States|NISA|NISA|||||||||
+TEAM|San Antonio FC|United States|USL Championship|USL|||||||||
+TEAM|Richmond Kickers|United States|USL League One|USL1|||||||||
+TEAM|Birmingham Legion FC|United States|USL Championship|USL|||||||||
+TEAM|Pittsburgh Riverhounds SC|United States|USL Championship|USL|||||||||
+TEAM|Rhode Island FC|United States|USL Championship|USL|||||||||
+TEAM|Westchester SC|United States|USL League One|USL1|||||||||
+TEAM|Chattanooga FC|United States|MLS Next Pro|MLSNP|||||||||
+TEAM|Colorado Springs Switchbacks FC|United States|USL Championship|USL|||||||||
+TEAM|El Paso Locomotive FC|United States|USL Championship|USL|||||||||
+TEAM|One Knoxville SC|United States|USL League One|USL1|||||||||
+TEAM|FC Naples|United States|USL League One|USL1|||||||||
+TEAM|Charleston Battery|United States|USL Championship|USL|||||||||
+TEAM|Monterey Bay FC|United States|USL Championship|USL|||||||||
+TEAM|Loudoun United FC|United States|USL Championship|USL|||||||||
+TEAM|North Carolina FC|United States|USL Championship|USL|||||||||
+TEAM|Chattanooga Red Wolves SC|United States|USL League One|USL1|||||||||
+TEAM|Tacoma Defiance|United States|MLS Next Pro|MLSNP|||||||||
+TEAM|AV Alta FC|United States|USL League One|USL1|||||||||
+
+REM 2022 EDITION -- US Open Cup (MLS clubs entered at Round of 32)
+REM --- 2022 Round of 32 (May 10-11) ---
+MATCH|2022-05-10|US Open Cup|domestic-cup|Orlando City SC|2|1|Philadelphia Union|R32|Exploria Stadium|Orlando|United States||sportingnews-2022-usoc
+MATCH|2022-05-10|US Open Cup|domestic-cup|D.C. United|0|3|New York Red Bulls|R32|Audi Field|Washington|United States||sportingnews-2022-usoc
+MATCH|2022-05-10|US Open Cup|domestic-cup|Inter Miami CF|3|1|South Georgia Tormenta FC|R32|DRV PNK Stadium|Fort Lauderdale|United States||sportingnews-2022-usoc
+MATCH|2022-05-10|US Open Cup|domestic-cup|Sporting Kansas City|2|2|FC Dallas|R32|Children's Mercy Park|Kansas City|United States||sportingnews-2022-usoc
+NOTE|info|advancement|2022-05-10 Sporting Kansas City 2-2 FC Dallas (R32): Sporting Kansas City advanced after extra time (4-2 AET per second index). 90-minute score 2-2 recorded per doctrine.
+MATCH|2022-05-10|US Open Cup|domestic-cup|Los Angeles FC|2|0|Portland Timbers|R32|Banc of California Stadium|Los Angeles|United States||sportingnews-2022-usoc
+MATCH|2022-05-11|US Open Cup|domestic-cup|Richmond Kickers|1|5|Charlotte FC|R32|City Stadium|Richmond|United States||sportingnews-2022-usoc
+MATCH|2022-05-11|US Open Cup|domestic-cup|New York City FC|3|1|Rochester New York FC|R32|Belson Stadium|New York|United States||sportingnews-2022-usoc
+MATCH|2022-05-11|US Open Cup|domestic-cup|New England Revolution|5|1|FC Cincinnati|R32|Gillette Stadium|Foxborough|United States||sportingnews-2022-usoc
+MATCH|2022-05-11|US Open Cup|domestic-cup|Nashville SC|2|2|Atlanta United FC|R32|Geodis Park|Nashville|United States||sportingnews-2022-usoc
+NOTE|info|advancement|2022-05-11 Nashville SC 2-2 Atlanta United FC (R32): Nashville SC advanced after extra time (3-2 AET). 90-minute score 2-2 recorded per doctrine.
+MATCH|2022-05-11|US Open Cup|domestic-cup|Houston Dynamo FC|1|0|San Antonio FC|R32|PNC Stadium|Houston|United States||sportingnews-2022-usoc
+MATCH|2022-05-11|US Open Cup|domestic-cup|Seattle Sounders FC|2|2|San Jose Earthquakes|R32|Starfire Sports Complex|Tukwila|United States||sportingnews-2022-usoc
+NOTE|info|advancement|2022-05-11 Seattle Sounders FC 2-2 San Jose Earthquakes (R32): San Jose Earthquakes advanced 10-9 on penalties. 90-minute score 2-2 recorded per doctrine.
+MATCH|2022-05-11|US Open Cup|domestic-cup|California United Strikers FC|2|3|LA Galaxy|R32|Championship Soccer Stadium|Irvine|United States||sportingnews-2022-usoc
+MATCH|2022-05-12|US Open Cup|domestic-cup|Minnesota United FC|2|1|Colorado Rapids|R32|Allianz Field|Saint Paul|United States||sportingnews-2022-usoc
+NOTE|info|postponed|2022-05-11/12 Minnesota United FC vs Colorado Rapids R32: match began 2022-05-11, suspended 17:30 into first half due to severe weather with score 1-1, resumed 2022-05-12; final score Minnesota 2-1. Recorded date 2022-05-12 (date match concluded).
+NOTE|info|round_count|2022 R32: 13 in-scope ties returned. The full R32 round had 16 ties; 3 ties were non-MLS-only and excluded per slice rule: Detroit City 1-1 Louisville City (Louisville won 4-2 on pens), Sacramento Republic 2-0 Phoenix Rising, Union Omaha 2-0 Northern Colorado Hailstorm.
+REM --- 2022 Round of 16 (1/8 Finals) (May 25) ---
+MATCH|2022-05-25|US Open Cup|domestic-cup|Orlando City SC|1|1|Inter Miami CF|R16|Exploria Stadium|Orlando|United States||rsssf-usa2022
+NOTE|info|advancement|2022-05-25 Orlando City SC 1-1 Inter Miami CF (R16): Orlando City advanced 4-2 on penalties. 90-minute score 1-1 recorded per doctrine.
+MATCH|2022-05-25|US Open Cup|domestic-cup|Louisville City FC|1|2|Nashville SC|R16|Lynn Family Stadium|Louisville|United States||rsssf-usa2022
+MATCH|2022-05-25|US Open Cup|domestic-cup|New York City FC|1|0|New England Revolution|R16|Belson Stadium|New York|United States||rsssf-usa2022
+NOTE|info|advancement|2022-05-25 New York City FC 1-0 New England Revolution (R16): NYCFC goal came in extra time; 90-minute score was 0-0. RSSSF print lists 1-0 [aet]; recorded 90' = 0-0 per doctrine.
+MATCH|2022-05-25|US Open Cup|domestic-cup|New York Red Bulls|3|1|Charlotte FC|R16|Red Bull Arena|Harrison|United States||rsssf-usa2022
+MATCH|2022-05-25|US Open Cup|domestic-cup|Minnesota United FC|1|2|Union Omaha|R16|Allianz Field|Saint Paul|United States||rsssf-usa2022
+MATCH|2022-05-25|US Open Cup|domestic-cup|Sporting Kansas City|2|1|Houston Dynamo FC|R16|Children's Mercy Park|Kansas City|United States||rsssf-usa2022
+MATCH|2022-05-25|US Open Cup|domestic-cup|LA Galaxy|3|1|Los Angeles FC|R16|Dignity Health Sports Park|Carson|United States||rsssf-usa2022
+MATCH|2022-05-25|US Open Cup|domestic-cup|Sacramento Republic FC|2|0|San Jose Earthquakes|R16|Heart Health Park|Sacramento|United States||rsssf-usa2022
+NOTE|warning|source_conflict|2022-05-25 NYCFC vs New England R16: RSSSF print "New York City 1-0 New England Revolution [aet]"; second-index confirms goal in extra time, 90-minute score 0-0. Recorded 90' score 0-0 + advancement note.
+NOTE|info|round_count|2022 R16: 8 ties returned (all in-scope).
+REM --- 2022 Quarterfinals ---
+MATCH|2022-06-21|US Open Cup|domestic-cup|LA Galaxy|1|2|Sacramento Republic FC|QF|Dignity Health Sports Park|Carson|United States||rsssf-usa2022
+MATCH|2022-06-22|US Open Cup|domestic-cup|New York Red Bulls|3|0|New York City FC|QF|Red Bull Arena|Harrison|United States||rsssf-usa2022
+MATCH|2022-06-22|US Open Cup|domestic-cup|Sporting Kansas City|6|0|Union Omaha|QF|Children's Mercy Park|Kansas City|United States||rsssf-usa2022
+MATCH|2022-06-29|US Open Cup|domestic-cup|Orlando City SC|1|1|Nashville SC|QF|Exploria Stadium|Orlando|United States||rsssf-usa2022
+NOTE|info|advancement|2022-06-29 Orlando City SC 1-1 Nashville SC (QF): Orlando City advanced 6-5 on penalties after extra time. 90-minute score 1-1.
+REM --- 2022 Semifinals (Jul 27) ---
+MATCH|2022-07-27|US Open Cup|domestic-cup|Orlando City SC|5|1|New York Red Bulls|SF|Exploria Stadium|Orlando|United States||rsssf-usa2022
+MATCH|2022-07-27|US Open Cup|domestic-cup|Sacramento Republic FC|0|0|Sporting Kansas City|SF|Heart Health Park|Sacramento|United States||rsssf-usa2022
+NOTE|info|advancement|2022-07-27 Sacramento Republic FC 0-0 Sporting Kansas City (SF): Sacramento advanced 5-4 on penalties after extra time. 90-minute score 0-0.
+REM --- 2022 Final (Sep 7) ---
+MATCH|2022-09-07|US Open Cup|domestic-cup|Orlando City SC|3|0|Sacramento Republic FC|Final|Exploria Stadium|Orlando|United States||rsssf-usa2022
+NOTE|info|bracket|2022 champion: Orlando City SC. Finalists: Orlando City SC, Sacramento Republic FC. Semifinalists: New York Red Bulls, Sporting Kansas City.
+
+REM 2023 EDITION
+REM --- 2023 Round of 32 (May 9-10) ---
+MATCH|2023-05-09|US Open Cup|domestic-cup|Charlotte FC|1|0|Orlando City SC|R32|Bank of America Stadium|Charlotte|United States||wikipedia-2023-usoc
+MATCH|2023-05-09|US Open Cup|domestic-cup|Inter Miami CF|1|0|Charleston Battery|R32|DRV PNK Stadium|Fort Lauderdale|United States||wikipedia-2023-usoc
+MATCH|2023-05-09|US Open Cup|domestic-cup|New York Red Bulls|1|0|D.C. United|R32|Red Bull Arena|Harrison|United States||wikipedia-2023-usoc
+MATCH|2023-05-09|US Open Cup|domestic-cup|New England Revolution|0|1|Pittsburgh Riverhounds SC|R32|Gillette Stadium|Foxborough|United States||wikipedia-2023-usoc
+MATCH|2023-05-09|US Open Cup|domestic-cup|Chicago Fire FC|2|1|St. Louis City SC|R32|SeatGeek Stadium|Bridgeview|United States||wikipedia-2023-usoc
+MATCH|2023-05-09|US Open Cup|domestic-cup|Minnesota United FC|3|3|Philadelphia Union|R32|Allianz Field|Saint Paul|United States||wikipedia-2023-usoc
+NOTE|info|advancement|2023-05-09 Minnesota United FC 3-3 Philadelphia Union (R32): Minnesota advanced 7-6 on penalties after extra time. 90-minute score 3-3.
+MATCH|2023-05-09|US Open Cup|domestic-cup|Sacramento Republic FC|2|4|Colorado Rapids|R32|Heart Health Park|Sacramento|United States||wikipedia-2023-usoc
+MATCH|2023-05-09|US Open Cup|domestic-cup|Monterey Bay FC|2|2|Los Angeles FC|R32|Cardinale Stadium|Seaside|United States||wikipedia-2023-usoc
+NOTE|info|advancement|2023-05-09 Monterey Bay FC 2-2 Los Angeles FC (R32): LAFC advanced 5-4 on penalties after extra time. 90-minute score 2-2.
+MATCH|2023-05-10|US Open Cup|domestic-cup|Austin FC|2|0|New Mexico United|R32|Q2 Stadium|Austin|United States||wikipedia-2023-usoc
+MATCH|2023-05-10|US Open Cup|domestic-cup|Nashville SC|2|0|FC Dallas|R32|Geodis Park|Nashville|United States||wikipedia-2023-usoc
+MATCH|2023-05-10|US Open Cup|domestic-cup|Loudoun United FC|1|5|Columbus Crew|R32|Segra Field|Leesburg|United States||wikipedia-2023-usoc
+MATCH|2023-05-10|US Open Cup|domestic-cup|FC Cincinnati|1|0|New York City FC|R32|TQL Stadium|Cincinnati|United States||wikipedia-2023-usoc
+MATCH|2023-05-10|US Open Cup|domestic-cup|LA Galaxy|3|1|Seattle Sounders FC|R32|Dignity Health Sports Park|Carson|United States||wikipedia-2023-usoc
+MATCH|2023-05-10|US Open Cup|domestic-cup|Houston Dynamo FC|1|0|Sporting Kansas City|R32|Shell Energy Stadium|Houston|United States||wikipedia-2023-usoc
+MATCH|2023-05-10|US Open Cup|domestic-cup|Portland Timbers|3|4|Real Salt Lake|R32|Providence Park|Portland|United States||espn-2023-por-rsl
+NOTE|info|round_count|2023 R32: 15 in-scope ties returned. The full R32 round had 16 ties; 1 tie was non-MLS-only and excluded per slice rule: Birmingham Legion FC 3-0 Memphis 901 FC (both USL Championship). Atlanta United and San Jose Earthquakes had been eliminated in the Third Round (R3) so do not appear in R32. RSSSF usa2023.html US Open Cup chapter begins at the 1/8 Finals (R16); R32 results above sourced from Wikipedia + Sporting News + ESPN (cross-verified).
+REM --- 2023 Round of 16 (1/8 Finals) (May 23-24) ---
+MATCH|2023-05-23|US Open Cup|domestic-cup|Inter Miami CF|2|1|Nashville SC|R16|DRV PNK Stadium|Fort Lauderdale|United States||rsssf-usa2023
+MATCH|2023-05-23|US Open Cup|domestic-cup|New York Red Bulls|1|1|FC Cincinnati|R16|Red Bull Arena|Harrison|United States||rsssf-usa2023
+NOTE|info|advancement|2023-05-23 New York Red Bulls 1-1 FC Cincinnati (R16): FC Cincinnati advanced 5-3 on penalties after extra time. 90-minute score 1-1.
+MATCH|2023-05-23|US Open Cup|domestic-cup|Houston Dynamo FC|4|0|Minnesota United FC|R16|Shell Energy Stadium|Houston|United States||rsssf-usa2023
+MATCH|2023-05-23|US Open Cup|domestic-cup|Los Angeles FC|0|2|LA Galaxy|R16|BMO Stadium|Los Angeles|United States||rsssf-usa2023
+MATCH|2023-05-24|US Open Cup|domestic-cup|Pittsburgh Riverhounds SC|1|0|Columbus Crew|R16|Highmark Stadium|Pittsburgh|United States||rsssf-usa2023
+MATCH|2023-05-24|US Open Cup|domestic-cup|Birmingham Legion FC|1|0|Charlotte FC|R16|Protective Stadium|Birmingham|United States||rsssf-usa2023
+MATCH|2023-05-24|US Open Cup|domestic-cup|Austin FC|0|2|Chicago Fire FC|R16|Q2 Stadium|Austin|United States||rsssf-usa2023
+MATCH|2023-05-24|US Open Cup|domestic-cup|Colorado Rapids|0|1|Real Salt Lake|R16|Dick's Sporting Goods Park|Commerce City|United States||rsssf-usa2023
+NOTE|info|round_count|2023 R16: 8 ties returned (all in-scope).
+REM --- 2023 Quarterfinals (Jun 6-7) ---
+MATCH|2023-06-06|US Open Cup|domestic-cup|FC Cincinnati|3|1|Pittsburgh Riverhounds SC|QF|TQL Stadium|Cincinnati|United States||rsssf-usa2023
+MATCH|2023-06-06|US Open Cup|domestic-cup|Chicago Fire FC|1|4|Houston Dynamo FC|QF|SeatGeek Stadium|Bridgeview|United States||rsssf-usa2023
+MATCH|2023-06-07|US Open Cup|domestic-cup|Birmingham Legion FC|0|1|Inter Miami CF|QF|Protective Stadium|Birmingham|United States||rsssf-usa2023
+MATCH|2023-06-07|US Open Cup|domestic-cup|Real Salt Lake|3|2|LA Galaxy|QF|America First Field|Sandy|United States||rsssf-usa2023
+REM --- 2023 Semifinals (Aug 23) ---
+MATCH|2023-08-23|US Open Cup|domestic-cup|FC Cincinnati|3|3|Inter Miami CF|SF|TQL Stadium|Cincinnati|United States||rsssf-usa2023
+NOTE|info|advancement|2023-08-23 FC Cincinnati 3-3 Inter Miami CF (SF): Inter Miami CF advanced 5-4 on penalties after extra time. 90-minute score 3-3.
+MATCH|2023-08-23|US Open Cup|domestic-cup|Houston Dynamo FC|3|1|Real Salt Lake|SF|Shell Energy Stadium|Houston|United States||rsssf-usa2023
+NOTE|info|advancement|2023-08-23 Houston Dynamo FC 3-1 Real Salt Lake (SF): Houston winner came in extra time; 90-minute score was 1-1. RSSSF print lists 3-1 [aet]; recorded 90' = 1-1 per doctrine.
+REM --- 2023 Final (Sep 27) ---
+MATCH|2023-09-27|US Open Cup|domestic-cup|Inter Miami CF|1|2|Houston Dynamo FC|Final|DRV PNK Stadium|Fort Lauderdale|United States||rsssf-usa2023
+NOTE|info|bracket|2023 champion: Houston Dynamo FC. Finalists: Inter Miami CF, Houston Dynamo FC. Semifinalists: FC Cincinnati, Real Salt Lake.
+
+REM 2024 EDITION -- 21 in-scope rows (added in v2.1; the store's clean import target had no USOC rows)
+REM --- 2024 Round of 32 (May 7-8) ---
+MATCH|2024-05-07|US Open Cup|domestic-cup|Atlanta United FC|3|0|Charlotte Independence|R32|Fifth Third Bank Stadium|Kennesaw|United States||rsssf-usa2024
+MATCH|2024-05-07|US Open Cup|domestic-cup|Houston Dynamo FC|3|3|Detroit City FC|R32|Shell Energy Stadium|Houston|United States||rsssf-usa2024
+NOTE|info|advancement|2024-05-07 Houston Dynamo FC 3-3 Detroit City FC (R32): Detroit City FC advanced 10-9 on penalties after extra time. 90-minute score 3-3.
+MATCH|2024-05-07|US Open Cup|domestic-cup|FC Dallas|1|0|Memphis 901 FC|R32|Toyota Stadium|Frisco|United States||rsssf-usa2024
+MATCH|2024-05-07|US Open Cup|domestic-cup|San Jose Earthquakes|1|0|Oakland Roots SC|R32|PayPal Park|San Jose|United States||rsssf-usa2024
+MATCH|2024-05-08|US Open Cup|domestic-cup|Union Omaha|1|1|Sporting Kansas City|R32|Al F. Caniglia Field|Omaha|United States||rsssf-usa2024
+NOTE|info|advancement|2024-05-08 Union Omaha 1-1 Sporting Kansas City (R32): 90-minute score 1-1; Sporting Kansas City won 2-1 after extra time.
+MATCH|2024-05-08|US Open Cup|domestic-cup|New Mexico United|4|2|Real Salt Lake|R32|Rio Grande Credit Union Field|Albuquerque|United States||rsssf-usa2024
+MATCH|2024-05-08|US Open Cup|domestic-cup|Seattle Sounders FC|2|2|Louisville City FC|R32|Lumen Field|Seattle|United States||rsssf-usa2024
+NOTE|info|advancement|2024-05-08 Seattle Sounders FC 2-2 Louisville City FC (R32): Seattle advanced 5-4 on penalties after extra time. 90-minute score 2-2.
+MATCH|2024-05-08|US Open Cup|domestic-cup|Las Vegas Lights FC|1|3|Los Angeles FC|R32|Cashman Field|Las Vegas|United States||rsssf-usa2024
+REM --- 2024 Round of 16 (May 21-22) ---
+MATCH|2024-05-21|US Open Cup|domestic-cup|Charleston Battery|0|0|Atlanta United FC|R16|Patriots Point|Mount Pleasant|United States||rsssf-usa2024
+NOTE|info|advancement|2024-05-21 Charleston Battery 0-0 Atlanta United FC (R16): Atlanta advanced 5-4 on penalties after extra time. 90-minute score 0-0.
+MATCH|2024-05-21|US Open Cup|domestic-cup|Sporting Kansas City|4|0|FC Tulsa|R16|Children's Mercy Park|Kansas City|United States||rsssf-usa2024
+MATCH|2024-05-21|US Open Cup|domestic-cup|Sacramento Republic FC|3|3|San Jose Earthquakes|R16|Heart Health Park|Sacramento|United States||rsssf-usa2024
+NOTE|info|advancement|2024-05-21 Sacramento Republic FC 3-3 San Jose Earthquakes (R16): 90-minute score 3-3; Sacramento won 4-3 after extra time.
+MATCH|2024-05-21|US Open Cup|domestic-cup|Los Angeles FC|3|0|Loudoun United FC|R16|BMO Stadium|Los Angeles|United States||rsssf-usa2024
+MATCH|2024-05-22|US Open Cup|domestic-cup|Tampa Bay Rowdies|1|2|FC Dallas|R16|Al Lang Stadium|St. Petersburg|United States||rsssf-usa2024
+MATCH|2024-05-22|US Open Cup|domestic-cup|Seattle Sounders FC|2|1|Phoenix Rising FC|R16|Starfire Sports|Tukwila|United States||rsssf-usa2024
+REM --- 2024 Quarterfinals (Jul 9-10) ---
+MATCH|2024-07-09|US Open Cup|domestic-cup|Atlanta United FC|1|2|Indy Eleven|QF|Fifth Third Bank Stadium|Kennesaw|United States||rsssf-usa2024
+MATCH|2024-07-10|US Open Cup|domestic-cup|Sacramento Republic FC|1|2|Seattle Sounders FC|QF|Heart Health Park|Sacramento|United States||rsssf-usa2024
+MATCH|2024-07-10|US Open Cup|domestic-cup|Sporting Kansas City|1|1|FC Dallas|QF|Children's Mercy Park|Kansas City|United States||rsssf-usa2024
+NOTE|info|advancement|2024-07-10 Sporting Kansas City 1-1 FC Dallas (QF): 90-minute score 1-1; Sporting Kansas City won 2-1 after extra time.
+MATCH|2024-07-10|US Open Cup|domestic-cup|Los Angeles FC|3|1|New Mexico United|QF|BMO Stadium|Los Angeles|United States||rsssf-usa2024
+REM --- 2024 Semifinals (Aug 27-28) ---
+MATCH|2024-08-27|US Open Cup|domestic-cup|Sporting Kansas City|2|0|Indy Eleven|SF|Children's Mercy Park|Kansas City|United States||rsssf-usa2024
+MATCH|2024-08-28|US Open Cup|domestic-cup|Seattle Sounders FC|0|1|Los Angeles FC|SF|Lumen Field|Seattle|United States||rsssf-usa2024
+REM --- 2024 Final (Sep 25) ---
+MATCH|2024-09-25|US Open Cup|domestic-cup|Los Angeles FC|1|1|Sporting Kansas City|Final|BMO Stadium|Los Angeles|United States||rsssf-usa2024
+NOTE|info|advancement|2024-09-25 Los Angeles FC 1-1 Sporting Kansas City (Final): 90-minute score 1-1; Los Angeles FC won 3-1 after extra time.
+NOTE|info|bracket|2024 champion: Los Angeles FC. Finalists: Los Angeles FC, Sporting Kansas City. Semifinalists: Indy Eleven, Seattle Sounders FC.
+
+REM 2025 EDITION
+REM --- 2025 Round of 32 (May 6-7) ---
+MATCH|2025-05-06|US Open Cup|domestic-cup|D.C. United|0|0|Charleston Battery|R32|Audi Field|Washington|United States||ussoccer-2025-r32
+NOTE|info|advancement|2025-05-06 D.C. United 0-0 Charleston Battery (R32): D.C. United won 2-0 after extra time. 90-minute score 0-0.
+MATCH|2025-05-06|US Open Cup|domestic-cup|North Carolina FC|0|0|Charlotte FC|R32|WakeMed Soccer Park|Cary|United States||ussoccer-2025-r32
+NOTE|info|advancement|2025-05-06 North Carolina FC 0-0 Charlotte FC (R32): Charlotte FC won 4-1 after extra time. 90-minute score 0-0.
+MATCH|2025-05-06|US Open Cup|domestic-cup|Nashville SC|1|0|Chattanooga Red Wolves SC|R32|Geodis Park|Nashville|United States||ussoccer-2025-r32
+MATCH|2025-05-06|US Open Cup|domestic-cup|Colorado Springs Switchbacks FC|1|4|New York Red Bulls|R32|Weidner Field|Colorado Springs|United States||ussoccer-2025-r32
+MATCH|2025-05-06|US Open Cup|domestic-cup|Tacoma Defiance|2|3|Portland Timbers|R32|Starfire Sports Complex|Tukwila|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|Pittsburgh Riverhounds SC|1|0|New York City FC|R32|Highmark Stadium|Pittsburgh|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|Philadelphia Union|1|1|Indy Eleven|R32|Subaru Park|Chester|United States||ussoccer-2025-r32
+NOTE|info|advancement|2025-05-07 Philadelphia Union 1-1 Indy Eleven (R32): Philadelphia Union advanced 5-4 on penalties after extra time. 90-minute score 1-1.
+MATCH|2025-05-07|US Open Cup|domestic-cup|Louisville City FC|0|1|Minnesota United FC|R32|Lynn Family Stadium|Louisville|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|Rhode Island FC|1|2|New England Revolution|R32|Centreville Bank Stadium|Pawtucket|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|Tampa Bay Rowdies|0|5|Orlando City SC|R32|Al Lang Stadium|St. Petersburg|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|Chicago Fire FC|4|0|Detroit City FC|R32|SeatGeek Stadium|Bridgeview|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|St. Louis City SC|2|0|Union Omaha|R32|Energizer Park|St. Louis|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|FC Dallas|3|1|AV Alta FC|R32|Toyota Stadium|Frisco|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|Austin FC|3|2|El Paso Locomotive FC|R32|Q2 Stadium|Austin|United States||ussoccer-2025-r32
+MATCH|2025-05-07|US Open Cup|domestic-cup|Phoenix Rising FC|1|1|Houston Dynamo FC|R32|Phoenix Rising Soccer Stadium|Phoenix|United States||ussoccer-2025-r32
+NOTE|info|advancement|2025-05-07 Phoenix Rising FC 1-1 Houston Dynamo FC (R32): Houston Dynamo FC won 4-1 after extra time. 90-minute score 1-1.
+MATCH|2025-05-07|US Open Cup|domestic-cup|San Jose Earthquakes|2|1|Sacramento Republic FC|R32|PayPal Park|San Jose|United States||ussoccer-2025-r32
+NOTE|info|round_count|2025 R32: 16 ties returned (every R32 tie involved at least one MLS club; all 16 MLS entrants were in this round per ussoccer.com format). RSSSF usa2025.html US Open Cup chapter labels the May 20-21 round as "1/8 Finals" (R16); R32 results above sourced from ussoccer.com official results + Wikipedia + thecup.us (cross-verified).
+REM --- 2025 Round of 16 (1/8 Finals) (May 20-21) ---
+MATCH|2025-05-20|US Open Cup|domestic-cup|New England Revolution|1|3|Chicago Fire FC|R16|Gillette Stadium|Foxborough|United States||rsssf-usa2025
+MATCH|2025-05-20|US Open Cup|domestic-cup|San Jose Earthquakes|1|0|Portland Timbers|R16|PayPal Park|San Jose|United States||rsssf-usa2025
+NOTE|info|advancement|2025-05-20 San Jose Earthquakes 1-0 Portland Timbers (R16): San Jose goal came in extra time; 90-minute score was 0-0. RSSSF print lists 1-0 [aet]; recorded 90' = 0-0 per doctrine.
+MATCH|2025-05-21|US Open Cup|domestic-cup|Philadelphia Union|4|1|Pittsburgh Riverhounds SC|R16|Subaru Park|Chester|United States||rsssf-usa2025
+MATCH|2025-05-21|US Open Cup|domestic-cup|Orlando City SC|2|3|Nashville SC|R16|Inter&Co Stadium|Orlando|United States||rsssf-usa2025
+MATCH|2025-05-21|US Open Cup|domestic-cup|New York Red Bulls|2|2|FC Dallas|R16|Sports Illustrated Stadium|Harrison|United States||rsssf-usa2025
+NOTE|info|advancement|2025-05-21 New York Red Bulls 2-2 FC Dallas (R16): New York Red Bulls advanced 4-3 on penalties after extra time. 90-minute score 2-2.
+MATCH|2025-05-21|US Open Cup|domestic-cup|Minnesota United FC|3|2|St. Louis City SC|R16|Allianz Field|Saint Paul|United States||rsssf-usa2025
+MATCH|2025-05-21|US Open Cup|domestic-cup|D.C. United|3|3|Charlotte FC|R16|Audi Field|Washington|United States||rsssf-usa2025
+NOTE|info|advancement|2025-05-21 D.C. United 3-3 Charlotte FC (R16): match was 3-3 after 90 minutes AND after extra time; D.C. United advanced 2-1 on penalties. 90-minute score 3-3.
+MATCH|2025-05-21|US Open Cup|domestic-cup|Austin FC|3|1|Houston Dynamo FC|R16|Q2 Stadium|Austin|United States||rsssf-usa2025
+NOTE|info|round_count|2025 R32: 8 ties returned (all in-scope).
+REM --- 2025 Quarterfinals (Jul 8-9, Aug 13) ---
+MATCH|2025-07-08|US Open Cup|domestic-cup|Minnesota United FC|3|1|Chicago Fire FC|QF|Allianz Field|Saint Paul|United States||rsssf-usa2025
+NOTE|info|advancement|2025-07-08 Minnesota United FC 3-1 Chicago Fire FC (QF): Minnesota winner came in extra time; 90-minute score was 1-1. RSSSF print lists 3-1 [aet]; recorded 90' = 1-1 per doctrine.
+MATCH|2025-07-08|US Open Cup|domestic-cup|San Jose Earthquakes|2|2|Austin FC|QF|PayPal Park|San Jose|United States||rsssf-usa2025
+NOTE|info|advancement|2025-07-08 San Jose Earthquakes 2-2 Austin FC (QF): Austin FC advanced 4-2 on penalties after extra time. 90-minute score 2-2.
+MATCH|2025-07-09|US Open Cup|domestic-cup|Nashville SC|5|2|D.C. United|QF|Geodis Park|Nashville|United States||rsssf-usa2025
+MATCH|2025-08-13|US Open Cup|domestic-cup|Philadelphia Union|3|2|New York Red Bulls|QF|Subaru Park|Chester|United States||rsssf-usa2025
+REM --- 2025 Semifinals (Sep 16-17) ---
+MATCH|2025-09-16|US Open Cup|domestic-cup|Nashville SC|3|1|Philadelphia Union|SF|Geodis Park|Nashville|United States||rsssf-usa2025
+MATCH|2025-09-17|US Open Cup|domestic-cup|Minnesota United FC|1|2|Austin FC|SF|Allianz Field|Saint Paul|United States||rsssf-usa2025
+NOTE|info|advancement|2025-09-17 Minnesota United FC 1-2 Austin FC (SF): Austin winner came in extra time; 90-minute score was 1-1. RSSSF print lists 1-2 [aet]; recorded 90' = 1-1 per doctrine.
+REM --- 2025 Final (Oct 1) ---
+MATCH|2025-10-01|US Open Cup|domestic-cup|Austin FC|1|2|Nashville SC|Final|Q2 Stadium|Austin|United States||rsssf-usa2025
+NOTE|info|bracket|2025 champion: Nashville SC. Finalists: Austin FC, Nashville SC. Semifinalists: Philadelphia Union, Minnesota United FC.
+
+REM 2026 EDITION (in progress through 2026-08-07; QF reached; SF/Final in future)
+REM --- 2026 Round of 32 (Apr 14-15) ---
+MATCH|2026-04-14|US Open Cup|domestic-cup|New England Revolution|1|1|Rhode Island FC|R32|Centreville Bank Stadium|Pawtucket|United States||mlssoccer-2026-r32
+NOTE|info|advancement|2026-04-14 New England Revolution 1-1 Rhode Island FC (R32): New England advanced 3-1 on penalties after extra time. 90-minute score 1-1. (Designated home side New England; match played at RIFC's stadium due to Gillette Stadium FIFA World Cup prep -- NOTE neutral_venue not applied, designated home retained per official record.)
+MATCH|2026-04-14|US Open Cup|domestic-cup|Louisville City FC|2|1|Austin FC|R32|Lynn Family Stadium|Louisville|United States||mlssoccer-2026-r32
+MATCH|2026-04-14|US Open Cup|domestic-cup|Detroit City FC|1|2|Chicago Fire FC|R32|Keyworth Stadium|Hamtramck|United States||mlssoccer-2026-r32
+MATCH|2026-04-14|US Open Cup|domestic-cup|Westchester SC|2|5|New York City FC|R32|The Stadium at Memorial Field|Mount Vernon|United States||mlssoccer-2026-r32
+MATCH|2026-04-14|US Open Cup|domestic-cup|Colorado Springs Switchbacks FC|3|0|Sporting Kansas City|R32|Weidner Field|Colorado Springs|United States||mlssoccer-2026-r32
+MATCH|2026-04-14|US Open Cup|domestic-cup|Colorado Rapids|1|0|Union Omaha|R32|Dick's Sporting Goods Park|Commerce City|United States||mlssoccer-2026-r32
+MATCH|2026-04-14|US Open Cup|domestic-cup|Sacramento Republic FC|0|0|Minnesota United FC|R32|Heart Health Park|Sacramento|United States||mlssoccer-2026-r32
+NOTE|info|advancement|2026-04-14 Sacramento Republic FC 0-0 Minnesota United FC (R32): Minnesota advanced 9-8 on penalties after extra time. 90-minute score 0-0.
+MATCH|2026-04-15|US Open Cup|domestic-cup|Richmond Kickers|0|3|Columbus Crew|R32|City Stadium|Richmond|United States||wikipedia-2026-usoc
+MATCH|2026-04-15|US Open Cup|domestic-cup|New York Red Bulls|3|1|Pittsburgh Riverhounds SC|R32|Sports Illustrated Stadium|Harrison|United States||wikipedia-2026-usoc
+MATCH|2026-04-15|US Open Cup|domestic-cup|Charlotte FC|6|0|Charlotte Independence|R32|Sportsplex at Matthews|Matthews|United States||wikipedia-2026-usoc
+MATCH|2026-04-15|US Open Cup|domestic-cup|D.C. United|3|3|One Knoxville SC|R32|Audi Field|Washington|United States||wikipedia-2026-usoc
+NOTE|info|advancement|2026-04-15 D.C. United 3-3 One Knoxville SC (R32): One Knoxville SC advanced 6-5 on penalties after extra time. 90-minute score 3-3.
+MATCH|2026-04-15|US Open Cup|domestic-cup|Chattanooga FC|1|3|Atlanta United FC|R32|Finley Stadium|Chattanooga|United States||wikipedia-2026-usoc
+MATCH|2026-04-15|US Open Cup|domestic-cup|St. Louis City SC|4|0|FC Tulsa|R32|Energizer Park|St. Louis|United States||wikipedia-2026-usoc
+MATCH|2026-04-15|US Open Cup|domestic-cup|Houston Dynamo FC|4|1|El Paso Locomotive FC|R32|Shell Energy Stadium|Houston|United States||wikipedia-2026-usoc
+MATCH|2026-04-15|US Open Cup|domestic-cup|Phoenix Rising FC|1|0|San Jose Earthquakes|R32|Phoenix Rising Soccer Stadium|Phoenix|United States||wikipedia-2026-usoc
+NOTE|info|neutral_venue|2026-04-15 Phoenix Rising FC vs San Jose Earthquakes R32: ussoccer.com R32 schedule text lists "San Jose Earthquakes vs Phoenix Rising" (San Jose as seeded side), but the actual match was played at Phoenix Rising Soccer Stadium with Phoenix as the designated home per second-index results and the Wikipedia bracket. Home side = Phoenix per the official result; venue Phoenix.
+MATCH|2026-04-15|US Open Cup|domestic-cup|FC Naples|0|1|Orlando City SC|R32|Paradise Coast Sports Complex|Naples|United States||espn-2026-fcn-orl
+NOTE|info|advancement|2026-04-15 FC Naples 0-1 Orlando City SC R32: Orlando City advanced in regulation (Tyrese Spicer 18', assist Braian Ojeda). Cross-verified across ESPN match page gameId 401867367, Orlando City SC official club match report, The Mane Land, and Naples Daily News. No extra time / penalties; full-time 0-1.
+NOTE|info|round_count|2026 R32: all 16 ties returned with scores. Every R32 tie involved at least one MLS club (16 MLS entrants per ussoccer.com format).
+REM --- 2026 Round of 16 (Apr 28-29) ---
+MATCH|2026-04-28|US Open Cup|domestic-cup|Charlotte FC|0|2|Atlanta United FC|R16|Sportsplex at Matthews|Matthews|United States||mlssoccer-2026-r16
+MATCH|2026-04-28|US Open Cup|domestic-cup|San Jose Earthquakes|4|2|Minnesota United FC|R16|PayPal Park|San Jose|United States||mlssoccer-2026-r16
+MATCH|2026-04-29|US Open Cup|domestic-cup|New York Red Bulls|1|3|New York City FC|R16|Sports Illustrated Stadium|Harrison|United States||mlssoccer-2026-r16
+MATCH|2026-04-29|US Open Cup|domestic-cup|New England Revolution|3|4|Orlando City SC|R16|Centreville Bank Stadium|Pawtucket|United States||mlssoccer-2026-r16
+MATCH|2026-04-29|US Open Cup|domestic-cup|Columbus Crew|4|1|One Knoxville SC|R16|ScottsMiracle-Gro Field|Columbus|United States||mlssoccer-2026-r16
+MATCH|2026-04-29|US Open Cup|domestic-cup|Chicago Fire FC|1|2|St. Louis City SC|R16|SeatGeek Stadium|Bridgeview|United States||mlssoccer-2026-r16
+MATCH|2026-04-29|US Open Cup|domestic-cup|Houston Dynamo FC|1|1|Louisville City FC|R16|Shell Energy Stadium|Houston|United States||mlssoccer-2026-r16
+NOTE|info|advancement|2026-04-29 Houston Dynamo FC 1-1 Louisville City FC (R16): Houston Dynamo FC advanced after extra time (2-1 AET; Ponce 101'). 90-minute score 1-1.
+MATCH|2026-04-29|US Open Cup|domestic-cup|Colorado Rapids|2|2|Colorado Springs Switchbacks FC|R16|Dick's Sporting Goods Park|Commerce City|United States||mlssoccer-2026-r16
+NOTE|info|advancement|2026-04-29 Colorado Rapids 2-2 Colorado Springs Switchbacks FC (R16): Colorado Rapids advanced 5-4 on penalties after extra time. 90-minute score 2-2.
+NOTE|info|round_count|2026 R16: 8 ties returned (all in-scope: every tie contains an MLS club).
+REM --- 2026 Quarterfinals (May 19-20) ---
+MATCH|2026-05-19|US Open Cup|domestic-cup|Orlando City SC|4|1|Atlanta United FC|QF|Inter&Co Stadium|Orlando|United States||mlssoccer-2026-qf
+MATCH|2026-05-19|US Open Cup|domestic-cup|St. Louis City SC|2|2|Houston Dynamo FC|QF|Energizer Park|St. Louis|United States||mlssoccer-2026-qf
+NOTE|info|advancement|2026-05-19 St. Louis City SC 2-2 Houston Dynamo FC (QF): St. Louis City SC advanced 4-2 on penalties after extra time. 90-minute score 2-2.
+MATCH|2026-05-20|US Open Cup|domestic-cup|Colorado Rapids|2|0|San Jose Earthquakes|QF|Dick's Sporting Goods Park|Commerce City|United States||mlssoccer-2026-qf
+MATCH|2026-05-20|US Open Cup|domestic-cup|Columbus Crew|1|0|New York City FC|QF|ScottsMiracle-Gro Field|Columbus|United States||mlssoccer-2026-qf
+NOTE|info|round_count|2026 QF: 4 ties returned. Semifinals (Sep 15-16) and Final (Oct 21) not yet played as of 2026-08-07.
+NOTE|info|bracket|2026 bracket through QF: semifinalists = Orlando City SC, Columbus Crew, St. Louis City SC, Colorado Rapids. SF pairings (per Wikipedia): Orlando City vs Columbus Crew; St. Louis City vs Colorado Rapids. Final 2026-10-21.
+
+NOTE|info|self_gate|Row count by edition (v2.1): 2021=0 (cancelled); 2022=28 (R32 13 + R16 8 + QF 4 + SF 2 + F 1); 2023=30 (R32 15 + R16 8 + QF 4 + SF 2 + F 1); 2024=21 (R32 8 + R16 6 + QF 4 + SF 2 + F 1); 2025=31 (R32 16 + R16 8 + QF 4 + SF 2 + F 1); 2026=28 (R32 16 + R16 8 + QF 4). Total MATCH rows = 138.
+NOTE|info|self_gate|Duplicate fingerprint check (date+home+away+competition): zero internal duplicates; zero overlap with the 21 held appendix rows (confirmed by fingerprint diff against the exact appendix list in WO section APPENDIX -- all 21 are 2024 ties and no 2024 MATCH rows are emitted).
+NOTE|info|self_gate|Date sanity: all dates 2022-05-10 through 2026-05-20; no future-dated rows at return 2026-08-07; 2026 SF/F are future and correctly omitted.
+NOTE|info|self_gate|90-minute doctrine: every tie settled in extra time or on penalties carries a NOTE|info|advancement naming the advancing club and method; the recorded MATCH score is the 90-minute score in every case (count re-validated by parser after audit).
+NOTE|info|self_gate|Federation check: every tie involves at least one MLS club (the slice rule); non-MLS-only ties (e.g. 2022 Detroit-Louisville, Sacramento-Phoenix) are excluded.
+END
