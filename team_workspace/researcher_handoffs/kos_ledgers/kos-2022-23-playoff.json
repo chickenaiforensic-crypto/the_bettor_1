@@ -1,0 +1,30 @@
+[
+ {
+  "stage": "Semifinal",
+  "date_raw": [
+   "May",
+   27
+  ],
+  "venue_raw": null,
+  "home": "Liria",
+  "hg": "3",
+  "ag": "1",
+  "away": "Ulpiana",
+  "note": "",
+  "date": "2023-05-27"
+ },
+ {
+  "stage": "Final",
+  "date_raw": [
+   "Jun",
+   4
+  ],
+  "venue_raw": null,
+  "home": "Ferizaj",
+  "hg": "0",
+  "ag": "0",
+  "away": "Liria",
+  "note": "[aet, 0-3 pen]",
+  "date": "2023-06-04"
+ }
+]

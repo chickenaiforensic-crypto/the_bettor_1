@@ -1,0 +1,398 @@
+# TRANSCRIPTION of https://www.rsssf.org/tablesk/kosovo2024.html (fetched 2026-08-07)
+# Superliga round-by-round, Promotion/Relegation Playoff, Kupa e Kosoves.
+# Diacritics normalised where harmless; club names mapped by parser.
+
+Final Table:
+ 1.Ballkani (Suhareke)          36  23  9  4  62-26  78  [C]  Champions
+ 2.Llapi (Besiane) (Podujeve)   36  21  8  7  56-27  71
+ 3.Drita (Gjilan)               36  19 10  7  49-27  67
+ 4.Malisheva                    36  17  6 13  58-45  57
+ 5.Prishtina KF (Prishtine)     36  11 16  9  41-32  49
+ 6.Gjilani (Gjilan)             36  11 12 13  43-38  45
+ 7.Dukagjini (Kline)            36  10 15 11  38-48  45
+ 8.Feronikeli (Drenas)          36  12  8 16  39-47  44  [P]  Relegation Playoff
+ 9.Fushe Kosova (Fushe Kosove)  36   4  8 24  20-64  20  [P]  Relegated
+10.Liria (Prizren)              36   2  8 26  26-78  14  [P]  Relegated
+
+Round 1
+[Aug 12]
+Dukagjini    0-1 Malisheva
+Prishtina    3-1 Feronikeli
+[Aug 13]
+Drita        2-0 Llapi
+Liria        0-1 Ballkani
+[Oct 11]
+Fushe Kosova 2-0 Gjilani
+
+Round 2
+[Aug 19]
+Liria        0-0 Drita
+Malisheva    6-1 Fushe Kosova
+[Aug 20]
+Ballkani     2-0 Feronikeli
+Llapi        3-0 Dukagjini
+[Aug 21]
+Gjilani      0-0 Prishtina
+
+Round 3
+[Aug 26]
+Feronikeli   1-0 Gjilani
+Prishtina    3-1 Malisheva
+[Aug 27]
+Dukagjini    0-0 Liria
+Fushe Kosova 1-2 Llapi
+[Dec 20]
+Drita        2-1 Ballkani
+
+Round 4
+[Sep 2]
+Liria        2-1 Fushe Kosova
+Malisheva    4-1 Feronikeli
+[Sep 3]
+Ballkani     2-1 Gjilani
+Drita        2-2 Dukagjini
+Llapi        0-0 Prishtina
+
+Round 5
+[Sep 16]
+Feronikeli   0-3 Llapi
+Gjilani      1-0 Malisheva
+Fushe Kosova 1-1 Drita
+[Sep 17]
+Dukagjini    1-1 Ballkani
+Prishtina    1-1 Liria
+
+Round 6
+[Sep 23]
+Dukagjini    1-0 Fushe Kosova
+[Sep 24]
+Ballkani     3-2 Malisheva
+Drita        3-0 Prishtina
+Liria        3-5 Feronikeli
+Llapi        2-1 Gjilani
+
+Round 7
+[Sep 27]
+Gjilani      1-0 Liria
+Fushe Kosova 0-2 Ballkani
+Malisheva    2-3 Llapi
+[Sep 28]
+Feronikeli   0-2 Drita
+Prishtina    2-2 Dukagjini
+
+Round 8
+[Sep 30]
+Ballkani     2-1 Llapi
+Liria        0-1 Malisheva
+[Oct 1]
+Drita        2-0 Gjilani
+Dukagjini    1-1 Feronikeli
+[Oct 2]
+Fushe Kosova 2-2 Prishtina
+
+Round 9
+[Oct 7]
+Feronikeli   3-0 Fushe Kosova
+Gjilani      1-1 Dukagjini
+Malisheva    1-3 Drita
+[Oct 8]
+Llapi        2-0 Liria
+Prishtina    1-1 Ballkani
+
+Round 10
+[Oct 20]
+Ballkani     4-1 Liria
+[Oct 21]
+Feronikeli   0-0 Prishtina
+Gjilani      1-0 Fushe Kosova
+[Oct 22]
+Llapi        0-1 Drita
+Malisheva    3-4 Dukagjini
+
+Round 11
+[Oct 28]
+Fushe Kosova 0-0 Malisheva
+Prishtina    2-1 Gjilani
+[Oct 29]
+Drita        1-1 Liria
+Dukagjini    0-0 Llapi
+Feronikeli   0-3 Ballkani
+
+Round 12
+[Nov 1]
+Ballkani     1-0 Drita
+Gjilani      2-1 Feronikeli
+Malisheva    1-0 Prishtina
+[Nov 2]
+Liria        2-2 Dukagjini
+Llapi        1-1 Fushe Kosova
+
+Round 13
+[Nov 4]
+Feronikeli   0-0 Malisheva
+[Nov 5]
+Dukagjini    1-0 Drita
+Fushe Kosova 2-0 Liria
+Prishtina    2-2 Llapi
+[Dec 24]
+Gjilani      0-0 Ballkani
+
+Round 14
+[Nov 10]
+Malisheva    1-0 Gjilani
+[Nov 11]
+Drita        1-0 Fushe Kosova
+Liria        2-2 Prishtina
+Llapi        1-0 Feronikeli
+[Nov 13]
+Ballkani     3-1 Dukagjini
+
+Round 15
+[Nov 24]
+Malisheva    0-2 Ballkani
+[Nov 26]
+Gjilani      0-2 Llapi
+[Nov 27]
+Feronikeli   2-1 Liria
+Prishtina    1-0 Drita
+[Nov 28]
+Fushe Kosova 0-3 Dukagjini
+
+Round 16
+[Dec 2]
+Liria        0-4 Gjilani
+Llapi        0-1 Malisheva
+[Dec 3]
+Ballkani     2-1 Fushe Kosova
+Drita        3-1 Feronikeli
+Dukagjini    0-0 Prishtina
+
+Round 17
+[Dec 9]
+Llapi        5-3 Ballkani
+Malisheva    1-0 Liria
+Prishtina    1-0 Fushe Kosova
+[Dec 10]
+Feronikeli   1-0 Dukagjini
+Gjilani      0-1 Drita
+
+Round 18
+[Dec 16]
+Drita        1-2 Malisheva
+Dukagjini    1-0 Gjilani
+Fushe Kosova 0-1 Feronikeli
+[Dec 17]
+Ballkani     0-0 Prishtina
+Liria        0-2 Llapi
+
+Round 19
+[Feb 10]
+Drita        0-1 Llapi
+Fushe Kosova 1-1 Gjilani
+[Feb 11]
+Dukagjini    2-1 Malisheva
+Liria        0-3 Ballkani
+Prishtina    2-0 Feronikeli
+
+Round 20
+[Feb 16]
+Ballkani     2-2 Feronikeli
+Gjilani      1-1 Prishtina
+Liria        0-1 Drita
+[Feb 18]
+Llapi        2-1 Dukagjini
+Malisheva    4-1 Fushe Kosova
+
+Round 21
+[Feb 21]
+Drita        1-0 Ballkani
+Feronikeli   0-0 Gjilani
+Prishtina    0-2 Malisheva
+[Feb 22]
+Dukagjini    2-1 Liria
+Fushe Kosova 0-3 Llapi
+
+Round 22
+[Feb 24]
+Ballkani     1-1 Gjilani
+Malisheva    2-1 Feronikeli
+[Feb 25]
+Drita        2-0 Dukagjini
+Liria        0-0 Fushe Kosova
+Llapi        0-0 Prishtina
+
+Round 23
+[Mar 2]
+Dukagjini    1-2 Ballkani
+Feronikeli   0-1 Llapi
+Fushe Kosova 1-0 Drita
+[Mar 3]
+Gjilani      2-3 Malisheva
+Prishtina    3-1 Liria
+
+Round 24
+[Mar 9]
+Drita        1-0 Prishtina
+Dukagjini    0-0 Fushe Kosova
+Llapi        2-1 Gjilani
+[Mar 10]
+Ballkani     2-0 Malisheva
+Liria        0-2 Feronikeli
+
+Round 25
+[Mar 13]
+Gjilani      3-0 Liria
+Fushe Kosova 2-0 Ballkani
+Malisheva    2-1 Llapi
+[Mar 14]
+Feronikeli   0-1 Drita
+Prishtina    5-0 Dukagjini
+
+Round 26
+[Mar 16]
+Ballkani     0-0 Llapi
+Liria        0-3 Malisheva
+[Mar 17]
+Drita        2-2 Gjilani
+Dukagjini    1-0 Feronikeli
+Fushe Kosova 0-0 Prishtina
+
+Round 27
+[Mar 30]
+Malisheva    1-1 Drita
+Prishtina    0-0 Ballkani
+[Mar 31]
+Feronikeli   1-0 Fushe Kosova
+Gjilani      1-1 Dukagjini
+Llapi        3-0 Liria
+
+Round 28
+[Apr 6]
+Gjilani      4-0 Fushe Kosova
+Malisheva    1-1 Dukagjini
+[Apr 7]
+Ballkani     2-0 Liria
+Feronikeli   0-0 Prishtina
+Llapi        0-1 Drita
+
+Round 29
+[Apr 13]
+Drita        4-2 Liria
+Feronikeli   0-2 Ballkani
+Prishtina    1-3 Gjilani
+[Apr 14]
+Dukagjini    1-1 Llapi
+Fushe Kosova 1-3 Malisheva
+
+Round 30
+[Apr 20]
+Liria        0-0 Dukagjini
+Gjilani      1-1 Feronikeli
+Ballkani     2-2 Drita
+[Apr 21]
+Llapi        1-0 Fushe Kosova
+Malisheva    0-1 Prishtina
+
+Round 31
+[Apr 27]
+Feronikeli   2-1 Malisheva
+Fushe Kosova 0-2 Liria
+[Apr 28]
+Dukagjini    1-1 Drita
+Gjilani      0-2 Ballkani
+Prishtina    0-2 Llapi
+
+Round 32 [May 5]
+Ballkani     3-0 Dukagjini
+Drita        3-1 Fushe Kosova
+Liria        0-1 Prishtina
+Llapi        3-2 Feronikeli
+Malisheva    0-0 Gjilani
+
+Round 33 [May 9]
+Feronikeli   4-1 Liria
+Malisheva    0-2 Ballkani
+Gjilani      1-1 Llapi
+Prishtina    1-2 Drita
+Fushe Kosova 1-2 Dukagjini
+
+Round 34 [May 12]
+Liria        1-3 Gjilani
+Llapi        1-0 Malisheva
+Ballkani     3-0 Fushe Kosova
+Drita        0-0 Feronikeli
+Dukagjini    1-0 Prishtina
+
+Round 35 [May 18]
+Llapi        0-1 Ballkani
+Malisheva    7-4 Liria
+Prishtina    5-0 Fushe Kosova
+Feronikeli   3-2 Dukagjini
+Gjilani      2-1 Drita
+
+Round 36 [May 25]
+Drita        1-1 Malisheva
+Dukagjini    2-4 Gjilani
+Fushe Kosova 0-3 Feronikeli
+Ballkani     2-1 Prishtina
+Liria        1-5 Llapi
+
+Promotion/Relegation Playoff
+Semifinal [May 26]
+Prisht. e Re 3-3 Dinamo Fzaj. [aet, 4-3 pen]
+Final [Jun 1]
+Prisht. e Re 0-1 Feronikeli
+NB: all remain at former level
+
+Kupa e Kosoves
+Preliminary Round [Nov 22]
+Istogu 03    0-4 Behari
+KEK-u        awd Dardania     [awarded 0-3]
+Round 1
+[Dec 5]
+Llapi        4-1 Phoenix-Banje
+Malisheva    3-2 Kika
+[Dec 6]
+Flamurtari   0-3 Dukagjini
+Rahoveci     0-2 Prishtina
+Fushe Kosova 1-3 2 Korriku
+Vllaznia     2-4 Trepca'89
+Ramiz Sadiku 1-3 Gjilani
+Feronikeli   2-0 Istogu
+Dardania     0-9 Drita
+Liria        2-2 Rilindja 74  [aet, 4-5 pen]
+Vellaznimi   2-1 Ferizaj
+Drenica      0-2 Ballkani
+[Dec 7]
+Prisht. e Re 7-1 Behari
+Suhareka     2-0 Trepca
+Ulpiana      1-2 Vjosa
+[Dec 8]
+Dinamo Fzaj. 1-0 Vushtrria
+1/8 Finals
+[Feb 3]
+Gjilani      0-0 Prishtina    [aet, 1-4 pen]
+Vjosa        4-1 2 Korriku
+Feronikeli   1-3 Malisheva
+Suhareka     3-1 Prishtina e Re
+[Feb 4]
+Trepca'89    4-3 Llapi        [aet]
+Drita        3-0 Rilindja 74
+Ballkani     1-0 Vellaznimi
+Dukagjini    1-0 Dinamo Fzaj.
+Quarterfinals
+[Mar 6]
+Prishtina    5-1 Trepca'89
+Dukagjini    0-0 Drita        [aet, 3-4 pen]
+[Mar 7]
+Vjosa        0-1 Suhareka
+Malisheva    0-3 Ballkani
+Semifinals
+First Legs [Apr 3]
+Suhareka     0-1 Ballkani
+Prishtina    0-0 Drita
+Second Legs [Apr 24]
+Ballkani     2-2 Suhareka
+Drita        0-1 Prishtina    [aet]
+Final [May 22, "Rexhep Rexhepi", Drenas]
+Ballkani     2-2 Prishtina    [aet, 4-2 pen]

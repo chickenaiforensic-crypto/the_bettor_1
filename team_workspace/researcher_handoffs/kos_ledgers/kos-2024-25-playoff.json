@@ -1,0 +1,30 @@
+[
+ {
+  "stage": "Semifinal",
+  "date_raw": [
+   "May",
+   25
+  ],
+  "venue_raw": null,
+  "home": "Liria",
+  "hg": "1",
+  "ag": "3",
+  "away": "Vushtrria",
+  "note": "",
+  "date": "2025-05-25"
+ },
+ {
+  "stage": "Final",
+  "date_raw": [
+   "May",
+   31
+  ],
+  "venue_raw": null,
+  "home": "Vushtrria",
+  "hg": "0",
+  "ag": "0",
+  "away": "Llapi",
+  "note": "[aet, 1-4 pen]",
+  "date": "2025-05-31"
+ }
+]

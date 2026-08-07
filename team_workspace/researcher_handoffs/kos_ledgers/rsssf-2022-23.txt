@@ -1,0 +1,407 @@
+# TRANSCRIPTION of https://www.rsssf.org/tablesk/kosovo2023.html (fetched 2026-08-07)
+# Superliga round-by-round, Promotion/Relegation Playoff, Kupa e Kosoves.
+# Diacritics normalised where harmless; club names mapped by parser.
+
+Final Table:
+ 1.Ballkani (Suhareke)          36  20 13  3  62-32  73  [C]  Champions
+ 2.Drita (Gjilan)               36  20 10  6  63-31  70
+ 3.Gjilani (Gjilan)             36  13 15  8  34-34  54
+ 4.Dukagjini (Kline)            36  14  8 14  41-37  50
+ 5.Prishtina KF (Prishtine)     36  12 12 12  46-36  48
+ 6.Malisheva                    36  12 10 14  52-52  46
+ 7.Llapi (Besiane) (Podujeve)   36  11 10 15  44-50  43
+ 8.Ferizaj (Ferizaj)            36  10 11 15  31-50  41  [P]  Relegation Playoff
+ 9.Trepca'89 (Mitrovice)        36  10 10 16  46-62  40  [P]  Relegated
+10.Drenica KF (Skenderaj)       36   6  5 25  27-62  23       Relegated
+
+Round 1
+[Aug 13]
+Dukagjini    1-2 Prishtina
+Gjilani      3-2 Ferizaj
+Trepca'89    2-2 Drita
+[Aug 14]
+Drenica      0-1 Llapi
+[Sep 28]
+Malisheva    2-3 Ballkani
+
+Round 2
+[Aug 20]
+Drita        1-0 Dukagjini
+Llapi        2-2 Trepca'89
+[Aug 21]
+Ferizaj      0-0 Prishtina
+Gjilani      1-0 Malisheva
+Ballkani     1-0 Drenica
+
+Round 3
+[Aug 24]
+Drenica      0-0 Gjilani
+Malisheva    3-1 Ferizaj
+Dukagjini    1-1 Llapi
+[Sep 28]
+Prishtina    0-0 Drita
+[Nov 30]
+Trepca'89    1-1 Ballkani
+
+Round 4
+[Aug 27]
+Gjilani      3-1 Trepca'89
+Malisheva    1-2 Drenica
+[Aug 28]
+Ferizaj      1-1 Drita
+Llapi        1-2 Prishtina
+Ballkani     1-0 Dukagjini
+
+Round 5
+[Sep 3]
+Drita        4-0 Llapi
+Trepca'89    2-3 Malisheva
+[Sep 4]
+Drenica      0-0 Ferizaj
+Dukagjini    0-1 Gjilani
+Prishtina    0-1 Ballkani
+
+Round 6
+[Sep 10]
+Drenica      2-5 Trepca'89
+Malisheva    1-1 Dukagjini
+[Sep 11]
+Ballkani     0-2 Drita
+Ferizaj      2-1 Llapi
+Gjilani      1-1 Prishtina
+
+Round 7
+[Sep 14]
+Drita        4-1 Gjilani
+Prishtina    4-2 Malisheva
+[Sep 15]
+Dukagjini    1-2 Drenica
+Trepca'89    1-1 Ferizaj
+[Dec 4]
+Llapi        0-3 Ballkani
+
+Round 8
+[Sep 17]
+Gjilani      0-1 Llapi
+Malisheva    2-4 Drita
+[Sep 18]
+Drenica      2-1 Prishtina
+Trepca'89    3-0 Dukagjini
+[Sep 19]
+Ferizaj      0-3 Ballkani
+
+Round 9
+[Oct 1]
+Dukagjini    4-1 Ferizaj
+Drita        2-1 Drenica
+Llapi        1-1 Malisheva
+[Oct 2]
+Ballkani     2-0 Gjilani
+Prishtina    2-2 Trepca'89
+
+Round 10
+[Oct 8]
+Drita        3-1 Trepca'89
+Prishtina    0-1 Dukagjini
+[Oct 9]
+Ballkani     2-1 Malisheva
+Ferizaj      1-1 Gjilani
+Llapi        3-2 Drenica
+
+Round 11
+[Oct 15]
+Dukagjini    0-1 Drita
+Prishtina    2-1 Ferizaj
+[Oct 16]
+Drenica      1-1 Ballkani
+Malisheva    0-1 Gjilani
+Trepca'89    3-3 Llapi
+
+Round 12
+[Oct 19]
+Drita        1-2 Prishtina
+Ferizaj      0-6 Malisheva
+[Oct 20]
+Ballkani     2-0 Trepca'89
+Gjilani      0-2 Drenica
+Llapi        0-1 Dukagjini
+
+Round 13
+[Oct 22]
+Drita        1-0 Ferizaj
+Prishtina    2-0 Llapi
+[Oct 23]
+Drenica      0-0 Malisheva
+Dukagjini    1-1 Ballkani
+Trepca'89    1-1 Gjilani
+
+Round 14
+[Oct 29]
+Ferizaj      1-1 Drenica
+Malisheva    4-0 Trepca'89
+[Oct 30]
+Gjilani      1-0 Dukagjini
+Llapi        4-1 Drita
+[Dec 11]
+Ballkani     1-1 Prishtina
+
+Round 15
+[Nov 5]
+Dukagjini    4-0 Malisheva
+Trepca'89    1-0 Drenica
+Prishtina    2-2 Gjilani
+[Nov 6]
+Drita        2-2 Ballkani
+Llapi        1-2 Ferizaj
+
+Round 16
+[Nov 9]
+Drenica      0-1 Dukagjini
+Ferizaj      2-3 Trepca'89
+Malisheva    2-1 Prishtina
+[Nov 10]
+Ballkani     1-4 Llapi
+Gjilani      1-1 Drita
+
+Round 17
+[Nov 12]
+Dukagjini    1-0 Trepca'89
+Prishtina    0-1 Drenica
+[Nov 13]
+Ballkani     2-0 Ferizaj
+Drita        3-1 Malisheva
+Llapi        0-1 Gjilani
+
+Round 18
+[Nov 26]
+Drenica      1-3 Drita
+Ferizaj      0-0 Dukagjini
+[Nov 27]
+Gjilani      0-3 Ballkani
+Malisheva    0-0 Llapi
+Trepca'89    0-3 Prishtina
+
+Round 19
+[Feb 11]
+Drenica      0-1 Llapi
+Gjilani      0-0 Ferizaj
+Malisheva    2-4 Ballkani
+[Feb 12]
+Dukagjini    1-0 Prishtina
+Trepca'89    1-0 Drita
+
+Round 20
+[Feb 18]
+Drita        5-1 Dukagjini
+Ferizaj      1-0 Prishtina
+Llapi        2-1 Trepca'89
+[Feb 19]
+Ballkani     2-1 Drenica
+Gjilani      2-2 Malisheva
+
+Round 21
+[Feb 22]
+Drenica      1-2 Gjilani
+Malisheva    1-1 Ferizaj
+Prishtina    1-2 Drita
+[Feb 23]
+Dukagjini    0-1 Llapi
+Trepca'89    0-1 Ballkani
+
+Round 22
+[Feb 25]
+Ferizaj      2-1 Drita
+Malisheva    3-1 Drenica
+[Feb 26]
+Ballkani     1-1 Dukagjini
+Gjilani      1-0 Trepca'89
+Llapi        0-2 Prishtina
+
+Round 23
+[Mar 4]
+Drenica      1-0 Ferizaj
+Drita        2-0 Llapi
+Dukagjini    0-1 Gjilani
+[Mar 5]
+Prishtina    2-2 Ballkani
+Trepca'89    0-0 Malisheva
+
+Round 24
+[Mar 8]
+Drenica      1-2 Trepca'89
+Ferizaj      2-1 Llapi
+Malisheva    1-2 Dukagjini
+[Mar 9]
+Ballkani     1-1 Drita
+Gjilani      0-0 Prishtina
+
+Round 25
+[Mar 11]
+Dukagjini    2-0 Drenica
+Trepca'89    0-1 Ferizaj
+[Mar 12]
+Drita        1-0 Gjilani
+Llapi        3-2 Ballkani
+Prishtina    1-2 Malisheva
+
+Round 26
+[Mar 18]
+Drenica      0-1 Prishtina
+Malisheva    0-0 Drita
+[Mar 19]
+Ferizaj      0-0 Ballkani
+Gjilani      2-2 Llapi
+Trepca'89    2-1 Dukagjini
+
+Round 27
+[Apr 1]
+Ballkani     2-0 Gjilani
+Llapi        1-0 Malisheva
+Prishtina    4-1 Trepca'89
+[Apr 2]
+Drita        3-0 Drenica
+Dukagjini    3-1 Ferizaj
+
+Round 28
+[Apr 8]
+Ballkani     2-2 Malisheva
+Drita        1-1 Trepca'89
+[Apr 9]
+Ferizaj      2-0 Gjilani
+Llapi        4-0 Drenica
+Prishtina    1-2 Dukagjini
+
+Round 29
+[Apr 15]
+Malisheva    0-2 Gjilani
+Prishtina    2-0 Ferizaj
+Trepca'89    2-1 Llapi
+[Apr 16]
+Drenica      0-1 Ballkani
+Dukagjini    0-0 Drita
+
+Round 30
+[Apr 22]
+Drita        1-0 Prishtina
+Ferizaj      1-2 Malisheva
+[Apr 23]
+Ballkani     7-2 Trepca'89
+Gjilani      1-0 Drenica
+Llapi        1-1 Dukagjini
+
+Round 31
+[Apr 29]
+Drenica      1-2 Malisheva
+Drita        3-0 Ferizaj
+[Apr 30]
+Dukagjini    1-1 Ballkani
+Prishtina    0-0 Llapi
+Trepca'89    0-0 Gjilani
+
+Round 32
+[May 3]
+Ferizaj      2-0 Drenica
+Gjilani      2-0 Dukagjini
+Malisheva    1-0 Trepca'89
+[May 4]
+Ballkani     1-1 Prishtina
+Llapi        0-2 Drita
+
+Round 33
+[May 6]
+Dukagjini    1-0 Malisheva
+Trepca'89    3-1 Drenica
+[May 7]
+Drita        1-2 Ballkani
+Llapi        0-0 Ferizaj
+Prishtina    0-0 Gjilani
+
+Round 34 [May 14]
+Ballkani     1-0 Llapi
+Drenica      1-4 Dukagjini
+Ferizaj      1-0 Trepca'89
+Gjilani      1-1 Drita
+Malisheva    1-1 Prishtina
+
+Round 35 [May 20]
+Ballkani     2-0 Ferizaj
+Drita        0-1 Malisheva
+Dukagjini    3-1 Trepca'89
+Llapi        2-2 Gjilani
+Prishtina    4-1 Drenica
+
+Round 36 [May 28]
+Drenica      1-3 Drita
+Ferizaj      2-1 Dukagjini
+Gjilani      0-0 Ballkani
+Malisheva    3-2 Llapi
+Trepca'89    2-1 Prishtina
+
+Promotion/Relegation Playoff
+Semifinal [May 27]
+Liria        3-1 Ulpiana
+Final [Jun 4]
+Ferizaj      0-0 Liria        [aet, 0-3 pen]
+NB: Liria promoted, Ferizaj relegated
+
+Kupa e Kosoves
+Preliminary Round 1
+[Oct 11]
+Sharri       1-2 KEK-u
+[Oct 12]
+Fortuna 2020 2-2 Behari       [4-5 pen]
+Kosova VR    2-3 Prizreni
+Shkendija H. awd Vitia        [awarded 3-0]
+Arbana       1-3 Opoja
+Preliminary Round 2 [Oct 19]
+Behari       1-0 Shkendija H.
+KEK-u        2-3 Prizreni
+Opoja        bye
+Preliminary Round 3 [Oct 26]
+Opoja        1-2 Prizreni
+Behari       bye
+Round 1
+[Nov 17]
+Llapi        6-2 Vllaznia
+Vellaznimi   o/w Prishtina
+Dukagjini    2-0 Rilindja 74
+Prizreni     2-0 Istogu       [aet]
+Feronikeli   4-1 2 Korriku
+Vushtrria    1-0 Drenasi
+Vjosa        1-0 Ulpiana
+Drenica      2-2 Flamurtari   [aet, 7-8 pen]
+Behari       awd Ferizaj      [awarded 3-0]
+A&N Prizren  2-1 Rahoveci
+Trepca'89    3-0 Kika
+Trepca       0-5 Gjilani
+Fushe Kosova 4-1 Arberia
+Ramiz Sadiku 0-4 Malisheva
+[Nov 23]
+Drita        1-2 Liria
+[Nov 24]
+Ph'nix-Banje 1-3 Ballkani
+1/8 Finals
+[Feb 4]
+Liria        2-3 Llapi
+Feronikeli   awd Trepca'89    [awarded 0-3]
+Ballkani     2-0 A&N Prizren
+Flamurtari   1-1 Vushtrria    [aet, 3-4 pen]
+[Feb 5]
+Gjilani      4-0 Vjosa
+Behari       3-1 Prizreni
+Malisheva    2-0 Fushe Kosova
+Prishtina    3-1 Dukagjini
+Quarterfinals [Mar 15]
+Trepca'89    1-5 Gjilani
+Llapi        2-2 Malisheva    [aet, 6-5 pen]
+Vushtrria    1-0 Behari
+Prishtina    2-0 Ballkani
+Semifinals
+First Legs [Apr 5]
+Llapi        1-2 Gjilani
+Vushtrria    1-2 Prishtina
+Second Legs [Apr 19]
+Gjilani      1-0 Llapi
+Prishtina    6-0 Vushtrria
+Final [Jun 5, Fadil Vokrri Stadium, Prishtine]
+Prishtina    2-0 Gjilani

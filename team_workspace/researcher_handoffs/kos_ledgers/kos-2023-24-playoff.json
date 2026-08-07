@@ -1,0 +1,30 @@
+[
+ {
+  "stage": "Semifinal",
+  "date_raw": [
+   "May",
+   26
+  ],
+  "venue_raw": null,
+  "home": "Prishtina E Re",
+  "hg": "3",
+  "ag": "3",
+  "away": "Dinamo Fzaj.",
+  "note": "[aet, 4-3 pen]",
+  "date": "2024-05-26"
+ },
+ {
+  "stage": "Final",
+  "date_raw": [
+   "Jun",
+   1
+  ],
+  "venue_raw": null,
+  "home": "Prishtina E Re",
+  "hg": "0",
+  "ag": "1",
+  "away": "Feronikeli",
+  "note": "",
+  "date": "2024-06-01"
+ }
+]

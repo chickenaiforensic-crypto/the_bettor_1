@@ -1,0 +1,30 @@
+[
+ {
+  "stage": "Semifinal",
+  "date_raw": [
+   "May",
+   29
+  ],
+  "venue_raw": null,
+  "home": "Dinamo Fzaj.",
+  "hg": "2",
+  "ag": "0",
+  "away": "Liria",
+  "note": "",
+  "date": "2026-05-29"
+ },
+ {
+  "stage": "Final",
+  "date_raw": [
+   "Jun",
+   6
+  ],
+  "venue_raw": null,
+  "home": "Dinamo Fzaj.",
+  "hg": "0",
+  "ag": "2",
+  "away": "Llapi",
+  "note": "",
+  "date": "2026-06-06"
+ }
+]

@@ -1,0 +1,185 @@
+# 2025-26 Kosovo Superliga dated carrier — transcribed from worldfootball.net matchday pages 1-36 (fetched 2026-08-07)
+# Format: MDn|YYYY-MM-DD|Home|HG|AG|Away
+# Scores cross-checked against the Wikipedia results matrix (source FFK) during fetching — all 180 identical,
+# except MD12 Prishtina e Re-Drenica: matrix 0-0 (on-pitch) vs worldfootball 3-0 (dec.) — award required to
+# reproduce the official final table (RSSSF kosovo2026): row carries 3-0 with NOTE|warning|awarded.
+MD1|2025-08-17|Dukagjini|2|3|Prishtina
+MD1|2025-08-17|Drenica|0|0|Llapi
+MD1|2025-08-17|Ferizaj|1|0|Drita
+MD1|2025-08-17|Malisheva|0|4|Prishtina E Re
+MD1|2025-08-18|Gjilani|1|1|Ballkani
+MD2|2025-08-24|Ballkani|1|1|Malisheva
+MD2|2025-08-24|Dukagjini|2|0|Gjilani
+MD2|2025-08-24|Prishtina E Re|0|1|Ferizaj
+MD2|2025-08-24|Prishtina|3|0|Llapi
+MD2|2025-09-17|Drita|0|1|Drenica
+MD3|2025-08-31|Gjilani|3|1|Prishtina
+MD3|2025-08-31|Drenica|1|0|Prishtina E Re
+MD3|2025-08-31|Ferizaj|1|3|Ballkani
+MD3|2025-08-31|Malisheva|0|1|Dukagjini
+MD3|2025-09-01|Llapi|1|1|Drita
+MD4|2025-09-14|Ballkani|3|0|Drenica
+MD4|2025-09-14|Dukagjini|2|0|Ferizaj
+MD4|2025-09-14|Gjilani|1|3|Malisheva
+MD4|2025-09-14|Prishtina E Re|1|0|Llapi
+MD4|2025-09-14|Prishtina|2|2|Drita
+MD5|2025-09-21|Drenica|1|1|Dukagjini
+MD5|2025-09-21|Ferizaj|0|1|Gjilani
+MD5|2025-09-21|Drita|2|1|Prishtina E Re
+MD5|2025-09-21|Llapi|2|2|Ballkani
+MD5|2025-09-21|Malisheva|1|3|Prishtina
+MD6|2025-09-25|Dukagjini|3|1|Llapi
+MD6|2025-09-25|Ballkani|2|0|Drita
+MD6|2025-09-25|Gjilani|0|1|Drenica
+MD6|2025-09-25|Malisheva|3|1|Ferizaj
+MD6|2025-09-25|Prishtina|2|0|Prishtina E Re
+MD7|2025-09-28|Drita|3|1|Dukagjini
+MD7|2025-09-28|Drenica|3|4|Malisheva
+MD7|2025-09-28|Ferizaj|0|5|Prishtina
+MD7|2025-09-28|Llapi|4|1|Gjilani
+MD7|2025-09-28|Prishtina E Re|0|3|Ballkani
+MD8|2025-10-04|Prishtina|1|0|Ballkani
+MD8|2025-10-04|Malisheva|1|2|Llapi
+MD8|2025-10-05|Dukagjini|1|1|Prishtina E Re
+MD8|2025-10-05|Ferizaj|2|0|Drenica
+MD8|2025-10-06|Gjilani|1|2|Drita
+MD9|2025-10-18|Drita|2|1|Malisheva
+MD9|2025-10-18|Prishtina E Re|0|1|Gjilani
+MD9|2025-10-19|Ballkani|2|0|Dukagjini
+MD9|2025-10-19|Drenica|3|4|Prishtina
+MD9|2025-10-19|Llapi|1|1|Ferizaj
+MD10|2025-10-25|Ballkani|1|1|Gjilani
+MD10|2025-10-25|Prishtina E Re|0|2|Malisheva
+MD10|2025-10-25|Prishtina|2|0|Dukagjini
+MD10|2025-10-26|Drita|3|1|Ferizaj
+MD10|2025-10-26|Llapi|4|3|Drenica
+MD11|2025-10-28|Gjilani|0|2|Dukagjini
+MD11|2025-10-28|Malisheva|0|5|Ballkani
+MD11|2025-10-29|Drenica|3|1|Drita
+MD11|2025-10-29|Ferizaj|3|0|Prishtina E Re
+MD11|2025-10-29|Llapi|2|1|Prishtina
+MD12|2025-11-01|Ballkani|1|1|Ferizaj
+MD12|2025-11-01|Prishtina|0|0|Gjilani
+MD12|2025-11-02|Drita|1|0|Llapi
+MD12|2025-11-02|Dukagjini|1|2|Malisheva
+MD12|2025-11-02|Prishtina E Re|3|0|Drenica
+MD13|2025-11-08|Drenica|2|0|Ballkani
+MD13|2025-11-08|Llapi|1|1|Prishtina E Re
+MD13|2025-11-09|Ferizaj|0|1|Dukagjini
+MD13|2025-11-09|Malisheva|1|2|Gjilani
+MD13|2025-12-24|Drita|2|0|Prishtina
+MD14|2025-11-22|Prishtina E Re|0|2|Drita
+MD14|2025-11-22|Prishtina|0|2|Malisheva
+MD14|2025-11-23|Ballkani|2|4|Llapi
+MD14|2025-11-23|Dukagjini|3|0|Drenica
+MD14|2025-11-23|Gjilani|2|2|Ferizaj
+MD15|2025-11-29|Drenica|0|1|Gjilani
+MD15|2025-11-29|Prishtina E Re|4|1|Prishtina
+MD15|2025-11-30|Drita|2|3|Ballkani
+MD15|2025-11-30|Ferizaj|0|2|Malisheva
+MD15|2025-11-30|Llapi|0|1|Dukagjini
+MD16|2025-12-06|Ballkani|6|1|Prishtina E Re
+MD16|2025-12-06|Dukagjini|1|1|Drita
+MD16|2025-12-06|Malisheva|2|0|Drenica
+MD16|2025-12-07|Gjilani|3|0|Llapi
+MD16|2025-12-07|Prishtina|1|1|Ferizaj
+MD17|2025-12-13|Drenica|2|1|Ferizaj
+MD17|2025-12-13|Prishtina E Re|0|0|Dukagjini
+MD17|2025-12-14|Ballkani|3|1|Prishtina
+MD17|2025-12-14|Drita|1|1|Gjilani
+MD17|2025-12-14|Llapi|0|0|Malisheva
+MD18|2025-12-20|Ferizaj|2|1|Llapi
+MD18|2025-12-20|Prishtina|2|1|Drenica
+MD18|2025-12-21|Dukagjini|0|0|Ballkani
+MD18|2025-12-21|Gjilani|3|2|Prishtina E Re
+MD18|2025-12-21|Malisheva|1|1|Drita
+MD19|2026-02-07|Dukagjini|0|1|Prishtina
+MD19|2026-02-07|Ferizaj|0|1|Drita
+MD19|2026-02-07|Drenica|1|1|Llapi
+MD19|2026-02-08|Gjilani|1|2|Ballkani
+MD19|2026-02-08|Malisheva|1|0|Prishtina E Re
+MD20|2026-02-14|Drita|1|0|Drenica
+MD20|2026-02-15|Dukagjini|1|1|Gjilani
+MD20|2026-02-15|Prishtina E Re|1|0|Ferizaj
+MD20|2026-02-15|Prishtina|4|1|Llapi
+MD20|2026-02-16|Ballkani|1|2|Malisheva
+MD21|2026-02-21|Malisheva|0|0|Dukagjini
+MD21|2026-02-22|Ferizaj|2|1|Ballkani
+MD21|2026-02-22|Gjilani|1|0|Prishtina
+MD21|2026-02-22|Llapi|0|2|Drita
+MD21|2026-02-23|Drenica|0|2|Prishtina E Re
+MD22|2026-02-28|Prishtina E Re|1|1|Llapi
+MD22|2026-02-28|Dukagjini|1|1|Ferizaj
+MD22|2026-02-28|Gjilani|2|1|Malisheva
+MD22|2026-03-01|Ballkani|1|0|Drenica
+MD22|2026-03-01|Prishtina|1|1|Drita
+MD23|2026-03-07|Drita|3|0|Prishtina E Re
+MD23|2026-03-08|Drenica|2|2|Dukagjini
+MD23|2026-03-09|Malisheva|3|0|Prishtina
+MD23|2026-03-09|Llapi|2|0|Ballkani
+MD23|2026-03-09|Ferizaj|1|2|Gjilani
+MD24|2026-03-14|Gjilani|0|1|Drenica
+MD24|2026-03-14|Prishtina|1|1|Prishtina E Re
+MD24|2026-03-14|Malisheva|1|2|Ferizaj
+MD24|2026-03-15|Ballkani|3|0|Drita
+MD24|2026-03-15|Dukagjini|1|2|Llapi
+MD25|2026-03-17|Drenica|4|2|Malisheva
+MD25|2026-03-17|Ferizaj|3|0|Prishtina
+MD25|2026-03-18|Prishtina E Re|0|1|Ballkani
+MD25|2026-03-18|Drita|2|1|Dukagjini
+MD25|2026-03-18|Llapi|2|3|Gjilani
+MD26|2026-03-21|Ferizaj|1|0|Drenica
+MD26|2026-03-21|Prishtina|1|0|Ballkani
+MD26|2026-03-22|Dukagjini|1|1|Prishtina E Re
+MD26|2026-03-22|Gjilani|0|1|Drita
+MD26|2026-03-22|Malisheva|2|0|Llapi
+MD27|2026-04-04|Ballkani|2|1|Dukagjini
+MD27|2026-04-04|Llapi|1|0|Ferizaj
+MD27|2026-04-04|Prishtina E Re|1|2|Gjilani
+MD27|2026-04-05|Drita|2|0|Malisheva
+MD27|2026-04-05|Drenica|2|2|Prishtina
+MD28|2026-04-11|Prishtina E Re|2|1|Malisheva
+MD28|2026-04-12|Ballkani|1|1|Gjilani
+MD28|2026-04-12|Drita|2|1|Ferizaj
+MD28|2026-04-12|Llapi|0|1|Drenica
+MD28|2026-04-13|Prishtina|1|1|Dukagjini
+MD29|2026-04-18|Ferizaj|1|1|Prishtina E Re
+MD29|2026-04-18|Llapi|0|0|Prishtina
+MD29|2026-04-19|Drenica|1|0|Drita
+MD29|2026-04-19|Gjilani|2|3|Dukagjini
+MD29|2026-04-19|Malisheva|4|2|Ballkani
+MD30|2026-04-25|Prishtina E Re|2|3|Drenica
+MD30|2026-04-25|Prishtina|1|1|Gjilani
+MD30|2026-04-26|Ballkani|3|0|Ferizaj
+MD30|2026-04-26|Dukagjini|0|1|Malisheva
+MD30|2026-04-26|Drita|3|0|Llapi
+MD31|2026-04-29|Drita|1|0|Prishtina
+MD31|2026-04-29|Llapi|4|0|Prishtina E Re
+MD31|2026-04-29|Malisheva|3|1|Gjilani
+MD31|2026-04-30|Drenica|1|2|Ballkani
+MD31|2026-04-30|Ferizaj|1|2|Dukagjini
+MD32|2026-05-02|Prishtina E Re|0|1|Drita
+MD32|2026-05-02|Prishtina|0|1|Malisheva
+MD32|2026-05-03|Ballkani|0|1|Llapi
+MD32|2026-05-03|Dukagjini|0|1|Drenica
+MD32|2026-05-03|Gjilani|1|1|Ferizaj
+MD33|2026-05-06|Prishtina E Re|3|2|Prishtina
+MD33|2026-05-09|Drita|2|0|Ballkani
+MD33|2026-05-09|Drenica|2|1|Gjilani
+MD33|2026-05-10|Ferizaj|1|1|Malisheva
+MD33|2026-05-10|Llapi|0|0|Dukagjini
+MD34|2026-05-17|Ballkani|3|2|Prishtina E Re
+MD34|2026-05-17|Dukagjini|2|0|Drita
+MD34|2026-05-17|Gjilani|1|2|Llapi
+MD34|2026-05-17|Prishtina|3|3|Ferizaj
+MD34|2026-05-17|Malisheva|4|1|Drenica
+MD35|2026-05-24|Ballkani|1|2|Prishtina
+MD35|2026-05-24|Drita|0|2|Gjilani
+MD35|2026-05-24|Drenica|3|2|Ferizaj
+MD35|2026-05-24|Llapi|3|2|Malisheva
+MD35|2026-05-24|Prishtina E Re|2|3|Dukagjini
+MD36|2026-05-31|Dukagjini|1|0|Ballkani
+MD36|2026-05-31|Gjilani|3|2|Prishtina E Re
+MD36|2026-05-31|Ferizaj|2|3|Llapi
+MD36|2026-05-31|Prishtina|1|2|Drenica
+MD36|2026-05-31|Malisheva|3|2|Drita
