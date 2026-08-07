@@ -51,3 +51,17 @@
 `kos_ledgers/` — RSSSF transcriptions, Wikipedia matrix, worldfootball carrier, parser, per-season JSONs, pack builders, gate scripts.
 
 — Researcher, 2026-08-07
+
+---
+
+## AUDIT ADDENDUM — 2026-08-07 (self-audit with fresh code + independent re-fetches)
+
+A fresh audit was run against the three packs (`kos_ledgers/audit_fresh.py`, 68 checks) using only the shipped pack files and **independently re-fetched** sources (Wikipedia 2025-26 La Liga raw matrix, Wikipedia 2025-26 Kosovo Superleague raw matrix, RSSSF kosovo2022/kosovo2026 pages). Result: **ALL CHECKS PASSED** after one fix.
+
+**Defect found and fixed:** KOS 2025-26 league rows (168) carried the source label `rsssf-kosovo2026`, but those rows were carried by worldfootball (RSSSF has no 2025-26 round grid). Per the documented source-adaptation policy (SPA/EPL precedent: carrier label on carrier rows), all 168 rows now carry `wf-kos-2526`. Playoff rows correctly keep `rsssf-kosovo2026` (RSSSF prints them). Verified: the fix changed **only** labels + the pack_id note — zero data drift (field-by-field diff).
+
+**Cross-verification results:**
+- SPA 2025-26: 380/380 scores identical to the re-fetched Wikipedia matrix; goals 1024; per-club 38; table reproduction PASS (100/100 club-seasons).
+- KOS 2025-26: 179/180 identical to the re-fetched Wikipedia matrix; the single divergence is the documented MD12 award (Prishtina E Re 3-0 Drenica — required by the official table; Wikipedia prints the on-pitch 0-0).
+- KOS 2021-22..2024-25: RSSSF kosovo2022/kosovo2026 re-fetched and match the transcriptions; table reproduction PASS (50/50 club-seasons incl. appendix for 2025-26).
+- KOSCUP: slice membership 0 violations, per-edition stage counts exact, finals/semifinalists match RSSSF, advancement/aet/awarded/walkover notes verified, TEAM rows cover all 27 lower-division clubs.
