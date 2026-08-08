@@ -1,0 +1,1781 @@
+{
+  "engine": "Dixon-Coles v1.0 \u2014 Python reference",
+  "generated_at": "2026-08-08",
+  "store": "pitch-rating-full-5082-D1D2-2026-08-05.json",
+  "test_cases": [
+    {
+      "pred_idx": 1,
+      "date": "2021-08-28",
+      "league": "CZ1",
+      "home": "Banik Ostrava",
+      "away": "Mlada Boleslav",
+      "actual_hg": 1,
+      "actual_ag": 0,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.06942058,
+        "def_home": 0.05591625,
+        "att_away": 0.06340446,
+        "def_away": 0.10658813,
+        "hfa": 0.25668951,
+        "thfa_home": 0.00046748,
+        "mu": 0.29726951,
+        "seen_home": 6,
+        "seen_away": 6
+      },
+      "prediction": {
+        "lambda_home": 1.67742344,
+        "lambda_away": 1.35629637,
+        "H": 0.44434598,
+        "D": 0.25128256,
+        "A": 0.30437146
+      }
+    },
+    {
+      "pred_idx": 2,
+      "date": "2021-08-29",
+      "league": "CZ1",
+      "home": "Bohemians 1905",
+      "away": "Teplice",
+      "actual_hg": 4,
+      "actual_ag": 2,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.11008387,
+        "def_home": 0.03649342,
+        "att_away": -0.17571824,
+        "def_away": -0.01257437,
+        "hfa": 0.25676203,
+        "thfa_home": -0.00012509,
+        "mu": 0.28518389,
+        "seen_home": 6,
+        "seen_away": 6
+      },
+      "prediction": {
+        "lambda_home": 1.94347784,
+        "lambda_away": 1.07570066,
+        "H": 0.56946889,
+        "D": 0.2307299,
+        "A": 0.19980121
+      }
+    },
+    {
+      "pred_idx": 3,
+      "date": "2021-09-11",
+      "league": "CZ1",
+      "home": "Pardubice",
+      "away": "Slovan Liberec",
+      "actual_hg": 2,
+      "actual_ag": 2,
+      "actual_res": "D",
+      "model_state": {
+        "att_home": -0.01630124,
+        "def_home": 0.02570982,
+        "att_away": -0.34631132,
+        "def_away": -0.0481989,
+        "hfa": 0.25660412,
+        "thfa_home": 0.00021151,
+        "mu": 0.29613124,
+        "seen_home": 7,
+        "seen_away": 7
+      },
+      "prediction": {
+        "lambda_home": 1.79471196,
+        "lambda_away": 0.92691825,
+        "H": 0.57160498,
+        "D": 0.24315171,
+        "A": 0.18524331
+      }
+    },
+    {
+      "pred_idx": 4,
+      "date": "2021-09-11",
+      "league": "CZ1",
+      "home": "Teplice",
+      "away": "Banik Ostrava",
+      "actual_hg": 1,
+      "actual_ag": 2,
+      "actual_res": "A",
+      "model_state": {
+        "att_home": -0.13475196,
+        "def_home": -0.10283462,
+        "att_away": 0.0395268,
+        "def_away": 0.11533898,
+        "hfa": 0.25643056,
+        "thfa_home": -0.00014096,
+        "mu": 0.29868798,
+        "seen_home": 7,
+        "seen_away": 7
+      },
+      "prediction": {
+        "lambda_home": 1.35647122,
+        "lambda_away": 1.55433748,
+        "H": 0.32613141,
+        "D": 0.25966718,
+        "A": 0.41420142
+      }
+    },
+    {
+      "pred_idx": 5,
+      "date": "2021-09-11",
+      "league": "CZ1",
+      "home": "Viktoria Plzen",
+      "away": "Sparta Prague",
+      "actual_hg": 3,
+      "actual_ag": 2,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": -0.02504217,
+        "def_home": 0.17635905,
+        "att_away": 0.21975159,
+        "def_away": 0.22570343,
+        "hfa": 0.25627013,
+        "thfa_home": 0.00024471,
+        "mu": 0.29886637,
+        "seen_home": 6,
+        "seen_away": 6
+      },
+      "prediction": {
+        "lambda_home": 1.35613075,
+        "lambda_away": 1.40812483,
+        "H": 0.35362784,
+        "D": 0.26903116,
+        "A": 0.37734101
+      }
+    },
+    {
+      "pred_idx": 201,
+      "date": "2021-11-21",
+      "league": "CZ1",
+      "home": "Slovacko",
+      "away": "Sparta Prague",
+      "actual_hg": 4,
+      "actual_ag": 0,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.14343589,
+        "def_home": 0.24200423,
+        "att_away": 0.35650118,
+        "def_away": 0.22121366,
+        "hfa": 0.25343108,
+        "thfa_home": 0.00032262,
+        "mu": 0.28740084,
+        "seen_home": 16,
+        "seen_away": 16
+      },
+      "prediction": {
+        "lambda_home": 1.58943209,
+        "lambda_away": 1.49465857,
+        "H": 0.3945907,
+        "D": 0.25197447,
+        "A": 0.35343482
+      }
+    },
+    {
+      "pred_idx": 401,
+      "date": "2022-02-19",
+      "league": "CZ1",
+      "home": "Banik Ostrava",
+      "away": "Sigma Olomouc",
+      "actual_hg": 1,
+      "actual_ag": 0,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.30121651,
+        "def_home": 0.04303339,
+        "att_away": 0.0332953,
+        "def_away": 0.15662782,
+        "hfa": 0.25298781,
+        "thfa_home": 0.00044383,
+        "mu": 0.25645206,
+        "seen_home": 24,
+        "seen_away": 25
+      },
+      "prediction": {
+        "lambda_home": 1.92412704,
+        "lambda_away": 1.27981299,
+        "H": 0.5185291,
+        "D": 0.23384453,
+        "A": 0.24762637
+      }
+    },
+    {
+      "pred_idx": 601,
+      "date": "2022-04-17",
+      "league": "E0",
+      "home": "Newcastle",
+      "away": "Leicester",
+      "actual_hg": 2,
+      "actual_ag": 1,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": -0.18069955,
+        "def_home": -0.05694572,
+        "att_away": 0.06303718,
+        "def_away": -0.03316747,
+        "hfa": 0.24869696,
+        "thfa_home": -0.00032282,
+        "mu": 0.24992487,
+        "seen_home": 31,
+        "seen_away": 29
+      },
+      "prediction": {
+        "lambda_home": 1.42015628,
+        "lambda_away": 1.44760109,
+        "H": 0.36217051,
+        "D": 0.26334331,
+        "A": 0.37448618
+      }
+    },
+    {
+      "pred_idx": 801,
+      "date": "2022-08-07",
+      "league": "RPL",
+      "home": "PFC Sochi",
+      "away": "Pari Nizhny Novgorod",
+      "actual_hg": 2,
+      "actual_ag": 1,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.25159617,
+        "def_home": 0.21608712,
+        "att_away": -0.30250603,
+        "def_away": 0.12553865,
+        "hfa": 0.25599957,
+        "thfa_home": 0.00032626,
+        "mu": 0.27139029,
+        "seen_home": 34,
+        "seen_away": 36
+      },
+      "prediction": {
+        "lambda_home": 1.92278304,
+        "lambda_away": 0.78098224,
+        "H": 0.63707301,
+        "D": 0.2242298,
+        "A": 0.13869719
+      }
+    },
+    {
+      "pred_idx": 1001,
+      "date": "2022-10-08",
+      "league": "E0",
+      "home": "Newcastle",
+      "away": "Brentford",
+      "actual_hg": 5,
+      "actual_ag": 1,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": -0.05574142,
+        "def_home": 0.14623471,
+        "att_away": -0.01299041,
+        "def_away": -0.00101769,
+        "hfa": 0.25253545,
+        "thfa_home": 0.00030331,
+        "mu": 0.271375,
+        "seen_home": 46,
+        "seen_away": 46
+      },
+      "prediction": {
+        "lambda_home": 1.59917844,
+        "lambda_away": 1.11868052,
+        "H": 0.47791958,
+        "D": 0.26286982,
+        "A": 0.2592106
+      }
+    },
+    {
+      "pred_idx": 1201,
+      "date": "2022-12-31",
+      "league": "E0",
+      "home": "Fulham",
+      "away": "Southampton",
+      "actual_hg": 2,
+      "actual_ag": 1,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.14125634,
+        "def_home": -0.04422737,
+        "att_away": -0.28034884,
+        "def_away": -0.19617179,
+        "hfa": 0.25152628,
+        "thfa_home": -0.00014048,
+        "mu": 0.25885766,
+        "seen_home": 16,
+        "seen_away": 54
+      },
+      "prediction": {
+        "lambda_home": 2.33420554,
+        "lambda_away": 1.02299662,
+        "H": 0.66122471,
+        "D": 0.19299135,
+        "A": 0.14578394
+      }
+    },
+    {
+      "pred_idx": 1401,
+      "date": "2023-03-18",
+      "league": "E0",
+      "home": "Southampton",
+      "away": "Tottenham",
+      "actual_hg": 3,
+      "actual_ag": 3,
+      "actual_res": "D",
+      "model_state": {
+        "att_home": -0.40811442,
+        "def_home": -0.07029604,
+        "att_away": 0.26118173,
+        "def_away": 0.14521164,
+        "hfa": 0.25397387,
+        "thfa_home": -0.00095594,
+        "mu": 0.19661994,
+        "seen_home": 65,
+        "seen_away": 65
+      },
+      "prediction": {
+        "lambda_home": 0.90150635,
+        "lambda_away": 1.69570353,
+        "H": 0.19193287,
+        "D": 0.25365849,
+        "A": 0.55440864
+      }
+    },
+    {
+      "pred_idx": 1601,
+      "date": "2023-05-07",
+      "league": "RPL",
+      "home": "Pari Nizhny Novgorod",
+      "away": "Ural Yekaterinburg",
+      "actual_hg": 0,
+      "actual_ag": 0,
+      "actual_res": "D",
+      "model_state": {
+        "att_home": -0.32023637,
+        "def_home": -0.03943534,
+        "att_away": -0.1204321,
+        "def_away": 0.16234579,
+        "hfa": 0.2525688,
+        "thfa_home": -0.00175277,
+        "mu": 0.26389318,
+        "seen_home": 66,
+        "seen_away": 69
+      },
+      "prediction": {
+        "lambda_home": 1.03264869,
+        "lambda_away": 1.20069003,
+        "H": 0.30636607,
+        "D": 0.30332032,
+        "A": 0.39031361
+      }
+    },
+    {
+      "pred_idx": 1801,
+      "date": "2023-08-20",
+      "league": "CZ1",
+      "home": "Hradec Kralove",
+      "away": "Zlin",
+      "actual_hg": 2,
+      "actual_ag": 0,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.02978982,
+        "def_home": 0.1932782,
+        "att_away": -0.10539911,
+        "def_away": 0.0930999,
+        "hfa": 0.2440412,
+        "thfa_home": -0.00131443,
+        "mu": 0.25725846,
+        "seen_home": 81,
+        "seen_away": 82
+      },
+      "prediction": {
+        "lambda_home": 1.54755328,
+        "lambda_away": 0.95942719,
+        "H": 0.50283786,
+        "D": 0.27013354,
+        "A": 0.2270286
+      }
+    },
+    {
+      "pred_idx": 2001,
+      "date": "2023-10-22",
+      "league": "CZ1",
+      "home": "Teplice",
+      "away": "Banik Ostrava",
+      "actual_hg": 0,
+      "actual_ag": 1,
+      "actual_res": "A",
+      "model_state": {
+        "att_home": -0.0860065,
+        "def_home": 0.13383168,
+        "att_away": 0.20810195,
+        "def_away": 0.32101347,
+        "hfa": 0.23950982,
+        "thfa_home": 5.331e-05,
+        "mu": 0.3151274,
+        "seen_home": 91,
+        "seen_away": 89
+      },
+      "prediction": {
+        "lambda_home": 1.15913098,
+        "lambda_away": 1.47609144,
+        "H": 0.29013744,
+        "D": 0.27270456,
+        "A": 0.437158
+      }
+    },
+    {
+      "pred_idx": 2201,
+      "date": "2023-12-17",
+      "league": "CZ1",
+      "home": "Sparta Prague",
+      "away": "Teplice",
+      "actual_hg": 2,
+      "actual_ag": 1,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.53354341,
+        "def_home": 0.60308017,
+        "att_away": -0.13190367,
+        "def_away": 0.189104,
+        "hfa": 0.23620994,
+        "thfa_home": 0.00139714,
+        "mu": 0.26074116,
+        "seen_home": 100,
+        "seen_away": 97
+      },
+      "prediction": {
+        "lambda_home": 2.32283321,
+        "lambda_away": 0.6223562,
+        "H": 0.75210646,
+        "D": 0.17006339,
+        "A": 0.07783015
+      }
+    },
+    {
+      "pred_idx": 2401,
+      "date": "2024-03-30",
+      "league": "E0",
+      "home": "Bournemouth",
+      "away": "Everton",
+      "actual_hg": 2,
+      "actual_ag": 1,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": -0.05722366,
+        "def_home": -0.09325176,
+        "att_away": -0.31138218,
+        "def_away": 0.11799666,
+        "hfa": 0.24513466,
+        "thfa_home": -0.00049159,
+        "mu": 0.32757782,
+        "seen_home": 66,
+        "seen_away": 104
+      },
+      "prediction": {
+        "lambda_home": 1.48735677,
+        "lambda_away": 1.11566138,
+        "H": 0.44998376,
+        "D": 0.27308862,
+        "A": 0.27692762
+      }
+    },
+    {
+      "pred_idx": 2601,
+      "date": "2024-05-11",
+      "league": "RPL",
+      "home": "Spartak Moscow",
+      "away": "FC Krasnodar",
+      "actual_hg": 1,
+      "actual_ag": 0,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.16275535,
+        "def_home": 0.3136257,
+        "att_away": 0.17500771,
+        "def_away": 0.20610114,
+        "hfa": 0.25349222,
+        "thfa_home": 0.00183342,
+        "mu": 0.20660972,
+        "seen_home": 113,
+        "seen_away": 110
+      },
+      "prediction": {
+        "lambda_home": 1.51981645,
+        "lambda_away": 1.07035646,
+        "H": 0.46895447,
+        "D": 0.27123288,
+        "A": 0.25981266
+      }
+    },
+    {
+      "pred_idx": 2801,
+      "date": "2024-08-31",
+      "league": "CZ1",
+      "home": "Slovacko",
+      "away": "Jablonec",
+      "actual_hg": 0,
+      "actual_ag": 0,
+      "actual_res": "D",
+      "model_state": {
+        "att_home": 0.04589343,
+        "def_home": 0.18259341,
+        "att_away": 0.04212589,
+        "def_away": 0.26490827,
+        "hfa": 0.23751699,
+        "thfa_home": 0.00102217,
+        "mu": 0.23547656,
+        "seen_home": 121,
+        "seen_away": 121
+      },
+      "prediction": {
+        "lambda_home": 1.29046276,
+        "lambda_away": 1.0996688,
+        "H": 0.40062765,
+        "D": 0.29131274,
+        "A": 0.30805961
+      }
+    },
+    {
+      "pred_idx": 3001,
+      "date": "2024-11-02",
+      "league": "CZ1",
+      "home": "Sparta Prague",
+      "away": "Banik Ostrava",
+      "actual_hg": 1,
+      "actual_ag": 3,
+      "actual_res": "A",
+      "model_state": {
+        "att_home": 0.54483694,
+        "def_home": 0.54204254,
+        "att_away": 0.23799043,
+        "def_away": 0.23193341,
+        "hfa": 0.22742555,
+        "thfa_home": 0.00034778,
+        "mu": 0.26415417,
+        "seen_home": 133,
+        "seen_away": 127
+      },
+      "prediction": {
+        "lambda_home": 2.2363186,
+        "lambda_away": 0.9608875,
+        "H": 0.65696087,
+        "D": 0.19936308,
+        "A": 0.14367605
+      }
+    },
+    {
+      "pred_idx": 3201,
+      "date": "2025-01-01",
+      "league": "E0",
+      "home": "Brentford",
+      "away": "Arsenal",
+      "actual_hg": 1,
+      "actual_ag": 3,
+      "actual_res": "A",
+      "model_state": {
+        "att_home": 0.09545494,
+        "def_home": -0.0188352,
+        "att_away": 0.36402185,
+        "def_away": 0.55237075,
+        "hfa": 0.23410254,
+        "thfa_home": -0.00018113,
+        "mu": 0.28405912,
+        "seen_home": 132,
+        "seen_away": 132
+      },
+      "prediction": {
+        "lambda_home": 1.0629677,
+        "lambda_away": 1.94822006,
+        "H": 0.19641813,
+        "D": 0.2300676,
+        "A": 0.57351427
+      }
+    },
+    {
+      "pred_idx": 3401,
+      "date": "2025-03-30",
+      "league": "CZ1",
+      "home": "Karvina",
+      "away": "Mlada Boleslav",
+      "actual_hg": 3,
+      "actual_ag": 1,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": -0.04863172,
+        "def_home": -0.01114727,
+        "att_away": 0.15401737,
+        "def_away": 0.17092252,
+        "hfa": 0.22775905,
+        "thfa_home": -3.283e-05,
+        "mu": 0.21416038,
+        "seen_home": 104,
+        "seen_away": 139
+      },
+      "prediction": {
+        "lambda_home": 1.24898642,
+        "lambda_away": 1.46129791,
+        "H": 0.31599828,
+        "D": 0.27049993,
+        "A": 0.41350179
+      }
+    },
+    {
+      "pred_idx": 3601,
+      "date": "2025-05-18",
+      "league": "CZ1",
+      "home": "Sigma Olomouc",
+      "away": "Viktoria Plzen",
+      "actual_hg": 1,
+      "actual_ag": 2,
+      "actual_res": "A",
+      "model_state": {
+        "att_home": 0.27524446,
+        "def_home": 0.15510784,
+        "att_away": 0.54611731,
+        "def_away": 0.3840196,
+        "hfa": 0.22349839,
+        "thfa_home": -0.00181497,
+        "mu": 0.25076091,
+        "seen_home": 150,
+        "seen_away": 150
+      },
+      "prediction": {
+        "lambda_home": 1.43859824,
+        "lambda_away": 1.89984134,
+        "H": 0.28688916,
+        "D": 0.23439164,
+        "A": 0.47871919
+      }
+    },
+    {
+      "pred_idx": 3801,
+      "date": "2025-08-31",
+      "league": "E0",
+      "home": "Brighton",
+      "away": "Man City",
+      "actual_hg": 2,
+      "actual_ag": 1,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": 0.16266753,
+        "def_home": -0.00525945,
+        "att_away": 0.29099533,
+        "def_away": 0.42457494,
+        "hfa": 0.22464415,
+        "thfa_home": -0.00130484,
+        "mu": 0.25076018,
+        "seen_home": 154,
+        "seen_away": 154
+      },
+      "prediction": {
+        "lambda_home": 1.23638536,
+        "lambda_away": 1.72808691,
+        "H": 0.26735601,
+        "D": 0.24992267,
+        "A": 0.48272133
+      }
+    },
+    {
+      "pred_idx": 4001,
+      "date": "2025-11-01",
+      "league": "E0",
+      "home": "Fulham",
+      "away": "Wolves",
+      "actual_hg": 3,
+      "actual_ag": 0,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": -0.03820174,
+        "def_home": 0.05167192,
+        "att_away": -0.15921009,
+        "def_away": -0.11852698,
+        "hfa": 0.22558271,
+        "thfa_home": -0.00102962,
+        "mu": 0.2462178,
+        "seen_home": 123,
+        "seen_away": 161
+      },
+      "prediction": {
+        "lambda_home": 1.73515395,
+        "lambda_away": 1.03596751,
+        "H": 0.53089082,
+        "D": 0.25048777,
+        "A": 0.2186214
+      }
+    },
+    {
+      "pred_idx": 4201,
+      "date": "2026-01-04",
+      "league": "E0",
+      "home": "Man City",
+      "away": "Chelsea",
+      "actual_hg": 1,
+      "actual_ag": 1,
+      "actual_res": "D",
+      "model_state": {
+        "att_home": 0.46045102,
+        "def_home": 0.45304303,
+        "att_away": 0.13532983,
+        "def_away": 0.27683795,
+        "hfa": 0.2259212,
+        "thfa_home": 0.00181522,
+        "mu": 0.25806305,
+        "seen_home": 171,
+        "seen_away": 171
+      },
+      "prediction": {
+        "lambda_home": 1.95308961,
+        "lambda_away": 0.94209406,
+        "H": 0.6035352,
+        "D": 0.22677821,
+        "A": 0.16968659
+      }
+    },
+    {
+      "pred_idx": 4401,
+      "date": "2026-03-21",
+      "league": "E0",
+      "home": "Everton",
+      "away": "Chelsea",
+      "actual_hg": 3,
+      "actual_ag": 0,
+      "actual_res": "H",
+      "model_state": {
+        "att_home": -0.17237522,
+        "def_home": 0.31015023,
+        "att_away": 0.21360903,
+        "def_away": 0.25341061,
+        "hfa": 0.22101448,
+        "thfa_home": -0.00014777,
+        "mu": 0.23015009,
+        "seen_home": 182,
+        "seen_away": 182
+      },
+      "prediction": {
+        "lambda_home": 1.02555197,
+        "lambda_away": 1.14294572,
+        "H": 0.3156645,
+        "D": 0.30925344,
+        "A": 0.37508206
+      }
+    },
+    {
+      "pred_idx": 4601,
+      "date": "2026-05-17",
+      "league": "RPL",
+      "home": "FC Rostov",
+      "away": "Zenit St Petersburg",
+      "actual_hg": 0,
+      "actual_ag": 1,
+      "actual_res": "A",
+      "model_state": {
+        "att_home": -0.14540213,
+        "def_home": 0.24709238,
+        "att_away": 0.26220682,
+        "def_away": 0.73342325,
+        "hfa": 0.25210256,
+        "thfa_home": -0.00020889,
+        "mu": 0.15502243,
+        "seen_home": 193,
+        "seen_away": 195
+      },
+      "prediction": {
+        "lambda_home": 0.62381011,
+        "lambda_away": 1.18546709,
+        "H": 0.18741114,
+        "D": 0.32373448,
+        "A": 0.48885437
+      }
+    }
+  ],
+  "final_state": {
+    "teams": {
+      "FC Rostov": {
+        "att": -0.08230503,
+        "def": 0.19623985,
+        "thfa": -0.00025247,
+        "seen": 196
+      },
+      "Dynamo Moscow": {
+        "att": 0.25919957,
+        "def": 0.26356698,
+        "thfa": -0.00045957,
+        "seen": 202
+      },
+      "Hradec Kralove": {
+        "att": 0.22548983,
+        "def": 0.48015379,
+        "thfa": 5.012e-05,
+        "seen": 190
+      },
+      "Bohemians 1905": {
+        "att": -0.07493414,
+        "def": 0.33303533,
+        "thfa": -0.00247454,
+        "seen": 191
+      },
+      "Jablonec": {
+        "att": 0.19464138,
+        "def": 0.18720693,
+        "thfa": 0.00195308,
+        "seen": 195
+      },
+      "Banik Ostrava": {
+        "att": 0.17843457,
+        "def": 0.2658431,
+        "thfa": -0.00040372,
+        "seen": 194
+      },
+      "Pardubice": {
+        "att": 0.06605263,
+        "def": 0.16966499,
+        "thfa": -0.00044742,
+        "seen": 187
+      },
+      "Karvina": {
+        "att": 0.2930132,
+        "def": -0.02747633,
+        "thfa": -0.00084024,
+        "seen": 150
+      },
+      "Sparta Prague": {
+        "att": 0.56593342,
+        "def": 0.56511939,
+        "thfa": 0.0001508,
+        "seen": 198
+      },
+      "Sigma Olomouc": {
+        "att": 0.2872004,
+        "def": 0.26686357,
+        "thfa": -0.00142542,
+        "seen": 187
+      },
+      "FC Khimki": {
+        "att": -0.19576427,
+        "def": -0.25014644,
+        "thfa": 0.00046425,
+        "seen": 109
+      },
+      "Zenit St Petersburg": {
+        "att": 0.36473774,
+        "def": 0.77046045,
+        "thfa": 0.00227142,
+        "seen": 199
+      },
+      "Lokomotiv Moscow": {
+        "att": 0.20000312,
+        "def": 0.06316898,
+        "thfa": -0.00057074,
+        "seen": 192
+      },
+      "Arsenal Tula": {
+        "att": -0.23549973,
+        "def": -0.17325897,
+        "thfa": -0.00076269,
+        "seen": 37
+      },
+      "Rubin Kazan": {
+        "att": -0.2060703,
+        "def": 0.27712785,
+        "thfa": 0.00020877,
+        "seen": 146
+      },
+      "Spartak Moscow": {
+        "att": 0.31018017,
+        "def": 0.30322203,
+        "thfa": 0.00240578,
+        "seen": 205
+      },
+      "Ceske Budejovice": {
+        "att": -0.3692934,
+        "def": -0.30796674,
+        "thfa": -0.00057666,
+        "seen": 150
+      },
+      "Teplice": {
+        "att": 0.06163692,
+        "def": 0.3707198,
+        "thfa": 0.00039566,
+        "seen": 190
+      },
+      "Slovan Liberec": {
+        "att": 0.13421863,
+        "def": 0.41700487,
+        "thfa": 0.000737,
+        "seen": 177
+      },
+      "Slovacko": {
+        "att": -0.03192934,
+        "def": 0.13881199,
+        "thfa": 0.00050883,
+        "seen": 192
+      },
+      "Viktoria Plzen": {
+        "att": 0.45212009,
+        "def": 0.47373323,
+        "thfa": 0.00150882,
+        "seen": 190
+      },
+      "Mlada Boleslav": {
+        "att": 0.16158457,
+        "def": 0.2621919,
+        "thfa": -0.00062756,
+        "seen": 188
+      },
+      "Zlin": {
+        "att": 0.06729482,
+        "def": -0.05418319,
+        "thfa": -0.00057166,
+        "seen": 157
+      },
+      "Slavia Prague": {
+        "att": 0.6778826,
+        "def": 0.68422549,
+        "thfa": 0.00403888,
+        "seen": 192
+      },
+      "CSKA Moscow": {
+        "att": 0.12796026,
+        "def": 0.29776659,
+        "thfa": 0.00172545,
+        "seen": 207
+      },
+      "FC Ufa": {
+        "att": -0.23602307,
+        "def": 0.04143806,
+        "thfa": -0.00055236,
+        "seen": 35
+      },
+      "Krylia Sovetov Samara": {
+        "att": -0.02105116,
+        "def": -0.04719208,
+        "thfa": 0.0006217,
+        "seen": 187
+      },
+      "Akhmat Grozny": {
+        "att": -0.07620978,
+        "def": 0.09172273,
+        "thfa": -0.00047148,
+        "seen": 188
+      },
+      "Ural Yekaterinburg": {
+        "att": -0.28295219,
+        "def": -0.01175028,
+        "thfa": -0.0010962,
+        "seen": 123
+      },
+      "FC Krasnodar": {
+        "att": 0.4768754,
+        "def": 0.45699964,
+        "thfa": 0.00126459,
+        "seen": 197
+      },
+      "Pari Nizhny Novgorod": {
+        "att": -0.26937878,
+        "def": -0.14872391,
+        "thfa": -0.0016473,
+        "seen": 185
+      },
+      "PFC Sochi": {
+        "att": -0.0669877,
+        "def": -0.19513214,
+        "thfa": -0.00060294,
+        "seen": 143
+      },
+      "Brentford": {
+        "att": 0.09698999,
+        "def": 0.12612389,
+        "thfa": -0.00047968,
+        "seen": 190
+      },
+      "Arsenal": {
+        "att": 0.27662371,
+        "def": 0.60780961,
+        "thfa": 0.00112882,
+        "seen": 190
+      },
+      "Burnley": {
+        "att": -0.26046508,
+        "def": -0.22271929,
+        "thfa": -0.00227306,
+        "seen": 114
+      },
+      "Brighton": {
+        "att": 0.05825384,
+        "def": 0.18707171,
+        "thfa": -0.00113889,
+        "seen": 190
+      },
+      "Chelsea": {
+        "att": 0.05302493,
+        "def": 0.08006634,
+        "thfa": -0.00162087,
+        "seen": 190
+      },
+      "Crystal Palace": {
+        "att": -0.12716748,
+        "def": 0.07271017,
+        "thfa": -0.00088594,
+        "seen": 190
+      },
+      "Everton": {
+        "att": -0.06378241,
+        "def": 0.14874883,
+        "thfa": -0.00015254,
+        "seen": 190
+      },
+      "Southampton": {
+        "att": -0.47332576,
+        "def": -0.30683375,
+        "thfa": -0.00294081,
+        "seen": 114
+      },
+      "Leicester": {
+        "att": -0.36821684,
+        "def": -0.19129879,
+        "thfa": -0.00174526,
+        "seen": 114
+      },
+      "Wolves": {
+        "att": -0.34961253,
+        "def": -0.08474667,
+        "thfa": -0.00181742,
+        "seen": 190
+      },
+      "Man United": {
+        "att": 0.28640002,
+        "def": 0.17768405,
+        "thfa": 0.00127719,
+        "seen": 190
+      },
+      "Leeds": {
+        "att": -0.01084602,
+        "def": 0.05049143,
+        "thfa": -0.00047396,
+        "seen": 114
+      },
+      "Norwich": {
+        "att": -0.52138351,
+        "def": -0.42510146,
+        "thfa": -0.00216824,
+        "seen": 38
+      },
+      "Liverpool": {
+        "att": 0.24894715,
+        "def": 0.09260094,
+        "thfa": 0.00083463,
+        "seen": 190
+      },
+      "Watford": {
+        "att": -0.3779975,
+        "def": -0.32437921,
+        "thfa": -0.00270926,
+        "seen": 38
+      },
+      "Aston Villa": {
+        "att": 0.14750249,
+        "def": 0.11740301,
+        "thfa": 0.00124676,
+        "seen": 190
+      },
+      "Newcastle": {
+        "att": 0.13950525,
+        "def": 0.06110655,
+        "thfa": 0.00178594,
+        "seen": 190
+      },
+      "West Ham": {
+        "att": -0.04021912,
+        "def": 0.01530605,
+        "thfa": -0.00111742,
+        "seen": 190
+      },
+      "Tottenham": {
+        "att": -0.05659742,
+        "def": -0.05040596,
+        "thfa": -0.00213332,
+        "seen": 190
+      },
+      "Man City": {
+        "att": 0.37045109,
+        "def": 0.44474926,
+        "thfa": 0.00180456,
+        "seen": 190
+      },
+      "Vysehrad": {
+        "att": -0.05581018,
+        "def": -0.05481211,
+        "thfa": 0.0,
+        "seen": 1
+      },
+      "Benesov": {
+        "att": -0.08401054,
+        "def": 0.00561407,
+        "thfa": -0.00017839,
+        "seen": 1
+      },
+      "Hlucin": {
+        "att": -0.11934162,
+        "def": 0.02356027,
+        "thfa": 2.745e-05,
+        "seen": 6
+      },
+      "Hostoun": {
+        "att": -0.08495606,
+        "def": 0.02278288,
+        "thfa": -0.00014152,
+        "seen": 2
+      },
+      "Sedlcany": {
+        "att": -0.07395735,
+        "def": -0.20961504,
+        "thfa": -0.00064526,
+        "seen": 1
+      },
+      "Slavicin": {
+        "att": -0.03681534,
+        "def": -0.16692064,
+        "thfa": -0.00046359,
+        "seen": 1
+      },
+      "Zbuzany": {
+        "att": 0.00826837,
+        "def": -0.01645121,
+        "thfa": -0.00011201,
+        "seen": 2
+      },
+      "Sokolov": {
+        "att": -0.07900861,
+        "def": -0.21055089,
+        "thfa": -0.00065888,
+        "seen": 1
+      },
+      "Unicov": {
+        "att": -0.0469977,
+        "def": -0.10825127,
+        "thfa": -0.00035404,
+        "seen": 4
+      },
+      "Blansko": {
+        "att": -0.04163196,
+        "def": -0.11786889,
+        "thfa": -0.00036294,
+        "seen": 1
+      },
+      "Brezova": {
+        "att": -0.07285778,
+        "def": -0.03889972,
+        "thfa": -0.0002543,
+        "seen": 1
+      },
+      "Jihlava": {
+        "att": -0.22154938,
+        "def": 0.09621986,
+        "thfa": -6.284e-05,
+        "seen": 5
+      },
+      "Opava": {
+        "att": -0.14089793,
+        "def": -0.0901113,
+        "thfa": -0.00039548,
+        "seen": 4
+      },
+      "Pribram": {
+        "att": -0.18081969,
+        "def": -0.08175488,
+        "thfa": -0.00064231,
+        "seen": 5
+      },
+      "Vlasim": {
+        "att": -0.0814388,
+        "def": -0.16258691,
+        "thfa": -0.00013231,
+        "seen": 4
+      },
+      "Chrudim": {
+        "att": -0.18191813,
+        "def": 0.02602323,
+        "thfa": 7.368e-05,
+        "seen": 4
+      },
+      "Lisen": {
+        "att": -0.12054565,
+        "def": -0.06669784,
+        "thfa": -0.00042667,
+        "seen": 3
+      },
+      "Loko Praha": {
+        "att": -0.02300193,
+        "def": -0.01731785,
+        "thfa": -9.175e-05,
+        "seen": 2
+      },
+      "Prepere": {
+        "att": -0.0718564,
+        "def": 0.00339724,
+        "thfa": -0.00015578,
+        "seen": 1
+      },
+      "Prostejov": {
+        "att": -0.08654468,
+        "def": -0.25441983,
+        "thfa": -0.00041382,
+        "seen": 3
+      },
+      "Trinec": {
+        "att": -0.00603752,
+        "def": -0.16675792,
+        "thfa": -0.00038061,
+        "seen": 4
+      },
+      "Velvary": {
+        "att": -0.16465675,
+        "def": -0.07617344,
+        "thfa": -0.00054924,
+        "seen": 5
+      },
+      "Zapy": {
+        "att": -0.09088438,
+        "def": -0.21183627,
+        "thfa": -0.00069076,
+        "seen": 4
+      },
+      "Chaika Peschanokopskoe": {
+        "att": -0.0462399,
+        "def": 0.0550756,
+        "thfa": 2.011e-05,
+        "seen": 1
+      },
+      "Dinamo Barnaul": {
+        "att": -0.07488191,
+        "def": 0.01088737,
+        "thfa": -0.00014562,
+        "seen": 1
+      },
+      "Dinamo Bryansk": {
+        "att": -0.04411755,
+        "def": -0.2035994,
+        "thfa": -0.00056367,
+        "seen": 1
+      },
+      "Dinamo Stavropol": {
+        "att": -0.06429032,
+        "def": -0.20557082,
+        "thfa": -0.00061406,
+        "seen": 1
+      },
+      "FC Saransk": {
+        "att": -0.04160303,
+        "def": 0.00743804,
+        "thfa": -7.774e-05,
+        "seen": 1
+      },
+      "Legion-Dinamo Makhachkala": {
+        "att": -0.03792316,
+        "def": 0.01305969,
+        "thfa": -5.658e-05,
+        "seen": 1
+      },
+      "Leningradets St-Peterburg": {
+        "att": -0.06509859,
+        "def": -0.02573099,
+        "thfa": -0.00020668,
+        "seen": 1
+      },
+      "Qayrat Moskva": {
+        "att": -0.07927514,
+        "def": -0.08018322,
+        "thfa": -0.00036284,
+        "seen": 1
+      },
+      "Znamya Noginsk": {
+        "att": -0.07213829,
+        "def": -0.3831709,
+        "thfa": -0.00103604,
+        "seen": 1
+      },
+      "Torpedo Vladimir": {
+        "att": -0.07835365,
+        "def": -0.04683815,
+        "thfa": -0.00028487,
+        "seen": 1
+      },
+      "Zenit Izhevsk": {
+        "att": -0.06398661,
+        "def": -0.11938838,
+        "thfa": -0.00041726,
+        "seen": 1
+      },
+      "Dukla Prague": {
+        "att": -0.27428123,
+        "def": 0.12849792,
+        "thfa": -0.00142551,
+        "seen": 81
+      },
+      "Vyskov": {
+        "att": -0.35999363,
+        "def": 0.24635192,
+        "thfa": -0.0002611,
+        "seen": 12
+      },
+      "FC Orenburg": {
+        "att": -0.24456513,
+        "def": -0.08048677,
+        "thfa": 0.0013206,
+        "seen": 156
+      },
+      "Metallurg Lipetsk": {
+        "att": -0.05528265,
+        "def": -0.02687219,
+        "thfa": -0.00018694,
+        "seen": 1
+      },
+      "Alania Vladikavkaz": {
+        "att": -0.04182508,
+        "def": 0.0441318,
+        "thfa": 0.00022674,
+        "seen": 4
+      },
+      "Baltika Kaliningrad": {
+        "att": -0.01481156,
+        "def": 0.37586524,
+        "thfa": 0.00018712,
+        "seen": 85
+      },
+      "Fakel Voronezh": {
+        "att": -0.6008992,
+        "def": 0.09285868,
+        "thfa": -0.00080692,
+        "seen": 113
+      },
+      "KAMAZ": {
+        "att": -0.09678502,
+        "def": -0.10447114,
+        "thfa": 6.48e-06,
+        "seen": 3
+      },
+      "Kuban Krasnodar": {
+        "att": 0.05672658,
+        "def": -0.14055607,
+        "thfa": 0.00031886,
+        "seen": 2
+      },
+      "Rotor Volgograd": {
+        "att": -0.13146657,
+        "def": 0.01995917,
+        "thfa": -0.00031752,
+        "seen": 4
+      },
+      "Torpedo Moscow": {
+        "att": -0.35640961,
+        "def": -0.24413112,
+        "thfa": -0.00180486,
+        "seen": 39
+      },
+      "Veles Moskva": {
+        "att": -0.04183888,
+        "def": 0.01492759,
+        "thfa": -6.124e-05,
+        "seen": 1
+      },
+      "Yenisey Krasnoyarsk": {
+        "att": -0.03486113,
+        "def": 0.0346545,
+        "thfa": 3.529e-05,
+        "seen": 6
+      },
+      "Varnsdorf": {
+        "att": -0.11179541,
+        "def": -0.32247614,
+        "thfa": -0.00010226,
+        "seen": 3
+      },
+      "SKA Khabarovsk": {
+        "att": -0.09542818,
+        "def": -0.03171687,
+        "thfa": -2.97e-05,
+        "seen": 4
+      },
+      "Zbrojovka Brno": {
+        "att": -0.17083215,
+        "def": -0.06854962,
+        "thfa": -0.00134607,
+        "seen": 42
+      },
+      "Bournemouth": {
+        "att": 0.13779011,
+        "def": 0.20205493,
+        "thfa": 0.00026876,
+        "seen": 152
+      },
+      "Fulham": {
+        "att": -0.07757183,
+        "def": 0.1540923,
+        "thfa": -0.00054953,
+        "seen": 152
+      },
+      "Nott'm Forest": {
+        "att": 0.07953971,
+        "def": 0.1910421,
+        "thfa": 0.00089007,
+        "seen": 152
+      },
+      "Motorlet Praha": {
+        "att": -0.11176682,
+        "def": -0.10911927,
+        "thfa": -0.00050315,
+        "seen": 2
+      },
+      "Rokycany": {
+        "att": -0.09423323,
+        "def": -0.35378853,
+        "thfa": -0.00101996,
+        "seen": 2
+      },
+      "Rosice": {
+        "att": -0.07638865,
+        "def": -0.10906066,
+        "thfa": -0.00042198,
+        "seen": 1
+      },
+      "Start Brno": {
+        "att": -0.07743002,
+        "def": -0.08110614,
+        "thfa": -0.00036074,
+        "seen": 1
+      },
+      "Zizkov": {
+        "att": -0.15783732,
+        "def": 0.02199651,
+        "thfa": -0.00030937,
+        "seen": 3
+      },
+      "Caslav": {
+        "att": -0.0594434,
+        "def": -0.43319367,
+        "thfa": -0.00112098,
+        "seen": 1
+      },
+      "Chomutov": {
+        "att": -0.07920041,
+        "def": -0.16632925,
+        "thfa": -0.00055869,
+        "seen": 1
+      },
+      "Kromeriz": {
+        "att": 0.06076728,
+        "def": 0.01972973,
+        "thfa": 0.00017919,
+        "seen": 5
+      },
+      "Usti nad Labem": {
+        "att": 0.00209586,
+        "def": -0.25223171,
+        "thfa": -0.00044936,
+        "seen": 4
+      },
+      "Chlumec nad Cidlinou": {
+        "att": -0.05914091,
+        "def": -0.10564474,
+        "thfa": -0.00037496,
+        "seen": 1
+      },
+      "Domazlice": {
+        "att": -0.09534124,
+        "def": -0.28819709,
+        "thfa": -0.00087454,
+        "seen": 4
+      },
+      "Taborsko": {
+        "att": -0.28055256,
+        "def": -0.25299751,
+        "thfa": -0.00117227,
+        "seen": 8
+      },
+      "Frydek-Mistek": {
+        "att": -0.0848595,
+        "def": -0.1934525,
+        "thfa": -0.00063403,
+        "seen": 2
+      },
+      "Volga Ulyanovsk": {
+        "att": -0.04268005,
+        "def": -0.04527339,
+        "thfa": -0.00020013,
+        "seen": 1
+      },
+      "Akron Tolyatti": {
+        "att": -0.07635294,
+        "def": -0.28001272,
+        "thfa": -0.00206571,
+        "seen": 85
+      },
+      "Zvezda Sankt-Peterburg": {
+        "att": -0.06979974,
+        "def": -0.04253528,
+        "thfa": -0.00025561,
+        "seen": 1
+      },
+      "Rodina Moscow": {
+        "att": -0.04034623,
+        "def": -0.20043306,
+        "thfa": -0.0006055,
+        "seen": 5
+      },
+      "Luton": {
+        "att": -0.05945118,
+        "def": -0.34915329,
+        "thfa": -0.00059777,
+        "seen": 38
+      },
+      "Sheffield United": {
+        "att": -0.30791709,
+        "def": -0.49745322,
+        "thfa": -0.00248261,
+        "seen": 38
+      },
+      "Velke Hamry": {
+        "att": -0.10428134,
+        "def": -0.01877694,
+        "thfa": -0.0002801,
+        "seen": 2
+      },
+      "Banik Most-Sous": {
+        "att": -0.06299522,
+        "def": -0.08648694,
+        "thfa": -0.00034014,
+        "seen": 1
+      },
+      "Brozany": {
+        "att": 0.01793788,
+        "def": -0.15962392,
+        "thfa": -0.00032295,
+        "seen": 3
+      },
+      "Hlubina": {
+        "att": -0.04879829,
+        "def": -0.29640258,
+        "thfa": -0.00078549,
+        "seen": 1
+      },
+      "Lanznot": {
+        "att": -0.06587767,
+        "def": -0.15976713,
+        "thfa": -0.00051361,
+        "seen": 2
+      },
+      "Admira Praha": {
+        "att": -0.06891974,
+        "def": -0.2101831,
+        "thfa": -0.00063563,
+        "seen": 2
+      },
+      "Sobeslav": {
+        "att": 0.02522766,
+        "def": -0.11629838,
+        "thfa": -0.00020723,
+        "seen": 1
+      },
+      "Kladno": {
+        "att": -0.06708486,
+        "def": -0.01993713,
+        "thfa": -0.00019802,
+        "seen": 1
+      },
+      "Kolin": {
+        "att": -0.01889228,
+        "def": -0.24659139,
+        "thfa": -0.0006041,
+        "seen": 1
+      },
+      "Marianske Lazne": {
+        "att": -0.05299576,
+        "def": -0.34086722,
+        "thfa": -0.00089622,
+        "seen": 1
+      },
+      "Volgar Astrakhan": {
+        "att": -0.01640128,
+        "def": -0.03794359,
+        "thfa": -0.00012366,
+        "seen": 1
+      },
+      "Dynamo Makhachkala": {
+        "att": -0.20860522,
+        "def": 0.24018315,
+        "thfa": 0.00037865,
+        "seen": 82
+      },
+      "Ipswich": {
+        "att": -0.26699959,
+        "def": -0.31957815,
+        "thfa": -0.00236412,
+        "seen": 38
+      },
+      "Aritma": {
+        "att": -0.0583469,
+        "def": -0.08011916,
+        "thfa": -0.00031507,
+        "seen": 1
+      },
+      "Kurim": {
+        "att": -0.01586535,
+        "def": -0.07701841,
+        "thfa": -0.00021135,
+        "seen": 1
+      },
+      "Milin": {
+        "att": -0.07045483,
+        "def": -0.03642851,
+        "thfa": -0.00024321,
+        "seen": 1
+      },
+      "Povltavska": {
+        "att": -0.01563232,
+        "def": -0.06726196,
+        "thfa": -0.00018862,
+        "seen": 1
+      },
+      "Usti nad Orlici": {
+        "att": -0.0694073,
+        "def": -0.12475482,
+        "thfa": -0.00044181,
+        "seen": 1
+      },
+      "Bzenec": {
+        "att": -0.06545922,
+        "def": -0.19572595,
+        "thfa": -0.00059432,
+        "seen": 1
+      },
+      "Horovice": {
+        "att": -0.07055709,
+        "def": -0.20712663,
+        "thfa": -0.00063186,
+        "seen": 1
+      },
+      "Police nad Metuji": {
+        "att": -0.01923504,
+        "def": -0.06766277,
+        "thfa": -0.00019773,
+        "seen": 1
+      },
+      "Benatky nad Jizerou": {
+        "att": 0.01431845,
+        "def": -0.06849533,
+        "thfa": -0.00012328,
+        "seen": 1
+      },
+      "Uhersky Brod": {
+        "att": -0.0454737,
+        "def": 0.02045577,
+        "thfa": -5.693e-05,
+        "seen": 1
+      },
+      "Shinnik Yaroslavl": {
+        "att": -0.08503046,
+        "def": 0.0068078,
+        "thfa": -0.00017799,
+        "seen": 1
+      },
+      "Tyumen": {
+        "att": 0.08428202,
+        "def": -0.06124127,
+        "thfa": 5.243e-05,
+        "seen": 1
+      },
+      "Sunderland": {
+        "att": -0.11374089,
+        "def": 0.11311867,
+        "thfa": 0.00020134,
+        "seen": 38
+      },
+      "Ceska Lipa": {
+        "att": -0.02585099,
+        "def": -0.0450332,
+        "thfa": -0.00016129,
+        "seen": 1
+      },
+      "Bohumin": {
+        "att": -0.02452792,
+        "def": -0.20558842,
+        "thfa": -0.00052362,
+        "seen": 1
+      },
+      "Brandys nad Labem": {
+        "att": -0.05268856,
+        "def": -0.19882353,
+        "thfa": -0.00057231,
+        "seen": 1
+      },
+      "Hodonin": {
+        "att": -0.06499409,
+        "def": -0.03959388,
+        "thfa": -0.00023799,
+        "seen": 1
+      },
+      "Hranice": {
+        "att": -0.06166256,
+        "def": -0.16619697,
+        "thfa": -0.00051849,
+        "seen": 1
+      },
+      "Horni Redice": {
+        "att": -0.01820338,
+        "def": -0.04046248,
+        "thfa": -0.00013349,
+        "seen": 1
+      },
+      "Hlinsko": {
+        "att": -0.04102652,
+        "def": -0.00326781,
+        "thfa": -0.00010079,
+        "seen": 1
+      },
+      "Karlovy Vary": {
+        "att": -0.0505092,
+        "def": -0.12889006,
+        "thfa": -0.00040822,
+        "seen": 1
+      },
+      "Nove Sady": {
+        "att": 0.03390908,
+        "def": -0.01664932,
+        "thfa": 3.943e-05,
+        "seen": 2
+      },
+      "Petrin Plzen": {
+        "att": -0.03423417,
+        "def": -0.09704383,
+        "thfa": -0.00029872,
+        "seen": 1
+      },
+      "Artis Brno": {
+        "att": -0.0831867,
+        "def": -0.15001132,
+        "thfa": -0.00028254,
+        "seen": 4
+      },
+      "Neftekhimik Nizhnekamsk": {
+        "att": -0.00820605,
+        "def": -0.08625651,
+        "thfa": -0.00021495,
+        "seen": 1
+      }
+    },
+    "leagues": {
+      "RPL": {
+        "mu": 0.17887619,
+        "hfa": 0.24960014
+      },
+      "CZ1": {
+        "mu": 0.27587256,
+        "hfa": 0.20702544
+      },
+      "E0": {
+        "mu": 0.24648064,
+        "hfa": 0.22350402
+      }
+    }
+  }
+}

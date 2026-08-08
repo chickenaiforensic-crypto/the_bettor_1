@@ -1,0 +1,34 @@
+{
+  "engine": "Dixon-Coles v4.0 (JavaScript)",
+  "verified_against": "engine_rebuild/trainer_ref.py",
+  "store": "pitch-rating-full-5082-D1D2-2026-08-05.json",
+  "full_brier": 0.5843447642510848,
+  "full_gain_pct": 9.647967126062563,
+  "full_direction": 0.5291711517761033,
+  "harness": {
+    "CZ1": {
+      "train": 1282,
+      "scored": 293,
+      "brier_dc": 0.6043749110464539,
+      "brier_base": 0.6550479453924926,
+      "gain_pct": 7.735774869986993,
+      "direction": 0.48464163822525597
+    },
+    "E0": {
+      "train": 1520,
+      "scored": 374,
+      "brier_dc": 0.61395278338735,
+      "brier_base": 0.6543114010695206,
+      "gain_pct": 6.168105525320411,
+      "direction": 0.4893048128342246
+    },
+    "RPL": {
+      "train": 1241,
+      "scored": 332,
+      "brier_dc": 0.5630142431181596,
+      "brier_base": 0.650319132530122,
+      "gain_pct": 13.42493016809997,
+      "direction": 0.5602409638554217
+    }
+  }
+}

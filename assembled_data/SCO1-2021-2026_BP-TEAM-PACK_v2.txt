@@ -1,0 +1,1146 @@
+NOTE|info|catalog|Scottish Premiership · Scottish Premiership Championship Round · Scottish Premiership Relegation Round
+SOURCE|rsssf-scot|https://www.rsssf.org/tabless/scot2022.html|2026-08-05|primary-archive|RSSSF Scottish Premier Division / Premiership archives (scot2022..scot2026)
+SOURCE|wf-sco|https://www.worldfootball.net/all_matches/sco-premiership-2021-2022/|2026-08-05|third-index|Worldfootball.net round schedules and post-split group tables
+NOTE|info|federation_check|Section-0 federation scan performed: all rows are Scottish Premiership matches (2021-22 .. 2025-26).
+TEAM|Dundee United|Scotland|Scottish Premiership|SC0|Dundee United FC,Dundee Utd|Tannadice Park|Dundee
+MATCH|2021-07-31|Scottish Premiership|domestic-league|Rangers|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-07-31|Scottish Premiership|domestic-league|Dundee|2|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-07-31|Scottish Premiership|domestic-league|Ross County|0|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-07-31|Scottish Premiership|domestic-league|Hearts|2|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-01|Scottish Premiership|domestic-league|Aberdeen|2|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-01|Scottish Premiership|domestic-league|Motherwell|2|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-07|Scottish Premiership|domestic-league|Dundee United|1|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-07|Scottish Premiership|domestic-league|St Mirren|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-08|Scottish Premiership|domestic-league|Celtic|6|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-08|Scottish Premiership|domestic-league|Hibernian|3|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-08|Scottish Premiership|domestic-league|Livingston|1|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-08|Scottish Premiership|domestic-league|St Johnstone|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-21|Scottish Premiership|domestic-league|Celtic|6|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-21|Scottish Premiership|domestic-league|Livingston|1|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-22|Scottish Premiership|domestic-league|Dundee|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-22|Scottish Premiership|domestic-league|Hearts|1|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-22|Scottish Premiership|domestic-league|Ross County|2|4|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-22|Scottish Premiership|domestic-league|St Johnstone|0|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-28|Scottish Premiership|domestic-league|Dundee United|0|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-28|Scottish Premiership|domestic-league|Hibernian|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-28|Scottish Premiership|domestic-league|Motherwell|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-29|Scottish Premiership|domestic-league|Rangers|1|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-29|Scottish Premiership|domestic-league|Aberdeen|1|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-08-29|Scottish Premiership|domestic-league|St Mirren|0|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-11|Scottish Premiership|domestic-league|St Johnstone|1|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-11|Scottish Premiership|domestic-league|Celtic|3|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-11|Scottish Premiership|domestic-league|Dundee|0|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-11|Scottish Premiership|domestic-league|Motherwell|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-11|Scottish Premiership|domestic-league|St Mirren|0|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-12|Scottish Premiership|domestic-league|Hearts|0|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-18|Scottish Premiership|domestic-league|Aberdeen|0|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-18|Scottish Premiership|domestic-league|Hibernian|2|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-18|Scottish Premiership|domestic-league|Ross County|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-19|Scottish Premiership|domestic-league|Dundee United|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-19|Scottish Premiership|domestic-league|Livingston|1|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-19|Scottish Premiership|domestic-league|Rangers|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-25|Scottish Premiership|domestic-league|Dundee|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-25|Scottish Premiership|domestic-league|Hearts|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-25|Scottish Premiership|domestic-league|Motherwell|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-26|Scottish Premiership|domestic-league|St Mirren|3|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-26|Scottish Premiership|domestic-league|Celtic|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-09-26|Scottish Premiership|domestic-league|Hibernian|1|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-02|Scottish Premiership|domestic-league|Dundee United|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-02|Scottish Premiership|domestic-league|Hearts|2|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-02|Scottish Premiership|domestic-league|Livingston|0|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-02|Scottish Premiership|domestic-league|St Johnstone|3|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-03|Scottish Premiership|domestic-league|Aberdeen|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-03|Scottish Premiership|domestic-league|Rangers|2|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-16|Scottish Premiership|domestic-league|Hibernian|0|3|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-16|Scottish Premiership|domestic-league|Motherwell|0|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-16|Scottish Premiership|domestic-league|Rangers|1|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-16|Scottish Premiership|domestic-league|Ross County|2|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-16|Scottish Premiership|domestic-league|St Johnstone|0|3|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-16|Scottish Premiership|domestic-league|Dundee|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-23|Scottish Premiership|domestic-league|Aberdeen|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-23|Scottish Premiership|domestic-league|Celtic|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-23|Scottish Premiership|domestic-league|Dundee United|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-23|Scottish Premiership|domestic-league|Hearts|1|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-23|Scottish Premiership|domestic-league|Ross County|2|3|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-24|Scottish Premiership|domestic-league|St Mirren|1|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-27|Scottish Premiership|domestic-league|Dundee|0|5|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-27|Scottish Premiership|domestic-league|Hibernian|1|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-27|Scottish Premiership|domestic-league|Livingston|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-27|Scottish Premiership|domestic-league|Motherwell|2|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-27|Scottish Premiership|domestic-league|Rangers|2|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-27|Scottish Premiership|domestic-league|St Johnstone|1|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-30|Scottish Premiership|domestic-league|Aberdeen|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-30|Scottish Premiership|domestic-league|Celtic|0|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-30|Scottish Premiership|domestic-league|Dundee United|0|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-30|Scottish Premiership|domestic-league|St Mirren|0|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-10-31|Scottish Premiership|domestic-league|Motherwell|1|6|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-06|Scottish Premiership|domestic-league|Aberdeen|0|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-06|Scottish Premiership|domestic-league|Hearts|5|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-06|Scottish Premiership|domestic-league|St Johnstone|0|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-07|Scottish Premiership|domestic-league|Dundee|2|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-07|Scottish Premiership|domestic-league|Rangers|4|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-20|Scottish Premiership|domestic-league|Dundee United|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-20|Scottish Premiership|domestic-league|Motherwell|2|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-20|Scottish Premiership|domestic-league|St Mirren|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-24|Scottish Premiership|domestic-league|Ross County|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-27|Scottish Premiership|domestic-league|Dundee|3|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-27|Scottish Premiership|domestic-league|Hearts|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-27|Scottish Premiership|domestic-league|Ross County|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-27|Scottish Premiership|domestic-league|St Johnstone|1|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-28|Scottish Premiership|domestic-league|Livingston|1|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-28|Scottish Premiership|domestic-league|Celtic|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-11-30|Scottish Premiership|domestic-league|Motherwell|1|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-01|Scottish Premiership|domestic-league|Aberdeen|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-01|Scottish Premiership|domestic-league|Dundee|1|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-01|Scottish Premiership|domestic-league|Hibernian|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-01|Scottish Premiership|domestic-league|St Mirren|0|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-02|Scottish Premiership|domestic-league|Celtic|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-04|Scottish Premiership|domestic-league|Aberdeen|4|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-04|Scottish Premiership|domestic-league|Hibernian|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-04|Scottish Premiership|domestic-league|Rangers|3|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-05|Scottish Premiership|domestic-league|Dundee United|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-05|Scottish Premiership|domestic-league|Livingston|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-08|Scottish Premiership|domestic-league|Livingston|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-11|Scottish Premiership|domestic-league|Dundee United|0|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-11|Scottish Premiership|domestic-league|Ross County|3|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-11|Scottish Premiership|domestic-league|St Johnstone|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-11|Scottish Premiership|domestic-league|St Mirren|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-12|Scottish Premiership|domestic-league|Hearts|0|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-12|Scottish Premiership|domestic-league|Celtic|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-14|Scottish Premiership|domestic-league|Hibernian|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-15|Scottish Premiership|domestic-league|Rangers|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-15|Scottish Premiership|domestic-league|Ross County|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-18|Scottish Premiership|domestic-league|Dundee|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-18|Scottish Premiership|domestic-league|Livingston|1|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-18|Scottish Premiership|domestic-league|Motherwell|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-18|Scottish Premiership|domestic-league|Rangers|1|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-22|Scottish Premiership|domestic-league|Hibernian|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-22|Scottish Premiership|domestic-league|St Johnstone|1|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-22|Scottish Premiership|domestic-league|St Mirren|0|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-26|Scottish Premiership|domestic-league|St Johnstone|1|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-26|Scottish Premiership|domestic-league|Aberdeen|2|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-26|Scottish Premiership|domestic-league|Dundee United|1|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-26|Scottish Premiership|domestic-league|Hearts|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-26|Scottish Premiership|domestic-league|Motherwell|2|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2021-12-26|Scottish Premiership|domestic-league|Rangers|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-17|Scottish Premiership|domestic-league|Celtic|2|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-18|Scottish Premiership|domestic-league|Aberdeen|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-18|Scottish Premiership|domestic-league|Dundee United|1|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-18|Scottish Premiership|domestic-league|Hearts|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-18|Scottish Premiership|domestic-league|Livingston|2|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-18|Scottish Premiership|domestic-league|Ross County|3|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-25|Scottish Premiership|domestic-league|St Mirren|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-26|Scottish Premiership|domestic-league|Dundee United|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-26|Scottish Premiership|domestic-league|Hearts|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-26|Scottish Premiership|domestic-league|Motherwell|0|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-26|Scottish Premiership|domestic-league|Rangers|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-26|Scottish Premiership|domestic-league|St Johnstone|0|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-29|Scottish Premiership|domestic-league|Ross County|3|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-29|Scottish Premiership|domestic-league|Celtic|1|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-29|Scottish Premiership|domestic-league|Hearts|2|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-01-29|Scottish Premiership|domestic-league|Hibernian|2|3|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-01|Scottish Premiership|domestic-league|Dundee|0|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-01|Scottish Premiership|domestic-league|Hibernian|0|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-01|Scottish Premiership|domestic-league|Livingston|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-01|Scottish Premiership|domestic-league|Ross County|1|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-01|Scottish Premiership|domestic-league|St Mirren|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-02|Scottish Premiership|domestic-league|Celtic|3|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-05|Scottish Premiership|domestic-league|Dundee|1|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-05|Scottish Premiership|domestic-league|Hibernian|0|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-05|Scottish Premiership|domestic-league|Livingston|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-05|Scottish Premiership|domestic-league|St Johnstone|0|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-06|Scottish Premiership|domestic-league|Motherwell|0|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-06|Scottish Premiership|domestic-league|Rangers|5|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-09|Scottish Premiership|domestic-league|Aberdeen|2|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-09|Scottish Premiership|domestic-league|Dundee United|2|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-09|Scottish Premiership|domestic-league|Hearts|1|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-09|Scottish Premiership|domestic-league|Rangers|2|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-09|Scottish Premiership|domestic-league|Ross County|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-09|Scottish Premiership|domestic-league|St Mirren|2|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-15|Scottish Premiership|domestic-league|Aberdeen|1|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-19|Scottish Premiership|domestic-league|Hibernian|2|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-19|Scottish Premiership|domestic-league|Livingston|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-19|Scottish Premiership|domestic-league|Motherwell|1|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-19|Scottish Premiership|domestic-league|St Johnstone|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-20|Scottish Premiership|domestic-league|Dundee United|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-20|Scottish Premiership|domestic-league|Celtic|3|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-26|Scottish Premiership|domestic-league|Aberdeen|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-26|Scottish Premiership|domestic-league|Dundee|0|4|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-26|Scottish Premiership|domestic-league|Ross County|3|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-26|Scottish Premiership|domestic-league|St Mirren|0|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-27|Scottish Premiership|domestic-league|Hibernian|0|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-02-27|Scottish Premiership|domestic-league|Rangers|2|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-02|Scottish Premiership|domestic-league|Celtic|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-02|Scottish Premiership|domestic-league|Dundee|0|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-02|Scottish Premiership|domestic-league|Hearts|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-02|Scottish Premiership|domestic-league|Livingston|2|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-02|Scottish Premiership|domestic-league|Motherwell|0|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-02|Scottish Premiership|domestic-league|St Johnstone|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-05|Scottish Premiership|domestic-league|Dundee United|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-05|Scottish Premiership|domestic-league|Hibernian|0|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-05|Scottish Premiership|domestic-league|Motherwell|1|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-05|Scottish Premiership|domestic-league|Rangers|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-05|Scottish Premiership|domestic-league|Ross County|1|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-06|Scottish Premiership|domestic-league|Livingston|1|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-09|Scottish Premiership|domestic-league|Dundee|0|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-19|Scottish Premiership|domestic-league|Aberdeen|3|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-19|Scottish Premiership|domestic-league|Celtic|4|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-19|Scottish Premiership|domestic-league|Hearts|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-19|Scottish Premiership|domestic-league|St Johnstone|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-19|Scottish Premiership|domestic-league|St Mirren|1|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-03-20|Scottish Premiership|domestic-league|Dundee|1|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-02|Scottish Premiership|domestic-league|Dundee|2|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-02|Scottish Premiership|domestic-league|Hibernian|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-02|Scottish Premiership|domestic-league|Motherwell|4|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-02|Scottish Premiership|domestic-league|Ross County|1|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-02|Scottish Premiership|domestic-league|St Johnstone|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-03|Scottish Premiership|domestic-league|Rangers|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-09|Scottish Premiership|domestic-league|Aberdeen|0|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-09|Scottish Premiership|domestic-league|Celtic|7|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-09|Scottish Premiership|domestic-league|Dundee United|2|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-09|Scottish Premiership|domestic-league|Hearts|3|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-09|Scottish Premiership|domestic-league|Livingston|2|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-10|Scottish Premiership|domestic-league|St Mirren|0|4|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-23|Scottish Premiership|domestic-league|Motherwell|1|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-23|Scottish Premiership|domestic-league|Aberdeen|1|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-23|Scottish Premiership|domestic-league|Dundee|1|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-23|Scottish Premiership|domestic-league|St Mirren|0|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-24|Scottish Premiership|domestic-league|Ross County|0|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-24|Scottish Premiership|domestic-league|Dundee United|2|3|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-30|Scottish Premiership|domestic-league|Aberdeen|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-30|Scottish Premiership|domestic-league|Dundee United|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-30|Scottish Premiership|domestic-league|Hearts|0|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-30|Scottish Premiership|domestic-league|Livingston|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-04-30|Scottish Premiership|domestic-league|St Johnstone|0|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-01|Scottish Premiership|domestic-league|Celtic|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-07|Scottish Premiership|domestic-league|Celtic|4|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-07|Scottish Premiership|domestic-league|Hibernian|1|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-07|Scottish Premiership|domestic-league|Livingston|1|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-07|Scottish Premiership|domestic-league|Ross County|0|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-07|Scottish Premiership|domestic-league|St Mirren|2|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-08|Scottish Premiership|domestic-league|Rangers|2|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-10|Scottish Premiership|domestic-league|Dundee|3|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-11|Scottish Premiership|domestic-league|Dundee United|1|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-11|Scottish Premiership|domestic-league|Motherwell|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-11|Scottish Premiership|domestic-league|Rangers|4|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-11|Scottish Premiership|domestic-league|St Johnstone|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-11|Scottish Premiership|domestic-league|St Mirren|0|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-14|Scottish Premiership|domestic-league|Celtic|6|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-14|Scottish Premiership|domestic-league|Hearts|1|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-14|Scottish Premiership|domestic-league|Ross County|1|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-15|Scottish Premiership|domestic-league|Aberdeen|0|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-15|Scottish Premiership|domestic-league|Hibernian|4|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-05-15|Scottish Premiership|domestic-league|Livingston|2|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-07-30|Scottish Premiership|domestic-league|Livingston|1|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-07-30|Scottish Premiership|domestic-league|Hearts|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-07-30|Scottish Premiership|domestic-league|Kilmarnock|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-07-30|Scottish Premiership|domestic-league|St Johnstone|0|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-07-31|Scottish Premiership|domestic-league|St Mirren|0|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-07-31|Scottish Premiership|domestic-league|Celtic|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-06|Scottish Premiership|domestic-league|Aberdeen|4|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-06|Scottish Premiership|domestic-league|Motherwell|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-06|Scottish Premiership|domestic-league|Rangers|2|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-06|Scottish Premiership|domestic-league|Ross County|1|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-07|Scottish Premiership|domestic-league|Hibernian|1|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-07|Scottish Premiership|domestic-league|Dundee United|0|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-13|Scottish Premiership|domestic-league|Aberdeen|2|3|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-13|Scottish Premiership|domestic-league|Livingston|2|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-13|Scottish Premiership|domestic-league|Rangers|4|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-13|Scottish Premiership|domestic-league|St Mirren|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-14|Scottish Premiership|domestic-league|Kilmarnock|0|5|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-14|Scottish Premiership|domestic-league|Hearts|4|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-20|Scottish Premiership|domestic-league|Hibernian|2|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-20|Scottish Premiership|domestic-league|Dundee United|0|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-20|Scottish Premiership|domestic-league|Motherwell|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-20|Scottish Premiership|domestic-league|Ross County|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-20|Scottish Premiership|domestic-league|St Johnstone|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-21|Scottish Premiership|domestic-league|Celtic|2|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-27|Scottish Premiership|domestic-league|Aberdeen|5|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-27|Scottish Premiership|domestic-league|Kilmarnock|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-27|Scottish Premiership|domestic-league|Rangers|4|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-27|Scottish Premiership|domestic-league|St Mirren|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-28|Scottish Premiership|domestic-league|Dundee United|0|9|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-08-28|Scottish Premiership|domestic-league|Hearts|3|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-03|Scottish Premiership|domestic-league|Celtic|4|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-03|Scottish Premiership|domestic-league|Hibernian|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-03|Scottish Premiership|domestic-league|Livingston|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-03|Scottish Premiership|domestic-league|Motherwell|0|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-03|Scottish Premiership|domestic-league|Ross County|1|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-03|Scottish Premiership|domestic-league|St Johnstone|3|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-17|Scottish Premiership|domestic-league|Hibernian|3|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-17|Scottish Premiership|domestic-league|Livingston|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-17|Scottish Premiership|domestic-league|Rangers|2|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-17|Scottish Premiership|domestic-league|St Johnstone|0|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-18|Scottish Premiership|domestic-league|St Mirren|2|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-09-18|Scottish Premiership|domestic-league|Motherwell|0|3|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-01|Scottish Premiership|domestic-league|Hearts|0|4|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-01|Scottish Premiership|domestic-league|Aberdeen|4|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-01|Scottish Premiership|domestic-league|Celtic|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-01|Scottish Premiership|domestic-league|Dundee United|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-01|Scottish Premiership|domestic-league|Ross County|0|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-01|Scottish Premiership|domestic-league|St Mirren|2|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-04|Scottish Premiership|domestic-league|Ross County|0|5|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-05|Scottish Premiership|domestic-league|Kilmarnock|2|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-08|Scottish Premiership|domestic-league|St Johnstone|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-08|Scottish Premiership|domestic-league|Hibernian|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-08|Scottish Premiership|domestic-league|Livingston|0|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-08|Scottish Premiership|domestic-league|Rangers|4|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-08|Scottish Premiership|domestic-league|Dundee United|4|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-09|Scottish Premiership|domestic-league|Kilmarnock|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-11|Scottish Premiership|domestic-league|Dundee United|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-15|Scottish Premiership|domestic-league|Celtic|6|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-15|Scottish Premiership|domestic-league|Livingston|1|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-15|Scottish Premiership|domestic-league|Ross County|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-15|Scottish Premiership|domestic-league|St Mirren|0|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-16|Scottish Premiership|domestic-league|Motherwell|1|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-16|Scottish Premiership|domestic-league|Aberdeen|2|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-21|Scottish Premiership|domestic-league|Hibernian|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-22|Scottish Premiership|domestic-league|Hearts|3|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-22|Scottish Premiership|domestic-league|Kilmarnock|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-22|Scottish Premiership|domestic-league|Motherwell|1|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-22|Scottish Premiership|domestic-league|Rangers|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-22|Scottish Premiership|domestic-league|St Mirren|2|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-29|Scottish Premiership|domestic-league|Dundee United|0|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-29|Scottish Premiership|domestic-league|Hibernian|3|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-29|Scottish Premiership|domestic-league|Rangers|4|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-29|Scottish Premiership|domestic-league|St Johnstone|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-30|Scottish Premiership|domestic-league|Livingston|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-10-30|Scottish Premiership|domestic-league|Ross County|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-04|Scottish Premiership|domestic-league|Aberdeen|4|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-04|Scottish Premiership|domestic-league|Kilmarnock|2|3|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-05|Scottish Premiership|domestic-league|Celtic|4|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-05|Scottish Premiership|domestic-league|Ross County|3|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-06|Scottish Premiership|domestic-league|St Johnstone|2|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-06|Scottish Premiership|domestic-league|Hearts|3|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-08|Scottish Premiership|domestic-league|Hibernian|0|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-08|Scottish Premiership|domestic-league|Livingston|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-09|Scottish Premiership|domestic-league|Dundee United|4|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-09|Scottish Premiership|domestic-league|Motherwell|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-09|Scottish Premiership|domestic-league|Rangers|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-09|Scottish Premiership|domestic-league|St Mirren|2|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-12|Scottish Premiership|domestic-league|St Mirren|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-12|Scottish Premiership|domestic-league|Celtic|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-12|Scottish Premiership|domestic-league|Hearts|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-12|Scottish Premiership|domestic-league|Kilmarnock|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-12|Scottish Premiership|domestic-league|St Johnstone|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-11-12|Scottish Premiership|domestic-league|Aberdeen|1|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-15|Scottish Premiership|domestic-league|Rangers|3|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-17|Scottish Premiership|domestic-league|Aberdeen|0|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-17|Scottish Premiership|domestic-league|Hearts|3|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-17|Scottish Premiership|domestic-league|Ross County|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-20|Scottish Premiership|domestic-league|Aberdeen|2|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-21|Scottish Premiership|domestic-league|Celtic|2|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-23|Scottish Premiership|domestic-league|Ross County|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-23|Scottish Premiership|domestic-league|Motherwell|2|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-24|Scottish Premiership|domestic-league|Celtic|4|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-24|Scottish Premiership|domestic-league|St Mirren|3|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-24|Scottish Premiership|domestic-league|Dundee United|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-24|Scottish Premiership|domestic-league|Hibernian|4|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-28|Scottish Premiership|domestic-league|Dundee United|3|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-28|Scottish Premiership|domestic-league|Kilmarnock|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-28|Scottish Premiership|domestic-league|Livingston|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-28|Scottish Premiership|domestic-league|Rangers|3|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-28|Scottish Premiership|domestic-league|St Johnstone|2|3|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2022-12-28|Scottish Premiership|domestic-league|Hibernian|0|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-02|Scottish Premiership|domestic-league|Rangers|2|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-02|Scottish Premiership|domestic-league|Aberdeen|0|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-02|Scottish Premiership|domestic-league|Hearts|3|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-02|Scottish Premiership|domestic-league|Kilmarnock|0|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-02|Scottish Premiership|domestic-league|Livingston|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-02|Scottish Premiership|domestic-league|St Johnstone|0|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-07|Scottish Premiership|domestic-league|Aberdeen|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-07|Scottish Premiership|domestic-league|Celtic|2|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-07|Scottish Premiership|domestic-league|Ross County|0|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-07|Scottish Premiership|domestic-league|St Mirren|1|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-08|Scottish Premiership|domestic-league|Motherwell|2|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-08|Scottish Premiership|domestic-league|Dundee United|0|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-13|Scottish Premiership|domestic-league|Hearts|1|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-14|Scottish Premiership|domestic-league|Hibernian|2|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-14|Scottish Premiership|domestic-league|Motherwell|1|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-14|Scottish Premiership|domestic-league|St Johnstone|2|4|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-18|Scottish Premiership|domestic-league|Celtic|4|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-18|Scottish Premiership|domestic-league|Hearts|5|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-18|Scottish Premiership|domestic-league|Kilmarnock|2|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-28|Scottish Premiership|domestic-league|Hibernian|6|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-28|Scottish Premiership|domestic-league|Rangers|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-28|Scottish Premiership|domestic-league|Ross County|3|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-28|Scottish Premiership|domestic-league|St Mirren|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-29|Scottish Premiership|domestic-league|Livingston|0|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-29|Scottish Premiership|domestic-league|Dundee United|0|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-01-31|Scottish Premiership|domestic-league|Ross County|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-01|Scottish Premiership|domestic-league|Aberdeen|1|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-01|Scottish Premiership|domestic-league|Celtic|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-01|Scottish Premiership|domestic-league|Hearts|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-01|Scottish Premiership|domestic-league|Kilmarnock|1|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-01|Scottish Premiership|domestic-league|Motherwell|0|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-04|Scottish Premiership|domestic-league|Aberdeen|3|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-04|Scottish Premiership|domestic-league|Hearts|3|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-04|Scottish Premiership|domestic-league|Livingston|3|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-04|Scottish Premiership|domestic-league|Rangers|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-04|Scottish Premiership|domestic-league|St Mirren|0|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-05|Scottish Premiership|domestic-league|St Johnstone|1|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-15|Scottish Premiership|domestic-league|Motherwell|2|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-18|Scottish Premiership|domestic-league|Celtic|4|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-18|Scottish Premiership|domestic-league|Dundee United|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-18|Scottish Premiership|domestic-league|Hibernian|2|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-18|Scottish Premiership|domestic-league|Livingston|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-18|Scottish Premiership|domestic-league|St Mirren|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-19|Scottish Premiership|domestic-league|Motherwell|2|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-25|Scottish Premiership|domestic-league|Aberdeen|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-25|Scottish Premiership|domestic-league|Kilmarnock|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-25|Scottish Premiership|domestic-league|Ross County|4|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-02-25|Scottish Premiership|domestic-league|St Johnstone|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-04|Scottish Premiership|domestic-league|Hearts|3|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-04|Scottish Premiership|domestic-league|Livingston|1|4|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-04|Scottish Premiership|domestic-league|Rangers|3|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-04|Scottish Premiership|domestic-league|Ross County|0|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-04|Scottish Premiership|domestic-league|Dundee United|1|3|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-05|Scottish Premiership|domestic-league|St Mirren|1|5|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-08|Scottish Premiership|domestic-league|Celtic|3|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-08|Scottish Premiership|domestic-league|Hibernian|1|4|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-08|Scottish Premiership|domestic-league|Livingston|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-18|Scottish Premiership|domestic-league|Motherwell|2|4|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-18|Scottish Premiership|domestic-league|Aberdeen|3|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-18|Scottish Premiership|domestic-league|Celtic|3|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-18|Scottish Premiership|domestic-league|Dundee United|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-18|Scottish Premiership|domestic-league|Kilmarnock|1|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-03-18|Scottish Premiership|domestic-league|Livingston|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-01|Scottish Premiership|domestic-league|Hibernian|1|3|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-01|Scottish Premiership|domestic-league|Kilmarnock|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-01|Scottish Premiership|domestic-league|Rangers|2|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-01|Scottish Premiership|domestic-league|St Johnstone|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-01|Scottish Premiership|domestic-league|St Mirren|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-02|Scottish Premiership|domestic-league|Ross County|0|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-08|Scottish Premiership|domestic-league|Celtic|3|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-08|Scottish Premiership|domestic-league|Aberdeen|2|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-08|Scottish Premiership|domestic-league|Hearts|0|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-08|Scottish Premiership|domestic-league|Motherwell|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-08|Scottish Premiership|domestic-league|St Johnstone|0|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-09|Scottish Premiership|domestic-league|Dundee United|2|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-14|Scottish Premiership|domestic-league|Ross County|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-15|Scottish Premiership|domestic-league|Hibernian|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-15|Scottish Premiership|domestic-league|Livingston|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-15|Scottish Premiership|domestic-league|Motherwell|1|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-15|Scottish Premiership|domestic-league|Rangers|5|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-16|Scottish Premiership|domestic-league|Kilmarnock|1|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-22|Scottish Premiership|domestic-league|Hearts|6|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-22|Scottish Premiership|domestic-league|Celtic|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-22|Scottish Premiership|domestic-league|Dundee United|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-22|Scottish Premiership|domestic-league|St Johnstone|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-22|Scottish Premiership|domestic-league|St Mirren|0|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-04-23|Scottish Premiership|domestic-league|Aberdeen|2|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-06|Scottish Premiership|domestic-league|Hibernian|2|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-06|Scottish Premiership|domestic-league|Motherwell|2|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-06|Scottish Premiership|domestic-league|Ross County|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-06|Scottish Premiership|domestic-league|St Johnstone|1|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-07|Scottish Premiership|domestic-league|Hearts|0|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-07|Scottish Premiership|domestic-league|Rangers|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-13|Scottish Premiership|domestic-league|Rangers|3|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-13|Scottish Premiership|domestic-league|Aberdeen|0|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-13|Scottish Premiership|domestic-league|Dundee United|1|3|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-13|Scottish Premiership|domestic-league|Kilmarnock|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-13|Scottish Premiership|domestic-league|St Johnstone|0|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-13|Scottish Premiership|domestic-league|St Mirren|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-20|Scottish Premiership|domestic-league|Hearts|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-20|Scottish Premiership|domestic-league|Celtic|2|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-20|Scottish Premiership|domestic-league|Kilmarnock|0|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-20|Scottish Premiership|domestic-league|Livingston|2|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-20|Scottish Premiership|domestic-league|Motherwell|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-21|Scottish Premiership|domestic-league|Hibernian|1|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-24|Scottish Premiership|domestic-league|Aberdeen|3|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-24|Scottish Premiership|domestic-league|Dundee United|0|3|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-24|Scottish Premiership|domestic-league|Hibernian|4|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-24|Scottish Premiership|domestic-league|Livingston|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-24|Scottish Premiership|domestic-league|Rangers|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-24|Scottish Premiership|domestic-league|Ross County|3|3|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-27|Scottish Premiership|domestic-league|Celtic|5|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-27|Scottish Premiership|domestic-league|Hearts|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-27|Scottish Premiership|domestic-league|St Mirren|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-28|Scottish Premiership|domestic-league|Kilmarnock|3|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-28|Scottish Premiership|domestic-league|Motherwell|3|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-05-28|Scottish Premiership|domestic-league|St Johnstone|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-05|Scottish Premiership|domestic-league|Celtic|4|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-05|Scottish Premiership|domestic-league|Dundee|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-05|Scottish Premiership|domestic-league|Livingston|0|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-05|Scottish Premiership|domestic-league|St Johnstone|0|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-05|Scottish Premiership|domestic-league|Kilmarnock|1|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-06|Scottish Premiership|domestic-league|Hibernian|2|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-12|Scottish Premiership|domestic-league|Rangers|4|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-12|Scottish Premiership|domestic-league|Ross County|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-12|Scottish Premiership|domestic-league|St Mirren|2|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-13|Scottish Premiership|domestic-league|Aberdeen|1|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-13|Scottish Premiership|domestic-league|Hearts|0|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-13|Scottish Premiership|domestic-league|Motherwell|2|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-26|Scottish Premiership|domestic-league|Ross County|0|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-26|Scottish Premiership|domestic-league|Celtic|0|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-26|Scottish Premiership|domestic-league|Hibernian|2|3|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-26|Scottish Premiership|domestic-league|Motherwell|2|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-27|Scottish Premiership|domestic-league|Dundee|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-08-27|Scottish Premiership|domestic-league|St Mirren|2|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-02|Scottish Premiership|domestic-league|Kilmarnock|0|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-02|Scottish Premiership|domestic-league|Livingston|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-02|Scottish Premiership|domestic-league|St Johnstone|2|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-03|Scottish Premiership|domestic-league|Rangers|0|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-03|Scottish Premiership|domestic-league|Aberdeen|0|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-03|Scottish Premiership|domestic-league|Hearts|0|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-16|Scottish Premiership|domestic-league|St Johnstone|0|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-16|Scottish Premiership|domestic-league|Celtic|3|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-16|Scottish Premiership|domestic-league|Hearts|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-16|Scottish Premiership|domestic-league|Kilmarnock|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-16|Scottish Premiership|domestic-league|Motherwell|0|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-16|Scottish Premiership|domestic-league|Ross County|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-23|Scottish Premiership|domestic-league|Livingston|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-23|Scottish Premiership|domestic-league|Dundee|2|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-23|Scottish Premiership|domestic-league|Hibernian|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-23|Scottish Premiership|domestic-league|St Mirren|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-24|Scottish Premiership|domestic-league|Aberdeen|4|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-24|Scottish Premiership|domestic-league|Rangers|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-30|Scottish Premiership|domestic-league|Motherwell|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-30|Scottish Premiership|domestic-league|Hibernian|0|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-30|Scottish Premiership|domestic-league|Kilmarnock|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-30|Scottish Premiership|domestic-league|Rangers|1|3|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-30|Scottish Premiership|domestic-league|Ross County|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-09-30|Scottish Premiership|domestic-league|St Johnstone|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-07|Scottish Premiership|domestic-league|Celtic|3|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-07|Scottish Premiership|domestic-league|Hearts|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-07|Scottish Premiership|domestic-league|Livingston|2|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-08|Scottish Premiership|domestic-league|St Mirren|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-08|Scottish Premiership|domestic-league|Aberdeen|0|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-21|Scottish Premiership|domestic-league|Kilmarnock|3|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-21|Scottish Premiership|domestic-league|Rangers|4|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-22|Scottish Premiership|domestic-league|Hearts|1|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-24|Scottish Premiership|domestic-league|Dundee|0|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-28|Scottish Premiership|domestic-league|Hibernian|0|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-28|Scottish Premiership|domestic-league|Livingston|0|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-28|Scottish Premiership|domestic-league|Motherwell|3|3|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-28|Scottish Premiership|domestic-league|St Mirren|4|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-29|Scottish Premiership|domestic-league|Kilmarnock|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-29|Scottish Premiership|domestic-league|Rangers|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-10-31|Scottish Premiership|domestic-league|Hibernian|2|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-01|Scottish Premiership|domestic-league|Celtic|2|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-01|Scottish Premiership|domestic-league|Dundee|0|5|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-01|Scottish Premiership|domestic-league|Hearts|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-01|Scottish Premiership|domestic-league|Motherwell|2|4|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-01|Scottish Premiership|domestic-league|St Johnstone|2|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-04|Scottish Premiership|domestic-league|Ross County|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-04|Scottish Premiership|domestic-league|Kilmarnock|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-05|Scottish Premiership|domestic-league|Dundee|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-07|Scottish Premiership|domestic-league|St Johnstone|2|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-08|Scottish Premiership|domestic-league|St Mirren|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-11|Scottish Premiership|domestic-league|Dundee|4|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-11|Scottish Premiership|domestic-league|Hibernian|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-11|Scottish Premiership|domestic-league|Motherwell|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-11|Scottish Premiership|domestic-league|St Johnstone|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-12|Scottish Premiership|domestic-league|Livingston|0|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-12|Scottish Premiership|domestic-league|Celtic|6|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-25|Scottish Premiership|domestic-league|Celtic|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-25|Scottish Premiership|domestic-league|Dundee|1|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-25|Scottish Premiership|domestic-league|Hearts|1|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-25|Scottish Premiership|domestic-league|Ross County|0|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-25|Scottish Premiership|domestic-league|St Mirren|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-26|Scottish Premiership|domestic-league|Aberdeen|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-11-28|Scottish Premiership|domestic-league|Ross County|1|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-02|Scottish Premiership|domestic-league|Kilmarnock|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-02|Scottish Premiership|domestic-league|Motherwell|3|3|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-03|Scottish Premiership|domestic-league|St Johnstone|1|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-03|Scottish Premiership|domestic-league|Hibernian|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-03|Scottish Premiership|domestic-league|Rangers|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-05|Scottish Premiership|domestic-league|Ross County|3|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-06|Scottish Premiership|domestic-league|Aberdeen|0|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-06|Scottish Premiership|domestic-league|Celtic|4|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-06|Scottish Premiership|domestic-league|St Johnstone|1|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-06|Scottish Premiership|domestic-league|Hearts|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-09|Scottish Premiership|domestic-league|Aberdeen|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-09|Scottish Premiership|domestic-league|Livingston|0|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-09|Scottish Premiership|domestic-league|Motherwell|1|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-09|Scottish Premiership|domestic-league|Rangers|3|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-09|Scottish Premiership|domestic-league|St Mirren|2|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-10|Scottish Premiership|domestic-league|Kilmarnock|2|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-16|Scottish Premiership|domestic-league|Celtic|0|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-16|Scottish Premiership|domestic-league|Livingston|0|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-16|Scottish Premiership|domestic-league|Ross County|0|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-16|Scottish Premiership|domestic-league|St Johnstone|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-16|Scottish Premiership|domestic-league|St Mirren|0|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-20|Scottish Premiership|domestic-league|Aberdeen|2|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-20|Scottish Premiership|domestic-league|Rangers|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-23|Scottish Premiership|domestic-league|Celtic|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-23|Scottish Premiership|domestic-league|Hearts|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-23|Scottish Premiership|domestic-league|Kilmarnock|2|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-24|Scottish Premiership|domestic-league|Motherwell|0|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-26|Scottish Premiership|domestic-league|Dundee|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-27|Scottish Premiership|domestic-league|Livingston|0|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-27|Scottish Premiership|domestic-league|St Mirren|0|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-27|Scottish Premiership|domestic-league|Hibernian|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-30|Scottish Premiership|domestic-league|Celtic|2|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-30|Scottish Premiership|domestic-league|Aberdeen|0|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-30|Scottish Premiership|domestic-league|Hearts|2|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-30|Scottish Premiership|domestic-league|Kilmarnock|2|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2023-12-30|Scottish Premiership|domestic-league|Motherwell|3|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-02|Scottish Premiership|domestic-league|Hibernian|2|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-02|Scottish Premiership|domestic-league|Livingston|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-02|Scottish Premiership|domestic-league|Rangers|3|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-02|Scottish Premiership|domestic-league|Ross County|0|3|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-02|Scottish Premiership|domestic-league|St Mirren|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-23|Scottish Premiership|domestic-league|Hearts|3|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-24|Scottish Premiership|domestic-league|Hibernian|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-24|Scottish Premiership|domestic-league|St Johnstone|1|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-27|Scottish Premiership|domestic-league|St Mirren|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-27|Scottish Premiership|domestic-league|Celtic|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-27|Scottish Premiership|domestic-league|Hearts|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-27|Scottish Premiership|domestic-league|Kilmarnock|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-27|Scottish Premiership|domestic-league|Livingston|1|4|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-27|Scottish Premiership|domestic-league|St Johnstone|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-30|Scottish Premiership|domestic-league|Aberdeen|1|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-01-30|Scottish Premiership|domestic-league|Livingston|2|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-03|Scottish Premiership|domestic-league|Aberdeen|1|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-03|Scottish Premiership|domestic-league|Dundee|2|3|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-03|Scottish Premiership|domestic-league|Hibernian|0|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-03|Scottish Premiership|domestic-league|Motherwell|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-03|Scottish Premiership|domestic-league|Rangers|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-03|Scottish Premiership|domestic-league|Ross County|0|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-06|Scottish Premiership|domestic-league|Motherwell|5|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-06|Scottish Premiership|domestic-league|Rangers|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-07|Scottish Premiership|domestic-league|Kilmarnock|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-07|Scottish Premiership|domestic-league|St Johnstone|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-07|Scottish Premiership|domestic-league|St Mirren|2|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-07|Scottish Premiership|domestic-league|Hibernian|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-11|Scottish Premiership|domestic-league|Dundee|2|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-14|Scottish Premiership|domestic-league|Aberdeen|3|3|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-14|Scottish Premiership|domestic-league|Rangers|3|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-17|Scottish Premiership|domestic-league|Aberdeen|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-17|Scottish Premiership|domestic-league|Celtic|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-17|Scottish Premiership|domestic-league|Dundee|2|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-17|Scottish Premiership|domestic-league|Hearts|2|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-17|Scottish Premiership|domestic-league|Livingston|1|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-18|Scottish Premiership|domestic-league|St Johnstone|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-24|Scottish Premiership|domestic-league|Hibernian|2|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-24|Scottish Premiership|domestic-league|Kilmarnock|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-24|Scottish Premiership|domestic-league|Rangers|5|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-24|Scottish Premiership|domestic-league|Ross County|3|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-24|Scottish Premiership|domestic-league|St Mirren|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-25|Scottish Premiership|domestic-league|Motherwell|1|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-27|Scottish Premiership|domestic-league|Ross County|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-28|Scottish Premiership|domestic-league|Aberdeen|0|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-28|Scottish Premiership|domestic-league|Celtic|7|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-28|Scottish Premiership|domestic-league|Hearts|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-28|Scottish Premiership|domestic-league|Kilmarnock|1|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-02-28|Scottish Premiership|domestic-league|Livingston|1|3|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-02|Scottish Premiership|domestic-league|Dundee|2|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-02|Scottish Premiership|domestic-league|Hibernian|2|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-02|Scottish Premiership|domestic-league|Rangers|1|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-02|Scottish Premiership|domestic-league|St Johnstone|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-02|Scottish Premiership|domestic-league|St Mirren|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-03|Scottish Premiership|domestic-league|Hearts|2|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-13|Scottish Premiership|domestic-league|Dundee|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-13|Scottish Premiership|domestic-league|Ross County|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-16|Scottish Premiership|domestic-league|Celtic|3|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-16|Scottish Premiership|domestic-league|Hibernian|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-16|Scottish Premiership|domestic-league|Kilmarnock|5|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-16|Scottish Premiership|domestic-league|Motherwell|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-16|Scottish Premiership|domestic-league|Ross County|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-30|Scottish Premiership|domestic-league|Aberdeen|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-30|Scottish Premiership|domestic-league|Hearts|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-30|Scottish Premiership|domestic-league|Motherwell|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-30|Scottish Premiership|domestic-league|Rangers|3|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-30|Scottish Premiership|domestic-league|St Johnstone|1|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-03-31|Scottish Premiership|domestic-league|Livingston|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-06|Scottish Premiership|domestic-league|Dundee|2|3|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-06|Scottish Premiership|domestic-league|Hibernian|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-06|Scottish Premiership|domestic-league|Kilmarnock|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-06|Scottish Premiership|domestic-league|Livingston|0|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-06|Scottish Premiership|domestic-league|St Mirren|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-07|Scottish Premiership|domestic-league|Rangers|3|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-13|Scottish Premiership|domestic-league|Aberdeen|0|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-13|Scottish Premiership|domestic-league|Celtic|3|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-13|Scottish Premiership|domestic-league|Hearts|4|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-13|Scottish Premiership|domestic-league|Motherwell|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-13|Scottish Premiership|domestic-league|St Johnstone|0|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-14|Scottish Premiership|domestic-league|Ross County|3|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-17|Scottish Premiership|domestic-league|Dundee|0|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-27|Scottish Premiership|domestic-league|Aberdeen|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-27|Scottish Premiership|domestic-league|Kilmarnock|0|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-27|Scottish Premiership|domestic-league|Livingston|2|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-27|Scottish Premiership|domestic-league|St Johnstone|1|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-28|Scottish Premiership|domestic-league|St Mirren|1|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-04-28|Scottish Premiership|domestic-league|Dundee|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-04|Scottish Premiership|domestic-league|Aberdeen|1|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-04|Scottish Premiership|domestic-league|Celtic|3|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-04|Scottish Premiership|domestic-league|Dundee|1|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-04|Scottish Premiership|domestic-league|Motherwell|4|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-04|Scottish Premiership|domestic-league|Ross County|2|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-05|Scottish Premiership|domestic-league|Rangers|4|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-11|Scottish Premiership|domestic-league|Celtic|2|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-11|Scottish Premiership|domestic-league|Hearts|3|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-11|Scottish Premiership|domestic-league|Livingston|2|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-11|Scottish Premiership|domestic-league|Ross County|1|5|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-11|Scottish Premiership|domestic-league|St Mirren|0|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-12|Scottish Premiership|domestic-league|Hibernian|0|4|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-14|Scottish Premiership|domestic-league|Rangers|5|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-15|Scottish Premiership|domestic-league|Kilmarnock|0|5|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-15|Scottish Premiership|domestic-league|Aberdeen|5|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-15|Scottish Premiership|domestic-league|Hibernian|3|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-15|Scottish Premiership|domestic-league|St Johnstone|1|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-15|Scottish Premiership|domestic-league|St Mirren|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-18|Scottish Premiership|domestic-league|Celtic|3|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-18|Scottish Premiership|domestic-league|Dundee|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-18|Scottish Premiership|domestic-league|Hearts|3|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-19|Scottish Premiership|domestic-league|Livingston|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-19|Scottish Premiership|domestic-league|Motherwell|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-05-19|Scottish Premiership|domestic-league|Ross County|2|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-03|Scottish Premiership|domestic-league|Hearts|0|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-03|Scottish Premiership|domestic-league|Motherwell|0|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-04|Scottish Premiership|domestic-league|Dundee United|2|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-04|Scottish Premiership|domestic-league|St Mirren|3|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-04|Scottish Premiership|domestic-league|Celtic|4|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-05|Scottish Premiership|domestic-league|St Johnstone|1|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-10|Scottish Premiership|domestic-league|Rangers|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-10|Scottish Premiership|domestic-league|Ross County|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-10|Scottish Premiership|domestic-league|Dundee|3|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-11|Scottish Premiership|domestic-league|Hibernian|0|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-11|Scottish Premiership|domestic-league|Aberdeen|3|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-11|Scottish Premiership|domestic-league|Kilmarnock|0|3|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-24|Scottish Premiership|domestic-league|Dundee United|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-24|Scottish Premiership|domestic-league|Hibernian|2|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-24|Scottish Premiership|domestic-league|Rangers|6|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-25|Scottish Premiership|domestic-league|St Mirren|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-25|Scottish Premiership|domestic-league|Aberdeen|2|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-25|Scottish Premiership|domestic-league|Motherwell|3|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-31|Scottish Premiership|domestic-league|Dundee|2|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-31|Scottish Premiership|domestic-league|St Johnstone|1|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-08-31|Scottish Premiership|domestic-league|Ross County|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-01|Scottish Premiership|domestic-league|Celtic|3|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-01|Scottish Premiership|domestic-league|Hearts|0|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-01|Scottish Premiership|domestic-league|Kilmarnock|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-14|Scottish Premiership|domestic-league|Aberdeen|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-14|Scottish Premiership|domestic-league|Celtic|2|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-14|Scottish Premiership|domestic-league|Hibernian|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-14|Scottish Premiership|domestic-league|Ross County|2|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-14|Scottish Premiership|domestic-league|St Mirren|2|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-15|Scottish Premiership|domestic-league|Dundee United|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-21|Scottish Premiership|domestic-league|Ross County|3|3|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-21|Scottish Premiership|domestic-league|St Mirren|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-28|Scottish Premiership|domestic-league|Dundee|1|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-28|Scottish Premiership|domestic-league|Hearts|1|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-28|Scottish Premiership|domestic-league|Kilmarnock|3|3|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-28|Scottish Premiership|domestic-league|Motherwell|2|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-28|Scottish Premiership|domestic-league|St Johnstone|0|6|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-09-29|Scottish Premiership|domestic-league|Rangers|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-05|Scottish Premiership|domestic-league|Dundee|2|3|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-05|Scottish Premiership|domestic-league|Hibernian|1|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-05|Scottish Premiership|domestic-league|St Mirren|0|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-06|Scottish Premiership|domestic-league|Ross County|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-06|Scottish Premiership|domestic-league|Aberdeen|3|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-06|Scottish Premiership|domestic-league|Rangers|2|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-19|Scottish Premiership|domestic-league|Celtic|2|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-19|Scottish Premiership|domestic-league|Dundee United|3|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-19|Scottish Premiership|domestic-league|Hearts|4|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-19|Scottish Premiership|domestic-league|Motherwell|0|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-19|Scottish Premiership|domestic-league|St Johnstone|3|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-20|Scottish Premiership|domestic-league|Kilmarnock|1|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-26|Scottish Premiership|domestic-league|Dundee|1|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-26|Scottish Premiership|domestic-league|Ross County|2|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-26|Scottish Premiership|domestic-league|Aberdeen|1|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-27|Scottish Premiership|domestic-league|Hibernian|1|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-27|Scottish Premiership|domestic-league|Motherwell|0|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-27|Scottish Premiership|domestic-league|Rangers|2|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-30|Scottish Premiership|domestic-league|Celtic|2|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-30|Scottish Premiership|domestic-league|Dundee United|1|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-30|Scottish Premiership|domestic-league|Hearts|1|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-30|Scottish Premiership|domestic-league|Ross County|0|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-30|Scottish Premiership|domestic-league|St Mirren|3|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-10-30|Scottish Premiership|domestic-league|Aberdeen|2|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-02|Scottish Premiership|domestic-league|St Johnstone|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-02|Scottish Premiership|domestic-league|St Mirren|0|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-03|Scottish Premiership|domestic-league|Dundee|3|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-03|Scottish Premiership|domestic-league|Hibernian|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-09|Scottish Premiership|domestic-league|Dundee United|3|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-09|Scottish Premiership|domestic-league|Hibernian|1|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-09|Scottish Premiership|domestic-league|Motherwell|2|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-09|Scottish Premiership|domestic-league|Aberdeen|4|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-10|Scottish Premiership|domestic-league|Kilmarnock|0|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-10|Scottish Premiership|domestic-league|Rangers|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-23|Scottish Premiership|domestic-league|St Johnstone|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-23|Scottish Premiership|domestic-league|Ross County|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-23|Scottish Premiership|domestic-league|Rangers|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-23|Scottish Premiership|domestic-league|St Mirren|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-23|Scottish Premiership|domestic-league|Dundee|4|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-23|Scottish Premiership|domestic-league|Hearts|1|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-26|Scottish Premiership|domestic-league|Hibernian|3|3|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-30|Scottish Premiership|domestic-league|Celtic|5|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-30|Scottish Premiership|domestic-league|Dundee United|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-30|Scottish Premiership|domestic-league|Kilmarnock|1|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-11-30|Scottish Premiership|domestic-league|Motherwell|0|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-01|Scottish Premiership|domestic-league|St Johnstone|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-01|Scottish Premiership|domestic-league|Hearts|1|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-04|Scottish Premiership|domestic-league|Dundee|4|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-04|Scottish Premiership|domestic-league|Rangers|6|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-04|Scottish Premiership|domestic-league|Aberdeen|0|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-07|Scottish Premiership|domestic-league|Aberdeen|1|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-07|Scottish Premiership|domestic-league|Celtic|3|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-07|Scottish Premiership|domestic-league|Dundee United|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-07|Scottish Premiership|domestic-league|Hearts|2|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-07|Scottish Premiership|domestic-league|St Mirren|0|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-08|Scottish Premiership|domestic-league|Ross County|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-14|Scottish Premiership|domestic-league|Hibernian|3|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-14|Scottish Premiership|domestic-league|Motherwell|4|3|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-14|Scottish Premiership|domestic-league|St Johnstone|2|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-15|Scottish Premiership|domestic-league|Kilmarnock|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-20|Scottish Premiership|domestic-league|Motherwell|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-21|Scottish Premiership|domestic-league|Aberdeen|1|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-21|Scottish Premiership|domestic-league|Rangers|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-21|Scottish Premiership|domestic-league|Ross County|1|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-22|Scottish Premiership|domestic-league|Dundee United|0|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-22|Scottish Premiership|domestic-league|Hearts|2|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-26|Scottish Premiership|domestic-league|Hearts|1|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-26|Scottish Premiership|domestic-league|Celtic|4|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-26|Scottish Premiership|domestic-league|Dundee|0|3|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-26|Scottish Premiership|domestic-league|Kilmarnock|4|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-26|Scottish Premiership|domestic-league|St Johnstone|1|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-26|Scottish Premiership|domestic-league|St Mirren|2|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-29|Scottish Premiership|domestic-league|Celtic|4|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-29|Scottish Premiership|domestic-league|Hibernian|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-29|Scottish Premiership|domestic-league|Motherwell|2|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-29|Scottish Premiership|domestic-league|Ross County|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-29|Scottish Premiership|domestic-league|St Mirren|1|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2024-12-29|Scottish Premiership|domestic-league|Dundee United|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-02|Scottish Premiership|domestic-league|Aberdeen|1|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-02|Scottish Premiership|domestic-league|Hearts|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-02|Scottish Premiership|domestic-league|Kilmarnock|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-02|Scottish Premiership|domestic-league|Rangers|3|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-02|Scottish Premiership|domestic-league|St Johnstone|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-02|Scottish Premiership|domestic-league|Dundee|1|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-05|Scottish Premiership|domestic-league|Hibernian|3|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-05|Scottish Premiership|domestic-league|Motherwell|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-05|Scottish Premiership|domestic-league|Celtic|3|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-05|Scottish Premiership|domestic-league|Dundee United|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-05|Scottish Premiership|domestic-league|Kilmarnock|0|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-05|Scottish Premiership|domestic-league|St Johnstone|1|3|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-08|Scottish Premiership|domestic-league|Celtic|2|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-08|Scottish Premiership|domestic-league|Kilmarnock|0|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-09|Scottish Premiership|domestic-league|Dundee|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-11|Scottish Premiership|domestic-league|Ross County|1|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-11|Scottish Premiership|domestic-league|Hibernian|3|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-11|Scottish Premiership|domestic-league|St Mirren|0|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-12|Scottish Premiership|domestic-league|Aberdeen|0|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-12|Scottish Premiership|domestic-league|Rangers|3|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-14|Scottish Premiership|domestic-league|Dundee|3|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-15|Scottish Premiership|domestic-league|Rangers|3|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-25|Scottish Premiership|domestic-league|Aberdeen|0|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-25|Scottish Premiership|domestic-league|Hearts|3|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-25|Scottish Premiership|domestic-league|Ross County|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-25|Scottish Premiership|domestic-league|St Johnstone|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-01-26|Scottish Premiership|domestic-league|Dundee United|1|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-01|Scottish Premiership|domestic-league|Dundee|0|6|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-01|Scottish Premiership|domestic-league|Hibernian|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-01|Scottish Premiership|domestic-league|St Mirren|0|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-01|Scottish Premiership|domestic-league|Kilmarnock|1|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-02|Scottish Premiership|domestic-league|Motherwell|1|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-02|Scottish Premiership|domestic-league|Rangers|4|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-05|Scottish Premiership|domestic-league|Celtic|6|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-15|Scottish Premiership|domestic-league|Celtic|3|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-15|Scottish Premiership|domestic-league|Dundee|1|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-15|Scottish Premiership|domestic-league|Kilmarnock|3|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-15|Scottish Premiership|domestic-league|Motherwell|0|3|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-16|Scottish Premiership|domestic-league|Hearts|1|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-16|Scottish Premiership|domestic-league|St Mirren|0|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-22|Scottish Premiership|domestic-league|Hibernian|2|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-22|Scottish Premiership|domestic-league|Aberdeen|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-22|Scottish Premiership|domestic-league|Dundee United|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-22|Scottish Premiership|domestic-league|Rangers|0|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-22|Scottish Premiership|domestic-league|Ross County|3|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-23|Scottish Premiership|domestic-league|St Johnstone|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-25|Scottish Premiership|domestic-league|Celtic|5|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-26|Scottish Premiership|domestic-league|Dundee United|1|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-26|Scottish Premiership|domestic-league|Hearts|3|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-26|Scottish Premiership|domestic-league|Motherwell|2|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-26|Scottish Premiership|domestic-league|St Johnstone|1|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-02-26|Scottish Premiership|domestic-league|Kilmarnock|2|4|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-01|Scottish Premiership|domestic-league|Dundee|1|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-01|Scottish Premiership|domestic-league|Rangers|1|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-01|Scottish Premiership|domestic-league|Ross County|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-01|Scottish Premiership|domestic-league|St Mirren|2|5|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-02|Scottish Premiership|domestic-league|Hibernian|2|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-02|Scottish Premiership|domestic-league|Aberdeen|2|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-15|Scottish Premiership|domestic-league|Hearts|2|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-15|Scottish Premiership|domestic-league|Kilmarnock|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-15|Scottish Premiership|domestic-league|Motherwell|2|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-15|Scottish Premiership|domestic-league|St Johnstone|0|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-16|Scottish Premiership|domestic-league|Celtic|2|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-16|Scottish Premiership|domestic-league|Dundee United|2|4|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-29|Scottish Premiership|domestic-league|Aberdeen|4|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-29|Scottish Premiership|domestic-league|Celtic|3|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-29|Scottish Premiership|domestic-league|Hibernian|3|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-29|Scottish Premiership|domestic-league|St Mirren|5|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-29|Scottish Premiership|domestic-league|Dundee|3|4|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-03-30|Scottish Premiership|domestic-league|Ross County|0|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-05|Scottish Premiership|domestic-league|Dundee|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-05|Scottish Premiership|domestic-league|Kilmarnock|2|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-05|Scottish Premiership|domestic-league|Rangers|0|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-05|Scottish Premiership|domestic-league|Ross County|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-06|Scottish Premiership|domestic-league|St Johnstone|1|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-06|Scottish Premiership|domestic-league|Hearts|0|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-12|Scottish Premiership|domestic-league|Celtic|5|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-12|Scottish Premiership|domestic-league|Dundee United|1|0|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-12|Scottish Premiership|domestic-league|Motherwell|0|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-12|Scottish Premiership|domestic-league|St Mirren|3|2|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-13|Scottish Premiership|domestic-league|Aberdeen|2|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-13|Scottish Premiership|domestic-league|Hibernian|4|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-26|Scottish Premiership|domestic-league|Dundee United|0|5|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-26|Scottish Premiership|domestic-league|Aberdeen|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-26|Scottish Premiership|domestic-league|Hearts|0|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-26|Scottish Premiership|domestic-league|Kilmarnock|2|0|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-26|Scottish Premiership|domestic-league|Motherwell|3|2|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-04-26|Scottish Premiership|domestic-league|St Mirren|2|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-03|Scottish Premiership|domestic-league|Dundee|1|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-03|Scottish Premiership|domestic-league|Hibernian|3|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-03|Scottish Premiership|domestic-league|Ross County|1|3|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-03|Scottish Premiership|domestic-league|St Johnstone|0|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-03|Scottish Premiership|domestic-league|St Mirren|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-04|Scottish Premiership|domestic-league|Rangers|1|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-10|Scottish Premiership|domestic-league|Celtic|3|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-10|Scottish Premiership|domestic-league|Dundee United|0|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-10|Scottish Premiership|domestic-league|Hearts|3|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-10|Scottish Premiership|domestic-league|Kilmarnock|3|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-10|Scottish Premiership|domestic-league|St Johnstone|2|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-11|Scottish Premiership|domestic-league|Rangers|4|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-14|Scottish Premiership|domestic-league|Dundee|1|1|Ross County|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-14|Scottish Premiership|domestic-league|Hearts|2|1|St Johnstone|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-14|Scottish Premiership|domestic-league|Motherwell|3|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-14|Scottish Premiership|domestic-league|Rangers|3|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-14|Scottish Premiership|domestic-league|St Mirren|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-14|Scottish Premiership|domestic-league|Aberdeen|1|5|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-17|Scottish Premiership|domestic-league|Celtic|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-17|Scottish Premiership|domestic-league|Dundee United|2|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-17|Scottish Premiership|domestic-league|Hibernian|2|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-18|Scottish Premiership|domestic-league|Kilmarnock|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-18|Scottish Premiership|domestic-league|Ross County|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-05-18|Scottish Premiership|domestic-league|St Johnstone|0|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-02|Scottish Premiership|domestic-league|Kilmarnock|2|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-02|Scottish Premiership|domestic-league|Motherwell|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-03|Scottish Premiership|domestic-league|Falkirk|2|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-03|Scottish Premiership|domestic-league|Dundee|1|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-03|Scottish Premiership|domestic-league|Celtic|1|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-04|Scottish Premiership|domestic-league|Hearts|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-09|Scottish Premiership|domestic-league|Livingston|3|1|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-09|Scottish Premiership|domestic-league|St Mirren|0|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-09|Scottish Premiership|domestic-league|Rangers|1|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-10|Scottish Premiership|domestic-league|Aberdeen|0|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-10|Scottish Premiership|domestic-league|Dundee United|2|3|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-10|Scottish Premiership|domestic-league|Hibernian|2|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-23|Scottish Premiership|domestic-league|Celtic|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-23|Scottish Premiership|domestic-league|Hearts|3|3|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-23|Scottish Premiership|domestic-league|Kilmarnock|0|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-24|Scottish Premiership|domestic-league|St Mirren|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-30|Scottish Premiership|domestic-league|Livingston|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-30|Scottish Premiership|domestic-league|Motherwell|2|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-31|Scottish Premiership|domestic-league|Rangers|0|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-31|Scottish Premiership|domestic-league|Dundee|0|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-31|Scottish Premiership|domestic-league|Aberdeen|0|1|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-08-31|Scottish Premiership|domestic-league|Hibernian|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-13|Scottish Premiership|domestic-league|Aberdeen|0|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-13|Scottish Premiership|domestic-league|Dundee|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-13|Scottish Premiership|domestic-league|Falkirk|1|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-13|Scottish Premiership|domestic-league|Rangers|0|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-13|Scottish Premiership|domestic-league|Hibernian|3|3|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-14|Scottish Premiership|domestic-league|Kilmarnock|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-20|Scottish Premiership|domestic-league|Dundee|3|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-23|Scottish Premiership|domestic-league|Dundee United|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-23|Scottish Premiership|domestic-league|Falkirk|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-27|Scottish Premiership|domestic-league|Celtic|0|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-27|Scottish Premiership|domestic-league|Dundee United|0|2|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-27|Scottish Premiership|domestic-league|Hearts|3|0|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-27|Scottish Premiership|domestic-league|St Mirren|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-27|Scottish Premiership|domestic-league|Motherwell|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-09-28|Scottish Premiership|domestic-league|Livingston|1|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-04|Scottish Premiership|domestic-league|Dundee United|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-04|Scottish Premiership|domestic-league|Kilmarnock|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-04|Scottish Premiership|domestic-league|Hearts|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-05|Scottish Premiership|domestic-league|Aberdeen|4|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-05|Scottish Premiership|domestic-league|Celtic|3|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-05|Scottish Premiership|domestic-league|Falkirk|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-18|Scottish Premiership|domestic-league|Hibernian|4|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-18|Scottish Premiership|domestic-league|Motherwell|1|2|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-18|Scottish Premiership|domestic-league|Rangers|2|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-18|Scottish Premiership|domestic-league|St Mirren|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-18|Scottish Premiership|domestic-league|Kilmarnock|0|3|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-19|Scottish Premiership|domestic-league|Dundee|2|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-25|Scottish Premiership|domestic-league|Dundee United|3|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-25|Scottish Premiership|domestic-league|Falkirk|2|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-25|Scottish Premiership|domestic-league|Livingston|1|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-26|Scottish Premiership|domestic-league|Hearts|3|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-26|Scottish Premiership|domestic-league|Aberdeen|1|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-26|Scottish Premiership|domestic-league|Rangers|3|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-29|Scottish Premiership|domestic-league|Celtic|4|0|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-29|Scottish Premiership|domestic-league|Hibernian|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-29|Scottish Premiership|domestic-league|Kilmarnock|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-29|Scottish Premiership|domestic-league|Motherwell|2|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-10-29|Scottish Premiership|domestic-league|St Mirren|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-01|Scottish Premiership|domestic-league|Falkirk|3|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-01|Scottish Premiership|domestic-league|Hearts|4|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-01|Scottish Premiership|domestic-league|Livingston|2|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-08|Scottish Premiership|domestic-league|Falkirk|1|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-08|Scottish Premiership|domestic-league|St Mirren|0|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-09|Scottish Premiership|domestic-league|Aberdeen|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-09|Scottish Premiership|domestic-league|Dundee|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-09|Scottish Premiership|domestic-league|Hearts|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-09|Scottish Premiership|domestic-league|Celtic|4|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-22|Scottish Premiership|domestic-league|Dundee United|0|3|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-22|Scottish Premiership|domestic-league|Hibernian|2|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-22|Scottish Premiership|domestic-league|Kilmarnock|1|3|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-22|Scottish Premiership|domestic-league|Rangers|2|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-22|Scottish Premiership|domestic-league|St Mirren|0|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-23|Scottish Premiership|domestic-league|Aberdeen|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-25|Scottish Premiership|domestic-league|Motherwell|2|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-29|Scottish Premiership|domestic-league|Dundee|3|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-29|Scottish Premiership|domestic-league|Motherwell|0|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-29|Scottish Premiership|domestic-league|Kilmarnock|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-30|Scottish Premiership|domestic-league|Hibernian|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-30|Scottish Premiership|domestic-league|Rangers|0|0|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-11-30|Scottish Premiership|domestic-league|Livingston|0|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-03|Scottish Premiership|domestic-league|Aberdeen|3|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-03|Scottish Premiership|domestic-league|Celtic|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-03|Scottish Premiership|domestic-league|Dundee United|2|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-03|Scottish Premiership|domestic-league|Falkirk|0|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-03|Scottish Premiership|domestic-league|Hearts|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-06|Scottish Premiership|domestic-league|Dundee|1|3|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-06|Scottish Premiership|domestic-league|Hibernian|3|0|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-06|Scottish Premiership|domestic-league|Motherwell|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-06|Scottish Premiership|domestic-league|St Mirren|2|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-06|Scottish Premiership|domestic-league|Kilmarnock|0|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-07|Scottish Premiership|domestic-league|Celtic|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-13|Scottish Premiership|domestic-league|Dundee United|0|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-13|Scottish Premiership|domestic-league|Livingston|2|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-13|Scottish Premiership|domestic-league|Falkirk|0|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-14|Scottish Premiership|domestic-league|Aberdeen|2|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-15|Scottish Premiership|domestic-league|Rangers|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-17|Scottish Premiership|domestic-league|Dundee United|2|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-20|Scottish Premiership|domestic-league|Dundee United|1|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-20|Scottish Premiership|domestic-league|Kilmarnock|0|1|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-20|Scottish Premiership|domestic-league|Motherwell|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-20|Scottish Premiership|domestic-league|St Mirren|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-21|Scottish Premiership|domestic-league|Hearts|2|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-21|Scottish Premiership|domestic-league|Celtic|3|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-27|Scottish Premiership|domestic-league|Hibernian|3|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-27|Scottish Premiership|domestic-league|Dundee|1|0|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-27|Scottish Premiership|domestic-league|Livingston|2|4|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-27|Scottish Premiership|domestic-league|Rangers|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-27|Scottish Premiership|domestic-league|St Mirren|0|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-27|Scottish Premiership|domestic-league|Aberdeen|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-30|Scottish Premiership|domestic-league|Dundee|2|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-30|Scottish Premiership|domestic-league|Hibernian|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-30|Scottish Premiership|domestic-league|Livingston|1|3|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-30|Scottish Premiership|domestic-league|Rangers|2|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2025-12-30|Scottish Premiership|domestic-league|Motherwell|2|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-03|Scottish Premiership|domestic-league|Celtic|1|3|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-03|Scottish Premiership|domestic-league|Dundee United|0|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-03|Scottish Premiership|domestic-league|Falkirk|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-03|Scottish Premiership|domestic-league|Hearts|1|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-03|Scottish Premiership|domestic-league|Kilmarnock|1|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-03|Scottish Premiership|domestic-league|Motherwell|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-06|Scottish Premiership|domestic-league|Rangers|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-10|Scottish Premiership|domestic-league|Celtic|4|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-10|Scottish Premiership|domestic-league|Hibernian|1|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-10|Scottish Premiership|domestic-league|Livingston|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-10|Scottish Premiership|domestic-league|St Mirren|0|2|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-11|Scottish Premiership|domestic-league|Dundee|0|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-11|Scottish Premiership|domestic-league|Aberdeen|0|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-14|Scottish Premiership|domestic-league|Falkirk|0|1|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-14|Scottish Premiership|domestic-league|Hearts|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-20|Scottish Premiership|domestic-league|Livingston|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-24|Scottish Premiership|domestic-league|Aberdeen|6|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-24|Scottish Premiership|domestic-league|Falkirk|4|1|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-24|Scottish Premiership|domestic-league|Motherwell|4|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-25|Scottish Premiership|domestic-league|Hearts|2|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-25|Scottish Premiership|domestic-league|Rangers|3|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-31|Scottish Premiership|domestic-league|Kilmarnock|3|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-31|Scottish Premiership|domestic-league|Livingston|0|2|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-31|Scottish Premiership|domestic-league|St Mirren|0|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-01-31|Scottish Premiership|domestic-league|Dundee United|0|3|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-01|Scottish Premiership|domestic-league|Hibernian|0|0|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-01|Scottish Premiership|domestic-league|Celtic|2|0|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-03|Scottish Premiership|domestic-league|St Mirren|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-04|Scottish Premiership|domestic-league|Hibernian|3|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-04|Scottish Premiership|domestic-league|Livingston|1|2|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-04|Scottish Premiership|domestic-league|Rangers|5|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-10|Scottish Premiership|domestic-league|Hearts|1|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-11|Scottish Premiership|domestic-league|Celtic|2|1|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-11|Scottish Premiership|domestic-league|Falkirk|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-11|Scottish Premiership|domestic-league|Kilmarnock|4|3|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-11|Scottish Premiership|domestic-league|Motherwell|1|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-14|Scottish Premiership|domestic-league|Dundee|2|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-14|Scottish Premiership|domestic-league|Falkirk|2|3|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-14|Scottish Premiership|domestic-league|Hibernian|2|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-15|Scottish Premiership|domestic-league|Kilmarnock|2|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-15|Scottish Premiership|domestic-league|Motherwell|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-15|Scottish Premiership|domestic-league|Rangers|4|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-21|Scottish Premiership|domestic-league|Aberdeen|2|3|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-21|Scottish Premiership|domestic-league|Dundee United|1|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-21|Scottish Premiership|domestic-league|Hearts|1|0|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-21|Scottish Premiership|domestic-league|St Mirren|0|5|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-22|Scottish Premiership|domestic-league|Celtic|1|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-22|Scottish Premiership|domestic-league|Livingston|2|2|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-24|Scottish Premiership|domestic-league|Dundee United|0|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-28|Scottish Premiership|domestic-league|Dundee|3|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-28|Scottish Premiership|domestic-league|Falkirk|5|1|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-28|Scottish Premiership|domestic-league|Hearts|1|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-28|Scottish Premiership|domestic-league|Livingston|1|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-02-28|Scottish Premiership|domestic-league|Motherwell|2|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-01|Scottish Premiership|domestic-league|Rangers|2|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-03|Scottish Premiership|domestic-league|Dundee United|2|1|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-04|Scottish Premiership|domestic-league|Aberdeen|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-07|Scottish Premiership|domestic-league|Dundee|2|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-14|Scottish Premiership|domestic-league|Aberdeen|1|1|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-14|Scottish Premiership|domestic-league|Celtic|3|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-14|Scottish Premiership|domestic-league|Hibernian|0|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-14|Scottish Premiership|domestic-league|Kilmarnock|1|0|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-15|Scottish Premiership|domestic-league|St Mirren|0|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-15|Scottish Premiership|domestic-league|Dundee|2|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-21|Scottish Premiership|domestic-league|Falkirk|1|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-21|Scottish Premiership|domestic-league|Hearts|1|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-21|Scottish Premiership|domestic-league|Kilmarnock|2|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-21|Scottish Premiership|domestic-league|Motherwell|0|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-21|Scottish Premiership|domestic-league|Rangers|4|1|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-03-22|Scottish Premiership|domestic-league|Dundee United|2|0|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-04|Scottish Premiership|domestic-league|Hibernian|3|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-04|Scottish Premiership|domestic-league|Motherwell|2|3|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-04|Scottish Premiership|domestic-league|Rangers|4|2|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-04|Scottish Premiership|domestic-league|St Mirren|2|0|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-05|Scottish Premiership|domestic-league|Livingston|2|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-05|Scottish Premiership|domestic-league|Dundee|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-11|Scottish Premiership|domestic-league|Aberdeen|2|0|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-11|Scottish Premiership|domestic-league|Celtic|1|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-11|Scottish Premiership|domestic-league|Dundee United|3|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-11|Scottish Premiership|domestic-league|Hearts|3|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-11|Scottish Premiership|domestic-league|Kilmarnock|2|2|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-12|Scottish Premiership|domestic-league|Falkirk|3|6|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-25|Scottish Premiership|domestic-league|Aberdeen|1|0|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-25|Scottish Premiership|domestic-league|St Mirren|0|2|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-25|Scottish Premiership|domestic-league|Celtic|3|1|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-26|Scottish Premiership|domestic-league|Dundee United|3|0|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-26|Scottish Premiership|domestic-league|Rangers|2|3|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-04-26|Scottish Premiership|domestic-league|Hibernian|1|2|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-01|Scottish Premiership|domestic-league|Livingston|2|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-02|Scottish Premiership|domestic-league|Dundee|1|0|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-02|Scottish Premiership|domestic-league|Falkirk|1|0|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-02|Scottish Premiership|domestic-league|Kilmarnock|3|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-03|Scottish Premiership|domestic-league|Hibernian|1|2|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-04|Scottish Premiership|domestic-league|Hearts|2|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-09|Scottish Premiership|domestic-league|Aberdeen|2|0|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-09|Scottish Premiership|domestic-league|Dundee|3|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-09|Scottish Premiership|domestic-league|Falkirk|1|3|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-09|Scottish Premiership|domestic-league|St Mirren|0|3|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-09|Scottish Premiership|domestic-league|Motherwell|1|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-10|Scottish Premiership|domestic-league|Celtic|3|1|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-12|Scottish Premiership|domestic-league|Aberdeen|0|2|St Mirren|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-12|Scottish Premiership|domestic-league|Dundee United|0|0|Livingston|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-12|Scottish Premiership|domestic-league|Kilmarnock|3|1|Dundee|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-13|Scottish Premiership|domestic-league|Hearts|3|0|Falkirk|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-13|Scottish Premiership|domestic-league|Motherwell|2|3|Celtic|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-13|Scottish Premiership|domestic-league|Rangers|1|2|Hibernian|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-16|Scottish Premiership|domestic-league|Celtic|3|1|Hearts|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-16|Scottish Premiership|domestic-league|Falkirk|2|5|Rangers|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-16|Scottish Premiership|domestic-league|Hibernian|0|1|Motherwell|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-17|Scottish Premiership|domestic-league|Dundee|3|2|Aberdeen|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-17|Scottish Premiership|domestic-league|Livingston|1|4|Kilmarnock|RS|Stadium|City|Scotland||rsssf-scot
+MATCH|2026-05-17|Scottish Premiership|domestic-league|St Mirren|1|1|Dundee United|RS|Stadium|City|Scotland||rsssf-scot
+END

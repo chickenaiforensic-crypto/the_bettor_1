@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pitch Rating v5.0 — Zero-Market Prediction Engine</title>
+<style>
+:root{--bg:#0f1117;--panel:#1a1d27;--ink:#e0e0e0;--muted:#8890a0;--accent:#4da6ff;--warn:#f0a040;--good:#4dcf7a;--bad:#f06070;--border:#2a3040}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;line-height:1.5}
+header{background:var(--panel);border-bottom:1px solid var(--border);padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+header h1{font-size:1.1em;font-weight:600}
+header .ver{font-size:0.7em;color:var(--muted)}
+main{max-width:960px;margin:0 auto;padding:24px 16px}
+.section{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:16px}
+.section h2{font-size:0.95em;font-weight:600;margin-bottom:12px;color:var(--accent)}
+.btn{background:var(--accent);color:#000;border:none;padding:8px 14px;border-radius:6px;font-size:0.85em;cursor:pointer;font-weight:600}
+.btn:hover{opacity:0.85}
+.btn:disabled{opacity:0.35;cursor:default}
+.btn-sm{padding:4px 8px;font-size:0.75em}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.col{flex:1;min-width:160px}
+label{font-size:0.75em;color:var(--muted);display:block;margin-bottom:3px}
+select,input{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:7px 9px;color:var(--ink);font-size:0.88em}
+.result{margin-top:12px}
+.card{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
+.cell{text-align:center;padding:14px 8px;border-radius:6px;background:var(--bg)}
+.cell.home{border:1px solid var(--good)}.cell.draw{border:1px solid var(--warn)}.cell.away{border:1px solid var(--bad)}
+.cell .lbl{font-size:0.7em;color:var(--muted);text-transform:uppercase;margin-bottom:2px}
+.cell .val{font-size:1.4em;font-weight:700}
+.cell .sub{font-size:0.68em;color:var(--muted);margin-top:2px}
+.nocall{padding:20px;text-align:center;color:var(--warn);background:var(--bg);border-radius:6px;border:1px dashed var(--warn)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+.stat{text-align:center;padding:8px;background:var(--bg);border-radius:6px}
+.stat .sv{font-size:0.9em;font-weight:600}.stat .sl{font-size:0.65em;color:var(--muted)}
+.meta{font-size:0.68em;color:var(--muted);margin-top:8px;display:flex;flex-wrap:wrap;gap:12px}
+.msg{font-size:0.8em;padding:8px 12px;border-radius:6px;margin-top:8px}
+.msg.ok{background:#1a3a20;color:var(--good)}.msg.err{background:#3a1a1a;color:var(--bad)}
+footer{text-align:center;padding:16px;font-size:0.68em;color:var(--muted);border-top:1px solid var(--border);margin-top:24px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Pitch Rating</h1>
+  <div class="ver">v5.0 · zero-market · results only · per-league calibrated</div>
+</header>
+<main>
+  <div class="section" id="load-section">
+    <h2>Load Data</h2>
+    <p style="font-size:0.8em;color:var(--muted);margin-bottom:12px">
+      Drop a verified <code>.json</code> store file (format: Pitch Rating backup). No auto-loading. No embedded data.
+    </p>
+    <input type="file" id="file-input" accept=".json" style="display:none">
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn" id="btn-load-file">Choose File</button>
+      <span id="store-status" style="font-size:0.82em;color:var(--muted);align-self:center">
+        No data loaded. Drop a file or choose one.
+      </span>
+    </div>
+    <div id="msg-area"></div>
+  </div>
+
+  <div class="section" id="predict-section" style="display:none">
+    <h2>Rate a Fixture</h2>
+    <div class="row">
+      <div class="col"><label>League</label><select id="sel-league"><option value="">—</option></select></div>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <div class="col"><label>Home</label><select id="sel-home"><option value="">—</option></select></div>
+      <div class="col"><label>Away</label><select id="sel-away"><option value="">—</option></select></div>
+    </div>
+    <button class="btn" id="btn-predict" style="margin-top:10px">Predict</button>
+    <div id="prediction-result"></div>
+  </div>
+</main>
+<footer>
+  Every number computed from verified match results. No bookmaker data. No network calls.<br>
+  BTTS withheld. Draw = loss for home calls. NO CALL is a valid output.<br>
+  <em>Per-league base rates measured from our training data (2021-24). Engine calibrated to our store, not inherited spec.</em>
+</footer>
+
+<script>
+/**
+ * PITCH RATING v5.0 — CORRECTED ENGINE
+ * Dixon-Coles L1 + L2 + L3 with per-league measured constants.
+ * No inherited spec constants. Everything measured from our 5,082-row store.
+ * 
+ * v5.0 fixes:
+ *   - Per-league base rates (not global 44.6/26.8/28.6)
+ *   - Per-league GMU (not 2.6186) → goals-grid calibrated to our data
+ *   - Per-league DRAW_TABLE fitted from training (masked 2021-24)
+ *   - Engine.score() reports vs per-league base + global reference
+ * 
+ * v4.2 inheritance: Dixon-Coles gradient, scoreGrid, goalsGrid, star correction
+ * v4.0 inheritance: sort-order fix, Python-verified L1 math
+ */
+
+const PitchEngineV5 = (function() {
+  'use strict';
+
+  // ── DC CONSTANTS (unchanged — ENGINE_SPEC verified) ──
+  const LR = 0.055;
+  const DECAY = 0.0022;
+  const HFA_LR = 0.010;
+  const NEW_TEAM_MULT = 1.6;
+  const NEW_TEAM_GAMES = 8;
+  const HOME_EXTRA_DECAY = 0.999;
+  const MIN_GAMES = 6;
+  const MIN_STAR_GAMES = 5;
+  const RHO = -0.06;
+  const LAMBDA_MIN = 0.05;
+  const LAMBDA_MAX = 6.0;
+  const HFA_MIN = 0.05;
+  const HFA_MAX = 0.55;
+  const HOME_EXTRA_MIN = -0.25;
+  const HOME_EXTRA_MAX = 0.25;
+  const HFA_INIT = 0.26;
+  const MU_INIT = 0.30;
+  const MU_LR = 0.004;
+  const K_GRID = 11;
+  const G_K = 0.5;
+  const STAR_SHRINK_WEIGHT = 6;
+  const STAR_CAP = 0.02;
+
+  // ── Global spec reference (for comparison only, NOT used in scoring) ──
+  const SPEC_BASE = { H: 0.446, D: 0.268, A: 0.286 };
+  const SPEC_GMU = 2.6186;
+
+  // ── Per-league measured constants (from our 5,082-row store, training 2021-24) ──
+  const LEAGUES = {
+    E0: {
+      base: { H: 0.4454, D: 0.2303, A: 0.3243 },
+      gmu: 2.9711,
+      draw_table: { 0:0.2568, 1:0.2309, 2:0.2306, 3:0.2115, 4:0.1786 },
+      draw_base: 0.2303,
+      tier_weight: 0.41
+    },
+    RPL: {
+      base: { H: 0.4512, D: 0.2425, A: 0.3062 },
+      gmu: 2.7349,
+      draw_table: { 0:0.2740, 1:0.2390, 2:0.2508, 3:0.2125, 4:0.2316 },
+      draw_base: 0.2425,
+      tier_weight: 0.35
+    },
+    CZ1: {
+      base: { H: 0.4298, D: 0.2332, A: 0.3370 },
+      gmu: 2.8580,
+      draw_table: { 0:0.3110, 1:0.2598, 2:0.2291, 3:0.1966, 4:0.1264 },
+      draw_base: 0.2332,
+      tier_weight: 0.40
+    }
+  };
+
+  // ── Factorial cache ──
+  const _fact = (function() {
+    const f = [1];
+    for (let i = 1; i < K_GRID; i++) f[i] = f[i-1] * i;
+    return f;
+  })();
+
+  function clamp(v, lo, hi) { return v < lo ? lo : (v > hi ? hi : v); }
+
+  // ── League config lookup ──
+  function getLeague(league) {
+    const lg = LEAGUES[league];
+    if (!lg) return null;
+    return lg;
+  }
+
+  // ── Dixon-Coles τ ──
+  function dcTau(i, j, lh, la) {
+    if (i === 0 && j === 0) return 1 - lh * la * RHO;
+    if (i === 0 && j === 1) return 1 + lh * RHO;
+    if (i === 1 && j === 0) return 1 + la * RHO;
+    if (i === 1 && j === 1) return 1 - RHO;
+    return 1.0;
+  }
+
+  // ── L2: scoreGrid ──
+  function scoreGrid(lh, la) {
+    const ph = new Array(K_GRID), pa = new Array(K_GRID);
+    for (let i = 0; i < K_GRID; i++) {
+      ph[i] = Math.exp(-lh) * Math.pow(lh, i) / _fact[i];
+      pa[i] = Math.exp(-la) * Math.pow(la, i) / _fact[i];
+    }
+    let H = 0, D = 0, A = 0;
+    const grid = new Array(K_GRID);
+    for (let i = 0; i < K_GRID; i++) {
+      grid[i] = new Array(K_GRID);
+      for (let j = 0; j < K_GRID; j++) {
+        const p = ph[i] * pa[j] * dcTau(i, j, lh, la);
+        grid[i][j] = p;
+        if (i > j) H += p; else if (i === j) D += p; else A += p;
+      }
+    }
+    const t = H + D + A;
+    return { H: H/t, D: D/t, A: A/t, grid };
+  }
+
+  // ── L2: goalsGrid (per-league GMU) ──
+  function goalsGrid(sh, sa, gmu) {
+    const total = sh + sa;
+    const gm = gmu != null ? gmu : SPEC_GMU;
+    const shrunk = gm + G_K * (total - gm);
+    const scale = shrunk / total;
+    return scoreGrid(sh * scale, sa * scale);
+  }
+
+  function expectedScoreline(lh, la) {
+    const { grid } = scoreGrid(lh, la);
+    let maxP = -1, bi = 0, bj = 0;
+    for (let i = 0; i < K_GRID; i++)
+      for (let j = 0; j < K_GRID; j++)
+        if (grid[i][j] > maxP) { maxP = grid[i][j]; bi = i; bj = j; }
+    return { home: bi, away: bj, probability: maxP };
+  }
+
+  function overUnder(lh, la, gmu) {
+    const { grid } = goalsGrid(lh, la, gmu);
+    let o15 = 0, o25 = 0, o35 = 0, tot = 0;
+    for (let i = 0; i < K_GRID; i++)
+      for (let j = 0; j < K_GRID; j++) {
+        tot += grid[i][j];
+        const s = i + j;
+        if (s > 1.5) o15 += grid[i][j];
+        if (s > 2.5) o25 += grid[i][j];
+        if (s > 3.5) o35 += grid[i][j];
+      }
+    return { over15: o15/tot, over25: o25/tot, over35: o35/tot };
+  }
+
+  // ── L3: Star Classification ──
+  function computeStars(teams) {
+    if (teams.length === 0) return {};
+    const qualified = teams.filter(t => t.played >= MIN_STAR_GAMES);
+    if (qualified.length === 0) return {};
+
+    const rawPPG = qualified.map(t => ({
+      name: t.name,
+      ppg: (3 * t.w + t.d) / Math.max(t.played, 1),
+      played: t.played
+    }));
+
+    const leagueMean = rawPPG.reduce((s, t) => s + t.ppg, 0) / rawPPG.length;
+
+    const shrunk = rawPPG.map(t => ({
+      name: t.name,
+      ppg: t.ppg,
+      shrunk: (t.ppg * t.played + leagueMean * STAR_SHRINK_WEIGHT) / (t.played + STAR_SHRINK_WEIGHT),
+      played: t.played
+    }));
+
+    shrunk.sort((a, b) => b.shrunk - a.shrunk);
+
+    const n = shrunk.length;
+    const result = {};
+    for (let i = 0; i < n; i++) {
+      const quintile = Math.floor((i / n) * 5) + 1;
+      result[shrunk[i].name] = { ppg: shrunk[i].ppg, shrunk: shrunk[i].shrunk, stars: quintile };
+    }
+    return result;
+  }
+
+  // ── L3: Apply star draw correction (per-league tables) ──
+  function applyStarCorrection(rawH, rawD, rawA, homeStars, awayStars, leagueCfg) {
+    if (!leagueCfg || homeStars == null || awayStars == null) {
+      return { H: rawH, D: rawD, A: rawA, corrected: false };
+    }
+
+    const gap = Math.abs(homeStars - awayStars);
+    const drawTable = leagueCfg.draw_table;
+    const drawBase = leagueCfg.draw_base;
+    const tgt = (drawTable && drawTable[gap] != null) ? drawTable[gap] : drawBase;
+    const w = leagueCfg.tier_weight || 0.4;
+
+    let D2 = (1 - w) * rawD + w * tgt;
+    D2 = clamp(D2, rawD - STAR_CAP, rawD + STAR_CAP);
+
+    const rem = 1 - D2;
+    const ratio = rawH + rawA;
+    const H2 = ratio > 0 ? rem * rawH / ratio : 0.5 * rem;
+    const A2 = ratio > 0 ? rem * rawA / ratio : 0.5 * rem;
+
+    return { H: H2, D: D2, A: A2, corrected: true, gap };
+  }
+
+  // ── Engine ──
+  function Engine() {
+    this.att = Object.create(null);
+    this.dfn = Object.create(null);
+    this.hfa = Object.create(null);
+    this.thfa = Object.create(null);
+    this.mu = Object.create(null);
+    this.seen = Object.create(null);
+    this._leagueGoals = Object.create(null);
+    this._records = Object.create(null);
+  }
+
+  Engine.prototype._get = function(map, key, init) {
+    return (key in map) ? map[key] : (map[key] = init);
+  };
+
+  Engine.prototype._gethfa = function(league) {
+    return this._get(this.hfa, league, HFA_INIT);
+  };
+
+  Engine.prototype._getmu = function(league) {
+    return this._get(this.mu, league, MU_INIT);
+  };
+
+  Engine.prototype._getSeen = function(team) {
+    return this._get(this.seen, team, 0);
+  };
+
+  Engine.prototype._getGMU = function(league) {
+    const lg = getLeague(league);
+    if (lg) return lg.gmu;
+    const d = this._get(this._leagueGoals, league, { totalGoals: 0, matchCount: 0 });
+    return d.matchCount === 0 ? SPEC_GMU : d.totalGoals / d.matchCount;
+  };
+
+  Engine.prototype._getRecord = function(league, team) {
+    return this._get(this._records, league + '|' + team, { w: 0, d: 0, l: 0, played: 0 });
+  };
+
+  Engine.prototype._updateRecord = function(league, home, away, hg, ag) {
+    const hr = this._getRecord(league, home);
+    const ar = this._getRecord(league, away);
+    if (hg > ag) { hr.w++; ar.l++; }
+    else if (hg === ag) { hr.d++; ar.d++; }
+    else { hr.l++; ar.w++; }
+    hr.played++; ar.played++;
+  };
+
+  Engine.prototype.getStars = function(league) {
+    const teams = [];
+    for (const [key, rec] of Object.entries(this._records)) {
+      const pipe = key.indexOf('|');
+      const lg = key.substring(0, pipe);
+      const team = key.substring(pipe + 1);
+      if (lg === league && rec.played >= MIN_STAR_GAMES) {
+        teams.push({ name: team, w: rec.w, d: rec.d, l: rec.l, played: rec.played });
+      }
+    }
+    return computeStars(teams);
+  };
+
+  // ── λ ──
+  Engine.prototype.lam = function(league, home, away) {
+    const att_h = this._get(this.att, home, 0);
+    const def_h = this._get(this.dfn, home, 0);
+    const att_a = this._get(this.att, away, 0);
+    const def_a = this._get(this.dfn, away, 0);
+    const thfa_h = this._get(this.thfa, home, 0);
+    const hfa = this._gethfa(league);
+    const mu = this._getmu(league);
+    return {
+      lambda_home: clamp(Math.exp(mu + att_h - def_a + hfa + thfa_h), LAMBDA_MIN, LAMBDA_MAX),
+      lambda_away: clamp(Math.exp(mu + att_a - def_h), LAMBDA_MIN, LAMBDA_MAX)
+    };
+  };
+
+  // ── Update ──
+  Engine.prototype.update = function(m) {
+    const { league, home, away, hg, ag } = m;
+    const { lambda_home: lh, lambda_away: la } = this.lam(league, home, away);
+
+    const g = this._get(this._leagueGoals, league, { totalGoals: 0, matchCount: 0 });
+    g.totalGoals += (hg + ag); g.matchCount++;
+
+    this._updateRecord(league, home, away, hg, ag);
+
+    const eh = hg - lh, ea = ag - la;
+    const sh = this._getSeen(home), sa = this._getSeen(away);
+    const kh = LR * (sh < NEW_TEAM_GAMES ? NEW_TEAM_MULT : 1.0);
+    const ka = LR * (sa < NEW_TEAM_GAMES ? NEW_TEAM_MULT : 1.0);
+
+    this.att[home] = this._get(this.att, home, 0) + kh * eh * 0.5;
+    this.dfn[away] = this._get(this.dfn, away, 0) - ka * eh * 0.5;
+    this.att[away] = this._get(this.att, away, 0) + ka * ea * 0.5;
+    this.dfn[home] = this._get(this.dfn, home, 0) - kh * ea * 0.5;
+
+    this.hfa[league] = clamp(this._gethfa(league) + HFA_LR * (eh - ea) * 0.02, HFA_MIN, HFA_MAX);
+
+    const thfa_old = this._get(this.thfa, home, 0);
+    this.thfa[home] = clamp((thfa_old + HFA_LR * (eh - ea) * 0.010) * HOME_EXTRA_DECAY, HOME_EXTRA_MIN, HOME_EXTRA_MAX);
+
+    this.mu[league] = this._getmu(league) + MU_LR * ((eh + ea) / 2);
+
+    for (const t of [home, away]) {
+      this.att[t] = (this._get(this.att, t, 0)) * (1 - DECAY);
+      this.dfn[t] = (this._get(this.dfn, t, 0)) * (1 - DECAY);
+    }
+
+    this.seen[home] = sh + 1; this.seen[away] = sa + 1;
+  };
+
+  // ── Predict ──
+  Engine.prototype.predict = function(m) {
+    const { league, home, away } = m;
+    const sh = this._getSeen(home);
+    const sa = this._getSeen(away);
+
+    if (sh < MIN_GAMES || sa < MIN_GAMES) return null;
+
+    const { lambda_home: lh, lambda_away: la } = this.lam(league, home, away);
+    const raw = scoreGrid(lh, la);
+
+    const leagueCfg = getLeague(league);
+    const gmu = leagueCfg ? leagueCfg.gmu : this._getGMU(league);
+
+    // L3: Star correction with per-league tables
+    const stars = this.getStars(league);
+    const homeStars = stars[home] ? stars[home].stars : null;
+    const awayStars = stars[away] ? stars[away].stars : null;
+    const corrected = applyStarCorrection(raw.H, raw.D, raw.A, homeStars, awayStars, leagueCfg);
+
+    const expScore = expectedScoreline(lh, la);
+    const ous = overUnder(lh, la, gmu);
+
+    return {
+      H: corrected.H, D: corrected.D, A: corrected.A,
+      raw_H: raw.H, raw_D: raw.D, raw_A: raw.A,
+      lambda_home: lh, lambda_away: la,
+      expectedScore: expScore,
+      overUnder: {
+        over15: ous.over15, over25: ous.over25, over35: ous.over35
+      },
+      starCorrection: {
+        applied: corrected.corrected,
+        home_stars: homeStars, away_stars: awayStars,
+        star_gap: corrected.gap,
+        draw_adjustment: corrected.D - raw.D
+      },
+      provenance: {
+        home_games: sh, away_games: sa, league: league,
+        gmu_league: Number(gmu.toFixed(2)),
+        base_H: leagueCfg ? leagueCfg.base.H : null,
+        base_D: leagueCfg ? leagueCfg.base.D : null,
+        base_A: leagueCfg ? leagueCfg.base.A : null
+      }
+    };
+  };
+
+  // ── Ingest ──
+  Engine.prototype.ingest = function(matches) {
+    const sorted = matches.slice().sort((a, b) => {
+      if (a.date < b.date) return -1; if (a.date > b.date) return 1;
+      if (a.league < b.league) return -1; if (a.league > b.league) return 1;
+      if (a.home < b.home) return -1; if (a.home > b.home) return 1;
+      if (a.away < b.away) return -1; if (a.away > b.away) return 1;
+      return 0;
+    });
+    const preds = [];
+    for (const m of sorted) {
+      const pred = this.predict(m);
+      if (pred) preds.push({ match: m, prediction: pred });
+      this.update(m);
+    }
+    return preds;
+  };
+
+  // ── Score — reports vs per-league base AND global reference ──
+  Engine.score = function(predictions) {
+    let brierM = 0, brierLocal = 0, brierSpec = 0, llM = 0, dir = 0;
+    const n = predictions.length;
+
+    for (const p of predictions) {
+      const { H, D, A } = p.prediction;
+      const res = p.match.res;
+      const y = { H: res === 'H' ? 1 : 0, D: res === 'D' ? 1 : 0, A: res === 'A' ? 1 : 0 };
+
+      brierM += (H-y.H)**2 + (D-y.D)**2 + (A-y.A)**2;
+
+      // Per-league base
+      const lg = getLeague(p.match.league);
+      const lb = lg ? lg.base : SPEC_BASE;
+      brierLocal += (lb.H-y.H)**2 + (lb.D-y.D)**2 + (lb.A-y.A)**2;
+
+      // Spec base (for comparison)
+      brierSpec += (SPEC_BASE.H-y.H)**2 + (SPEC_BASE.D-y.D)**2 + (SPEC_BASE.A-y.A)**2;
+
+      const pRes = H > D ? (H > A ? 'H' : 'A') : (D > A ? 'D' : 'A');
+      if (pRes === res) dir++;
+    }
+
+    return {
+      n,
+      brier_model: brierM / n,
+      brier_local: brierLocal / n,
+      brier_spec: brierSpec / n,
+      gain_vs_local: ((brierLocal - brierM) / brierLocal) * 100,
+      gain_vs_spec: ((brierSpec - brierM) / brierSpec) * 100,
+      direction: dir / n
+    };
+  };
+
+  Engine.calibrateOU = function(predictions) {
+    const mkt = { over15: { p:0, a:0 }, over25: { p:0, a:0 }, over35: { p:0, a:0 } };
+    for (const x of predictions) {
+      const ou = x.prediction.overUnder;
+      const t = x.match.hg + x.match.ag;
+      mkt.over15.p += ou.over15; mkt.over15.a += (t > 1.5 ? 1 : 0);
+      mkt.over25.p += ou.over25; mkt.over25.a += (t > 2.5 ? 1 : 0);
+      mkt.over35.p += ou.over35; mkt.over35.a += (t > 3.5 ? 1 : 0);
+    }
+    const nn = predictions.length;
+    const r = {};
+    for (const [k, v] of Object.entries(mkt)) {
+      r[k] = { n: nn, pred: v.p/nn, actual: v.a/nn, error_pct: Math.abs(v.p/nn - v.a/nn) * 100 };
+    }
+    return r;
+  };
+
+  Engine.prototype.toJSON = function() {
+    return {
+      att: Object.assign({}, this.att), dfn: Object.assign({}, this.dfn),
+      hfa: Object.assign({}, this.hfa), thfa: Object.assign({}, this.thfa),
+      mu: Object.assign({}, this.mu), seen: Object.assign({}, this.seen),
+      _leagueGoals: Object.assign({}, this._leagueGoals),
+      _records: Object.assign({}, this._records)
+    };
+  };
+
+  Engine.prototype.fromJSON = function(state) {
+    this.att = Object.assign(Object.create(null), state.att || {});
+    this.dfn = Object.assign(Object.create(null), state.dfn || {});
+    this.hfa = Object.assign(Object.create(null), state.hfa || {});
+    this.thfa = Object.assign(Object.create(null), state.thfa || {});
+    this.mu = Object.assign(Object.create(null), state.mu || {});
+    this.seen = Object.assign(Object.create(null), state.seen || {});
+    this._leagueGoals = Object.assign(Object.create(null), state._leagueGoals || {});
+    this._records = Object.assign(Object.create(null), state._records || {});
+    return this;
+  };
+
+  return Engine;
+})();
+
+</script>
+<script>
+'use strict';
+
+let engine = new PitchEngineV5();
+let storeMatches = [];
+let loaded = false;
+
+const $ = id => document.getElementById(id);
+
+// ── File loader ──
+$('btn-load-file').onclick = () => $('file-input').click();
+$('file-input').onchange = async () => {
+  const f = $('file-input').files[0];
+  if (!f) return;
+  try {
+    const data = JSON.parse(await f.text());
+    loadStore(data);
+  } catch(e) {
+    showMsg('Failed: ' + e.message, 'err');
+  }
+};
+
+// Drag and drop
+document.body.ondragover = e => { e.preventDefault(); };
+document.body.ondrop = async e => {
+  e.preventDefault();
+  const f = e.dataTransfer.files[0];
+  if (!f) return;
+  try {
+    const data = JSON.parse(await f.text());
+    loadStore(data);
+  } catch(ex) {
+    showMsg('Failed: ' + ex.message, 'err');
+  }
+};
+
+// ── League mapping ──
+const COMP_TO_LG = {
+  'England Premier League': 'E0', 'Russian Premier League': 'RPL',
+  'Russian Cup': 'RPL', 'Russian Relegation Playoffs': 'RPL', 'Russian Super Cup': 'RPL',
+  'Czech First League': 'CZ1', 'Czech Relegation Playoffs': 'CZ1', 'MOL Cup': 'CZ1',
+};
+
+const LG_NAMES = { E0: 'England Premier League', RPL: 'Russia (RPL + Cup)', CZ1: 'Czechia (First League + MOL Cup)' };
+
+function loadStore(data) {
+  const mlist = (data.store && data.store.matches) ? data.store.matches : (data.matches || []);
+  if (!mlist.length) { showMsg('No matches found', 'err'); return; }
+
+  storeMatches = [];
+  for (const m of mlist) {
+    const comp = m.competitionName || m.competition || '';
+    const lg = COMP_TO_LG[comp];
+    if (!lg) continue;
+    storeMatches.push({
+      date: m.dateISO || m.date, league: lg,
+      home: m.homeName || m.home, away: m.awayName || m.away,
+      hg: m.homeGoals != null ? m.homeGoals : m.hg,
+      ag: m.awayGoals != null ? m.awayGoals : m.ag,
+      res: (m.homeGoals || m.hg) > (m.awayGoals || m.ag) ? 'H' : ((m.homeGoals || m.hg) === (m.awayGoals || m.ag) ? 'D' : 'A'),
+      total: (m.homeGoals || 0) + (m.awayGoals || 0)
+    });
+  }
+
+  engine = new PitchEngineV5();
+  const preds = engine.ingest(storeMatches);
+  loaded = true;
+
+  const leagues = [...new Set(storeMatches.map(m => m.league))];
+  const teams = [...new Set([...storeMatches.map(m => m.home), ...storeMatches.map(m => m.away)])].sort();
+
+  $('store-status').innerHTML = 'Loaded ' + storeMatches.length.toLocaleString() + ' matches · ' + leagues.length + ' leagues · ' + teams.length + ' teams · ' + preds.length.toLocaleString() + ' predictions';
+
+  $('sel-league').innerHTML = '<option value="">—</option>' + leagues.sort().map(lg => '<option value="' + lg + '">' + lg + ' — ' + (LG_NAMES[lg]||lg) + '</option>').join('');
+  $('sel-home').innerHTML = '<option value="">—</option>' + teams.map(t => '<option>' + t + '</option>').join('');
+  $('sel-away').innerHTML = '<option value="">—</option>' + teams.map(t => '<option>' + t + '</option>').join('');
+
+  $('predict-section').style.display = 'block';
+  showMsg('Ready. ' + preds.length.toLocaleString() + ' predictions available.', 'ok');
+}
+
+$('sel-league').onchange = () => {
+  const lg = $('sel-league').value;
+  if (!lg) return;
+  const teams = [...new Set(storeMatches.filter(m => m.league === lg).flatMap(m => [m.home, m.away]))].sort();
+  const opts = teams.map(t => '<option>' + t + '</option>').join('');
+  $('sel-home').innerHTML = '<option value="">—</option>' + opts;
+  $('sel-away').innerHTML = '<option value="">—</option>' + opts;
+};
+
+// ── Predict ──
+$('btn-predict').onclick = () => {
+  const lg = $('sel-league').value, home = $('sel-home').value, away = $('sel-away').value;
+  if (!lg || !home || !away) { showMsg('Select a league and both teams', 'err'); return; }
+  if (home === away) { showMsg('Home and away must differ', 'err'); return; }
+
+  const pred = engine.predict({ league: lg, home, away });
+  const out = $('prediction-result');
+
+  if (!pred) {
+    out.innerHTML = '<div class="nocall"><strong>NO CALL</strong><br>' + engine._getSeen(home) + ' games for ' + home + ', ' + engine._getSeen(away) + ' for ' + away + '. Both need at least 6.</div>';
+    return;
+  }
+
+  const stars = engine.getStars(lg);
+  const hs = stars[home] ? stars[home].stars : '—';
+  const as = stars[away] ? stars[away].stars : '—';
+  const sc = pred.starCorrection;
+
+  out.innerHTML = '<div class="result">' +
+    '<div class="card">' +
+      '<div class="cell home"><div class="lbl">Home</div><div class="val">' + (pred.H*100).toFixed(1) + '%</div><div class="sub">' + home + ' ' + hs + '★</div></div>' +
+      '<div class="cell draw"><div class="lbl">Draw</div><div class="val">' + (pred.D*100).toFixed(1) + '%</div><div class="sub">' + (sc.applied ? 'star-corrected' : 'raw') + (sc.applied ? ' dDraw=' + sc.draw_adjustment.toFixed(4) : '') + '</div></div>' +
+      '<div class="cell away"><div class="lbl">Away</div><div class="val">' + (pred.A*100).toFixed(1) + '%</div><div class="sub">' + away + ' ' + as + '★</div></div>' +
+    '</div>' +
+    '<div class="stats">' +
+      '<div class="stat"><div class="sv">' + pred.expectedScore.home + '-' + pred.expectedScore.away + '</div><div class="sl">Expected Score (' + (pred.expectedScore.probability*100).toFixed(0) + '%)</div></div>' +
+      '<div class="stat"><div class="sv">' + (pred.overUnder.over25*100).toFixed(0) + '%</div><div class="sl">Over 2.5 Goals</div></div>' +
+      '<div class="stat"><div class="sv">' + pred.lambda_home.toFixed(1) + ' / ' + pred.lambda_away.toFixed(1) + '</div><div class="sl">Expected Goals (λ)</div></div>' +
+      '<div class="stat"><div class="sv">' + (pred.overUnder.over15*100).toFixed(0) + '% / ' + (pred.overUnder.over35*100).toFixed(0) + '%</div><div class="sl">Over 1.5 / 3.5</div></div>' +
+    '</div>' +
+    '<div class="meta">' +
+      '<span>Games: ' + pred.provenance.home_games + 'H / ' + pred.provenance.away_games + 'A</span>' +
+      (pred.provenance.base_D != null ? '<span>Base: H=' + (pred.provenance.base_H*100).toFixed(0) + '% D=' + (pred.provenance.base_D*100).toFixed(0) + '% A=' + (pred.provenance.base_A*100).toFixed(0) + '%</span>' : '') +
+      '<span>GMU: ' + pred.provenance.gmu_league.toFixed(2) + '</span>' +
+      (sc.applied ? '<span>Stars: gap=' + sc.star_gap + '</span>' : '') +
+    '</div>' +
+  '</div>';
+};
+
+function showMsg(text, type) {
+  $('msg-area').innerHTML = '<div class="msg ' + type + '">' + text + '</div>';
+}
+</script>
+</body>
+</html>
