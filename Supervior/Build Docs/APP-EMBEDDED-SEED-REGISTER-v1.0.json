@@ -1,0 +1,313 @@
+{
+  "tool": "audit_embedded_seed_inventory_v1.0",
+  "app_path": "builder/app-v3.17.0-picker.html",
+  "app_md5": "e6687ad417fd1d3229a000c12f73f1a3",
+  "app_sha256": "51e275da4d2bbb3a0b198fa7f07d66ec9fd07bb965293b4c63ab8d9ea1e210d7",
+  "seed_pack_count": 9,
+  "status": "QUARANTINE_REQUIRED",
+  "packs": [
+    {
+      "file_name": "russian-team-pack.txt",
+      "header": "BP-TEAM-PACK v2",
+      "decoded_sha256": "0197bcf55a05b6fc807b758fd8dcd9c34c25fd27d34ae26fa0e54b320cd1286a",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v2": 1,
+        "END": 1,
+        "MATCH": 644,
+        "NOTE": 9,
+        "SOURCE": 5,
+        "TEAM": 26
+      },
+      "team_country_counts": {
+        "Russia": 26
+      },
+      "match_country_counts": {
+        "Russia": 644
+      },
+      "competition_counts": {
+        "Russian Cup": 152,
+        "Russian Premier League": 489,
+        "Russian Relegation Playoffs": 2,
+        "Russian Super Cup": 1
+      },
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    },
+    {
+      "file_name": "czech-team-pack.txt",
+      "header": "BP-TEAM-PACK v2",
+      "decoded_sha256": "714e18cb0891b67deb2ba692d9f136a274299348a811381549202b40d8ff9c64",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v2": 1,
+        "END": 1,
+        "MATCH": 631,
+        "NOTE": 7,
+        "SOURCE": 3,
+        "TEAM": 45
+      },
+      "team_country_counts": {
+        "Czech Republic": 45
+      },
+      "match_country_counts": {
+        "Czech Republic": 631
+      },
+      "competition_counts": {
+        "Czech First League": 561,
+        "Czech Relegation Playoffs": 8,
+        "MOL Cup": 62
+      },
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    },
+    {
+      "file_name": "hibernian-team-pack.txt",
+      "header": "BP-TEAM-PACK v2",
+      "decoded_sha256": "4fa58babc69e86e43cbf080e913c51007bdd62d786ff365a2c8950413d955e71",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v2": 1,
+        "END": 1,
+        "FORM": 1,
+        "MATCH": 28,
+        "NOTE": 5,
+        "SEASON": 2,
+        "SOURCE": 13,
+        "TEAM": 8,
+        "VENUE": 1
+      },
+      "team_country_counts": {
+        "Denmark": 2,
+        "Kosovo": 1,
+        "Northern Ireland": 1,
+        "Poland": 1,
+        "Republic of Ireland": 1,
+        "Scotland": 1,
+        "Serbia": 1
+      },
+      "match_country_counts": {
+        "Denmark": 1,
+        "Kosovo": 1,
+        "Northern Ireland": 1,
+        "Poland": 1,
+        "Portugal": 1,
+        "Republic of Ireland": 1,
+        "Scotland": 21,
+        "Serbia": 1
+      },
+      "competition_counts": {
+        "Club Friendly": 4,
+        "Scottish Premiership": 7,
+        "Scottish Premiership Championship Round": 10,
+        "UECL PO": 2,
+        "UECL Q2": 1,
+        "UECL Q3": 2,
+        "UEL Q2": 2
+      },
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    },
+    {
+      "file_name": "malisheva-team-pack.txt",
+      "header": "BP-TEAM-PACK v2",
+      "decoded_sha256": "713184e31977726156c97b6543ef0893c271b0b7917ff2f9f9b45b07e47a54d5",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v2": 1,
+        "END": 1,
+        "FORM": 1,
+        "MATCH": 15,
+        "NOTE": 5,
+        "SEASON": 2,
+        "SOURCE": 9,
+        "TEAM": 3,
+        "VENUE": 1
+      },
+      "team_country_counts": {
+        "Albania": 1,
+        "Kosovo": 1,
+        "Scotland": 1
+      },
+      "match_country_counts": {
+        "Albania": 1,
+        "Kosovo": 14
+      },
+      "competition_counts": {
+        "Kosovo Superliga": 12,
+        "UECL Q1": 2,
+        "UECL Q2": 1
+      },
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    },
+    {
+      "file_name": "malisheva-closure-pack.txt",
+      "header": "BP-TEAM-PACK v2",
+      "decoded_sha256": "ae38061f48844ebf8c9db3e7cc390c77663c1de07baa96b5d30a134f0ee13526",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v2": 1,
+        "END": 1,
+        "MATCH": 17,
+        "NOTE": 7,
+        "SOURCE": 7,
+        "TEAM": 6
+      },
+      "team_country_counts": {
+        "Cyprus": 1,
+        "Denmark": 1,
+        "Iceland": 1,
+        "Malta": 1,
+        "Slovenia": 1,
+        "Sweden": 1
+      },
+      "match_country_counts": {
+        "Cyprus": 1,
+        "Denmark": 2,
+        "Iceland": 2,
+        "Kosovo": 5,
+        "Malta": 1,
+        "Republic of Ireland": 2,
+        "Scotland": 1,
+        "Slovenia": 2,
+        "Sweden": 1
+      },
+      "competition_counts": {
+        "UCL Q2": 2,
+        "UECL KPO": 2,
+        "UECL LP": 9,
+        "UECL Q1": 2,
+        "UECL Q2": 2
+      },
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    },
+    {
+      "file_name": "usa-team-pack.txt",
+      "header": "BP-TEAM-PACK v2",
+      "decoded_sha256": "b1cbd5f6b42b87db87205a024cc19587460879c1a0591933af52b9248b3aa7b8",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v2": 1,
+        "END": 1,
+        "MATCH": 85,
+        "NOTE": 22,
+        "SOURCE": 1,
+        "TEAM": 45
+      },
+      "team_country_counts": {
+        "Canada": 3,
+        "United States": 42
+      },
+      "match_country_counts": {
+        "Canada": 4,
+        "United States": 81
+      },
+      "competition_counts": {
+        "MLS Cup Playoffs": 28,
+        "Major League Soccer": 36,
+        "US Open Cup": 21
+      },
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    },
+    {
+      "file_name": "Southampton_BP-TEAM-PACK_v2.txt",
+      "header": "BP-TEAM-PACK v2",
+      "decoded_sha256": "a04ee2b67911d42aca5e97f8360e3cdd73c1f63bbf10aafb5760979fae66d256",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v2": 1,
+        "END": 1,
+        "FORM": 1,
+        "MATCH": 15,
+        "NOTE": 3,
+        "SEASON": 1,
+        "SOURCE": 8,
+        "TEAM": 1,
+        "VENUE": 1
+      },
+      "team_country_counts": {
+        "England": 1
+      },
+      "match_country_counts": {
+        "England": 11,
+        "Germany": 2,
+        "Wales": 2
+      },
+      "competition_counts": {
+        "EFL Championship": 8,
+        "EFL Championship promotion play-offs semi-final": 2,
+        "FA Cup quarter-final": 1,
+        "FA Cup semi-final": 1,
+        "Pre-season friendly": 3
+      },
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    },
+    {
+      "file_name": "HIB_MAL_SEED_PACK.txt",
+      "header": "BP-TEAM-PACK v1",
+      "decoded_sha256": "ede8bdcaf4afe219d5f0501775de46436e0f87267588390d9b558cc0d797f0b3",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v1": 1,
+        "END": 1,
+        "FORM": 2,
+        "MATCH": 29,
+        "SEASON": 2,
+        "SOURCE": 8,
+        "TEAM": 14,
+        "VENUE": 2
+      },
+      "team_country_counts": {
+        "Albania": 1,
+        "Denmark": 1,
+        "Kosovo": 10,
+        "Republic of Ireland": 1,
+        "Scotland": 1
+      },
+      "match_country_counts": {
+        "Albania": 1,
+        "Kosovo": 14,
+        "Republic of Ireland": 1,
+        "Scotland": 13
+      },
+      "competition_counts": {
+        "Club Friendly": 2,
+        "Kosovo Superliga": 12,
+        "Scottish Premiership": 7,
+        "Scottish Premiership Championship Round": 5,
+        "UECL Q1": 2,
+        "UECL Q2": 1
+      },
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    },
+    {
+      "file_name": "MASTER_RECORD_CLOSURE_SEED_PACK.txt",
+      "header": "BP-TEAM-PACK v2",
+      "decoded_sha256": "1b9ccf9a436886fab2950bebacaaa3b96cad7906d3f175803fe368f7460a40c6",
+      "line_prefix_counts": {
+        "BP-TEAM-PACK v2": 1,
+        "END": 1,
+        "NOTE": 106,
+        "SEASON": 72,
+        "SOURCE": 169,
+        "TEAM": 111,
+        "VENUE": 72
+      },
+      "team_country_counts": {
+        "Belgium": 2,
+        "England": 36,
+        "France": 9,
+        "Germany": 8,
+        "Greece": 2,
+        "Italy": 10,
+        "Netherlands": 3,
+        "Portugal": 2,
+        "Scotland": 20,
+        "Spain": 12,
+        "Turkey": 4,
+        "Wales": 3
+      },
+      "match_country_counts": {},
+      "competition_counts": {},
+      "classification": "UNAPPROVED_EMBEDDED_SEED",
+      "rule": "Presence in runtime code is not auditor approval or permission to ingest."
+    }
+  ]
+}
