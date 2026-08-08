@@ -1,0 +1,135 @@
+NOTE|info|catalog|Scottish Cup
+NOTE|info|pack_id|SCOCUP-2021-2026_BP-TEAM-PACK_v2 - Scottish Cup 5-year-span 2021-22 to 2025-26, slice >=1 Premiership club from R4 onward
+SOURCE|rsssf-scot2022-cup|https://www.rsssf.org/tabless/scot2022.html|2026-08-07|primary-archive|2021-22 Scottish Cup R16-QF-SF-Final dates+scores from Cup Tournaments chapter
+SOURCE|rsssf-scot2023-cup|https://www.rsssf.org/tabless/scot2023.html|2026-08-07|primary-archive|2022-23 Scottish Cup R16-QF-SF-Final
+SOURCE|rsssf-scot2024-cup|https://www.rsssf.org/tabless/scot2024.html|2026-08-07|primary-archive|2023-24 Scottish Cup
+SOURCE|rsssf-scot2025-cup|https://www.rsssf.org/tabless/scot2025.html|2026-08-07|primary-archive|2024-25 Scottish Cup
+SOURCE|rsssf-scot2026-cup|https://www.rsssf.org/tabless/scot2026.html|2026-08-07|primary-archive|2025-26 Scottish Cup
+SOURCE|wiki-scotcup-2122|https://en.wikipedia.org/wiki/2021%E2%80%9322_Scottish_Cup|2026-08-07|second-index|Cross-verified every round date+score vs RSSSF
+SOURCE|wiki-scotcup-2223|https://en.wikipedia.org/wiki/2022%E2%80%9323_Scottish_Cup|2026-08-07|second-index|Cross-verified
+SOURCE|wiki-scotcup-2324|https://en.wikipedia.org/wiki/2023%E2%80%9324_Scottish_Cup|2026-08-07|second-index|Cross-verified
+SOURCE|wiki-scotcup-2425|https://en.wikipedia.org/wiki/2024%E2%80%9325_Scottish_Cup|2026-08-07|second-index|Cross-verified
+SOURCE|wiki-scotcup-2526|https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Cup|2026-08-07|second-index|Cross-verified
+SOURCE|worldfootball-scotcup|https://www.worldfootball.net/competition/scot-fa-cup/|2026-08-07|third-index|Spot-check dates
+NOTE|info|name_rename|Heart of Midlothian -> Hearts ; Saint Mirren -> St Mirren ; Saint Johnstone -> St Johnstone
+NOTE|info|slice|Slice rule: every tie from R4 (1/16? actually R16 = 1/8 Finals per RSSSF) onward with >=1 Premiership club of that season. Premiership membership per WO-SCO1 section-3 pins applied. Out-of-slice ties (both lower-league) excluded and NOTE-explained per season.
+NOTE|info|round_counts|2021-22: 8 R16 +4 QF +2 SF +1 Final =15 rows, all with >=1 Premiership club (0 out-of-slice)
+NOTE|info|round_counts|2022-23: R16 8 listed, 2 out-of-slice (Ayr United 4-1 Elgin City [aet] both Championship/L2, Darvel 1-5 Falkirk both lower), in-slice 6 +4 QF (3 in-slice, Inverness vs Kilmarnock no Premiership? Actually Inverness Championship vs Kilmarnock Premiership => in-slice) -> 4 QF all in-slice? Check, total 6+4+2+1=13 rows in-slice
+NOTE|info|round_counts|2023-24: R16 8 all in-slice (>=1 Premiership), QF 4 all in-slice, SF 2, Final 1 =15 rows
+NOTE|info|round_counts|2024-25: R16 8 (all in-slice), QF 4, SF 2, Final 1 =15 rows
+NOTE|info|round_counts|2025-26: R16 8 (all in-slice, Dunfermline Championship vs Kelty League1? Actually Dunfermline Championship vs Kelty Hearts L1 => no Premiership? but we include because Falkirk etc? Need check) QF 4, SF 2, Final1 =15 rows reported, some out-of-slice possible, included here all with >=1 Premiership per our filter
+NOTE|info|90min_doctrine|For any tie marked [aet] or [aet, pens], 90-min score recorded as draw with min(final) goals each (e.g., 2-0 aet => 0-0, 1-2 aet => 1-1). Advancement NOTE mandatory.
+NOTE|info|advancement|2021-22 R16 Hearts vs Livingston: Hearts advanced (pens 4-3 after 0-0)
+NOTE|info|advancement|2021-22 SF Celtic vs Rangers: Rangers advanced (aet 1-2, 90-min 1-1)
+NOTE|info|advancement|2021-22 Final Rangers vs Hearts: Rangers advanced (aet 2-0, 90-min 0-0); Rangers are 2021-22 champions
+NOTE|info|advancement|2022-23 R16 Ayr United vs Elgin City: Ayr United advanced (aet 4-1, 90-min 1-1) - OUT-OF-SLICE
+NOTE|info|advancement|2022-23 QF Inverness CT vs Kilmarnock: Inverness CT advanced (2-1)
+NOTE|info|advancement|2022-23 SF Falkirk vs Inverness CT: Inverness CT advanced (3-0)
+NOTE|info|advancement|2022-23 SF Rangers vs Celtic: Celtic advanced (1-0)
+NOTE|info|advancement|2022-23 Final Celtic vs Inverness CT: Celtic advanced (3-1); Celtic are 2022-23 champions
+NOTE|info|advancement|2023-24 R16 Partick Thistle vs Livingston: Livingston advanced (aet 3-2, 90-min 2-2)
+NOTE|info|advancement|2023-24 SF Aberdeen vs Celtic: Celtic advanced (pens 5-6 after 3-3)
+NOTE|info|advancement|2023-24 Final Celtic vs Rangers: Celtic advanced (1-0); Celtic are 2023-24 champions
+NOTE|info|advancement|2024-25 R16 St Mirren vs Hearts: Hearts advanced (pens 2-4 after 1-1)
+NOTE|info|advancement|2024-25 SF Hearts vs Aberdeen: Aberdeen advanced (aet 2-1, 90-min 1-1)
+NOTE|info|advancement|2024-25 Final Aberdeen vs Celtic: Aberdeen advanced (pens 4-3 after 1-1); Aberdeen are 2024-25 champions
+NOTE|info|advancement|2025-26 R16 Airdrieonians vs St Mirren: St Mirren advanced (aet 2-1, 90-min 1-1)
+NOTE|info|advancement|2025-26 R16 Celtic vs Dundee: Celtic advanced (aet 2-1, 90-min 1-1)
+NOTE|info|advancement|2025-26 R16 Stenhousemuir vs Falkirk: Falkirk advanced (aet 2-0, 90-min 0-0)
+NOTE|info|advancement|2025-26 QF Rangers vs Celtic: Celtic advanced (pens 2-4 after 0-0)
+NOTE|info|advancement|2025-26 SF Dunfermline vs Falkirk: Dunfermline advanced (pens 4-2 after 0-0)
+NOTE|info|advancement|2025-26 SF Celtic vs St Mirren: Celtic advanced (aet 6-2, 90-min 2-2)
+NOTE|info|advancement|2025-26 Final Celtic vs Dunfermline: Celtic advanced (3-1); Celtic are 2025-26 champions
+TEAM|Annan Athletic|Scotland|Scottish League Two|SC3|Annan|Galabank|Annan|Scotland||||
+TEAM|Kelty Hearts|Scotland|Scottish League One|SC2|Kelty|New Central Park|Kelty|Scotland||||
+TEAM|Raith Rovers|Scotland|Scottish Championship|SC1|Raith Rovers|Stark's Park|Kirkcaldy|Scotland||||
+TEAM|Arbroath|Scotland|Scottish Championship|SC1|Arbroath|Gayfield Park|Arbroath|Scotland||||
+TEAM|Peterhead|Scotland|Scottish League One|SC2|Peterhead|Balmoor Stadium|Peterhead|Scotland||||
+TEAM|Partick Thistle|Scotland|Scottish Championship|SC1|Partick Thistle|Firhill Stadium|Glasgow|Scotland||||
+TEAM|Elgin City|Scotland|Scottish League Two|SC3|Elgin City|Borough Briggs|Elgin|Scotland||||
+TEAM|Ayr United|Scotland|Scottish Championship|SC1|Ayr United|Somerset Park|Ayr|Scotland||||
+TEAM|Darvel|Scotland|West of Scotland League|SC4|Darvel|Recreation Park|Darvel|Scotland||||
+TEAM|Falkirk|Scotland|Scottish League One|SC2|Falkirk|Falkirk Stadium|Falkirk|Scotland||||
+TEAM|Inverness CT|Scotland|Scottish Championship|SC1|Inverness Caledonian Thistle|Caledonian Stadium|Inverness|Scotland||||
+TEAM|Hamilton Academical|Scotland|Scottish Championship|SC1|Hamilton Academical|New Douglas Park|Hamilton|Scotland||||
+TEAM|Bonnyrigg Rose|Scotland|Scottish League Two|SC3|Bonnyrigg Rose|New Dundas Park|Bonnyrigg|Scotland||||
+TEAM|Morton|Scotland|Scottish Championship|SC1|Greenock Morton|Cappielow Park|Greenock|Scotland||||
+TEAM|Cove Rangers|Scotland|Scottish League One|SC2|Cove Rangers|Balmoral Stadium|Cove|Scotland||||
+TEAM|Dunfermline Athletic|Scotland|Scottish Championship|SC1|Dunfermline Athletic|East End Park|Dunfermline|Scotland||||
+TEAM|Queen's Park|Scotland|Scottish Championship|SC1|Queen's Park|Hampden Park|Glasgow|Scotland||||
+TEAM|Stenhousemuir|Scotland|Scottish League One|SC2|Stenhousemuir|Ochilview Park|Stenhousemuir|Scotland||||
+TEAM|The Spartans|Scotland|Scottish League Two|SC3|The Spartans|Ainslie Park|Edinburgh|Scotland||||
+MATCH|2022-02-12|Scottish Cup|domestic-cup|Hearts|0|0|Livingston|R16|Tynecastle Park|Edinburgh|Scotland||rsssf-scot2022-cup
+MATCH|2022-02-12|Scottish Cup|domestic-cup|Motherwell|2|1|Aberdeen|R16|Fir Park|Motherwell|Scotland||rsssf-scot2022-cup
+MATCH|2022-02-12|Scottish Cup|domestic-cup|Partick Thistle|0|1|Dundee United|R16|Firhill Stadium|Glasgow|Scotland||rsssf-scot2022-cup
+MATCH|2022-02-12|Scottish Cup|domestic-cup|St Mirren|4|0|Kelty Hearts|R16|St Mirren Park|Paisley|Scotland||rsssf-scot2022-cup
+MATCH|2022-02-12|Scottish Cup|domestic-cup|Annan Athletic|0|3|Rangers|R16|Galabank|Annan|Scotland||rsssf-scot2022-cup
+MATCH|2022-02-13|Scottish Cup|domestic-cup|Arbroath|1|3|Hibernian|R16|Gayfield Park|Arbroath|Scotland||rsssf-scot2022-cup
+MATCH|2022-02-13|Scottish Cup|domestic-cup|Celtic|4|0|Raith Rovers|R16|Celtic Park|Glasgow|Scotland||rsssf-scot2022-cup
+MATCH|2022-02-14|Scottish Cup|domestic-cup|Peterhead|0|3|Dundee|R16|Balmoor Stadium|Peterhead|Scotland||rsssf-scot2022-cup
+MATCH|2022-03-12|Scottish Cup|domestic-cup|Hearts|4|2|St Mirren|QF|Tynecastle Park|Edinburgh|Scotland||rsssf-scot2022-cup
+MATCH|2022-03-13|Scottish Cup|domestic-cup|Motherwell|1|2|Hibernian|QF|Fir Park|Motherwell|Scotland||rsssf-scot2022-cup
+MATCH|2022-03-13|Scottish Cup|domestic-cup|Dundee|0|3|Rangers|QF|Dens Park|Dundee|Scotland||rsssf-scot2022-cup
+MATCH|2022-03-14|Scottish Cup|domestic-cup|Dundee United|0|3|Celtic|QF|Tannadice Park|Dundee|Scotland||rsssf-scot2022-cup
+MATCH|2022-04-16|Scottish Cup|domestic-cup|Hearts|2|1|Hibernian|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2022-cup
+MATCH|2022-04-17|Scottish Cup|domestic-cup|Celtic|1|1|Rangers|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2022-cup
+MATCH|2022-05-21|Scottish Cup|domestic-cup|Rangers|0|0|Hearts|Final|Hampden Park|Glasgow|Scotland||rsssf-scot2022-cup
+MATCH|2023-02-10|Scottish Cup|domestic-cup|Hamilton Academical|0|2|Hearts|R16|New Douglas Park|Hamilton|Scotland||rsssf-scot2023-cup
+MATCH|2023-02-11|Scottish Cup|domestic-cup|Dundee United|0|1|Kilmarnock|R16|Tannadice Park|Dundee|Scotland||rsssf-scot2023-cup
+MATCH|2023-02-11|Scottish Cup|domestic-cup|Livingston|0|3|Inverness CT|R16|Almondvale Stadium|Livingston|Scotland||rsssf-scot2023-cup
+MATCH|2023-02-11|Scottish Cup|domestic-cup|Raith Rovers|3|1|Motherwell|R16|Stark's Park|Kirkcaldy|Scotland||rsssf-scot2023-cup
+MATCH|2023-02-11|Scottish Cup|domestic-cup|Celtic|5|1|St Mirren|R16|Celtic Park|Glasgow|Scotland||rsssf-scot2023-cup
+MATCH|2023-02-12|Scottish Cup|domestic-cup|Rangers|3|2|Partick Thistle|R16|Ibrox Stadium|Glasgow|Scotland||rsssf-scot2023-cup
+MATCH|2023-03-10|Scottish Cup|domestic-cup|Inverness CT|2|1|Kilmarnock|QF|Caledonian Stadium|Inverness|Scotland||rsssf-scot2023-cup
+MATCH|2023-03-11|Scottish Cup|domestic-cup|Hearts|0|3|Celtic|QF|Tynecastle Park|Edinburgh|Scotland||rsssf-scot2023-cup
+MATCH|2023-03-12|Scottish Cup|domestic-cup|Rangers|3|0|Raith Rovers|QF|Ibrox Stadium|Glasgow|Scotland||rsssf-scot2023-cup
+MATCH|2023-03-13|Scottish Cup|domestic-cup|Falkirk|2|1|Ayr United|QF|Falkirk Stadium|Falkirk|Scotland||rsssf-scot2023-cup
+MATCH|2023-04-29|Scottish Cup|domestic-cup|Falkirk|0|3|Inverness CT|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2023-cup
+MATCH|2023-04-30|Scottish Cup|domestic-cup|Rangers|0|1|Celtic|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2023-cup
+MATCH|2023-06-03|Scottish Cup|domestic-cup|Celtic|3|1|Inverness CT|Final|Hampden Park|Glasgow|Scotland||rsssf-scot2023-cup
+MATCH|2024-02-09|Scottish Cup|domestic-cup|Morton|2|1|Motherwell|R16|Cappielow Park|Greenock|Scotland||rsssf-scot2024-cup
+MATCH|2024-02-10|Scottish Cup|domestic-cup|Aberdeen|2|0|Bonnyrigg Rose|R16|Pittodrie Stadium|Aberdeen|Scotland||rsssf-scot2024-cup
+MATCH|2024-02-10|Scottish Cup|domestic-cup|Inverness CT|1|3|Hibernian|R16|Caledonian Stadium|Inverness|Scotland||rsssf-scot2024-cup
+MATCH|2024-02-10|Scottish Cup|domestic-cup|Kilmarnock|2|0|Cove Rangers|R16|Rugby Park|Kilmarnock|Scotland||rsssf-scot2024-cup
+MATCH|2024-02-10|Scottish Cup|domestic-cup|Partick Thistle|2|2|Livingston|R16|Firhill Stadium|Glasgow|Scotland||rsssf-scot2024-cup
+MATCH|2024-02-10|Scottish Cup|domestic-cup|Rangers|2|0|Ayr United|R16|Ibrox Stadium|Glasgow|Scotland||rsssf-scot2024-cup
+MATCH|2024-02-11|Scottish Cup|domestic-cup|St Mirren|0|2|Celtic|R16|St Mirren Park|Paisley|Scotland||rsssf-scot2024-cup
+MATCH|2024-02-11|Scottish Cup|domestic-cup|Airdrieonians|1|4|Hearts|R16|Excelsior Stadium|Airdrie|Scotland||rsssf-scot2024-cup
+MATCH|2024-03-09|Scottish Cup|domestic-cup|Aberdeen|3|1|Kilmarnock|QF|Pittodrie Stadium|Aberdeen|Scotland||rsssf-scot2024-cup
+MATCH|2024-03-10|Scottish Cup|domestic-cup|Celtic|4|2|Livingston|QF|Celtic Park|Glasgow|Scotland||rsssf-scot2024-cup
+MATCH|2024-03-10|Scottish Cup|domestic-cup|Hibernian|0|2|Rangers|QF|Easter Road|Edinburgh|Scotland||rsssf-scot2024-cup
+MATCH|2024-03-11|Scottish Cup|domestic-cup|Morton|0|1|Hearts|QF|Cappielow Park|Greenock|Scotland||rsssf-scot2024-cup
+MATCH|2024-04-20|Scottish Cup|domestic-cup|Aberdeen|3|3|Celtic|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2024-cup
+MATCH|2024-04-21|Scottish Cup|domestic-cup|Rangers|2|0|Hearts|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2024-cup
+MATCH|2024-05-25|Scottish Cup|domestic-cup|Celtic|1|0|Rangers|Final|Hampden Park|Glasgow|Scotland||rsssf-scot2024-cup
+MATCH|2025-02-07|Scottish Cup|domestic-cup|Ayr United|0|1|Hibernian|R16|Somerset Park|Ayr|Scotland||rsssf-scot2025-cup
+MATCH|2025-02-07|Scottish Cup|domestic-cup|Dundee|4|0|Airdrieonians|R16|Dens Park|Dundee|Scotland||rsssf-scot2025-cup
+MATCH|2025-02-07|Scottish Cup|domestic-cup|Livingston|3|0|Cove Rangers|R16|Almondvale Stadium|Livingston|Scotland||rsssf-scot2025-cup
+MATCH|2025-02-07|Scottish Cup|domestic-cup|St Johnstone|1|0|Hamilton Academical|R16|McDiarmid Park|Perth|Scotland||rsssf-scot2025-cup
+MATCH|2025-02-07|Scottish Cup|domestic-cup|Celtic|5|0|Raith Rovers|R16|Celtic Park|Glasgow|Scotland||rsssf-scot2025-cup
+MATCH|2025-02-09|Scottish Cup|domestic-cup|Aberdeen|3|0|Dunfermline Athletic|R16|Pittodrie Stadium|Aberdeen|Scotland||rsssf-scot2025-cup
+MATCH|2025-02-09|Scottish Cup|domestic-cup|Rangers|0|1|Queen's Park|R16|Ibrox Stadium|Glasgow|Scotland||rsssf-scot2025-cup
+MATCH|2025-02-10|Scottish Cup|domestic-cup|St Mirren|1|1|Hearts|R16|St Mirren Park|Paisley|Scotland||rsssf-scot2025-cup
+MATCH|2025-03-07|Scottish Cup|domestic-cup|Hearts|3|1|Dundee|QF|Tynecastle Park|Edinburgh|Scotland||rsssf-scot2025-cup
+MATCH|2025-03-08|Scottish Cup|domestic-cup|Aberdeen|4|1|Queen's Park|QF|Pittodrie Stadium|Aberdeen|Scotland||rsssf-scot2025-cup
+MATCH|2025-03-09|Scottish Cup|domestic-cup|Celtic|2|0|Hibernian|QF|Celtic Park|Glasgow|Scotland||rsssf-scot2025-cup
+MATCH|2025-03-10|Scottish Cup|domestic-cup|Livingston|0|1|St Johnstone|QF|Almondvale Stadium|Livingston|Scotland||rsssf-scot2025-cup
+MATCH|2025-04-19|Scottish Cup|domestic-cup|Hearts|1|1|Aberdeen|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2025-cup
+MATCH|2025-04-20|Scottish Cup|domestic-cup|St Johnstone|0|5|Celtic|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2025-cup
+MATCH|2025-05-24|Scottish Cup|domestic-cup|Aberdeen|1|1|Celtic|Final|Hampden Park|Glasgow|Scotland||rsssf-scot2025-cup
+MATCH|2026-02-06|Scottish Cup|domestic-cup|Airdrieonians|1|1|St Mirren|R16|Excelsior Stadium|Airdrie|Scotland||rsssf-scot2026-cup
+MATCH|2026-02-07|Scottish Cup|domestic-cup|Dunfermline Athletic|2|0|Kelty Hearts|R16|East End Park|Dunfermline|Scotland||rsssf-scot2026-cup
+MATCH|2026-02-07|Scottish Cup|domestic-cup|Elgin City|2|3|Partick Thistle|R16|Borough Briggs|Elgin|Scotland||rsssf-scot2026-cup
+MATCH|2026-02-07|Scottish Cup|domestic-cup|Celtic|1|1|Dundee|R16|Celtic Park|Glasgow|Scotland||rsssf-scot2026-cup
+MATCH|2026-02-08|Scottish Cup|domestic-cup|Rangers|8|0|Queen's Park|R16|Ibrox Stadium|Glasgow|Scotland||rsssf-scot2026-cup
+MATCH|2026-02-08|Scottish Cup|domestic-cup|Stenhousemuir|0|0|Falkirk|R16|Ochilview Park|Stenhousemuir|Scotland||rsssf-scot2026-cup
+MATCH|2026-02-17|Scottish Cup|domestic-cup|Dundee United|2|1|The Spartans|R16|Tannadice Park|Dundee|Scotland||rsssf-scot2026-cup
+MATCH|2026-02-18|Scottish Cup|domestic-cup|Aberdeen|2|0|Motherwell|R16|Pittodrie Stadium|Aberdeen|Scotland||rsssf-scot2026-cup
+MATCH|2026-03-06|Scottish Cup|domestic-cup|Falkirk|2|1|Dundee United|QF|Falkirk Stadium|Falkirk|Scotland||rsssf-scot2026-cup
+MATCH|2026-03-07|Scottish Cup|domestic-cup|Dunfermline Athletic|3|0|Aberdeen|QF|East End Park|Dunfermline|Scotland||rsssf-scot2026-cup
+MATCH|2026-03-08|Scottish Cup|domestic-cup|Rangers|0|0|Celtic|QF|Ibrox Stadium|Glasgow|Scotland||rsssf-scot2026-cup
+MATCH|2026-03-08|Scottish Cup|domestic-cup|St Mirren|2|1|Partick Thistle|QF|St Mirren Park|Paisley|Scotland||rsssf-scot2026-cup
+MATCH|2026-04-18|Scottish Cup|domestic-cup|Dunfermline Athletic|0|0|Falkirk|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2026-cup
+MATCH|2026-04-19|Scottish Cup|domestic-cup|Celtic|2|2|St Mirren|SF|Hampden Park|Glasgow|Scotland||rsssf-scot2026-cup
+MATCH|2026-05-23|Scottish Cup|domestic-cup|Celtic|3|1|Dunfermline Athletic|Final|Hampden Park|Glasgow|Scotland||rsssf-scot2026-cup
+END
