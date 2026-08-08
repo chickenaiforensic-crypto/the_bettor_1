@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pitch Rating — Design System v1.0</title>
+<style>
+/* ============================================================
+   PITCH RATING DESIGN SYSTEM v1.0 — Senior UI/UX Designer
+   Builds on the existing v3.17.0 tokens (does not replace them).
+   Plain language, provenance visible, honest refusal. No market
+   data, no AI-hype confidence language.
+   ============================================================ */
+
+/* ---------- 1. DESIGN TOKENS :root (dark default) ---------- */
+:root{
+  /* brand */
+  --brand-emerald:#10b981;
+  --brand-emerald-deep:#047857;
+  --brand-emerald-soft:#d1fae5;
+  --brand-emerald-700:#0f6b3d;
+
+  /* neutrals (dark) */
+  --bg:linear-gradient(180deg,#0e1526 0%,#131b33 100%);
+  --surface-0:#0a0f1a;
+  --surface-1:#0e1526;
+  --surface-2:#131b33;
+  --surface-3:#1a2545;
+  --surface-4:#25325e;
+  --panel:rgba(255,255,255,0.03);
+  --panel-strong:rgba(255,255,255,0.06);
+  --panel-hover:rgba(255,255,255,0.07);
+  --line:rgba(255,255,255,0.08);
+  --line-strong:rgba(255,255,255,0.14);
+  --line-faint:rgba(255,255,255,0.04);
+
+  /* text (dark) */
+  --ink:#f0f2f8;
+  --ink-2:#b8bdd0;
+  --muted:#8a93ab;
+  --dim:#6b7a99;
+
+  /* semantic (dark) */
+  --accent:#10b981;
+  --accent-strong:#34d399;
+  --accent-deep:#047857;
+  --accent-ink:#06120b;            /* readable text on accent */
+  --accent-tint:color-mix(in srgb,#10b981 14%,transparent);
+  --warning:#c8a84d;
+  --warning-strong:#e8d9a8;
+  --warning-ink:#3a2f12;
+  --warning-tint:color-mix(in srgb,#c8a84d 14%,transparent);
+  --danger:#f87171;
+  --danger-strong:#fca5a5;
+  --danger-ink:#3b0d0d;
+  --danger-tint:color-mix(in srgb,#f87171 12%,transparent);
+  --info:#7aa2f7;
+  --info-strong:#b3c7ff;
+  --info-ink:#0d1730;
+  --info-tint:color-mix(in srgb,#7aa2f7 14%,transparent);
+
+  /* outcome colors — accessible in both themes */
+  --home:#10b981;
+  --draw:#c8a84d;
+  --away:#f87171;
+  --home-tint:color-mix(in srgb,#10b981 16%,transparent);
+  --draw-tint:color-mix(in srgb,#c8a84d 16%,transparent);
+  --away-tint:color-mix(in srgb,#f87171 16%,transparent);
+
+  /* typography */
+  --font-display:"Tiempos Headline",Georgia,"Times New Roman",serif;
+  --font-body:"Inter",-apple-system,"SF Pro Display",system-ui,sans-serif;
+  --font-mono:"SF Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+
+  /* spacing — 4px base grid */
+  --sp-1:4px;  --sp-2:8px;  --sp-3:12px; --sp-4:16px;
+  --sp-5:20px; --sp-6:24px; --sp-8:32px; --sp-10:40px; --sp-12:48px; --sp-16:64px;
+
+  /* radius & elevation */
+  --r-xs:6px; --r-sm:10px; --r-md:14px; --r-lg:20px; --r-pill:999px;
+  --shadow-1:0 1px 2px rgba(10,15,26,.12);
+  --shadow-2:0 8px 24px rgba(10,15,26,.12);
+  --shadow-3:0 24px 60px rgba(10,15,26,.22);
+
+  --max-w:1240px;
+  --max-w-panel:840px;
+  --topbar-h:64px;
+}
+
+/* ---------- LIGHT THEME ---------- */
+html[data-theme="light"]{
+  --bg:#f4f6fb;
+  --surface-0:#fbfcfe;
+  --surface-1:#ffffff;
+  --surface-2:#f4f6fb;
+  --surface-3:#eef1f6;
+  --surface-4:#e6eaf1;
+  --panel:#ffffff;
+  --panel-strong:#f1f3f6;
+  --panel-hover:#eef1f6;
+  --line:#e3e6ea;
+  --line-strong:#c9cfd8;
+  --line-faint:#eef1f4;
+
+  --ink:#0a0f1a;
+  --ink-2:#2d384f;
+  --muted:#5b6575;
+  --dim:#8a93a4;
+
+  --accent:#047857;
+  --accent-strong:#0f8a63;
+  --accent-deep:#065f46;
+  --accent-ink:#ffffff;
+  --accent-tint:#e0f5ec;
+  --warning:#8a6e1f;
+  --warning-strong:#b4740e;
+  --warning-ink:#ffffff;
+  --warning-tint:#f6eed6;
+  --danger:#c0392b;
+  --danger-strong:#b3261e;
+  --danger-ink:#ffffff;
+  --danger-tint:#fbe7e4;
+  --info:#2f5fd0;
+  --info-strong:#1d4ed8;
+  --info-ink:#ffffff;
+  --info-tint:#e7edfc;
+
+  --home:#047857;
+  --draw:#8a6e1f;
+  --away:#c0392b;
+  --home-tint:#e0f5ec;
+  --draw-tint:#f6eed6;
+  --away-tint:#fbe7e4;
+
+  --shadow-1:0 1px 2px rgba(20,30,40,.06);
+  --shadow-2:0 6px 20px rgba(20,30,40,.08);
+  --shadow-3:0 18px 44px rgba(20,30,40,.12);
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg);color:var(--ink);
+  font-family:var(--font-body);font-size:15px;line-height:1.55;
+  transition:background .25s ease,color .25s ease;
+}
+button{font-family:inherit;cursor:pointer}
+select,input{font-family:inherit}
+a{color:var(--accent)}
+::selection{background:var(--accent-tint);color:var(--ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-thumb{background:var(--line-strong);border-radius:8px}
+::-webkit-scrollbar-track{background:transparent}
+
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.dim{color:var(--muted)}
+
+/* ============================================================
+   STYLEGUIDE SHELL
+   ============================================================ */
+.sg-topbar{
+  position:sticky;top:0;z-index:50;
+  display:flex;align-items:center;justify-content:space-between;gap:14px;
+  height:var(--topbar-h);padding:0 clamp(16px,4vw,40px);
+  background:color-mix(in srgb,var(--surface-1) 88%,transparent);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.sg-brand{display:flex;align-items:center;gap:10px}
+.sg-logo{width:28px;height:28px;border-radius:8px;
+  background:linear-gradient(135deg,var(--accent),var(--accent-deep));
+  display:grid;place-items:center;color:#fff;font-weight:800;font-size:15px;
+  box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 35%,transparent)}
+.sg-wordmark{font-family:var(--font-display);font-weight:700;font-size:21px;letter-spacing:-.3px}
+.sg-wordmark .ver{font-family:var(--font-body);font-size:11px;font-weight:700;color:var(--accent);
+  letter-spacing:.04em;text-transform:uppercase;margin-left:6px;vertical-align:2px}
+.sg-tools{display:flex;align-items:center;gap:10px}
+.status-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px}
+.status-dot.green{background:var(--home);box-shadow:0 0 0 3px var(--home-tint)}
+.status-dot.amber{background:var(--draw);box-shadow:0 0 0 3px var(--draw-tint)}
+.status-dot.grey{background:var(--dim);box-shadow:0 0 0 3px color-mix(in srgb,var(--dim) 18%,transparent)}
+
+.sg-shell{max-width:1180px;margin:0 auto;padding:0 clamp(16px,4vw,40px) 80px}
+.sg-layout{display:grid;grid-template-columns:230px 1fr;gap:34px;margin-top:28px;align-items:start}
+.sg-nav{position:sticky;top:calc(var(--topbar-h) + 20px)}
+.sg-nav a{display:block;color:var(--muted);text-decoration:none;font-size:13.5px;font-weight:600;
+  padding:7px 12px;border-radius:8px;margin-bottom:2px;border:1px solid transparent}
+.sg-nav a:hover{color:var(--ink);background:var(--panel-strong)}
+.sg-nav a.on{color:var(--accent);background:var(--accent-tint);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+.sg-nav .group{font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--dim);margin:16px 4px 6px}
+
+.sg-main{min-width:0}
+.sg-section{padding:8px 0 10px;border-top:1px solid var(--line)}
+.sg-section:first-of-type{border-top:none}
+.sg-kicker{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:34px 0 6px}
+.sg-h1{font-family:var(--font-display);font-size:30px;line-height:1.12;letter-spacing:-.02em;margin-bottom:10px}
+.sg-h2{font-family:var(--font-display);font-size:24px;letter-spacing:-.01em;margin:8px 0 6px}
+.sg-lede{color:var(--muted);max-width:640px;margin-bottom:22px;font-size:14.5px}
+.sg-sub{font-size:11.5px;color:var(--dim);margin:-4px 0 18px}
+
+.sg-block{margin-bottom:28px}
+.sg-block > h4{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:12px}
+.sg-label{font-size:11px;font-weight:600;color:var(--dim);text-transform:uppercase;letter-spacing:.05em;margin:0 0 8px}
+
+/* card canvas for previewing components */
+.sg-canvas{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-md);
+  box-shadow:var(--shadow-2);padding:24px;margin-bottom:20px}
+.sg-canvas p{font-size:14px;color:var(--ink-2)}
+
+/* ============================================================
+   COLOR SWATCHES
+   ============================================================ */
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.swatch{border:1px solid var(--line);border-radius:var(--r-sm);overflow:hidden;background:var(--surface-1)}
+.swatch .chip{height:64px;border-radius:0}
+.swatch .meta{padding:10px 12px;font-size:12px;color:var(--ink-2)}
+.swatch .meta b{display:block;color:var(--ink);font-size:12.5px;margin-bottom:2px}
+.swatch .meta code{font-family:var(--font-mono);font-size:10.5px;color:var(--dim)}
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+.type-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.type-card{border:1px solid var(--line);border-radius:var(--r-sm);padding:16px 18px;background:var(--surface-1)}
+.type-card .t-name{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin-bottom:10px}
+.t-display{font-family:var(--font-display);font-size:34px;line-height:1.1;letter-spacing:-.02em;font-weight:700}
+.t-h1{font-family:var(--font-display);font-size:24px;font-weight:700;line-height:1.15;letter-spacing:-.01em}
+.t-h2{font-family:var(--font-display);font-size:20px;font-weight:700;line-height:1.2}
+.t-h3{font-family:var(--font-body);font-size:15px;font-weight:700;line-height:1.3}
+.t-body{font-family:var(--font-body);font-size:15px;line-height:1.55;color:var(--ink-2)}
+.t-small{font-family:var(--font-body);font-size:13px;line-height:1.5;color:var(--ink-2)}
+.t-caption{font-family:var(--font-body);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.t-mono{font-family:var(--font-mono);font-size:12px;color:var(--ink-2)}
+.type-card .note{display:block;margin-top:10px;font-size:11px;color:var(--dim)}
+
+/* ============================================================
+   COMPONENTS — buttons
+   ============================================================ */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  border:1px solid var(--line-strong);background:var(--panel-strong);color:var(--ink);
+  font:600 14px/1 var(--font-body);padding:11px 18px;border-radius:var(--r-sm);
+  transition:all .15s ease;white-space:nowrap}
+.btn:hover{background:var(--panel-hover);border-color:var(--line-strong)}
+.btn:active{transform:translateY(1px)}
+.btn:disabled{opacity:.42;cursor:not-allowed;filter:grayscale(.3)}
+.btn .ico{width:16px;height:16px;flex-shrink:0}
+
+.btn-primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);
+  box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 30%,transparent)}
+.btn-primary:hover{filter:brightness(1.07);color:var(--accent-ink)}
+.btn-primary:active{transform:translateY(1px)}
+.btn-primary:disabled{filter:grayscale(.4);opacity:.45}
+
+.btn-ghost{background:transparent;border-color:transparent;color:var(--muted)}
+.btn-ghost:hover{color:var(--ink);background:var(--panel-strong)}
+
+.btn-danger{background:var(--danger-tint);border-color:color-mix(in srgb,var(--danger) 45%,transparent);color:var(--danger)}
+.btn-danger:hover{border-color:var(--danger);color:var(--danger-strong)}
+.btn-danger:disabled{opacity:.4}
+
+.btn-small{padding:5px 11px;font-size:12.5px;border-radius:8px}
+
+/* swap icon */
+.btn-icon{width:40px;height:40px;border-radius:50%;padding:0;font-size:18px;line-height:1;
+  border:1px solid var(--line-strong);background:var(--panel-strong);color:var(--ink-2)}
+.btn-icon:hover{border-color:var(--accent);color:var(--accent);transform:rotate(180deg)}
+
+.btn-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+
+/* ============================================================
+   COMPONENTS — inputs & selects & search
+   ============================================================ */
+.fld{display:block;margin-bottom:var(--sp-4)}
+.fld .lbl{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--muted);margin-bottom:5px}
+.fld .req{color:var(--danger)}
+.field{width:100%;background:var(--panel-strong);border:1px solid var(--line-strong);color:var(--ink);
+  border-radius:var(--r-sm);padding:9px 11px;font-size:14px;outline:none;transition:border .15s}
+.field::placeholder{color:var(--dim)}
+.field:hover{border-color:var(--line-strong)}
+.field:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-tint)}
+.field:disabled{opacity:.5;cursor:not-allowed}
+.field:read-only{border-style:dashed}
+.field.err{border-color:var(--danger);box-shadow:0 0 0 3px var(--danger-tint)}
+.field-note{font-size:11.5px;color:var(--muted);margin-top:4px}
+.field-err{font-size:11.5px;color:var(--danger);margin-top:4px}
+select.field{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),
+  linear-gradient(135deg,var(--muted) 50%,transparent 50%);
+  background-position:calc(100% - 16px) 50%,calc(100% - 12px) 50%;background-size:4px 4px;background-repeat:no-repeat;padding-right:30px}
+.picker-row{display:flex;gap:12px;align-items:flex-end;margin-bottom:12px}
+.picker-row .fld{flex:1;margin-bottom:0}
+
+/* ============================================================
+   COMPONENTS — tabs
+   ============================================================ */
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.tab{background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);
+  font-size:13.5px;font-weight:600;padding:11px 13px;transition:all .15s;position:relative}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--accent);border-bottom-color:var(--accent)}
+.tab.on::after{content:"";position:absolute;bottom:-2px;left:10px;right:10px;height:2px;
+  background:var(--accent);border-radius:2px}
+.tab .badge-dot{display:inline-block;min-width:16px;height:16px;line-height:16px;text-align:center;
+  font-size:10px;font-weight:700;border-radius:99px;background:var(--accent-tint);color:var(--accent);margin-left:6px}
+
+/* ============================================================
+   COMPONENTS — pills, badges, chips
+   ============================================================ */
+.pill{display:inline-flex;align-items:center;gap:5px;border-radius:99px;padding:2px 10px;
+  font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+  background:var(--panel-strong);border:1px solid var(--line-strong);color:var(--ink-2)}
+.pill-accent{background:var(--accent-tint);border-color:color-mix(in srgb,var(--accent) 40%,transparent);color:var(--accent)}
+.pill-muted{background:color-mix(in srgb,var(--dim) 16%,transparent);border-color:var(--line-strong);color:var(--muted)}
+.pill-warn{background:var(--warning-tint);border-color:color-mix(in srgb,var(--warning) 40%,transparent);color:var(--warning)}
+.pill-danger{background:var(--danger-tint);border-color:color-mix(in srgb,var(--danger) 40%,transparent);color:var(--danger)}
+.pill-info{background:var(--info-tint);border-color:color-mix(in srgb,var(--info) 40%,transparent);color:var(--info)}
+
+.chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:99px;
+  padding:3px 9px;font-size:11.5px;color:var(--ink-2);background:var(--panel)}
+.chip:hover{border-color:var(--line-strong);color:var(--ink)}
+
+.badge{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:99px;
+  font:700 11px/1 var(--font-body);letter-spacing:.03em;text-transform:uppercase;
+  background:var(--panel-strong);border:1px solid var(--line-strong);color:var(--ink-2)}
+.badge-emerald{background:var(--accent-tint);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 18%,transparent)}
+.badge-gold{background:var(--warning-tint);color:var(--warning);border-color:color-mix(in srgb,var(--warning) 18%,transparent)}
+
+/* ============================================================
+   COMPONENTS — card
+   ============================================================ */
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);
+  box-shadow:var(--shadow-2);padding:20px;margin-bottom:16px}
+.card-title{font-family:var(--font-display);font-size:17px;font-weight:700;margin-bottom:4px}
+.card-sub{font-size:12.5px;color:var(--muted);margin-bottom:14px}
+
+/* ============================================================
+   COMPONENTS — tables
+   ============================================================ */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-sm)}
+.tbl{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums;min-width:520px}
+.tbl thead th{text-align:left;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;
+  color:var(--muted);padding:9px 14px;background:var(--panel-strong);border-bottom:1px solid var(--line-strong)}
+.tbl td{padding:9px 14px;border-bottom:1px solid var(--line-faint);color:var(--ink-2)}
+.tbl tbody tr:hover{background:var(--panel-strong)}
+.tbl tr.full td{background:var(--accent-tint);color:var(--ink);font-weight:700}
+.tbl td.num,.tbl th.num{text-align:right;font-variant-numeric:tabular-nums}
+
+/* ============================================================
+   DATA VIZ — probability bars, balance bars, meters, stars, form
+   ============================================================ */
+.pbar{display:flex;height:46px;border-radius:12px;overflow:hidden;gap:2px;background:var(--panel-strong)}
+.bar-seg{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700;
+  min-width:56px;transition:flex .3s ease;white-space:nowrap}
+.bar-seg.h{background:linear-gradient(180deg,var(--home),color-mix(in srgb,var(--home) 55%,#000))}
+.bar-seg.d{background:linear-gradient(180deg,var(--draw),color-mix(in srgb,var(--draw) 55%,#000))}
+.bar-seg.a{background:linear-gradient(180deg,var(--away),color-mix(in srgb,var(--away) 55%,#000))}
+html[data-theme="light"] .bar-seg{color:#fff}
+.pmeta{margin-top:8px;font-size:12.5px;color:var(--muted)}
+
+.bal-row{display:flex;align-items:center;gap:10px;padding:6px 2px}
+.bal-row .k{width:64px;font-size:12.5px;color:var(--muted);font-weight:600}
+.balbar{flex:1;height:10px;border-radius:99px;background:var(--panel-strong);overflow:hidden}
+.bal-fill{height:100%;border-radius:99px;transition:width .4s ease}
+.bal-fill.h{background:var(--home)}.bal-fill.d{background:var(--draw)}.bal-fill.a{background:var(--away)}
+.bal-row .v{min-width:56px;text-align:right;font-variant-numeric:tabular-nums;font-weight:700;font-size:13px}
+
+.meter{flex:1;max-width:200px;height:8px;border-radius:99px;background:var(--panel-strong);overflow:hidden}
+.meter-fill{height:100%;background:linear-gradient(90deg,var(--accent-deep),var(--accent));border-radius:99px;transition:width .4s ease}
+
+.stars{color:var(--draw);letter-spacing:2px;font-size:16px}
+.stars .off{color:var(--line-strong)}
+
+.frm{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:6px;
+  font-size:10.5px;font-weight:800;color:#fff;margin-right:2px}
+.frm.w{background:var(--home)}.frm.d{background:var(--draw)}.frm.l{background:var(--away)}
+
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:10px}
+.legend .sw{display:inline-flex;align-items:center;gap:6px}
+.legend .sq{width:10px;height:10px;border-radius:3px}
+
+/* ============================================================
+   ALERTS / PANELS / PROVENANCE / TOAST
+   ============================================================ */
+.alert{display:flex;gap:12px;align-items:flex-start;border:1px solid;border-radius:var(--r-sm);padding:12px 14px;font-size:13px;margin-bottom:10px}
+.alert .aico{flex-shrink:0;width:18px;height:18px;margin-top:1px}
+.alert.info{border-color:var(--line-strong);background:var(--panel)}
+.alert.ok{border-color:color-mix(in srgb,var(--accent) 40%,transparent);background:var(--accent-tint);color:var(--ink)}
+.alert.warn{border-color:color-mix(in srgb,var(--warning) 45%,transparent);background:var(--warning-tint);color:var(--ink)}
+.alert.err{border-color:color-mix(in srgb,var(--danger) 45%,transparent);background:var(--danger-tint);color:var(--ink)}
+.alert b{display:block;font-size:13px;margin-bottom:2px}
+.alert span{font-size:12.5px;color:var(--ink-2)}
+
+/* provenance — the "technical details" small print */
+.provenance{border:1px dashed color-mix(in srgb,var(--accent) 40%,transparent);
+  background:var(--accent-tint);border-radius:9px;padding:8px 12px;font-size:11.5px;line-height:1.55;color:var(--muted)}
+.provenance b{font-weight:700;color:var(--ink-2)}
+.provenance .row{display:flex;justify-content:space-between;gap:12px;padding:2px 0;
+  border-bottom:1px dashed color-mix(in srgb,var(--accent) 18%,transparent)}
+.provenance .row:last-child{border-bottom:none}
+
+.toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%);background:var(--panel-strong);
+  border:1px solid var(--line-strong);color:var(--ink);border-radius:12px;padding:12px 18px;font-size:13.5px;
+  box-shadow:var(--shadow-3);z-index:100;display:flex;align-items:center;gap:10px;max-width:90vw}
+
+/* ============================================================
+   NO CALL & EMPTY / LOADING / ERROR STATES
+   ============================================================ */
+.nocall{text-align:center;padding:30px 12px}
+.nocall .nicon{width:52px;height:52px;margin:0 auto 14px;border-radius:14px;display:grid;place-items:center;
+  background:var(--panel-strong);border:1px solid var(--line-strong);color:var(--muted)}
+.nocall h2{font-family:var(--font-display);font-size:21px;margin-bottom:8px}
+.nocall p{max-width:520px;margin:4px auto;color:var(--muted);font-size:13.5px}
+.refusal{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-strong);
+  background:var(--panel);border-radius:var(--r-sm);padding:7px 12px;font-size:12.5px;color:var(--ink-2);
+  margin:4px 6px 4px 0}
+.refusal .dot{width:6px;height:6px;border-radius:50%;background:var(--warning);flex-shrink:0}
+
+.empty{text-align:center;padding:56px 20px}
+.empty .eicon{width:56px;height:56px;margin:0 auto 16px;border-radius:16px;display:grid;place-items:center;
+  background:var(--panel-strong);border:1px solid var(--line);color:var(--muted)}
+.empty h2{font-family:var(--font-display);font-size:20px;margin-bottom:8px}
+.empty p{color:var(--muted);font-size:13.5px;max-width:420px;margin:0 auto 18px}
+.empty .btn-row{justify-content:center}
+
+.loading{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:13.5px;padding:14px 4px}
+.spin{width:16px;height:16px;border:2px solid var(--line-strong);border-top-color:var(--accent);
+  border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ============================================================
+   SCREEN MOCKUPS (Mini-fixtures)
+   ============================================================ */
+.mock{border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;background:var(--surface-1);box-shadow:var(--shadow-2);margin-bottom:20px}
+.mock .mock-bar{display:flex;align-items:center;gap:8px;padding:11px 16px;border-bottom:1px solid var(--line);
+  background:var(--panel);font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+.mock .mock-bar .seg{display:flex;align-items:center;gap:6px}
+.mock .mock-bar .spacer{flex:1}
+.mock-body{padding:18px 18px 8px}
+
+.fixture-head{border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:14px}
+.comp{font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.teams{display:flex;align-items:center;gap:14px}
+.team{font-family:var(--font-display);font-size:22px;font-weight:700;letter-spacing:-.4px;flex:1;line-height:1.15}
+.vs{color:var(--muted);font-size:12px;font-weight:700;text-transform:uppercase}
+
+.pathline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:12.5px;margin-bottom:14px;color:var(--ink-2)}
+
+.sections .sec{padding:13px 0;border-top:1px dashed var(--line)}
+.sections .sec:first-of-type{border-top:none;padding-top:2px}
+.sec h3{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);
+  display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+.sec .cap{font-weight:600;letter-spacing:.03em;text-transform:none;color:var(--dim);font-size:10.5px;
+  border:1px solid var(--line);border-radius:99px;padding:1px 8px}
+.sec-body{color:var(--ink-2);font-size:13.5px}
+.sec-body .rowline{display:flex;align-items:center;justify-content:space-between;padding:3px 0;font-size:13px;border-bottom:1px solid var(--line-faint)}
+.sec-body .rowline:last-child{border-bottom:none}
+.sec-body .rowline b{font-variant-numeric:tabular-nums;color:var(--ink)}
+
+.confline{display:flex;align-items:center;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:14px;margin-top:8px}
+.confline b{font-size:16px;font-variant-numeric:tabular-nums;min-width:40px;color:var(--ink)}
+.confline .dim{font-size:12px}
+
+.card-foot{display:flex;align-items:center;gap:14px;margin-top:16px;flex-wrap:wrap}
+
+/* balance panel */
+.balance-panel{border:1px solid var(--line);border-radius:var(--r-md);padding:14px 16px;margin:14px 0;
+  background:var(--panel);font-size:13px}
+.balance-panel > b{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);display:block;margin-bottom:8px}
+.support-note{font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.5}
+
+/* footer */
+.sg-footer{display:flex;justify-content:space-between;gap:14px;margin:40px 0 0;padding-top:18px;
+  border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:1023px){ .sg-layout{grid-template-columns:1fr;gap:0} .sg-nav{position:static;display:flex;flex-wrap:wrap;gap:4px;margin-bottom:20px} .sg-nav a{margin-bottom:4px} .sg-nav .group{display:none} }
+@media(max-width:900px){ .teams{flex-direction:column;align-items:flex-start;gap:6px} .vs{align-self:center} .type-grid{grid-template-columns:1fr} }
+@media(max-width:600px){
+  .picker-row{flex-direction:column;align-items:stretch;gap:8px}
+  .btn-icon{width:100%;border-radius:10px;height:38px;transform:none}
+  .btn-icon:hover{transform:none}
+  .mock-body{padding:14px 14px 4px}
+  .tabs{overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ==================== TOPBAR ==================== -->
+<header class="sg-topbar">
+  <div class="sg-brand">
+    <div class="sg-logo">P</div>
+    <div class="sg-wordmark">Pitch Rating<span class="ver">Design System v1.0</span></div>
+  </div>
+  <div class="sg-tools">
+    <div class="status"><span class="status-dot green"></span><span class="dim" style="font-size:12.5px">All leagues have data</span></div>
+    <button class="btn btn-ghost btn-small" onclick="toggleTheme()" title="Toggle light/dark">◐ Theme</button>
+  </div>
+</header>
+
+<div class="sg-shell">
+  <div class="sg-layout">
+    <!-- ==================== NAV ==================== -->
+    <nav class="sg-nav" id="nav">
+      <div class="group">Foundations</div>
+      <a href="#principles" class="on">Principles &amp; compliance</a>
+      <a href="#color">Color</a>
+      <a href="#type">Typography</a>
+      <a href="#space">Spacing &amp; radius</a>
+      <a href="#elevation">Elevation &amp; shadow</a>
+      <a href="#icons">Icons</a>
+      <div class="group">Components</div>
+      <a href="#buttons">Buttons</a>
+      <a href="#inputs">Inputs &amp; selects</a>
+      <a href="#tabs">Tabs</a>
+      <a href="#pills">Pills, badges, chips</a>
+      <a href="#cards">Cards</a>
+      <a href="#tables">Tables</a>
+      <a href="#dataviz">Probability &amp; bars</a>
+      <a href="#alerts">Alerts &amp; provenance</a>
+      <a href="#states">Empty, loading, error</a>
+      <div class="group">Screens</div>
+      <a href="#screen-match">Match view</a>
+      <a href="#screen-nocall">NO CALL view</a>
+      <a href="#screen-data">Data view</a>
+      <a href="#screen-cal">Calibration view</a>
+      <a href="#screen-settle">Log &amp; Settlement</a>
+      <a href="#screen-int">Integrity view</a>
+    </nav>
+
+    <!-- ==================== MAIN ==================== -->
+    <main class="sg-main">
+
+      <!-- ============ PRINCIPLES ============ -->
+      <section class="sg-section" id="principles">
+        <div class="sg-kicker">Foundations</div>
+        <h1 class="sg-h1">Pitch Rating Design System</h1>
+        <p class="sg-lede">A professional, cohesive interface built on the existing v3.17.0 tokens. Plain language, machine strings in small-print "technical details" only, provenance visible on every number, and an honest, unmissable "I don't know".</p>
+
+        <div class="sg-block">
+          <h4>Non-negotiable principles (from A-02, P1, P3, M3, M7)</h4>
+          <div class="alert info"><div class="aico">ℹ️</div><div><b>Plain language</b><span>Every screen speaks in human terms. "Home win probability: 55.9%" — never "AI-predicted likelihood: 0.78". Machine strings live only in small-print technical-details.</span></div></div>
+          <div class="alert info"><div class="aico">ℹ️</div><div><b>Provenance small-print</b><span>Every probability and prediction shows Source · Window · n · Calibration. Small, dashed, always visible.</span></div></div>
+          <div class="alert warn"><div class="aico">🕐</div><div><b>Honest refusal</b><span>"I don't know" is a valid, shown output. The NO CALL state is visually distinct and unmissable; the balance panel always accompanies it (M7).</span></div></div>
+          <div class="alert err"><div class="aico">✕</div><div><b>No market data</b><span>No odds, prices, spreads, lines, bookmakers, market implied probability, vig, juice, or margin in any visual element. Betting-style labels (e.g. "Double chance", "Draw no bet") are flagged for removal/relabel (see implementation spec).</span></div></div>
+        </div>
+      </section>
+
+      <!-- ============ COLOR ============ -->
+      <section class="sg-section" id="color">
+        <div class="sg-kicker">Foundations</div>
+        <h2 class="sg-h2">Color</h2>
+        <p class="sg-sub">Refined from the existing tokens — same emerald core, cleaned into one family with a semantic set. Dark and light variants specified for every role.</p>
+
+        <div class="sg-block">
+          <h4>Brand — primary (emerald)</h4>
+          <div class="swatches">
+            <div class="swatch"><div class="chip" style="background:var(--accent)"></div><div class="meta"><b>Primary / accent</b><code>--accent</code><br><code>#10b981 (dark)</code><br><code>#047857 (light)</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--accent-strong)"></div><div class="meta"><b>Accent strong</b><code>--accent-strong</code><br><code>#34d399</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--accent-deep)"></div><div class="meta"><b>Accent deep</b><code>--accent-deep</code><br><code>#047857</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--accent-tint)"></div><div class="meta"><b>Accent tint</b><code>--accent-tint</code><br>for fills / chips</div></div>
+          </div>
+        </div>
+
+        <div class="sg-block">
+          <h4>Semantic — success / warning / danger / info</h4>
+          <div class="swatches">
+            <div class="swatch"><div class="chip" style="background:var(--warning)"></div><div class="meta"><b>Warning</b><code>--warning</code><br><code>#c8a84d (dark)</code><br><code>#8a6e1f (light)</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--danger)"></div><div class="meta"><b>Danger</b><code>--danger</code><br><code>#f87171 (dark)</code><br><code>#c0392b (light)</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--info)"></div><div class="meta"><b>Info</b><code>--info</code><br><code>#7aa2f7 (dark)</code></div></div>
+          </div>
+        </div>
+
+        <div class="sg-block">
+          <h4>Outcome colors (Home / Draw / Away) — accessible in both themes</h4>
+          <div class="swatches">
+            <div class="swatch"><div class="chip" style="background:var(--home)"></div><div class="meta"><b>Home</b><code>--home</code><br>emerald family</div></div>
+            <div class="swatch"><div class="chip" style="background:var(--draw)"></div><div class="meta"><b>Draw</b><code>--draw</code><br>gold / amber family</div></div>
+            <div class="swatch"><div class="chip" style="background:var(--away)"></div><div class="meta"><b>Away</b><code>--away</code><br>coral family</div></div>
+          </div>
+        </div>
+
+        <div class="sg-block">
+          <h4>Neutrals — surfaces, lines, text (dark vs light)</h4>
+          <div class="swatches">
+            <div class="swatch"><div class="chip" style="background:var(--surface-1)"></div><div class="meta"><b>Surface 1</b><code>--surface-1</code><br><code>#0e1526 (dark)</code> / <code>#fff (light)</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--surface-2)"></div><div class="meta"><b>Surface 2</b><code>--surface-2</code><br><code>#131b33</code> / <code>#f4f6fb</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--surface-3)"></div><div class="meta"><b>Surface 3</b><code>--surface-3</code><br><code>#1a2545</code> / <code>#eef1f6</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--line-strong);height:2px;margin:31px 0"></div><div class="meta"><b>Line strong</b><code>--line-strong</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--ink)"></div><div class="meta"><b>Ink (text)</b><code>--ink</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--ink-2)"></div><div class="meta"><b>Ink 2</b><code>--ink-2</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--muted)"></div><div class="meta"><b>Muted</b><code>--muted</code></div></div>
+            <div class="swatch"><div class="chip" style="background:var(--dim)"></div><div class="meta"><b>Dim</b><code>--dim</code></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TYPOGRAPHY ============ -->
+      <section class="sg-section" id="type">
+        <div class="sg-kicker">Foundations</div>
+        <h2 class="sg-h2">Typography</h2>
+        <p class="sg-sub">Editorial serif for display (the "Athletic" voice), Inter for UI and body, monospace for the small-print numbers and technical details.</p>
+        <div class="sg-block">
+          <h4>Type scale</h4>
+          <div class="type-grid">
+            <div class="type-card"><span class="t-name">Display — verdict headline</span><div class="t-display">Home win</div><span class="note">Tiempos Headline · 34px · -2% · 700 · --font-display</span></div>
+            <div class="type-card"><span class="t-name">H1 — screen title</span><div class="t-h1">Match view</div><span class="note">Tiempos · 24px · -1% · 700</span></div>
+            <div class="type-card"><span class="t-name">H2 — card title</span><div class="t-h2">Probability split</div><span class="note">Tiempos · 20px · 700</span></div>
+            <div class="type-card"><span class="t-name">H3 — section heading</span><div class="t-h3">Settlement rules</div><span class="note">Inter · 15px · 700</span></div>
+            <div class="type-card"><span class="t-name">Body</span><div class="t-body">Draw is a loss for a home-win call — never a push.</div><span class="note">Inter · 15px · 1.55</span></div>
+            <div class="type-card"><span class="t-name">Small</span><div class="t-small">Based on 254 matches, RPL 2021–2025.</div><span class="note">Inter · 13px · 1.5</span></div>
+            <div class="type-card"><span class="t-name">Caption / overline</span><div class="t-caption">Source · Window · n · Calibration</div><span class="note">Inter · 11px · uppercase · .08em · 700</span></div>
+            <div class="type-card"><span class="t-name">Mono — technical small-print</span><div class="t-mono">RSSSF · 2021–2025 · n=254 · ±1.7%</div><span class="note">SF Mono · 12px · tabular-nums</span></div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>Rules</h4>
+          <div class="alert info"><div class="aico">ℹ️</div><div><b>Numbers are provable</b><span>All figures use tabular-nums (`font-variant-numeric: tabular-nums`) so columns align and digits never jump.</span></div></div>
+        </div>
+      </section>
+
+      <!-- ============ SPACING ============ -->
+      <section class="sg-section" id="space">
+        <div class="sg-kicker">Foundations</div>
+        <h2 class="sg-h2">Spacing &amp; radius</h2>
+        <p class="sg-sub">A 4px base grid. Scale of 4 / 8 / 12 / 16 / 20 / 24 / 32 / 40 / 48 / 64.</p>
+        <div class="sg-block">
+          <h4>Spacing scale</h4>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div class="mono" style="font-size:12px;color:var(--muted)">--sp-1 = 4px</div><div class="mono" style="font-size:12px;color:var(--muted)">--sp-2 = 8px · --sp-3 = 12px · --sp-4 = 16px · --sp-5 = 20px</div>
+            <div class="mono" style="font-size:12px;color:var(--muted)">--sp-6 = 24px · --sp-8 = 32px · --sp-10 = 40px · --sp-12 = 48px · --sp-16 = 64px</div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>Radius</h4>
+          <div class="btn-row">
+            <div class="badge" style="border-radius:6px;padding:10px 16px">xs · 6</div>
+            <div class="badge" style="border-radius:10px;padding:10px 16px">sm · 10</div>
+            <div class="badge" style="border-radius:14px;padding:10px 16px">md · 14</div>
+            <div class="badge" style="border-radius:20px;padding:10px 16px">lg · 20</div>
+            <div class="badge" style="border-radius:99px;padding:10px 16px">pill · 999</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ELEVATION ============ -->
+      <section class="sg-section" id="elevation">
+        <div class="sg-kicker">Foundations</div>
+        <h2 class="sg-h2">Elevation &amp; shadow</h2>
+        <div class="sg-block">
+          <h4>Shadow levels</h4>
+          <div class="btn-row">
+            <div style="box-shadow:var(--shadow-1);padding:20px 28px;border-radius:12px;background:var(--panel)"><span class="dim">shadow-1 · resting</span></div>
+            <div style="box-shadow:var(--shadow-2);padding:20px 28px;border-radius:12px;background:var(--panel)"><span class="dim">shadow-2 · card</span></div>
+            <div style="box-shadow:var(--shadow-3);padding:20px 28px;border-radius:12px;background:var(--panel)"><span class="dim">shadow-3 · elevated / toast</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ICONS ============ -->
+      <section class="sg-section" id="icons">
+        <div class="sg-kicker">Foundations</div>
+        <h2 class="sg-h2">Icons</h2>
+        <p class="sg-sub">Replace emoji (`🟢🟡🚫💾📄`) with a consistent 16px SVG sprite, colored by `currentColor`. This gives uniform weight, crisp rendering, and theme-following colors.</p>
+        <div class="sg-block">
+          <h4>Status &amp; action set</h4>
+          <div class="btn-row">
+            <span class="pill pill-accent"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg> Green · has data</span>
+            <span class="pill pill-warn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5"/><circle cx="12" cy="16.5" r=".8" fill="currentColor"/></svg> Amber · partial</span>
+            <span class="pill pill-muted"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg> Muted / no data</span>
+            <span class="pill pill-info"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M14 8a2 2 0 10-4 0"/><path d="M3 20a5 5 0 0110 0"/><circle cx="14" cy="13" r="4"/></svg> Snapshot</span>
+          </div>
+          <p class="dim" style="font-size:12px;margin-top:10px">All icons inherit color via `stroke="currentColor"` so they adapt to pill/alert context automatically. Spec: 16px grid, 1.75–2px stroke, rounded caps.</p>
+        </div>
+      </section>
+
+      <!-- ============ BUTTONS ============ -->
+      <section class="sg-section" id="buttons">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Buttons</h2>
+        <p class="sg-sub">Default, hover, focus (accent ring), active (1px press), disabled (dimmed).</p>
+        <div class="sg-block">
+          <h4>Variants</h4>
+          <div class="sg-canvas">
+            <div class="btn-row">
+              <button class="btn btn-primary">Save this row</button>
+              <button class="btn">Run masked replay</button>
+              <button class="btn btn-ghost">◐ Theme</button>
+              <button class="btn btn-danger">Clear country</button>
+              <button class="btn btn-small">Restore</button>
+              <button class="btn btn-icon" title="Swap home/away">⇅</button>
+            </div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>States</h4>
+          <div class="sg-canvas">
+            <div class="btn-row">
+              <button class="btn btn-primary">Default</button>
+              <button class="btn btn-primary" disabled>Disabled</button>
+              <button class="btn">Default</button>
+              <button class="btn" disabled>Disabled</button>
+              <button class="btn btn-danger">Danger</button>
+              <button class="btn btn-danger" disabled>Danger · disabled</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ INPUTS ============ -->
+      <section class="sg-section" id="inputs">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Inputs, selects, search</h2>
+        <p class="sg-sub">Focus = accent border + soft tint ring. Error = danger border + tint ring + inline message. Read-only = dashed border.</p>
+        <div class="sg-block">
+          <h4>Search + league filter (picker) — v3.17 abreast layout</h4>
+          <div class="sg-canvas">
+            <div class="picker-row">
+              <label class="fld"><span class="lbl">Search</span><input class="field" type="text" placeholder="Search teams — try “Krasnodar”…"></label>
+              <label class="fld"><span class="lbl">Filter by league (optional)</span><select class="field"><option>All leagues</option><option>Russian Premier League</option><option>Czech Liga</option></select></label>
+            </div>
+            <div class="picker-row">
+              <label class="fld"><span class="lbl">Home</span><select class="field"><option>FC Krasnodar</option></select></label>
+              <button class="btn btn-icon" title="Swap home/away">⇅</button>
+              <label class="fld"><span class="lbl">Away</span><select class="field"><option>Zenit St Petersburg</option></select></label>
+            </div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>Field states</h4>
+          <div class="sg-canvas">
+            <div class="picker-row">
+              <label class="fld"><span class="lbl">Default</span><input class="field" placeholder="e.g. 2" value="2"></label>
+              <label class="fld"><span class="lbl">Focus</span><input class="field" style="border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-tint)" value="2"></label>
+              <label class="fld"><span class="lbl">Error</span><input class="field err" value="x"><div class="field-err">Enter a whole number 0–99.</div></label>
+              <label class="fld"><span class="lbl">Disabled</span><input class="field" disabled value="—"></label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TABS ============ -->
+      <section class="sg-section" id="tabs">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Tabs</h2>
+        <div class="sg-block">
+          <div class="sg-canvas">
+            <div class="tabs">
+              <button class="tab on">Match</button>
+              <button class="tab">Data</button>
+              <button class="tab">Calibration</button>
+              <button class="tab">Log &amp; Settlement</button>
+              <button class="tab">Integrity &amp; Snapshots</button>
+            </div>
+            <p class="dim" style="font-size:12px;margin-top:12px">Active tab: accent underline (2px) + accent text. Secondary console tabs reuse the same pattern with the badge-dot for counts.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PILLS ============ -->
+      <section class="sg-section" id="pills">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Pills, badges, chips</h2>
+        <div class="sg-block">
+          <h4>Tier / consensus / capability labels</h4>
+          <div class="sg-canvas">
+            <div class="btn-row">
+              <span class="pill pill-accent">A+ Fortress</span>
+              <span class="pill pill-accent">A Strong</span>
+              <span class="pill">B Lean</span>
+              <span class="pill">C Marginal</span>
+              <span class="pill pill-warn">D Coin-flip</span>
+              <span class="pill pill-danger">E Avoid</span>
+              <span class="pill pill-muted">NO CALL</span>
+              <span class="pill pill-info">Rated model</span>
+              <span class="pill">Match history</span>
+            </div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>Badges &amp; coverage chips</h4>
+          <div class="sg-canvas">
+            <div class="btn-row">
+              <span class="badge">v3.17.0</span>
+              <span class="badge badge-emerald">● has data</span>
+              <span class="badge badge-gold">● partial</span>
+              <span class="chip">🟢 Russian Premier League</span>
+              <span class="chip">🟡 Czech Liga</span>
+            </div>
+            <p class="dim" style="font-size:12px;margin-top:12px">Note: coverage chips keep a status glyph; in the final build these glyphs are the SVG status icons (not emoji).</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CARDS ============ -->
+      <section class="sg-section" id="cards">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Cards</h2>
+        <div class="sg-block">
+          <div class="sg-canvas">
+            <div class="card">
+              <div class="card-title">Fixture</div>
+              <div class="card-sub">Sticky picker card on desktop; static on mobile.</div>
+              <div class="chip">🟢 Russian Premier League</div>
+              <div class="chip">🟡 Czech Liga</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TABLES ============ -->
+      <section class="sg-section" id="tables">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Tables</h2>
+        <p class="sg-sub">Ladder table (Calibration) and saved-rows list use the shared table styles. Right-align numbers, tabular-nums, hover row, highlighted full row.</p>
+        <div class="sg-block">
+          <div class="sg-canvas">
+            <div class="tbl-wrap"><table class="tbl">
+              <thead><tr><th>Step</th><th class="num">Brier 1X2</th><th class="num">Log loss</th><th class="num">n</th><th class="num">Direction</th></tr></thead>
+              <tbody>
+                <tr><td>Last game</td><td class="num">0.641</td><td class="num">0.692</td><td class="num">1</td><td class="num">+</td></tr>
+                <tr><td>Last 2</td><td class="num">0.589</td><td class="num">0.647</td><td class="num">2</td><td class="num">+</td></tr>
+                <tr><td>Expanding · 10</td><td class="num">0.603</td><td class="num">0.661</td><td class="num">10</td><td class="num">+</td></tr>
+                <tr class="full"><td>Full season</td><td class="num">0.592</td><td class="num">0.650</td><td class="num">304</td><td class="num">+</td></tr>
+              </tbody>
+            </table></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ DATA VIZ ============ -->
+      <section class="sg-section" id="dataviz">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Probability &amp; balance bars</h2>
+        <div class="sg-block">
+          <h4>Probability split (H / D / A)</h4>
+          <div class="sg-canvas">
+            <div class="pbar">
+              <div class="bar-seg h" style="flex:559">Home 55.9%</div>
+              <div class="bar-seg d" style="flex:248">Draw 24.8%</div>
+              <div class="bar-seg a" style="flex:193">Away 19.3%</div>
+            </div>
+            <div class="pmeta">Read: A+ Fortress · 14 points</div>
+            <div class="legend">
+              <span class="sw"><span class="sq" style="background:var(--home)"></span>Home</span>
+              <span class="sw"><span class="sq" style="background:var(--draw)"></span>Draw</span>
+              <span class="sw"><span class="sq" style="background:var(--away)"></span>Away</span>
+            </div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>Balance panel (support shares — shows on NO CALL per M7)</h4>
+          <div class="sg-canvas">
+            <div class="balance-panel">
+              <b>Balance — support shares</b>
+              <div class="bal-row"><span class="k">Home</span><div class="balbar"><div class="bal-fill h" style="width:52%"></div></div><span class="v">52.0%</span></div>
+              <div class="bal-row"><span class="k">Draw</span><div class="balbar"><div class="bal-fill d" style="width:27%"></div></div><span class="v">27.0%</span></div>
+              <div class="bal-row"><span class="k">Away</span><div class="balbar"><div class="bal-fill a" style="width:21%"></div></div><span class="v">21.0%</span></div>
+              <div class="support-note">Support shares from effective 14 connections · agreement 78% — display-calibrated, not a probability.</div>
+            </div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>Confidence meter &amp; form strip</h4>
+          <div class="sg-canvas">
+            <div class="confline">
+              <span class="pill pill-accent">A+ Fortress</span>
+              <div class="meter"><div class="meter-fill" style="width:82%"></div></div><b>82</b>
+              <span class="dim">RSSSF · 2021–2025 · n=254 · ±1.7%</span>
+            </div>
+            <div class="btn-row" style="margin-top:18px;font-size:13px">
+              <span class="dim" style="font-weight:600">Home</span>
+              <span class="frm w">W</span><span class="frm w">W</span><span class="frm d">D</span><span class="frm w">W</span><span class="frm l">L</span>
+              <span class="dim">3W 1D 1L</span>
+              <span class="stars">★★★★<span class="off">☆</span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ALERTS & PROVENANCE ============ -->
+      <section class="sg-section" id="alerts">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Alerts, provenance &amp; toast</h2>
+        <div class="sg-block">
+          <h4>Alerts</h4>
+          <div class="sg-canvas">
+            <div class="alert info"><div class="aico">ℹ️</div><div><b>Info</b><span>Neutral guidance.</span></div></div>
+            <div class="alert ok"><div class="aico">✓</div><div><b>Success</b><span>Masked replay passed on held-out data.</span></div></div>
+            <div class="alert warn"><div class="aico">!</div><div><b>Warning</b><span>Some leagues are still awaiting data.</span></div></div>
+            <div class="alert err"><div class="aico">✕</div><div><b>Error</b><span>This venue is not on the verified-venue list for this league — hard block.</span></div></div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>Provenance — technical small-print (M3)</h4>
+          <div class="sg-canvas">
+            <div class="provenance">
+              <b>Technical details</b>
+              <div class="row"><span>Source</span><span class="mono">RSSSF</span></div>
+              <div class="row"><span>Data window</span><span class="mono">2021–2025</span></div>
+              <div class="row"><span>Sample size</span><span class="mono">n=254</span></div>
+              <div class="row"><span>Calibration</span><span class="mono">±1.7%</span></div>
+              <div class="row"><span>Read</span><span class="mono">decided on underlying match history</span></div>
+            </div>
+            <p class="dim" style="font-size:12px;margin-top:10px">This exact component is shown on every probability/prediction. It is small, dashed, and never hidden.</p>
+          </div>
+        </div>
+        <div class="sg-block">
+          <h4>Toast</h4>
+          <div class="sg-canvas" style="position:relative;min-height:120px">
+            <div class="toast" style="position:static;transform:none"><span class="spin" style="width:14px;height:14px"></span>Running masked replay…</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ STATES ============ -->
+      <section class="sg-section" id="states">
+        <div class="sg-kicker">Components</div>
+        <h2 class="sg-h2">Empty, loading, error states</h2>
+        <div class="sg-block">
+          <div class="sg-canvas">
+            <div class="empty">
+              <div class="eicon">◇</div>
+              <h2>Select a fixture</h2>
+              <p>Choose a home and away team to see the live view.</p>
+              <div class="btn-row"><button class="btn btn-primary">Pick teams</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <div class="sg-canvas">
+            <div class="loading"><span class="spin"></span>Computing from the data you have loaded…</div>
+          </div>
+        </div>
+        <div class="sg-block">
+          <div class="sg-canvas">
+            <div class="alert err"><div class="aico">✕</div><div><b>Unable to compute</b><span>The file could not be read — check it is a valid Pitch Rating export.</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SCREEN: MATCH ============ -->
+      <section class="sg-section" id="screen-match">
+        <div class="sg-kicker">Screens</div>
+        <h2 class="sg-h2">Match view — verdict card</h2>
+        <p class="sg-sub">Layout: fixture head → evidence path line → provenance small-print → probability split → tier/consensus/stars/zone/form sections → balance → confidence line → save. Provenance visible, plain language throughout.</p>
+        <div class="sg-block">
+          <div class="mock">
+            <div class="mock-bar"><span class="seg">● Verdict card</span><span class="spacer"></span><span class="seg">Rated model</span></div>
+            <div class="mock-body">
+              <div class="fixture-head">
+                <div class="comp">Russian Premier League</div>
+                <div class="teams"><div class="team">FC Krasnodar</div><div class="vs">vs</div><div class="team">Zenit St Petersburg</div></div>
+              </div>
+              <div class="pathline"><span class="pill pill-info">Rated model</span><span class="dim">Evidence: head-to-head · common opponents · level-3</span></div>
+              <div class="provenance"><b>Technical details</b><div class="row"><span>Source · Window · n · Calibration</span><span class="mono">RSSSF · 2021–2025 · n=254 · ±1.7%</span></div></div>
+              <div class="sections">
+                <div class="sec"><h3>Probability split<span class="cap">Rated model</span></h3><div class="sec-body">
+                  <div class="pbar"><div class="bar-seg h" style="flex:559">Home 55.9%</div><div class="bar-seg d" style="flex:248">Draw 24.8%</div><div class="bar-seg a" style="flex:193">Away 19.3%</div></div>
+                  <div class="pmeta">Read: A+ Fortress · 14 points</div>
+                </div></div>
+                <div class="sec"><h3>Team strength<span class="cap">Rated model</span></h3><div class="sec-body">
+                  <div class="rowline"><span>FC Krasnodar</span><span class="stars">★★★★<span class="off">☆</span></span></div>
+                  <div class="rowline"><span>Zenit St Petersburg</span><span class="stars">★★★★★</span></div>
+                </div></div>
+                <div class="sec"><h3>Recent form<span class="cap">Match history</span></h3><div class="sec-body">
+                  <div class="rowline"><span>FC Krasnodar</span><span><span class="frm w">W</span><span class="frm w">W</span><span class="frm d">D</span><span class="frm l">L</span> · 3W 1D 1L</span></div>
+                  <div class="rowline"><span>Zenit St Petersburg</span><span><span class="frm w">W</span><span class="frm l">L</span><span class="frm w">W</span><span class="frm d">D</span> · 3W 1D 1L</span></div>
+                </div></div>
+                <div class="sec"><h3>Evidence paths<span class="cap">Match history</span></h3><div class="sec-body">
+                  <div class="rowline"><span>Head-to-head</span><b>52% · 27% · 21%</b></div>
+                  <div class="rowline"><span>Common opponents</span><b>58% · 24% · 18%</b></div>
+                  <div class="rowline"><span>Level-3 (opponents' opponents)</span><b>55% · 25% · 20%</b></div>
+                </div></div>
+              </div>
+              <div class="balance-panel"><b>Balance — support shares</b>
+                <div class="bal-row"><span class="k">Home</span><div class="balbar"><div class="bal-fill h" style="width:52%"></div></div><span class="v">52.0%</span></div>
+                <div class="bal-row"><span class="k">Draw</span><div class="balbar"><div class="bal-fill d" style="width:27%"></div></div><span class="v">27.0%</span></div>
+                <div class="bal-row"><span class="k">Away</span><div class="balbar"><div class="bal-fill a" style="width:21%"></div></div><span class="v">21.0%</span></div>
+                <div class="support-note">Support shares from effective 14 connections · agreement 78% — display-calibrated, not a probability.</div>
+              </div>
+              <div class="confline"><span class="pill pill-accent">A+ Fortress</span><div class="meter"><div class="meter-fill" style="width:82%"></div></div><b>82</b><span class="dim">RSSSF · 2021–2025 · n=254 · ±1.7%</span></div>
+              <div class="card-foot"><button class="btn btn-primary">Save this row</button><span class="dim" style="font-size:12px">Saved rows are final for settlement; live numbers may move.</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SCREEN: NO CALL ============ -->
+      <section class="sg-section" id="screen-nocall">
+        <div class="sg-kicker">Screens</div>
+        <h2 class="sg-h2">NO CALL view — honest refusal (P3 + M7)</h2>
+        <p class="sg-sub">Distinct, unmissable. Refusal reasons are readable chips, not tiny dim text. The balance panel (support shares) always shows below (M7).</p>
+        <div class="sg-block">
+          <div class="mock">
+            <div class="mock-bar"><span class="seg">● Verdict card</span><span class="spacer"></span><span class="seg">No view</span></div>
+            <div class="mock-body">
+              <div class="fixture-head">
+                <div class="comp">Cross competition</div>
+                <div class="teams"><div class="team">FC Dynamo Moscow</div><div class="vs">vs</div><div class="team">PFC CSKA Moscow</div></div>
+              </div>
+              <div class="nocall">
+                <div class="nicon">🚫</div>
+                <h2>No view yet</h2>
+                <p>We don't have enough shared match history to give a view. A number here would be a fabrication — so we don't show one.</p>
+                <div style="margin-top:12px">
+                  <span class="refusal"><span class="dot"></span>No shared matches in the window</span>
+                  <span class="refusal"><span class="dot"></span>Below the minimum sample for a call</span>
+                </div>
+              </div>
+              <div class="balance-panel"><b>Balance — support shares (honest no-view state)</b>
+                <div class="bal-row"><span class="k">Home form</span><div class="balbar"><div class="bal-fill h" style="width:40%"></div></div><span class="v">2W 1D 1L (58.3%)</span></div>
+                <div class="bal-row"><span class="k">Draw</span><div class="balbar"><div class="bal-fill d" style="width:28%"></div></div><span class="v">28.0%</span></div>
+                <div class="bal-row"><span class="k">Away form</span><div class="balbar"><div class="bal-fill a" style="width:32%"></div></div><span class="v">1W 2D 1L (41.7%)</span></div>
+                <div class="support-note">No shared matches — a split would be fabrication. Support shares shown from standalone form only.</div>
+              </div>
+              <div class="confline"><span class="pill pill-muted">NO CALL</span><span class="dim">no strength — no data</span><span class="dim">· no shared matches in window</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SCREEN: DATA ============ -->
+      <section class="sg-section" id="screen-data">
+        <div class="sg-kicker">Screens</div>
+        <h2 class="sg-h2">Data view</h2>
+        <p class="sg-sub">Console tabs: Files / Coverage / Requests / Country packs. File drop zone, coverage chips, scope preview, purge confirmation (backup-gated).</p>
+        <div class="sg-block">
+          <div class="mock">
+            <div class="mock-bar"><span class="seg">Data</span><span class="spacer"></span><span class="seg">Files</span></div>
+            <div class="mock-body">
+              <div class="tabs" style="margin-bottom:16px">
+                <button class="tab on">Files</button><button class="tab">Coverage</button><button class="tab">Requests</button><button class="tab">Country packs</button>
+              </div>
+              <div style="border:2px dashed var(--line-strong);border-radius:var(--r-md);padding:26px;text-align:center;color:var(--muted);font-size:13.5px;margin-bottom:14px">
+                Drop a Pitch Rating file here, or <span style="color:var(--accent);font-weight:600">browse</span>. Nothing enters on trust — it is validated at the ingest gate.
+              </div>
+              <div class="alert ok"><div class="aico">✓</div><div><b>File accepted</b><span>rpl-2021-2026.pack · 1,900 rows · validated · no rejections.</span></div></div>
+              <div class="confline" style="border:none;padding:6px 0 0"><span class="pill pill-accent">All leagues have data</span><span class="dim">3 of 3 leagues loaded</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SCREEN: CALIBRATION ============ -->
+      <section class="sg-section" id="screen-cal">
+        <div class="sg-kicker">Screens</div>
+        <h2 class="sg-h2">Calibration view</h2>
+        <p class="sg-sub">Test-run ladder (B0): masked replay, expanding holdout, Brier + log loss + direction + MDE. Every run stores a numbers artifact — that artifact is the approval record.</p>
+        <div class="sg-block">
+          <div class="mock">
+            <div class="mock-bar"><span class="seg">Calibration</span><span class="spacer"></span><span class="seg">Approval by test run</span></div>
+            <div class="mock-body">
+              <div class="alert info"><div class="aico">ℹ️</div><div><b>How this works</b><span>Later information is hidden, the model predicts, then we compare. Artifacts are replaced only when a regeneration wins on held-out data.</span></div></div>
+              <div class="btn-row" style="margin-bottom:16px">
+                <button class="btn btn-primary">Run masked replay</button>
+                <button class="btn">Run test-run ladder</button>
+                <button class="btn btn-ghost">Download ladder artifact (JSON)</button>
+              </div>
+              <div class="tbl-wrap"><table class="tbl">
+                <thead><tr><th>Step</th><th class="num">Brier 1X2</th><th class="num">Log loss</th><th class="num">n</th><th class="num">Direction</th></tr></thead>
+                <tbody>
+                  <tr><td>Last game</td><td class="num">0.641</td><td class="num">0.692</td><td class="num">1</td><td class="num">+</td></tr>
+                  <tr><td>Last 2</td><td class="num">0.589</td><td class="num">0.647</td><td class="num">2</td><td class="num">+</td></tr>
+                  <tr class="full"><td>Full season</td><td class="num">0.592</td><td class="num">0.650</td><td class="num">304</td><td class="num">+</td></tr>
+                </tbody>
+              </table></div>
+              <div class="alert ok" style="margin-top:14px"><div class="aico">✓</div><div><b>Passed parity self-check</b><span>Artifact matches pinned 2026-08-05 baseline.</span></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SCREEN: SETTLEMENT ============ -->
+      <section class="sg-section" id="screen-settle">
+        <div class="sg-kicker">Screens</div>
+        <h2 class="sg-h2">Log &amp; Settlement view</h2>
+        <p class="sg-sub">Enter the actual 90-min score. Draw = loss for a home-win call — never a push (I5). Venue hard-block with official-list confirmation.</p>
+        <div class="sg-block">
+          <div class="mock">
+            <div class="mock-bar"><span class="seg">Log &amp; Settlement</span><span class="spacer"></span><span class="seg">I5 draw = loss</span></div>
+            <div class="mock-body">
+              <div class="alert warn"><div class="aico">!</div><div><b>Settlement rule</b><span>Draw is a loss for a home-win call — never a push, never excluded.</span></div></div>
+              <div class="settlement-inputs" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px">
+                <span class="team" style="font-size:15px">FC Krasnodar</span>
+                <input class="field" style="width:60px;text-align:center" value="2">
+                <span class="dim">:</span>
+                <input class="field" style="width:60px;text-align:center" value="1">
+                <span class="team" style="font-size:15px">Zenit St Petersburg</span>
+                <button class="btn btn-primary btn-small">Save result</button>
+              </div>
+              <div class="tbl-wrap"><table class="tbl">
+                <thead><tr><th>Fixture</th><th>Date</th><th class="num">Home</th><th class="num">Away</th><th>Outcome</th></tr></thead>
+                <tbody>
+                  <tr><td>Krasnodar v Zenit</td><td>2026-08-01</td><td class="num">2</td><td class="num">1</td><td><span class="pill pill-accent">Home win</span></td></tr>
+                  <tr><td>CSKA v Dynamo</td><td>2026-07-25</td><td class="num">1</td><td class="num">1</td><td><span class="pill pill-warn">Draw · loss for home</span></td></tr>
+                </tbody>
+              </table></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SCREEN: INTEGRITY ============ -->
+      <section class="sg-section" id="screen-int">
+        <div class="sg-kicker">Screens</div>
+        <h2 class="sg-h2">Integrity &amp; Snapshots view</h2>
+        <p class="sg-sub">Outcomes-only integrity screen (M10) — Brier shock, rating jumps, venue ghosting, score extremes. Muted rows kept visible, excluded from calculations, never deleted. Snapshots before every data commit.</p>
+        <div class="sg-block">
+          <div class="mock">
+            <div class="mock-bar"><span class="seg">Integrity &amp; Snapshots</span><span class="spacer"></span><span class="seg">Outcomes-only · no market data</span></div>
+            <div class="mock-body">
+              <div class="alert err"><div class="aico">⚠</div><div><b>Integrity flag — Brier shock</b><span>Russian Premier League, last 30 settled calls: Brier 0.72 vs historical 0.58 — the own model is struggling lately. 10 recent matches flagged for manual review — not auto-muted.</span></div></div>
+              <div class="alert info"><div class="aico">ℹ️</div><div><b>Muted rows</b><span>Suspicious games are kept visible and excluded from every calculation — never deleted. Restore reverses a mute.</span></div></div>
+              <div class="confline" style="border:none;padding:6px 0 0"><span class="pill pill-info">Snapshots</span><span class="dim">taken silently before every data commit</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ RESPONSIVE ============ -->
+      <section class="sg-section" id="responsive">
+        <div class="sg-kicker">System</div>
+        <h2 class="sg-h2">Responsive breakpoints</h2>
+        <div class="sg-block">
+          <div class="sg-canvas">
+            <table class="tbl" style="min-width:0">
+              <thead><tr><th>Range</th><th>Layout</th><th>Key behaviour</th></tr></thead>
+              <tbody>
+                <tr><td><b>Desktop ≥1024</b></td><td>Side-by-side picker + stage</td><td>Picker card sticky; max-width 1240px; two-column</td></tr>
+                <tr><td><b>Tablet 768–1023</b></td><td>Single column</td><td>Main grid collapses to 1 column; picker becomes static</td></tr>
+                <tr><td><b>Mobile ≤767</b></td><td>Single column, stacked</td><td>Search+filter stack, home+away stack, swap becomes full-width; tabs horizontally scrollable; touch targets ≥40px</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ A11Y ============ -->
+      <section class="sg-section" id="a11y">
+        <div class="sg-kicker">System</div>
+        <h2 class="sg-h2">Accessibility &amp; motion</h2>
+        <div class="sg-block">
+          <div class="sg-canvas">
+            <ul style="font-size:13.5px;color:var(--ink-2);line-height:1.8;padding-left:20px">
+              <li><b>Focus visible</b> — 2px accent outline + 2px offset on every interactive element.</li>
+              <li><b>Color contrast</b> — semantic and outcome colors meet AA on their surfaces in both themes.</li>
+              <li><b>Motion</b> — 150–300ms transitions only (bars/metrers/theme fade). Respect <span class="mono">prefers-reduced-motion</span>.</li>
+              <li><b>Touch</b> — interactive targets ≥40×40px on mobile.</li>
+              <li><b>Scales with font</b> — rem/em units; layouts survive 200% zoom without horizontal scroll (except deliberate table scroll).</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="sg-footer">
+        <span>Pitch Rating · Design System v1.0</span>
+        <span class="dim">Every number on screen is computed from the data you have loaded. Plain language. Provenance visible. Honest refusal.</span>
+      </footer>
+    </main>
+  </div>
+</div>
+
+<script>
+function toggleTheme(){
+  var h=document.documentElement;
+  h.setAttribute('data-theme', h.getAttribute('data-theme')==='dark'?'light':'dark');
+}
+// nav active state
+var links=document.querySelectorAll('#nav a');
+var secs=document.querySelectorAll('.sg-section');
+window.addEventListener('scroll',function(){
+  var pos=window.scrollY+120;
+  var current=secs[0].id;
+  secs.forEach(function(s){ if(s.offsetTop<=pos) current=s.id; });
+  links.forEach(function(a){ a.classList.toggle('on', a.getAttribute('href')==='#'+current); });
+},{passive:true});
+</script>
+</body>
+</html>

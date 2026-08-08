@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pitch Rating — Design Handoff v1.1</title>
+  <style>
+    :root { --bg:#0e1526; --panel:#131b33; --line:rgba(255,255,255,.12); --ink:#f0f2f8; --muted:#b8bdd0; --accent:#10b981; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; background:linear-gradient(180deg,#0e1526,#131b33); color:var(--ink); font:15px/1.55 Inter,system-ui,sans-serif; }
+    main { width:min(800px,calc(100% - 40px)); margin:0 auto; padding:64px 0; }
+    .mark { display:grid; place-items:center; width:42px; height:42px; border-radius:12px; background:linear-gradient(135deg,#10b981,#047857); font-weight:800; margin-bottom:18px; }
+    h1 { margin:0 0 8px; font:700 32px/1.1 Georgia,serif; }
+    p { color:var(--muted); max-width:690px; }
+    .notice { margin:24px 0; border:1px solid rgba(16,185,129,.42); background:rgba(16,185,129,.10); border-radius:12px; padding:14px 16px; color:var(--ink); }
+    .grid { display:grid; gap:12px; margin-top:28px; }
+    a { display:block; border:1px solid var(--line); border-radius:14px; padding:17px 18px; color:var(--ink); text-decoration:none; background:rgba(255,255,255,.03); }
+    a:hover { border-color:var(--accent); background:rgba(255,255,255,.06); }
+    b { display:block; margin-bottom:3px; }
+    span, code { color:var(--muted); font-size:13px; }
+    code { font-family:ui-monospace,SFMono-Regular,monospace; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark">P</div>
+    <h1>Pitch Rating — Design Handoff v1.1</h1>
+    <p>Visible designer package for the approved engine. The design is a visual specification; it does not replace engine logic or data safeguards.</p>
+    <div class="notice"><b>Correct implementation baseline</b>Builder must use <code>builder/app-v3.17.0-picker.html</code> with MD5 <code>e6687ad417fd1d3229a000c12f73f1a3</code>, not the earlier designer-inspected file.</div>
+    <div class="grid">
+      <a href="DESIGN-SYSTEM-v1.0.html"><b>Interactive Design System v1.0</b><span>Tokens, components, states, responsive mockups, dark and light themes.</span></a>
+      <a href="SCREEN-DESIGNS-v1.0.md"><b>Screen Designs v1.0</b><span>Match, NO CALL, Data, Calibration, Settlement, Integrity, and empty/loading/error states.</span></a>
+      <a href="IMPLEMENTATION-SPEC-v1.0.md"><b>Implementation Spec v1.0</b><span>CSS and minimal UI behavior guidance for the builder.</span></a>
+      <a href="DESIGN-SYSTEM-v1.0.md"><b>Text Design System v1.0</b><span>Palette, type, spacing, components, and accessibility reference.</span></a>
+      <a href="WORKORDER-UI-DESIGN-v1.0-SIGNED.md"><b>Signed Designer Summary</b><span>Scope confirmation and design audit findings.</span></a>
+      <a href="DESIGN-HANDOFF-REBASE-v1.1.md"><b>Design Handoff Rebase v1.1</b><span>Current engine pin, scope boundaries, and P1 display correction.</span></a>
+      <a href="../builder/WORKORDER-BUILDER-UI-IMPLEMENTATION-v1.0.md"><b>Builder UI Implementation Workorder v1.0</b><span>Next implementation handoff. UI only; engine must remain unchanged.</span></a>
+    </div>
+  </main>
+</body>
+</html>
